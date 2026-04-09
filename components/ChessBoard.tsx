@@ -2,7 +2,6 @@
 
 import React, { useState, useCallback, useMemo } from 'react';
 import { Chess } from 'chess.js';
-import { Chessboard } from 'react-chessboard';
 import { THEME_COLORS } from '@/lib/constants';
 
 interface ChessBoardProps {
@@ -12,6 +11,14 @@ interface ChessBoardProps {
   lastMove?: { from: string; to: string };
   orientation?: 'white' | 'black';
 }
+
+const PIECE_UNICODE: Record<string, string> = {
+  'K': '♔', 'Q': '♕', 'R': '♖', 'B': '♗', 'N': '♘', 'P': '♙',
+  'k': '♚', 'q': '♛', 'r': '♜', 'b': '♝', 'n': '♞', 'p': '♟',
+};
+
+const FILES = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
+const RANKS = ['8', '7', '6', '5', '4', '3', '2', '1'];
 
 export function ChessBoard({
   fen,
@@ -37,41 +44,6 @@ export function ChessBoard({
     
     return moves;
   }, [chess, fen]);
-
-  // Custom square styles for highlighting
-  const customSquareStyles = useMemo(() => {
-    const styles: Record<string, React.CSSProperties> = {};
-
-    // Highlight last move
-    if (lastMove) {
-      styles[lastMove.from] = {
-        backgroundColor: THEME_COLORS.highlight,
-      };
-      styles[lastMove.to] = {
-        backgroundColor: THEME_COLORS.highlight,
-      };
-    }
-
-    // Highlight selected square
-    if (selectedSquare) {
-      styles[selectedSquare] = {
-        backgroundColor: THEME_COLORS.selectedSquare,
-      };
-
-      // Highlight legal moves from selected square
-      if (legalMoves[selectedSquare]) {
-        legalMoves[selectedSquare].forEach((square) => {
-          styles[square] = {
-            backgroundColor: THEME_COLORS.selectedSquare,
-            borderRadius: '50%',
-            boxShadow: `inset 0 0 0 3px ${THEME_COLORS.accentSecondary}`,
-          };
-        });
-      }
-    }
-
-    return styles;
-  }, [selectedSquare, lastMove, legalMoves]);
 
   const onSquareClick = useCallback(
     (square: string) => {
@@ -108,7 +80,7 @@ export function ChessBoard({
         const move = chess.move({
           from: selectedSquare,
           to: square,
-          promotion: 'q', // Default promotion to queen
+          promotion: 'q',
         });
 
         if (move) {
@@ -139,60 +111,52 @@ export function ChessBoard({
     [selectedSquare, chess, disabled, onMove]
   );
 
-  const onPieceDrop = useCallback(
-    (sourceSquare: string, targetSquare: string): boolean => {
-      if (disabled) return false;
-
-      try {
-        const move = chess.move({
-          from: sourceSquare,
-          to: targetSquare,
-          promotion: 'q',
-        });
-
-        if (move) {
-          onMove({
-            from: sourceSquare,
-            to: targetSquare,
-            promotion: move.promotion,
-          });
-          setSelectedSquare(null);
-          return true;
-        }
-        return false;
-      } catch (e) {
-        return false;
-      }
-    },
-    [chess, disabled, onMove]
-  );
+  const files = orientation === 'white' ? FILES : [...FILES].reverse();
+  const ranks = orientation === 'white' ? RANKS : [...RANKS].reverse();
 
   return (
     <div className="w-full max-w-2xl aspect-square rounded-lg overflow-hidden shadow-2xl border border-white border-opacity-10">
-      <Chessboard
-        position={fen}
-        onSquareClick={onSquareClick}
-        onPieceDrop={onPieceDrop}
-        boardOrientation={orientation}
-        customSquareStyles={customSquareStyles}
-        customBoardStyle={{
-          borderRadius: '0.5rem',
-        }}
-        arePiecesDraggable={!disabled}
-        isDraggablePiece={({ piece }) => {
-          if (disabled) return false;
-          const isWhiteToMove = chess.turn() === 'w';
-          const isPieceWhite = piece.charCodeAt(0) > 96; // lowercase = black
-          return isWhiteToMove === !isPieceWhite;
-        }}
-        customDarkSquareStyle={{
-          backgroundColor: THEME_COLORS.boardDark,
-        }}
-        customLightSquareStyle={{
-          backgroundColor: THEME_COLORS.boardLight,
-        }}
-        animationDuration={200}
-      />
+      <div className="w-full h-full grid grid-cols-8 gap-0">
+        {ranks.map((rank) =>
+          files.map((file) => {
+            const square = `${file}${rank}`;
+            const piece = chess.get(square);
+            const isLight = (FILES.indexOf(file) + RANKS.indexOf(rank)) % 2 === 0;
+            const isHighlightedMove = lastMove && (lastMove.from === square || lastMove.to === square);
+            const isSelected = selectedSquare === square;
+            const isValidTarget = selectedSquare && legalMoves[selectedSquare]?.includes(square);
+
+            let bgColor = isLight ? THEME_COLORS.boardLight : THEME_COLORS.boardDark;
+            
+            if (isHighlightedMove) {
+              bgColor = THEME_COLORS.highlight;
+            } else if (isSelected) {
+              bgColor = THEME_COLORS.selectedSquare;
+            }
+
+            return (
+              <button
+                key={square}
+                onClick={() => onSquareClick(square)}
+                disabled={disabled}
+                className="w-full h-full flex flex-col items-center justify-center text-6xl font-bold transition-all cursor-pointer hover:opacity-90 disabled:cursor-not-allowed relative"
+                style={{ backgroundColor: bgColor }}
+                aria-label={`Square ${square}`}
+              >
+                {isValidTarget && (
+                  <div
+                    className="absolute w-1/4 h-1/4 rounded-full border-2"
+                    style={{ borderColor: THEME_COLORS.accentSecondary }}
+                  />
+                )}
+                {piece && (
+                  <span className="select-none">{PIECE_UNICODE[piece.type + (piece.color === 'w' ? '' : '')]}</span>
+                )}
+              </button>
+            );
+          })
+        )}
+      </div>
     </div>
   );
 }
