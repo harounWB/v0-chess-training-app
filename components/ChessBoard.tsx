@@ -158,6 +158,7 @@ export function ChessBoard({
           })
         )}
       </div>
+      </div>
     </div>
   );
 }
