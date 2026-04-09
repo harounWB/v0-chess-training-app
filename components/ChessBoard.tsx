@@ -115,7 +115,8 @@ export function ChessBoard({
   const ranks = orientation === 'white' ? RANKS : [...RANKS].reverse();
 
   return (
-    <div className="w-full max-w-2xl aspect-square rounded-lg overflow-hidden shadow-2xl border border-white border-opacity-10">
+    <div className="flex justify-center items-center w-full">
+      <div className="w-80 aspect-square rounded-lg overflow-hidden shadow-2xl border border-white border-opacity-10">
       <div className="w-full h-full grid grid-cols-8 gap-0">
         {ranks.map((rank) =>
           files.map((file) => {
