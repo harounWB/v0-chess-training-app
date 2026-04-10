@@ -71,60 +71,72 @@ function parseMovesWithVariations(movesContent: string): { moves: Move[]; variat
   const moves: Move[] = [];
   const variations: Variation[] = [];
   
-  // Remove result indicators and extra whitespace
-  let content = movesContent
-    .replace(/\d+\./g, ' ') // Remove move numbers
-    .replace(/1-0|0-1|1\/2-1\/2|\*/g, '') // Remove result
-    .trim();
-  
   // Initialize a chess instance to validate moves
   const chess = new Chess();
   
-  // Extract moves and comments/variations
-  let moveNumber = 1;
-  let currentPosition = 0;
-  
-  while (currentPosition < content.length) {
-    content = content.substring(currentPosition).trim();
-    if (!content) break;
+  let i = 0;
+  while (i < movesContent.length) {
+    // Skip whitespace
+    while (i < movesContent.length && /\s/.test(movesContent[i])) {
+      i++;
+    }
+    if (i >= movesContent.length) break;
     
-    currentPosition = 0;
-    
-    // Handle variations (parentheses)
-    if (content.startsWith('(')) {
-      const variationContent = extractVariationContent(content);
-      if (variationContent) {
-        const variationMoves = parseMovesFromString(variationContent, chess);
-        if (variationMoves.length > 0) {
-          variations.push({ moves: variationMoves });
+    // Handle comments
+    let comment = '';
+    if (movesContent[i] === '{') {
+      const endComment = movesContent.indexOf('}', i);
+      if (endComment !== -1) {
+        comment = movesContent.substring(i + 1, endComment).trim();
+        i = endComment + 1;
+        
+        // Skip whitespace after comment
+        while (i < movesContent.length && /\s/.test(movesContent[i])) {
+          i++;
         }
-        currentPosition = content.indexOf(')') + 1;
+      }
+    }
+    
+    // Handle variations (parentheses) - skip for now
+    if (movesContent[i] === '(') {
+      let depth = 1;
+      i++;
+      while (i < movesContent.length && depth > 0) {
+        if (movesContent[i] === '(') depth++;
+        if (movesContent[i] === ')') depth--;
+        i++;
       }
       continue;
     }
     
-    // Handle comments (curly braces)
-    let comment = '';
-    if (content.startsWith('{')) {
-      const commentMatch = content.match(/\{([^}]*)\}/);
-      if (commentMatch) {
-        comment = commentMatch[1];
-        currentPosition = commentMatch[0].length;
-      }
+    // Skip move numbers (e.g., "1.", "23.", "123.")
+    while (i < movesContent.length && /\d/.test(movesContent[i])) {
+      i++;
+    }
+    if (i < movesContent.length && movesContent[i] === '.') {
+      i++;
     }
     
-    // Extract the next move
-    const moveMatch = content.substring(currentPosition).match(/^([a-h][1-8][a-h][1-8][qrbn]?|[KQRBN]?[a-h]?[1-8]?x?[a-h][1-8][+#=]?[qrbn]?|O-O(?:-O)?)/);
+    // Skip whitespace after move number
+    while (i < movesContent.length && /\s/.test(movesContent[i])) {
+      i++;
+    }
     
-    if (moveMatch) {
-      const moveString = moveMatch[1];
-      
+    // Extract the move (SAN notation)
+    let moveStr = '';
+    const moveStart = i;
+    while (i < movesContent.length && /[a-hKQRBN1-8xO\-+=#]/.test(movesContent[i])) {
+      moveStr += movesContent[i];
+      i++;
+    }
+    
+    if (moveStr) {
       try {
-        const move = chess.move(moveString, { sloppy: true });
+        const move = chess.move(moveStr, { sloppy: true });
         if (move) {
           const moveObj: Move = {
-            notation: moveString,
-            san: move.san || moveString,
+            notation: moveStr,
+            san: move.san || moveStr,
             from: move.from,
             to: move.to,
             promotion: move.promotion,
@@ -133,15 +145,10 @@ function parseMovesWithVariations(movesContent: string): { moves: Move[]; variat
           };
           
           moves.push(moveObj);
-          currentPosition += moveString.length;
-        } else {
-          currentPosition += 1;
         }
       } catch (e) {
-        currentPosition += 1;
+        // Skip invalid moves
       }
-    } else {
-      currentPosition += 1;
     }
   }
   

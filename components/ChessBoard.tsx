@@ -172,7 +172,17 @@ export function ChessBoard({
                     />
                   )}
                   {piece && (
-                    <span className="select-none" style={{ textShadow: '0 2px 4px rgba(0,0,0,0.3)' }}>
+                    <span 
+                      className="select-none font-black leading-none"
+                      style={{ 
+                        fontSize: '42px',
+                        textShadow: piece.color === 'w' 
+                          ? '0 2px 4px rgba(0,0,0,0.4), 0 0 8px rgba(255,255,255,0.3)'
+                          : '0 2px 4px rgba(0,0,0,0.6)',
+                        color: piece.color === 'w' ? '#fafafa' : '#1a1a1a',
+                        filter: 'drop-shadow(0 1px 2px rgba(0,0,0,0.2))',
+                      }}
+                    >
                       {PIECE_SYMBOLS[piece.type + (piece.color === 'w' ? '' : '')]}
                     </span>
                   )}
