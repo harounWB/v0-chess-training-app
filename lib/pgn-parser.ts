@@ -74,86 +74,44 @@ function parseMovesWithVariations(movesContent: string): { moves: Move[]; variat
   // Initialize a fresh chess instance for this game
   const chess = new Chess();
   
-  let i = 0;
-  const maxIterations = movesContent.length * 2; // Prevent infinite loops
-  let iterations = 0;
+  // Clean up the moves content - remove line breaks and extra spaces
+  let cleanContent = movesContent
+    .replace(/\r\n/g, ' ')
+    .replace(/\n/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
   
-  while (i < movesContent.length && iterations < maxIterations) {
-    iterations++;
-    
-    // Skip whitespace
-    while (i < movesContent.length && /\s/.test(movesContent[i])) {
-      i++;
-    }
-    if (i >= movesContent.length) break;
-    
-    // Handle comments
-    let comment = '';
-    if (movesContent[i] === '{') {
-      const endComment = movesContent.indexOf('}', i);
-      if (endComment !== -1) {
-        comment = movesContent.substring(i + 1, endComment).trim();
-        i = endComment + 1;
-        
-        // Skip whitespace after comment
-        while (i < movesContent.length && /\s/.test(movesContent[i])) {
-          i++;
-        }
-      } else {
-        // Malformed comment, skip the bracket
-        i++;
-      }
-      continue; // Process comment on next iteration for the actual move
-    }
-    
-    // Skip result markers (1-0, 0-1, 1/2-1/2, *)
-    if (movesContent.substring(i, i + 7) === '1/2-1/2') {
-      i += 7;
-      continue;
-    }
-    if (/^[01*\-]+\s/.test(movesContent.substring(i, i + 10))) {
-      while (i < movesContent.length && /\s/.test(movesContent[i])) {
-        i++;
-      }
-      i++;
+  // Remove result at the end
+  cleanContent = cleanContent.replace(/\s*(1-0|0-1|1\/2-1\/2|\*)\s*$/, '');
+  
+  // Remove variations (text in parentheses) for simpler parsing
+  cleanContent = cleanContent.replace(/\([^)]*\)/g, '');
+  
+  // Remove comments (text in curly braces)
+  cleanContent = cleanContent.replace(/\{[^}]*\}/g, '');
+  
+  // Remove NAGs like $1, $2, etc.
+  cleanContent = cleanContent.replace(/\$\d+/g, '');
+  
+  // Remove move numbers (e.g., "1.", "23...", "1...")
+  cleanContent = cleanContent.replace(/\d+\.+/g, '');
+  
+  // Split by whitespace to get individual moves
+  const tokens = cleanContent.split(/\s+/).filter(t => t.length > 0);
+  
+  for (const token of tokens) {
+    // Skip empty tokens or remaining result markers
+    if (!token || token === '1-0' || token === '0-1' || token === '1/2-1/2' || token === '*') {
       continue;
     }
     
-    // Handle variations (parentheses) - skip for now
-    if (movesContent[i] === '(') {
-      let depth = 1;
-      i++;
-      while (i < movesContent.length && depth > 0) {
-        if (movesContent[i] === '(') depth++;
-        if (movesContent[i] === ')') depth--;
-        i++;
-      }
+    // Skip if it looks like a move number that wasn't fully cleaned
+    if (/^\d+$/.test(token)) {
       continue;
     }
     
-    // Skip move numbers (e.g., "1.", "23.", "123.")
-    const moveNumStart = i;
-    while (i < movesContent.length && /\d/.test(movesContent[i])) {
-      i++;
-    }
-    if (i < movesContent.length && movesContent[i] === '.') {
-      i++;
-      // Skip whitespace after move number
-      while (i < movesContent.length && /\s/.test(movesContent[i])) {
-        i++;
-      }
-      continue; // Go back to top to process the actual move
-    } else {
-      // No move number found, reset
-      i = moveNumStart;
-    }
-    
-    // Extract the move (SAN notation)
-    let moveStr = '';
-    while (i < movesContent.length && /[a-hKQRBN1-8xO\-+=#]/.test(movesContent[i])) {
-      moveStr += movesContent[i];
-      i++;
-    }
+    // Clean the move string
+    const moveStr = token.trim();
     
     if (moveStr && moveStr.length > 0) {
       try {
@@ -166,19 +124,13 @@ function parseMovesWithVariations(movesContent: string): { moves: Move[]; variat
             from: move.from,
             to: move.to,
             promotion: move.promotion,
-            comment: comment || undefined,
             variations: [],
           };
           
           moves.push(moveObj);
-          comment = ''; // Reset comment after using it
-        } else {
-          // Invalid move, skip it
-          console.warn('[v0] Invalid move skipped:', moveStr);
         }
       } catch (e) {
-        // Skip invalid moves silently
-        console.warn('[v0] Move parsing error:', moveStr, e);
+        // Skip invalid moves silently - they might be annotations or other text
       }
     }
   }
