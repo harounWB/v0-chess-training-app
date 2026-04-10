@@ -7,6 +7,8 @@ import { ChessBoard } from './ChessBoard';
 import { TrainingPanel } from './TrainingPanel';
 import { MovesPanel } from './MovesPanel';
 import { GameList } from './GameList';
+import { Button } from './ui/button';
+import { ChevronLeft, ChevronRight, ChevronsLeft, ChevronsRight } from 'lucide-react';
 
 interface TrainerProps {
   games: Game[];
