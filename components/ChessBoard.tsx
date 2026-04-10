@@ -15,36 +15,144 @@ interface ChessBoardProps {
 const FILES = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
 const RANKS = ['8', '7', '6', '5', '4', '3', '2', '1'];
 
-// Piece image mapping for Chess.com Neo pieces
-const PIECE_IMAGES: Record<string, string> = {
-  'P-w': '/pieces/white-pawn.jpg',
-  'N-w': '/pieces/white-knight.jpg',
-  'B-w': '/pieces/white-bishop.jpg',
-  'R-w': '/pieces/white-rook.jpg',
-  'Q-w': '/pieces/white-queen.jpg',
-  'K-w': '/pieces/white-king.jpg',
-  'P-b': '/pieces/black-pawn.jpg',
-  'N-b': '/pieces/black-knight.jpg',
-  'B-b': '/pieces/black-bishop.jpg',
-  'R-b': '/pieces/black-rook.jpg',
-  'Q-b': '/pieces/black-queen.jpg',
-  'K-b': '/pieces/black-king.jpg',
-};
-
+// Professional Chess.com style SVG pieces
 const PieceComponent: React.FC<{ type: string; color: 'w' | 'b' }> = ({ type, color }) => {
-  const key = `${type.toUpperCase()}-${color}`;
-  const imageSrc = PIECE_IMAGES[key];
+  const pieceType = type.toUpperCase();
+  const isWhite = color === 'w';
 
-  if (!imageSrc) return null;
+  // Colors
+  const lightColor = '#f0d9b5';
+  const darkColor = '#312e2b';
+  const lightStroke = '#1a1a1a';
+  const darkStroke = '#d9d0c4';
 
-  return (
-    <img
-      src={imageSrc}
-      alt={`${color === 'w' ? 'white' : 'black'} ${type}`}
-      className="w-full h-full object-contain"
-      draggable={false}
-    />
-  );
+  if (isWhite) {
+    return (
+      <svg viewBox="0 0 100 100" className="w-full h-full">
+        <defs>
+          <linearGradient id="whitePieceGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stopColor="#fdfbf7" />
+            <stop offset="50%" stopColor="#f0d9b5" />
+            <stop offset="100%" stopColor="#e0c9a0" />
+          </linearGradient>
+          <filter id="whiteShadow">
+            <feDropShadow dx="0" dy="2" stdDeviation="2" floodOpacity="0.3" />
+          </filter>
+        </defs>
+
+        {pieceType === 'P' && (
+          <>
+            <circle cx="50" cy="25" r="10" fill="url(#whitePieceGrad)" stroke={lightStroke} strokeWidth="1" filter="url(#whiteShadow)" />
+            <path d="M 42 35 L 40 65 L 60 65 L 58 35 Z" fill="url(#whitePieceGrad)" stroke={lightStroke} strokeWidth="1" filter="url(#whiteShadow)" />
+            <ellipse cx="50" cy="68" rx="14" ry="4" fill="#d9c9b0" stroke={lightStroke} strokeWidth="1" />
+          </>
+        )}
+
+        {pieceType === 'N' && (
+          <path d="M 25 70 Q 30 50 35 40 Q 40 30 50 28 Q 60 30 65 40 Q 70 50 68 65 Q 65 75 50 80 Q 35 75 32 65 Z M 45 50 Q 48 48 52 50" fill="url(#whitePieceGrad)" stroke={lightStroke} strokeWidth="1.5" strokeLinejoin="round" filter="url(#whiteShadow)" />
+        )}
+
+        {pieceType === 'B' && (
+          <>
+            <circle cx="50" cy="20" r="7" fill="url(#whitePieceGrad)" stroke={lightStroke} strokeWidth="1" filter="url(#whiteShadow)" />
+            <path d="M 38 30 L 35 60 Q 35 72 50 78 Q 65 72 65 60 L 62 30 Z" fill="url(#whitePieceGrad)" stroke={lightStroke} strokeWidth="1" filter="url(#whiteShadow)" />
+            <circle cx="50" cy="42" r="3" fill={lightStroke} opacity="0.4" />
+          </>
+        )}
+
+        {pieceType === 'R' && (
+          <>
+            <rect x="25" y="18" width="50" height="12" fill="url(#whitePieceGrad)" stroke={lightStroke} strokeWidth="1" filter="url(#whiteShadow)" />
+            <rect x="32" y="30" width="36" height="28" fill="url(#whitePieceGrad)" stroke={lightStroke} strokeWidth="1" filter="url(#whiteShadow)" />
+            <rect x="28" y="63" width="44" height="12" fill="#d9c9b0" stroke={lightStroke} strokeWidth="1" />
+            <rect x="37" y="22" width="4" height="8" fill="url(#whitePieceGrad)" stroke={lightStroke} strokeWidth="1" />
+            <rect x="59" y="22" width="4" height="8" fill="url(#whitePieceGrad)" stroke={lightStroke} strokeWidth="1" />
+          </>
+        )}
+
+        {pieceType === 'Q' && (
+          <>
+            <circle cx="50" cy="16" r="7" fill="url(#whitePieceGrad)" stroke={lightStroke} strokeWidth="1" filter="url(#whiteShadow)" />
+            <circle cx="35" cy="23" r="5" fill="url(#whitePieceGrad)" stroke={lightStroke} strokeWidth="1" filter="url(#whiteShadow)" />
+            <circle cx="65" cy="23" r="5" fill="url(#whitePieceGrad)" stroke={lightStroke} strokeWidth="1" filter="url(#whiteShadow)" />
+            <path d="M 28 32 L 25 65 Q 25 75 50 80 Q 75 75 75 65 L 72 32 Z" fill="url(#whitePieceGrad)" stroke={lightStroke} strokeWidth="1" filter="url(#whiteShadow)" />
+          </>
+        )}
+
+        {pieceType === 'K' && (
+          <>
+            <line x1="50" y1="12" x2="50" y2="28" stroke={lightStroke} strokeWidth="2.5" filter="url(#whiteShadow)" />
+            <line x1="44" y1="22" x2="56" y2="22" stroke={lightStroke} strokeWidth="2" filter="url(#whiteShadow)" />
+            <circle cx="50" cy="16" r="2" fill={lightStroke} filter="url(#whiteShadow)" />
+            <path d="M 32 35 L 28 65 Q 28 75 50 80 Q 72 75 72 65 L 68 35 Z" fill="url(#whitePieceGrad)" stroke={lightStroke} strokeWidth="1" filter="url(#whiteShadow)" />
+          </>
+        )}
+      </svg>
+    );
+  } else {
+    return (
+      <svg viewBox="0 0 100 100" className="w-full h-full">
+        <defs>
+          <linearGradient id="blackPieceGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stopColor="#4a3c32" />
+            <stop offset="50%" stopColor="#312e2b" />
+            <stop offset="100%" stopColor="#1a1714" />
+          </linearGradient>
+          <filter id="blackShadow">
+            <feDropShadow dx="0" dy="2" stdDeviation="2" floodOpacity="0.5" />
+          </filter>
+        </defs>
+
+        {pieceType === 'P' && (
+          <>
+            <circle cx="50" cy="25" r="10" fill="url(#blackPieceGrad)" stroke={darkStroke} strokeWidth="1" filter="url(#blackShadow)" />
+            <path d="M 42 35 L 40 65 L 60 65 L 58 35 Z" fill="url(#blackPieceGrad)" stroke={darkStroke} strokeWidth="1" filter="url(#blackShadow)" />
+            <ellipse cx="50" cy="68" rx="14" ry="4" fill="#1a1714" stroke={darkStroke} strokeWidth="1" />
+          </>
+        )}
+
+        {pieceType === 'N' && (
+          <path d="M 25 70 Q 30 50 35 40 Q 40 30 50 28 Q 60 30 65 40 Q 70 50 68 65 Q 65 75 50 80 Q 35 75 32 65 Z M 45 50 Q 48 48 52 50" fill="url(#blackPieceGrad)" stroke={darkStroke} strokeWidth="1.5" strokeLinejoin="round" filter="url(#blackShadow)" />
+        )}
+
+        {pieceType === 'B' && (
+          <>
+            <circle cx="50" cy="20" r="7" fill="url(#blackPieceGrad)" stroke={darkStroke} strokeWidth="1" filter="url(#blackShadow)" />
+            <path d="M 38 30 L 35 60 Q 35 72 50 78 Q 65 72 65 60 L 62 30 Z" fill="url(#blackPieceGrad)" stroke={darkStroke} strokeWidth="1" filter="url(#blackShadow)" />
+            <circle cx="50" cy="42" r="3" fill={darkStroke} opacity="0.4" />
+          </>
+        )}
+
+        {pieceType === 'R' && (
+          <>
+            <rect x="25" y="18" width="50" height="12" fill="url(#blackPieceGrad)" stroke={darkStroke} strokeWidth="1" filter="url(#blackShadow)" />
+            <rect x="32" y="30" width="36" height="28" fill="url(#blackPieceGrad)" stroke={darkStroke} strokeWidth="1" filter="url(#blackShadow)" />
+            <rect x="28" y="63" width="44" height="12" fill="#1a1714" stroke={darkStroke} strokeWidth="1" />
+            <rect x="37" y="22" width="4" height="8" fill="url(#blackPieceGrad)" stroke={darkStroke} strokeWidth="1" />
+            <rect x="59" y="22" width="4" height="8" fill="url(#blackPieceGrad)" stroke={darkStroke} strokeWidth="1" />
+          </>
+        )}
+
+        {pieceType === 'Q' && (
+          <>
+            <circle cx="50" cy="16" r="7" fill="url(#blackPieceGrad)" stroke={darkStroke} strokeWidth="1" filter="url(#blackShadow)" />
+            <circle cx="35" cy="23" r="5" fill="url(#blackPieceGrad)" stroke={darkStroke} strokeWidth="1" filter="url(#blackShadow)" />
+            <circle cx="65" cy="23" r="5" fill="url(#blackPieceGrad)" stroke={darkStroke} strokeWidth="1" filter="url(#blackShadow)" />
+            <path d="M 28 32 L 25 65 Q 25 75 50 80 Q 75 75 75 65 L 72 32 Z" fill="url(#blackPieceGrad)" stroke={darkStroke} strokeWidth="1" filter="url(#blackShadow)" />
+          </>
+        )}
+
+        {pieceType === 'K' && (
+          <>
+            <line x1="50" y1="12" x2="50" y2="28" stroke={darkStroke} strokeWidth="2.5" filter="url(#blackShadow)" />
+            <line x1="44" y1="22" x2="56" y2="22" stroke={darkStroke} strokeWidth="2" filter="url(#blackShadow)" />
+            <circle cx="50" cy="16" r="2" fill={darkStroke} filter="url(#blackShadow)" />
+            <path d="M 32 35 L 28 65 Q 28 75 50 80 Q 72 75 72 65 L 68 35 Z" fill="url(#blackPieceGrad)" stroke={darkStroke} strokeWidth="1" filter="url(#blackShadow)" />
+          </>
+        )}
+      </svg>
+    );
+  }
 };
 
 export function ChessBoard({
