@@ -383,6 +383,39 @@ export function Trainer({ games }: TrainerProps) {
                 </Button>
               </div>
             )}
+
+            {/* Current move comment display */}
+            {currentGame && currentMove?.comment && (
+              <div 
+                className="w-full max-w-[400px] rounded-lg p-4 border-l-3"
+                style={{
+                  backgroundColor: 'rgba(139, 92, 246, 0.08)',
+                  borderLeft: '3px solid rgba(139, 92, 246, 0.5)',
+                }}
+              >
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 mt-0.5">
+                    <div 
+                      className="w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold"
+                      style={{ backgroundColor: 'rgba(139, 92, 246, 0.2)', color: '#a78bfa' }}
+                    >
+                      {getCurrentMoveNumber()}
+                    </div>
+                  </div>
+                  <div>
+                    <div className="text-sm font-semibold text-purple-300 mb-1">
+                      {currentMove.san}
+                    </div>
+                    <p 
+                      className="text-sm leading-relaxed"
+                      style={{ color: '#d4c4f5', lineHeight: '1.6' }}
+                    >
+                      {currentMove.comment}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            )}
           </div>
 
           {currentGame && (

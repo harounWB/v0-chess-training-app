@@ -75,51 +75,78 @@ function parseMovesWithVariations(movesContent: string): { moves: Move[]; variat
   const chess = new Chess();
   
   // Clean up the moves content - remove line breaks and extra spaces
-  let cleanContent = movesContent
+  let content = movesContent
     .replace(/\r\n/g, ' ')
     .replace(/\n/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
   
   // Remove result at the end
-  cleanContent = cleanContent.replace(/\s*(1-0|0-1|1\/2-1\/2|\*)\s*$/, '');
+  content = content.replace(/\s*(1-0|0-1|1\/2-1\/2|\*)\s*$/, '');
   
-  // Remove comments (text in curly braces) first
-  cleanContent = cleanContent.replace(/\{[^}]*\}/g, '');
+  // Remove NAGs like $1, $2, etc.
+  content = content.replace(/\$\d+/g, '');
   
   // Remove variations (text in parentheses) - handle nested parentheses
   let prevContent = '';
-  while (prevContent !== cleanContent) {
-    prevContent = cleanContent;
-    cleanContent = cleanContent.replace(/\([^()]*\)/g, '');
+  while (prevContent !== content) {
+    prevContent = content;
+    content = content.replace(/\([^()]*\)/g, '');
   }
   
-  // Remove NAGs like $1, $2, etc.
-  cleanContent = cleanContent.replace(/\$\d+/g, '');
+  // Tokenize while preserving comments
+  // This regex captures: move numbers, moves, and comments in braces
+  const tokenRegex = /(\d+\.+)|(\{[^}]*\})|([KQRBNP]?[a-h]?[1-8]?x?[a-h][1-8](?:=[QRBN])?[+#]?)|([O0]-[O0](?:-[O0])?[+#]?)/g;
   
-  // Remove move numbers (e.g., "1.", "23...", "1...")
-  cleanContent = cleanContent.replace(/\d+\.+/g, '');
+  const tokens: { type: 'number' | 'comment' | 'move'; value: string }[] = [];
+  let match;
   
-  // Split by whitespace to get individual moves
-  const tokens = cleanContent.split(/\s+/).filter(t => t.length > 0);
+  while ((match = tokenRegex.exec(content)) !== null) {
+    if (match[1]) {
+      tokens.push({ type: 'number', value: match[1] });
+    } else if (match[2]) {
+      // Extract comment content without braces
+      tokens.push({ type: 'comment', value: match[2].slice(1, -1).trim() });
+    } else if (match[3]) {
+      tokens.push({ type: 'move', value: match[3] });
+    } else if (match[4]) {
+      // Castling - normalize O to standard
+      tokens.push({ type: 'move', value: match[4].replace(/0/g, 'O') });
+    }
+  }
   
-  for (const token of tokens) {
-    // Skip empty tokens or remaining result markers
-    if (!token || token === '1-0' || token === '0-1' || token === '1/2-1/2' || token === '*') {
+  // Process tokens - attach comments to the preceding move
+  let pendingComment: string | undefined;
+  
+  for (let i = 0; i < tokens.length; i++) {
+    const token = tokens[i];
+    
+    if (token.type === 'number') {
+      continue; // Skip move numbers
+    }
+    
+    if (token.type === 'comment') {
+      // Look ahead - if next token is a move, this comment is for that move (pre-comment)
+      // Otherwise attach to previous move
+      if (moves.length > 0) {
+        // Attach to the last move
+        const lastMove = moves[moves.length - 1];
+        if (lastMove.comment) {
+          lastMove.comment += ' ' + token.value;
+        } else {
+          lastMove.comment = token.value;
+        }
+      } else {
+        // Store as pending for the first move
+        pendingComment = token.value;
+      }
       continue;
     }
     
-    // Skip if it looks like a move number that wasn't fully cleaned
-    if (/^\d+$/.test(token)) {
-      continue;
-    }
-    
-    // Clean the move string
-    const moveStr = token.trim();
-    
-    if (moveStr && moveStr.length > 0) {
+    if (token.type === 'move') {
+      const moveStr = token.value;
+      
       try {
-        // Try to parse the move
         const move = chess.move(moveStr, { sloppy: true });
         if (move) {
           const moveObj: Move = {
@@ -128,13 +155,15 @@ function parseMovesWithVariations(movesContent: string): { moves: Move[]; variat
             from: move.from,
             to: move.to,
             promotion: move.promotion,
+            comment: pendingComment,
             variations: [],
           };
           
           moves.push(moveObj);
+          pendingComment = undefined;
         }
       } catch (e) {
-        // Skip invalid moves silently - they might be annotations or other text
+        // Skip invalid moves silently
       }
     }
   }
