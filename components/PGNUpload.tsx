@@ -20,24 +20,31 @@ export function PGNUpload({ onGamesLoaded, isLoading = false }: PGNUploadProps) 
 
     try {
       const content = await file.text();
+      
+      if (!content || content.trim().length === 0) {
+        alert('PGN file is empty');
+        return;
+      }
+
       const games = parsePGN(content);
 
       console.log('[v0] Loaded games:', games.length);
 
       if (games.length === 0) {
-        alert('No valid games found in PGN file');
+        alert('No valid games found in PGN file. Please check the PGN format.');
         return;
       }
 
       onGamesLoaded(games);
     } catch (error) {
       console.error('[v0] Error parsing PGN:', error);
-      alert('Error parsing PGN file: ' + (error instanceof Error ? error.message : 'Unknown error'));
-    }
-
-    // Reset file input
-    if (fileInputRef.current) {
-      fileInputRef.current.value = '';
+      const errorMsg = error instanceof Error ? error.message : 'Unknown error';
+      alert(`Error parsing PGN file: ${errorMsg}`);
+    } finally {
+      // Reset file input
+      if (fileInputRef.current) {
+        fileInputRef.current.value = '';
+      }
     }
   };
 

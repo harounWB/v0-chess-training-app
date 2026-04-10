@@ -71,11 +71,16 @@ function parseMovesWithVariations(movesContent: string): { moves: Move[]; variat
   const moves: Move[] = [];
   const variations: Variation[] = [];
   
-  // Initialize a chess instance to validate moves
+  // Initialize a fresh chess instance for this game
   const chess = new Chess();
   
   let i = 0;
-  while (i < movesContent.length) {
+  const maxIterations = movesContent.length * 2; // Prevent infinite loops
+  let iterations = 0;
+  
+  while (i < movesContent.length && iterations < maxIterations) {
+    iterations++;
+    
     // Skip whitespace
     while (i < movesContent.length && /\s/.test(movesContent[i])) {
       i++;
@@ -94,7 +99,24 @@ function parseMovesWithVariations(movesContent: string): { moves: Move[]; variat
         while (i < movesContent.length && /\s/.test(movesContent[i])) {
           i++;
         }
+      } else {
+        // Malformed comment, skip the bracket
+        i++;
       }
+      continue; // Process comment on next iteration for the actual move
+    }
+    
+    // Skip result markers (1-0, 0-1, 1/2-1/2, *)
+    if (movesContent.substring(i, i + 7) === '1/2-1/2') {
+      i += 7;
+      continue;
+    }
+    if (/^[01*\-]+\s/.test(movesContent.substring(i, i + 10))) {
+      while (i < movesContent.length && /\s/.test(movesContent[i])) {
+        i++;
+      }
+      i++;
+      continue;
     }
     
     // Handle variations (parentheses) - skip for now
@@ -110,28 +132,32 @@ function parseMovesWithVariations(movesContent: string): { moves: Move[]; variat
     }
     
     // Skip move numbers (e.g., "1.", "23.", "123.")
+    const moveNumStart = i;
     while (i < movesContent.length && /\d/.test(movesContent[i])) {
       i++;
     }
     if (i < movesContent.length && movesContent[i] === '.') {
       i++;
-    }
-    
-    // Skip whitespace after move number
-    while (i < movesContent.length && /\s/.test(movesContent[i])) {
-      i++;
+      // Skip whitespace after move number
+      while (i < movesContent.length && /\s/.test(movesContent[i])) {
+        i++;
+      }
+      continue; // Go back to top to process the actual move
+    } else {
+      // No move number found, reset
+      i = moveNumStart;
     }
     
     // Extract the move (SAN notation)
     let moveStr = '';
-    const moveStart = i;
     while (i < movesContent.length && /[a-hKQRBN1-8xO\-+=#]/.test(movesContent[i])) {
       moveStr += movesContent[i];
       i++;
     }
     
-    if (moveStr) {
+    if (moveStr && moveStr.length > 0) {
       try {
+        // Try to parse the move
         const move = chess.move(moveStr, { sloppy: true });
         if (move) {
           const moveObj: Move = {
@@ -145,9 +171,14 @@ function parseMovesWithVariations(movesContent: string): { moves: Move[]; variat
           };
           
           moves.push(moveObj);
+          comment = ''; // Reset comment after using it
+        } else {
+          // Invalid move, skip it
+          console.warn('[v0] Invalid move skipped:', moveStr);
         }
       } catch (e) {
-        // Skip invalid moves
+        // Skip invalid moves silently
+        console.warn('[v0] Move parsing error:', moveStr, e);
       }
     }
   }
