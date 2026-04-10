@@ -15,20 +15,21 @@ interface ChessBoardProps {
 const FILES = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
 const RANKS = ['8', '7', '6', '5', '4', '3', '2', '1'];
 
-// Official Lichess cburnett piece set from CDN
+// Official Lichess cburnett piece set from GitHub raw
+const LICHESS_PIECE_BASE = 'https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/cburnett';
 const PIECE_URLS: Record<string, string> = {
-  'wK': 'https://lichess1.org/assets/_Q40sQM/piece/cburnett/wK.svg',
-  'wQ': 'https://lichess1.org/assets/_Q40sQM/piece/cburnett/wQ.svg',
-  'wR': 'https://lichess1.org/assets/_Q40sQM/piece/cburnett/wR.svg',
-  'wB': 'https://lichess1.org/assets/_Q40sQM/piece/cburnett/wB.svg',
-  'wN': 'https://lichess1.org/assets/_Q40sQM/piece/cburnett/wN.svg',
-  'wP': 'https://lichess1.org/assets/_Q40sQM/piece/cburnett/wP.svg',
-  'bK': 'https://lichess1.org/assets/_Q40sQM/piece/cburnett/bK.svg',
-  'bQ': 'https://lichess1.org/assets/_Q40sQM/piece/cburnett/bQ.svg',
-  'bR': 'https://lichess1.org/assets/_Q40sQM/piece/cburnett/bR.svg',
-  'bB': 'https://lichess1.org/assets/_Q40sQM/piece/cburnett/bB.svg',
-  'bN': 'https://lichess1.org/assets/_Q40sQM/piece/cburnett/bN.svg',
-  'bP': 'https://lichess1.org/assets/_Q40sQM/piece/cburnett/bP.svg',
+  'wK': `${LICHESS_PIECE_BASE}/wK.svg`,
+  'wQ': `${LICHESS_PIECE_BASE}/wQ.svg`,
+  'wR': `${LICHESS_PIECE_BASE}/wR.svg`,
+  'wB': `${LICHESS_PIECE_BASE}/wB.svg`,
+  'wN': `${LICHESS_PIECE_BASE}/wN.svg`,
+  'wP': `${LICHESS_PIECE_BASE}/wP.svg`,
+  'bK': `${LICHESS_PIECE_BASE}/bK.svg`,
+  'bQ': `${LICHESS_PIECE_BASE}/bQ.svg`,
+  'bR': `${LICHESS_PIECE_BASE}/bR.svg`,
+  'bB': `${LICHESS_PIECE_BASE}/bB.svg`,
+  'bN': `${LICHESS_PIECE_BASE}/bN.svg`,
+  'bP': `${LICHESS_PIECE_BASE}/bP.svg`,
 };
 
 // Piece component using official Lichess SVG assets
