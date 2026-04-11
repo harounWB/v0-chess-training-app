@@ -16,6 +16,7 @@ interface TrainingPanelProps {
   difficulty?: DifficultyLevel;
   onModeChange: (mode: TrainingMode) => void;
   onColorChange: (color: PlayerColor) => void;
+  onFlipBoard: () => void;
   onDifficultyChange?: (difficulty: DifficultyLevel) => void;
   onReset: () => void;
   onNavigateMove: (index: number) => void;
@@ -34,6 +35,7 @@ export function TrainingPanel({
   difficulty = 'medium',
   onModeChange,
   onColorChange,
+  onFlipBoard,
   onDifficultyChange,
   onReset,
   onNavigateMove,
@@ -96,7 +98,7 @@ export function TrainingPanel({
           <Button
             size="sm"
             variant="outline"
-            onClick={() => onColorChange(playerColor === 'w' ? 'b' : 'w')}
+            onClick={onFlipBoard}
             className="bg-gray-800 hover:bg-gray-700 w-full"
           >
             Flip Board

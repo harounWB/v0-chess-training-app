@@ -35,6 +35,7 @@ export function Trainer({ games }: TrainerProps) {
   const [currentSession, setCurrentSession] = useState<GameSession | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [playbackSpeed, setPlaybackSpeed] = useState(1);
+  const [boardOrientation, setBoardOrientation] = useState<'white' | 'black'>('white');
   const playbackIntervalRef = useRef<NodeJS.Timeout | null>(null);
 
   // Initialize game state when game is selected or player color changes
@@ -582,7 +583,7 @@ export function Trainer({ games }: TrainerProps) {
                 onNavigate={handleKeyboardNavigation}
                 disabled={moveIndex >= (currentGame?.moves.length || 0) && trainingMode === 'train'}
                 lastMove={lastMove ? { from: lastMove.from, to: lastMove.to } : undefined}
-                orientation={playerColor === 'w' ? 'white' : 'black'}
+                orientation={trainingMode === 'explore' ? boardOrientation : (playerColor === 'w' ? 'white' : 'black')}
                 hintSquare={trainingMode === 'train' && hintLevel >= 1 ? hintData.hintSquare : null}
                 hintDestinations={trainingMode === 'train' && hintLevel >= 2 ? hintData.hintDestinations : []}
                 wrongMove={isCorrect === false}
@@ -725,6 +726,7 @@ export function Trainer({ games }: TrainerProps) {
               difficulty={difficulty}
               onModeChange={setTrainingMode}
               onColorChange={setPlayerColor}
+              onFlipBoard={() => setBoardOrientation(o => o === 'white' ? 'black' : 'white')}
               onDifficultyChange={setDifficulty}
               onReset={handleResetGame}
               onNavigateMove={handleNavigateMove}
