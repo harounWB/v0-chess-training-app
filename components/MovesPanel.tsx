@@ -21,26 +21,28 @@ export function MovesPanel({
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const currentMoveRef = useRef<HTMLDivElement>(null);
 
-  // Auto-scroll the moves list to keep the current move visible — explore mode only
+  // Auto-scroll the moves list to keep the current move visible
   useEffect(() => {
-    if (trainingMode !== 'explore') return;
     if (!currentMoveRef.current || !scrollContainerRef.current) return;
 
     const container = scrollContainerRef.current;
     const el = currentMoveRef.current;
-    const elTop = el.offsetTop - container.offsetTop;
-    const elBottom = elTop + el.offsetHeight;
-    const visibleTop = container.scrollTop;
-    const visibleBottom = visibleTop + container.clientHeight;
 
-    // Only scroll if the current move is outside the visible area
-    if (elTop < visibleTop + 40 || elBottom > visibleBottom - 40) {
+    // getBoundingClientRect gives positions relative to the viewport
+    const containerRect = container.getBoundingClientRect();
+    const elRect = el.getBoundingClientRect();
+
+    const isAbove = elRect.top < containerRect.top + 40;
+    const isBelow = elRect.bottom > containerRect.bottom - 40;
+
+    if (isAbove || isBelow) {
+      // Scroll so the current move is centred inside the panel
       container.scrollTo({
-        top: elTop - container.clientHeight / 2 + el.offsetHeight / 2,
+        top: container.scrollTop + (elRect.top - containerRect.top) - container.clientHeight / 2 + el.offsetHeight / 2,
         behavior: 'smooth',
       });
     }
-  }, [moveIndex, trainingMode]);
+  }, [moveIndex]);
 
   const handleMoveClick = (index: number) => {
     onNavigateMove(index);
