@@ -166,3 +166,20 @@
   animation: snapBack 0.3s ease-in-out;
 }
 
+/* Crypto icon sprite sheet positioning */
+.icon-ltc {
+  background-position: 0 0;
+}
+
+.icon-usdt {
+  background-position: -64px 0;
+}
+
+.icon-sol {
+  background-position: 0 -64px;
+}
+
+.icon-bnb {
+  background-position: -64px -64px;
+}
+

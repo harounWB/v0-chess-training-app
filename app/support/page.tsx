@@ -60,14 +60,9 @@ export default function SupportPage() {
                     : 'bg-gray-800/50 border border-gray-700 hover:bg-gray-800 hover:border-gray-600'
                 }`}
               >
-                <img
-                  src={crypto.icon}
-                  alt={crypto.name}
-                  className="w-8 h-8 flex-shrink-0 object-contain"
-                  loading="lazy"
-                  onError={(e) => {
-                    (e.target as HTMLImageElement).src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"%3E%3Ccircle cx="12" cy="12" r="10"/%3E%3C/svg%3E';
-                  }}
+                <div
+                  className={`w-8 h-8 flex-shrink-0 bg-cover bg-center ${crypto.iconClass}`}
+                  style={{ backgroundImage: 'url(/crypto-icons-sprite.png)' }}
                 />
                 <div className="flex-1 text-left">
                   <div className="font-medium text-white">{crypto.name}</div>
