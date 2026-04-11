@@ -13,6 +13,7 @@ interface ChessBoardProps {
   hintSquare?: string | null;
   hintDestinations?: string[];
   wrongMove?: boolean;
+  wrongMoveSquares?: { from: string; to: string } | null;
 }
 
 const FILES = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
@@ -65,6 +66,7 @@ export function ChessBoard({
   hintSquare,
   hintDestinations = [],
   wrongMove = false,
+  wrongMoveSquares = null,
 }: ChessBoardProps) {
   const [selectedSquare, setSelectedSquare] = useState<string | null>(null);
   const [animatingPiece, setAnimatingPiece] = useState<AnimatingPiece | null>(null);
@@ -308,11 +310,16 @@ export function ChessBoard({
               const hasPieceOnTarget = isValidTarget && chess.get(square);
               const isHintPiece = hintSquare === square;
               const isHintDestination = hintDestinations.includes(square);
+              const isWrongMoveFrom = wrongMoveSquares?.from === square;
+              const isWrongMoveTo = wrongMoveSquares?.to === square;
 
               // Board colors
               let bgColor = isLight ? '#f0d9b5' : '#b58863';
               
-              if (isHintPiece) {
+              if (isWrongMoveFrom || isWrongMoveTo) {
+                // Red flash for wrong move attempt (400ms)
+                bgColor = isLight ? '#f08080' : '#d9534f';
+              } else if (isHintPiece) {
                 bgColor = isLight ? '#90caf9' : '#42a5f5';
               } else if (isHintDestination) {
                 bgColor = isLight ? '#b3e5fc' : '#4fc3f7';

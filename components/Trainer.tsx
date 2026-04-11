@@ -23,8 +23,9 @@ export function Trainer({ games }: TrainerProps) {
   const [message, setMessage] = useState('');
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   const [completedGames, setCompletedGames] = useState<Set<string>>(new Set());
-  const [hintLevel, setHintLevel] = useState<0 | 1 | 2>(0); // 0 = no hint, 1 = show piece, 2 = show destinations
-  const [showMoveComment, setShowMoveComment] = useState(false); // Only show comment after correct move
+  const [hintLevel, setHintLevel] = useState<0 | 1 | 2>(0);
+  const [showMoveComment, setShowMoveComment] = useState(false);
+  const [wrongMoveSquares, setWrongMoveSquares] = useState<{ from: string; to: string } | null>(null);
 
   // Initialize game state when game is selected
   useEffect(() => {
@@ -194,90 +195,99 @@ export function Trainer({ games }: TrainerProps) {
 
       const currentPos = getCurrentPosition();
 
-      // Validate move is legal
-      try {
-        const result = currentPos.move(move, { sloppy: false });
-        if (!result) {
-          setMessage('Invalid move!');
-          setIsCorrect(false);
+      // CRITICAL: Validate move is legal FIRST
+      const legalMoves = currentPos.moves({ verbose: true });
+      const isLegalMove = legalMoves.some(
+        (m) => m.from === move.from && m.to === move.to
+      );
+
+      if (!isLegalMove) {
+        setIsCorrect(false);
+        setMessage('Invalid move!');
+        return;
+      }
+
+      // In training mode, validate against expected move
+      if (trainingMode === 'train') {
+        // Get the expected move at current position
+        const expectedMove = currentGame.moves[moveIndex];
+        
+        if (!expectedMove) {
+          setMessage('No more moves in this game.');
+          setIsCorrect(null);
           return;
         }
 
-        // Check if it's training mode and validate against expected move
-        if (trainingMode === 'train') {
-          const expectedMove = getExpectedMove();
+        // Check if played move matches expected move
+        const moveMatches = 
+          expectedMove.from === move.from && 
+          expectedMove.to === move.to;
 
-          if (!expectedMove) {
-            setMessage('No more moves in this game.');
-            setIsCorrect(null);
-            return;
+        if (moveMatches) {
+          // CORRECT MOVE
+          setIsCorrect(true);
+          setHintLevel(0); // Reset hints
+          setShowMoveComment(true); // Show comment after correct move
+          
+          // Move to next position
+          let newIndex = moveIndex + 1;
+          
+          // Auto-play opponent's response after a short delay
+          if (newIndex < currentGame.moves.length) {
+            const opponentIndex = playOpponentMove(newIndex);
+            if (opponentIndex > newIndex) {
+              // Show opponent's move with a slight delay for visual feedback
+              setMoveIndex(newIndex);
+              setMessage('Correct!');
+              setTimeout(() => {
+                setMoveIndex(opponentIndex);
+                setShowMoveComment(false); // Hide comment when it's user's turn again
+                if (opponentIndex >= currentGame.moves.length) {
+                  setMessage('Game complete! Well done!');
+                  setIsCorrect(null);
+                } else {
+                  setMessage('Your turn...');
+                  setIsCorrect(null);
+                }
+              }, 400);
+              return;
+            }
           }
-
-          // Find the matching move in the game
-          const nextGameMove = currentGame.moves[moveIndex];
-          if (
-            nextGameMove &&
-            nextGameMove.from === move.from &&
-            nextGameMove.to === move.to
-          ) {
-            setIsCorrect(true);
-            setHintLevel(0); // Reset hints
-            setShowMoveComment(true); // Show comment after correct move
-            
-            // Move to next position
-            let newIndex = moveIndex + 1;
-            
-            // Auto-play opponent's response after a short delay
-            if (newIndex < currentGame.moves.length) {
-              const opponentIndex = playOpponentMove(newIndex);
-              if (opponentIndex > newIndex) {
-                // Show opponent's move with a slight delay for visual feedback
-                setMoveIndex(newIndex);
-                setMessage('Correct!');
-                setTimeout(() => {
-                  setMoveIndex(opponentIndex);
-                  setShowMoveComment(false); // Hide comment when it's user's turn again
-                  if (opponentIndex >= currentGame.moves.length) {
-                    setMessage('Game complete! Well done!');
-                    setIsCorrect(null);
-                  } else {
-                    setMessage('Your turn...');
-                    setIsCorrect(null);
-                  }
-                }, 400);
-                return;
-              }
-            }
-            
-            setMoveIndex(newIndex);
-            if (newIndex >= currentGame.moves.length) {
-              setMessage('Game complete! Well done!');
-            } else {
-              setMessage('Correct! Your turn...');
-              setShowMoveComment(false);
-            }
+          
+          setMoveIndex(newIndex);
+          if (newIndex >= currentGame.moves.length) {
+            setMessage('Game complete! Well done!');
           } else {
-            // Wrong move - do NOT reveal the answer
-            setIsCorrect(false);
-            setMessage('Incorrect. Try again.');
+            setMessage('Correct! Your turn...');
+            setShowMoveComment(false);
           }
         } else {
-          // Explore mode - just advance
-          if (moveIndex < currentGame.moves.length) {
-            setMoveIndex(moveIndex + 1);
-            setMessage(`Moved: ${result.san}`);
-            setIsCorrect(null);
-          } else {
-            setMessage('Game ended.');
-            setIsCorrect(null);
-          }
+          // WRONG MOVE - do NOT apply it, do NOT reveal answer
+          setIsCorrect(false);
+          setWrongMoveSquares({ from: move.from, to: move.to });
+          setMessage('Incorrect. Try again.');
+          
+          // Clear the wrong move highlighting after 400ms
+          setTimeout(() => {
+            setWrongMoveSquares(null);
+          }, 400);
         }
-      } catch (e) {
-        setMessage('Invalid move!');
-        setIsCorrect(false);
+      } else {
+        // EXPLORE MODE - apply move and advance
+        const testChess = new Chess(currentPos.fen());
+        const result = testChess.move(move, { sloppy: false });
+        
+        if (result) {
+          setMoveIndex(moveIndex + 1);
+          setMessage(`Moved: ${result.san}`);
+          setIsCorrect(null);
+        } else {
+          setIsCorrect(false);
+          setMessage('Invalid move!');
+        }
       }
     },
-    [currentGame, moveIndex, trainingMode, playerColor, getExpectedMove, getCurrentPosition, playOpponentMove]
+    [currentGame, moveIndex, trainingMode, playerColor, getCurrentPosition, playOpponentMove]
   );
 
   const handleSelectGame = useCallback((game: Game) => {
@@ -369,6 +379,7 @@ export function Trainer({ games }: TrainerProps) {
                 hintSquare={trainingMode === 'train' && hintLevel >= 1 ? hintData.hintSquare : null}
                 hintDestinations={trainingMode === 'train' && hintLevel >= 2 ? hintData.hintDestinations : []}
                 wrongMove={isCorrect === false}
+                wrongMoveSquares={wrongMoveSquares}
               />
             ) : (
               <div className="w-full max-w-md aspect-square bg-gray-800 rounded-lg flex items-center justify-center border border-gray-700">
