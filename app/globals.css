@@ -135,6 +135,46 @@
   animation: shake 0.3s ease-in-out;
 }
 
+/* Piece dragging visual feedback */
+.piece-dragging {
+  will-change: transform;
+  pointer-events: auto !important;
+}
+
+/* Piece animations */
+@keyframes captureFadeOut {
+  0% { 
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% { 
+    opacity: 0;
+    transform: scale(0.8);
+  }
+}
+
+.animate-capture {
+  animation: captureFadeOut 0.15s ease-out forwards;
+}
+
+/* Snap back animation for invalid moves */
+@keyframes snapBack {
+  0% { 
+    opacity: 0.5;
+  }
+  100% { 
+    opacity: 1;
+  }
+}
+
+.animate-snap-back {
+  animation: snapBack 0.3s ease-in-out;
+}
+
+.animate-shake {
+  animation: shake 0.3s ease-in-out;
+}
+
 /* Piece animations - Chess.com level */
 @keyframes captureFadeOut {
   0% { 
