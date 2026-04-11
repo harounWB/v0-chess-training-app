@@ -37,7 +37,7 @@ export function Trainer({ games }: TrainerProps) {
   const [playbackSpeed, setPlaybackSpeed] = useState(1);
   const playbackIntervalRef = useRef<NodeJS.Timeout | null>(null);
 
-  // Initialize game state when game is selected
+  // Initialize game state when game is selected or player color changes
   useEffect(() => {
     if (currentGame) {
       const chess = new Chess();
@@ -62,16 +62,33 @@ export function Trainer({ games }: TrainerProps) {
       };
       setCurrentSession(newSession);
       
-      // In train mode, if playing as Black, auto-play White's first move
+      // In train mode, if playing as Black, start AFTER White's first move
       if (trainingMode === 'train' && playerColor === 'b' && currentGame.moves.length > 0) {
+        console.log('[v0] Setting moveIndex to 1 for Black player');
         setMoveIndex(1); // Start after White's first move
         setMessage(`Playing as Black. Your turn...`);
       } else {
+        console.log('[v0] Setting moveIndex to 0, playerColor:', playerColor, 'trainingMode:', trainingMode);
         setMoveIndex(0);
         setMessage(`Playing as ${playerColor === 'w' ? 'White' : 'Black'}. ${playerColor === 'w' ? 'Your turn...' : 'Your turn...'}`);
       }
     }
   }, [currentGame, playerColor, trainingMode, difficulty]);
+  
+  // Debug: log current game state
+  useEffect(() => {
+    if (currentGame) {
+      const fen = getCurrentFen();
+      const tempChess = new Chess(fen);
+      console.log('[v0] Current state:', {
+        moveIndex,
+        playerColor,
+        trainingMode,
+        fenTurn: tempChess.turn(),
+        fen: fen.substring(0, 30) + '...'
+      });
+    }
+  }, [moveIndex, playerColor, trainingMode, currentGame, getCurrentFen]);
 
   // Get current FEN position by replaying moves
   const getCurrentFen = useCallback((): string => {
@@ -252,6 +269,7 @@ export function Trainer({ games }: TrainerProps) {
       if (trainingMode === 'train') {
         // Get the expected move at current position
         const expectedMove = currentGame.moves[moveIndex];
+        console.log('[v0] Training move:', { moveIndex, playerColor, move, expectedMove });
         
         if (!expectedMove) {
           setMessage('No more moves in this game.');
@@ -394,11 +412,19 @@ export function Trainer({ games }: TrainerProps) {
 
   const handleResetGame = useCallback(() => {
     if (currentGame) {
-      setMoveIndex(0);
+      // When playing as Black in train mode, start after White's first move
+      if (trainingMode === 'train' && playerColor === 'b' && currentGame.moves.length > 0) {
+        setMoveIndex(1);
+      } else {
+        setMoveIndex(0);
+      }
       setMessage(`Resetting game. Playing as ${playerColor === 'w' ? 'White' : 'Black'}.`);
       setIsCorrect(null);
+      setHintLevel(0);
+      setWrongMoveSquares(null);
+      setCorrectMoveSquares(null);
     }
-  }, [currentGame, playerColor]);
+  }, [currentGame, playerColor, trainingMode]);
 
   const handleCompleteGame = useCallback(() => {
     if (currentGame) {

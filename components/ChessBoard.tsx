@@ -184,7 +184,7 @@ export function ChessBoard({
       // Clicked on an empty or opponent square with nothing selected
       setSelectedSquare(null);
     },
-    [selectedSquare, chess, disabled, legalMoves, tryMove]
+    [selectedSquare, chess, disabled, legalMoves, tryMove, freeMove]
   );
 
   // ─── DRAG (MOUSE) ─────────────────────────────────────────────────────────
