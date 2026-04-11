@@ -134,3 +134,46 @@
 .animate-shake {
   animation: shake 0.3s ease-in-out;
 }
+
+/* Piece animations */
+@keyframes captureFadeOut {
+  0% { 
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% { 
+    opacity: 0;
+    transform: scale(0.8);
+  }
+}
+
+.animate-capture {
+  animation: captureFadeOut 0.15s ease-out forwards;
+}
+
+/* Smooth piece movement */
+.piece-drag {
+  filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.5));
+  transform: scale(1.05);
+  z-index: 50;
+}
+
+/* Piece transition for smooth movement */
+.piece-smooth {
+  transition: all 180ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Snap back animation for invalid moves */
+@keyframes snapBack {
+  0% { 
+    opacity: 0.5;
+  }
+  100% { 
+    opacity: 1;
+  }
+}
+
+.animate-snap-back {
+  animation: snapBack 0.3s ease-in-out;
+}
+

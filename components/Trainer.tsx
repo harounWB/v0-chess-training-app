@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useCallback, useEffect } from 'react';
+import React, { useState, useCallback, useEffect, useRef } from 'react';
 import { Chess } from 'chess.js';
 import { Game, PlayerColor, TrainingMode, DifficultyLevel, GameSession, MoveAttempt } from '@/lib/types';
 import { ChessBoard } from './ChessBoard';
@@ -8,6 +8,7 @@ import { TrainingPanel } from './TrainingPanel';
 import { MovesPanel } from './MovesPanel';
 import { GameList } from './GameList';
 import { SessionFeedback } from './SessionFeedback';
+import { PlaybackControls } from './PlaybackControls';
 import { Button } from './ui/button';
 import { ChevronLeft, ChevronRight, ChevronsLeft, ChevronsRight, Lightbulb } from 'lucide-react';
 
@@ -32,6 +33,9 @@ export function Trainer({ games }: TrainerProps) {
   const [moveAttempts, setMoveAttempts] = useState<MoveAttempt[]>([]);
   const [sessionComplete, setSessionComplete] = useState(false);
   const [currentSession, setCurrentSession] = useState<GameSession | null>(null);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [playbackSpeed, setPlaybackSpeed] = useState(1);
+  const playbackIntervalRef = useRef<NodeJS.Timeout | null>(null);
 
   // Initialize game state when game is selected
   useEffect(() => {
@@ -450,6 +454,74 @@ export function Trainer({ games }: TrainerProps) {
     }
   }, [currentGame, moveIndex, trainingMode, handleNavigateMove]);
 
+  // Playback controls for explore mode
+  const handlePlaybackStart = useCallback(() => {
+    if (trainingMode !== 'explore' || !currentGame) return;
+    
+    setIsPlaying(true);
+    
+    const delayMs = (2000 / playbackSpeed);
+    let nextIndex = moveIndex + 1;
+    
+    const playNextMove = () => {
+      if (nextIndex <= currentGame.moves.length) {
+        handleNavigateMove(nextIndex);
+        nextIndex += 1;
+        
+        if (nextIndex > currentGame.moves.length) {
+          setIsPlaying(false);
+          return;
+        }
+        
+        playbackIntervalRef.current = setTimeout(playNextMove, delayMs);
+      }
+    };
+    
+    playbackIntervalRef.current = setTimeout(playNextMove, delayMs);
+  }, [trainingMode, currentGame, moveIndex, playbackSpeed, handleNavigateMove]);
+
+  const handlePlaybackPause = useCallback(() => {
+    setIsPlaying(false);
+    if (playbackIntervalRef.current) {
+      clearTimeout(playbackIntervalRef.current);
+      playbackIntervalRef.current = null;
+    }
+  }, []);
+
+  const handlePlaybackReset = useCallback(() => {
+    setIsPlaying(false);
+    if (playbackIntervalRef.current) {
+      clearTimeout(playbackIntervalRef.current);
+      playbackIntervalRef.current = null;
+    }
+    handleNavigateMove(0);
+  }, [handleNavigateMove]);
+
+  const handleSpeedChange = useCallback((newSpeed: number) => {
+    setPlaybackSpeed(newSpeed);
+    
+    // If playing, restart with new speed
+    if (isPlaying) {
+      handlePlaybackPause();
+    }
+  }, [isPlaying, handlePlaybackPause]);
+
+  // Stop playback when switching modes or games
+  useEffect(() => {
+    if (trainingMode === 'train' || !currentGame) {
+      handlePlaybackPause();
+    }
+  }, [trainingMode, currentGame, handlePlaybackPause]);
+
+  // Cleanup interval on unmount
+  useEffect(() => {
+    return () => {
+      if (playbackIntervalRef.current) {
+        clearTimeout(playbackIntervalRef.current);
+      }
+    };
+  }, []);
+
   const lastMove = moveIndex > 0 ? currentGame?.moves[moveIndex - 1] : undefined;
   const currentMove = getCurrentMove();
   const hintData = getHintData();
@@ -490,6 +562,7 @@ export function Trainer({ games }: TrainerProps) {
                 wrongMove={isCorrect === false}
                 wrongMoveSquares={wrongMoveSquares}
                 correctMoveSquares={correctMoveSquares}
+                draggable={trainingMode === 'explore'}
               />
             ) : (
               <div className="w-full max-w-md aspect-square bg-gray-800 rounded-lg flex items-center justify-center border border-gray-700">
@@ -564,6 +637,19 @@ export function Trainer({ games }: TrainerProps) {
                   </>
                 )}
               </div>
+            )}
+
+            {/* Playback Controls - only in explore mode */}
+            {currentGame && trainingMode === 'explore' && (
+              <PlaybackControls
+                isPlaying={isPlaying}
+                onPlay={handlePlaybackStart}
+                onPause={handlePlaybackPause}
+                onReset={handlePlaybackReset}
+                speed={playbackSpeed}
+                onSpeedChange={handleSpeedChange}
+                disabled={moveIndex >= currentGame.moves.length}
+              />
             )}
 
             {/* Current move comment display - only show after correct move in train mode, or always in explore */}

@@ -15,6 +15,15 @@ interface ChessBoardProps {
   wrongMove?: boolean;
   wrongMoveSquares?: { from: string; to: string } | null;
   correctMoveSquares?: { from: string; to: string } | null;
+  draggable?: boolean;
+}
+
+interface DragState {
+  from: string | null;
+  currentX: number;
+  currentY: number;
+  offsetX: number;
+  offsetY: number;
 }
 
 const FILES = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
@@ -66,11 +75,15 @@ export function ChessBoard({
   wrongMove = false,
   wrongMoveSquares = null,
   correctMoveSquares = null,
+  draggable = false,
 }: ChessBoardProps) {
   const [selectedSquare, setSelectedSquare] = useState<string | null>(null);
   const [shakeBoard, setShakeBoard] = useState(false);
   const [animatingFrom, setAnimatingFrom] = useState<string | null>(null);
   const [animatingTo, setAnimatingTo] = useState<string | null>(null);
+  const [dragState, setDragState] = useState<DragState>({ from: null, currentX: 0, currentY: 0, offsetX: 0, offsetY: 0 });
+  const [droppingSquare, setDroppingSquare] = useState<string | null>(null);
+  const boardRef = useRef<HTMLDivElement>(null);
   const prevFenRef = useRef<string>(fen);
   
   const chess = useMemo(() => new Chess(fen), [fen]);
@@ -152,6 +165,91 @@ export function ChessBoard({
     
     return moves;
   }, [chess]);
+
+  // Drag handlers for explore mode
+  const handleMouseDown = useCallback(
+    (e: React.MouseEvent, square: string) => {
+      if (disabled || !draggable) return;
+
+      const piece = chess.get(square);
+      if (!piece) return;
+
+      const boardRect = boardRef.current?.getBoundingClientRect();
+      if (!boardRect) return;
+
+      const offsetX = e.clientX - boardRect.left;
+      const offsetY = e.clientY - boardRect.top;
+
+      setDragState({
+        from: square,
+        currentX: e.clientX,
+        currentY: e.clientY,
+        offsetX,
+        offsetY,
+      });
+      setSelectedSquare(square);
+    },
+    [chess, disabled, draggable]
+  );
+
+  const handleMouseMove = useCallback((e: React.MouseEvent) => {
+    if (dragState.from && boardRef.current) {
+      setDragState((prev) => ({
+        ...prev,
+        currentX: e.clientX,
+        currentY: e.clientY,
+      }));
+    }
+  }, [dragState.from]);
+
+  const handleMouseUp = useCallback(
+    (e: React.MouseEvent) => {
+      if (!dragState.from || !boardRef.current) {
+        setDragState({ from: null, currentX: 0, currentY: 0, offsetX: 0, offsetY: 0 });
+        return;
+      }
+
+      const boardRect = boardRef.current.getBoundingClientRect();
+      const squareSize = boardRect.width / 8;
+      
+      // Calculate which square the piece was dropped on
+      const fileIndex = Math.floor((e.clientX - boardRect.left) / squareSize);
+      const rankIndex = Math.floor((e.clientY - boardRect.top) / squareSize);
+
+      if (fileIndex >= 0 && fileIndex < 8 && rankIndex >= 0 && rankIndex < 8) {
+        let file = FILES[fileIndex];
+        let rank = RANKS[rankIndex];
+
+        if (orientation === 'black') {
+          file = FILES[7 - fileIndex];
+          rank = RANKS[7 - rankIndex];
+        }
+
+        const toSquare = `${file}${rank}`;
+
+        // Try to make the move
+        if (legalMoves[dragState.from]?.includes(toSquare)) {
+          const piece = chess.get(dragState.from);
+          const isPromotion = piece?.type === 'p' && (toSquare[1] === '8' || toSquare[1] === '1');
+
+          if (isPromotion) {
+            // Handle promotion - for now just use Queen
+            onMove({ from: dragState.from, to: toSquare, promotion: 'q' });
+          } else {
+            onMove({ from: dragState.from, to: toSquare });
+          }
+        } else {
+          // Invalid move - snap back
+          setDroppingSquare(dragState.from);
+          setTimeout(() => setDroppingSquare(null), 300);
+        }
+      }
+
+      setDragState({ from: null, currentX: 0, currentY: 0, offsetX: 0, offsetY: 0 });
+      setSelectedSquare(null);
+    },
+    [dragState.from, boardRef, chess, legalMoves, orientation, onMove]
+  );
 
   const onSquareClick = useCallback(
     (square: string) => {
@@ -241,10 +339,14 @@ export function ChessBoard({
   return (
     <div className="flex justify-center w-full select-none">
       <div 
+        ref={boardRef}
         className={`rounded-lg overflow-hidden shadow-2xl relative transition-transform ${
           shakeBoard ? 'animate-shake' : ''
         }`}
         style={{ width: '400px', aspectRatio: '1' }}
+        onMouseMove={handleMouseMove}
+        onMouseUp={handleMouseUp}
+        onMouseLeave={handleMouseUp}
       >
         {/* Board squares */}
         <div className="grid grid-cols-8 gap-0 absolute inset-0">
@@ -288,6 +390,7 @@ export function ChessBoard({
                 <button
                   key={square}
                   onClick={() => onSquareClick(square)}
+                  onMouseDown={(e) => handleMouseDown(e, square)}
                   disabled={disabled}
                   className="relative flex items-center justify-center cursor-pointer disabled:cursor-default transition-colors duration-75"
                   style={{ backgroundColor: bgColor }}
