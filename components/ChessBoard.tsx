@@ -118,8 +118,11 @@ export function ChessBoard({
     }
   }, [wrongMove]);
 
-  // Track the animating piece info (type/color) so we can render a "ghost" during animation
+  // Animating piece info
   const [animatingPiece, setAnimatingPiece] = useState<{ type: string; color: string } | null>(null);
+  // Whether the ghost is in its "start" position (source square) or animating to destination
+  const [animPhase, setAnimPhase] = useState<'from' | 'to'>('from');
+  const rafRef = useRef<number | null>(null);
 
   // Detect FEN change and trigger animation
   useEffect(() => {
@@ -127,7 +130,7 @@ export function ChessBoard({
 
     try {
       const prevChess = new Chess(prevFenRef.current);
-      
+
       let fromSquare: string | null = null;
       let toSquare: string | null = null;
       let movedPiece: { type: string; color: string } | null = null;
@@ -138,13 +141,10 @@ export function ChessBoard({
           const prevPiece = prevChess.get(square);
           const currPiece = chess.get(square);
 
-          // Piece disappeared from this square (source)
           if (prevPiece && !currPiece) {
             fromSquare = square;
             movedPiece = { type: prevPiece.type, color: prevPiece.color };
           }
-
-          // Piece appeared on this square (destination)
           if (currPiece && !prevPiece) {
             toSquare = square;
           }
@@ -152,19 +152,35 @@ export function ChessBoard({
       }
 
       if (fromSquare && toSquare && movedPiece) {
+        // Cancel any in-flight animation
+        if (rafRef.current) cancelAnimationFrame(rafRef.current);
+
+        // Phase 1: render ghost at source (no transition yet)
         setAnimatingFrom(fromSquare);
         setAnimatingTo(toSquare);
         setAnimatingPiece(movedPiece);
+        setAnimPhase('from');
 
-        // After animation completes, clear state
+        // Phase 2: on the next frame, flip to 'to' — browser will CSS-transition from→to
+        rafRef.current = requestAnimationFrame(() => {
+          rafRef.current = requestAnimationFrame(() => {
+            setAnimPhase('to');
+          });
+        });
+
+        // Clear after animation finishes (duration 250ms + small buffer)
         const timeout = setTimeout(() => {
           setAnimatingFrom(null);
           setAnimatingTo(null);
           setAnimatingPiece(null);
+          setAnimPhase('from');
           prevFenRef.current = fen;
         }, 320);
 
-        return () => clearTimeout(timeout);
+        return () => {
+          clearTimeout(timeout);
+          if (rafRef.current) cancelAnimationFrame(rafRef.current);
+        };
       } else {
         prevFenRef.current = fen;
       }
@@ -586,7 +602,7 @@ export function ChessBoard({
             );
           })}
 
-          {/* Animated ghost piece - slides from source to destination using transform */}
+          {/* Animated ghost piece — starts at source square, transitions to destination */}
           {animatingFrom && animatingTo && animatingPiece && (() => {
             const pieceKey = `${animatingPiece.color}${animatingPiece.type.toUpperCase()}`;
             const url = PIECE_URLS[pieceKey];
@@ -595,28 +611,27 @@ export function ChessBoard({
             const fromCoords = squareToCoords(animatingFrom, orientation);
             const toCoords   = squareToCoords(animatingTo,   orientation);
 
-            // Place the ghost at the FROM square, then translate it to the TO square.
-            // Using transform:translate is GPU-composited — no teleporting, silky smooth.
-            const dx = (toCoords.x - fromCoords.x) * 12.5; // % units
-            const dy = (toCoords.y - fromCoords.y) * 12.5;
+            // Phase 'from': ghost sits at source with no transition (instant placement)
+            // Phase 'to':   transition kicks in and slides it to the destination
+            const currentCoords = animPhase === 'from' ? fromCoords : toCoords;
 
             return (
               <div
                 key="animating-piece"
                 className="absolute p-0.5"
                 style={{
-                  left: `${fromCoords.x * 12.5}%`,
-                  top:  `${fromCoords.y * 12.5}%`,
+                  left: `${currentCoords.x * 12.5}%`,
+                  top:  `${currentCoords.y * 12.5}%`,
                   width: '12.5%',
                   height: '12.5%',
                   zIndex: 50,
                   pointerEvents: 'none',
-                  // Animate the translate from (0,0) → (dx,dy) using a keyframe
-                  '--dx': `${dx}%`,
-                  '--dy': `${dy}%`,
-                  animation: 'pieceSlide 300ms cubic-bezier(0.25, 0.1, 0.25, 1) forwards',
-                  willChange: 'transform',
-                } as React.CSSProperties}
+                  // Transition only during the 'to' phase so the first render is instant
+                  transition: animPhase === 'to'
+                    ? 'left 250ms cubic-bezier(0.25, 0.1, 0.25, 1), top 250ms cubic-bezier(0.25, 0.1, 0.25, 1)'
+                    : 'none',
+                  willChange: 'left, top',
+                }}
               >
                 <img
                   src={url}
