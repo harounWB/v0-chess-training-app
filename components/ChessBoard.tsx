@@ -162,7 +162,7 @@ export function ChessBoard({
           setAnimatingTo(null);
           setAnimatingPiece(null);
           prevFenRef.current = fen;
-        }, 200);
+        }, 320);
 
         return () => clearTimeout(timeout);
       } else {
@@ -586,32 +586,36 @@ export function ChessBoard({
             );
           })}
 
-          {/* Animated ghost piece - slides from source to destination */}
+          {/* Animated ghost piece - slides from source to destination using transform */}
           {animatingFrom && animatingTo && animatingPiece && (() => {
             const pieceKey = `${animatingPiece.color}${animatingPiece.type.toUpperCase()}`;
             const url = PIECE_URLS[pieceKey];
             if (!url) return null;
 
             const fromCoords = squareToCoords(animatingFrom, orientation);
-            const toCoords = squareToCoords(animatingTo, orientation);
+            const toCoords   = squareToCoords(animatingTo,   orientation);
+
+            // Place the ghost at the FROM square, then translate it to the TO square.
+            // Using transform:translate is GPU-composited — no teleporting, silky smooth.
+            const dx = (toCoords.x - fromCoords.x) * 12.5; // % units
+            const dy = (toCoords.y - fromCoords.y) * 12.5;
 
             return (
               <div
                 key="animating-piece"
-                className="absolute p-0.5 piece-animating"
+                className="absolute p-0.5"
                 style={{
-                  left: `${toCoords.x * 12.5}%`,
-                  top: `${toCoords.y * 12.5}%`,
+                  left: `${fromCoords.x * 12.5}%`,
+                  top:  `${fromCoords.y * 12.5}%`,
                   width: '12.5%',
                   height: '12.5%',
                   zIndex: 50,
                   pointerEvents: 'none',
-                  // Start from source position via CSS custom properties
-                  '--from-left': `${fromCoords.x * 12.5}%`,
-                  '--from-top': `${fromCoords.y * 12.5}%`,
-                  '--to-left': `${toCoords.x * 12.5}%`,
-                  '--to-top': `${toCoords.y * 12.5}%`,
-                  animation: 'pieceSlide 180ms cubic-bezier(0.2, 0, 0, 1) forwards',
+                  // Animate the translate from (0,0) → (dx,dy) using a keyframe
+                  '--dx': `${dx}%`,
+                  '--dy': `${dy}%`,
+                  animation: 'pieceSlide 300ms cubic-bezier(0.25, 0.1, 0.25, 1) forwards',
+                  willChange: 'transform',
                 } as React.CSSProperties}
               >
                 <img
@@ -619,7 +623,7 @@ export function ChessBoard({
                   alt="moving piece"
                   className="w-full h-full select-none"
                   draggable={false}
-                  style={{ filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.4))' }}
+                  style={{ filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.35))' }}
                 />
               </div>
             );

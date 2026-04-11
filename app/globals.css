@@ -141,20 +141,14 @@
   pointer-events: auto !important;
 }
 
-/* Chess.com-style piece slide animation */
+/* Chess.com-style piece slide — GPU-composited via transform, never teleports */
 @keyframes pieceSlide {
   0% {
-    left: var(--from-left);
-    top: var(--from-top);
+    transform: translate(0, 0);
   }
   100% {
-    left: var(--to-left);
-    top: var(--to-top);
+    transform: translate(var(--dx), var(--dy));
   }
-}
-
-.piece-animating {
-  will-change: left, top;
 }
 
 .animate-capture {
