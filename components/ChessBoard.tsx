@@ -522,33 +522,33 @@ export function ChessBoard({
           {piecePositions.map((pos) => {
             const pieceKey = `${pos.piece.color}${pos.piece.type.toUpperCase()}`;
             const url = PIECE_URLS[pieceKey];
-            
+
             const isMovingPiece = animatingFrom === pos.square;
             const isDraggingPiece = dragState.isDragging && dragState.from === pos.square;
-            
+
             if (!url) return null;
 
             const toCoords = animatingTo ? squareToCoords(animatingTo, orientation) : null;
-            
-            let finalX = pos.x;
-            let finalY = pos.y;
 
-            // Priority: dragging takes precedence over animation
+            // pos.x and pos.y are 0–7 grid indices. Convert to CSS % (each square = 12.5%)
+            let cssLeft = `${pos.x * 12.5}%`;
+            let cssTop  = `${pos.y * 12.5}%`;
+
             if (isDraggingPiece && boardRef.current) {
+              // Center the piece under the cursor (subtract half a square so it's centred)
               const boardRect = boardRef.current.getBoundingClientRect();
               const squareSize = boardRect.width / 8;
-              
-              // Calculate which square the piece should be at (0-7 index)
-              const fileIndex = (dragState.currentX - boardRect.left) / squareSize;
-              const rankIndex = (dragState.currentY - boardRect.top) / squareSize;
-              
-              // Clamp to board and convert to percentage for positioning
-              finalX = Math.max(0, Math.min(7.5, fileIndex)) / 8;
-              finalY = Math.max(0, Math.min(7.5, rankIndex)) / 8;
+              const halfSquare = squareSize / 2;
+              const rawLeft = dragState.currentX - boardRect.left - halfSquare;
+              const rawTop  = dragState.currentY - boardRect.top  - halfSquare;
+              // Clamp so the piece stays inside the board visually
+              const clampedLeft = Math.max(0, Math.min(boardRect.width  - squareSize, rawLeft));
+              const clampedTop  = Math.max(0, Math.min(boardRect.height - squareSize, rawTop));
+              cssLeft = `${clampedLeft}px`;
+              cssTop  = `${clampedTop}px`;
             } else if (isMovingPiece && toCoords) {
-              // If animating (not dragging), move to destination
-              finalX = toCoords.x;
-              finalY = toCoords.y;
+              cssLeft = `${toCoords.x * 12.5}%`;
+              cssTop  = `${toCoords.y * 12.5}%`;
             }
 
             return (
@@ -556,14 +556,19 @@ export function ChessBoard({
                 key={pos.square}
                 className={`absolute p-0.5 ${isDraggingPiece ? 'piece-dragging' : ''}`}
                 style={{
-                  left: `${finalX * 100}%`,
-                  top: `${finalY * 100}%`,
+                  left: cssLeft,
+                  top: cssTop,
                   width: '12.5%',
                   height: '12.5%',
-                  transition: isMovingPiece ? 'all 220ms cubic-bezier(0.25, 0.46, 0.45, 0.94)' : 'none',
-                  transform: isDraggingPiece ? 'scale(1.1)' : 'scale(1)',
-                  filter: isDraggingPiece ? 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))' : 'drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3))',
-                  zIndex: isDraggingPiece ? 50 : 10,
+                  transition: isMovingPiece && !isDraggingPiece
+                    ? 'left 220ms cubic-bezier(0.25, 0.46, 0.45, 0.94), top 220ms cubic-bezier(0.25, 0.46, 0.45, 0.94)'
+                    : 'none',
+                  transform: isDraggingPiece ? 'scale(1.15)' : 'scale(1)',
+                  filter: isDraggingPiece
+                    ? 'drop-shadow(0 8px 20px rgba(0,0,0,0.5))'
+                    : 'drop-shadow(0 2px 4px rgba(0,0,0,0.3))',
+                  zIndex: isDraggingPiece ? 100 : 10,
+                  pointerEvents: 'none',
                 }}
               >
                 <img
