@@ -54,13 +54,21 @@ export default function SupportPage() {
                   setSelectedCrypto(key);
                   setSelectedNetwork(null);
                 }}
-                className={`w-full flex items-center gap-4 p-4 rounded-lg transition-all duration-200 ${
+                className={`w-full flex items-center gap-3 p-4 rounded-lg transition-all duration-200 ${
                   selectedCrypto === key
                     ? 'bg-purple-600/30 border border-purple-500 shadow-lg shadow-purple-500/20'
                     : 'bg-gray-800/50 border border-gray-700 hover:bg-gray-800 hover:border-gray-600'
                 }`}
               >
-                <img src={crypto.icon} alt={crypto.name} className="w-6 h-6 rounded-full" />
+                <img
+                  src={crypto.icon}
+                  alt={crypto.name}
+                  className="w-6 h-6 flex-shrink-0 object-contain"
+                  loading="lazy"
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"%3E%3Ccircle cx="12" cy="12" r="10"/%3E%3C/svg%3E';
+                  }}
+                />
                 <div className="flex-1 text-left">
                   <div className="font-medium text-white">{crypto.name}</div>
                   <div className="text-sm text-gray-400">{crypto.symbol}</div>
