@@ -589,6 +589,7 @@ export function Trainer({ games }: TrainerProps) {
                 wrongMoveSquares={wrongMoveSquares}
                 correctMoveSquares={correctMoveSquares}
                 draggable={true}
+                playerColor={trainingMode === 'train' ? playerColor : null}
               />
             ) : (
               <div className="w-full max-w-md aspect-square bg-gray-800 rounded-lg flex items-center justify-center border border-gray-700">

@@ -16,6 +16,8 @@ interface ChessBoardProps {
   wrongMoveSquares?: { from: string; to: string } | null;
   correctMoveSquares?: { from: string; to: string } | null;
   draggable?: boolean;
+  /** When set, only this color's pieces can ever be interacted with (train mode). */
+  playerColor?: 'w' | 'b' | null;
 }
 
 const FILES = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
@@ -81,6 +83,7 @@ export function ChessBoard({
   wrongMoveSquares = null,
   correctMoveSquares = null,
   draggable = true,
+  playerColor = null,
 }: ChessBoardProps) {
   const [selectedSquare, setSelectedSquare] = useState<string | null>(null);
   const [shakeBoard, setShakeBoard] = useState(false);
@@ -173,10 +176,12 @@ export function ChessBoard({
         return;
       }
 
-      // Select a piece — STRICT turn-based logic
-      // Only the side to move can pick up their pieces
+      // Select a piece
+      // If playerColor is set, only that color's pieces can ever be selected.
+      // Additionally the piece must belong to the side whose turn it currently is.
       const piece = chess.get(square);
-      if (piece && piece.color === chess.turn()) {
+      const isPlayersPiece = playerColor ? piece?.color === playerColor : true;
+      if (piece && isPlayersPiece && piece.color === chess.turn()) {
         setSelectedSquare(square);
         return;
       }
@@ -184,7 +189,7 @@ export function ChessBoard({
       // Clicked on an empty or opponent square with nothing selected
       setSelectedSquare(null);
     },
-    [selectedSquare, chess, disabled, legalMoves, tryMove]
+    [selectedSquare, chess, disabled, legalMoves, tryMove, playerColor]
   );
 
   // ─── DRAG (MOUSE) ─────────────────────────────────────────────────────────
@@ -192,15 +197,17 @@ export function ChessBoard({
     (e: React.MouseEvent, square: string) => {
       if (disabled || !draggable) return;
       const piece = chess.get(square);
-      // STRICT: Only allow dragging pieces of the side to move
-      if (!piece || piece.color !== chess.turn()) return;
+      if (!piece) return;
+      // Only allow dragging the player's own pieces when they are to move
+      if (playerColor && piece.color !== playerColor) return;
+      if (piece.color !== chess.turn()) return;
       if (!legalMoves[square]?.length) return;
 
       // Record the potential drag start — don't commit yet
       pendingDragRef.current = { from: square, startX: e.clientX, startY: e.clientY };
       e.preventDefault();
     },
-    [disabled, draggable, chess, legalMoves]
+    [disabled, draggable, chess, legalMoves, playerColor]
   );
 
   const handleMouseMove = useCallback(
@@ -249,15 +256,17 @@ export function ChessBoard({
     (e: React.TouchEvent, square: string) => {
       if (disabled || !draggable) return;
       const piece = chess.get(square);
-      // STRICT: Only allow dragging pieces of the side to move
-      if (!piece || piece.color !== chess.turn()) return;
+      if (!piece) return;
+      // Only allow dragging the player's own pieces when they are to move
+      if (playerColor && piece.color !== playerColor) return;
+      if (piece.color !== chess.turn()) return;
       if (!legalMoves[square]?.length) return;
 
       const t = e.touches[0];
       pendingDragRef.current = { from: square, startX: t.clientX, startY: t.clientY };
       e.preventDefault();
     },
-    [disabled, draggable, chess, legalMoves]
+    [disabled, draggable, chess, legalMoves, playerColor]
   );
 
   const handleTouchMove = useCallback(
