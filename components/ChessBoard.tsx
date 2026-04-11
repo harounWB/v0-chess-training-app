@@ -426,8 +426,6 @@ export function ChessBoard({
             if (!url) return null;
 
             const isDragging = dragState?.from === pos.square;
-            // Piece is disabled if it's not the side to move
-            const isDisabled = pos.piece.color !== chess.turn();
 
             let cssLeft = `${pos.x * 12.5}%`;
             let cssTop  = `${pos.y * 12.5}%`;
@@ -456,8 +454,6 @@ export function ChessBoard({
                     ? 'drop-shadow(0 8px 16px rgba(0,0,0,0.45))'
                     : 'drop-shadow(0 2px 4px rgba(0,0,0,0.25))',
                   zIndex: isDragging ? 100 : 10,
-                  opacity: isDragging ? 1 : (isDisabled ? 0.5 : 1),
-                  cursor: isDisabled ? 'default' : 'grab',
                 }}
               >
                 <img

@@ -62,13 +62,22 @@ export function Trainer({ games }: TrainerProps) {
       };
       setCurrentSession(newSession);
       
-      // In train mode, if playing as Black, start AFTER White's first move
+      // In train mode, if playing as Black, wait 1 second then auto-play White's first move
       if (trainingMode === 'train' && playerColor === 'b' && currentGame.moves.length > 0) {
-        setMoveIndex(1); // Start after White's first move
-        setMessage(`Playing as Black. Your turn...`);
+        setMoveIndex(0); // Start at beginning
+        setMessage(`White is playing...`);
+        // Delay 1 second before auto-playing White's first move
+        const timer = setTimeout(() => {
+          setMoveIndex(1); // Move to after White's first move
+          setMessage(`Playing as Black. Your turn...`);
+        }, 1000);
+        return () => clearTimeout(timer);
+      } else if (trainingMode === 'explore') {
+        setMoveIndex(0);
+        setMessage(''); // No message in explore mode
       } else {
         setMoveIndex(0);
-        setMessage(`Playing as ${playerColor === 'w' ? 'White' : 'Black'}. ${playerColor === 'w' ? 'Your turn...' : 'Your turn...'}`);
+        setMessage(`Playing as ${playerColor === 'w' ? 'White' : 'Black'}. Your turn...`);
       }
     }
   }, [currentGame, playerColor, trainingMode, difficulty]);
@@ -394,17 +403,26 @@ export function Trainer({ games }: TrainerProps) {
 
   const handleResetGame = useCallback(() => {
     if (currentGame) {
-      // When playing as Black in train mode, start after White's first move
-      if (trainingMode === 'train' && playerColor === 'b' && currentGame.moves.length > 0) {
-        setMoveIndex(1);
-      } else {
-        setMoveIndex(0);
-      }
-      setMessage(`Resetting game. Playing as ${playerColor === 'w' ? 'White' : 'Black'}.`);
       setIsCorrect(null);
       setHintLevel(0);
       setWrongMoveSquares(null);
       setCorrectMoveSquares(null);
+      
+      // When playing as Black in train mode, show White moving then advance
+      if (trainingMode === 'train' && playerColor === 'b' && currentGame.moves.length > 0) {
+        setMoveIndex(0);
+        setMessage(`White is playing...`);
+        setTimeout(() => {
+          setMoveIndex(1);
+          setMessage(`Playing as Black. Your turn...`);
+        }, 1000);
+      } else if (trainingMode === 'explore') {
+        setMoveIndex(0);
+        setMessage('');
+      } else {
+        setMoveIndex(0);
+        setMessage(`Playing as ${playerColor === 'w' ? 'White' : 'Black'}. Your turn...`);
+      }
     }
   }, [currentGame, playerColor, trainingMode]);
 
