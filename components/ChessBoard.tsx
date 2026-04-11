@@ -20,7 +20,6 @@ interface ChessBoardProps {
 const FILES = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
 const RANKS = ['8', '7', '6', '5', '4', '3', '2', '1'];
 
-// Lichess cburnett piece set
 const LICHESS_PIECE_BASE = 'https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/cburnett';
 const PIECE_URLS: Record<string, string> = {
   'wK': `${LICHESS_PIECE_BASE}/wK.svg`,
@@ -38,8 +37,8 @@ const PIECE_URLS: Record<string, string> = {
 };
 
 function squareToCoords(square: string, orientation: 'white' | 'black'): { x: number; y: number } {
-  const file = square.charCodeAt(0) - 97; // a=0, h=7
-  const rank = parseInt(square[1]) - 1; // 1=0, 8=7
+  const file = square.charCodeAt(0) - 97;
+  const rank = parseInt(square[1]) - 1;
   
   if (orientation === 'white') {
     return { x: file, y: 7 - rank };
@@ -48,13 +47,11 @@ function squareToCoords(square: string, orientation: 'white' | 'black'): { x: nu
   }
 }
 
-interface AnimatingPiece {
-  pieceKey: string;
-  fromX: number;
-  fromY: number;
-  toX: number;
-  toY: number;
-  startTime: number;
+interface PiecePosition {
+  piece: { type: string; color: 'w' | 'b' };
+  square: string;
+  x: number;
+  y: number;
 }
 
 export function ChessBoard({
@@ -71,12 +68,13 @@ export function ChessBoard({
   correctMoveSquares = null,
 }: ChessBoardProps) {
   const [selectedSquare, setSelectedSquare] = useState<string | null>(null);
-  const [animatingPiece, setAnimatingPiece] = useState<AnimatingPiece | null>(null);
-  const [animationProgress, setAnimationProgress] = useState(0);
   const [shakeBoard, setShakeBoard] = useState(false);
+  const [animatingFrom, setAnimatingFrom] = useState<string | null>(null);
+  const [animatingTo, setAnimatingTo] = useState<string | null>(null);
   const prevFenRef = useRef<string>(fen);
-  const animationFrameRef = useRef<number | null>(null);
   
+  const chess = useMemo(() => new Chess(fen), [fen]);
+
   // Shake animation on wrong move
   useEffect(() => {
     if (wrongMove) {
@@ -85,121 +83,61 @@ export function ChessBoard({
       return () => clearTimeout(timeout);
     }
   }, [wrongMove]);
-  
-  const chess = useMemo(() => new Chess(fen), [fen]);
-  const prevChess = useMemo(() => {
-    try {
-      return new Chess(prevFenRef.current);
-    } catch {
-      return new Chess();
-    }
-  }, []);
 
-  // Animation duration in ms
-  const ANIMATION_DURATION = 200;
-
-  // Detect piece movement and animate
+  // Detect FEN change and trigger animation
   useEffect(() => {
     if (prevFenRef.current === fen) return;
-    
-    const prevBoard = prevChess;
-    const currBoard = chess;
-    
-    // Find the piece that moved
-    let fromSquare: string | null = null;
-    let toSquare: string | null = null;
-    let movedPiece: { type: string; color: 'w' | 'b' } | null = null;
-    
-    // Check all squares for changes
-    for (const file of FILES) {
-      for (const rank of RANKS) {
-        const square = `${file}${rank}`;
-        const prevPiece = prevBoard.get(square);
-        const currPiece = currBoard.get(square);
-        
-        // Piece disappeared from this square
-        if (prevPiece && !currPiece) {
-          fromSquare = square;
-          movedPiece = prevPiece;
-        }
-        // Same piece appeared on new square
-        if (currPiece && !prevPiece && movedPiece && 
-            currPiece.type === movedPiece.type && currPiece.color === movedPiece.color) {
-          toSquare = square;
-        }
-        // Piece captured (different piece now)
-        if (currPiece && prevPiece && movedPiece &&
-            currPiece.type === movedPiece.type && currPiece.color === movedPiece.color &&
-            (prevPiece.type !== currPiece.type || prevPiece.color !== currPiece.color)) {
-          toSquare = square;
-        }
-      }
-    }
-    
-    // Handle castling - find rook movement
-    if (!toSquare && fromSquare && movedPiece?.type === 'k') {
-      // King moved, find where it went
+
+    try {
+      const prevChess = new Chess(prevFenRef.current);
+      
+      // Find which piece moved
+      let fromSquare: string | null = null;
+      let toSquare: string | null = null;
+
       for (const file of FILES) {
         for (const rank of RANKS) {
           const square = `${file}${rank}`;
-          const currPiece = currBoard.get(square);
-          if (currPiece?.type === 'k' && currPiece.color === movedPiece.color) {
+          const prevPiece = prevChess.get(square);
+          const currPiece = chess.get(square);
+
+          // Piece disappeared (source of move)
+          if (prevPiece && !currPiece) {
+            fromSquare = square;
+          }
+
+          // Piece appeared (destination of move) - match type and color
+          if (currPiece && !prevPiece) {
+            // This could be the destination
             toSquare = square;
-            break;
           }
         }
-        if (toSquare) break;
       }
-    }
-    
-    if (fromSquare && toSquare && movedPiece) {
-      const fromCoords = squareToCoords(fromSquare, orientation);
-      const toCoords = squareToCoords(toSquare, orientation);
-      
-      const pieceKey = `${movedPiece.color}${movedPiece.type.toUpperCase()}`;
-      
-      setAnimatingPiece({
-        pieceKey,
-        fromX: fromCoords.x,
-        fromY: fromCoords.y,
-        toX: toCoords.x,
-        toY: toCoords.y,
-        startTime: performance.now(),
-      });
-      setAnimationProgress(0);
-    }
-    
-    prevFenRef.current = fen;
-  }, [fen, chess, prevChess, orientation]);
 
-  // Animation loop
+      // Set animation state if we found from and to squares
+      if (fromSquare && toSquare) {
+        setAnimatingFrom(fromSquare);
+        setAnimatingTo(toSquare);
+
+        // Clear animation after 200ms
+        const timeout = setTimeout(() => {
+          setAnimatingFrom(null);
+          setAnimatingTo(null);
+        }, 200);
+
+        return () => clearTimeout(timeout);
+      }
+    } catch {
+      // Silently handle invalid FEN
+    }
+
+    prevFenRef.current = fen;
+  }, [fen, chess]);
+
+  // Always update prevFenRef
   useEffect(() => {
-    if (!animatingPiece) return;
-    
-    const animate = (currentTime: number) => {
-      const elapsed = currentTime - animatingPiece.startTime;
-      const progress = Math.min(elapsed / ANIMATION_DURATION, 1);
-      
-      // Easing function (ease-out cubic)
-      const eased = 1 - Math.pow(1 - progress, 3);
-      setAnimationProgress(eased);
-      
-      if (progress < 1) {
-        animationFrameRef.current = requestAnimationFrame(animate);
-      } else {
-        setAnimatingPiece(null);
-        setAnimationProgress(0);
-      }
-    };
-    
-    animationFrameRef.current = requestAnimationFrame(animate);
-    
-    return () => {
-      if (animationFrameRef.current) {
-        cancelAnimationFrame(animationFrameRef.current);
-      }
-    };
-  }, [animatingPiece]);
+    prevFenRef.current = fen;
+  }, [fen]);
 
   const legalMoves = useMemo(() => {
     const moves: Record<string, string[]> = {};
@@ -275,20 +213,30 @@ export function ChessBoard({
   const files = orientation === 'white' ? FILES : [...FILES].reverse();
   const ranks = orientation === 'white' ? RANKS : [...RANKS].reverse();
 
-  // Calculate animating piece position
-  const getAnimatingPieceStyle = () => {
-    if (!animatingPiece) return null;
+  // Get all pieces with their positions
+  const getPiecePositions = (): PiecePosition[] => {
+    const positions: PiecePosition[] = [];
     
-    const currentX = animatingPiece.fromX + (animatingPiece.toX - animatingPiece.fromX) * animationProgress;
-    const currentY = animatingPiece.fromY + (animatingPiece.toY - animatingPiece.fromY) * animationProgress;
+    for (const file of FILES) {
+      for (const rank of RANKS) {
+        const square = `${file}${rank}`;
+        const piece = chess.get(square);
+        if (piece) {
+          const coords = squareToCoords(square, orientation);
+          positions.push({
+            piece,
+            square,
+            x: coords.x,
+            y: coords.y,
+          });
+        }
+      }
+    }
     
-    return {
-      left: `${currentX * 12.5}%`,
-      top: `${currentY * 12.5}%`,
-      width: '12.5%',
-      height: '12.5%',
-    };
+    return positions;
   };
+
+  const piecePositions = getPiecePositions();
 
   return (
     <div className="flex justify-center w-full select-none">
@@ -317,14 +265,11 @@ export function ChessBoard({
               const isCorrectMoveFrom = correctMoveSquares?.from === square;
               const isCorrectMoveTo = correctMoveSquares?.to === square;
 
-              // Board colors
               let bgColor = isLight ? '#f0d9b5' : '#b58863';
               
               if (isCorrectMoveFrom || isCorrectMoveTo) {
-                // Green flash for correct move (300ms)
                 bgColor = isLight ? '#a6d5a6' : '#7fb07f';
               } else if (isWrongMoveFrom || isWrongMoveTo) {
-                // Red flash for wrong move attempt (400ms)
                 bgColor = isLight ? '#f08080' : '#d9534f';
               } else if (isHintPiece) {
                 bgColor = isLight ? '#90caf9' : '#42a5f5';
@@ -348,7 +293,6 @@ export function ChessBoard({
                   style={{ backgroundColor: bgColor }}
                   aria-label={`Square ${square}`}
                 >
-                  {/* Coordinates */}
                   {showRank && (
                     <span 
                       className="absolute top-0.5 left-1 font-bold select-none pointer-events-none"
@@ -401,62 +345,41 @@ export function ChessBoard({
 
         {/* Pieces layer */}
         <div className="absolute inset-0 pointer-events-none">
-          {ranks.map((rank, rankIdx) =>
-            files.map((file, fileIdx) => {
-              const square = `${file}${rank}`;
-              const piece = chess.get(square);
-              
-              if (!piece) return null;
-              
-              // Hide piece at destination during animation
-              const isAnimatingToHere = animatingPiece && 
-                animatingPiece.toX === fileIdx && 
-                animatingPiece.toY === rankIdx &&
-                animationProgress < 1;
-              
-              if (isAnimatingToHere) return null;
-              
-              const pieceKey = `${piece.color}${piece.type.toUpperCase()}`;
-              const url = PIECE_URLS[pieceKey];
-              
-              if (!url) return null;
+          {piecePositions.map((pos) => {
+            const pieceKey = `${pos.piece.color}${pos.piece.type.toUpperCase()}`;
+            const url = PIECE_URLS[pieceKey];
+            const fromCoords = animatingFrom ? squareToCoords(animatingFrom, orientation) : null;
+            const toCoords = animatingTo ? squareToCoords(animatingTo, orientation) : null;
 
-              return (
-                <div
-                  key={square}
-                  className="absolute p-0.5"
-                  style={{
-                    left: `${fileIdx * 12.5}%`,
-                    top: `${rankIdx * 12.5}%`,
-                    width: '12.5%',
-                    height: '12.5%',
-                  }}
-                >
-                  <img
-                    src={url}
-                    alt={`${piece.color === 'w' ? 'white' : 'black'} ${piece.type}`}
-                    className="w-full h-full"
-                    draggable={false}
-                  />
-                </div>
-              );
-            })
-          )}
-          
-          {/* Animating piece */}
-          {animatingPiece && (
-            <div
-              className="absolute p-0.5 z-10"
-              style={getAnimatingPieceStyle() || undefined}
-            >
-              <img
-                src={PIECE_URLS[animatingPiece.pieceKey]}
-                alt="moving piece"
-                className="w-full h-full"
-                draggable={false}
-              />
-            </div>
-          )}
+            // Check if this piece is animating
+            const isAnimating = animatingFrom && animatingTo && 
+              pos.square === animatingFrom &&
+              fromCoords && toCoords;
+
+            if (!url) return null;
+
+            return (
+              <div
+                key={pos.square}
+                className={`absolute p-0.5 ${isAnimating ? 'transition-all' : ''}`}
+                style={{
+                  left: `${(isAnimating ? toCoords!.x : pos.x) * 12.5}%`,
+                  top: `${(isAnimating ? toCoords!.y : pos.y) * 12.5}%`,
+                  width: '12.5%',
+                  height: '12.5%',
+                  transitionDuration: isAnimating ? '200ms' : '0ms',
+                  transitionTimingFunction: 'cubic-bezier(0.25, 0.46, 0.45, 0.94)',
+                }}
+              >
+                <img
+                  src={url}
+                  alt={`${pos.piece.color === 'w' ? 'white' : 'black'} ${pos.piece.type}`}
+                  className="w-full h-full select-none"
+                  draggable={false}
+                />
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
