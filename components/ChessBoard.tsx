@@ -284,14 +284,47 @@ export function ChessBoard({
   const squares = getSquares();
   const chess = chessRef.current;
 
+  // Responsive board size
+  const [boardSize, setBoardSize] = useState(400);
+  const squareSize = boardSize / 8;
+  const pieceSize = squareSize * 0.85;
+
+  // Calculate responsive board size
+  useEffect(() => {
+    const updateSize = () => {
+      const vw = window.innerWidth;
+      const vh = window.innerHeight;
+      
+      // Mobile: 90% of viewport width, max 500px
+      // Desktop: larger, max 600px
+      let size: number;
+      if (vw < 768) {
+        size = Math.min(vw * 0.9, vh * 0.5, 500);
+      } else {
+        size = Math.min(vw * 0.45, vh * 0.7, 600);
+      }
+      
+      // Ensure it's divisible by 8 for clean squares
+      size = Math.floor(size / 8) * 8;
+      setBoardSize(Math.max(280, size));
+    };
+
+    updateSize();
+    window.addEventListener('resize', updateSize);
+    return () => window.removeEventListener('resize', updateSize);
+  }, []);
+
   return (
     <div className="flex justify-center w-full">
       <div
         ref={boardRef}
         className={`relative grid grid-cols-8 rounded-lg overflow-hidden shadow-2xl select-none ${shaking ? 'animate-shake' : ''}`}
-        style={{ width: '400px', height: '400px' }}
+        style={{ 
+          width: `${boardSize}px`, 
+          height: `${boardSize}px`,
+        }}
       >
-        {squares.map((square, index) => {
+        {squares.map((square) => {
           const file = square[0];
           const rank = square[1];
           const fileIndex = FILES.indexOf(file);
@@ -306,11 +339,9 @@ export function ChessBoard({
           return (
             <div
               key={square}
-              className="relative flex items-center justify-center cursor-pointer"
+              className="relative flex items-center justify-center cursor-pointer aspect-square"
               style={{
                 backgroundColor: getSquareColor(square, isLight),
-                width: '50px',
-                height: '50px',
               }}
               onClick={() => handleSquareClick(square)}
               onMouseDown={(e) => piece && handleDragStart(e, square)}
@@ -321,10 +352,10 @@ export function ChessBoard({
                 <div
                   className="absolute rounded-full pointer-events-none"
                   style={{
-                    width: hasPiece ? '90%' : '30%',
-                    height: hasPiece ? '90%' : '30%',
+                    width: hasPiece ? '85%' : '30%',
+                    height: hasPiece ? '85%' : '30%',
                     backgroundColor: hasPiece ? 'transparent' : 'rgba(0, 0, 0, 0.15)',
-                    border: hasPiece ? '5px solid rgba(0, 0, 0, 0.15)' : 'none',
+                    border: hasPiece ? `${Math.max(3, squareSize * 0.08)}px solid rgba(0, 0, 0, 0.15)` : 'none',
                   }}
                 />
               )}
@@ -334,7 +365,8 @@ export function ChessBoard({
                 <img
                   src={PIECE_IMAGES[pieceKey]}
                   alt={pieceKey}
-                  className="w-11 h-11 pointer-events-none"
+                  className="pointer-events-none"
+                  style={{ width: `${pieceSize}px`, height: `${pieceSize}px` }}
                   draggable={false}
                 />
               )}
@@ -342,16 +374,22 @@ export function ChessBoard({
               {/* Coordinate labels */}
               {(orientation === 'white' ? file === 'a' : file === 'h') && (
                 <span
-                  className="absolute top-0.5 left-1 text-xs font-bold pointer-events-none select-none"
-                  style={{ color: isLight ? '#b58863' : '#f0d9b5' }}
+                  className="absolute top-0.5 left-1 font-bold pointer-events-none select-none"
+                  style={{ 
+                    color: isLight ? '#b58863' : '#f0d9b5',
+                    fontSize: `${Math.max(10, squareSize * 0.18)}px`,
+                  }}
                 >
                   {rank}
                 </span>
               )}
               {(orientation === 'white' ? rank === '1' : rank === '8') && (
                 <span
-                  className="absolute bottom-0.5 right-1 text-xs font-bold pointer-events-none select-none"
-                  style={{ color: isLight ? '#b58863' : '#f0d9b5' }}
+                  className="absolute bottom-0.5 right-1 font-bold pointer-events-none select-none"
+                  style={{ 
+                    color: isLight ? '#b58863' : '#f0d9b5',
+                    fontSize: `${Math.max(10, squareSize * 0.18)}px`,
+                  }}
                 >
                   {file}
                 </span>
@@ -365,10 +403,10 @@ export function ChessBoard({
           <div
             className="fixed pointer-events-none z-50"
             style={{
-              left: dragging.x - 25,
-              top: dragging.y - 25,
-              width: '50px',
-              height: '50px',
+              left: dragging.x - pieceSize / 2,
+              top: dragging.y - pieceSize / 2,
+              width: `${pieceSize}px`,
+              height: `${pieceSize}px`,
             }}
           >
             {(() => {
@@ -379,6 +417,7 @@ export function ChessBoard({
                   src={PIECE_IMAGES[pieceKey]}
                   alt={pieceKey}
                   className="w-full h-full drop-shadow-lg"
+                  style={{ transform: 'scale(1.1)' }}
                   draggable={false}
                 />
               ) : null;
