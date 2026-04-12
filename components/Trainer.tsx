@@ -35,9 +35,10 @@ export function Trainer({ games }: TrainerProps) {
   const [currentSession, setCurrentSession] = useState<GameSession | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [playbackSpeed, setPlaybackSpeed] = useState(1);
+  const [boardOrientation, setBoardOrientation] = useState<'white' | 'black'>('white');
   const playbackIntervalRef = useRef<NodeJS.Timeout | null>(null);
 
-  // Initialize game state when game is selected
+  // Initialize game state when game is selected or player color changes
   useEffect(() => {
     if (currentGame) {
       const chess = new Chess();
@@ -62,13 +63,22 @@ export function Trainer({ games }: TrainerProps) {
       };
       setCurrentSession(newSession);
       
-      // In train mode, if playing as Black, auto-play White's first move
+      // In train mode, if playing as Black, wait 1 second then auto-play White's first move
       if (trainingMode === 'train' && playerColor === 'b' && currentGame.moves.length > 0) {
-        setMoveIndex(1); // Start after White's first move
-        setMessage(`Playing as Black. Your turn...`);
+        setMoveIndex(0); // Start at beginning
+        setMessage(`White is playing...`);
+        // Delay 1 second before auto-playing White's first move
+        const timer = setTimeout(() => {
+          setMoveIndex(1); // Move to after White's first move
+          setMessage(`Playing as Black. Your turn...`);
+        }, 1000);
+        return () => clearTimeout(timer);
+      } else if (trainingMode === 'explore') {
+        setMoveIndex(0);
+        setMessage(''); // No message in explore mode
       } else {
         setMoveIndex(0);
-        setMessage(`Playing as ${playerColor === 'w' ? 'White' : 'Black'}. ${playerColor === 'w' ? 'Your turn...' : 'Your turn...'}`);
+        setMessage(`Playing as ${playerColor === 'w' ? 'White' : 'Black'}. Your turn...`);
       }
     }
   }, [currentGame, playerColor, trainingMode, difficulty]);
@@ -394,11 +404,28 @@ export function Trainer({ games }: TrainerProps) {
 
   const handleResetGame = useCallback(() => {
     if (currentGame) {
-      setMoveIndex(0);
-      setMessage(`Resetting game. Playing as ${playerColor === 'w' ? 'White' : 'Black'}.`);
       setIsCorrect(null);
+      setHintLevel(0);
+      setWrongMoveSquares(null);
+      setCorrectMoveSquares(null);
+      
+      // When playing as Black in train mode, show White moving then advance
+      if (trainingMode === 'train' && playerColor === 'b' && currentGame.moves.length > 0) {
+        setMoveIndex(0);
+        setMessage(`White is playing...`);
+        setTimeout(() => {
+          setMoveIndex(1);
+          setMessage(`Playing as Black. Your turn...`);
+        }, 1000);
+      } else if (trainingMode === 'explore') {
+        setMoveIndex(0);
+        setMessage('');
+      } else {
+        setMoveIndex(0);
+        setMessage(`Playing as ${playerColor === 'w' ? 'White' : 'Black'}. Your turn...`);
+      }
     }
-  }, [currentGame, playerColor]);
+  }, [currentGame, playerColor, trainingMode]);
 
   const handleCompleteGame = useCallback(() => {
     if (currentGame) {
@@ -556,13 +583,14 @@ export function Trainer({ games }: TrainerProps) {
                 onNavigate={handleKeyboardNavigation}
                 disabled={moveIndex >= (currentGame?.moves.length || 0) && trainingMode === 'train'}
                 lastMove={lastMove ? { from: lastMove.from, to: lastMove.to } : undefined}
-                orientation={playerColor === 'w' ? 'white' : 'black'}
+                orientation={trainingMode === 'explore' ? boardOrientation : (playerColor === 'w' ? 'white' : 'black')}
                 hintSquare={trainingMode === 'train' && hintLevel >= 1 ? hintData.hintSquare : null}
                 hintDestinations={trainingMode === 'train' && hintLevel >= 2 ? hintData.hintDestinations : []}
                 wrongMove={isCorrect === false}
                 wrongMoveSquares={wrongMoveSquares}
                 correctMoveSquares={correctMoveSquares}
                 draggable={true}
+                playerColor={trainingMode === 'train' ? playerColor : null}
               />
             ) : (
               <div className="w-full max-w-md aspect-square bg-gray-800 rounded-lg flex items-center justify-center border border-gray-700">
@@ -698,6 +726,7 @@ export function Trainer({ games }: TrainerProps) {
               difficulty={difficulty}
               onModeChange={setTrainingMode}
               onColorChange={setPlayerColor}
+              onFlipBoard={() => setBoardOrientation(o => o === 'white' ? 'black' : 'white')}
               onDifficultyChange={setDifficulty}
               onReset={handleResetGame}
               onNavigateMove={handleNavigateMove}

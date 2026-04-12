@@ -16,6 +16,8 @@ interface ChessBoardProps {
   wrongMoveSquares?: { from: string; to: string } | null;
   correctMoveSquares?: { from: string; to: string } | null;
   draggable?: boolean;
+  /** When set, only this color's pieces can ever be interacted with (train mode). */
+  playerColor?: 'w' | 'b' | null;
 }
 
 const FILES = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
@@ -47,17 +49,24 @@ function squareToCoords(square: string, orientation: 'white' | 'black'): { x: nu
   if (orientation === 'white') {
     return { x: file, y: 7 - rank }; // rank 8 → row 0 (top)
   } else {
+    // Black orientation: flip both axes
     return { x: 7 - file, y: rank };
   }
 }
 
 function coordsToSquare(x: number, y: number, orientation: 'white' | 'black'): string | null {
   if (x < 0 || x >= 8 || y < 0 || y >= 8) return null;
-  // x = column index 0-7 left→right, y = row index 0-7 top→bottom
+  
   if (orientation === 'white') {
-    return `${FILES[x]}${RANKS[y]}`;
+    // White: normal mapping
+    const file = FILES[x];           // x: 0→a, 7→h
+    const rank = RANKS[y];           // y: 0→8, 7→1
+    return `${file}${rank}`;
   } else {
-    return `${FILES[7 - x]}${RANKS[7 - y]}`;
+    // Black: invert both axes to flip the board coordinates
+    const file = FILES[7 - x];       // x: 0→h, 7→a
+    const rank = RANKS[7 - y];       // y: 0→1, 7→8
+    return `${file}${rank}`;
   }
 }
 
@@ -81,6 +90,7 @@ export function ChessBoard({
   wrongMoveSquares = null,
   correctMoveSquares = null,
   draggable = true,
+  playerColor = null,
 }: ChessBoardProps) {
   const [selectedSquare, setSelectedSquare] = useState<string | null>(null);
   const [shakeBoard, setShakeBoard] = useState(false);
@@ -174,8 +184,11 @@ export function ChessBoard({
       }
 
       // Select a piece
+      // If playerColor is set, only that color's pieces can ever be selected.
+      // Additionally the piece must belong to the side whose turn it currently is.
       const piece = chess.get(square);
-      if (piece && piece.color === chess.turn()) {
+      const isPlayersPiece = playerColor ? piece?.color === playerColor : true;
+      if (piece && isPlayersPiece && piece.color === chess.turn()) {
         setSelectedSquare(square);
         return;
       }
@@ -183,7 +196,7 @@ export function ChessBoard({
       // Clicked on an empty or opponent square with nothing selected
       setSelectedSquare(null);
     },
-    [selectedSquare, chess, disabled, legalMoves, tryMove]
+    [selectedSquare, chess, disabled, legalMoves, tryMove, playerColor]
   );
 
   // ─── DRAG (MOUSE) ─────────────────────────────────────────────────────────
@@ -191,14 +204,17 @@ export function ChessBoard({
     (e: React.MouseEvent, square: string) => {
       if (disabled || !draggable) return;
       const piece = chess.get(square);
-      if (!piece || piece.color !== chess.turn()) return;
+      if (!piece) return;
+      // Only allow dragging the player's own pieces when they are to move
+      if (playerColor && piece.color !== playerColor) return;
+      if (piece.color !== chess.turn()) return;
       if (!legalMoves[square]?.length) return;
 
       // Record the potential drag start — don't commit yet
       pendingDragRef.current = { from: square, startX: e.clientX, startY: e.clientY };
       e.preventDefault();
     },
-    [disabled, draggable, chess, legalMoves]
+    [disabled, draggable, chess, legalMoves, playerColor]
   );
 
   const handleMouseMove = useCallback(
@@ -247,14 +263,17 @@ export function ChessBoard({
     (e: React.TouchEvent, square: string) => {
       if (disabled || !draggable) return;
       const piece = chess.get(square);
-      if (!piece || piece.color !== chess.turn()) return;
+      if (!piece) return;
+      // Only allow dragging the player's own pieces when they are to move
+      if (playerColor && piece.color !== playerColor) return;
+      if (piece.color !== chess.turn()) return;
       if (!legalMoves[square]?.length) return;
 
       const t = e.touches[0];
       pendingDragRef.current = { from: square, startX: t.clientX, startY: t.clientY };
       e.preventDefault();
     },
-    [disabled, draggable, chess, legalMoves]
+    [disabled, draggable, chess, legalMoves, playerColor]
   );
 
   const handleTouchMove = useCallback(
@@ -361,6 +380,15 @@ export function ChessBoard({
                 bgColor = isLight ? '#f7f769' : '#baca2b';
               }
 
+              // Determine display position based on orientation
+              let displayRank = rank;
+              let displayFile = file;
+              if (orientation === 'black') {
+                // Reverse the display coordinates
+                displayRank = String(9 - parseInt(rank));
+                displayFile = String.fromCharCode(104 - displayFile.charCodeAt(0)); // 'h'=104, 'a'=97
+              }
+
               return (
                 <button
                   key={square}
@@ -374,21 +402,21 @@ export function ChessBoard({
                   draggable={false}
                 >
                   {/* Rank label */}
-                  {file === 'a' && (
+                  {(orientation === 'white' ? file === 'a' : file === 'h') && (
                     <span
                       className="absolute top-0.5 left-1 font-bold pointer-events-none select-none"
                       style={{ color: isLight ? '#b58863' : '#f0d9b5', fontSize: '11px' }}
                     >
-                      {rank}
+                      {displayRank}
                     </span>
                   )}
                   {/* File label */}
-                  {rank === '1' && (
+                  {(orientation === 'white' ? rank === '1' : rank === '8') && (
                     <span
                       className="absolute bottom-0.5 right-1 font-bold pointer-events-none select-none"
                       style={{ color: isLight ? '#b58863' : '#f0d9b5', fontSize: '11px' }}
                     >
-                      {file}
+                      {displayFile}
                     </span>
                   )}
 
@@ -451,7 +479,6 @@ export function ChessBoard({
                     ? 'drop-shadow(0 8px 16px rgba(0,0,0,0.45))'
                     : 'drop-shadow(0 2px 4px rgba(0,0,0,0.25))',
                   zIndex: isDragging ? 100 : 10,
-                  opacity: isDragging ? 1 : 1,
                 }}
               >
                 <img

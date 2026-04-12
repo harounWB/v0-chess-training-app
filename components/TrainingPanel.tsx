@@ -16,6 +16,7 @@ interface TrainingPanelProps {
   difficulty?: DifficultyLevel;
   onModeChange: (mode: TrainingMode) => void;
   onColorChange: (color: PlayerColor) => void;
+  onFlipBoard: () => void;
   onDifficultyChange?: (difficulty: DifficultyLevel) => void;
   onReset: () => void;
   onNavigateMove: (index: number) => void;
@@ -34,6 +35,7 @@ export function TrainingPanel({
   difficulty = 'medium',
   onModeChange,
   onColorChange,
+  onFlipBoard,
   onDifficultyChange,
   onReset,
   onNavigateMove,
@@ -91,33 +93,44 @@ export function TrainingPanel({
           </Button>
         </div>
 
-        {/* Player Color Selection */}
-        <div className="flex gap-2">
+        {/* Color Selection: Flip Board in explore, Play White/Black in train */}
+        {trainingMode === 'explore' ? (
           <Button
             size="sm"
-            variant={playerColor === 'w' ? 'default' : 'outline'}
-            onClick={() => onColorChange('w')}
-            className={
-              playerColor === 'w'
-                ? 'bg-blue-600 hover:bg-blue-700'
-                : 'bg-gray-800 hover:bg-gray-700'
-            }
+            variant="outline"
+            onClick={onFlipBoard}
+            className="bg-gray-800 hover:bg-gray-700 w-full"
           >
-            Play White
+            Flip Board
           </Button>
-          <Button
-            size="sm"
-            variant={playerColor === 'b' ? 'default' : 'outline'}
-            onClick={() => onColorChange('b')}
-            className={
-              playerColor === 'b'
-                ? 'bg-blue-600 hover:bg-blue-700'
-                : 'bg-gray-800 hover:bg-gray-700'
-            }
-          >
-            Play Black
-          </Button>
-        </div>
+        ) : (
+          <div className="flex gap-2">
+            <Button
+              size="sm"
+              variant={playerColor === 'w' ? 'default' : 'outline'}
+              onClick={() => onColorChange('w')}
+              className={
+                playerColor === 'w'
+                  ? 'bg-blue-600 hover:bg-blue-700'
+                  : 'bg-gray-800 hover:bg-gray-700'
+              }
+            >
+              Play White
+            </Button>
+            <Button
+              size="sm"
+              variant={playerColor === 'b' ? 'default' : 'outline'}
+              onClick={() => onColorChange('b')}
+              className={
+                playerColor === 'b'
+                  ? 'bg-blue-600 hover:bg-blue-700'
+                  : 'bg-gray-800 hover:bg-gray-700'
+              }
+            >
+              Play Black
+            </Button>
+          </div>
+        )}
 
         {/* Difficulty Level Selection - Only show in train mode */}
         {trainingMode === 'train' && onDifficultyChange && (
@@ -158,64 +171,6 @@ export function TrainingPanel({
           className={`text-sm p-3 rounded bg-gray-800 ${getMessageColor()} min-h-10 flex items-center`}
         >
           {message}
-        </div>
-
-        {/* Expected Move (Explore mode) */}
-        {trainingMode === 'explore' && expectedMove && (
-          <div className="text-sm p-2 bg-gray-800 rounded border border-gray-700">
-            <div className="text-gray-400 text-xs mb-1">Next move:</div>
-            <div className="text-blue-300 font-mono">{expectedMove}</div>
-          </div>
-        )}
-
-        {/* Progress Bar */}
-        <div className="space-y-1">
-          <div className="text-xs text-gray-400">
-            Progress: {moveIndex}/{game.moves.length}
-          </div>
-          <div className="w-full bg-gray-800 rounded h-2 overflow-hidden border border-gray-700">
-            <div
-              className="h-full bg-purple-600 transition-all duration-300"
-              style={{ width: `${moveProgressPercentage}%` }}
-            />
-          </div>
-        </div>
-
-        {/* Move Navigation Controls */}
-        <div className="space-y-2">
-          <div className="text-xs font-medium text-gray-400 uppercase tracking-wide">
-            Move Navigation
-          </div>
-          <div className="flex gap-2">
-            <Button
-              size="sm"
-              onClick={() => onNavigateMove(0)}
-              className="flex-1 bg-gray-800 hover:bg-gray-700 text-gray-300 text-xs"
-            >
-              ⏮ Start
-            </Button>
-            <Button
-              size="sm"
-              onClick={() => onNavigateMove(Math.max(0, moveIndex - 1))}
-              className="flex-1 bg-gray-800 hover:bg-gray-700 text-gray-300 text-xs"
-            >
-              ◀ Previous
-            </Button>
-            <Button
-              size="sm"
-              onClick={() => onNavigateMove(Math.min(game.moves.length, moveIndex + 1))}
-              className="flex-1 bg-gray-800 hover:bg-gray-700 text-gray-300 text-xs"
-            >
-              Next ▶
-            </Button>
-            <Button
-              size="sm"
-              onClick={() => onNavigateMove(game.moves.length)}
-              className="flex-1 bg-gray-800 hover:bg-gray-700 text-gray-300 text-xs"
-            >
-              End ⏭
-            </Button>
-          </div>
         </div>
 
         {/* Control Buttons */}
