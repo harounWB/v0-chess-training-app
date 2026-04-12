@@ -47,10 +47,12 @@ function squareToCoords(square: string, orientation: 'white' | 'black'): { x: nu
   const rank = parseInt(square[1]) - 1;   // 1=0 … 8=7
 
   if (orientation === 'white') {
-    return { x: file, y: 7 - rank }; // rank 8 → row 0 (top)
+    // White: a-file at left (x=0), rank-1 at bottom (y=7)
+    return { x: file, y: 7 - rank };
   } else {
-    // Black orientation: flip both axes
-    return { x: 7 - file, y: rank };
+    // Black: h-file at left (x=0), rank-8 at bottom (y=7)
+    // This is the INVERSE of coordsToSquare
+    return { x: 7 - file, y: 7 - rank };
   }
 }
 
@@ -171,7 +173,6 @@ export function ChessBoard({
   // ─── CLICK TO MOVE ────────────────────────────────────────────────────────
   const onSquareClick = useCallback(
     (square: string) => {
-      console.log('[v0] Click:', { square, orientation });
       if (disabled) return;
 
       // Deselect
@@ -182,7 +183,6 @@ export function ChessBoard({
 
       // Complete a move
       if (selectedSquare && legalMoves[selectedSquare]?.includes(square)) {
-        console.log('[v0] Move:', { from: selectedSquare, to: square });
         tryMove(selectedSquare, square);
         setSelectedSquare(null);
         return;
@@ -254,7 +254,6 @@ export function ChessBoard({
         const col = Math.floor((e.clientX - boardRect.left) / sq);
         const row = Math.floor((e.clientY - boardRect.top) / sq);
         const toSquare = coordsToSquare(col, row, orientation);
-        console.log('[v0] Drag end:', { from: dragState.from, to: toSquare, col, row, orientation });
         if (toSquare) tryMove(dragState.from, toSquare);
         setDragState(null);
         setSelectedSquare(null);
@@ -317,7 +316,6 @@ export function ChessBoard({
         const col = Math.floor((t.clientX - boardRect.left) / sq);
         const row = Math.floor((t.clientY - boardRect.top) / sq);
         const toSquare = coordsToSquare(col, row, orientation);
-        console.log('[v0] Touch drag end:', { from: dragState.from, to: toSquare, col, row, orientation });
         if (toSquare) tryMove(dragState.from, toSquare);
         setDragState(null);
         setSelectedSquare(null);
