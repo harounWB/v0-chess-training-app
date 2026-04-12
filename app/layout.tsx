@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import { GameProvider } from '@/lib/GameContext'
 import { SupportButton } from '@/components/SupportButton'
 import './globals.css'
 
@@ -38,10 +39,13 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className="font-sans antialiased" suppressHydrationWarning>
-        {children}
-        <SupportButton />
-        {process.env.NODE_ENV === 'production' && <Analytics />}
+        <GameProvider>
+          {children}
+          <SupportButton />
+          {process.env.NODE_ENV === 'production' && <Analytics />}
+        </GameProvider>
       </body>
     </html>
   )
 }
+

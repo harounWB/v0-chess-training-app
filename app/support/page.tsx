@@ -155,10 +155,10 @@ export default function SupportPage() {
         {/* Back Link */}
         <div className="text-center">
           <a
-            href="/"
+            href="/upload"
             className="text-purple-400 hover:text-purple-300 transition-colors text-sm"
           >
-            ← Back to Training
+            ← Back to Upload
           </a>
         </div>
       </div>
