@@ -38,14 +38,12 @@ export function Trainer({ games }: TrainerProps) {
   const [playbackSpeed, setPlaybackSpeed] = useState(1);
   const [boardOrientation, setBoardOrientation] = useState<'white' | 'black'>('white');
   const [exploreFen, setExploreFen] = useState<string | null>(null);
-  const [exploreMoveCount, setExploreMoveCount] = useState(0); // Track moves in explore mode
   const playbackIntervalRef = useRef<NodeJS.Timeout | null>(null);
 
   // Reset exploreFen when switching to explore mode
   useEffect(() => {
     if (trainingMode === 'explore') {
       setExploreFen(null);
-      setExploreMoveCount(0);
     }
   }, [trainingMode]);
 
@@ -365,7 +363,7 @@ export function Trainer({ games }: TrainerProps) {
           }, 400);
         }
       } else {
-        // EXPLORE MODE - apply move freely using exploreFen
+        // EXPLORE MODE - apply move and check if it matches PGN
         const currentFen = exploreFen || getCurrentFen();
         const exploreChess = new Chess(currentFen);
         const result = exploreChess.move(move);
@@ -373,8 +371,42 @@ export function Trainer({ games }: TrainerProps) {
         if (result) {
           setExploreFen(exploreChess.fen());
           setExploreMoveCount(prev => prev + 1);
-          setMessage(`Moved: ${result.san}`);
-          setIsCorrect(null);
+          
+          // Check if this move matches the next PGN move
+          if (currentGame && moveIndex < currentGame.moves.length) {
+            const expectedMove = currentGame.moves[moveIndex];
+            // Compare both directions since PGN can store moves as "from-to" or "e2e4"
+            const moveMatches = 
+              (expectedMove.from === move.from && expectedMove.to === move.to) ||
+              (expectedMove.notation === result.san);
+            
+            if (moveMatches) {
+              // Advance through PGN like pressing Next
+              setMoveIndex(moveIndex + 1);
+              setCorrectMoveSquares({ from: move.from, to: move.to });
+              setTimeout(() => setCorrectMoveSquares(null), 300);
+              
+              // Check if we're at an opponent move
+              if (moveIndex + 1 < currentGame.moves.length) {
+                // Schedule opponent move if exists
+                setTimeout(() => {
+                  const nextIndex = moveIndex + 2;
+                  if (nextIndex < currentGame.moves.length) {
+                    setMoveIndex(nextIndex);
+                  }
+                }, 500);
+              }
+              
+              setMessage(`Correct! ${result.san}`);
+              setIsCorrect(true);
+            } else {
+              setMessage(`Moved: ${result.san} (not the PGN move)`);
+              setIsCorrect(null);
+            }
+          } else {
+            setMessage(`Moved: ${result.san}`);
+            setIsCorrect(null);
+          }
         } else {
           setIsCorrect(false);
           setMessage('Invalid move!');
@@ -409,7 +441,6 @@ export function Trainer({ games }: TrainerProps) {
       } else if (trainingMode === 'explore') {
         setMoveIndex(0);
         setExploreFen(null);
-        setExploreMoveCount(0);
         setMessage('');
       } else {
         setMoveIndex(0);
@@ -607,7 +638,7 @@ export function Trainer({ games }: TrainerProps) {
                   <ChevronLeft className="h-4 w-4" />
                 </Button>
   <span className="text-xs text-gray-400 min-w-[60px] text-center">
-    {trainingMode === 'explore' ? `${exploreMoveCount} moves` : `${moveIndex} / ${currentGame.moves.length}`}
+    {trainingMode === 'explore' ? `${moveIndex} / ${currentGame.moves.length}` : `${moveIndex} / ${currentGame.moves.length}`}
   </span>
                 <Button
                   variant="ghost"
