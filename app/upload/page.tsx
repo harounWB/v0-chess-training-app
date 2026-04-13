@@ -12,14 +12,20 @@ export default function UploadPage() {
   const { games, setGames, setSelectedGame, clearGameData } = useGameContext();
   const [isLoading, setIsLoading] = useState(false);
 
-  const handleGamesLoaded = (loadedGames: Game[]) => {
+  const handleGamesLoaded = async (loadedGames: Game[]) => {
     setIsLoading(true);
+    
+    // Store games in context (this triggers localStorage save)
     setGames(loadedGames);
     
-    // Auto-select first game and navigate to training
+    // Select first game
     if (loadedGames.length > 0) {
       setSelectedGame(loadedGames[0]);
-      router.push('/training');
+      
+      // Delay redirect slightly to ensure state is persisted
+      setTimeout(() => {
+        router.push('/training');
+      }, 100);
     } else {
       setIsLoading(false);
     }
