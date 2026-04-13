@@ -300,6 +300,17 @@ export function Trainer({ games }: TrainerProps) {
               
               // After opponent move completes, update board state
               setTimeout(() => {
+                // Play sound for opponent's move
+                const opponentMove = currentGame.moves[newIndex];
+                if (opponentMove) {
+                  const tempChess = new Chess();
+                  for (let i = 0; i < newIndex; i++) {
+                    const m = currentGame.moves[i];
+                    tempChess.move({ from: m.from, to: m.to, promotion: m.promotion });
+                  }
+                  const result = tempChess.move({ from: opponentMove.from, to: opponentMove.to, promotion: opponentMove.promotion });
+                  playMoveSound(result?.captured !== undefined);
+                }
                 setMoveIndex(opponentIndex);
                 setShowMoveComment(false);
                 if (opponentIndex >= currentGame.moves.length) {
@@ -508,6 +519,18 @@ export function Trainer({ games }: TrainerProps) {
     
     const playNextMove = () => {
       if (nextIndex <= currentGame.moves.length) {
+        // Play sound for this move
+        const moveToPlay = currentGame.moves[nextIndex - 1];
+        if (moveToPlay) {
+          const tempChess = new Chess();
+          for (let i = 0; i < nextIndex - 1; i++) {
+            const m = currentGame.moves[i];
+            tempChess.move({ from: m.from, to: m.to, promotion: m.promotion });
+          }
+          const result = tempChess.move({ from: moveToPlay.from, to: moveToPlay.to, promotion: moveToPlay.promotion });
+          playMoveSound(result?.captured !== undefined);
+        }
+        
         handleNavigateMove(nextIndex);
         nextIndex += 1;
         
@@ -521,7 +544,7 @@ export function Trainer({ games }: TrainerProps) {
     };
     
     playbackIntervalRef.current = setTimeout(playNextMove, delayMs);
-  }, [trainingMode, currentGame, moveIndex, playbackSpeed, handleNavigateMove]);
+  }, [trainingMode, currentGame, moveIndex, playbackSpeed, handleNavigateMove, playMoveSound]);
 
   const handlePlaybackPause = useCallback(() => {
     setIsPlaying(false);
