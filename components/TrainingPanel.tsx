@@ -73,8 +73,8 @@ export function TrainingPanel({
             onClick={() => onModeChange('train')}
             className={
               trainingMode === 'train'
-                ? 'bg-purple-600 hover:bg-purple-700'
-                : 'bg-gray-800 hover:bg-gray-700'
+                ? 'bg-purple-600 hover:bg-purple-700 text-white'
+                : 'bg-gray-800 hover:bg-gray-700 text-white'
             }
           >
             Train
@@ -85,8 +85,8 @@ export function TrainingPanel({
             onClick={() => onModeChange('explore')}
             className={
               trainingMode === 'explore'
-                ? 'bg-purple-600 hover:bg-purple-700'
-                : 'bg-gray-800 hover:bg-gray-700'
+                ? 'bg-purple-600 hover:bg-purple-700 text-white'
+                : 'bg-gray-800 hover:bg-gray-700 text-white'
             }
           >
             Explore
@@ -99,7 +99,7 @@ export function TrainingPanel({
             size="sm"
             variant="outline"
             onClick={onFlipBoard}
-            className="bg-gray-800 hover:bg-gray-700 w-full"
+            className="bg-gray-800 hover:bg-gray-700 w-full text-white"
           >
             Flip Board
           </Button>
@@ -111,8 +111,8 @@ export function TrainingPanel({
               onClick={() => onColorChange('w')}
               className={
                 playerColor === 'w'
-                  ? 'bg-blue-600 hover:bg-blue-700'
-                  : 'bg-gray-800 hover:bg-gray-700'
+                  ? 'bg-blue-600 hover:bg-blue-700 text-white'
+                  : 'bg-gray-800 hover:bg-gray-700 text-white'
               }
             >
               Play White
@@ -123,8 +123,8 @@ export function TrainingPanel({
               onClick={() => onColorChange('b')}
               className={
                 playerColor === 'b'
-                  ? 'bg-blue-600 hover:bg-blue-700'
-                  : 'bg-gray-800 hover:bg-gray-700'
+                  ? 'bg-blue-600 hover:bg-blue-700 text-white'
+                  : 'bg-gray-800 hover:bg-gray-700 text-white'
               }
             >
               Play Black

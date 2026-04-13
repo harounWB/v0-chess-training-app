@@ -11,12 +11,14 @@ import { SessionFeedback } from './SessionFeedback';
 import { PlaybackControls } from './PlaybackControls';
 import { Button } from './ui/button';
 import { ChevronLeft, ChevronRight, ChevronsLeft, ChevronsRight, Lightbulb } from 'lucide-react';
+import { useChessSound } from '@/hooks/useChessSound';
 
 interface TrainerProps {
   games: Game[];
 }
 
 export function Trainer({ games }: TrainerProps) {
+  const { playMoveSound } = useChessSound();
   const [currentGame, setCurrentGame] = useState<Game | null>(null);
   const [moveIndex, setMoveIndex] = useState(0);
   const [trainingMode, setTrainingMode] = useState<TrainingMode>('train');
@@ -266,6 +268,8 @@ export function Trainer({ games }: TrainerProps) {
           setIsCorrect(true);
           setHintLevel(0);
           setShowMoveComment(true);
+          // Play move sound
+          playMoveSound(false);
           // Update highlight at same time as move (in same state batch)
           setCorrectMoveSquares({ from: move.from, to: move.to });
           
@@ -296,6 +300,17 @@ export function Trainer({ games }: TrainerProps) {
               
               // After opponent move completes, update board state
               setTimeout(() => {
+                // Play sound for opponent's move
+                const opponentMove = currentGame.moves[newIndex];
+                if (opponentMove) {
+                  const tempChess = new Chess();
+                  for (let i = 0; i < newIndex; i++) {
+                    const m = currentGame.moves[i];
+                    tempChess.move({ from: m.from, to: m.to, promotion: m.promotion });
+                  }
+                  const result = tempChess.move({ from: opponentMove.from, to: opponentMove.to, promotion: opponentMove.promotion });
+                  playMoveSound(result?.captured !== undefined);
+                }
                 setMoveIndex(opponentIndex);
                 setShowMoveComment(false);
                 if (opponentIndex >= currentGame.moves.length) {
@@ -370,6 +385,8 @@ export function Trainer({ games }: TrainerProps) {
         
         if (result) {
           setExploreFen(exploreChess.fen());
+          // Play move sound (capture if there was a captured piece)
+          playMoveSound(result.captured !== undefined);
           
           // Check if this move matches the next PGN move
           if (currentGame && moveIndex < currentGame.moves.length) {
@@ -400,7 +417,7 @@ export function Trainer({ games }: TrainerProps) {
         }
       }
     },
-    [currentGame, moveIndex, trainingMode, playerColor, getCurrentPosition, playOpponentMove, moveAttempts, currentSession, exploreFen, getCurrentFen]
+    [currentGame, moveIndex, trainingMode, playerColor, getCurrentPosition, playOpponentMove, moveAttempts, currentSession, exploreFen, getCurrentFen, playMoveSound]
   );
 
   const handleSelectGame = useCallback((game: Game) => {
@@ -502,6 +519,18 @@ export function Trainer({ games }: TrainerProps) {
     
     const playNextMove = () => {
       if (nextIndex <= currentGame.moves.length) {
+        // Play sound for this move
+        const moveToPlay = currentGame.moves[nextIndex - 1];
+        if (moveToPlay) {
+          const tempChess = new Chess();
+          for (let i = 0; i < nextIndex - 1; i++) {
+            const m = currentGame.moves[i];
+            tempChess.move({ from: m.from, to: m.to, promotion: m.promotion });
+          }
+          const result = tempChess.move({ from: moveToPlay.from, to: moveToPlay.to, promotion: moveToPlay.promotion });
+          playMoveSound(result?.captured !== undefined);
+        }
+        
         handleNavigateMove(nextIndex);
         nextIndex += 1;
         
@@ -515,7 +544,7 @@ export function Trainer({ games }: TrainerProps) {
     };
     
     playbackIntervalRef.current = setTimeout(playNextMove, delayMs);
-  }, [trainingMode, currentGame, moveIndex, playbackSpeed, handleNavigateMove]);
+  }, [trainingMode, currentGame, moveIndex, playbackSpeed, handleNavigateMove, playMoveSound]);
 
   const handlePlaybackPause = useCallback(() => {
     setIsPlaying(false);

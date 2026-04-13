@@ -51,12 +51,12 @@ export default function UploadPage() {
         <div className="space-y-8">
           {/* Header */}
           <header className="flex items-center justify-center">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-lg bg-purple-600/20 flex items-center justify-center">
-                <BookOpen className="w-5 h-5 text-purple-400" />
+            <div className="flex items-center gap-4">
+              <div className="w-14 h-14 rounded-xl bg-purple-600/20 flex items-center justify-center">
+                <BookOpen className="w-8 h-8 text-purple-400" />
               </div>
               <div>
-                <h1 className="text-xl font-bold text-white">Chess Opening Trainer</h1>
+                <h1 className="text-2xl font-bold text-white">Chess Opening Trainer</h1>
                 <p className="text-sm text-gray-500">Master openings with interactive training</p>
               </div>
             </div>

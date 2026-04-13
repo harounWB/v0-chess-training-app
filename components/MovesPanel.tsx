@@ -77,8 +77,8 @@ export function MovesPanel({
     if (trainingMode === 'explore') {
       return true; // Always show in explore mode
     }
-    // In train mode, show comment only for moves that have been played
-    return index < moveIndex;
+    // In train mode, never show comments
+    return false;
   };
 
   return (
