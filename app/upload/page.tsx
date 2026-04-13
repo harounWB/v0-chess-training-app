@@ -5,8 +5,7 @@ import { useRouter } from 'next/navigation';
 import { PGNUpload } from '@/components/PGNUpload';
 import { useGameContext } from '@/lib/GameContext';
 import { Game } from '@/lib/types';
-import { Play, Upload as UploadIcon } from 'lucide-react';
-import Image from 'next/image';
+import { BookOpen, Play, Upload as UploadIcon } from 'lucide-react';
 
 export default function UploadPage() {
   const router = useRouter();
@@ -53,14 +52,8 @@ export default function UploadPage() {
           {/* Header */}
           <header className="flex items-center justify-center">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-lg overflow-hidden">
-                <Image 
-                  src="/logo.jpg" 
-                  alt="Chess Opening Trainer Logo" 
-                  width={40} 
-                  height={40}
-                  className="w-full h-full object-cover"
-                />
+              <div className="w-10 h-10 rounded-lg bg-purple-600/20 flex items-center justify-center">
+                <BookOpen className="w-5 h-5 text-purple-400" />
               </div>
               <div>
                 <h1 className="text-xl font-bold text-white">Chess Opening Trainer</h1>
