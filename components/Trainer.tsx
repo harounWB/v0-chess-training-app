@@ -380,22 +380,10 @@ export function Trainer({ games }: TrainerProps) {
               (expectedMove.notation === result.san);
             
             if (moveMatches) {
-              // Advance through PGN like pressing Next
+              // Advance through PGN - no auto-play, user plays both sides
               setMoveIndex(moveIndex + 1);
               setCorrectMoveSquares({ from: move.from, to: move.to });
               setTimeout(() => setCorrectMoveSquares(null), 300);
-              
-              // Check if we're at an opponent move
-              if (moveIndex + 1 < currentGame.moves.length) {
-                // Schedule opponent move if exists
-                setTimeout(() => {
-                  const nextIndex = moveIndex + 2;
-                  if (nextIndex < currentGame.moves.length) {
-                    setMoveIndex(nextIndex);
-                  }
-                }, 500);
-              }
-              
               setMessage(`Correct! ${result.san}`);
               setIsCorrect(true);
             } else {
