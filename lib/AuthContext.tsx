@@ -2,7 +2,7 @@
 
 import { createContext, useContext, useEffect, useState } from 'react';
 import { User } from '@supabase/supabase-js';
-import { createClient } from '@/utils/supabase/client';
+import { createClient, hasSupabaseEnv } from '@/utils/supabase/client';
 
 interface AuthContextType {
   user: User | null;
@@ -23,6 +23,11 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const supabase = createClient();
 
   useEffect(() => {
+    if (!supabase) {
+      setLoading(false);
+      return;
+    }
+
     // Check if user is already logged in
     const getSession = async () => {
       const { data: { session } } = await supabase.auth.getSession();
@@ -44,6 +49,10 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const signUp = async (email: string, password: string) => {
+    if (!supabase) {
+      return { error: 'Authentication is not configured yet.' };
+    }
+
     const { error } = await supabase.auth.signUp({
       email,
       password,
@@ -52,6 +61,10 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   };
 
   const signIn = async (email: string, password: string) => {
+    if (!supabase) {
+      return { error: 'Authentication is not configured yet.' };
+    }
+
     const { error } = await supabase.auth.signInWithPassword({
       email,
       password,
@@ -60,6 +73,11 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   };
 
   const signOut = async () => {
+    if (!supabase) {
+      setIsGuest(false);
+      return;
+    }
+
     await supabase.auth.signOut();
     setIsGuest(false);
   };
@@ -75,7 +93,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       signUp,
       signIn,
       signOut,
-      isGuest,
+      isGuest: isGuest || !hasSupabaseEnv,
       setGuestMode,
     }}>
       {children}

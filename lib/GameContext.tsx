@@ -2,7 +2,7 @@
 
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import { Game } from '@/lib/types';
-import { createClient } from '@/utils/supabase/client';
+import { createClient, hasSupabaseEnv } from '@/utils/supabase/client';
 import { useAuth } from '@/lib/AuthContext';
 
 interface GameContextType {
@@ -62,7 +62,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
     }
 
     // Sync to database if authenticated
-    if (user && !isGuest) {
+    if (user && !isGuest && hasSupabaseEnv) {
       saveProgressToDatabase();
     } else {
       localStorage.setItem('chessGames', JSON.stringify(newGames));
@@ -75,7 +75,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
       const updated = prev.map(g => g.id === gameId ? { ...g, completed: true } : g);
 
       // Sync to database if authenticated
-      if (user && !isGuest) {
+      if (user && !isGuest && hasSupabaseEnv) {
         saveProgressToDatabase();
       } else {
         localStorage.setItem('chessGames', JSON.stringify(updated));
@@ -119,7 +119,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
 
   // Database sync functions
   const saveProgressToDatabase = async () => {
-    if (!user || isGuest) return;
+    if (!user || isGuest || !supabase) return;
 
     try {
       // Save current games
@@ -154,7 +154,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   };
 
   const loadProgressFromDatabase = async () => {
-    if (!user || isGuest) return;
+    if (!user || isGuest || !supabase) return;
 
     try {
       // Load games
@@ -201,7 +201,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     if (!mounted) return;
 
-    if (user && !isGuest) {
+    if (user && !isGuest && hasSupabaseEnv) {
       loadProgressFromDatabase();
     } else {
       // Load from localStorage for guest users
@@ -233,7 +233,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     if (!mounted) return;
 
-    if (user && !isGuest) {
+    if (user && !isGuest && hasSupabaseEnv) {
       saveProgressToDatabase();
     } else if (mounted) {
       localStorage.setItem('chessGames', JSON.stringify(games));
