@@ -10,7 +10,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Chess Opening Trainer',
+  metadataBase: new URL('https://openingmaster.xyz'),
+  title: 'OpeningMaster',
   description: 'Master chess openings with interactive training. Upload PGN files and train with multiple modes.',
   generator: 'v0.app',
   icons: {
