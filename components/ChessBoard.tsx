@@ -251,34 +251,48 @@ export function ChessBoard({
     }
   }, [dragging, handleDragMove, handleDragEnd]);
 
-  // Get square background color
+  // Get square background color with improved styling
   const getSquareColor = (square: string, isLight: boolean) => {
-    // Wrong move - red
+    // Wrong move - red with gradient
     if (wrongMoveSquares && (wrongMoveSquares.from === square || wrongMoveSquares.to === square)) {
-      return isLight ? '#f08080' : '#dc3545';
+      return isLight
+        ? 'linear-gradient(135deg, #ff6b6b 0%, #ee5a52 100%)'
+        : 'linear-gradient(135deg, #dc3545 0%, #c82333 100%)';
     }
-    // Correct move - green
+    // Correct move - green with gradient
     if (correctMoveSquares && (correctMoveSquares.from === square || correctMoveSquares.to === square)) {
-      return isLight ? '#90ee90' : '#28a745';
+      return isLight
+        ? 'linear-gradient(135deg, #51cf66 0%, #40c057 100%)'
+        : 'linear-gradient(135deg, #28a745 0%, #218838 100%)';
     }
-    // Hint piece - blue
+    // Hint piece - blue with gradient
     if (hintSquare === square) {
-      return isLight ? '#90caf9' : '#42a5f5';
+      return isLight
+        ? 'linear-gradient(135deg, #74c0fc 0%, #339af0 100%)'
+        : 'linear-gradient(135deg, #228be6 0%, #1971c2 100%)';
     }
-    // Hint destination - light blue
+    // Hint destination - light blue with gradient
     if (hintDestinations.includes(square)) {
-      return isLight ? '#b3e5fc' : '#4fc3f7';
+      return isLight
+        ? 'linear-gradient(135deg, #a5d8ff 0%, #74c0fc 100%)'
+        : 'linear-gradient(135deg, #4dabf7 0%, #339af0 100%)';
     }
-    // Last move highlight - yellow/green
+    // Last move highlight - yellow/green with gradient
     if (lastMove && (lastMove.from === square || lastMove.to === square)) {
-      return isLight ? '#f7f769' : '#baca2b';
+      return isLight
+        ? 'linear-gradient(135deg, #ffd43b 0%, #fab005 100%)'
+        : 'linear-gradient(135deg, #f59f00 0%, #e67700 100%)';
     }
-    // Selected square
+    // Selected square with gradient
     if (selectedSquare === square) {
-      return isLight ? '#f7f769' : '#baca2b';
+      return isLight
+        ? 'linear-gradient(135deg, #ffd43b 0%, #fab005 100%)'
+        : 'linear-gradient(135deg, #f59f00 0%, #e67700 100%)';
     }
-    // Normal square colors
-    return isLight ? '#f0d9b5' : '#b58863';
+    // Normal square colors with improved gradients
+    return isLight
+      ? 'linear-gradient(135deg, #f8f1e8 0%, #ede3d6 50%, #e8dcc8 100%)'
+      : 'linear-gradient(135deg, #c4a57c 0%, #b8956a 50%, #a67c52 100%)';
   };
 
   const squares = getSquares();
@@ -289,24 +303,24 @@ export function ChessBoard({
   const squareSize = boardSize / 8;
   const pieceSize = squareSize * 0.85;
 
-  // Calculate responsive board size
+  // Calculate responsive board size with better mobile support
   useEffect(() => {
     const updateSize = () => {
       const vw = window.innerWidth;
       const vh = window.innerHeight;
-      
-      // Mobile: 95% of viewport width, max 560px
-      // Desktop: larger, max 700px
+
+      // Mobile: 95% of viewport width, max 600px
+      // Desktop: larger, max 800px for better detail
       let size: number;
       if (vw < 768) {
-        size = Math.min(vw * 0.95, vh * 0.55, 560);
+        size = Math.min(vw * 0.95, vh * 0.6, 600);
       } else {
-        size = Math.min(vw * 0.5, vh * 0.75, 700);
+        size = Math.min(vw * 0.45, vh * 0.7, 800);
       }
-      
+
       // Ensure it's divisible by 8 for clean squares
       size = Math.floor(size / 8) * 8;
-      setBoardSize(Math.max(320, size));
+      setBoardSize(Math.max(360, size));
     };
 
     updateSize();
@@ -318,11 +332,22 @@ export function ChessBoard({
     <div className="flex justify-center w-full">
       <div
         ref={boardRef}
-        className={`relative grid grid-cols-8 rounded-lg overflow-hidden shadow-2xl select-none ${shaking ? 'animate-shake' : ''}`}
-        style={{ 
-          width: `${boardSize}px`, 
+        className={`relative grid grid-cols-8 rounded-xl overflow-hidden select-none border-4 border-amber-800/30 shadow-2xl ${shaking ? 'animate-shake' : ''}`}
+        style={{
+          width: `${boardSize}px`,
           height: `${boardSize}px`,
           touchAction: 'none',
+          background: `
+            linear-gradient(145deg, #8b4513 0%, #654321 50%, #4a2c17 100%),
+            radial-gradient(circle at 30% 30%, rgba(139, 69, 19, 0.3) 0%, transparent 50%),
+            radial-gradient(circle at 70% 70%, rgba(74, 44, 23, 0.2) 0%, transparent 50%)
+          `,
+          boxShadow: `
+            0 25px 50px -12px rgba(0, 0, 0, 0.25),
+            0 0 0 1px rgba(184, 134, 11, 0.1),
+            inset 0 1px 0 rgba(255, 255, 255, 0.1),
+            inset 0 -1px 0 rgba(0, 0, 0, 0.1)
+          `,
         }}
       >
         {squares.map((square) => {
@@ -340,9 +365,12 @@ export function ChessBoard({
           return (
             <div
               key={square}
-              className="relative flex items-center justify-center cursor-pointer aspect-square"
+              className="relative flex items-center justify-center cursor-pointer aspect-square transition-all duration-150 hover:brightness-105 active:scale-95"
               style={{
-                backgroundColor: getSquareColor(square, isLight),
+                background: getSquareColor(square, isLight),
+                boxShadow: isLight
+                  ? 'inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.1)'
+                  : 'inset 0 1px 0 rgba(255, 255, 255, 0.1), inset 0 -1px 0 rgba(0, 0, 0, 0.2)',
               }}
               onClick={() => handleSquareClick(square)}
               onMouseDown={(e) => piece && handleDragStart(e, square)}
@@ -351,12 +379,13 @@ export function ChessBoard({
               {/* Legal move indicator */}
               {isLegalTarget && !isDraggedPiece && (
                 <div
-                  className="absolute rounded-full pointer-events-none"
+                  className="absolute rounded-full pointer-events-none transition-all duration-200"
                   style={{
                     width: hasPiece ? '85%' : '30%',
                     height: hasPiece ? '85%' : '30%',
-                    backgroundColor: hasPiece ? 'transparent' : 'rgba(0, 0, 0, 0.15)',
-                    border: hasPiece ? `${Math.max(3, squareSize * 0.08)}px solid rgba(0, 0, 0, 0.15)` : 'none',
+                    backgroundColor: hasPiece ? 'transparent' : 'rgba(0, 0, 0, 0.25)',
+                    border: hasPiece ? `${Math.max(3, squareSize * 0.08)}px solid rgba(0, 0, 0, 0.25)` : 'none',
+                    boxShadow: hasPiece ? '0 0 8px rgba(0, 0, 0, 0.3)' : '0 0 12px rgba(0, 0, 0, 0.4)',
                   }}
                 />
               )}
@@ -366,8 +395,12 @@ export function ChessBoard({
                 <img
                   src={PIECE_IMAGES[pieceKey]}
                   alt={pieceKey}
-                  className="pointer-events-none"
-                  style={{ width: `${pieceSize}px`, height: `${pieceSize}px` }}
+                  className="pointer-events-none drop-shadow-sm"
+                  style={{
+                    width: `${pieceSize}px`,
+                    height: `${pieceSize}px`,
+                    filter: 'drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.3))',
+                  }}
                   draggable={false}
                 />
               )}
@@ -375,10 +408,11 @@ export function ChessBoard({
               {/* Coordinate labels */}
               {(orientation === 'white' ? file === 'a' : file === 'h') && (
                 <span
-                  className="absolute top-0.5 left-1 font-bold pointer-events-none select-none"
-                  style={{ 
-                    color: isLight ? '#b58863' : '#f0d9b5',
+                  className="absolute top-0.5 left-1 font-bold pointer-events-none select-none drop-shadow-sm"
+                  style={{
+                    color: isLight ? '#8b4513' : '#f4e4bc',
                     fontSize: `${Math.max(10, squareSize * 0.18)}px`,
+                    textShadow: '1px 1px 2px rgba(0, 0, 0, 0.5)',
                   }}
                 >
                   {rank}
@@ -386,10 +420,11 @@ export function ChessBoard({
               )}
               {(orientation === 'white' ? rank === '1' : rank === '8') && (
                 <span
-                  className="absolute bottom-0.5 right-1 font-bold pointer-events-none select-none"
-                  style={{ 
-                    color: isLight ? '#b58863' : '#f0d9b5',
+                  className="absolute bottom-0.5 right-1 font-bold pointer-events-none select-none drop-shadow-sm"
+                  style={{
+                    color: isLight ? '#8b4513' : '#f4e4bc',
                     fontSize: `${Math.max(10, squareSize * 0.18)}px`,
+                    textShadow: '1px 1px 2px rgba(0, 0, 0, 0.5)',
                   }}
                 >
                   {file}
@@ -417,8 +452,14 @@ export function ChessBoard({
                 <img
                   src={PIECE_IMAGES[pieceKey]}
                   alt={pieceKey}
-                  className="w-full h-full drop-shadow-lg"
-                  style={{ transform: 'scale(1.1)' }}
+                  className="w-full h-full"
+                  style={{
+                    transform: 'scale(1.15)',
+                    filter: `
+                      drop-shadow(2px 4px 8px rgba(0, 0, 0, 0.4))
+                      drop-shadow(0 0 20px rgba(255, 255, 255, 0.2))
+                    `,
+                  }}
                   draggable={false}
                 />
               ) : null;

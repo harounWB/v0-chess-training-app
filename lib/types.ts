@@ -34,7 +34,8 @@ export interface GameSession {
   completedAt?: number;
   totalMoves: number;
   correctMoves: number;
-  totalMistakes: number;
+  incorrectMoves: number;
+  hintsUsed: number;
 }
 
 export interface Game {

@@ -21,8 +21,8 @@ export function SessionFeedback({
   onReplayMistakes,
   onNewGame,
 }: SessionFeedbackProps) {
-  const accuracy = session.correctMoves > 0 
-    ? Math.round((session.correctMoves / session.totalMoves) * 100)
+  const accuracy = (session.correctMoves + session.incorrectMoves + session.hintsUsed) > 0 
+    ? Math.round((session.correctMoves / (session.correctMoves + session.incorrectMoves + session.hintsUsed)) * 100)
     : 0;
 
   const mistakeMoves = moveAttempts.filter(a => a.wrongAttempts > 0);
@@ -53,18 +53,22 @@ export function SessionFeedback({
         </div>
 
         {/* Stats grid */}
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
           <div className="p-3 rounded-lg bg-gray-800/50 border border-gray-700/50">
             <div className="text-2xl font-bold text-green-400">{accuracy}%</div>
             <div className="text-xs text-gray-400 mt-1">Accuracy</div>
           </div>
           <div className="p-3 rounded-lg bg-gray-800/50 border border-gray-700/50">
-            <div className="text-2xl font-bold text-blue-400">{session.correctMoves}/{session.totalMoves}</div>
+            <div className="text-2xl font-bold text-blue-400">{session.correctMoves}</div>
             <div className="text-xs text-gray-400 mt-1">Correct</div>
           </div>
           <div className="p-3 rounded-lg bg-gray-800/50 border border-gray-700/50">
-            <div className="text-2xl font-bold text-red-400">{session.totalMistakes}</div>
-            <div className="text-xs text-gray-400 mt-1">Mistakes</div>
+            <div className="text-2xl font-bold text-red-400">{session.incorrectMoves}</div>
+            <div className="text-xs text-gray-400 mt-1">Incorrect</div>
+          </div>
+          <div className="p-3 rounded-lg bg-gray-800/50 border border-gray-700/50">
+            <div className="text-2xl font-bold text-yellow-400">{session.hintsUsed}</div>
+            <div className="text-xs text-gray-400 mt-1">Hints</div>
           </div>
         </div>
 
@@ -77,6 +81,18 @@ export function SessionFeedback({
           <div className="flex justify-between text-gray-400">
             <span>Total Moves:</span>
             <span className="text-white font-medium">{session.totalMoves}</span>
+          </div>
+          <div className="flex justify-between text-gray-400">
+            <span>Correct on First Try:</span>
+            <span className="text-green-400 font-medium">{session.correctMoves}</span>
+          </div>
+          <div className="flex justify-between text-gray-400">
+            <span>Incorrect Moves:</span>
+            <span className="text-red-400 font-medium">{session.incorrectMoves}</span>
+          </div>
+          <div className="flex justify-between text-gray-400">
+            <span>Hints Used:</span>
+            <span className="text-yellow-400 font-medium">{session.hintsUsed}</span>
           </div>
         </div>
 

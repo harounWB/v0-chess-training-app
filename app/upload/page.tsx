@@ -4,12 +4,15 @@ import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { PGNUpload } from '@/components/PGNUpload';
 import { useGameContext } from '@/lib/GameContext';
+import { useAuth } from '@/lib/AuthContext';
 import { Game } from '@/lib/types';
-import { BookOpen, Play, Upload as UploadIcon } from 'lucide-react';
+import { BookOpen, Play, Upload as UploadIcon, AlertCircle } from 'lucide-react';
+import { Header } from '@/components/Header';
 
 export default function UploadPage() {
   const router = useRouter();
   const { games, setGames, setSelectedGame, clearGameData } = useGameContext();
+  const { user, isGuest } = useAuth();
   const [isLoading, setIsLoading] = useState(false);
 
   const handleGamesLoaded = async (loadedGames: Game[]) => {
@@ -46,8 +49,20 @@ export default function UploadPage() {
   const totalMoves = games.reduce((sum, g) => sum + g.moves.length, 0);
 
   return (
-    <main className="min-h-screen bg-gray-950 text-gray-100">
+    <div className="min-h-screen bg-gray-950 text-gray-100">
+      <Header />
       <div className="container mx-auto px-4 py-6 max-w-7xl">
+        {isGuest && (
+          <div className="max-w-md mx-auto mb-6 p-4 bg-amber-900/20 border border-amber-800/50 rounded-lg">
+            <div className="flex items-center gap-2 text-amber-400">
+              <AlertCircle className="w-4 h-4 flex-shrink-0" />
+              <span className="text-sm font-medium">Guest Mode</span>
+            </div>
+            <p className="text-sm text-amber-300 mt-1">
+              Your progress will be saved locally. Create an account to save progress permanently.
+            </p>
+          </div>
+        )}
         <div className="space-y-8">
           {/* Header */}
           <header className="flex items-center justify-center">
@@ -98,6 +113,6 @@ export default function UploadPage() {
           </div>
         </div>
       </div>
-    </main>
+    </div>
   );
 }

@@ -12,6 +12,7 @@ import { PlaybackControls } from './PlaybackControls';
 import { Button } from './ui/button';
 import { ChevronLeft, ChevronRight, ChevronsLeft, ChevronsRight, Lightbulb } from 'lucide-react';
 import { useChessSound } from '@/hooks/useChessSound';
+import { useGameContext } from '@/lib/GameContext';
 
 interface TrainerProps {
   games: Game[];
@@ -19,8 +20,8 @@ interface TrainerProps {
 
 export function Trainer({ games }: TrainerProps) {
   const { playMoveSound } = useChessSound();
-  const [currentGame, setCurrentGame] = useState<Game | null>(null);
-  const [moveIndex, setMoveIndex] = useState(0);
+  const { selectedGame, setSelectedGame, moveIndex, setMoveIndex } = useGameContext();
+  const currentGameIndex = games.findIndex(g => g.id === selectedGame?.id) ?? -1;
   const [trainingMode, setTrainingMode] = useState<TrainingMode>('train');
   const [playerColor, setPlayerColor] = useState<PlayerColor>('w');
   const [gameState, setGameState] = useState<Chess | null>(null);
@@ -37,6 +38,7 @@ export function Trainer({ games }: TrainerProps) {
   const [sessionComplete, setSessionComplete] = useState(false);
   const [currentSession, setCurrentSession] = useState<GameSession | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [moveAttemptedWrong, setMoveAttemptedWrong] = useState(false);
   const [playbackSpeed, setPlaybackSpeed] = useState(1);
   const [boardOrientation, setBoardOrientation] = useState<'white' | 'black'>('white');
   const [exploreFen, setExploreFen] = useState<string | null>(null);
@@ -51,7 +53,7 @@ export function Trainer({ games }: TrainerProps) {
 
   // Initialize game state when game is selected or player color changes
   useEffect(() => {
-    if (currentGame) {
+    if (selectedGame) {
       const chess = new Chess();
       setGameState(chess);
       setIsCorrect(null);
@@ -62,19 +64,25 @@ export function Trainer({ games }: TrainerProps) {
       setSessionComplete(false);
       setCorrectMoveSquares(null);
       setWrongMoveSquares(null);
+      setMoveAttemptedWrong(false);
       
       const newSession: GameSession = {
-        gameId: currentGame.id,
+        gameId: selectedGame.id,
         difficulty,
         moveAttempts: [],
         startTime: Date.now(),
-        totalMoves: currentGame.moves.length,
+        totalMoves: trainingMode === 'train'
+          ? playerColor === 'w'
+            ? Math.ceil(selectedGame.moves.length / 2) // White plays ceil(n/2) moves
+            : Math.floor(selectedGame.moves.length / 2) // Black plays floor(n/2) moves
+          : selectedGame.moves.length, // In explore mode, count all moves
         correctMoves: 0,
-        totalMistakes: 0,
+        incorrectMoves: 0,
+        hintsUsed: 0,
       };
       setCurrentSession(newSession);
       
-      if (trainingMode === 'train' && playerColor === 'b' && currentGame.moves.length > 0) {
+      if (trainingMode === 'train' && playerColor === 'b' && selectedGame.moves.length > 0) {
         setMoveIndex(0);
         setMessage(`White is playing...`);
         const timer = setTimeout(() => {
@@ -91,15 +99,15 @@ export function Trainer({ games }: TrainerProps) {
         setMessage(`Playing as ${playerColor === 'w' ? 'White' : 'Black'}. Your turn...`);
       }
     }
-  }, [currentGame, playerColor, trainingMode, difficulty]);
+  }, [selectedGame, playerColor, trainingMode, difficulty]);
 
   // Get current FEN by replaying moves up to moveIndex
   const getCurrentFen = useCallback((): string => {
     const chess = new Chess();
-    if (currentGame) {
+    if (selectedGame) {
       for (let i = 0; i < moveIndex; i++) {
-        if (i < currentGame.moves.length) {
-          const move = currentGame.moves[i];
+        if (i < selectedGame.moves.length) {
+          const move = selectedGame.moves[i];
           try {
             chess.move({
               from: move.from,
@@ -113,14 +121,14 @@ export function Trainer({ games }: TrainerProps) {
       }
     }
     return chess.fen();
-  }, [currentGame, moveIndex]);
+  }, [selectedGame, moveIndex]);
 
   const getCurrentPosition = useCallback((): Chess => {
     const chess = new Chess();
-    if (currentGame) {
+    if (selectedGame) {
       for (let i = 0; i < moveIndex; i++) {
-        if (i < currentGame.moves.length) {
-          const move = currentGame.moves[i];
+        if (i < selectedGame.moves.length) {
+          const move = selectedGame.moves[i];
           try {
             chess.move({
               from: move.from,
@@ -134,14 +142,14 @@ export function Trainer({ games }: TrainerProps) {
       }
     }
     return chess;
-  }, [currentGame, moveIndex]);
+  }, [selectedGame, moveIndex]);
 
   const getExpectedMove = useCallback((): string | null => {
-    if (!currentGame || moveIndex >= currentGame.moves.length) {
+    if (!selectedGame || moveIndex >= selectedGame.moves.length) {
       return null;
     }
     const currentPos = getCurrentPosition();
-    const expectedMove = currentGame.moves[moveIndex];
+    const expectedMove = selectedGame.moves[moveIndex];
     try {
       const result = currentPos.move({
         from: expectedMove.from,
@@ -152,14 +160,14 @@ export function Trainer({ games }: TrainerProps) {
     } catch {
       return null;
     }
-  }, [currentGame, moveIndex, getCurrentPosition]);
+  }, [selectedGame, moveIndex, getCurrentPosition]);
 
   const getCurrentMove = useCallback(() => {
-    if (!currentGame || moveIndex <= 0 || moveIndex > currentGame.moves.length) {
+    if (!selectedGame || moveIndex <= 0 || moveIndex > selectedGame.moves.length) {
       return null;
     }
-    return currentGame.moves[moveIndex - 1];
-  }, [currentGame, moveIndex]);
+    return selectedGame.moves[moveIndex - 1];
+  }, [selectedGame, moveIndex]);
 
   const getCurrentMoveNumber = useCallback(() => {
     if (moveIndex <= 0) return '';
@@ -169,21 +177,28 @@ export function Trainer({ games }: TrainerProps) {
   }, [moveIndex]);
 
   const getHintData = useCallback(() => {
-    if (!currentGame || moveIndex >= currentGame.moves.length) {
+    if (!selectedGame || moveIndex >= selectedGame.moves.length) {
       return { hintSquare: null, hintDestinations: [] };
     }
-    const expectedMove = currentGame.moves[moveIndex];
+    const expectedMove = selectedGame.moves[moveIndex];
     return {
       hintSquare: expectedMove.from,
       hintDestinations: [expectedMove.to],
     };
-  }, [currentGame, moveIndex]);
+  }, [selectedGame, moveIndex]);
 
   const handleHint = useCallback(() => {
     // EASY MODE: Unlimited, level 0→piece, level 1→destination
     if (difficulty === 'easy') {
       if (hintLevel < 2) {
         setHintLevel((prev) => Math.min(2, prev + 1) as 0 | 1 | 2);
+        setHintUsedCount(prev => prev + 1);
+        if (currentSession) {
+          setCurrentSession({
+            ...currentSession,
+            hintsUsed: currentSession.hintsUsed + 1,
+          });
+        }
         if (hintLevel === 0) {
           setMessage('Hint: The highlighted square shows the piece to move.');
         } else if (hintLevel === 1) {
@@ -197,6 +212,13 @@ export function Trainer({ games }: TrainerProps) {
     if (difficulty === 'medium') {
       if (hintLevel === 0) {
         setHintLevel(1);
+        setHintUsedCount(prev => prev + 1);
+        if (currentSession) {
+          setCurrentSession({
+            ...currentSession,
+            hintsUsed: currentSession.hintsUsed + 1,
+          });
+        }
         setMessage('Hint: The highlighted square shows the piece to move.');
       }
       return;
@@ -207,36 +229,42 @@ export function Trainer({ games }: TrainerProps) {
       if (hintUsedCount === 0) {
         setHintLevel(1);
         setHintUsedCount(1); // Mark as used
+        if (currentSession) {
+          setCurrentSession({
+            ...currentSession,
+            hintsUsed: currentSession.hintsUsed + 1,
+          });
+        }
         setMessage('Hint: The highlighted square shows the piece to move. (Last hint)');
       }
     }
-  }, [difficulty, hintLevel, hintUsedCount]);
+  }, [difficulty, hintLevel, hintUsedCount, currentSession]);
 
   const playOpponentMove = useCallback((currentMoveIndex: number): number => {
-    if (!currentGame) return currentMoveIndex;
+    if (!selectedGame) return currentMoveIndex;
     
     const nextMoveIndex = currentMoveIndex;
     
     const chess = new Chess();
-    if (currentGame) {
+    if (selectedGame) {
       for (let i = 0; i < nextMoveIndex; i++) {
-        if (i < currentGame.moves.length) {
-          const m = currentGame.moves[i];
+        if (i < selectedGame.moves.length) {
+          const m = selectedGame.moves[i];
           chess.move({ from: m.from, to: m.to, promotion: m.promotion });
         }
       }
     }
     
-    if (chess.turn() !== playerColor && nextMoveIndex < currentGame.moves.length) {
+    if (chess.turn() !== playerColor && nextMoveIndex < selectedGame.moves.length) {
       return nextMoveIndex + 1;
     }
     
     return currentMoveIndex;
-  }, [currentGame, playerColor]);
+  }, [selectedGame, playerColor]);
 
   const handleMove = useCallback(
   (move: { from: string; to: string; promotion?: string }) => {
-  if (!currentGame) return;
+  if (!selectedGame) return;
 
       const currentPos = getCurrentPosition();
 
@@ -252,7 +280,7 @@ export function Trainer({ games }: TrainerProps) {
       }
 
       if (trainingMode === 'train') {
-        const expectedMove = currentGame.moves[moveIndex];
+        const expectedMove = selectedGame.moves[moveIndex];
         
         if (!expectedMove) {
           setMessage('No more moves in this game.');
@@ -281,13 +309,17 @@ export function Trainer({ games }: TrainerProps) {
           if (currentSession) {
             setCurrentSession({
               ...currentSession,
-              correctMoves: currentSession.correctMoves + 1,
+              correctMoves: moveAttemptedWrong ? currentSession.correctMoves : currentSession.correctMoves + 1,
+              incorrectMoves: moveAttemptedWrong ? currentSession.incorrectMoves + 1 : currentSession.incorrectMoves,
             });
           }
           
+          // Reset for next move
+          setMoveAttemptedWrong(false);
+          
           let newIndex = moveIndex + 1;
           
-          if (newIndex < currentGame.moves.length) {
+          if (newIndex < selectedGame.moves.length) {
             const opponentIndex = playOpponentMove(newIndex);
             if (opponentIndex > newIndex) {
               setMoveIndex(newIndex);
@@ -301,11 +333,11 @@ export function Trainer({ games }: TrainerProps) {
               // After opponent move completes, update board state
               setTimeout(() => {
                 // Play sound for opponent's move
-                const opponentMove = currentGame.moves[newIndex];
+                const opponentMove = selectedGame.moves[newIndex];
                 if (opponentMove) {
                   const tempChess = new Chess();
                   for (let i = 0; i < newIndex; i++) {
-                    const m = currentGame.moves[i];
+                    const m = selectedGame.moves[i];
                     tempChess.move({ from: m.from, to: m.to, promotion: m.promotion });
                   }
                   const result = tempChess.move({ from: opponentMove.from, to: opponentMove.to, promotion: opponentMove.promotion });
@@ -313,7 +345,7 @@ export function Trainer({ games }: TrainerProps) {
                 }
                 setMoveIndex(opponentIndex);
                 setShowMoveComment(false);
-                if (opponentIndex >= currentGame.moves.length) {
+                if (opponentIndex >= selectedGame.moves.length) {
                   if (currentSession) {
                     setCurrentSession({
                       ...currentSession,
@@ -339,7 +371,7 @@ export function Trainer({ games }: TrainerProps) {
             setCorrectMoveSquares(null);
           }, 300);
           
-          if (newIndex >= currentGame.moves.length) {
+          if (newIndex >= selectedGame.moves.length) {
             if (currentSession) {
               setCurrentSession({
                 ...currentSession,
@@ -356,6 +388,7 @@ export function Trainer({ games }: TrainerProps) {
           setIsCorrect(false);
           setWrongMoveSquares({ from: move.from, to: move.to });
           setMessage('Incorrect. Try again.');
+          setMoveAttemptedWrong(true);
           
           const attemptIndex = moveAttempts.findIndex(a => a.moveIndex === moveIndex);
           if (attemptIndex === -1) {
@@ -364,13 +397,6 @@ export function Trainer({ games }: TrainerProps) {
             const updated = [...moveAttempts];
             updated[attemptIndex].wrongAttempts += 1;
             setMoveAttempts(updated);
-          }
-          
-          if (currentSession) {
-            setCurrentSession({
-              ...currentSession,
-              totalMistakes: currentSession.totalMistakes + 1,
-            });
           }
           
           setTimeout(() => {
@@ -389,8 +415,8 @@ export function Trainer({ games }: TrainerProps) {
           playMoveSound(result.captured !== undefined);
           
           // Check if this move matches the next PGN move
-          if (currentGame && moveIndex < currentGame.moves.length) {
-            const expectedMove = currentGame.moves[moveIndex];
+          if (selectedGame && moveIndex < selectedGame.moves.length) {
+            const expectedMove = selectedGame.moves[moveIndex];
             // Compare both directions since PGN can store moves as "from-to" or "e2e4"
             const moveMatches = 
               (expectedMove.from === move.from && expectedMove.to === move.to) ||
@@ -417,25 +443,27 @@ export function Trainer({ games }: TrainerProps) {
         }
       }
     },
-    [currentGame, moveIndex, trainingMode, playerColor, getCurrentPosition, playOpponentMove, moveAttempts, currentSession, exploreFen, getCurrentFen, playMoveSound]
+    [selectedGame, moveIndex, trainingMode, playerColor, getCurrentPosition, playOpponentMove, moveAttempts, currentSession, exploreFen, getCurrentFen, playMoveSound]
   );
 
   const handleSelectGame = useCallback((game: Game) => {
-    setCurrentGame(game);
+    setSelectedGame(game);
     setMoveIndex(0);
     setTrainingMode('train');
     setPlayerColor('w');
     setExploreFen(null);
-  }, []);
+  }, [setSelectedGame]);
 
   const handleResetGame = useCallback(() => {
-    if (currentGame) {
+    if (selectedGame) {
       setIsCorrect(null);
       setHintLevel(0);
+      setHintUsedCount(0);
       setWrongMoveSquares(null);
       setCorrectMoveSquares(null);
+      setMoveAttemptedWrong(false);
       
-      if (trainingMode === 'train' && playerColor === 'b' && currentGame.moves.length > 0) {
+      if (trainingMode === 'train' && playerColor === 'b' && selectedGame.moves.length > 0) {
         setMoveIndex(0);
         setMessage(`White is playing...`);
         setTimeout(() => {
@@ -451,19 +479,19 @@ export function Trainer({ games }: TrainerProps) {
         setMessage(`Playing as ${playerColor === 'w' ? 'White' : 'Black'}. Your turn...`);
       }
     }
-  }, [currentGame, playerColor, trainingMode]);
+  }, [selectedGame, playerColor, trainingMode]);
 
   const handleCompleteGame = useCallback(() => {
-    if (currentGame) {
+    if (selectedGame) {
       const newCompleted = new Set(completedGames);
-      newCompleted.add(currentGame.id);
+      newCompleted.add(selectedGame.id);
       setCompletedGames(newCompleted);
       setMessage('Game marked as complete!');
     }
-  }, [currentGame, completedGames]);
+  }, [selectedGame, completedGames]);
 
   const handleNavigateMove = useCallback((index: number) => {
-    if (currentGame && index >= 0 && index <= currentGame.moves.length) {
+    if (selectedGame && index >= 0 && index <= selectedGame.moves.length) {
       if (trainingMode === 'train' && index > moveIndex) {
         setMessage('Complete the current move to continue');
         return;
@@ -479,8 +507,8 @@ export function Trainer({ games }: TrainerProps) {
       
       const newPos = new Chess();
       for (let i = 0; i < index; i++) {
-        if (i < currentGame.moves.length) {
-          const move = currentGame.moves[i];
+        if (i < selectedGame.moves.length) {
+          const move = selectedGame.moves[i];
           newPos.move({
             from: move.from,
             to: move.to,
@@ -489,28 +517,28 @@ export function Trainer({ games }: TrainerProps) {
         }
       }
       
-      const currentMove = currentGame.moves[index - 1];
+      const currentMove = selectedGame.moves[index - 1];
       if (currentMove) {
         setMessage(`Move ${currentMove.san}`);
       }
     }
-  }, [currentGame, moveIndex, trainingMode]);
+  }, [selectedGame, moveIndex, trainingMode]);
 
   const handleKeyboardNavigation = useCallback((direction: 'next' | 'prev') => {
-    if (trainingMode === 'train' && direction === 'next' && moveIndex >= (currentGame?.moves.length || 0)) {
+    if (trainingMode === 'train' && direction === 'next' && moveIndex >= (selectedGame?.moves.length || 0)) {
       setMessage('Game complete!');
       return;
     }
 
     if (direction === 'next') {
-      handleNavigateMove(Math.min((currentGame?.moves.length || 0), moveIndex + 1));
+      handleNavigateMove(Math.min((selectedGame?.moves.length || 0), moveIndex + 1));
     } else {
       handleNavigateMove(Math.max(0, moveIndex - 1));
     }
-  }, [currentGame, moveIndex, trainingMode, handleNavigateMove]);
+  }, [selectedGame, moveIndex, trainingMode, handleNavigateMove]);
 
   const handlePlaybackStart = useCallback(() => {
-    if (trainingMode !== 'explore' || !currentGame) return;
+    if (trainingMode !== 'explore' || !selectedGame) return;
     
     setIsPlaying(true);
     
@@ -518,13 +546,13 @@ export function Trainer({ games }: TrainerProps) {
     let nextIndex = moveIndex + 1;
     
     const playNextMove = () => {
-      if (nextIndex <= currentGame.moves.length) {
+      if (nextIndex <= selectedGame.moves.length) {
         // Play sound for this move
-        const moveToPlay = currentGame.moves[nextIndex - 1];
+        const moveToPlay = selectedGame.moves[nextIndex - 1];
         if (moveToPlay) {
           const tempChess = new Chess();
           for (let i = 0; i < nextIndex - 1; i++) {
-            const m = currentGame.moves[i];
+            const m = selectedGame.moves[i];
             tempChess.move({ from: m.from, to: m.to, promotion: m.promotion });
           }
           const result = tempChess.move({ from: moveToPlay.from, to: moveToPlay.to, promotion: moveToPlay.promotion });
@@ -534,7 +562,7 @@ export function Trainer({ games }: TrainerProps) {
         handleNavigateMove(nextIndex);
         nextIndex += 1;
         
-        if (nextIndex > currentGame.moves.length) {
+        if (nextIndex > selectedGame.moves.length) {
           setIsPlaying(false);
           return;
         }
@@ -544,7 +572,7 @@ export function Trainer({ games }: TrainerProps) {
     };
     
     playbackIntervalRef.current = setTimeout(playNextMove, delayMs);
-  }, [trainingMode, currentGame, moveIndex, playbackSpeed, handleNavigateMove, playMoveSound]);
+  }, [trainingMode, selectedGame, moveIndex, playbackSpeed, handleNavigateMove, playMoveSound]);
 
   const handlePlaybackPause = useCallback(() => {
     setIsPlaying(false);
@@ -571,10 +599,10 @@ export function Trainer({ games }: TrainerProps) {
   }, [isPlaying, handlePlaybackPause]);
 
   useEffect(() => {
-    if (trainingMode === 'train' || !currentGame) {
+    if (trainingMode === 'train' || !selectedGame) {
       handlePlaybackPause();
     }
-  }, [trainingMode, currentGame, handlePlaybackPause]);
+  }, [trainingMode, selectedGame, handlePlaybackPause]);
 
   useEffect(() => {
     return () => {
@@ -584,7 +612,7 @@ export function Trainer({ games }: TrainerProps) {
     };
   }, []);
 
-  const lastMove = moveIndex > 0 ? currentGame?.moves[moveIndex - 1] : undefined;
+  const lastMove = moveIndex > 0 ? selectedGame?.moves[moveIndex - 1] : undefined;
   const currentMove = getCurrentMove();
   const hintData = getHintData();
 
@@ -592,7 +620,7 @@ export function Trainer({ games }: TrainerProps) {
     <div className="flex flex-col gap-6">
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px_280px] gap-6">
         <div className="flex flex-col gap-4">
-          {sessionComplete && currentGame && currentSession && (
+          {sessionComplete && selectedGame && currentSession && (
             <SessionFeedback
               session={currentSession}
               moveAttempts={moveAttempts}
@@ -602,19 +630,19 @@ export function Trainer({ games }: TrainerProps) {
                 setIsCorrect(null);
               }}
               onNewGame={() => {
-                setCurrentGame(null);
+                setSelectedGame(null);
                 setSessionComplete(false);
               }}
             />
           )}
 
           <div className="flex flex-col items-center gap-3">
-            {currentGame && gameState ? (
+            {selectedGame && gameState ? (
               <ChessBoard
                 fen={trainingMode === 'explore' && exploreFen ? exploreFen : getCurrentFen()}
                 onMove={handleMove}
                 onNavigate={handleKeyboardNavigation}
-                disabled={moveIndex >= (currentGame?.moves.length || 0) && trainingMode === 'train'}
+                disabled={moveIndex >= (selectedGame?.moves.length || 0) && trainingMode === 'train'}
                 lastMove={lastMove ? { from: lastMove.from, to: lastMove.to } : undefined}
                 orientation={trainingMode === 'explore' ? boardOrientation : (playerColor === 'w' ? 'white' : 'black')}
                 hintSquare={trainingMode === 'train' && hintLevel >= 1 ? hintData.hintSquare : null}
@@ -622,7 +650,6 @@ export function Trainer({ games }: TrainerProps) {
                 wrongMove={isCorrect === false}
                 wrongMoveSquares={wrongMoveSquares}
                 correctMoveSquares={correctMoveSquares}
-                draggable={true}
                 playerColor={trainingMode === 'train' ? playerColor : null}
               />
             ) : (
@@ -631,7 +658,7 @@ export function Trainer({ games }: TrainerProps) {
               </div>
             )}
 
-            {currentGame && (
+            {selectedGame && (
               <div className="flex items-center gap-2 bg-gray-900 rounded-lg p-2 border border-gray-800">
                 <Button
                   variant="ghost"
@@ -654,13 +681,13 @@ export function Trainer({ games }: TrainerProps) {
                   <ChevronLeft className="h-4 w-4" />
                 </Button>
   <span className="text-xs text-gray-400 min-w-[60px] text-center">
-    {trainingMode === 'explore' ? `${moveIndex} / ${currentGame.moves.length}` : `${moveIndex} / ${currentGame.moves.length}`}
+    {trainingMode === 'explore' ? `${moveIndex} / ${selectedGame.moves.length}` : ''}
   </span>
                 <Button
                   variant="ghost"
                   size="sm"
                   onClick={() => handleKeyboardNavigation('next')}
-                  disabled={trainingMode === 'train' ? moveIndex >= currentGame.moves.length : moveIndex >= currentGame.moves.length}
+                  disabled={trainingMode === 'train' ? moveIndex >= selectedGame.moves.length : moveIndex >= selectedGame.moves.length}
                   className="text-gray-400 hover:text-white hover:bg-gray-800 h-8 w-8 p-0"
                   title="Next move"
                 >
@@ -669,15 +696,15 @@ export function Trainer({ games }: TrainerProps) {
                 <Button
                   variant="ghost"
                   size="sm"
-                  onClick={() => handleNavigateMove(currentGame.moves.length)}
-                  disabled={trainingMode === 'train' || moveIndex >= currentGame.moves.length}
+                  onClick={() => handleNavigateMove(selectedGame.moves.length)}
+                  disabled={trainingMode === 'train' || moveIndex >= selectedGame.moves.length}
                   className="text-gray-400 hover:text-white hover:bg-gray-800 h-8 w-8 p-0"
                   title="Last move"
                 >
                   <ChevronsRight className="h-4 w-4" />
                 </Button>
 
-                {trainingMode === 'train' && moveIndex < currentGame.moves.length && (
+                {trainingMode === 'train' && moveIndex < selectedGame.moves.length && (
                   <>
                     <div className="w-px h-6 bg-gray-700 mx-1" />
                     <Button
@@ -705,7 +732,7 @@ export function Trainer({ games }: TrainerProps) {
               </div>
             )}
 
-            {currentGame && trainingMode === 'explore' && (
+            {selectedGame && trainingMode === 'explore' && (
               <PlaybackControls
                 isPlaying={isPlaying}
                 onPlay={handlePlaybackStart}
@@ -713,11 +740,53 @@ export function Trainer({ games }: TrainerProps) {
                 onReset={handlePlaybackReset}
                 speed={playbackSpeed}
                 onSpeedChange={handleSpeedChange}
-                disabled={moveIndex >= currentGame.moves.length}
+                disabled={moveIndex >= selectedGame.moves.length}
               />
             )}
 
-            {currentGame && currentMove?.comment && (trainingMode === 'explore' || showMoveComment) && (
+            {selectedGame && (
+              <div className="flex items-center gap-2 bg-gray-900 rounded-lg p-2 border border-gray-800">
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  onClick={() => {
+                    const prevIndex = Math.max(0, currentGameIndex - 1);
+                    if (prevIndex >= 0 && prevIndex < games.length) {
+                      setSelectedGame(games[prevIndex]);
+                      setMoveIndex(0);
+                    }
+                  }}
+                  disabled={currentGameIndex <= 0}
+                  className="text-gray-400 hover:text-white hover:bg-gray-800 h-8 px-3 gap-1.5"
+                  title="Previous game"
+                >
+                  <ChevronLeft className="h-4 w-4" />
+                  <span className="text-xs hidden sm:inline">Previous</span>
+                </Button>
+                <span className="text-xs text-gray-400 min-w-[50px] text-center">
+                  {currentGameIndex + 1} / {games.length}
+                </span>
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  onClick={() => {
+                    const nextIndex = currentGameIndex + 1;
+                    if (nextIndex < games.length) {
+                      setSelectedGame(games[nextIndex]);
+                      setMoveIndex(0);
+                    }
+                  }}
+                  disabled={currentGameIndex >= games.length - 1}
+                  className="text-gray-400 hover:text-white hover:bg-gray-800 h-8 px-3 gap-1.5"
+                  title="Next game"
+                >
+                  <span className="text-xs hidden sm:inline">Next</span>
+                  <ChevronRight className="h-4 w-4" />
+                </Button>
+              </div>
+            )}
+
+            {selectedGame && currentMove?.comment && trainingMode === 'explore' && (
               <div 
                 className="w-full max-w-[400px] rounded-lg p-4 border-l-3"
                 style={{
@@ -750,15 +819,15 @@ export function Trainer({ games }: TrainerProps) {
             )}
           </div>
 
-          {currentGame && (
+          {selectedGame && (
             <TrainingPanel
-              game={currentGame}
+              game={selectedGame}
               moveIndex={moveIndex}
               trainingMode={trainingMode}
               playerColor={playerColor}
               message={message}
               isCorrect={isCorrect}
-              expectedMove={getExpectedMove()}
+              expectedMove={trainingMode === 'explore' ? getExpectedMove() : null}
               difficulty={difficulty}
               onModeChange={setTrainingMode}
               onColorChange={setPlayerColor}
@@ -767,16 +836,16 @@ export function Trainer({ games }: TrainerProps) {
               onReset={handleResetGame}
               onNavigateMove={handleNavigateMove}
               onCompleteGame={handleCompleteGame}
-              isCompleted={completedGames.has(currentGame.id)}
+              isCompleted={completedGames.has(selectedGame.id)}
             />
           )}
         </div>
 
-        {currentGame && trainingMode === 'explore' && (
+        {selectedGame && trainingMode === 'explore' && (
           <div className="flex-shrink-0">
             <h3 className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Moves & Comments</h3>
             <MovesPanel
-              game={currentGame}
+              game={selectedGame}
               moveIndex={moveIndex}
               onNavigateMove={handleNavigateMove}
               trainingMode={trainingMode}
@@ -788,7 +857,7 @@ export function Trainer({ games }: TrainerProps) {
         <div className="flex-shrink-0">
           <GameList
             games={games}
-            selectedGame={currentGame}
+            selectedGame={selectedGame}
             onSelectGame={handleSelectGame}
             completedGames={completedGames}
           />

@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { Trainer } from '@/components/Trainer';
 import { useGameContext } from '@/lib/GameContext';
+import { Header } from '@/components/Header';
 import { ArrowLeft, Plus } from 'lucide-react';
 
 export default function TrainingPage() {
@@ -51,6 +52,7 @@ export default function TrainingPage() {
 
   return (
     <main className="min-h-screen bg-gray-950 text-gray-100">
+      <Header />
       <div className="container mx-auto px-4 py-6 max-w-7xl">
         {/* Control Bar */}
         <div className="flex items-center justify-between mb-6">

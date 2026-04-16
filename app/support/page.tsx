@@ -4,6 +4,7 @@ import React, { useState, useMemo } from 'react';
 import { CRYPTO_DATA, CryptoKey } from '@/lib/cryptoData';
 import { QRCodeSVG } from 'qrcode.react';
 import { Copy, Check } from 'lucide-react';
+import { Header } from '@/components/Header';
 
 export default function SupportPage() {
   const [selectedCrypto, setSelectedCrypto] = useState<CryptoKey | null>(null);
@@ -29,6 +30,7 @@ export default function SupportPage() {
 
   return (
     <main className="min-h-screen bg-gray-950 text-gray-100 py-12 px-4">
+      <Header />
       <div className="max-w-2xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
