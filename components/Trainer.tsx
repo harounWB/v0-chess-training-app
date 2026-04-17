@@ -20,7 +20,7 @@ interface TrainerProps {
 
 export function Trainer({ games }: TrainerProps) {
   const { playMoveSound } = useChessSound();
-  const { selectedGame, setSelectedGame, moveIndex, setMoveIndex } = useGameContext();
+  const { selectedGame, setSelectedGame, moveIndex, setMoveIndex, saveCompletedGame, markGameExplored } = useGameContext();
   const currentGameIndex = games.findIndex(g => g.id === selectedGame?.id) ?? -1;
   const [trainingMode, setTrainingMode] = useState<TrainingMode>('train');
   const [playerColor, setPlayerColor] = useState<PlayerColor>('w');
@@ -48,8 +48,12 @@ export function Trainer({ games }: TrainerProps) {
   useEffect(() => {
     if (trainingMode === 'explore') {
       setExploreFen(null);
+      // Mark game as explored when entering explore mode
+      if (selectedGame) {
+        markGameExplored(selectedGame.id);
+      }
     }
-  }, [trainingMode]);
+  }, [trainingMode, selectedGame, markGameExplored]);
 
   // Initialize game state when game is selected or player color changes
   useEffect(() => {
@@ -296,8 +300,18 @@ export function Trainer({ games }: TrainerProps) {
           setIsCorrect(true);
           setHintLevel(0);
           setShowMoveComment(true);
-          // Play move sound
-          playMoveSound(false);
+          
+          // Detect special move types for sound
+          const tempChess = new Chess(getCurrentFen());
+          const result = tempChess.move(move);
+          const isCapture = result?.captured !== undefined;
+          const isCheck = tempChess.inCheck();
+          const isCastle = result?.flags?.includes('k') || result?.flags?.includes('q');
+          const isPromotion = result?.promotion !== undefined;
+          
+          // Play appropriate move sound
+          playMoveSound(isCapture, isCheck, isCastle, isPromotion);
+          
           // Update highlight at same time as move (in same state batch)
           setCorrectMoveSquares({ from: move.from, to: move.to });
           
@@ -341,7 +355,12 @@ export function Trainer({ games }: TrainerProps) {
                     tempChess.move({ from: m.from, to: m.to, promotion: m.promotion });
                   }
                   const result = tempChess.move({ from: opponentMove.from, to: opponentMove.to, promotion: opponentMove.promotion });
-                  playMoveSound(result?.captured !== undefined);
+                  const isCapture = result?.captured !== undefined;
+                  const isCheck = tempChess.inCheck();
+                  const isCastle = result?.flags?.includes('k') || result?.flags?.includes('q');
+                  const isPromotion = result?.promotion !== undefined;
+                  
+                  playMoveSound(isCapture, isCheck, isCastle, isPromotion);
                 }
                 setMoveIndex(opponentIndex);
                 setShowMoveComment(false);
@@ -411,8 +430,15 @@ export function Trainer({ games }: TrainerProps) {
         
         if (result) {
           setExploreFen(exploreChess.fen());
-          // Play move sound (capture if there was a captured piece)
-          playMoveSound(result.captured !== undefined);
+          
+          // Detect special move types for sound
+          const isCapture = result.captured !== undefined;
+          const isCheck = exploreChess.inCheck();
+          const isCastle = result.flags?.includes('k') || result.flags?.includes('q');
+          const isPromotion = result.promotion !== undefined;
+          
+          // Play appropriate move sound
+          playMoveSound(isCapture, isCheck, isCastle, isPromotion);
           
           // Check if this move matches the next PGN move
           if (selectedGame && moveIndex < selectedGame.moves.length) {
@@ -486,9 +512,10 @@ export function Trainer({ games }: TrainerProps) {
       const newCompleted = new Set(completedGames);
       newCompleted.add(selectedGame.id);
       setCompletedGames(newCompleted);
+      saveCompletedGame(selectedGame.id); // Save to context
       setMessage('Game marked as complete!');
     }
-  }, [selectedGame, completedGames]);
+  }, [selectedGame, completedGames, saveCompletedGame]);
 
   const handleNavigateMove = useCallback((index: number) => {
     if (selectedGame && index >= 0 && index <= selectedGame.moves.length) {
@@ -556,7 +583,12 @@ export function Trainer({ games }: TrainerProps) {
             tempChess.move({ from: m.from, to: m.to, promotion: m.promotion });
           }
           const result = tempChess.move({ from: moveToPlay.from, to: moveToPlay.to, promotion: moveToPlay.promotion });
-          playMoveSound(result?.captured !== undefined);
+          const isCapture = result?.captured !== undefined;
+          const isCheck = tempChess.inCheck();
+          const isCastle = result?.flags?.includes('k') || result?.flags?.includes('q');
+          const isPromotion = result?.promotion !== undefined;
+          
+          playMoveSound(isCapture, isCheck, isCastle, isPromotion);
         }
         
         handleNavigateMove(nextIndex);

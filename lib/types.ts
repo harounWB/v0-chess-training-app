@@ -54,6 +54,15 @@ export interface PGNFile {
   games: Game[];
 }
 
+export interface PGNProgress {
+  fileName: string;
+  games: Game[];
+  exploredGames: Set<string>; // Game IDs that have been explored
+  trainedGames: Set<string>; // Game IDs that have been trained (completed)
+  isDone: boolean; // True if all games are both explored and trained
+  importedAt: number; // Timestamp when this PGN was imported
+}
+
 export type PlayerColor = 'w' | 'b';
 export type TrainingMode = 'train' | 'explore';
 

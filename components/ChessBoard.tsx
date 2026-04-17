@@ -298,7 +298,7 @@ export function ChessBoard({
   const squares = getSquares();
   const chess = chessRef.current;
 
-  // Responsive board size
+  // Responsive board size with proper aspect ratio
   const [boardSize, setBoardSize] = useState(480);
   const squareSize = boardSize / 8;
   const pieceSize = squareSize * 0.85;
@@ -309,18 +309,21 @@ export function ChessBoard({
       const vw = window.innerWidth;
       const vh = window.innerHeight;
 
-      // Mobile: 95% of viewport width, max 600px
+      // Mobile: use viewport width but constrain height to maintain aspect ratio
       // Desktop: larger, max 800px for better detail
       let size: number;
       if (vw < 768) {
-        size = Math.min(vw * 0.95, vh * 0.6, 600);
+        // On mobile, use 90% of viewport width but ensure it fits in height
+        const maxWidth = vw * 0.9;
+        const maxHeight = vh * 0.5; // Leave room for other UI elements
+        size = Math.min(maxWidth, maxHeight);
       } else {
         size = Math.min(vw * 0.45, vh * 0.7, 800);
       }
 
-      // Ensure it's divisible by 8 for clean squares
+      // Ensure it's divisible by 8 for clean squares and minimum size
       size = Math.floor(size / 8) * 8;
-      setBoardSize(Math.max(360, size));
+      setBoardSize(Math.max(320, size)); // Minimum 320px for usability
     };
 
     updateSize();
@@ -330,26 +333,27 @@ export function ChessBoard({
 
   return (
     <div className="flex justify-center w-full">
-      <div
-        ref={boardRef}
-        className={`relative grid grid-cols-8 rounded-xl overflow-hidden select-none border-4 border-amber-800/30 shadow-2xl ${shaking ? 'animate-shake' : ''}`}
-        style={{
-          width: `${boardSize}px`,
-          height: `${boardSize}px`,
-          touchAction: 'none',
-          background: `
-            linear-gradient(145deg, #8b4513 0%, #654321 50%, #4a2c17 100%),
-            radial-gradient(circle at 30% 30%, rgba(139, 69, 19, 0.3) 0%, transparent 50%),
-            radial-gradient(circle at 70% 70%, rgba(74, 44, 23, 0.2) 0%, transparent 50%)
-          `,
-          boxShadow: `
-            0 25px 50px -12px rgba(0, 0, 0, 0.25),
-            0 0 0 1px rgba(184, 134, 11, 0.1),
-            inset 0 1px 0 rgba(255, 255, 255, 0.1),
-            inset 0 -1px 0 rgba(0, 0, 0, 0.1)
-          `,
-        }}
-      >
+      <div className="relative w-full max-w-[600px] aspect-square flex items-center justify-center">
+        <div
+          ref={boardRef}
+          className={`relative grid grid-cols-8 rounded-xl overflow-hidden select-none border-4 border-amber-800/30 shadow-2xl ${shaking ? 'animate-shake' : ''}`}
+          style={{
+            width: `${boardSize}px`,
+            height: `${boardSize}px`,
+            touchAction: 'none',
+            background: `
+              linear-gradient(145deg, #8b4513 0%, #654321 50%, #4a2c17 100%),
+              radial-gradient(circle at 30% 30%, rgba(139, 69, 19, 0.3) 0%, transparent 50%),
+              radial-gradient(circle at 70% 70%, rgba(74, 44, 23, 0.2) 0%, transparent 50%)
+            `,
+            boxShadow: `
+              0 25px 50px -12px rgba(0, 0, 0, 0.25),
+              0 0 0 1px rgba(184, 134, 11, 0.1),
+              inset 0 1px 0 rgba(255, 255, 255, 0.1),
+              inset 0 -1px 0 rgba(0, 0, 0, 0.1)
+            `,
+          }}
+        >
         {squares.map((square) => {
           const file = square[0];
           const rank = square[1];
@@ -466,6 +470,7 @@ export function ChessBoard({
             })()}
           </div>
         )}
+      </div>
       </div>
     </div>
   );

@@ -1,12 +1,13 @@
 'use client';
 
 import React, { createContext, useContext, useEffect, useState } from 'react';
-import { Game } from '@/lib/types';
+import { Game, PGNProgress } from '@/lib/types';
 import { createClient, hasSupabaseEnv } from '@/utils/supabase/client';
 import { useAuth } from '@/lib/AuthContext';
 
 interface GameContextType {
   games: Game[];
+  pgnProgress: PGNProgress[];
   setGames: (games: Game[], fileName?: string) => void;
   selectedGame: Game | null;
   setSelectedGame: (game: Game | null) => void;
@@ -14,14 +15,17 @@ interface GameContextType {
   setMoveIndex: (index: number) => void;
   clearGameData: () => void;
   saveCompletedGame: (gameId: string) => void;
+  markGameExplored: (gameId: string) => void;
   savedFiles: string[];
   loadGamesFromFile: (fileName: string) => void;
+  getPGNProgress: (fileName: string) => PGNProgress | null;
 }
 
 const GameContext = createContext<GameContextType | undefined>(undefined);
 
 export function GameProvider({ children }: { children: React.ReactNode }) {
   const [games, setGamesState] = useState<Game[]>([]);
+  const [pgnProgress, setPgnProgress] = useState<PGNProgress[]>([]);
   const [selectedGame, setSelectedGame] = useState<Game | null>(null);
   const [moveIndex, setMoveIndex] = useState(0);
   const [mounted, setMounted] = useState(false);
@@ -32,6 +36,23 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   // Load from localStorage on mount
   useEffect(() => {
     setMounted(true);
+    
+    // Load PGN progress
+    const savedProgress = localStorage.getItem('pgnProgress');
+    if (savedProgress) {
+      try {
+        const parsed = JSON.parse(savedProgress);
+        // Convert Set strings back to Sets
+        const progressWithSets = parsed.map((p: any) => ({
+          ...p,
+          exploredGames: new Set(p.exploredGames),
+          trainedGames: new Set(p.trainedGames)
+        }));
+        setPgnProgress(progressWithSets);
+      } catch (error) {
+        console.error('Failed to load PGN progress:', error);
+      }
+    }
   }, []);
 
   // Save to localStorage whenever games change
@@ -56,6 +77,27 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
     setGamesState(newGames);
     if (fileName) {
       localStorage.setItem('pgnfile:' + fileName, JSON.stringify(newGames));
+      
+      // Create or update PGN progress entry
+      setPgnProgress(prev => {
+        const existingIndex = prev.findIndex(p => p.fileName === fileName);
+        const newProgress: PGNProgress = {
+          fileName,
+          games: newGames,
+          exploredGames: existingIndex >= 0 ? prev[existingIndex].exploredGames : new Set(),
+          trainedGames: existingIndex >= 0 ? prev[existingIndex].trainedGames : new Set(),
+          isDone: existingIndex >= 0 ? prev[existingIndex].isDone : false,
+          importedAt: Date.now()
+        };
+
+        const updated = existingIndex >= 0 
+          ? prev.map((p, i) => i === existingIndex ? newProgress : p)
+          : [...prev, newProgress];
+
+        localStorage.setItem('pgnProgress', JSON.stringify(updated));
+        return updated;
+      });
+
       // Update saved files list
       const files = Object.keys(localStorage).filter(k => k.startsWith('pgnfile:')).map(k => k.replace('pgnfile:', ''));
       setSavedFiles(files);
@@ -73,6 +115,31 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   const saveCompletedGame = (gameId: string) => {
     setGamesState(prev => {
       const updated = prev.map(g => g.id === gameId ? { ...g, completed: true } : g);
+
+      // Update PGN progress
+      setPgnProgress(prevProgress => {
+        const updatedProgress = prevProgress.map(pgn => {
+          if (pgn.games.some(g => g.id === gameId)) {
+            const newTrained = new Set(pgn.trainedGames);
+            newTrained.add(gameId);
+            
+            // Check if all games are both explored and trained
+            const allGamesDone = pgn.games.every(g => 
+              pgn.exploredGames.has(g.id) && newTrained.has(g.id)
+            );
+            
+            return {
+              ...pgn,
+              trainedGames: newTrained,
+              isDone: allGamesDone
+            };
+          }
+          return pgn;
+        });
+
+        localStorage.setItem('pgnProgress', JSON.stringify(updatedProgress));
+        return updatedProgress;
+      });
 
       // Sync to database if authenticated
       if (user && !isGuest && hasSupabaseEnv) {
@@ -107,6 +174,39 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
         localStorage.setItem('chessGames', JSON.stringify(parsed));
       } catch {}
     }
+  };
+
+  // Get PGN progress for a specific file
+  const getPGNProgress = (fileName: string): PGNProgress | null => {
+    return pgnProgress.find(p => p.fileName === fileName) || null;
+  };
+
+  // Mark a game as explored
+  const markGameExplored = (gameId: string) => {
+    setPgnProgress(prev => {
+      const updated = prev.map(pgn => {
+        if (pgn.games.some(g => g.id === gameId)) {
+          const newExplored = new Set(pgn.exploredGames);
+          newExplored.add(gameId);
+          
+          // Check if all games are both explored and trained
+          const allGamesDone = pgn.games.every(g => 
+            newExplored.has(g.id) && pgn.trainedGames.has(g.id)
+          );
+          
+          return {
+            ...pgn,
+            exploredGames: newExplored,
+            isDone: allGamesDone
+          };
+        }
+        return pgn;
+      });
+
+      // Save to localStorage
+      localStorage.setItem('pgnProgress', JSON.stringify(updated));
+      return updated;
+    });
   };
 
   const clearGameData = () => {
@@ -207,6 +307,8 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
       // Load from localStorage for guest users
       const savedGames = localStorage.getItem('chessGames');
       const savedSelectedIndex = localStorage.getItem('selectedGameIndex');
+      const savedProgress = localStorage.getItem('pgnProgress');
+      
       if (savedGames) {
         try {
           const parsedGames = JSON.parse(savedGames);
@@ -219,6 +321,20 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
           }
         } catch (error) {
           console.error('[v0] Failed to load from localStorage:', error);
+        }
+      }
+
+      if (savedProgress) {
+        try {
+          const parsed = JSON.parse(savedProgress);
+          const progressWithSets = parsed.map((p: any) => ({
+            ...p,
+            exploredGames: new Set(p.exploredGames),
+            trainedGames: new Set(p.trainedGames)
+          }));
+          setPgnProgress(progressWithSets);
+        } catch (error) {
+          console.error('Failed to load PGN progress:', error);
         }
       }
     }
@@ -270,7 +386,21 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   }, [mounted, user, isGuest]);
 
   return (
-    <GameContext.Provider value={{ games, setGames, selectedGame, setSelectedGame, moveIndex, setMoveIndex, clearGameData, saveCompletedGame, savedFiles, loadGamesFromFile }}>
+    <GameContext.Provider value={{ 
+      games, 
+      pgnProgress,
+      setGames, 
+      selectedGame, 
+      setSelectedGame, 
+      moveIndex, 
+      setMoveIndex, 
+      clearGameData, 
+      saveCompletedGame, 
+      markGameExplored,
+      savedFiles, 
+      loadGamesFromFile,
+      getPGNProgress 
+    }}>
       {children}
     </GameContext.Provider>
   );
