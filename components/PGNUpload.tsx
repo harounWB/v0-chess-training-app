@@ -8,7 +8,7 @@ import { Game } from '@/lib/types';
 import { Upload, FileText, CheckCircle, AlertCircle } from 'lucide-react';
 
 interface PGNUploadProps {
-  onGamesLoaded: (games: Game[]) => void;
+  onGamesLoaded: (games: Game[], fileName?: string) => void;
   isLoading?: boolean;
 }
 
@@ -35,7 +35,7 @@ export function PGNUpload({ onGamesLoaded, isLoading = false }: PGNUploadProps) 
         return;
       }
 
-      onGamesLoaded(games);
+      onGamesLoaded(games, file.name);
     } catch (err) {
       const errorMsg = err instanceof Error ? err.message : 'Unknown error';
       setError(`Error parsing PGN: ${errorMsg}`);

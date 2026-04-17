@@ -15,11 +15,11 @@ export default function UploadPage() {
   const { user, isGuest } = useAuth();
   const [isLoading, setIsLoading] = useState(false);
 
-  const handleGamesLoaded = async (loadedGames: Game[]) => {
+  const handleGamesLoaded = async (loadedGames: Game[], fileName?: string) => {
     setIsLoading(true);
     
-    // Store games in context (this triggers localStorage save)
-    setGames(loadedGames);
+    // Store games in context with filename (this triggers localStorage save with PGN name)
+    setGames(loadedGames, fileName);
     
     // Select first game
     if (loadedGames.length > 0) {

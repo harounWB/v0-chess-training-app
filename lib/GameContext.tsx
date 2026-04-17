@@ -94,7 +94,16 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
           ? prev.map((p, i) => i === existingIndex ? newProgress : p)
           : [...prev, newProgress];
 
-        localStorage.setItem('pgnProgress', JSON.stringify(updated));
+        // Convert Sets to arrays for JSON serialization
+        const serializable = updated.map(p => ({
+          fileName: p.fileName,
+          games: p.games,
+          exploredGames: Array.from(p.exploredGames),
+          trainedGames: Array.from(p.trainedGames),
+          isDone: p.isDone,
+          importedAt: p.importedAt
+        }));
+        localStorage.setItem('pgnProgress', JSON.stringify(serializable));
         return updated;
       });
 
@@ -137,7 +146,16 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
           return pgn;
         });
 
-        localStorage.setItem('pgnProgress', JSON.stringify(updatedProgress));
+        // Convert Sets to arrays for JSON serialization
+        const serializable = updatedProgress.map(p => ({
+          fileName: p.fileName,
+          games: p.games,
+          exploredGames: Array.from(p.exploredGames),
+          trainedGames: Array.from(p.trainedGames),
+          isDone: p.isDone,
+          importedAt: p.importedAt
+        }));
+        localStorage.setItem('pgnProgress', JSON.stringify(serializable));
         return updatedProgress;
       });
 
@@ -203,8 +221,16 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
         return pgn;
       });
 
-      // Save to localStorage
-      localStorage.setItem('pgnProgress', JSON.stringify(updated));
+      // Save to localStorage - convert Sets to arrays for serialization
+      const serializable = updated.map(p => ({
+        fileName: p.fileName,
+        games: p.games,
+        exploredGames: Array.from(p.exploredGames),
+        trainedGames: Array.from(p.trainedGames),
+        isDone: p.isDone,
+        importedAt: p.importedAt
+      }));
+      localStorage.setItem('pgnProgress', JSON.stringify(serializable));
       return updated;
     });
   };
