@@ -81,15 +81,12 @@ export interface AppSettings {
   animationSpeed: AnimationSpeed;
   boardTheme: BoardTheme;
   pieceTheme: PieceTheme;
-  remindersEnabled: boolean;
-  reminderTime: string;
-  blitzModeEnabled: boolean;
 }
 
 export interface Collection {
   id: string;
   name: string;
-  gameIds: string[];
+  fileNames: string[];
   createdAt: number;
 }
 

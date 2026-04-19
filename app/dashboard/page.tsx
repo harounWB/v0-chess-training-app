@@ -6,13 +6,39 @@ import { useGameContext } from '@/lib/GameContext';
 import { useAuth } from '@/lib/AuthContext';
 import { Header } from '@/components/Header';
 import { PGNProgress } from '@/lib/types';
-import { Play, CheckCircle, Clock, BarChart3, Upload, ChevronRight, CheckSquare, Square, Trash2 } from 'lucide-react';
+import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button';
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from '@/components/ui/dialog';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { Play, CheckCircle, Clock, BarChart3, Upload, ChevronRight, CheckSquare, Square, Trash2, FolderPlus, Folder, FolderOpen } from 'lucide-react';
 
 export default function DashboardPage() {
   const router = useRouter();
-  const { setSelectedGame, setMoveIndex, savedFiles, loadGamesFromFiles, pgnProgress, deletePgnFiles } = useGameContext();
+  const {
+    setSelectedGame,
+    setMoveIndex,
+    savedFiles,
+    loadGamesFromFiles,
+    pgnProgress,
+    deletePgnFiles,
+    collections,
+    createCollection,
+    assignFilesToCollection,
+  } = useGameContext();
   const { user, isGuest } = useAuth();
   const [selectedFiles, setSelectedFiles] = useState<string[]>([]);
+  const [folderDialogOpen, setFolderDialogOpen] = useState(false);
+  const [targetCollectionId, setTargetCollectionId] = useState<string>('new');
+  const [newCollectionName, setNewCollectionName] = useState('');
+  const [folderDialogError, setFolderDialogError] = useState('');
+  const [openCollectionId, setOpenCollectionId] = useState<string | null>(null);
 
   // Redirect to upload if no user or no games
   useEffect(() => {
@@ -33,6 +59,10 @@ export default function DashboardPage() {
     );
   };
 
+  const handleToggleFolder = (collectionId: string) => {
+    setOpenCollectionId(prev => (prev === collectionId ? null : collectionId));
+  };
+
   const getPGNStats = (fileName: string): { explored: number; trained: number; total: number; isDone: boolean } => {
     const progress = pgnProgress.find(p => p.fileName === fileName);
     
@@ -44,10 +74,10 @@ export default function DashboardPage() {
     };
   };
 
-  const handleStartTraining = () => {
+  const handleStartTraining = async () => {
     if (selectedFiles.length === 0) return;
 
-    const combinedGames = loadGamesFromFiles(selectedFiles);
+    const combinedGames = await loadGamesFromFiles(selectedFiles);
     if (combinedGames.length > 0) {
       const selectedGame = combinedGames[0];
       setSelectedGame(selectedGame);
@@ -76,6 +106,56 @@ export default function DashboardPage() {
 
     deletePgnFiles(fileNames);
     setSelectedFiles(prev => prev.filter(file => !fileNames.includes(file)));
+  };
+
+  const getCollectionForFile = (fileName: string) => collections.find(collection => collection.fileNames.includes(fileName)) || null;
+
+  const folderSummaries = collections
+    .map(collection => ({
+      ...collection,
+      files: savedFiles.filter(file => collection.fileNames.includes(file)),
+    }));
+
+  const assignedFileSet = new Set(collections.flatMap(collection => collection.fileNames));
+  const unassignedFiles = savedFiles.filter(file => !assignedFileSet.has(file));
+
+  const openFolderDialog = () => {
+    setFolderDialogError('');
+    setTargetCollectionId(collections[0]?.id ?? 'new');
+    setNewCollectionName('');
+    setFolderDialogOpen(true);
+  };
+
+  const handleTrainFolder = async (fileNames: string[]) => {
+    if (fileNames.length === 0) return;
+
+    setSelectedFiles(fileNames);
+    const combinedGames = await loadGamesFromFiles(fileNames);
+    if (combinedGames.length > 0) {
+      const selectedGame = combinedGames[0];
+      setSelectedGame(selectedGame);
+      setMoveIndex(0);
+      router.push(`/training?game=${encodeURIComponent(selectedGame.id)}`);
+    }
+  };
+
+  const handleAssignSelectedFiles = () => {
+    if (selectedFiles.length === 0) return;
+
+    if (targetCollectionId === 'new') {
+      if (!newCollectionName.trim()) {
+        setFolderDialogError('Please enter a folder name.');
+        return;
+      }
+
+      createCollection(newCollectionName.trim(), selectedFiles);
+    } else {
+      assignFilesToCollection(selectedFiles, targetCollectionId);
+    }
+
+    setFolderDialogOpen(false);
+    setFolderDialogError('');
+    setNewCollectionName('');
   };
 
   if (!user && !isGuest) {
@@ -141,6 +221,126 @@ export default function DashboardPage() {
           </div>
         </div>
 
+        {/* Folders */}
+        <div className="mb-8">
+          <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between mb-4">
+            <div>
+              <h2 className="text-xl font-semibold text-white">Folders</h2>
+              <p className="text-sm text-gray-400">Collections from Settings appear here as dashboard folders.</p>
+            </div>
+            <p className="text-sm text-gray-500">
+              {collections.length} {collections.length === 1 ? 'folder' : 'folders'} - {unassignedFiles.length} unsorted PGNs
+            </p>
+          </div>
+
+          {folderSummaries.length === 0 && unassignedFiles.length === 0 ? (
+            <div className="rounded-2xl border border-dashed border-gray-700 bg-gray-900/40 p-6 text-sm text-gray-400">
+              Create a collection in Settings, then use <span className="text-cyan-300">Add to Folder</span> to sort your PGNs here.
+            </div>
+          ) : (
+            <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+              {folderSummaries.map((collection) => {
+                const isOpen = openCollectionId === collection.id;
+
+                return (
+                  <div key={collection.id} className="rounded-2xl border border-gray-800 bg-gray-900/70 p-5">
+                    <div className="flex items-start justify-between gap-3">
+                      <div className="min-w-0">
+                        <div className="flex items-center gap-2">
+                          <FolderOpen className="h-5 w-5 text-cyan-400" />
+                          <h3 className="truncate text-base font-semibold text-white">{collection.name}</h3>
+                        </div>
+                        <p className="mt-1 text-xs text-gray-400">{collection.files.length} {collection.files.length === 1 ? 'PGN' : 'PGNs'}</p>
+                      </div>
+                      <div className="flex flex-col gap-2">
+                        <button
+                          onClick={() => handleToggleFolder(collection.id)}
+                          className="rounded-lg border border-gray-700 bg-gray-950/70 px-3 py-2 text-xs font-medium text-gray-200 transition-colors hover:bg-gray-800"
+                        >
+                          {isOpen ? 'Close folder' : 'Open folder'}
+                        </button>
+                        <button
+                          onClick={() => setSelectedFiles(collection.files)}
+                          disabled={collection.files.length === 0}
+                          className="rounded-lg border border-gray-700 bg-gray-950/70 px-3 py-2 text-xs font-medium text-gray-200 transition-colors hover:bg-gray-800 disabled:cursor-not-allowed disabled:opacity-50"
+                        >
+                          {collection.files.length === 0 ? 'Empty folder' : 'Select folder'}
+                        </button>
+                      </div>
+                    </div>
+
+                    {isOpen && (
+                      <div className="mt-4 space-y-4 rounded-2xl border border-gray-800 bg-gray-950/40 p-4">
+                        <div className="flex flex-wrap gap-2">
+                          {collection.files.length === 0 ? (
+                            <span className="text-sm text-gray-500">No PGNs assigned yet.</span>
+                          ) : (
+                            collection.files.map((fileName) => (
+                              <Badge key={fileName} variant="secondary" className="max-w-full truncate bg-gray-800 text-gray-200">
+                                {fileName.replace('.pgn', '')}
+                              </Badge>
+                            ))
+                          )}
+                        </div>
+
+                        {collection.files.length > 0 && (
+                          <div className="flex flex-wrap gap-2">
+                            <button
+                              onClick={() => handleTrainFolder(collection.files)}
+                              className="inline-flex items-center gap-2 rounded-lg bg-cyan-600 px-3 py-2 text-xs font-medium text-white transition-colors hover:bg-cyan-700"
+                            >
+                              Open in Training
+                            </button>
+                            <button
+                              onClick={() => setSelectedFiles(collection.files)}
+                              className="rounded-lg border border-gray-700 bg-gray-900/70 px-3 py-2 text-xs font-medium text-gray-200 transition-colors hover:bg-gray-800"
+                            >
+                              Select all in folder
+                            </button>
+                          </div>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+
+              {unassignedFiles.length > 0 && (
+                <div className="rounded-2xl border border-dashed border-gray-700 bg-gray-900/40 p-5">
+                  <div className="flex items-start justify-between gap-3">
+                    <div className="min-w-0">
+                      <div className="flex items-center gap-2">
+                        <Folder className="h-5 w-5 text-gray-400" />
+                        <h3 className="truncate text-base font-semibold text-white">Unsorted</h3>
+                      </div>
+                      <p className="mt-1 text-xs text-gray-400">{unassignedFiles.length} PGNs not assigned to a folder</p>
+                    </div>
+                    <button
+                      onClick={() => setSelectedFiles(unassignedFiles)}
+                      className="rounded-lg border border-gray-700 bg-gray-950/70 px-3 py-2 text-xs font-medium text-gray-200 transition-colors hover:bg-gray-800"
+                    >
+                      Select unsorted
+                    </button>
+                  </div>
+
+                  <div className="mt-4 flex flex-wrap gap-2">
+                    {unassignedFiles.slice(0, 4).map((fileName) => (
+                      <Badge key={fileName} variant="secondary" className="max-w-full truncate bg-gray-800 text-gray-200">
+                        {fileName.replace('.pgn', '')}
+                      </Badge>
+                    ))}
+                    {unassignedFiles.length > 4 && (
+                      <Badge variant="outline" className="border-gray-700 text-gray-300">
+                        +{unassignedFiles.length - 4} more
+                      </Badge>
+                    )}
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+        </div>
+
         {/* PGN Files List */}
         <div className="mb-8">
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between mb-4">
@@ -170,6 +370,14 @@ export default function DashboardPage() {
                     Delete Selected
                   </button>
                 )}
+                <button
+                  onClick={openFolderDialog}
+                  disabled={selectedCount === 0}
+                  className="inline-flex items-center gap-2 rounded-lg border border-cyan-900/60 bg-cyan-950/50 px-3 py-2 text-sm text-cyan-200 transition-colors hover:bg-cyan-900/60 hover:text-white disabled:cursor-not-allowed disabled:opacity-50"
+                >
+                  <FolderPlus className="h-4 w-4" />
+                  Add to Folder
+                </button>
                 <span className="text-sm text-gray-400">
                   {selectedCount} selected
                 </span>
@@ -220,6 +428,14 @@ export default function DashboardPage() {
                         <p className="text-sm text-gray-400 mt-1">
                           {pgnStat.total} {pgnStat.total === 1 ? 'chapter' : 'chapters'}
                         </p>
+                        {getCollectionForFile(pgnStat.fileName) && (
+                          <div className="mt-2">
+                            <Badge variant="outline" className="border-cyan-900/60 bg-cyan-950/30 text-cyan-200">
+                              <Folder className="h-3 w-3" />
+                              {getCollectionForFile(pgnStat.fileName)?.name}
+                            </Badge>
+                          </div>
+                        )}
                       </div>
                       <div className="flex flex-col items-end gap-2">
                         <label className="inline-flex items-center gap-2 rounded-lg border border-gray-700 bg-gray-900/60 px-3 py-2 text-sm text-gray-200 cursor-pointer select-none">
@@ -269,9 +485,9 @@ export default function DashboardPage() {
 
                     {/* Action Button */}
                     <button
-                      onClick={() => {
+                      onClick={async () => {
                         setSelectedFiles([pgnStat.fileName]);
-                        const combinedGames = loadGamesFromFiles([pgnStat.fileName]);
+                        const combinedGames = await loadGamesFromFiles([pgnStat.fileName]);
                         if (combinedGames.length > 0) {
                           const selectedGame = combinedGames[0];
                           setSelectedGame(selectedGame);
@@ -345,6 +561,62 @@ export default function DashboardPage() {
             </button>
           </div>
         )}
+
+        <Dialog open={folderDialogOpen} onOpenChange={setFolderDialogOpen}>
+          <DialogContent className="border-gray-800 bg-gray-950 text-gray-100 sm:max-w-lg">
+            <DialogHeader>
+              <DialogTitle>Add Selected PGNs to a Folder</DialogTitle>
+              <DialogDescription>
+                Move the {selectedCount} selected {selectedCount === 1 ? 'PGN' : 'PGNs'} into a folder so they appear grouped on the dashboard.
+              </DialogDescription>
+            </DialogHeader>
+
+            <div className="space-y-4">
+              <div className="space-y-2">
+                <label className="text-xs uppercase tracking-[0.2em] text-gray-500">Target folder</label>
+                <Select value={targetCollectionId} onValueChange={setTargetCollectionId}>
+                  <SelectTrigger className="w-full border-gray-700 bg-gray-900 text-gray-100">
+                    <SelectValue placeholder="Choose a folder" />
+                  </SelectTrigger>
+                  <SelectContent className="border-gray-800 bg-gray-950 text-gray-100">
+                    {collections.map((collection) => (
+                      <SelectItem key={collection.id} value={collection.id}>
+                        {collection.name}
+                      </SelectItem>
+                    ))}
+                    <SelectItem value="new">Create a new folder</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+
+              {targetCollectionId === 'new' && (
+                <div className="space-y-2">
+                  <label className="text-xs uppercase tracking-[0.2em] text-gray-500">New folder name</label>
+                  <input
+                    value={newCollectionName}
+                    onChange={(e) => {
+                      setNewCollectionName(e.target.value);
+                      setFolderDialogError('');
+                    }}
+                    placeholder="Example: Sicilian lines"
+                    className="w-full rounded-2xl border border-gray-700 bg-gray-900 px-4 py-3 text-sm text-white outline-none placeholder:text-gray-500 focus:border-cyan-500"
+                  />
+                </div>
+              )}
+
+              {folderDialogError && <p className="text-sm text-red-400">{folderDialogError}</p>}
+            </div>
+
+            <DialogFooter>
+              <Button variant="outline" onClick={() => setFolderDialogOpen(false)} className="border-gray-700 bg-transparent text-gray-200 hover:bg-gray-800 hover:text-white">
+                Cancel
+              </Button>
+              <Button onClick={handleAssignSelectedFiles} className="bg-cyan-600 text-white hover:bg-cyan-700">
+                Add to Folder
+              </Button>
+            </DialogFooter>
+          </DialogContent>
+        </Dialog>
       </div>
     </main>
   );

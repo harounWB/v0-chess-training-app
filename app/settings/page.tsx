@@ -1,12 +1,11 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { useTheme } from 'next-themes';
 import { AppSettings } from '@/lib/types';
 import { useGameContext } from '@/lib/GameContext';
 import { Header } from '@/components/Header';
 import { Button } from '@/components/ui/button';
-import { AlertCircle, Moon, Sun, Paintbrush, Speaker, ShieldCheck } from 'lucide-react';
+import { Paintbrush, Speaker, ShieldCheck } from 'lucide-react';
 
 const boardThemeLabels = {
   classic: 'Classic',
@@ -23,12 +22,6 @@ const pieceThemeLabels = {
   lichess: 'Lichess',
 };
 
-const animationLabels = {
-  slow: 'Slow',
-  normal: 'Normal',
-  fast: 'Fast',
-};
-
 export default function SettingsPage() {
   const {
     settings,
@@ -38,7 +31,6 @@ export default function SettingsPage() {
     renameCollection,
     deleteCollection,
   } = useGameContext();
-  const { setTheme } = useTheme();
   const [pendingSettings, setPendingSettings] = useState<AppSettings>(settings);
   const [saved, setSaved] = useState(false);
   const [newCollection, setNewCollection] = useState('');
@@ -48,11 +40,6 @@ export default function SettingsPage() {
   useEffect(() => {
     setPendingSettings(settings);
   }, [settings]);
-
-  const handleThemeChange = (theme: typeof settings.themeMode) => {
-    setPendingSettings(prev => ({ ...prev, themeMode: theme }));
-    setSaved(false);
-  };
 
   const handleBoardThemeChange = (theme: typeof settings.boardTheme) => {
     setPendingSettings(prev => ({ ...prev, boardTheme: theme }));
@@ -66,7 +53,6 @@ export default function SettingsPage() {
 
   const handleSaveSettings = () => {
     updateSettings(pendingSettings);
-    setTheme(pendingSettings.themeMode);
     setSaved(true);
   };
 
@@ -76,31 +62,10 @@ export default function SettingsPage() {
       <div className="container mx-auto px-4 py-6 max-w-6xl">
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-white">Settings</h1>
-          <p className="text-gray-400 mt-2">Customize your training experience, board themes, sound, and reminders.</p>
+          <p className="text-gray-400 mt-2">Customize your board style, sound, and collections.</p>
         </div>
 
         <div className="grid gap-6 lg:grid-cols-2">
-          <section className="bg-gray-900 border border-gray-800 rounded-3xl p-6 space-y-4">
-            <div className="flex items-center gap-3 text-white">
-              <Moon className="w-5 h-5 text-purple-400" />
-              <div>
-                <h2 className="text-lg font-semibold">Theme</h2>
-                <p className="text-sm text-gray-400">Choose light, dark, or system mode.</p>
-              </div>
-            </div>
-            <div className="grid grid-cols-3 gap-3">
-              {(['light', 'dark', 'system'] as const).map((mode) => (
-                <button
-                  key={mode}
-                  onClick={() => handleThemeChange(mode)}
-                  className={`rounded-2xl border px-4 py-3 text-sm font-medium transition ${pendingSettings.themeMode === mode ? 'border-purple-500 bg-purple-600/20 text-white' : 'border-gray-700 bg-gray-800 text-gray-300 hover:border-gray-600'}`}
-                >
-                  {mode === 'system' ? 'System' : mode.charAt(0).toUpperCase() + mode.slice(1)}
-                </button>
-              ))}
-            </div>
-          </section>
-
           <section className="bg-gray-900 border border-gray-800 rounded-3xl p-6 space-y-4">
             <div className="flex items-center gap-3 text-white">
               <Paintbrush className="w-5 h-5 text-blue-400" />
@@ -145,8 +110,8 @@ export default function SettingsPage() {
             <div className="flex items-center gap-3 text-white">
               <Speaker className="w-5 h-5 text-green-400" />
               <div>
-                <h2 className="text-lg font-semibold">Sound & Animations</h2>
-                <p className="text-sm text-gray-400">Control audio and UI motion settings.</p>
+                <h2 className="text-lg font-semibold">Sound</h2>
+                <p className="text-sm text-gray-400">Control audio settings.</p>
               </div>
             </div>
             <div className="flex items-center justify-between rounded-2xl border border-gray-700 bg-gray-800 p-4">
@@ -164,76 +129,6 @@ export default function SettingsPage() {
                 {pendingSettings.soundEnabled ? 'On' : 'Off'}
               </button>
             </div>
-            <div>
-              <p className="text-xs uppercase tracking-[0.2em] text-gray-500 mb-3">Animation speed</p>
-              <div className="grid grid-cols-3 gap-3">
-                {(Object.keys(animationLabels) as Array<keyof typeof animationLabels>).map((speed) => (
-                  <button
-                    key={speed}
-                    onClick={() => {
-                      setPendingSettings(prev => ({ ...prev, animationSpeed: speed }));
-                      setSaved(false);
-                    }}
-                    className={`rounded-2xl border px-4 py-3 text-sm transition ${pendingSettings.animationSpeed === speed ? 'border-purple-500 bg-purple-600/20 text-white' : 'border-gray-700 bg-gray-800 text-gray-300 hover:border-gray-600'}`}
-                  >
-                    {animationLabels[speed]}
-                  </button>
-                ))}
-              </div>
-            </div>
-          </section>
-
-          <section className="bg-gray-900 border border-gray-800 rounded-3xl p-6 space-y-4">
-            <div className="flex items-center gap-3 text-white">
-              <ShieldCheck className="w-5 h-5 text-yellow-400" />
-              <div>
-                <h2 className="text-lg font-semibold">Training</h2>
-                <p className="text-sm text-gray-400">Enable blitz mode and reminders.</p>
-              </div>
-            </div>
-            <div className="grid gap-3">
-              <div className="flex items-center justify-between rounded-2xl border border-gray-700 bg-gray-800 p-4">
-                <div>
-                  <p className="text-sm font-medium">Blitz training</p>
-                  <p className="text-xs text-gray-400">Enable fast-paced timed practice sessions.</p>
-                </div>
-                <button
-                  onClick={() => {
-                    setPendingSettings(prev => ({ ...prev, blitzModeEnabled: !prev.blitzModeEnabled }));
-                    setSaved(false);
-                  }}
-                  className={`rounded-full px-4 py-2 text-sm font-medium transition ${pendingSettings.blitzModeEnabled ? 'bg-purple-600 text-white' : 'bg-gray-700 text-gray-300'}`}
-                >
-                  {pendingSettings.blitzModeEnabled ? 'On' : 'Off'}
-                </button>
-              </div>
-              <div className="rounded-2xl border border-gray-700 bg-gray-800 p-4">
-                <div className="flex items-center justify-between mb-2">
-                  <div>
-                    <p className="text-sm font-medium">Daily reminder</p>
-                    <p className="text-xs text-gray-400">Receive a reminder each day for training.</p>
-                  </div>
-                  <button
-                    onClick={() => {
-                      setPendingSettings(prev => ({ ...prev, remindersEnabled: !prev.remindersEnabled }));
-                      setSaved(false);
-                    }}
-                    className={`rounded-full px-4 py-2 text-sm font-medium transition ${pendingSettings.remindersEnabled ? 'bg-purple-600 text-white' : 'bg-gray-700 text-gray-300'}`}
-                  >
-                    {pendingSettings.remindersEnabled ? 'On' : 'Off'}
-                  </button>
-                </div>
-                    <input
-                      type="time"
-                      value={pendingSettings.reminderTime}
-                      onChange={(e) => {
-                        setPendingSettings(prev => ({ ...prev, reminderTime: e.target.value }));
-                        setSaved(false);
-                      }}
-                  className="w-full rounded-2xl border border-gray-700 bg-gray-900 px-4 py-3 text-sm text-white outline-none focus:border-purple-500"
-                />
-              </div>
-            </div>
           </section>
 
           <section className="bg-gray-900 border border-gray-800 rounded-3xl p-6 space-y-4">
@@ -241,7 +136,7 @@ export default function SettingsPage() {
               <ShieldCheck className="w-5 h-5 text-cyan-400" />
               <div>
                 <h2 className="text-lg font-semibold">Collections</h2>
-                <p className="text-sm text-gray-400">Organize chapters into custom collections.</p>
+                <p className="text-sm text-gray-400">Organize PGN files into custom folders used by the dashboard.</p>
               </div>
             </div>
             <div className="grid gap-3">
@@ -282,7 +177,7 @@ export default function SettingsPage() {
                         ) : (
                           <div>
                             <div className="text-sm font-medium text-white">{collection.name}</div>
-                            <div className="text-xs text-gray-400">{collection.gameIds.length} games</div>
+                            <div className="text-xs text-gray-400">{collection.fileNames.length} PGNs</div>
                           </div>
                         )}
                         <div className="flex items-center gap-2">

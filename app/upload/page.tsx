@@ -7,10 +7,11 @@ import { useGameContext } from '@/lib/GameContext';
 import { useAuth } from '@/lib/AuthContext';
 import { Game } from '@/lib/types';
 import { scopeGamesForFile } from '@/lib/GameContext';
-import { BookOpen, Play, Upload as UploadIcon, AlertCircle, FileText, ChevronDown, ChevronUp, Search, X } from 'lucide-react';
+import { Play, Upload as UploadIcon, AlertCircle, FileText, ChevronDown, ChevronUp, Search, X } from 'lucide-react';
 import { Header } from '@/components/Header';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
+import { LogoMark } from '@/components/LogoMark';
 
 export default function UploadPage() {
   const router = useRouter();
@@ -731,13 +732,13 @@ export default function UploadPage() {
       })
     : pgnFiles;
 
-  const handleGamesLoaded = async (loadedGames: Game[], fileName?: string) => {
+  const handleGamesLoaded = async (loadedGames: Game[], fileName?: string, source: 'bundled' | 'upload' = 'upload') => {
     setIsLoading(true);
     
     const scopedGames = fileName ? scopeGamesForFile(fileName, loadedGames) : loadedGames;
     
     // Store games in context with filename (this triggers localStorage save with PGN name)
-    setGames(loadedGames, fileName);
+    setGames(loadedGames, fileName, { source });
     
     // Select first game
     if (scopedGames.length > 0) {
@@ -782,7 +783,7 @@ export default function UploadPage() {
       }
       
       // Call the same handler as file upload
-      handleGamesLoaded(loadedGames, fileName);
+      handleGamesLoaded(loadedGames, fileName, 'bundled');
     } catch (error) {
       console.error('Error loading PGN file:', error);
       alert(`Failed to load ${fileName}: ${error instanceof Error ? error.message : 'Unknown error'}`);
@@ -817,11 +818,9 @@ export default function UploadPage() {
           {/* Header */}
           <header className="flex items-center justify-center">
             <div className="flex items-center gap-4">
-              <div className="w-14 h-14 rounded-xl bg-purple-600/20 flex items-center justify-center">
-                <BookOpen className="w-8 h-8 text-purple-400" />
-              </div>
+              <LogoMark className="h-14 w-14 sm:h-16 sm:w-16" sizes="64px" priority />
               <div>
-                <h1 className="text-2xl font-bold text-white">Chess Opening Trainer</h1>
+                <h1 className="text-2xl font-bold text-white sm:text-3xl">OpeningMaster</h1>
                 <p className="text-sm text-gray-500">Master openings with interactive training</p>
               </div>
             </div>

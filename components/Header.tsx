@@ -6,18 +6,23 @@ import { useAuth } from '@/lib/AuthContext';
 import { AuthModal } from '@/components/AuthModal';
 import { Button } from '@/components/ui/button';
 import { User, LogOut, Crown, BarChart3, Settings } from 'lucide-react';
+import { LogoMark } from '@/components/LogoMark';
 
 export function Header() {
   const { user, signOut, isGuest } = useAuth();
   const pathname = usePathname();
 
   return (
-    <header className="border-b border-gray-800 bg-gray-950/80 backdrop-blur-sm">
+      <header className="border-b border-gray-800 bg-gray-950/80 backdrop-blur-sm">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4">
-            <Link href="/upload" className="text-xl font-bold text-white hover:text-purple-400 transition-colors">
-              Chess Opening Trainer
+            <Link href="/upload" className="flex items-center gap-3 rounded-xl text-white transition-opacity hover:opacity-90">
+              <LogoMark className="h-10 w-10 sm:h-11 sm:w-11" sizes="44px" priority />
+              <div className="leading-tight">
+                <span className="block text-sm font-semibold sm:text-base">OpeningMaster</span>
+                <span className="hidden text-xs text-gray-400 sm:block">Chess opening training</span>
+              </div>
             </Link>
             {(user || isGuest) && (
               <Link

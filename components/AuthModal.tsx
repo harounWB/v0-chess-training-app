@@ -6,14 +6,15 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
-import { AlertCircle, User, LogIn } from 'lucide-react';
+import { AlertCircle } from 'lucide-react';
+import { LogoMark } from '@/components/LogoMark';
 
 interface AuthModalProps {
   children: React.ReactNode;
 }
 
 export function AuthModal({ children }: AuthModalProps) {
-  const { signUp, signIn, isGuest, setGuestMode } = useAuth();
+  const { signUp, signIn, setGuestMode } = useAuth();
   const [isOpen, setIsOpen] = useState(false);
   const [isSignUp, setIsSignUp] = useState(false);
   const [email, setEmail] = useState('');
@@ -52,10 +53,13 @@ export function AuthModal({ children }: AuthModalProps) {
       </DialogTrigger>
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
-          <DialogTitle className="flex items-center gap-2">
-            <User className="w-5 h-5" />
-            {isSignUp ? 'Create Account' : 'Sign In'}
-          </DialogTitle>
+          <div className="flex items-center gap-3 text-left">
+            <LogoMark className="h-10 w-10" sizes="40px" />
+            <div className="space-y-1">
+              <p className="text-xs uppercase tracking-[0.24em] text-muted-foreground">OpeningMaster</p>
+              <DialogTitle>{isSignUp ? 'Create Account' : 'Sign In'}</DialogTitle>
+            </div>
+          </div>
         </DialogHeader>
 
         <form onSubmit={handleSubmit} className="space-y-4">
