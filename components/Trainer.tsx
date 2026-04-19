@@ -23,8 +23,8 @@ interface TrainerProps {
 
 export function Trainer({ games, initialMode = 'train' }: TrainerProps) {
   const router = useRouter();
-  const { playMoveSound } = useChessSound();
   const { selectedGame, setSelectedGame, moveIndex, setMoveIndex, saveCompletedGame, markGameExplored, settings, clearGameData, pgnProgress } = useGameContext();
+  const { playMoveSound } = useChessSound(settings.soundEnabled);
   const lastExploredGameRef = useRef<string | null>(null);
   const lastAutoCompletedGameRef = useRef<string | null>(null);
   const currentGameIndex = games.findIndex(g => g.id === selectedGame?.id) ?? -1;

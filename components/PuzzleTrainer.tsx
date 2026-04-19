@@ -67,7 +67,7 @@ function formatGameTitle(game: Game) {
 
 export function PuzzleTrainer({ games, sessionKey = 'puzzle' }: { games: Game[]; sessionKey?: string }) {
   const { settings } = useGameContext();
-  const { playMoveSound } = useChessSound();
+  const { playMoveSound } = useChessSound(settings.soundEnabled);
   
   // Single chess instance - never recreated
   const gameRef = useRef<Chess | null>(null);

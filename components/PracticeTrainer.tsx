@@ -88,7 +88,7 @@ const MistakeRow = React.memo(function MistakeRow({ mistake, index }: { mistake:
 
 function PracticeTrainerImpl({ game, side }: PracticeTrainerProps) {
   const { settings } = useGameContext();
-  const { playMoveSound } = useChessSound();
+  const { playMoveSound } = useChessSound(settings.soundEnabled);
   const { ready: lichessReady, error: lichessError, requestBestMove, cancelRequest } = useLichessEngine();
 
   const initialHumanColor = useMemo<PlayerColor>(() => pickPracticeColor(side), [side]);

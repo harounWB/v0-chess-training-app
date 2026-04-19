@@ -9,7 +9,7 @@ const CHECK_SOUND_URL = 'https://www.chess.com/sound/check.mp3';
 const CASTLE_SOUND_URL = 'https://www.chess.com/sound/castle.mp3';
 const PROMOTE_SOUND_URL = 'https://www.chess.com/sound/promote.mp3';
 
-export function useChessSound() {
+export function useChessSound(enabled = true) {
   const moveAudioRef = useRef<HTMLAudioElement | null>(null);
   const captureAudioRef = useRef<HTMLAudioElement | null>(null);
   const checkAudioRef = useRef<HTMLAudioElement | null>(null);
@@ -50,6 +50,10 @@ export function useChessSound() {
   }, []);
 
   const playMoveSound = useCallback((isCapture: boolean = false, isCheck: boolean = false, isCastle: boolean = false, isPromotion: boolean = false) => {
+    if (!enabled) {
+      return;
+    }
+
     try {
       let audio: HTMLAudioElement | null = null;
 
@@ -74,7 +78,7 @@ export function useChessSound() {
     } catch {
       // Ignore audio errors
     }
-  }, []);
+  }, [enabled]);
 
   return { playMoveSound };
 }
