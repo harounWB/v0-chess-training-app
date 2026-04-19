@@ -805,7 +805,7 @@ export default function UploadPage() {
   return (
     <div className="min-h-screen bg-gray-950 text-gray-100">
       <Header />
-      <div className="container mx-auto px-4 py-6 max-w-7xl">
+      <div className="mx-auto max-w-screen-xl px-4 py-4 sm:py-6">
         {isGuest && (
           <div className="max-w-md mx-auto mb-6 p-4 bg-amber-900/20 border border-amber-800/50 rounded-lg">
             <div className="flex items-center gap-2 text-amber-400">

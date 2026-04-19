@@ -90,7 +90,7 @@ export default function TrainingPage() {
   return (
     <main className="min-h-screen bg-gray-950 text-gray-100">
       <Header />
-      <div className="container mx-auto px-4 py-6 max-w-7xl">
+      <div className="mx-auto max-w-screen-xl px-4 py-4 sm:py-6">
         <div className="mb-8 max-w-3xl">
           <p className="text-xs uppercase tracking-[0.2em] text-gray-500">Training Mode</p>
           <h1 className="mt-3 text-3xl font-bold text-white sm:text-5xl">Chess Opening Trainer - Practice Openings Interactively</h1>
@@ -100,7 +100,7 @@ export default function TrainingPage() {
         </div>
 
         {/* Control Bar */}
-        <div className="flex items-center justify-between mb-6">
+        <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <button
             onClick={() => {
               clearGameData();

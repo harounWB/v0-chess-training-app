@@ -14,7 +14,7 @@ export default function OpeningsPage() {
   return (
     <main className="min-h-screen bg-gray-950 text-gray-100">
       <Header />
-      <div className="container mx-auto max-w-7xl px-4 py-16">
+      <div className="mx-auto max-w-screen-xl px-4 py-12 sm:py-16">
         <div className="max-w-3xl">
           <p className="text-xs uppercase tracking-[0.2em] text-gray-500">Opening-Specific Pages</p>
           <h1 className="mt-3 text-3xl font-bold text-white sm:text-5xl">Make a page for each opening</h1>

@@ -712,8 +712,8 @@ export function Trainer({ games, initialMode = 'train' }: TrainerProps) {
 
   return (
     <div className="flex flex-col gap-6">
-      <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px_280px] gap-6">
-        <div className="flex flex-col gap-4">
+      <div className="grid grid-cols-1 gap-6 lg:grid-cols-[minmax(0,1fr)_320px_280px]">
+        <div className="flex min-w-0 flex-col gap-4">
           {sessionComplete && selectedGame && currentSession && (
             <SessionFeedback
               session={currentSession}
@@ -730,7 +730,7 @@ export function Trainer({ games, initialMode = 'train' }: TrainerProps) {
             />
           )}
 
-          <div className="flex flex-col items-center gap-3">
+          <div className="mx-auto flex w-full max-w-[min(100vw,500px)] flex-col items-center gap-3">
             {selectedGame && gameState ? (
               <ChessBoard
                 fen={trainingMode === 'explore' && exploreFen ? exploreFen : getCurrentFen()}
@@ -750,13 +750,13 @@ export function Trainer({ games, initialMode = 'train' }: TrainerProps) {
                 pieceTheme={settings.pieceTheme}
               />
             ) : (
-              <div className="w-full max-w-md aspect-square bg-gray-800 rounded-lg flex items-center justify-center border border-gray-700">
+              <div className="flex aspect-square w-full items-center justify-center rounded-lg border border-gray-700 bg-gray-800">
                 <p className="text-gray-400">Select a game to begin</p>
               </div>
             )}
 
             {selectedGame && (
-              <div className="flex items-center gap-2 bg-gray-900 rounded-lg p-2 border border-gray-800">
+              <div className="flex w-full flex-wrap items-center justify-center gap-2 rounded-lg border border-gray-800 bg-gray-900 p-2">
                 <Button
                   variant="ghost"
                   size="sm"
@@ -842,7 +842,7 @@ export function Trainer({ games, initialMode = 'train' }: TrainerProps) {
             )}
 
             {selectedGame && (
-              <div className="flex items-center gap-2 bg-gray-900 rounded-lg p-2 border border-gray-800">
+              <div className="flex w-full flex-wrap items-center justify-center gap-2 rounded-lg border border-gray-800 bg-gray-900 p-2">
                 <Button
                   variant="ghost"
                   size="sm"
@@ -937,7 +937,7 @@ export function Trainer({ games, initialMode = 'train' }: TrainerProps) {
         </div>
 
         {selectedGame && trainingMode === 'explore' && (
-          <div className="flex-shrink-0">
+          <div className="min-w-0 flex-shrink-0">
             <h3 className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Moves & Comments</h3>
             <MovesPanel
               game={selectedGame}
@@ -949,7 +949,7 @@ export function Trainer({ games, initialMode = 'train' }: TrainerProps) {
           </div>
         )}
 
-        <div className="flex-shrink-0">
+        <div className="min-w-0 flex-shrink-0">
           <GameList
             games={games}
             selectedGame={selectedGame}

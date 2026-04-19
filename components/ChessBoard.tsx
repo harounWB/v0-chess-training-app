@@ -173,10 +173,37 @@ function ChessBoardImpl({
     };
   }, [onReady, pieceTheme]);
 
-  // Responsive board size with proper aspect ratio
-  const [boardSize, setBoardSize] = useState(480);
-  const squareSize = boardSize / 8;
+  const wrapperRef = useRef<HTMLDivElement>(null);
+  const [boardSize, setBoardSize] = useState(0);
+  const squareSize = boardSize > 0 ? boardSize / 8 : 0;
   const pieceSize = squareSize * 0.88;
+
+  useLayoutEffect(() => {
+    const wrapper = wrapperRef.current;
+    if (!wrapper) return;
+
+    const updateSize = () => {
+      const nextSize = Math.floor(wrapper.getBoundingClientRect().width);
+      setBoardSize((currentSize) => (currentSize === nextSize ? currentSize : nextSize));
+    };
+
+    updateSize();
+
+    if (typeof ResizeObserver === 'undefined') {
+      window.addEventListener('resize', updateSize);
+      return () => window.removeEventListener('resize', updateSize);
+    }
+
+    const observer = new ResizeObserver(updateSize);
+    observer.observe(wrapper);
+
+    window.addEventListener('orientationchange', updateSize);
+
+    return () => {
+      observer.disconnect();
+      window.removeEventListener('orientationchange', updateSize);
+    };
+  }, []);
 
   const clearMoveAnimation = useCallback(() => {
     if (animationFrameRef.current !== null) {
@@ -520,43 +547,12 @@ function ChessBoardImpl({
       radial-gradient(circle at 70% 70%, rgba(74, 44, 23, 0.2) 0%, transparent 50%)
     `;
 
-  // Calculate responsive board size with better mobile support
-  useEffect(() => {
-    const updateSize = () => {
-      const vw = window.innerWidth;
-      const vh = window.innerHeight;
-
-      // Mobile: use viewport width but constrain height to maintain aspect ratio
-      // Desktop: larger, max 800px for better detail
-      let size: number;
-      if (vw < 768) {
-        // On mobile, use 90% of viewport width but ensure it fits in height
-        const maxWidth = vw * 0.9;
-        const maxHeight = vh * 0.5; // Leave room for other UI elements
-        size = Math.min(maxWidth, maxHeight);
-      } else {
-        size = Math.min(vw * 0.45, vh * 0.7, 800);
-      }
-
-      // Ensure it's divisible by 8 for clean squares and minimum size
-      size = Math.floor(size / 8) * 8;
-      setBoardSize(Math.max(320, size)); // Minimum 320px for usability
-    };
-
-    updateSize();
-    window.addEventListener('resize', updateSize);
-    return () => window.removeEventListener('resize', updateSize);
-  }, []);
-
   return (
-    <div className="flex justify-center w-full">
-        <div className="relative w-full max-w-[800px] aspect-square flex items-center justify-center">
+    <div ref={wrapperRef} className="mx-auto aspect-square w-full max-w-[min(100vw,500px)] touch-none">
       <div
         ref={boardRef}
-        className="relative grid grid-cols-8 rounded-xl overflow-hidden select-none border-4 shadow-2xl"
+        className="relative grid h-full w-full grid-cols-8 overflow-hidden select-none rounded-xl border-4 shadow-2xl"
         style={{
-          width: `${boardSize}px`,
-          height: `${boardSize}px`,
           touchAction: 'none',
           borderColor: boardPalette.border,
           background: boardFrameBackground,
@@ -584,7 +580,7 @@ function ChessBoardImpl({
           return (
             <div
               key={square}
-              className="relative flex items-center justify-center cursor-pointer aspect-square transition-colors duration-150 hover:brightness-[1.02]"
+              className="relative flex aspect-square cursor-pointer items-center justify-center transition-colors duration-150 hover:brightness-[1.02]"
               style={{
                 background: getSquareColor(square, isLight),
                 boxShadow: isLight
@@ -719,7 +715,6 @@ function ChessBoardImpl({
           </div>
         )}
 
-      </div>
       </div>
     </div>
   );
