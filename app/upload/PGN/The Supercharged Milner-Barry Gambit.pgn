@@ -1,0 +1,586 @@
+﻿[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "1. Introduction"]
+[Black "Introduction Hector variation"]
+[Result "*"]
+[ECO "C02"]
+[PlyCount "13"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+1. e4 e6 2. d4 d5 3. e5 {[%csl Bc3,Bd3,Bf3][%cal Bc2c3,Bb1a3,Ba3c2,Bf1d3,Bg1f3] White's ideal set-up is Bd3 Na3-Nc2 securing the pawn on d4 with Nc2 and Nf3. White's pawn chain c3-d4-e5 gives them more space and leaves Black with a cramped position. With e5, White controls the square f6, making it hard for Black to find a good square for Ng8. Black's bishop on c8 is notoriously bad, being hemmed in by the pawn chain f7-e6-d5. Black often tries to put pressure on the pawn on d4 with c5-Nc6-Qb6.} c5 4. c3 Nc6 5. Nf3 Qb6 (5... Qb6 {is called the Hector Variation and the subject of the first chapter,}) (5... Bd7 {is the Advance Variation and is covered in the second chapter.}) 6. Bd3 cxd4 7. O-O $5 {We sacrifice the pawn on d4 for a lead in development and more space. The modern engines believe White has more than sufficient compensation for the pawn. In practice, it is easier to attack than to defend so we prefer to be on the White side. The variation was named after the Swedish GM Johnny Hector who has been playing this line since 2007. More recently this line has been used by the 16th World Champion Magnus Carlsen, GM Maxime Vachier Lagrave and GM Gawain Jones. The opening is featured in Gawain Jones' excellent Coffeehouse Repertoire - Volume 2. This book has been an important reference work for this mini-course. This course has been designed for club players: the lines have been chosen and prioritized based on the Lichess Rapid and Classical games database (rating 1600 and up) . As a result, you will learn what you as a club player will face most likely over the board. It has been a deliberate choice to keep the book small (approximately 20 variations and 10 puzzles) . The idea is to learn these 20 variations and the associated ideas with high accuracy and cover over 80% of what you will face over the board. The idea is not to win based on better opening memorization but to get unbalanced, attacking positions that are fun to play. This course has been a cooperation between Fide Candidate Master Han Schut and Ben Davar. Ben Davar is an English major, who lives in NYC and is an avid chess player. As a club player and writer, he was responsible for clear and succinct comments. CM Han Schut selected the variations and was responsible for the overall quality assurance and final editing of the mini-course. Finally, the analysis was done using Stockfish 15.1 at depth 30 or higher where necessary supported by a second opinion by Leela Chess Zero 0.29.} *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "1. Introduction"]
+[Black "Introduction Advance variatio"]
+[Result "*"]
+[ECO "C02"]
+[PlyCount "11"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Bd7 (5... Bd7 {is the signature move for the Advance Variation. Black does not put immediate pressure on d4 with}) (5... Qb6 {but develops their bishop first.}) 6. Be2 ({Why do we not play} 6. Bd3 {as in the Hector-variation? In the Hector-variation we take on c5 after Bd7: /img/diagrams/38141-1679750002.pngPosition after 6... Bd7 White plays 7. dxc5}) ({Yet if we play} 6. Bd3 {in the Advance-variation, Black can play} cxd4 {first, and after} 7. cxd4 Qb6 {we no longer transpose.}) ({Can we first take on c5 to transpose to the Hector?} 6. dxc5 Bxc5 7. Bd3 {and now} Nge7 {is possible as without Qb6, b4 is no longer trapping Bc5} 8. O-O Ng6 9. Re1 Qc7 10. Qe2 f6 {and Black is taking over. The disadvantage of 5... Bd7 is that it gives White an extra move to organize their defense of pawn d4.}) *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "1. Introduction"]
+[Black "The French Advance pawn struc"]
+[Result "*"]
+[ECO "C02"]
+[PlyCount "14"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 {Let's discuss the characteristics and plans associated with the French Advance pawn structure without White trading on c5. We have a closed position with a fixed pawn structure. White has a spatial advantage, the pawn on e5 is in enemy territory and controls d6 and f6. White's ideal setup is Bd3 and Na3-Nc2 securing the pawn on d4 and with maximum activity for the bishop. Black's light-squared bishop on c8 is considered 'bad' as it is hemmed in by the pawn chain f7-e6-d5. Black has difficulties completing their development due to the lack of space and the fact that f6 is not available for the g8-knight. Bf8 and Ng8 are often in each other's way (after Bc5 Nge7 Black has to be careful that their bishop will not be trapped after b4.) White's plans 1. Attack Black's king after O-O with the Greek Gift Bxh7 followed by Ng5+ or using a rook lift bringing the rook to g3 and bringing additional attackers. If the Black king stays in the middle, open the position with c3-c4 and sometimes more violently with Re1-Nxd5-e6 2. Continue to restrict the harmonious development of Black's pieces by threatening to trap them, by chasing them and for example by playing h4 after Nge7 to kick the knight back after Ne7-g6 with h4-h5. 3. A standard plan for White in the French Advance variation is to play f2-f4-f5 attacking the base of Black's pawn chain or even f2-f4-f5-f6 with a powerful kingside attack. This plan is only available if we move our f3 knight. Black's plans 1. Attack the pawn on d4 with c5, Nc6, Qb6 and sometimes Ne7-Nf5. Sometimes create counterplay on the c-file with Rc8 Nb4 threatening to invade on c2. 3. Challenge White's center with f7-f6 4. If Black castles long then they can initiate a kingside attack with h6-g5 or f6-g5. 4. Slow down White's attack with f7-f5. 5. Trade the 'bad' light-squared bishop on c8 with Bd7-Bb5 or b6-Ba6} Nc6 5. Nf3 Qb6 6. Bd3 Bd7 7. dxc5 Bxc5 {Now that White has taken on c5 it is important for White to control the d4-square for instance by playing Nbd2-Nb3-Nd4 and sometimes Rd1.} *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "2. Hector (5... Qb6) variatio"]
+[Black "5... Qb6 6... Bd7 8... Nge7"]
+[Result "*"]
+[ECO "C02"]
+[PlyCount "18"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{The relative importance of this variation: HIGH  * 5... Qb6 52% after 5.Nf3  * 6... Bd7 52% after 6.Bd3  * 8... Nge7 35% after 8. O-O} 1. e4 {[%mdl 32768]} e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Bd3 Bd7 $6 (6... f6 $6 {does not go well with Qb6 and after} 7. O-O Bd7 8. Nbd2 $16 {White is better. Black's king is too exposed to go pawn hunting. For example} cxd4 9. cxd4 Nxd4 10. Nxd4 Qxd4 11. Nf3 Qb6 12. b4 $1 {. For the price of one pawn, White has a big lead in development and open lines for their pieces. Be3 and Nd4 are most likely White's next two moves, chasing Black's queen and threatening Qh5+. SF15.1: 1.5}) 7. dxc5 $1 {[%csl Bb6][%cal Bc5b6] Preparing a quick queenside expansion with b4-Na3-Rb1-c4. Black is underdeveloped and their pieces lack space. White can develop their initiative with tempo.} Bxc5 {[%csl Yf2][%cal Yc5f2,Yb6f2,Be1f2]} (7... Qc7 8. O-O Nxe5 9. Nxe5 Qxe5 10. Re1 Qc7 11. b4 {SF15:+1 Black has lost too much time and has difficulty completing their development.}) 8. O-O {[%csl Bf2][%cal Bg1f2,Bf1f2,Yc5f2,Yb6f2] Defending the pawn on f2 by castling.} Nge7 $2 {Played in 35% of games in this position! Now the bishop on c5 gets trapped.} 9. b4 {[%csl Bc5][%cal Bb4c5]} Z0 ({Trapping the bishop on c5. SF15:+3 Black can give up a piece for two pawns} 9... Bxb4 10. cxb4 Nxb4 {but after} 11. a4 {planning Ba3 White has a winning position.}) *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "2. Hector (5... Qb6) variatio"]
+[Black "5... Qb6 6... Bd7 8... a5"]
+[Result "*"]
+[ECO "C02"]
+[PlyCount "24"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{The relative importance of this variation: HIGH  * 5... Qb6 52% after 5.Nf3  * 6... Bd7 52% after 6. Bd3  * 8... a5 24% after 8. O-O} 1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Bd3 Bd7 7. dxc5 $1 Bxc5 8. O-O a5 {[%cal Rb2b4] Played in 24% of the games after 8. O-O. Black prevents b4.} (8... f6 {the sharpest approach but only played in 5% of the games.} 9. b4 Be7 10. Re1 fxe5 $2 {played in 77% of the games.} 11. b5 $1 e4 12. bxc6 bxc6 13. Ne5 exd3 14. Qh5+ {SF15:+2}) 9. Qe2 {[%csl Rb6,Rc5,Rf2][%cal Rc5f2,Rb6f2][%mdl 32768]} ({The move} 9. Qe2 {gives us the best response to} f6 {with} 10. c4 $1 {opening up Black's centre.}) ({After} 9. Nbd2 f6 10. Qe2 fxe5 11. Nxe5 Nxe5 12. Qxe5 Nf6 {Black threatens} 13. Z0 Bxf2+ 14. Rxf2 Qxf2+ 15. Kxf2 Ng4+ {with a double attack on Qe5 and Kf2. After h3 O-O Black is fine.}) ({Not} 9. Re1 $2 {because of} Bxf2+ {.}) 9... Nge7 {[%csl Gg6][%cal Rb2b4,Gg8e7,Ge7g6] Black continues their plan: now that b4 has been stopped, they want to complete development with Nge7-Ng6.} (9... f6 {If Black decides to delay developing the knight, then we immediately open the center with the explosive c3-c4!} 10. c4 $14 {for example:} d4 11. exf6 Nxf6 12. Bf4 O-O 13. Nbd2 Rae8 14. Ne5 {SF15:+1}) 10. Nbd2 {If Black lets us, we will play Nb3 gaining absolute control over d4.} Ng6 {[%csl Be7,Bb3][%cal Bc5e7,Bd2b3]} (10... a4 11. b4 axb3 12. Nxb3 Ng6 13. h4 $16 {or}) (10... a4 11. b4 axb3 12. Nxb3 Ba3 13. Rb1 Qc7 14. Nbd4 {and White has Nb5 next. Black can not castle because of the Greek Gift Bxh7.}) 11. Nb3 Be7 ({Black doesn't want to give up their good bishop.} 11... O-O 12. Nxc5 Qxc5 13. h4 $16 {SF15: +1 White has the bishop pair and h5 coming, while Black still struggles with the passive bishop on d7.}) 12. Nbd4 $14 {[%csl Gc4,Rd5][%cal Gc3c4,Gg2g3,Rg6f4,Rg6h4,Gh2h4,Gh4h5] 'White has a pleasant game with good central control' GM Gawain Jones. Evaluation: SF15:+1} Z0 ({Some sample lines to show what can happen in practice:} 12... O-O 13. h4 Nxh4 $2 14. Nxh4 Bxh4 15. Qh5 {SF15:+5 12...Qc7 13.Re1 defending the pawn on e5. 13...O-O 14.h4 SF15:+2}) *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "2. Hector (5... Qb6) variatio"]
+[Black "5... Qb6 6... Bd7 8... Qc7"]
+[Result "*"]
+[ECO "C02"]
+[PlyCount "24"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{The relative importance of this Variation: MEDIUM  * 5... Qb6 52% after 5.Nf3  * 6... Bd7 52% after 6. Bd3  * 8... Qc7 16% after 8. O-O} 1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Bd3 Bd7 $6 ({Black's most popular move played 52% of the time. We reach the main course position after} 6... cxd4 7. O-O {.}) 7. dxc5 $1 {[%csl Gb6][%cal Gc5b6] Preparing a quick queenside expansion with b4-Na3-Rb1-c4. Black is underdeveloped and their pieces lack space. White can develop their initiative with tempo.} Bxc5 {[%csl Gf2][%cal Gc5f2,Gb6f2] With a twofold attack on f2.} 8. O-O {[%csl Gf2][%cal Gg1f2,Gf1f2]} Qc7 {[%cal Yc6e5,Yc7e5]} ({Protecting the pawn on f2 and bringing the king into safety. Black's most popular moves:} 8... Nge7 $2 {34%}) (8... a5 {24%}) (8... Qc7 {16%}) (8... Nh6 {9%}) (8... f6 {5%}) ({The third most popular move in this position. Qc7 and Nc6 now attack the pawn on e5. Furthermore, Qc7 frees the square b6 for Bc5 making it possible for Black to complete their development with Nge7 and O-O as after b4 the bishop is no longer trapped.} 8... Nh6 9. b4 Be7 10. Bxh6 gxh6 11. Qd2 {and now the only way for Black to save the pawn on h6 is the unnatural} Bf8 $16 {SF15:+1.}) 9. b4 {[%csl Yc5][%cal Yb4c5][%mdl 32768]} ({Attacking Bc5.} 9. Re1 {is an alternative.}) 9... Bb6 10. Re1 {[%csl Ge5][%cal Gf3e5,Ge1e5] Defending the pawn on e5.} Nge7 (10... a6 11. Na3 Nge7 12. Rb1 {transposes.}) 11. Na3 {[%csl Yb5,Yc7,Yd6][%cal Ya3b5,Yb5d6,Yb5c7] White develops their knight with tempo, threatening Nb5, attacking Qc7 and threatening Nd6+. Na3 clears the square b1 for Ra1 and keeps the diagonal c1-h6 open for Bc1.} a6 {[%csl Gb5][%cal Ga6b5] Protecting the square b5.} 12. Rb1 $16 {[%csl Gb4,Yc4][%cal Gb1b4,Yc3c4]} Z0 ({White is better SF15:+1 and now that the pawn on b4 is protected by Rb1, White is ready to play c3-c4. Black most often continues} 12... Ng6 {attacking the pawn on e5 for a third time. White ignores the threat and after} 13. c4 Ncxe5 14. Nxe5 Nxe5 15. c5 {is winning because of the dual threat Bf4, pinning Ne5 to Qc7 and cxb6 . Please note that after 12...Ng6 13.c4 dxc4 14.Nxc4 White is winning after 14...O-O 15.Nxb6 Qxb6 16.Bxg6 hxg6 17.Qxd7 Rfd8 18.Be3! . After 12...O-O Black is on the receiving end of the thematic Greek Gift: 13.Bxh7 Kxh7 14.Ng5 Kg6 15.h4 and White wins.}) *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "2. Hector (5... Qb6) variatio"]
+[Black "5... Qb6 6... cxd4 7... dxc3 "]
+[Result "*"]
+[ECO "C02"]
+[PlyCount "23"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{The relative importance of this variation: HIGH  * 5... Qb6 52% after 5.Nf3  * 6... cxd4 35% after 6.Bd3  * 7... dxc3 60% after 7. O-O  * 8... Bd7 33% after 8. Nxc3  * 9... Bb4 32% after 9. Re1} 1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Bd3 cxd4 (6... Bd7 {is played in 52% of the games and}) (6... cxd4 {in 35% of the games. The move}) (6... cxd4 {is more challenging and the main line of the Hector variation.}) 7. O-O $5 {[%mdl 32768] Instead of immediately recapturing on d4, we accelerate our development by castling kingside and offering Black a pawn in exchange for a lead in development and more space.} (7. cxd4 {is the well-known Milner-Barry variation.}) 7... dxc3 {Played in 59% of the games. Black, oblivious to the danger, accepts the gambit. More fun for us!} 8. Nxc3 {Black's most popular responses are:  * 8... Bd7 33%  * 8... Nge7 25%  * 8... a6 17%  * 8... Bb4 9%} Bd7 {Black continues their development.} 9. Re1 {[%csl Ge5][%cal Ge1e5,Gf3e5] Adding a defender to our e5 pawn.} Bb4 $6 {Black's most popular move in this position 32% .} (9... f6 $2 {Played only 1% of the time, but allows White to open the position immediately with} 10. Nxd5 $1 exd5 11. exf6+ Kd8 12. Ng5 {and White wins because of the threat Nf7+.}) (9... Nb4 {Black's choice in 5% of the games, attacking the bishop on d3} 10. Bb1 Bc5 11. Rf1 {followed by a3-b4. Notice that after} Ne7 {we are winning Bc5 with} 12. a3 Nbc6 13. Na4 Qa5 14. b4 {.}) 10. a3 {We encourage Black to give up their good bishop.} Bxc3 (10... Ba5 $4 11. b4 {trapping the bishop.}) (10... Bc5 $4 {This allows Na4 double attack. Black doesn't have time to take the rook because the queen is under attack.} 11. Na4 Bxf2+ 12. Kf1) 11. bxc3 Nge7 12. a4 $16 {GM Gawain Jones: ''Black's dark squares are chronically weak. There's also the rather big problem that he's no closer to getting his king to safety as the Greek Gift Bxh7 looms large.' White's compensation for the sacrificed pawn is long-term. Black will have a hard time finding safety for the king. White has the bishop pair and active pieces. After the bishop moves to a3 it is an especially strong piece, as it is unopposed. White can prepare c4 to break up Black's center. SF15:+1} *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "2. Hector (5... Qb6) variatio"]
+[Black "5... Qb6 6... cxd4 7... dxc3 "]
+[Result "*"]
+[ECO "C02"]
+[PlyCount "28"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{The relative importance of this variation: HIGH  * 5... Qb6 52% after 5.Nf3  * 6... cxd4 35% after 6.Bd3  * 7... dxc3 60% after 7. O-O  * 8... Bd7 33% after 8. Nxc3  * 9... Nge7 22% after 9. Re1} 1. e4 e6 2. d4 d5 3. e5 c5 {[%csl Yd4][%cal Yc5d4]} 4. c3 {[%csl Bd4][%cal Bc3d4]} Nc6 5. Nf3 {[%csl Bd4][%cal Bc3d4,Bf3d4]} Qb6 {[%csl Yd4][%cal Yc5d4,Yc6d4,Yb6d4]} 6. Bd3 cxd4 7. O-O dxc3 8. Nxc3 Bd7 9. Re1 {[%csl Ye8][%cal Ye1e8,Rf7f6] We continue to develop. There is no double attack on the pawn on f2 with Qb6-Bc5 to worry about, so we don't need to keep the rook on f1.} Nge7 {The second most popular move and played in 22% of the games after White's 9. Re1.} 10. h4 $1 {[%csl Rg6,Yh5][%cal Re7g6,Yh4h5][%mdl 32768] The usual treatment of Ng6, preparing h5 to kick the knight back.} a6 $1 {Preventing Nb5 but weakening the b6 square.} (10... Nb4 11. Be3 Qd8 12. Bb1 {and Black has not solved their development problems.}) (10... Ng6 11. h5 Nge7 12. Be3 d4 $2 13. Nxd4 Nxd4 14. Bxd4 Qxd4 15. Nb5 {wins because of the threat Nd6+ and after} Bxb5 16. Bxb5+ {Black loses their queen.}) 11. Na4 {[%csl Yb6][%cal Ya4b6]} Qc7 $6 {Played in 77% of the games.} 12. Be3 {[%csl Yb6][%cal Ya4b6,Ye3b6]} Nxe5 (12... d4 $2 13. Bd2 $16) (12... Ng6 13. Bb6 Qb8 {. Please note that 14...Ngxe5 15.Nxe5 Nxe5 16.Bc7 wins a piece.}) 13. Nxe5 Qxe5 14. Rc1 $14 Z0 ({White's activity more than compensates for their material deficit. Qe5 is subject to a discovered attack by Be3-Re1. Na4 and Be3 control b6 and c5. The rook on e1 is x-raying Ke8. SF15:+1 A sample line:} 14... Nc6 15. Nb6 Rb8 16. Bc5 Qc7 17. Nxd5 {.}) *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "2. Hector (5... Qb6) variatio"]
+[Black "5... Qb6 6... cxd4 7... dxc3 "]
+[Result "*"]
+[ECO "C02"]
+[PlyCount "26"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{The relative importance of this variation: MEDIUM  * 5... Qb6 52% after 5.Nf3  * 6... cxd4 35% after 6.Bd3  * 7... dxc3 60% after 7. O-O  * 8... Bd7 33% after 8. Nxc3  * 9... a6 18% after 9.Re1} 1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Bd3 cxd4 7. O-O dxc3 8. Nxc3 Bd7 9. Re1 a6 ({Played in 18% of the games after 9. Re1, behind} 9... Bb4 {with 32% and}) (9... Nge7 {with 22%. This is a common move in the Milner-Barry variation to prevent Nb5. The disadvantage is that it weakens the b6 square.}) 10. Be3 {[%mdl 32768]} d4 ({Developing the Bishop with tempo, and vacating the c1 square for the rook. Black's most common responses are} 10... Qc7 {37% and}) (10... d4 {26%. The best move for Black is}) (10... Qd8 {which has been played in 17% of the games.}) (10... Qxb2 11. Na4 Qa3 12. Nb6 Rd8 13. Rb1 {Black's queen is vulnerable. SF15:+2}) 11. Nxd4 $1 {[%csl Rd4][%cal Ge3b6,Rc6d4] The point behind 10. Be3! We temporarily sacrifice with Nxd4 to gain it back later using the pin Be3-Nd4-Qb6.} Nxd4 12. Bc2 {[%csl Rd4][%cal Gd1d4,Ge3d4,Rb6d4]} ({Now Nd4 is attacked by both Qd1 and Be3.} 12. Qg4 {is an alternative way to win back the piece.}) 12... Bc5 {[%csl Rb6,Rc5,Gd1,Ge3][%cal Rc5d4,Rb6d4] Black's only move to add a defender to Nd4.} 13. Ne4 $16 Z0 ({White threatens Nxc5, eliminating a defender of Nd4. SF15:+1 White has the bishop pair, active pieces, and more space. After} 13... Nxc2 {White continues} 14. Bxc5 {and if} Qxb2 {Qd6!}) *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "2. Hector (5... Qb6) variatio"]
+[Black "5... Qb6 6... cxd4 7... dxc3 "]
+[Result "*"]
+[ECO "C02"]
+[PlyCount "22"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{The relative importance of this variation: HIGH  * 5... Qb6 52% after 5.Nf3  * 6... cxd4 35% after 6.Bd3  * 7... dxc3 60% after 7. O-O  * 8... Nge7 25% after 8. Nxc3} 1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Bd3 cxd4 (6... Bd7 {is played in 52% of the games and}) (6... cxd4 {in 35% of the games. The move}) (6... cxd4 {is more challenging and the main line of the Hector variation.}) 7. O-O $5 {Instead of immediately recapturing on d4, we accelerate our development by castling kingside and offering Black a pawn in exchange for a lead in development and more space.} (7. cxd4 {is the well-known Milner-Barry variation.}) 7... dxc3 {Played in 59% of the games. Black, oblivious to the danger, accepts the gambit. More fun for us!} 8. Nxc3 {[%mdl 32768]} Nge7 {Played in 25% of the games.} 9. h4 {[%csl Yh5][%cal Yh4h5] The thematic response to Nge7.} Ng6 {[%csl Ye5][%cal Yc6e5,Yg6e5] With a twofold attack on the pawn on e5.} 10. Re1 {[%csl Be5][%cal Be1e5] Defending the pawn on e5 another time.} Be7 11. g3 $14 {Preparing h4-h5 by taking away h4.} Z0 ({Note that after} 11... Qc7 {attacking the pawn on e5 for a third time, White goes h5 anyway} 12. h5 Ngxe5 13. Nxe5 Nxe5 14. Nb5 Qb8 15. Rxe5 Qxe5 16. Bf4 {followed by Nc7+ with a double attack on Ra8 and Ke8. 11...O-O?! 12.h5 Nh8 13.Qc2 g6 14.Bh6 $16}) *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "2. Hector (5... Qb6) variatio"]
+[Black "5... Qb6 6... cxd4 7... Bd7 9"]
+[Result "*"]
+[ECO "C02"]
+[PlyCount "32"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{The relative importance of this variation: MEDIUM  * 5... Qb6 52% after 5.Nf3  * 6... cxd4 35% after 6.Bd3  * 7... Bd7 34% after 7. O-O  * 8... Nge7 19% after 8. Re1  * 9... h6 18% after 9. h4} 1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Bd3 cxd4 ({The move} 6... cxd4 {is played in 35% of the games. This is the correct time for Black to exchange in the center.}) (6... Bd7 7. dxc5 Bxc5 8. O-O {transposes to our first three variations [/variation/16848818]}) 7. O-O Bd7 $1 {Black does not accept the gambit and avoids the whole headache by simply developing.} 8. Re1 {[%cal Ge1e5,Gf3e5][%mdl 32768] We keep the tension in the center and add another defender to the pawn on e5 . Most frequently Black transposes here to the ( 8...dxc3 line 64% We will now consider 8...Nge7 , played in 19% of the games. 8...Bc5 6%} Nge7 (8... Bc5 9. b4 {and White is better.}) (8... dxc3 9. Nxc3 {transposes to these variations [/variation/16848815]}) 9. h4 h6 ({As usual, we play h4 to threaten to kick the knight after Ne7-g6. Now the most frequently played move} 9... dxc3 10. Nxc3 {transposes to this variation [/variation/24426100]. We will consider 9...h6 . 9...Nf5 and 9...a6 Finally, Black also has 9...Rc8 10.h5 h6 11.a3 a6 12.b4 dxc3 13.Nxc3 Nxb4 14.Na4 Bxa4 15.Qxa4 Nbc6 . GM Gawain Jones: 'After 16.Bd2 Qc7 17.Qg4 White has beautiful open lines for his pieces, while Black is really struggling for a plan.'}) {FM Kamil Plichta's recommendation in his LTR Plichta's French Defense.} 10. h5 {GM Gawain Jones: 'Both sides are playing a waiting game, making generally useful moves while waiting for the opponent to resolve the c3-d4 tension.'} Rc8 11. a3 {[%csl Gb4,Rc3][%cal Ga3b4,Rd4c3]} ({A novelty suggested by GM Gawain Jones. With} 11. a3 {, White prepares to play b4 and pawn b4 will continue to be defended after the dxc3.}) 11... a6 (11... dxc3 12. Nxc3 Na5 13. Rb1 $14) 12. b4 {As planned.} dxc3 13. Nxc3 Nxb4 {[%csl Rc3][%cal Rc8c3] With a discovered attack on Nc3.} (13... Nf5 $2 14. Nxd5 $1 exd5 15. e6 $1 {Interfering with Bd7's defense of Nf5} Bxe6 16. Bxf5 {SF15:+2}) 14. Na4 $1 {Attacking the queen while Nb4 remains under attack. Black is forced to exchange on a4 and then interpose with Nb4-Nc6.} Bxa4 15. Qxa4+ Nbc6 16. Bd2 {[%csl Ga5,Gb4,Gc3,Gd2,Ge3,Gf4,Gg5]} Z0 ({White has full compensation for the two pawns. GM Gawain Jones: 'After} 16... Qc7 17. Qg4 {White has beautiful open lines for his pieces, while Black is really struggling for a plan.'}) *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "2. Hector (5... Qb6) variatio"]
+[Black "5... Qb6 6... cxd4 7... Bd7 9"]
+[Result "*"]
+[ECO "C02"]
+[PlyCount "27"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{The relative importance of this variation: MEDIUM  * 5... Qb6 52% after 5.Nf3  * 6... cxd4 35% after 6.Bd3  * 7... Bd7 34% after 7. O-O  * 8... Nge7 19% after 8. Re1  * 9... Nf5 12% after 9. h4} 1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Bd3 cxd4 7. O-O Bd7 8. Re1 Nge7 9. h4 Nf5 {Black's idea is to finish their development and avoid the knight being kicked by h4-h5. The drawback is that it allows White to regain the pawn on d4 and get firm control over the center. Black is solid though and White should prevent Black from getting counterplay with h6-g5.} 10. Bxf5 {[%mdl 32768]} exf5 11. cxd4 $14 {[%cal Gf3d4,Gd1d4,Rc6d4,Rb6d4,Gb1c3,Gc3e2] White's pawn on d4 is secure. White completes their development and then fixes the kingside with Nc3-Ne2-Nf4 and h4-h5 followed by Re3.} Be6 (11... Be6 {is played in 43% of the games.}) (11... Be7 {is the second choice with 37%} 12. Nc3 Be6 13. Re3 $14 {activating the rook for activity on the third rank.}) 12. Nc3 h6 (12... Be7 {will likely transpose in the next few moves} 13. Re3 h6 14. Ne2 {.}) 13. Ne2 Be7 14. h5 $14 {White is slightly better with more space and center control. Black is solid but has passive pieces. We play h5 to prevent Black's kingside counterplay and prepare Nf4-Re3-Rg3 to attack in the event of O-O. If Black plays O-O-O then Re3-Rb3.} *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "2. Hector (5... Qb6) variatio"]
+[Black "5... Qb6 6... cxd4 7... Bd7 9"]
+[Result "*"]
+[ECO "C02"]
+[PlyCount "30"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{The relative importance of this variation: MEDIUM  * 5... Qb6 52% after 5.Nf3  * 6... cxd4 35% after 6.Bd3  * 7... Bd7 34% after 7. O-O  * 8... Nge7 19% after 8. Re1  * 9... a6 9% after 9. h4} 1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Bd3 cxd4 7. O-O Bd7 8. Re1 Nge7 {Please note that Black is likely to transpose back into the gambit accepted variations with 8... dxc3 played in 64% of the games with a direct transposition to 6... cxd4 7... dxc3 8... Bd7 [/variation/%2016848815].} 9. h4 {The thematic response to Nge7.} a6 {GM Anish Giri's recommendation.} 10. h5 {[%mdl 32768]} g6 (10... h6 {with a transposition after} 11. a3 Rc8 12. b4 dxc3 13. Nxc3 Nxb4 {. See variation [/variation/24553711].}) 11. Nbd2 $1 gxh5 $1 ({This is Black's only good move. The most played move is} 11... dxc3 $6 {but after} 12. bxc3 gxh5 13. Rb1 Qc7 14. c4 $16 {White is opening up the center with good effect. White will capture on d5, finish development and start making threats before Black can get their king to safety. SF15:+1 For example:} Ng6 15. cxd5 exd5 16. Ng5 $1 {and White is clearly better.}) 12. Nb3 dxc3 13. bxc3 Ng6 14. Rb1 {[%csl Yb6][%cal Yb1b6]} Qc7 {[%csl Ye5][%cal Yg6e5,Yc6e5,Yc7e5]} 15. Nbd4 $13 {[%csl Bc4,Bg5][%cal Bc3c4,Bf3g5] Black has two extra pawns, h5 and h7 …. White has good center control and pressure on the queenside. Black's king has not castled yet and will find it hard to find a safe place as O-O-O might run into Bxa6. White's plans include opening up the centre with c4 and pressuring Black's weakened kingside with Ng5. SF15:0} Z0 ({Note that White is clearly better if Black captures the pawn on e5} 15... Ncxe5 $2 16. Nxe5 Nxe5 17. Bf4 Bd6 18. Qxh5 Nf3+ 19. Qxf3 Bxf4 20. c4 $1) *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "3. Advance (5... Bd7) variati"]
+[Black "5... Bd7 6... Qb6 10... Qc7"]
+[Result "*"]
+[ECO "C02"]
+[PlyCount "31"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{The relative importance of this variation: MEDIUM  * 5... Bd7 17% after 5.Nf3  * 6... Qb6 33% after 6. Be2  * 7... cxd4 35% after 7. O-O  * 10... Qc7 51% after 10. Na4} 1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Bd7 {The signature move of the Advance variation.} 6. Be2 {[%mdl 32768]} ({Why do we not play} 6. Bd3 {as in the Hector-variation? In the Hector-variation we take on c5 after Bd7: /img/diagrams/38141-1679750002.pngPosition after 6... Bd7 White plays 7. dxc5}) ({Yet if we play} 6. Bd3 {in the Advance-variation, Black can play} cxd4 {first and after} 7. cxd4 Qb6 {we no longer transpose.}) ({Can we first take on c5 to transpose to the Hector?} 6. dxc5 Bxc5 7. Bd3 {and now} Nge7 {is possible as without Qb6, b4 is no longer trapping Bc5} 8. O-O Ng6 9. Re1 Qc7 10. Qe2 f6 {and Black is taking over. The disadvantage of 5... Bd7 is that it gives White an extra move to organize their defense of pawn d4.}) 6... Qb6 {Played in 33% of the games. Black adds pressure to the d4 pawn, but White has time to castle and keep the d4-e5 pawn chain.} 7. O-O {White's plan is dxc5 followed by Be3 chasing the queen and developing a piece or b4 chasing the queen and gaining space.} cxd4 (7... Nge7 8. dxc5 Qxc5 9. Be3 Qa5 $14 {White is slightly better and planning Nbd2-c4 opening up the position with the Black king still in the middle.}) 8. cxd4 {[%csl Rb6,Rc6,Gd1,Gf3][%cal Gf3d4,Gd1d4]} Nge7 {[%csl Yf5,Yd4][%cal Ye7f5,Yf5d4,Yc6d4,Yb6d4] The knight is heading to f5 to put pressure on the pawn on d4.} 9. Nc3 {White will defend by chasing an attacker with Nc3-Na4.} Nf5 {[%csl Yd4][%cal Yf5d4,Yc6d4,Yb6d4]} (9... a6 10. Na4 Qa7 11. Be3 Nf5 12. Bd3 {and White is slightly better.}) 10. Na4 {[%csl Yb6][%cal Ya4b6] Chasing the queen, one of the attackers of pawn d4.} Qc7 11. g4 {Kicking back Black's most active piece.} Nfe7 {[%csl Re7]} (11... Nh6 12. h3 Be7 13. Be3 O-O 14. Rc1 {SF15:+1}) 12. Be3 h5 {[%csl Rf5][%cal Gg4g5] Black wants to undermine pawn g4 and win back the f5 square for their knight.} 13. g5 {We are willing to create a hole on f5 because we will challenge the Knight immediately Bd3-Bxf5.} Nf5 14. Bd3 g6 (14... Nxe3 $6 15. fxe3 $16 {White now has a semi-open f-file for Rf1, and pawn e3 to support the strong central pawn chain e3-d4-e5. The Black king has not found safety yet and after O-O-O we will attack the king with Rc1-a3-b4.}) 15. Bxf5 gxf5 {[%csl Rd5,Rd7,Re6,Rf7]} 16. Rc1 {[%csl Ba3,Bb4,Bc5][%cal Ba2a3,Bb2b4,Ba4c5] White is better with more space and a lead in development. Black's king has not found safety yet and White is planning to expand on the queenside with a3-b4 and a later Nc5. The bishop on d7 is still passive. SF15:+1} *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "3. Advance (5... Bd7) variati"]
+[Black "5... Bd7 6... Qb6 10... Qa5"]
+[Result "*"]
+[ECO "C02"]
+[PlyCount "28"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{The relative importance of this variation: MEDIUM  * 5... Bd7 17% after 5.Nf3  * 6... Qb6 33% after 6. Be2  * 7... cxd4 35% after 7. O-O  * 10... Qa5 21% after 10. Na4} 1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Bd7 {The signature move of the Advance variation.} 6. Be2 ({Why do we not play} 6. Bd3 {as in the Hector-variation? In the Hector-variation we take on c5 after Bd7: /img/diagrams/38141-1679750002.pngPosition after 6... Bd7 White plays 7. dxc5}) ({Yet if we play} 6. Bd3 {in the Advance-variation, Black can play} cxd4 {first and after} 7. cxd4 Qb6 {we no longer transpose.}) ({Can we first take on c5 to transpose to the Hector?} 6. dxc5 Bxc5 7. Bd3 {and now} Nge7 {is possible as without Qb6, b4 is no longer trapping Bc5} 8. O-O Ng6 9. Re1 Qc7 10. Qe2 f6 {and Black is taking over. The disadvantage of 5... Bd7 is that it gives White an extra move to organize their defense of pawn d4.}) 6... Qb6 {Played in 33% of the games. Black adds pressure to the d4 pawn, but White has time to castle and keep the d4-e5 pawn chain.} 7. O-O {White's plan is dxc5 followed by Be3 chasing the queen and developing a piece or b4 chasing the queen and gaining space.} cxd4 (7... Nge7 8. dxc5 Qxc5 9. Be3 Qa5 $14 {White is slightly better and planning Nbd2-c4 opening up the position with the Black king still in the middle.}) 8. cxd4 Nge7 {The knight is heading to f5 to put pressure on the pawn on d4.} (8... Rc8 {Played in 12% of the games.} 9. Nc3 Nge7 10. Na4 Qc7 11. a3 {SF15:+1}) 9. Nc3 {White will defend by chasing an attacker with Nc3-Na4.} Nf5 {[%csl Yd4][%cal Yf5d4,Yb6d4,Yc6d4]} (9... a6 10. Na4 Qa7 11. Be3 Nf5 12. Bd3 {and White is slightly better.}) 10. Na4 {[%csl Yb6][%cal Ya4b6] Chasing the queen, one of the attackers of pawn d4.} Qa5 $1 {Played in 21% of the games and better than Qc7, keeping the queen active and pressuring Na4.} 11. Bd2 {[%csl Ya5][%cal Yd2a5][%mdl 32768] Developing our last minor piece with tempo, and vacating the c1 square for Rc1.} Bb4 ({Black develops their last minor piece, but this exchange favors White. Better is} 11... Qd8 12. Bc3 Be7 13. Nc5 {SF15:+1.}) 12. Bxb4 {[%csl Ya5][%cal Yb4a5]} Qxb4 (12... Nxb4 13. Nc5 {SF15:+1}) 13. a3 $1 {[%csl Yb4][%cal Ya3b4] The queen cannot be allowed to remain on b4, where it is too active.} Qa5 (13... Qe7 14. Rc1 O-O 15. Nc5 $14) 14. b4 {[%csl Ya5][%cal Yb4a5]} Z0 ({Black's queen will have to retreat to c7 or d8.} 14... Qc7 15. Rc1 {threatening b5 winning the pinned Nc6 SF15:+2.}) (14... Qd8 {is relatively better but after} 15. Nc5 {White is clearly better SF15:+1.5.}) *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "3. Advance (5... Bd7) variati"]
+[Black "5... Bd7 6... Nge7 7... Nf5"]
+[Result "*"]
+[ECO "C02"]
+[PlyCount "24"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{The relative importance of this variation: MEDIUM  * 5... Bd7 17% after 5.Nf3  * 6... Nge7 25% after 6. Be2  * 7... Nf5 49% after 7. O-O} 1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Bd7 6. Be2 Nge7 7. O-O {[%mdl 32768]} (7. Na3 {taking advantage of the blocked f8-a3 diagonal} cxd4 8. cxd4 Nf5 9. Nc2 Qb6 10. O-O {is an alternative.}) ({We will follow GM Gawain Jones' repertoire and play} 7. O-O {when White's bishop is on e2 and}) (7. Na3 {when White's bishop is on f1 or d3.}) 7... Nf5 {[%csl Yd4,Yb6][%cal Yc5d4,Yf5d4,Yc6d4,Yd8b6,Yb6d4]} (7... cxd4 8. cxd4 Nf5 9. Nc3 {After the pawn exchange on d4 White is able to develop their knight to the most natural square} Rc8 {We are following the game between Anish Giri and Magnus Carlsen at the Miami FTX Crypto Cup 2022. Black is making semi-useful development moves as Be7 would be met with the strong g4!.} 10. Kh1 $5 {The waiting game continues} a6 {and now Giri continued} 11. Bg5 Qb6 12. Na4 Qa7 13. Be3 {. GM Gawain Jones recommends continuing the waiting game with 11.a3!? Qb6 12.Be3 Na5 13.Rb1 Qb3 14.Qd3 Nc4 15.Bc1! $14 .}) 8. dxc5 $1 ({Black was threatening} 8. Z0 cxd4 9. cxd4 Qb6 {with a triple attack on d4. We take care of this threat by trading on c5.}) 8... Bxc5 9. Bd3 {Attacking the knight on f5.} Nh4 {[%csl Yf3,Ye5,Bg6][%cal Yh4f3,Yc6e5,Bh4g6] Black is rerouting his knight to g6 and threatening Nxf3 followed by Nxe5.} (9... O-O 10. b4 Bb6 11. a4 a6 12. Re1 $14) (9... Nfe7 10. Nbd2 Ng6 11. Nb3 Bb6 12. Re1 $14) 10. Nbd2 {[%csl Bf3,Be5][%cal Bd2f3,Bf3e5] We play Nbd2 to recapture on f3 with the knight, defending the pawn on e5 with Nf3.} Ng6 {[%csl Ye5][%cal Yg6e5,Yc6e5] With a twofold attack on e5. Black spent three moves to get his knight from e7 to g6!} (10... O-O {allows White to develop with tempo.} 11. Nxh4 Qxh4 12. Nf3 Qh5 13. Re1 $14 {.}) 11. Nb3 {[%csl Yc5][%cal Yb3c5] Defending the pawn on e5 by a counterattack on Bc5.} Bb6 12. Re1 $14 {[%csl Be5][%cal Bf3e5,Be1e5] White is slightly better SF15:+1. Black continues to add attackers to e5 with Bc7 or Qc7 or castles to bring their king into safety.} Z0 (12... Qc7 13. Nbd4 {and the pawn on e5 is still poisoned} Ngxe5 $2 14. Nxe5 Nxe5 15. Bf4 f6 16. Qh5+ Kf8 17. Rxe5 $1 {SF15:+5 Black is playing without their two rooks and their king is unsafe. White's plan is Re1-Re3-Rf3/Rg3 with a crushing attack.}) *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "3. Advance (5... Bd7) variati"]
+[Black "5... Bd7 6... Nge7 7... Ng6"]
+[Result "*"]
+[ECO "C02"]
+[PlyCount "26"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{The relative importance of this variation: MEDIUM  * 5... Bd7 17% after 5.Nf3  * 6... Nge7 25% after 6. Be2  * 7... Ng6 23% after 7. O-O} 1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Bd7 6. Be2 Nge7 7. O-O (7. Na3 {taking advantage of the blocked f8-a3 diagonal} cxd4 8. cxd4 Nf5 9. Nc2 Qb6 10. O-O {is an alternative.}) ({We will follow GM Gawain Jones' repertoire and play} 7. O-O {when White's bishop is on e2 and}) (7. Na3 {when White's bishop is on f1 or d3.}) 7... Ng6 {[%cal Rg6h4,Rd8h4]} (7... Ng6 {is the second most popular move at club level played in 22% of the games after 7. O-O. With the knight out of the way, Black can complete their development of Bf8.}) (7... Ng6 {also supports a future f7-f6 by putting extra pressure on e5.}) (7... cxd4 8. cxd4 Nf5 9. Nc3 {After the pawn exchange on d4 White is able to develop their knight to the most natural square} Rc8 {We are following the game between Anish Giri and Magnus Carlsen at the Miami FTX Crypto Cup 2022. Black is making semi-useful development moves as Be7 would be met with the strong g4!.} 10. Kh1 $5 {The waiting game continues} a6 {and now Giri continued} 11. Bg5 Qb6 12. Na4 Qa7 13. Be3 {. GM Gawain Jones recommends continuing the waiting game with 11.a3!? Qb6 12.Be3 Na5 13.Rb1 Qb3 14.Qd3 Nc4 15.Bc1! $14 .}) 8. g3 $1 {[%mdl 32768] Preparing h4 to push the knight on g6 back as usual with h5.} Be7 {Black completes their development.} 9. h4 O-O (9... cxd4 10. cxd4 O-O 11. h5 Nh8 12. Nbd2 f6 13. Nb3 Nf7 14. Bf4 $1 $14 {With similar play to the main line of this variation. Note again the lack of pressure on d4 after Black initiated the exchange cxd4.}) 10. h5 Nh8 {[%csl Ge5,Gh5,Rh8][%cal Gh5g6,Ge5f6] Nh8 is not only on the edge of the board and out of the game, but Black doesn't even have a safe route to develop Nh8 without playing f6.} 11. dxc5 Bxc5 (11... f6 12. exf6 Bxf6 13. c4 $1 d4 14. Nbd2) 12. c4 $1 {We want to open the center while Nh8 is out of the game, forcing Black to temporarily play a minor piece down.} dxc4 (12... f6 {Black opens the center to activate Nh8 and Rf8 but Black is not stable.The plan is to blow up Black's centre. The pawn on d5 is attacked by c4, Nc3 and Qd1. The bishop on d7 is undefended. Black can not play d5-d4 as after Ne4 Qe7 Bg5 Black is losing the bishop on c5. The only thing White has to be mindful of is counterplay over the f-file, more specifically an attack on the pawn on f2.} 13. exf6 Qxf6 14. Nc3 Nd4 15. Nxd4 Bxd4 16. cxd5 {and we do not fear} Bxf2+ 17. Kg2 Qd4 18. Bg4 {and Black still has a knight on h8 while their house is on fire. SF15:+3}) 13. Nc3 $16 {[%csl Rh8]} Z0 ({SF15:+1 Black continues to have difficulty bringing their knight back into the game:} 13... f5 14. exf6 gxf6 15. Bh6 {and White is clearly better.}) *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "3. Advance (5... Bd7) variati"]
+[Black "5... Bd7 6... f6"]
+[Result "*"]
+[ECO "C02"]
+[PlyCount "30"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{The relative importance of this variation: LOW  * 5... Bd7 17% after 5.Nf3  * 6... f6 8% after 6. Be2} 1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Bd7 6. Be2 f6 {[%csl Ye5][%cal Yc6e5,Yf6e5] Black is immediately questioning White's centre. Played in only 8% of the games on Lichess but it is the second most popular move in the ChessBase Mega Database.} 7. O-O {[%mdl 32768]} fxe5 ({We keep the tension in the centre as we do not fear} 7... fxe5 {.}) (7... Qb6 8. dxc5 Bxc5 9. b4 Be7 10. Be3 Qc7 11. c4 $16 {opening up the centre while Black is underdeveloped and their king is still in the centre.}) 8. Nxe5 {Opening up the light-squared diagonals on the kingside and initiating a good trade: Nc6 for Nf3.} Nxe5 9. dxe5 Qc7 {[%csl Ye5][%cal Yc7e5]} 10. Bf4 {[%csl Be5][%cal Bf4e5] White has two attacking ideas c4 and a4 plus Na3-Nb5.} O-O-O ({After} 10... Ne7 {we exploit this move order by playing the strong} 11. c4 $1 O-O-O 12. Nc3 d4 13. Ne4 $16 {.}) 11. a4 {[%csl Yb5][%cal Yb1a3,Ya3b5] Switching to plan B: a4-Na3-Nb5} Ne7 (11... Nh6 12. Na3 a6 13. Nb5 {does not change matters.}) 12. Na3 {[%csl Yb5,Yc7,Yd6,Ya7][%cal Ya3b5,Yb5a7,Yb5d6]} a6 {[%csl Rb5]} 13. Nb5 {[%csl Yd6,Ya7,Yc7][%cal Yb5d6,Yb5a7,Yb5c7]} axb5 14. axb5 {[%csl Ya8][%cal Ya1a8] Opening the a-file with great effect and threatening Ra8. The Black king will not find safety.} Qb6 {[%csl Bc7][%cal Bc8c7]} 15. c4 Z0 (15... dxc4 16. Ra8+ Kc7 17. Qd6+ Qxd6 18. exd6+ Kb6 19. Rxd8 {and White wins. 15...d4 16.Bd2 threatening Ba5.}) *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "4. Early deviations"]
+[Black "4... cxd4 6... Bb4+"]
+[Result "*"]
+[ECO "C02"]
+[PlyCount "21"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{The relative importance of this variation: MEDIUM  * 4... cxd4 9% after 4.c3  * 5... Nc6 56% after 5.cxd4  * 6... Bb4+ 30% after 6. Nf3} 1. e4 e6 2. d4 d5 3. e5 c5 4. c3 cxd4 $6 {It is premature for Black to resolve the central tension so early. Now White can develop their knight to the ideal square c3 in one move.} 5. cxd4 {[%mdl 32768] White now has no problems developing pieces to their most active squares Nc3 and securing the pawn on d4.} Nc6 6. Nf3 Bb4+ {The most common move in this position and played in 30% of the games.} 7. Nc3 Nge7 8. Bd3 O-O {Played in 33% of the games after 8. Bd3. Black completed their development but now we can play the thematic Greek Gift sacrifice.} 9. Bxh7+ {Gaining access to the king.} Kxh7 10. Ng5+ {Bringing Nf3 into the attack with tempo and opening the d1-h5 diagonal for the queen to join the attack as well.} Kg6 (10... Kg8 11. Qh5 Re8 12. Qh7+ Kf8 13. Qh8+ Ng8 14. Nh7+ Ke7 15. Bg5+ {wins. After} f6 16. Qxg7# {is mate and 15...Nf6 16.Qxg7 Kd7 17.Nxf6 Kc7 18.O-O is SF15:+6.}) 11. h4 {SF15: +8 White is threatening h5+ Kh6 Nxf7 winning the Black queen and Qd3+ with a mating attack supported by g4 if Black interposes with Nf5 and sometimes Rg1 if White has played gxf5.} (11. h4 {is simpler than}) (11. Qd3+ Nf5 12. g4 f6) ({or} 11. Qg4 f5 12. Qg3 f4 13. Qg4 Qe8 {.}) *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "4. Early deviations"]
+[Black "5... Nge7 7... Qb6"]
+[Result "*"]
+[ECO "C02"]
+[PlyCount "26"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{The relative importance of this variation: MEDIUM  * 5... Nge7 10% after 5.Nf3  * 6... Nf5 35% after 6. Na3  * 7... Qb6 31% after 7. Nc2} 1. e4 e6 2. d4 d5 3. e5 c5 4. c3 {[%mdl 32768]} Nc6 5. Nf3 Nge7 6. Na3 {[%csl Bc2,Bd4][%cal Ba3c2,Bc2d4,Bf3d4] With Nge7 blocking Bf8, we grab the chance to get our ideal setup with Nc2 and Nf3.} (6. Bd3 cxd4 7. cxd4 Nf5 {is a solid alternative but does not take advantage of the opportunity to play Na3-Nc2.}) (6. dxc5 $2 {White can't hold on to the extra pawn after the strong move} Ng6 {Black wins either the c5 or the e5 pawn. Black has already equalized. SF15:0}) 6... Nf5 {[%csl Ya3][%cal Yf8a3] Now Bf8 would be eyeing Na3 after Black exchanges on d4.} 7. Nc2 {[%csl Bd4][%cal Bc2d4,Bf3d4,Bc3d4]} Qb6 ({With the idea of increasing the pressure on d4. But without Bd7 we can still continue Bd3 as Black can not win the pawn on d4 because of a discovered attack on b5.} 7... Be7 8. dxc5 Bxc5 9. Bd3 O-O 10. O-O Qc7 11. Re1 $16) (7... cxd4 8. cxd4 Be7 9. Bd3 O-O $2 10. g4 $1 Nh4 {is losing for Black as shown in variation 5... Nge7 7... cxd4 8... Be7 [/variation/24411043]}) 8. Bd3 cxd4 (8... Be7 9. dxc5 Bxc5 10. O-O O-O 11. g4 Nfe7 12. b4 {Trapping Bb4.}) 9. cxd4 Bd7 (9... Bb4+ 10. Kf1 {The king will find safety on g2 after g3 or even g4 and Rh1 supports a potential attack on the Black king.} O-O 11. g4 Nfe7 12. a3 {Traps the bishop on b4.}) (9... Nfxd4 $4 10. Nfxd4 Nxd4 11. Nxd4 Qxd4 12. Bb5+ Bd7 13. Bxd7+ Kxd7 14. Qxd4 {and White wins.}) 10. O-O {[%csl Gd4][%cal Yf5d4,Yc6d4,Yb6d4,Gc2d4,Gf3d4] Now that Black has played Bd7 it looks like d4 is hanging but this actually not the case.} Nfxd4 11. Nfxd4 Nxd4 12. Be3 Bc5 13. b4 $1 {[%csl Yc5,Yd4][%cal Yb4c5,Yc2d4,Ye3d4]} Z0 ({Eliminating the defender of Nd4 and winning a piece SF15:+4. After} 13... Nxc2 {White has the Zwischenzug} 14. Bxc5 {.}) *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "4. Early deviations"]
+[Black "5... Nge7 7... cxd4 8... Be7"]
+[Result "*"]
+[ECO "C02"]
+[PlyCount "28"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{The relative importance of this variation: MEDIUM  * 5... Nge7 10% after 5.Nf3  * 6... Nf5 35% after 6. Na3  * 7... cxd4 24% after 7. Nc2} 1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Nge7 6. Na3 {With Nge7 blocking Bf8, we grab the chance to get our ideal setup with Nc2 and Nf3.} (6. Bd3 cxd4 7. cxd4 Nf5 {is a solid alternative but is not taking advantage of the opportunity to play Na3-Nc2.}) 6... Nf5 {[%csl Ya3][%cal Yf8a3] Now Bf8 would be eyeing Na3 after Black exchanges on d4.} 7. Nc2 {[%csl Bd4][%cal Bc2d4,Bf3d4,Bc3d4]} cxd4 (7... Be7 {played in 26% of the games} 8. dxc5 Bxc5 9. Bd3 O-O 10. O-O Qc7 11. Re1 $16) (7... Qb6 {With the idea of increasing the pressure on d4. But without Bd7 we can still continue Bd3 as Black can not win the pawn on d4 because of a discovered attack on b5.} 8. Bd3 cxd4 {8...Be7 9.dxc5 Bxc5 10.O-O O-O 11.g4 Nfe7 12.b4 Trapping Bb4.} 9. cxd4 Bd7 {9...Bb4+ 10.Kf1 The king will find safety on g2 after g3 or even g4 and Rh1 supports a potential attack on the Black king. O-O 11.g4 Nfe7 12.a3 Traps the bishop on b4. 9...Nfxd4?? 10.Nfxd4 Nxd4 11.Nxd4 Qxd4 12.Bb5+ Bd7 13.Qxd4} 10. O-O {Now that Black has played Bd7 it looks like d4 is hanging but this actually not the case. Nfxd4 11.Nfxd4 Nxd4 12.Be3 Bc5 13.b4! Eliminating the defender of Nd4 and winning a piece SF15:+4. After 13...Nxc2 White has the Zwischenzug 14.Bxc5 .}) 8. cxd4 {[%mdl 32768]} Be7 9. Bd3 O-O $2 10. g4 $1 Nh4 {Black looks safe but is not!} (10... Nh6 11. Rg1 Kh8 12. Rg3) 11. Nxh4 Bxh4 12. g5 {[%csl Rh4,Gh5,Gh7][%cal Gd3h7,Gd1h5] Bh4 is in grave danger. White threatens Qh5 and Qg4.} Bxg5 13. Qh5 {[%csl Yh7][%cal Yh5h7,Yd3h7] Threatening mate on h7.} h6 14. Rg1 {[%csl Yg5,Yg7,Yg8,Yh7][%cal Yc1g5,Yg1g5,Yg5g7,Yg7g8,Yd3h7]} Z0 ({And White wins. White threatens f4 and after the exchange of bishops, Black lacks defenders of their king. SF15: +3} 14... Bxc1 15. Rxc1 Kh8 16. Kd2 $1 {threatening} Z0 17. Rxg7 Kxg7 18. Rg1+) *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "4. Early deviations"]
+[Black "4... Ne7 6... b6 7... Ba6"]
+[Result "*"]
+[ECO "C02"]
+[PlyCount "20"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{The relative importance of this variation: LOW  * 4... Nge7 2% after 4. c3} 1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Ne7 {An idea that GM Georg Meier often uses in Blitz. Black will develop their g-knight to c6 and trade their bad bishop on c8 with b6-Ba6 with Ba6 defended by Nb8.} 5. Nf3 {[%mdl 32768]} Nec6 {Played in 29% of the games.} (5... Nbc6 6. Na3 Nf5 7. Nc2 {transposes to this variation [/variation/24411042]}) (5... Nf5 6. dxc5 Bxc5 7. Bd3 Nc6 8. O-O O-O 9. Re1 {and White is better.}) 6. Bd3 b6 (6... Nd7 7. O-O Qb6 8. dxc5 Bxc5 9. b4 {and White is better.}) 7. h4 $5 {Since Black is spending a lot of time Ne7-Nc6 and b6-Ba6, we have time to gain space on the kingside.} Ba6 8. Bxa6 Nxa6 9. h5 h6 (9... Be7 10. h6 g6 11. Na3 Nc7 12. Nc2 Qd7 13. O-O O-O-O 14. dxc5 bxc5 15. b4 {SF15:+2}) 10. Rh3 Z0 ({SF15:+1 White castles by hand and the threat of Rh3-g3 makes it unattractive for Black to castle kingside. Play might continue} 10... Nc7 11. Kf1 Qd7 12. Kg1 O-O-O 13. Be3 {and White's ideas are to expand on the queenside and include a well-timed dxc5.}) *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "4. Early deviations"]
+[Black "4... Qb6 5... Bd7 6... Bb5"]
+[Result "*"]
+[ECO "C02"]
+[PlyCount "22"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{The relative importance of this variation: MEDIUM  * 4... Qb6 15% after 4. c3  * 5... Bd7 13% after 5. Nf3} 1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Qb6 {[%csl Bb5][%cal Bc8d7,Bd7b5] Black's idea is to exchange their 'bad bishop' as fast as possible with Bd7-Bb5. However, this plan does not put pressure on d4, which allows us to develop naturally.} 5. Nf3 {[%mdl 32768]} Bd7 {[%csl Bb5][%cal Bd7b5] The bishop is heading to b5 where it will be exchanged for our light-squared bishop.} (5... Nc6 {, played in 82% of the games, transposes to our main lines.}) 6. Bd3 Bb5 {[%csl Yd3][%cal Yb5d3]} 7. dxc5 $1 {[%csl Yb6][%cal Yc5b6]} Bxc5 8. b4 {If Black just returns with Be7/Bf8, White has a comfortable advantage due to a lead in development, the strong e5 pawn, and a much safer king.} Bxd3 (8... Be7 $2 {The Bishop is passive on e7--Black is letting us play Be3 without a fight.} 9. Be3 Qa6 10. Bxb5+ Qxb5 11. a4 Qc4 12. Qd2 $16 {White is ready to play Na3 and O-O, connecting rooks and completing development. White is slightly better.}) (8... Bxf2+ $2 9. Ke2 Bxd3+ 10. Qxd3 f6 11. Rf1 Ne7 {.}) 9. Qxd3 Bxf2+ $2 (9... Be7 10. O-O Nc6 11. a4 Qc7 12. Na3 a6 13. Re1 $14) 10. Ke2 {[%cal Rf2h4,Rf2b6] All the bishop's escape squares are controlled by White. We will continue with Rf1 to add a second attacker without creating a new escape square for the bishop on f2.} Nc6 11. Rf1 Z0 ({White is winning SF15:+2. Black's best try is} 11... Bh4 12. Nxh4 Nxe5 {, getting a second pawn for the bishop, but the compensation is insufficient.}) *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "5. Tactics"]
+[Black "* Tactic #1"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r3k1nr/pp1b1ppp/1qn1p3/2bpP3/8/2PB1N2/PP3PPP/RNBQ1RK1 b kq - 0 8"]
+[PlyCount "2"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{From variation 5... Qb6 6... Bd7 8... Nge7 [/variation/16848818]} 8... Nge7 9. b4 {[%mdl 32768] Trapping the bishop on c5.} *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "5. Tactics"]
+[Black "* Tactic #2"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1bqk2r/pp2nppp/2n1p3/3pP3/1b1P4/2NB1N2/PP3PPP/R1BQK2R b KQkq - 0 8"]
+[PlyCount "8"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{From variation 4... cxd4 6... Bb4+ [/variation/16848808].} 8... O-O 9. Bxh7+ {[%mdl 32768] The Greek Gift.} Kxh7 10. Ng5+ Kg8 ({After} 10... Kg6 11. h4 {is the easiest with the threat of} Z0 12. h5+ Kh6 13. Nxe6+ {winning Qd8.}) 11. Qh5 {Threatening mate of h7.} Ng6 (11... Re8 12. Qh7+ Kf8 13. Qh8+ Ng8 14. Nh7+ Ke7 15. Bg5+ {winning Qd8.}) 12. Qh7# *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "5. Tactics"]
+[Black "* Tactic #3"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1b1kb1r/pp3ppp/1qn1p3/3pPn2/3P4/3B1N2/PPN2PPP/R1BQK2R b KQkq - 0 1"]
+[PlyCount "10"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{A ninth move alternative for Black from the variation 5... Nge7 7... Qb6 [/variation/24411042].} 1... Nfxd4 {[%mdl 32768]} 2. Ncxd4 (2. Nfxd4 {is an alternative.}) 2... Nxd4 3. Nxd4 Qxd4 4. Bb5+ {[%csl Yd4,Be8][%cal Yd1d4,Bb5e8] With a discovered attack on the Black queen.} Bd7 5. Bxd7+ {White can trade bishops first before collecting the queen.} Kxd7 6. Qxd4 {And White, being a full queen up, is winning.} *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "5. Tactics"]
+[Black "** Tactic #4"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r3kbnr/pp1b1ppp/1qn1p3/3pP3/8/2NB1N2/PP3PPP/R1BQR1K1 b kq - 0 9"]
+[PlyCount "6"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{A sideline in variation 5... Qb6 6... cxd4 7... dxc3 9... Bb4 [/variation/16848815].} 9... Bc5 (9... Bc5 {attacks the pawn on f2 but fails tactically.}) 10. Na4 {[%csl Yb6,Yc5][%cal Ya4c5,Ya4b6][%mdl 32768] With a double attack on Qb6 and Bc5.} Bxf2+ 11. Kf1 {[%csl Yb6][%cal Ya4b6]} Qc7 {The queen can not move away and continue to defend Bf2.} 12. Kxf2 {White won a bishop against a pawn.} *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "5. Tactics"]
+[Black "** Tactic #5"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r3kbnr/1p1b1ppp/pqn1p3/3pP3/8/2NBBN2/PP3PPP/R2QR1K1 b kq - 0 10"]
+[PlyCount "9"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{From 5... Qb6 6... cxd4 7... dxc3 9... a6 [/variation/22532914]} 10... d4 {[%csl Yc3,Ye3][%cal Yd4c3,Yd4e3][%mdl 32768] With a double attack on Nc3 and Be3.} 11. Nxd4 Nxd4 12. Bc2 {[%csl Yd4][%cal Yd1d4,Ye3d4]} (12. Bc2 {clears the d-file to add Qd1 as an attacker to the pinned piece Nd4.}) (12. Bb1 {and}) (12. Qg4 {are alternatives.}) 12... Bc5 {[%csl Bd4][%cal Bc5d4,Bb6d4,Ye3d4,Yd1d4] Defending the pinned piece Nd4 another time.} 13. Ne4 {[%csl Yc5][%cal Ye4c5] Attacking the defender of Nd4.} Nxc2 14. Bxc5 {[%csl Yb6][%cal Yc5b6]} Z0 ({After} 14... Qxb2 {White has the crushing} 15. Qd6 {threatening mate on f8 and after} O-O-O 16. Bb6 {wins. 14...Qc6 15.Rc1 Nxe1 16.Nd6 Kd8 17.Qxe1 SF15:+4.}) *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "5. Tactics"]
+[Black "** Tactic #6"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r3kbnr/pp1b1ppp/1qn1p3/3pP3/8/2NB1N2/PP3PPP/R1BQR1K1 b kq - 0 1"]
+[PlyCount "10"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{A sideline of 5... Qb6 6... cxd4 7... dxc3 9... Bb4 [/variation/16848815]} 1... f6 {[%csl Be8][%cal Be1e8][%mdl 32768]} 2. Nxd5 {[%csl Yb6][%cal Yd5b6]} ({Taking advantage of Re1 x-raying Ke8. Not} 2. exf6 $2 {as after} Nxf6 {, Nf6 defends d5.}) 2... exd5 3. exf6+ {[%csl Ye8][%cal Ye1e8]} Kf7 (3... Kd8 {is relatively better but after} 4. Ng5 {White wins. Now White has a forced mate.}) 4. Ng5+ {[%csl Yf7][%cal Yg5f7]} Kxf6 {Only move.} 5. Qf3+ {[%csl Yf6][%cal Yf3f6]} Bf5 6. Qxf5# {and mate.} *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "5. Tactics"]
+[Black "*** Tactic #7"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rn2kbnr/pp1b1ppp/1q2p3/2ppP3/3P4/2PB1N2/PP3PPP/RNBQK2R b KQkq - 0 6"]
+[PlyCount "11"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{From variation 4... Qb6 5... Bd7 6... Bb5 [/variation/16909595]} 6... Bb5 7. dxc5 {[%mdl 32768]} (7. Bxb5+ {is an alternative. The Tactics chapter is also meant to reinforce critical moves from our mini-repertoire.}) 7... Bxc5 8. b4 (8. O-O {is an alternative.}) 8... Bxd3 9. Qxd3 Bxf2+ $2 ({Better} 9... Bf8 10. O-O Ne7 11. Be3 {and White is better.}) 10. Ke2 Nc6 ({Despite the fact that Black has two moves to defend against} 10... Z0 11. Rf1 Z0 12. Rxf2 {there is no defence!}) 11. Rf1 Z0 ({Trapping the bishop on f2.} 11... Bh4 12. Nxh4 Nxe5 {SF15:+2}) *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "5. Tactics"]
+[Black "*** Tactics #8"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1b1k2r/pp2bppp/1qn1p1n1/3pP3/7P/2NB1NP1/PP3P2/R1BQR1K1 b kq - 0 1"]
+[PlyCount "12"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{A sideline from 5... Qb6 6... cxd4 7... dxc3 8... Nge7 [/variation/26061651].} 1... Qc7 {[%mdl 32768]} 2. h5 {[%csl Yg6][%cal Yh5g6] The thematic kick of the knight.} Ngxe5 {Although the pawn is three times attacked and only two times defended, it is still poisoned.} 3. Nxe5 Nxe5 4. Nb5 $1 {[%csl Yc7][%cal Yb5c7] Attacking Qc7.} (4. Bf4 f6 {is less clear.}) 4... Qb8 5. Rxe5 $1 {Luring the queen to e5.} Qxe5 6. Bf4 {[%csl Ye5,Yc7][%cal Yf4e5,Yb5c7] Attacking Qe5 and preparing the double attack Nc7+.} Qxb2 7. Nc7+ {[%csl Ye8,Ya8][%cal Yc7e8,Yc7a8] With a double attack on Ra8 and Ke8. SF15: +4} *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "5. Tactics"]
+[Black "*** Tactic #9"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r3kb1r/pp1b1ppp/1qn1p3/3pPn2/3P4/3B1N2/PPN2PPP/R1BQ1RK1 b kq - 0 10"]
+[PlyCount "8"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{From variation 5... Nge7 7... Qb6 [/variation/24411042]} 10... Nfxd4 (10... Nfxd4 {and}) (10... Ncxd4 {were played in 70% of the Lichess games (rapid and classical) with}) (10... Be7 {and}) (10... a5 {a distant second and third. After}) (10... Be7 11. g4 Nh6 12. h3 {White is better SF15:+1. In the Chessbase Mega Database White scores 96%.}) 11. Nfxd4 {[%mdl 32768]} Nxd4 12. Be3 {Pinning Nd4.} Bc5 13. b4 {[%csl Yc5][%cal Yb4c5] Eliminating the defender Bc5 from Nd4.} Nxc2 14. Bxc5 {After Black moves their queen, White takes the knight on c2 and is a piece up.} ({Not} 14. bxc5 $2 Nxe3 $1 15. cxb6 Nxd1 {.}) *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "5. Tactics"]
+[Black "*** Tactic #10"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r3k2r/ppqb1ppp/1bn1p1n1/3pP3/3N4/2PB1N2/PP3PPP/R1BQR1K1 b kq - 0 13"]
+[PlyCount "10"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{A sideline from variation 5... Bd7 6... Nge7 7... Nf5 [/variation/16848810]} 13... Ngxe5 {[%mdl 32768]} 14. Nxe5 Nxe5 15. Bf4 {[%csl Yc7,Ye5][%cal Yf4c7,Ye1e5] Pinning Ne5 to Qc7.} f6 16. Qh5+ {[%csl Ye8][%cal Yh5e8]} Kf8 {4...g6 5.Bxg6!} 17. Rxe5 $1 ({The future Be5 is a much stronger attacker than a potential Re5.} 17. Bxe5 fxe5 18. Rxe5 Bxd4 19. cxd4 Kg8 20. Rae1 Rf8 {is less convincing.}) 17... fxe5 18. Bxe5 {[%csl Rh8,Ra8] White is winning SF15:+5. Black is playing without their two rooks and their king is unsafe. White's plan is Re1-Re3-Rf3/Rg3 with a crushing attack.} *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "5. Tactics"]
+[Black "**** Tactic #11"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1bqk2r/pp2bppp/2n1p3/3pPn2/3P4/3B1N2/PPN2PPP/R1BQK2R b KQkq - 0 9"]
+[PlyCount "11"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{A sideline from variation 5... Nge7 7... cxd4 8... Be7 [/variation/24411043].} 9... O-O 10. g4 {[%mdl 32768]} Nh4 {Black looks safe but is not!} (10... Nh6 11. Rg1 Kh8 12. Rg3) 11. Nxh4 Bxh4 12. g5 {[%csl Yh5,Yh7,Yh4,Yg4][%cal Yd1h5,Yh5h7,Yd3h7,Yh5h4,Yg4h4] Bh4 is in grave danger. White threatens Qh5 and Qg4.} Bxg5 13. Qh5 {[%csl Yh7,Yg5][%cal Yh5h7,Yd3h7,Yc1g5,Yh5g5] Threatening mate on h7 and Bxg5.} h6 {[%csl Bg5][%cal Bh6g5]} 14. Rg1 {[%csl Yg5,Yh7][%cal Yc1g5,Yg1g5,Yh5h7]} Z0 ({And White wins. White threatens f4 and after the exchange of bishops, Black lacks defenders of their king. SF15: +3} 14... Bxc1 15. Rxc1 Kh8 16. Kd2 $1 {threatening} Z0 17. Rxg7 Kxg7 18. Rg1+) *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "5. Tactics"]
+[Black "**** Tactic #12"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2kr1b1r/ppqbn1pp/4p3/2ppP3/P4B2/N1P5/1P2BPPP/R2Q1RK1 b - - 0 12"]
+[PlyCount "14"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{From variation 5... Bd7 6... f6 [/variation/25627351]} 12... a6 {[%mdl 32768] With the idea of preventing Nb5.} 13. Nb5 {[%csl Yc7][%cal Yb5c7]} ({White ignores the defence and continues} 13. Nb5 {opening up the a-file.}) (13. b4 {is an alternative.}) 13... axb5 14. axb5 {[%csl Ya8][%cal Ya1a8] Opening the a-file with great effect and threatening Ra8. The Black king will not find safety.} Qb6 {[%csl Bc7][%cal Bc8c7] Giving the king an escape square on c7.} 15. c4 dxc4 (15... d4 16. Bd2 {threatening Ba5.}) 16. Ra8+ Kc7 17. Qd6+ {[%csl Yc7][%cal Yd6c7]} Qxd6 {Black is forced to take.} 18. exd6+ Kb6 19. Rxd8 {And White wins 18...Ng6 19.Rxd7 Nxf4 20.Bxc4 .} *
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "6. Model games"]
+[Black "Maxime Vachier Lagrave - Pave, Riga"]
+[Result "1-0"]
+[ECO "C02"]
+[PlyCount "51"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{This game was played in round 6 of the FIDE Grand Swiss in Riga on November 1, 2021. This tournament was part of the qualification cycle for the World Chess Championship.} 1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Bd3 cxd4 7. O-O Bd7 8. Re1 Nge7 9. h4 h6 {We are following 5... Qb6 6... cxd4 7... Bd7 9... h6 [/variation/24553711].} 10. a3 ({Both sides continue to develop their pieces and keep the tension around d4. GM Gawain Jones recommends playing h5 first to prevent a future g5.} 10. h5 Rc8 11. a3 a6 12. b4 dxc3 13. Nxc3 Nxb4 14. Na4 Bxa4 15. Qxa4+ Nbc6 16. Bd2 Qc7 17. Qg4 $13 {White is aiming for immediate queenside expansion with b2-b4 and Bb2.}) 10... Rc8 11. b4 a6 (11... dxc3 12. Nxc3 Nxb4 13. Be3 Qd8 14. axb4 Rxc3 {is approximately equal although it feels like White has the initiative.}) 12. Bb2 g5 $1 {White refrained from playing h5 allowing Black to get the thematic g5 in.} 13. Nh2 {[%csl Bf6,Bg4][%cal Bh2g4,Bg4f6] Why not take on g5 twice?} (13. hxg5 hxg5 14. Nxg5 Nf5 15. Bxf5 exf5 16. cxd4 Ne7 17. Nd2 Qh6 {or}) (13. hxg5 hxg5 14. Nxg5 Nf5 15. Nd2 Ne3 16. Qe2 Nxe5 17. cxd4 Nxd3 18. Qxd3 Qd6) {Both variations highlight the vulnerability of the White king after the h-file has been opened.} 13... Bg7 14. Ng4 {Aiming for Nf6+.} gxh4 15. cxd4 h5 $6 ({Played after 20 minutes of thought: 'long think, wrong think'. Better} 15... Nxd4 {as}) (15... h5 {is only chasing the knight to a square that it wanted to go to in the first place. SF15:+1}) 16. Nf6+ Bxf6 17. exf6 {[%csl Ye7][%cal Yf6e7]} Ng8 {[%csl Yf6][%cal Yg8f6] Saving the knight and attacking the pawn on f6.} 18. Qf3 {[%csl Bf6,Yd5,Be8][%cal Bf3f6,Yf3d5,Be1e8] Defending the pawn on f6 but also threatening Qxd5.} Rh6 $2 ({Now the piece coordination of Black becomes too bad SF15:+2. Black could have held it together with} 18... Qd8 19. Qxd5 Nxf6 20. Qf3 Rg8 {with the idea} 21. d5 e5 $1 22. dxc6 Bxc6 {with Bc6 and Rg8 attacking g2.}) 19. Qxd5 Nxf6 {[%csl Yd5][%cal Yf6d5]} 20. Qg5 {[%csl Yh6][%cal Yg5h6] Attacking Rh6.} Ng4 {[%csl Bh6][%cal Bg4h6]} 21. Nc3 $1 ({Nxd4} 21. Qg8+ Ke7 {Nd5+ with a double attack on Qb6 and Ke7. 21...Qxd4 22.Nd5! Qxf2 23.Kh1 and mate to follow.}) 21... Qd8 22. Qxd8+ Kxd8 23. Ne4 {[%csl Yc8,Yf7,Yd8][%cal Ye4d6,Yd6c8,Yd6f7,Yf7h6,Yf7d8] Threatening Nd6 with a double attack on Rc8 and pawn f7.} e5 {[%csl Bd6][%cal Bh6d6] Defending against Nd6.} 24. f3 {[%csl Yg4][%cal Yf3g4] The knight can only go to f6 interfering with the defense of Rh6 of the square d6.} Nxd4 25. fxg4 hxg4 26. Ng5 {[%csl Yf7,Yd8,Yh6,Ye5][%cal Yg5f7,Yf7d8,Yf7h6,Ye1e5] Threatening Nxf7 and Rxe5.} 1-0
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "6. Model games"]
+[Black "Carissa Yip vs. Tatev Abraham, St. Louis"]
+[Result "1-0"]
+[ECO "C02"]
+[PlyCount "65"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{This game was played in the second round of the U.S. Women's Chess Championship on October 7, 2021.} 1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Bd3 cxd4 7. O-O Bd7 8. Re1 Nge7 9. h4 a6 10. h5 {We are following 5... Qb6 6... cxd4 7... Bd7 9... a6 [/variation/22536529].} h6 ({In that variation, Black continues} 10... g6 {which is GM Anish Giri's recommendation. White continues} 11. Nbd2) 11. Qe2 ({GM Gawain Jones recommends:} 11. a3 Rc8 {11...f5? 12.exf6 gxf6 13.cxd4+-} 12. b4 dxc3 13. Nxc3 Nxb4 14. Na4 Bxa4 15. Qxa4+ Nbc6 16. Bd2 Qc7 17. Qg4 $13) 11... f5 12. exf6 ({Better} 12. Na3 {and develop on the queenside. The move 11. f5 makes it hard for Black to complete her development. Where is Ne7 going? How is Black getting her king into safety?}) 12... gxf6 13. cxd4 Nxd4 14. Nxd4 Qxd4 15. Be3 {[%csl Yd4][%cal Ye3d4]} Qe5 $2 ({Now the queen will continue to be chased and White will develop all her pieces with tempo. Better} 15... Qh4 {.}) 16. Nd2 Rg8 17. f4 {[%csl Ye5][%cal Yf4e5]} Qd6 18. Qf2 {[%csl Yc5][%cal Ye3c5]} Rc8 19. Rad1 Bc6 $2 {Black misses White's threat of Bh7 followed immediately by the double attack Ne4.} (19... f5 {or}) (19... Kf7 {would have maintained the balance in the game.}) 20. Bh7 {[%csl Yg8][%cal Yh7g8] Clearing the d-file with tempo for the deadly threat Ne4 with a double attack on Qd6 and f6.} Rg7 {[%csl Yh7][%cal Yg7h7]} 21. Ne4 {[%csl Yf6,Yd6][%cal Ye4f6,Ye4d6,Yd1d6]} Qc7 22. Bb6 {[%csl Yc7][%cal Yb6c7]} ({Winning the Black queen but even stronger was} 22. Nxf6+ Kf7 23. f5 {.}) 22... dxe4 23. Bxc7 Rxh7 {SF15:+2 Black has B+N+p against Q but in addition, Black's pieces lack coordination and Black's king is unsafe. White shows good technique in converting her advantage.} 24. Bd6 Rg7 25. Rc1 Nf5 26. Bxf8 Kxf8 {[%csl Yc8][%cal Yc1c8]} 27. Rxe4 Rd8 (27... Bxe4 28. Rxc8+ Kf7 29. Rc7+ Kg8 30. Rxg7+ Kxg7 {is an easy win.}) 28. Rxc6 bxc6 29. Rxe6 Ng3 30. Rxf6+ Ke7 31. Qc5+ Kxf6 32. Qe5+ Kf7 33. Qc7+ 1-0
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "6. Model games"]
+[Black "Carissa Yip vs. Anna Zatonski, St. Louis"]
+[Result "1-0"]
+[ECO "C02"]
+[PlyCount "57"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{This game was played in the seventh round of the U.S. Women's Chess Championship on October 13, 2021. After surprising her opponent with this line in round 2, IM Carissa Yip chose to repeat the line in round 7 and could expect a prepared opponent.} 1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Qb6 5. Nf3 Bd7 ({If Black plays} 5... Bd7 {without Nc6 their intent is often to go Bb5 to exchange their bad bishop. See variation 4... Qb6 5... Bd7 6... Bb5 [/variation/16909595].}) 6. Bd3 cxd4 7. O-O (7. Nxd4 {preventing Bb5 would have been slightly stronger.}) 7... dxc3 8. Nxc3 Ne7 9. h4 h6 ({The thematic move after Ne7 with the intent of} 9... Ng6 10. h5 {kicking the knight back.}) 10. h5 Qd8 11. Be3 {White is a pawn down but SF15:+1. Compare the lead in development, control of the center and piece activity!} Nec6 12. Rc1 Be7 13. Bb1 Na5 ({With the idea} 13... O-O 14. Qd3 {winning. Black has great difficulty bringing her king into safety and developing Nb8 and Ra8.}) 14. Qd4 {[%csl Bd4,Bg4,Yg7][%cal Bd1d4,Bd4g4,Yg4g7]} Nbc6 15. Qg4 {[%csl Yg7][%cal Yg4g7] 'Queen up and over': Qd1-Qd4-Qg4.} Kf8 {[%csl Bg7][%cal Bf8g7] Defending the pawn on g7 but how will Black get Rh8 into the game?} 16. b3 {Taking away the square c4 for Na5.} Rc8 17. Ne2 $6 ({On move 22 White plays Nb5 eyeing d6. Since White has a space advantage it was best to start this plan without exchanging any pieces first} 17. Nb5 b6 18. Qg3 {with the threat of Nd6.}) 17... b6 18. Rcd1 Rc7 19. Qg3 Bc8 20. Nfd4 Nxd4 21. Nxd4 Nc6 22. Nb5 Rd7 23. f4 d4 24. Bf2 Bc5 $2 ({Black should have prevented f5 by White by playing f5 herself.} 24... f5 25. exf6 gxf6 {and White is better but Black can fight with Rg8 Bb7 and White can not play f5 because after e5 by Black, Black is better.}) 25. f5 $1 {Opening lines in front of the Black king. SF15:+2.} exf5 26. Bxf5 Re7 27. Be4 Nxe5 $2 {Allows for a nice tactical shot by White.} 28. b4 $1 {Luring Bc5 to b4, setting up the double attack Rxd4.} Bxb4 29. Rxd4 {[%csl Yd8,Yb4][%cal Yd4d8,Yd4b4] With a double attack on Bb4 and Qd8 winning a piece.} 1-0
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "6. Model games"]
+[Black "Adam Tukhaev vs. Alexey Bochk, Samara"]
+[Result "1-0"]
+[ECO "C02"]
+[PlyCount "69"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+1. e4 {[%mdl 32768]} e6 2. d4 d5 3. e5 c5 4. c3 Bd7 5. Nf3 Qb6 6. Bd3 Nc6 7. dxc5 Bxc5 8. O-O a5 9. Qe2 Nge7 (9... f6 {If Black decides to delay developing the knight, then we immediately open the center with the explosive c3-c4!} 10. c4 {for example:} d4 11. exf6 Nxf6 12. Bf4 O-O 13. Nbd2 Rae8 14. Ne5 {SF15:+1}) 10. Nbd2 a4 {In the trainable variation 5... Qb6 6... Bd7 8... a5 [/variation/16848816]} ({we look at the more popular move} 10... Ng6 {and now} 11. Nb3 Be7 {. 'White has a pleasant game with good central control' GM Gawain Jones. Evaluation: SF15:1 A sample line: 12...O-O 13.h4 Nxh4? 14.Nxh4 Bxh4 15.Qh5 . SF15:+5}) 11. b4 axb3 12. Nxb3 Ba3 13. Bf4 {Our trainable variation has the following sideline:} (13. Rb1 Qc7 14. Nbd4 {with threat Nb5 with a double attack on Qc7 and Ba3 and after 14... O-O the Greek Gift 15. Bxh7 becomes also an option.}) 13... Qc7 14. Rab1 Na5 15. Nbd4 Qxc3 $6 {Is this pawn poisined or not?} 16. Nc2 $1 {[%csl Ya3,Yd2,Ye3,Yd4,Yc5,Yc3][%cal Yc2a3,Yf4d2,Yc3c5,Yd2e3,Ye3d4] Yes! The knight on c2 attacks Ba3 and White threatens to eliminate the defender Qc3 by Bd2-Qc5-Be3-Qc3-Bd4.} Nec6 17. Rb5 $1 {[%csl Yd2,Rc5][%cal Yf4d2,Rb5c5] Now White threatens to trap Qc3 with Bd2.} Nb4 18. Rxb4 $1 Bxb4 19. Bd2 {[%csl Yb4,Yc3][%cal Yc2b4,Yd2b4] With an X-ray attack of Bd2 on Bb4.} Qb2 20. Bxb4 {White has won a bishop and a knight against a rook (and a pawn soon). Materially speaking this is not too bad but Black's king is still in the middle and White also has a strong bishop pair SF15:+4.} Nc6 {[%csl Re8,Bd3,Bb4] Threatening Nxb4.} 21. Bd6 Rxa2 22. Qd2 {[%csl Yg5][%cal Yd2g5] Threatening Qg5.} h6 {[%csl Rg5][%cal Rh6g5]} 23. h4 Ne7 24. Qe3 Nc8 {[%csl Yd6][%cal Yc8d6] Threatening to take attacker Bd6.} 25. Bb4 Ra4 {[%csl Yb4][%cal Ya4b4,Yb2b4] With a twofold attack on Bb4.} 26. Qd2 {Defending Bb4.} Bc6 27. Nfd4 Kd7 28. Qf4 {[%csl Yf7][%cal Yf4f7] Threatening Qxf7.} Ke8 29. Nb5 f6 30. exf6 Qxf6 31. Qc7 {[%csl Yc8][%cal Yc7c8] Threatening Qxc8.} Bd7 {Defending Nc8.} 32. h5 {[%csl Yg6][%cal Yd3g6] Threatening Bg6+.} Rxb4 33. Nxb4 Qe7 34. Bg6+ Kf8 35. Re1 1-0
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "6. Model games"]
+[Black "Constantin Lupulescu vs. Seye, Rasht"]
+[Result "1-0"]
+[ECO "C02"]
+[PlyCount "111"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{This game was played in the sixth round of the 15th Khazar Cup in 2017. White's play is a good example of how to attack an uncastled king in the advanced French structure.} 1. e4 {[%mdl 32768]} e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Nge7 6. Na3 cxd4 {Black decides to clarify the pawn structure before continuing.} 7. cxd4 {Please note that in the trainable line 5...Nge7 6.Na3 [/variation/%2024411043] Black plays 6...Nf5 first and then cxd4, but the move order is not important and we transpose back to trainable variation.} Nf5 {Black puts the king knight on its most active square where it pressures d4.} 8. Nc2 {White also manoeuvres his knight to a better square. The knight on c2 protects d4 and prepares a potential queenside expansion b2-b4.} Bd7 {The game follows the variation 5...Nge7 6.Na3 [/variation/24411043] up to move eight. In the game, Black plays 8... Bd7 and our trainable variation continues 8... Be7.} 9. Bd3 $1 Qb6 ({Developing the Bishop to its most active square. Note that} 9... Qb6 10. O-O {tactically defends the pawn on d4. What if White played the more quiet looking 9. Be2? 9.Be2?! Be7 Black does not want to play Qb6 now as d4 is adequately defended and instead prepares to castle to safety. 10.O-O O-O =}) (9... Be7 {Might have been slightly better, getting ready to castle next move.} 10. O-O O-O 11. g4 {White is now ready to start a kingside attack.} Nh4 12. Nxh4 Bxh4 13. f4 $14 {White has more space on the kingside, so it makes sense to play on this side of the board. Bd3 is a great attacking piece, and White can increase the energy of their army with Kh1-Rg1, and Rf1-Rf3.}) 10. O-O a5 (10... Nfxd4 $4 {Black can't take on d4 because of the following sequence.} 11. Nfxd4 Nxd4 12. Be3 {Pinning Nd4 to Qb6.} Bc5 13. b4 {Attacks a defender of the pinned piece, and now Black can't save the knight.}) 11. Kh1 $1 {White's king was lined up with Qb6 on the a7-g1 diagonal. This is an excellent prophylactic move, as it enables White to play Be3 and/or f4 with a much safer king.} Rc8 ({Black is not hurrying to castle kingside, he will not be safe there. For example} 11... Be7 12. g4 Nh6 13. Rg1 O-O 14. Bxh6 gxh6 15. g5 {SF15:+4 Note how Black's lack of space prevents him from bringing defenders to the kingside. The Bd7 is blocked from participating on the kingside due to pawn e6 and Nc6 lacking a road back to the kingside, Ne7 to g6 would be a strong defender, closing the g-file and the b1-h7 diagonal, but Black has no time for such manoeuvres.}) (11... Be7 12. g4 Nh6 13. Rg1 O-O {?} 14. Bxh6 gxh6 15. g5) 12. Rb1 {White overprotects b2 so that Bc1 is free to move without dropping a pawn.} Nb4 {Black would love to take Bd3 off the board--trades favour the side with less space. Fewer pieces means more available squares} ({Lupulescu played this position on the Black side three years earlier and continued:} 12... h6 13. Bd2 Be7 14. b4 axb4 15. Nxb4 Nxb4 16. Bxb4 Bxb4 17. a3 Qa7 18. Rxb4 Ne7 19. Qb3 Rc7 20. Rb1 O-O {½-½ Efimenko,Z (2649)-Lupulescu,C (2630) Bundesliga 2014 with equality}) 13. Nxb4 axb4 (13... Bxb4 {Black probably didn't recapture with the Bishop because he wanted to keep the e7 square for Nf5, since after} 14. a3 Be7 {Black has to worry about g4 Nh4 potentially, though in this position White has stronger moves.}) 14. a4 $1 {Another strong move. Taking en passant opens up White's pieces, while ignoring a4 allows White to continue with Ra1 and/or b3, blocking up the Queenside before continuing play in the center and on the kingside.} Nxd4 $6 ({White is already better but} 14... Nxd4 {allows White to build up a strong initiative with a couple of forcing moves.}) (14... bxa3 {activates Rb1} 15. bxa3 Qa7 16. Qe2 Nxd4 {16...Be7 17.Qb2 $16}) (14... Be7 15. Ra1 {and now} O-O $2 16. g4 Nh4 17. Nxh4 Bxh4 18. g5 {and White is winning.}) 15. Be3 {[%cal Gf3d4,Ge3d4] Pinning Nd4. Please note that the move Kh1 pays off here, as Black would have the defensive resource Nxf3+ before retreating with the queen. But with the king on h1, this does not come with a check and Black loses the Queen.} Bc5 16. Nxd4 Bxd4 17. Qg4 $1 {[%cal Gg4g7,Gg4d4] Double attacking Bd4 and g7} Bxe3 18. Qxg7 Rf8 19. fxe3 Qxe3 ({One final mention of Kh1.} 19... Qxe3 {would come with check and win Bd3 if the king was on g1.}) 20. Bxh7 $16 {After all the exchanges, material is equal but White is clearly better SF15:+2 as Black's king is very unsafe. Even though Black exchanged 3 sets of minor pieces, White's remaining pieces are well coordinated (rooks are connected, control over f6, Q+B might coordinate on f7 at some point.} Rc4 21. h3 Rh4 $2 (21... Rf4 {Was necessary, fighting for control of the f file and f6 square.} 22. Rbe1 d4 23. Rg1 Qf2) 22. Rf6 Qxe5 23. Bg8 Rxh3+ 24. gxh3 Qe4+ 25. Kh2 Qe5+ 26. Kg1 Qd4+ 27. Kg2 Qe4+ 28. Rf3 Qxb1 29. Bxf7+ Rxf7 30. Qxf7+ Kd8 31. Qf8+ Kc7 32. Qc5+ Bc6 33. Rf7+ Kb8 34. Rf8+ Kc7 35. Qe7+ Bd7 36. Qc5+ Bc6 37. Qe7+ Bd7 38. Qxb4 Qg6+ 39. Qg4 Qh7 40. Qg3+ Kb6 41. Qe3+ Kc7 42. Qe5+ Kc6 43. Rf2 Kb6 44. Kh2 Bc6 45. b4 Bxa4 46. Qxe6+ Bc6 47. Qe3+ Kc7 48. Qe5+ Kb6 49. Qd4+ Kc7 50. Rg2 Bd7 51. Qc3+ Kd8 52. Qg3 Qe4 53. Qb8+ Ke7 54. Rf2 Bf5 55. Qxb7+ Ke6 56. Qc8+ 1-0
+
+[Event "The Supercharged Milner-Barry Gambit"]
+[Site "?"]
+[Date "2023.06.13"]
+[Round "?"]
+[White "6. Model games"]
+[Black "Carlsen, Magnus vs. Terry"]
+[Result "1-0"]
+[ECO "C02"]
+[PlyCount "65"]
+[EventDate "2023.??.??"]
+[SourceTitle "https://www.chessable.co"]
+
+{GM Magnus Carlsen gifted us a model game with the Supercharged Milner-Barry Gambit on the publication date of this course through a thematic win over IM Renato Terry in the Chess.com Titled Tuesday. Carlsen first restricts the development of Black's pieces, especially Ne7, Bf8 and Rh8 and Black's king does not find a safe haven. Subsequently Carlsen opens up the position with the thematic c3-c4 push, activates all his pieces to the maximum including landing an octopus knight on d6 and a rook on the seventh rank. Black sacrifices his queen to stop White's onslaught but in the remaining position a passed pawn on d6 and the lack of activity and coordination of Black's pieces decide the game. See [ https://youtu.be/ZELHYcehaPg ] for an instructive video by Jozarov. Thanks Thomas_Logan_Ritchie for bringing the game and the video to our attention.} 1. e4 {[%mdl 32768]} e6 2. d4 d5 3. e5 c5 4. c3 {We have entered the Advance Variation of the French Defense.} Qb6 5. Nf3 Bd7 {Black's plan with Qb6-Bd7 is to quickly exchange their 'bad' light squared bishop with a subsequent Bb5.} 6. Bd3 cxd4 (6... Bb5 {is variation 4... Qb6 5... Bd7 6... Bb5 [/variation/16909595].}) 7. O-O $5 {Carlsen wants a fight! 7. cxd4 and 7. Nxd4 are far more popular but Magnus has a different idea, offering Black the pawn on c3.} (7. Nxd4 Nc6 8. Nxc6 bxc6 9. O-O Ne7 10. Nd2 $14) 7... Nc6 {IM Terry prioritizes development over material.} (7... dxc3 8. Nxc3 Ne7 {is our model game Carissa Yip vs. Anna Zatonskih [/variation/16862255].}) 8. Re1 {Through an unusual move order, we have arrived at the Hector Variation from Chapter 1!} Nge7 9. h4 $1 {The thematic response to Nge7 threatening to kick the knight back after Ng6 with h5.} a6 {GM Anish Giri's recommendation in his French LTR.} (9... dxc3 {Black should not help White accelerate their development and win time by chasing Qb6.} 10. Nxc3 a6 11. Na4 Qa7 12. Be3) 10. h5 h6 {Both sides keep the tension around c3-d4 alive and continue to develop their pieces. Black has not brought his king into safety and has difficulty completing the development of Ne7 and Bf8. We cover GM Giri's move} (10... g6 11. Nbd2 gxh5 12. Nb3 dxc3 13. bxc3 {in variation 5... Qb6 6... cxd4 7... Bd7 9... a6 [/variation/22536529].}) 11. Nbd2 {Magnus encourages his opponent to take on c3, splitting his queenside pawns. GM Gawain Jones suggests to continue now with} (11. a3 $146 {and after} Rc8 12. b4 dxc3 13. Nxc3 Nxb4 14. Na4 $1 {we have transposed to variation 5... Qb6 6... cxd4 7... Bd7 9... h6 [/variation/24553711].}) 11... dxc3 {Though White's queenside pawns look weak, the open b-file and c3-c4 break give Carlsen active play.} 12. bxc3 $14 {White is down a pawn but has more space and a lead in development. Black's king is still in the middle and White is going to open up lines to attack Black's king.} Qc7 13. c4 {A thematic way to break open the position.} Nb4 {[%csl Gd3][%cal Gb4d3]} 14. Bf1 dxc4 15. Nxc4 {[%csl Gd6][%cal Gc4d6] Threatening the devastating Nd6+ followed by Nf7+ with a double attack on Kd8 and Rh8.} Ned5 $16 {Wrong square for the knight.} (15... Nf5 {Was better, controlling d6.} 16. Bd2 Bc5 17. g4 b5 $14) 16. Bb2 {[%csl Gg7][%cal Gb2g7] X-raying the pawn on g7.} (16. Nd4 $1 {Was even stronger, with the brilliant idea} Bc5 17. Nd6+ Bxd6 18. exd6 {and now} Qxd6 $2 19. Nf5 $3 {exploiting the pin to bring more attackers. Black cannot defend. SF15: +4}) 16... Bc5 17. Nd6+ $1 Kf8 (17... Bxd6 18. exd6 Qxd6 {isn't any better. White will win both g7 and h6 pawns.} 19. a3 Nc6 20. Bxg7 Rg8 21. Bxh6 {SF15:+2}) 18. Qd2 $2 {This actually allows Black to get back into the game with a tricky defensive resource.} (18. Bd4 {threatening Rc1.} Bxd4 19. Nxd4 {SF15:+3}) 18... Qb6 $2 {Black misses the defensive resource Nc2 and now the attack continues.} (18... Nc2 $1 {Black could have fought back with Nc2! Luring the queen to the c-file with a double attack of the knight on White's two rooks.} 19. Qxc2 Bxd6 {Regaining the sacrificed piece with a discovery on Qc2.} 20. Qe4 $14) 19. Rab1 {[%csl Gb6][%cal Gb1b6] With an x-ray attack on Qb6.} Qa7 20. Bd4 {[%csl Rb4][%cal Rb1b4] Threatening Rxb4 as Bc5 is pinned.} Bxd4 21. Nxd4 {Rb1 is attacking Nb4 and eyeing pawn b7.} Qc5 22. a3 {[%csl Gb4][%cal Ga3b4]} Nc6 23. Rxb7 {[%csl Gd7][%cal Gb7d7]} Rd8 {[%csl Gd7][%cal Gd8d7]} (23... Qxd4 {No salvation in trading queens.} 24. Qxd4 Nxd4 25. Rxd7 Ne7 26. Rc1 Ndc6 27. f4 {SF15:+4 Black is playing without Rh8.}) 24. Nxc6 Bxc6 25. Rc1 {Winning Bc6 if the queen does not sacrifice herself at d6.} Qxd6 (25... Qxa3 26. Rxc6) 26. exd6 Bxb7 {Materially speaking Black is -1 but White has a passed pawn, Black's pieces lack coordination and Rh8 is still out of the game SF15:+6} 27. Qb2 {[%csl Gb7][%cal Gb2b7]} Ba8 28. Bxa6 Kg8 29. Rc8 Rxc8 30. Bxc8 Kh7 31. d7 Nf6 32. Qc2+ Be4 33. Qc7 {And Black has to give up his knight to stop the promotion of the pawn on d7.} 1-0
+

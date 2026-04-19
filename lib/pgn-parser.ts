@@ -28,6 +28,66 @@ export function parsePGN(pgnContent: string): Game[] {
   return games;
 }
 
+export function normalizeFen(fen?: string | null): string {
+  if (!fen) return '';
+  return fen.trim().split(/\s+/).slice(0, 4).join(' ');
+}
+
+export function createChessFromFen(fen?: string): Chess {
+  if (!fen) return new Chess();
+
+  try {
+    return new Chess(fen);
+  } catch {
+    return new Chess();
+  }
+}
+
+export function replayGameToMoveIndex(game: Pick<Game, 'fen' | 'moves'>, moveCount: number): Chess {
+  const chess = createChessFromFen(game.fen);
+
+  for (let i = 0; i < moveCount; i++) {
+    const move = game.moves[i];
+    if (!move) break;
+
+    try {
+      chess.move({
+        from: move.from,
+        to: move.to,
+        promotion: move.promotion,
+      });
+    } catch {
+      // Skip invalid moves silently so partially malformed PGNs still load.
+    }
+  }
+
+  return chess;
+}
+
+export function findContinuationMoveIndex(game: Pick<Game, 'fen' | 'moves'>, fen: string): number {
+  const targetFen = normalizeFen(fen);
+  if (!targetFen) return 0;
+
+  const startingFen = normalizeFen(game.fen);
+  if (startingFen && startingFen === targetFen) {
+    return 0;
+  }
+
+  for (let i = 0; i < game.moves.length; i++) {
+    const move = game.moves[i];
+
+    if (move.fenBefore && normalizeFen(move.fenBefore) === targetFen) {
+      return i;
+    }
+
+    if (move.fenAfter && normalizeFen(move.fenAfter) === targetFen) {
+      return i + 1;
+    }
+  }
+
+  return 0;
+}
+
 function splitIntoGameBlocks(content: string): string[] {
   const blocks: string[] = [];
   const lines = content.split('\n');
@@ -85,7 +145,7 @@ function parseGameBlock(blockContent: string): Game | null {
   if (!movesContent.trim()) return null;
   
   // Parse moves with chess.js validation
-  const { moves, variations } = parseMovesWithVariations(movesContent);
+  const { moves, variations } = parseMovesWithVariations(movesContent, headers['FEN']);
   
   if (moves.length === 0) return null;
   
@@ -96,9 +156,13 @@ function parseGameBlock(blockContent: string): Game | null {
     event: headers['Event'],
     date: headers['Date'],
     result: headers['Result'],
+    opening: headers['Opening'] || headers['Event'] || `${headers['White'] || 'White'} vs ${headers['Black'] || 'Black'}`,
+    openingCode: headers['ECO'],
+    pgn: blockContent.trim(),
     moves,
     variations,
     completed: false,
+    fen: headers['FEN'], // Include FEN if present
   };
 }
 
@@ -243,9 +307,9 @@ function tokenize(content: string): Token[] {
   return tokens;
 }
 
-function parseMovesWithVariations(movesContent: string): { moves: Move[]; variations: Variation[] } {
+function parseMovesWithVariations(movesContent: string, fen?: string): { moves: Move[]; variations: Variation[] } {
   const tokens = tokenize(movesContent);
-  const chess = new Chess();
+  const chess = createChessFromFen(fen);
   const moves: Move[] = [];
   const variations: Variation[] = [];
   
@@ -294,7 +358,8 @@ function parseMovesWithVariations(movesContent: string): { moves: Move[]; variat
     // Handle moves
     if (token.type === 'move') {
       try {
-        const result = chess.move(token.value, { sloppy: true });
+        const fenBefore = chess.fen();
+        const result = chess.move(token.value as any, { sloppy: true } as any);
         if (result) {
           const moveObj: Move = {
             notation: token.value,
@@ -304,6 +369,8 @@ function parseMovesWithVariations(movesContent: string): { moves: Move[]; variat
             promotion: result.promotion,
             comment: pendingComment,
             variations: [],
+            fenBefore,
+            fenAfter: chess.fen(),
           };
           moves.push(moveObj);
           pendingComment = undefined;
@@ -321,7 +388,7 @@ function parseMovesWithVariations(movesContent: string): { moves: Move[]; variat
  * Validate that all moves in a game are legal
  */
 export function validateGameMoves(game: Game): boolean {
-  const chess = new Chess();
+  const chess = createChessFromFen(game.fen);
   
   for (const move of game.moves) {
     try {

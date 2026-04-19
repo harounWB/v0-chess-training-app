@@ -1,0 +1,2337 @@
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Introduction"]
+[Black "Crush the Taimanov: Introduction"]
+[Result "*"]
+
+{ @@StartBlockQuote@@'When intensely studied, any part of a greater whole, however small, may grant you insights of a magnitude greater than that of the part itself.' - GM Tiger Hillarp Petersson@@EndBlockQuote@@ }
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 { The Taimanov. } 5. Nc3 Qc7
+{ Black develops his queen without committing the kingside.   5...a6  allows  6.Nxc6  bxc6  7.Bd3  where White will have the initiative due to his lead in development. It is better to avoid  ...a6  until  Be3  is played in order to force White to commit his dark-squared bishop to a square that makes less sense in the  ...bxc6  structure. }
+6. Be3
+{ White develops his bishop and prepares to castle queenside after Qd2 or Qf3. }
+6... a6
+{ Black prepares ...b5.   6...Nf6  allows complications that favor White after  7.f4  Bb4  8.Nb5  Qa5  9.e5.  These are covered in the early sidelines chapter. }
+7. Qf3
+{ White prepares to castle queenside. In many variations, White plays Qg3 and either obtains a better endgame  (...Qxg3 hxg3 opens the h-file and White can obtain kingside pressure with f3 followed by g4-g5)  or targets the g7-pawn, making it difficult for Black to develop his dark-squared bishop without concessions. }
+7... Nf6
+{ Against sidelines, White generally will be able to obtain a favorable endgame with Qg3.   7...Bd6  is a respectable alternative that will be covered in the theory section. The summary is that after  8.O-O-O  Be5  9.g3  White will follow up with  Qe2  and  f4.  If Black exchanges twice on  d4  White has easy development and can triple major pieces down the d-file with pressure against the backward d-pawn. }
+8. O-O-O
+{ White continues his development plan and intends to follow up with Qg3.   8.Qg3  doesn't work due to  8...Qxg3  9.hxg3  Ng4.  As a general rule , White punishes sidelines that don't involve  ...Nf6  with  Qg3  and if White is going to play  Qg3  after  ...Nf6  he either will have something concrete prepared for  ...Ng4  or will play  Be2  before  Qg3. }
+8... Ne5
+{ The most critical line. Black interrupts White's endgame plans with concrete play. }
+9. Qg3
+{ If Black doesn't have anything concrete now, White will be able to follow up with f4 and meet ...Neg4 with Bg1 followed by e5 with a powerful initiative. }
+9... b5
+{ This sharp variation was recommended for Black in 'Grandmaster Repertoire - The Sicilian Taimanov' and is the main line at GM level. }
+10. a3
+{ White prepares to play f4 by preventing ...b4.   10.f4  Neg4  11.Bg1  b4  12.Na4  is the main line. There is a lot of theory in this line and if Black plays  8...Ne5  and  9...b5  he has most likely prepared this in detail. I prefer to avoid the counterplay with  ...b4  and attempt to get the Black player out of book , so I recommend avoiding this with  10.a3. }
+10... Bb7
+{ 10...b4?!  11.axb4  Bxb4?  12.Qxg7  Black needs to generate counterplay by targeting the e4-pawn and preparing to occupy the c-file with ...Rc8. For concrete reasons, 10...Bb7 is the only move that doesn't immediately give White a decisive advantage. Alternatives are refuted in the theory section. }
+11. Bxb5
+{ These complications objectively favor White and are covered in more detail in the theory section.   11...axb5 ?  12.Ndxb5  Qb8  13.Bb6  with  Nc7+  or  Bc7  gives White a decisive initiative. Black is forced to enter unfavorable complications with  11...Rc8  instead. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Introduction"]
+[Black "Sources"]
+[Result "*"]
+
+1. --
+{ @@HeaderStart@@Sources@@HeaderEnd@@  The Most Flexible Sicilian  (Delchev and Semkov)   Dismantling the Sicilian  (De la Villa)   Grandmaster Preparation - The Sicilian Taimanov  (Antonios Pavlidis)   The Taimanov Bible  (Ivan Ivanisevic, Milos Perunovic, and Robert Markus)   Short & Sweet Taimanov  (Chessable course)   Database research  (ChessBase, chess.com, lichess.org)   Engines  (Stockfish, LeelaZero, Allie & Stein)  + private server  (Chessify)   Feedback from friends and beta-testers. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Early sidelines"]
+[Black "Taimanov: 5.Nc3 a6"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 { The Taimanov. } 5. Nc3 a6
+{ Black prevents Nb5. } 6. Nxc6
+{ White exchanges knights in order to play Bd3. It might seem like White is just strengthening Black's center, but White's lead in development is more important. Black's ...a6 move is not relevant in the resulting pawn structure. }
+6... bxc6 7. Bd3 Qc7 { Black develops his queen and controls the e5-square. }
+8. f4
+{ White gains space. Now White will be able to play e5 later if he needs to. }
+8... d5
+{ Black needs to gain space in the center or else his position will be very passive. }
+9. O-O Nf6 10. Qe2
+{ White has a better position due to his lead in development and superior piece coordination. White can finish his development with Bd2 and Rae1 followed by e5  (White might also play the preparatory Kh1)  with a kingside attack. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Early sidelines"]
+[Black "Taimanov: 5.Nc3 a6"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 { The Taimanov. } 5. Nc3 a6
+{ Black prevents Nb5. } 6. Nxc6
+{ White exchanges knights in order to play Bd3. It might seem like White is just strengthening Black's center, but White's lead in development is more important. Black's ...a6 move is not relevant in the resulting pawn structure. }
+6... bxc6 7. Bd3 d5
+{ Black gains central space. Without ...d5, Black would have a very passive position due to his space disadvantage and lack of development. }
+8. O-O Nf6 9. Re1 { White prepares to play e5, gaining space in the center. }
+9... Be7 10. e5
+{ White's pieces are ready. White gains space in the center and forces Black's f6-knight to retreat. }
+10... Nd7 11. Qg4
+{ White attacks Black's g7-pawn. Black is now forced to make a concession. }
+11... O-O 12. Bh6
+{ Black is forced to give up the exchange   ...g6  Bxf8  due to White's threat of Qxg7#. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Early sidelines"]
+[Black "Taimanov: 5.Nc3 a6"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 { The Taimanov. } 5. Nc3 a6
+{ Black prevents Nb5. } 6. Nxc6
+{ White exchanges knights in order to play Bd3. It might seem like White is just strengthening Black's center, but White's lead in development is more important. Black's ...a6 move is not relevant in the resulting pawn structure. }
+6... bxc6 7. Bd3 d5
+{ Black gains central space. Without ...d5, Black would have a very passive position due to his space disadvantage and lack of development. }
+8. O-O Nf6 9. Re1 { White prepares to play e5, gaining space in the center. }
+9... Be7 10. e5
+{ White's pieces are ready. White gains space in the center and forces Black's f6-knight to retreat. }
+10... Nd7 11. Qg4
+{ White attacks Black's g7-pawn. Black is now forced to make a concession. }
+11... g6 12. Bh6
+{ White has a better position due to his lead in development and Black's passive position. White's plan is Qh3 with Bg7 and Qxh7. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Early sidelines"]
+[Black "Taimanov: 5.Nc3 a6"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 { The Taimanov. } 5. Nc3 a6
+{ Black prevents Nb5. } 6. Nxc6
+{ White exchanges knights in order to play Bd3. It might seem like White is just strengthening Black's center, but White's lead in development is more important. Black's ...a6 move is not relevant in the resulting pawn structure. }
+6... bxc6 7. Bd3 d5
+{ Black gains central space. Without ...d5, Black would have a very passive position due to his space disadvantage and lack of development. }
+8. O-O Nf6 9. Re1 { White prepares to play e5, gaining space in the center. }
+9... Be7 10. e5
+{ White's pieces are ready. White gains space in the center and forces Black's f6-knight to retreat. }
+10... Nd7 11. Qg4
+{ White attacks Black's g7-pawn. Black is now forced to make a concession. }
+11... Kf8 12. b3
+{ White prepares an eventual c4  (as well as stops ...c5-c4 and has the option of Bb2)  and has a better position due to his easier development and Black's inability to castle. White can later move his knight  (theory says Na4 or Ne2-f4 although LeelaZero's Nb1-d2-f3 is an interesting alternative)  followed by c4 in order to open the position. I would have ended here, but NM William Sedlar thinks that this position is theoretically critical and doesn't trust Negi's Na4 lines as a way to fight for the advantage, so I'll go deeper on Leela's Nb1-d2-f3 suggestion.   12...c5  13.h3  Not the only move , but the most flexible , so that White can place his queen on  h2  after  ...h5-h4  as well as protecting against  ...h4  in case White doesn't want to play  Qh2.  13...Bb7  14.Nb1  Qc7  15.Qg3  h5  16.Nd2   16.Bg5!?  seemed interesting , until I realized that Black gets dangerous counterplay and equalizing chances after  16...Bxg5  17.Qxg5  Qd8  18.Qg3  h4  19.Qf4  g5  20.Qe3  Rg8  21.Nd2  g4  22.hxg4  Rxg4  23.Qh6+  Ke8  24.Nf3  d4  16...h4  17.Qe3  g6  18.Qe2  Kg7  19.Nf3  Rh5  20.Bf4  d4  21.Be4  +=   12...Bb7  13.h3  h5  14.Qf3  Kg8   14...c5?!  15.Bg6  15.Bf4  Bb4  (otherwise White will play Rad1 followed by Nb1-d2 with Qg3 and Nf3)  16.Bd2  += with  Rad1  and either  Nb1  (intending Nd2-f3)  (or Na4 with c4.) }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Early sidelines"]
+[Black "Taimanov: 6...Nf6 7.f4 d6"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 Nf6
+{ This developing move is objectively incorrect because Black commits his knight before White plays Qf3, allowing White to target it with f4 and e5. 6... a6 is stronger. }
+7. f4 { White prepares to play e5. } 7... d6 { Black prevents e5. } 8. Qf3
+{ White has an excellent version of the Scheveningen because his queen is well placed for a kingside or central attack. White's plan is to castle queenside followed by g4-g5 with a kingside initiative. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Early sidelines"]
+[Black "Taimanov: 6...Nf6 7.f4 Nxd4"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 Nf6
+{ This developing move is objectively incorrect because Black commits his knight before White plays Qf3, allowing White to target it with f4 and e5. 6... a6 is stronger. }
+7. f4 { White prepares to play e5. } 7... Nxd4 8. Qxd4
+{ Black aims to win the f4-pawn or provoke White's queen into centralizing so that Black can target it with ...b6 and ...Bc5.   White is okay with developing his queen because it avoids losing the f4-pawn and Black is not ready to target it. White intends to continue rapid development and play e5.   8.Bxd4  also gives White the advantage because White has more than enough compensation for the sacrificed pawn after  8...Qxf4  9.g3  Qc7  10.e5. }
+8... Ng4 9. Nb5
+{ 9.Bg1?!  Qxf4  The Black queen is forced to lose contact with either the f4-pawn  (allowing Bg1)  or the c5-square  (allowing Bd2)  . White will retreat his bishop next with the initiative due to his lead in development and space advantage.   White can also keep the advantage with  9.O-O-O  because his lead in development is more important than the bishop pair. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Early sidelines"]
+[Black "Taimanov: 6...Nf6 7.f4 Nxd4"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 Nf6
+{ This developing move is objectively incorrect because Black commits his knight before White plays Qf3, allowing White to target it with f4 and e5. 6... a6 is stronger. }
+7. f4 { White prepares to play e5. } 7... Nxd4 8. Qxd4
+{ Black aims to win the f4-pawn or provoke White's queen into centralizing so that Black can target it with ...b6 and ...Bc5.   White is okay with developing his queen because it avoids losing the f4-pawn and Black is not ready to target it. White intends to continue rapid development and play e5.   8.Bxd4  also gives White the advantage because White has more than enough compensation for the sacrificed pawn after  8...Qxf4  9.g3  Qc7  10.e5. }
+8... b6 9. e5 Ng4 10. Bg1
+{ White has a lead in development and a space advantage. ...Bc5 is of little significance because after White retreats his queen  (probably to c4)  White is still better developed. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Early sidelines"]
+[Black "Taimanov: 6...Nf6 7.f4 Bb4"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 Nf6
+{ This developing move is objectively incorrect because Black commits his knight before White plays Qf3, allowing White to target it with f4 and e5. 6... a6 is stronger. }
+7. f4 { White prepares to play e5. } 7... Bb4
+{ Black attempts to justify 6... Nf6 with active play. } 8. Nb5
+{ White gains a tempo on the Black queen and prepares to meet ...Bxc3 with Nxc3  (bxc3 followed by Nd6+ is also an idea)  . }
+8... Qa5 9. e5
+{ White gains central space and turns the d6-square into an outpost. } 9... Ne4
+10. Qd3
+{ White has the advantage due to his space advantage and lead in development. Black's ability to double White's c-pawns is not significant because Black is not well developed enough to exploit them.   10...Nxc3  11.bxc3  Be7  12.Be2  followed by  O-O  gives White a powerful initiative.   10...f5  11.exf6  Nxf6  White will continue development and castle either direction where Black has no compensation for White's initiative. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Early sidelines"]
+[Black "Taimanov: 6...Nf6 7.f4 Bb4"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 Nf6
+{ This developing move is objectively incorrect because Black commits his knight before White plays Qf3, allowing White to target it with f4 and e5. 6... a6 is stronger. }
+7. f4 { White prepares to play e5. } 7... Bb4
+{ Black attempts to justify 6... Nf6 with active play. } 8. Nb5
+{ White gains a tempo on the Black queen and prepares to meet ...Bxc3 with Nxc3  (bxc3 followed by Nd6+ is also an idea)  . }
+8... Qa5 9. e5
+{ White gains central space and turns the d6-square into an outpost. } 9... Nd5
+10. Bd2
+{ White has the initiative and a space advantage for no compensation. Black will play ...Nxc3 next and all three possible recaptures give White the advantage.   10...Nxc3  11.bxc3  is the most aggressive.   11.Bxc3  is the strongest alternative.  A sample line could run  11...Bc5  12.c4  Qd8  13.Bd3  with ideas of rapid development and  Nd6+.  Black will struggle to develop his queenside. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Early sidelines"]
+[Black "Taimanov: 6...a6 7.Qf3 Nxd4"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nxd4 8.
+Bxd4 Ne7 9. Qg3 Qxg3 10. hxg3
+{ White has a better endgame due to the open h-file and easy development. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Early sidelines"]
+[Black "Taimanov: 6...a6 7.Qf3 Be7"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Be7 8.
+Qg3 Qxg3 9. hxg3
+{ White has a better endgame due to the open h-file and easy development. White will rapidly develop and has the option of kingside expansion with f3 followed by g4-g5. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Early sidelines"]
+[Black "Taimanov: 6...a6 7.Qf3 Ba3"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Ba3
+{ Black undermines the c3-knight, intending to meet bxa3 with ...Ne5 followed by ...Qxc3. }
+8. O-O-O { White defends his b2-pawn. } 8... Ne5
+{ Against other moves, White would play Qg3 and Black would be forced to bail out into a worse than normal endgame because the a3-bishop would be forced to retreat. }
+9. Qg3 Qxc3 10. bxa3 Qxa3+ { 10...Ng6  11.Qd6 } 11. Kb1
+{ White has a decisive initiative due to his lead in development and Black's weak dark-squares.   One sample continuation could be  11...Ng6  12.Nb3  e5  13.Bc5  and Black should not survive White's initiative. White will be able to easily include his reserves in the attack and Black can't castle or repair his weak dark-squares. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Early sidelines"]
+[Black "Taimanov: 6...a6 7.Qf3 Bb4"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Bb4 8.
+Qg3
+{ The simplest solution, although White has other ways of obtaining an advantage. }
+8... Qxg3
+{ Black is forced to exchange because White was also threatening the g7-pawn. }
+9. hxg3
+{ With a standard endgame that is much better for White. ...Bxc3+ isn't a threat because the bishop pair is more important than the pawn structure here, especially considering that Black's remaining bishop is so passive and Black would have many weak dark-squares after the exchange. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Early sidelines"]
+[Black "Taimanov: 6...a6 7.Qf3 b5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 b5 8. Qg3
+{ The most thematic way of obtaining an advantage.   8.Nxc6  Qxc6  9.Bd3  followed by  Qg3  gives White a favorable Scheveningen due to Black's weak g7-pawn , but this is more of a punishment of Black's move order than a standard way of obtaining an opening advantage in the Taimanov. }
+8... Bd6 9. f4 { Black provokes complications which favor White. } 9... Nxd4
+10. Bxd4
+{ White has the initiative due to his lead in development, space advantage, and Black's weak g7-pawn.   There are multiple ways to keep the advantage against  10...Ne7.  I like the sharp  11.e5   the simple  11.Bd3  also keeps the advantage.   The complications after  11.Qxg7  also favor White.  10...Bc5   The complications with  11...Nf5  12.exd6  Qxd6  13.Be5  Nxg3  14.Bxd6  Nxh1  15.a4  Bb7  16.axb5  axb5  17.Rd1  favor White as White will play  Bxb5  with pressure on  d7  and will target the trapped h1-knight with  Ke2  and  Rxh1.  12.Bxc5  Qxc5  13.Bd3  Bb7  14.O-O-O  O-O  15.Ne4  Bxe4  16.Bxe4  White has a better position due to his space advantage and pressure down the d-file. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Early sidelines"]
+[Black "Taimanov: 6...a6 7.Qf3 b5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 b5 8. Qg3
+{ The most thematic way of obtaining an advantage.   8.Nxc6  Qxc6  9.Bd3  followed by  Qg3  gives White a favorable Scheveningen due to Black's weak g7-pawn , but this is more of a punishment of Black's move order than a standard way of obtaining an opening advantage in the Taimanov. }
+8... Qxg3
+{ Black doesn't have much of a choice given that he needs to develop his f8-bishop. }
+9. hxg3
+{ White has a better position in this standard endgame due to the open h-file. White will rapidly develop and can consider the kingside attack plan of f3 followed by g4-g5. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The solid 7...Bd6"]
+[Black "Taimanov: 7.Qf3 Bd6"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Bd6
+{ Black prevents Qg3 and prepares ...Be5. } 8. O-O-O
+{ White castles and threatens Ndb5. } 8... Be5
+{ Black continues his idea and defends against Ndb5. } 9. g3
+{ White prepares to target the Black bishop with Qe2 followed by f4. After White plays f4, Black generally exchanges twice on d4. The middlegames that follow are slightly better for White due to his easy development, space advantage, and pressure against Black's backward d-pawn. White's scheme of development  (Qe2, f4, triple major pieces on the d-file, Bg2 or Be2, gain space with e5, secure the king with Kb1, either prevent ...b4 or meet ...b4 with Nd1-e3-c4)  is more or less the same regardless of how Black develops because Black is unable to create dangerous threats or favorably change the pawn structure.   An interesting alternative is  9.Nxc6  bxc6  10.Bd4  , trading dark-squared bishops. If you are not satisfied with the mainline , feel free to look in this direction. LeelaZero considers White to be slightly better. }
+9... b5
+{ If Black delayed ...b5 too long, Qc4 would be a dangerous resource after Qe2 and the double exchange on d4  (the endgame favors White)  . }
+10. Qe2 Bb7 11. f4 Bxd4 12. Bxd4 Nxd4 13. Rxd4 Qc5 14. Qd2 Bc6 15. Bg2 b4 16.
+Nd1 a5 17. Ne3
+{ White's position is slightly better due to his space advantage and Black's backward d-pawn. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The solid 7...Bd6"]
+[Black "Taimanov: 7.Qf3 Bd6"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Bd6
+{ Black prevents Qg3 and prepares ...Be5. } 8. O-O-O
+{ White castles and threatens Ndb5. } 8... Be5
+{ Black continues his idea and defends against Ndb5. } 9. g3
+{ White prepares to target the Black bishop with Qe2 followed by f4. After White plays f4, Black generally exchanges twice on d4. The middlegames that follow are slightly better for White due to his easy development, space advantage, and pressure against Black's backward d-pawn. White's scheme of development  (Qe2, f4, triple major pieces on the d-file, Bg2 or Be2, gain space with e5, secure the king with Kb1, either prevent ...b4 or meet ...b4 with Nd1-e3-c4)  is more or less the same regardless of how Black develops because Black is unable to create dangerous threats or favorably change the pawn structure. }
+9... Nge7 10. Qe2 b5 11. f4 Bxd4 12. Bxd4 Nxd4
+{ The inclusion of  12...b4  and  13.Na4  only helps White control the weak dark-squares. }
+13. Rxd4 Rb8 14. Qd2
+{ White's position is slightly better due to his space advantage and backward d-pawn. I could go deeper, but White's plan is more or less the same in all of the variations in this structure: finish development  (Bg2/Be2, Rhd1)  to pressure the d7-pawn, possibly increase White's space advantage with e5, secure the king with Kb1, and either play a3  (to prevent ...b4)  or meet ...b4 with Nd1-e3  (to support the c4-square)  or Na4.   While I don't think White needs to drill further , it's worth mentioning that 'The Taimanov Bible' recommends this for Black , suggesting  14...b4  15.Nd1  a5  16.Ne3  O-O  17.Bg2  Nc6  , although after  18.Rd6  (not mentioned by the book)  (Black is still under a lot of pressure)  (+0.58 - LeelaZero, depth 31)  (. @@StartBlockQuote@@'Disagree with this assessment. Black will kick white's rook with ...Na7-b5 and has easy play with ...a5-a4 and potentially ...a3, weakening the dark squares.' - FM 1e41-0@@EndBlockQuote@@Due to this disagreement, I will go deeper to show how White can press against this plan and engine defense. See the 18.Rd6 advanced theory file for more information.) }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The solid 7...Bd6"]
+[Black "18.Rd6 advanced theory"]
+[Result "*"]
+[FEN "1rb2rk1/2qp1ppp/2nRp3/p7/1p2PP2/4N1P1/PPPQ2BP/2K4R b - - 0 1"]
+[SetUp "1"]
+
+{ This position was reached after  1.e4  c5  2.Nf3  e6  3.d4  cxd4  4.Nxd4  Nc6  5.Nc3  Qc7  6.Be3  a6  7.Qf3  Bd6  8.O-O-O  Be5  9.g3  Nge7  10.Qe2  b5  11.f4  Bxd4  12.Bxd4  Nxd4  13.Rxd4  Rb8  14.Qd2  b4  15.Nd1  a5  16.Ne3  O-O  17.Bg2  Nc6  18.Rd6 }
+1... Na7 2. Bf1
+{ Intending to meet ...Nb5 with Bxb5.   2.f5  f6 !  with counterplay.   2.e5  Nb5  3.Rd3  Qc5  Black prepares  ...b4  and White is fighting for equality. }
+2... a4 3. Kb1 Qb7
+{ 3...Nb5 ?!  4.Bxb5  Rxb5  5.Rd1  ±   3...Rd8  4.Bc4  Bb7  5.Rd1  Bc6   5...Bxe4  6.Rxd7  +=  6.f5  →   3...a3  4.b3  Bb7  5.Rxd7  Qa5  6.Rd4   6.Bd3 ?!  Bc6  7.Rd4  Rfd8  8.Rxd8+  Rxd8  →   6.Be2  Bxe4  7.Rd1  Nb5  8.Bxb5  Qxb5  Black has gotten rid of all his main problems -- the d7-pawn and the c8-bishop -- and should be equal.   6.Bg2  Bc8  7.Nc4  Qc5  Due to Black's counterplay  (... Nb5)  , White has nothing better than going into an equal endgame with Qd4 or Qd6.  6...Nc6  7.Nc4  +=  Black is getting pressed down the d-file. Does he have enough counterplay due to White's weak dark-squares ? Following the engine's suggestions  (LeelaZero and Stockfish)  we continue  7...Qc5  8.Rd6  Rfd8   8...Na7  9.Ne5  Bxe4  10.Nd7  Qc7  11.Nxb8  Rxb8  12.Rd7  Qb6  13.Bg2  Bxg2  14.Qxg2  Nb5  15.c4  Nc3+   15...bxc3  16.Rhd1  +=  16.Ka1  +=  Black's compensation for the exchange is defensive compensation and with careful play he can probably hold, although White is the one who is playing for a win.  9.Bg2  Rxd6  10.Qxd6  Qf2  11.Qd2  Qxd2  12.Nxd2  +=  with another slightly better endgame for White that should be defensible for Black if he is accurate over the next 5-10 moves. White will develop his rook and ...Nd4 can be met by Bf1-c4. }
+4. Rd4
+{ 4.Qd4  b3   4...Re8  5.Bd3  b3  6.cxb3  axb3  7.a3  Nb5  8.Bxb5  Qxb5  9.Re1  Bb7  10.Nc4  +=  5.cxb3  axb3  6.a3  Qa8  7.Bd3  Bb7  8.Rb6  Nc6  9.Qd6  Na7  10.Qd4  White has nothing better than repeating. }
+4... Nc6 5. Rd3 Qa7
+{ 5...b3  6.cxb3  Nb4   6...axb3  7.Rxb3  ±  7.Rd4  axb3  8.a3  Qa7  9.Ka1   9.Rxb4  Rxb4  10.Qxb4  Qxe3  11.Bb5  ∞  9...d5   9...Nc6  10.Rd6  +=  10.exd5  +=  White will meet ...exd5 with Bg2. While White has more room for error and is pressing, it does seem that Black's activity  (and computer tactics)  will allow him to equalize with accurate play, especially since the major piece endgame  (3 vs. 3 on the kingside and 2 vs. 1 on the queenside)  is probably drawn despite White's material advantage.   5...Rd8  6.Bg2  Qa7  7.Rd1  +=  White will play e5 and Nc4, Black is still defending since ...b3 is always met by cxb3 and a3. }
+6. Bg2
+{ seems to me that White is pressing  (Rd1 with e5 and Nc4)  as ...b3 is met with cxb3 and  (after ...Nb4 and Rd4)  a3. Lets go deeper to see what kind of counterplay the engines find for Black... }
+6... e5 { 6...b3  7.cxb3  Nb4  8.Rd4  axb3  9.a3  d5  10.Rc1  += } 7. Nc4
+{ 7.Rd1  b3  ∞ } 7... b3 8. cxb3 Nb4 { 8...axb3  9.a3  += } 9. Rd6 Nxa2 10. Qa5
+Qxa5 11. Nxa5 axb3 12. Rhd1
+{ with a defensible endgame, although White is still pressing.   12.Re1  +=  with Re3-b3. This is another slightly better endgame that Black can probably equalize with careful defense. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The solid 7...Bd6"]
+[Black "Taimanov: 7.Qf3 Bd6"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Bd6
+{ Black prevents Qg3 and prepares ...Be5. } 8. O-O-O
+{ White castles and threatens Ndb5. } 8... Be5
+{ Black continues his idea and defends against Ndb5. } 9. g3
+{ White prepares to target the Black bishop with Qe2 followed by f4. After White plays f4, Black generally exchanges twice on d4. The middlegames that follow are slightly better for White due to his easy development, space advantage, and pressure against Black's backward d-pawn. White's scheme of development  (Qe2, f4, triple major pieces on the d-file, Bg2 or Be2, gain space with e5, secure the king with Kb1, either prevent ...b4 or meet ...b4 with Nd1-e3-c4)  is more or less the same regardless of how Black develops because Black is unable to create dangerous threats or favorably change the pawn structure. }
+9... Nf6 10. Qe2 O-O 11. f4 Bxd4 12. Bxd4 Nxd4 13. Rxd4 e5
+{ Black attempts to change the pawn structure to avoid being squeezed down the d-file without counterplay.   For a model game on how Black can be squeezed after  13...d6  , see GM Vladimir Kramnik vs. GM Fabiano Caruana. }
+14. fxe5 Qxe5 15. Qd2 b5 16. Bg2 Bb7 17. Rf1
+{ White will follow up with Rf5 and e5 with a powerful initiative. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The solid 7...Bd6"]
+[Black "Taimanov: 7.Qf3 Bd6"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Bd6
+{ Black prevents Qg3 and prepares ...Be5. } 8. O-O-O
+{ White castles and threatens Ndb5. } 8... Be5
+{ Black continues his idea and defends against Ndb5. } 9. g3
+{ White prepares to target the Black bishop with Qe2 followed by f4. After White plays f4, Black generally exchanges twice on d4. The middlegames that follow are slightly better for White due to his easy development, space advantage, and pressure against Black's backward d-pawn. White's scheme of development  (Qe2, f4, triple major pieces on the d-file, Bg2 or Be2, gain space with e5, secure the king with Kb1, either prevent ...b4 or meet ...b4 with Nd1-e3-c4)  is more or less the same regardless of how Black develops because Black is unable to create dangerous threats or favorably change the pawn structure. }
+9... Nge7 10. Qe2 O-O 11. f4 Bxd4 12. Bxd4 Nxd4 13. Rxd4 e5
+{ Black attempts to change the pawn structure to avoid being squeezed.   13...b5  14.Bg2  leads to a typical structure that is slightly better for White. }
+14. Rd2 { 14.fxe5  Nc6 !  gives Black enough counterplay to equalize. } 14...
+exf4 15. e5 fxg3 16. hxg3
+{ White has a decisive attack down the open h-file. The attack plan is Qh5 where ...h6 can be met with Ne4-f6 and/or g4-g5. Even if White didn't have a decisive attack, he would still have more than enough compensation for the sacrificed pawn due to his dominant activity and Black's weak d7-pawn. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The solid 7...Bd6"]
+[Black "Taimanov: 7.Qf3 Bd6"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Bd6
+{ Black prevents Qg3 and prepares ...Be5. } 8. O-O-O
+{ White castles and threatens Ndb5. } 8... Be5
+{ Black continues his idea and defends against Ndb5. } 9. g3
+{ White prepares to target the Black bishop with Qe2 followed by f4. After White plays f4, Black generally exchanges twice on d4. The middlegames that follow are slightly better for White due to his easy development, space advantage, and pressure against Black's backward d-pawn. White's scheme of development  (Qe2, f4, triple major pieces on the d-file, Bg2 or Be2, gain space with e5, secure the king with Kb1, either prevent ...b4 or meet ...b4 with Nd1-e3-c4)  is more or less the same regardless of how Black develops because Black is unable to create dangerous threats or favorably change the pawn structure. }
+9... Nge7 10. Qe2 O-O 11. f4 Bxd4 12. Bxd4 Nxd4 13. Rxd4 e5
+{ Black attempts to change the pawn structure to avoid being squeezed.   13...b5  14.Bg2  leads to a typical structure that is slightly better for White. }
+14. Rd2 { 14.fxe5  Nc6 !  gives Black enough counterplay to equalize. } 14...
+exf4 15. e5
+{ White sacrifices a pawn to open the kingside and increase his space advantage.   15.Qf3  also gives White the initiative and probably an objective advantage. }
+15... Ng6
+{ Against slow moves White would play gxf4 a better position without having sacrificed, so Black must fight for counterplay. }
+16. Nd5 Qa5 17. a3
+{ 17.a3 is stronger than 17.Kb1 because the White queen doesn't want to be tied to the defense of the d2-rook. }
+17... f3
+{ Opening the h-file would be too dangerous  (White would play Qh2 and g4-g5)  and White was threatening to play gxf4. }
+18. Qe3 Re8 19. Nb6 Rxe5 20. Qf2 { 20.Qxf3?  Qxb6  -+ } 20... Rb8 21. Bc4
+{ 21.Bh3?  Rc5!  White has excellent compensation for the sacrificed two pawns due to his dominant activity. White will play Rhd1 next and will win the f3 pawn soon after. Black's d-pawn will likely be lost at some point in the near future, giving White superior activity for free.   21...Rc5  22.Qxf3! }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The solid 7...Bd6"]
+[Black "Taimanov: 7.Qf3 Bd6"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Bd6
+{ Black prevents Qg3 and prepares ...Be5. } 8. O-O-O
+{ White castles and threatens Ndb5. } 8... Be5
+{ Black continues his idea and defends against Ndb5. } 9. g3
+{ White prepares to target the Black bishop with Qe2 followed by f4. After White plays f4, Black generally exchanges twice on d4. The middlegames that follow are slightly better for White due to his easy development, space advantage, and pressure against Black's backward d-pawn. White's scheme of development  (Qe2, f4, triple major pieces on the d-file, Bg2 or Be2, gain space with e5, secure the king with Kb1, either prevent ...b4 or meet ...b4 with Nd1-e3-c4)  is more or less the same regardless of how Black develops because Black is unable to create dangerous threats or favorably change the pawn structure. }
+9... Nge7 10. Qe2 O-O 11. f4 Bxd4 12. Bxd4 Nxd4 13. Rxd4 e5
+{ Black attempts to change the pawn structure to avoid being squeezed.   13...b5  14.Bg2  leads to a typical structure that is slightly better for White. }
+14. Rd2 { 14.fxe5  Nc6 !  gives Black enough counterplay to equalize. } 14...
+exf4 15. e5
+{ White sacrifices a pawn to open the kingside and increase his space advantage.   15.Qf3  also gives White the initiative and probably an objective advantage. }
+15... Ng6
+{ Against slow moves White would play gxf4 a better position without having sacrificed, so Black must fight for counterplay. }
+16. Nd5 f3 17. Qxf3 Qxe5 18. Nb6 Rb8 19. Bh3
+{ White has dominant piece activity and will win the d7-pawn soon. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The solid 7...Bd6"]
+[Black "Taimanov: 7.Qf3 Bd6"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Bd6
+{ Black prevents Qg3 and prepares ...Be5. } 8. O-O-O
+{ White castles and threatens Ndb5. } 8... Be5
+{ Black continues his idea and defends against Ndb5. } 9. g3
+{ White prepares to target the Black bishop with Qe2 followed by f4. After White plays f4, Black generally exchanges twice on d4. The middlegames that follow are slightly better for White due to his easy development, space advantage, and pressure against Black's backward d-pawn. White's scheme of development  (Qe2, f4, triple major pieces on the d-file, Bg2 or Be2, gain space with e5, secure the king with Kb1, either prevent ...b4 or meet ...b4 with Nd1-e3-c4)  is more or less the same regardless of how Black develops because Black is unable to create dangerous threats or favorably change the pawn structure. }
+9... Nge7 10. Qe2 O-O 11. f4 Bxd4 12. Bxd4 Nxd4 13. Rxd4 e5
+{ Black attempts to change the pawn structure to avoid being squeezed.   13...b5  14.Bg2  leads to a typical structure that is slightly better for White. }
+14. Rd2 { 14.fxe5  Nc6 !  gives Black enough counterplay to equalize. } 14...
+exf4 15. e5
+{ White sacrifices a pawn to open the kingside and increase his space advantage.   15.Qf3  also gives White the initiative and probably an objective advantage. }
+15... Ng6
+{ Against slow moves White would play gxf4 a better position without having sacrificed, so Black must fight for counterplay. }
+16. Nd5 Qxe5 17. Qxe5 Nxe5 18. gxf4
+{ White's dominant piece activity gives him more than enough compensation for the sacrificed pawn, especially since the d7-pawn is likely to drop off soon. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The solid 7...Bd6"]
+[Black "Taimanov: 7.Qf3 Bd6"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Bd6
+{ Black prevents Qg3 and prepares ...Be5. } 8. O-O-O
+{ White castles and threatens Ndb5. } 8... Be5
+{ Black continues his idea and defends against Ndb5. } 9. g3
+{ White prepares to target the Black bishop with Qe2 followed by f4. After White plays f4, Black generally exchanges twice on d4. The middlegames that follow are slightly better for White due to his easy development, space advantage, and pressure against Black's backward d-pawn. White's scheme of development  (Qe2, f4, triple major pieces on the d-file, Bg2 or Be2, gain space with e5, secure the king with Kb1, either prevent ...b4 or meet ...b4 with Nd1-e3-c4)  is more or less the same regardless of how Black develops because Black is unable to create dangerous threats or favorably change the pawn structure. }
+9... Nge7 10. Qe2 O-O 11. f4 Bxd4 12. Bxd4 Nxd4 13. Rxd4 e5
+{ Black attempts to change the pawn structure to avoid being squeezed.   13...b5  14.Bg2  leads to a typical structure that is slightly better for White. }
+14. Rd2 { 14.fxe5  Nc6 !  gives Black enough counterplay to equalize. } 14...
+exf4 15. e5 f3 16. Qxf3 Qxe5 17. Bg2
+{ White has more than enough compensation for the sacrificed pawn due to his dominant piece activity and Black's weak d7-pawn. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The solid 7...Bd6"]
+[Black "Taimanov: 7.Qf3 Bd6"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Bd6
+{ Black prevents Qg3 and prepares ...Be5. } 8. O-O-O
+{ White castles and threatens Ndb5. } 8... Be5
+{ Black continues his idea and defends against Ndb5. } 9. g3
+{ White prepares to target the Black bishop with Qe2 followed by f4. After White plays f4, Black generally exchanges twice on d4. The middlegames that follow are slightly better for White due to his easy development, space advantage, and pressure against Black's backward d-pawn. White's scheme of development  (Qe2, f4, triple major pieces on the d-file, Bg2 or Be2, gain space with e5, secure the king with Kb1, either prevent ...b4 or meet ...b4 with Nd1-e3-c4)  is more or less the same regardless of how Black develops because Black is unable to create dangerous threats or favorably change the pawn structure. }
+9... Nge7 10. Qe2 O-O 11. f4 Bxd4 12. Bxd4 Nxd4 13. Rxd4 e5
+{ Black attempts to change the pawn structure to avoid being squeezed.   13...b5  14.Bg2  leads to a typical structure that is slightly better for White. }
+14. Rd2 { 14.fxe5  Nc6 !  gives Black enough counterplay to equalize. } 14...
+exf4 15. e5 f3 16. Qxf3 Nc6 17. Nd5 Qxe5 18. Nb6 Rb8 19. Bh3 Qa5 20. Qb3
+{ White has more than enough compensation for the sacrificed pawn due to his dominant piece activity and Black's weak d-pawn  (which is likely to be lost soon)  . }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The sharp 7...Ne5"]
+[Black "Taimanov: 7...Ne5 8.Qg3 b5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Ne5 8.
+Qg3 b5 9. O-O-O { 9. a3 is also strong } 9... b4 10. Na4
+{ The inclusion of these moves only helps White because Nb6 is a possibility and Black is unable to safely force a transposition into the mainline.   10...Bb7  11.f4  White has the initiative.   10...d6  11.Nb6 !  Qxb6  12.Nxe6  Qc6  13.Nxg7+  favors White , although White isn't forced to play  Nb6.   10...Nf6 ?  11.Nf3  White has a decisive initiative. For example ,  11...Nfg4   11...Bd6  12.Rxd6  12.Nxe5  Nxe5  13.f4  Black has basically no development and White's e/f pawns can keep rolling forward. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The sharp 7...Ne5"]
+[Black "Taimanov: 7...Ne5 8.Qg3 b5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Ne5 8.
+Qg3 b5 9. a3
+{ Black will either transpose into the mainline with 9...Nf6 10.0-0-0 or allow White to play f4 without ...b4 counterplay. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The sharp 7...Ne5"]
+[Black "Taimanov: 7...Ne5 8.Qg3 b5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Ne5 8.
+Qg3 b5 9. O-O-O { 9. a3 is also strong } 9... Nf6 10. a3
+{ White transposed into 8... Nf6 9. O-O-O b5 10. a3 } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The sharp 7...Ne5"]
+[Black "Taimanov: 7...Ne5 8.Qg3 h5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Ne5 8.
+Qg3 h5 9. Bf4
+{ White targets the e5-knight.   9.f4  is less clear because Black can insert  9...h4. }
+9... d6 { 9...Bd6 ?  loses to both  10.Qxg7  and  10.Ndb5. } 10. Bg5
+{ Provoking ...d6 was useful to prevent ...Bb4 and to defuse ...f6  (the e6-square would be too weak)  . }
+10... Ng6 11. O-O-O
+{ White has the initiative due to his lead in development and can open the position with f4-f5. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The sharp 7...Ne5"]
+[Black "Taimanov: 7...Ne5 8.Qg3 h5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Ne5 8.
+Qg3 h5 9. Bf4
+{ White targets the e5-knight.   9.f4  is less clear because Black can insert  9...h4. }
+9... d6 { 9...Bd6 ?  loses to both  10.Qxg7  and  10.Ndxb5. } 10. Bg5
+{ Provoking ...d6 was useful to prevent ...Bb4 and to defuse ...f6  (the e6-square would be too weak)  . }
+10... b5 11. f4 Nc4
+{ 11...Nd7  also gives White the advantage due to his lead in development. The simple  12.a3  is strong , though  12.f5  is also dangerous. }
+12. O-O-O { White has the initiative due to his lead in development. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The sharp 7...Ne5"]
+[Black "Taimanov: 7...Ne5 8.Qg3 h5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Ne5 8.
+Qg3 h5 9. Bf4
+{ White targets the e5-knight.   9.f4  is less clear because Black can insert  9...h4. }
+9... d6 { 9...Bd6 ?  loses to both  10.Qxg7  and  10.Ndxb5. } 10. Bg5
+{ Provoking ...d6 was useful to prevent ...Bb4 and to defuse ...f6  (the e6-square would be too weak)  . }
+10... b5 11. f4 h4 12. Bxh4 Ng6
+{ I didn't think this novelty was critical, but jgh1996 had trouble persuading LeelaZero  (at a relatively low depth)  that White was better. I'll go deeper to show White's advantage. }
+13. Bg5 b4 { 13...f6?  14.Bxf6  Nxf6  15.Qxg6+ } 14. Nd1
+{ White has a space advantage and a lead in development.   If you aren't convinced that White has a theoretical advantage , analyze  14...Nf6  15.Nf2!   or  15.Bxf6  gxf6  16.f5!  with LeelaZero or Stockfish and they will agree that White has the advantage. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The sharp 7...Ne5"]
+[Black "Taimanov: 7...Ne5 8.Qg3 h5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Ne5 8.
+Qg3 h5 9. Bf4
+{ White targets the e5-knight.   9.f4  is less clear because Black can insert  9...h4. }
+9... d6 { 9...Bd6 ?  loses to both  10.Qxg7  and  10.Ndxb5. } 10. Bg5
+{ Provoking ...d6 was useful to prevent ...Bb4 and to defuse ...f6  (the e6-square would be too weak)  . }
+10... b5 11. f4 b4 12. Ncb5 axb5 13. fxe5 dxe5 14. Nxb5
+{ White has the initiative.   14...Qb8  15.Qb3  Bc5  16.Bd2  Bd7  17.Bxb4  Bxb5  18.Bxc5   14...Qc6  15.Be3   15.Qxe5  f6  16.Nc7+  Kf7  17.Bb5  also favors White }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The sharp 7...Ne5"]
+[Black "Taimanov: 7...Ne5 8.Qg3 h5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Ne5 8.
+Qg3 h5 9. Bf4
+{ White targets the e5-knight.   9.f4  is less clear because Black can insert  9...h4. }
+9... d6 { 9...Bd6 ?  loses to both  10.Qxg7  and  10.Ndxb5. } 10. Bg5
+{ Provoking ...d6 was useful to prevent ...Bb4 and to defuse ...f6  (the e6-square would be too weak)  . }
+10... b5 11. f4 h4 12. Bxh4 b4 13. Ncb5
+{ A desperado, weakening the b5-square. } 13... axb5 14. fxe5 dxe5 15. Bxb5+
+{ 15.O-O-O  also gives White a decisive initiative. } 15... Bd7 16. Nxe6
+{ White will play Bxd7+ followed O-O-O+ with a decisive initiative.   16...fxe6 ?  17.Qg6# }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The sharp 7...Ne5"]
+[Black "Taimanov: 7...Ne5 8.Qg3 h5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Ne5 8.
+Qg3 h5 9. Bf4
+{ White targets the e5-knight.   9.f4  is less clear because Black can insert  9...h4. }
+9... d6 { 9...Bd6 ?  loses to both  10.Qxg7  and  10.Ndxb5. } 10. Bg5
+{ Provoking ...d6 was useful to prevent ...Bb4 and to defuse ...f6  (the e6-square would be too weak)  . }
+10... b5 11. f4 h4 12. Bxh4 b4 13. Ncb5
+{ A desperado, weakening the b5-square. } 13... axb5 14. fxe5 Bd7 15. O-O-O
+{ 15.Bxb5?  Bxb5  16.Nxb5  Qc6  with a double attack on  b5  and  e4. } 15...
+Rxa2 { 15... Qc5 is stronger. } 16. Bxb5
+{ White is up a pawn with the initiative.   16.Nxb5?  Ra1+  17.Kd2  Rxd1+  18.Kxd1  Qc5  gives Black the initiative. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The sharp 7...Ne5"]
+[Black "Taimanov: 7...Ne5 8.Qg3 h5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Ne5 8.
+Qg3 h5 9. Bf4
+{ White targets the e5-knight.   9.f4  is less clear because Black can insert  9...h4. }
+9... d6 { 9...Bd6 ?  loses to both  10.Qxg7  and  10.Ndxb5. } 10. Bg5
+{ Provoking ...d6 was useful to prevent ...Bb4 and to defuse ...f6  (the e6-square would be too weak)  . }
+10... b5 11. f4 h4 12. Bxh4 b4 13. Ncb5
+{ A desperado, weakening the b5-square. } 13... axb5 14. fxe5 Bd7 15. O-O-O Qc5
+16. Bg5
+{ White plays a flexible move that prepares to activate the White queen  (...Rxh4 is no longer possible)  .   16.Nb3  Qxe5  allows Black to equalize.   16.exd6  Bxd6  17.Qg5  is unconvincing due to  17...Rxh4  18.Qxh4  Rxa2  with compensation.   16.Kb1  leads to complications that don't necessarily favor White , for example ,  16...dxe5  16.Nf3  Qa7  18.Rxd7  Kxd7  19.Bxb5+  Kc8  20.Bc4  Qc7  21.Bb3  with an unclear position. }
+16... Rxa2 17. Nb3
+{ Provoking complications that favor White.   17.Kb1  also favors White. }
+17... Qxe5 18. Qxe5
+{ Otherwise White would have a powerful initiative without having sacrificed material. }
+18... dxe5 19. Bxb5 Ra7 { 19...Bxb5  20.Rd8#   19...Nf6  20.Bxf6 } 20. Rxd7
+Rxd7 21. Rd1 Nf6 22. Bxf6
+{ White will play Rxd7 with a decisive material advantage. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The sharp 7...Ne5"]
+[Black "Taimanov: 7...Ne5 8.Qg3 h5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Ne5 8.
+Qg3 h5 9. Bf4
+{ White targets the e5-knight.   9.f4  is less clear because Black can insert  9...h4. }
+9... d6 { 9...Bd6 ?  loses to both  10.Qxg7  and  10.Ndxb5. } 10. Bg5
+{ Provoking ...d6 was useful to prevent ...Bb4 and to defuse ...f6  (the e6-square would be too weak)  . }
+10... b5 11. f4 h4 12. Bxh4 b4 13. Ncb5
+{ A desperado, weakening the b5-square. } 13... axb5 14. fxe5 Bd7 15. O-O-O Qc5
+16. Bg5
+{ White plays a flexible move that prepares to activate the White queen  (...Rxh4 is no longer possible)  .   16.exd6  Bxd6  17.Qg5  is unconvincing due to  17...Rxh4  18.Qxh4  Rxa2  with compensation.   16.Kb1  leads to complications that don't necessarily favor White , for example  16...dxe5  16.Nf3  Qa7  18.Rxd7  Kxd7  19.Bxb5+  Kc8  20.Bc4  Qc7  21.Bb3  with an unclear position. }
+16... dxe5 { 16...Rc8  17.Rd2  doesn't change much except prevent  ...Rxa2. }
+17. Nb3 Qc7 18. Bd3 Rxa2 19. Bxb5 Bxb5 20. Qxe5 Qxe5 21. Rd8# *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The sharp 7...Ne5"]
+[Black "Taimanov: 7...Ne5 8.Qg3 h5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Ne5 8.
+Qg3 h5 9. Bf4
+{ White targets the e5-knight.   9.f4  is less clear because Black can insert  9...h4. }
+9... d6 { 9...Bd6 ?  loses to both  10.Qxg7  and  10.Ndxb5. } 10. Bg5
+{ Provoking ...d6 was useful to prevent ...Bb4 and to defuse ...f6  (the e6-square would be too weak)  . }
+10... b5 11. f4 h4 12. Bxh4 b4 13. Ncb5
+{ A desperado, weakening the b5-square. } 13... axb5 14. fxe5 Bd7 15. O-O-O Qc5
+16. Bg5
+{ White plays a flexible move that prepares to activate the White queen  (...Rxh4 is no longer possible)  .   16.exd6  Bxd6  17.Qg5  is unconvincing due to  17...Rxh4  18.Qxh4  Rxa2  with compensation.   16.Kb1  leads to complications that don't necessarily favor White , for example  16...dxe5  16.Nf3  Qa7  18.Rxd7  Kxd7  19.Bxb5+  Kc8  20.Bc4  Qc7  21.Bb3  with an unclear position. }
+16... dxe5 { 16...Rc8  17.Rd2  doesn't change much except prevent  ...Rxa2. }
+17. Nb3 Qc7 18. Bd3 Nf6 { 18...Rxa2?  19.Bxb5! } 19. Kb1
+{ White has the initiative and can increase the pressure by finishing his development  (Qf3 and either Rhe1, Rhf1, or leaving the rook where it stands - the last one is more effective if White chooses the h4-h5-h6 plan)  and pawn storming the kingside  (g4 with h4-h5-h6)  . Black's only active resource   ...Qa7  can be met with Nc1 and Black's king safety is a long-term issue. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "7...Nf6 sidelines"]
+[Black "Taimanov: 7...Nf6 8.0-0-0 Nxd4"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Nxd4 9. Bxd4 e5 10. Be3 d6 11. h3
+{ White prevents ...Bg4 and prepares g4-g5. } 11... b5 12. g4 b4 13. Nd5 Nxd5
+14. exd5
+{ White has a better position due to his space advantage and lead in development. White's plan is to finish his development  (Bd3, Qe4, Kb1)  and start an attack  (f4 and possibly a kingside pawn storm)  . }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "7...Nf6 sidelines"]
+[Black "Taimanov: 7...Nf6 8.0-0-0 Bb4"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Bb4 9. Nxc6
+{ White prepares to play Bd4. Qg3 isn't as strong because after the exchange of queens Black can play ...Ng4 or ...Bxc3 followed by ...Nxe4. }
+9... Qxc6 10. Bd4 Bxc3
+{ Going for complications is Black's only chance, but it doesn't work. } 11.
+Bxc3 Qxe4 12. Qxe4 Nxe4 13. Bxg7 Rg8 14. Bd4
+{ White is significantly better due to his bishop pair and Black's weak dark-squares. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "7...Nf6 sidelines"]
+[Black "Taimanov: 7...Nf6 8.0-0-0 Bb4"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Bb4 9. Nxc6
+{ White prepares to play Bd4. Qg3 isn't as strong because after the exchange of queens Black can play ...Ng4 or ...Bxc3 followed by ...Nxe4. }
+9... dxc6 10. Bd4 e5
+{ Otherwise White would consolidate his advantage with Bxf6 or e5. } 11. Qg3
+{ Black loses material due to Qxe5 or Qxg7. } 11... Ng4
+{ Black continues playing concretely, nothing else offers serious defensive chances.   11...exd4  12.Qxc7 }
+12. f3 Qa5 13. Bg1 Bxc3 { 13...Nf6  14.Qxg7 } 14. bxc3 Qa3+ 15. Kd2
+{ White will win a piece and Black does not have sufficient compensation because White can block the d-file with Bd3. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "7...Nf6 sidelines"]
+[Black "Taimanov: 7...Nf6 8.0-0-0 Bb4"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Bb4 9. Nxc6
+{ White prepares to play Bd4. Qg3 isn't as strong because after the exchange of queens Black can play ...Ng4 or ...Bxc3 followed by ...Nxe4. }
+9... bxc6 10. Bd4
+{ Black is unable to stop both Bxf6  (with Qxf6)  and e5 with Ne4, so White has a powerful initiative.   10...Be7  11.e5  Nd5  12.Ne4   10...d5  11.Bxf6  favors White   the simple  11.Bd3  is also strong.   10...e5  11.Qg3!  Nh5  12.Qxe5+ }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "7...Nf6 sidelines"]
+[Black "Taimanov: 7...Nf6 8.0-0-0 h5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O h5 { Black prepares ...Ne5 followed by ...h4. } 9. Nxc6
+{ White makes this exchange before Black is able to force White to the g3-square. White is able to open the b-file because Black lost time with ...h5 that could have been spent on development. }
+9... dxc6 10. h3 { White prevents ...Ng4 and prepares g4. } 10... b5
+{ 10...Be7  11.g4 } 11. e5 Nd5 { 11...Qxe5  12.Qxc6+ } 12. Bf4 Bb7 13. Ne4
+{ White has the initiative and intends to play Nd6+ and Kb1 with c4. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "7...Nf6 sidelines"]
+[Black "Taimanov: 7...Nf6 8.0-0-0 h5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O h5 { Black prepares ...Ne5 followed by ...h4. } 9. Nxc6
+{ White makes this exchange before Black is able to force White to the g3-square. White is able to open the b-file because Black lost time with ...h5 that could have been spent on development. }
+9... dxc6 10. h3 { White prevents ...Ng4 and prepares g4. } 10... b5
+{ 10...Be7  11.g4 } 11. e5 Nd5 { 11...Qxe5  12.Qxc6+ } 12. Bf4 Qa5 13. Bd3 Bd7
+14. Nxd5 cxd5 15. Kb1
+{ White has a better position because of his space advantage and Black's passive light-squared bishop. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "7...Nf6 sidelines"]
+[Black "Taimanov: 7...Nf6 8.0-0-0 h5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O h5 { Black prepares ...Ne5 followed by ...h4. } 9. Nxc6
+{ White makes this exchange before Black is able to force White to the g3-square. White is able to open the b-file because Black lost time with ...h5 that could have been spent on development. }
+9... bxc6 10. Be2
+{ White has the advantage due to his lead in development. The plan is to play Qg3 with f4  (possibly Bg5 first)  and either f5 or e5. Black is not well developed enough to take advantage of the open b-file.   10.Bd4?  e5!  11.Be3   11.Qg3  d6  12.Be3  h4!  11...d5  12.exd5  Bg4  wins. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "7...Nf6 sidelines"]
+[Black "Taimanov: 7...Nf6 8.0-0-0 Rb8"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Rb8 9. Be2 { White prepares to play Qg3 by preventing ...Ng4. } 9... Bb4
+{ Against  9...d6  White has many good replies , but simplest is  10.Qg3  followed by  f4  with a central and kingside initiative. }
+10. Nxc6
+{ Black's dark-squares  (especially the f6-knight)  are loose because all of Black's pawns are on light-squares and the bishop on b4 is off-sides. White will target the dark-squares next  (either Bd4, Bg5, Bf4, or even Bh6 !?)  with both the initiative and an objective advantage.   10.Qg3  is inferior due to  10...Qxg3  11.hxg3  Bxc3  12.bxc3  Nxe4  where White's compensation isn't enough to fight for more than equality. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "7...Nf6 sidelines"]
+[Black "Taimanov: 7...Nf6 8.0-0-0 b5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O b5 9. e5
+{ A tactical shot that works due to the weakness of the c6-knight. } 9... Bb7
+10. Ndxb5
+{ A desperado, Black was intending to meet exf6 with ...Nxd4  (the b7-bishop would attack Qf3)  .   10.Nxc6?!  Bxc6  11.Qg3  Nd5  Black has at least equality. }
+10... axb5 11. exf6
+{ White is up a pawn and has the initiative.   A sample continuation could run  11...Nb4  12.Qg3   12.Qg4  is also winning  12...Qxg3  13.hxg3  Nxa2+  14.Nxa2  Rxa2  15.Bxb5  Ra1+  16.Kd2  Rxd1+  17.Rxd1  Bxg2  18.Ke2  Bc6  19.Bxc6  dxc6  with a better pawn structure , superior piece activity , and a queenside pawn majority. Stockfish has White up 2-3 pawns. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "7...Nf6 sidelines"]
+[Black "Taimanov: 7...Nf6 8.0-0-0 b5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O b5 9. e5
+{ A tactical shot that works due to the weakness of the c6-knight. } 9... Ng8
+{ Passive, but best. } 10. Nxc6
+{ White aims to block the long diagonal, which Black was trying to occupy with ...Bb7. }
+10... Bb7
+{ Black uses tactics to occupy the diagonal anyways. If Black recaptured the knight instead, White would have played Ne4 with a powerful initiative. }
+11. Bd3
+{ White has the advantage due to his lead in development. 11... Bxc6 can be met with with 12. Be4 or 12. Qg3. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "7...Nf6 sidelines"]
+[Black "Taimanov: 7...Nf6 8.0-0-0 b5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O b5 9. e5
+{ A tactical shot that works due to the weakness of the c6-knight. } 9... b4
+10. exf6 bxc3 11. Nxc6
+{ White has the initiative due to his lead in development and Black's damaged pawn structure. After the exchange of queens  (it is more dangerous for Black to keep the queens on the board because White's queen is more active and the White king is more safe)  White will play Bd4 and Black has issues on f6. Note that ...cxb2+ will be met with Kb1, to keep the White king safe in case Black avoids the trade of queens. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "7...Nf6 sidelines"]
+[Black "Taimanov: 7...Nf6 8.0-0-0 d6"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O d6 { Black prepares ...Nxd4 followed by ...e5 and ...Bg4. } 9. Nxc6
+{ White prepares to play g4 by preventing ...Ne5. White will resume development  (Be2, Kb1)  and play g4-g5  (Qg3 with f4 and f5 or e5 is another way to open the position)  with the initiative. White is able to get away with opening the b-file because Black is significantly behind in development, so Black isn't fast enough to start an attack against the White king.   9.Be2  isn't as strong due to  9...Nxd4!  10.Rxd4   10.Bxd4  e5  also gives Black counterplay especially since  ...Bg4  is threatened.  10...b5  with counterplay , for example ,  11.Rhd1  e5  12.R4d2  b4  13.Nd5  Nxd5  14.exd5  f5. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "7...Nf6 sidelines"]
+[Black "Taimanov: 7...Nf6 8.0-0-0 Be7"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Be7 9. Be2
+{ White develops a piece and prepares to play Qg3 by preventing ...Ng4. Next, White will either get a superior endgame with Qg3  (declining the endgame with ...d6 gives White the initiative after f4)  or will start a kingside attack with g4-g5. It's best to go deeper because this is recommended for Black in the book 'The Most Flexible Sicilian'. }
+9... d6 10. g4
+{ This is still playable, though not as strong since Black didn't castle yet. Since most players  (according to the Chessbase database)  castle here, transposing into 9...0-0, I prefer 10.g4 over 10.Qg3, although both give White the advantage.   Critical is  10... Nd7!N where White has multiple ways to obtain an advantage. For example ,  11.Nxc6   11.Qg3  is also better for White , as is  11.a3  11...Qxc6  12.Qg3  b5  13.a3  where White will pawn storm with the initiative.   10...O-O?!  11.g5  Nd7  12. g6!N +-   10...Nxd4  11.Rxd4! }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "7...Nf6 sidelines"]
+[Black "Taimanov: 7...Nf6 8.0-0-0 Be7"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Be7 9. Be2
+{ White develops a piece and prepares to play Qg3 by preventing ...Ng4. Next, White will either get a superior endgame with Qg3  (declining the endgame with ...d6 gives White the initiative after f4)  or will start a kingside attack with g4-g5. It's best to go deeper because this is recommended for Black in the book 'The Most Flexible Sicilian'. }
+9... d6
+{ 9...O-O  10.g4!  gives White a powerful initiative.   10.Qg3  either transposes into  9...d6  or enters a favorable endgame. }
+10. Qg3 O-O 11. f4 Bd7 12. e5 Ne8
+{ Black is unable to capture on e5:  12...dxe5?!  13.fxe5  Nxe5??   13...Qxe5  14.Nxc6  Qxg3  15.Nxe7+  14.Nf3! }
+13. Kb1
+{ White has a better position due to his space advantage and superior harmony. White intends to follow up with Nf3, Rd2, Rhd1, and Qf2 where Black is on the defensive. There are other plans which give an advantage, but this is my preference.   Black still can't take on e5:  13...dxe5?!  14.fxe5  Nxe5  15.Bf4   15.Nf3  also favors White after  15...f6  16.Nxe5  15...Bd6   15...f6  16.Bg4  16.Ne4  with a significant advantage. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "7...Nf6 sidelines"]
+[Black "Taimanov: 7...Nf6 8.0-0-0 Be7"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Be7 9. Be2
+{ White develops a piece and prepares to play Qg3 by preventing ...Ng4. Next, White will either get a superior endgame with Qg3  (declining the endgame with ...d6 gives White the initiative after f4)  or will start a kingside attack with g4-g5. It's best to go deeper because this is recommended for Black in the book 'The Most Flexible Sicilian'. }
+9... d6
+{ 9...O-O  10.g4!  gives White a powerful initiative.   9...O-O  10.Qg3  either transposes into  9...d6  or enters a favorable endgame. }
+10. Qg3 O-O 11. f4 Bd7 12. e5 dxe5 13. fxe5 Nxe5
+{ 13...Ne8  is best , but then Black would have freed the e3-bishop and opened the f-file for no reason.   13...Qxe5?  14.Nxc6  Qxg3  15.Nxe7+  Kh8  16.hxg3 }
+14. Nf3
+{ White wins material.   14...Nfg4  15.Bf4  f6  16.Qxg4   14...Bd6  15.Rxd6  Qxd6  16.Nxe5 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "7...Nf6 sidelines"]
+[Black "Taimanov: 7...Nf6 8.0-0-0 Be7"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Be7 9. Be2 O-O
+{ The main line, and objectively incorrect. Black should not commit to castling kingside until White commits to playing Qg3, blocking his g-pawn. 9...d6 is stronger. }
+10. g4 Ne5 11. Qg3
+{ White will play g5 and f4 with a powerful initiative.   A sample line could run  12...d6  13.g5  Nfd7  14.f4  Nc4  15.Bxc4   15.Nf5!  exf5  16.Nd5  with  Bxc4  and  Nxe7+  also gives White a decisive initiative  15...Qxc4  16.f5  with a decisive initiative. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "7...Nf6 sidelines"]
+[Black "Taimanov: 7...Nf6 8.0-0-0 Be7"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Be7 9. Be2 O-O
+{ The main line, and objectively incorrect. Black should not commit to castling kingside until White commits to playing Qg3, blocking his g-pawn. 9...d6 is stronger. }
+10. g4 { White prepares to play g5 with a kingside initiative. } 10... d6 11.
+g5 Nd7
+{ 11...Nxd4  12.Bxd4  Nd7  13.Qh5  White has a decisive attack. Some ideas: Rd3-h3 , f4-f5 , meet  ...e5  with  Nd5.   11...Ne8  is passive , has a powerful  (probably decisive)  attack after  12.Rhg1  b5  13.a3  intending  Qh5  and Rg3-h3. }
+12. g6 { A powerful novelty that refutes 9...0-0. } 12... hxg6
+{ 12...fxg6  13.Nxe6 } 13. h4 Nxd4
+{ White's ideas are similar against other moves. } 14. Bxd4
+{ White will play Qg2 with f4 and h5 with a decisive attack.   A sample variation could be  14...b5  15.Qg2  b4  16.h5!  bxc3  17.hxg6  cxb2+  18.Kb1  fxg6  19.Qxg6  Rf7  20.Rh7  with  Rxg7+  or  Rdh1. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "7...Nf6 sidelines"]
+[Black "Taimanov: 7...Nf6 8.0-0-0 Be7"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Be7 9. Be2 O-O
+{ The main line, and objectively incorrect. Black should not commit to castling kingside until White commits to playing Qg3, blocking his g-pawn. 9...d6 is stronger. }
+10. g4 b5 11. Nxc6
+{ This novelty refutes 10...b5.   11.g5  Ne8  12. Qg3!N favors White , but Black is probably doing fine in the complications if White avoids the queen trade. }
+11... dxc6
+{ Now White gets a better version of both the middlegame and the endgame due to Black's restricted c8-bishop and Black's inability to play ...Ne5. }
+12. g5 Nd7
+{ On  12...Ne8  , White can choose between  13.Qg3  with a favorable endgame   or  13.h4  with the initiative.  13...Bd6  can be met with the simple  14.f4  with a powerful attack , although  14.Rxd6!  Qxd6   14...Nxd6  15.Bf4  15.e5  with Ne4-f6 gives White a winning attack. }
+13. Qg3
+{ Black has nothing better than going into a significantly worse endgame.   Avoiding the queen trade with  13...Qa5  doesn't help , White will play  14.e5  with the idea of  Kb1  and  Ne4  (Nf6+ is a powerful sacrificial idea)  (with both domination and a decisive attack.) }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "7...Nf6 sidelines"]
+[Black "Taimanov: 7...Nf6 8.0-0-0 Be7"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Be7 9. Be2 O-O
+{ The main line, and objectively incorrect. Black should not commit to castling kingside until White commits to playing Qg3, blocking his g-pawn. 9...d6 is stronger. }
+10. g4 b5 11. Nxc6 Qxc6 12. e5 Nd5 13. Nxd5
+{ Black is forced to damage his pawn structure for no compensation. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "7...Nf6 sidelines"]
+[Black "Taimanov: 7...Nf6 8.0-0-0 Be7"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Be7 9. Be2 O-O
+{ The main line, and objectively incorrect. Black should not commit to castling kingside until White commits to playing Qg3, blocking his g-pawn. 9...d6 is stronger. }
+10. g4 Nxd4 11. Rxd4
+{ The most aggressive continuation, intending to follow up with g5 and Rhd1. This novelty secures a White advantage.   11.Bxd4  doesn't offer White as much because White isn't able to develop as quickly. Black is able to obtain counterplay after  11...b5  12.g5  Ne8  with ideas of  ...Bb7  ,  ...Rc8  , and  ...f5. }
+11... b5 12. g5 Ne8 13. Rhd1
+{ The key idea! Now Black is unable to develop with ...Bb7 due to Rxd7. White has a powerful initiative. Some ideas: e5 followed by Qg3 with f4-f5.   The only critical move is  13...f6.  Although White can get an advantage with the simple  14.exf6  , best is  14.g6!  because White can quickly win the pawn back  (...g5 is too weakening)  (and the Black king is more exposed.) }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "8...Ne5 9.Qg3 b5 10.a3 reference file"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7
+{ 10...Bxa3?  11.Ncxb5!  axb5  12.Nxb5  Qb8  13.Nxa3   10...h5 ?  A thematic move in the Taimanov, but an objective mistake.  11.Bf4  White increases the pressure on the e5-knight. This would not be as strong if Black didn't play ...h5 because Black would be able to meet Bf4 with ...Nh5.  11...d6  Forced.   11...Nfg4  12.f3   12...Bd6  13.Ndxb5  axb5  14.Nxb5  followed by  Nxd6+  wins  12.Bxb5+  White starts a tactical operation which removes the Black queen from the defense of the e5-pawn and prepares a Nc7+ fork after Qxe5.  12...axb5   12...Bd7  13.Bxd7+  White is up a pawn for no compensation.  13.Bxe5  dxe5  14.Ncxb5  Qb7   14...Qc5  15.b4  Qb6   15...h4  16.bxc5  hxg3  17.Nc6  Threatening Nc7# and Rd8#.  17...Be7  18.Nc7+  Kf8  19.hxg3   19.Nxa8  gxf2  gives Black a lot of counterplay due to White's weak pawns , although White is still better.  19...Rxh1  Otherwise White will play Nxa8.  20.Rxh1  Bd7   20...Rxa3  21.Rh8+  Ng8  22.Rxg8+  Kxg8  23.Nxe7+  Kf8  24.Nxc8  White has a winning material advantage.  21.Rh8+  Ng8  22.Rxg8+  Nxe7 followed by Nxa8 also wins.  22...Kxg8  23.Nxe7+  Kf8  24.Nxa8  White has a winning position because he is up 3 pawns.   15...Nxe4  16.Qh4  16. Qf3 also wins.  16...Qb6  17.Qxe4  White is up material for no compensation. 17... Bb7 18. Qxe5  16.Qxe5  White will win the exchange with Nc7+.   Black is unable to escape with the rook:  16...Rb8  17.Nc7+  Kd7  18.Nf5+  White has a winning attack.  15.Qxe5  White will win the exchange with Nc7+ next as Black is forced to play 15... Be7 to prevent Nc7+  (...Kd7 is met with Ndb5)  with a decisive attack.   10...Be7 ?  11.f4  Neg4   11...Bxa3  A tactical undermining which objectively doesn't work.  12.Bd2  There are other wins, but this is simplest. White secures the c3-knight and will pick up the a3-bishop or e5-knight next.  12.Bg1  White will play e5 with a winning attack unless Black plays ...e5 which also would give White a winning position due to his lead in development  (...e5 opens the position)  and the d5/f5 squares.   10...Rb8 ?  Too slow; Black fails to meet White's threat of f4.  11.f4  Neg4   11...Nc4  12.Bxc4  Qxc4   12...bxc4  13.e5  White has a decisive initiative and will follow up with Ne4 and f5. Lets continue the line to show what happens if Black tries to get counterplay against b2.  13...Ng8   13...Nd5  14.Nxd5  exd5  15.Nf5  White has a decisive initiative.   15...g6  allows the sacrifice  16.Nd6+  and Black's dark squares and king will be horribly weak.  14.Ne4   14.f5  also gives White a winning initiative.  14...Qb7  15.Nd6+  Bxd6  16.Qxg7  This thematic tactic is very important. White will win the exchange and Black's counterplay against b2 isn't enough.  16...Qxb2+   16...Bc5  17.Kd2  Simplest. Now ...Qxb2 will be met with Rb1 and White will win the exchange.  17.Kd2  Rb3  18.Nxb3  White will win a second exchange with a winning position.   18...cxb3  should be met with the simple  19.Rc1   although the concrete  19.Qxh8  Qxc2+  20.Ke1  b2  21.exd6  also wins.  13.e5  Nd5  Passive alternatives still give White a decisive initiative; f5 and Ne4 are dangerous ways for White to increase his initiative.  14.Nxd5  Qxd5   14...exd5  15.f5  15.Nf5  There are other wins here but I would like to show this line to emphisize how little counterplay Black has.  15...Qa2  Against alternatives, White would easily win due to his lead in development, safer king, and control over the dark-squares  (which can start to be exploited with Nd6+ or Nxg7+)  .  16.Nd6+  Bxd6  17.Qxg7  This tactical operation justifies 16. Nd6+.  17...Rf8  18.exd6  Black is getting crushed.  12.Bg1  or e5  12...b4  Black's only attempt to obtain counterplay. Unfortunately for him, ...b4 does not drive away White's c3-knight to target the e4-pawn like it would if White had not yet played a3.  13.axb4  Bxb4   13...Rxb4  14.e5  White will win one of the Black knights.  14.Na2  Black's only counterplay involved ...Bxc3, so White removes the target. White intends to play e5 next  (with a decisive initiative and winning the g4-knight)  , so Black is obliged to sacrifice.  14...Bd6   14...Nxe4  15.Qxg4  White is up a knight for insufficient compensation.   14...d6  Black tries to prevent e5. This fails for tactical reasons.  15.h3  The simplest solution, although e5 also wins because ...dxe5 is met with fxe5 where ...Qxe5 loses to Nc6.   15...Nxe4  16.Qxg4   15...Nh6  16.Qxg7  15.e5  Nxe5  16.fxe5  Bxe5  17.Qc3  Black's two pawns are not sufficient compensation for the sacrificed knight, especially since White is better developed and therefore is better prepared to use the open files. }
+11. Bxb5
+{ Note that  11.Ndxb5  axb5  12.Nxb5  Qb8  13.Bb6  isn't as strong because of  13...Nxe4 !  This resource would not be possible if White still had a knight on  c3.  14.Qe3  Bxa3 !  15.bxa3  Ng4 !  and Black has sufficient counterplay in these complications. }
+11... Rc8
+{ 11...axb5 ?  Tempting, but losing.  12.Ndxb5  Qb8  Black has no other square which defends his e5-knight.  13.Bb6  Nc4  White was threatening Bc7  (or Nc7+)  followed by Qxe5.  14.Bc7   14.Nc7+  also gives White a winning advantage.  14...Qc8  15.Rd4  White will play Nd6+ with a decisive initiative.   11...h5?  12.Bf4  Bd6   12...h4  13.Bxe5  hxg3  14.Bxc7  13.Nxe6  fxe6  14.Rxd6  Qxd6  15.Bxe5  Qe7  16.Bd6  Qf7  17.Bd3   11...Bxa3 ?!  Black tactically undermines the c3-knight. Objectively this move is inaccurate as the following complications favor White.  12.Bf4  Forced.   12.bxa3 ?  Qxc3  gives Black a winning initiative.   12.Bc6 ?!  holds the balance for concrete reasons , but I'd rather obtain an advantage.  12...Bd6   12...Nh5  13.Bxe5  Nxg3  14.Bxc7  Nxh1  15.Rxh1  Rc8   15...axb5 ?!  16.bxa3  White has a decisive material advantage.  16.bxa3  Rxc7  17.Kd2  axb5   17...Rxc3  18.Kxc3  is another endgame where White will be up a pawn.  18.Ncxb5  White wins the exchange back and will be up a pawn.   18...Rc5 ?  19.Nd6+  White will play  Nxb7  with a decisive material advantage.  13.Nxe6   13.Qxg7  also seems to favor White , but Black gets a lot of counterplay in the complications that follow after  13...Ke7 !  , for example  14.Nf5+  exf5  15.Bg5  Ng4  16.e5  Bxe5  17.Rxd7+  Qxd7  18.Bxd7  Rhg8  19.Bxf6+  Nxf6  20.Qh6  Kxd7  White is up material , but Black has a lot of activity.  13...fxe6  14.Rxd6  Qxd6  15.Bxe5  Qe7  16.Bd6  Qf7  17.Bd3  White has a pawn, the bishop pair, superior activity, and dark-square domination in exchange for the exchange. Black can't even castle; objective White's initiative is decisive. White has lots of ways of exploiting his advantage but it seems simplest to include the h1-rook in the game  (Re1 or Rd1)  , secure the center   f3  , and invade on the queenside  (Qe3 or Qf2 with Qb6, possibly Na4-c5)  . White also has the possibility of playing for f4 and e5. }
+12. Ba4 Nxe4 13. Nxe4 Bxe4 14. Bf4 Qa5
+{ 14...Qc4 ?!  The main line, and objectively inaccurate due to a novelty.  15.Bb3  N  !   15.Bxe5  Qxa4  would transpose into  14...Qa5 !  and would fail to punish Black's move order.   15.Bxe5 ?!  Qxa4  16.Rd2  White has transposed into 14... Qa5. I don't recommend this variation because White can get more with 14... Qa5, but for those of you who want to cut down on the number of varitions you have to learn, I'm marking this as an alternative.  15...Nd3+  □  Otherwise White would play Bxe5.  16.Kb1  Qxd4  17.cxd3  Bc6  The most resiliant move.   17...Bg6  18.Rc1  ±  Rxc1+  19.Rxc1  Qxd3+  20.Qxd3  Bxd3+  21.Ka2  Be7  22.Bc4  Bxc4+  23.Rxc4  O-O  24.Rc7   17...Bf5  18.Rc1   The slow  18.Ka2  intending  Rc1  and  Be5  gives White a significant advantage , but White wouldn't be able to get away with this against  17...Bg6  so I would rather recommend this most thematic continuation , transposing into  17...Bg6.   17...Bd5 ??  18.Be3  White wins the Black queen.   17...Bb7 ?!  18.Rc1  Due to White's control over the c-file, Black has nothing better than playing 17... Bc6 and transposing into 17... Bc6 up a tempo  (White would double rooks on the c-file followed by Be3 and f4)  .  18.Rc1  White intends to double rooks on the c-file.  18...f6   18...Qb6 ?!  This allows White to play Ba4-xc6, creating weaknesses or taking over the c-file after the exchange of rooks. 18...f6  (intending ...Kf7)  is stronger.  19.Ba4  f6   19...Bxa4  20.Rxc8+  20.Bxc6  Rxc6   20...dxc6  is a worse version because White's rook is more active than Black's rook; White can double rooks on the c-file.  21.Rxc6  dxc6   21...Qxc6  22.Rc1  gives White the c-file.  22.Bd6  ±  White has a dangerous initiative. LeelaZero at a high depth confirms that White has a significant advantage. 22... c5   22...Kf7  23.Rc1  c5  24.Bxf8  Rxf8  25.Qh4  23. Bxf8 Kxf8   23...Rxf8  24.Qh4  24. d4 ! cxd4 25. Rc1  19.Rc3  → +=  White has the initiative and will follow up with Rhc1, Be3, and f4-f5. LeelaZero at a high depth confirms that White has an advantage here  (approximately +0.3 to +0.5)  . In practice White is likely to have a bigger advantage than that, as Black has to play some accurate defensive moves to avoid a quick collapse. }
+15. Bxe5 Qxa4 16. Rd2
+{ White's advantage in the positions that follow is largely based on his initiative and the possibility of transposing into a favorable endgame due to his queenside pawn majority. The endgame is not favorable yet but Black will have to lose time defending against White's initiative. }
+16... f6
+{ Black intends to play ...Kf7. This is the recommendation given in 'Grandmaster Repertoire - The Sicilian Taimanov'.   16...h5  Black prepares to develop his rook with ...Rh6.  17.Re1  White continues development and forces Black to make a commitment with his bishop.  17...Bg6  Safest. Black secures the g7-pawn.   17...Bd5 ?  18.Bd6  White intends to play  Bxf8  where  ...Rxf8  loses a pawn to  Qxg7.   17...h4 ?!  18.Qf4  ±  White gets an improved version of the mainline because the inclusion of ...h4 and Qf4 only helped White.  18.Bd6  Qc4   The inclusion of  16...h4  and  17.Qf4  only helps White.  19.b3 !  Bxd6  20.Qxd6  Qc3  20... Qc5 leads to a typical endgame where White has the advantage due to his queenside pawn majority and active king. If Black is going to go into this endgame then he should include ...Qc3 and Kd1 because White's king wants to go to b2 in the endgame.  21.Kd1  h4   21...Qc5  22.Qxc5  Rxc5  23.b4  +=  White has a slightly better position due to his queenside pawn majroty and superior king activity. White's plan is Kc1-b2 with f4-f5.  22.Re3  Qc5  23.Qxc5  Rxc5  24.b4  Rc7  25.f4  +=  White has a slightly better endgame due to his queenside pawn majority and superior king activity. White's plan is Kc1-b2 and g4.   16...Bg6  17.Bd6  White has the initiative. }
+17. Bd6 Kf7 18. Re1 Bg6
+{ 18...Bd5  19.Bxf8  White will play Qd6 with a powerful initiative. The follow up will be Re3 with either f4-f5 or Nf5, both of which are easier to achieve with Black's bishop on d5 rather than f5.   18...Bb7 ?  Loses by force.  19.b3  Qa5  20.Bxf8  Rhxf8   20...Kxf8  21.Qd6+  21.Nxe6  dxe6  22.Rd7+  Ke8  23.Rxe6+  Kxd7  24.Qd6# }
+19. Ree2
+{ White makes a non-committal improving move that concretely prepares b3.   19.b3 ?!  Qa5  20.Bxf8  Rhxf8  21.b4  Qb6  22.Nxe6 ??  This would win if White had already played  Ree2.  22...dxe6  23.Rd7+  Ke8  24.Rd6  Rxc2+  and Black wins. This is why White should play  Ree2. }
+19... Qc4
+{ 19...e5 ?!  20.b3  Qa5  21.Qh3  ±  White will follow up with b4 and Qb3+ with a significantly better endgame.   19...Be7 ?  20.b3  Qa5  21.Bxe7  Kxe7  22.Nf5+  +-  with Qd6+.   19...h5  This is a waiting move for White to show his idea behind 19. Ree2.  20.b3 !   20.Bxf8 ?!  White releases the tension too soon. This is a sample line that I concluded was best when analyzing with LeelaZero, but it's possible that there are improvements down the line that give White an objective advantage. Even if there are, I would rather White not make an exchange that helps Black's activity unless there is a concrete reasons.  20...Rhxf8  21.Qd6  Kg8  22.f4  Kh7  23.b3   23.Qb4  probably gives White a small advantage in the endgame.  23...Qa5  24.Kb2  Qc3+  25.Ka2  Rfe8  Black will play ...e5 with sufficient counterplay.  26.Nf3  Rc5  27.Qd4  Qxd4  28.Nxd4  e5  29.b4  Rd5  30.fxe5  fxe5  31.Nb3  Rxd2  32.Rxd2  ∞  20...Qa5   20...h4 ?  21.Qf3  +-  with Qb7.  21.Bxf8  Rhxf8  22.b4  Qc7   22...Qa4 ?!  23.Kb2  White makes a flexible improving move that both secures his king in the middlegame and improves his king activity for the endgame. White can follow up with f4-f5 with a powerful initiative or a superior endgame with Qb3.   23.Qb3  also gives White the advantage.   22...Qb6 ?  23.Nxe6  White shows his idea behind 19. Ree2 and concretely targets the Black queen.  23...dxe6  24.Rd7+  Ke8  25.Rd6  White has a decisive initiative.   The most accurate win for White is  25...Qb5  26.Qxg6+  Rf7  27.Rexe6+  Kf8  28.Qh7  Qg5+  29.Re3  Qh6  30.Qxh6  gxh6  31.Rxa6  23.Nb3  Qxg3   23...e5  allows  Nc5  with  Qh3  24.hxg3  d5  25.Nc5  +=  White has a slightly better endgame due to his queenside pawn majority and superior activity. Black's central majority is restrained.   25...Rc6  26.c4  White intends to meet  ...dxc4  with  Rd4  and  Rxc4.   19...Bxd6  20.Qxd6  +=  White has the initiative and intends to pawn storm on the kingside  (f4 with g4 and f5)  . }
+20. b3 Qc3 21. Qxc3 Rxc3 22. Bxf8 Rxf8 23. f4
+{ White has a slightly better endgame due to his queenside pawn majority  (Black's central majority is more restrained)  . White's plan is Kb2 with b4 and either Nb3-c5 or g4 and f5. LeelaZero and Stockfish at depth 38-39 both agree that White is slightly better in this endgame. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bxa3"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bxa3 11. Ndxb5
+{ 11.bxa3?!  Qxc3  12.Qxg7  Ke7!  gives Black counterplay and reasonable chances in the resulting complications.   11.Ncxb5  transposes. }
+11... axb5 12. Nxb5 { White will play Nxa3 with an extra pawn. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 Nxe4"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5 Nxe4 { Sharp, but incorrect. } 12. Nxe4
+Bxe4 13. Bxd7+ Qxd7 { 13...Nxd7  14.Qxc7 } 14. Qxe5
+{ White is up a pawn for no compensation.   14...Bxg2  15.Rhe1  gives White a powerful initiative. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 h5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 h5 { Thematic and incorrect. } 11. Bf4
+{ White increases the pressure on the e5-knight. This would not be as strong if Black didn't play ...h5 because Black would be able to meet Bf4 with ...Nh5. }
+11... d6
+{ Forced.   11...Nfg4  12.f3  h4  13.Qxg4  Nxg4  14.Bxc7   12...Bd6  13.Ndxb5  axb5  14.Nxb5  followed by  Nxd6+  wins }
+12. Bxb5+
+{ White starts a tactical operation which removes the Black queen from the defense of the e5-pawn and prepares a Nc7+ fork after Qxe5.   12.Bxe5  is an acceptable alternative , but only if White intends to follow up with  Bxb5+. }
+12... Bd7 13. Bxd7+ { White is up a pawn for no compensation. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 h5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 h5
+{ A thematic move in the Taimanov, but an objective mistake. } 11. Bf4
+{ White increases the pressure on the e5-knight. This would not be as strong if Black didn't play ...h5 because Black would be able to meet Bf4 with ...Nh5. }
+11... d6
+{ Forced.   11...Nfg4  12.f3   12...Bd6  13.Ndxb5  axb5  14.Nxb5  followed by  Nxd6+  wins }
+12. Bxb5+
+{ White starts a tactical operation which removes the Black queen from the defense of the e5-pawn and prepares a Nc7+ fork after Qxe5. }
+12... axb5 13. Bxe5 { 13.Ncxb5?  Qb7!  14.Bxe5  Nxe4!  with counterplay. }
+13... dxe5 14. Ncxb5 Qc5 15. b4 h4 16. bxc5 hxg3 17. Nc6
+{ Threatening Nc7# and Rd8#. } 17... Be7 18. Nc7+ Kf8 19. hxg3
+{ 19.Nxa8  gxf2  gives Black a lot of counterplay due to White's weak pawns , although White is still better. }
+19... Rxh1 { Otherwise White will play Nxa8. } 20. Rxh1 Rxa3 21. Rh8+ Ng8 22.
+Rxg8+ Kxg8 23. Nxe7+ Kf8 24. Nxc8 { White has a winning material advantage. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 h5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 h5
+{ A thematic move in the Taimanov, but an objective mistake. } 11. Bf4
+{ White increases the pressure on the e5-knight. This would not be as strong if Black didn't play ...h5 because Black would be able to meet Bf4 with ...Nh5. }
+11... d6
+{ Forced.   11...Nfg4  12.f3   12...Bd6  13.Ndxb5  axb5  14.Nxb5  followed by  Nxd6+  wins }
+12. Bxb5+
+{ White starts a tactical operation which removes the Black queen from the defense of the e5-pawn and prepares a Nc7+ fork after Qxe5. }
+12... axb5 13. Bxe5 dxe5 14. Ncxb5 Qc5 15. b4 h4 16. bxc5 hxg3 17. Nc6
+{ Threatening Nc7# and Rd8#. } 17... Be7 18. Nc7+ Kf8 19. hxg3
+{ 19.Nxa8  gxf2  gives Black a lot of counterplay due to White's weak pawns , although White is still better. }
+19... Rxh1 { Otherwise White will play Nxa8. } 20. Rxh1 Bd7 21. Rh8+ Ng8 22.
+Rxg8+ { Nxe7 followed by Nxa8 also wins. } 22... Kxg8 23. Nxe7+ Kf8 24. Nxa8
+{ White has a winning position because he is up 3 pawns. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 h5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 h5
+{ A thematic move in the Taimanov, but an objective mistake. } 11. Bf4
+{ White increases the pressure on the e5-knight. This would not be as strong if Black didn't play ...h5 because Black would be able to meet Bf4 with ...Nh5. }
+11... d6
+{ Forced.   11...Nfg4  12.f3   12...Bd6  13.Ndxb5  axb5  14.Nxb5  followed by  Nxd6+  wins }
+12. Bxb5+
+{ White starts a tactical operation which removes the Black queen from the defense of the e5-pawn and prepares a Nc7+ fork after Qxe5. }
+12... axb5 13. Bxe5 dxe5 14. Ncxb5 Qc5 15. b4 Nxe4 16. Qh4
+{ 16. Qf3 also wins. } 16... Qb6 17. Qxe4
+{ White is up material for no compensation.   17...Bb7  18.Qxe5 } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 h5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 h5
+{ A thematic move in the Taimanov, but an objective mistake. } 11. Bf4
+{ White increases the pressure on the e5-knight. This would not be as strong if Black didn't play ...h5 because Black would be able to meet Bf4 with ...Nh5. }
+11... d6
+{ Forced.   11...Nfg4  12.f3   12...Bd6  13.Ndxb5  axb5  14.Nxb5  followed by  Nxd6+  wins }
+12. Bxb5+
+{ White starts a tactical operation which removes the Black queen from the defense of the e5-pawn and prepares a Nc7+ fork after Qxe5. }
+12... axb5 13. Bxe5 dxe5 14. Ncxb5 Qc5 15. b4 Qb6 16. Qxe5
+{ White will win the exchange with Nc7+.   Black is unable to escape with the rook:  16...Rb8  17.Nc7+  Kd7  18.Nf5+  White has a winning attack. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 h5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 h5
+{ A thematic move in the Taimanov, but an objective mistake. } 11. Bf4
+{ White increases the pressure on the e5-knight. This would not be as strong if Black didn't play ...h5 because Black would be able to meet Bf4 with ...Nh5. }
+11... d6
+{ Forced.   11...Nfg4  12.f3   12...Bd6  13.Ndxb5  axb5  14.Nxb5  followed by  Nxd6+  wins }
+12. Bxb5+
+{ White starts a tactical operation which removes the Black queen from the defense of the e5-pawn and prepares a Nc7+ fork after Qxe5. }
+12... axb5 13. Bxe5 dxe5 14. Ncxb5 Qb7 15. Qxe5
+{ White will win the exchange with Nc7+ next as Black is forced to play 15... Be7 to prevent Nc7+  (...Kd7 is met with Ndb5)  with a decisive attack. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Be7"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Be7 11. f4 Bxa3
+{ A tactical undermining which objectively doesn't work. } 12. Bd2
+{ There are other wins, but this is simplest. White secures the c3-knight and will pick up the a3-bishop or e5-knight next. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Be7"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Be7 11. f4 Neg4 12. Bg1
+{ White will play e5 with a winning attack unless Black plays ...e5 which also would give White a winning position due to his lead in development  (...e5 opens the position)  and the d5/f5 squares. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Rb8"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Rb8
+{ Too slow; Black fails to meet White's threat of f4. } 11. f4 Nc4 12. Bxc4
+bxc4 13. e5
+{ White has a decisive initiative and will follow up with Ne4 and f5. Lets continue the line to show what happens if Black tries to get counterplay against b2. }
+13... Nd5 14. Nxd5 exd5 15. Nf5
+{ White has a decisive initiative.   15...g6  allows the sacrifice  16.Nd6+  and Black's dark squares and king will be horribly weak. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Rb8"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Rb8
+{ Too slow; Black fails to meet White's threat of f4. } 11. f4 Nc4 12. Bxc4
+bxc4 13. e5
+{ White has a decisive initiative and will follow up with Ne4 and f5. Lets continue the line to show what happens if Black tries to get counterplay against b2. }
+13... Ng8 14. Ne4 { 14.f5  also gives White a winning initiative. } 14... Qb7
+15. Nd6+ Bxd6 16. Qxg7
+{ This thematic tactic is very important. White will win the exchange and Black's counterplay against b2 isn't enough. }
+16... Bc5 17. Kd2
+{ Simplest. Now ...Qxb2 will be met with Rb1 and White will win the exchange. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Rb8"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Rb8
+{ Too slow; Black fails to meet White's threat of f4. } 11. f4 Nc4 12. Bxc4
+bxc4 13. e5
+{ White has a decisive initiative and will follow up with Ne4 and f5. Lets continue the line to show what happens if Black tries to get counterplay against b2. }
+13... Ng8 14. Ne4 { 14.f5  also gives White a winning initiative. } 14... Qb7
+15. Nd6+ Bxd6 16. Qxg7
+{ This thematic tactic is very important. White will win the exchange and Black's counterplay against b2 isn't enough. }
+16... Qxb2+ 17. Kd2 Rb3 18. Nxb3
+{ White will win a second exchange with a winning position.   18...cxb3  should be met with the simple  19.Rc1   although the concrete  19.Qxh8  Qxc2+  20.Ke1  b2  21.exd6  also wins. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Rb8"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Rb8
+{ Too slow; Black fails to meet White's threat of f4. } 11. f4 Nc4 12. Bxc4
+Qxc4 13. e5 Nd5
+{ Passive alternatives still give White a decisive initiative; f5 and Ne4 are dangerous ways for White to increase his initiative. }
+14. Nxd5 Qxd5 { 14...exd5  15.f5 } 15. Nf5
+{ There are other wins here but I would like to show this line to emphasize how little counterplay Black has. }
+15... Qa2
+{ Against alternatives, White would easily win due to his lead in development, safer king, and control over the dark-squares  (which can start to be exploited with Nd6+ or Nxg7+)  . }
+16. Nd6+ Bxd6 17. Qxg7 { This tactical operation justifies 16. Nd6+. } 17...
+Rf8 18. exd6 { Black is getting crushed. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Rb8"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Rb8
+{ Too slow; Black fails to meet White's threat of f4. } 11. f4 Neg4 12. Bg1 b4
+{ Black's only attempt to obtain counterplay. Unfortunately for him, ...b4 does not drive away White's c3-knight to target the e4-pawn like it would if White had not yet played a3. }
+13. axb4 Rxb4 14. e5 { White will win one of the Black knights. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Rb8"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Rb8
+{ Too slow; Black fails to meet White's threat of f4. } 11. f4 Neg4 12. Bg1 b4
+{ Black's only attempt to obtain counterplay. Unfortunately for him, ...b4 does not drive away White's c3-knight to target the e4-pawn like it would if White had not yet played a3. }
+13. axb4 Bxb4 14. Na2
+{ Black's only counterplay involved ...Bxc3, so White removes the target. White intends to play e5 next  (with a decisive initiative and winning the g4-knight)  , so Black is obliged to sacrifice.   14.e5?  Bxc3  gives Black a dangerous counterattack. }
+14... Nxe4 15. Qxg4 { White is up a knight for insufficient compensation. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Rb8"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Rb8
+{ Too slow; Black fails to meet White's threat of f4. } 11. f4 Neg4 12. Bg1 b4
+{ Black's only attempt to obtain counterplay. Unfortunately for him, ...b4 does not drive away White's c3-knight to target the e4-pawn like it would if White had not yet played a3. }
+13. axb4 Bxb4 14. Na2
+{ Black's only counterplay involved ...Bxc3, so White removes the target. White intends to play e5 next  (with a decisive initiative and winning the g4-knight)  , so Black is obliged to sacrifice. }
+14... d6 { Black tries to prevent e5. This fails for tactical reasons. } 15. h3
+{ The simplest solution, although e5 also wins because ...dxe5 is met with fxe5 where ...Qxe5 loses to Nc6.   15...Nxe4  16.Qxg4   15...Nh6  16.Qxg7 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Rb8"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Rb8
+{ Too slow; Black fails to meet White's threat of f4. } 11. f4 Neg4 12. Bg1 b4
+{ Black's only attempt to obtain counterplay. Unfortunately for him, ...b4 does not drive away White's c3-knight to target the e4-pawn like it would if White had not yet played a3. }
+13. axb4 Bxb4 14. Na2
+{ Black's only counterplay involved ...Bxc3, so White removes the target. White intends to play e5 next  (with a decisive initiative and winning the g4-knight)  , so Black is obliged to sacrifice. }
+14... Bd6 15. e5 Nxe5 16. fxe5 Bxe5 17. Qc3
+{ Black's two pawns are not sufficient compensation for the sacrificed knight, especially since White is better developed and therefore is better prepared to use the open files. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 axb5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5
+{ Note that  11.Ndxb5  axb5  12.Nxb5  Qb8  13.Bb6  isn't as strong because of  13...Nxe4 !  This resource would not be possible if White still had a knight on  c3.  14.Qe3  Bxa3 !  15.bxa3  Ng4 !  and Black has sufficient counterplay in these complications. }
+11... axb5 12. Ndxb5 { Tempting, but losing. } 12... Qb8 13. Bb6
+{ Black has no other square which defends his e5-knight. } 13... Nc4 14. Bc7
+{ White was threatening Bc7  (or Nc7+)  followed by Qxe5.   14.Nc7+  also gives White a winning advantage. }
+14... Qc8 15. Rd4 { White will play Nd6+ with a decisive initiative. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 h5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5 h5
+{ Too slow, Black should prefer 11...Rc8. } 12. Bf4 Bd6
+{ 12...h4  13.Bxe5  hxg3  14.Bxc7 } 13. Nxe6 fxe6 14. Rxd6 Qxd6 15. Bxe5 Qe7
+16. Bd6 Qf7 17. Bd3
+{ White has a decisive initiative without having invested material. White will attack on the weak dark-squares  (Qe3-b6, possibly Na4-c5)  and either secure his center   f3  or advance it  (f4 and e5) }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 Bxa3"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5
+{ Note that  11.Ndxb5  axb5  12.Nxb5  Qb8  13.Bb6  isn't as strong because of  13...Nxe4 !  This resource would not be possible if White still had a knight on  c3.  14.Qe3  Bxa3 !  15.bxa3  Ng4 !  and Black has sufficient counterplay in these complications. }
+11... Bxa3 12. Bf4
+{ Black tactically undermines the c3-knight. Objectively this move is inaccurate as the following complications favor White.   Forced.   12.bxa3 ?  Qxc3  gives Black a winning initiative.   12.Bc6 ?!  holds the balance for concrete reasons , but I'd rather obtain an advantage. }
+12... Nh5 13. Bxe5 Nxg3 14. Bxc7 Nxh1 15. Rxh1 axb5 16. bxa3
+{ White has a decisive material advantage. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 Bxa3"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5
+{ Note that  11.Ndxb5  axb5  12.Nxb5  Qb8  13.Bb6  isn't as strong because of  13...Nxe4 !  This resource would not be possible if White still had a knight on  c3.  14.Qe3  Bxa3 !  15.bxa3  Ng4 !  and Black has sufficient counterplay in these complications. }
+11... Bxa3 12. Bf4
+{ Black tactically undermines the c3-knight. Objectively this move is inaccurate as the following complications favor White.   Forced.   12.bxa3 ?  Qxc3  gives Black a winning initiative.   12.Bc6 ?!  holds the balance for concrete reasons , but I'd rather obtain an advantage. }
+12... Nh5 13. Bxe5 Nxg3 14. Bxc7 Nxh1 15. Rxh1 Rc8 16. bxa3 Rxc7 17. Kd2 axb5
+{ 17...Rxc3  18.Kxc3  is another endgame where White will be up a pawn. } 18.
+Ncxb5
+{ White wins the exchange back and will be up a pawn.   18...Rc5 ?  19.Nd6+  White will play  Nxb7  with a decisive material advantage. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 Bxa3"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5
+{ Note that  11.Ndxb5  axb5  12.Nxb5  Qb8  13.Bb6  isn't as strong because of  13...Nxe4 !  This resource would not be possible if White still had a knight on  c3.  14.Qe3  Bxa3 !  15.bxa3  Ng4 !  and Black has sufficient counterplay in these complications. }
+11... Bxa3 12. Bf4
+{ Black tactically undermines the c3-knight. Objectively this move is inaccurate as the following complications favor White.   Forced.   12.bxa3 ?  Qxc3  gives Black a winning initiative.   12.Bc6 ?!  holds the balance for concrete reasons , but I'd rather obtain an advantage. }
+12... Bd6 13. Nxe6
+{ 13.Qxg7  also seems to favor White , but Black gets a lot of counterplay in the complications that follow after  13...Ke7 !  , for example  14.Nf5+  exf5  15.Bg5  Ng4  16.e5  Bxe5  17.Rxd7+  Qxd7  18.Bxd7  Rhg8  19.Bxf6+  Nxf6  20.Qh6  Kxd7  White is up material , but Black has a lot of activity. }
+13... fxe6 14. Rxd6 Qxd6 15. Bxe5 Qe7 16. Bd6 Qf7 17. Bd3
+{ White has a pawn, the bishop pair, superior activity, and dark-square domination in exchange for the exchange. Black can't even castle; objective White's initiative is decisive. White has lots of ways of exploiting his advantage but it seems simplest to include the h1-rook in the game  (Re1 or Rd1)  , secure the center   f3  , and invade on the queenside  (Qe3 or Qf2 with Qb6, possibly Na4-c5)  . White also has the possibility of playing for f4 and e5. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 Rc8 with 12...Bxa3"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5
+{ Note that  11.Ndxb5  axb5  12.Nxb5  Qb8  13.Bb6  isn't as strong because of  13...Nxe4 !  This resource would not be possible if White still had a knight on  c3.  14.Qe3  Bxa3 !  15.bxa3  Ng4 !  and Black has sufficient counterplay in these complications. }
+11... Rc8 12. Ba4 Bxa3 13. Nde2 Be7 { Otherwise 14.bxa3 or 14.Qxg7 would win. }
+14. Bd4 Nc6 15. Qxc7 { 15.e5  is an unclear alternative. } 15... Rxc7 16. Be3
+{ White has a better position due to his superior pawn structure and piece activity. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 Rc8 with 14...Qc4 alternative"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5
+{ Note that  11.Ndxb5  axb5  12.Nxb5  Qb8  13.Bb6  isn't as strong because of  13...Nxe4 !  This resource would not be possible if White still had a knight on  c3.  14.Qe3  Bxa3 !  15.bxa3  Ng4 !  and Black has sufficient counterplay in these complications. }
+11... Rc8 12. Ba4 Nxe4 13. Nxe4 Bxe4 14. Bf4 Qc4
+{ The main line, and objectively inaccurate due to a novelty. } 15. Bxe5 Qxa4
+16. Rd2
+{ White has transposed into 14... Qa5. I don't recommend this variation because White can get more with 14... Qa5, but for those of you who want to cut down on the number of variations you have to learn, I'm marking this as an alternative. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 Rc8 with 14...Qc4"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5
+{ Note that  11.Ndxb5  axb5  12.Nxb5  Qb8  13.Bb6  isn't as strong because of  13...Nxe4 !  This resource would not be possible if White still had a knight on  c3.  14.Qe3  Bxa3 !  15.bxa3  Ng4 !  and Black has sufficient counterplay in these complications. }
+11... Rc8 12. Ba4 Nxe4 13. Nxe4 Bxe4 14. Bf4 Qc4
+{ The main line, and objectively inaccurate due to a novelty. } 15. Bb3
+{ 15.Bxe5  Qxa4  would transpose into  14...Qa5 !  and would fail to punish Black's move order. }
+15... Nd3+ { Otherwise White would play Bxe5. } 16. Kb1 Qxd4 17. cxd3 Bg6 18.
+Rc1
+{ This pawn sacrifice gives White a significant advantage because in the resulting endgame White will be able to win back the pawn by force  (either d7 or a6)  and White's queenside passed pawns will be more dangerous than Black's central pawns.   A sample variation could run  18...Rxc1+  19.Rxc1  Qxd3+  20.Qxd3  Bxd3+  21.Ka2  Be7  22.Bc4!  Bxc4  23.Rxc4  O-O  24.Rc7  Bf6   24...Rd8  25.Ra7  25.Rxd7  White has a significant advantage because of his dangerous queenside pawn majority and more active king }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 Rc8 with 14...Qc4"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5
+{ Note that  11.Ndxb5  axb5  12.Nxb5  Qb8  13.Bb6  isn't as strong because of  13...Nxe4 !  This resource would not be possible if White still had a knight on  c3.  14.Qe3  Bxa3 !  15.bxa3  Ng4 !  and Black has sufficient counterplay in these complications. }
+11... Rc8 12. Ba4 Nxe4 13. Nxe4 Bxe4 14. Bf4 Qc4
+{ The main line, and objectively inaccurate due to a novelty. } 15. Bb3
+{ 15.Bxe5  Qxa4  would transpose into  14...Qa5 !  and would fail to punish Black's move order. }
+15... Nd3+ { Otherwise White would play Bxe5. } 16. Kb1 Qxd4 17. cxd3 Bf5 18.
+Rc1
+{ The slow  18.Ka2  intending  Rc1  and  Be5  gives White a significant advantage , but White wouldn't be able to get away with this against  17...Bg6  so I would rather recommend this most thematic continuation , transposing into  17...Bg6. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 Rc8 with 14...Qc4"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5
+{ Note that  11.Ndxb5  axb5  12.Nxb5  Qb8  13.Bb6  isn't as strong because of  13...Nxe4 !  This resource would not be possible if White still had a knight on  c3.  14.Qe3  Bxa3 !  15.bxa3  Ng4 !  and Black has sufficient counterplay in these complications. }
+11... Rc8 12. Ba4 Nxe4 13. Nxe4 Bxe4 14. Bf4 Qc4
+{ The main line, and objectively inaccurate due to a novelty. } 15. Bb3
+{ 15.Bxe5  Qxa4  would transpose into  14...Qa5 !  and would fail to punish Black's move order. }
+15... Nd3+ { Otherwise White would play Bxe5. } 16. Kb1 Qxd4 17. cxd3 Bd5 18.
+Be3 { White wins the Black queen or gets a decisive attack. } 18... Qf6
+{ Forced. } 19. Bxd5 exd5 20. Rhe1
+{ White has a decisive attack and will probably win the Black queen.   20...Be7  21.Bg5 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 Rc8 with 14...Qc4"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5
+{ Note that  11.Ndxb5  axb5  12.Nxb5  Qb8  13.Bb6  isn't as strong because of  13...Nxe4 !  This resource would not be possible if White still had a knight on  c3.  14.Qe3  Bxa3 !  15.bxa3  Ng4 !  and Black has sufficient counterplay in these complications. }
+11... Rc8 12. Ba4 Nxe4 13. Nxe4 Bxe4 14. Bf4 Qc4
+{ The main line, and objectively inaccurate due to a novelty. } 15. Bb3
+{ 15.Bxe5  Qxa4  would transpose into  14...Qa5 !  and would fail to punish Black's move order. }
+15... Nd3+ { Otherwise White would play Bxe5. } 16. Kb1 Qxd4 17. cxd3 Bb7 18.
+Rc1
+{ Due to White's control over the c-file, Black has nothing better than playing 17... Bc6 and transposing into 17... Bc6 up a tempo  (White would double rooks on the c-file followed by Be3 and f4)  . }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 Rc8 with 14...Qc4"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5
+{ Note that  11.Ndxb5  axb5  12.Nxb5  Qb8  13.Bb6  isn't as strong because of  13...Nxe4 !  This resource would not be possible if White still had a knight on  c3.  14.Qe3  Bxa3 !  15.bxa3  Ng4 !  and Black has sufficient counterplay in these complications. }
+11... Rc8 12. Ba4 Nxe4 13. Nxe4 Bxe4 14. Bf4 Qc4
+{ The main line, and objectively inaccurate due to a novelty. } 15. Bb3
+{ 15.Bxe5  Qxa4  would transpose into  14...Qa5 !  and would fail to punish Black's move order. }
+15... Nd3+ { Otherwise White would play Bxe5. } 16. Kb1 Qxd4 17. cxd3 Bc6
+{ The most resilient move. } 18. Rc1
+{ White intends to double rooks on the c-file. } 18... Qb6 19. Ba4
+{ This allows White to play Ba4-xc6, creating weaknesses or taking over the c-file after the exchange of rooks. 18... f6  (intending ...Kf7)  is stronger. }
+19... f6 { 19...Bxa4  20.Rxc8+ } 20. Bxc6 Rxc6 21. Rxc6
+{ 20...dxc6  is a worse version because White's rook is more active than Black's rook; White can double rooks on the c-file. }
+21... dxc6 { 21...Qxc6  22.Rc1  gives White the c-file. } 22. Bd6
+{ White has a dangerous initiative. LeelaZero at a high depth confirms that White has a significant advantage.   22...c5  23.Bxf8  Kxf8   23...Rxf8  24.Qh4  24.d4 !  cxd4  25.Rc1   22...Kf7  23.Rc1  c5  24.Bxf8  Rxf8  25.Qh4 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 Rc8 with 14...Qc4"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5
+{ Note that  11.Ndxb5  axb5  12.Nxb5  Qb8  13.Bb6  isn't as strong because of  13...Nxe4 !  This resource would not be possible if White still had a knight on  c3.  14.Qe3  Bxa3 !  15.bxa3  Ng4 !  and Black has sufficient counterplay in these complications. }
+11... Rc8 12. Ba4 Nxe4 13. Nxe4 Bxe4 14. Bf4 Qc4
+{ The main line, and objectively inaccurate due to a novelty. } 15. Bb3
+{ 15.Bxe5  Qxa4  would transpose into  14...Qa5 !  and would fail to punish Black's move order. }
+15... Nd3+ { Otherwise White would play Bxe5. } 16. Kb1 Qxd4 17. cxd3 Bc6
+{ The most resilient move. } 18. Rc1
+{ White intends to double rooks on the c-file. } 18... f6 19. Rc3
+{ White has the initiative and will follow up with Rhc1, Be3, and f4-f5. LeelaZero at a high depth confirms that White has an advantage here  (approximately +0.3 to +0.5)  . In practice, White is likely to have a bigger advantage than that, as Black has to play some accurate defensive moves to avoid a quick collapse.   19...Bxa3?  20.Qxg7 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 Rc8 with 14...Qa5! and 16...Qc4"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5 Rc8 12. Ba4 Nxe4 13. Nxe4 Bxe4 14. Bf4
+Qa5 15. Bxe5 Qxa4 16. Rd2 Qc4 { An unsound and sharp novelty. } 17. Re1 Bg6 18.
+Re3 { White threatens Rc3. } 18... Qa2
+{ Otherwise Black won't be able to obtain serious counterplay. } 19. Nb3 Bxa3
+20. Bxg7 { 20.bxa3  Bxc2  wins for Black } 20... Rg8 21. Bf6 Bb4 22. Bc3
+{ Black has weak dark-squares and a bad bishop and can't avoid the exchange of dark-squared bishops  (...Be7 allows Rd4 with a powerful initiative)  , Black's king is is more danger than White's and all of the endgames favor White. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 Rc8 with 14...Qa5! and 16...h5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5
+{ Note that  11.Ndxb5  axb5  12.Nxb5  Qb8  13.Bb6  isn't as strong because of  13...Nxe4 !  This resource would not be possible if White still had a knight on  c3.  14.Qe3  Bxa3 !  15.bxa3  Ng4 !  and Black has sufficient counterplay in these complications. }
+11... Rc8 12. Ba4 Nxe4 13. Nxe4 Bxe4 14. Bf4 Qa5 15. Bxe5 Qxa4 16. Rd2
+{ White's advantage in the positions that follow is largely based on his initiative and the possibility of transposing into a favorable endgame due to his queenside pawn majority. The endgame is not favorable yet but Black will have to lose time defending against White's initiative. }
+16... h5 17. Re1
+{ Black prepares to develop his rook with ...Rh6.   White continues development and forces Black to make a commitment with his bishop. }
+17... h4 18. Qf4
+{ White gets an improved version of the mainline because the inclusion of ...h4 and Qf4 only helped White.   18...Bxg2?  19.Nxe6! }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 Rc8 with 14...Qa5! and 16...h5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5
+{ Note that  11.Ndxb5  axb5  12.Nxb5  Qb8  13.Bb6  isn't as strong because of  13...Nxe4 !  This resource would not be possible if White still had a knight on  c3.  14.Qe3  Bxa3 !  15.bxa3  Ng4 !  and Black has sufficient counterplay in these complications. }
+11... Rc8 12. Ba4 Nxe4 13. Nxe4 Bxe4 14. Bf4 Qa5 15. Bxe5 Qxa4 16. Rd2
+{ White's advantage in the positions that follow is largely based on his initiative and the possibility of transposing into a favorable endgame due to his queenside pawn majority. The endgame is not favorable yet but Black will have to lose time defending against White's initiative. }
+16... h5 17. Re1
+{ Black prepares to develop his rook with ...Rh6.   White continues development and forces Black to make a commitment with his bishop. }
+17... Bg6
+{ Safest. Black secures the g7-pawn.   17...Bd5 ?  18.Bd6  White intends to play  Bxf8  where  ...Rxf8  loses a pawn to  Qxg7. }
+18. Bd6 Qc4 19. b3
+{ The inclusion of  16...h4  and  17.Qf4  only helps White. } 19... Bxd6 20.
+Qxd6 Qc3 21. Kd1
+{ 20... Qc5 leads to a typical endgame where White has the advantage due to his queenside pawn majority and active king. If Black is going to go into this endgame then he should include ...Qc3 and Kd1 because White's king wants to go to b2 in the endgame. }
+21... Qc5 22. Qxc5 Rxc5 23. b4
+{ White has a slightly better position due to his queenside pawn majroty and superior king activity. White's plan is Kc1-b2 with f4-f5. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 Rc8 with 14...Qa5! and 16...h5"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5
+{ Note that  11.Ndxb5  axb5  12.Nxb5  Qb8  13.Bb6  isn't as strong because of  13...Nxe4 !  This resource would not be possible if White still had a knight on  c3.  14.Qe3  Bxa3 !  15.bxa3  Ng4 !  and Black has sufficient counterplay in these complications. }
+11... Rc8 12. Ba4 Nxe4 13. Nxe4 Bxe4 14. Bf4 Qa5 15. Bxe5 Qxa4 16. Rd2
+{ White's advantage in the positions that follow is largely based on his initiative and the possibility of transposing into a favorable endgame due to his queenside pawn majority. The endgame is not favorable yet but Black will have to lose time defending against White's initiative. }
+16... h5 17. Re1
+{ Black prepares to develop his rook with ...Rh6.   White continues development and forces Black to make a commitment with his bishop. }
+17... Bg6 18. Bd6
+{ Safest. Black secures the g7-pawn.   17...Bd5 ?  18.Bd6  White intends to play  Bxf8  where  ...Rxf8  loses a pawn to  Qxg7. }
+18... Qc4 19. b3 { The inclusion of  16...h4  and  17.Qf4  only helps White. }
+19... Bxd6 20. Qxd6 Qc3 21. Kd1
+{ 20... Qc5 leads to a typical endgame where White has the advantage due to his queenside pawn majority and active king. If Black is going to go into this endgame then he should include ...Qc3 and Kd1 because White's king wants to go to b2 in the endgame. }
+21... h4 22. Re3 Qc5 23. Qxc5 Rxc5 24. b4 Rc7 25. f4
+{ White has a slightly better endgame due to his queenside pawn majority and superior king activity. White's plan is Kc1-b2 and g4. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 Rc8 with 14...Qa5! and 16...Bg6"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5
+{ Note that  11.Ndxb5  axb5  12.Nxb5  Qb8  13.Bb6  isn't as strong because of  13...Nxe4 !  This resource would not be possible if White still had a knight on  c3.  14.Qe3  Bxa3 !  15.bxa3  Ng4 !  and Black has sufficient counterplay in these complications. }
+11... Rc8 12. Ba4 Nxe4 13. Nxe4 Bxe4 14. Bf4 Qa5 15. Bxe5 Qxa4 16. Rd2
+{ White's advantage in the positions that follow is largely based on his initiative and the possibility of transposing into a favorable endgame due to his queenside pawn majority. The endgame is not favorable yet but Black will have to lose time defending against White's initiative. }
+16... Bg6
+{ 16...Bb4?  17.Qxg7   17.Re2  also favors White  (gives White a significant advantage. If Black had already played ...Bg6, Qxg7 would not be possible.) }
+17. Bd6 { 17.Re1?!  Bb4   17...Bc5  is also strong  18.Bxg7  Bxd2+  =+ } 17...
+h5 18. Bxf8
+{ 18.Re1  is also strong. A likely continuation is  18...Qc4   18...h4  19.Qf4  also favors White.  19.b3  Bxd6  20.Qxd6  Qc3  21.Kd1  Qc5  22.Qxc5  with a slightly better endgame. }
+18... Kxf8 19. Qd6+ Kg8 20. Qb4 Qxb4 21. axb4
+{ White is slightly better in this endgame due to his queenside pawn majority and superior minor piece. White's plan is to activate his rook  (Re1-e3)  and target the g6-bishop  (f4-f5)  . }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 Rc8 with 14...Qa5! and 16...Bg6"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5
+{ Note that  11.Ndxb5  axb5  12.Nxb5  Qb8  13.Bb6  isn't as strong because of  13...Nxe4 !  This resource would not be possible if White still had a knight on  c3.  14.Qe3  Bxa3 !  15.bxa3  Ng4 !  and Black has sufficient counterplay in these complications. }
+11... Rc8 12. Ba4 Nxe4 13. Nxe4 Bxe4 14. Bf4 Qa5 15. Bxe5 Qxa4 16. Rd2
+{ White's advantage in the positions that follow is largely based on his initiative and the possibility of transposing into a favorable endgame due to his queenside pawn majority. The endgame is not favorable yet but Black will have to lose time defending against White's initiative. }
+16... Bg6 17. Bd6 Qc4 18. Bxf8
+{ 18.b3?  Bxd6!  19.Qxd6  Qc3  is too dangerous for White. } 18... Kxf8 19. b3
+{ 19.Qd6  is inaccurate because after  19...Kg8  White should not play  20.b3?   20.Qb4?  Qa2   20.Kb1  is best with a slight advantage  due to  20...Qc3  with a decisive attack. }
+19... Qc5 20. Kb2
+{ White has the initiative and all endgames favor White due to his queenside pawn majority and active king.   A sample continuation could be  20...h5  21.c4  h4  22.Qe3  Rh5  23.Rc1  Qc7  24.Nf3  and Black isn't off the hook due to White's dangerous queenside passed pawns. Perhaps with careful play Black can limit White's advantage , but White is definitely pressing. Leela thinks that  24...d5  25.c5  Be4  26.b4  e5  is critical , and probably best is  27.Qe2  Qb7  28.Ne1  += with ideas of targeting Black's d5-pawn  (Rcd1 with f3)  (where ...Bg6 can be met with f4 and Nd3. This continuation is not forced, White has alternatives that also fight for an advantage.) }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 Rc8 with 14...Qa5! and 16...f6"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5
+{ Note that  11.Ndxb5  axb5  12.Nxb5  Qb8  13.Bb6  isn't as strong because of  13...Nxe4 !  This resource would not be possible if White still had a knight on  c3.  14.Qe3  Bxa3 !  15.bxa3  Ng4 !  and Black has sufficient counterplay in these complications. }
+11... Rc8 12. Ba4 Nxe4 13. Nxe4 Bxe4 14. Bf4 Qa5 15. Bxe5 Qxa4 16. Rd2
+{ White's advantage in the positions that follow is largely based on his initiative and the possibility of transposing into a favorable endgame due to his queenside pawn majority. The endgame is not favorable yet but Black will have to lose time defending against White's initiative. }
+16... f6
+{ Black intends to play ...Kf7. This is the recommendation given in 'Grandmaster Repertoire - The Sicilian Taimanov'. }
+17. Bd6 Kf7 18. Re1
+{ The inclusion of  18.b3  and  18...Qa5  only favors Black. } 18... Bd5 19.
+Bxf8
+{ White will play Qd6 with a powerful initiative. The follow up will be Re3 with either f4-f5 or Nf5, both of which are easier to achieve with Black's bishop on d5 rather than f5. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 Rc8 with 14...Qa5! and 16...f6"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5
+{ Note that  11.Ndxb5  axb5  12.Nxb5  Qb8  13.Bb6  isn't as strong because of  13...Nxe4 !  This resource would not be possible if White still had a knight on  c3.  14.Qe3  Bxa3 !  15.bxa3  Ng4 !  and Black has sufficient counterplay in these complications. }
+11... Rc8 12. Ba4 Nxe4 13. Nxe4 Bxe4 14. Bf4 Qa5 15. Bxe5 Qxa4 16. Rd2
+{ White's advantage in the positions that follow is largely based on his initiative and the possibility of transposing into a favorable endgame due to his queenside pawn majority. The endgame is not favorable yet but Black will have to lose time defending against White's initiative. }
+16... f6
+{ Black intends to play ...Kf7. This is the recommendation given in 'Grandmaster Repertoire - The Sicilian Taimanov'. }
+17. Bd6 Kf7 18. Re1 Bb7 { Loses by force. } 19. b3
+{ Note that White plays b3 before Bxf8 in order to prevent ...Qxa3+. } 19...
+Qa5 20. Bxf8 Rhxf8 { 20...Kxf8  21.Qd6+ } 21. Nxe6
+{ This would not be possible with the Black bishop on g6 because ...Qxa3+ would be played as Black could meet Kb1 with ...Qxb3+ due to the pin. }
+21... dxe6 { 21...Qxa3+  22.Kb1  dxe6  23.Rd7+  Ke8  24.Rxb7 } 22. Rd7+ Ke8 23.
+Rxe6+ Kxd7 24. Qd6# *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 Rc8 with 14...Qa5! and 16...f6"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5
+{ Note that  11.Ndxb5  axb5  12.Nxb5  Qb8  13.Bb6  isn't as strong because of  13...Nxe4 !  This resource would not be possible if White still had a knight on  c3.  14.Qe3  Bxa3 !  15.bxa3  Ng4 !  and Black has sufficient counterplay in these complications. }
+11... Rc8 12. Ba4 Nxe4 13. Nxe4 Bxe4 14. Bf4 Qa5 15. Bxe5 Qxa4 16. Rd2
+{ White's advantage in the positions that follow is largely based on his initiative and the possibility of transposing into a favorable endgame due to his queenside pawn majority. The endgame is not favorable yet but Black will have to lose time defending against White's initiative. }
+16... f6
+{ Black intends to play ...Kf7. This is the recommendation given in 'Grandmaster Repertoire - The Sicilian Taimanov'. }
+17. Bd6 Kf7 18. Re1 Bg6 19. Ree2
+{ White makes a non-committal improving move that concretely prepares b3.   19.b3 ?!  Qa5  20.Bxf8  Rhxf8  21.b4  Qb6  22.Nxe6 ??  This would win if White had already played  Ree2.  22...dxe6  23.Rd7+  Ke8  24.Rd6  Rxc2+  Black will play  ...Qxf2  with a winning position. This is why White should play  Ree2. }
+19... e5 20. b3 Qa5 21. Qh3
+{ White will follow up with b4 and Qb3+ with a significantly better endgame that White later won in Maxime Vachier-Lagrave vs. Pentala Harikrishna. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 Rc8 with 14...Qa5! and 16...f6"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5
+{ Note that  11.Ndxb5  axb5  12.Nxb5  Qb8  13.Bb6  isn't as strong because of  13...Nxe4 !  This resource would not be possible if White still had a knight on  c3.  14.Qe3  Bxa3 !  15.bxa3  Ng4 !  and Black has sufficient counterplay in these complications. }
+11... Rc8 12. Ba4 Nxe4 13. Nxe4 Bxe4 14. Bf4 Qa5 15. Bxe5 Qxa4 16. Rd2
+{ White's advantage in the positions that follow is largely based on his initiative and the possibility of transposing into a favorable endgame due to his queenside pawn majority. The endgame is not favorable yet but Black will have to lose time defending against White's initiative. }
+16... f6
+{ Black intends to play ...Kf7. This is the recommendation given in 'Grandmaster Repertoire - The Sicilian Taimanov'. }
+17. Bd6 Kf7 18. Re1 Bg6 19. Ree2
+{ White makes a non-committal improving move that concretely prepares b3.   19.b3 ?!  Qa5  20.Bxf8  Rhxf8  21.b4  Qb6  22.Nxe6 ??  This would win if White had already played  Ree2.  22...dxe6  23.Rd7+  Ke8  24.Rd6  Rxc2+  and Black wins. This is why White should play  Ree2. }
+19... Be7 20. b3 Qa5 21. Bxe7 Kxe7 22. Nf5+
+{ with Qd6+.   the typical  22.b4  gives White the advantage , but White should not miss the chance to win with a tactic. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 Rc8 with 14...Qa5! and 16...f6: why not 20.Bxf8?"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5
+{ Note that  11.Ndxb5  axb5  12.Nxb5  Qb8  13.Bb6  isn't as strong because of  13...Nxe4 !  This resource would not be possible if White still had a knight on  c3.  14.Qe3  Bxa3 !  15.bxa3  Ng4 !  and Black has sufficient counterplay in these complications. }
+11... Rc8 12. Ba4 Nxe4 13. Nxe4 Bxe4 14. Bf4 Qa5 15. Bxe5 Qxa4 16. Rd2
+{ White's advantage in the positions that follow is largely based on his initiative and the possibility of transposing into a favorable endgame due to his queenside pawn majority. The endgame is not favorable yet but Black will have to lose time defending against White's initiative. }
+16... f6
+{ Black intends to play ...Kf7. This is the recommendation given in 'Grandmaster Repertoire - The Sicilian Taimanov'. }
+17. Bd6 Kf7 18. Re1 Bg6 19. Ree2
+{ White makes a non-committal improving move that concretely prepares b3.   19.b3 ?!  Qa5  20.Bxf8  Rhxf8  21.b4  Qb6  22.Nxe6 ??  This would win if White had already played  Ree2.  22...dxe6  23.Rd7+  Ke8  24.Rd6  Rxc2+  and Black wins. This is why White should play  Ree2. }
+19... h5 20. Bxf8
+{ This is a waiting move for White to show his idea behind 19. Ree2.   White releases the tension too soon. This is a sample line that I concluded was best when analyzing with LeelaZero, but it's possible that there are improvements down the line that give White an objective advantage. Even if there are, I would rather White not make an exchange that helps Black's activity unless there is a concrete reasons. }
+20... Rhxf8 21. Qd6 Kg8 22. f4 Kh7 23. b3
+{ 23.Qb4  probably gives White a small advantage in the endgame. } 23... Qa5
+24. Kb2 Qc3+ 25. Ka2 Rfe8 26. Nf3
+{ Black will play ...e5 with sufficient counterplay. } 26... Rc5 27. Qd4 Qxd4
+28. Nxd4 e5 29. b4 Rd5 30. fxe5 fxe5 31. Nb3 Rxd2 32. Rxd2 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 Rc8 with 14...Qa5! and 16...f6"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5
+{ Note that  11.Ndxb5  axb5  12.Nxb5  Qb8  13.Bb6  isn't as strong because of  13...Nxe4 !  This resource would not be possible if White still had a knight on  c3.  14.Qe3  Bxa3 !  15.bxa3  Ng4 !  and Black has sufficient counterplay in these complications. }
+11... Rc8 12. Ba4 Nxe4 13. Nxe4 Bxe4 14. Bf4 Qa5 15. Bxe5 Qxa4 16. Rd2
+{ White's advantage in the positions that follow is largely based on his initiative and the possibility of transposing into a favorable endgame due to his queenside pawn majority. The endgame is not favorable yet but Black will have to lose time defending against White's initiative. }
+16... f6
+{ Black intends to play ...Kf7. This is the recommendation given in 'Grandmaster Repertoire - The Sicilian Taimanov'. }
+17. Bd6 Kf7 18. Re1 Bg6 19. Ree2
+{ White makes a non-committal improving move that concretely prepares b3.   19.b3 ?!  Qa5  20.Bxf8  Rhxf8  21.b4  Qb6  22.Nxe6 ??  This would win if White had already played  Ree2.  22...dxe6  23.Rd7+  Ke8  24.Rd6  Rxc2+  and Black wins. This is why White should play  Ree2. }
+19... h5 20. b3
+{ This is a waiting move for White to show his idea behind 19. Ree2. } 20... h4
+21. Qf3 { with Qb7. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 Rc8 with 14...Qa5! and 16...f6"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5
+{ Note that  11.Ndxb5  axb5  12.Nxb5  Qb8  13.Bb6  isn't as strong because of  13...Nxe4 !  This resource would not be possible if White still had a knight on  c3.  14.Qe3  Bxa3 !  15.bxa3  Ng4 !  and Black has sufficient counterplay in these complications. }
+11... Rc8 12. Ba4 Nxe4 13. Nxe4 Bxe4 14. Bf4 Qa5 15. Bxe5 Qxa4 16. Rd2
+{ White's advantage in the positions that follow is largely based on his initiative and the possibility of transposing into a favorable endgame due to his queenside pawn majority. The endgame is not favorable yet but Black will have to lose time defending against White's initiative. }
+16... f6
+{ Black intends to play ...Kf7. This is the recommendation given in 'Grandmaster Repertoire - The Sicilian Taimanov'. }
+17. Bd6 Kf7 18. Re1 Bg6 19. Ree2
+{ White makes a non-committal improving move that concretely prepares b3.   19.b3 ?!  Qa5  20.Bxf8  Rhxf8  21.b4  Qb6  22.Nxe6 ??  This would win if White had already played  Ree2.  22...dxe6  23.Rd7+  Ke8  24.Rd6  Rxc2+  and Black wins. This is why White should play  Ree2. }
+19... h5 { This is a waiting move for White to show his idea behind 19. Ree2. }
+20. b3 Qa5 21. Bxf8 { 21.b4?  Bxd6!  22.Qxd6  Qxa3+  -+ } 21... Rhxf8 22. b4
+Qa4 23. Kb2
+{ White makes a flexible improving move that both secures his king in the middlegame and improves his king activity for the endgame. White can follow up with f4-f5 with a powerful initiative or a superior endgame with Qb3.   23.Qb3  also gives White the advantage. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 Rc8 with 14...Qa5! and 16...f6"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5
+{ Note that  11.Ndxb5  axb5  12.Nxb5  Qb8  13.Bb6  isn't as strong because of  13...Nxe4 !  This resource would not be possible if White still had a knight on  c3.  14.Qe3  Bxa3 !  15.bxa3  Ng4 !  and Black has sufficient counterplay in these complications. }
+11... Rc8 12. Ba4 Nxe4 13. Nxe4 Bxe4 14. Bf4 Qa5 15. Bxe5 Qxa4 16. Rd2
+{ White's advantage in the positions that follow is largely based on his initiative and the possibility of transposing into a favorable endgame due to his queenside pawn majority. The endgame is not favorable yet but Black will have to lose time defending against White's initiative. }
+16... f6
+{ Black intends to play ...Kf7. This is the recommendation given in 'Grandmaster Repertoire - The Sicilian Taimanov'. }
+17. Bd6 Kf7 18. Re1 Bg6 19. Ree2
+{ White makes a non-committal improving move that concretely prepares b3.   19.b3 ?!  Qa5  20.Bxf8  Rhxf8  21.b4  Qb6  22.Nxe6 ??  This would win if White had already played  Ree2.  22...dxe6  23.Rd7+  Ke8  24.Rd6  Rxc2+  and Black wins. This is why White should play  Ree2. }
+19... h5 20. b3
+{ This is a waiting move for White to show his idea behind 19. Ree2. } 20...
+Qa5 21. Bxf8 Rhxf8 22. b4 { 22.Nxe6?  Qxa3+ } 22... Qb6 23. Nxe6
+{ White shows his idea behind 19. Ree2 and concretely targets the Black queen. }
+23... dxe6 24. Rd7+ Ke8 25. Rd6
+{ White has a decisive initiative.   The most accurate win for White is  25...Qb5  26.Qxg6+  Rf7  27.Rexe6+  Kf8  28.Qh7  Qg5+  29.Re3  Qh6  30.Qxh6  gxh6  31.Rxa6 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 Rc8 with 14...Qa5! and 16...f6"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5
+{ Note that  11.Ndxb5  axb5  12.Nxb5  Qb8  13.Bb6  isn't as strong because of  13...Nxe4 !  This resource would not be possible if White still had a knight on  c3.  14.Qe3  Bxa3 !  15.bxa3  Ng4 !  and Black has sufficient counterplay in these complications. }
+11... Rc8 12. Ba4 Nxe4 13. Nxe4 Bxe4 14. Bf4 Qa5 15. Bxe5 Qxa4 16. Rd2
+{ White's advantage in the positions that follow is largely based on his initiative and the possibility of transposing into a favorable endgame due to his queenside pawn majority. The endgame is not favorable yet but Black will have to lose time defending against White's initiative. }
+16... f6
+{ Black intends to play ...Kf7. This is the recommendation given in 'Grandmaster Repertoire - The Sicilian Taimanov'. }
+17. Bd6 Kf7 18. Re1 Bg6 19. Ree2
+{ White makes a non-committal improving move that concretely prepares b3.   19.b3 ?!  Qa5  20.Bxf8  Rhxf8  21.b4  Qb6  22.Nxe6 ??  This would win if White had already played  Ree2.  22...dxe6  23.Rd7+  Ke8  24.Rd6  Rxc2+  and Black wins. This is why White should play  Ree2. }
+19... h5 20. b3
+{ This is a waiting move for White to show his idea behind 19. Ree2. } 20...
+Qa5 21. Bxf8 Rhxf8 22. b4 Qc7 23. Nb3 Qxg3 24. hxg3
+{ 23...e5  allows  Nc5  with  Qh3 } 24... d5 25. Nc5
+{ White has a slightly better endgame due to his queenside pawn majority and superior activity. Black's central majority is restrained.   25...Rc6  26.c4  White intends to meet  ...dxc4  with  27.Rd4  and  Rxc4. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 Rc8 with 14...Qa5! and 16...f6"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5
+{ Note that  11.Ndxb5  axb5  12.Nxb5  Qb8  13.Bb6  isn't as strong because of  13...Nxe4 !  This resource would not be possible if White still had a knight on  c3.  14.Qe3  Bxa3 !  15.bxa3  Ng4 !  and Black has sufficient counterplay in these complications. }
+11... Rc8 12. Ba4 Nxe4 13. Nxe4 Bxe4 14. Bf4 Qa5 15. Bxe5 Qxa4 16. Rd2
+{ White's advantage in the positions that follow is largely based on his initiative and the possibility of transposing into a favorable endgame due to his queenside pawn majority. The endgame is not favorable yet but Black will have to lose time defending against White's initiative. }
+16... f6
+{ Black intends to play ...Kf7. This is the recommendation given in 'Grandmaster Repertoire - The Sicilian Taimanov'. }
+17. Bd6 Kf7 18. Re1 Bg6 19. Ree2
+{ White makes a non-committal improving move that concretely prepares b3.   19.b3 ?!  Qa5  20.Bxf8  Rhxf8  21.b4  Qb6  22.Nxe6 ??  This would win if White had already played  Ree2.  22...dxe6  23.Rd7+  Ke8  24.Rd6  Rxc2+  and Black wins. This is why White should play  Ree2. }
+19... Bxd6 20. Qxd6
+{ White has the initiative and intends to pawn storm on the kingside  (f4 with g4 and f5)  . }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "Taimanov: 8...Ne5 9.Qg3 b5 10.a3 Bb7 11.Bxb5 Rc8 with 14...Qa5! and 16...f6"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5
+{ Note that  11.Ndxb5  axb5  12.Nxb5  Qb8  13.Bb6  isn't as strong because of  13...Nxe4 !  This resource would not be possible if White still had a knight on  c3.  14.Qe3  Bxa3 !  15.bxa3  Ng4 !  and Black has sufficient counterplay in these complications. }
+11... Rc8 12. Ba4 Nxe4 13. Nxe4 Bxe4 14. Bf4 Qa5 15. Bxe5 Qxa4 16. Rd2
+{ White's advantage in the positions that follow is largely based on his initiative and the possibility of transposing into a favorable endgame due to his queenside pawn majority. The endgame is not favorable yet but Black will have to lose time defending against White's initiative. }
+16... f6
+{ Black intends to play ...Kf7. This is the recommendation given in Grandmaster Repertoire - The Sicilian Taimanov. }
+17. Bd6 Kf7 18. Re1 Bg6 19. Ree2
+{ White makes a non-committal improving move that concretely prepares b3.   19.b3 ?!  Qa5  20.Bxf8  Rhxf8  21.b4  Qb6  22.Nxe6 ??  This would win if White had already played  Ree2.  22...dxe6  23.Rd7+  Ke8   23...Kg8  also defends , but this does not work if Black meets  19.Ree2  with  ...h5  which is the most logical waiting move.  24.Rd6  Rxc2+  and Black wins. This is why White should play  Ree2. }
+19... Qc4
+{ This novelty is recommended for Black in Grandmaster Repertoire - The Sicilian Taimanov. }
+20. b3 Qc3 { 20...Bxd6  21.Qxd6  Qc3?  21.Qxd7+  Kf8  22.Kb1 } 21. Qxc3 Rxc3
+22. Bxf8 Rxf8
+{ Grandmaster Repertoire - The Sicilian Taimanov ends here and implies that Black has equalized. @@StartBlockQuote@@'Intending ...Rfc8, with ...e5 and ...d5 to follow.' - GM Antonios Pavlidis@@EndBlockQuote@@I don't think Black is fully equal yet, especially since White can interfere with Black's plan to activate his central majority. }
+23. f4
+{ White has a slightly better endgame due to his queenside pawn majority  (Black's central majority is more restrained)  . White's plan is Kb2 with b4 and either Nb3-c5 or g4 and f5. LeelaZero and Stockfish at depth 38-39 both agree that White is slightly better in this endgame  (lower depth thinks that White's advantage is bigger, implying that Black limiting things to a small White edge is conditional on concrete resources)  .   FM Serrer suggested that the Black position looked equal after  23...Rfc8  24.Kb2  Bh5   24...h6  25.f5  exf5  26.Rf2  is similar.  25.Re4  Bg6  , so I put LeelaZero  (depth 43)  on the case and it confirms that White is slightly better after  26.f5  exf5  27.Rf4  R3c5  28.g3.  Black is passive and has to play for a draw. See the advanced theory section for more details. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The critical 8...Ne5 9.Qg3 b5"]
+[Black "The 23.f4 endgame: advanced theory"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5 Rc8 12. Ba4 Nxe4 13. Nxe4 Bxe4 14. Bf4
+Qa5 15. Bxe5 Qxa4 16. Rd2 f6 17. Bd6 Kf7 18. Re1 Bg6 19. Ree2 Qc4 20. b3 Qc3
+21. Qxc3 Rxc3 22. Bxf8 Rxf8 23. f4 Rfc8
+{ 23...h6  24.Kb2   24.f5  +=  24...Rfc8  25.f5 !   25.b4  is another way that White can play for a win, but Black can defend if he is accurate. For example,  25...Bh5  26.Re1  g5  27.f5  Critical, although not forced. 27. fxg5 and 27. g3, and 27. Nb3 are reasonable alternatives that are at least equal for White. The reader can investigate these if they aren't convinced by 25. f5.  27...e5  Black obtains sufficient counterplay with accurate play. For example,  28.Nb3  d5 !   28...R3c7  29.c4  Rxc4  30.Nc5  +=   28...Ke7  29.Nc5  R3xc5  30.bxc5  Rxc5  31.Re4   31.Re3  Bg4  32.Rf2  Rc4  33.Kc1  Rf4  34.Rxf4  gxf4  35.Re1  Bxf5  36.Kd2  +=/=   31.h3  Bf7  32.g4  h5  33.Red1  d5  =∞  31...a5  32.Rd3  d5  33.Ree3  Bg4  34.Rc3  Rxc3  35.Rxc3  Bxf5  36.Rc5  +=  with careful play Black should be able to defend.  29.Nc5  d4  30.Nxa6  =∞  25...exf5  26.Nf3   26.Rf2  +=  seems to be another interesting attempt at a slight advantage, 26... R3c5 will be met with either 27. b4 or 27.Nf3  (intending Ne1 or Rd6)  .  26...R3c7  27.Rd6  Ra7  28.Red2  +=  White is pressing due to his queenside pawn majority and Black's weak pawn structure. White can win the f5-pawn at will  (R6d5 and Nh4)  and advance his queenside pawn majority  (starting with c4)  , Black still has to figure out how he will defend.   23...Bh5  24.Kb2  Rfc8  25.Re1 !   25.Re4  The problem with this move is that White is more or less committed to the slightly better rook endgame when he can probably get more after 25. Re1.  25...Bg6  26.f5  exf5  27.Rf4  R3c5  28.g3  28...h5  the character of position is similar against other moves  29.Rdf2   29.Nf3 !?   29.b4 !?  29...a5  30.Nxf5  Bxf5  31.Rxf5  Ke6  32.Rxc5  Rxc5  with a slightly better rook endgame that should be drawn with best play.  25...Bg6  26.b4  Kf8  27.g4  +=  White has a slightly better position and intends to follow up with f5 and Rd3.   27...Be8  can be met by either  28.Rd3  or  28.g5  and Black still has to play accurately to prove that he will equalize.   27.f5  leads to the typical slightly better  (but probably drawn)  rook endgame after White doubles rooks on the f-file and takes back the f5-pawn. }
+24. Kb2 Bh5 { 24...h6  25.g4  +=   25.b4  +=   25.f5  += } 25. Re4 Bg6 26. f5
+exf5 27. Rf4 R3c5 28. g3
+{ Black is relatively passive here and has to choose his plan of defense depending on what White does. White can win the pawn back at will  (Rdf2 with Nxf5)  with a slightly better rook endgame and also has the option to play for a win with his queenside pawn majority/superior minor piece. The burden of proof is on Black to prove that he can equalize because if Black waits White will press Black on the queenside. }
+28... Rb8
+{ This move restrains White's queenside pawn majority somewhat because b4 isn't threatening to capture the c5-rook.   28...h6  Black prepares ...Bh7 and ...g5.  29.Rdf2   29.Nf3 !?  with b4 and Ne1-d3. +=/=   29.b4  Rd5  30.a4  Bh7  31.Rf3  Rc4  32.c3  should be fine for Black, although he still has to be accurate for a few moves.  29...Re8  30.Nxf5  Bxf5  31.Rxf5  Ree5  32.Rxe5  +=  White is pressing in this rook endgame, though Black should draw with careful play.   32.R5f4 !?  +=   28...Re8  29.b4  ±  White will meet 29... Rc7 with either 30. Nb3  (followed by Rfd4)  or 30. Nxf5 with a significant advantage. }
+29. b4
+{ An interesting attempt to play for a win while avoiding the slightly better rook endgame.   29.Rdf2  +=  with 30.Nxf5 leads to a two results rook endgame, although Black should be able to hold with accurate play. I would expect a 55-60% score for White in practice. }
+29... Ke7 30. Nb3
+{ 30.c4 !?  A sharp alternative. Objectively Black is able to equalize, but he needs to play very accurately and ideally should have prepared this in advance.  30...Re5  31.Kb3  Rc8  Here White has a choice.  32.b5 !   32.a4 !?  Re3+  33.Kb2  Re4  34.Rc2  d6  35.b5  Kd7  36.bxa6  The most critical, but White doesn't get anything.   36.Rc1 =   36.Rc3 =  36...Ra8  37.c5  Rxa6  38.c6+  Kd8  39.Rxe4  fxe4  40.Kb3  e3  41.Rc3  Be8  42.Rxe3  Bxc6  43.Nxc6+  Rxc6 =  32...axb5   32...Kf8  33.Kb4  Bf7  34.Nxf5  ±  33.cxb5  Bf7+  34.Kb4  Low depth engines think White is much better because Black needs to play the next several moves accurately in order to neutralize White's powerful queenside pawns.   34.Kb2  Be6  35.a4  g5  ⇆  34...g5  35.Nxf5+  Kf8   35...Kd8  36.Nd6  gxf4  37.Nxf7+  Kc7  38.Nxe5  +=  White is still pressing, but if Black is accurate for 5-10 moves he should reach a theoretically drawn endgame.  36.Nd6  gxf4  37.Nxc8  f3  38.Rf2  Bd5  39.Nb6  Re2 =  After several only moves, Black has managed to equalize. This will lead to a drawn rook endgame where White is not pressing.  40.Rf1  Be4  41.Nxd7+  Ke7  42.Nc5  f5  43.Nxe4   43.b6  Rb2+  44.Kc3  Rxb6  45.Nxe4  fxe4  46.Kd4  Re6  47.Ke3 =   43.h3 =  43...fxe4  44.b6  Kd7  45.Rc1  f2  46.b7  Rb2+  47.Kc3  Rxb7  48.Kd4 =   30.Rf3 !?  While probably nothing special, engines think White is pressing after this move as well  (intending either Re3, Rd3, or Rc3. Nb3-c5 is also an option in some lines)  . }
+30... Re5 { 30...Rc7  31.c3  ±  White consolidates his advantage. } 31. Rfd4
+{ 31.Rc4 !?  a5  32.Rc7  Be8  33.Nd4  Provoking complications. Objectively Black is able to equalize, but he will have to show accuracy. For example,   33.c3  White is safely equal and is the only one who can force complications in order to play for a win.  33...Kd6  34.Ra7   34.Nb5+  Ke7  35.Nd4  Kd6  36.Ra7  axb4  37.a4   37.Nxf5+  Kc5  38.Nd6  bxa3+  39.Ka2 =   37.axb4  Rxb4+  38.Kc3 =  37...Kc5  38.Ra6  Bf7  39.Nxf5  These complications lead to equality. For example,  39...b3   39...Rd8  40.Nxg7 =   40.Nd4 =   39...Be6  40.Nd4  White will play Nb3+ with a drawn rook endgame.   40.Nxg7 =   39...Rxf5 ?  40.Ra5+  Kc6  41.Rxf5  ±  40.Ra5+  Kb4  41.Rxe5  fxe5  42.c3+  Kxa4  43.Rxd7  Be6  44.Ra7+  Kb5  45.Re7 =  34...axb4  35.a4  Kc5  36.Ra6  Bf7  37.Nxf5  with a transposition into 34. Nb5+.   31.c4  ∞ }
+31... Rb7 { 31...Be8  32.c4  += } 32. Rd6
+{ 32.c4  Bf7  33.Kc3  Rc7  34.c5 !?  is an interesting alternative, although Black is probably fine. }
+32... a5 33. bxa5 { 33.c3 = } 33... Rxa5 34. Rxd7+ Rxd7 35. Rxd7+ Kxd7 36. Nxa5
+{ White is still pressing, but Black should be able to hold this endgame with best play. White's plan is Kc3-d4 with Nc4 followed by pushing his queenside pawns. Although the engines show close to 0.00 at a high depth, this is difficult for Black to defend in practice. I asked some titled players of their intuitive assessment of this endgame  (without them checking the engine)  and here are their evaluations. @@StartBlockQuote@@'White is better. Playing for two results I guess.' - IM Yaacov Norowitz @@StartBracket@@FIDE peak: 2462@@EndBracket@@@@EndBlockQuote@@@@StartBlockQuote@@'Probably winning for White. Get the knight and king centered, then dominate on both sides.' - FM Sean Vibbert @@StartBracket@@FIDE peak: 2361@@EndBracket@@@@EndBlockQuote@@@@StartBlockQuote@@'Black needs to play 1...f4 2.gxf4 Be4, followed by ...g5 and ...h5, after which he should have good drawing chances.' - FM 1e41-0 @@StartBracket@@FIDE peak: 2340@@EndBracket@@@@EndBlockQuote@@@@StartBlockQuote@@'Only White can win.' - FM Anish Vivekananthan @@StartBracket@@FIDE peak: 2312@@EndBracket@@@@EndBlockQuote@@@@StartBlockQuote@@'I like White. The Black king could get distracted by the queenside pawns.' - NM William Sedlar @@StartBracket@@USCF peak: 2424@@EndBracket@@@@EndBlockQuote@@@@StartBlockQuote@@'This endgame is drawn? It looks horrible for Black!' - NM Joseph Truelson @@StartBracket@@USCF peak: 2267@@EndBracket@@@@EndBlockQuote@@@@StartBlockQuote@@'Looks much easier to play for White. I don't see a clear cut plan for Black.' - NM Serkan Salik @@StartBracket@@USCF peak: 2262@@EndBracket@@@@EndBlockQuote@@ }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Annotated games"]
+[Black "GM Maxime Vachier-Lagrave vs. GM Viswanathan Anand"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5 Rc8 12. Ba4 Nxe4 13. Nxe4 Bxe4 14. Bf4
+Qc4
+{ 14... Qa5 is stronger, forcing 15. Bxe5 with a transposition into the game. }
+15. Bxe5
+{ The complications after   15.Bb3 !  N  Nd3+  16.Kb1  Qxd4  17.cxd3  favor White. See the theory section for more information. }
+15... Qxa4 16. Rd2 f6 17. Bd6
+{ The previous moves were explained in the theory section. Black has played the critical line so far, but he still has to carefully defend, something that even a great player like Anand was not able to do. }
+17... Kf7 18. Re1 Bg6 19. Bxf8
+{ 19.Ree2 !  is my improvement. White prepares  b3  by defending the second rank and the inclusion of  ...Bxd6  and  Qxd6  only helps White become more active. White is objectively better with best play , see the theory section for more information. }
+19... Rhxf8 20. Qd6 Kg8 21. f4 Rfe8
+{ After this inaccuracy, White consolidates his advantage.  Black needs concrete play to equalize because White has better prospects for a long term attack  (g4 and f4-f5)  and superior centralization. Unfortunately for White, that concrete play exists and Black equalizes with the following variation as given by GM Repertoire  (The Taimanov Sicilian)  .   21...Qc4 !  22.Qxd7  Bf7  23.Nxe6  Qa2 !  N  24.Rd3  Qa1+  25.Kd2  Qxb2  26.Qa4  Bg6  27.Nxf8  Bxd3  28.Kxd3  Qc3+  29.Ke2  Kxf8 =  Black will play ...Qxc2 with equality. }
+22. Re3 { White prepares to meet ...Qc4 with b3 by preventing ...Qc3. } 22...
+Qc4
+{ Against slow play, White would have increased his initiative with a kingside pawn storm. }
+23. b3 Qc7 24. Qxc7 Rxc7 25. Kb2
+{ This typical endgame allows White to play for a win without risk due to his active king and more mobile pawn majority. White quickly won in the game. }
+25... Rb8 26. g4 Bf7 27. a4 Rc5 28. Ne2 Rc7 29. Rd6 Ra7 30. Red3 Be8 31. f5
+exf5 32. gxf5 Rc8 33. Nc3 Rc5 34. R3d5 Rc6 35. Ne4 Kf7 36. Rd3 Rac7 37. c4 g6
+38. fxg6+
+{ Black resigned because he can't prevent Nxf6.   1-0, Maxime Vachier-Lagrave 2789 - Viswanathan Anand 2776, GRENKE Chess Classic, Karlsruhe GER  (2)  , 2018.04.01 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Annotated games"]
+[Black "GM Vladimir Kramnik vs. GM Fabiano Caruana"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Bd6 8.
+O-O-O Be5 9. g3 Nf6 10. Qe2 O-O 11. f4 Bxd4 12. Bxd4 Nxd4 13. Rxd4
+{ Black is slightly worse in these structures and has to defend for a long time due to White's space advantage and pressure down the d-file. This is especially risky for Black given that his delay in playing ...b5 gives White the option of Qc4  (White's static advantage is easier to exploit in the endgame)  . }
+13... d6 14. Qd2
+{ 14.Qc4  N  !  White attempts to increase the pressure on the d6-pawn by trading queens.  14...Qb8   14...Qxc4  15.Bxc4  b5   15...Ne8  16.a4 !?  ±  16.Bd3  Ne8  17.Re1   17.e5 !?  is also an option. White will play a4 and try to attack Black's weakness on a6 and/or advance his own queenside.  17...e5  18.fxe5  dxe5  19.Rd5  f6  20.Rc5 !  ±  preparing a4  (so after ...b4, White has Nd5)   14...Qc5  15.Qxc5  dxc5  16.Rd6  b5  17.e5  Bb7  18.Rg1  Ne4  19.Nxe4  Bxe4  20.Bg2  Bxg2  21.Rxg2  ±  White will play Rgd2 and has targets on the queenside.  15.Qb4  Ne8  16.Qb6 !?  Stopping ...b5.  16...Bd7  17.Be2  Bc6  18.Rhd1  ±  Black has weakness and White's pieces are dominant. }
+14... b5 15. a3 { 15.Rxd6?  b4  followed by  ...Nxe4 } 15... Bb7 16. Bg2 Rfd8
+17. Rd1
+{ White is pressing here, although Black has reasonable defending chances. White would have had a bigger advantage after 14. Qc4 because in the middlegame White's queen would be more active  (and Black would be forced to retreat his queen)  while in the endgame the a4-break is stronger. }
+17... Ne8 18. Bh3
+{ 18.Bf1  Nf6 ?   18...Rdb8 !  ⇆  Black will play ...Bc6 and ...a5.  19.e5  Nd5  20.exd6  Rxd6  21.Bg2  ±  1-0  (34)  Hansen,E  (2580)  -Barbosa,E  (2438)  Montevideo 2015 }
+18... Rab8 19. Rd3 Bc6 { Preparing ...a5 and ...b4 with counterplay. } 20. e5
+{ White's pieces are all ideally placed, so it is time to strike in the center. }
+20... Qb7
+{ 20...d5 ?!  21.Ne2 !  ±  with an excellent Steinitz French structure. Black's c6-bishop is very passive and White's knight has the d4-outpost. }
+21. f5
+{ 21.exd6  a5 !  22.f5  b4   22...exf5 !?  23.fxe6  bxc3  24.Qxc3   24.exf7+  Qxf7  25.Qxc3  Be4  ∞  24...fxe6  25.Bxe6+  Kh8  ∞   21.Na2  +=  is an interesting alternative, preventing ...b4. White will follow up with Kb1 next and it is not clear how Black will be able to obtain counterplay. }
+21... b4
+{ 21...exf5  22.Nd5 !   22.Bxf5  b4  23.axb4  Qxb4  24.b3  ∞  22...Bxd5  23.Rxd5  g6  24.Bg2  += }
+22. axb4 Qxb4 23. b3
+{ Although White still has the initiative, Black has serious counterplay on the queenside with ...a5-a4 coming soon. }
+23... exf5 24. Kb2 { 24.Bxf5  transposes to 21... exf5. } 24... g6
+{ 24...a5  Black's queenside counterattack should give Black enough counterplay to hold.  25.Bxf5  This is a sample continuation, White has alternatives that also fight for a win.   25.exd6  a4 !  26.Nd5  Qxd2  27.R1xd2  Kf8 !  28.Bxf5  Rxd6 =  25...a4  26.Nd5   26.Rd4  Qb6  27.Nxa4  Bxa4  28.Rxa4  dxe5  ∞  26...Qxd2  27.R1xd2  Kf8  28.Ne3  axb3  29.cxb3  Ke7  30.Bh3  threatening Nf5  30...g6  31.Nc4  dxe5  32.Nxe5  Rxd3  33.Nxc6+  Kd6  34.Rxd3+  Kxc6  This endgame is defensible for Black, although White is still pressing due to his outside passed pawn. }
+25. Bg2
+{ Exchanging bishops to prepare Nd5, now White obtains the preferable position. }
+25... Bxg2 26. Qxg2 Rdc8 27. Nd5 Qe4 28. Qxe4 fxe4 29. Re3 Kg7 30. Rxe4 dxe5
+31. Rxe5 Nd6 32. Ne3
+{ White has a slightly better endgame due to his superior pawn structure and more active pieces. }
+32... Rc6 33. Re7 Nf5
+{ A risky decision, ruining his own pawn structure.   33...a5  34.Rd4  +=  would also be uncomfortable for Black, since his pieces don't have clear squares t, and the a-pawn could be weak. }
+34. Nxf5+ gxf5 35. Rd4 Rh6 36. Rf4
+{ 36.Re2 !? =  is simpler. White intends to advance his queenside pawns and activate his king with Ka3-a4. }
+36... Rxh2 37. Rxf5 Rf8 38. Ra7 Rg2 39. Rf3 h5 40. b4
+{ The 40th move ! Kramnik needed to be more prophylactic before starting to push his pawns. He was probably in time trouble and chose a more obvious continuation.   40.Rc3 !  Kh6  41.Rxa6+  Kg5  Although Black has counterplay, White has excellent winning chances.  42.Rac6  f5  43.b4  ± }
+40... Rc8 41. Rfxf7+ Kh6
+{ 41...Kg6 !  keeping an eye on the f7-rook to avoid Rxa6+.  42.Rfc7  Rxc7  43.Rxc7  Rxg3  44.Rc6+  Kg5  45.Rxa6  h4  46.Ra8  h3  47.Rh8  Kf4  48.b5  Ke4 !  Black wants to play ...Kd4, and if c3 now ...Rg5 !, which is not possible had the black king moved to e5 directly on move 48.   48...Ke5 ?  49.c3 !  Kd5  50.Kb3  Kc5  51.Rh5+  Kb6  52.Kb4  +-  49.Rh6   49.c3  Rg5  49...Kd5  50.b6  Rg7  51.Rxh3  Kc6  reaching a theoretical drawn endgame. For example:  52.Rh6+  Kb5  53.Kb3  Kc5  54.Ka4  Rg1 ! =  the only move to avoid Ka5. }
+42. Rxa6+
+{ 42.Rfc7 ?  Rxc7  43.Rxc7  Rxg3  44.Rc6+  Rg6 =  Probably because of this Caruana played ...Kh6, so that he would have ...Rg6 in this variation.   44...Kg5 =  would be a lot more complicated, but it's also a draw, as analysed in the line with 41... Kg6. }
+42... Kg5 43. Ra5+ Kg6 44. Rf3 Rcxc2+ 45. Kb3 Rb2+ 46. Ka4 Ra2+ 47. Kb5 Rae2
+48. Ra6+
+{ 48.Rd3 !  Preparing Kc6 and then use the d3-rook as a shield for the checks.  48...Rc2  49.Kb6  +-  Black is unable to prevent the advance of White's b-pawn. }
+48... Kg5 49. Rc6 Kg4 50. Rfc3 Re5+ 51. Kb6 Rb2 52. R6c4+ Kf5 53. Rf4+ Kg5 54.
+Rd4 Kf5 55. Kc6 Re6+ 56. Kd7 Rb6 57. Rc5+
+{ 57.g4+ !!  White exchanges the last two pawns on the kingside and forces a winning endgame.  57...hxg4  58.Rc5+  Kf6  59.Rf4+ !  This is the idea, the g-pawn can be taken with check.  59...Kg6  60.Rxg4+  Kf6   60...Kf7  61.Rf5+  Rf6  62.Rxf6+  Kxf6  63.Kc6  +-   60...Kh7  61.Rh5+  Rh6  62.Rxh6+  Kxh6  63.Kc6  +-  61.Rc6+  Rxc6  62.Kxc6  +- }
+57... Kg6 { Now the position is drawn and Kramnik didn't get another chance. }
+58. Rc6+ Rxc6 59. Kxc6 Rb3
+{ With both pawns on the kingside still alive, Black has this strong counterplay, securing him a very difficult half point. }
+60. b5 { 60.g4  h4 ! = } 60... Rc3+ 61. Kd6 Rxg3 62. b6
+{ 62.Rb4  Rd3+  63.Kc7  Rc3+  64.Kb8  Kg5  65.b6  h4  66.b7  h3 = } 62... Rb3
+63. Kc6 Kg5 64. Rd5+ Kg4 65. Rb5 Rc3+ 66. Kd7 Rd3+ 67. Ke7 Re3+ 68. Kf7 Rf3+
+69. Kg6 h4 70. b7 Rf8 71. Rg5+
+{ 71.b8=Q  Rxb8  72.Rxb8  h3  73.Rb4+  Kg3  74.Kg5  h2  75.Rb3+  Kg2 = } 71...
+Kh3 { 71...Kf4 ??  72.Rf5+  Rxf5  73.b8=Q+  +- } 72. Rb5 Kg2 73. Rg5+ Kh3 74.
+Rb5 Kg2 75. Kh5 h3 76. Rb2+ Kg1 77. Rb1+ Kg2 78. Rb2+ Kg1 79. Kg4 h2 80. Rb1+
+Kg2 81. Rb2+ Kg1 82. b8=Q Rxb8 83. Rxb8 h1=Q 84. Rb1+ Kg2 85. Rxh1 Kxh1
+{ Kramnik, Vladimir 2812 - Caruana, Fabiano 2810, Dortmund 44th, Dortmund  (5)  , 2016.07.15 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Supplementary games"]
+[Black "GM Sergey Karjakin vs. GM Daniil Dubov"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 b5 8. Qg3
+Qxg3 9. hxg3 Nxd4 10. Bxd4 Bb7 11. f3 Ne7 12. O-O-O Nc6 13. Be3 h6 14. g4 Rg8
+15. Kb1 Rc8 16. a4 b4 17. Na2 Be7 18. Rh5 f6 19. Nc1 d6 20. Nb3 Kf7 21. Bb6 Rh8
+22. Be2 Rhe8 23. g3 Bd8 24. Be3 Bc7 25. f4 Ne7 26. Bd3 Bc6 27. Nd4 Bxa4 28.
+Bxa6 Ra8 29. Bc4 d5 30. exd5 exd5 31. Rxd5 Nxd5 32. Bxd5+ Kg6 33. Bxa8 Rxa8 34.
+Ne6 Rc8 35. b3 Bc6 36. Nxc7 Rxc7 37. Rd4 f5 38. Rc4 fxg4 39. Bd2 h5 40. Rc5 Rc8
+41. Bxb4 h4 42. gxh4 Bd7 43. Rg5+ Kf7 44. f5 Kf6 45. Rxg4 Rxc2 46. Be7+ Ke5 47.
+Rg5 Rc8 48. f6+ Bf5+ 49. Rxf5+ Kxf5 50. f7
+{ Karjakin, Sergey - Dubov, Daniil, 1-0, World Rapid 2015 } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Supplementary games"]
+[Black "GM Ian Nepomniachtchi vs. GM Daniil Dubov"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 b5 8. Qg3
+Qxg3 9. hxg3 Nxd4 10. Bxd4 Bb7 11. f3 Ne7 12. O-O-O Nc6 13. Be3 h6 14. g4 Rg8
+15. a4 b4 16. Ne2
+{ 16.Nb1!  is a typical idea in these structures , intending Nd2-c4. White is much better after both moves but  Nb1  is probably stronger and I wanted to point out that this idea is important. }
+16... Be7 17. Kb1 Rc8 18. Nc1 Na5 19. Rh5 Bd8 20. Rc5 Rxc5 21. Bxc5 Nc6 22. Na2
+Be7 23. Bb6 Rh8 24. Nc1 h5 25. gxh5 Rxh5 26. Nb3 Rh1 27. Be3 d6 28. Kc1 g5 29.
+Nd2 Ne5 30. Bb5+ axb5 31. Rxh1 bxa4 32. Rh5 g4 33. f4 Ng6 34. g3 d5 35. f5 exf5
+36. exf5 Ne5 37. Bf4 Nc6 38. Rh8+ Kd7 39. Rg8 Nd4 40. Rxg4 Nxf5 41. Rg8 a3 42.
+bxa3 bxa3 43. Nb3 Ba6 44. Kb1 Bc4 45. Ra8 d4 46. Ra5 Be6 47. Nc5+ Bxc5 48. Rxc5
+a2+ 49. Kb2 Nd6 50. Ka1 Ne4 51. Ra5 Nc3 52. Ra6 Ne2 53. Be5 Kc8 54. Rd6 Nc3 55.
+Rxd4 Nb5 56. Rb4 Na3 57. Rb2 Nc4 58. Rb5 Na3 59. Rc5+ Kb7 60. Bb2 Nc4 61. Kxa2
+Kb6 62. Bd4 Nd6+ 63. Kb1 Kb7 64. Re5 Kc6 65. Kc1 Nc4 66. Rc5+ Kd7 67. c3 f5 68.
+Kc2 Nd6 69. Be5 Nc4 70. Bf4 Nb6 71. Kd3 Nd5 72. Kd4 Nf6 73. Rc7+ Kd8 74. c4 Ne4
+75. Ra7 Kc8 76. c5
+{ Nepomniachtchi, I. - Dubov, Daniil, 1-0, 69th Moscow Blitz } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Supplementary games"]
+[Black "GM Maxime Vachier-Lagrave vs. GM Pentala Harikrishna"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5 Rc8 12. Ba4 Nxe4 13. Nxe4 Bxe4 14. Bf4
+Qa5 15. Bxe5 Qxa4 16. Rd2 f6 17. Bd6 Kf7 18. Re1 Bg6 19. Ree2 e5 20. b3 Qa5 21.
+Qh3 Rd8 22. b4 Qa4 23. Qb3+ Qxb3 24. Nxb3 Bf5 25. Nc5 Be7
+{ 25...Bxd6  26.Rxd6  a5  27.Nb7  Rc8  28.Rdd2  Rc3  29.Nd6+  Kg6  30.Re3  axb4  31.axb4  Rxe3  32.fxe3  Rb8  33.b5  Be6  34.e4  Ra8  35.c4  Ra4  36.b6  Bxc4  37.b7  Rb4  38.Rb2  Bb3  39.Kd2  Rxb7  40.Nxb7  Ba4  41.Rb4  Bc6  42.Nd8  Ba8  43.Ra4  IM Andrew Hong vs. IM Abhimanyu Mishra , 1-0 , Charlotte GM Invitational , 2020.01.17 }
+26. Nb7 Ra8 27. Bxe7 Kxe7 28. f4 Rab8 29. Nd6 Be6 30. fxe5 f5 31. h4 g6 32. Rf2
+Rhf8 33. Rd3 Rb6 34. Kb2 Rc6 35. Rg3 Rb8 36. Rc3 Bd5 37. Rxc6 Bxc6 38. Kc3 a5
+39. Kc4 axb4 40. axb4 Ke6 41. Re2 f4 42. b5 Ba8 43. Kd4 h6 44. c4 g5 45. hxg5
+hxg5 46. c5 Bd5 47. Rc2 Ra8 48. c6 dxc6 49. bxc6 Ra4+ 50. Kd3 Kxe5 51. c7 Be6
+52. Nc4+ Kf6 53. Nb6 Ra3+ 54. Kd4 Bg4 55. Rc6+ Kf7 56. Nc4 Ra4 57. Kc5 Ke7 58.
+Rg6 Ra2 59. Rxg5 Bc8 60. Rg8 Be6 61. Rg6 Bc8 62. Nd6 Ra5+ 63. Kb4 Re5 64. Nxc8+
+Kd7 65. Nd6 Kxc7 66. Nb5+
+{ Maxime Vachier-Lagrave vs. Pentala Harikrishna, 1-0, Bundesliga 2018/19  (14.1)  , 2019.04.06. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Supplementary games"]
+[Black "GM David Navara vs. FM Pavel Zpevak"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Be7 9. Be2 O-O 10. g4 d6 11. Kb1
+{ 11.g5!  Nd7  12. g6!N gives White a decisive initiative. For example ,  12...hxg6  13.h4  Nxd4   13...Bf6  14.Qg3  is similar  14.Bxd4  b5  15.Qg2  White will play  f4  and  h5  with a decisive attack. }
+11... Rb8 12. g5 Nd7 13. Qg3 b5 14. Nf5 b4
+{ 14...exf5  15.Nd5  Qd8  16.exf5  with f6. White has more than enough compensation for the piece. }
+15. Nxe7+ Nxe7 16. Na4 e5 17. b3 Bb7 18. Bf3 Bc6 19. Nb2 Nc5 20. Bxc5 dxc5 21.
+Nc4 Ng6 22. Rd5 { 22.h4  with h5 is a simpler alternative. } 22... Bxd5 23.
+exd5 Rbd8 24. Rd1 Rd6 25. h4 Re8 26. Re1 Rdd8 27. h5 Nf4 28. d6 Qd7 29. Rxe5
+Rxe5 30. Nxe5 Qf5 31. Nc6 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Supplementary games"]
+[Black "NM Elijah Logozar vs. IM Yaacov Norowitz"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 h5 11. Bf4 d6 12. Bxb5+ axb5 13. Bxe5 dxe5 14. Ncxb5
+Qc5 15. b4 h4 16. bxc5 hxg3 17. Nc6 Be7 18. Nc7+ Kf8 19. hxg3 Rg8 20. Nxa8 Bb7
+21. Nxe7 Kxe7 22. Nb6 Nxe4 23. Rd7+
+{ 1-0, NM Elijah Logozar - IM Yaacov Norowitz, Live Chess  (3/0 blitz)  , Chess.com, 2019.12.10 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Supplementary games"]
+[Black "NM Elijah Logozar vs. IM Yaacov Norowitz"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 h5 11. Bf4 d6 12. Bxb5+ axb5 13. Bxe5 dxe5 14. Ncxb5
+Qc5 15. b4 Nxe4 16. Qf3 Qb6 17. Qxe4 Bb7 18. Qxe5 Rc8 19. Nf5 f6 20. Nfd6+ Bxd6
+21. Qxe6+ Kf8 22. Qxd6+ Qxd6 23. Nxd6 Rc7 24. Nxb7 Rxb7 25. Rd8+
+{ 1-0, NM Elijah Logozar - IM Yaacov Norowitz, Live Chess  (3/0 blitz)  , Chess.com, 2019.12.08 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Supplementary games"]
+[Black "NM Elijah Logozar vs. IM Yaacov Norowitz"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 h5 11. Bf4 d6 12. Bxb5+ Bd7 13. Bxd7+ Nfxd7 14. Bg5
+h4 15. Bxh4 Rb8 16. f4 Nc4 17. Nxe6 Qb6 { 17...fxe6  18.Qg6# } 18. b3 Rxh4 19.
+Nd5 Qa5 20. Nec7+ Kd8 21. Qxh4+ Nf6 22. bxc4 Qxa3+ 23. Kd2 Be7 24. Qh8+ Kd7 25.
+Qxb8
+{ 1-0, NM Elijah Logozar - IM Yaacov Norowitz, Live Chess  (3/0 blitz)  , Chess.com, 2019.12.08 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Supplementary games"]
+[Black "NM Elijah Logozar vs. IM Yaacov Norowitz"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Qb8 11. f4 Neg4 12. Bg1 e5 13. fxe5 Qxe5 14. Qe1 b4
+15. axb4 Bxb4 16. h3 Bxc3 17. bxc3 Qg5+ 18. Kb2 Rb8+ 19. Nb3 Ne5 20. Be3 Qg6
+21. Bf4 Rxb3+ 22. cxb3 Nc6 23. e5 Ne4 24. g4 Nc5 25. Qe3 Ne6 26. Bd3 Nxf4 27.
+Bxg6 Nxg6 28. Rhe1 O-O 29. Qc5 Re8 30. Rd6 Ngxe5 31. Rxc6 Nd3+ 32. Ka3
+{ 1-0, NM Elijah Logozar - IM Yaacov Norowitz, Live Chess  (3/0 blitz)  , Chess.com, 2019.12.08 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Supplementary games"]
+[Black "NM Elijah Logozar vs. IM Yaacov Norowitz"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Rb8 11. f4 Nc4 12. Bxc4 Qxc4 13. e5 Nd5 14. Nxd5
+Qxd5 15. Nf5 Qa2 16. Nd6+ Bxd6 17. Qxg7 Rf8 18. exd6
+{ 1-0, NM Elijah Logozar - IM Yaacov Norowitz, Live Chess, Chess.com  (3/0 blitz)  , 2019.12.11 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Supplementary games"]
+[Black "NM Elijah Logozar vs. IM Yaacov Norowitz"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
+O-O-O Ne5 9. Qg3 b5 10. a3 Rb8 11. f4 Nc4 12. Bxc4 bxc4 13. e5 Nh5 14. Qh3 g6
+15. g4 Ng7 16. f5 Qxe5 17. Rhe1 h5 18. Qf1 hxg4 19. Bf4 Qa5 20. Bxb8 Nxf5 21.
+Qxc4 Bb7 22. Nxf5 gxf5 23. Qd4 *
+

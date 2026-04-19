@@ -1,0 +1,1492 @@
+﻿[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Introduction I"]
+[Black "?"]
+[Result "*"]
+[ECO "D35"]
+[Annotator "IM Kushager Krishnater"]
+[PlyCount "21"]
+[EventDate "2023.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,21,16,16,16,19,19,20,20,20,31,25,25,16,32,32,43,24,54,60,57,56,55,44]
+Welcome to this course! This is the first part of a two-course series, where
+we will be covering all of Black's options in the QGD. As usual, my idea is to
+provide fresh & challenging variations, where you keep several chances to
+catch your opponent off-guard. This course deals with the Queen's Gambit
+Declined Variation, The Ragozin Variation, and the QGD 4..a6 variation.} 1. d4
+d5 2. c4 e6 3. Nf3 Nf6 (3... a6 4. cxd5 exd5 5. Nc3 {should transpose back to
+our course lines.}) 4. Nc3 {The starting point of the QGD system.} Be7 {
+Black's most trusted move. This is the starting point of the Queen's Gambit
+Declined system.} (4... a6 {This line is considered to be slightly dubious
+than its more-known counterparts like Ragozin, Semi-Slav and rightly so.
+However, black intends to play in a very solid fashion. Therefore, I recommend
+a very fresh way of dealing with these positions with} 5. cxd5 exd5 6. Qb3 $5 {
+played only in a handful of games. Black's main move is} c6 {but there are
+other alternatives too.} (6... h6 $5 {[%csl Rg5][%cal Gh6g5] intended to stop
+Bg5. This has been played by several strong players. I recommend going for the
+positional} 7. e4 $5 {with the idea to meet} Nxe4 {with} 8. Qxd5 Nxc3 9. Qxd8+
+Kxd8 10. bxc3 {[%csl Gc3,Gd4,Rd8,Rf7][%cal Gc3c4] where we keep good strategic
+chances thanks to the extra space and the fact that black cannot castle
+anymore.}) (6... Be7 {is met with the typical 'QGD' plan with} 7. Bf4 O-O 8. e3
+c6 9. h3 {[%cal Gf3e5,Yf1e2] where White has the ideal QGD position. You will
+get to know more about this structure in the QGD chapters.}) (6... c5 {is met
+with} 7. Bg5 c4 8. Qc2 {[%cal Yf3e5,Ge2e4] where we look to gain space with e4,
+or centralising the knight with Ne5. White keeps good chances to gain an
+advantage.}) (6... b5 $6 {is a very well-known trap arising from a different
+variation. I recommend going for the cunning} 7. Bg5 Be6 {and now the forced
+tactical sequence with} 8. a4 b4 9. Bxf6 Qxf6 10. Nxd5 Qd8 11. e4 c6 {and now
+the stunning} 12. Qe3 $3 {with the point to meet} cxd5 {with} 13. exd5 Qxd5 14.
+Rc1 $16 {[%cal Gf1c4,Gd4d5,Yf1d3,Yd3e4] intending Bc4-d5/Bd3-Be4. White keeps
+a huge advantage in these positions.}) 7. e4 $5 {the sharpest response.} Nxe4 {
+this is the only way for black to maintain equality.} (7... dxe4 $6 8. Ng5 Nd5
+9. Bc4 Be7 10. h4 $14) ({the most played move} 7... Be7 {is met with} 8. e5 $16
+{[%csl Rb6,Rc5,Gd4,Ge5] where White keeps a huge advantage thanks to the extra
+space and Black's weaknesses on the Queenside.}) 8. Nxe4 Qe7 {critical. Black
+wants to keep f7-guarded.} (8... dxe4 $4 9. Ng5 $18 {gives white a decisive
+advantage.}) {and here I recommend going for the very strong} 9. Bd2 $5 $146 {
+which is a novelty, and a dangerous one too. The point of this move is to stop
+Qb4, and meet} dxe4 {with} 10. O-O-O exf3 11. Re1 Be6 12. Bc4 $40 {with
+tremendous attacking chances.}) (4... Bb4 {The Ragozin variation. Here I
+recommend going for} 5. Qa4+ {to provoke Black's knight to an inferior square
+with} Nc6 {here we go} 6. e3 O-O 7. Qc2 $5 {where Black has a few choices.} Re8
+{the most played move. Black vacates the f8-square for the bishop and intends
+to push e6-e5 at the right time.} (7... dxc4 8. Bxc4 Bd6 {is a very thematic
+way of playing against 7.Bd2. However, this is less effective against our idea
+with 7.Qc2. The most testing response to this is to play} 9. O-O e5 10. h3 $5 {
+[%cal Gh3g4] covering the g4-square. These positions are quite easy to play
+for white.} a6 {the most flexible response for black.} (10... exd4 11. exd4 $14
+{[%csl Gc4,Gd4][%cal Gc1g5] gives us an advantage thanks to the extra space
+and the lead in development.}) 11. a3 $5 {[%cal Yc4a2,Gd4e5,Gf3d4,Rf2f4,Re3e4]
+we are flexible too. Another idea of this move is to prepare Ba2 so that we
+can play dxe5-Nd4 followed by f4-e4. A possible idea for black is to play} h6 {
+which we meet with} 12. Bd2 {Black finally develops a piece with} Qe7 {which
+we can meet with} 13. dxe5 Nxe5 14. Nxe5 Bxe5 15. f4 $1 Bxc3 16. Bxc3 $14 {
+[%csl Gc3,Gc4][%cal Gc3f6,Gc4f7] giving us a typical edge. We are not afraid of
+} Qxe3+ 17. Kh2 {[%csl Ra8,Gc3,Gc4,Rc8,Re3,Rf6,Rg7,Rg8][%cal Ga1e1,Gc3f6,Yc2g6]
+we have enhanced attacking potential on the Kingside.}) (7... b6 {is met with}
+8. Bd2 Ne7 9. a3 $14 {where white keeps a small edge because of the pair of
+bishops.}) (7... Ne7 $5 {is a rare way of playing. Black is preparing c5 next.
+We meet this with the typical} 8. Bd2 {[%cal Ga2a3] intending a3 Bxc3 Bxc3.
+After} c5 9. a3 Bxc3 10. Bxc3 {Black players have tried} cxd4 11. Bxd4 Bd7 $5 {
+[%cal Ga8c8] intending Rc8. Here, I recommend going for} 12. cxd5 $5 $146 Nfxd5
+13. Bd3 {with great practical chances for an advantage.}) 8. Bd2 Bf8 9. a3 $5 {
+a very important waiting move. With a3, we keep control of the b4-square,
+while anticipating the e6-e5 break.} ({the natural} 9. O-O-O {runs into} Nb4 $1
+$17) 9... e5 {the most played response.} (9... h6 $5 {this is the preference
+of the top players. Black is still not committing to a plan. I recommend
+meeting this with} 10. cxd5 exd5 {and now the novel} 11. h3 $5 $146 {[%cal
+Gh3g4] stopping Bg4. The position is quite complex strategically. Even though
+this position has never been played before, I go deep in the most natural
+systems.} Ne4 {One of the most natural ways to play the position. Black
+prepares Bf5.} (11... a6 12. Bd3 Bd7 {is met with} 13. g4 $5 $146 {where we
+keep good attacking chances.}) ({preparing Bf5. We meet this with} 11... Ne7
+12. Bd3 g6 {and now} 13. g4 $5 {with the idea to meet} Bd7 {with} 14. Ne5 $5 {
+[%csl Gd4,Ge3,Gf4,Gg4][%cal Gf2f4] looking to dominate the board. White keeps
+good chances to gain an initiative.}) {here I recommend going for} 12. Bd3 Bf5
+13. O-O $5 {[%csl Rb7,Rc6,Rd5] where there are several strategic factors in
+play. The knight on c6 is misplaced the pawns on b7 & d5 are targets. This is
+a very rich position, and with your opponent out of theory, you keep good
+chances to catch them in opening preparation.}) ({for} 9... b6 {I recommend
+going for} 10. cxd5 exd5 11. Bd3 {black's best bet here is to play} Ne7 {
+which we meet with the typical} ({the natural} 11... Bb7 {is met with the
+thematic} 12. O-O Rc8 13. b4 $14 {[%csl Gb4,Rc6,Rc7,Gd4] where white keeps a
+thematic edge.}) 12. Ne5 {[%cal Gf2f4,Gg2g4] with the idea to gain further
+space with f4/g4. White keeps good chances here.}) (9... a6 10. Bd3 $14 {
+gives us a better version of the typical Ragozin lines.}) 10. dxe5 Nxe5 11.
+cxd5 Nxf3+ {trying to spoil our pawn structure.} ({the natural} 11... Nxd5 {
+is met with} 12. Nxe5 Rxe5 13. e4 $14 {[%csl Ge4][%cal Ye1c1] where we keep an
+advantage thanks to the extra space.}) 12. gxf3 {however, we now have the open
+g-file for our rook. After} Nxd5 {I recommend going for the rare} 13. h4 $5 {
+[%cal Ge1c1,Gf1d3] stopping Qh4. Our plan is to play 0-0-0, followed by
+Bd3-Rg1 next.}) 5. cxd5 $5 {a rare, but ambitious way of playing. We resolve
+the tension in the centre so that we can opt for our desired setup.} ({it
+makes sense to compare the recommendation with} 5. Bf4 O-O 6. e3 c5 7. cxd5 {
+however, the difference is that in these lines, black has the extra option of}
+Nxd5 $1 {[%csl Rf4][%cal Gd5f4] attacking our bishop.}) 5... exd5 6. Bf4 $5 {
+[%cal Gh2h3,Ye2e3,Yf3e5,Gf1d3] with the following setup in mind :
+e3-h3-Bd3-Ne5. This is a trendy and fashionable way of meeting the QGD
+nowadays. White keeps the same plans as the 'e3-Bd2 Nimzo', but has a better
+version as the 'bad bishop' is out on f4.} c6 {the most common way of playing
+these positions.} ({in these structures, we typically want to meet} 6... Bf5 {
+with} 7. h3 $5 $146 {[%cal Gg2g4,Yf3e5,Rf5g6] intending g4 Bg6 Ne5.}) 7. h3 $5
+{a prophylactic measure. This keeps the h2-square for the bishop. We also keep
+an eye out for Bf5, which we want to meet with g4.} O-O 8. e3 Nbd7 {the most
+natural plan for black in these positions.} (8... Bf5 9. g4 $5 {[%cal Yg4g5,
+Yh3h4,Gf3e5] with g5-h4/Ne5 coming up next.}) {After} 9. Bd3 Re8 10. O-O Nf8
+11. Bh2 {[%cal Gf3e5,Gf2f4] we have a much better version of the traditional
+QGD's. We want to play Ne5-f4 next.} *
+
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1 - QGD"]
+[Black "6.Bf4 c6 7.h3 0-0 8.e3 Bf5"]
+[Result "*"]
+[ECO "D35"]
+[Annotator "IM Kushager Krishnater"]
+[PlyCount "31"]
+[EventDate "2023.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,31,16,20,20,12,17,20,20,28,25,25,25,16,24,24,37,30,30,13,60,67,107,52,
+71,34,47,56,62,63,63,47,56,41] Welcome to the first chapter. We will begin by
+examining one of the critical setups of the QGD.} 1. d4 Nf6 2. c4 e6 3. Nf3 d5
+4. Nc3 Be7 5. cxd5 $5 exd5 (5... Nxd5 6. e4 $14 {[%csl Re7] gives us a much
+better version of the Semi-Tarrasch. White keeps an advantage thanks to the
+extra space in the centre.}) 6. Bf4 {The starting point of our system.
+Traditionally, people have preferred Bg5 setups/Bf4 setups without cd/cd ed
+Bg5 setups over this system. However modern engines have completely revamped
+our understanding of these positions. The point of cxd5 is to eliminate all of
+black's Nd5 ideas, with ... dxc4-Nd5 or after cxd5. We aim to play
+e3-h3-Bd3-0-0-Ne5, followed by Bh2-f4 and establishing a grip over the
+position. Another important plan to know is that for ...Bf5, we usually play
+quick h3-g4 to dislodge the bishop from the active diagonal.} c6 {[%csl Gd5]
+[%cal Gc6d5] black's most played move. This strengthens the d5-pawn.} 7. h3 $5
+{a rarer way of playing these positions. This vacates the h2 square for the
+bishop (which is useful against Black's idea of playing ...Nh5). Additionally,
+this moves helps in pushing g2-g4, in case Black decides to play ...Bf5.} O-O
+8. e3 {[%cal Gf1d3] we are now all set to play Bd3, after which we get our
+dream setup.} Bf5 $5 {[%cal Gf5d3] the most challenging move strategically.
+Black is happy to trade the light-squared bishops in these positions, as it is
+usually Black's 'worst placed piece' in these positions.} 9. g4 $1 {our point.
+Black now has three critical moves} Be6 (9... Be4 {[%csl Re4] is met with} 10.
+g5 {[%cal Gc3e4] with the intention of capturing on e4 next.} Nh5 {the most
+testing move.} (10... Ne8 {runs into} 11. Nxe4 dxe4 12. Nd2 {[%csl Re4][%cal
+Gd2e4]} Bxg5 13. Bxg5 Qxg5 14. Nxe4 Qe7 15. Qc2 Nd7 16. O-O-O $14 {[%csl Gd4,
+Rd7,Ge4,Re8,Gf1,Rg7][%cal Gh1g1] where white keeps good attacking prospects.
+We also have an active knight, and more space in the centre.}) 11. Bxb8 $1 {
+not allowing black to spoil our pawn structure with ...Nxf4.} Rxb8 12. Nxe4
+dxe4 13. Nd2 {[%csl Re4,Re7,Gf1,Rh5] Usually, opposite-coloured bishops have a
+drawish tendency. However, in positions where a side keeps attacking chances,
+it becomes a strength.} g6 14. h4 $1 {[%csl Gg5,Rh5][%cal Yf1e2]} c5 $5 {
+[%csl Re1] trying to open the position as our king is in the centre.} (14...
+Qd5 {runs into the thematic} 15. Qb3 $1 Rfe8 (15... Qxb3 16. axb3 $14 {[%csl
+Ra7,Re4] we will win one of the pawns next, and keep good chances to convert.})
+16. O-O-O {[%csl Rf7][%cal Gf1c4] we are all set to play Bc4 next, so black
+has nothing better than playing} Qxb3 {where after} 17. Nxb3 $14 {[%csl Rc5,
+Re4,Rh5][%cal Gb3c5,Gf1e2] we keep good chances to put pressure in the endgame.
+}) 15. dxc5 $1 Bxc5 16. Qb3 $1 {[%csl Re4][%cal Ge1c1,Gf1e2] If we are able to
+castle on the Queenside, we will be able to keep great attacking prospects on
+the Kingside.} Qe7 $6 (16... Rc8 {runs into} 17. Bh3 $1 Rc6 18. Nxe4 $14) 17.
+O-O-O $16 {[%csl Re4][%cal Gf1e2]}) (9... Bg6 {is met with the thematic} 10.
+Ne5 {[%cal Gh3h4] looking to win the bishop.} Nbd7 (10... Qb6 $143 11. Nxg6
+fxg6 (11... hxg6 12. Qc2 $16 {[%csl Gf1,Gf4,Rg6,Rg7]}) 12. Qc2 $14 {[%csl Gf1,
+Gf4][%cal Gf1e2,Gh3h4,Ge1c1]}) 11. Nxg6 hxg6 (11... fxg6 {this seems a bit
+unnatural, and after} 12. Qb3 $14 {[%cal Gf1d3,Ra2a4,Ra4a5] white keeps a
+healthy edge.}) 12. h4 $1 {[%cal Gh4h5] We are trying to start a kingside
+attack. Black has two logical responses to counter it.} Ne4 {Natural, but after
+} ({the natural} 12... Bb4 {is met with} 13. Rc1 $14 {[%cal Gf1d3,Gh4h5] where
+we keep the attacking threats.}) 13. g5 $1 $16 {[%csl Re4,Rg6,Rg8][%cal Gh4h5]
+Black is in grave danger. Something like} Bb4 {doesn't help, as after} 14. Rc1
+Qa5 $2 15. h5 {we are quicker with the attack. After} Nxc3 16. bxc3 Bxc3+ 17.
+Ke2 $18 {[%csl Rc3,Ge2,Rg6][%cal Gd1d3,Gh5g6] we have a decisive attack. Our
+king is quite safe on f3.}) 10. Bd3 {[%csl Re6] black now has the thematic
+'bad bishop'.} c5 {trying to punish us for pushing g4. However, after} ({
+the natural} 10... Nbd7 {is met with} 11. Qc2 $14 {[%cal Gf3g5,Ge1g1] where we
+keep a clear advantage.} (11. Ng5 c5 $132)) 11. Rc1 Nc6 12. Bb1 {[%csl Rc5,Rd5]
+[%cal Gd4c5] we have the typical edge thanks to the weaknesses in the centre.}
+Qb6 $5 (12... cxd4 13. Nxd4 Nxd4 14. Qxd4 $14 {[%csl Gd4,Rd5,Re6,Gf4][%cal
+Gf4e5]}) 13. O-O $1 {[%csl Rc5][%cal Yc3a4]} cxd4 14. Nxd4 Nxd4 15. Qxd4 Qxd4
+16. exd4 $14 {[%csl Gb1,Re6,Re7,Gf4][%cal Gf1e1] White keeps a risk-free edge
+thanks to the active pieces.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 2 - QGD - 6...c6"]
+[Black "7th/8th move alternatives"]
+[Result "*"]
+[ECO "D37"]
+[Annotator "IM Kushager Krishnater"]
+[PlyCount "33"]
+[EventDate "2023.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,33,26,20,20,20,20,20,20,20,25,25,24,16,32,30,37,23,60,55,55,44,45,50,
+61,7,9,10,6,-1,-15,-5,-3,-45,-52,-53]} 1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7
+5. cxd5 exd5 6. Bf4 c6 7. h3 {the starting point of this chapter. We'll cover
+Black's options on this move, along with the alternatives for 8...Bf5 on the
+next move.} O-O (7... Qb6 {is another possible option. We meet this with the
+natural} 8. Qc2 {defending b2, and stopping Bf5. If we are able to play e3-Bd3
+next, we will get our dream setup. Therefore, the critical line here seems to
+be} g6 $5 $146 ({note that} 8... O-O {is met with} 9. Rc1 $1 $14 {followed by
+e3.} ({Instead,} 9. e3 $6 {runs into} Bf5 $1 $11 10. Qxf5 $2 Qxb2 $1)) 9. e3
+Bf5 (9... O-O 10. Bd3 $16 {[%csl Gd3,Gf4,Rg7,Rh6] gives us the dream setup.})
+10. Qc1 {[%csl Rg7,Rh6] Usually, this sequence isn't supposed to be good.
+However, this particular position is quite fine for us because of Black's
+dark-squared weaknesses.} O-O 11. Be2 Nbd7 {natural, but blocks the f5-bishop.}
+(11... Ne4 {is met with} 12. Nd2 $1 {with the idea to meet} Nxc3 {with} 13.
+bxc3 $1 {[%csl Gc3,Gd4,Ge3,Rg7,Rh6][%cal Ga4a5,Ga2a4,Yc3c4] after} c5 14. dxc5
+Qxc5 15. Nb3 Qc8 16. Nd4 $14 {[%csl Gc3,Rf5,Rg6][%cal Gc3c4,Ge2f3] we have a
+great position due to the inclusion of g6.}) 12. g4 $1 {[%csl Rf5] we try to
+exploit the poor positioning of the bishop.} Be4 (12... Be6 13. Ng5 $1 c5 14.
+Qd2 cxd4 15. exd4 {gives a typical pleasant position. It's important to note
+that we are going to meet} Bd6 {with} 16. Nxe6 fxe6 {and now} 17. Bh6 $1 {
+preserving the pair of bishops.} Rf7 18. O-O $14 {[%csl Ge2,Re6,Gh6]}) 13. O-O
+{[%cal Yf3e1,Gf2f3] with the simple threat of moving the knight away, and then
+pushing f3. Black is forced to play} Bxf3 14. Bxf3 $14 {conceding the
+advantage of the bishop pair. White has a pleasant game.} Ne8 (14... Rfe8 $6
+15. g5 $16 {[%csl Rf6]}) 15. Re1 {[%cal Ge3e4] preparing e4.} Nd6 (15... Bd6 $6
+16. Bh6 Ng7 17. e4 $16) 16. e4 dxe4 17. Nxe4 Nxe4 18. Rxe4 $1 $14 {[%cal Ga2a4,
+Ga4a5]}) (7... Bd6 {has been tried by Hikaru. Black looks to swap our bishop.}
+8. e3 $1 {[%csl Re5][%cal Ge3f4] inviting Black to take, so that we can
+establish a grip over e5.} Bf5 $5 (8... Bxf4 $6 9. exf4 Qe7+ 10. Ne5 $14 {
+gives us a very pleasant position.}) (8... O-O 9. Bd3 $14 {is also quite
+pleasant for us.}) 9. Be2 {forced, as we don't want to trade the bishops.} O-O
+10. O-O Qc7 $5 (10... Ne4 11. Bxd6 Nxd6 12. b4 $14 {[%cal Gb4b5,Gd1b3] with
+the idea of playing out the typical plan of a4-b5.}) 11. Bxd6 Qxd6 {[%cal
+Yh7h6] Black is fine if he gets h6 in, but we exploit this with} 12. Nh4 $1 {
+[%csl Rf5] dislodging the bishop. After} Be6 13. Bd3 $14 {[%csl Re6][%cal
+Gf2f4,Yh4f3,Yf3g5,Gf3e5] we have a pleasant position.}) 8. e3 Nbd7 {The most
+natural way of playing. Black follows the typical IQP plan. However, since we
+haven't played Bg5 he has a better version of the standard lines.} (8... Qb6
+$1 {is an interesting, yet unplayed option. The point is to meet 9.Qc2 with ...
+Bf5!.} 9. Qb3 $1 (9. Qc2 $6 Bf5 $1 $11) 9... Bf5 $1 (9... Be6 {allows us to
+get the dream position with} 10. Bd3 {[%csl Re6] after} Nbd7 {we can safely
+plan} 11. Qc2 $1 $14 {[%csl Re6] not fearing} c5 12. O-O c4 13. Be2 $14 {
+[%csl Rd5,Re6][%cal Gb2b3,Ga2a4,Ga4a5,Yf3e5,Rf3g5]}) (9... Qxb3 10. axb3 $14 {
+[%csl Ga1,Ra7,Gf3,Gf4][%cal Gg2g4,Gf1d3,Gc3a4] gives us a typical QGD position.
+White keeps a pleasant position with the natural plans.}) 10. g4 Qxb3 (10...
+Bg6 {is met with} 11. Nh4 {forcing black to play} Qxb3 12. axb3 {[%cal Gh4g6]
+where black is forced to play} Bc2 {we can meet this with} 13. Nf5 Bxf5 14.
+gxf5 Nbd7 15. Bd3 $5 {[%csl Gd3,Gf4][%cal Gh1g1] with a pleasant position for
+white.}) 11. axb3 Bg6 $1 (11... Bc2 $6 {is premature, as after} 12. Rc1 Bxb3
+13. Nd2 $16 {[%csl Rb3] the bishop is trapped.}) 12. Rc1 Nbd7 13. Nh4 $14 {
+[%cal Bh4g6,Bf1e2,Bh3h4,Bf2f3]}) (8... Bd6 9. Bd3 {tr.}) 9. Bd3 $14 Re8 10. O-O
+Nf8 11. Bh2 $1 {[%cal Bf3e5,Of8g6] the right time. Bh2 is ideal against
+black's idea of ...Nf8.} Ng6 12. Ne5 {centralizing the knight at the right
+time.} Nxe5 (12... Bd6 $6 13. f4 $14 {[%csl Ge5][%cal Gd1f3] gives us great
+attacking chances.}) 13. dxe5 Nd7 14. Qc2 $1 {provoking} g6 {so that we can
+play} 15. e4 $1 d4 16. Ne2 Nc5 17. f4 $16 {[%cal Bf4f5] with a great attack.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 3- QGD-6...Bf5 7.h3 c"]
+[Black "Part I & other 6th move alt."]
+[Result "*"]
+[ECO "D35"]
+[Annotator "IM Kushager Krishnater"]
+[PlyCount "23"]
+[EventDate "2023.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,23,26,20,20,20,20,20,20,20,17,24,16,16,60,-2,22,15,24,24,24,27,23,17,
+19,14]} 1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. cxd5 exd5 6. Bf4 {This
+chapter brings us to black's other options in the QGD on 6th move, namely 6...
+Bf5.} Bf5 (6... O-O 7. e3 {and now both} Bf5 {or} (7... c6 8. h3) 8. h3 {
+should transpose to lines covered in the previous chapter, or the next one.}) (
+{trying to dislodge the bishop with} 6... Nh5 {is met with} 7. Bd2 {[%csl Rh5]
+where the knight seems misplaced} O-O (7... Nf6 8. h3 O-O 9. Bf4 {should
+transpose back to one of the lines after} Bf5 {or} (9... c6)) 8. e3 {[%csl Rh5]
+[%cal Gf1d3,Gf3e5,Yf2f4] we now have a modified version of the e3-Nimzo. Black
+has the bishop on the desired square, but the knight on h5 is misplaced.} b6 {
+we now have a good version of the e3-Bd2 variation of Nimzo.} (8... c5 {
+is not a problem as after} 9. dxc5 Bxc5 10. Bd3 Nc6 11. h3 {[%csl Rd5][%cal
+Gc3e2,Gd2c3,Ge1g1] We have a thematic IQP position, which is easier for white
+to play. We want to play moves like 0-0-Ne2-Bc3 next.} Nf6 12. O-O Re8 13. Ne2
+Ne4 14. Bc3 $14) (8... c6 {is not a problem as after} 9. Bd3 {[%csl Gd3,Rh5]
+we have our bishop on the active diagonal.} Nd7 10. O-O Nhf6 {Black has to
+bring the knight into the game sooner or later.} 11. Qc2 Bd6 (11... h6 12. Rfe1
+{is similar to the text.}) 12. Rfe1 h6 13. Re2 $1 {[%cal Ge3e4,Ga1e1]
+preparing e4 with all might. White keeps a pleasant position.}) 9. Ne5 $1 Nf6
+10. Bd3 {[%cal Yd1f3,Yf3h3,Gf2f4] We'll follow up with Qf3-h3 or f4.} Bb7 11.
+O-O c5 12. Qf3 $1 Nc6 (12... Nbd7 13. Qh3 {[%cal Be5d7,Bd3h7]} Nxe5 14. dxe5
+Ne4 15. f4 f5 16. Rad1 $14 {[%csl Rd5,Re5][%cal Gd2e1]}) 13. Qh3 h6 14. Rad1
+$14 {[%cal Gc3e2,Gf2f4,Gd2e1,Ge1h4] with great control over the position.}) 7.
+h3 {As mentioned in the introduction, we want to typically respond with h3 to
+early ...Bf5.} Nbd7 8. g4 {the right move order!} (8. e3 c6 $1 9. g4 Bg6 10.
+Nh4 Nf8 {is the key difference.}) 8... Bg6 (8... Be4 {is met with} 9. e3 {
+and after both} c6 {and} (9... O-O {we transpose to the next chapter.})) (8...
+Be6 {[%csl Re6] Black's bishop is passive here. After} 9. Ng5 $1 (9. e3 h5)
+9... Nf8 10. e3 {we keep a safe and solid edge.} h6 (10... c6 {runs into the
+thematic} 11. Qb3 $1 Qb6 12. Qc2 $14 {[%csl Rb6][%cal Ge1c1,Gc3a4,Gg5e6,Ga4c5]}
+) 11. Nxe6 Nxe6 12. Be5 $14) 9. Qb3 $1 {The point behind our move order. We
+want to exploit the weaknesses in black's camp.} O-O (9... Nb6 $6 10. Nb5 $16 {
+[%csl Rc7]}) 10. Bg2 {[%csl Rd5][%cal Gb3b7] we are all set to take on b7, so
+black is forced to play} Nb6 {[%csl Rb6] which we can meet with} 11. a4 a5 12.
+O-O $14 {[%csl Rb6][%cal Gf3e5] where we remain better due to the active
+positioning of our pieces. The knight on b6 is awkward.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 4- QGD"]
+[Black "6...Bf5 7.h3 c6"]
+[Result "*"]
+[ECO "D35"]
+[Annotator "IM Kushager Krishnater"]
+[PlyCount "29"]
+[EventDate "2023.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,29,25,25,25,27,23,31,27,27,27,20,12,17,31,13,35,1,15,15,14,16,21,6,12,
+16,22,22,28,29,24,19] In this chapter, we will be covering one of the most
+logical possibilities for black in the QGD. We will go through the variation
+with 6...Bf5 7.h3 c6!?} 1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. cxd5 exd5 6.
+Bf4 Bf5 7. h3 c6 {the starting point of this chapter.} 8. g4 $5 {[%csl Rf5] as
+mentioned several times earlier, ...Bf5 is usually met with early g4.} Be4 $5 (
+8... Be6 $6 {as we have seen multiple times, the bishop is poorly placed on e6.
+} 9. e3 h5 {the only sensible try. Other moves are weaker.} (9... O-O {
+transposes to Chapter 6.}) (9... Nbd7 {allows us to get our dream setup with}
+10. Bd3 $1 $14 Nb6 (10... c5 11. O-O $14) 11. Qc2 Bd6 12. Ne5 $14 {[%csl Rb6,
+Gd3,Ge5,Re6,Gf4]}) 10. g5 Ne4 11. Qb3 $1 {[%csl Rb7]} Qb6 (11... O-O {is
+comfortably met with} 12. Qxb7 Nd7 13. Qc7 $1 {neutralizing the initiative.
+After} Qxc7 14. Bxc7 Nxg5 15. Nxg5 Bxg5 16. Bd6 $14 {[%csl Rc6][%cal Gf1d3,
+Ge1d2,Ga1c1] we keep an edge thanks to the weakness on c6.}) 12. Bd3 Qxb3 {
+this isn't threatening, and after} 13. axb3 Bb4 14. Bxe4 dxe4 15. Nd2 $14 {
+[%csl Re4] white keeps a comfortable advantage.}) (8... Bg6 {is the subject of
+discussion of the next chapter.}) 9. e3 Nbd7 {this transposes to a line where
+there are a couple of games played by Magnus (from both colours).} (9... Qb6 $6
+10. Nxe4 $1 {winning the bishop at the right time.} Nxe4 (10... dxe4 11. Nd2
+Qxb2 12. Rb1 $18 {[%csl Rb7,Re4,Re7][%cal Gb1b7,Gd1c2]}) 11. Bd3 $1 {a very
+strong move. We are unbothered by the checks.} Qxb2 (11... Qb4+ 12. Kf1 Qxb2
+13. Bxe4 dxe4 14. Nd2 {[%csl Re4][%cal Ga1b1,Gf1g2] The king is going to be
+quite safe on g2.} Qb5+ 15. Kg2 Qd5 16. Rb1 b6 17. Qc2 $14 {[%csl Rc6,Re4]
+[%cal Gh1c1,Gc2e4] We will win the e4 pawn next and follow it up by putting
+pressure on c6.}) 12. O-O {[%csl Rb7,Re4][%cal Gd3e4,Gf3d2] our king is quite
+safe. We are all set to put pressure on e4/b7. Trying to get the knight way
+from e4 with} Nc3 {looks threatening, but after} 13. Qe1 {[%cal Ga1c1] with
+the idea of Rc1, we are doing very well.} O-O 14. Rc1 Bb4 15. Rc2 Qa3 16. Qc1
+Qxc1 17. Rfxc1 $14 {[%cal Gc1b1]}) (9... Bd6 $6 10. g5 {we are happy to take
+back on f4 with the pawn, as it increases our central grip.} Bxf4 (10... Nh5
+11. Bxd6 Qxd6 12. Nxe4 dxe4 13. Nd2 $18 {[%csl Re4,Rh5]}) 11. gxf6 $16 {
+white won comfortably in: 1-0 (49) Adhiban, B (2610)-Sanjay, S (1944) Pollachi
+2023}) (9... O-O 10. g5 {transposes to lines we have already checked.}) 10. Be2
+Qb6 $5 {Black tries to put immediate pressure on our position.} (10... O-O 11.
+O-O {[%cal Oc3e4,Of3e5]} Bxf3 12. Bxf3 Nb6 13. a4 a5 14. Qb3 {gives us a
+pleasant position due to the pair of bishops. We aren't better since the
+bishop on f3 is misplaced, but white does keep a very pleasant and easy to
+play position.}) 11. Qb3 {As usual, we don't mind the queen trades on b3} Qxb3
+12. axb3 Bg6 $5 {tried by Nepo.} ({perhaps more accurate was} 12... Bc2 $1 {
+with the intention of provoking Rc1, so that the rook is on an inferior square.
+} 13. Rc1 Bg6 $1 (13... Bxb3 $6 14. Nd2 $16) 14. Nh4 {[%csl Rc1] this is too
+deep for most players, including Nepo, who wasn't able to play out the
+sequence as black in a practical game.}) 13. Nh4 {[%csl Ga1] now white keeps a
+comfortable edge.} Bb4 (13... Bc2 14. Nf5 $14 {black is forced to give up the
+pair of bishops.}) (13... Ne4 14. Nxg6 hxg6 15. Bd3 f5 16. Ke2 $14 {also gives
+us typical double-bishop advantage.}) 14. Nxg6 hxg6 15. f3 $14 {White went to
+convert the game comfortably in 1-0 (43) Carlsen, M (2861)-Nepomniachtchi, I 
+(2792) Saint Louis 2022.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 5- QGD"]
+[Black "6...Bf5 7.h3 c6 8.g4 Bg6!?"]
+[Result "*"]
+[ECO "D35"]
+[Annotator "IM Kushager Krishnater"]
+[PlyCount "29"]
+[EventDate "2023.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,29,31,22,30,-16,4,9,1,9,15,11,11,14,64,1,33,0,0,-5,37,6,6,6,19,4,21,
+-13,-1,-1,-1,-1]} 1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. cxd5 exd5 6. Bf4
+Bf5 7. h3 c6 8. g4 $5 Bg6 {the starting point of this chapter. Black retreats
+with the bishop to the most logical square.} 9. Ne5 $5 {I recommend going for
+the most active response.} ({as discussed in the introduction,} 9. e3 {is met
+with} Nbd7 {[%cal Gd7f8,Gf8e6] where black is ready to play Nf8-e6 next.}) 9...
+Nbd7 {the most logical response.} (9... Qb6 $146 {is met with a very strong
+response.} 10. h4 $1 {we aren't afraid of} Qxb2 {due to the possibility of
+playing} 11. Qc1 {[%csl Rg6] black has issues with the bishop on g6.} Ba3 $5 {
+the most tempting.} ({another equally tempting option was} 11... Qxc1+ 12. Rxc1
+Ba3 (12... h6 {is met with} 13. Nxg6 fxg6 14. e3 {[%csl Rb7,Gf1,Gf4,Rg6][%cal
+Gc3a4] where the game is largely strategic, but white keeps a solid edge.} Nbd7
+(14... Nxg4 $6 15. Nxd5 $3 cxd5 16. Rc8+ Bd8 17. Ke2 $16 {[%cal Gf1h3,Gh1c1]}
+Kd7 18. Bh3 $3 h5 19. Rhc1 $18 {[%csl Ra8,Rb8,Rd8,Rh8][%cal Gf2f3]}) 15. Bd3
+Kf7 16. h5 g5 17. Bg6+ Ke6 18. Bf5+ Kf7 19. Be5 $14) {we win material here.
+After} 13. h5 Bxc1 14. Bxc1 Bc2 {we have the surprising} 15. Kd2 $18 {[%csl
+Rc2] where black is about to lose the bishop.}) 12. Rh3 $1 {[%csl Ra3,Rc3]
+[%cal Ge5g6,Gh3a3] the rook defends c3, and keeps an eye over the bishop on a3.
+Black still has issues with the bishop on g6.} O-O 13. Nxg6 fxg6 (13... hxg6 $4
+14. Qxb2 Bxb2 15. Rb1 Ba3 16. Na4 $18) 14. Qxb2 Bxb2 15. Rb1 Bxc3+ 16. Rxc3 Ne4
+$1 17. Rf3 {it looks like black is fine after} b5 {but we keep some pressure
+with} 18. g5 a5 19. Bh3 {[%csl Rc6] due to the weakness on c6. Black's only to
+remain in the game is} b4 {only move} 20. Be6+ Kh8 21. Rc1 Nc3 $1 {but after}
+22. Rfxc3 bxc3 23. e3 Na6 24. Rxc3 $44 {we keep good practical chances.}) (9...
+Nfd7 $6 10. Nxg6 hxg6 11. e3 g5 12. Bg3 {[%cal Gd1b3,Ge1c1,Ge3e4] gives us the
+typical advantage thanks to the better pawn structure and the pair of bishops.}
+) 10. Nxg6 hxg6 11. e3 $146 {we now possess the advantage of a pair of bishops
+so all we are aiming for is finishing the development comfortably.} Nf8 {
+the most logical response.} (11... Qb6 {is met with} 12. Rb1 {[%cal Gf1d3]
+followed by the usual moves.} Nf8 13. Bd3 Ne6 14. Be5 $14) (11... Bb4 {is met
+with} 12. Bd3 Ne4 13. Kf1 $1 {followed by Kg2. As seen several times already,
+we are not afraid to give up the b2-pawn to open up the queenside/safeguard
+our king. Our other strategic advantages compensate for the missing pawn.} Bxc3
+(13... Nxc3 14. bxc3 Bxc3 15. Rb1 b5 16. Kg2 $14 {[%csl Rc3,Rc6] black
+continues to face issues with the pawn on c6.}) 14. bxc3 g5 $5 (14... Nxc3 15.
+Qc2 $14 {[%csl Rc3]}) 15. Bh2 $1 Rxh3 (15... Qf6 16. Bxe4 dxe4 17. Kg2 $14 {
+[%csl Rb7,Rh3][%cal Ga2a4,Ga4a5,Yh2g3,Gh1h3]}) 16. Kg2 Rh6 17. c4 $16 {[%csl
+Rb7,Gd3,Re4,Re8,Gg2,Gh2][%cal Gf2f3] We are not afraid of opening up the
+position as our king is quite safe. Along with that, opening up the position
+while having the advantage of the bishop is quite principled too.}) 12. Qb3 Qb6
+13. f3 {[%csl Re4,Gf3,Rg4][%cal Gf3e4,Gf3g4,Gh3h4] a very thematic plan in
+these positions. With f3, we cover the e4/g4 squares and look to gain space
+with h4 at the right time.} Qxb3 14. axb3 Ne6 15. Bg3 $5 {this is a good
+moment to stop memorization. White keeps some pressure due to the activity of
+the pieces, the potential to gain space on the kingside, and the advantage of
+the pair of bishops.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 6- QGD"]
+[Black "6...Bf5 7.h3 0-0"]
+[Result "*"]
+[ECO "D35"]
+[Annotator "IM Kushager Krishnater"]
+[PlyCount "33"]
+[EventDate "2023.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,27,49,27,29,10,13,23,23,9,25,25,25,12,37,-5,19,23,43,5,19,19,22,21,20,
+11,21,14,10,6]} 1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. cxd5 exd5 6. Bf4 Bf5
+7. h3 O-O {the starting point of this chapter. Black spends no time on pawn
+moves and finishes the development. We have to be slightly careful here.} 8. e3
+$5 {a very rare case where we start with e3.} (8. g4 {here runs into} Be4 9. e3
+c5 $132) 8... Nbd7 9. g4 {the right time.} Bg6 {is met with the thematic} (9...
+Be6 {is comfortably met with the thematic} 10. Bd3 c5 11. O-O $14 {[%csl Re6]
+[%cal Gf3g5,Ga1c1,Gd3b1] with a typical strategic advantage due to the
+inactive bishop on e6 and the weaknesses on c5/d5.}) (9... Be4 {can be met with
+} 10. g5 {[%csl Re4] where black faces issues with the bishop.} Ne8 11. Bd3 $1
+({another possibility is} 11. Nxe4 dxe4 12. Nd2 Bxg5 13. Bxg5 Qxg5 14. Nxe4 {
+but black has a better version of the ...c6 lines as he has not spent time on
+it yet, and can attack our knight with ...Ndf6 next.}) 11... Bxd3 12. Qxd3 {
+[%cal Ge1c1,Gh3h4]} c6 13. h4 Bd6 14. O-O-O $14 {White retains great attacking
+prospects on the kingside.}) 10. Nh4 {with the intention to win the bishop.}
+Be4 (10... Bb4 11. Nxg6 hxg6 12. Qb3 {gives us exactly the position we were
+looking for.} Qe7 13. Bg2 c6 14. a3 $14) (10... Re8 11. Nxg6 hxg6 12. Qb3 $14 {
+[%csl Rb7,Rd5][%cal Gf1e2,Ye1c1,Gh3h4] is also quite comfortable for us.}) 11.
+Rg1 $1 {[%cal Gg4g5,Yc3e4] a strong move. We want to push the knight back with
+g5 and only then capture on e4.} c6 ({trying to strike in the center with} 
+11... c5 {is met with} 12. g5 cxd4 13. exd4 Ne8 14. f3 Bg6 15. Nxd5 $14 {
+where white keeps an edge due to the extra pawn.}) 12. g5 Ne8 13. Qg4 {[%cal
+Ge1c1] a good prophylactic move. We anticipate Bd6 and prepare 0-0-0.} (13. f3
+Bg6 $132 {[%csl Re7,Gf4][%cal Ge7d6]}) 13... Bd6 ({trying to stop us from
+castling on the queenside with} 13... Bb4 {is met with} 14. f3 Bg6 15. Kf2 $14)
+14. f3 Bg6 15. Nxg6 hxg6 16. Bd3 $14 Bxf4 17. Qxf4 $14 {[%cal Ge1f2,Gh3h4,
+Gh4h5] the difference here, is that our pawn structure is intact. We will place
+our king on f2 next, and try to blast open the kingside with h4-h5 next.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 7- QGD 4...a6"]
+[Black "all except 6...c6"]
+[Result "*"]
+[ECO "D37"]
+[Annotator "IM Kushager Krishnater"]
+[PlyCount "21"]
+[EventDate "2023.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,21,18,20,20,20,20,20,20,20,20,0,6,6,43,12,24,28,28,62,50,46,40,40]
+Chapters 7 & 8 cover the 4...a6 variation for black in the QGD. I recommend
+going for the very rare 6.Qb3!?, which in my opinion, is a very challenging
+try against black's system.} 1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 a6 5. cxd5
+exd5 6. Qb3 $5 {[%cal Gc1g5] a very cunning move. We have delayed Bg5 in hopes
+of catching in a particular move order trick. Black is unable to get Be6-Ra7
+in against our setup of Qb3-Bg5.} ({trying to achieve a similar position with} 
+6. Bg5 Be6 7. Qb3 Ra7 $1 {[%csl Rb3,Ge6][%cal Gc7c5,Gb8d7] gives black a
+comfortable game.}) 6... Be7 (6... b5 7. Bg5 $14 {runs into a well-known trap
+from the 6.Bg5 move order.} Be6 $2 {the most natural move in the position.} (
+7... c6 8. Qc2 $14 {[%csl Rc6][%cal Ge2e4,Gf3e5]}) 8. Bxf6 $1 {deflecting the
+queen.} Qxf6 (8... gxf6 {[%csl Rd5,Rf6,Rf7,Rh7] spoils black's pawn structure,}
+) 9. a4 {[%csl Ra6,Rb5] a very concrete moved aimed to provoke ...b4 so that
+black loses the control of the c4-square.} b4 10. Nxd5 {this looks very
+dangerous due to} Qd8 11. e4 c6 {but we have the stunning} 12. Qe3 $3 {[%csl
+Re8][%cal Ge3e8] with the idea to meet} cxd5 13. exd5 Qxd5 {with} 14. Rc1 $16 {
+[%cal Gf1d3,Gd3e4,Yf1c4,Yd4d5] with the idea to play Bc4-d5/Bd3-e4 on the next
+move.} Be7 (14... Qd6 {doesn't help, as after} 15. d5 Qxd5 16. Bc4 $18 {
+[%csl Re6,Re8][%cal Gf3g5,Ge1g1,Gc4e6,Gc1c8,Yg5e6,Rf7e6] black's king is
+busted.}) (14... Kd8 15. Bc4 $18 {[%csl Rd8] is a disaster in making for black.
+Black is dead and lost after something like} Qd6 16. Ne5 $18 {[%csl Rc6,Rd8,
+Rf7,Rh8][%cal Gc4e6,Yb8d7,Ge5c6,Gc1c6,Ye5f7]}) 15. Bd3 $1 {[%csl Ra8,Rd5][%cal
+Gd3e4,Ge4a8] This clever move is easy to miss.} Qb7 ({stepping out of the pin
+with} 15... Qd7 {doesn't help as after} 16. Be4 Ra7 17. d5 $18 {[%csl Ra7]
+[%cal Gf3e5,Re6g4,Ge3a7] black is still losing material.}) (15... Qb3 16. d5 $1
+Qxd5 (16... Bxd5 17. Rc8+ $18) 17. Be4 $18) 16. Be4 Qa7 17. Qf4 $18 {[%csl Ra8,
+Re6][%cal Gd4d5,Gc1c7] with moves like Rc7/d5 coming up next, it's very hard
+to survive this as black.}) (6... h6 {stopping Bg5, has been played by a lot
+of players. Here I recommend going for} 7. e4 $1 {with the idea to deflect the
+f6-knight.} Nxe4 (7... dxe4 8. Ne5 Qe7 9. Bc4 $18) 8. Qxd5 {and now black has
+two critical deviations.} Nxc3 {the most consistent.} (8... Qxd5 {runs into} 9.
+Nxd5 Bd6 10. Bd3 Nf6 11. Nxf6+ {where white keeps a comfortable game after}
+gxf6 {[%csl Rf6,Rf7,Rh6] due to the spoiled pawn structure.} 12. O-O $14) 9.
+Qxd8+ Kxd8 10. bxc3 {[%csl Rb7,Gc3,Gd4,Rd8][%cal Gc3c4,Ra2a4,Ra4a5,Gc1e3,Yf1d3]
+with a strategically easier position for white. Black cannot castle, and white
+keeps space in the centre. Our usual setup is going to be Be3-Bd3-c4 in these
+positions.} Be6 {preventing Bc4.} (10... Bd6 {was played by Grandelius. Black
+is looking to get a quick ...Re8.} 11. Be3 Bg4 {black wants to spoil our
+kingside pawn structure.} (11... Re8 12. Bd3 Nc6 13. O-O {[%cal Gf3d2,Gc3c4]
+followed by c4 gives us a very pleasant position. Please note that for ...Be6,
+we go for 14.Nd2 preparing c4.}) 12. Bd3 {we are not bothered though. After}
+Nd7 13. h3 Bxf3 14. gxf3 $14 {[%csl Rg7][%cal Ga2a4,Ga4a5,Gh1g1] we keep a
+typical advantage of the pair of bishops.}) 11. c4 $5 $146 {the strongest
+practical try in my opinion.} (11. a4 {runs into} a5 $5 {where I feel black is
+doing fine.}) (11. Be3 Ba3 $1 $11) 11... Bb4+ 12. Bd2 Bxd2+ 13. Kxd2 $14 {
+[%cal Ga2a4,Ga4a5,Gf1d3,Gd2c3] We keep good chances to press on the Queenside/
+in the centre in these endgames. Remember to avoid exchanging pieces as much
+as possible.}) (6... Ra7 $6 {runs into} 7. e4 {where black is struggling.} Nxe4
+8. Nxe4 dxe4 9. Ng5 {[%csl Rf7][%cal Gf1c4]} Qe7 10. Bc4 f6 11. Nf7 $16) ({
+another possible idea is to play} 6... c5 {challenging our center. Here we go
+for the natural} 7. Bg5 {[%csl Rd5] intending to put pressure on black's
+center.} c4 {this gains space, but fixes the weakness on d5.} (7... Nc6 8. Bxf6
+gxf6 9. e3 Be6 10. g3 $14 {[%csl Rd5,Rf6,Rf7][%cal Gf1g2] white is better due
+to the much better pawn structure.}) 8. Qc2 Bb4 {the only critical try. Black
+tries to stop e4.} (8... Be7 9. Bxf6 Bxf6 10. e4 $14) (8... Be6 9. e4 $14) 9.
+e4 $5 {we still go for the break.} dxe4 10. Bxf6 Qxf6 11. Qxe4+ Qe6 12. Ne5 $1
+{our point. We are threatening Bxc4 hence is forced to play} f6 (12... Bxc3+
+13. bxc3 f6 {transposes.}) 13. Bxc4 Bxc3+ (13... Qe7 $6 {runs into} 14. O-O {
+[%csl Re8][%cal Gc3d5] where the king is in heavy danger.} Bxc3 {runs into} 15.
+Bf7+ Kf8 16. bxc3 fxe5 17. Bb3 $14 {[%cal Ga1e1] with great attacking chances.}
+) 14. bxc3 Qe7 15. O-O $146 fxe5 16. f4 {it seems that black is about to be
+crushed in the center, but black can survive with} ({the natural} 16. Rae1 {
+runs into} Rf8 $3 17. Qd5 Nc6 $17) 16... g6 $1 17. fxe5 Bf5 {however after} 18.
+Qe3 Nc6 19. d5 Na5 20. Be2 O-O 21. e6 $44 {[%csl Ra5,Gd5,Ge6,Rf5][%cal Gg2g4,
+Ya1d1,Ga1e1] we still keep practical chances due to the enormously strong
+passed pawns.}) (6... Bd6 $6 {is met comfortably with} 7. Bg5 c6 8. e4 $16 {
+with a pleasant edge. ... dxe4 Nxe4 is a favorable inclusion for us, as the d6
+bishop is forced to retreat.}) 7. Bf4 O-O 8. e3 {we are heading towards a
+better version of the QGD cxd5 ed Bf4 lines (due to the inclusion of ...a6).}
+c6 (8... c5 9. dxc5 Bxc5 10. Rd1 $14 {[%csl Gc3,Rd5,Gf3,Gf4][%cal Gf1e2]}) 9.
+h3 {[%csl Gf3,Gf4][%cal Gf1e2] stopping Bg4. After} Bd6 10. Bxd6 Qxd6 11. Bd3
+$14 {[%csl Rb6,Rb7,Rc5,Rc8,Gd3,Gf3][%cal Gc3a4] We get our dream setup. White
+managed to win comfortably in 1-0 (80) Sargsyan, S (2645)-Kazakouski, V (2539)
+Katowice 2022} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 8- QGD 4...a6"]
+[Black "6...c6"]
+[Result "*"]
+[ECO "D37"]
+[Annotator "IM Kushager Krishnater"]
+[PlyCount "45"]
+[EventDate "2023.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,45,32,20,20,20,20,20,20,24,29,6,21,5,27,14,-10,-49,-40,-80,-69,-295,
+-278,-302,-302,-300,-227,-155,-177,-231,-225,-214,-214,-214,-111,-115,-89,-164,
+-164,-80,-103,-100,-111,-97,43,54,54,46]} 1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3
+a6 5. cxd5 exd5 6. Qb3 c6 {the starting point of this chapter. Here I
+recommend going for the sharp} 7. e4 $5 Nxe4 {the critical reply.} (7... Qe7 8.
+e5 $16 {[%csl Rf8]}) ({the most played move is} 7... Be7 $2 {but after} 8. e5
+$16 {white has a huge advantage already.} Ne4 9. Bd3 f5 (9... Nxc3 10. Qxc3 $16
+) 10. exf6 Nxf6 11. O-O O-O 12. Re1 $16 {[%csl Rb6,Rc5,Re5][%cal Gc3a4,Gc1g5,
+Gf3e5]}) (7... dxe4 {doesn't help too. After} 8. Ng5 {the attack is too much
+for black to handle.} Nd5 (8... Qe7 9. Bc4 $18 {[%csl Rf7]}) 9. Bc4 Be7 10. h4
+$1 {the last important move to memorise.} h6 11. Nxd5 cxd5 12. Bxd5 hxg5 13.
+Bxf7+ Kf8 (13... Kd7 14. d5 $16 {[%csl Rd7]}) 14. Bg6 $18) 8. Nxe4 Qe7 {
+the important response. Black prepares . ..Qxe4.} (8... dxe4 $6 9. Ng5 Qe7 10.
+Bc4 $18 {is quite horrible for black.}) 9. Bd2 $5 $146 {[%cal Ge1c1,Yd2b4] a
+very strong novelty. We stop ...Qb4+, and prepare 0-0-0.} dxe4 (9... Qxe4+ {
+is met with the rather strange} 10. Kd1 $1 {[%cal Gf1d3,Gh1e1] with the idea
+to include all pieces into the game with Bd3-Re1.} Qe7 (10... Be7 11. Bd3 Qg4
+12. Re1 $14 {[%csl Rb7,Rc8,Re7][%cal Gd2g5]}) (10... Qg6 11. Bd3 Qxg2 12. Re1+
+$4 Be7 13. Rxe7+ Kxe7 14. Qb4+ $18) 11. Kc2 $1 {our king is quite safe now,
+while black has issues with development.} Qc7 (11... Be6 12. Re1 $14 {[%cal
+Gf3g5,Gc2b1]}) (11... Bf5+ 12. Bd3 $16 {[%cal Ga1e1]}) 12. Re1+ Be7 (12... Kd8
+13. Ng5 $18) 13. h4 {[%cal Gf3g5] an important move. We are anticipating ...
+0-0.} O-O (13... Bf5+ 14. Bd3 Bxd3+ 15. Qxd3 O-O 16. Ng5 $18) (13... h6 14. Bd3
+{is quite dangerous too.} Be6 (14... O-O 15. Kb1 $16 {[%csl Rh6][%cal Gg2g4,
+Gg4g5]}) 15. Rxe6 $5 (15. Ba5 $5) 15... fxe6 16. Bg6+ Kd8 17. Re1 $44 {[%csl
+Rd8,Re6][%cal Gf3e5] our activity and the king's position fully compensate the
+missing exchange.}) 14. Bd3 {[%cal Gf3g5]} Bd6 15. Ng5 h6 16. Kb1 $16 {[%cal
+Gd3h7,Gh7c2,Yb3d3]}) (9... f5 $6 10. Bg5 $1 Qe6 11. Ne5 fxe4 12. Be2 {[%cal
+Ge2g4]} Nd7 13. Bg4 Qd6 14. Bxd7+ Bxd7 15. O-O $14 {[%csl Re8][%cal Gf2f3]})
+10. O-O-O $1 {the point.} exf3 (10... Bg4 11. Re1 $16) (10... Be6 {doesn't
+help too. White retains initiative after} 11. Bc4 Bxc4 12. Qxc4 Nd7 13. Rhe1
+O-O-O 14. Ng5 $14) (10... f5 11. Ng5 h6 12. Qh3 $16) 11. Re1 Be6 12. Bc4 $40 {
+this position is already very unpleasant for black in a practical game. Black
+needs to find great moves to defend this.} fxg2 (12... Kd8 {doesn't help, and
+after} 13. Bxe6 fxe6 14. Rxe6 Qd7 15. Rhe1 $18 {[%cal Gd2a5,Gb3f3] we have a
+crushing attack.}) ({it is natural to play} 12... Nd7 13. Bxe6 O-O-O 14. Bh3 {
+but white still keeps a great initiative.} Qf6 (14... fxg2 15. Rhg1 {
+transposes.}) 15. g3 Bd6 16. Re3 $14) (12... Qd7 13. Bxe6 fxe6 14. Rxe6+ Kd8 {
+transposes.}) 13. Rhg1 Qd7 {This is the computer's top preference. Black steps
+out of the pin. From a practical point of view this looks quite risky.} ({
+another possibility is to play} 13... Nd7 14. Bxe6 O-O-O {but after} 15. Bh3
+Qf6 16. Rxg2 {we still keep some initiative. Black needs to play the precise}
+Bd6 $1 $11 {[%csl Rg2][%cal Gd6g3] in order to not get worse.} ({instead, the
+natural} 16... h6 17. Rg3 $16 {[%cal Gg3f3] gives us a huge advantage.}) 17.
+Re4 $1 {[%cal Gd2f4]} (17. Bg5 $6 Bf4+ $15) 17... h6 18. d5 $36 {we still keep
+a huge initiative.} Kb8 $1 {the computer likes this, but is quite impractical
+in a game. I will still present some analysis for reference. Feel free to skip
+this.} (18... c5 19. Qe3 $16 {[%cal Gd2c3]}) 19. dxc6 Nc5 (19... b6 20. Qxb6+)
+20. Qb6 Qf3 21. Re3 Qd5 22. Ba5 Rc8 23. Bxc8 Rxc8 24. Rxg7 Bc7 25. Qxc7+ Rxc7
+26. Rg8+ Ka7 27. Bxc7 Qxc6 28. Bb8+ Kb6 29. Rd8 Nb3+ 30. Kd1 $11) 14. Bxe6 fxe6
+15. Rxe6+ Kd8 16. Rge1 $1 {[%cal Gd2a5,Ge6e8,Yd8c8] bringing the last piece
+into the game. We are threatening Ba5-Re8.} g1=Q {the most practical response.}
+(16... b5 {is the stockfish way, but black needs to calculate a lot of unreal
+lines to survive.} 17. Ba5+ Kc8 18. Re8+ Kb7 19. Rd8 {and here black two
+important responses.} Qf5 {keeping the f7-square controlled} ({another way of
+defending this position according to stockfish is} 19... Qe7 $3 {where I
+recommend going for} 20. Rxe7+ Bxe7 21. Rxb8+ Raxb8 22. Qg3 {and here the
+strong} Bd8 $1 {holds for black} 23. Qxg7+ Ka8 24. Bxd8 Rhxd8 25. Qxg2 Rd5 26.
+Qg7 $11) 20. Qg3 {[%cal Gg3c7]} Qf7 21. Qg4 {here black needs to spot the
+insane} g6 $3 22. Qc8+ Ka7 23. Kb1 {and now} Rg8 $3 {[%cal Gf7f5,Yg6f5,Rg8g1]
+which holds for black.} (23... Qf5+ $4 24. Qxf5 gxf5 25. Rc8 $18 Bd6 26. Re7+
+$1 Bxe7 27. Rc7#) 24. Rg1 Qf5+ 25. Qxf5 gxf5 26. Rc8 Rg7 $3 27. Rxf8 Nd7 28.
+Rxf5 $11) 17. Rxg1 $14 {With the g2 pawn away, white's position is much more
+easier to handle.} Kc8 (17... Bd6 $4 18. Rxd6 Qxd6 19. Qxb7 $18) (17... b5 18.
+Ba5+ Kc8 19. d5 $1 Qxd5 (19... Bd6 20. Qh3 $18 {[%csl Rd6][%cal Gg1g7,Yd5c6,
+Gg1d1]}) 20. Qh3 $18 Nd7 21. Rd1 $18) 18. Bf4 b5 19. Qe3 $1 Kb7 (19... Qd5 $1
+20. Kb1 $14) 20. Rg5 {[%cal Gd4d5,Ye3b6]} h6 21. Rf5 g6 22. Rxf8 Rxf8 23. Re7
+$16 {[%csl Rg6,Rh6] we still retain attacking prospects.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 9-Ragozin"]
+[Black "7...dxc4 & 6th move sides"]
+[Result "*"]
+[ECO "E51"]
+[Annotator "IM Kushager Krishnater"]
+[PlyCount "39"]
+[EventDate "2020.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,63,19,31,14,1,-3,6,6,6,41,-30,-13,-36,-6,-18,-12,-8,12,5,52,58,55,19,
+58,52,39,-16,28,10,23,-47,-47,-84,-30,-84,-62,-69,-38,-51,-41,-83,49,-8,-113,
+-128,0,0,0,-18,-37,-98,-74,-36,-20,-20,-41,0,-22,-28,-28,-11,-14,-14,-14,-13]} 
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Qa4+ Nc6 6. e3 O-O (6... Bd7 {
+has been tried by some strong players, but is it a bit weaker than the more
+natural 6...0-0. We can play the normal} 7. Qc2 {[%cal Gc2c3] defending c3.
+After} O-O 8. a3 {white has the typical advantage.} Bxc3+ (8... Be7 9. b3 $6
+$16 {[%csl Rd7,Re7] the bishops are awkwardly placed.}) 9. Qxc3 $14 {[%cal
+Gb2b3]} a5 (9... Ne4 10. Qc2 f5 11. b4 $14 {is a better version of the text.})
+10. b3 Ne4 {the only idea that makes sense. Black goes for a 'stonewall type
+position'.} 11. Qc2 f5 12. Bd3 Be8 {[%cal Ge8h5] looking to improve the bad
+bishop.} 13. O-O Bh5 14. Ne1 $16 {[%cal Gf2f3,Yd3e2,Ge1d3,Gc1b2] with a
+standard edge for white. We want to push the knight back with f3, and then
+lodge our knight on d3.}) (6... Bxc3+ $6 {is weak. After} 7. bxc3 O-O 8. Bd3
+$14 {black is not in time to play the typical b6-Na5 plan.}) 7. Qc2 dxc4 {
+the second most played move. Black releases the tension in the centre so that
+they can meet} 8. Bxc4 {with} Bd6 {[%cal Ge6e5] with the idea of challenging
+the centre ...e5 next.} (8... a6 $6 9. O-O Bd6 {is a bit weaker. White keeps
+an advantage with} 10. Rd1 {[%csl Rd8][%cal Gd4e5,Gd1d8]} Qe7 11. e4 e5 12. Bg5
+$16 {thanks to the extra space and activity.}) 9. O-O e5 10. h3 $5 {[%cal
+Gc8g4,Rh3g4] A strong prophylactic move. We are waiting for black to commit to
+a plan, and stop the plan of ...Bg4.} a6 (10... exd4 11. exd4 $14 {[%csl Gc4,
+Gd4][%cal Gc1g5] gives white an advantage. The c1-bishop can head over to g5
+next.} h6 12. Re1 a6 13. a3 Ne7 14. Ne5 $14 {[%cal Gc1f4] a typical plan in
+these positions. We would like to play Ne5 whenever possible.}) ({staying
+flexible with} 10... Bd7 {is met with the similar} 11. Bd2 {if black tries to
+launch an attack on the kingside with} exd4 12. exd4 Qc8 {we can go for} 13.
+Ne4 $1 Nxe4 14. Qxe4 Bf5 15. Qe3 $14 {[%csl Gc4][%cal Gd2c3,Gf3e5] where we
+are looking to play Bc3-Ne5 next. We keep some chances because of the activity
+of our pieces. It's not easy for black to move the f8-rook due to the weakness
+on f7.}) 11. a3 {[%cal Gc4a2] creating an escape square for the bishop, so
+that we can play dxe5-Nd4-f4 in some lines. We are waiting for black to show
+their hands.} h6 {stopping Ng5.} ({the natural} 11... Qe7 $6 {runs into} 12.
+Ng5 $1 g6 13. dxe5 $1 $146 Nxe5 14. Ba2 $16 {[%csl Rf7][%cal Gf2f4,Ge3e4]
+where we are able to roll the central pawns next.}) (11... Bd7 {is met with
+the flexible} 12. Re1 $1 {intending to meet} Qc8 {[%cal Gd7h3] with} (12... h6
+13. b4 $14 {[%csl Ga3,Gb4,Gc4,Gd4]}) 13. d5 $1 $146 {after} Ne7 14. e4 Ng6 15.
+Bf1 {[%cal Gf1h3]} c6 16. Qb3 $14 {[%csl Rb6,Rc5,Rd6,Rf6][%cal Gc1g5] white
+keeps some pressure thanks to the space on the queenside and the c5-b6-d6
+weaknesses.}) 12. Bd2 {[%cal Gd2c3] We develop our pieces normally. The other
+plan of the move is to play dxe5 Nxe5 Nxe5 Bxe5 f4, and after ...Bxc3,
+recapture with the bishop.} Re8 (12... Qe7 {allows to finally strike with} 13.
+dxe5 Nxe5 14. Nxe5 Bxe5 (14... Qxe5 $5 15. f4 {doesn't help black either. We
+are able to gain space in the centre.} Qh5 {is met with} 16. Bd3 {[%cal Gc3e4,
+Ye3e4] preparing e4/Ne4. We aren't afraid of} Bxh3 $4 {as after} 17. gxh3 Qxh3
+18. Rf2 {white has a decisive advantage.}) 15. f4 $14 {the point.} Bxc3 16.
+Bxc3 {[%csl Gc3,Gc4][%cal Ga1e1,Ge3e4] the bishops are quite strong.} Qxe3+ {
+this seems dangerous, but after} (16... Be6 17. Bd3 Bd5 18. Be5 $14 {[%csl Rc7]
+[%cal Ge3e4]}) (16... Re8 17. Rae1 $14) (16... b5 17. Ba2 Bb7 18. Bd4 Ne4 19.
+b4 $14 {[%csl Ga2,Rc7,Gd4]}) 17. Kh2 $14 {[%cal Ga1e1,Gf1f3,Gc3f6] it is black
+who needs to be careful.}) (12... exd4 13. exd4 Ne7 {[%cal Rc8f5]} 14. Bd3 $14
+{[%cal Gf3e5,Gf1e1,Ga1d1] gives us the typical space advantage.}) 13. dxe5 {
+finally!} Nxe5 14. Nxe5 Bxe5 15. f4 Bxc3 16. Bxc3 $14 {we have seen this
+previously too. White's plan is to play e4 at the right time.} Qe7 (16... Rxe3
+$4 17. Rad1 Qe7 18. Bd4 $18 {[%cal Ye3e4,Rd4f6]}) 17. Rad1 $1 {bringing the
+last piece into the game. White keeps an edge after} b5 (17... Qxe3+ 18. Kh2
+$16 {[%csl Gc3,Gc4,Rf6][%cal Gc3f6,Gf1f3,Gc2g6]}) 18. Bxf6 Qxf6 19. Bd5 Rb8 20.
+e4 $14 {[%csl Rc7,Gd5,Ge4,Gf4]} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 10-Ragozin"]
+[Black "7...Ne7/...b6/...a6/...Bd6"]
+[Result "*"]
+[ECO "D38"]
+[Annotator "IM Kushager Krishnater"]
+[PlyCount "45"]
+[EventDate "2020.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,45,29,27,26,21,24,21,16,20,37,-6,1,1,-4,4,13,1,25,29,29,16,16,25,33,
+30,41,41,40,43,27,27,27,27,37,23,23,22,42,4,38,34,34,29,55,45,52,55]} 1. d4 Nf6
+2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Qa4+ Nc6 6. e3 O-O 7. Qc2 {The starting point.
+In this chapter, we will be covering all of black's important options on the
+7th move except 8...Re8 & 8...dxc4.} Ne7 {[%cal Gc7c5] intended to prepare
+c7-c5.} (7... b6 8. Bd2 Ba6 {the main move in the position.} (8... Ne7 9. a3 {
+transposes to 7...Ne7.}) (8... Bd6 9. a3 Bb7 {[%csl Rb7,Rd6]} 10. cxd5 $1 exd5
+11. Nb5 Be7 12. Bd3 {these structures are quite comfortable for white. After}
+a6 13. Nc3 Bd6 14. b4 $14 {[%csl Rb7] white keeps a healthy positional
+advantage. Black has a weak pawn on c7 while the pieces on c6/b7 don't impress
+either.}) (8... Bb7 9. a3 Bd6 {tranposes to 8...Bb7.}) 9. Qa4 $5 {forcing the
+bishop to go back to an inferior square.} Bb7 10. cxd5 $5 {[%csl Rb4,Rc6][%cal
+Gf1b5]} exd5 (10... Nxd5 {is possible, but after} 11. Nxd5 Bxd2+ 12. Nxd2 Qxd5
+{and now} 13. Be2 $1 $14 {[%csl Rc6,Rc7,Gd4][%cal Ge2f3] white keeps a small
+edge due to the extra space in the centre.}) 11. Bb5 {we develop our bishop
+with a tempo. In order to preserve the bishop pair, black is forced to play}
+Qd6 {which we meet with} 12. a3 Bxc3 13. Bxc3 {after} Ne4 14. Rc1 $14 {White
+won a comfortable game in 1-0 (48) Niemann, H (2688)-Sevian, S (2684) Chess.
+com INT 2022}) (7... a6 {has been tried by some top players like Navara,
+Gajewski but seems unimpressive. White can gain space on the queenside with} 8.
+a3 Be7 (8... Bd6 9. c5 $16 {gives an extra tempo}) 9. b4 $14 {[%csl Gb4,Gc4,
+Gd4]}) (7... Bd6 {[%cal Gd5c4,Re6e5]} 8. c5 {gaining a free tempo.} ({trying
+to transpose with} 8. h3 {is met with the direct} e5 $1) 8... Be7 {[%cal Ge6e5]
+and now white needs to play the precise} 9. Bb5 {[%csl Re5] stopping e5 in its
+roots.} Nb8 $1 {[%cal Rc7c6,Rb8d7,Re6e5,Gb7b6] A clever move. Black now has
+the idea of pushing b6 next or playing c6-Nbd7-e5.} (9... Bd7 {can be replied
+with} 10. a3 a5 11. Rb1 b6 12. b4 $14 {[%csl Ga3,Gb4,Gc5,Gd4,Re7] where white
+keeps a good edge thanks to the extra space on the Queenside.}) 10. e4 $5 {
+the right time to gain space in the centre.} (10. a3 b6 11. b4 a5 $11 {Black
+was doing fine in ½-½ (30) Bacrot, E (2711)-Aronian, L (2777) Baden-Baden
+2015}) 10... dxe4 11. Nxe4 Nxe4 {this was played in OTB game in this variation.
+However, after} ({the natural} 11... Nbd7 $6 {gives white great attacking
+chances after} 12. Neg5 h6 13. h4 $16) ({black needs to play the very concrete
+} 11... Bd7 $1 $146 {in order to equalize. This is not easy, as black's
+original intention was to play something else.} 12. Bd3 h6 13. a3 $5 {keeping
+the b4 square under control.} (13. Bf4 Nc6 $1 {[%cal Gc6b4]}) 13... Bc6 (13...
+Nc6 {allows us to play} 14. Nc3 $14 {[%csl Rd7,Re7]}) 14. Bf4 $14) 12. Qxe4 Qd5
+13. Qxd5 $146 (13. Qe2 {was played in: ½-½ (19) Krasenkow, M (2610)-Gajewski,
+G (2610) Poland 2016 but after} Nc6 {black was doing fine.}) 13... exd5 14. Bf4
+c6 15. Bd3 $14 {[%csl Ra8,Rb8,Rc8,Gd3,Gf3,Gf4][%cal Ga2a4,Gb2b4,Gb4b5,Ye1d2,
+Gf3e5,Yh2h4,Yg2g4] white keeps great chances. We can gain space on either
+flank while white's pieces are much better placed too.}) 8. Bd2 {[%cal Ga2a3,
+Gd2c3,Gc3d4,Rc7c5] a prophylactic attempt against c5. We are looking to push
+a3 on the next move. Black now has two critical attempts.} c5 (8... b6 {
+is met with the natural} 9. a3 Bxc3 {black gives up the bishop pair to
+challenge the centre.} ({trying to preserve the bishop with} 9... Bd6 {was
+tried by Fabi. Here the strongest approach seems to be gaining space on the
+Queenside with} 10. b4 c6 {and here I propose the novel} 11. e4 $146 {gaining
+space in the centre. After} dxe4 12. Nxe4 Nxe4 13. Qxe4 f5 14. Qe2 $1 {[%csl
+Gb4,Gc4,Gd4,Re6][%cal Gg2g3,Gf1g2] white keeps a comfortable space advantage.
+We want to play g3-Bg2 next.} c5 (14... b5 15. Qd1 $16) 15. g3 cxd4 16. Bg2 $14
+{[%csl Rd4,Re5,Re6][%cal Ge1g1] black has issues with development and the
+weaknesses on d4/e6.}) 10. Bxc3 Ba6 {the point behind black's play.} ({trying
+to stop b4 with} 10... a5 {however, we can neutralize the central tension this
+time with} 11. cxd5 {[%csl Gc3,Rc7,Gf1] and claim a small edge due to the
+advantage of a pair of bishops and the weakness on c7.} exd5 (11... Nexd5 12.
+Bd2 $14 {[%csl Rc7,Gd4][%cal Gf1e2,Rf1d3]}) 12. Bd3 Ba6 {black solves the
+issue of pair of bishops, but after} 13. Bxa6 Rxa6 14. O-O $14 {[%csl Rc7]
+[%cal Gf1c1,Gc3e1,Gf3e5] white keeps a healthy edge due to the better
+positioning of pieces and the weak pawn on c7.}) (10... Bb7 {allows us to bind
+the Queenside with} 11. c5 $14 {[%csl Rb7,Gc3,Gc5,Gd4,Re7,Gf1][%cal Yb2b4]})
+11. b3 {we keep the centre intact. Black therefore needs to challenge it with}
+Rc8 12. Bd3 $1 c5 $1 $146 (12... Nf5 {is met with} 13. O-O Nd6 14. Ne5 $16 {
+[%csl Gc3,Gc4,Gd3,Gd4,Ge5] where white keeps a huge advantage.}) 13. dxc5 $1 {
+[%cal Gc3f6]} Rxc5 {black's strongest response.} (13... dxc4 {is met with the
+rather strange looking, but very strong} 14. bxc4 $1 {[%csl Gc3,Gd3][%cal
+Gc3f6,Gd3h7] spoiling the pawn structure but keeping chances on the kingside
+alive.} Rxc5 {is met with} 15. Rd1 {[%cal Gd1d8,Rd3h7] getting the rook into
+the game. The key tactical point is that} Qc7 {runs into} (15... Qc8 16. Qb2 $1
+$14 {[%csl Rf6]}) 16. Bb4 Rh5 {and now the incredible} 17. Bd6 $3 $16 {[%csl
+Gd6][%cal Gd3h7]}) 14. Rd1 $1 Qc8 (14... Qc7 15. Bb4 $16) 15. Qb2 $14 {[%cal
+Gc3f6]}) 9. a3 Bxc3 10. Bxc3 {white now possesses the pair of bishops so our
+goal is to finish development as quickly as possible.} cxd4 $1 (10... b6 $6 {
+runs into} 11. dxc5 bxc5 12. Bd3 $16 {[%csl Gc3,Rc5,Gd3,Rd5]}) (10... Ne4 $6 {
+allows to exploit the loose points in black's position with} 11. dxc5 Nxc5 12.
+cxd5 $16 {[%csl Rc5][%cal Gc3g7,Yb2b4]}) 11. Bxd4 Bd7 $5 {the point behind
+black's play. Black wants to play ...dxc4-Bc6 next.} (11... Nf5 12. c5 $14 {
+[%cal Gb2b4] allows us to build a healthy spacial edge.}) ({trying to win the
+bishop with} 11... Nc6 {is met with} 12. Bc3 Ne4 13. Rd1 {[%csl Rd5][%cal
+Gc4d5] where we target the weak pawn in the centre. White keeps a healthy
+position after} Nxc3 14. Qxc3 Ne7 15. Bd3 $14) 12. cxd5 $5 $146 {I find this
+novelty to be quite testing practically.} Nfxd5 $1 {[%cal Ge7f5] looking to
+play ...Nf5 next.} (12... Nexd5 {is met with} 13. Bd3 {where we keep an edge
+if we are able to play 0-0 next. Black should therefore try and eliminate our
+bishop with} Bb5 $1 {but after} (13... Qa5+ $6 14. b4 $16) (13... Rc8 14. Qe2
+$14 {[%csl Gd3,Gd4][%cal Ge1g1]}) 14. O-O Rc8 15. Qd1 Bxd3 16. Qxd3 $14 {
+[%csl Gd4] we keep an edge thanks to the active bishop on d4.}) 13. Bd3 Rc8 {
+the best way to get the desired setup with ...Nf5} (13... Nf5 14. Bxf5 exf5 15.
+O-O {these positions might seem dry optically, but white carries some venom
+here. While white can improve the position endlessly, black has to sit tight.
+This is not easy for any player. Let me present some sample lines here.} Qe7
+16. Rac1 Rfd8 (16... Rac8 $2 17. Bc5 $1 Qe6 (17... Qf6 18. Qd2 $18 {[%csl Rd5]
+[%cal Gc5f8]}) 18. Nd4 $16 {[%csl Ra7,Rb7][%cal Gc2b3]}) 17. Rfd1 Be6 18. b4
+$14 {[%csl Ra7,Rf5,Rg7][%cal Gc2b2,Gd4c5,Gf3d4]}) (13... h6 14. O-O $14) 14.
+Qb1 Nf5 15. Bxf5 exf5 16. O-O {the inclusion of ...Rc8-Qb1 has slightly
+favored black, but the position still remains much easier to play as black. I
+would invite you to move around a bit to understand the plans in the position.
+Some sample lines-} Qe7 17. Rd1 Be6 18. Qd3 Rfd8 19. Rac1 a6 20. Rxc8 Rxc8 21.
+Be5 $1 {[%cal Gf3d4]} h6 (21... Nb6 $2 22. Bxg7 $16) 22. h3 Rd8 23. Nd4 $5 *
+
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 11-Ragozin"]
+[Black "7...Re8 9.a3 e5"]
+[Result "*"]
+[ECO "D38"]
+[Annotator "IM Kushager Krishnater"]
+[PlyCount "35"]
+[EventDate "2020.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,35,24,28,20,10,10,13,23,23,25,-60,-42,-25,-27,-25,-9,17,27,27,-13,-13,
+-2,-10,1,-4,4,-18,24,4,17,0,-18,-17,-42,-32,-16,-27] With chapter 11, we move
+on to the most critical move 7...Re8.} 1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4
+5. Qa4+ Nc6 6. e3 O-O 7. Qc2 Re8 {[%csl Rf8][%cal Gb4f8,Ge6e5,Gd5c4] Black
+vacates the f8-square for the bishop. Additionally, the rook is useful in
+preparing the e6-e5 break.} 8. Bd2 {[%cal Gd2c3,Ye1c1] a dual-purpose move.
+The bishop is very useful on c3 in these positions. Additionally, we prepare
+0-0-0.} Bf8 9. a3 $5 {a flexible move intended to stop Nb4.} (9. O-O-O $6 Nb4
+$1 $17 {[%cal Ga7a5,Gc7c5]}) 9... e5 {the main response from black in these
+positions. Black decides to strike in the centre immediately. Other responses
+from black on 9th move are covered in subsequent chapters.} 10. dxe5 Nxe5 11.
+cxd5 {here black has two important branching points.} Nxf3+ {this spoils our
+pawn structure but also opens up the g-file for our rook.} ({the other
+possibility is to play} 11... Nxd5 {this is met with} 12. Nxe5 Rxe5 13. e4 {
+where white keeps a small edge due to the extra space in the centre.} Nxc3 14.
+Bxc3 Rc5 $3 {[%cal Gf8d6,Gc8e6] black's best bet. The rook does not interfere
+with the movement of both the bishops.} (14... Re8 {runs into} 15. Bd3 Bd6 16.
+O-O-O $14 {[%csl Gc3,Gd3,Ge4] where white keeps a stable advantage. White
+managed to win in 1-0 (48) Le, Q (2709)-Navara, D (2681) Prague 2022}) (14...
+Re6 {[%csl Rc8] restricts the movement of the c8-bishop. After} 15. Bd3 Qg5 (
+15... Rg6 16. g3 Bg4 17. O-O) 16. O-O $14 {white keeps a steady advantage.})
+15. Bd3 Bd6 {[%csl Rh2][%cal Gd6e5]} 16. Qe2 {getting out of the pin} (16.
+O-O-O {runs into} Qf8 {[%cal Yf8c5,Gd6e5]}) 16... Qh4 (16... Qg5 {is
+comfortably met with} 17. O-O {[%cal Ge4e5,Gf2f4]}) 17. g3 Qh3 18. O-O-O $14)
+12. gxf3 Nxd5 {and here I recommend going for the rarer} 13. h4 $5 {which
+stops Qh4. h4 is also useful in a subsequent kingside attack.} (13. O-O-O Nxc3
+(13... a5 $5) 14. Bxc3 Qh4 $11 {is quite fine for black.}) {we will be
+checking several of black's logical attempts here} 13... a5 $5 {with the idea
+to meet 14.0-0-0 with ...Nb4.} (13... c6 $143 {is strategically weaker and
+allows us to display our idea after} 14. O-O-O b5 15. Bd3 h6 16. Rhg1 $40 {
+[%csl Rg7][%cal Gg1g7,Gd2c3,Gc3g7] where white keeps great attacking chances.
+I feel that black's position is much harder to play practically.}) (13... Qf6 {
+[%csl Rh1][%cal Yc3d5,Rf6f3,Gf3d5,Gf3h1] is comfortably met with} 14. Be2 $1
+$14 {[%cal Gc3e4,Ge1c1,Gh1g1,Ye2f3] we retain all of our attacking
+possibilites.}) ({the logical} 13... Be6 $143 {is weak too. After} 14. O-O-O c6
+15. Bd3 h6 16. Ne4 $40 {white keeps great attacking prospects.}) ({one of the
+two major moves in the position is} 13... Nxc3 $1 14. Bxc3 {and now the very
+concrete} Qd5 {[%csl Rf3][%cal Gc8f5] with the idea of ...Qxf3 and ...Bf5.
+Here I recommend going for} ({something like} 14... Be6 {is much weaker and
+after} 15. Bd3 $18 {[%csl Gc3,Gd3][%cal Gd3h7,Gc3g7,Ge1c1] white will start a
+huge kingside onslaught after 0-0-0.}) 15. Be2 Bf5 16. Qa4 {trying to keep the
+Queens on the board.} Bd7 $1 {The strongest response. Black wants to meet Qf4
+with ...Bd6.} (16... Rad8 17. h5 $14 {[%csl Rg7][%cal Gh1g1] gives us chances
+to put pressure on the kingside.}) 17. Qf4 Bd6 {we cannot avoid a Queen trade
+but can exchange it on favourable terms.} 18. Bc4 $1 Bxf4 19. Bxd5 c6 20. Be4 {
+our bishops are quite active. If black tries to neutralize one of them with}
+Be5 {we can go for} 21. O-O-O $1 Rad8 22. Bxe5 Rxe5 23. Rd4 {[%csl Rd7,Rd8]
+[%cal Gh1d1,Ye4h7] where we keep some pressure.}) 14. Bd3 $1 (14. O-O-O $6 Nb4
+$1 15. axb4 axb4 16. Nb1 Qf6 $17 {[%csl Rc1,Rf3][%cal Ge8e6,Ye6c6]}) 14... h6 {
+the strongest choice for black.} (14... g6 {allows us to display our idea with
+full force.} 15. h5 $1 Nf4 {the most practical attempt.} (15... Bg7 {runs into}
+16. e4 Nxc3 17. Bxc3 $16 {[%csl Rc7][%cal Gc3g7,Ge1c1,Yh5h6,Gc2c7] where
+black's king is coming under huge pressure.}) 16. Bb5 $1 $146 {[%cal Gh5g6]
+The smartest choice. We want to play hxg6 on the next move.} (16. Be4 Nxh5 $11)
+16... c6 17. hxg6 hxg6 {[%cal Gh1h8] now that the h-file is open, we can go for
+} 18. Be2 Nxe2 19. Nxe2 $16 {[%cal Ge1c1,Gd2c3] intending 0-0-0-Bc3, with a
+huge attack.}) 15. e4 {inviting black to play} (15. O-O-O Nb4 $17) 15... Nxc3 {
+so that we can bring our bishop into the action with} 16. Bxc3 {after} Be6 17.
+O-O-O Qd6 18. Rhg1 $40 {[%csl Gc3,Gd3,Rg7,Rg8] Black is under some pressure
+due to the exposed king.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 12-Ragozin"]
+[Black "7...Re8 9.a3 b6/a6"]
+[Result "*"]
+[ECO "D38"]
+[Annotator "IM Kushager Krishnater"]
+[PlyCount "47"]
+[EventDate "2020.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,47,24,25,27,10,23,24,26,20,34,-25,-8,-8,-6,-15,23,27,27,34,34,64,48,
+30,53,61,69,-16,48,15,16,-47,6,8,20,9,66,63,90,57,55,58,58,62,62,71,71,-27,-27,
+-76]} 1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Qa4+ Nc6 6. e3 O-O 7. Qc2 Re8
+8. Bd2 Bf8 9. a3 {In this chapter, we will be covering 9...b6/a6 for Black.} b6
+{[%cal Gc8b7,Yc6e7,Gc7c5] an interesting idea, trying by Fabiano & Ding.} (9...
+a6 $6 {with the idea of play dxc4-b5 next. We aren't afraid of this though, as
+it weakens the Queenside. This plan is good for Black with the knight on d7,
+and not on c6.} 10. Bd3 {[%cal Gf3g5,Yh2h4]} dxc4 (10... g6 11. O-O $16 {
+[%csl Gc4,Gd4][%cal Ga1d1,Ge3e4] we will try to play e4 at the right time.}) (
+10... h6 11. O-O dxc4 12. Bxc4 {transposes.}) 11. Bxc4 h6 {covering the g5
+square to push ...e5 next.} (11... e5 $4 12. Ng5 $18) (11... b5 {is weaker as
+after} 12. Bd3 Bb7 13. Ne4 $16 {white has the complete grip over the c-file.})
+12. O-O e5 {this can be met with the thematic} 13. dxe5 Nxe5 14. Nxe5 Rxe5 {
+and now} 15. e4 $1 {[%cal Gf2f4,Ya1d1,Yf1e1] gaining space in the centre. With
+the right preparation, we want to play f4 next.} Re8 (15... Be6 16. Be2 $14 {
+[%cal Gf2f4]}) (15... b5 16. Ba2 $14 {[%cal Ya1e1,Gf2f4,Ga2b1,Ge4e5]}) 16. Rad1
+Qe7 17. Rfe1 $14) 10. cxd5 exd5 11. Bd3 Ne7 {[%cal Ge7g6,Gc7c5] the sternest
+response. Black prepares ...Ng6-c5.} (11... Bb7 $143 {allows to play the
+typical} 12. O-O Rc8 13. b4 $14) (11... Na5 $143 {is met with} 12. b4 {after
+which the knight has to an inferior square} Nb7 (12... Nc4 {runs into} 13. Nxd5
+Nxd2 14. Nxf6+ Qxf6 15. Nxd2 {black can try to strike with} c5 {but we aren't
+afraid of this. White can opt for the simple & strong} 16. O-O cxd4 17. Bxh7+
+Kh8 18. Be4 Rb8 19. exd4 $14 {with an edge thanks to the safer king and the
+much more active pieces.}) 13. O-O c5 14. dxc5 bxc5 15. Rfd1 $14 {[%csl Rb7,
+Rd5][%cal Gd2e1,Gd3e2]} cxb4 $6 16. axb4 Bxb4 17. Nb5 $14 {[%csl Ra7,Rc6][%cal
+Gf3d4,Gb5c7,Gd4c6] with a safe edge for white.} (17. Nxd5 $1 $14)) 12. Ne5 $5 {
+the most ambitious. We place our knight on to the most active square.} a6 $1 {
+[%cal Yc7c5] the strongest response for black. Black covers the b5 square to
+prepare ...c5.} (12... Ng6 $143 {is met with the thematic} 13. f4 {[%csl Ge5]
+[%cal Ge1g1] after which we have the complete grip over the centre.} a6 (13...
+c5 {is met with the typical} 14. Bb5 {if black opts for} cxd4 (14... Bd7 15.
+Nxd7 Nxd7 16. O-O $16 {[%csl Rd5]}) 15. exd4 Bd7 {trying to exploit the pin on
+the e-file, we can opt for} 16. Bd3 $1 {preserving the bishop. White keeps an
+edge due to the active knight on e5. A sample line can be} b5 17. O-O a6 18.
+Kh1 $14 {[%cal Ga1e1]}) 14. O-O c5 15. Kh1 $14) (12... Bb7 {is quite passive.
+After} 13. O-O Ng6 14. f4 $14 {[%csl Rc6,Rc7][%cal Gb2b4,Ya3a4,Ya4a5,Gd2e1]
+white has a much better version of the e3-Bd2 Nimzo. We want to play a4-a5/b4
+or Be1 next.}) (12... c5 $6 {runs into} 13. Bb5 Nd7 14. Qa4 $16 {[%csl Ga4,Gb5,
+Rd7,Ge5,Re8][%cal Gb5e8] White won comfortably in 1-0 (22) Kantor, G (2553)
+-Saksham, R (2393) Chesterfield 2022}) 13. g4 {this time we come directly at
+the black king!} (13. f4 $6 {isn't possible as after} c5 14. O-O c4 15. Be2 {
+black is able to play} Bf5 $1 $15) 13... g6 $146 {[%csl Rd3] the most
+practical reponse in my opinion.} (13... h6 {played in the only correspondence
+game in this position. However, for a practical game, this looks very
+dangerous to play as black. We can continue to build our attack with} 14. Rg1
+c5 15. O-O-O {black's best bet here is to start an attack of their own with} c4
+16. Be2 b5 {but after} 17. h4 {[%cal Gg4g5] we are quicker. Black tried} Rb8 {
+in the game, preparing ...a5-b4. We can continue with} 18. Bf3 {[%cal Ge3e4]
+preparing the e4 break. After} Be6 19. g5 hxg5 {and now the novel} 20. hxg5
+$146 Nd7 21. Rh1 $40 {we have a huge attack. The computer can defend this but
+in a practical game, I really fancy white's chances. Some sample lines.} g6 22.
+Nxg6 fxg6 (22... Nxg6 $6 23. Nxd5 Bg7 24. Nf4 $14 {gives us a great attack.})
+23. Nxd5 Bg7 24. Nxe7+ Qxe7 25. Qxg6 Nf8 26. Qe4 $40 {[%csl Rg8][%cal Gd2c3,
+Gd4d5]}) 14. f3 $1 {[%cal Gh2h4,Gh4h5] preparing h4 next.} c5 (14... Nd7 {
+doesn't help. We can continue with the natural} 15. O-O-O c5 {transposing to
+the position covered with 14...c5 15.0-0-0 c4 move order.}) 15. O-O-O {and now
+Black has two critical choices.} c4 {the most natural.} (15... Nd7 {is
+possible, but after} 16. h4 Bg7 17. h5 {The attack looks extremely dangerous
+for black. Some sample lines-} Nxe5 18. dxe5 Bxe5 {and now we can start
+ripping up the kingside with} (18... b5 {is met with the thematic} 19. hxg6
+hxg6 20. e4 $14) 19. f4 Bg7 20. hxg6 hxg6 21. f5 $1 {White's attack is
+extremely strong. We aren't afraid of} c4 {and can continue with the natural}
+22. fxg6 cxd3 23. gxf7+ Kxf7 24. Rdf1+ {with a huge attack. Black is forced to
+play} Ke6 (24... Kg8 25. Qxd3 $18 {[%csl Rg8][%cal Gd3h7]}) {but after} 25.
+Qxd3 {[%csl Re6] the position speaks for itself.}) 16. Be2 b5 17. h4 {we start
+building up our attack. Black's most logical response seems to be} Qb6 18. h5
+a5 (18... Bg7 {runs into} 19. hxg6 hxg6 20. Rh4 $14 {with a huge attack. We
+aren't afraid} a5 21. Rdh1 b4 {as after} 22. Na4 Qd6 23. Nc5 $16 {[%cal Gf3f4]
+white has the complete control of the position.}) 19. hxg6 hxg6 {and now we
+can strike in the centre with} 20. e4 $1 {after} (20. Kb1 $5 {is possible too.}
+) 20... b4 21. Na4 {we have a decisive attack. Note that} Qxd4 {runs into} 22.
+Bf4 Qf2 23. Rdf1 Qa7 24. Bd1 $1 $18 {[%cal Gc2h2,Gf4g5,Gg5f6,Gh2h7] with an
+onslaught on the h-file to follow next.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 13- Ragozin"]
+[Black "7...Re8 9.a3 h6- 11.h3 Ne4"]
+[Result "*"]
+[ECO "D38"]
+[Annotator "IM Kushager Krishnater"]
+[PlyCount "43"]
+[EventDate "2020.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,43,27,25,24,20,24,21,17,15,30,-23,-15,-15,1,5,27,11,12,19,44,11,9,20,
+31,17,13,0,16,-15,11,7,-19,-15,-7,-19,4,0,0,0,0,-29,-21,-19,-9,-47]} 1. d4 Nf6
+2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Qa4+ Nc6 6. e3 O-O 7. Qc2 Re8 8. Bd2 Bf8 9. a3
+{In this chapter, we will begin our coverage on} h6 $5 {which has been the
+preference of many top players. Black isn't committed to a plan yet. Here I
+recommend going for} 10. cxd5 {to stop the ...e5 break.} (10. O-O-O $6 a5 $15 {
+[%cal Gc6b4] is Black's point.}) 10... exd5 {and here I recommend going for}
+11. h3 $146 {preventing Bg4. The lines here are very strategic and non-forcing
+so I would recommend you to focus more on the plans than the concrete moves.} (
+{the most common move in the position is} 11. Bd3 {but after} Bg4 {I found
+black's position quite easy to play.}) {Black has several logical ways to play.
+In this chapter, we will check the most ambitious response from Black} 11...
+Ne4 {with the idea to meet} 12. Bd3 {with} Bf5 {here I recommend going for} 13.
+O-O {[%cal Gd2e1,Gf3e5,Gf2f4,Yc3e2,Ye2f4,Yc3a4,Yb2b4,Rf3h2,Rf2f3,Rd8d7] Where
+we reach a very complex strategic position. Let me summarise the plans for
+white in detail. One of our plans is to play Be1-Ne5 followed by gaining space
+with f4. We can also play Ne2-Nf4 in a few positions. A rare, but occasional
+plan is to gain space on the Queenside with Na4-b4. Finally, we also have the
+tactical motif of moving the f3 knight and pushing f3. In the case that Black
+opts Qd7, Nh4 becomes a serious threat. Black has some problems due to the
+unstable f5-bishop.} Bg6 {the most human move. Black brings the bishop back to
+a safe square. However, this is not the most accurate move. The bishop is less
+active on g6 than on f5.} (13... Rc8 $1 {This is the most accurate for black.
+Black doesn't commit to ...Bg6 or ...Qd7. I recommend going for the typical}
+14. Be1 {getting the bishop out of the knight's range. We are now preparing
+Ne2/Nh2.} a6 $1 {the most flexible for black. Here I recommend going for} (
+14... Qd7 {transposes.}) 15. Nh2 {[%cal Gf2f3] With the idea to push f3 next.}
+Bg6 (15... Qd7 {stops us from pushing here. We should first include our rook
+into the game with} 16. Rd1 {[%cal Gf2f3] and after} (16. f3 $6 Nd6 17. Nxd5
+Bxd3 18. Qxd3 Qe6 19. e4 f5 $1 $15) (16. Rc1 $6 Bd6 $1 $11) 16... Rcd8 17. Ne2
+{[%cal Gf2f3,Ge2f4] we are all set to play Nf4/f3.}) 16. Ne2 {[%cal Ge2f4]} Bd6
+{preventing Nf4.} 17. f3 $1 {the right time.} Nf6 (17... Ng5 18. Bxg6 fxg6 19.
+Bf2 {[%cal Ge3e4,Ye2c3] is similar to the text.}) 18. Bxg6 fxg6 19. Bf2 {
+[%cal Ge3e4,Yf1e1,Ye2c3] with the idea of pushing e4 next. We may also play
+Nc3-Rfe1 to strengthen the e4-break.}) (13... a6 14. Be1 {should transpose to
+one of the lines.}) (13... Qd7 {[%csl Gd7,Gf5,Rh3][%cal Gf5h3] is one of the
+important moves we should be careful of. Black has ...Bxh3 ideas in the air.}
+14. Be1 {we are unbothered though, and get our bishop out of the danger zone.}
+Rad8 {[%cal Rd8d6,Rd6g6,Gf5h3] Including the last piece. Black also keeps some
+Rd6 ideas after ...Bxh3 gxh3 Qxh3.} (14... Bxh3 {is not terrible, but white
+keeps an edge after the forced sequence} 15. Nxe4 dxe4 16. Bxe4 Rxe4 17. Qxe4
+Bf5 $1 18. Qh4 Bd3 19. Bc3 $14) ({the flexible} 14... a6 {is met with} 15. Rd1
+{the rook defends the d3-bishop, which becomes useful in case black plays ...
+Bxh3 in some lines.} Rad8 16. Ne2 {We as usual, head towards f4.} Bxh3 $6 {
+the last moment to strike. However, this is inaccurate.} (16... Nd6 17. Bxf5
+Qxf5 18. Qxf5 Nxf5 19. g4 {[%csl Rc6,Rc7,Rd5][%cal Ge2f4,Yf3e1,Ye1d3,Ge1c3]
+White retains some chances to grind.}) 17. gxh3 Qxh3 18. Nh2 $1 $16 {[%csl Rh3]
+[%cal Ge2f4,Yf2f4,Gf1f3,Gf3h3] after this, white's attack isn't very strong.}
+Bd6 (18... Rd6 19. Nf4 $18) 19. f4 $1 Qxe3+ 20. Kh1 $18 {[%csl Re3][%cal Gf1f3]
+we keep a huge material advantage.}) (14... Rac8 {The rook is misplaced on c8
+in these positions and can be met with the typical} 15. Ne2 $14 {[%csl Rd5,Rf5]
+[%cal Gf3d2,Yf3h2,Yf2f3,Ge2f4] very strong against Qd7 since Nh4 is possible})
+15. Rc1 {we would like to place the rook on this active file whenever possible.
+} (15. Ne2 Bxh3 $1) 15... Bxh3 {the most logical follow-up.} ({the most
+accurate way for black to take on h3 is to play} 15... a6 $1 {and only after}
+16. Ne2 {to go for} Bxh3 $1 {but after} (16... Bd6 {runs into} 17. Nh4 $14 {
+[%cal Gf2f3]}) 17. gxh3 Qxh3 {and now} 18. Ng3 {black's life is far from easy.
+Here's a few sample lines-} Rd6 $1 (18... Bd6 $6 19. Bxe4 dxe4 20. Nh2 $16 {
+[%cal Gf2f4]}) 19. Nh2 Rg6 20. Kh1 $1 Bd6 {this is the only plan for black} 21.
+Rg1 Ree6 22. Bxe4 Rxe4 23. Qe2 {white keeps better chances practically due to
+the extra material.}) (15... Bg6 {runs into the typical} 16. Ne2 $1 {[%csl Rg6]
+[%cal Ge2f4] the natural} Ng5 {runs into} 17. Nxg5 Bxd3 18. Qxd3 hxg5 19. f4 $1
+$14) 16. Nxe4 Bxg2 {the critical response.} (16... dxe4 17. Bxe4 Rxe4 18. Qxe4
+Bf5 19. Qh4 $14) 17. Nf6+ gxf6 18. Bf5 Bxf3 $3 {this stunning move holds for
+black. The point is to meet} 19. Bxd7 {with} Re4 {but this is impossible to
+find on the board. We shouldn't be bothered about this sequence. A possible
+continuation here is} 20. Kh2 Bd6+ 21. Kh3 Rxd7 22. Rg1+ Kh8 23. Bd2 {where we
+keep some chances.}) 14. Be1 $1 {the point. Black's bishop on g6 is misplaced
+since we have the idea of Ne5 followed by f4-f5.} a6 {Controlling the
+important b5 square} (14... Rc8 {runs into the thematic} 15. Ne5 $1 Nxe5 16.
+dxe5 Rxe5 17. f4 Re8 18. f5 {[%csl Rg6]} Bh7 19. Nxe4 dxe4 20. Bc4 $36 {
+[%csl Rb7,Rd8,Rf7][%cal Gf5f6,Ye1c3,Yg2g4,Ga1d1,Gc2b3] where we keep great
+attacking chances.}) (14... Qd7 $6 15. Nh4 {Always keep an eye for Nh4 ideas
+after ...Qd7.} Bh7 16. f4 Ne7 17. Nf3 f6 {[%csl Re3]} 18. Bd2 $1 $14 {[%csl
+Rh7][%cal Gc3e4,Gd2e3]}) (14... Nxc3 {more or less forced is} 15. Bxg6 Ne4 16.
+Bf5 g6 $1 17. Bxe4 dxe4 18. Nd2 {is clearly slightly more pleasant} Qd5 (18...
+f5 $4 19. Qb3+ $18) 19. Nb1 $14 {[%csl Rc6,Rc7,Re4][%cal Gb2b4,Gb1c3] where
+white has a significantly pleasant position.}) 15. Ne5 $1 {our thematic idea.}
+Nxe5 16. dxe5 Rxe5 17. f4 $1 Nxc3 {the computer likes this, but the follow-up
+isn't easy to spot in a practical game.} ({much more natural is} 17... Re8 {
+but we keep an initiative after} 18. f5 Bh7 19. Nxe4 dxe4 20. Bc4 $36 {[%csl
+Rb7,Gf5,Rf7,Rh7][%cal Ga1d1]}) 18. Bxg6 Re4 $1 {very hard to play practically.
+After} 19. Bf5 g6 (19... Qf6 20. Bxe4 Nxe4 21. Qxc7 $16) 20. Bxg6 Ne2+ 21. Qxe2
+fxg6 22. f5 $36 {black should be fine. The sequence is clearly far from easy
+for black, hence we shouldn't be very worried about this.} *
+
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 14- Ragozin"]
+[Black "7...Re8 9.a3 h6- 11.h3 a6"]
+[Result "*"]
+[ECO "D38"]
+[Annotator "IM Kushager Krishnater"]
+[PlyCount "35"]
+[EventDate "2020.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,35,25,25,15,15,21,21,15,15,42,-15,1,1,5,5,12,17,19,7,40,14,14,10,10,
+29,29,11,18,-22,-33,-27,2,2,-1,94,105,79]} 1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3
+Bb4 5. Qa4+ Nc6 6. e3 O-O 7. Qc2 Re8 8. Bd2 Bf8 9. a3 h6 $5 {Seems to be the
+most testing} 10. cxd5 exd5 11. h3 a6 {[%cal Yc3b5,Rf8d6] the point of
+deviation from the previous chapter. Black defends the b5-square and looks to
+play ...Bd6 at the right time.} 12. Bd3 {and now black has two important
+choices} Bd7 {[%cal Gd8c8,Gd7h3] This subtle move is actually stronger than
+its counterplay. The idea is to meet 0-0 with ...Qc8.} (12... Bd6 {the most
+natural response.} 13. O-O Be6 {[%csl Rh3][%cal Gd8d7,Ge6h3]} 14. Rfe1 $1 {
+a smart prophylactic move against the idea of Qd7-Bxh3. The rook on e1 is also
+useful for pushing e4.} Qd7 (14... Ne7 15. Rac1 c6 16. Na4 $14 {[%csl Rb6,Rc5]
+[%cal Ga4c5,Gf3e5,Gb2b4]}) 15. e4 $1 dxe4 16. Nxe4 Nxe4 17. Bxe4 $14 {[%csl
+Rc6][%cal Gd2c3]}) 13. g4 $5 $146 {a very ambitious response. We begin our
+adventure with the threat of g5!} (13. O-O Qc8 $11) 13... b5 $1 {the strongest
+response. Black looks to counterattack.} (13... Bd6 14. Rg1 b5 {Black's idea
+is to meet} 15. g5 {with} hxg5 16. Rxg5 {[%cal Gc3d5]} Bf4 $3 {[%cal Rd7h3]
+but here we have the surprising} 17. Rxd5 $1 {which helps us in maintaining
+the initiative. After} Nxd5 18. Nxd5 Bh6 19. Ke2 $44 {[%csl Gc2,Rc6,Rc7,Gd3,
+Gd5][%cal Ga1g1] White's position is easier to play}) 14. g5 hxg5 ({also
+possible and complicated is} 14... b4 {with the point that after} 15. gxf6 Qxf6
+{both the knight are hanging. We are forced to play} 16. Ne5 {where we
+initiate a forced sequence} bxc3 (16... Nxe5 17. dxe5 Qf3 18. Rh2 bxc3 {
+transposes.}) 17. Bxc3 Nxe5 18. dxe5 Qf3 (18... Qh4 {is slightly weaker
+practically. After} 19. Bh7+ Kh8 20. Bf5 $1 Be6 21. O-O-O c5 22. Bxe6 fxe6 23.
+Rdg1 {[%csl Rg7][%cal Gg1g4] white keeps some pressure}) 19. Rh2 {and now
+black needs to play the subtle} Bxh3 $1 {which is easy to overlook. However,
+the position is far from dead and we can continue with} 20. Rd1 {[%cal Gd1d5,
+Gd3e2] threatening Be2-Rd5.} Bg4 $1 (20... Red8 $6 21. Bh7+ Kh8 22. Rd4 {
+[%cal Gd4f4] we are exerting a lot of pressure here.}) (20... Qg4 {runs into
+the very strong} 21. Kd2 Rad8 22. Kc1 {where we castle artificially. Black is
+under pressure.}) 21. Rd2 c6 22. Bh7+ Kh8 23. Rd4 {and again black has to be
+very precise to hold. These lines are quiet to play if you are unprepared.})
+15. Rg1 $1 {introducing the rook into the attack.} b4 $1 (15... g4 16. hxg4
+Bxg4 (16... b4 17. Nxd5 $18) 17. Ng5 Bd6 {[%cal Rc6d4]} 18. Kf1 $1 {[%csl Rf7]
+[%cal Gc3d5,Gd3h7,Gg1g4] We keep great attacking chances here.}) 16. Nxg5 {
+with a huge attack.} Bd6 $1 {[%cal Gc6d4,Yg8f8,Rd3h7]} (16... bxc3 $4 17. Bh7+
+$18) 17. Nxd5 Nxd4 18. Qc4 $40 {[%cal Gd3g6,Yc4d4] with insane complications
+but which are harder to black to navigate. We have all kinds of threats in the
+air.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 15- Ragozin"]
+[Black "7...Re8 9.a3 h6- 11.h3 Ne7"]
+[Result "*"]
+[ECO "D38"]
+[Annotator "IM Kushager Krishnater"]
+[PlyCount "52"]
+[EventDate "2020.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,52,25,25,14,15,21,15,15,15,39,-2,3,3,5,5,-1,3,11,4,18,29,28,29,42,37,
+37,41,58,14,15,32,63,68,135,83,83,78,76,79,85,22,9,78,68,88,74,74,59,25,33,36,
+33,28,28]} 1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Qa4+ Nc6 6. e3 O-O 7. Qc2
+Re8 8. Bd2 Bf8 9. a3 h6 $5 10. cxd5 exd5 11. h3 Ne7 {[%cal Gc8f5] The point of
+deviation from the previous chapter.This move seems to be the strongest from
+black's point of view. Black wants to trade the bad bishop with ...Bf5.} 12.
+Bd3 g6 {[%cal Gc8f5] and here I recommend going for the ambitious} 13. g4 $5 {
+trying to prevent Bf5.} (13. O-O Bf5 $11 {is quite comfortable for black.})
+13... Bd7 $1 {[%cal Gc7c5,Ga8c8] This subtle move equalizes completely for
+black.} (13... Bg7 {runs into} 14. Ne5 {[%csl Gd4,Ge5][%cal Gf2f4] looking to
+dominate the board.} Bd7 15. b4 $5 {[%cal Gb4c5] preventing c5.} ({the
+ambitious} 15. f4 {is possible too. The critical moment seems to be} c5 16.
+dxc5 Rc8 17. O-O-O Rxc5 18. Kb1 {where the position is still quite complicated.
+}) 15... a5 (15... b6 16. Ne2 $5 {[%csl Rc7][%cal Gb4c5,Ga1c1]}) 16. O-O axb4
+17. axb4 Rxa1 18. Rxa1 $14 {[%csl Gb4,Rc7,Gd4,Ge5] We keep some pressure due
+to the extra space and the knight in the centre.}) (13... c5 $6 14. dxc5 $14 {
+[%csl Gc5][%cal Gc3e2,Gb2b4]}) 14. Ne5 $1 c5 {the cleanest way.} ({also
+possible was to play} 14... Rc8 {but after} 15. b4 {the game goes on} (15. f4
+$5 c5 16. O-O-O {is an interesting alternative attempt.}) 15... a5 $1 (15... b6
+16. Ba6 Rb8 17. O-O c5 18. Be1 {[%csl Rc5,Rd5,Ge5][%cal Ga1d1,Gd4c5] gives us
+something to play. We want to put pressure on the d5 pawn.}) 16. f4 axb4 17.
+axb4 {white seems to have total control but after} Nc6 $1 {black is putting
+pressure on b4. However after} 18. Rb1 Nxb4 19. Rxb4 $1 Bxb4 20. Bxg6 Re7 21.
+g5 $36 {white has a huge attack on the kingside. Black has to be extremely
+accurate to equalize.}) 15. dxc5 Rc8 16. b4 b6 $1 {The point behind the play.
+Black sacrifices a pawn to activate all the pieces. The best practical attempt
+here seems to be} (16... Nc6 {allows us to play} 17. Nxf7 Kxf7 18. Bxg6+ Kg8
+19. O-O-O $44 {[%csl Rd5,Rg8][%cal Gf2f4,Gd2e1,Ge1h4,Yg4g5] where the
+compensation is self-evident.}) 17. Ba6 $5 Rb8 18. cxb6 Qxb6 (18... Nc6 $1 {
+was quite alright too. Black has a forced draw after} 19. Nxd7 Qxd7 20. bxa7
+Qxa7 $1 {with the point that} 21. Nxd5 Nxd5 22. Qxc6 {runs into a perpetual
+after} Nxe3 $3 23. Bxe3 Rxe3+ 24. fxe3 Qxe3+ 25. Be2 Re8 $1 26. Ra2 Re6 27. Qa8
+Qg3+ 28. Kd2 Qe3+ $11) 19. Be2 {it seems like we have some pressure with Na4
+coming up next but after} d4 20. exd4 Nc6 $1 {black is quite alright.} 21. Nxd7
+Nxd7 22. Be3 Nxd4 $1 23. Bxd4 Qxd4 24. Rd1 {this really doesn't win a piece as
+after} Qf6 $1 25. Rxd7 Qc6 26. Rd5 Rbc8 $11 {black recovers material.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Excercise #1"]
+[Black "?"]
+[Result "*"]
+[ECO "D35"]
+[Annotator "IM Kushager Krishnater"]
+[SetUp "1"]
+[FEN "rn1q1rk1/pp2bppp/2p2n2/3p1b2/3P1B2/2N1PN1P/PP3PP1/R2QKB1R w KQ - 0 1"]
+[PlyCount "3"]
+[EventDate "2023.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,3,44,7,17,17]} {[#] Q: How should white deal with the bishop on f5?} 
+1. g4 $1 {by moving it away!} Bg6 (1... Be6 2. Bd3 $14 {[%csl Re6]}) (1... Be4
+2. g5 {[%csl Re4][%cal Gc3e4,Yf3d2,Yd2e4]}) 2. Ne5 $14 {See Chapter 1 for the
+detailed coverage.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Excercise #2"]
+[Black "?"]
+[Result "*"]
+[ECO "D37"]
+[Annotator "IM Kushager Krishnater"]
+[SetUp "1"]
+[FEN "rnbqk2r/pp3ppp/2pb1n2/3p4/3P1B2/2N2N1P/PP2PPP1/R2QKB1R w KQkq - 0 1"]
+[PlyCount "1"]
+[EventDate "2023.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,1,26,22]} {[#] Q: How should we react to Black's offer of trading
+bishops?} 1. e3 {[%csl Gf4][%cal Ge3f4] by developing normally. The trade with
+...Bxf4 exf4 helps us establish further control over the e5-square. Check
+Chapter 2 for more coverage on this position.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Excercise #3"]
+[Black "?"]
+[Result "*"]
+[ECO "D37"]
+[Annotator "IM Kushager Krishnater"]
+[SetUp "1"]
+[FEN "r1bqrnk1/pp2bppp/2p2n2/3p4/3P1B2/2NBPN1P/PP3PP1/R2Q1RK1 w - - 0 1"]
+[PlyCount "3"]
+[EventDate "2023.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,3,60,54,63,20]} {[#] Q: What is the usual plan in these Carlsbad
+positions?} 1. Bh2 $1 Ng6 2. Ne5 $14 {[%cal Gf2f4]} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Excercise #4"]
+[Black "?"]
+[Result "*"]
+[ECO "D35"]
+[Annotator "IM Kushager Krishnater"]
+[SetUp "1"]
+[FEN "r2q1rk1/pp2bppp/1np2n2/3p4/3P1BP1/2N1PB1P/PP3P2/R2Q1RK1 w - - 0 1"]
+[PlyCount "3"]
+[EventDate "2023.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,3,46,21,24,16]} {Q: How should white improve their position? [#]} 1.
+a4 {by opening up the horizons on the Queenside.} a5 2. Qb3 {[%csl Rb6,Rb7] We
+cover this line in more depth in Chapter 4.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Excercise # 5"]
+[Black "?"]
+[Result "*"]
+[ECO "D35"]
+[Annotator "IM Kushager Krishnater"]
+[SetUp "1"]
+[FEN "rn2k2r/pp2bppp/1qp2nb1/3pN3/3P1BP1/2N4P/PP2PP2/R2QKB1R w KQkq - 0 1"]
+[PlyCount "5"]
+[EventDate "2023.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,5,19,-95,-55,-110,-73,-45]} {Q: What is the best way for white to
+exploit the bishop on g6? [#]} 1. h4 $1 {we are not afraid of} Qxb2 {and can
+meet this with} 2. Qc1 Ba3 3. Rh3 $1 {[%csl Rg6][%cal Gh3c3,Gh4h5] for more on
+this, check out Chapter 5.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Excercise # 6"]
+[Black "?"]
+[Result "*"]
+[ECO "D35"]
+[Annotator "IM Kushager Krishnater"]
+[SetUp "1"]
+[FEN "r2q1rk1/pppnbppp/5n2/3p1b2/3P1B2/2N1PN1P/PP3PP1/R2QKB1R w KQ - 0 1"]
+[PlyCount "5"]
+[EventDate "2023.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,5,37,17,26,0,2,-1]} {Q: How do we deal with the early Bf5-Nbd7 setup?
+[#]} 1. g4 {as usual, we hit the f5-bishop!} Bg6 (1... Be6 2. Bd3 $14 {[%csl
+Re6]}) 2. Nh4 Be4 3. Rg1 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Excercise # 7"]
+[Black "?"]
+[Result "*"]
+[ECO "D37"]
+[Annotator "IM Kushager Krishnater"]
+[SetUp "1"]
+[FEN "rnbqkb1r/2p2ppp/p4n2/1p1p4/3P4/1QN2N2/PP2PPPP/R1B1KB1R w KQkq - 0 1"]
+[PlyCount "15"]
+[EventDate "2023.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,15,41,23,34,0,26,82,-12,-28,-40,-26,-5,-22,-33,-33,-33,-33]} {Q:
+What's the common opening trap here? [#]} 1. Bg5 Be6 2. Bxf6 $1 {forcing black
+to enter the line with} Qxf6 3. a4 b4 4. Nxd5 $3 Qd8 5. e4 c6 6. Qe3 $3 cxd5 7.
+exd5 Qxd5 8. Rc1 $16 {[%csl Ra8][%cal Gf1c4,Gd4d5,Yf1d3,Yd3e4] where white has
+a huge advantage. We cover this in Chapter 7.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Excercise # 8"]
+[Black "?"]
+[Result "*"]
+[ECO "D37"]
+[Annotator "IM Kushager Krishnater"]
+[SetUp "1"]
+[FEN "rnb1kb1r/1p2qppp/p1p5/3p4/3PN3/1Q3N2/PP3PPP/R1B1KB1R w KQkq - 0 1"]
+[PlyCount "7"]
+[EventDate "2023.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,7,-44,-90,-62,-141,-106,-303,-303,-237]} {Q: Which move sets the
+aggressive tone for the rest of the game? [#]} 1. Bd2 $1 dxe4 2. O-O-O exf3 3.
+Re1 Be6 4. Bc4 $40 {with a huge attack. This is covered in Chapter 8.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Excercise # 9"]
+[Black "?"]
+[Result "*"]
+[ECO "E51"]
+[Annotator "IM Kushager Krishnater"]
+[SetUp "1"]
+[FEN "r1bq1rk1/ppp2ppp/2nb1n2/4p3/2BP4/2N1PN2/PPQ2PPP/R1B2RK1 w - - 0 1"]
+[PlyCount "13"]
+[EventDate "2020.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,13,27,23,33,44,44,53,43,2,4,23,8,8,45,23]} {Q: How do we deal with
+the e6-e5 break? [#]} 1. h3 $1 {by stopping ...Bg4. After} a6 2. a3 h6 3. Bd2 {
+we are preparing dxe5-Nxe5-f4. Check out Chapter 9 for the detailed coverage.}
+Re8 4. dxe5 Nxe5 5. Nxe5 Bxe5 6. f4 Bxc3 7. Bxc3 $14 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Excercise # 10"]
+[Black "?"]
+[Result "*"]
+[ECO "D38"]
+[Annotator "IM Kushager Krishnater"]
+[SetUp "1"]
+[FEN "r2q1rk1/pp1bnppp/4pn2/3p4/2PB4/P3PN2/1PQ2PPP/R3KB1R w KQ - 0 1"]
+[PlyCount "7"]
+[EventDate "2020.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,7,11,-5,48,42,42,42,43,40]} {Q: How do we deal with Black's threat of
+...Rc8? [#]} 1. cxd5 $1 {by releasing the tension ourselves. After} Nfxd5 2.
+Bd3 Nf5 3. Bxf5 exf5 4. O-O {[%csl Gd4,Rf5,Rf7] we keep some pressure.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Excercise # 11"]
+[Black "?"]
+[Result "*"]
+[ECO "D38"]
+[Annotator "IM Kushager Krishnater"]
+[SetUp "1"]
+[FEN "r1bqrbk1/ppp2ppp/8/3n4/8/P1N1PP2/1PQB1P1P/R3KB1R w KQ - 0 1"]
+[PlyCount "11"]
+[EventDate "2020.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,11,6,-23,14,21,18,30,-7,-7,17,17,10,31]} {Q: What is the best way for
+white to proceed here? [#]} 1. h4 $1 {stopping ...Qh4.} Nxc3 (1... Be6 2. Bd3
+h6 3. O-O-O $14 {gives us a great game.}) 2. Bxc3 Qd5 $1 3. Be2 Bf5 4. Qa4 Bd7
+5. Qf4 Bd6 6. Bc4 {with some chances. We delver deeper into this in Chapter 11.
+} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Excercise # 12"]
+[Black "?"]
+[Result "*"]
+[ECO "D38"]
+[Annotator "IM Kushager Krishnater"]
+[SetUp "1"]
+[FEN "r1bqrbk1/p1p1nppp/1p3n2/3p4/3P4/P1NBPN2/1PQB1PPP/R3K2R w KQ - 0 1"]
+[PlyCount "1"]
+[EventDate "2020.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,1,65,67]} {Q: How do we increase the pressure on Black here? [#]} 1.
+Ne5 $1 {[%cal Gf2f4] with the intention of grabbing the full centre with f4
+next.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Excercise # 13"]
+[Black "?"]
+[Result "*"]
+[ECO "D38"]
+[Annotator "IM Kushager Krishnater"]
+[SetUp "1"]
+[FEN "r2qrbk1/ppp2pp1/2n3bp/3p4/3Pn3/P1NBPN1P/1PQB1PP1/R4RK1 w - - 0 1"]
+[PlyCount "9"]
+[EventDate "2020.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,9,11,-15,-2,-76,-52,-25,-25,-12,9,-14]} {Q: Why is black's last move .
+..Bg6 an inaccuracy? [#]} 1. Be1 {[%cal Gf3e5,Yf2f4] because it runs into
+Ne5-f4-f5 ideas!} Rc8 2. Ne5 Nxe5 3. dxe5 Rxe5 4. f4 Re8 5. f5 {This important
+line is covered in Chapter 13.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Excercise # 14"]
+[Black "?"]
+[Result "*"]
+[ECO "D38"]
+[Annotator "IM Kushager Krishnater"]
+[SetUp "1"]
+[FEN "r2qrbk1/1ppb1pp1/p1n2n1p/3p4/3P4/P1NBPN1P/1PQB1PP1/R3K2R w KQ - 0 1"]
+[PlyCount "7"]
+[EventDate "2020.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,7,20,18,33,-33,-27,-34,2,-1]} {[#] Q: How do we build up an
+initiative in this position?} 1. g4 $1 b5 2. g5 hxg5 3. Rg1 b4 4. Nxg5 $40 {
+[%csl Rf7][%cal Gd3h7,Gc3d5,Ye1f1]} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Excercise # 15"]
+[Black "?"]
+[Result "*"]
+[ECO "D38"]
+[Annotator "IM Kushager Krishnater"]
+[SetUp "1"]
+[FEN "r1bqrbk1/ppp1np2/5npp/3p4/3P4/P1NBPN1P/1PQB1PP1/R3K2R w KQ - 0 1"]
+[PlyCount "1"]
+[EventDate "2020.??.??"]
+[SourceVersionDate "2023.12.04"]
+
+{[%evp 0,1,53,25]} {Q: How do we deal with the threat of ...Bf5? [#]} 1. g4 {[%cal Gf3e5] by stopping it! We want to play Ne5-f4 next} *
+

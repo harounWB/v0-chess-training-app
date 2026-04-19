@@ -1,19 +1,27 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { Trainer } from '@/components/Trainer';
 import { useGameContext } from '@/lib/GameContext';
 import { Header } from '@/components/Header';
 import { ArrowLeft, Plus } from 'lucide-react';
+import type { TrainingMode } from '@/lib/types';
 
 export default function TrainingPage() {
   const router = useRouter();
-  const { games, selectedGame, setSelectedGame, clearGameData } = useGameContext();
+  const { games, selectedGame, setSelectedGame, setMoveIndex, clearGameData } = useGameContext();
   const [isLoading, setIsLoading] = useState(true);
+  const [initialMode, setInitialMode] = useState<TrainingMode>('train');
+  const [preferredGameId, setPreferredGameId] = useState<string | null>(null);
+  const hasAppliedPreferredGameRef = useRef(false);
 
   // Wait for context to hydrate from localStorage
   useEffect(() => {
+    const query = new URLSearchParams(window.location.search);
+    setInitialMode(query.get('mode') === 'explore' ? 'explore' : 'train');
+    setPreferredGameId(query.get('game'));
+
     // Give context time to load from localStorage
     const timer = setTimeout(() => {
       setIsLoading(false);
@@ -21,12 +29,40 @@ export default function TrainingPage() {
     return () => clearTimeout(timer);
   }, []);
 
+  // Select the intended game once the context is ready.
+  useEffect(() => {
+    if (isLoading || games.length === 0) {
+      return;
+    }
+
+    if (!hasAppliedPreferredGameRef.current) {
+      const preferredGame = preferredGameId
+        ? games.find(game => game.id === preferredGameId)
+        : null;
+
+      if (preferredGame) {
+        hasAppliedPreferredGameRef.current = true;
+        if (selectedGame?.id !== preferredGame.id) {
+          setSelectedGame(preferredGame);
+          setMoveIndex(0);
+        }
+        return;
+      }
+
+      hasAppliedPreferredGameRef.current = true;
+    }
+
+    if (!selectedGame) {
+      router.replace('/upload');
+    }
+  }, [isLoading, games, preferredGameId, selectedGame, router, setSelectedGame, setMoveIndex]);
+
   // Redirect to upload if no game after hydration
   useEffect(() => {
-    if (!isLoading && (!selectedGame || games.length === 0)) {
+    if (!isLoading && games.length === 0) {
       router.push('/upload');
     }
-  }, [isLoading, selectedGame, games, router]);
+  }, [isLoading, games, router]);
 
   const handleNewGame = () => {
     clearGameData();
@@ -46,7 +82,7 @@ export default function TrainingPage() {
   }
 
   // If no game after hydration, show nothing (redirect effect is running)
-  if (!selectedGame || games.length === 0) {
+  if (games.length === 0) {
     return null;
   }
 
@@ -58,7 +94,7 @@ export default function TrainingPage() {
         <div className="flex items-center justify-between mb-6">
           <button
             onClick={() => {
-              setSelectedGame(null);
+              clearGameData();
               router.push('/upload');
             }}
             className="flex items-center gap-2 px-3 py-2 text-sm bg-gray-800 hover:bg-gray-700 text-gray-300 rounded-lg transition-colors"
@@ -77,7 +113,7 @@ export default function TrainingPage() {
         </div>
 
         {/* Trainer Component */}
-        <Trainer games={games} />
+        <Trainer games={games} initialMode={initialMode} />
       </div>
     </main>
   );

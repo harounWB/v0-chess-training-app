@@ -1,0 +1,2841 @@
+﻿[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1"]
+[Black "6.Be3 a6 7.Qf3"]
+[Result "*"]
+[ECO "B47"]
+[Annotator "GM Alexander Khalifman"]
+[PlyCount "38"]
+[EventDate "2023.??.??"]
+
+{[%evp 0,38,25,25,50,52,45,43,32,27,27,50,103,82,82,44,103,60,78,68,58,67,67,
+70,61,61,59,59,59,59,59,59,59,51,51,58,55,51,47,22,22]} 1. e4 c5 2. Nf3 e6 3.
+d4 cxd4 4. Nxd4 Nc6 (4... a6 5. Nc3 Qc7 6. Qf3 Nf6 (6... Nc6 7. Be3 {
+Transposes to 4...Nc6.}) 7. Qg3 d6) 5. Nc3 Qc7 6. Be3 a6 {White has a choice
+of many different moves in this position.} (6... Nf6 {Black has also tried
+this logical move in an attempt to avoid some dangerous lines from White.} 7.
+f4 {This is a very unpleasant move to face with Black, with e4-e5 being a very
+strong positional threat.} Bb4 (7... d6 8. Qf3 {This is a better version for
+White from a typical Scheveningen set-up where White is ready to castle long
+and then to advance the pawns on the kingside.}) 8. Ndb5 Qa5 9. e5 Nd5 10. Bd2
+Nxc3 $14 {All three recaptures are possible for White and unpleasant for Black
+to deal with. Black's position is uncomfortable to play, so I don't recommend
+this line.}) 7. Qf3 {This move became popular in the 21st century and it's the
+top engines' first line. Besides the typical ideas of castling long and
+supporting the advancement of the pawns on the kingside, White wants to play
+Qg3, intending to exchange the queens and recapture with the h-pawn which
+would give White some pressure down the h-file.} h5 $5 {A very original move
+that's not bad at all. It's very rare and the statistics are in Black's favor.
+First of all, this is a kind of a prophylactic move since it prevents White's
+kingside expansion; Second, it supports a knight coming to the g4-square; And
+third, after Qg3, Black will avoid the queen trade and will chase White's
+queen away with h5-h4.} 8. O-O-O (8. Qg3 d6 {It's good to note that with long
+castle from White and b5 from Black included, Black can't play d7-d6 due to a
+typical move Bxb5 and then Ndxb5.} (8... Qxg3 9. hxg3 Nf6 (9... Bc5 10. Nxe6
+$18 {White hasn't castled queenside yet so ...Bxe3 doesn't come with check.})
+10. f3 $16) 9. f4 ({After} 9. O-O-O h4 10. Qf3 Nxd4 11. Bxd4 b5 12. Bd3 Ne7 $13
+{Black gets an unclear position with mutual chances.}) ({The new idea} 9. Nxc6
+$146 {is well met by} h4 10. Qf3 Qxc6 {[%cal Gb7b5,Gg8f6] Black has enough
+counterplay in this position. The play on the c-file will be combined with a
+pressure on e4. Black is planning to proceed with ...b7-b5 followed by ...Nf6,
+and ...Bb7. The following lines are quite illustrative.} 11. a4 (11. Bd3 b5 12.
+h3 Nf6 13. O-O Bb7 14. a3 (14. a4 b4 15. Na2 Qd7 $13) 14... Be7 15. Rfe1 Nd7
+$132) (11. O-O-O b5 12. a3 Rb8 13. Be2 Ne7 (13... Nf6 $2 14. e5) 14. Kb1 Bd7
+$132) 11... Be7 12. h3 (12. Bd3 h3 $5 13. g4 Bd7 $13) 12... Bf6 13. Ra3 Bxc3+
+14. bxc3 (14. Rxc3 Qxa4 15. Qg4 Ne7 16. Qxg7 Rg8 17. Qh7 Bd7 $13) 14... e5 15.
+Bd3 f5 16. exf5 Qxf3 17. gxf3 Ne7 18. Rb3 b5 19. axb5 axb5 20. Ke2 Bxf5 21.
+Rxb5 Bxd3+ 22. Kxd3 (22. cxd3 Ra2+ 23. Kf1 O-O $44) 22... O-O $13) (9. h4 Nxd4
+10. Bxd4 Nf6 11. O-O-O e5 12. Be3 b5 13. a3 Be6 14. Bg5 Rc8 15. Bxf6 gxf6 $13)
+9... Nf6 {Black has enough counterplay in this position.} (9... b5 10. Nxc6
+Qxc6 11. a3 Nf6 12. O-O-O) 10. Be2 {White is trying to play calmly with short
+castle and trying to ask Black what is the pawn doing on h5, but here too,
+Black has adequate counterplay.} (10. O-O-O Bd7 11. Bd3 (11. Be2 Rc8 {[%csl
+Gc2][%cal Gf6e4]} 12. Kb1 b5) 11... h4 12. Qe1 {This seems more accurate.} (12.
+Qf3 {Tari - van Foreest, chess.com blitz 2019} Nxd4 $5 13. Bxd4 e5 14. fxe5 (
+14. Bf2 Bg4 15. Nd5 Nxd5 16. Qxg4 Nxf4 {Black won a pawn and White doesn't
+have enough compensation for it.}) 14... dxe5 15. Bf2 Qa5 $132) 12... Be7 {
+It's not easy for White to find an active play on the kingside or in the
+center, while it turns out that having the pawn on h4 is quite useful.} 13. Kb1
+b5 14. a3 Qb7 $132 {Black is ready to create counterplay on the queenside.}) (
+10. Nxc6 Qxc6 11. Bd3 b5 12. a3 h4 13. Qf3 Rb8 14. O-O Be7 15. h3 b4 16. axb4
+Rxb4 $13) 10... Bd7 11. O-O h4 12. Qf2 Be7 13. Bf3 {Now the White bishop
+closed the f-file, so Black has the following interesting idea:} (13. Nb3 b5
+$13) 13... h3 14. g4 (14. g3 Nxd4 15. Bxd4 e5 16. Bb6 Qc4 {Black has enough
+counterplay.}) 14... g5 $1 {A typical break! Black is fighting for the
+e5-square.} 15. fxg5 Nh7 $13 {Black still has the option of castling queenside
+and with a complicated position ahead, Black can also try to fight for the
+advantage.}) (8. Nxc6 $146 Qxc6 9. Bd3 (9. O-O-O b5 {- 8.0-0-0}) 9... b5 10. a4
+b4 11. Nb1 Nf6 12. Nd2 Bb7 13. O-O Bd6 14. Bf4 O-O $13) (8. h4 $146 Nf6 (8...
+Ba3 9. O-O-O Ne5 10. Qg3 Qxc3 11. bxa3 Ng4 12. Rd3 Qe1+ 13. Kb2 $13) 9. O-O-O (
+9. Nxc6 dxc6) 9... b5 10. Nxc6 Qxc6 $13) 8... b5 {Black is trying to create
+some active play on the queenside while it's not easy for White to make
+progress in the position.} (8... Ne5 {This was Black's choice in most games.}
+9. Qe2 {This is a more dangerous retreat.} (9. Qg3 h4 10. Qh3 {The queen on h3
+is rather awkwardly placed.} Ng6 11. Bd3 b5 12. Kb1 Nf6 $13) 9... Ng4 (9... b5
+10. f4 Nc4 $2 {This seems active but loses after:} 11. Ndxb5 $18) 10. f4 {
+White is ahead in development and Black's knight on g4 played too many moves
+just to be exchanged for the bishop on e3, so White has an advantage.} b5 11.
+e5 Nxe3 12. Qxe3 Bc5 13. Be2 $36) 9. Qg3 {In this case, White already castled
+long and Black can exchange the queens on g3 since later on, Black will be
+able to play Bc5 because if White moves the knight from d4, ...Bxe3 will come
+with check.} (9. Nxc6 Qxc6 {Keeping the c-file open in order to get
+counterplay later on.} 10. Bd3 (10. Bd4 d6 11. Kb1 $2 e5) 10... Bb7 11. Rhe1 {
+Advancing the pawns on the kingside may have seemed too slow, so White's idea
+is to switch to playing in the center. Nd5 may be a possible idea for White in
+some moment, but it's not easy to execute.} Nf6 12. Bd4 Be7 13. Qg3 (13. a3 {
+b5-b4 was an unpleasant threat and this a typical move to prevent it.} Qc7 {
+After this move, the Nc3-Nd5 isn't dangerous anymore.} 14. Kb1 Rb8 15. Qe3 b4
+16. axb4 Bxb4 17. Re2 (17. Qg5 {This move may seem a bit unpleasant, attacking
+both the g7-pawn and f6-knight, but Black can spend a move to react on it, and
+Black's counterplay is already underway.} Kf8 18. Bxf6 {White can win a pawn
+but it will give Black strong counterplay.} (18. Be5 d6 19. Bxf6 gxf6 20. Qxf6
+Bxc3 21. bxc3 Rg8 $44) 18... gxf6 19. Qxf6 Bxc3 20. bxc3 Rg8 $44) 17... Bc6 18.
+f4 Be7 19. e5 Ng4 20. Qg1 O-O $13) 13... b4 {Now, White has two ways of
+sacrificing the knight on d5, but both of them don't seem particularly
+dangerous.} 14. Nd5 (14. Bxf6 gxf6 15. Nd5 exd5 16. exd5 Qxd5 17. Bxa6 Qg5+ 18.
+Qxg5 fxg5 19. Bxb7 Rxa2 $11) 14... exd5 15. exd5 Nxd5 16. Bxg7 h4 17. Qe5 Rg8 {
+The position is complicated and doesn't have to be remembered exactly from a
+theoretical point of view since it's already far from where any known games
+left off.} 18. Be4 (18. Bh7 {Black doesn't lose the rook on g8 after:} d6 19.
+Qg5 Kd8 {Black has decent chances in this position.} 20. Rxe7 Rxg7 21. Qxg7
+Nxe7 22. Qf6 d5 23. Qxf7 Qh6+ 24. Kb1 Kd7 25. Bf5+ Kd6 26. Re1 Nxf5 27. Qxb7
+Qd2 28. Qb6+ Kd7 29. Qe6+ Kc7 30. Qf7+ Kc6 31. Re6+ Nd6 32. Rxd6+ Kxd6 33. Qf6+
+Kd7 $11) 18... Qe6 19. Qd4 O-O-O 20. Bxd5 Bg5+ 21. f4 Qxd5 22. Qxb4 Qb5 23.
+Qc3+ Bc6 24. g3 hxg3 25. hxg3 Rde8 26. Rxe8+ Rxe8 27. fxg5 Qxg5+ 28. Kb1 Re3
+$11) 9... Qxg3 (9... d6 $6 10. Bxb5 axb5 11. Ndxb5 Qb8 12. Nxd6+ Bxd6 13. Rxd6)
+10. hxg3 Bc5 11. Kb1 $146 {This is White's most serious try, with the idea
+that after White captures Nxc6, ...Bxe3 won't be a check anymore.} (11. g4 Bb7
+12. f3 {This is a more solid option from White that was also played by
+Abdusattorov.} (12. Rxh5 Rxh5 13. gxh5 Nf6 14. Be2 Rc8 15. g4 (15. Nf5 Bxe3+
+16. Nxe3 b4 17. Na4 Nxe4 $11) 15... Nxd4 16. Bxd4 Nxe4 17. Bxg7 Nxf2 $13 {
+White's h-pawn may seem dangerous, but Black's pieces are active and there are
+enough resources to deal with the h-pawn.}) 12... h4 $5 $146 (12... g6 {
+This move was played in Abdusattorov - van Foreest, Wijk aan Zee 2023, however,
+it's better to develop the g8-knight to the g6-square with Ne7-Ng6.} 13. a4 b4
+14. Nce2 $14) 13. a4 (13. g3 Bxd4 14. Bxd4 Nxd4 15. Rxd4 g5 {The pawn on h4 is
+not weak at all.}) 13... b4 14. Nce2 Nge7 $11 {The e7-knight is ready to go to
+the g6-square.}) (11. Be2 Bb7 (11... g6 {Again, Black won't have the g6-square
+available for the knight.} 12. Nxc6 Bxe3+ 13. fxe3 dxc6 14. e5 $16) 12. Rxh5 (
+12. f4 b4 13. Na4 Ba7 14. Bf3 Na5 $132) 12... Rxh5 13. Bxh5 Nf6 14. Bf3 O-O-O
+15. a3 Ne5 $44 {Black is a pawn down but has good compensation for it. White's
+pieces are passive and Black may even use the h-file later on.}) (11. Nxc6
+Bxe3+ {This is the difference when White has castled long already, this move
+comes with a check.} 12. fxe3 dxc6 13. e5 {White had to prevent e6-e5.} Ne7 {
+[%cal Ge7g6,Gg6e5] The pawn on e5 is weak, so White doesn't have an advantage.}
+) 11... Bxd4 {It's time for Black to exchange everything on the d4-square.} (
+11... Bb7 $2 12. Nxc6 Bxe3 13. Na5 $18) 12. Bxd4 Nxd4 13. Rxd4 Ne7 14. Be2 Bb7
+{Active defense.} ({Trying to hold on to the pawn with:} 14... Nc6 15. Rd2 g6
+16. a4 b4 17. Nd1 $14 {White is slightly ahead in development and this endgame
+is unpleasant for Black.}) 15. Rxh5 Rxh5 16. Bxh5 O-O-O {Black is ready to
+take over the h-file.} 17. Bf3 (17. Bxf7 $6 Rf8 {The pawn on f2 will be lost
+and Black will have an advantage.}) 17... Rh8 18. Rd1 Rh2 19. Rg1 Nc6 {Black
+has compensation for the pawn thanks to the more active pieces. A possible way
+to continue can be with either Ne5 or Nd4 and then Black may try to push f5
+and g5 .} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 2"]
+[Black "6.Be3 a6 7.Qd2 without f2-f3"]
+[Result "*"]
+[ECO "B48"]
+[Annotator "GM Alexander Khalifman"]
+[PlyCount "46"]
+[EventDate "2023.??.??"]
+
+{[%evp 0,46,39,17,48,51,69,20,48,35,48,35,86,84,68,67,58,33,86,40,82,65,31,-49,
+-45,-35,-53,-64,-54,-111,-43,-32,-52,-95,-81,-55,0,-175,-75,-75,-75,-75,-63,
+-84,43,0,0,0,0]} 1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6
+7. Qd2 {This is the most popular move with which White is preparing the
+so-called English attack. White plans to castle long and then expand on the
+kingside with the moves f3 and g4. With knowledge of the ideas and some
+concrete variations, practice has shown that Black can reach a comfortable
+position in all variations.} Nf6 {The other options on move 7 for Black are a
+bit dubious, but here Black doesn't have to avoid the main lines.} (7... b5 8.
+O-O-O Nxd4 9. Bxd4 Bb7 10. e5 {Black didn't solve the opening problems
+completely.}) (7... Be7 {The idea is to avoid some sidelines and transpose to
+the main line, however, it also allows several unpleasant possibilities.} 8.
+Nxc6 $5 (8. g4 $5 {Is an extra option for White with this move order.}) (8.
+O-O-O Nf6 {This is Black's idea.})) 8. O-O-O (8. f4 {Creates the positional
+threat of e4-e5, so Black has to take action immediately.} Bb4 {The most
+reliable move for Black, immediately creating the threat of Nxe4.} (8... b5 9.
+e5 b4 {This counter-attacking move is available now.} (9... Ng4 10. Bg1 Bb7 11.
+O-O-O Nxd4 12. Bxd4 Be7 13. Kb1 $36 {White has pressure down the d-file and is
+ready to expand on the kingside.}) 10. Ncb5 {Black isn't doing very well at
+the end of this line and the position is a bit unpleasant.} axb5 11. Nxb5 Qb8
+12. exf6 gxf6 13. a4 {White supports the knight on b5, although this move
+slightly weakens the pawn structure on the queenside but that's irrelevant
+since White plans to castle on the kingside.} bxa3 14. bxa3 $14) 9. Bd3 {
+Black has a choice between two approaches, one which is solid and leads a to
+very slightly better position for White with a lot of drawish tendencies,
+while the other one is more risky.} (9. Nxc6 $146 dxc6 10. e5 Nd5 $13) 9... b5
+{This is the more active and riskier approach.} (9... Na5 {This is the solid
+approach. Black's idea isn't to capture on c3, but to play Nc4 instead.} 10. a3
+Bxc3 11. Qxc3 (11. bxc3 {Trying to keep the queens on the board doesn't give
+White anything.} b5 12. e5 Nd5 $15 {Black's knights are very good while
+White's bishop pair isn't doing much in the position.}) 11... Qxc3+ 12. bxc3 {
+Now Black has to play actively and accurately.} d5 13. exd5 {This is the
+critical line.} (13. e5 Ne4 {Black's bishop is passive on c8, but in return,
+the knights are very active.} 14. Nb3 Nc4 15. Bxc4 dxc4 16. Na5 Bd7 17. Bd4 (
+17. Nxb7 Bc6 $11) (17. Nxc4 Rc8 {White needs to be careful not to end up in a
+worse position.}) 17... Rc8 {Here, White has tried different options but they
+don't give White anything and in fact, White has to be careful not to end up
+in an inferior position.} 18. O-O-O (18. Rb1 b5 19. Ke2 (19. Rd1 f5 20. exf6
+gxf6 21. O-O Rg8 22. Rfe1 f5 $11) 19... Ke7 20. Rbd1 f5 21. exf6+ gxf6 $11) (
+18. Nxb7 Bc6 19. Na5 Bd5 {The bishop on d5 is active and restricts the passive
+knight on a5 very well.} 20. Rb1 Kd7 21. Ke2 f5 $132 22. Ke3 h6 23. h4 $6 g5
+$15 {[%eval 0,0] Sevian - Potkin, Wijk aan Zee 2015}) 18... b6 $1 19. Rhe1 {
+19.Bxb6 can be met with 19... Nxc3.} bxa5 20. Rxe4 Bc6 21. Re2 Bd5 $11 {
+Shirov - Movsesian, Loo 2014}) 13... exd5 {This is the better recapture for
+Black.} (13... Nxd5 {Capturing with the knight on d5 doesn't solve all Black's
+problems.} 14. Bd2 Nb6 15. Rb1 Nbc4 {Black can try to establish a knight on
+the c4-square but it's only temporary.} 16. Rb4 Nxd2 17. Kxd2 {White doesn't
+have a bishop pair anymore but White's pieces are very active. Despite the
+damaged pawn structure, White is the one fighting for the advantage.} Bd7 18.
+Be4 $14) 14. Nb3 Nc4 15. Bd4 Ne4 16. Nc5 Nxc5 17. Bxc5 b6 $5 {The easiest way
+for Black to equalize.} 18. Bxc4 (18. O-O-O bxc5 19. Rhe1+ Be6 20. f5 Nxa3 21.
+fxe6 Rb8 $11) (18. Bd4 f6 19. Kf2 Kf7 $11) 18... dxc4 19. Bxb6 f6 $11 {White
+won a pawn and has a symbolic advantage because of that, but that extra pawn
+isn't worth much in this opposite-colored bishop endgame with rooks on the
+board. The position has a very high drawish tendency.}) 10. a3 (10. O-O-O Na5 {
+With the idea to play Nc4 or Bb7 next.} 11. Nde2 Nc4 12. Bxc4 Qxc4 13. Qd3 {
+[%eval 0,0] Muzychuk,A - van Delft, Wijk aan Zee 2014} Bb7 $5 $15) (10. a4 bxa4
+11. Rxa4 Rb8 12. h3 O-O 13. O-O d5 $132 {This line also doesn't pose any
+problems to Black.}) (10. Nxc6 $146 dxc6 $132) 10... Be7 {Black doesn't want
+to give up the dark-squared bishop for no concrete reason.} 11. e5 (11. Nxc6
+dxc6 $132) (11. h3 b4 $5 $146 12. axb4 Nxb4 13. O-O Bb7 $132 {Black is doing
+fine and wants to play d5 at some point.}) 11... Ng4 12. Nxc6 (12. Bg1 {
+Avoiding the knight exchange on c6 doesn't achieve anything for White.} Bb7 13.
+Ne4 $6 (13. Nxc6 Bxc6 {Keeping the c-file open and the light-squared bishop
+active on the long diagonal.} 14. O-O-O f5 {Taking control over the e4-square.}
+15. exf6 Nxf6 $13) 13... f5 $1 14. exf6 Nxf6 15. Ng5 Na5 $36 {It's not clear
+where White's king will find shelter on the board, while Black's pieces are
+more active in comparison to White's.}) 12... dxc6 {12...Nxe3 is met by 13.
+Nxe7 which is bad for Black.} 13. Bg1 {The position may become sharp, but
+Black is doing well in any case.} (13. Rf1 $5 {Preparing Bg1 when the rook
+wouldn't be passive on the h1-square.} Nxe3 (13... O-O 14. Bg1 $36) 14. Qxe3
+Bb7 {Preparing long castle.} 15. O-O-O O-O-O 16. Kb1 Kb8 $13) (13. Ne4 Nxe3 14.
+Qxe3 {Black needs to play accurately now.} Bb7 (14... c5 {Looks tempting but
+it's very dangerous to Black.} 15. Nd6+ Bxd6 16. exd6 Qxd6 17. O-O-O $44 {
+White is ahead in development and has different threats in the position, so
+White has excellent compensation for the pawn.}) 15. b4 {This is an
+interesting try to strengthen the control over the c5-square but it doesn't
+work due to Black's next move.} (15. O-O-O O-O-O $132) 15... c5 16. Nxc5 Bxc5
+17. Qxc5 Qxc5 18. bxc5 {Guseinov - Moranda, European Onlide rapid 2021} Kd7 {
+White won a pawn but Black has adequate compensation for it. It's important
+for Black to keep the king active in the center.} 19. c4 Rhc8 20. cxb5 axb5 21.
+Bxb5+ Bc6 $11 {The rook endgame is drawn without a lot of difficulties for
+Black.}) 13... O-O {The most accurate move.} 14. h3 Nh6 {The knight on h6 is
+passive but White doesn't have a quick way to use it, while Black has a very
+direct plan of creating counterplay on the queenside.} 15. g4 Bb7 16. O-O-O c5
+17. Rh2 Kh8 {Vacating the g8-square for a potential knight retreat.} 18. Qe3
+Rab8 19. Rhd2 Qa5 {The position is sharp but Black's plan of attack is more
+straightforward in comparison to White's plan.} 20. Be2 b4 21. Nb1 Bd5 $132) (
+8. Be2 e5 $5 $146 {This move, although a bit unusual, is the best way to
+equalize the game.} (8... Bb4 {This is the most popular move.} 9. f3 d5 10. a3
+Bxc3 $6 11. Qxc3 dxe4 {Black has great statistics where almost all the games
+have been won by Black, but in reality, the position is better for White.} 12.
+Nxc6 Qxc6 13. Qxc6+ bxc6 14. fxe4 $16 {With a very unpleasant endgame for
+Black.}) 9. Nb3 (9. Nf5 d5 $1 10. Nxd5 Nxd5 11. exd5 (11. Qxd5 $2 Nb4 $19)
+11... Bxf5 12. dxc6 Qxc6 $11) (9. Nxc6 dxc6 10. O-O Be6 $11 {This is a
+symmetrical position where White needs to be careful about holding the balance
+because the knight on c3 is passive while the knight on f6 has better
+prospects, and Black can also look forward to a queenside expansion, while
+it's not very easy to recommend something for White.}) 9... Bb4 {The e4-pawn
+is under attack now.} 10. f3 d6 {Black isn't in a rush to capture on c3.} 11.
+a3 (11. O-O-O Be6 $36 {Preparing d6-d5.}) 11... Bxc3 12. Qxc3 (12. bxc3 Be6 {
+Black can easily defend the d6-pawn while White has weaknesses on the
+queenside. Additionally, White's knight on b3 is far away from the d5-square.})
+12... d5 $11) 8... Be7 {This has been preferred by strong players in recent
+years. The main move 9.f3 followed by g4 will be analyzed in the next lesson.}
+(8... Bb4 {This move is more popular but it's a bit dubious.} 9. f3 Ne5 {
+Exchanging everything on c3 isn't convincing for Black at all, and Black may
+have some difficulties with the lack of control over the dark squares.} (9...
+O-O 10. g4 b5 11. a3 Be7 12. h4 $40) 10. h4 $5 (10. g4 b5 11. g5 Nh5 12. a3
+Bxc3 13. Qxc3 Qxc3 14. bxc3 O-O 15. Nb3 {With an unpleasant position for Black.
+}) 10... d5 (10... b5 11. h5 $16) 11. Bf4 {Black's position is a bit awkward.})
+(8... b5 {This is met by the very unpleasant:} 9. Bf4 Qb6 (9... Ne5 {Can be
+met by:} 10. Nf3) 10. Nb3 {Black is under pressure in the position.}) 9. f4 {
+White's idea is to play e4-e5 while Black already lost a tempo with Be7, so
+Bb4 isn't the best move in this position.} (9. Be2 b5 10. Nxc6 dxc6 11. f4 (11.
+e5 Qxe5 $13) 11... e5 $13 (11... b4 12. Na4 Nxe4 13. Bb6 Qb8 14. Qe3 Nf6 15.
+Bc5 $44)) (9. Kb1 b5 $132) 9... b5 {Threatening b5-b4.} 10. e5 (10. Bd3 Bb7 {
+Renewing the threat of b5-b4.} (10... b4 11. Na4 Rb8 12. Rhe1 $14) 11. e5 (11.
+Rhe1 {Defending the e4-pawn indirectly.} O-O (11... d6 {Allows the typical
+idea:} 12. Bxb5 axb5 13. Ndxb5 Qb8 14. Nxd6+ Qxd6 15. Qxd6 Bxd6 16. Rxd6 O-O
+$13 {The endgame is unclear since in this version, the pawn is on f4 instead
+of f3, which would have been better for White with a more solid pawn structure.
+Regardless, Black doesn't need to allow White this opportunity.}) 12. e5 (12.
+Kb1 d6 13. Nb3 Rfc8 $15 {The position is already more pleasant for Black since
+there is a clear plan of how to improve on the queenside, while the same can't
+be said for White on the kingside.}) 12... b4 13. Nxc6 Bxc6 14. exf6 bxc3 15.
+Bxh7+ Kxh7 16. Qd3+ Kg8 17. fxe7 cxb2+ 18. Kb1 Rfc8 $132 {After the dust has
+settled, the position is easier to play with Black due to the safer king.})
+11... b4 12. Ne4 {The capture on f6 leads to a worse position for White.} Nxe4
+13. Bxe4 Nxd4 (13... Rc8 $5 {This is also a good option for Black.}) 14. Qxd4 (
+14. Bxb7 {This may look like an interesting intermediate move, but after:} b3 {
+White is in trouble.}) 14... O-O 15. Bxb7 Qxb7 16. Qxd7 {White is able to win
+the pawn on d7 but Black gets a dangerous initiative for the pawn.} Qe4 17. Qd2
+{Defending both the bishop on e3 and pawn on g2.} a5 18. Rhe1 b3 $1 19. axb3 a4
+$44 {It's White who has to play accurately in this position since Black's
+attack is already underway.}) 10... b4 (10... Ng4 11. Bg1 $14) 11. Ncb5 (11.
+exf6 bxc3 12. Qxc3 Bxf6 13. g4 {White is trying to create some pressure on the
+kingside and Black needs to reply accurately.} h6 {Black needs to prevent the
+opponent's expansion on the kingside for the moment.} (13... Bb7 14. g5 Bxd4
+15. Rxd4 O-O 16. Rd2 $14 {Black's dark squares are now vulnerable.}) 14. h4 (
+14. Bg2 Bb7 15. Qc5 Be7 (15... Rc8 $5) 16. Qc3 Bf6 $11 {Repeating the moves is
+possible, but a playable option is the move 15...Rc8. Black is doing fine in
+any case.}) 14... Bb7 {The move g4-g5 doesn't work now, so White has to
+prepare it.} 15. Rh2 (15. Rh3 {The rook doesn't protect the c2-square in this
+case.} Rc8 (15... Qd6 $2 16. g5 {15...Qd6 doesn't work when White's rook is on
+the h3 square.}) 16. Kb1 Nxd4 17. Qxc7 Rxc7 18. Bxd4 Be4 $11) 15... Qd6 $1 {
+An important tactical resource! This move prepares massive exchanges on the
+d4-square.} (15... Rc8 16. Qd2 $14) 16. Rf2 (16. Qd2 Bxd4 17. Bxd4 Qxd4 18.
+Qxd4 Nxd4 19. Rxd4 Ke7 $11 {Duda - Shankland, Wijk aan Zee 2019}) 16... Qb4 $11
+17. Qxb4 Nxb4 18. g5 hxg5 19. hxg5 Be7 $15) (11. Na4 Nd5 {The position is fine
+for Black.}) 11... axb5 12. Nxb5 Qa5 {This move leads to a sharp and tactical
+play.} (12... Qb8 {This isn't the most accurate move for Black.} 13. exf6 gxf6
+14. Kb1 d5 15. Qf2 Ba6 16. Bb6 Bxb5 17. Bxb5 Qb7 {This line is a bit
+unpleasant for Black because the king is stuck in the center.} 18. Rhe1 Rb8 19.
+Bxc6+ Qxc6 20. Bd4 Ra8 21. b3 Kd7 {Nakamura - Giri, Saint Louis 2015} 22. Rd2
+$5 Qa6 23. a4 bxa3 24. Ka2 $36 {White's king is perfectly safe while Black has
+kingside weaknesses and the king is a bit exposed on the d7-square.}) 13. exf6
+gxf6 14. Nd6+ Bxd6 15. Qxd6 {The position may seem dangerous for Black, but
+Black is about to win a pawn and White doesn't have a mating attack. Black
+needs to play accurately, however, so does White.} Qxa2 16. Rd3 (16. Bb5 Qa1+
+17. Kd2 Qxb2 18. Ke2 (18. Bc5 $2 Ra5 $19) 18... Ra5 19. Rd2 Qc3 20. Bxc6 Qxc6
+21. Qxc6 dxc6 22. Bb6 Rd5 $15 {Although it's an endgame with opposite-colored
+bishops, Black has two extra pawns at the moment and is the side that's
+playing for a win.}) 16... Qa1+ {This move leads to a forced draw.} (16... Ra5
+$5 {This is also possible.}) 17. Kd2 Ra2 $1 {This is the most accurate move
+for Black, keeping the pin along the first rank and preparing to capture the
+pawn on b2.} (17... Qxb2 18. Rb3 Qa1 19. Bc5 Qa5 20. Be2 $36 {White's king is
+safe and the rook on b3 is excellently-placed, so Black can face some problems
+in this position.}) 18. Rb3 (18. Bd4 Nxd4 19. Rxd4 Rxb2 (19... b3 20. Rc4 $11)
+20. Bb5 Qxh1 $11 {White has a perpetual check.}) 18... Rxb2 19. Bb5 Qxh1 20.
+Bxc6 dxc6 21. Qxc6+ Kf8 22. Bc5+ {22.Rxb2 Kg7 may be dangerous only for White.}
+Kg7 23. Rg3+ Kh6 $11 {White is a rook down so it's best to give a perpetual
+check.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 3"]
+[Black "6.Be3 a6 7.Qd2 English Attack"]
+[Result "*"]
+[ECO "B47"]
+[Annotator "GM Alexander Khalifman"]
+[PlyCount "38"]
+[EventDate "2023.??.??"]
+
+{[%evp 0,38,23,19,51,51,59,48,49,33,27,55,94,83,94,61,69,33,50,46,38,49,66,54,
+54,24,25,24,15,0,-49,-38,-38,-47,-30,-30,-33,-32,-32,-49,-55]} 1. e4 c5 2. Nf3
+e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qd2 (7. f3 {This move is
+also possible here, but it doesn't give White any extra possibilities later on.
+} Nf6 8. g4 b5 9. g5 Nh5 {White needs to play Qd2 and 0-0-0 so it won't change
+anything.}) 7... Nf6 8. O-O-O {White's idea is to play f3, g4, and expand on
+the kingside in general. This line has been considered to be the most
+dangerous for Black, but Black managed to find good ways to defend, although
+it's not very easy. Playing only on ideas isn't so good since there are lines
+in which Black needs to know precisely what to do, otherwise Black may get in
+trouble very soon, however, the same can be said for White.} (8. f3 b5 {
+If White plays 8.f3 instead of 8.0-0-0, Black doesn't have to play Be7 and can
+play b5 directly.} 9. g4 (9. Nxc6 dxc6 {This move is again quite a reliable
+option.} 10. Qf2 Be7 11. a4 O-O 12. Be2 {Duda - Caruana, Stavanger 2020} (12.
+axb5 cxb5 13. Bxb5 (13. Nxb5 Qb8 {This is a good way to meet 13.Nxb5.}) 13...
+Rb8 {Black will regain the material.}) 12... Bb7 {Completing the development.}
+13. O-O Bd6 {This is a typical move for Black. It's slightly annoying for
+White to deal with it since 14.f4 runs into 14...e5, avoiding a fork with
+e4-e5 from White, and then Black can think about playing b4 which would remove
+the defender of the e4-pawn.} 14. g3 Nd7 $132) (9. O-O-O Be7 {Transposes to 8.
+0-0-0.}) 9... Nxd4 10. Qxd4 (10. Bxd4 Bb7 11. O-O-O Be7 {Transposes to 8.0-0-0.
+}) 10... Bb7 {White should castle queenside which would transpose to lines
+analyzed below since castling kingside is illogical when the g4 move has been
+played.} 11. g5 Nh5 12. a4 b4 13. Na2 a5 14. O-O-O (14. c3 Be7 15. cxb4 axb4
+16. Nxb4 O-O 17. Nd3 d5 $44) 14... Bc6 15. b3 Be7 16. Kb1 O-O $13) 8... Be7 ({
+I prefer the move order with 8...Be7 because after:} 8... b5 9. Bf4 Qb6 (9...
+Ne5 10. Nf3 {White has this move as a reply to 9...Ne5, putting pressure on
+the knight on e5.}) 10. Nb3 {Black has an unpleasant position.}) 9. f3 b5 {
+White has tried many moves in this position, from which the most popular is 10.
+g4.} (9... h5 {Black managed to prevent g4 but after:} 10. Nxc6 dxc6 11. Qf2 {
+Black's position is uncomfortable.}) 10. g4 {Now it's time for Black to
+exchange the knights on d4.} (10. Kb1 Bb7 (10... Nxd4 {White played Kb1
+without g4, so g5 is not a threat and capturing on d4 immediately can put
+Black in an unpleasant position.} 11. Bxd4 Bb7 12. e5 $5 $146 Nd5 13. Ne4 $36)
+11. Bf4 (11. g4 Nxd4 12. Bxd4 {Transposes to 10.g4.} (12. Qxd4 {Transposes to
+10.g4.})) (11. Nxc6 {If Black captures on c6 with the queen or the bishop, it
+would lead to an unpleasant version of the knights' exchange for Black after
+the move g4.} dxc6 {Choosing how to capture on c6 is a question that often
+appears in the Taimanov. White has castled queenside and has already committed
+the king on b1, so Black will advance the pawns on the queenside in order to
+create an attack.} 12. Qf2 c5 13. g4 {White can try to play aggressively, but
+Black has counterplay in this line as well.} (13. Qg3 {This isn't dangerous
+for Black.} Qxg3 14. hxg3 Bc6 15. g4 O-O {White can't accomplish anything on
+the kingside.} 16. g5 Nd7 17. Re1 Rfc8 18. Be2 Nf8 $11 {The pawn on h7 is
+properly defended and Black is ready to start playing on the queenside.}) 13...
+O-O 14. g5 Nd7 15. h4 Rad8 16. h5 b4 17. Ne2 Nb6 18. Rxd8 Rxd8 19. Nc1 Rd1 20.
+b3 f5 $1 $13) 11... e5 12. Nf5 exf4 13. Nd5 {Capturing the pawn on g7 doesn't
+promise White much, but 13.Nd5 is a bit unpleasant to deal with.} Qb8 (13...
+Nxd5 14. exd5 Nb4 15. c4 {The natural reaction with 13...Nxd5 led to an
+unclear position.} (15. d6 $13)) 14. Nxg7+ Kf8 15. Nf5 Qe5 16. Nxf4 h5 $1 {
+This is a strong move that defends from various tactics (such as moving the
+knight from f4 and Qh6+) and limits White's possibilities.} 17. g3 {The
+strongest move, although it's far from obvious to play.} (17. Nd3 $6 Qc7 18. e5
+Nd5 $17 {Klabis - Blomqvist, Catez 2021}) 17... Bd8 18. Bg2 Ne7 19. Nh4 Rb8 $13
+) (10. Nxc6 dxc6 11. g4 O-O 12. Qf2 e5 13. h4 Rd8 14. Bd3 (14. Rxd8+ Qxd8 15.
+Bh3 h5 $5 16. Rd1 Qc7 17. Qg2 g6 {Black is fine in this position.}) 14... Rb8
+15. h5 Be6 $132 16. g5 Nd7 17. g6 h6 {And now Black is ready to start his own
+counterplay.}) (10. Bf4 $6 {This is a very different line without including
+the moves 10.Kb1 Bb7. The difference is that the bishop is on c8 and the pawn
+on d7 is defended.} e5 11. Nxc6 {If White realizes that something went wrong
+since the bishop is still on c8 and decides not to go for the sacrifice, in
+that case after:} (11. Nf5 exf4 12. Nd5 Qe5 $17 {Black is a piece up and White
+doesn't have compensation for it.}) 11... dxc6 12. Be3 Be6 $17 {White simply
+lost several tempi and Black's queenside attack will be very dangerous.}) (10.
+Qf2 Ne5 $5 11. g4 (11. Kb1 Bb7 $146 (11... b4 12. Na4 {It's better to develop
+with Bb7 first.}) 12. g4 b4 13. Na4 h6 14. h4 d5 $36) 11... b4 12. Nce2 (12.
+Na4 $2 Qa5 13. b3 Nexg4 14. fxg4 Nxg4 15. Qg3 Nxe3 16. Qxe3 Bg5 $19) 12... Nc4
+$36) 10... Nxd4 (10... Bb7 {This is a natural developing move, although after
+White's next move, it's a bit unpleasant for Black.} 11. g5 Nxd4 (11... Nh5 12.
+Nxc6 Bxc6 13. Ne2 {This knight exchange leads to a different version from the
+position where the knights are exchanged on d4, but it's better to exchange
+the knights on move ten.}) 12. gxf6 {Leads to complications which favor White.}
+) 11. Bxd4 {This is somewhat a bit more popular, although it's not necessarily
+more dangerous.} (11. Qxd4 Bb7 {It's not clear if Black is ready to castle
+since after g4-g5, the d7-pawn will fall. From another side, the downside of
+the move Qxd4 is that the c2-pawn is not defended, so the plan of Rc8 and
+b5-b4 gains in strength.} 12. g5 (12. Kb1 h6 $5 $146 (12... Rc8 {The b5-b4
+threat is already unpleasant.} 13. Rd2 (13. Qd2 b4 14. Na4 Nxe4 15. fxe4 Bxe4
+16. Nb6 Bxh1 17. Bf4 Qc6 18. Nxc8 Qxc8 19. Bd6 Bxd6 20. Qxd6 a5 $15) 13... h6
+$5 {White is not ready to push g5 effectively and it's difficult to prepare it,
+while Black has ideas of pushing b4 and d5, so White needs to be careful in
+order not to get into problems in the opening stage.}) 13. h4 b4 14. Na4 d5 {
+Black is starting to take over the initiative.}) 12... Nh5 13. Kb1 (13. Rd2 {
+This is a prophylactic move, defending the c2-pawn in advance.} Rd8 $5 $146 {
+13...Rc8 leads to complications since Black also needs to be careful of
+sacrifices on the b5-square, so 13...Rd8 is more accurate, defending the
+d7-pawn and getting ready to castle. In addition, the rook can support d5
+later on.} (13... f6 $5) 14. Bh3 {The bishop is heading to the g4-square.} (14.
+Rg1 O-O 15. Qb6 Qb8 $11) 14... O-O (14... Nf4 15. Qxg7 {Black lost the pawn on
+g7, so the move 14...Nf4 isn't possible.}) 15. Ne2 (15. Bg4 Nf4 $15) 15... f5
+$13) (13. Bh3 Rc8 {b5-b4 is a threat now.} 14. Bg4 (14. Qd2 b4 15. Ne2 d5 16.
+Bg4 g6 17. Bxh5 gxh5 18. Kb1 (18. e5 d4 $1 19. Nxd4 O-O $17 20. Rhe1 a5 {
+[%cal Gf8d8,Ga5a4,Gb7d5]}) 18... dxe4 19. f4 h4 $132) (14. Rd2 $6 Bc5 15. Qxc5
+Qxc5 16. Bxc5 Rxc5 $17) 14... b4 15. Bxh5 bxc3 16. Qxg7 cxb2+ 17. Kxb2 Rf8 $44
+{Regardless of White being a pawn up, the king on b2 is exposed while Black's
+king is quite safe on e8.}) (13. Ne2 Rc8 14. Rd2 Bc5 $36) 13... Rc8 14. Qd2 g6
+{This is a prophylactic move, defending the knight on h5 and sometimes giving
+that knight a retreat square on g7.} (14... b4 15. Na4 {It's not clear how
+Black will proceed from this position.} (15. Ne2 d5 16. Ng3 (16. e5 d4 $1 17.
+Nxd4 O-O $44 {Volokitin - Najer, Germany 2013}) 16... Nxg3 17. hxg3 dxe4 18.
+Bf4 Qc5 19. Qd7+ Kf8 20. Rh2 Bd5 $13) 15... O-O $146 16. b3 (16. Nb6 Rcd8 17.
+Nc4 d5 18. Bb6 Qb8 19. Bxd8 Rxd8 20. exd5 Bxd5 21. Qe3 Qc7 22. b3 a5 $44) 16...
+d5 17. Bd3 a5 $13) 15. Bh3 b4 16. Na4 $146 (16. Ne2 d5 17. e5 {Almasi -
+Inarkiev, Havana 2013} (17. Bd4 O-O 18. e5 a5 19. Bg4 Ba6 20. Bxh5 Bxe2 21.
+Qxe2 gxh5 22. f4 a4 23. f5 Bc5 $132) 17... d4 $5 {This is a good idea to
+remember! Black is sacrificing a pawn in order to open up the light-squared
+bishop.} 18. Nxd4 O-O 19. Bg4 a5 $44 {Bxh5 damages Black's pawn structure but
+it's not easy for White to bring the pieces in order to organize an attack on
+the kingside, while Black's light-squared bishop is quite strong and Black is
+ready to advance on the queenside.}) 16... O-O 17. Bg4 d5 18. Bxh5 gxh5 19. Nb6
+Rcd8 20. exd5 Bxd5 21. Nxd5 Rxd5 {The weakness on h5 is more or less only
+optical, while Black has counterplay on the c-file and White's pawns on the
+kingside are also weaknesses.} 22. Qe2 Rf5 $13) 11... Bb7 {Black wants to play
+castle next and then play d7-d5. This is the difference between this English
+Attack here in comparison to the Najdorf and Scheveningen, Black hasn't lost a
+tempo playing d6 and wants to play d7-d5 in one move. If Black manages to win
+the fight in the center, Black will be doing well, however, that's not an easy
+task to accomplish.} 12. Kb1 {This is a prophylactic move that isn't the most
+popular, but it has been chosen by strong players lately.} (12. g5 Nh5 13. Ne2
+(13. Kb1 O-O {Transposes to 12.Kb1.}) (13. Be5 Qxe5 14. Qxd7+ Kf8 15. Qxb7
+Bxg5+ 16. Kb1 Qb8 {This is an accurate move for Black. Even though Black's
+king lost its castling rights, the king is safe and the position can turn into
+an opposite-colored bishop endgame.} 17. Rd7 (17. Qc6 Qc8 18. Qxc8+ Rxc8 $11)
+17... Qxb7 18. Rxb7 {Both sides need to play accurately, but in general, a
+draw is a probable result from this position.} Bf6 19. a4 Bxc3 20. bxc3 bxa4
+21. Bxa6 g5 {White's c-pawns are not dangerous since Black has enough
+counterplay on the kingside and overall, it's not easy to advance them.} 22.
+Bb5 Nf4 23. c4 Kg7 24. c5 Rhb8 25. c6 Rxb7 26. cxb7 Rb8 27. Ba6 e5 28. Ka2 Ne6
+$11) 13... Rc8 {Bxg5 is already a threat.} 14. h4 O-O 15. Bh3 f5 $1 {Once
+again, this is a strong resource that Black has.} 16. gxf6 (16. exf5 exf5 {
+It may seem that Black's structure has some weaknesses, but White's problem is
+that the pieces aren't coordinated well and they are passive.} 17. Rhf1 Ng3 $5
+{The d7-pawn is weak, although White's kingside pawns are also targets which
+practically it's probably more important.} (17... Qh2 18. Rh1 Qc7 {Black can
+make a draw with repetition but also Black can choose to be more ambitious
+with 17...Ng3.}) 18. Rf2 Bd6 $15) 16... Bxf6 17. Bxf6 Nxf6 $11) (12. h4 d5 {
+The simplest way to reach a comfortable game for Black.} (12... O-O {This is
+also possible, but 12...d5 is simpler.}) 13. g5 (13. exd5 Nxd5 14. Bxg7 Rg8 {
+Black lost the pawn on g7, although White will need to give up some material
+now since the pawn on f3 will be lost.}) 13... Nh5 14. exd5 b4 {Once again,
+Black has this intermediate move.} 15. Ne4 Bxd5 16. Kb1 Bxe4 17. fxe4 O-O $132)
+(12. Bd3 O-O {Black is ready to start action in the center with e5, d5, or the
+move b4.} 13. g5 Nh5 14. Ne2 {Dominguez - Potkin, Havana 2012} f6 $5 $146 {
+Not f5 but f6!? in this case with a similar idea.} 15. h4 e5 16. Be3 Kh8 $132 {
+White's kingside attack has been halted and Black is ready to start some
+counterplay on the other side of the board.}) (12. Qf2 O-O {This is similar
+and can transpose later on.} (12... d5 $5 $146 13. exd5 O-O $44)) 12... O-O {
+Black wants to continue with d7-d5 directly, or to play b5-b4 first and then
+d5.} 13. Rg1 (13. h4 b4 (13... d5 $5 {This is also possible but it leads to a
+somewhat chaotic play.} 14. g5 (14. e5 Nd7 15. f4 b4 16. Ne2 a5 17. g5 a4 $132)
+14... Nh5 15. exd5 Ng3 $5 16. Rg1 Nf5 $132 17. Ne4 {The position is a bit
+irrational, so I prefer to start with 13...b4.}) 14. Na4 (14. Ne2 $6 {It may
+look natural to move the knight toward the kingside to support the attack,
+however, it's a mistake because of:} e5 15. Bf2 d5 {White's attack is too slow
+now while Black is opening up the center.} 16. g5 Nh5 17. exd5 Bxd5 $17 {
+White can't capture the bishop due to Rd8.}) 14... d5 15. e5 (15. Nb6 {This is
+a more critical line than 15.e5 since White tries to avoid the problem with
+the knight on a4 which White has in that line.} Rad8 16. e5 Ne4 $1 {A very
+good tactical solution that looks a bit unusual but it works well.} (16... Nd7
+{This is a position that Black should avoid, even though 16...Nd7 looks
+natural.} 17. Nxd7 Rxd7 18. h5 {White's attack is more dangerous and Black's
+counterplay seems to be a bit slow. Additionally, White doesn't have a knight
+on a4 to worry about which can potentially accelerate Black's counterplay.})
+17. fxe4 (17. Qe1 {This is a safer option for White in comparison to capturing
+on e4.} Nc5 {The knight on b6 is in trouble again.} 18. Qxb4 a5 $1 19. Qxa5 Ra8
+20. Qb4 Ra7 {Black is two pawns down but White still has problems with the
+knight.} 21. h5 Ne4 22. Qb3 Nc5 {White should agree to a draw with the
+repetition, because avoiding it, can land White in trouble despite the two
+extra pawns.} 23. Bxc5 (23. Qb4 $11) 23... Bxc5 24. Na4 Bf2 {It's only Black
+who can claim an advantage in this position since the e5 pawn is weak and
+Black has the initiative.} 25. Nc3 Qxe5 $44) 17... dxe4 {...Bc5 is a threat.}
+18. Qe2 Rxd4 19. Rxd4 Qxb6 20. Rd7 Bc5 {White has a rook for a bishop and a
+pawn, but that doesn't help White to fight for an advantage in this position,
+while Black has a clear plan of attack on the queenside.} 21. Bg2 {So -
+Artemiev, chess24.com rapid 2021} Bc8 $5 22. Rdd1 e3 {Black's e3-pawn is
+strong and the plan is to roll the a-pawn down the board. Only Black can try
+to gain an advantage in this position.} 23. Rh3 a5 $44) 15... Nd7 {The pawn
+structure resembles the one coming from the French variation, however, this is
+a better version for Black. White's pawns on the kingside haven't created any
+threats yet, while Bc6 is coming and White needs to be careful.} 16. Qe3 {
+Preparing a knight exchange.} Rab8 17. b3 Bc6 18. Nb2 Bb5 19. h5 Rfc8 {The
+knight on b2 doesn't support White's kingside attack, while Black has good
+counterplay and the pawn on e5 may turn out to be weak in some cases.} 20. Rd2
+Bc5 21. Bxc5 Qxc5 $11) (13. g5 {This gives Black extra possibilities to free
+the position on the kingside. The move f7-f5 is a typical idea, while d7-d5
+can be also considered in some cases, even though the knight is not on f6 to
+support it.} Nh5 {Now it's not easy for White to proceed with the kingside
+initiative because Black's knight has the f4-square to jump to if needed.} 14.
+Ne2 (14. Be3 {There is no need for Black to play f7-f5 now since Black has the
+typical counterplay with the move d7-d5.} d5 (14... Rad8 $5) 15. exd5 b4 {
+Bauer - Ganguly, Linares 2013} 16. d6 $5 $146 bxc3 17. Qd3 Bxd6 18. Qxd6 Qc8
+19. Be2 cxb2 {White has the bishop pair but in return, White's king's position
+has been compromised.} 20. Rd2 Bd5 21. Rhd1 Bc4 $13) (14. Bd3 {Black has a
+very good defensive idea now.} Nf4 15. h4 Nxd3 16. cxd3 f5 $132 {With this
+move, Black gains some space on the kingside and fights back. It's difficult
+to find constructive plans for White for how to continue.}) 14... f5 $5 {
+This is a typical move and a strong reaction that solves Black's problems
+completely. The reason for that is because Black gains some space and is very
+solid on the kingside.} 15. gxf6 Bxf6 16. Bxf6 Nxf6 17. h4 Rf7 $13 {Black has
+some counterplay down the f-file and d7-d5 is still possible in some
+situations, so Black is doing fine.}) (13. Qf2 d5 $5 $146 (13... Rac8 {This
+was played by Peter Svidler, but Black can try to be more direct with 13...d5.}
+) 14. g5 (14. e5 Nd7 15. f4 f6 $36 {This is a strong resource for Black and
+once again, it's White who has to think about how to avoid getting in a worse
+position.} 16. Qh4 Nxe5 17. Qe1 Bd6 {With an advantage for Black.}) 14... Nd7 (
+14... Nh5 {I don't like this move so much in this position since White can get
+some dangerous compensation.} 15. e5 $5 Bxg5 16. Rg1 f6 17. Bd3 $13) 15. exd5
+b4 16. Ne4 (16. dxe6 {This is a forced line where after White plays a lot of
+only moves, it ends with a perpetual check.} fxe6 17. Bh3 Nc5 18. Na4 Bxf3 19.
+Nxc5 Bxd1 20. Bxe6+ Kh8 21. Bxg7+ Kxg7 22. Qd4+ Kg6 23. Qe4+ Kg7 $11) 16...
+Bxd5 17. Bd3 {White's plan is to push the h-pawn as soon as possible.} Rfd8 18.
+h4 Bxe4 19. Bxe4 Rac8 {Black gave up the bishop pair, but Black has sufficient
+play for it and the knight is ready to jump to c5 next.} 20. f4 {This is
+probably the best try for White to get an advantage.} (20. g6 hxg6 21. h5 gxh5
+22. Rxh5 Bf6 {All kinds of direct attacks such as 20.g6 or 20.h5 don't work
+for White.}) (20. h5 Bxg5 $17) 20... Nc5 21. Bg2 Na4 22. f5 Rxd4 23. Rxd4 Bc5
+24. Rhd1 {Winning back the exchange will leave Black in a position with some
+problems, however, Black's next move solves all the issues.} Nc3+ 25. bxc3 bxc3
+26. Ka1 e5 $11 {Soon, the position will turn into a drawish opposite-colored
+bishop endgame.}) (13. Bd3 b4 (13... d5 $6 14. g5 Nh5 (14... Nd7 15. exd5 b4
+16. dxe6 fxe6 17. Qe2 $18) 15. e5 $16) 14. Ne2 (14. Na4 d5 15. e5 Nd7 16. Qe3
+Rab8 (16... a5 17. f4 Ba6 18. f5 Rfc8 19. Rc1 Qd8 20. h4 Bxd3 21. Qxd3 Bc5 $13)
+17. b3 (17. Nb6 Nc5 18. f4 Qxb6 19. f5 Rfc8 20. f6 Qc7 21. fxe7 Qxe7 22. h4 Ne4
+$132) 17... Bc6 18. Nb2 Bb5 $132) 14... e5 15. g5 exd4 16. gxf6 Bxf6 17. f4 $13
+Rae8 18. Ng3 Kh8 $13) 13... Rac8 (13... d5 $6 14. g5 Nh5 (14... Nd7 15. exd5 b4
+16. Ne4 Bxd5 17. Nf6+ {This check is possible and it's a big difference when
+the rook is on g1 instead of h1.}) 15. exd5 {White gets an advantage in this
+line.}) ({The idea of 12.Rg1 can be seen after:} 13... b4 14. Na4 d5 15. Nb6
+Rad8 16. e5 Ne4 {This line isn't as clear as the version previously analyzed
+where the rook was on h1, so it's better to avoid it in this case.} 17. fxe4
+dxe4 {The rook on h1 isn't hanging so e4-e3 is not a threat in this line.} 18.
+Nc4 f6 19. a4 $1 $13) 14. h4 {Dominguez - Shankland, Saint Louis 2019} (14. Qf2
+Bc6 $132) 14... e5 $5 $146 15. Be3 (15. Bf2 Bb4 (15... b4 16. Na4 d5 17. g5 {
+This is quite unpleasant for Black since the d5-d4 resource doesn't work
+because the bishop is on f2, not on e3 where it would have been attacked with
+tempo.}) 16. g5 Nh5 17. Qxd7 Qa5 $1 18. Qxb7 Bxc3 19. bxc3 Qxc3 {With the
+bishop on f2, this line works.} 20. Bd3 Qb4+ $11 {White has to accept a draw
+by perpetual check.} 21. Kc1 $2 Nf4 $1 $17 {This is a major difference between
+Be3 and Bf2, White's dark-squared bishop is not controlling the f4-square.})
+15... b4 (15... Bb4 {This move doesn't work very well for Black.} 16. g5 Nh5
+17. Qxd7 Qa5 $2 {This is an interesting tactical try but it doesn't work for
+Black.} 18. Qxb7 Bxc3 19. bxc3 Qxc3 20. Bd3 {White's king can escape from a
+perpetual check, so White has a winning position.}) 16. Nd5 (16. Na4 d5 {
+And now} 17. g5 {runs into:} d4 {This is a good intermediate move for Black,
+hitting the bishop on e3 with tempo.}) 16... Nxd5 17. exd5 Bc5 18. Bxc5 Qxc5
+19. Rg2 d6 $132 {Black has solved all the opening problems and has a clear
+plan of advancing the a-pawn, while it's not so clear how White will advance
+on the kingside without creating weaknesses. The position is around equal but
+White is the one that needs to be more careful in order to keep the balance.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 4"]
+[Black "6.Be3 a6 7.Bd3"]
+[Result "*"]
+[ECO "B48"]
+[Annotator "GM Alexander Khalifman"]
+[PlyCount "36"]
+[EventDate "2023.??.??"]
+
+{[%evp 0,36,19,10,51,44,43,33,33,36,55,35,94,65,71,75,60,59,59,43,46,6,78,75,
+61,60,109,100,78,41,45,50,11,27,26,38,18,7,7]} 1. e4 c5 2. Nf3 e6 3. d4 cxd4 4.
+Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Bd3 {This move appeared in the early 20th
+century and was considered to be the main line for a long time. The advantage
+of this move for White is that White doesn't have to be very precise and isn't
+risking to land in a worse position, however, the drawback is that it doesn't
+put immediate pressure on Black, which is the reason why this set-up isn't as
+popular anymore.} Nf6 8. O-O (8. Qe2 {This move hasn't been played as often as
+8.0-0, but it's an interesting try.} b5 (8... Nxd4 $6 9. Bxd4 Bc5 10. Bxc5 Qxc5
+11. e5 {This is unpleasant for Black.}) (8... Bd6 9. O-O-O Be5 10. Nxc6 bxc6
+11. Na4 Rb8 12. g3 Rb4 {Gipslis - Taimanov, Moscow 1959} 13. f4 $1 Rxa4 14.
+fxe5 Qxe5 15. Bf4 Qc5 16. a3 $44) 9. Nxc6 (9. O-O {Transposes to 8.0-0.}) (9.
+f4 Nxd4 10. Bxd4 Qxf4 11. Rf1 Qd6 12. Qf2 (12. Bf2 Qe5 13. Bg3 Qh5) 12... e5
+13. Be3 Be7 14. O-O-O O-O {White has some compensation for the pawn but it
+isn't dangerous for Black.} 15. Qg3 Bb7 16. Bxb5 Qe6 17. Bd3 Rfc8 $13 {Black
+has enough counterplay on the queenside.}) (9. O-O-O Bb4 {If Black succeeds in
+exchanging on c3 without exchanging the queens, White's king will be in danger
+first.} 10. Nxc6 dxc6 {10...Qxc6 can be met with 11.Bd4, and 10...Bxc3 can be
+met with 11.Nd4, so 10...dxc6 is best.} 11. Qe1 Be7 12. f4 e5 13. f5 Bb7 $132)
+9... dxc6 ({Black can't follow the typical pattern with} 9... Qxc6 {because
+White gets a better position after:} 10. e5 (10. a3 Bb7 {This is fine for
+Black.}) 10... Nd5 11. Be4 Bb4 12. Bd2 Bxc3 13. Bxc3 Bb7 14. Bd2 $14) 10. a4 (
+10. O-O Bd6 (10... e5 11. a4 $36) 11. f4 e5 12. f5 Bb7 13. g4 {There is a
+difference with the position where the queenside was more open, Black can
+castle queenside now.} (13. a4 {Transposes to 10.a4.}) 13... Qe7 14. g5 Nd7 15.
+Kh1 Bc5 16. Bd2 O-O-O 17. a4 Kb8 $132) 10... Bb7 11. f4 (11. O-O Bd6 12. Kh1
+$146 (12. f4 e5 {Transposes to 11.f4.}) 12... O-O 13. Bg5 {Preparing f2-f4.}
+Nd7 14. f4 f5 $1 {This is a good resource for Black. White can't make use of
+the weaknesses created by this move and Black intends to continue with Nc5
+next.} (14... e5 15. f5 {This is a bit unpleasant for Black.} f6 16. Be3 $14)
+15. Rfd1 Nc5 $13) 11... e5 {It's necessary to prevent e4-e5.} 12. axb5 (12. O-O
+Bd6 13. f5 O-O $5 $146 14. g4 b4 15. g5 Nd5 $1 $13) 12... axb5 {White doesn't
+have a breakthrough and any potential sacrifices don't work.} 13. Rxa8+ Bxa8
+14. O-O Bd6 15. f5 O-O {White has already started pushing the pawns on the
+kingside and the position may be unpleasant, however, Black has a very
+important resource that can be seen later.} 16. g4 (16. Bf2 Bb4 17. Bh4 Qb6+
+18. Kh1 Bxc3 19. bxc3 c5 20. Bxf6 gxf6 21. Qe3 Kg7 22. Rf3 Rg8 $11) 16... b4
+17. g5 ({If White retreats the knight with:} 17. Nd1 c5 {Black is on time to
+start immediate counterplay.}) 17... Nd5 $1 {This is a very strong tactical
+resource!} 18. Nd1 Nf4 {This stops any dangerous attack from White.} 19. Qf3 c5
+20. Bc4 g6 21. fxg6 hxg6 22. Nf2 Kg7 $13) (8. Nb3 {Trying to keep more
+material on the board. Black is a tempo up on a Sicilian 4...Qb6 variation.} b5
+(8... Bd6 $5) 9. f4 d6 {We have reached a standard Schevenningen type of
+position. Practice, as well as concrete analysis, demonstrate that Black has
+enough counterplay.} 10. Qf3 (10. O-O Be7 11. Kh1 O-O $132) (10. a3 Be7 11. O-O
+O-O 12. g4 Nd7 13. g5 Nc5 14. f5 Nxd3 (14... Nxb3 15. cxb3 Qd8 16. f6 gxf6 17.
+gxf6 Bxf6 18. e5 Nxe5 19. Bxh7+ Kxh7 20. Qh5+ Kg8 21. Ne4 Bh4 22. Rf4 Bb7 23.
+Rg4+ Nxg4 24. Qxg4+ Kh8 $11) 15. cxd3 exf5 16. exf5 Ne5 $13 17. f6 $6 Bd8) (10.
+g4 Bb7 11. g5 Nd7 $132) 10... Be7 11. O-O (11. g4 Bb7 12. g5 (12. O-O-O Nb4)
+12... Nd7 13. O-O-O (13. Qh3 Nb4 14. O-O (14. g6 $6 f5 $1 $36) 14... Nc5 $132)
+(13. h4 Nb4 $132) 13... O-O 14. h4 Nb4 15. Kb1 Nxd3 16. cxd3 b4 17. Ne2 a5 18.
+Nbd4 Ba6 19. h5 Nc5 $132) (11. O-O-O Bb7 12. Kb1 Nb4 13. f5 O-O 14. Rc1 Nxd3
+15. cxd3 Qd7 16. Na5 b4 17. Ne2 exf5 18. Qxf5 Qxf5 19. exf5 Bc8 20. Nc6 Re8 $15
+) 11... O-O 12. Rae1 {White is trying to prepare an attack but it doesn't seem
+dangerous as Black has enough defensive resources and counterplay.} (12. a4 b4
+13. Ne2 (13. Nb1 e5 $5 $146 14. h3 (14. f5 Bb7) 14... exf4 15. Qxf4 Ne5 $132)
+13... e5 14. a5 (14. f5 {Spassky - Tal, Tbilisi 1965} Bb7 $5 15. a5 d5 16. Bb6
+Qc8 17. exd5 e4 18. Bxe4 Ne5 19. Qf4 Re8 $44) 14... Be6 15. Bb6 Qb7 16. Nd2 Bd8
+17. Bxd8 Raxd8 $13) (12. Kh1 b4 13. Ne2 (13. Na4 Rb8) 13... a5 $132) (12. Rad1
+b4 13. Ne2 a5 $132) (12. a3 b4 13. axb4 Nxb4 $132) 12... Nb4 {This is a
+typical resource for Black.} 13. Nd4 (13. a3 Nxd3 14. cxd3 Rb8 {Black intends
+to play b5-b4 while it's not so clear how White plans to develop an initiative
+on the kingside without the light-squared bishop.} 15. Rc1 Qd7 $132) 13... e5
+14. Nf5 Bxf5 15. exf5 Nxd3 16. cxd3 Rab8 $11) (8. Nxc6 bxc6 (8... Qxc6 9. a3 $5
+) 9. O-O (9. f4 d5 10. Qf3 Be7) 9... d5 10. f4 Be7 11. e5 (11. Bd4 Bb7 12. Qe2
+c5 13. Bxf6 gxf6 14. exd5 exd5 15. Rae1 h5 16. b3 Kf8 $132) 11... Nd7 12. Qg4
+g6 13. Na4 c5 14. c4 d4 15. Bd2 a5 $132) 8... b5 {This is a solid line where
+Black also has some chances to fight for the initiative and advantage. Black
+intends to develop the bishop to b7 and then put pressure along the h1-a8
+diagonal and down the c-file.} (8... Nxd4 9. Bxd4 Bc5 {Initially, I intended
+to recommend this line, however, White may have some slight edge after both 10.
+Bxc5 and 10. Be2.}) (8... h5 9. h3 b5 10. Nb3 Ne5 11. f4 Nc4 12. Bd4 Nxb2 13.
+Qe2 $1 $44) (8... Bd6 9. Nxc6 bxc6 10. f4 e5 11. Qe2 $36 (11. f5)) 9. Nxc6 {
+The only option that poses some danger to Black.} (9. a3 Bb7 10. Qe2 (10. Kh1
+Ne5 11. Bf4 (11. f4 Nc4 12. Bxc4 (12. Bc1 h5 $1 13. h3 h4 $36) 12... Qxc4 13.
+e5 (13. Qd3 Rc8 $15) 13... Nd5 14. Nxd5 Qxd5 15. Qd2 Be7 $13) (11. h3 Rc8 (
+11... Nc4 12. Bxc4 Qxc4 13. f3)) 11... d6 12. Bg3 h5 13. h3 Be7 $36) (10. f4 $2
+Bc5 {This is a strong response to White's 10.f4? move.}) (10. Nxc6 Bxc6 $5)
+10... Be7 (10... Ne5 11. h3) 11. f4 d6 12. Kh1 (12. Rae1 O-O 13. Nxc6 (13. Nf3
+b4) (13. g4 Nxd4 14. Bxd4 e5 $15) 13... Bxc6 14. Bd4 e5 15. fxe5 dxe5 16. Nd5
+Bxd5 17. exd5 exd4 18. Qxe7 Qxe7 19. Rxe7 Nxd5 $11) (12. Nf3 O-O) 12... O-O 13.
+Rae1 (13. Nf3 Nd7 14. Qf2 Bf6 15. Qg3 Rae8 $13) (13. Rf3 Nxd4 14. Bxd4 e5 15.
+Be3 d5 $13) 13... Rae8 {[%cal Gc6d4,Ge6e5]} 14. Nf3 (14. Qf3 Nxd4 15. Bxd4 e5
+$11) 14... b4 15. axb4 Nxb4 $132) (9. Qe2 Bb7 {Once again, Black is renewing
+the threat on the e4-pawn.} 10. f4 (10. Kh1 b4 11. Na4 (11. Nb1 Nxd4 (11... d5
+$5) 12. Bxd4 e5 {[%csl Re4] Winning the pawn on e4 and it's White who will
+have to prove adequate compensation.}) 11... d5 $36 12. f3 Ne5 {11...d5 was a
+strong and typical resource, and now Black can try taking over the initiative.}
+) (10. a3 {- 9.a3}) (10. Nxc6 Bxc6 $5 (10... Qxc6) 11. Bd4 Qd6 $1 12. Bxf6 gxf6
+13. a4 b4 14. Nd5 Be7 15. Nxe7 Kxe7 $13) (10. Nb3 Be7 11. f4 Nb4 (11... d6 12.
+a4 b4 13. Nb1) 12. a3 Nxd3 13. cxd3 O-O $13) 10... Nxd4 11. Bxd4 Bc5 12. Bxc5
+Qxc5+ {Once again, Black exchanged some minor pieces.} 13. Kh1 b4 14. Nb1 (14.
+Nd1 O-O 15. Nf2 d6 $13) 14... O-O 15. Nd2 d6 $13 {Black has nothing to worry
+about in this position, and in case White plays:} 16. e5 dxe5 17. fxe5 Nd7 18.
+Nc4 g6 $132 {Black is solid on the kingside and the pawn on e5 can become a
+weakness. It's White who has to play accurately in this position.}) (9. Kh1 Bb7
+) (9. Nb3 Be7 10. f4 d6 11. Qf3 Bb7) 9... Qxc6 {Black wants to recapture on c6
+with the queen in general in order to keep the c-file and h1-a8 diagonal open
+for counterplay, however, it's good to note that recapturing with the queen
+isn't always the case. In this position, 9...Qxc6 is best, threatening b5-b4
+and to capture the pawn on e4.} (9... dxc6 10. f4 e5 11. Qf3 $36) 10. Be2 {
+White has an idea to put the bishop on f3 in some lines.} (10. a3 {The most
+played move.} Bb7 11. Qe2 (11. Re1 Be7 12. Qf3 {White's idea is to prepare an
+attack on the kingside.} (12. Bd4 Qd6 $5) (12. f3 Qc7 13. Qd2 O-O 14. Qf2 {
+Tseshkovsky - Ivanchuk, Warsaw rapid 2002} d6 15. Bd4 Nd7 $132) 12... O-O 13.
+Qh3 {Now e4-e5 is a threat.} (13. Qg3 Nh5 14. Qh3 g6 $13) 13... d6 14. Bd4 (14.
+Bg5 h6 15. Bxh6 gxh6 16. Re3 (16. Qxh6 Qc5 17. Nd5 Qxf2+ $1 18. Kxf2 Ng4+ 19.
+Kg1 Nxh6 20. Nxe7+ Kg7 $17) 16... h5 $1 17. Qh4 Rfb8 (17... Rfe8 $2 18. Qg5+
+Kh8 19. Nd5) 18. Rf3 Qc5 19. Rxf6 Qe5 20. Rg6+ Kf8 21. Rg8+ Kxg8 22. Qxe7 Bc6
+$15) 14... h6 15. Re3 e5 16. Rg3 Kh8 {White's attack may look dangerous but
+White doesn't have enough attacking resources.} 17. Be3 (17. Nd5 Nxd5 18. exd5
+Qc8 19. Bf5 Qc4 20. Be3 Qh4 $15) 17... Bc8 18. Qh4 Ng8 19. Qh5 Nf6 20. Qe2 {
+Ivanchuk - Ljubojevic, Monte Carlo rapid 2003} Nh7 $5 $11 {[%cal Ge7h4] 20...
+Be6 was played in the game which is a normal move, although 20...Nh7 creates
+the threat of Bh4, so White doesn't have anything better than repeating moves.}
+) (11. f3 Bc5 12. Qe1 O-O $11) (11. Qf3 {This move immediately is not
+dangerous.} Bd6 $5 12. Bf4 (12. Bd4 Bxh2+ 13. Kxh2 Qd6+ 14. e5 Qxd4 15. Qxb7
+Qh4+ 16. Kg1 Ng4 17. Rfe1 {The only move.} Qxf2+ 18. Kh1 {Black has a choice
+between making a perpetual check or continuing the game with:} O-O $5 19. Qf3
+Qh4+ 20. Kg1 Qh2+ 21. Kf1 f5 $132) 12... O-O 13. Rfe1 Bxf4 14. Qxf4 d6 $11 {
+Leko - Kramnik, Dortmund 2005 White doesn't have an attack on the kingside and
+Black can continue playing on the queenside.}) 11... Be7 12. f4 (12. f3 Qc7 13.
+Bd4 O-O 14. e5 Nd5 15. Nxd5 Bxd5 $11 {Dastan - Ivanchuk, Turkey 2019}) 12... h5
+$5 13. h3 (13. e5 {This is a critical line where Black is fine.} Ng4 14. Be4
+Qc4 $5 $146 15. Qxc4 bxc4 16. Bxb7 Rb8 $11) 13... h4 14. Rf3 Nh5 $132 {The
+knight is heading to the g3-square and Black can consider playing f7-f5 at
+some point.}) (10. f3 {This move is a bit slow.} b4 11. Ne2 Bc5 12. Qd2 a5 $11
+{Black intends to play Ba6 at some point and there is a good counterplay on
+the queenside.}) (10. Re1 {White can't ignore the threat on the e4-pawn.} b4 $5
+11. Ne2 Nxe4 $15 {It may look a bit risky but it's an extra pawn and it's not
+easy for White to prove compensation.}) (10. e5 $6 Bb7 11. f3 Nd5 12. Be4 Nxc3
+13. Bxc6 Nxd1 14. Bxb7 Nxe3 15. Bxa8 Bc5 $5 $36 {Black could have also simply
+captured the rook on f1, but this is another ambitious try where it's a bit
+unclear how White will find a way to a draw.}) 10... Bd6 {A very precise
+reaction! The bishop is heading to the e5-square, limiting White's attacking
+prospects.} (10... b4 11. e5 {Black is already in trouble.}) 11. Qd4 {The only
+move that requires more precise knowledge from Black. Now e4-e5 is a threat.} (
+11. Bf3 Be5 {The main idea for Black.} 12. Bd4 d6 $11 {Huschenbeth - Le Quang
+Liem, New York 2014}) (11. f4 Bc5 {Black isn't bothered by the loss of a tempo
+since now the dark-squared bishops will be exchanged under favorable
+circumstances.} 12. Bxc5 Qxc5+ 13. Kh1 d6 $11) (11. Bd4 Bb7 12. Bf3 e5 13. Be3
+Rc8 $132) 11... Bb7 12. Rfd1 $146 (12. Rad1 Bb8 {Black has the idea to play
+Ba7 at some point later on in the game.} (12... Be7 13. Bf3 Qc7 14. e5 Bxf3 15.
+gxf3 Nh5 16. a4 b4 17. Ne4 f6 $13) 13. Bf3 (13. Qb4 $2 {Preventing Black's
+castling leads nowhere for White.} Nxe4 14. Bf3 Qc7 $19) 13... Qc7 14. g3 O-O
+$5 $146 15. Bg5 Qe5 $5 16. Bxf6 gxf6 17. Qxd7 Bc7 $44 {Black has great
+compensation for the pawn. White's queen is misplaced and Black's dark-squared
+bishop is a very good piece. It's White who is the one who has to fight for
+equality.}) 12... Bb8 {This is more reliable than 12...Be7.} (12... Be7 13. Bf3
+Qc7 14. e5 Bxf3 15. gxf3 Nh5 {White's kingside has been weakened but Black's
+knight is a bit misplaced.} 16. a4 b4 17. Ne4 {White has some unpleasant
+initiative.} f6 18. exf6 Nxf6 19. Nxf6+ gxf6 20. Qg4 $36) 13. a4 (13. Qb4 Be5 {
+Putting pressure on the knight on c3 and threatening to capture the pawn on e4.
+} (13... Nxe4 14. Bf3 {This is a difference with the 12.Rad1 line, Black isn't
+threatening checkmate after Qc7 and White will be a piece up.}) 14. f3 Qc7 15.
+h3 d5 $132 {Black will soon regain the right to castle, with an interesting
+game ahead.}) 13... Qc7 14. e5 Qxe5 15. Qxe5 Bxe5 16. axb5 axb5 (16... Bxc3 {
+It's important to avoid this capture.} 17. bxa6 Bxa6 18. bxc3 Bb7 19. Rxa8+
+Bxa8 20. Bc5 $14 {Despite the material balance and White's compromised pawn
+structure, facing the bishop pair and White's activity is unpleasant.}) 17.
+Rxa8+ Bxa8 18. Nxb5 (18. Bc5 Bc6 {Preventing Black's castle doesn't harm Black
+much since there are no queens on the board so Black won't get in trouble. At
+the moment Black has an extra pawn and there are no special problems for Black.
+}) 18... O-O $11 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 5"]
+[Black "6.Be3 a6 7.g4"]
+[Result "*"]
+[ECO "B48"]
+[Annotator "GM Alexander Khalifman"]
+[PlyCount "48"]
+[EventDate "2023.??.??"]
+
+{[%evp 0,48,28,19,44,44,44,37,52,52,58,43,77,70,65,60,70,75,69,54,57,27,31,45,
+45,54,72,-9,23,2,25,16,63,90,90,57,57,51,47,47,-8,42,32,-55,-34,-30,-18,-57,-1,
+-1,-1]} 1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. g4 {
+This move became popular recently and is one of the most dangerous tries from
+White, together with 7.Qf3. This line needs to be taken seriously and requires
+accuracy from Black.} Nxd4 {Black captures on d4 immediately.} (7... b5 {
+This is the most popular move for Black that was also recommended by different
+sources.} 8. Nxc6 {Now this line is a good invention from the grandmaster Nils
+Grandelius.} Qxc6 (8... dxc6 {This doesn't solve Black's problems completely.}
+9. Qf3 {White's idea is to offer a queen trade on the g3-square.} e5 10. a4 $36
+) 9. Qd2 b4 (9... Bb7 10. O-O-O Nf6 11. f3) 10. Ne2 Qxe4 11. Rg1 {White has
+given up a central pawn but with Black being underdeveloped and the queen
+being exposed on the e4-square, White has good compensation.} Qc4 (11... Qc6
+12. Bg2 d5 13. O-O-O Bb7 14. f4 $44) 12. Ng3 Qc7 13. O-O-O $44 Nf6 14. Nh5 {
+This has been the most popular move so far after which Black can probably
+solve the upcoming problems, although it's not an easy thing to do.} (14. Bf4
+$5 {This is another unpleasant continuation for Black.} Qc5 15. g5 Nd5 16. Be5
+Bb7 17. Nh5 Rg8 18. Kb1 {By analyzing this line deeply, one can probably prove
+that Black is okay, but practically I don't like to recommend this line as it
+would be difficult to navigate.}) 14... Bb7 15. Bb6 (15. Bf4 Qc6 16. Nxf6+ (16.
+Bg2 d5 17. Nxf6+ gxf6 18. g5 f5 $13) 16... gxf6) (15. Nxf6+ gxf6) 15... Qc6 16.
+Bg2 Qc8 17. Nxf6+ gxf6 18. Bxb7 Qxb7 19. Kb1 Be7 $132) (7... h6 8. h4 (8. Qd2
+$5 {This is also possible which is a better version for White with the moves
+g4 and h6 included.}) 8... Nf6 (8... b5 9. Nxc6 Qxc6 10. Qd2 b4 11. Ne2 Qd6 12.
+f3 Qxd2+ 13. Kxd2 $14) 9. Nxc6 bxc6 10. Qf3 d5 11. g5 $36 hxg5 12. hxg5 Rxh1
+13. Qxh1 Ng4 14. Bd2 $36 {Giri - Nepomniachtchi, chess24.com rapid 2021}) (7...
+Nge7 8. h4 (8. Ndb5 {Black is fine after this move.} axb5 9. Nxb5 Qa5+ 10. Bd2
+(10. b4 Qxb4+ 11. c3 Qa5 12. Nd6+ Kd8 13. Nxf7+ Ke8 $11) 10... Qb6 11. Nd6+ Kd8
+12. Nxf7+ Ke8 {White doesn't have more than a perpetual check.} 13. Nxh8 (13.
+Nd6+ Kd8) 13... Qxb2 $132) (8. f4 $5 d5 9. Qd2 {Doesn't seem very promising
+for Black.}) (8. Nb3) (8. Qd2 $146 {This move poses some problems for Black.}
+Nxd4 9. Qxd4 b5 10. O-O-O Nc6 11. Qd2 Bb4 (11... Be7 12. f4) 12. h4 (12. a3 Be7
+$13 13. f4 $6 b4 14. axb4 Bxb4 $36) (12. f4 O-O 13. Rg1 (13. g5 d5 $1 $132)
+13... d5 $5 14. exd5 exd5 15. a3 d4 16. axb4 dxe3 17. Qxe3 Nxb4 18. Qe4 Qc5 19.
+Qd4 Qxd4 20. Rxd4 Nc6 $13) 12... Ba5 $5 {[%cal Gb5b4,Gb4b3]} 13. Kb1 (13. Bc5
+b4 14. Nd5 (14. Na4 b3 15. c3 bxa2 16. Kc2 Ne7 $132) 14... exd5 15. Qxd5 (15.
+exd5 d6) 15... Bb7 16. Bd6 Qb6 17. Bc5 Qc7 $11) 13... Ne5 14. Qd4 O-O $13) 8...
+Nxd4 9. Qxd4 b5 10. O-O-O Nc6 11. Qd2 $14) 8. Qxd4 (8. Bxd4 {Black can
+successfully solve the opening problems after:} b5 9. Qe2 Bb7 10. O-O-O Ne7 $13
+) 8... b5 9. O-O-O Bb7 {White's queen is very active on the d4-square but
+Black's plan is to play Rc8 and b5-b4 next.} 10. f3 (10. Kb1 Nf6 (10... Rc8 11.
+Bf4 {This gives White an advantage since the queen is tied down to the defense
+of the d7-pawn.}) 11. g5 (11. f3 {This is adequately met with:} h6 $5 $146 (
+11... Rc8 12. g5 Nh5 13. Qd2 (13. Bxb5) 13... Bb4 (13... Be7 14. Bh3 b4 15. Ne2
+d5 16. Bg4 g6 17. Bd4 O-O 18. e5 Ng7 19. h4 $16 {Anand - van Foreest, Zagreb
+rapid 2021}) 14. Bh3 Bxc3 15. bxc3 g6 16. Bg4 O-O (16... Ng7 $2 17. Bf4 Qc6 18.
+Bd6 $18) 17. Qxd7 Qxc3 18. Qd2 Qc7 19. h4 $36) 12. h4 Rc8 {[%csl Gc2][%cal
+Gb5b4] White isn't on time to play g4-g5 since the prophylactic move h7-h6
+works perfectly well, so White has to react to Black's b5-b4 threat.} 13. Bd3
+Bc5 14. Qxc5 Qxc5 15. Bxc5 Rxc5 16. a4 bxa4 17. Nxa4 Rc7 $11) 11... Ng4 12. Bf4
+e5 13. Nd5 O-O-O {This is the most accurate move in my opinion, although 13...
+Qxc2+ is also playable for Black.} (13... Qxc2+ 14. Kxc2 exd4 15. Bg3 (15. Nc7+
+Kd8 16. Nxa8 Nxf2 $17) (15. Rd2 Rc8+ 16. Kb1 Bxd5 17. exd5 Bb4 18. Rxd4 Bc5 19.
+Re4+ Kd8 $13) 15... f5 $1 16. Bg2 (16. Nc7+ Kd8 17. Nxa8 f4 $11) 16... Bxd5 17.
+exd5 f4 18. Bxf4 Nxf2 19. Rhe1+ Kd8 20. Rxd4 Bc5 21. Rd2 Bb4 $13) 14. f3 {
+It's interesting to see how both queens are hanging and White just moves a
+pawn.} (14. Bxe5 Qxe5 15. Qa7 {This forces a draw.} Qb8 16. Nb6+ Kc7 17. Nd5+
+Kc8 $11) 14... exd4 15. Bxc7 Re8 16. Bg3 Bxd5 17. exd5 Ne3 18. Rxd4 Nf5 19. Rd1
+(19. Re4 Rxe4 20. fxe4 Nxg3 21. hxg3 Bd6 $11 {Despite White's extra pawn, the
+position is quite drawish due to the presence of opposite-colored bishops.})
+19... Bd6 $5 (19... Nxg3 20. hxg3 Kc7 21. a4 $14 {Nepomniachtchi - Caruana,
+chess24.com rapid 2021 Objectively, Black's resources may be sufficient to
+defend but it's unpleasant to do so.}) 20. Bxd6 Nxd6 $44 {Black's knight is
+perfectly-placed and White's pawn's structure has weaknesses, so Black's
+compensation is good enough for a draw.}) 10... Rc8 11. Qd2 {Protecting the
+c2-pawn.} (11. Kb1 b4 12. Bf4 (12. Ne2 d5 $36 {It's not worth capturing the
+pawn on c2 immediately since it doesn't lead to checkmate, while Black is
+still behind in development. 12...d5 is strong and Black takes over the
+initiative.}) 12... Qc6 13. Ne2 d5 $1 (13... Qxc2+ 14. Ka1 $16 {Black
+shouldn't be greedy to capture the pawn on c2 since the open c-file will be
+used by White and not by Black.}) 14. Qd2 (14. c3 Nf6 15. g5 Nh5 16. Be3 dxe4
+17. cxb4 Bxb4 18. Rc1 Qd6 19. Rxc8+ Bxc8 20. fxe4 O-O $11) 14... dxe4 15. Nd4 (
+15. g5 Bc5 16. fxe4 Ne7 17. Nc1 O-O $132) 15... Qb6 {This may become the
+critical position in the future where Black may need to find some only moves
+in some lines but Black survives.} 16. Nxe6 (16. Nb5 {Leads to an equal
+endgame.} Be7 {The only move for Black.} 17. Be3 {17.Qd7+ Kf8 doesn't lead
+anywhere for White and White can only be worse after this.} Qd8 18. Qxd8+ Rxd8
+19. Nc7+ Kf8 20. Rxd8+ Bxd8 21. Bxa6 Bc6 22. Bb5 Bxb5 23. Nxb5 exf3 24. Rf1 g5
+25. Rxf3 h5 $132) (16. Bc4 Nf6 (16... Rxc4 $2 17. Nxe6 $18) 17. Bb3 Bc5 18. g5
+Nd5 19. fxe4 Nxf4 20. Nxe6 fxe6 21. Qd7+ Kf8 22. Rhf1 Bf2 23. Ba4 Kg8 24. Rd6
+Qc5 25. Rxe6 Nxe6 26. Qxe6+ Kf8 27. Rxf2+ Qxf2 28. Qd6+ Kf7 29. Bb3+ Ke8 30.
+Qe6+ $11) 16... Qxe6 17. Bc4 Qc6 18. Rhe1 Nf6 {It seems dangerous for Black
+but the position leads to an equal endgame.} 19. Bd3 Be7 20. Bxe4 Nxe4 21. Rxe4
+Qxc2+ 22. Qxc2 Rxc2 23. Kxc2 Bxe4+ 24. fxe4 g5 25. Be5 f6 26. Bg3 h5 $11) (11.
+Rd2 Bc5 $11 12. Qxg7 $2 Bxe3 13. Qxh8 Ke7 $19) 11... Bb4 12. Bd4 (12. Bf4 Qc6 (
+12... Bxc3 $146 13. bxc3 e5 14. Bg3 (14. Bxe5 Qxe5 15. Qxd7+ Kf8 16. Qxb7 Qxc3
+17. Bd3 Qa3+ 18. Kd2 Ne7 $44) 14... h5 $1 15. g5 h4 16. Bh3 (16. Bf2 Ne7) 16...
+hxg3 17. Bxd7+ Ke7 18. Bxc8 Bxc8 19. hxg3 Rxh1 20. Rxh1 f6 21. Qe3 Be6 22. a3
+Ke8 $13) 13. g5 Bxc3 $146 (13... Ne7 14. Be5 $36) 14. bxc3 d5 {Black has good
+counterplay.} 15. Qd4 (15. Be5 f6 16. gxf6 gxf6 $132) 15... Ne7 {Black doesn't
+capture the pawn on c3 immediately due to a queen exchange and Be5 follows
+afterward.} 16. Qxg7 (16. Be5 dxe4 17. fxe4 O-O $132) 16... Rg8 17. Qd4 Qxc3
+18. Qxc3 Rxc3 {White has the bishop pair but also a lot of weaknesses in the
+pawn structure, so these two factors balance each other out.} 19. Bd3 Ng6 20.
+Bg3 dxe4 21. fxe4 Rc5 $11) (12. Kb1 $5 Bxc3 13. bxc3 Ne7 (13... d5 14. Bf4 Qa5
+15. Bd6 $13) (13... Nf6 14. g5 Nh5 {The knight is rather misplaced on the
+h5-square.} 15. Bh3 $36 {Nepomniachtchi - Harikrishna, Almaty blitz 2022}) 14.
+Bf4 Qc6 15. Bd6 {This may seem strong for White, but Black has a nice resource:
+} Nd5 16. Be5 Nxc3+ 17. Bxc3 Qxc3 18. Qxd7+ Kf8 {Black's king is uncastled but
+White's king is also in danger, so White doesn't have anything more than a
+perpetual check.} 19. Qd6+ Ke8 $11) 12... f6 {Seems a bit strange but it
+limits the activity of White's dark-squared bishop. Black is also preparing to
+play e6-e5.} (12... e5 13. Bxe5 $18) 13. g5 (13. a3 Bd6 $146 (13... Bxa3 {
+The same tactic that is seen in the main line doesn't work so well in this
+position.} 14. bxa3 e5 15. Nxb5 axb5 16. Bb2 $36 {Black's knight is still on
+g8 and not on g6, so it's difficult to prove sufficient compensation.}) 14. Kb1
+Ne7 {Black's kingside is well-protected and Black is ready to complete the
+development by castling short.} 15. Ne2 (15. Bxb5 axb5 16. Nxb5 Qc6 17. Na7 Qc7
+18. Nxc8 (18. Nb5 Qc6 $11) 18... Nxc8 $13 {Sometimes a rook and two pawns can
+be better than two minor pieces, but here, Black's minor pieces can be
+regrouped in order to create an attack against White's king.}) (15. h4 b4 16.
+axb4 Bxb4 17. Qf2 O-O 18. g5 e5 19. Bb6 Qc6 $13) (15. Qf2 b4 16. axb4 Bxb4 17.
+g5 fxg5 $1 18. Bxg7 Rg8 19. Bd4 Rf8 $132) 15... Be5 $13) 13... h6 $1 {Forcing
+White to resolve the situation on the kingside.} (13... e5 14. Be3 $36) 14.
+gxh6 {14.g6 would close the kingside and White won't have any attacking
+prospects.} (14. gxf6 $5 $146 Nxf6 15. Bxf6 gxf6 16. Rg1 Bc6 $13 17. Rg6 $6 {
+This move seems logical as it attacks both the h6 and f6-pawns, but now Black
+takes over the initiative.} Kf7 18. Rxh6 Bd6 $1 {A very strong tactical
+resource that's easy to overlook!} 19. Rxh8 Bf4 $19) 14... Nxh6 15. a3 (15. Rg1
+Kf8 {It's not easy for White to create some dangerous threats on the kingside
+and now Black is ready to centralize the knight with Nf7-Ne5.} 16. a3 Ba5 $13)
+15... Bxa3 {An interesting tactical resource.} (15... Bd6 16. Kb1 Nf7 17. h4
+$36 {Black doesn't have a clear way to an adequate counterplay.}) (15... Ba5
+16. b4 $16) 16. bxa3 (16. Bxb5 {The tactics work out fine for Black.} Bxb2+ 17.
+Kxb2 axb5 18. Rhg1 (18. Nxb5 $2 Qb8 $17 {The only move for Black that doesn't
+just equalize but leads to an advantage for Black.}) 18... Qc4 19. Rxg7 Qb4+
+20. Kc1 (20. Ka1 Ra8+ 21. Na2 Qc4 {Might be unpleasant for White.}) 20... Qa3+
+$11) 16... e5 {Black will win back the piece and White's king will remain
+slightly exposed.} 17. Nxb5 (17. Bxe5 $146 fxe5 18. Bh3 Qxc3 19. Qxd7+ Kf8 20.
+Qd6+ Kg8 21. Bxc8 Bxc8 {The material is more or less balanced and Black seems
+to be slightly underdeveloped, but this is a forced line where Black survives.}
+22. Kb1 Nf7 23. Qe7 Qc6 24. Rhg1 g6 25. Rd5 Kg7 26. Rxe5 Qf6 27. f4 Rxh2 28.
+Qxf6+ Kxf6 29. Re8 Rh8 30. Rxh8 Nxh8 31. Kb2 Nf7 32. Kc3 g5 $11) 17... axb5 18.
+Bb2 Nf7 {Black shouldn't play d7-d5 immediately and should improve the knight
+first. The knight is heading to g5 from where it will put pressure on the
+f3-pawn, and then it can be potentially rerouted to the e6-square.} (18... d5
+19. Bxb5+ Kf8 {Grandelius - Carlsen, Wijk aan Zee 2022} 20. Qb4+ Kg8 21. Qb3
+$16 {Wins the pawn on d5 and White's king is well-protected now.}) 19. h4 (19.
+Bxb5 Bc6 $44 {Black has excellent compensation for the pawn.}) 19... d5 (19...
+Bc6 $13) 20. Bxb5+ Kf8 21. exd5 (21. Qb4+ {This move isn't dangerous anymore
+because after:} Kg8 22. Qb3 d4 {This is the difference with the Grandelius -
+Carlsen game, the d-pawn isn't pinned and now Black has excellent compensation.
+}) 21... Bxd5 22. Ba6 Bxf3 23. Rh3 Ra8 $13 (23... Bxd1 $2 24. Rc3 {Capturing
+the rook on d1 is a mistake that gives White an advantage.}) 24. Rxf3 Rxa6 {
+There is equal material on the board, White's pawn structure is damaged, and
+it's unclear which side has the safer king, so Black is fine.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 6"]
+[Black "6.Be3"]
+[Result "*"]
+[ECO "B48"]
+[Annotator "GM Alexander Khalifman"]
+[PlyCount "34"]
+[EventDate "2023.??.??"]
+
+{[%evp 0,34,27,18,44,44,58,52,43,21,43,41,70,65,65,54,88,68,86,98,83,65,57,48,
+44,39,66,68,71,54,43,31,59,51,51,57,57]} 1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4
+Nc6 5. Nc3 Qc7 6. Be3 a6 7. a3 {This prophylactical move might seem shy and
+less dangerous than the other options, however, it's quite poisonous and must
+be taken seriously. The idea is to prevent Black's counterplay with b5-b4 and
+any Bb4 or even Nb4 moves.} (7. Nxc6 bxc6 {Black is recapturing toward the
+center and it's good to note that the move Be3 weakened the pawn on b2, so the
+move Rb8 at some point will be annoying to White.} (7... dxc6 8. f4 {Black
+also doesn't equalize by recapturing with the d-pawn.}) (7... Qxc6 8. a4 {
+White prevents Black's counterplay with b7-b5, so Black's set-up with
+recapturing with the queen on c6 is not very effective in this case.}) 8. Qf3 (
+8. Bd3 Nf6 {Transposes to 7. Bd3.}) 8... Nf6 9. Qg3 Qxg3 10. hxg3 Rb8 11. b3 (
+11. O-O-O $6 Ng4 {This poses White some problems to solve in the position.})
+11... d5 12. Bd3 Bb4 13. Bd2 h6 {A prophylactic move.} 14. f3 Nd7 {Taking
+control over the e5 and c5-squares.} 15. Na4 {Huschenbeth - Moranda, Warsaw
+2020} Bxd2+ 16. Kxd2 Ke7 $11 {White doesn't have full control over the center
+and can't establish a blockade successfully.} 17. g4 Bb7 {Black doesn't allow
+White to create weaknesses in Black's territory with g4-g5.}) (7. Be2 {This
+move will be analyzed in a line arising from 6.Be2.}) (7. f4 {This move will
+be analyzed in a line arising from 6.f4.}) 7... b5 {It might look tempting to
+avoid this move because now a2-a3 makes more sense, however, it's difficult to
+find a reliable plan without it.} (7... Nf6 {This is Black's most played move,
+however, it doesn't seem to equalize completely.} 8. f4 d6 (8... d5 9. e5 Ne4 (
+9... Nd7 $14 {French}) 10. Nxe4 dxe4 11. Nxc6 Qxc6 12. Qd4 $14) 9. Qf3 $36 {
+Even though the move a3 is a bit weakening, Black has already closed the
+diagonal of the dark-squared bishop, so White's plan of castling long and
+advancing on the kingside can be quite dangerous.}) 8. Nxc6 {The immediate
+knight exchange is the only chance to fight for an advantage.} (8. Be2 Bb7 9.
+O-O (9. f4 Be7 10. O-O Na5 $132 {This is a basic idea in many lines when
+White's dark-squared bishop is on e3, the knight from a5 heads to the
+c4-square.}) (9. Nxc6 Bxc6 {Black's queen controls the e5-square and Black is
+ready to continue the development with Nf6 next.} 10. Qd4 (10. O-O Nf6 {
+Transposes to 9.0-0.}) 10... Nf6 11. O-O-O Rc8 $36) 9... Nf6 10. Nxc6 (10. f4 {
+This may only cause problems for White.} Bc5 11. Qd3 (11. e5 $6 Qb6 $1 12. Bf3
+(12. exf6 Nxd4 $17) 12... Bxd4 13. Bxd4 Nxd4 14. Bxb7 Nf5+ 15. Rf2 Qxb7 16.
+exf6 gxf6 $17) (11. Kh1 $6 Qb6 12. Nxc6 Bxe3 13. Ne5 Bd4 $17 {Gesos - Portisch,
+Budapest 1975}) 11... d5 12. e5 Nxd4 13. Bxd4 Ne4 $11) (10. Kh1 Ne5 {White is
+the one who needs to look for equality.} 11. f4 (11. f3 Be7 12. Qe1 h5 $5 $36)
+11... Nc4 12. Bxc4 Qxc4 $15) (10. Nb3 Ne5 11. f4 Nc4 12. Bxc4 bxc4 13. Nd2 Rd8
+$15) 10... Bxc6 11. Bd3 (11. Qd3 Qb7 12. f3 Be7 $132) (11. Bf3 Bd6 (11... Be7)
+12. g3 Be5 $15) 11... Bd6 12. f4 e5 13. Qf3 (13. f5 h6 $5) 13... O-O 14. f5 b4
+15. axb4 Bxb4 16. Bg5 {Pogats - Suetin, Debrecen 1961} Bxc3 17. bxc3 a5 $132) (
+8. Bd3 Bb7 9. O-O Nf6 10. Nxc6 (10. Qe2 {Transposes to 7.Bd3.}) (10. Kh1) 10...
+Bxc6 11. f4 (11. Qe2 Be7 12. f4 d6 13. Rae1 O-O) 11... Be7 12. e5 Nd5 13. Nxd5
+Bxd5 14. Qh5 g6 15. Qh6 Bf8 $11) (8. f4 Bb7 9. Nb3 (9. Be2 {Transposes to 8.
+Be2.}) (9. Qf3 Na5 $5 10. g4 Rc8 $15) 9... b4 10. axb4 Nxb4 11. Bd3 Nf6 $132) (
+8. Qd2 {This is a strange combination of the English attack and the move a3
+that's not dangerous at all for Black.} Nf6 9. f3 Be7 10. Nxc6 (10. Qf2 Ne5 11.
+Be2 {Nakamura - Giri, Tromsoe 2014} O-O 12. O-O Rb8 $15 {Keeping many options
+open such as b5-b4 or Nc4. Black is the one fighting for an advantage in this
+position.} 13. Nb3 Nc4 {White has difficult problems to solve.}) (10. O-O-O {
+Insisting on castling long when the move a3 is played and Black's dark-squared
+bishop is open along the a3-f8 diagonal is risky for White.} Bb7 11. g4 b4 12.
+axb4 Bxb4 $36) 10... dxc6 11. a4 O-O 12. Qf2 (12. axb5 cxb5 13. Nxb5 Qb8 14.
+Nd4 Qxb2 15. Nb3 Rd8 16. Bd4 $6 Rxd4 17. Qxd4 Qxc2 $44) 12... Nd7 $13) 8...
+Qxc6 (8... dxc6 9. Qg4 {This is more accurate than 9.Qf3.} (9. Qf3 Bd6 {
+This is a move 9.Qg4 prevents.}) 9... Nf6 10. Qg3 $14 {The endgame is playable
+but it's unpleasant to defend with Black with no real chances of counterplay.})
+9. Be2 {Preparing to put the bishop on f3 which would contest Black's battery
+of Qc6+Bb7.} (9. Bd3 Bb7 10. Qe2 (10. Qd2 b4 (10... Nf6 {Can be met with:} 11.
+e5 {This is unpleasant for Black.}) 11. axb4 Bxb4 12. O-O (12. Bd4 f6 13. O-O
+Ne7 $11) 12... Nf6 13. f3 O-O {Black isn't ready to exchange on the c3-square
+because even with a damaged pawn structure, White's bishop pair will be very
+strong.} 14. Qf2 a5 15. e5 Nd5 16. Qh4 g6 $11 {The attack isn't dangerous and
+White doesn't have anything on the kingside.}) (10. O-O Nf6 {Transposes to 7.
+Bd3.}) (10. f4 Nf6 11. O-O Bc5 12. Bxc5 Qxc5+ 13. Kh1 d5 14. e5 Ne4 (14... d4
+$5) 15. Bxe4 dxe4 16. Qe2 Rc8 $11) 10... Nf6 (10... b4 11. axb4 Bxb4 12. O-O
+$14) 11. f3 (11. O-O {Transposes to 10.0-0.}) (11. e5 $6 {Can be strongly met
+with:} b4 $1 12. axb4 Bxb4 $36) 11... Qc7 (11... Be7 $6 12. e5) 12. Qf2 (12.
+O-O Be7 {- 10.0-0} (12... Bc5 $5)) 12... Bd6 (12... Be7 13. Qg3 Rc8 $5 14. Qxg7
+Rg8 15. Qh6 Rxg2 $132) 13. Bb6 Qb8 14. Bd4 e5 15. Be3 O-O 16. O-O Be7 $11) (9.
+Qd4 Bb7 10. O-O-O (10. Be2 {- 9.Be2}) (10. Bd3 Qd6 $11 11. O-O-O Qxd4 12. Bxd4
+Ne7) 10... Nf6 11. f3 Rc8 $11 12. Rd2 Bc5 (12... Bxa3 13. Nxb5 axb5 14. bxa3
+$14 O-O 15. Qd6) 13. Qxc5 Qxc5 14. Bxc5 Rxc5 $11) (9. h4 {White wants to push
+the h-pawn with the idea to create some weaknesses in Black's territory.} Nf6 (
+9... Bb7 10. h5 h6 11. Rh3 $36) 10. h5 $5 (10. f3 {This can be very well met
+by:} b4 (10... Qc7) 11. axb4 Bxb4 12. Qd4 a5 $132 {The pawn on h4 seems a bit
+strange in this position.}) 10... Nxe4 {Black needs to accept the challenge.}
+11. Nxe4 Qxe4 12. Be2 Rb8 13. Qd2 b4 {Black's counterplay comes right on time.}
+14. axb4 {Kulaots - Santos, Sant Boi 2022} Qxb4 15. Bd4 Qxd2+ 16. Kxd2 f6 17.
+Bxa6 Bxa6 18. Rxa6 e5 $11 {White managed to win back the pawn but the endgame
+is equal.} 19. Rb6 Bb4+ 20. c3 Kf7 21. Rxb4 exd4 22. Rxb8 Rxb8 23. b4 Ke6 $11)
+9... Bb7 10. O-O {This is an important moment since Black needs to make
+another move on the queenside while the kingside remains undeveloped.} (10. Bf3
+{This move was played quite often.} Qc7 11. Qd3 (11. e5 {Prevents the
+development of Black's knight on the f6-square.} Ne7 12. Bxb7 (12. O-O {
+Adams - Ribli, Germany 2002} Nc6 $5 13. Bf4 f5 $1 $15 {Black takes the
+e4-square under control.}) 12... Qxb7 13. O-O Nf5 14. Qd3 d5 15. exd6 Bxd6 $11)
+(11. O-O Bd6 12. g3 Ne7 13. Bg2 O-O 14. Qd3 Be5 $11) 11... Nf6 12. Bd4 e5 13.
+Be3 h6 14. O-O Bc5 $11) (10. Qd4 {White is preparing to castle long.} Rc8 11.
+O-O-O (11. Rd1 Nf6 12. e5 Nd5 13. Bf3 Nxe3 14. Qxe3 Qc7 15. Bxb7 Qxb7 16. O-O
+Be7 17. Rd2 (17. Rd4 Qc7 18. Qg3 O-O 19. Rfd1 Bxa3 20. Rxd7 Qc6 $11) 17... b4
+18. axb4 Qxb4 $11) (11. f4 Nf6 12. Bf3 Bc5 13. Qxc5 Qxc5 14. Bxc5 Rxc5 15.
+O-O-O e5 $11) 11... Nf6 12. e5 (12. Bf3 Bxa3 13. e5 Nd5) 12... Nd5 13. Bf3 Bxa3
+{This tactic works out well for Black.} 14. Bxd5 (14. Rd3 Bc5 (14... Be7 15.
+Rd2) 15. Qxc5 Qxc5 16. Bxc5 Rxc5 17. Ne4 Rc7 18. Nd6+ Ke7 19. Nxb7 Rxb7 20.
+Bxd5 exd5 21. Rxd5 Rc8 22. Rhd1 Rc4 $11) 14... exd5 15. Rd3 Be7 $13) (10. Qd2
+b4 $5 (10... Rc8 {It might seem tempting to try to transpose to the main line
+but after:} 11. Bd4 {According to the computer, Black is fine after a long
+sequence but the position is rather unpleasant to play for Black.} (11. Rd1 Nf6
+12. Bf3 Qc7 13. O-O b4 14. axb4 Bxb4) 11... Qc7 12. O-O e5 13. Be3 Nf6 14. Rfd1
+h6 15. a4 b4 16. Nd5 Nxd5 17. exd5 Qxc2 18. d6 Qxd2 19. Rxd2 g5 20. h3 $1 (20.
+a5 Rg8 21. Bb6 (21. Bh5 g4) 21... Rg6 22. Bc7 g4 23. Re1 f5 $13) 20... h5 (
+20... Rg8 21. Bh5) 21. Bxg5 Bh6 22. Bxh6 Rxh6 23. a5 $14) 11. axb4 Bxb4 12. Qd4
+(12. f3 Nf6 13. Qd4 a5 $11) 12... Qxe4 $1 $146 13. Qxg7 Qxg2 14. Qxh8 Qxh1+ 15.
+Bf1 {This might seem logical but the position remains unclear and it's White
+who needs to be accurate.} (15. Kd2 Qxa1 16. Qxg8+ Ke7 {White only has a
+perpetual check in the position.} 17. Bg5+ (17. Qg5+ Ke8 {Leads to a
+repetition.}) 17... Kd6 18. Bf4+ e5 19. Bxe5+ Kxe5 20. Qg3+ Kf6 21. Qh4+ Kg7
+22. Qg4+ $11 (22. Qxb4 Qh1 $17)) 15... Ke7 16. O-O-O $6 {Runs into:} (16. Bg5+
+Kf8 17. O-O-O Qxh2 18. Rxd7 Bc6 19. Rd1 Bf3 {This was another complicated line
+in which White needed to be more accurate.}) 16... Nf6 $17) 10... Rc8 {Black
+intends to develop the knight to f6 next since now the rook isn't vulnerable
+anymore on the h1-a8 diagonal.} (10... Nf6 {Can be met with} 11. Bf3 {which is
+very unpleasant.} Qc7 12. e5 $16) (10... Bc5 11. Bd4 $14) (10... Qc7 11. Qd4)
+11. Qd2 (11. Qd3 Nf6 12. Rfd1 (12. Rad1 Bxa3 $5 $146 13. Nxb5 Qxb5 14. bxa3
+Bxe4 15. Qxb5 axb5 16. Bxb5 Rxc2 $13) (12. Bf3 Qc7 {It's difficult for White
+to increase the pressure in the position.} 13. Rad1 (13. Bd4 e5 14. Be3 h6 {
+Preventing Bg5 and preparing to complete the development by playing Bc5 and
+0-0.}) 13... h6 {This is a good prophylactic move.} 14. Rfe1 d6 15. Bf4 e5 16.
+Bd2 Be7 $11) (12. Bd4 Bc5) 12... Qc7 (12... Bc5 {Leads to an unpleasant
+position for Black.} 13. Bf4 O-O 14. Qg3 $36) 13. Bf3 (13. Bd4 $146 e5 14. Be3
+h6 15. h3 Bc5 16. a4 b4 17. Nd5 Bxd5 18. exd5 O-O $13) 13... h6 (13... Bc5 $2
+14. e5 $16) 14. Rd2 (14. Rac1 Bc5 $146 15. Bxc5 (15. e5 Bxf3 16. Bxc5 Qxc5 17.
+exf6 Bxd1) 15... Qxc5 16. e5 Bxf3 17. exf6 Bxd1 18. Ne4 Qe5 19. Nd6+ Kf8 20.
+Nxc8 Bh5 21. Nb6 Qxb2 22. Nxd7+ Kg8 23. Re1 Bg6 24. Qe3 gxf6 25. c3 Kg7 26.
+Nxf6 Rd8 27. Qe5 Kf8 $13) 14... Ba8 $1 {This is a strong prophylactic move
+that's not easy to find, but it works very well.} (14... Be7 $2 15. e5 $18) (
+14... d6 15. Bf4 e5 16. Be3 $14) (14... Bc5 $2 {Once again, Black can't play
+this move.} 15. Bxc5 Qxc5 16. e5 $18) 15. Bd4 (15. Rad1 Be7 $11 {Black isn't
+in any danger.}) (15. e5 Qxe5 16. Bd4 Qd6 17. Bxa8 Rxa8 18. Rad1 Rd8 19. Qe3
+Qc6 20. Bxf6 gxf6 21. Nd5 Be7 $13) 15... e5 16. Be3 Bc5 $11) (11. Bf3 Qc7 12.
+Qd3 (12. Re1 Bd6 13. g3 Ne7 $15) 12... Ne7 {White's bishop is already on f3 so
+this is an alternative route for the knight to be developed instead of the
+f6-square.} 13. Rfd1 Ng6 $44 14. Bb6 Ne5 {This is a good intermediate move
+that renders White's tactic harmless.}) (11. Qd4 Nf6 12. Bf3 Qc5 $5 (12... Bc5
+13. Qd3 Bxe3 14. e5 Nd5 15. fxe3 O-O 16. Rf2 Qc7 $11) 13. Qxc5 Bxc5 14. e5 Nd5
+$11) (11. Bd4 {Kots - Gipslis, Baku 1961} Ne7 $5 $146 12. Re1 Nf5 13. Be5 Nh4
+14. Bf1 Ng6 15. Bd4 Qc7 $13) 11... Nf6 12. Rfd1 (12. Bf3 Qd6 $5 {This is an
+unusual move that works perfectly well in this position.} 13. Qd3 Qxd3 (13...
+Qc7 $5) 14. cxd3 Be7 15. Rfc1 O-O $11) 12... Bc5 {This seems to be the most
+reliable move that equalizes easily.} (12... b4 13. axb4 Bxb4 14. f3 (14. Bf3
+e5 15. Qd3 O-O 16. Na2 Bc5 $11) 14... d5 (14... Bxc3 $2 15. bxc3 Qxc3 16. Rab1
+$16) 15. Bd4 (15. e5 Nd7 16. Bd4 Bc5 $11) 15... dxe4 16. Qg5 exf3 $1 $146 17.
+Bxf3 Qc7 18. Nb5 (18. Qxg7 Rg8 19. Qxf6 Be7 20. Qh6 Bxf3 21. Rd2 Rg6 22. Qxh7
+Qf4 23. Qh8+ Bf8 24. Rf2 Qg4 $36) 18... Qe7 19. Bxf6 gxf6 20. Qg7 Rf8 21. Bxb7
+Qxb7 22. Nd6+ (22. Nd4 Be7) 22... Bxd6 23. Rxd6 Qb5 (23... Qxb2 $2 24. Re1 $18)
+24. Rdxa6 Qc5+ 25. Kh1 Qxc2 26. Re1 Qe2 27. Raa1 Qxb2 $11) (12... h6 13. Bd4
+Bc5 14. Be5 d6 15. Bxf6 gxf6 16. Qf4 Ke7 17. Rd3 $14) 13. Bf3 (13. Bg5 {
+This move doesn't pose Black any problems.} h6 14. Bxf6 gxf6 15. Qf4 f5 $132 {
+Black has enough counterplay with the bishop pair.}) (13. Bf4 O-O $11) 13...
+Bxe3 14. Qxe3 Qc5 15. e5 {The only try for White to go for an advantage but it
+doesn't yield anything.} Bxf3 16. gxf3 Nd5 17. Nxd5 exd5 $11 {Both sides have
+weaknesses in the pawn structure, so the game is balanced.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 7"]
+[Black "6.Be2"]
+[Result "*"]
+[ECO "B47"]
+[Annotator "GM Alexander Khalifman"]
+[PlyCount "38"]
+[EventDate "2023.??.??"]
+
+{[%evp 0,38,16,10,44,55,55,35,26,29,35,30,87,87,85,70,59,22,28,20,30,32,21,-3,
+6,19,12,10,63,46,46,61,41,26,53,20,12,15,23,19,26]} 1. e4 c5 2. Nf3 e6 3. d4
+cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be2 {This is a very old and solid line. White's
+idea is to complete the development first and then start some active play in
+the center or on the kingside according to what Black does.} Nf6 {This is my
+recommended move order.} (6... a6 7. Nxc6 $5 bxc6 {This used to be considered
+sufficient to equalize but it's not the case anymore.} (7... Qxc6 8. O-O b5 (
+8... Bc5) 9. Bf3 Bb7 10. Bf4 $14 {Black's position is unpleasant.}) (7... dxc6
+8. O-O e5 9. f4 Bd6 10. f5 b5 11. Qd3 Nf6 12. Qg3 $14) 8. Qd3 (8. O-O Nf6 9. f4
+d5 10. e5 Nd7 11. Na4 (11. Kh1 Be7) 11... Nb6 $11) (8. Qd4 d5 9. exd5 cxd5 10.
+Bf4 Qc5 11. Qxc5 Bxc5 12. Na4 Ba7 13. c4 Bd7 14. Nc3 dxc4 15. Bxc4 a5 $13) 8...
+d5 (8... Bd6 9. Be3 Nf6 {Hovhannisyan - Movsesian, Reykjavik 2019} 10. g4 $5
+$146 O-O 11. O-O-O Be7 12. g5 Ne8 13. h4 $36) (8... Nf6 9. Qg3 Qxg3 10. hxg3)
+9. Qg3 $1 {This is an idea that was played by grandmaster Alexander Motylev in
+2018.} Qxg3 10. hxg3 Nf6 11. g4 {With accurate play, Black can make a draw but
+this would contradict the recommended approach since Black doesn't have any
+active counterplay, so I'm not recommending this line.} (11. exd5 cxd5 12. Be3
+(12. Bf4 {Firouzja - Mastrovasilis,D Catez 2021} Bb7 13. O-O-O Bc5 14. f3 O-O
+$11) 12... h6 13. g4 Rg8 $13) 11... Bb7 (11... Bb4 12. Bd2 O-O 13. f3 $14 {
+Kobalia - Zakaryan, Sochi rapid 2021}) 12. Rh3 $5 $146 (12. g5 Nxe4 13. Nxe4
+dxe4 14. Be3 Rd8 (14... O-O-O 15. Bc4)) (12. f3 {Matlakov - Potkin, Sochi 2022}
+dxe4 13. Nxe4 Nxe4 14. fxe4 c5 15. Bf3 Be7 16. Be3 Rd8 17. g5 e5) (12. a4 {
+Muzychuk,A - Lei Tingjie, Monaco 2022} Nxe4 13. Nxe4 dxe4 14. Be3 c5 15. O-O-O
+Rd8) 12... Nxe4 13. Nxe4 dxe4 14. Be3 O-O-O 15. a4 (15. Bc4 Be7) 15... c5 16.
+a5 Be7 $13) 7. O-O (7. Ndb5 $5 {This is the difference when Black hasn't
+played a7-a6.} Qb8 8. f4 {This is the move White prefers nowadays.} (8. O-O Bc5
+$5 {This is another promising move, continuing the development and claiming
+that the knight on b5 is misplaced.} (8... a6 9. Nd4 Qc7 {Transposes to the
+main line.})) (8. Be3 a6 9. Nd4 Qc7 {Transposes to 7.Be3.} (9... Bb4 $5 {
+This move is also quite promising.})) 8... a6 (8... d6 9. Be3 Be7 10. g4 $5 $36
+) 9. e5 axb5 10. exf6 b4 (10... gxf6 11. Nxb5 $36 {Although Black is a pawn up,
+Black's position is unpleasant because of the damaged kingside pawn structure
+and White's strong knight on b5.}) 11. fxg7 Bxg7 12. Nb5 {This position drew a
+lot of attention recently and White has excellent statistics but I don't
+believe it's that dangerous to Black, however, Black needs to be accurate in
+any case.} d5 13. O-O O-O 14. Bd3 (14. Kh1 Bd7 15. Rf3 Qd8 16. Rh3 h6 17. Rg3
+Kh8 18. Bd3 Qh4 $13) (14. Rf3 Bd7 15. Rh3 Ne7 $132 {The knight is ready to
+come to the g6-square in order to help in the defense of the kingside.} 16. Qd3
+{Can be easily met with:} (16. Bd3 h6 {Black isn't in any danger and f7-f5 can
+be played if needed to further solidify the kingside and annul White's attack.}
+) 16... Ng6 {White doesn't have enough resources to overpower Black on the
+kingside.}) 14... f5 {Limiting the activity of White's light-squared bishop.}
+15. Kh1 (15. c3 bxc3 16. bxc3 Nb4 17. Be3 Nxd3 18. Qxd3 Bd7 19. Bd4 Bxb5 20.
+Qxb5 Qc7 21. Qe2 Ra6 $11) 15... Bd7 16. a4 Qd8 17. c3 {Niemann - Pichot, chess.
+com rapid 2022} d4 $5 18. cxb4 Nxb4 19. Bc4 Qb6 20. Bd2 Nd5 $13) (7. Be3 a6 (
+7... Be7 {Trying to avoid playing the move a7-a6 can put Black in an
+unpleasant position.} 8. f4 d6 9. Qd2 $5 $36) 8. a3 (8. Qd2 {This is a strange
+combination of the English attack and the Classical set-up that's not
+dangerous for Black.} b5 9. f3 Bb7 $132) (8. f4 Bb4 9. Bf3 (9. Qd3 d5 10. e5
+Ne4 11. O-O Bxc3 12. bxc3 Na5 $13) (9. O-O Bxc3 10. bxc3 Nxe4 $15) 9... d5 10.
+e5 (10. exd5 Nxd5 11. Bxd5 Bxc3+ 12. bxc3 exd5 $15) 10... Ne4 11. Bxe4 Bxc3+
+12. bxc3 dxe4 $11 {Black has successfully solved the opening problems.}) (8.
+O-O {Transposes to 7.0-0 which is the main line and will be analyzed in the
+next chapter.}) 8... Be7 9. f4 (9. g4 O-O $5 $146 (9... d5 10. exd5 Nxd5 11.
+Nxd5 exd5 12. Qd2 O-O 13. O-O-O) 10. g5 Ne8 11. Qd2 b5 12. O-O-O Bb7 13. h4 b4
+14. axb4 Bxb4 $132) (9. Qd2 b5 10. Nxc6 dxc6 11. f4 Bb7 12. e5 Rd8 13. Qc1 (13.
+Bd3 Ng4 $36) 13... Nd7 14. O-O c5 $132) 9... O-O (9... d6 {This prevents e4-e5
+but after} 10. g4 $36 {Even though White lost a tempo wwith a2-a3, this
+Scheveningen set-up is unpleasant for Black.}) 10. Qd2 (10. e5 {Isn't
+dangerous at all for Black in this position.} Nd5 11. Nxd5 exd5 12. Nf5 d6 13.
+exd6 Bxd6 14. Nxd6 Qxd6 15. O-O Re8 16. Qd2 Bf5 $132 {The pawn being on f4
+instead of f2 favors Black a lot since that has weakened White's pawn
+structure and Black can put the bishop on e4. Black has good activity and
+counterplay in this position.}) (10. O-O {Transposes to 7.0-0.}) 10... d5 $5 {
+This is the best way to react with Black in my opinion.} (10... d6 {This is
+also possible.} 11. O-O-O Nxd4 12. Bxd4 (12. Qxd4 b5 13. g4 d5 $1 14. exd5 Bb7
+$13) 12... e5 (12... b5 13. Bxf6) 13. Be3 (13. Bf2 b5 14. Bh4 Nxe4 15. Nxe4 (
+15. Nd5 Nxd2 16. Nxc7 Bxh4 17. Nxa8 Ne4 $44) 15... Bxh4 16. Qxd6 Qxd6 17. Nxd6
+exf4 $11) 13... b5 14. g4 (14. f5 Bb7) 14... Bb7 15. Bf3 Nd7 16. g5 Nb6 17.
+Bxb6 Qxb6 18. f5 b4 $1 19. axb4 d5 $1 20. exd5 (20. Nxd5 Bxd5 21. exd5 Bxb4 22.
+c3 Bd6 $44) 20... Bxb4 21. Qd3 Rab8 22. h4 Bc8 $132) 11. e5 Ne4 12. Nxe4 dxe4
+$11 {Black intends to continue with b5, Bb7 and to put a rook on d8, while the
+pawn on e4 is not a weakness at all.}) (7. a3 a6 8. f4 (8. Be3 {- 7.Be3}) (8.
+O-O {- 7.0-0}) 8... Nxd4 9. Qxd4 Bc5 10. Qd3 d5 11. e5 Ne4 12. Nxe4 dxe4 13.
+Qxe4 Bd7 $44) (7. f4 {Now e4-e5 is a strong positional threat but Black has a
+good way to react in this position.} Nxd4 8. Qxd4 Bc5 9. Qd3 d5 $1 {This is a
+very strong pawn sacrifice.} 10. e5 (10. exd5 O-O $1 11. Be3 {If White
+captured on e6 too with 11.dxe6, Black would have fantastic compensation after
+11...Bxe6.} Bxe3 12. Qxe3 Nxd5 13. Nxd5 exd5 $11 {Black intends to continue
+with Bf5 next.}) 10... Ne4 $1 {Continuing in the same sacrificial manner.} 11.
+Nxe4 (11. Be3 Bxe3 12. Nxe4 {This was White's idea.} Qb6 13. Nd6+ {Tomczak -
+Landa, Germany 2015} Kf8 $132 {The bishop on e3 is quite strong while the
+knight on d6 seems active but it doesn't do much.}) 11... dxe4 12. Qxe4 Bd7 $44
+{Black's bishops are quite strong and Black has excellent compensation,
+especially considering that White has difficulties with the king in the center
+too.}) (7. Nxc6 {This move doesn't make sense when Black hasn't spent a tempo
+on the move a7-a6.} bxc6 8. Qd3 d5 9. Qg3 Qxg3 10. hxg3 Bb4 $11 {This endgame
+is perfectly fine for Black.}) (7. Qd3 Nxd4 8. Qxd4 Bc5 9. Qd3 b6 $13) 7... a6
+(7... Be7 $5 {This is playable but it can be tricky for Black to play the
+Taimanov Sicilian without the move a7-a6.} 8. Be3 (8. Kh1 O-O 9. f4 d6 10. Ndb5
+Qb8 11. a4 Rd8) (8. Ndb5 Qb8 9. Be3 a6 10. Nd4 O-O 11. f4 d6 12. a4 Bd7) 8...
+O-O 9. f4 d6 10. Kh1 (10. a4 Nxd4) 10... Nxd4 11. Bxd4 (11. Qxd4 b6) 11... e5
+12. Be3 a6) 8. Kh1 {This is the second most popular move in the position. The
+main line 8.Be3 will be analyzed in the next chapter.} (8. Bg5 Be7 9. Qd2 (9.
+Nxc6 dxc6) (9. Kh1 Ng4 $1 {This is a nice tactical idea.} 10. Bxg4 Bxg5 $15)
+9... h6 10. Bh4 O-O {The bishop on h4 is misplaced.} 11. Bg3 Ne5 $132 {After
+this standard reaction to Bg3, Black is doing fine.}) (8. a4 {Preventing
+Black's expansion on the queenside.} Be7 {8...Bb4 is tricky so I recommend
+switching to a Scheveningen set-up where White has already castled short so
+any kingside attack doesn't seem so dangerous.} 9. Kh1 (9. Nb3 b6 10. f4 d6) (
+9. Be3 {Transposes to 8.Be3.}) 9... O-O 10. f4 d6 11. Bf3 (11. Nb3 b6 12. Bf3
+Rb8 $132) 11... Nxd4 12. Qxd4 Bd7 $11 {Intending to put the bishop on c6 and
+prepare b7-b5 at some point.}) (8. a3 Nxd4 9. Qxd4 Bd6 10. Kh1 b5 11. f4 Bb7
+12. Qd3 Be7 13. Be3 d5 14. e5 Ne4 $11) (8. Nxc6 bxc6 {- 6...a6}) 8... Nxd4 {
+The most direct and promising way to play with Black.} (8... Be7 9. f4 d6 {
+There's nothing wrong with this move order for Black as sooner or later White
+needs to play Be3 which will transpose.}) 9. Qxd4 Bc5 10. Qd3 (10. Qd2 {
+[%cal Gd2g5]} O-O 11. Qg5 d6 12. Bd3 Nd7 13. f4 Bd4 $132 {White is a long way
+from creating threats on the kingside and Black has nothing to worry about in
+this position.}) 10... b5 {Black is trying to create counterplay on the
+queenside as soon as possible.} 11. f4 (11. Bg5 {Bxf6 is not a threat since it
+can only get White in trouble.} Bb7 12. f4 (12. a3 h5 13. f4 h4 $5 $146 14. h3
+Qd6 $1 15. Qf3 (15. Qxd6 Bxd6 16. e5 Be7 $17) 15... Qd4 $15) 12... h6 (12... b4
+13. e5 $36 bxc3 14. exf6 cxb2 15. fxg7 $1 bxa1=Q 16. Rxa1 Rg8 17. Qxh7 {
+This is quite unpleasant for Black.} Rxg7 18. Qxg7 Bf8 19. Qh7 $14 Qc6 20. Rg1)
+13. Bxf6 (13. Bh4 b4 14. e5 bxc3 15. exf6 cxb2 16. fxg7 bxa1=Q 17. Rxa1 Rg8 18.
+Qh7 {The pawn on h7 isn't hanging anymore which is a difference compared to
+the 12...b4 line above.} Rxg7 19. Qxg7 Bf8 20. Qh7 Qc6 {Black's pieces are
+very active.} 21. Rg1 (21. Bf3 Qc3 $19 {Rodriguez - Ubilava, Spain 2009}) 21...
+Qe4 $17 {White has a lot of weaknesses and no convenient way to defend them.})
+13... gxf6 14. Bh5 O-O-O $5 {Black's king feels quite safe on the queenside
+while the bishop pair can become quite dangerous. It's White who needs to
+think about how to avoid getting in trouble.} 15. Bxf7 h5 $36) (11. a3 h5 $5 {
+The idea is to jump Ng4 which is quite promising and tricky for White to deal
+with.}) 11... Bb7 {Now b5-b4 becomes a threat.} 12. Bf3 (12. e5 Nd5 13. Nxd5
+Bxd5 14. Qg3 Qc6 $5 $132 15. Qxg7 $4 O-O-O $19) 12... d5 $5 13. exd5 (13. e5
+Nd7 14. a3 O-O $13 {Black has a pleasant French structure since White can't
+organize an attack on Black's king, it's not easy to establish a firm blockade
+on the d4-square, and Black has a clear counterplay on the queenside.}) 13...
+O-O 14. dxe6 (14. d6 Qd7 15. Bxb7 Qxb7 16. f5 Rad8 17. Bf4 Rfe8 $44 {Black
+will soon regain the pawn on d6 and will have very good chances.}) 14... Rad8
+15. Qe2 Rde8 $44 {This is an accurate move.} 16. f5 fxe6 17. Bf4 Bxf3 18. Qxf3
+Qc8 19. fxe6 Qxe6 {White has an extra pawn but Black's pieces are very active
+and b5-b4 is a threat. Black has sufficient counterplay.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 8"]
+[Black "6.Be2 a6 7.0-0 Nf6 8.Be3"]
+[Result "*"]
+[ECO "B85"]
+[Annotator "GM Alexander Khalifman"]
+[PlyCount "34"]
+[EventDate "2023.??.??"]
+
+{[%evp 0,34,34,32,55,36,36,30,30,30,30,37,65,59,59,51,52,55,86,80,88,36,41,30,
+50,37,62,67,66,64,59,39,45,1,11,-1,3]} 1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4
+Nc6 5. Nc3 Qc7 6. Be2 Nf6 (6... a6 {This move was discussed a bit in the
+previous chapter.}) 7. O-O a6 8. Be3 {This is the main line in the classical
+variation.} Be7 {This move became popular in recent years.} (8... Bb4 {This
+move is recommended in most sources and it's in the spirit of the Taimanov
+system, but the arising positions aren't easy for Black to play, accuracy is
+required, and Black doesn't have many chances to gain the initiative, so it's
+not my recommendation.}) (8... b5 9. Nxc6 dxc6 (9... Qxc6 $2 10. e5 $16) 10. f4
+$14 b4 11. e5) 9. f4 {White's alternatives aren't dangerous for Black.} (9. Kh1
+O-O) (9. a4 O-O 10. Kh1 d5 $5 {In case you don't like playing with an isolated
+pawn, 10...d6 is also playable.} 11. exd5 exd5 12. Bf3 Rd8 $11 {Black has a
+good version of a structure with an isolated pawn where the d5-pawn isn't a
+weakness at all and Black has good piece play.}) (9. g4 $6 {Usually White
+plays this move without castling since now it has weakened White's king} h5 $1
+10. gxh5 (10. g5 Ng4 $17) 10... Nxh5 $36 11. Bxh5 g6 {It's clear that it's
+Black who has the advantage.}) 9... d6 {This position can arise from the
+Najdorf and the Scheveningen, so it's an important theoretical position.} (9...
+d5 10. e5 Nd7 11. Bd3 $14 {This is an unpleasant version for Black from a
+French structure since White has control over the d4-square and is ready to
+start an attack on the kingside.}) 10. Kh1 {This was popular at the end of the
+20th century.} (10. Nxc6 bxc6 (10... Qxc6 11. Bf3 Qc7 12. Na4 $5 Nd7 13. c4 $1
+$14 Qxc4 14. Rc1 Qb5 15. b3 O-O 16. Qd2 $44) 11. Qe1 (11. Bf3 a5 (11... O-O 12.
+Na4 Bb7 13. c4 c5 14. Qc2 Nd7 (14... Rad8 15. Rad1) 15. Rad1 Rad8 16. b3 Rfe8
+$1 (16... Nb8 17. Qf2 $14 {[%cal Ge4e5]} Nc6 18. e5 $1) 17. Rd3 (17. Qf2 Bf6
+$13) 17... Nb8 18. Qf2 Nc6 $13) 12. Na4 Ba6 13. Rf2 d5 14. e5 Nd7 $132) 11...
+O-O 12. Qg3 d5 13. e5 Nd7 14. Na4 (14. Bd3 a5 $132) 14... a5 15. Rae1 (15. c4
+Ba6 16. Rac1 c5 $13) 15... c5 (15... Ba6 16. Bxa6 Rxa6 17. f5 Kh8 $8 18. Qh3
+Qxe5 19. Bf2 Qc7 20. fxe6 fxe6 21. Qxe6 Bd6 22. Bd4 c5 23. Be5 Rg8 $13) 16. f5
+Kh8 17. fxe6 fxe6 $13) (10. a4 O-O 11. Bf3 (11. Nb3 {White tries to avoid the
+knight exchange and the e6-e5 idea, but here Black didn't play Bd7, so the
+bishop can be fianchettoed to b7 with excellent counterplay.} b6 12. Bf3 (12.
+Qe1 Bb7 (12... Rb8 13. Qg3 Na5 14. Nd2) 13. Qf2 (13. Qg3 Nb4 14. Bd3 e5 $13)
+13... Nd7 14. Rad1 Bf6 {This is a typical set-up for Black where it's
+difficult for White to create something on the kingside, while Black has good
+counterplay on the other side of the board.} 15. Nd4 (15. Rd2 Bxc3 16. bxc3 Ne7
+$132) 15... Nc5 16. Kh1 Nxd4 17. Bxd4 e5 $11) (12. g4 d5 $5 13. e5 (13. exd5
+Nb4 $44) 13... Nd7 14. g5 Bc5 $36) (12. Bd3 Nb4 13. Qe2 Bb7 $132) 12... Rb8 {
+Black isn't in a rush to put the bishop on b7 for a reason that will be
+revealed soon.} 13. Qe2 (13. g4 d5 $5 14. exd5 Nb4 15. dxe6 Bxe6 16. g5 Rbd8
+17. Nd4 Nfd5 $44) (13. Qd2 Na5 14. Nxa5 bxa5 15. Rab1 Rb4 $15) 13... Na5 {
+This is an important and quite standard idea for the Scheveningen set-up.} 14.
+Nd2 {It's better for White to avoid the knight exchange.} (14. Nxa5 bxa5 {
+Black's doubled a-pawns aren't really weak, but White's queenside pawns are.
+The b-file is now open for the rook on b8 and this is why Black didn't develop
+the bishop to the b7-square.} 15. Rab1 Rb4 $15) 14... Bb7 $132 15. g4 $6 d5 $1
+$36 16. e5 Nd7 {Black has a pleasant version of a French structure. The main
+difference is that White doesn't have stable control over the d4-square.}) (11.
+Qd2 Nxd4 12. Bxd4 e5 13. Be3 exf4 14. Rxf4 (14. Bxf4 Be6 $11) 14... Be6 15.
+Raf1 Nd7 16. Nd5 Bxd5 17. Qxd5 Ne5 18. Bd4 Qxc2 19. Bxe5 dxe5 20. Rxf7 Qc5+ $11
+) (11. g4 Nxd4 12. Bxd4 (12. Qxd4 e5 13. Qd3 exf4 14. g5 fxe3 15. gxf6 Bxf6 16.
+Nd5 Qd8 17. Nxf6+ gxf6 18. Qxe3 Kh8 $13) 12... e5 13. Be3 (13. Bf2 exf4 14. g5
+Nd7 15. Nd5 (15. h4 Qd8) 15... Qd8 16. h4 Bxg5 (16... f6) 17. hxg5 Qxg5+) 13...
+exf4 14. Rxf4 (14. Bxf4 Be6 15. g5 Nd7 $15) 14... Be6 15. g5 (15. Nd5 Bxd5 16.
+exd5 Nd7 $15) 15... Nd7 16. Nd5 (16. h4 Ne5) 16... Bxd5 17. Qxd5 Qxc2 18. Rf2
+Qc6 $11) 11... Nxd4 12. Qxd4 (12. Bxd4 e5 {Black plays the same typical idea.})
+12... e5 13. Qd2 (13. Qd3 exf4 14. Bxf4 Be6 15. Rfd1 Nd7 {It seems like there
+is an unpleasant pressure on the d6-pawn but White's king is still on g1 in
+this line.} 16. Bxd6 Qb6+ {This is an important resource with the exposed king
+on g1.} 17. Qd4 (17. Kh1 Bxd6 18. Qxd6 Qxb2 {Black won the pawn back and has
+excellent counterplay.}) 17... Bxd6 18. Qxb6 Bxh2+ {Another tactic due to the
+king still being on the g1-square.} 19. Kxh2 Nxb6 $11) 13... exf4 14. Bxf4 Be6
+15. Rad1 (15. Rfd1 Nd7 16. Bxd6 Qb6+ 17. Kh1 Bxd6 18. Qxd6 Qxb2 19. Nd5 Qe5) (
+15. a5 Nd7 16. Nd5 Bxd5 17. Qxd5 Ne5 18. c3 b5 $132) (15. Kh1 Rac8 (15... Nd7
+16. Nd5 Bxd5 17. Qxd5 $14) 16. Rfd1 Qb6 17. Rab1 Rfd8 $13) 15... Nd7 $5 (15...
+Rfd8) 16. Bxd6 Qb6+ 17. Kh1 (17. Qd4 Bxd6 18. Qxb6 Bxh2+ 19. Kxh2 Nxb6 $11)
+17... Bxd6 18. Qxd6 Qxb2 19. Nd5 Qe5 {This is an accurate move after which
+Black is doing fine.} 20. Nc7 Rad8 21. Nxe6 Qxe6 22. Qc7 Qc6 23. Qxc6 bxc6 $11)
+(10. Bf3 Bd7 $5 (10... O-O 11. Nxc6 bxc6 12. Na4 Bb7 13. c4 c5 14. Qc2) (10...
+Nxd4 $5 11. Qxd4 e5) 11. Nb3 b5 12. a4 b4 13. Ne2 e5 14. Ng3 O-O $13) (10. Nb3
+b5 11. a3 (11. Bf3) 11... O-O $132) (10. g4 Nxd4 11. Qxd4 (11. Bxd4 h6 $15)
+11... e5 12. Qd1 exf4 13. Rxf4 h6 14. Qd4 Be6 $132) (10. Qe1 {This is the main
+and most aggressive option from White, intending to transfer the queen to the
+g3-square. This will be analyzed in the next chapter.}) 10... O-O 11. a4 {
+White is preventing Black's counterplay on the queenside and with that,
+prepares to advance on the kingside. This used to be very popular and it has
+even been tested in World Championship matches.} (11. Bf3 Nxd4 {The standard
+reaction for Black.} 12. Qxd4 (12. Bxd4 e5 13. Be3 b5 {White didn't play the
+prophylactic a2-a4, so now Black isn't in a rush to capture on f4 because the
+light-squared bishop can be developed to the b7-square.} 14. a3 Bb7 $132) 12...
+e5 (12... Bd7 13. e5 Ne8 14. Rad1 Bc6 15. Bxc6 Qxc6 16. f5 Rc8 $13) 13. Qd2 b5
+14. a3 Bb7 {Rfe8 with the idea to retreat the bishop to f8 which increases the
+pressure on the e4-pawn can also be quite strong.} 15. Rad1 Rac8 $13) (11. g4
+b5 $36 {Black will put the bishop on b7 against the White king on the long
+diagonal, so Kh1 and g2-g4 don't work well together.}) 11... Nxd4 (11... Bd7 {
+This move without exchanging the knights can be met with retreating the knight
+to the b3-square.} 12. Nb3 $14 {Black's typical plan would be to play b6 and
+place the light-squared bishop on the b7-square, but with the bishop already
+on d7, this plan would require an extra tempo.}) (11... Re8 {This move is
+playable but there is a lot of theory on it and the lines are very complicated.
+}) 12. Qxd4 (12. Bxd4 e5 {This is a standard pattern for Black. White doesn't
+have enough time to put the queen on g3, so White can't get an opening
+advantage.} (12... Bd7 {Leads to an unpleasant position for Black.} 13. e5 Ne8
+14. Qd3 {White's pieces are better placed in comparison to the main line of 12.
+Qxd4.} Bc6 15. Ne4 $36 Rd8 16. Qe3) 13. Be3 (13. Bg1 exf4 14. a5 Be6 15. Bb6
+Qc6 16. Rxf4 Nd7 17. Nd5 Bg5 18. Bd4 Rae8 $132) 13... exf4 14. Bxf4 (14. Rxf4
+Be6 15. Nd5 (15. a5 Nd7 16. Nd5 Bxd5 17. Qxd5 Qxc2 18. Bc4 Ne5 19. Bb3 Qc6 $13)
+15... Bxd5 16. exd5 Nd7 17. Rc4 Qd8 18. a5 Bf6 $132) 14... Be6 15. Qd3 (15. Nd5
+Bxd5 {It's important to give up the bishop and not the knight since the knight
+has the excellent square e5, while the bishop won't have many great squares to
+go to.} 16. exd5 Nd7 17. Ra3 (17. c4 Bf6 18. Qc2 a5 $36) 17... Bf6 18. Rh3 Be5
+19. Bd3 g6 20. Bh6 Rfe8 $13 {Black has excellent control over the center and
+the minor pieces are active, while the attack isn't dangerous on the kingside.}
+) (15. Qd2 Rac8) 15... Nd7 16. Rad1 Ne5 {Black is right on time to place the
+knight on e5, and now it's not very easy for White to create some initiative.}
+17. Qg3 (17. Nd5 Nxd3 18. Nxc7 Nxf4 19. Rxf4 Rad8 $11) 17... Rac8 18. Rd2 {
+White increases the pressure on the d6-pawn, but in some lines, Black can even
+sacrifice the pawn.} Bf6 $132 19. Rfd1 Qa5 20. Rxd6 Ng6 {White won the pawn
+but Black's pieces are better placed, so it's White who has to think how to
+equalize.}) 12... Bd7 {Intending Bc6 and then Black will look for counterplay
+in the center with either e6-e5 or d6-d5, depending on what White does.} (12...
+e5 {This is a standard pattern that Black will play often, fighting for the
+center and the e5-square, but it's not recommended in this exact position.} 13.
+Qd3 exf4 14. Bxf4 $14 Be6 15. Qg3 Ne8 (15... Nd7 16. Bh6 {Black can't manage
+to get the knight on the e5-square and loses an exchange in this case.}) 16.
+Rad1 {White has reached a dream set-up for the pieces and Black is doomed to
+passivity while defending the weak d6-pawn.}) 13. e5 {This move was the reason
+why this line used to be considered dubious for Black in the past, but Black
+has sufficient counterplay.} (13. a5 Bc6 14. Bf3 (14. Qd3 {Preventing Rad8.}
+Rac8 (14... d5 15. e5 Nd7 16. Bd4 g6 $13) 15. Bb6 Qb8 16. Bd4 (16. f5 d5 17.
+fxe6 fxe6 18. Qh3 Qd6 $11 {Black has good counterplay and once again, as it
+turns out, the pawn on e6 is not weak at all.}) 16... Nd7 {This is a typical
+idea, preparing an exchange of the dark-squared bishops ith Bf6, after which
+Black will be completely fine.} 17. f5 Bf6 $11) (14. f5 Rac8 15. Qd3 {Leko -
+Lautier, Wijk aan Zee 2002} d5 $5 16. fxe6 fxe6 17. exd5 Nxd5 $13 {Once again,
+the pawn on e6 isn't weak while Black is the one who has the more active
+pieces and great counterplay.}) 14... Rad8 {Preparing d6-d5.} 15. Qd2 {Kulaots
+- Andersson, Istanbul 2003} (15. Qd3 {Runs into the same move again:} d5 16.
+exd5 Rd7 $13 {Black needs to find this move and now Black is fine.}) (15. Rfd1
+d5 16. e5 Ne4 17. Qb6 Qxb6 18. Bxb6 Rc8 $11) 15... d5 $5 16. e5 (16. Bb6 $2 {
+It's important that Black doesn't lose material and in fact, it's White who
+gets in trouble after:} dxe4 17. Qe1 exf3 {Black will have enough material and
+a lot of activity for the queen, so Black has a big advantage.}) 16... Ne4 {
+A typical reaction.} 17. Qe1 d4 18. Nxe4 dxe3 19. Qxe3 Rd7 {Black has enough
+compensation for the pawn in the form of the bishop pair, control of the open
+d-file, and the weak pawn on a5.} 20. c3 Rfd8 $44 {Capturing on e4 at some
+point is also fine where Black can also try for more and not just equality in
+the opposite-colored bishop middlegame.}) (13. Bf3 Bc6 14. Qd2 b5 15. axb5 axb5
+$132) 13... Ne8 {The knight on e8 is passive but it can be activated later.}
+14. Bf3 (14. Bd3 Bc6 15. Bf2 {White frees the e3-square for the queen.} (15.
+Ne4 Rd8 16. Qc3 dxe5 17. fxe5 Rd5 18. Bf4 Qd7 $132 {Black intends to play f6
+or f5 with good counterplay.}) 15... Rd8 16. Qe3 g6 {Black's knight is ready
+to be rerouted to f5 via the g7-square.} 17. a5 Ng7 18. Qe2 Rd7 19. Bb6 Qb8 20.
+Be4 (20. Qe3 {Dolmatov - Plaskett Groningen 1978} dxe5 21. fxe5 Nf5 $36 {
+All of Black's pieces are active and the e5-pawn is a weakness.}) 20... Bxe4
+21. Qxe4 Rc8 $13 {It's White who has to play accurately in order to keep equal
+chances.}) (14. Ne4 Bc6) (14. Qb4 {White wants to play Bb6 which would disrupt
+the coordination between Black's pieces, but it doesn't work.} Bc6 15. Bb6 dxe5
+{This is an important in-between move.} 16. Qa5 Qd6 17. fxe5 Qd2 $5 $146 18.
+Bf3 (18. Rf2 Bh4) 18... Bxf3 19. Rxf3 Qxc2 {Black has an extra pawn and
+although the knight is passive on e8, it's difficult for White to increase the
+pressure.} 20. Bc5 Bxc5 21. Qxc5 Rd8 22. Qe7 Rd2 23. Raf1 Qg6 {White has some
+compensation for the pawn but it's not enough for an advantage.}) 14... Bc6 15.
+Ne4 (15. Qb6 {Karjakin - Morozevich, Tashkent 2012} dxe5 16. Qxc7 Nxc7 17. fxe5
+(17. Bxc6 {Trying to create another weakness for Black will only get White in
+trouble.} bxc6 18. fxe5 Nd5 $15) 17... Bxf3 18. gxf3 Rac8 $11) 15... f5 16.
+exf6 Nxf6 17. Ng5 Qc8 $11 {It might seem that the pawn on e6 is weak but White
+doesn't have a proper way to increase the pressure. Black is ready to continue
+with h6 next with sufficient counterplay.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 9"]
+[Black "6.Be2 ... .Be7 9.f4 d6 10.Qe1"]
+[Result "*"]
+[ECO "B85"]
+[Annotator "GM Alexander Khalifman"]
+[PlyCount "44"]
+[EventDate "2023.??.??"]
+
+{[%evp 0,44,14,30,41,41,44,40,24,33,54,54,65,59,59,63,60,74,76,52,93,62,56,47,
+48,25,41,25,35,20,17,12,42,8,31,0,0,0,0,-10,19,6,21,26,19,24,35]} 1. e4 c5 2.
+Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be2 Nf6 7. O-O a6 8. Be3 Be7 9. f4
+d6 10. Qe1 {This is the main move. White intends to move the queen to g3 and
+launch a dangerous kingside attack, but Black has adequate counterplay.} O-O (
+10... Nxd4 11. Bxd4 O-O (11... b5 12. e5 $36)) 11. Qg3 (11. Kh1 Nxd4 12. Bxd4
+b5 (12... e5 {Now this typical push doesn't work since Black doesn't have the
+move Bc5.} 13. fxe5 dxe5 14. Qg3 Bd6 15. Rxf6 (15. Bg1 $5 $146) 15... exd4 16.
+Qxd6 Qxd6 17. Rxd6 dxc3 18. b3 $14 {[%csl Gc3] The pawn on c3 is rather a
+weakness than a strength. White is ready to bring the king toward the center
+next.}) 13. a3 (13. e5 dxe5 14. Bxe5 (14. fxe5 Nd7 15. Ne4 {White finally
+manages to create some threats, but they are looking more dangerous than they
+actually are.} (15. Bf3 Bb7 16. Bxb7 Qxb7 17. Ne4 Rad8 $11) (15. Bd3 Bb7 16.
+Qg3 Nc5 $15) 15... Bb7 16. Nf6+ (16. Bd3 Rad8 17. Qg3 Bxe4 18. Bxe4 Nc5 $15) (
+16. Bf3 Rad8 $13) 16... Nxf6 17. exf6 Bxf6 18. Bxf6 (18. Rxf6 {Doesn't lead
+anywhere for White after:} Rad8 19. Qh4 Rxd4 20. Qxd4 gxf6 21. Qxf6 Qxc2 22.
+Bf3 Be4 $13) 18... gxf6 19. Rxf6 Qe5 $13 {White doesn't have an attack and is
+the one who should be more careful in this middlegame.}) 14... Qb6 15. Qh4 (15.
+Bd3 Ng4 $5 16. Qg3 f5 $15) (15. Qg3 Bb7 16. Bd3 (16. f5 exf5 17. Rxf5 g6 18.
+Raf1 {Sokolov,A - Ivanchuk, Linares 1989} Ne8 $5 19. Bf3 Rd8 $15) (16. Bf3 Bxf3
+17. Rxf3 Ne8 $5 $15) 16... Nh5 17. Qh3 g6 $15) 15... Bb7 16. Bd3 h6 17. Rae1
+Rad8 $13) (13. Bd3 Bb7) (13. Qg3 {Transposes to 11.Qg3.}) (13. Bf3 e5 $5 14.
+fxe5 dxe5 15. Qg3 Bd6 16. Be3 Be6 17. Bg5 Ne8 18. Rad1 Rc8 $13) 13... Bb7 (
+13... Nd7 $5 14. Qg3 Bf6 15. Bxf6 Nxf6 16. Bd3 Bb7 $132) 14. Bd3 (14. Bf3 e5
+15. Be3 Rfe8 $132) 14... Rae8 {[%cal Ge6e5]}) (11. Rd1 Nxd4 12. Bxd4 b5 (12...
+e5 13. fxe5 dxe5 14. Qg3 Bc5 15. Bxc5 Qxc5+ 16. Kh1 Qe7 (16... Kh8 $2 17. Rxf6
+gxf6 18. Qh4 $18) 17. Rf2 $5 $146) 13. e5 (13. a3 Bb7 14. Bf3 (14. Qg3 {
+- 11.Qg3}) 14... e5 15. Be3 Rfe8 $15) 13... dxe5 14. fxe5 Nd7 15. Ne4 (15. Bf3
+Rb8 $5 $146 16. Qg3 Bc5 $15) 15... Bb7 16. Nf6+ Nxf6 17. exf6 gxf6 18. Qh4 f5
+19. Bf6 Bxf6 20. Qxf6 Rad8 21. Qg5+ Kh8 22. Qf6+ Kg8 $11) (11. a4 {White tries
+to prevent Black's counterplay before starting some action on the kingside.}
+Nxd4 (11... Bd7 {This is a playable option for Black that doesn't enter the
+line with perpetual check. The position remains complicated and Black may
+prepare b7-b5 in the future.}) 12. Bxd4 e5 13. Be3 (13. fxe5 dxe5 14. Qg3 Bc5
+15. Bxc5 Qxc5+ 16. Kh1 Kh8 {Black is doing very well positionally and if the
+game continues in a quiet manner, Black can take over the initiative, but
+White has a sequence with which a perpetual check can be achieved.} 17. Rxf6
+gxf6 18. Qh4 Rg8 $11 19. Qxf6+ Rg7 {And White gives a perpetual check.}) 13...
+exf4 14. Bxf4 (14. Rxf4 Be6 15. Qg3 (15. Rd1 Nd7 16. Qg3 Ne5) 15... Nd7 {
+The knight is being rerouted to the e5-square.} 16. Bd4 Ne5 {The knight on e5
+is perfectly placed.}) 14... Be6 15. Qg3 Qc5+ $146 (15... Nd7 16. Bh6 Qc5+ 17.
+Kh1 Qe5 18. Bf4 Qc5 19. Nd5 Bxd5 20. exd5 $36 {Black's pieces are slightly
+misplaced since it's difficult to strengthen the control over the e5-square.})
+16. Kh1 (16. Be3 Qe5 $11 {Leads to a move repetition.}) 16... Nh5 17. Bxh5 Qxh5
+18. Bxd6 Bh4 {Black has excellent counterplay with the strong bishop pair and
+better pawn structure, even in the endgame.} 19. Qf3 Qxf3 20. gxf3 (20. Rxf3
+Rfe8) 20... Rfc8 21. Rad1 Rc4 $44 {Despite the extra pawn, it's White who has
+to be careful in this endgame.}) (11. Bf3 Nxd4 12. Bxd4 e5 13. Be3 b5 14. a3 (
+14. Qg3 Kh8 $15 {Gipslis - Rublevsky, Ostrava 1992} (14... Bb7)) 14... Bb7 15.
+Qg3 Kh8 $15) 11... Nxd4 12. Bxd4 {The queen being on the g3-square also
+prevents Black's typical e6-e5 push, although Black has another typical
+Sicilian resource in the position - b7-b5.} b5 13. a3 {This prophylactic move
+used to be considered the most unpleasant one for Black.} (13. e5 {This is an
+old and aggressive line, with the idea when Black retreats the knight from f6,
+White goes forward with Ne4.} dxe5 14. Bxe5 (14. fxe5 Bc5 {A typical resource
+when White's king is still on g1.} 15. Bxc5 Qxc5+ 16. Kh1 Nd7 17. Rae1 (17. Bf3
+Rb8 18. Rae1 b4 {Now White has to retreat the knight since Ne4 would lose the
+e5-pawn.} 19. Nd1 Bb7 $15 {Koch - Lautier, France ch 1999}) 17... Qxe5 18. Qh4
+Qb8 $1 (18... Qc7 19. Bd3 g6 (19... f5 20. Qe7) 20. Re3 $13) 19. Bd3 f5 $1 $17)
+14... Qc5+ 15. Kh1 Bb7 16. Bf3 (16. Bd3 g6 17. Rae1 {Reshevsky - Browne, Lone
+Pine 1977} Rad8 $5 $15 {White's pieces may seem well-placed, but in reality,
+they aren't doing much. Black intends to play Nd7 next, targeting the bishop
+on e5.}) 16... Bxf3 17. Rxf3 Qc6 18. Re1 Rad8 19. Ne4 Nh5 20. Qf2 f6 $132) (13.
+Bd3 Bb7 14. Rae1 (14. e5 dxe5 15. fxe5 Nd7) 14... Rae8 $5 $146 {[%cal Ge6e5]
+This is another way of preparing e6-e5.} (14... Rad8 15. Kh1) 15. e5 dxe5 16.
+fxe5 Nd7 17. Ne4 Bxe4 18. Rxe4 Bc5 {White's attack isn't dangerous.} 19. Bxc5 (
+19. c3 Bxd4+ 20. cxd4 f5 21. exf6 Qxg3 22. hxg3 Nxf6 $11) 19... Nxc5 20. Rg4 g6
+21. h4 Rd8 22. h5 f5 $1 23. exf6 Qxg3 24. Rxg3 Nxd3 25. cxd3 Kf7 $11) (13. Kh1
+Bb7 {Now b5-b4 is a threat.} 14. Bd3 (14. a3 {Transposes to 13.a3.}) (14. Bf3
+b4 15. e5 dxe5 16. Bxe5 Qb6 17. Ne4 Ne8 $13) 14... b4 15. e5 (15. Nd1 e5 16.
+fxe5 Nh5 17. Qf3 dxe5 {The tactics work out perfectly fine for Black.}) 15...
+dxe5 16. Bxe5 (16. fxe5 Nh5 17. Qh3 bxc3 18. Qxh5 g6 $15) 16... Qc6 17. Ne4 Nh5
+18. Qh3 f5 {This is a good tactical resource. The pawn on e6 isn't weak at all
+since White can't coordinate the pieces properly in order to put pressure on
+it.} 19. Ng5 g6 $132) (13. Bf3 Bb7) (13. Rae1 b4 14. Nd1 d5 15. Nf2 (15. exd5
+Bc5) 15... Bb7 $13) 13... Bb7 14. Kh1 {This is another prophylactic move from
+White that avoids any potential checks or tactics.} (14. Rae1 Rad8 15. Bd3 (15.
+Kh1 {Transposes to 14.Kh1.}) (15. Bf3 {Trying to play without the prophylactic
+Kh1 move can have drawbacks for White.} d5 $5 16. exd5 (16. e5 Ne4 17. Qh3 a5
+$132) 16... Bc5 17. Bxc5 Qxc5+ $11) 15... e5 {This is another example of the
+tactics arising after the typical e6-e5 push.} 16. fxe5 dxe5 (16... Nh5 17. Qe3
+dxe5 18. Bb6 Qc8 19. Nd5 Bxd5 20. exd5 Rde8 $13) 17. Bxe5 Qc5+ 18. Rf2 Nh5 19.
+b4 {White has to find this resource so White doesn't lose the game immediately.
+} Nxg3 20. bxc5 Nh5 21. Bd6 Bxd6 22. cxd6 Rxd6 $11) (14. Bd3 Rae8 $5 15. e5 (
+15. Rae1 Nh5 16. Qh3 g6 $13) 15... dxe5 16. fxe5 Nd7 17. b4 f6 18. exf6 Qxg3
+19. hxg3 Nxf6 $11) (14. Rad1 {- 11.Qg3} Bc6 15. Bf3 a5 16. b4 (16. e5 dxe5 17.
+fxe5 Nd7 18. Ne4 Bxe4 19. Bxe4 Rad8 20. c3 b4 $132) 16... axb4 17. axb4 Qb7 18.
+Rd3 Kh8 $13 {This is a prophylactic move, removing the king from the same file
+as White's queen. Black can also consider the idea of playing Rg8, so the
+knight from f6 would be able to put pressure on the e4-pawn.}) (14. Bf3 Rac8 (
+14... Bc6 15. Nd1 $5 a5 16. Nf2) 15. Rad1 Rfd8 $13) 14... Rad8 {The most
+reliable move for Black. The idea is that since e4-e5 should always be taken
+into account, after ...dxe5 and fxe5, the bishop on d4 will be under attack.
+In addition, it's good to note that it's the rook from a8 that goes to d8
+because the other rook on f8 may be needed to defend the f7-pawn in some lines.
+} (14... Ne8 15. Bd3) (14... Rae8 15. Rad1 Bd8 16. e5 dxe5 17. Bxe5 Qc8 18.
+Rxd8 $5 Qxd8 19. Rd1 Bd5 20. a4 $44) (14... Bc6 $5 15. Rae1) (14... Rfd8 15.
+Rae1 Bc6 16. Bd3 $36) 15. Rae1 (15. Bd3 Bc6 16. Rf3 (16. Rae1 {Transposes to
+15.Rae1.}) (16. e5 $6 dxe5 17. Bxe5 Qb7 18. Rae1 g6 19. Qh3 Nd7 20. Ne4 Nxe5
+21. fxe5 Bxe4 22. Rxe4 {Shaposhnikov - Yemelin, St.Petersburg 1998} Bg5 $5 23.
+Rg4 Qe7 $15 {In this opposite-colored bishop middlegame, White doesn't have an
+attack and the e5-pawn can become very weak. Black can consider playing ideas
+such as h5 and then Bh6-Bg7 under favorable conditions, while Rd5 is also an
+idea.}) (16. Qh3 e5) 16... Rfe8 17. Raf1 Qb7 18. b4 (18. Qh3 Nxe4) 18... Rd7 {
+[%cal Ge7d8,Ge6e5]}) (15. Rad1 Ne8 {Black can play the same idea with Ne8 and
+Bf6.} (15... Bc6 16. Bf3 a5 17. b4) 16. Qe3 {Swiercz - Negi, Bad Wiessee 2011}
+(16. f5 Nf6 $5 (16... Bf6 17. fxe6 fxe6 18. Bg4) 17. Bf3 Bc6 $13) 16... Rc8 {
+Now e6-e5 is an idea but Black can also return the knight to f6.} 17. Bd3 Nf6
+$5) (15. Bf3 Ne8 16. Qf2 Rc8 {Preparing Bf6.}) 15... Bc6 {Black intends to put
+the queen on b7 with the idea to put pressure on the e4-pawn and support b5-b4
+which can also be prepared by a6-a5 first if required. Black also shouldn't
+forget about the typical strikes in the center with e6-e5 or d6-d5 in case
+they become possible.} 16. Bd3 {[%cal Gg3h3,Ge4e5] White is preparing an
+attack on the h7-pawn with Qh3 and e4-e5. This position was considered
+unpleasant for Black until Black found the following important resource:} (16.
+Bf3 {[%cal Gc3d5] White is preparing to use a tactical resource in the
+position which is why the bishop isn't pointed toward Black's kingside.} Ne8 {
+This is an accurate move, preparing Bf6 and solving all of Black's problems.} (
+16... Qb7 17. b4 $5 Ne8) (16... a5 $2 {This seems like a logical move, but
+this line demonstrates White's idea.} 17. Nd5 $1 exd5 18. exd5 Bb7 19. Rxe7
+Qxe7 20. Re1 $16) 17. Qf2 (17. Nd5 $6 {Doesn't work now.} exd5 18. exd5 Bb7 19.
+Rxe7 Qxe7 20. Re1 Qc7 21. Rxe8 f6 $17) (17. Nd1 Bf6 18. Be3 {Avoiding the
+immediate exchange of the dark-squared bishops and trying to claim that the
+knight on e8 is passive.} e5 19. c3 {Dvoirys - Gavrikov, USSR ch 1986} Rd7 $132
+{[%cal Gc7d8] The d8-square becomes available for Black's queen which would
+threaten Bh4 and free the c7-square for the knight to join the battle.}) (17.
+f5 Bf6 18. Bxf6 (18. Ne2 {Ponkratov - Grachev, Khanty Mansiysk rapid 2022} exf5
+$5 19. exf5 Be5 $15) 18... Nxf6 19. fxe6 fxe6 $11) 17... Rb8 {Preparing b5-b4.}
+18. e5 (18. Qd2 e5 19. Be3 {Mista - Harikrisna, CZE-chT 2017} Nf6 $5 $36) 18...
+Bxf3 (18... dxe5 19. fxe5 Bxf3 20. Qxf3) 19. Qxf3 b4 20. axb4 Rxb4 $132) (16.
+e5 dxe5 17. Bxe5 Qd7 $15 {Black intends to play g7-g6 in order to free the
+knight from its defensive duties of guarding the g7-square.}) 16... Qd7 {
+This is an unusual but very strong move. Black's idea is to push e6-e5 and
+take control of the h3 and g4-squares.} (16... Nh5 17. Qh3 e5 (17... Nxf4 $2
+18. Rxf4 e5 19. Nd5 $1 Bxd5 20. exd5 g6 21. Rf5 $1 exd4 22. Qh6 f6 23. Rh5 $18)
+18. Qxh5) 17. Nd1 {White's idea is to bring the knight toward the kingside, so
+Black has to do something quickly.} (17. Re3 e5 18. fxe5 dxe5 19. Bxe5 Nh5 {
+Now the role of the Black queen on d7 becomes obvious, controlling the h3 and
+g4-squares.} 20. Qe1 (20. Qf3 Bg5 21. Ree1 Qe7 {Black has a very nice
+counterplay.}) 20... f6 21. Bg3 Bc5 22. Ref3 Nxg3+ 23. Qxg3 Bd4 $44 {White has
+an extra pawn but doesn't have an attack anymore, while Black has the bishop
+pair which is quite strong.}) (17. Rf3 e5 {Once again, Black pushes e6-e5.} 18.
+fxe5 Nh5 19. Qh3 Qxh3 20. Rxh3 Nf4 21. Rf3 dxe5 22. Bxe5 Nxd3 23. cxd3 {
+Hou Yifan - Giri, Geneva 2017} f6 24. Bg3 Rd7 $44 {Black is preparing to
+double the rooks on the d-file, f6-f5 is an idea, and overall, Black's
+position is very promising. It's White who has to think about finding equality
+in this position.}) (17. Qh3 e5 $1 18. fxe5 (18. Qxd7 Nxd7 19. Be3 (19. Nd5
+Bxd5 20. exd5 Bh4 21. Bf2 Bxf2 22. Rxf2 {Bezgodov - Andreikin, Cheliabinsk
+rapid 2018} exf4 23. Rxf4 Rfe8 $15) 19... Rfe8 20. f5 Nf6 $15) 18... Qxh3 19.
+gxh3 dxe5 20. Bxe5 Rfe8 $44) (17. e5 dxe5 18. Bxe5 g6 19. f5 Nh5 20. Qg4 exf5
+21. Bxf5 Qb7 $15) 17... Nh5 (17... Qb7 $5) (17... Rde8 18. Nf2 Nh5 19. Qg4 g6
+$13) 18. Qg4 (18. Qh3 $6 Nxf4 19. Rxf4 e5 20. Rg4 {White is still trying to
+organize an attack on Black's king but it doesn't lead anywhere for White.}
+exd4 21. e5 g6 22. e6 Qe8 $17 {Liu - Popov, China 2015}) 18... Nf6 19. Qe2 Ne8
+{This is a typical plan for Black. The idea is to play Bf6 next and exchange
+the dark-squared bishops which would relieve the pressure on Black's kingside.}
+20. Nf2 Bf6 21. c3 Bxd4 22. cxd4 Qa7 $13 {Black intends to follow up with
+b5-b4 and the focus of the game is shifted toward the queenside which
+distracts White from organizing a successful kingside attack.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 10"]
+[Black "6.g3"]
+[Result "*"]
+[ECO "B47"]
+[Annotator "GM Alexander Khalifman"]
+[PlyCount "40"]
+[EventDate "2023.??.??"]
+
+{[%evp 0,40,18,8,54,54,54,33,33,54,54,54,60,57,58,58,52,41,37,57,55,55,51,63,
+64,64,61,64,78,78,83,72,70,87,81,93,80,79,79,86,115,114,124]} 1. e4 c5 2. Nf3
+e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. g3 {This is the third most popular
+option for White. Solid, positional, and easy to learn for White, this line
+lacks aggression} a6 (6... Nf6 {This move order allows the following extra
+option for White:} 7. Ndb5 (7. Bg2 {Black can hardly go without the move a6,
+so Black can play it anyway on move 6.} Nxd4 $5 8. Qxd4 Bc5 9. Qd3 O-O (9...
+Ng4 10. Qe2 $5) 10. Be3 $14) 7... Qb8 8. Bf4 e5 (8... Ne5 $2 9. Be2 $16 {
+[%cal Gd1d4]}) 9. Bg5 a6 10. Bxf6 {Black is faced with an unpleasant choice
+now.} axb5 (10... gxf6 11. Na3 Bxa3 12. bxa3 Ne7 13. Qf3 $14 {White's
+queenside is weak, but so is Black's kingside. The difference is that it's
+difficult for Black to find safety for the king.}) 11. Bg5 Bb4 12. Bxb5 Bxc3+
+13. bxc3 d6 $14 {Black has some positional compensation for the pawn but White
+still has an advantage anyway.}) 7. Bg2 (7. a4 Nf6 8. Nb3 b6 9. Bg2 Bb7 10. O-O
+Be7 11. f4 Nb4 12. Be3 Rc8 13. Qe2 O-O $13) (7. Be3 Nf6) 7... Nf6 (7... d6 {
+This move has been recommended by many sources.} 8. Nxc6 $5 {This is the most
+unpleasant option for Black to face.} (8. O-O {Allows:} Bd7 {Black intends to
+recapture on c6 with the bishop and Black is close to equalizing.}) 8... bxc6
+9. O-O Nf6 10. Na4 $14 {White prepares c2-c4 where Black will need to respond
+with c6-c5 eventually, and White will have a long-lasting slight advantage due
+to the pawn structure that's very pleasant to play with.}) (7... Nxd4 $6 8.
+Qxd4) (7... h5 {This is a risky option for the more adventurous type of
+players.} 8. O-O {White can castle short since Black's attack isn't dangerous.}
+(8. h3 h4 9. g4 b5 $13) 8... h4 9. Re1 {White intends to capture the knight on
+c6 and then to continue with e4-e5.} hxg3 10. hxg3 Ne5 11. f4 Nc6 12. Be3 d6
+13. a4 $14 {This is an interesting position but it's a bit too risky in my
+opinion. That's why I recommend the move 7...Nf6.}) 8. O-O (8. Nb3 b5 9. O-O (
+9. a3 d6) 9... d6 {Black doesn't have the option to place the dark-squared
+bishop on the c5-square, but Black can transpose to a better version of a
+Scheveningen line.} 10. f4 (10. a3 Be7 11. f4 O-O 12. g4 a5 13. g5 Nd7 14. Rf2
+Ba6 $132) 10... Bb7 11. Be3 Be7 12. a3 O-O 13. g4 Nd7 14. g5 Nb6 {White is a
+bit too slow on the kingside while Black's queenside counterplay is already
+underway. Black intends to continue with Nc4 next.} 15. Qh5 (15. f5 Nc4 16. Bc1
+Rfe8 $15) 15... Nc4 16. Rae1 (16. Rf3 Nxe3 17. Rh3 h6 18. Rxe3 Qb6 19. Rae1 a5
+$132) 16... Nxe3 17. Rxe3 Qb6 18. Rff3 g6 19. Qh6 f6 20. e5 Nxe5 21. Rh3 Rf7
+22. fxe5 fxe5 23. Bxb7 Qxb7 24. Ne4 Raf8 $132) (8. Nde2 b5 9. O-O Bb7) (8. Nxc6
+dxc6 9. O-O (9. Be3 e5 10. Na4 Bg4 11. Bb6 Qe7 12. Qd2 Nd7 $11) 9... e5 $11 {
+This structure isn't a problem for Black at all and White's bishop on g2 is
+passive.}) (8. a4 Nxd4 9. Qxd4 Bc5 10. Qd3 d6 $11) (8. Be3 {Black can't
+execute the standard idea of ...Nxd4 Qxd4 since the move Bc5 isn't possible
+anymore.} Ne5 9. O-O Bc5 10. h3 (10. Bf4 d6 11. Nb3 Ba7 12. a4 Bd7 $15) 10...
+d6 11. Qe2 O-O 12. f4 Ng6 $13 {Black's pawn structure is flexible, the bishop
+on c5 is active, and White's pawns on e4 and f4 can even become weak at some
+point since it's not easy to create some active play with White.}) 8... Nxd4 (
+8... h5 9. Nxc6 (9. h3) 9... dxc6 10. e5 $5 {Sacrificing the pawn for the
+initiative is quite unpleasant to face with Black in this position.} Qxe5 11.
+Bf4 Qa5 12. Re1 $44 {Black has an extra pawn but no real attacking chances,
+while White's pieces remain active which fully compensates the pawn deficit.})
+9. Qxd4 Bc5 10. Bf4 (10. Qd3 Ng4 11. Qe2 (11. h3 Ne5 12. Qe2 b5 13. Kh1 Bb7 14.
+f4 Nc6 15. Be3 Bxe3 16. Qxe3 O-O $132) (11. Na4 Ba7 12. c4 (12. Bf4 Ne5 13. b3
+b5 14. Nb2 Nxd3 15. Bxc7 Nxb2 16. e5 Bb8 17. Bb6 Ba7 $11) 12... Ne5 13. Qc3 d6
+14. b3 Bd7 15. Nb2 O-O $132) (11. Bf4 d6 {Transposes to 10.Bf4.}) 11... h5 $5
+12. a4 {Preventing Black's play on the queenside.} (12. Kh1 b5 13. Bf4 (13. h3
+Bb7 14. Bf4 Ne5 15. Bxe5 (15. Rad1 Rc8 $15 {Alekseev - Kezin, Cheboksary 2021})
+15... Qxe5 16. f4 Qc7 17. e5 Rc8 $132) (13. e5 Bb7 14. Bf4 Bd4 15. Rae1 {
+Adams - van Kampen, Hoogeveen 2013} Bxg2+ 16. Kxg2 Rc8 $15) 13... d6 14. e5
+dxe5 15. Bxe5 Nxe5 16. Bxa8 h4 $44) (12. Bf4 d6 13. Bf3 (13. Rad1 Bd7 14. h3
+Ne5 15. Be3 Bb4 $17) 13... Ne5 14. Bxh5 Bd7 $44) 12... d6 13. h3 (13. Bf3 Ne5
+14. Bxh5 Bd7 $44 {Wang Hao - Gopal, Abu Dhabi 2014}) 13... Ne5 14. Kh1 {
+Preparing f4 but it won't achieve much for White.} Bd7 15. Nd1 Rc8 $132) (10.
+Qd1 {Taking under control the g4-square.} d6 11. Bg5 (11. Bf4 {Transposes to
+10.Bf4.}) (11. Kh1 h6 12. f4 Bd7 13. e5 dxe5 14. fxe5 Qxe5 15. Bf4 Qd4 $13 16.
+Bxb7 O-O $1) (11. Na4 Ba7 12. Bf4 e5 13. Bg5 {White finally managed to force
+Black to play e6-e5 without playing h7-h6 and even though White's knight will
+be able to reach the d5-square, Black can easily exchange the light-squared
+bishop for it if needed.} Qd8 14. Nc3 h6 15. Bxf6 Qxf6 16. Qd3 Qd8 17. Rad1 Be6
+$5 18. Nd5 (18. Qxd6 $6 Qxd6 19. Rxd6 Bd4 {This is another version of a
+position where Black sacrifices a pawn and has excellent compensation.}) 18...
+Rc8 $11 {Black will exchange the knight on d5 at some point and Black is doing
+perfectly fine.}) 11... Nd7 12. Na4 Ba7 13. c4 Ne5 14. Rc1 O-O 15. b3 f6 16.
+Bd2 Bd7 17. Bb4 Bc5 18. Nxc5 dxc5 19. Bc3 Rad8 20. Qe2 Bc6 $11) 10... d6 {
+The queen exchange is unacceptable for Black at this moment since the dark
+squares would be very weak.} 11. Qd2 {Now Black needs to think how to defend
+the d6-pawn which is about to be under pressure even further.} (11. Qd3 Ng4 {
+The knight heads to the e5-square which will come with tempo.} 12. Qd2 (12.
+Rad1 Ne5 13. Qd2 (13. Qe2 Bd7 $5 14. Be3 Bb4 $17) 13... Nc4 14. Qc1 O-O $15) (
+12. Na4 e5 13. Bd2 (13. Nxc5 exf4 {Black doesn't capture the knight since
+already some time was spent with the move Ng4.} 14. Nb3 Ne5 15. Qd1 (15. Qd2 f3
+16. Bh1 h5 $36) 15... fxg3 16. hxg3 h5 $132 {Black has good counterplay in
+position. It's difficult for the knight from b3 to reach the d5-square and
+h5-h4 is coming.}) 13... Bd4 14. h3 (14. c4 Be6 15. Rac1 Rc8 16. b3 Nxf2 $5 17.
+Rxf2 b5 18. Nc3 bxc4 19. bxc4 Qxc4 20. Qxc4 Rxc4 21. Bf1 Rc6 22. Kg2 Bxf2 23.
+Kxf2 Ke7 $15) 14... Bd7 $1 15. Nc3 Nf6 16. a4 Rc8 $15 {Unzicker - Hamann,
+Copenhagen 1967}) 12... Ne5 13. Na4 Ba7 14. b3 {Creating a retreat-square for
+the knight.} ({If White tries to attack the pawn on d6 immediately with:} 14.
+Rad1 {Black has:} Bd7 15. Qxd6 Qxd6 16. Rxd6 Nc4 17. Rxd7 Kxd7 18. b3 e5 $15 {
+White doesn't have enough compensation.}) 14... Bd7 15. Nb2 f6 16. Rad1 Ke7 $13
+{The d6-pawn is well-protected, the king is safe on e7 and Black intends to
+continue with g7-g5.}) (11. Qd1 h6 12. Na4 e5 13. Nxc5 exf4 14. Nd3 {When the
+White queen isn't on d3, this move is a difference in comparison to similar
+positions, now the knight is going to reach the d5-square faster but the
+position is fine for Black anyway.} fxg3 15. hxg3 h5 $5 $146 {The h5-h4 idea
+can be seen once again since it's a good source of counterplay for Black.} 16.
+Re1 {Preparing to meet h5-h4 with e4-e5.} Ng4 $132) 11... h6 {Black will play
+e6-e5 eventually in order to cover up the pawn on d6, but that would have been
+meet with Bg5 which is unpleasant, so the move h6 prevents that.} (11... Ng4 $2
+{This move may seem logical, intending to transfer the knight to the e5-square,
+but White has a very strong tactical continuation:} 12. b4 Bxb4 13. Nd5 $16)
+12. Rad1 (12. Na4 e5 13. Be3 (13. Nxc5 dxc5 14. Be3 Ng4 $11) 13... Bxe3 14.
+Qxe3 b5 15. Nb6 Rb8 16. Nxc8 Qxc8 $11 {The knight isn't worse in comparison to
+White's bishop and the d6-pawn can be easily defended.}) (12. a3 e5 13. Be3 Be6
+$11) 12... e5 13. Be3 {Now Black has a choice between two different moves that
+equalize:} Bxe3 {This is a bit riskier approach that involves a pawn sacrifice,
+but in this case, Black can also try to take over the initiative.} (13... Bb4
+$5 {This move leads to a position where it's difficult to try to take over
+with Black but the upside is that it's very solid. Black intends to castle and
+to damage White's pawn structure on the queenside with Bxc3 at some point.} 14.
+Nb5 (14. a3 Bxc3 {White's weaknesses will annul the bishop pair advantage.} 15.
+Qxc3 (15. bxc3 Ke7 {Black's king is in the center but it's quite safe there
+and White doesn't have enough resources to organize some dangerous attack.} 16.
+f4 Ng4 17. fxe5 Nxe5 $15 {The knight is excellent on e5 and Black's king isn't
+in any danger.}) 15... Qxc3 16. bxc3 Be6 {Sacrificing a pawn temporarily.} (
+16... Ke7 $146 {This seems logical but White has:} 17. c4 {Intending c4-c5.}
+Bg4 18. f3 Be6 19. c5 {This might be slightly unpleasant for Black.}) 17. Rxd6
+Rc8 18. Bb6 Nd7 19. Ba5 b6 20. Bxb6 Ke7 21. Rfd1 Nxb6 22. Rxb6 Rxc3 $11 23.
+Rxa6 Rxc2 {Black intends to play Rb8 and get both rooks on the second rank.
+All of Black's pieces will be very active which fully compensates for the pawn,
+so the game will end in a draw soon.}) 14... axb5 15. Qxb4 Rxa2 {White has a
+choice of which pawn to capture, but both captures don't lead to anything for
+White. The reason for that are White's more or less inactive bishops,
+especially the one on g2.} 16. Rxd6 (16. Qxb5+ Bd7 17. Qb4 Ra6 {Black protects
+the d6-pawn and intends to castle. It's difficult for White to increase the
+pressure and Black has good counterplay on the queenside, while the move Ng4
+is also an interesting resource.}) 16... O-O 17. Rd2 (17. Rxf6 {This may seem
+dangerous at first glance but there isn't any attack on Black's king.} gxf6 18.
+Bxh6 Rd8 19. Qxb5 Be6 $15) 17... Be6 18. f3 {Protecting the pawn on e4 which
+is a prophylactic against any Ra4 and also prepares to move the rook from f1
+and activate the light-squared bishop with Bf1.} (18. Rfd1 Ng4 19. Bc5 Rc8 20.
+Bd6 Qb6 21. Bf1 $8 Nxf2 $1 22. Rxf2 Rxc2 23. Rdd2 Raxb2 24. Bc5 Qc6 25. Rxc2
+Rxb4 26. Bxb4 Qxe4 $132) (18. h3 Qc6 19. f3 Rc8 $11) 18... Rfa8 19. Rb1 Qc4 20.
+Bc5 Nd7 21. Qxc4 bxc4 22. Bb4 g5 $11 {Black's minor pieces aren't worse in
+comparison to Black's bishop pair.}) 14. fxe3 (14. Qxe3 {This avoids creating
+any weaknesses but it doesn't lead anywhere for White.} Be6 15. Rd2 (15. h3 b5
+16. f4 O-O $132 17. fxe5 dxe5 18. Rxf6 b4 $5) 15... O-O 16. Rfd1 Rfd8 {White
+doesn't have enough resources to put pressure on the d6-pawn.} 17. h3 b5 18. a3
+Rab8 $36 {Sadhwani - Andreikin, chess.com blitz 2022}) 14... Be6 {Protecting
+the pawn on d6 with 14...Ke7 is impossible due to 15.Rxf6 with Nd5 to follow.}
+15. Qxd6 Rc8 (15... Qxd6 16. Rxd6 Ke7 $6 17. Rb6 $16 {White's rook is very
+active and there is no real compensation for the pawn.}) 16. Qxc7 (16. Rd2 Qxd6
+17. Rxd6 Rc7 {White allowed Black to capture on d6 but White's rook isn't much
+better placed on d6 in comparison to d1.} 18. Rb6 Nd7 19. Rb4 {The rook is
+rather strangely placed on the b4-square.} O-O 20. Rf2 (20. Nd5 Rxc2 21. Rxb7
+Kh7 $44) 20... Rb8 21. Nd5 Rc5 $44) (16. Qb4 Qc5 17. Qxc5 (17. Qxb7 $2 O-O $1
+$17 {Black has different threats such as Rb8 or Ng4.}) (17. Qa4+ b5 18. Qxa6
+Qxe3+ 19. Kh1 O-O $44) 17... Rxc5 $44) (16. a4 {Expanding on the queenside and
+preventing b5.} h5 $5 {Black starts playing on the other side of the board.}
+17. h3 Qxd6 18. Rxd6 {Tari - Caruana, Stavanger 2020} Rc7 $5 19. Rfd1 Ke7 20.
+Bf1 h4 21. g4 Nd7 $44 {White has an extra pawn but in return has a lot of
+weaknesses and Black has the better pieces, so Black has excellent
+compensation for the pawn.}) (16. Rf2 Qxd6 17. Rxd6 Nd7 $5 $146 (17... Rxc3 18.
+bxc3 Nd7 19. c4 Ke7 20. Rd1 Nc5 21. Rfd2 $14) 18. Nd5 a5 19. Rd2 Rc6 $1 20.
+Rxc6 bxc6 21. Nc7+ Ke7 22. Nxe6 fxe6 $44) 16... Rxc7 17. Rf2 $146 {This is the
+only move that can potentially pose Black some problems.} (17. Rd2 Ke7 {
+Preparing to double the rooks on the c-file and maybe at some point to
+sacrifice on c3.} (17... Rxc3 {It's important for Black to not get carried
+away with this exchange sacrifice since although it has its own positional
+merits, being an exchange and pawn down is a bit too much.} 18. bxc3 Nd7 19.
+Rb1 Nc5 20. a4 $16) 18. Nd5+ Bxd5 19. exd5 Ne8 {The knight heads to the
+perfect blockading d6-square.} 20. e4 Nd6 $44 {The knight on d6 is very strong,
+putting pressure on the e4-pawn while White's bishop on g2 is passive. Black
+can create different plans in this position, one of which is for example a
+minority attack on the queenside. Overall, Black has excellent compensation.})
+17... Ke7 (17... Ng4 $5 {This is preferred by the computer and is another way
+to play with Black.} 18. Re2 Nf6 19. h3 {Preventing Bg4.} Ke7 20. Nd5+ Bxd5 21.
+exd5 Ne8 {Now this move is playable once again and Black has good compensation.
+}) 18. Nd5+ Bxd5 19. exd5 Kd6 {Blocking the d-pawn with the king is better in
+this instance.} (19... Ne8 {The difference in this line and the one arising
+from 17.Rd2 is:} 20. e4 Nd6 21. Bf1 $14 {White is on time to reroute the
+bishop.}) 20. e4 h5 $44 {Black doesn't want to push h5-h4 immediately but it's
+good to have that option in the future, while the main idea remains to be a
+minority attack on the queenside. Black has sufficient compensation.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 11"]
+[Black "6.f4"]
+[Result "*"]
+[ECO "B47"]
+[Annotator "GM Alexander Khalifman"]
+[PlyCount "40"]
+[EventDate "2023.??.??"]
+
+{[%evp 0,40,20,21,36,39,36,37,37,35,43,43,63,37,54,49,106,37,64,45,100,82,52,
+20,20,31,17,32,22,33,38,37,31,43,46,2,30,23,27,7,13,3,35]} 1. e4 c5 2. Nf3 e6
+3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. f4 {This is an aggressive move with the
+idea to meet Nf6 with e4-e5. The drawback of this move is that White can't
+castle short easily since it may run into Bc5, and long castling has other
+drawbacks which will be seen later. The e4-pawn has also been weakened since
+f2-f3 isn't possible anymore, and Black will aim to play Nf6 when e4-e5 won't
+be dangerous.} a6 (6... Nxd4 7. Qxd4 b6 {This is an interesting idea, trying
+to place the light-squared bishop on the h1-a8 diagonal immediately, but Black
+fails to obtain adequate counterplay after:} 8. Bd3 Bb7 9. Qf2 $14 {White
+retreats the queen from the exposed d4-square and intends to follow-up with
+Bd2, 0-0-0, and then an expansion on the kingside.}) (6... d6 7. Be3 Nf6 8. Qf3
+$36 {White will follow up with 0-0-0 and a kingside expansion, so this isn't
+recommended for Black.}) 7. Be3 {White's main move is 7.Nxc6 and will be
+analyzed in the next chapter.} (7. Be2 b5 8. a3 (8. Bf3 Bb7 {White has to
+transpose into something that was already analyzed.}) (8. Be3 {Transposes to 7.
+Be3.}) (8. Nxc6 Qxc6 {Transposes to 7.Nxc6 which will be analyzed in the next
+chapter.}) 8... Bb7 9. Nb3 (9. Be3 {Transposes to 6.Be3 a6 7.a3.}) 9... Na5 10.
+Nxa5 Qxa5 $132) (7. Nf3 {White wants to play Bd3, castle kingside, and then
+prepare an attack, but it's easier said than done.} b5 8. Bd3 Bc5 {Preventing
+0-0.} (8... Bb7) 9. Qe2 {Intending Be3.} (9. e5 {White wants to play Ne4.} Bb7
+$5 $146 {The simplest option for Black.} (9... f5 {This is also an interesting
+option for Black, preventing Ne4.}) 10. Ne4 Nb4 $36 {The exchange on c5
+doesn't bring anything for White, and the problem of what do to with the king
+on e1 will remain.}) 9... Nd4 10. Nxd4 Bxd4 11. Bd2 (11. Nd1 Bb7 12. c3 Bb6 $5
+$146 {It's better to place the bishop on the b6-square in this line and it can
+be seen in comparison to the line with Bc5.} (12... Bc5 13. Nf2 Ne7 14. Be3 O-O
+15. O-O f5 16. Rad1 fxe4 17. Bxc5 Qxc5 18. Bxe4 Bxe4 19. Qxe4 Nd5 20. g3 {
+White has this move that defends the f4 pawn.} Ne3 21. Rxd7 Nxf1 22. Qb7 $1 $44
+{This move wouldn't be unpleasant to face if the Black queen was on the
+b6-square.}) 13. Nf2 Ne7 $15 14. Be3 O-O 15. O-O f5 16. Rad1 fxe4 17. Bxb6 Qxb6
+18. Bxe4 Bxe4 19. Qxe4 Nd5 $17 {Black's queen is better placed on b6 instead
+of the c5-square.}) 11... b4 12. Nd1 Ne7 $5 $146 13. Qf3 a5 14. Be3 Bxe3 15.
+Nxe3 Bb7 $132 16. O-O $6 f5 {The pin along the h1-a8 diagonal is highly
+unpleasant for White.}) (7. Nb3 {This knight retreat takes the c5-square under
+control and prevents Bc5 at any point, but now Black can already switch to
+Scheveningen lines.} b5 8. Bd3 (8. a3 d6 9. Be3 Be7 (9... Nf6 10. g4 $5) 10.
+Qg4 Nf6 11. Qxg7 Rg8 12. Qh6 b4 13. axb4 Nxb4 14. O-O-O (14. Rc1 e5) 14... Rb8
+$44) (8. Be3 {Transposes to 7.Be3.}) 8... d6 9. O-O {It's important that Black
+has saved a tempo on Bb7 and can immediately proceed with preparing castling
+short.} (9. Qf3 Nf6 10. Be3 (10. Bd2 b4 11. Ne2 Be7) (10. g4 Be7 11. g5 Nd7 12.
+Be3 Bb7 13. O-O-O O-O 14. h4 Nb4 15. Kb1 Nxd3 16. cxd3 b4 17. Ne2 a5 $13) 10...
+Be7 11. O-O-O Bb7 12. Kb1 Nb4 13. f5 O-O $132) (9. Be3 Nf6) 9... Nf6 10. Qf3 (
+10. Kh1 Be7 11. Qe2 O-O 12. Bd2 b4 13. Nd1 a5 $36) (10. Be3 Be7) 10... Be7 {
+The safest option for Black.} (10... Bb7 11. Be3 (11. Bd2 g6 12. Rae1 Bg7 $132)
+11... g6 12. Rad1 Be7 (12... Bg7 13. Bxb5 $1) 13. Qg3) 11. Bd2 (11. e5 dxe5 12.
+fxe5 Qa7+ {This is an important intermediate move.} 13. Be3 Nxe5 14. Qg3 Qb8
+15. Bf4 (15. Qxg7 $2 {Capturing the pawn on g7 can bring White a lot of
+trouble.} Rg8 16. Qh6 Bb7 $19) 15... Qa7+ 16. Be3 Qb8 $11) (11. Be3 O-O {
+White's dark-squared bishop is more active on e3 in comparison to the
+d2-square, so now b5-b4 can be met with Na4 which can be a bit unpleasant, so
+Black should complete the development first.} 12. Rae1 Bb7 13. Qh3 {This might
+look dangerous but it's very difficult for White to create some really
+dangerous attack.} (13. g4 Nd7 14. g5 Nb4 $15 15. Qh5 Nxd3 16. cxd3 f5) 13...
+Rfe8 14. Kh1 Nb4 $132 {This is a typical resource, exchanging White's bishop
+on d3 after which White's knights are far away from Black's king and White
+doesn't have enough resources to create a successful attack.}) (11. a4 b4 12.
+Ne2 e5 13. Be3 O-O) (11. Kh1 O-O 12. Bd2 b4 13. Ne2 a5) 11... b4 12. Ne2 a5
+$132) (7. a3 b5 8. Nxc6 Qxc6) (7. a4 {This move prevents b7-b5 but the
+drawback is that it's unlikely that White will castle queenside, so Black can
+already start aiming the pieces against White's future kingside castle.} Bc5 8.
+Nb3 Ba7 9. Qg4 g6 10. Bd2 Nb4 $132 11. Bd3 d5 {It's unclear how White will
+finish the development while Black has an easy game.}) 7... b5 8. Bd3 (8. Nxc6
+Qxc6 {Transposes to 7.Nxc6 which will be analyzed in the next chapter.}) (8.
+Qf3 Bb7 9. O-O-O Nf6 10. Bd3 Na5 $5 {The knight heads to the c4-square.} 11.
+Kb1 Nc4 12. Bc1 Bb4 $132) (8. Be2 Bb7 9. Bf3 (9. O-O Bc5 {The pin is quite
+unpleasant so it's White who has to think about equalizing in this position.}
+10. Qd2 (10. Bf3 Nge7 11. Kh1 Bxd4 12. Bxd4 Nxd4 13. Qxd4 O-O $11) (10. Nf5
+Bxe3+ 11. Nxe3 Nge7 $11) 10... Qb6 11. Rad1 Nge7 $11) (9. Nxc6 Bxc6 10. Bf3 b4
+11. Ne2 Nf6 12. Qd4 Be7 $15) 9... Na5 10. Qd3 (10. O-O Nc4 11. Bc1 Bc5 12. Kh1
+Ne7 13. Qd3 O-O 14. a4 d5 $36) 10... Nc4 11. O-O-O (11. Bc1 Rc8) 11... Bb4 $36)
+(8. a3 {Transposes to 6.Be3 a6 7.a3.}) (8. Nb3 Bb7 9. Bd3 {Transposes to 8.Bd3.
+}) (8. e5 {White takes space in the center and prevents Nf6, but now the
+knight gains different good squares to go to.} Bb7 9. Qd2 {It's important for
+Black to not develop the knight on e7 because of the typical knight sacrifice
+on the b5-square with Nd6+ to follow.} Nh6 {The knight will go to the f5 or
+g4-square.} 10. O-O-O (10. Bd3 Ng4 (10... Bb4) 11. Bg1 Nxd4 12. Bxd4 d6 13.
+O-O-O O-O-O $132) 10... Nxd4 11. Bxd4 Nf5 {This is unpleasant for White as
+retreating with Bf2 can be met with Bb4.} 12. Bb6 Qc6 {Black is ready to
+complete the development.} 13. g4 Nh4 14. Bf2 b4 15. Ne4 Nf3 16. Qd3 Be7 $13 {
+The best White can do is liquidate in a drawish endgame with 17.Qxf3.} 17. Bg2
+Qxe4 {Capturing on d7 isn't dangerous for Black.}) (8. Nf3 Nf6 9. e5 Ng4 10.
+Bg1 Bb7 $15) 8... Bb7 (8... Nxd4 9. Bxd4 Qxf4 {It may seem like White
+blundered a pawn but after:} 10. Rf1 Qxh2 11. Qf3 $36 {White's attack is very
+dangerous.}) 9. Nb3 {White retreated the knight from the center and now
+playing moves such as d6 and Nf6, reaching a Scheveningen set-up is possible,
+but the easiest way for Black is the following typical maneuver:} (9. Qf3 {
+White is preparing long castling but the downside is that the queen is on the
+same diagonal as the bishop on b7, so e4-e5 becomes impossible.} Na5 $5 10. O-O
+(10. O-O-O Nc4 $15) 10... Nf6 11. Kh1 Nc4 12. Bc1 Bc5 $15 {Martin - Jansa,
+Biel 1985}) (9. Qd2 Nf6 {White's queen isn't controlling the g4-square anymore,
+so the knight can jump there if needed.} 10. e5 (10. O-O-O Nxd4 11. Bxd4 b4 12.
+Bxf6 (12. Na4 Bxe4) 12... gxf6 13. Ne2 a5 $15 {This position is a version
+similar to a Sicilian Rauzer variation where Black's king feels safe on the
+e8-square while White's king is going to be under attack.}) 10... Ng4 11. Bg1
+Nxd4 12. Bxd4 d6 $5 $146 {Black breaks in the center and even though at first
+sight it may seem that Black's king is vulnerable in the center, it's not the
+case.} (12... O-O-O $2 13. h3 Nh6 14. Qf2 {This is unpleasant for Black.}) 13.
+Qe2 (13. O-O-O O-O-O 14. Qe2 dxe5 15. Bxe5 Nxe5 16. fxe5 Bb4 {Black is doing
+very well in this position.} 17. Be4 Bxc3 18. Bxb7+ Kxb7 19. Qf3+ Qc6 20. Qxf7+
+Kb8 21. bxc3 Qxc3) 13... dxe5 14. fxe5 O-O-O $1 {This is a very good tactical
+resource.} 15. Qxg4 h5 16. Qf4 g5 {Black will win back the minor piece.} 17.
+Qf6 (17. Qe3 $6 Rxd4) 17... Rh6 18. Qxg5 Rxd4 19. O-O-O Rg4 20. Qd2 Rh8 {
+Black's pieces are very active and White has to play accurately.} 21. Kb1 Rxg2
+22. Qe1 Rg5 $132) (9. Qe2 {Black doesn't have the g4-square available so there
+won't be a good follow-up after Nf6, but now Black can win the f4-pawn instead.
+} Nxd4 10. Bxd4 Qxf4 11. Rf1 Qxh2 {Black is ready to castle queenside if
+needed and White doesn't have enough time to create some dangerous threats.}
+12. O-O-O Ne7 $13) (9. O-O Bc5 {If White castles immediately, this typical
+resource is unpleasant to face with White.}) 9... Na5 $5 {The knight heads to
+the c4-square.} (9... Nf6 10. O-O) 10. Nxa5 (10. O-O Nc4 11. Bd4 (11. Bc1 Nf6
+12. Qe2 (12. e5 b4 {This is a good way to meet e4-e5 in this position.}) 12...
+Bb4 $15 {Levy - Portisch, Hastings 1970}) (11. Bxc4 bxc4 (11... Qxc4 12. Na5
+Qc7 13. Nxb7 Qxb7 14. a3 {Black is behind in development, so it's better to
+recapture with the pawn on move 11.}) 12. Nd2 Nf6 13. Qe2 Rc8 14. Rad1 Be7 $11
+{Andersson - Krnic, Sombor 1970}) 11... Ne7 {Black doesn't need to rush since
+the bishop on d4 can be vulnerable to attack. Black intends to play Nc6 next.}
+(11... Nxb2 {Black shouldn't be greedy because after:} 12. Qe2 Nxd3 13. cxd3
+$13 {White will place a rook on c1 and the position can become quite
+unpleasant for Black.}) 12. Bxc4 bxc4 13. Nc5 Nf5 $5 {This is a nice tactical
+resource for Black.} 14. Nxb7 (14. Nxe6 $6 dxe6 15. exf5 O-O-O {White might
+get in trouble very soon.}) (14. Nxa6 Rxa6 15. exf5 exf5 {The rook is ready to
+protect the Black king with Re6, so Black doesn't have any problems in the
+position.}) 14... Nxd4 15. Qxd4 Rb8 {This is an interesting idea, the queen
+doesn't capture the knight and remains on the better c7-square.} 16. e5 Rxb7
+17. Ne4 Be7 $11) 10... Qxa5 11. O-O (11. a3 Qc7 12. O-O Bc5 13. Bxc5 Qxc5+ 14.
+Kh1 Ne7 $11) 11... b4 12. Nb1 Bc5 $146 {Black will manage to complete the
+development on time.} 13. Qe2 Qb6 14. Bxc5 Qxc5+ 15. Kh1 Ne7 {Once again,
+Black doesn't need to develop the knight on the f6-square.} 16. Nd2 O-O 17. f5
+f6 $13 18. fxe6 dxe6 19. Bc4 Kh8 20. Bxe6 Rad8 $44 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 12"]
+[Black "6.f4 a6 7.Nxc6"]
+[Result "*"]
+[ECO "B47"]
+[Annotator "GM Alexander Khalifman"]
+[PlyCount "42"]
+[EventDate "2023.??.??"]
+
+{[%evp 0,42,13,9,41,41,41,24,24,33,54,54,65,50,75,54,46,16,6,-13,-1,-14,-8,-17,
+1,4,22,22,47,45,64,67,61,61,46,42,42,56,72,51,53,57,43,3,12]} 1. e4 c5 2. Nf3
+e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. f4 a6 7. Nxc6 {The main line after 6.
+f4.} Qxc6 {Black wants to continue with b7-b5, Bb7, and then develop the
+knight to f6 at an appropriate moment. It's good to keep in mind that the
+knight can also be developed to e7 in some lines, and also that Black can make
+use of the c-file at some point.} (7... bxc6 {This is a playable option where
+Black intends to play d7-d5 next. Black has enough resources but the positions
+become very complicated, so that's why I prefer the move 7... Qxc6 which is
+simpler and good.} 8. Bd3 (8. Qf3 $5 {This is a more modern and more
+aggressive set-up.} d5 9. Be3 $13 {White intends to castle long and to expand
+on the kingside.}) (8. e5 {This isn't dangerous for Black at all after:} d5 9.
+exd6 Bxd6 10. Ne4 Be7 11. Bd3 Nf6 $11) 8... d5 9. O-O Nf6 10. Qe2 $13) (7...
+dxc6 8. e5 {Black lacks space and the d6-square can become quite weak later on,
+so the recapture 7...dxc6 can't be recommended.}) 8. Bd3 (8. Be2 b5 9. Bf3 Bb7
+{Black has nothing to worry about since the best White can do is exchange the
+bishops which won't achieve much for White.} 10. Be3 (10. e5 Qb6 $5 (10... Qc7)
+11. Ne4 Nh6 12. Qd3 Nf5 13. Bd2 d5 14. exd6 Rd8 $11 {Mastrovasilis,D - Banikas,
+Athens 1996}) (10. Qd3 b4 $5 $146 (10... Rc8) 11. e5 Qc7 12. Ne4 f5 $5 13. exf6
+(13. Nd6+ Bxd6 14. exd6 Qc8 15. Bd2 a5 16. c3 Nf6 $132) 13... Nxf6 14. Nxf6+
+gxf6 15. O-O Rc8 $13) (10. a3 Rc8 11. Qe2 (11. Be3 {- 10.Be3}) 11... Qc4) (10.
+Qd4 Rc8 11. a3 Qc7) 10... Rc8 11. Qd3 (11. O-O Bc5 12. Bf2 (12. Bxc5 Qxc5+ 13.
+Kh1 Ne7 $15) (12. Qd3 Bxe3+ 13. Qxe3 Qc5 14. Qxc5 Rxc5 $11) 12... Qb6 13. a4
+Ne7 $11) (11. a3 Qc7 12. Qd4 (12. O-O Bc5 13. Bxc5 Qxc5+ 14. Kh1 Ne7 $11) 12...
+Bc5 $5 (12... Ne7) 13. Qxc5 (13. Qxg7 Bxe3 14. Qxh8 Ke7 15. Qe5 Bxf4 16. Qxc7
+Rxc7 $44) 13... Qxc5 14. Bxc5 Rxc5 $11) (11. e5 Qc7 12. O-O (12. Ne4 Nh6) 12...
+Nh6 13. Ne4 (13. Bxb7 Qxb7 14. Qd3 Nf5 15. Bf2 h5 16. Ne4 Be7 17. Rad1 O-O $11)
+13... Be7 14. a4 bxa4 $5 15. Rxa4 O-O $132) (11. Qd4 {It seems like this move
+prevents Black's kingside development, but Black has different ways to develop.
+} Qc7 12. O-O (12. Rd1 Nf6 (12... Ne7 13. Qd2 Nc6 $2 14. Bb6 $18) 13. O-O (13.
+e5 Bxf3 14. gxf3 Ng8 15. Ne4 Nh6 $132) 13... h5 14. h3 (14. Kh1 Ba3 $5) 14...
+Ba3 $5 $146 (14... h4) 15. Nxb5 axb5 16. bxa3 O-O $44) (12. a3 {Transposes to
+11.a3.}) 12... Ne7 {This highlights the downside of the queen being on the
+d4-square.} 13. Rad1 (13. Kh1 Ng6 14. Rae1 Bc5 15. Qxg7 Bxe3 16. Rxe3 Qxf4 17.
+Qd4 Qe5 18. Qd2 Bc6 $132) (13. Rae1 Nc6 (13... Ng6 14. Nd5 $5) 14. Qd3 Be7 $11
+{Dvoirys - Shaposhnikov, Kazan 2005}) 13... Ng6 $5 14. g3 Bc5 $11) (11. a4 b4
+12. e5 Qc7 13. Ne4 Nh6 14. a5 Bxe4 15. Bxe4 Bc5 $11) (11. Bd4 Qc7 12. O-O Ne7 (
+12... Qxf4 $2 13. Bh5) 13. Kh1 Ng6) 11... Qc4 12. O-O-O (12. a3 {White is
+trying to claim an advantage with a lead in development and a better pawn
+structure in the endgame if Qxd3 is played, but Black doesn't have to be in a
+rush to exchange the queens.} Nf6 13. O-O (13. Bd4 {Svidler - Hracek, Yerevan
+1996} b4 $5 14. axb4 Bxb4 15. O-O O-O $11) 13... Bc5 14. Bxc5 Qxc5+ 15. Kh1 e5
+$11) 12... Nf6 13. e5 (13. Bd4 $6 b4 14. Bxf6 Qxd3 15. Rxd3 gxf6 $15 {Parma -
+Janosevic, Parma 1969}) 13... Bxf3 14. gxf3 b4 15. Na4 Nd5 16. Nb6 Nxb6 17.
+Bxb6 Qxd3 18. Rxd3 Rb8 19. Bc7 Rb7 20. Bd6 a5 $11 {Balogh - Vitiugiv, Plovdiv
+2012 White's bishop on d6 is strong but in return, White has a damaged pawn
+structure. Black intends to exchange the dark-squared bishops and will be able
+to defend the rook endgame easily.}) (8. Be3 b5 (8... Bb4 9. Qd4) (8... Ba3 $5)
+9. Be2 (9. Bd3 {Transposes to 8.Bd3.}) (9. a3 Bb7 10. Be2 b4 11. axb4 Bxb4 12.
+Bf3 Bxc3+ 13. bxc3 Qxc3+ 14. Kf2 Nf6 15. Qd3 Rc8 $11) 9... Ba3 $5 {This is a
+very interesting move after which White has to play accurately to avoid
+getting in a worse position.} (9... b4 10. Bf3 $14) 10. Na4 (10. Nxb5 axb5 11.
+bxa3 Nf6 $15) (10. Bd4 $6 Bxb2 11. Nxb5 Bxa1 12. Bxa1 axb5 13. Bxg7 Nf6 14.
+Bxh8 Nxe4 $17) 10... Qxe4 11. Qd4 Qxd4 12. Bxd4 Bf8 13. Nb6 Rb8 14. a4 bxa4 15.
+Rxa4 Bb7 16. O-O Nf6 $11 {White has sufficient compensation to make a draw but
+not more.}) (8. a4 {Prevents Black's counterplay with b7-b5.} Nf6 (8... Bb4 $6
+9. Qd4 $16) 9. Bd3 d5 10. e5 (10. exd5 exd5 11. Qe2+ Kd8 $5 {This unusual move
+is the most promising continuation for Black.} 12. O-O Bc5+ 13. Kh1 Re8 $15 {
+The Black king on d8 feels safe at the moment while the White queen is lacking
+good squares, so Black has a good initiative.}) 10... Ne4 11. Bxe4 dxe4 12. Be3
+Bb4 $11 {This will soon result in a position with opposite-colored bishops
+which is equal.}) 8... b5 9. Qe2 {White is being flexible and keeps both
+castling options open.} (9. Be3 Bb7 {Black is ready to continue the
+development with Nf6.} 10. a3 (10. Qd2 Nf6) (10. Qe2 Nf6) 10... Nf6 11. Qf3 (
+11. e5 Nd5 ({Black shouldn't be greedy and capture the pawn with:} 11... Qxg2
+$6 12. Rg1 Qh3 13. Qd2 $44) 12. Nxd5 Qxd5 13. Rg1 d6 $11) 11... h5 $5 (11...
+Bc5 $11) 12. h3 (12. O-O-O $2 Bxa3) 12... h4 13. O-O Be7 $11) (9. O-O Bc5+ 10.
+Kh1 Bb7 $132) 9... Bb7 10. Bd2 (10. a3 Rc8 (10... Nf6 11. e5 (11. Bd2 b4 (11...
+Rc8 {Transposes to 11.Bd2.}) 12. axb4 Bxb4 13. e5 Nd5 14. Nxd5 (14. Be4 O-O 15.
+Nxd5 Bxd2+ 16. Qxd2 exd5 17. Bf3 Rfc8 18. c3 Qb6 $11) 14... Bxd2+ 15. Qxd2 Qxd5
+16. O-O O-O $11) 11... Nd5 12. Nxd5 (12. Be4 Nxc3 13. Bxc6 Nxe2 14. Bxb7 Rb8
+15. Kxe2 Rxb7 $11) (12. Ne4 Be7 13. O-O O-O 14. Bd2 f5 15. exf6 Nxf6 $11) 12...
+Qxd5 13. O-O Bc5+ 14. Kh1 f5 $5 $132) 11. Be3 (11. Bd2 {Transposes to 10.Bd2.})
+(11. O-O Bc5+ (11... h5 $5) 12. Kh1 Ne7 $132) 11... Nf6 12. O-O Bc5 $11 13.
+Bxc5 Qxc5+ 14. Kh1 d5 15. exd5 Nxd5 16. Ne4 Qb6 {Black doesn't have any
+problems at all.}) (10. O-O Nf6 11. a3 (11. e5 b4 {This is a standard reaction
+to the move e4-e5.} 12. Nb1 Bc5+ 13. Kh1 Ne4 14. Nd2 Nxd2 15. Bxd2 O-O $11)
+11... Bc5+ 12. Be3 d6 13. Rf3 O-O 14. Kh1 {Yurtaev - Klimov, Sochi 2005} Bxe3
+$5 15. Rxe3 Qc5 $36 {Black has good counterplay and it's not easy for White to
+create threats on the kingside.}) 10... Rc8 {This is a useful move which isn't
+the most-played one but it's the most reliable one in my opinion. Black
+remains flexible in the decision of where to develop the knight from g8.} 11.
+a3 (11. O-O b4 12. Nd1 {This is more accurate than 12.Nd5.} ({The tempting} 12.
+Nd5 {is strongly met by:} f5 $1 13. Ne3 {The only continuation for White to
+avoid getting in a worse position.} fxe4 14. Qh5+ Kd8 15. Qa5+ {Black has a
+choice between a move repetition or to try to play for advantage with:} Qc7 (
+15... Ke8 $11) 16. Qg5+ Nf6 17. Be2 d5 $13) 12... Nf6 13. Nf2 Bc5 14. Be3 O-O
+$11) (11. O-O-O $6 b4 12. Nd5 {This move may seem tempting, but Black has a
+good reply:} (12. Nb1 Qa4 $17) 12... Qa4 $1 $17) (11. a4 {This move requires
+Black to play accurately.} b4 12. Nd5 Nf6 $1 13. Nxb4 (13. Nxf6+ gxf6 {White
+can't castle short which can be seen in the line below, and castling long also
+isn't possible due to the pawn on a4. Both sides will need to keep the kings
+in the center, and Black's king seems to be absolutely safe.} 14. Rf1 (14. O-O
+$2 f5 $19 {Hector - Polgar,S Aarhus 1993} 15. exf5 {If White didn't capture on
+f5, Black wanted to exchange everything on e4 and capture the pawn on c2 at
+the end.} Rg8 {Black's attack is decisive.}) 14... Rg8 15. g3 Qb6 $132 16. Qh5
+$2 Qd4 $17) 13... Bxb4 14. Bxb4 Nxe4 {White's has the bishop pair and it seems
+like Black can't castle, but that's compensated by Black's active pieces and
+Black's king doesn't have to be stuck on the e8-square after:} 15. c3 f5 $132)
+11... Nf6 {The simplest move for Black.} (11... Bc5 12. O-O-O Ne7 13. h4 O-O
+14. h5 $36) (11... h5 {Prevents White's kingside expansion but after:} 12. Rf1
+$5 $36 {It's not easy to find good counterplay for Black.}) 12. e5 (12. O-O-O {
+The move a3 isn't working great in combination with long castling since Black
+will be able to open up the queenside easier.} b4 13. axb4 Bxb4 14. g4 {
+Black doesn't have h7-h6 as White had a2-a3, so White's attack is slower.} O-O
+$132 15. Rhe1 d6 16. g5 Nd7 17. h4 $6 Qb6 18. h5 Qa5 $17) (12. O-O Be7 13. e5 (
+13. Kh1 O-O 14. Rf3 (14. e5 Nd5 15. f5 f6 $1 $132 {This is another typical
+resource that solves all of Black's problems.}) 14... d5 15. exd5 Nxd5 16. Nxd5
+Qxd5 $11 {Dallagher - Matlakov, Aix le Bains 2011}) (13. Rae1 O-O 14. Rf3 $6 d5
+$36) 13... Nd5 14. f5 {Larsen - Spangenberg, La Plata 1997} (14. Ne4 {
+Transposes to 12.e5.}) 14... exf5 $1 $146 {This is a simple and solid way for
+Black to repel White's attack.} 15. Bxf5 (15. Rxf5 g6 16. Rff1 O-O $13) 15...
+g6 16. Bg4 O-O {White doesn't have a kingside attack while the seemingly weak
+d7-pawn doesn't promise White much.} 17. Kh1 (17. Rad1 f5 18. exf6 Nxf6 19. Bf3
+Qc5+ 20. Kh1 Bxf3 21. Rxf3 Bd6 22. Bh6 Rfe8 23. Qd2 Ng4 $132) 17... Qc4 18.
+Qxc4 Rxc4 19. Bf3 (19. Bxd7 $2 Nb6 $17 20. e6 (20. Bh3 $2 Rh4 {The
+light-squared bishop on h3 has no square to go to.}) 20... Nxd7 21. exd7 Rd8 {
+White has a difficult endgame ahead.}) 19... Nxc3 20. Bxb7 Rb8 21. Bf3 Ne4 $11)
+(12. Rf1 $146 {[%cal Gg2g4] White intends to push the g-pawn next, so Black
+needs to do something about that.} b4 (12... Bc5 13. e5 Nd5 14. Ne4 $14) (12...
+Be7 13. g4 $36) 13. axb4 Bxb4 14. e5 Bxc3 15. Bxc3 Nd5 16. Ba5 Qc5 {White has
+the bishop pair but Black has active pieces and is ready to castle next, while
+it's unclear what White will do with the king on e1. Black has good
+counterplay in this position.} 17. c3 O-O $13) (12. g4 b4 13. axb4 Bxb4 $132 {
+The pawn on e4 is already under serious pressure.}) 12... Nd5 13. Be4 $146 {
+White is trying to damage Black's pawn structure.} (13. Ne4 Be7 14. O-O (14.
+O-O-O a5 $36 {Black intends to follow up with b5-b4.}) 14... f5 {This is a
+good reaction for Black.} 15. exf6 Nxf6 16. Ng5 O-O $13 17. Kh1 {Adams -
+Stefansson, Istanbul 2000} (17. Bc3 $6 h6) 17... Qc7 $5 $146 {[%cal Gb7d5,
+Gd5c4,Ge7d6] Black prepares to put pressure on the f4-pawn among other ideas.}
+18. Bc3 {Putting pressure on the defender of the h7-pawn.} h6 19. Rad1 Bd5 {
+This is the simplest way to play with Black, intending Bc4 next. White doesn't
+have an attack and the knight on g5 will soon have to retreat.}) 13... Qc4 (
+13... Nxc3 $2 14. Bxc6 Nxe2 15. Bxb7 Rc7 16. Bxa6 Nd4 17. O-O-O $1 $16) 14.
+Nxd5 (14. Qxc4 Rxc4 15. Bf3 d6 16. Nxd5 Bxd5 17. Bxd5 exd5 18. O-O-O dxe5 19.
+Rhe1 e4 20. Ba5 Be7 21. Rxd5 O-O $11) 14... Bxd5 15. Qxc4 Rxc4 {15...Bxc5 16.
+Bb7 might be unpleasant for Black.} 16. Bxd5 exd5 {White's pieces aren't fully
+developed yet in order to make use of Black's doubled d-pawns, while Black can
+also consider playing d7-d6 at some point.} 17. O-O-O Bc5 {Black's bishop is
+stronger than the bishop on d2.} 18. Rhe1 Re4 $1 19. Kb1 (19. Rxe4 dxe4 20. Re1
+d5 21. exd6 f5 $132) 19... d6 20. Bc3 Rxe1 21. Rxe1 (21. Bxe1 Ke7 22. Rxd5 Ke6
+$11 {Black will soon restore material equality.}) 21... Kd7 $11 {Black's
+slightly damaged pawn structure doesn't promise White any advantage.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 13"]
+[Black "6th Move Sidelines"]
+[Result "*"]
+[ECO "B47"]
+[Annotator "GM Alexander Khalifman"]
+[PlyCount "34"]
+[EventDate "2023.??.??"]
+
+{[%evp 0,34,21,25,36,45,39,35,35,32,43,31,63,85,31,31,32,26,37,25,25,36,61,56,
+54,53,63,58,61,49,53,31,24,25,52,27,46]} 1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4
+Nc6 5. Nc3 Qc7 {Over time, many different moves were played for White and
+since it's impossible to analyze everything, in this chapter, the sidelines
+which require some knowledge from Black will be analyzed.} (5... a6 {This move
+is less flexible in my opinion.} 6. Nxc6 {This is considered to be the main
+line.} (6. Qd3 {Black tries to play this line without the early a7-a6 move
+which here is already played.}) (6. Be2 {Once again, after 6...Qc7, White has
+both 7.Qd3 and 7.Nxc6, while 6...Nf6 isn't playable due to 7.Nxc6 followed by
+e4-e5.}) (6. Bf4 {This is another unpleasant move order for Black.}) ({The
+only difference that can favor Black in some way can be seen after:} 6. Be3 {
+This is one of the main moves for White.} Nf6 {Black doesn't have to play Qc7
+and transpose to the lines that were analyzed in the first chapters. After 6...
+Nf6, Black doesn't equalize immediately with this move and White has a lot of
+options to be analyzed.}) 6... bxc6 {The move a6-a7 is a clear tempo loss in
+this structure.} 7. Qf3 (7. Bd3 {Followed by 0-0 is also possible.}) 7... d5 8.
+Qg3 {This plan of placing the queen on the g3-square is also unpleasant to
+face with Black.}) 6. Qd3 {This move was played by Francisco Vallejo Pons in
+2014 and is probably the most dangerous sideline from White.} (6. Ndb5 Qb8 {
+Black intends to play a7-a6 next which is a move that Black likes to play
+anyway and White will have to go back to the d4-square, so the position can
+transpose to the main lines.} 7. Be3 (7. Be2 a6 8. Nd4 Nf6 (8... Qc7 9. Nxc6 $5
+{This is a line that Black avoids because of the usual idea of Qd3 and Qg3.})
+9. O-O Bd6 $5 $13 (9... Qc7 {Transposes to 6.Be2.})) (7. f4 a6 8. Nd4 Qc7 {
+Transposes to 6.f4.}) (7. a4 Nf6 8. Be3 (8. Bd3 a6 9. Na3 d5 10. O-O Be7 11.
+exd5 exd5 12. h3 O-O $15) (8. Be2 Bb4 9. O-O O-O 10. Qd3 (10. Be3 a6 11. Nd4
+Bxc3 12. bxc3 Nxe4 $13) 10... a6 11. Nd4 (11. Na3 Bxc3 12. bxc3 d5 $15) 11...
+Ne5 12. Qe3 d5 13. exd5 exd5 $13) (8. Bg5 Bb4 9. Bxf6 gxf6 $15) 8... Bb4 9. Bd3
+a6 10. Nd4 (10. Na3 $6 d5) 10... Nxd4 11. Bxd4 e5 12. Be3 d5 $11) (7. g3 a6 8.
+Nd4 Qc7 {- 6.g3} (8... Nf6 9. Bg2 Be7 10. O-O O-O 11. Re1 $14)) 7... a6 8. Bb6
+(8. Nd4 Qc7 {Transposes to 6.Be3.} (8... Nf6 $5 {Black doesn't have to
+transpose and can continue with developing the knight.})) 8... axb5 9. Nxb5 {
+Bc7 is a threat but Black has the following maneuver:} Bb4+ 10. c3 Ba5 {
+Now White has two options but both of them don't seem very attractive for
+White.} 11. Nc7+ {This is the more popular continuation for White, winning
+Black's queen.} (11. Nd6+ {This seems to be the lesser evil of the two options.
+} Kf8 (11... Qxd6 12. Qxd6 Bxb6 13. Bd3 $13) 12. Bc5 b6 (12... Nge7 13. Qh5 Nd8
+14. O-O-O (14. Rd1 Bc7) 14... Bc7 15. Bb5 b6 16. Bb4 Bxd6 17. Bxd6 Qb7 18. e5
+Ke8 19. Bxe7 Kxe7 20. Qg5+ Ke8 21. a4 (21. Qxg7 Rf8 22. a4 Qe4 $17) 21... Rg8
+22. Rd6 Qc7 23. Rhd1 Nb7 24. R6d4 Nc5 $15) 13. Be3 (13. Ba3 $2 Bxc3+ 14. bxc3
+Rxa3 15. Nxc8 Nf6 16. Nd6 Ke7 17. Nb5 Qe5 $17) 13... b5 14. Bxb5 (14. Qh5 Nd8
+15. Bc5 Nf6 16. Qg5 Kg8 $17) 14... Ba6 15. a4 Nf6 16. O-O Bc7 17. Bc5 Bxb5 18.
+Nxb5+ Kg8 $15) 11... Qxc7 12. Bxc7 Bxc7 {Black's three minor pieces will be
+stronger than the queen.} 13. Qg4 (13. g3 Nf6 14. Bg2 O-O 15. O-O b5 $15) 13...
+g6 14. Bb5 (14. Bc4 Kf8 15. O-O d5 $36) (14. Bd3 Kf8 15. O-O Kg7 16. f4 d5 $15)
+14... h5 15. Qe2 (15. Qg5 Kf8 16. O-O Kg7 $15) 15... Nf6 16. O-O O-O $15 {
+Black will continue with d7-d5 next and it's likely that it will be Black who
+has a dangerous attack.}) (6. g4 a6 7. h4 (7. Bg2 Nge7 8. O-O Nxd4 9. Qxd4 b5
+$15 {It's not clear what the White pawn on g4 is doing.}) (7. Nxc6 bxc6 8. Bg2
+d5 9. O-O h5 10. g5 Bd6 11. f4 Ne7 $15) (7. g5 Nxd4 8. Qxd4 b5 9. Be3 Bb7 10.
+O-O-O h6 11. gxh6 Nxh6 {Nf5 is already a threat.} 12. f3 d5 $5 13. exd5 Nf5 14.
+Bf4 Bc5 {The best White can do is reach the following endgame:} 15. Bxc7 Bxd4
+16. Bd3 Bxc3 17. Bxf5 exf5 18. bxc3 Kd7 $11 {This endgame is likely to end in
+a draw. Black is a pawn down but all of White's pawns are weak, so it's White
+who needs to be more accurate in this endgame.}) (7. Be3 {Transposes to 6.Be3.}
+) 7... Nxd4 8. Qxd4 b5 {Black's play is quite straightforward while the move
+h2-h4 isn't the most useful one for White.} 9. Be3 Bb7 10. O-O-O (10. a3 Nf6
+11. Rg1 Bd6 $15) 10... Rc8 {Now b5-b4 is a threat.} 11. Rd2 e5 {Relievening
+the duty of the dark-squared bishop guarding the g7-pawn.} (11... Nf6 $5 12. f3
+h6 {Black wants to push d7-d5.}) 12. Qd3 Bb4 13. Bg2 Bxc3 14. bxc3 Nf6 $132 {
+White's bishop pair is compensated by the weaknesses in White's territory and
+Black's more flexible pawn structure.}) (6. a3 a6 7. Nxc6 {The only original
+option for White since most of the other moves transpose somewhere else.} bxc6
+{The move a7-a6 isn't very useful in this structure, but the move a2-a3
+doesn't help White much either.} (7... Qxc6 8. Qf3) (7... dxc6 $5 8. Be3 b5) 8.
+Qg4 Nf6 9. Qg3 Qxg3 10. hxg3 d5 11. Bd3 Bd6 {This position has already been
+seen without the pawns on a3 and a6 whose inclusion doesn't make much of a
+difference.} 12. Bf4 e5 13. Bg5 Be6 $13) (6. Nxc6 bxc6 {This is usually the
+recommended way to recapture when Black hasn't played a7-a6.} 7. Bd3 (7. f4 d5)
+7... Nf6 8. O-O (8. Qe2 Qf4) (8. f4) 8... d5 $11) (6. Ncb5 {This move may seem
+a bit strange but it's more dangerous than 6.Ndb5 in my opinion.} Qb8 {Once
+again, Black intends to play a7-a6 next.} 7. Bd3 (7. c4 Nf6 {White intended to
+reach a Maroczy Bind set-up but now the e4-pawn is already hanging and it's
+unclear what White has achieved with the tempos spent on the previous moves.})
+7... a6 (7... Nf6 8. O-O a6 9. Nxc6 bxc6 (9... dxc6 {Erigaisi - Carlsen,
+chess24.com rapid 2022} 10. Nc3 $5 {White intends to play f2-f4 and then e4-e5.
+After 10.Nd4 e5, Black is doing fine.} e5 11. f4 Bd6 12. f5 $14 {This version
+of this pawn structure is unpleasant for Black.}) 10. Nd4 c5 11. Nf3 c4 12.
+Bxc4 Nxe4 13. Re1 Bb7 14. Qd4 Nf6 15. Ne5 $36) 8. Nxc6 bxc6 {9.Nc3 Nf6
+followed by d7-d5 isn't a problem for Black at all.} (8... dxc6 {This is once
+again unpleasant, similar to the line with the Erigaisi - Carlsen game above.}
+9. Nc3 e5 10. O-O $14) 9. Nd4 {White intends to castle and then depending on
+what Black does, to continue with c2-c4 or f2-f4, so Black has to play
+accurately in this position.} e5 10. Ne2 (10. Nf5 d5 $132) 10... Nf6 (10... Bc5
+{It may be tempting to develop the bishop to an active square but after:} 11.
+O-O Ne7 12. Kh1 $14 {White intends to continue with f2-f4 and Black will be
+under some pressure.}) 11. O-O Be7 12. c4 a5 13. h3 {White is playing
+cautiously.} (13. f4 Bc5+ 14. Kh1 Ng4 $132) 13... O-O 14. Nc3 Bc5 {Even though
+Black lost a tempo, it's time to bring the bishop to a more active square.} 15.
+Bg5 Qd6 $13) 6... Nf6 (6... a6 {This shows White's idea.} 7. Nxc6 dxc6 (7...
+Qxc6 8. a4 b6 9. h4 $5 {White prevented Black's counterplay and starts to
+advance on the kingside.}) 8. Qg3 $5 $14 {If Black exchanges the queens, it
+will be an unpleasant version of the already-discussed endgame, and if Black
+avoids the queen exchange, White's queen will be active on the g3-square.}) (
+6... Nxd4 {Trying to make use of White capturing on d4 in two moves instead of
+one seems logical, but it doesn't lead to a satisfactory position.} 7. Qxd4 a6
+8. Be3 b5 9. f3 {Black has an unpleasant version of the English attack.} Ne7
+10. O-O-O Nc6 11. Qd2 Be7 12. h4 {White intends to push the h-pawn and advance
+on the kingside in general, so Black's position may be playable but White's
+play is quite clear.} Ne5 13. f4 Nc4 14. Bxc4 Qxc4 15. Kb1 $36) 7. Ndb5 (7.
+Nxc6 bxc6 (7... dxc6 8. Qg3 (8. f4 e5 9. f5 b5 $11) 8... Qxg3 9. hxg3 e5 10. f3
+(10. Bc4 b5 11. Bd3 Be6 12. a4 b4 13. Nd1 Nd7 $11) 10... Be6 11. g4 h5 $5 12.
+Bg5 Be7 13. O-O-O Rh7 14. Bxf6 Bxf6 15. Rxh5 Rxh5 16. gxh5 Bg5+ 17. Kb1 Ke7 18.
+Be2 Rh8 19. g4 g6 $44) 8. Qg3 {Now it's obvious that a7-a6 doesn't contribute
+much to Black's position while Nf6 is a very useful move.} Qxg3 9. hxg3 d5 $13
+10. Bd3 Bd6 {White's idea in this endgame is to play f2-f3 and g3-g4, but
+after this move, it's not clear how White will achieve this.}) (7. Bg5 a6 8.
+O-O-O (8. Nxc6 bxc6 9. O-O-O (9. Qg3 Bd6 10. Qh4 Rb8 11. b3 Be5 12. Bd2 d5 $36)
+9... d5 10. Be2 Be7 $132) 8... h6 9. Bxf6 gxf6 10. Kb1 h5 $132) (7. Be2 Nxd4 8.
+Qxd4 Bc5 9. Qd3 (9. Nb5 $2 Qb6) 9... b6 10. O-O Bb7 $132) 7... Qb8 8. Qg3 (8.
+f4 a6 9. Nd4 d6 10. Be3 Be7 11. O-O-O (11. Be2 O-O 12. O-O Qc7 $13 {This is a
+version of the Scheveningen set-up where the White queen is strangely placed
+on the d3-square since it usually goes to e1 and then to the g3-square.}) 11...
+O-O 12. Be2 (12. Kb1 Bd7 13. Be2 b5 $36) 12... Nb4 13. Qd2 e5 {Black starts an
+active counterplay while White hasn't initiated the attack yet.} 14. Nf5 Bxf5
+15. exf5 Rc8 16. Kb1 (16. g4 $2 Rxc3 17. bxc3 Ne4 18. Qe1 Nxa2+ 19. Kb2 Naxc3
+$19) 16... d5 17. fxe5 Ne4 18. Nxe4 Rxc2 19. Qd4 Rxe2 20. f6 Nc2 21. Qd3 Rxe3
+22. Qxd5 Na3+ 23. bxa3 Bxa3 24. e6 Qc7 25. exf7+ Qxf7 26. fxg7 Qxd5 27. Nf6+
+Kxg7 28. Nxd5 Re4 $11) 8... d6 {A queen exchange wasn't possible due to the
+threat of Nc7+ afterward. Black intends to play a6 next.} 9. Be3 (9. Bf4 $2 Nh5
+$17) (9. Bg5 $6 a6 10. Na3 b5 $36) 9... a6 10. Nd4 {This is the critical
+position of the 6.Qd3 line.} (10. Bb6 $2 axb5 11. Nxb5 {White's threat is Bc7
+rather than Nc7+.} Nxe4 {This is a direct solution to Black's problems.} 12.
+Qe3 (12. Qh4 Ra4 {Now Bc7 isn't trapping the queen anymore.} 13. Nc7+ Kd7 14.
+Bb5 Be7 15. Qg4 Ra6 $17) 12... Nf6 {Black intends to play Nd5.} 13. Nc7+ Qxc7
+14. Bxc7 Nd5 $17 {Black will have three minor pieces for the queen with a big
+advantage.}) 10... h5 $5 {The upside of this move is that if White doesn't
+know how to react to this move, White can even get in a worse position out of
+the opening.} (10... Bd7 $5 {This move is also playable. Black's idea is to
+recapture on c6 with the bishop and to be able to push b7-b5-b4.} 11. f4 g6 {
+This is the most accurate move, securing the kingside and preparing to
+fianchetto the bishop on the g7-square.}) 11. f3 {Supports the e4-pawn and
+creates a retreat square for the White queen.} (11. f4 h4 12. Qf3 e5 13. Nb3
+Nb4 14. Rc1 d5 {Black's initiative is already dangerous.} 15. exd5 Bg4 16. Qf2
+Nbxd5 $15) (11. O-O-O h4 12. Nxc6 {12.Qxf3 is strongly met by 12...Nxd4 and
+then e6-e5, followed by Bg4.} bxc6 13. Qf3 e5 14. h3 Be6 $15) (11. h4 {Black
+needs to be accurate after this move.} Ng4 (11... Ne5 12. Be2 (12. a4 Be7 $13
+13. Qxg7 $2 Rg8 14. Qh6 Neg4 15. Qf4 e5 $19) (12. O-O-O b5 13. a3 b4 14. axb4
+Qxb4 $132) 12... b5 13. a3 Bd7 14. O-O Qc7 15. Rad1 Rc8 $13) (11... Bd7 12.
+Nxc6 Bxc6 13. f3 b5 14. O-O-O b4 15. Ne2 e5 16. Qe1 $14) 12. Nxc6 {It's not
+recommended for White to allow the exchange with Nxe3, so this is a way to
+avoid it.} bxc6 13. Bd2 Qxb2 (13... d5 {White may have a slight advantage
+after this move, so that's why I recommend the sharp 13...Qxb2 instead.} 14.
+Qxb8 Rxb8 15. f3 $14 {Intending 0-0-0 next.}) 14. Rb1 Qa3 (14... Qxc2 $2 15.
+Bd3 $18) 15. Be2 {White has some compensation for the pawn but it's enough for
+equality at best.} d5 $1 16. Bxg4 hxg4 17. Rb8 {This may look tempting to play
+with White, but Black has a strong reaction:} (17. Qxg4 d4 18. Rb3 Qd6 $15)
+17... Bd6 18. Rxa8 Bxg3 19. Rxc8+ Kd7 20. Rxh8 Be5 $13 {White is up in
+material but Black will win some pawns and additionally, White's pieces are
+far from being coordinated properly.}) (11. Be2 h4 12. Qg5 Bd7 $146 13. O-O-O
+b5 $36 {The queen on g5 isn't active but it's rather misplaced and can get in
+trouble potentially.}) 11... h4 (11... Ne5 12. O-O-O b5 13. a3 (13. Nb3 Bd7 14.
+f4 Neg4 15. Bd4 b4 16. h3 h4 17. Qe1 Nf2 $1 18. Bxf2 bxc3 $132) (13. Bd3 $6 h4
+14. Qe1 b4 15. Nce2 Nxd3+ 16. cxd3 e5 17. Nc2 a5 $36) 13... b4 $5 $146 14. axb4
+Qxb4 15. Kb1 Rb8 16. Nb3 h4 17. Qf2 Nc6 $132) 12. Qf2 {The position resembles
+a Rauzer Sicilian.} Nxd4 $146 13. Bxd4 b5 {Black isn't in a rush to play b5-b4
+since the move Na4 might be unpleasant.} 14. O-O-O Bd7 15. Kb1 b4 16. Ne2 e5
+17. Be3 Be7 $132 {It's difficult for White to make use of the d5-square while
+Black can even consider playing Be6 and d6-d5. Additionally, pushing the
+a-pawn is also an idea for Black.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 14"]
+[Black "5th Move Sidelines"]
+[Result "*"]
+[ECO "B44"]
+[Annotator "GM Alexander Khalifman"]
+[PlyCount "30"]
+[EventDate "2023.??.??"]
+
+{[%evp 0,30,25,25,39,39,45,32,32,31,31,-6,0,8,8,-6,4,18,29,9,29,-4,29,24,42,9,
+8,-13,6,13,8,1,0]} 1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 {White has tried
+many different moves over time and has at least two different sidelines that
+deserve serious attention. When dealing with the sidelines, if White doesn't
+play Nc3, in general, Black intends to continue with Nf6 and then either d7-d5
+or Bb4 which would give Black good chances for the battle in the center.} 5. c4
+{White wants to play a Maroczy bind set-up where Black's counterplay will be
+quite limited, so Black has to play actively from this position.} (5. Bf4 {
+This move gained in popularity after the Rapport - Caruana game in 2021.} d6 (
+5... Nf6 {This is strongly met by:} 6. Nb5 e5 7. Bg5 $36) 6. Nxc6 (6. Bb5 $5
+Bd7 7. Nxc6 bxc6 (7... Bxc6 8. Bxc6+ bxc6 9. c4 $14) 8. Bd3 e5 9. Bd2 (9. Be3
+Nf6 10. O-O d5 $11 11. exd5 cxd5 12. c4 Ng4 13. cxd5 Qh4 $36) 9... Rb8 10. Bc3
+(10. b3 d5) 10... Nf6 11. O-O Be7 12. Nd2 O-O $11) (6. Nb5 {Transposes to 5.
+Nb5.}) 6... bxc6 7. c4 (7. Bd3 Ne7 {Black needs to play more cautiously in
+this position.} (7... e5 8. Be3 Nf6 9. O-O d5 10. exd5 cxd5 11. c4 $36 Ng4 12.
+cxd5) (7... Rb8 {Black doesn't have a threat after} 8. Nd2 {since Rxb3 can be
+met with Nb3 which traps the rook.}) 8. O-O (8. c4 c5 $5 {Once again, Black
+plays this typical move with the idea to follow up with Nc6, being one square
+away from the outpost on d4.} (8... g6 $6 9. c5 $1 $16 {Duda - Rapport, Madrid
+2022}) 9. Nc3 Nc6 10. Bc2 Be7 11. Ba4 {The best White can do is exchange the
+light-squared bishop in order to prevent the knight from becoming very strong
+on the d4-outpost.} Bb7 12. Qd3 (12. Nd5 Bh4) 12... O-O 13. Bxc6 Bxc6 {White
+managed to exchange the light-squared bishop for the knight on c6 but it's not
+enough for an advantage.} 14. O-O-O Qb6 $5 15. Bxd6 Bxd6 16. Qxd6 Rfd8 17. Qe5
+Rd4 $44) 8... Ng6 9. Be3 (9. Bg3 {The bishop isn't doing anything on the
+g3-square.} Be7 10. Nd2 O-O $11) 9... Be7 10. c4 O-O {Even though Black spent
+some time, Black is ready to bring the knight to e5, play c6-c5, and then get
+the knight to the c6-square reaching a harmonious set-up.} 11. Nc3 (11. f4 d5
+$15 {Black has the initiative.}) 11... Ne5 12. Be2 c5 13. Qd2 Nc6 14. f4 a6 {
+Preventing Nb5.} 15. Rad1 Bb7 $13 {Black's plan seems quite clear in
+comparison to White's since it remains to be seen how White will improve the
+position. The knight on c6 is very well placed and Black can conquer the
+d4-square by playing Bf6 first, but in order to do that, Black needs to defend
+the d6-pawn which can be done with the moves Qc7 and Rad8.}) (7. Nd2 e5 8. Be3
+Nf6 9. Be2 Be7 $11) 7... e5 {Attacking the bishop is also possible.} (7... Rb8
+$5 {This is a more promising continuation in my opinion.} 8. Qc2 (8. Qd2 e5 9.
+Be3 f5 $36) 8... c5 $5 $146 {The knight from g8 will be developed with Ne7-Nc6
+and will be able to jump on the d4-outpost at any moment.} (8... e5 9. Be3 Nf6
+10. Nc3 Qc7 11. Be2 $14 {Rapport - Caruana, Saint Louis 2021 This pawn
+structure is unpleasant for Black since there is no active counterplay and
+White can slowly increase the pressure.}) (8... Ne7 9. Nc3 (9. c5 $5) 9... c5 {
+Transposes to 8...c5.}) 9. Nc3 Ne7 10. O-O-O (10. Be3 Nc6 11. Rd1 Qa5 $13)
+10... Nc6 11. e5 {This is strongly met with:} g5 $1 12. Be3 (12. Bg3 h5 13. h4
+g4 14. exd6 Bg7 $44) 12... Nd4 13. Rxd4 (13. Bxd4 cxd4 14. Rxd4 Bg7 {Black has
+excellent counterplay.} 15. Rxd6 Qa5 16. Qa4+ Qxa4 17. Nxa4 Bxe5 18. Rd3 Bb7
+$44) 13... cxd4 14. Bxd4 Bg7 15. Bxa7 Rb7 16. Bd4 dxe5 17. Bc5 f5 $13) 8. Be3 (
+8. Bc1 Nf6 9. Nc3 Be7 10. Be2 O-O 11. O-O Be6 $11 12. b4 Qc7 {[%cal Ga7a5]})
+8... Nf6 9. Nc3 Ng4 (9... Be7 10. Be2 O-O 11. O-O Be6 12. b4 $14) 10. Bc1 (10.
+Bd2 Qb6 11. Qf3 {Deac - Carlsen, chess.com blitz 2023} Qxb2 $5 12. Rb1 Qa3 13.
+Rb3 Qa5 14. Nd5 Qd8 $13) 10... d5 $5 $146 11. h3 (11. exd5 Bc5 12. Ne4 Bd4 13.
+Be2 Bf5) 11... d4 12. hxg4 dxc3 13. Qxd8+ Kxd8 14. Be2 Bb4 15. Kd1 Be6 16. Kc2
+(16. b3 a5 17. a4 Bc5) 16... Bc5 17. f4 (17. f3 cxb2 18. Bxb2 f6 19. g5 Ke7 $11
+) 17... exf4 18. Bxf4 cxb2 19. Rad1+ Ke7 20. Rh5 Ba3 21. Ra5 Bb4 22. Ra6 Rhd8
+$11) (5. Be2 Nf6 (5... Qc7 6. c4 $14) 6. Nc3 Qc7 {Transposes to 5.Nc3.} (6...
+Bb4 {This allows White to enter a tricky gambit line.} 7. O-O (7. Qd3 d5 8.
+exd5 Nxd5 $11) 7... Bxc3 8. bxc3 Nxe4 {It's unnecessary for Black to enter
+this position since the move 6...Qc7 transposes to lines already analyzed.} 9.
+Bd3 $5 (9. Nxc6 dxc6 (9... bxc6 10. Qd4 $16) 10. Bd3 (10. Qxd8+ Kxd8 11. Bf3
+Nf6 $13) 10... Nc5 (10... Nf6 11. Re1 O-O 12. c4 $44) 11. Qg4 Qf6 12. Bg5 Qxc3
+13. Rad1 h6 14. Be3 O-O 15. Bxh6 f5 16. Qg6 Qf6 17. Qxf6 Rxf6 $11) 9... d5 10.
+Ba3 (10. Nxc6 bxc6 11. Ba3 c5 $1 $11) 10... Qa5 11. Qc1 Nxc3 12. Nb3 Qc7 13.
+Qe1 d4 14. f4 $13)) (5. Be3 Nf6 6. Bd3 (6. Nc3 {This is strongly met by:} Bb4)
+6... d5 $11) (5. Nxc6 bxc6 {Black's position in the center is quite
+comfortable and it's good that Black didn't spend a tempo on the move a7-a6.}
+6. c4 Nf6 {Transposes to 5.c4.} (6... Bc5 $5 7. Bd3 Ne7)) (5. g3 {This is
+strongly met with:} d5 6. Bg2 dxe4 7. Nxc6 Qxd1+ 8. Kxd1 bxc6 9. Bxe4 Bb7 $11 {
+The inactive White pieces fully compensate for Black's weakened pawn structure,
+and in fact, the statistics are in Black's favor in this position.}) 5... Nf6 (
+5... Qb6 6. Nc2 {The most unpleasant move to face with Black in my opinion.} (
+6. Nb3 Bb4+ 7. Nc3 Nf6 8. Bd3 (8. Be3) (8. Qe2) 8... Ne5 9. O-O Qd6 10. Bf4 (
+10. Bc2 Qxd1 11. Rxd1 Bxc3 12. bxc3 Nxc4 $13) (10. Be2 $146 Qxd1 11. Rxd1 Bxc3
+12. bxc3 Nxe4 13. Bb2 b6 14. f3 Nc5 15. Nxc5 bxc5 16. f4 Ng6 17. Bf3 Bb7 $1 18.
+Bxb7 Rb8 19. Ba3 Rxb7 20. Bxc5 f6 21. Rab1 Rxb1 22. Rxb1 Kf7 23. Rb7 Rc8 $132)
+10... Bxc3 11. bxc3 Qxd3 12. Bxe5 Qxd1 13. Raxd1 (13. Rfxd1 Nxe4 14. Bxg7 Rg8
+15. Bd4 b6 $13) 13... Nxe4 14. Rfe1 (14. Bxg7 Rg8 15. Be5 f6 16. Bd4 e5 17. f3
+Ng5 18. Be3 b6 $11) 14... f6 15. Rxe4 fxe5 16. Rxe5 b6 $11 {Mareco - Alekseev,
+Zurich 2013}) 6... Bc5 7. Qd2 {The most accurate move.} Nf6 8. Nc3 Ng4 {
+This may seem dangerous for White but after:} (8... O-O 9. Na4 Bb4 10. Nxb6
+Bxd2+ 11. Bxd2 axb6 12. Be3 Nxe4 13. Bxb6 d5) 9. f3 Nf2 10. Na4 Qc7 11. Nxc5
+Nxh1 12. f4 {The position becomes quite messy.} O-O 13. Be2 d5 14. Kf1 $13) (
+5... Bc5 6. Nb3 (6. Nc2 $5) 6... Bb4+) 6. Nc3 {This position can be reached
+from several different move orders.} (6. Nxc6 bxc6 7. Bd3 (7. Nc3 Bb4 {
+Transposes to 6.Nc3.}) 7... d5 $11) 6... Bb4 {Putting pressure on the e4-pawn.}
+(6... d5 $2 7. cxd5 exd5 8. Bb5 $16) 7. Nxc6 (7. f3 d5 8. exd5 (8. cxd5 exd5 9.
+Bb5 O-O $1 10. Bxc6 (10. Nxc6 bxc6 11. Bxc6 Nxe4 $1 $17) 10... bxc6 11. Nxc6
+Bxc3+ 12. bxc3 Qc7 13. exd5 Ba6 $17) 8... exd5 9. Qe2+ Be7 $36) (7. Qd3 O-O 8.
+Be2 d5 9. exd5 exd5 $11 {It's White who has to think about how to equalize in
+this position.}) 7... bxc6 8. Bd3 {Now e4-e5 is a positional threat, but Black
+has a proper reply:} (8. Bd2 e5) (8. e5 {This active move can be quite risky
+for White.} Ne4 9. a3 (9. Qd4 {This is the most-often played move for White.
+It may seem promising at first glance, but it's dubious in reality.} Qa5 10. a3
+(10. Bd2 Nxd2 11. Kxd2 d6 $5 $146 12. exd6 O-O 13. Bd3 Rd8 $17) 10... Nxf2 $1
+11. axb4 (11. Rg1 Bc5 12. Qf4 f6 $1 {White has to sacrifice material now.} 13.
+b4 Bxb4 14. axb4 Qxa1 15. Kd2 a5 $1 $17) 11... Qxa1 12. Kd2 Nxh1 13. Ne4 Kd8
+$17) (9. Qg4 Nxc3 10. a3 {Transposes to 9.a3.}) 9... Nxc3 10. Qg4 Bf8 (10...
+Qa5 11. Qxg7 Rf8 12. Bd3 Ba6 13. axb4 Qxa1 14. O-O O-O-O $13) 11. bxc3 Qa5 12.
+Qg3 g6 $15 {The bishop will go to g7, White doesn't have any attack and has a
+lot of weaknesses to worry about, so Black has an advantage.}) 8... e5 {
+Black doesn't have to worry about control over the d5-square since there is a
+pawn on c6.} 9. O-O O-O {This is the critical position in the line with 5.c4.
+White has many different continuations and many ways to improve the position,
+so it's more important to understand the ideas for Black than to learn
+concrete theory. White can try to play on the queenside or to prepare f2-f4,
+while Black's plans include damaging White's pawn structure with Bxc3 or
+rerouting the knight or the bishop to the outpost on d4. Getting the knight
+there is a bit unrealistic since the knight on f6 is very far, however, the
+bishop is closer and can enjoy that outpost at some point.} ({If Black tries
+to weaken White's pawn structure immediately, it can lead to an unpleasant
+position for Black after:} 9... Bxc3 10. bxc3 d6 (10... O-O 11. c5 {Black is
+lacking space and it's difficult to develop the pieces on their proper squares.
+}) 11. Qa4 $36) 10. Qe2 {This move was played by Magnus Carlsen three times.} (
+10. Bd2 Bc5 $11) (10. f4 {This move may seem tempting but after} d6 $13 {
+it doesn't lead anywhere for White.}) (10. h3 {This prophylactic move is
+popular nowadays.} Bc5 $5 (10... Bxc3 {It's also possible to capture the
+knight on c3, leading to a complicated game.} 11. bxc3 d6 12. f4 Qe7 $13 13.
+Qf3 Re8 {It's not easy for White to create something dangerous on the kingside.
+}) 11. Re1 d6 12. Be3 Bd4 $1 $146 {Capturing on e3 is also possible but White
+may have some hopes of putting pressure on the d6-pawn along the d-file, so
+this novelty is stronger in my opinion.} 13. Bxd4 exd4 14. Na4 Re8 {Black is
+ready to play c6-c5 now since 14...c5 would have been strongly met by 15.e5.}
+15. c5 d5 16. e5 Nd7 17. f4 {Black's pawn structure may look rather shaky, but
+the knight on a4 is badly placed. In addition, it's not easy to attack and win
+the pawn on d4.} Qh4 18. Qd2 Nf8 $132) (10. Qc2 Bc5 {This also looks fine for
+Black.}) (10. Bg5 {This is the most popular move for White, however, the
+statistics aren't in White's favor.} h6 11. Bh4 {It would have been better to
+retreat the bishop along the c1-h6 diagonal.} Bc5 $15 {Christiansen - Ribli,
+Germany 1992 Black's dark-squared bishop is quite strong and g7-g5 can be
+considered at some point.}) (10. Be3 Bxc3 {The most reliable move for Black.} (
+10... d5 {This is a playable continuation for Black.} 11. exd5 Bxc3 12. bxc3
+cxd5 13. Bg5 dxc4 14. Bxc4 Qc7 15. Bxf6 Qxc4 16. Bxe5 $14 {Nakamura - So,
+London 2017 Although Black is a pawn down, with the presence of
+opposite-colored bishops Black held this position easily, however, Black
+doesn't have chances to take over the initiative so it's not necessary to
+enter this line with Black.}) (10... d6 11. Na4 $14 {Kramnik - Kasparov, New
+York rapid 1994}) 11. bxc3 d6 12. c5 {Mamedyarov decided to act immediately
+since after some maneuvering from Black, the doubled c-pawns can become
+targets in the long run.} d5 $132 13. exd5 Nxd5 14. Re1 Nxe3 15. Rxe3 Qd5 $11 {
+Mamedyarov - Grischuk, Bucharest 2021}) (10. Na4 {White avoids Bxc3 and
+prevents Bc5, but since the knight doesn't have any control over the center
+anymore, Black has another standard idea:} d5 $11) 10... Bxc3 (10... Bc5 11.
+Na4 Bd4 12. Be3 $14 {This position is unpleasant for Black as 12...Re8 can be
+met with 13.c5, and 12...d6 can be met with 13.Bxd4 exd4 14.c5.}) 11. bxc3 Qe7
+{This move is more accurate for Black.} (11... d6 {Can be met with:} 12. c5 $5
+{This pawn sacrifice might be unpleasant to deal with, although the position
+is probably defendable for Black.}) 12. f4 d6 {The easiest continuation for
+Black since it's difficult for White to create any pressure, although 12...d5
+is also possible.} (12... d5 $5 $146 13. fxe5 Nxe4 14. cxd5 cxd5 15. c4 Ba6 16.
+cxd5 Nc3 $1 17. Bxh7+ Kxh7 18. Qxa6 Qxe5 19. Qd3+ Kg8 $11) 13. f5 {Closing the
+kingside with this move is strongly met with:} d5 $132 14. Bg5 dxe4 15. Bxe4
+Ba6 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 15"]
+[Black "5.Nb5"]
+[Result "*"]
+[ECO "B44"]
+[Annotator "GM Alexander Khalifman"]
+[PlyCount "38"]
+[EventDate "2023.??.??"]
+
+{[%evp 0,38,21,21,54,54,54,35,35,54,54,31,29,6,19,19,19,-20,6,5,5,12,8,16,15,
+-23,42,0,22,8,30,20,50,22,37,35,35,45,19,23,20]} 1. e4 c5 2. Nf3 e6 3. d4 cxd4
+4. Nxd4 Nc6 5. Nb5 {This is a solid line where White aims to reach a position
+with a Hedgehog structure with a small but long-lasting advantage.} d6 6. c4 (
+6. Bf4 {Black will get a good version of the Sveshnikov variation.} e5 7. Be3
+Nf6 8. Bg5 (8. N1c3 {This would be the main line of the Sveshnikov if the
+bishop was on g5 instead of the e3-square.} a6 9. Na3 Rb8 {This is a great
+prophylactic move for Black. 10.Bg5 b5 would transpose to a Sveshnikov with a
+tempo up for Black.} (9... b5 10. Nd5 Rb8) 10. Nd5 Nxd5 11. exd5 Ne7 $132 {
+The knight is heading to the f5-square and Black has a comfortable position.})
+8... Be6 9. Nd2 (9. Bxf6 gxf6 10. Nd2 a6 11. Nc3 f5 12. exf5 (12. Bc4 fxe4 $5
+13. Bxe6 fxe6 14. Qh5+ Kd7 15. Ndxe4 Kc7 $15) 12... Bxf5 13. Nc4 (13. Nd5 Be6)
+13... Be6 14. Ne3 (14. Qh5 Nd4 15. O-O-O Rc8 16. Ne3 Bg7 $36) (14. Nd5 Nd4 15.
+Nce3 Bxd5 16. Nxd5 Qa5+ 17. c3 Qxd5 18. cxd4 e4 $15) 14... Bh6 15. Ned5 (15.
+Ncd5 $6 Bxe3 16. Nxe3 d5 $17) 15... Nd4 (15... Bg7) 16. g3 O-O 17. Bg2 f5 $15)
+(9. N1c3 a6 10. Na3 (10. Bxf6 gxf6 11. Na3 Nd4 12. Bc4 {Fischer - Najdorf,
+Santa Monica 1966} (12. Nc4 f5 13. exf5 Nxf5 $17) 12... d5 $1 13. Nxd5 Rc8 14.
+Ne3 Bxa3 15. Bxe6 Qa5+ 16. Kf1 fxe6 17. bxa3 Qb5+ 18. c4 Rxc4 $17) 10... Be7 (
+10... b5 11. Bxf6 gxf6 12. Nd5 f5 13. exf5 Bxf5 {- Sveshnikov}) 11. Bxf6 (11.
+Nc4 O-O 12. Bxf6 Bxf6 {Transposes to 11.Bxf6.}) 11... Bxf6 12. Nc4 (12. Nd5 O-O
+13. c3 Bg5 $132) 12... O-O $5 {Transposes to 11.Bxf6.} 13. Nd5 (13. Qxd6 Qe8 $1
+14. O-O-O (14. Nd5 Bxd5 15. Qxd5 Rd8 16. Qc5 Be7 17. Qb6 Nb4 18. Bd3 Rxd3 19.
+cxd3 Bc5 20. Qxb7 Nxd3+ 21. Ke2 Qd8 $44) 14... Rd8 15. Qc7 Rxd1+ 16. Kxd1 Qa8
+17. Kc1 Bd8 18. Qd6 Qa7 $44) 13... Bxd5 14. Qxd5 Nd4 15. Bd3 b5 16. Ne3 (16.
+Nxd6 $2 Qc7 17. f4 Nc6 $19) 16... Bg5 $132) (9. c4 a6 10. N5c3 Be7 11. Bxf6
+Bxf6 $15) 9... Be7 10. Bxf6 Bxf6 11. Bc4 (11. Nc4 O-O 12. Qxd6 Rc8 $5 $146 13.
+Qxd8 Rfxd8 14. c3 Be7 {Black has very good compensation for the pawn and is
+ready to proceed with a6 and b5.} 15. Nba3 Kf8 $5 (15... a6 16. Nc2 Nd4 $6 17.
+N2e3) 16. Nc2 (16. Be2 a6 17. Nc2 Nd4) 16... b5 17. N4e3 b4 $36) 11... a6 12.
+Nc3 Rc8 13. O-O O-O $13) 6... Nf6 7. N1c3 (7. N5c3 {In the line with 7.N1c3,
+the knight on a3 is misplaced, so White will develop the knight on the
+d2-square instead. In this line, Black doesn't need to play the move a7-a6.}
+Be7 8. Be2 (8. g3 h5 $5 9. h3 Bd7 10. Bg2 Ne5 11. b3 a6 $132) 8... O-O 9. O-O
+b6 10. Bf4 (10. Be3 {This seems to be the natural square for White's
+dark-squared bishop, but after White completes the development, White will
+need to meet the annoying d6-d5 from Black.} Bb7 11. a3 (11. f4 d5 12. e5 $2 d4
+13. exf6 Bxf6 14. Bf2 dxc3 15. Nxc3 Qe7 $17) (11. Nd2 d5 12. cxd5 exd5 13. exd5
+Nb4 $11) 11... Ne5 12. Nd2 d5 $11) (10. f4 Bb7 11. Bf3 Rc8 12. Be3 (12. b3 $6
+d5 $1 13. e5 Ne4 $17) 12... Ba6 13. b3 d5 $132) (10. Re1 Bb7) 10... Bb7 11. Re1
+(11. Nd2 Rc8) 11... Rc8 {It's difficult for Black to play d6-d5 successfully
+in this case since it can be met with e4-e5.} 12. Nd2 (12. Bf1 Ne5 13. Nd2 h6
+14. Bg3 g5 $13) 12... Qd7 {The queen doesn't go to c7 since it can be attacked
+by Nb5 with tempo.} 13. Rc1 Rfd8 14. h3 Ne5 {Black's idea is to play h6 and
+then g5.} 15. Bf1 (15. Bg3 Bf8 16. f4 Ng6) 15... h6 16. Bg3 Bf8 $13 17. f4 (17.
+b4 g5) 17... Ng6 {Black has good counterplay in this position and d6-d5 is the
+idea once again.} 18. a3 (18. b4 $6 d5) 18... d5 19. cxd5 exd5 20. e5 $2 d4 $17
+) 7... a6 8. Na3 {The knight from g1 spent four moves to be on the a3-square,
+although the upside is that now b7-b5 is extremely difficult to achieve. The
+drawback can be seen in the following lines where Black can often play d6-d5
+because the knight doesn't contribute in the battle for the center.} (8. Nd4 {
+This seems like the more natural choice, but Black has a resource that
+equalizes immediately:} d5 (8... Be7 {Black can also play this move, but in
+order to relieve the pressure that White has, Black will need to play d6-d5
+soon anyway.}) 9. exd5 exd5 10. Nxc6 bxc6 11. cxd5 Nxd5 $11 {There are still
+chances for the stronger player to outplay the opponent regardless of the
+color of the pieces, but in any case, the probable outcome of the game from
+this position is a draw.}) 8... Be7 (8... d5 {This move was tried even
+immediately in this position, although in my opinion, it's still too early.} 9.
+exd5 exd5 10. cxd5 Nb4 {This was played by Garry Kasparov in a World
+Championship match against Anatoly Karpov in 1985.} 11. Bc4 {It's not clear if
+Black has sufficient compensation for the pawn.} (11. Be2 Nbxd5 (11... Bc5 12.
+Be3 Bxe3 13. Qa4+ Bd7 14. Qxb4 {White won back the piece and Black doesn't
+have enough compensation for the pawn.} Qb6 15. Qxb6 Bxb6 16. O-O $14) 12. O-O
+Be6 {This is a safer option for Black where the position is close to being
+equal, but White has a symbolic advantage which in any case isn't the goal
+when playing such a gambit.}) 11... Bg4 12. f3 Bf5 13. g4 $5 $146) (8... Qa5 $5
+{This is a modern try for Black that's playable but it's not necessary since
+Black can continue playing normal and natural moves.}) 9. Be2 (9. Be3 O-O) (9.
+g3 O-O 10. Bg2 d5 $5 $146 (10... Bd7) 11. cxd5 exd5 12. exd5 (12. Nxd5 Bxa3 13.
+bxa3 Bg4 14. f3 Nxd5 15. Qxd5 Qf6 16. Rb1 Rfd8 17. Bb2 Qh6 $36) 12... Bg4 13.
+f3 Bxa3 14. fxg4 Re8+ 15. Kf1 Ne5 16. bxa3 Rc8 17. Ne4 Nxe4 18. Bxe4 Qf6+ 19.
+Kg2 Nc4 $132) (9. Nc2 O-O) 9... O-O 10. O-O (10. Be3 d5 $5 (10... b6) 11. cxd5
+exd5 12. exd5 Nb4 13. Bf3 Bf5 14. O-O Rc8 15. Qb3 Bd6 $44) (10. Nc2 b6 11. O-O
+Bb7 $13) 10... b6 {This is the Hedgehog pawn structure and now Black will
+develop the pieces harmoniously while White enjoys a slight space advantage.
+White will try to prevent Black's counterplay connected with the typical b6-b5
+and d6-d5 pawn breaks, but won't have enough time to reroute and organize the
+pieces properly since the knight on a3 is misplaced, so White can only do one
+of these things which is not enough to gain an advantage.} 11. Be3 (11. Bf4 {
+In this case, d6-d5 is a bit more difficult to play successfully.} Bb7 12. Qd2
+(12. Re1 Ne5 13. Bf1 Rc8 14. Rc1 h6 $5 15. Bg3 g5 16. Rc2 h5 $132) (12. Rc1 Rc8
+13. Qd2 Ne5 14. Rfd1 Qc7 $13) 12... Ne5 {The knight is comfortable on the
+e5-square since it can't be chased away with f2-f4. Additionally, the move Ng6
+can come with tempo in some cases.} 13. Rfd1 (13. f3 Ng6 14. Be3 {Fedorov -
+Svetushkin, Romania 2009} d5 $5 {Black takes over the initiative.} 15. exd5
+exd5 16. cxd5 b5 $36) 13... Qc7 (13... Nxe4 $2 14. Nxe4 Bxe4 15. Qe3 $18) 14.
+Qd4 (14. f3 Rad8 $1 15. Rac1 Ng6 16. Bg3 (16. Be3 d5 17. cxd5 Bd6 $36) 16...
+Nh5 17. Bf2 Nhf4 $15 {Black has the initiative and not only d6-d5 is an idea
+in this position, but also f7-f5 can be considered in order to make progress
+with Black.}) 14... Rfd8 $13 {h6-g5 is an idea for Black, while White's pieces
+aren't coordinated very well, so Black has good counterplay.}) (11. f4 {
+This doesn't prevent Black's typical pawn break:} d5 $5 (11... Bb7 {This move
+is also possible.}) 12. e5 Ne4 $13) (11. Re1 Bb7 12. Bf1 Rc8 13. b3 {Geller -
+Cramling, Aruba 1992} Ne5 $5 (13... d5 $11) 14. Bb2 Nfg4 $5 15. h3 Nxf2 16.
+Kxf2 Bh4+ 17. Kg1 f5 $44) 11... Bb7 {Black will prepare the pawn break d6-d5
+in order to equalize the game.} 12. Qb3 {This is the main move, putting
+pressure on the b6-pawn and trying to force the knight to retreat from the
+f6-square.} (12. f3 {A prophylactic move, defending the e4-pawn in advance.}
+Re8 {[%cal Gd6d5] Preparing d6-d5 which is hard to prevent with White.} 13. Bf2
+$146 (13. Na4 Nd7 {White managed to force Black to retreat the knight from f6
+but White's knight also moved and stopped controlling the d5-square.} 14. Qd2 (
+14. Nxb6 $6 Nxb6 15. Qb3 Nd7 $1 {White manages to win a pawn but it will
+backfire.} 16. Qxb7 Nc5 17. Bxc5 {17.Qxc6 Rc8 traps the queen.} dxc5 18. Qxc6
+Qd4+ 19. Kh1 Qxb2 $15 {Black wins back the piece and has a better position.})
+14... d5 $5 {This move works well once again.} 15. cxd5 exd5 16. Qxd5 Qc7 $1
+17. Rad1 Rad8 18. Nc3 b5 19. Qb3 Nf6 $44) (13. Qb3 d5 $1 14. Bxb6 Na5 $1 $146 {
+This is a very good tactical resource for Black.} (14... Qb8 15. cxd5 exd5 16.
+Nxd5 $16 {Stein - Taimanov, Moscow 1963} (16. exd5 $16)) 15. Bxd8 (15. Bxa5
+Qxa5 16. cxd5 (16. Qxb7 Rab8 17. Qc6 Bxa3 18. bxa3 Qxc3 19. cxd5 Qe3+ 20. Rf2
+exd5 $36) 16... exd5 17. e5 (17. Qxb7 Qc5+ 18. Kh1 Reb8) 17... Bxa3 18. bxa3 (
+18. Qxa3 Qxa3 19. bxa3 Rxe5) 18... Rac8 $132) 15... Bc5+ 16. Kh1 Nxb3 17. axb3
+Raxd8 {Black's bishop pair and the poor placement of White's knights give
+Black sufficient compensation.} 18. e5 Nd7 $44 19. f4 d4 20. Na4 Be7 {Black
+has ideas like g7-g5 or f7-f6.} 21. Bf3 Bxf3 22. Rxf3 f6 $1 23. exf6 gxf6 {
+The passed pawns in the center can become quite dangerous.}) (13. Qd2 d5 14.
+cxd5 exd5 15. exd5 Nb4 16. d6 Bf8 $5 $146 17. Rfd1 b5 $44) (13. Qe1 d5 $5 14.
+cxd5 exd5 15. Rd1 Qc7 16. Nxd5 (16. Rxd5 $6 b5) 16... Nxd5 17. Rxd5 Nb4 18. Rd2
+b5 $44) 13... Rc8 14. Rc1 Ne5 15. Qd4 Ned7 $13) (12. Rc1 Ne5 13. Qd4 (13. f3
+Re8 {Black is preparing to play d6-d5 soon.} (13... d5 $6 14. cxd5 exd5 15. f4
+{White is better in this position.}) 14. Bd4 (14. Qb3 Ned7 15. Rfd1 {
+Transposes to 12.Qb3.}) (14. Qe1 d5 $1 $132) 14... Nc6 15. Bf2 d5 16. exd5 exd5
+17. cxd5 Nb4 18. d6 (18. Qb3 {Beliavsky - Liberzon, Baden 1980} b5 $1 19. Rfd1
+Bd6 $44) 18... Qxd6 19. Qxd6 Bxd6 20. Nc4 Bf4 21. Rcd1 Nxa2 22. Nxa2 Rxe2 $11)
+(13. f4 Ng6 14. Qd3 {Sengupta - Neelotpal, Mumbai 2011} (14. Qc2 Rc8 {[%cal
+Gb6b5]} 15. Qb1 {Salem - Wojtaszek, Tromsoe 2014} d5 $5 16. e5 Ne4 $15) 14...
+Re8 {[%cal Ge6e5]} 15. Kh1 Bf8 $13) 13... Qb8 $5 $146 {[%cal Ge5g4] Black's
+idea is to play Neg4 at some point.} 14. Rfd1 {This prevents Black's idea of
+Neg4.} Rd8 $132 {The ideas of d6-d5 or b6-b5 provide Black with enough
+counterplay.} (14... Neg4 15. Bg5)) (12. f4 Re8 (12... d5 13. cxd5 (13. e5 $6
+d4 $1 $17) 13... exd5 14. Nxd5 Nxd5 15. Qxd5 Qxd5 16. exd5 Nb4 17. d6 $1 (17.
+Bxb6 Bxd5) 17... Bxd6 18. Nc4 $14) 13. Bf3 {White prevents the move d6-d5 but
+Black can play another typical idea in this position:} e5 $5 (13... Rc8 $5 $13)
+14. Nd5 (14. f5 Nd4 $36 {[%cal Gb6b5] The knight on d4 is quite strong and
+b6-b5 becomes a possible idea for Black.}) 14... exf4 15. Bxb6 (15. Bxf4 Ne5
+$15) 15... Qd7 16. Nxf4 (16. Nc7 {White can win the exchange but it doesn't
+promise White an advantage.} Ne5 17. Nxe8 Rxe8 18. Bd4 g5 $44) 16... Rab8 {
+Black intends to play Ba8 and to put pressure down the b-file.} 17. Nd5 (17.
+Qd2 Ne5 $44) 17... Ba8 $44) (12. Qd2 Ne5 13. f3 d5 14. exd5 (14. cxd5 exd5)
+14... exd5 15. cxd5 (15. Nxd5 Bxd5 16. cxd5 Nxd5 17. Bf2 Bg5 18. Qd1 Nf4 $36)
+15... b5 16. Rfd1 Qb8 $132) 12... Ne5 $5 {Black doesn't need to protect the
+b6-pawn.} (12... Nd7 {This used to be played almost automatically in the
+previous years, but after this move, White will follow up with Qc2 and will
+place a rook on the d-file, so it will be very difficult to execute the d6-d5
+pawn break. White has a minimal but long-lasting advantage.}) (12... Na5 13.
+Qxb6 Nxe4 14. Nxe4 Bxe4 {Black exchanged a flank pawn for a central pawn but
+it's not enough to gain equality since the knight on a5 is misplaced.} 15. Qxd8
+Bxd8 16. Rad1 $14 {Karpov - Kasparov, Moscow m(3) 1984}) 13. f3 (13. f4 Ng6 $5
+14. Bxb6 (14. Bd3 b5 $5 $36 {This is a typical pawn break for Black.} 15. cxb5
+axb5 16. Naxb5 $6 Ng4 $17) (14. f5 Ne5 15. fxe6 fxe6 16. c5 d5 $1 $36) 14...
+Qd7 $44 {Black has a long-term compensation.} (14... Qc8 $132)) (13. Bxb6 Qd7 {
+The e4-pawn is under attack.} 14. f3 (14. Bd4 Nxe4 15. Nxe4 Bxe4 16. Qe3 Qb7
+17. c5 Ng6 18. cxd6 Bxd6 $132 {It's Black who is trying to play for an
+advantage in this position.}) 14... Rfb8 $44 {The bishop on b6 is unstable and
+in order to unpin, White has to find the only move:} 15. Nd1 $1 d5 {This
+standard pawn break works very well in this position because of the strange
+placement of both White knights.} (15... Bc6 16. Qe3 $14 {White unpins
+successfully and Black doesn't have enough compensation for the pawn.})) 13...
+Ned7 {Black managed to defend the b6-pawn and keep the knight on f6 at the
+same time, so the move d6-d5 isn't a threat yet but it will be at some point
+soon.} 14. Rfd1 (14. Rad1 Re8 15. Bf2 Rc8 $13) 14... Re8 15. Rac1 {Gufeld -
+Osnos, Tbilisi 1967} (15. Bf1 Qc7 16. Rac1 Rac8 17. Kh1 {Lobron - Tal, Luzern
+1982} g5 $5 $146 {Pushing the g-pawn is an idea in the Hedgehog pawn structure
+that was shown by Fischer, and here it works very well. Black intends to play
+g5-g4, aiming to open up the h1-a8 diagonal.} 18. h3 (18. Bxg5 $2 Ng4 19. Bxe7
+Nf2+ 20. Kg1 Qc5 $19) 18... Kh8 {Preparing Rg8 and h7-h5 with the idea to push
+g5-g4.} 19. Bxg5 (19. Qc2 Rg8 {[%cal Gh7h5,Gg5g4] White's nineteenth move
+didn't do anything to prevent Black's plan.}) 19... Ng4 20. Bxe7 Nf2+ 21. Kh2
+d5+ 22. Kg1 Qg3 23. Ne2 Nxh3+ $11 {With a draw by perpetual check}) 15... Bf8
+$5 $146 {[%cal Gd6d5] d6-d5 already becomes a realistic idea for Black.} 16.
+Bf1 d5 $5 17. cxd5 exd5 18. Nxd5 Bxd5 19. exd5 Nc5 $44 {This is a typical
+scenario where White won a pawn but Black has control over the dark squares
+and good counterplay for the pawn.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 1"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Alexander Khalifman"]
+[SetUp "1"]
+[FEN "r3k2r/1pqbbpp1/p1nppn2/8/3NPPP1/2N1BB1p/PPP2Q1P/R4RK1 b kq - 0 14"]
+[PlyCount "3"]
+[EventDate "2023.??.??"]
+
+{[#] Black to move} 14... g5 $1 {A typical break! Black is fighting for the
+e5-square.} 15. fxg5 Nh7 $13 {Black still has the option of castling queenside
+and with a complicated position ahead, Black can also try to fight for the
+advantage.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 2"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Alexander Khalifman"]
+[SetUp "1"]
+[FEN "2r1k2r/1p1b1ppp/p3p3/N3P3/2pBnP2/P1P5/2P3PP/2KR3R b k - 0 18"]
+[PlyCount "7"]
+[EventDate "2023.??.??"]
+
+{[#] Black to move} 18... b6 $1 19. Rhe1 {19.Bxb6 can be met with 19... Nxc3.}
+bxa5 20. Rxe4 Bc6 21. Re2 Bd5 $11 {Shirov - Movsesian, Loo 2014} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 3"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Alexander Khalifman"]
+[SetUp "1"]
+[FEN "r1b1k2r/2qpbppp/p3pn2/4n3/Np1NP1P1/4BP2/PPP2Q1P/2KR1B1R b kq - 0 12"]
+[PlyCount "9"]
+[EventDate "2023.??.??"]
+
+{[#] Black to move} 12... Qa5 13. b3 Nexg4 14. fxg4 Nxg4 15. Qg3 Nxe3 16. Qxe3
+Bg5 $19 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 4"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Alexander Khalifman"]
+[SetUp "1"]
+[FEN "r3kb1r/1bqp1ppp/p3pn2/1p6/2nNPP2/P1NB4/1PP3PP/R1BQ1R1K b kq - 0 12"]
+[PlyCount "3"]
+[EventDate "2023.??.??"]
+
+{[#] Black to move} 12... h5 $1 13. h3 h4 $36 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 5"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Alexander Khalifman"]
+[SetUp "1"]
+[FEN "r3kb1r/1bqp1pp1/p3pn1p/1p6/3QP1PP/2N1BP2/PPP5/1K1R1B1R b kq - 0 12"]
+[PlyCount "11"]
+[EventDate "2023.??.??"]
+
+{[#] Black to move} 12... Rc8 {[%csl Gc2][%cal Gb5b4] White isn't on time to
+play g4-g5 since the prophylactic move h7-h6 works perfectly well, so White
+has to react to Black's b5-b4 threat.} 13. Bd3 Bc5 14. Qxc5 Qxc5 15. Bxc5 Rxc5
+16. a4 bxa4 17. Nxa4 Rc7 $11 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 6"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Alexander Khalifman"]
+[SetUp "1"]
+[FEN "r3k2r/1bqp1ppp/p1n1pn2/1pb1P3/3N1P2/P1N1B3/1PP1B1PP/R2Q1RK1 b kq - 0 11"]
+[PlyCount "11"]
+[EventDate "2023.??.??"]
+
+{[#] Black to move} 11... Qb6 $1 12. Bf3 (12. exf6 Nxd4 $17) 12... Bxd4 13.
+Bxd4 Nxd4 14. Bxb7 Nf5+ 15. Rf2 Qxb7 16. exf6 gxf6 $17 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 7"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Alexander Khalifman"]
+[SetUp "1"]
+[FEN "r1b1kb1r/ppqp1ppp/2n1pn2/8/3NPP2/2N5/PPP1B1PP/R1BQK2R b KQkq - 0 7"]
+[PlyCount "11"]
+[EventDate "2023.??.??"]
+
+{[#] Black to move} 7... Nxd4 8. Qxd4 Bc5 9. Qd3 d5 $1 {This is a very strong
+pawn sacrifice.} 10. e5 (10. exd5 O-O $1 11. Be3 {If White captured on e6 too
+with 11.dxe6, Black would have fantastic compensation after 11...Bxe6.} Bxe3
+12. Qxe3 Nxd5 13. Nxd5 exd5 $11 {Black intends to continue with Bf5 next.})
+10... Ne4 $1 {Continuing in the same sacrificial manner.} 11. Nxe4 (11. Be3
+Bxe3 12. Nxe4 {This was White's idea.} Qb6 13. Nd6+ {Tomczak - Landa, Germany
+2015} Kf8 $132 {The bishop on e3 is quite strong while the knight on d6 seems
+active but it doesn't do much.}) 11... dxe4 12. Qxe4 Bd7 $44 {Black's bishops
+are quite strong and Black has excellent compensation, especially considering
+that White has difficulties with the king in the center too.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 8"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Alexander Khalifman"]
+[SetUp "1"]
+[FEN "r1b1k2r/1pqpbppp/p1n1pn2/8/3NP1P1/2N1B3/PPP1BP1P/R2Q1RK1 b kq - 0 9"]
+[PlyCount "5"]
+[EventDate "2023.??.??"]
+
+{[#] Black to move} 9... h5 $1 10. gxh5 (10. g5 Ng4 $17) 10... Nxh5 $36 11.
+Bxh5 g6 {It's clear that it's Black who has the advantage.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 9"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Alexander Khalifman"]
+[SetUp "1"]
+[FEN "3r1rk1/2q2p1p/p3p1p1/1pn1P2P/6R1/3B2Q1/PPP3P1/5RK1 b - - 0 22"]
+[PlyCount "7"]
+[EventDate "2023.??.??"]
+
+{[#] Black to move} 22... f5 $1 23. exf6 Qxg3 24. Rxg3 Nxd3 25. cxd3 Kf7 $11 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 10"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Alexander Khalifman"]
+[SetUp "1"]
+[FEN "r1b1k2r/1pq2ppp/p2p4/4p3/N2bP1n1/3Q2PP/PPPB1PB1/R4RK1 b kq - 0 14"]
+[PlyCount "5"]
+[EventDate "2023.??.??"]
+
+{[#] Black to move} 14... Bd7 $1 15. Nc3 Nf6 16. a4 Rc8 $15 {Unzicker - Hamann,
+Copenhagen 1967} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 11"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Alexander Khalifman"]
+[SetUp "1"]
+[FEN "r3kb1r/1bq2ppp/p3p3/1p2P3/3B2n1/2NB4/PPP1Q1PP/R3K2R b KQkq - 0 14"]
+[PlyCount "13"]
+[EventDate "2023.??.??"]
+
+{[#]} 14... O-O-O $1 {This is a very good tactical resource.} 15. Qxg4 h5 16.
+Qf4 g5 {Black will win back the minor piece.} 17. Qf6 (17. Qe3 $6 Rxd4) 17...
+Rh6 18. Qxg5 Rxd4 19. O-O-O Rg4 20. Qd2 Rh8 {Black's pieces are very active
+and White has to play accurately.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 12"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Alexander Khalifman"]
+[SetUp "1"]
+[FEN "2r1kbnr/1b1p1ppp/p1q1p3/1p6/4PP2/2NB4/PPPBQ1PP/2KR3R b k - 0 11"]
+[PlyCount "3"]
+[EventDate "2023.??.??"]
+
+{[#] Black to move} 11... b4 12. Nd5 {This move may seem tempting, but Black
+has a good reply:} (12. Nb1 Qa4 $17) 12... Qa4 $1 $17 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 13"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Alexander Khalifman"]
+[SetUp "1"]
+[FEN "rqb1k1nr/1pNp1ppp/1Bn1p3/b7/4P3/2P5/PP3PPP/R2QKB1R b KQkq - 0 11"]
+[PlyCount "11"]
+[EventDate "2023.??.??"]
+
+{[#]} 11... Qxc7 12. Bxc7 Bxc7 {Black's three minor pieces will be stronger
+than the queen.} 13. Qg4 (13. g3 Nf6 14. Bg2 O-O 15. O-O b5 $15) 13... g6 14.
+Bb5 (14. Bc4 Kf8 15. O-O d5 $36) (14. Bd3 Kf8 15. O-O Kg7 16. f4 d5 $15) 14...
+h5 15. Qe2 (15. Qg5 Kf8 16. O-O Kg7 $15) 15... Nf6 16. O-O O-O $15 {Black will
+continue with d7-d5 next and it's likely that it will be Black who has a
+dangerous attack.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 14"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Alexander Khalifman"]
+[SetUp "1"]
+[FEN "r1bqkbnr/pp1p1ppp/2n1p3/8/3NP3/6P1/PPP2P1P/RNBQKB1R b KQkq - 0 5"]
+[PlyCount "9"]
+[EventDate "2023.??.??"]
+
+{[#] Black to move} 5... d5 6. Bg2 dxe4 7. Nxc6 Qxd1+ 8. Kxd1 bxc6 9. Bxe4 Bb7
+$11 {The inactive White pieces fully compensate for Black's weakened pawn
+structure, and in fact, the statistics are in Black's favor in this position.}
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 15"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Alexander Khalifman"]
+[SetUp "1"]
+[FEN "r2q1rk1/pb2bppp/1pnppn2/8/2P1PP2/2N1B3/PP2B1PP/RN1Q1RK1 b - - 0 11"]
+[PlyCount "9"]
+[EventDate "2023.??.??"]
+
+{[#] Black to move} 11... d5 12. e5 $2 d4 13. exf6 Bxf6 14. Bf2 dxc3 15. Nxc3
+Qe7 $17 *
+

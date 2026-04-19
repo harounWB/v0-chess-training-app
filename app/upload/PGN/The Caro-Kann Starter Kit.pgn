@@ -1,0 +1,676 @@
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Main Level"]
+[Black "Introduction"]
+[Result "*"]
+
+{ Welcome to the wonderful world of the Caro-Kann.  It is one of the 'Big four' defences against 1. e4  (the others being the French, Sicilian and ...e5)  , but until recently has always been rather in their shadow.  As sharper variations get refuted, or analysed out to a draw though, the Caro has emerged more and more as a serious winning attempt for Black.  Let's look at the starting moves. }
+1. e4
+{ White starts by staking a direct claim in the centre.  Left to his own devices, he will consolidate it with 2. d4  (and perhaps c4 and f4 as well)  .  Black can try conceding the centre and nibbling away at it hypermodern style, but if he wants to contest it head on he has to challenge at least one of these pawns. }
+1... c6
+{ In the French and the Caro-Kann, Black chooses to challenge the White e- pawn with his d- pawn. Like the Slav and the QGD, these are 'light square' openings.  Typically they tend to be solid, but often concede White some kind of space advantage.  They are also often associated with a struggle to find a good home for the 'bad' Black light square bishop.  Black could play 1...d5 straight away and liquidate the centre - the Scandinavian defence.  Instead, he prefaces the move with ...c6, hoping to keep a pawn on the d5 square, or, in the case of the classical to gain time hunting down a knight on e4.  After ...dxe4, Nxe4  . }
+2. d4
+{ White can duck the challenge with 2. d3, or 2. Nc3 and 3. Nf3, but the critical lines stem from 2 d4. }
+2... d5
+{ And after d5, White has a choice:  He can support the centre with f3, but this is awkward.  He can support the e- pawn with a knight on  c3  or  d2  , but then Black exchanges and gains time on the knight on  e4  .  With the centre open, his light square bishop has a relatively easy time developing, and although White gets to tickle it for a few moves it usually ends up swapped off for its valuable counterpart.  Black then puts his pawns on light squares, and all his pieces are good.  Most challenging, these days is for White to respond with e4 - e5.  Black then has two major attempts - he can immediately attack the centre with c6- c5, or he can develop the bishop with Bf5 and hope to follow up with e6, knights somewhere, and eventually c5 and/or f6 breaks.  Both approaches are viable. The closed   Bf5  lines are thematically richer though, and more theory intense.  They are traditionally regarded as the 'main' lines, and the ones I have chosen to examine here.  Black's bishop develops quickly to  f5  , but it is far from 'safe'.  White tries all sorts of different means to try to exploit it as exposed.  Meanwhile, he can try to cramp Black, and eventually attack him on the kingside  (with h4 and g4 or f4, g4 and f5)  , the queenside  (with a4)  or in the centre  (with c4, especially once Black has played ...c5 himself)  .  If White doesn't play actively however, and especially if he exchanges his light squared bishop for no good reason, he can find his position lifeless and often drifting into significantly worse. This is particularity common in low level chess, where if anything Black outscores White in this opening. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Advance Variation"]
+[Black "The Short System"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5
+{ A few decades ago the advance variation was seen as eccentric and harmless; a poor relation to the advance French. And this can be the case if White plays without a clear plan in mind;  in particular, if he mindlessly swaps his light squared bishop without a concrete reason he can drift into a worse position very easily - Black will play c5 and have easy pressure on  d4  and  e5  for no real compensation, while White's dark square bishop can be bad.  These days however, the advance is seen as the critical test.  White has some concrete ideas and Black needs to know some theory to meet them.  A number of books recommend systems with   3.c5  here. It is a good alternative to the 'main' lines, and works especially well if White avoids the critical 4  dxc5.  After  4.dxc5  ,  4...e6  is a good move, though beware  5.a3.  But I have tried in vain to get   3.c5  4.dxc5  Nc6  to work. The rarely played  (thus far!)  5.f4  seems to be seriously better for White.   So I have opted for the traditional main line,   3.Bf5.   The apparently tame looking approach, with  Nf3  ,  Be2  and  O-O  is the current main line. It is the brain child of Nigel Short, and bears his name. It is also a favourite of the Leela bot.  
+Short's original interpretation used to involve the  c3  move, but the modern approach is more flexible and will often involve early breaks with  c4  - especially when Black starts to open the position himself. So Black needs to be careful.  Still, Black has numerous options against the Short system.  4.Nf3  e6  5.Be2  c5  is a big one;  3.Bf5  4.Nf3  e6  5.Be2  Ne7  with the idea of  6.O-O  c5  is very popular at the moment.  The combination Nd7, Ne7 and h6 could make a reasonable claim to being the third 'main line', and it is what we will look at here. }
+3... Bf5 4. Nf3 e6 5. Be2
+{ It is worth thinking about the practical effects of Black's space disadvantage here. It causes 4 niggling problems:  The difficulty in finding good squares for all his pieces, particularly his king's knight; the vulnerability of his light squared bishop to attack; the occasional weakness of the queenside due to the absence of the bishop; and a delay in development as he tries to solve these problems.  So Black needs to gain some space somewhere. The trouble is, any attempt to do so tends to open things up for White's better placed pieces.  White on the other hand has two conflicting goals of his own - he'd like to keep Black as bottled up as possible, but he'd also like to open things up so that these well placed pieces of his can actually get at some targets.  In practice this usually means a break with c4 and or f4- f5.  And when Black is opening the position, White needs to respond vigorously.  If Black manages to solve the problems above, then a lingering White space advantage does not tend to cause him undue problems.  For example, here is an early treatment of the Short system:   5...c5  6.O-O  (Be3! with the idea of an early c4 break is much more testing)  Nc6  7.c3  cxd4  8.cxd4  Nge7  9.Nc3  Nc8!  (Black solves the problem of his king's knight)  10.Be3  Nb6  11.Rc1  Be7  and Black is fine. }
+5... Nd7 6. O-O h6
+{ Making a retreat square for the light square bishop, but also often associated with a more enterprising idea. }
+7. Nbd2
+{ White's standard deployment in these lines is N-d2-b3 to clamp the  c5  square, along with Bd2 and possibly Rc1 and/or Ba5. }
+7... Ne7 8. Nb3 g5
+{ 8...Bh7 is also very popular and playable too.  But g5 is the main line here, despite its initially odd appearance. }
+9. Ne1
+{ White routes his knight to  d3  , dodging any ...g4 hits, further clamping c5 and freeing his f- pawn. }
+9... Qc7 10. Nd3 b6
+{ Alternatively, Black can play ...Ng6 here, and if Ne1  (threatening g4, winning the bishop on f5)  , ... Ne7 with a repetition.  If he doesn't want that, he needs to keep the White knights out of c5.  O-O-O for instance would be a mistake because of Ndc5. }
+11. Be3 Bg7
+{ White decides not to leave Black quietly to his own devices.  Play gets very sharp now; there have been a number of very high level games, almost all of them ending in draws.  At lower levels though, this is very much 'three results' chess. }
+12. f4 c5 13. dxc5 gxf4 14. cxb6 axb6 15. Bxf4 Ng6 16. Bg3 O-O 17. Nd4 Be4
+{ White usually continues c3 or a4 here. Both can be met by Ngxe5, and the game continues... }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Advance Variation"]
+[Black "Tal variation with 5. c4 and 7. Bg5"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4
+{ This is sometimes known as the Tal variation, after he played it in some high profile games against Botvinnik.  It has a number of sneaky ideas.  For instance,   4...e6??  now loses the bishop to  5.g4  Be4  6.f3  .  And if you make a hideyhole for the bishop with   4...h6  you can run into  5.g4  Bh7?!  6.e6   While the Tal system is respectable and scores well for White, there are a number of reasonable ways to meet it.  The main line has always been 4...h5. }
+4... h5 5. c4
+{ After ...h5, White in turn has a number of possible interpretations.  The scariest involve an early Bg5 - it is important to learn how to meet those.  But a large number of games have been played with the move 5 c4 - White is trying to claim that the weakness on g5 gives him an improved version of the 4 c4 line.  If you know a few concrete lines you should quite enjoy facing this approach. }
+5... e6 6. Nc3 Ne7
+{ The line branches here, according to whether White plays the immediate Bg5 or throws in Nge2 first.  It is arguable which is the 'main line'; Nge2 scores better, but both of them can quickly go horribly wrong for White. }
+7. Bg5 dxc4
+{ Black gives up his  d5  pawn here to win the  d5  square for his pieces and to get pressure on the  d4  pawn and the d- file. }
+8. Bxc4 Nd7 { We will win a tempo on the Bc4 in just a second... } 9. Nge2 f6
+{ But first we take time out to break up White's centre. } 10. exf6 gxf6 11.
+Be3 Nb6 12. Bb3 Nbd5
+{ Either knight can go here. The engines seem to prefer Nbd5, and it scores a little better. }
+13. Ng3
+{ Black has a comfortable position already.  But thus far, White players almost always continue Ng3? here, and it seems to be a rather nasty mistake. }
+13... Nxe3 14. fxe3 Bg4 15. Qd2 f5
+{ White can't take on e6   16.Bxe6??  Qd6  forks two pieces  .  Black will follow up with Nd5, and probably Bd6, Qe7 and O-O-O.  He appears to be seriously better already. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Advance Variation"]
+[Black "Tal variation with 5. c4 and 7. Nge2"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4
+{ This is sometimes known as the Tal variation, after he played it in some high profile games against Botvinnik.  It has a number of sneaky ideas.  For instance,   4...e6??  now loses the bishop to  5.g4  Be4  6.f3  .  And if you make a hideyhole for the bishop with   4...h6  you can run into  5.g4  Bh7?!  6.e6  .  While the Tal system is respectable and scores well for White, there are a number of reasonable ways to meet it.  The main line has always been ...h5. }
+4... h5 5. c4
+{ After ...h5, White in turn has a number of possible interpretations.  The scariest involve an early Bg5 - it is important to learn how to meet those.  But a large number of games have been played with the move 5 c4 - White is trying to claim that the weakness on g5 gives him an improved version of the 4 c4 line.  If you know a few concrete lines you should quite enjoy facing this approach. }
+5... e6 6. Nc3 Ne7 7. Nge2 Nd7 8. Ng3 Bg6 9. Bg5 Qb6
+{ White already has to be careful. } 10. Qd2 dxc4 11. Bxc4
+{ ... And this isn't.  White should probably play   11.Nge4  here  (looking at)  d6  , and be slightly worse after  11...Bxe4  12.Nxe4  Nf5  =+.  Black can also meet   11.Nge4  with  11...Nd5!  12.Bxc4  Bxe4  13.Nxe4  f6  and this is possibly even stronger.  11. Bxc4 is almost always played - what could be more natural - but runs into immediate problems. }
+11... O-O-O
+{ Rd8 may be even better, but we will stick with the move that everyone plays.  Black is threatening to take on  e5  due to the d- file pin.  This is not easy to meet - White often gives up his b- pawn with   12.Qe3  , but after  12...Qxb2  13.O-O  Nb6  he doesn't really have anything to show for it apart from a lousy practical score.  White's best chance is the tactical defence... }
+12. Na4 Qc7 13. Rc1
+{ And now   13...Nxe5?!  runs into  14.Bf4.  But after.... } 13... a6
+{ White has to find } 14. O-O Nxe5 15. b3 { 15.Bf4  Nxc4  wins for Black. }
+15... Ng4 16. Nc5 { ... to stay on the board.  And thus far, nobody has. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Advance Variation"]
+[Black "The Caveman"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4
+{ This is sometimes known as the Tal variation, after he played it in some high profile games against Botvinnik.  It has a number of sneaky ideas.  For instance,   4...e6??  now loses the bishop to  5.g4  Be4  6.f3  .  And if you make a hideyhole for the bishop with   4...h6  you can run into  5.g4  Bh7?!  6.e6  .  While the Tal system is respectable and scores well for White, there are a number of reasonable ways to meet it.  The main line has always been ...h5. }
+4... h5 5. Bg5
+{ This is a fun little line.  Alphastar has written a book about it here.  I won't spoil things - if you want to see his lines, you'll have to buy his book :  For now I will just point out that the refutation is supposed to start... }
+5... Qb6
+{ Let's not play ..e6?? in this position.  Bullet chess premovers beware! } 6.
+Bd3
+{ And now we can take on  d3  , then  b2  , and then  a1  .  And we won't.  Because we like the guy on  e8  .    6.Bxd3  7.Qxd3  e6  also  takes us somewhere we don't want to go.  So, instead... }
+6... Qxd4 { Now if   7.Bxf5  we have  7...Qxe5  8.Ne2  9.Qxf5 } 7. Nf3 Qg4
+{ Black is supposed to be fine here.  Or more than fine.  What do you think....? }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Advance Variation"]
+[Black "Dodging Morozevich"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4
+{ This is sometimes known as the Tal variation, after he played it in some high profile games against Botvinnik.  It has a number of sneaky ideas.  For instance,   4...e6??  now loses the bishop to  5.g4  Be4  6.f3  .  And if you make a hideyhole for the bishop with   4.h6  you can run into  5.g4  Bh7?!  6.e6  .  While the Tal system is respectable and scores well for White, there are a number of reasonable ways to meet it.  The main line has always been ...h5. }
+4... h5 5. Bd3 Bxd3 6. Qxd3 e6 7. Bg5 Be7
+{ Gah.  White is hoping for   7.Qb6  , when he intends  8.Nbd2  , and if possible Morozevich's idea  8.c5  9.c4  Qxb2  10.Rd1!!   Way too much fun, most of it his.  Instead, we have a noxious spoilsport move. }
+8. Nf3 Nh6
+{ Don't take on  g5  here.  Theoretically this is White's 'bad' bishop; concretely, White will recapture with hxg5! and then follow up with g4, probably winning. }
+9. Nc3 Nf5 10. Ne2 c5 11. dxc5
+{ White can also play   11.c3  cxd4  here.  Either way he gets one of those 'slightly better' positions where in practice his supposed advantage makes very little difference. }
+11... Qa5+ 12. c3 Qxc5 13. O-O Nc6
+{ White has more space; Black is more solid.  Anything could happen.  Including everyone dying of boredom. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Advance Variation"]
+[Black "The tactical 4. Nc3."]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nc3
+{ Back in the Early 80s, I was in a very famous...attempt to blow the Caro away. With players like Shirov, Nunn and Kotronias leading the charge. White guns for the bishop , hoping to cause it maximum inconvenience with g4 and h4.  But first, he takes away the e4 square.  This approach dominated for a decade, but Black eventually found several satisfactory ways of meeting it, and by the 1990s it was eclipsed by the Short system. }
+4... e6 5. g4 Bg6 6. Nge2
+{ Black can meet h4 with ...h5 and White needs to be ready for this.  Nge2 is the traditional way of preparing the attack, but it gives Black a tempo to strike back with either ...f6, or the main line, ...c5. }
+6... c5 7. h4 h5 8. Nf4 Bh7 9. Nxh5
+{ Here we go.  White wins a pawn or two.  But his centre collapses, and he tends to get trapped in the rubble. }
+9... Nc6 10. dxc5
+{ Instead, White has   10.Bb5  allowing  10...cxd4  11.Qxd4  Nge7  which has turned out to be better for Black, both analytically and practically.  The text isn't much better. }
+10... Bxc5 11. Bb5 { 11.Nxg7+?  Kf8  12.Nh5  d4  is bad for White. } 11... Qc7
+12. Bxc6+ { 12.Nxg7??  is similar to before, but even worse here. } 12... Qxc6
+13. Qf3 O-O-O
+{ Black is fine after  13...Kf8  , for example  14.Bg5  Bd4!?  , But there is also }
+14. Nxg7 Ne7 { Planning ...d4 and not being scared of an exchange of queens. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Advance Variation"]
+[Black ""g" is for "gamble."]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. g4
+{ "g" is for "gamble".  It certainly isn't for "good". } 4... Be4
+{ We will follow So, Shankland and Artemiev. } 5. f3 Bg6 6. h4 h5 7. e6
+{ The big idea. } 7... Qd6 8. exf7+ Bxf7 9. Ne2 hxg4 10. fxg4 Nd7 11. Bf4 e5
+12. dxe5 Nxe5 13. Bxe5
+{ Instead White should perhaps try to rustle up something with Rh3, though Nf6 looks like a good response. }
+13... Qxe5 14. Qd4 Qxd4 15. Nxd4 O-O-O { Ok... isn't White just losing here? }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Advance Variation"]
+[Black ""B" is for "Bad Bishop"."]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Bd3 { Uninspiring. } 4... Bxd3 5. Qxd3 e6 6. Nf3
+Qa5+
+{ We have known that trying to swap queens this way was good for Black since at least the 1920s.    Doesn't stop White players from continuing down the road to ruin. }
+7. c3 Qa6 8. Qxa6 Nxa6 9. O-O c5 10. Be3 Rc8
+{ This is one of those "equal" positions.  Where Black scores around 80%. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Advance Variation"]
+[Black "A devious move order"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nd2
+{ White fiddles with his move order. This can have independent value if we allow it to. But after.. }
+4... e6 5. Nb3 Nd7 6. Nf3 Ne7 7. Be2 h6
+{ We are back in our line against the Short system. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Advance Variation"]
+[Black "Crime doesn't pay!"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Ne2
+{ Not a bad move, but often associated with a bad idea. } 4... e6 5. Ng3 Bg6 6.
+h4 h5 7. Be2 { White should probably play Bd3 here. } 7... c5 8. c3 Nc6 9. Bxh5
+{ Larceny!  Be3 is objectively stronger, but after Qb6, practically speaking even worse.  Black scores 80% in my database. }
+9... Bxh5 10. Nxh5 cxd4 11. cxd4 g6 12. Nf4 Rxh4
+{ White is losing.  After 12 moves.  Now would be a good time to remind him that the Caro is 'solid but passive'.  It may be hard to keep a straight face though.  Bearing in mind that he is going to want to punch it. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Advance Variation"]
+[Black "Just say no to horrible, horrible pain."]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bd3 Bxd3 6. Qxd3 e6 7. Bg5 Qb6
+{ We avoid this line by playing ...Be7 here.  But it is worth seeing why.  The following is a game from the 2018 World Junior championships.  Enjoy the gore! }
+8. Nd2 c5 9. c4 Qxb2 10. Rd1
+{ This is Morozevich's big idea, rather than the more obvious Rb1.  Kind of reminiscent of the Rd1 idea in the e5 line of the Najdorf poisoned pawn.  This line was recommended in the excellent Quality Chess book by Shaw et al. and is analysed in detail there.  Black is probably just about ok, but it is very dangerous and even though he is material up he is going to suffer for a long time. }
+10... Nc6 11. Ngf3 Be7 { Probably already a misstep. } 12. O-O Bxg5 13. Nxg5
+Nge7 14. cxd5 Qxd4 15. Qf3 Nxe5 16. Qe2 Kf8 17. Nde4 Qc4 18. Qb2 exd5
+{ A fairly typical outcome.  Black has lots of extra stuff, but he is still dead lost. }
+19. Nd6 Qf4 20. Ndxf7 Nc4 21. Qxb7 Rb8 22. Qxa7 Nc6 23. Qxc5+
+{ Another good time to claim the Caro is passive, but solid.  Through the tears. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Advance Variation"]
+[Black "The Short variation:  A guide to the alternatives."]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5
+{ I have made no secret of the fact that I regard 3. e5 as the critical test of the Caro-Kann, and the Short system as probably the nastiest version for Black to face.   3...c5  is a good alternative here, providing you follow up  4.dxc5  with  e6!  I couldn't make  4...Nc6?!  work and I really don't trust it at all.   But I chose Bf5 lines because they were more historically popular, and very instructive for the Caro as a whole. }
+3... Bf5 4. Nf3
+{ Unpretentious and nasty.   4.h4  would be the other really critical test, but the line with  4...h5  5.Bd3  Bxd3  6.Qxd3  e6  7.Bg5  Be7!  seems to more or less neutralise it. }
+4... e6 5. Be2
+{ White keeps his 'good' bishop and relies on his space; he can later break with c4, or  (king's knight moves and then)  f4/g4/f5.  Black can actually have considerable trouble adequately completing his development. }
+5... Nd7
+{ 5... Nd7 has been the most popular here, though in high level play it has been superseded by 5...Ne7.  More on this later.    5...c5  is sharp and direct here and has always enjoyed a fair following. It can work well if White doesn't know what he's doing. If he does? Not so much.  6.Be3!  is critical and now Black has two major lines:  6...cxd4  7.Nxd4  Ne7  8.O-O  Nbc6  9.Bb5  a6  10.Bxc6  Nxc6  11.Nxf5  exf5  or   5...c5  6.Be3  Qb6  (sharpest)  7.Nc3!  Nc6  and now  8.Na4!  ,  8.O-O  and  8.dxc5  are all sharp, dangerous and score well for White in practice at all levels. Playable, but lots of theory to learn if you want to make this work and there will be concrete theoretical problems you have to solve. Not something I wanted to recommend, especially in a starter kit!     5...Ne7  often just transposes to the main line, but has a major branch, trying to get an improved version of the early  c5  lines.  6.O-O  (Be3 would not be well placed if Black switches back to playing 'normally)  c5!?  is met by  7.c4!  Nc6  and now  8.Na3!  or  8.dxc5!?  Playable, interesting and respectable, but a lot of concrete stuff to learn, and once again, White scores well in practice. }
+6. O-O Ne7
+{ Most common in praxis, though I gave   6...h6  in the original recommendation. That will usually transpose, and it cuts out lines with  Nh4.  White could though try to exploit it with  7.b3  Ne7  8.c4.  This is perhaps more dangerous than I originally thought; in practice, Black has done ok with  8...Bh7  9.Nc3  Nf5  , or  8....Ng6  - whether or not I really trust it is another matter. }
+7. Nbd2
+{ 7.Nh4  tries to exploit this move order. Black has most commonly meekly retreated with  Bg6  , but  7...c5!  8.c3  Be4!  9.Nd2  Nc6!  seems pretty decent. }
+7... h6
+{ There are alternatives here.  People have tried   7...c5  , and generally been hacked up by  8.c4.  This doesn't seem to be a good time for that move.     7...Nc8  would be nice if it worked - Black lets his king's bishop out and hopes to maybe move the knight again to  b6.  White can ask some questions with the rare  8. c4  (or)  8. b3  , but the most obvious problem is simply  8.a4!  Be7  (a5 would be weakening)  9.a5  +=, and while the bishop on  e7  might be happy, the knight on  c8  isn't. This was an early approach which is now mostly out of favour.   There are also minor lines like   7...Bg6  or   7...Ng6  - these don't really cause White any problems, and he is usually comforatbly better with his normal plan of Nb3, Bd2, Rc1 and c4.  But 7... h6 is clearly useful, we should be happy with it. }
+8. Nb3
+{ 8.c3  does ok, but we should be fine after  8...Bh7  or  8...g5     8.a4  is an interesting sideline; White has done well against normal play  (g5 or Bh7)  (by pushing on to)  a5  (.  But it neglects to clamp the)  c5  square, and  8...c5!  9.dxc5  Nc6  10.Nb3  Nxc5  is a good answer. }
+8... g5
+{ This is the move that a lot of newcomers to the Caro don't like.  It seems to be contrary to the 'safe and solid, if slightly worse' spirit of the opening.  But sometimes we just have to 'suck it up' and reconcile ourselves to playing good moves!  8...g5 is the most commonly played move, the computer's favourite, and scores well.  It holds the glimmer of an attack on the White king,  and clamps down to some extent on White ideas of playing f4,  but mostly it is about gaining some much needed space to deal with the kingside log jam.  If you look at computer alternatives, you usually find they want to play ...g5 in a few moves anyway.  But the move isn't strictly forced - we don't have to play it.  Let's see what happens if we don't.    8...Bg6  and   8...Ng6  simply aren't up to the task for the same reason as usual.  Moves like   8...a6   8...Rc8   8...Bg4  etc do ok some times, but their only real merit is to get the opponent out of book.    8...Qc7  is playable, and can be followed up with  9.Bd2  a5!?  10.a4  - but then it is probably best to play  10...g5  anyway. Everyone actually does.     8...Nc8  might not be so bad here.  9.a4  a5  has been tried a few times - Artemiev and Akobian have both won games like this recently. Most games have continued  10.Bd2  (natural, but not necessarily best)  Be7  11.Rc1  (I really don't like this one)  O-O  and Black is more or less ok. But I have trust issues. For instance,  10.Be3  may be better than  Bd2.  And rather than  11.Rc1?!  , White could try the immediate  11. c4.   If you play this line there  is another nasty little thing you have to watch out for:   8...Nc8  9.a4  a5  10.Bd2  Be7  11.Ne1!?  O-O??  (Black has to play c5!)  12.Bd3!!  Bxd3  13.Nxd3  , and with  Qg4  (and)  f4-f5  (coming Black is already busted.)     8...Bh7!?  is the 'big' main alternative here. The idea is to play  Nf5  (or)  Ng6  (,)  Be7  and hopefully  O-O.  The trouble is, it also gives White time to do everything he wants. For example,  9.Bd2  Ng6  (slightly more popular than)  Nf5  (, which runs into eventual g4 hits)  (and now White has a wide choice -)  10. Rc1  (,)  10. c4  and especially  10.g3  are all annoying.  Alternatively, plans with   8...Bh7  9.a4!  are also good enough for an edge.   In summary - 8...Bh7 is playable - but it certainly won't encourage you to look forward to meeting the Short variation. Solid but suffering will very much be the order of the day. }
+9. Ne1
+{ White tries   9.a4  first sometimes. you can block it with  9...a5  or simply ignore it with  9... Bg7  (and castle)  . }
+9... Qc7
+{ Note,   9...Bg7 ?!  is badly timed here. We need to keep looking at the  c5  square just a little bit longer.  10.f4!  exploits that error and while it is too early to say that Black is getting hacked up, he is certainly being attacked before he has got his counter play properly organised. }
+10. Nd3
+{ So,  f4  (is now prepared and)  Nc5   threatened. The immediate  10.f4  is not so good, as we have  10...c5!  , leading to Black wins in various recent games including Motylev - Ding, Bologan - Eljanov and Shirov - Nakamura.   However, Nc5 can be an issue.  What do we do about it? }
+10... Ng6
+{ This is an attractive solution.  We simply ignore it. And we intend to go queenside.  In the original main line, I gave   10...b6  11.Be3  Bg7  , which also scores pretty decently  (better than 50%)  (, but not as well)  .   The problem with Ng6 is that White has a forced draw.   11.Ne1!  threatens  12. g4 Be4 13. f3  trapping the bishop. Black has no option other than going back with  11...Ne7  , after which White plays  12.Nd3  again, and Black either reverts to the  b6  (line, or agrees the draw.  If White is feeling more aggressive though there is an interesting struggle ahead.) }
+11. Be3 O-O-O 12. Ne1
+{ The engine Leela find the interesting  12.Bg4  and claims a small White edge. }
+12... Ne7
+{ Even with opposite side castling, you still don't want your bishop trapped. }
+13. a4 Kb8
+{ You could make an argument for  13...f6  ,  13...Be4  (or)  13...Bg7  (here.) }
+14. a5 a6
+{ This is unclear.  Black's pieces can't easily get at White's king at the moment; his plan is to play ...f6.  White on the other hand has grabbed some space on the queenside, but it is not exactly clear how he is going to continue his attack either.  I suspect Black's position is actually a little easier to play.  
+So, in summary:  Don't be scared of g5!  It is a good move, and Black scores well with it. It also has another virtue- it is very 'move order proof'.  If you choose something else you may have problems if White fiddles with his orders, and end up outside our repertoire.  But if you are looking for a respectable alternative, you could investigate 8...Nc8, or one of the early ...c5 systems.  Both 5...c5 and 5...Ne7, 6...c5 have good theoretical reputations, if not practical scores.  Though you'll have to work.  Alternatively there is 3...c5.  It has had good coverage in recent books by Houska, Shaw  (from the White side)  and Fernadez  (available here in chessable as it happens)  .  Good luck! }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Classical"]
+[Black "Classical Main Line"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. Nc3
+{ This marks the 'classical' White treatment of the Caro-Kann.  White simply supports his e- pawn with the most natural developing move.  Unlike in the French, Black doesn't really have a good way of keeping the tension.  Besides, he'd quite like to get his bishop to f5.  So he almost always exchanges on e4 at this point. }
+3... dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6
+{ 6...h5  is extremely rare here as Black would be handing over the  g5  (square.) }
+7. Nf3 { White will hit the bishop again, but not necessarily with h5... } 7...
+Nd7
+{ Played immediately to prevent Ne5.  It is possible to allow it though, for example with   7...e6  8.Ne5  (White has to play this way or else the delay of Nd7 helps Black)  8...Bh7  9.Bd3  Bxd3  10.Qxd3  Nd7  11.f4  - Black seems to be fine here and actually outscores White after  11...Bb4  ,  11...c5  or  11...Be7. }
+8. h5 Bh7 9. Bd3 Bxd3 10. Qxd3 e6 11. Bd2
+{ Until recently,   11.Bf4  was the main line here, putting the bishop on a more aggressive diagonal. However, Black found  11...Qa5+!  12.Bd2  Bb4!  13.c3  Be7  14.c4  Qc7  and Black seems to be fine after  15.d5  cxd5  16.cxd5  Qd6!  17.Qb3  Ngf6  18.dxe6  Qxe6  19.Qxe6  fxe6  , while after  15.O-O-O  the extra  c4  move hurts rather than helps White.   So instead attention shifted to 11. Bd2, and it is currently the main line. }
+11... Ngf6 12. O-O-O Be7
+{ In the old days Black used to castle queenside and was slightly worse.  These days going kingside is much more popular. }
+13. Kb1
+{ The other big line,   13.Ne4  , can again be met by  13...Qb6!  14.Nxf6  Nxf6  15.Ne5  Rd8 }
+13... Qb6
+{ 13...O-O  is the main move, but this scores much better. It has quite a clever little idea... }
+14. Rhe1
+{ So, here is the point.  When Black plays 13 ... O-O, he has announced his King's home address perhaps a little early. White can set about trying to attack it, starting with Ne4 to free up his g- pawn.  See the informational line following  .  He would very rarely play Rhe1.  After Qb6 however, the Black king obstinately stays in the centre.  White can still try   14.Ne4  - and manages a paltry score of 35% when he does so. Black has two decent replies. Firstly,  14.Nxe4  15.Qxe4  Nf6  16.Qe2  Qb5!  offering a trade you sometimes see in the  Qa5  Scandinavian. After  17.Qxb5  cxb5  Black's pawn structure looks odd but he has a real clamp on the light squares.  More commonly, he simply plays   14.Ne4  Rd8  , and White only scores 27%! - his most common try is  15.Nxf6+  Nxf6  16.Qe2  but then Black has either  16...Qb5  again, or  16...c5.  It might be hard to claim that Black is actually better, but his position does seem easier to play.  So, instead, White normally tries to get at the king in the centre - with moves which may not be so useful if Back changes direction and castles.  The main candidates are   14.c4  and   14.Rhe1   Rhe1 looks clever because it appears to set a trap:  If  (when)  Black castles, he has Nf5, winning 'the bishop  and the pawn structure'.  However, Black can happily 'fall into it', and practice seems to show that in the resulting position he is not just equal, but better!    14.c4  is met by  14...O-O  15.Ne4   or  15.Bf4  Rad8  16.Qc2  Rfe8  15...Rad8  .  Again, White scores considerably below 50% - his attack comes slightly slower than in the main line, and he has weakened his own king. }
+14... O-O 15. Nf5 exf5 16. Rxe7 Qd8 17. Re2
+{ 17.Rde1  wins control of the e- file.... but it costs the exchange after  17...Ne4. }
+17... Ne4
+{ Black's knight is trying to claim it is at least as strong as White's rather wretched bishop.  Undermining it immediately with   18.g4?  fails after the simple  18.Nxd2+  and  19.fxg4  So White normally plays   18.Bc1  , after which a typical sequence is  18...Re8  19.g4  fxg4  20.Rxe4  Rxe4  21.Qxe4  Nf6  22.Qe5  gxf3  23.Rg1  Kh8   Another try is   18.g3  Ndf6  19.Nh4  Qd7  20.Qf3  but both  20...Qxd4  and  20...Qd5  then seem to work out well for Black.  White's best try is probably   18.Bf4!  Ndf6  19.Ne5.  Black then can  (and probably should)  claim 'Greed is good! and play  19.Nxh5  After  20.Bc1  Nhf6  21.g4  , he counter attacks with  21...c5  and has been willing to test out the pawns vs piece endgame that arises after  22.f3  Qxd4  23.Qxd4  cxd4  24.fxe4  fxe4  25.Rxd4  A particularly tricky weapon for speed chess. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Classical"]
+[Black "Tricksy Hobitsses"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. Bc4
+{ There are all sorts of versions of this.  White wants to snaffle our light squared bishop with his knight, or even better, sacrifice something on  f7  or  e6  .  This can be quite tricky. In the main lines you find in the books,  Black has to be quite careful both with his moves and his move orders.  But if you look in the databases, Black often adopts a cruder approach.  He plays Bd6 early, before Nf6, and when a White knight comes to  f4  , he chops it off.  Not a bad solution for a 'Starting out' book such as this one. }
+6... e6 7. N1e2 Bd6 8. h4 h6 9. Nf4 Bxf4 10. Bxf4 Nf6 11. Qe2 O-O 12. O-O-O
+Nbd7 13. h5 Bh7 14. Bd3 Bxd3 15. Rxd3 Nd5 16. Bd2
+{ Black can continue with ...a5, or Qc7 followed by b5 or Rae8. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Classical"]
+[Black "Classical "main" Main Line (with 13 ...O-O)"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6 7. Nf3
+{ White will hit the bishop again, but not necessarily with h5... } 7... Nd7
+{ Played immediately to prevent Ne5, though allowing it is perfectly ok. } 8.
+h5 Bh7 9. Bd3 Bxd3 10. Qxd3 e6 11. Bd2 Ngf6 12. O-O-O Be7
+{ In the old days Black used to castle queenside and was slightly worse.  These days going kingside is much more popular. }
+13. Kb1 O-O { White frees his g- pawn } 14. Ne4 c5
+{ Maybe a better try than the most common move, 14... Nxe4, after which White really does score well.  Play then usually proceeds 15 Qxe4 Nf6 16 Qe2 Qd5, and Black is more or less ok if White continues 17 Ne5 Qe4! trying to swap the queens off.  Instead, 17 Be3! Qb5 18 c4!  (Or Rd3)  keeps them on, and after 18...Qf5+ the main line is the rather odd looking 19 Ka1 c5 20 Nh4 Qh7!?  21 d5.  White may be a little better here.  There are plenty of deviations along the way, but most of them don't score well for Black. }
+15. g4 Nxg4
+{ Not really a pawn Black wants to take, but allowing g5 is even nastier. } 16.
+Qe2 { 16 Rhg1 f5  17 Qc4! is also unpleasant } 16... Qb6 17. Ne5 Ndxe5 18. dxe5
+f5 19. exf6 Nxf6 20. Rdg1 Nxe4 21. Qxe4 Bf6 22. b3 c4 23. Bxh6 cxb3 24. axb3
+{ Black is fine here - especially after 24...Qd4 25 Qxd4 when the game seems to be heading towards a draw. But it is clear that White has been making the running. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Classical"]
+[Black "Classical Alternative:  4...Nd7"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4
+{ One day, an unknown master was sitting by the fire, thinking to himself 'I'd love to play the Rubinstein French in every game.  If only it wasn't so terribly, terribly exciting!'.  He pondered the problem for many weeks, until one day, while he was doing the dishes he became inspired by the complete lack of pretty colours in the water.  And thus the ...Nd7 Caro was born.  Complete slander of course :   4...Nd7  is one of the big main lines of the Caro, and scores quite reasonably - considerably better than the Rubinstein despite the obvious similarities.  I suspect this is mostly due to the attitude of the players - Caro players being quite interested in the finesses of their opening, while most Rubinstein players are more looking to dodge theory and muddle through.  The real Rubinstein experts like Meier do pretty well.  Anyway, although Nd7 has been rather eclipsed by Bf5, it is alive and well and has been played by the world's best.  It was a big favourite of Karpov and has been the subject of an excellent recent book by Fernandez - available here on chessable.  It has one advantage that is often underestimated.  Black's wins often comes slowly - White's edge drifts away and he often goes home grumpy thinking 'I just didn't play that well this evening'.  It can be very hard to spot his mistakes, and very hard to force himself to analyse the game properly.  So he tends to keep making them. }
+4... Nd7
+{ 4...Nd7 has another advantage in low level chess - White's critical try is not obvious.  Black does very well against the obvious   5.Nf3  , e.g.  5...Ngf6  6.Nxf6+  Nxf6  7.Bc4  Bf5  8.O-O  e6  etc  and has a good handle on the old main line   5.Bc4  . Even master chess took a long time to cotton onto White's most dangerous move - 5 Ng5.  If your opponent plays this he is either booked up, or a very lucky guesser. }
+5. Ng5
+{ Actually, it isn't clear that Black is completely equal after   5.Nf3  Ngf6  6.Nxf6  either.  But he is very close. }
+5... Ngf6
+{ Black sometimes tries to avoid the main lines with   5.Ndf6  . But it is unclear this helps much after  6.N1f3  or   5...Ndf6  6.Bc4 }
+6. Bd3
+{ 6.Bc4  transposes into the old main line with  5.Bc4.  Play continues  6.e6  7.Qe2  (threatening to sac on f7 or e6)  Nb6  8.Bd3  h6  9.N5f3  c5  10.dxc5  Bxc5  11.Ne5  Nbd7  12.Ngf3  White may have a small edge, but it is certainly an elegant line for both sides.    6.Bd3  is the big idea associated with 5 Ng5; it turns out Black has to make a concession of some kind to develop properly. }
+6... e6 { 6.h6  7  Ne6!  amuses. } 7. N1f3 { 7.Qe2  Bd6  8.N1f3  transposes }
+7... Bd6 8. Qe2 h6 9. Ne4 Nxe4 10. Qxe4 Nf6 11. Qe2
+{ 11.Qh4  was a big idea here for a long time. This is meant to make  11...O-O  more or less suicidal, so Black continues  11.Qh4  Ke7.  White then has the pawn sacrifice  12.Ne5!  Bxe5  13.dxe5  Qa5+  14.c3  Qxe5+  15.Be3.  Very dangerous, but Black players seem to have come to terms with it now, at least at the top level. }
+11... Qc7 12. Bd2 b6 13. O-O-O Bb7 14. Ne5 O-O-O 15. f4 Kb8 16. Kb1 c5 17. dxc5
+Bxc5 18. Rhe1
+{ White has a nagging edge.  Though plenty of deviations along the way of course. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Classical"]
+[Black "Classical Line with 4...Nf6 5 Nxf6 gf"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Nxf6+ gxf6
+{ The 'Bronstein - Larsen' variation.  Still playable, though the main line looks rather good for White. }
+6. c3 { 6.Nf3 ?!  Bg4  is rather obliging } 6... Bf5 7. Nf3 e6 8. g3
+{ Defending against attacks along the g- file seems to be more important than the worry about ...h5, h4.  And of course, the bishop on  g2  will be very well placed for attacking Black's queenside. }
+8... Bd6 9. Bg2 Nd7 10. O-O Qc7 11. Re1 O-O-O 12. b4 Bg4 13. Qa4
+{ Black's position is not my cup of tea, personally.  Both are probably more fun when drunk. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Classical"]
+[Black "Classical Line with 4...Nf6 5 Nxf6 ef"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Nxf6+ exf6
+{ This has become rather trendy recently.  The endgame disadvantage appears obvious, and White has various scary looking attacking tries.  However, the variation is much more unclear than used to be thought, and currently isn't a bad winning attempt. }
+6. c3 Bd6 7. Bd3 O-O 8. Qc2 Re8+ 9. Ne2 h5
+{ This seems to be the big idea, replacing the rather passive   9.h6 } 10. Be3
+{ 10.O-O  is fine, but does walk into ...h4. } 10... Nd7 11. O-O-O Nf8 12. Kb1
+Be6 13. c4 Rc8
+{ This is starting to look unpleasant for White.  Would I trust 5...exf6 as a lifetime repertoire choice?  I'm not sure. I suspect White may come up with something good sooner or later.  But right now it is looking fresh and interesting. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Classical"]
+[Black "Classical main Main Line (with 13 ...O-O)"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6 7. Nf3
+{ White will hit the bishop again, but not necessarily with h5... } 7... Nd7
+{ Played immediately to prevent ♘e5, though allowing it is perfectly ok. } 8.
+h5 Bh7 9. Bd3 Bxd3 10. Qxd3 e6 11. Bd2 Ngf6 12. O-O-O Be7
+{ In the old days Black used to castle queenside and was slightly worse. These days going kingside is much more popular. }
+13. Kb1 O-O
+{ Rather than 'our' ♕b6, Black more often plays the simple 13... O-O. Perfectly respectable, but makes White's play a lot easier in my opinion. Let's see a sample line.  White frees his g- pawn }
+14. Ne4
+{ Now the most common move is   14...Nxe4  , after which White really does score well. Play then usually proceeds  15.Qxe4  Nf6  16.Qe2  Qd5  , and Black is more or less ok if White continues  17.Ne5  Qe4!  trying to swap the queens off.   Instead,   14...Nxe4  15.Qxe4  Nf6  16.Qe2  Qd5  17.Be3!  Qb5  18.c4!  (Or Rd3)  keeps them on, and after  18...Qf5+  the main line is the rather odd looking  19.Ka1  c5  20.Nh4  Qh7!?  21.d5.   White may be a little better here. There are plenty of deviations along the way, but most of them don't score well for Black. }
+14... c5 15. g4 Nxg4
+{ Not really a pawn Black wants to take, but allowing g5 is even nastier.    Now  16.Rhg1  f5  17.Qc4!  is unpleasant, but the main line is }
+16. Qe2 Qb6 17. Ne5 Ndxe5 18. dxe5 f5 19. exf6 Nxf6 20. Rdg1 Nxe4 21. Qxe4 Bf6
+22. b3 c4 23. Bxh6 cxb3 24. axb3
+{ Black is fine here - especially after   24...Qd4  25.Qxd4  Bxd4  when the game seems to be heading towards a draw. But it is clear that White has been making the running. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Panov Attack"]
+[Black "Panov attack with Bb4!"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4
+{ White is angling for an open, IQP attacking position. Black has three basic approaches against this:  ...e6 followed by Bb4 or Be7; ...Nc6 with some unique 'Panov' positions, including the infamous endgame after Nf3 Bg4; and ...g6, which scores well in practice, but is really a pretty dubious reversed Tarrasch.  Historically, ...e6 has always been slightly more popular than the other two, even if it has been rather overtaken by Nc6 in recent years.  It is also arguably the most instructive, as similar positions can arise from many other openings. }
+4... Nf6 5. Nc3 e6 6. Nf3 Bb4
+{ While it has been popular, Be7 makes things fairly easy for White.  While both are playable, Bb4 seems to be simply better, forcing White to place his pieces rather awkwardly. }
+7. cxd5 Nxd5 8. Bd2 Nc6 9. Bd3 O-O 10. O-O Be7
+{ Mission accomplished, so the bishop is now happy to go home and help defend. }
+11. a3 Bf6 12. Qc2 g6 13. Bh6 Bg7
+{ Also good is 13... Re8, with the idea of Nxc3, Bd7 and e5. } 14. Bxg7 Kxg7
+{ A fairly typical IQ position.  In a nutshell, White's plan now is 'try to create some weakness somewhere'  (he doesn't have to attack the king, while Black's is 'defend solidly and gradually try to swap things off'.  White may have a small advantage, but no more than his typical one.) }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Panov Attack"]
+[Black "The tricky Qc2."]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4
+{ White is angling for an open, IQP attacking position. Black has three basic approaches against this:  ...e6 followed by Bb4 or Be7; ...Nc6 with some unique 'Panov' positions, including the infamous endgame after Nf3 Bg4; and ...g6, which scores well in practice, but is really a pretty dubious reversed Tarrasch.  Historically, ...e6 has always been slightly more popular than the other two, even if it has been rather overtaken by Nc6 in recent years.  It is also arguably the most instructive, as similar positions can arise from many other openings. }
+4... Nf6 5. Nc3 e6 6. Nf3 Bb4
+{ While it has been popular, Be7 makes things fairly easy for White.  While both are playable, Bb4 seems to be simply better, forcing White to place his pieces rather awkwardly. }
+7. cxd5 Nxd5 8. Qc2 Nc6 9. Bd3 h6
+{ The old main line here was   9.Ba5!?  10.a3  Nxc3  11.bxc3  Nxd4  12.Nxd4  Qxd4  13.Bb5+  Bd7  14.O-O  Qd5  15.c4  Qf5  16.Bxd7+  Kxd7  17.Qb2  White gets very dangerous compensation for his pawn, and the line has few takers these days. }
+10. O-O O-O 11. a3 Bd6 12. Re1
+{ 12.Qe2  is similar  .  Black usually continues   12.Nce7  here, but it may be worth trying   12.Qb6  with the idea of Rd8. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Panov Attack"]
+[Black "The tricky Qc2 with the sneaky Be2."]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4
+{ White is angling for an open, IQP attacking position. Black has three basic approaches against this:  ...e6 followed by Bb4 or Be7; ...Nc6 with some unique 'Panov' positions, including the infamous endgame after Nf3 Bg4; and ...g6, which scores well in practice, but is really a pretty dubious reversed Tarrasch.  Historically, ...e6 has always been slightly more popular than the other two, even if it has been rather overtaken by Nc6 in recent years.  It is also arguably the most instructive, as similar positions can arise from many other openings. }
+4... Nf6 5. Nc3 e6 6. Nf3 Bb4
+{ While it has been popular, Be7 makes things fairly easy for White.  While both are playable, Bb4 seems to be simply better, forcing White to place his pieces rather awkwardly. }
+7. cxd5 Nxd5 8. Qc2 Nc6 9. Be2
+{ A clever little move.  The idea is to allow the queen to go to  e4  , and then  h4  . }
+9... Nce7
+{ And a clever reply.  O-O is much more popular, but this approach, delaying castling,  scores very well for Black. }
+10. O-O Bd7 11. a3 Bd6 12. Ne4 { White threatens to take on d6... } 12... Bc6
+{ ... and Black lets him!  In practice, White usually declines the offer for a while. }
+13. Ne5 Rc8
+{ White can actually grab both bishops if he wants to now:   14.Nxc6  Nxc6  15.Nxd6  Qxd6.  But the resulting position is, if anything, better for Black, eg after  16.Be3  O-O  . }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Panov Attack"]
+[Black "Pseud's corner:  The Panov endgame"]
+[Result "*"]
+
+1. e4 c6 2. c4
+{ This is one of those very popular not quite low theory alternatives that White often enjoys trotting out. Black can immediately leave Caro waters altogether with...e5 for example.  But there is no need for that - ...d5 is most popular, and best. }
+2... d5 3. exd5
+{ The two possible pawn captures usually transpose, and 3. exd5 is by far the most common order.  Once in a blue moon you might see   3.cxd5  cxd5  4.e5?  Nc6  5.d4  Bf5  and Black is already better. }
+3... cxd5
+{ 3...Nf6  is quite an interesting attempt here to keep White honest. If  4.dxc6  then  4.Nxc6  , and after  5.Nc3  e5  Black has oodles of positional compensation with his easy development and control of  d4  - he is actually better.   Instead, White should simply play   3...Nf6  4.d4  cxd5  transposing back to the Panov  or   3...Nf6  4.Nc3  staying in 'pseudo Panov' territory. }
+4. cxd5 Nf6 5. Nc3 Nxd5 6. Nf3
+{ 6.d4  would now transpose into a variation of the Panov where White has played  cxd5  perhaps a little too early. This should help Black slightly. White has lost the option of pushing  c4 - c5.  I would recommend you play   6.d4  Nc6  there.     6.Bb5+  is well met by  6...Bd7  ,   6.Bc4  by  6.Nb6  7.Bb3  Nc6  8.Nf3  Bf5  9.d4  e6  and   6.Qb3  by  6.e6  7.Nf3  Nc6  8.d4  Be7  =+ }
+6... Nc6
+{ Most common.  We have now reached one of the major lines of the Panov - where White's best option is to go into the infamous ending.  Against the Panov proper I recommended ...e6 lines, but here we are playing a ...Nc6 line while having avoided   1.e4  c6  2.d4  d5  3.exd5  cxd5  4.c4  Nf6  5.Nc3  Nc6  6.Bg5   All Caro players should know about the Panov ending as part of their 'chess culture'.  This seems like quite a good place to analyse it. }
+7. d4 Bg4 8. Qb3
+{ Black's development is very easy and natural, and his pawn structure is better, so White really has to go for the forcing line.  From time to time White players try   8.Be2  and usually go on to lose long, frustrating games. }
+8... Bxf3
+{ Black can avoid the ending with   8.Nb6  , but this has never really caught on as White is better - and scores better after both  9.Be3  and 9. d5   or even  9.Ne5  8. Nxc3 9. bc Qc7 is also pretty good for White, so Black too needs to enter the main line. }
+9. gxf3
+{ Only a fool would fall for   9.Qxb7  Ndb4!  --++  (Laughs nervously.  Hides records of old blitz games)  . }
+9... e6 { Again,   9.Nb6  is met by  10.Be3  or 10. d5 } 10. Qxb7
+{ No choice now. } 10... Nxd4 11. Bb5+
+{ White cashes in the bishop pair in return for misplacing Black's king. }
+11... Nxb5 12. Qc6+
+{ A useful finesse.   12.Qxb5+  Qd7  is rather easy for Black  . } 12... Ke7
+13. Qxb5
+{ Only a complete moron would play   13.Nxd5??  Qxd5  (Laughs nervously, hides score of old club match)  .   13.Nxb5  Rb8  isn't what the doctor ordered either.  Unless he is one of those Shipman types.   But White does have a legitimate tricky try.   13.Qc5+!  has the idea  13.Ke8?!  14.Qxb5  Qd7  15.Nxd5  exd5   Qxb5??  Nc7+  16.Qd3  and the queens stay on.  Which increases the chances that the kings will fall off.  Instead, Black could also play   13.Qc5+  Nd6  , though things still look very unclear after  14.Nxd5  exd5  and now either  15.Qxd5  or 15. O-O  The main line though is 13. Qxb5, and after.... }
+13... Qd7
+{ 13...Nxc3  14.bxc3  , as in the famous game Fischer - Euwe, was long thought to favour White, but has been rehabilitated by the move  14...Rb8! }
+14. Nxd5+ Qxd5 15. Bg5+
+{ Another little finesse - 15. Qxd5 is more common, but here White takes time out to weaken Black's light squares slightly by inducing 15... f6 }
+15... f6 16. Qxd5 exd5 17. Be3 Ke6
+{ A more active way of untangling than   17.Kf7 } 18. O-O-O
+{ White can castle either way, but this has emerged as the most promising, and is by far the main line.  Play now typically continues   18.Bb4  19.a3  Rhc8  20.Kb1  Bc5   or  20...Ba5?!  21.b4  21.Rhe1  Bxe3  22.Rxe3+  Kd6  23.Rde1  Rc4  24.Re6+  Kc5   White may only have a tiny edge here, but he has a fairly reasonable practical score.  I suggest you avoid this.  The computers like   18.Rd8  though it has hardly ever been played.  Why not give it a go? }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Panov Attack"]
+[Black "Pseud's corner:  7 Bb5"]
+[Result "*"]
+
+1. e4 c6 2. c4
+{ This is one of those very popular not quite low theory alternatives that White often enjoys trotting out. Black can immediately leave Caro waters altogether with...e5 for example.  But there is no need for that - ...d5 is most popular, and best. }
+2... d5 3. exd5
+{ The two possible pawn captures usually transpose, and 3 exd5 is by far the most common order.  Once in a blue moon you might see   3.cxd5  cxd5  4.e5?  Nc6  5.d4  Bf5  , and Black is already better. }
+3... cxd5
+{ 3...Nf6  is quite an interesting attempt here to keep White honest. If  4.dxc6  then  4.Nxc6  , and after  5.Nc3  e5  Black has oodles of positional compensation with his easy development and control of  d4  - he is actually better.  Instead, White should simply play   3...Nf6  4.d4  cxd5  transposing back to the Panov or  4.Nc3  staying in 'pseudo Panov' territory. }
+4. cxd5 Nf6 5. Nc3 Nxd5 6. Nf3
+{ 6.d4  would now transpose into a variation of the Panov where White has played cd perhaps a little too early. This should help Black slightly. White has lost the option of pushing  c4  -  c5.  I would recommend you play  6.Nc6  there.     6.Bb5+  is well met by  6.Bd7  ,   6.Bc4  by  6.Nb6  7.Bb3  Nc6  8.Nf3  Bf5  9.d4  e6  and   6.Qb3  by  6.e6  7.Nf3  Nc6  8.d4  Be7  =+ }
+6... Nc6 7. Bb5
+{ White doesn't always want to go into the endgame, especially if he plays the 2. c4 order.  If he wants to avoid it, he typically plays   7.Bc4  , or, more commonly, the text. }
+7... e6
+{ 7...g6  is an interesting sideline here. Especially if White finds  8.Qa4  Nb6  9.Bxc6+  bxc6  10.Qxc6+  Bd7  11.Qe4  Bg7  12.d4.  White has a pawn, but Black has compensation  .  I actually prefer that to the 7...e6 main line myself.  But the main line is very instructive, so I will give it as such here. }
+8. O-O Be7 9. d4 O-O 10. Re1 { A tabiya.  White does well from here. } 10...
+Qd6 { Black's most successful move here. } 11. a3
+{ To hint at ideas of a Bc2, Qd3 battery without allowing ...Nb4 in reply }
+11... Rd8 12. Bd3 Nf6
+{ I have added a lot of arrows here :  In a nutshell, White has a lot of ways of trying to move his pieces towards Black's king, while Black has pressure on the c- and d- files, especially against the pawn on d4.  Simplifications tend to favour Black, but the next ten or twenty moves might be a bit uncomfortable.    Black's dream would be an ending with a knight against a lone White dark square bishop, locked in by a pawn on d4.  Capablanca has shown that even that sort of ending can be tenable.  White's dream would be a dashing mating attack, often aided by a d4-d5 break  (or sacrifice)  .  This is a constant threat in these isolated queen pawn lines, and annoyingly, when they work they can be devastating, but when they fail White often escapes with an  (albeit rather stale)  equality.  Smyslov and Karpov stand out as masters of these positions; it is well worth having a look at a few of their games with both colours. }
+13. Be3 b6 14. Qe2 Bb7 15. Rad1
+{ Very logical, classical play from both sides.  White still has an edge here for now. }
+15... Rac8 16. Bb1
+{ 16.Bg5!  scores very well. But Black should be ok if he finds  16.h6  17.Bh4  Nd5   After   16.Bb1  we have a very interesting, instructive position. Black often plays  Qb8  here - and does very badly. Instead, he has done well with  16...Na5  ,  16... Nd5, 16... h6, 16... g6 or 16... Qc7  .  But nonetheless, I prefer White here.  His position is harmonious, and, crucially for an IQP position, he has kept all 4 of his minor pieces on the board.  Learn this line, practice playing it with a friend.  But in an important game I'd recommend deviating, probably with 7...g6  . }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Exchange Variation"]
+[Black "The Exchange variation"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3
+{ Do you like the Exchange variation of the QGD? Well here, you get to play it with colours reversed!  Or a rather strange version of it, anyway.  Black develops his pieces naturally; whereas with White, you simply have to remember to do everything in the wrong order! }
+4... Nc6 5. c3 Nf6 6. Bf4 Bg4 7. Qb3 Qc8 { Out of range of any pesky Ne5s. } 8.
+Nd2 e6 9. Ngf3 Be7 10. O-O Bh5
+{ Coming round to g6 to fight for the b1-h7 diagonal.  This scores much better than the more common  (and rather co-operative)  O-O?!. }
+11. Ne5
+{ Both Rae1 and Rfe1 have been tried here sometimes.  They may be slight improvements over the more common Ne5, but Black seems to have a mild plus score against all three moves, at least in practice, if not in computer evaluations. }
+11... Nxe5 12. Bxe5 O-O
+{ Black's bishop on  h5  is rather 'lost in space', and will always be restricted by his central pawns. White's bishop on  d3  on the other hand is a great piece.   Black would like to trade them, and if White declines, then Black rules the  b1  -h7 diagonal.  In the long run, his counter play will be based on a minority attack - swapping some of his queenside pawns for White's to make a pawn weakness or two.   Black will soon play Bg6, and eventually get play with ...b5  (with the idea of ...b4 and bxc3, breaking up White's chain)  . }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Fantasy Variation"]
+[Black "Shattered Dreams"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. f3
+{ The fantasy variation!  Quite a lot of fun if Black is feeling obliging.  We won't be. }
+3... e6
+{ Well known as the best 'spoilsport' reply.  But if you want to meet 'offbeat' with offbeat, Black has a big score with 3...Qb6. }
+4. Nc3
+{ White's centre is already under pressure.  He can try 4. e5, but after 4...c5   5. f4 Nc6   6. Nf3 Qb6!  7. c3 Nh6! he has actually got a pretty lousy French.  So normally he defends with 4. Nc3. But this allows 4... Bb4, which in turn sets up other problems - notably Qh4+ ideas. }
+4... Bb4 { Here too, 4... Qb6 is a nasty alternative. } 5. Bf4
+{ The more natural looking 5. Be3?! runs into 5...dxe4  6. fxe4 Qh4+ 7. g3 Qxe4+ 8. Qe2.  Black is at least fine here, providing he doesn't take the rook - 8...Qxh1? 9. Bg2 should be avoided.  Instead, just 8...Ne7.  5. Bf4 has the idea that   5...Qh4+  is now met comfortably by  6.Bg3  ,   5...Qa5  is met by  6.Nge2  and   5...dxe4 ?!  6.fxe4  Qh4+?  7.g3  is so good for White that he may already be winning. }
+5... Ne7
+{ 5...Nf6 is more common, and after 6 Qd3 play proceeds similarly to our main line, but White tends to score well.  5...Ne7 seems to improve. }
+6. Qd3
+{ 6. Nge2 first is playable.  Then 6...b6?! can be met by 7. Qd2!  But 6...O-O! is better, and if 7. Qd2 then Nb8-d7-b6. }
+6... b6 { Most common, though Nd7 isn't bad here either. } 7. Ne2 Ba6 8. Qe3
+O-O 9. O-O-O c5 { 'Rumble, rumble   Centre crumble' -Macbeth } 10. a3 Bxc3 11.
+Qxc3 Nd7
+{ This final move is actually quite important.  Black has mostly played 11...Bxe2 12. Bxe2  c4  13. h4 - and oops!  Suddenly White is scoring 80%.  But after 11...Nd7!  White seems to lack ideas.  12...Rc8 is coming, and with the centre fluid, 12 h4? is now met by ....cxd and looks rather silly.  
+Black is at least equal here.  Which is probably code for 'better'. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The two knights variation"]
+[Black "The two knights with d3"]
+[Result "*"]
+
+1. e4 c6 2. Nc3 d5 3. Nf3 Bg4
+{ 3.Nf6  is an alternative. It is perfectly acceptable, though White can spring some early traps with his lead in development.     3.dxe4  4.Nxe4  is also interesting. It mostly depends on what you play against the classical. If you play  4.Nf6  you get a better than normal version as White has committed his knight to  f3  (a little early.)  On the other hand,   3.dxe4  4.Nxe4  Bf5  is risky, and after  5.Ng3  , you have to know  5.Bg4!  , as Black is getting in trouble after   3.dxe4  4.Nxe4  Bf5  5.Ng3  Bg6?!  and losing after  6.h4  h6  7.Ne5  Bh7?   7.Qd6  is forced  8.Qh5      Bg4xf3 is the traditional main line. }
+4. h3 Bxf3 5. Qxf3 Nf6 6. d3 e6 7. Bd2
+{ White often plays   7.a3  here to prevent Bb4, but this is the main line. }
+7... d4
+{ This however is rare.  The computers love it though, and it scores very well in practice. }
+8. Ne2 Qb6 9. O-O-O c5 10. g4 Nc6 11. g5 Nd7 12. Qg3
+{ Or   12.h4!?  O-O-O  and White can't play  13.Qxf7  because of  13.Nce5  14.Qf4  Bd6  , winning.  Black's space should at least compensate for the bishop pair; in practice he has won almost all the games which have reached this position so far. }
+12... O-O-O 13. Kb1 Be7 14. Nc1 Qc7 15. Qxc7+ Kxc7
+{ You may wonder about White's bishop pair and kingside space.  Doesn't he have an edge here?  Perhaps.  But Black's bishop is good and he has a strong e5 square  (he's going to want to put his pieces there if possible rather than a pawn)  . If a few more pieces come off we can start calling this an ending rather than a queenless middlegame, in which case the Black king is better placed than White's  (more centralised)  .  Black can also try to play against White's kingside, claiming that while his pawns grant space they may in fact be slightly over extended.  Convinced?  I'm not even really sure about this line myself.  But I can point out the high score it has achieved so far in practice. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The two knights variation"]
+[Black "The two knights with d4"]
+[Result "*"]
+
+1. e4 c6 2. Nc3 d5 3. Nf3 Bg4
+{ Nf6 is the alternative.  it is perfectly acceptable, though White can spring some early traps with his lead in development.  Bg4xf3 is the traditional main line. }
+4. h3 Bxf3 5. Qxf3 Nf6 6. d4 dxe4 7. Qe3 Nbd7 8. Nxe4 Nxe4 9. Qxe4 Nf6 10. Qd3
+e6 11. Be2 Be7
+{ Or Bd6 with the idea of Qc7 and B-> h2+ -> f4 killing the bishop pair. } 12.
+O-O O-O
+{ This looks like a Qd8 scandi.  White has the bishops and a bit of extra space, but Black has no bad pieces, a good pawn structure and White's d- pawn can be weak.  Black will probably play Qc7, Rfd8, Nd5, maybe Bf6   - it seems as if White should have an edge somehow but it is often easier for Black to make actual progress.We can hedge our bets and call this roughly equal. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The King's Indian Attack"]
+[Black "King's Indian Attack Main Line"]
+[Result "*"]
+
+1. e4 c6 2. d3 d5 3. Nd2 e5
+{ As White has been rather meek in the centre, we have the opportunity  (rare in the Caro-Kann)  to place our pawns both on d5 and e5. }
+4. Ngf3 Bd6 5. g3 Nf6 6. Bg2 O-O 7. O-O Re8 8. Re1 Nbd7 9. c3 a5
+{ This position is pretty well tested, and Black outscores White.  It is almost as if he is playing the White side of a Ruy Lopez or Pirc position.  The position is relatively static and both sides will probably be making 'small' improving moves - for Black that could include ...a4, ...h6, ...Qc7 etc   White's best chance on the other hand is probably to admit that he is slightly worse and equalise with 10 d4.  After that Black can play 10...ed 11 Nxd4 and then say Ne5 and he is fine.  Not really what White wants to do though.  KIA players love their autopilot, and are itching to play h4, Nf1 etc. We should be well placed against this. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The King's Indian Attack"]
+[Black "Not quite Tal - Smyslov"]
+[Result "*"]
+
+1. e4 c6 2. d3 d5 3. Nd2 e5 4. Ngf3 Bd6
+{ Echoes of the famous game Tal - Smyslov 1959 Candidates.  But Smyslov had played Nbd7 instead of Bd6.  The centre liquidates quickly - the following is typical. }
+5. d4 exd4 6. exd5 cxd5 7. Nxd4 Nc6 8. N2f3 Nf6
+{ Ne7 is more common, and also fine, but this appears to be a little better. }
+9. Be2 O-O 10. O-O Re8
+{ White has skillfully extracted less than nothing from the position and stands slightly worse.  Black has an IQP - but in a better form than normal.  The better  (or luckier)  player could win either side of this - but Black has a head start. }
+*
+

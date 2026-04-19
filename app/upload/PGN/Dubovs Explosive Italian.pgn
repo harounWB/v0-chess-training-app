@@ -1,0 +1,819 @@
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "1. Introduction"]
+[Black "Background"]
+[Result "*"]
+
+{ Before the start of the last round of the 2020 Russian Championship, Ian Nepomniachtchi and Sergey Karjakin were sharing the lead with 7 out of 10. Nepo made a quick draw against Maxim Chigaev and all eyes were now on the game between Daniil Dubov and Sergey Karjakin. Would Dubov be able to create any chances against Karjakin, the 'Minister of Defence'?  Dubov played amasterpiece that many will remember for the spectacular queen sacrifice on move 19. Karjakin had just played 18... Be6 and now Dubov played the 'move of the year' 19. Qxg6!!  Dubov sacrifices his queen for two minor pieces, a passed pawn, and a menacing attack on Black's king. Karjakin resigned on move 38, which handed Nepomniachtchi the 2020 Russian Championship title.  Few people will remember the novel opening that Dubov used to create these chances. It was the first time that this opening was used at the highest level and another example of the creative and inspiring play of Dubov.  The subject of this course is the position that arises after the moves: }
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. b4
+{ Dubov suggested to his coach Sasha Riazantsev that this would be an amusing line for a blitz game. His coach took it to the next level and provided some deep analysis that made it suitable for over-the-board play at the highest level. Dubov's assessment of the variation is:  'All in all, the line looks decent for White; I don't see a way for Black to get an advantage, which is quite something for such a sharp position.'  The goal of the opening is to pursue dynamic, unbalanced positions where Black is under immediate pressure. White often sacrifices a pawn in exchange for an attack, an advanced passed pawn, more space, and a lead in development. The main lines are quite forced and thus better preparation and a better understanding of the imbalances, in combination with superior calculation will win you the game.  For this mini-course I used the article Dubov's Challenge by IM Yuriy Krykun in New In Chess Yearbook 138  (2021)   and the analysis by Daniil Dubov of his game against Sergey Karjakin for New In Chess Magazine 2021 #1. In addition, I consulted the Hiarcs Openings Book, the Lichess games database, the ChessBase Mega Database, and Correspondence Database, and engine analysis  (Stockfish 14, Leela Chess Zero, and Komodo Dragon 2)  .  I selected and prioritized theChapter 2. Variations based on the Lichess games database  (online games, both rapid and classical, across all ratings)  . The course was created with club players in mind. The first variation in the mini-course is the variation that you are most likely to get! The mini-course includes typical mistakes of club players and shows how to refute them. I deliberately kept the book small  (about 15 variations)  . It is enough for me, as a titled player, to play the opening with confidence over the board and has proven sufficient to beat 2400+ players online.   I often give the Stockfish 14 evaluation of a certain position. For many club players, it is hard to gauge how big an advantage is when the material is equal. My recommendation is that when Stockfish evaluates a position as significantly better and you don't understand why that you open an Analysis Board in Chessable and play a few human moves for the Black side to see how play develops. This way you get a feel of how to build an attack against a vulnerable king, how to cash in a passed pawn or how to exploit a badly placed piece.  Chapter 3. Puzzles is meant to reinforce key motifs and tactical themes. You have to find the best move: sometimes it is a tactic and sometimes it is the strongest move. The number of stars * in front of the puzzle indicates the difficulty of the puzzle.   I appreciate any questions or feedback you might have. They will only help make the mini-course only clearer and better!  The mini-course is complimentary to my Evans Gambit - Beginner's Guide and Scotch Gambit - Modern Attack - Beginner's Guide. The course is a great alternative to the Evans Gambit with many of the same themes as in the Evans Gambit and the Scotch Gambit. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "1. Introduction"]
+[Black "Genesis"]
+[Result "*"]
+
+{ This section provides information on general opening principles and the first moves of Dubov's Giuoco Forte.   As a trainer in the Steps Method I teach my students the following basic opening principles  (3 Golden Rules)  :      Pawns in the centre  The pawns provide space and support for your own pieces and limit the activity of your opponent's pieces.     Develop your pieces  Develop your pieces towards the middle of the board where they can be as active as possible and support the pawns in controlling the centre. Good cooperation between the pieces adds to the overall activity of your pieces. Develop your knights and bishops first and, in general, the queen last. The queen is the most valuable piece and you can lose time when she gets chased by minor pieces.    Bring your king into safety  The king is vulnerable in the middle of the board and can come easily under attack on the e-file or through an attack on the vulnerable squares f2 and f7. A castled king is much safer. 
+  Complete your development by bringing all your pieces into the game. Find a good square for your queen and connect your rooks.  The side that completes his opening most effectively can start attacking first.   A good metaphor to use for your pieces is an 'army'. During your game constantly ask yourself: Is my next move adding maximum energy to my forces? Are all soldiers engaged? Are they working well together? Are any team members vulnerable?   These are guiding principles. Under the influence of chess engines, play has become more concrete. Opening principles can be violated in specific circumstances based on concrete analysis with 3,600 rated engines. }
+1. e4
+{ The pawn on e4 controls d5 and f5  (important squares on the opponent's half of the board that Black can no longer occupy with his pieces)  .   After 1. e4, the bishop on f1 and the queen on d1 can enter the game. }
+1... e5
+{ The most popular moves after 1.e4 are 1... e5  (42%)  , 1... c5  (25%)  and 1... e6  (11%)  .   1... e5 is the symmetrical response leading to less immediate tension and combat than 1... c5  (Sicilian)  . After 1.e4, White threatens to play 2.d4, which would give White a strong grip of the centre. Both 1... e5 and 1... c5 prevent White from controlling the centre with 2 pawns. }
+2. Nf3
+{ Developing the knight towards the centre and attacking the pawn on e5. } 2...
+Nc6
+{ With this move, Black protects the pawn on  e5  . Please note that if Black chooses  2...Nf6  to maintain the symmetry, he will never reach complete equality because White will always have the first-move advantage and at a certain moment Black will not be able to continue to copy White's moves, for instance in the case of a check. }
+3. Bc4
+{ 3. Bb5 @@StartBracket@@Ruy Lopez@@EndBracket@@ was by far the most popular choice of masters. This started to change after Kramnik used the Ruy Lopez - Berlin Defence to defeat Kasparov in the World Championship match in 2000 and was reinforced by analysis with the strongest engines in recent years.   3.Bb5  Nf6  4.O-O  Nxe4  5.d4  Nd6  6.Bxc6  dxc6  7.dxe5  Nf5  8.Qxd8+  Kxd8  The queens are off, Black has the bishop pair and White has a better pawn structure. Practice has shown this to be very solid for Black.   The Marshall Attack is the second reason why White players have switched from 3.Bb5 to 3.Bc4  3.Bb5  a6  4.Ba4  Nf6  5.O-O  Be7  6.Re1  b5  7.Bb3  O-O  8.c3  d5  9.exd5  Nxd5  10.Nxe5  Nxe5  11.Rxe5  c6=∞  Black will continue Bd6-Qh4 and often Bg4-Rae8-f5 and Black's attack and active bishop pair compensate for the one pawn deficit. }
+3... Bc5
+{ The main alternative is  3...Nf6  on which I recommend:  4.d4  exd4  5.e5  See my course the Scotch Gambit - Modern Attack.   The main alternative for 4. d4 is 4. Ng5  3...Nf6  4.Ng5  d5  5.exd5  Na5  6.Bb5+  c6  7.dxc6  bxc6  8.Bd3  Nd5  9.Nf3  Bd6  Black's pawn structure might be damaged and Na5 out of play, but I never liked playing against the piece activity of Black.   Some players choose for 4. Ng5 just hoping that their opponent blunders into the so-called Fried Liver Attack  3...Nf6  4.Ng5  d5  5.exd5  Nxd5?  6.Nxf7  Kxf7  7.Qf3+  Ke6  8.Nc3  Ncb4  9.O-O  c6  11.d4  Nxc2  12.dxe5  Nxa1  13.Rd1+- }
+4. c3
+{ White wants to occupy the centre with d4 and take back with a pawn on d4 after exd4.   After  4.b4  we enter the Evans Gambit, an opening on which I also wrote amini-course. This opening was successfully played in classical games by world champions Kasparov, Fischer, Morphy and lesser Gods like Nakamura and Short. White sacrifices material in exchange for a lead in development and more space often leading to an attack on Black's king.  4...Bxb4  5.c3  Ba5  6.d4  exd4  7.O-O    The understanding of the trade-off between material, development and space is critical in chess. When players start out playing chess, they are often focused on the material balance only. They keep score using the values: pawn =1; knight=3; bishop=3, rook=5 and queen= 9 to 10 with a bonus for the bishop pair of 0.5. These values depend a lot on the activity of the piece. Kasparov taught us that a stable knight on the 6th rank, a so-called Octopus, is worth at least a rook.   At the start of this introduction, I suggested using army as a metaphor for your chess pieces. It is not surprising that with more space and a lead in development your army is more active and thus more forceful.  Kaufman concluded that if White has two extra moves at the start of the game @@StartBracket@@e4 and d4@@EndBracket@@ that Black is lost! So after 1.e4 Nc6 2. d4 Nb8, Black can already resign! Material is equal but Black lacks space and is behind in development. This also implies that Black has to be very careful not to waste any time in developing his pieces. }
+4... Nf6
+{ Black continues to develop, Nf6 attacks the pawn on e4 and Black is now ready to castle and bring his king into safety. He allows the move d4 by White as Black will counter with d5 shortly thereafter.   The move  4...d6?!  gives White the centre he is aiming for after  5.d4  exd4  6.cxd4  Bb4+   Or  6...Bb6  7.Bb5  Bd7  8.Nc3  White controls the centre and is slightly better.  7.Nc3  Bg4  8.O-O  Nf6  9.Nd5+-  White threatens Bg5, pinning Nf6 and threatening to destroy Black's pawn structure, and after  9...Nxd5  10.exd5  Ne7  Black loses Bb4 after  11.Qa4  with a double attack on Ke8 and Bb4.   Even worse is  4...h6?  5.b4  Bb6  6.b5  Na5  7.Bxf7+  Kxf7  8.Nxe5+  and White has a winning advantage. }
+5. d4
+{ By playing this move White now attacks the Bishop on  c5  and the pawn on  e5  . On the other hand, this move does not protect the undefended pawn on  e4  .  Top players prefer  5.d3  d6  6.O-O  O-O  followed by Nb1-d2-f1-g3 with the idea of occupying f5 and attacking the Black king. 5. d4 is considered too direct to gain an advantage because of the line given after 6. cxd4. See below. }
+5... exd4
+{ 5...Bd6  is the only way to protect the pawn on e5 but is a bad move: Black has difficulty completing his development, Bd6 has very limited activity. Stockfish 14 evaluates this position already as +2. }
+6. b4
+{ There are 1.2 million games in the Lichess database with 3... Bc5. Only 2,200 feature 6. b4!? i.e. 0.2% or 1 in 500 games. This opening has a strong surprise factor and the lines are very poisonous!  White puts Black under immediate pressure by attacking Black's bishop and will subsequently attack Nf6 with the pawn advance e4-e5. White's play is logical and easy to memorize.  Most frequently, Black retreats his bishop to b6 after which Bg5 attacking Qd8 becomes a theme.     In the mainline  6...Bb6  7.e5  d5  8.exf6  dxc4  9.Qe2  Be6  10.b5  Na5  11.fxg7  , White gets an advanced passed pawn on  g7  .  White aims to secure his pawn with Bg5-f6 and Bg5 also prevents Black's king from castling long. Black's king is often subject to a direct attack.     The most popular move played by White on move 6 is  6.cxd4  Bb4+  7.Bd2  Bxd2+  8.Nbxd2  d5!  Black does not allow White to keep his centre majority  9.exd5  Nxd5  with equality. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "1. Introduction"]
+[Black "Black's perspective"]
+[Result "*"]
+
+{ Before we go into the woods of the variations, let's spend one moment to look at this line from Black's perspective. Instead of looking 'inside-out', we will be looking 'outside-in'! Dubov's Giuoco Forte is a rarely played variation so which line will Black likely use as his reference? }
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. e5
+{ This is the start of the Giuoco Piano - Anderssen variation.  It was used from time to time by Evgeny Sveshnikov and most recently by Wesley So. Let's compare the position with the mainline of the Dubov's Giuoco Forte after 7. e5.    Giuoco Piano - Anderssen variation     Dubov's Giuoco Forte   We have the same position with the moves b4 and Bb6 inserted in the mainline of Dubov's Giuoco Forte.  What are the main differences  (the variations are replayable further below)  :  1. In the Giuoco Piano, Black's knight is trapped after 6... Ne4 7. Bd5.  In Dubov's Giuoco Forte, Black can save his knight by taking on c3. 6. b4 Bb6 7. e5 Ne4 8. Bd5 Nxc3    2. The insertion of the move b4 makes Ra1 more vulnerable to a potential attack with Bd4, which is an important factor after 6... Ng4.   In the Giuoco Piano Black's is much worse after 6... Ng4 7. cxd4 and White controls the center and threatens h3-Nh6-Bxh6.  In Dubov's Giuoco Forte, Black can play 6. b4 Bb6 7. e5 Ng4 8. 8.cxd4?! Nxd4! 9.Nxd4 d5 10.Be2 Nxf2 11.Kxf2 Qh4+ 12.g3 Qxd4+ 13.Qxd4 Bxd4+ and Black wins.  With the pawn on b2, Ra1 would not be under attack.  3. In Dubov's Giuoco Forte, White can play b5 chasing the knight on c6. The knight on c6 controls the crucial squares d4 and e5. This makes in the Dubov's Giuoco Forte the variation 8. exf6 dxc4 9. Qe2+ Be6 10. b5 Na5 11. fxg7 Rg8 12. Nxd4 feasible.   In the standard Giuoco Piano this line is not possible as Nc6 controls d4.    Replayable Dubov's Giuoco Forte variations:   6.b4  Bb6  7.e5  d5   7...Ne4  8.Bd5  Nxc3  9.Nxc3  dxc3   7...Ng4  8.cxd4?!  Nxd4!  9.Nxd4  d5  10.Be2?  Nxf2-+  11.Kxf2  Qh4+  12.g3  Qxd4+  13.Qxd4  Bxd4+-+  8.exf6  dxc4  9.Qe2+  Be6  10.b5  Na5  11.fxg7  Rg8  12.Nxd4  threatening Nxe6. Most Black players take twice on  d4  , but that allows White to activate his bishop to  b2  and protect the pawn on  g7  .  In the Giuoco Piano the only good reply against 6. e5 is 6... d5. It does not come as a surprise that in  Dubov's Giuoco Forte ,  7... d5 is by far the most popular choice by Black. }
+6... d5
+{ 6...Ne4  7.Bd5  Trapping the knight.  7...Nxf2  8.Kxf2  dxc3+  9.Kg3  cxb2  10.Bxb2±  Black has 3 pawns for a piece and White's king is unsafe, but this is not enough. White will play h3-Kh2 bringing his king into safety and use his active piece to attack the Black king. SF14:+2   6...Ng4  7.cxd4  Bb4+   7...Nxd4?!  8.Nxd4  d5  9.Be2  Nxf2  10.Kxf2  Qh4+  11.g3  Qxd4+  12.Qxd4  Bxd4+  13.Kg2±  Bd4 is not attacking Ra1 as the pawn is still on  b2  .  8.Nc3+-  White is much better SF14:+3. After  8...d5  White maintains the tension with  9.Bb5  . The knight on  g4  is vulnerable and White threatens to damage Black's pawn structure after h3-Nh6-Bxh6 }
+7. Bb5
+{ 7.exf6  dxc4  and Black is better as White is missing the b4-b5 push to destabilize Nc6.  8.Qe2  Be6  9.fxg7  Rg8  SF14:-4 White does not have Nxd4 as Nc6 is protecting  d4  . }
+7... Ne4 8. cxd4 Bb6
+{ The Anderssen-variation is  8...Bb4+  9.Bd2  Nxd2  10.Nbxd2  O-O  with a slight pull for White. Most recently only the move 8... Bb6 is being played by top GMs.   The comparison between the standard Giuoco Piano and Dubov's Giuoco Forte has taught us that most Black players will choose for 6... Bb6 and 7... d5 as these are the best replies in the standard Giuoco Piano.  This is confirmed by the games in the Lichess database with the move 6... Bb6 being the choice in 78% of the games after 6. b4, and 7... d5 being the choice in 45% of the games after 7. e5. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "1. Introduction"]
+[Black "Overview"]
+[Result "*"]
+
+{ There are 1.2 million games in the Lichess database with 3... Bc5. Only 2,200 feature 6. b4!? i.e. 0.2% or 1 in 500 games. This opening has a strong surprise factor and the lines are very poisonous! }
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6
+{ 4...d6?!  5.d4  exd4  6.cxd4  Bb4+   6...Bb6  7.Bb5  Bd7  8.Nc3  White controls the centre and is slightly better.  7.Nc3  Bg4  8.O-O  Nf6  9.Nd5+-  White threatens Bg5, pinning Nf6 and threatening to destroy Black's pawn structure, and after  9...Nxd5  10.exd5  Ne7  Black loses Bb4 after  11.Qa4  with a double attack on Ke8 and Bb4.   4...h6?  5.b4  Bb6  6.b5  Na5  7.Bxf7+  Kxf7  8.Nxe5+  and White wins. }
+5. d4 exd4 6. b4
+{ White puts Black under immediate pressure by attacking Black's bishop and will subsequently attack Nf6 by the pawn advance e4-e5. White's play is logical and easy to memorize.  Most frequently, Black retreats his bishop to b6 after which Bg5 attacking Qd8 becomes an important theme. }
+6... Bb6
+{ The move 6... Bb6 is played in 78% of the games with 6... Be7 a distant second at 14%. The remaining 8% are for clearly worse moves, like 6... Bd6 and 6... Nxb4.     6...Bd6?  7.O-O  O-O  8.b5  Na5  9.Bd3±  White threatens e4-e5 forking Bd6 and Nf6. It is hard for Black to complete his development.   6...Nxb4?  Black gets three pawns for a knight but it is not enough. White has a huge lead in development and is the first to attack.  7.cxb4  Bxb4+  8.Bd2  Bxd2+  9.Nbxd2  c5  10.O-O  O-O  11.Qb3  d6  12.e5  SF14:+3  When the bishop retreats to e7, the disadvantage for Black is that the bishop is less active than on b6 and not fighting for the control of the centre. The advantage is that the move protects the h4-d8 diagonal  (White can not attack Qd8 with Bg5)  . Black claims that White overextended himself with the pawn pushes b5 and e5 and Be7 can get quickly back into the game.   After  6...Be7  7.e5  the moves  7...Ng4  and  7...Ne4  are equally popular.   6...Be7  7.e5  Ng4  8.cxd4  Bxb4  9.Bd2  Bxd2  10.Qxd2  is a solid line for Black.  'White's centre seems rather impressive, but he is a pawn down and Black is about to undermine the centre with d7-d6. However, the g4-knight is very misplaced and White is more active at the moment. I think that after a sequence of careful moves the position peters out into equality.' IM Yurily Krykun, New In Chess YearBook 138 - 2021   6...Be7  7.e5  Ne4  8.b5  Na5  9.Bd3  Nxc3  10.Nxc3  dxc3  11.Qa4  b6  12.O-O  with equality. Note that Black can not castle immediately as  12...O-O  fails to the double attack  13.Qe4  attacking both Ra8 and h7. White will continue to exert pressure with Qe4 or Qg4. }
+7. e5
+{ White asks Black the next question: How to defend Nf6 against e5? Black's options are a counterattack in the centre  (d5)  , move away  (Ne4 or Ng4)  or pinning the attacker  (Qe7)  .  Most played are now:  7... d5  45% 7... Ne4 20% 7... Ng4 17% 7... Qe7 13%   (Lichess Rapid and Classical - all ratings) }
+7... d5
+{ 7...Ne4  Karjakin's choice  8.Bd5  Nxc3  9.Nxc3  dxc3  10.Bg5  Ne7  11.O-O  O-O?!   Castling short is played most frequently but better is  11...h6  12.Bh4  g5  13.Nxg5  hxg5  14.Bxg5  d6  15.Qf3  Be6  16.Bxb7  Rb8  17.Bc6+  Kf8  18.Rad1=∞  12.Bb3  h6  13.Qd3!  this is the point, Black can not take on g5 because of:  13...hxg5  14.Nxg5  Ng6  15.Qxg6+-  with mate on h7 to follow.     After  7...Ng4  8.O-O  White has three threats:  Bg5 attacking Qd8  Damaging Black's pawns structure with h3-Nh6-Bxh6 A pin with Re1 if Black opens the e-file with Ngxe5 or d6   An example of the first threat:  8...dxc3  9.Bg5  Ne7  10.Nxc3+-  and the threat of Nd5 attacking the pinned Ne7 is lethal.     An example of the second threat:  7...Ng4  8.O-O  O-O  9.cxd4  d5  10.Bb3  Nxb4?!  11.h3  Nh6  12.Bxh6  gxh6±  Black's pawn structure in front of his king has been damaged and White will attack the vulnerable king.   7...Qe7?  This is just a one-trick pony. After White castles, the pin is gone and White threatens again to take on f6. In addition, the queen has no squares to go to after Bg5 and will be pinned when the e-file opens up.  8.O-O  Ng4   8...Nxe5  9.Nxe5  Qxe5  10.Re1  Ne4  11.Nd2  d5  12.Bxd5  Qxd5  13.c4  Qf5  14.Nxe4+-  9.Bg5+-  f6  10.exf6  gxf6  11.Re1+-  pinning Qe7. }
+8. exf6 dxc4 9. Qe2+ Be6
+{ 9...Kf8?  10.b5  d3  11.Qe4  Na5  12.Qe5  and White is winning. After  12...Qxf6  13.Ba3+  Black has to give up his queen to avoid mate on e8. In addition, White is threatening 13. fxg7+ and Black gets mated after  12...gxf6  13.Bh6+  Kg8  14.Qg3+ }
+10. b5
+{ White asks Black a third question: How to defend against bxc6? Black's main options are: d3  (counterattack on the queen)  and Na5 or Nb4  (moving away)  . }
+10... d3
+{ A natural reaction  (played in 72% of the games after 10. b5)  to secure the passed pawn and create a threat on the queen. But this move activates the queen after she moves to e4, from where the queen also eyes h7. Better is 10... Na5  (played in 17% of the games)  or the rarely played 10... Nb4  (Anand's choice)  .     10...Na5  played in 17% of the games  11.fxg7  Rg8  12.Nxd4  Bxd4  13.cxd4  Qxd4?  This gives White the opportunity to activate his bishop, protect pawn g7 and prevent Black from castling after Bb2-Bf6.   Better  13...Rxg7  14.O-O  Qd5  15.g3  O-O-O  16.Nc3  Qxd4  17.Rd1  Qxc3  18.Rxd8+  Kxd8  19.Bb2  Qb4  20.Bxg7  Qxb5  21.Qe4=  14.Bb2  Qd3  15.Bf6!  Preventing Black from castling long. Taking the Qd3 would give the badly placed knight on a5 the square c4. See mymodel game - SF14:+3   10...Nb4  is played in 2% of the games after 10. b5 and was the choice of Viswanathan Anand in hisgame against chess sponsor Oleg Skvortsov in the Zürich Chess Challenge. Black sacrifices a piece for two passed pawns and an active bishop pair. The resulting position is very unbalanced. I recommend the following continuation  11.cxb4  Qxf6  12.O-O  O-O  13.a4 }
+11. Qe4 { Black's knight on c6 is still under attack and has to move now. }
+11... Na5 12. fxg7 Rg8 13. Bg5
+{ To prevent Black from castling long and to prepare Bf6, protecting the pawn on g7.   The immediate  13.Qxh7?  is worse as Black is OK after  13...f6  14.O-O  Qd7  15.Bh6  O-O-O }
+13... Qd5 14. Qxh7 { Do not trade pieces when you are attacking. } 14... Kd7
+15. O-O
+{ Note the lack of space of the Black king and queen. To illustrate the threat, imagine White could play two moves in this position: Re1-Ne5+ The Black king can not go to the back rank because of Qxg8 and has to move to d6 where it can be attacked by Bg5-f4 of by Nbd2-e4.   The Black queen also just has the square d6 if White is allowed to play after Re1-Re5.   In addition, Na5 is still out of play and Rg8 is occupied with preventing the promotion of pawn g7.    The following line highlights the weakness of e5 and f6 if Black tries to untangle himself with natural moves   15...Rae8  to connect the rooks and prepare Kc8  16.Nbd2  Kc8  17.Rae1  Qxb5  to allow the knight to come back into the game via Na5-Nc6.  18.Re5  Qd7  19.Ne4  SF14: +8!  Stockfish 14 evaluates the position after 15.O-O as +3 for White. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "1. Introduction"]
+[Black "History: City Barmen CC vs. City Berlin Academy CC (1873)"]
+[Result "*"]
+
+{ This variation was first played approximately 150 years ago in a correspondence game between the City of Barmen and the Berlin Academy. }
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. b4
+{ I would have liked to see the faces of the members of the City Berlin Academy when they found this move in their mailbox! }
+6... Bb6 7. e5 d5 8. exf6 dxc4 9. b5 Na5 10. fxg7 Rg8 11. Qe2+ Be6 12. cxd4
+{ Our choice in this mini-course is  12.Nxd4    The move 12. cxd4 was the choice of Dubov in some recent online games. Objectively speaking 12. cxd4 and 12. Nxd4 are of equal strength. I chose 12. Nxd4 as most Black players choose the wrong follow-up @@StartBracket@@taking twice on d4, which is logical because Be6 is under attack but wrong because it activates Bc1 to b2. }
+12... Bxd4
+{ Better is  12...Qd7⩱  to prepare queenside castling.   Dubov's online game went  12...Rxg7  13.Nc3  Bxd4  14.Bb2  Bf6  15.Ne4  Bxb2  16.Qxb2  Kf8  17.O-O  Qe7  18.Rfe1  Rd8  19.Nd4  Kg8  20.Qc3  Kh8  21.Nxe6  fxe6  22.Qxa5  Rdg8  23.g3  Qh4  24.Qc3  Qh3  25.Rad1  h5  26.Rd7  h4  27.Rxg7  Rxg7  28.Ng5  Qf5  29.Nxe6  1-0 @@StartBracket@@29@@EndBracket@@ Dubov,D @@StartBracket@@2710@@EndBracket@@-Petrosyan,M @@StartBracket@@2625@@EndBracket@@ Lichess.org INT 2021 }
+13. Nxd4 Qxd4 14. Bb2
+{ Through transposition we have reached a position from our course. } 14... Qc5
+15. Bf6 { Preventing Black from castling long. } 15... Qf5 16. Qf3 a6 17. Nc3
+axb5 18. O-O-O
+{ White threatens to mate by doubling rooks on the d-file and mating on d8. }
+18... c6 { Protecting pawn b5 but weakening square d6. } 19. Rd6 b4 20. Qxf5
+Bxf5 21. Re1+ Be6 22. Red1
+{ White rightfully ignores the threat on Nc3 and goes for mate. } 22... Nb3+
+{ A few desperado checks before Black resigns. } 23. axb3 Ra1+ 24. Nb1 Rxb1+
+25. Kxb1 Bf5+ 26. Kc1 Bd7 27. Re1+ Be6 28. Rd8#
+{ A crushing victory and very well played by the City of Barmen. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "2. Variations"]
+[Black "6... Bb6 7... d5 9... Be6 10... d3 11... Na5"]
+[Result "*"]
+
+{ Relative importance of this variation: High   6... Bb6  78% after 6.b4 7... d5 45% after 7.e5 10... d3 72% after 10.b5 11... Na5 71% after 11.Qe4 }
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. b4
+{ 6... Bb6 78%, 6... Be7 14% @@StartBracket@@Lichess Rapid and Classical; all ratings@@EndBracket@@ 6... Be7 will be covered later in this chapter. }
+6... Bb6
+{ 6...Bd6?  7.O-O  O-O  8.b5  Na5  9.Bd3±  White threatens e4-e5 forking Bd6 and Nf6. It is hard for Black to complete his development.   6...Nxb4?  Black gets three pawns for a knight but it is not enough. White has a huge lead in development and is the first to attack.  7.cxb4  Bxb4+  8.Bd2  Bxd2+  9.Nbxd2  c5  10.O-O  O-O  11.Qb3  d6  12.e5  SF14:+3 }
+7. e5
+{ 7... d5 45% 7. .. Ne4 20% 7... Ng4 17% 7... Qe7 13% @@StartBracket@@Lichess Rapid and Classical@@EndBracket@@  @@StartBracket@@all ratings@@EndBracket@@ }
+7... d5
+{ 7...Qe7  It is a bad idea to defend Nf6 by using the queen to pin the pawn on  e5  . The pin will be gone after White castles and the queen will be vulnerable to an attack by Bg5 in combination with Re1.  8.O-O  Ng4  9.Bg5  f6  10.exf6  gxf6  11.Re1  and White is winning.   If Black moves his knight back to his starting square with  7...Ng8  then Black has lost 2 tempi in the opening. This is, according to Kaufman, already lost in games between top engines.  8.Qb3  Qe7  is the only way to defend pawn f7  9.O-O  Nxe5  10.Nxe5  Qxe5  11.Bxf7  and White is much better. }
+8. exf6 dxc4 9. Qe2+ Be6
+{ 9...Kf8?  is a bad move and rarely played. White continues  10.b5  d3  11.Qe4  Na5  12.Qe5  and White is much better.  See 6... Bb6 7... d5 9... Kf8? }
+10. b5 d3
+{ The most frequently played move by Black. Black wants to retain his d4-pawn with tempo and create his own passed pawn. The disadvantage is that White's queen gets activated to e4. From the e4-square the queen is eyeing h7. }
+11. Qe4 Na5 12. fxg7 Rg8 13. Bg5
+{ To prevent Black from castling long and to prepare  Bf6  , protecting the pawn on  g7  . The move 13. Bg5 is critical as after the direct  13.Qxh7?  f6  14.O-O  Qd7  15.Bh6  O-O-O  Black is OK. }
+13... Qd5 { 13...Qd7?  14.Qxh7  f6  15.Bxf6  SF14:+8 } 14. Qxh7
+{ Do not trade pieces when you are attacking, have a lead in development and can potentially be behind in material. }
+14... Kd7
+{ 14...f6  to protect Rg8 with Be6  15.Bxf6  Bf5  16.Qh5+  Kd7  17.Ne5+  Ke6  to protect Bf5  18.Qf7+  Kd6  19.Qe7#  1-0 Han Schut - indfraeng  (2506)  (, chess.com Titled Tuesday, 10-05-2021)     14...f5  15.O-O  Kd7  16.Re1  Rae8  17.Re5  Qd6  18.Nbd2  c6  19.Rae1  cxb5  20.Rxe6  SF14:+16  This variation illustrates how uncoordinated Black's pieces are and that White wins by completing his development and attacking the king in the centre. }
+15. O-O
+{ The following line highlights the weakness of the squares e5 and f6 if Black tries to untangle himself with natural moves  15...Rae8  connects the rooks and prepares Kc8  16.Nbd2  Kc8  17.Rae1  Qxb5  to allow the knight to come back into the game with Nc6  18.Re5  Qd7  17.Ne4  and Stockfish 14 evaluates this position as +8  !   A Fide Master tried  15...Bf5  against me in a Titled Bullet Lichess Tournament. After  16.Qh6  it is SF14:+7 due to the unsafe king on d7, the passed pawn on g7 and the bad knight on a5. For instance  16...Rae8  17.Nbd2  Re6  18.Bf6  followed by Rae1.   If Black takes on  b5  immediately to bring  Na5  back into the game:  15...Qxb5  16.Nbd2  Qf5  17.Qh6  Do not trade!  17...Nc6  18.Nh4  SF14:+3 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "2. Variations"]
+[Black "6... Bb6 7... d5 9... Be6 10... d3 11... Nb4"]
+[Result "*"]
+
+{ Relative importance of this variation: Medium   6... Bb6  78% after 6.b4 7... d5 45% after 7.e5 10... d3 72% after 10.b5 11... Nb4 11% after 11.Qe4 }
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. b4 Bb6
+{ 6... Bb6 78%, 6... Be7 14% @@StartBracket@@Lichess Rapid and Classical; all ratings@@EndBracket@@ }
+7. e5 d5
+{ 7... d5 45% 7... Ne4 20% 7... Ng4 17% 7... Qe7 13% Lichess Rapid and Classical @@StartBracket@@all ratings@@EndBracket@@ }
+8. exf6 dxc4 9. Qe2+ Be6 10. b5 d3 11. Qe4 Nb4
+{ Threatening Nc2+ with a double attack on Ke1 and Ra1. } 12. O-O
+{ 12.cxb4??  Qxf6-+  @@StartBracket@@White loses his rook on a1.@@EndBracket@@ }
+12... Nc2
+{ 12...Qxf6  13.Bg5  Qg6  14.Qxg6  hxg6  15.cxb4  and White wins    A draw by repetition was the result in the following game   12...Qd5  13.fxg7  Rg8  14.Qxh7  O-O-O  15.Bg5  Bf5  16.Qh5   White can fight for a win with  16.Qh6  Rd6  17.Bf6  Nc2  18.Nbd2  Nxa1  19.Rxa1  which is objectively equal, but Black has to play perfectly to maintain the balance.  16...Be6  17.Qh7  Bf5  18.Qh5  Be6  19.Qh7  1/2-1/2 Khairullin, I  (2615)  -Chigaev, M  (2631)  chess24.com INT 2021 }
+13. fxg7 Rg8 14. Bg5 Qd5 15. Qxh7 Kd7 16. Nbd2 Bf5
+{ 16...Nxa1?  17.Ne4  Qf5  18.Nf6  Kd6  19.Qh6  Qg6  20.Qh4+-   16...Rae8  17.Ne4  SF14:+8 }
+17. Qh5 Nxa1
+{ 17...Rxg7  18.Bf6  Rgg8  19.Ne5  Ke8  20.g3  SF14:+4   17...Rae8  18.Bf6  Nxa1  19.Rxa1  Kc8  20.h4?!   Better  20.Nxc4  Qxc4  21.Qxf5+  Kb8  22.h4⩲  20...c6?   Black has the surprising tactical shot  20...Bxf2+!  21.Kxf2  Re2+  22.Kf1  Rxg2  23.Kxg2  Bh3+  24.Kxh3  Qxh5∓  21.bxc6  bxc6  22.Nxc4+-  1-0  (75)  Yoo,C  (2457)  -Vidyarthi,V  (2165)  Las Vegas 2021 }
+18. Ne5+ Kc8 { 18...Qxe5?  19.Qxf7+  Kd6  20.Nxc4++- } 19. Bf6 Nc2 20. Qh8
+{ These variations highlight:  the importance of Bf6 defending g7 the vulnerability of the Black king the weakness of square e5 @@StartBracket@@Ne5+, Re5@@EndBracket@@  the importance of the pawn being on g7 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "2. Variations"]
+[Black "6... Bb6 7... d5 9... Be6 10... Na5 14... Qd3"]
+[Result "*"]
+
+{ Relative importance of this variation: Medium   6... Bb6  78% after 6.b4 7... d5 45% after 7.e5 10... Na5 17% after 10.b5 14... Qd3 42% after 14.Bb2 }
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. b4 Bb6 7. e5 d5 8. exf6
+dxc4 9. Qe2+ Be6 10. b5 Na5 11. fxg7 Rg8 12. Nxd4
+{ Note that  12.Bg5?  does not work  12...Qd5  13.Bf6  d3  14.Qe5  Qxe5  15.Bxe5  Ke7  16.O-O  f6  and White is lost. }
+12... Bxd4
+{ 12...Rxg7  13.Nxe6  fxe6  14.O-O  Qd5  15.g3  O-O-O  16.Nd2  'The a5-knight is totally out of play and ideas of Re1 and Ne4 are coming, so I would prefer White to some extent.' IM Yuriy Krykun - NIC YB138 2021 }
+13. cxd4 Qxd4
+{ 13...Rxg7  14.O-O  Qd5  15.g3  O-O-O  16.Nc3  Qxd4  17.Rd1  Qxc3  18.Rxd8+  Kxd8  19.Bb2  Qb4  20.Bxg7  Qxb5  21.Qe4= }
+14. Bb2 Qd3 { 14...Qd5  15.Nc3  Qxg2  16.O-O-O  Qxg7  17.Qd2  SF14:+3 } 15. Bf6
+Qg6
+{ 15...Qf5  16.Qf3  SF14:+3  (Seemy game)  from the Lichess4545 team competition. }
+16. Qe5
+{ SF14:+2   A typical continuation is  16...Qxg2  17.Rf1  Rxg7  18.Nc3!  White is not even interested in the rook but chooses to continue his attack by activating more pieces  18...Rg6  19.O-O-O  SF14:+5 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "2. Variations"]
+[Black "6... Bb6 7... d5 9... Be6 10... Na5 14... Qd5"]
+[Result "*"]
+
+{ This variation is rarely played. You can skip it by selecting Important Variations Only in the 'Course Options - Learn' menu of the course options.  Relative importance of this variation: Low   6... Bb6  78% after 6.b4 7... d5 45% after 7.e5 10... Na5 17% after 10.b5 14... Qd5 25% after 14.Bb2 }
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. b4 Bb6 7. e5 d5 8. exf6
+dxc4 9. Qe2+ Be6 10. b5 Na5 11. fxg7 Rg8 12. Nxd4 Bxd4 13. cxd4 Qxd4 14. Bb2
+Qd5 15. Nc3 { Attacking Qd5 and developing the knight with tempo. } 15... Qxg2
+16. O-O-O
+{ Defending Rh1 by connecting the rooks, preventing Black from castling long and bringing his king into safety. }
+16... Qxg7 17. Qd2
+{ SF14: +6 - White is completely winning, threatening Ne4-Nf6. The queen on d2 is indirectly attacking the bad knight on a5 and Black can not play Rd8 or O-O-O. Black's king is still in the middle and vulnerable! }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "2. Variations"]
+[Black "6... Bb6 7... d5 9... Be6 10... Nb4"]
+[Result "*"]
+
+{ This variation is rarely played. You can skip it by selecting 'Important Variations Only' in the 'Course Options - Learn' menu of the course options.   Relative importance of this variation: Low   6... Bb6  78% after 6.b4 7... d5 45% after 7.e5 10... Nb4 2% after 10.b5 }
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. b4 Bb6
+{ 6... Bb6 78%, 6... Be7 14%  (Lichess Rapid and Classical; all ratings) } 7.
+e5 d5 8. exf6 dxc4 9. Qe2+ Be6 10. b5 Nb4
+{ Played in only 2% of the games on Lichess after 10. b5, but played by Anand, so we cannot ignore it. Seehis game for detailed annotations. Black sacrifices a knight for 2 passed pawns and a dangerous bishop pair. }
+11. cxb4
+{ See the model gameSkvortsov - Anand:   11.fxg7  Taking on g7 mobilizes Black's pieces Rg8-Qf6-Qxg7 attacking g2 and allows for O-O-O as Bg5 pinning Qf6 to Rd8 is no longer a threat.  11...Rg8  12.cxb4  Qf6  13.O-O  Qxg7  14.g3  O-O-O  15.a4  d3  16.Qb2  Qxg3+  with a messy position that Anand eventually won. }
+11... Qxf6 12. O-O
+{ 12.a4?!  d3  13.Qb2  d2+  14.Nbxd2  c3  15.Ne4  Qxf3  16.gxf3  cxb2  17.Bxb2  O-O-O⩱ }
+12... O-O { 12...d3  13.Qb2+- } 13. a4
+{ Threatening to trap Bb6 and making space for Ra1. The position is very unbalanced with chances for both sides. Play can continue:   13...a6  To give Bb6 a square to retreat to after a5.   Bad is  13...d3?  14.Qb2+-  14.a5  Ba7  15.Qe4  Stepping out of the discovered attack d3 and attacking b7.  d3?   15...axb5  16.Bf4  with an unclear position.  16.bxa6  bxa6   16...Qxa1  17.axb7  Rab8  18.Bd2  Qf6  19.a6±  17.Bd2  Qxa1?  18.Ng5  Threatening mate on h7  g6  19.Bc3  and Black has to give up his queen to avoid mate. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "2. Variations"]
+[Black "6... Bb6 7... d5 9... Kf8?"]
+[Result "*"]
+
+{ This variation is rarely played. You can skip it by selecting 'Important Variations Only' in the 'Course Options - Learn' menu of the course options.  Relative importance of this variation: Low   6... Bb6  78% after 6.b4 7... d5 45% after 7.e5 9... Kf8 5% after 9.Qe2+ }
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. b4 Bb6 7. e5 d5 8. exf6
+dxc4 9. Qe2+ Kf8 10. b5 d3 11. Qe4 Na5 12. Qe5
+{ SF14:+4   Please note that after  12...Qxf6  13.Ba3  Black has to give up his queen to avoid mate on  e8  .   In addition, White is threatening 13. fxg7+, and Black gets mated after  12...gxf6  13.Bh6+  Kg8  14.Qg3+   Relatively the best continuation for Black is  12...g6  13.Bh6+  Kg8  14.O-O  but it is clear that White is winning. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "2. Variations"]
+[Black "6... Bb6 7... Ne4 11... 0-0?! 12... h6"]
+[Result "*"]
+
+{ Relative importance of this variation: Medium   6... Bb6  78% after 6.b4 7... Ne4 20% after 7.e5 11... O-O 48% after 11.O-O }
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. b4 Bb6 7. e5 Ne4 8. Bd5
+Nxc3 9. Nxc3 dxc3 10. Bg5 Ne7
+{ 10...f6  11.Bh4!  Keeping the tension and preparing O-O, Re1 SF14:+3   11.exf6?  gxf6  12.O-O!   12.Bh4?  Qe7+-+  13.Kf1  Nxb4-+  12...fxg5  13.Qe1+  Kf8  14.Qxc3  Nd4  15.Nxd4  Qf6= }
+11. O-O O-O
+{ Better is first 11... h6  (Seevariation 11... h6)  as after   11...O-O  , White does not have to move Bg5 after  12.Qd3  h6  because of a deadly attack on the Black king with Qd3-Ng5 threatening mate on h7. }
+12. Bb3
+{ Threatening to set up a battery with Bc2 and Qd3. The move order is important. If White plays  12.Qd3  first then Black can free themselves with  12...d6  13.exd6  Qxd6  . With the bishop on b3 this is not possible as after Qxd6, White would trade the queens on d6 after which Ne7 is hanging. }
+12... h6 { 12...Qe8  13.Re1  and White is better. } 13. Qd3
+{ Preparing the battery Bc2-Qd3 and eyeing h7. } 13... hxg5 14. Nxg5
+{ Threatening Qh7#. } 14... Ng6
+{ After  14....g6  15.Qh3  , Black can't avoid mate on h7. } 15. Qxg6
+{ And White is winning. 15... fxg6 is not possible because of the pin Bb3-f7-Kg8.   White will mate on the next move on h7. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "2. Variations"]
+[Black "6... Bb6 7... Ne4 11... 0-0?! 12.... d6"]
+[Result "*"]
+
+{ Relative importance of this variation: Medium   6... Bb6  78% after 6.b4 7... Ne4 20% after 7.e5 11... O-O 48% after 11.O-O }
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. b4 Bb6 7. e5 Ne4 8. Bd5
+Nxc3 9. Nxc3 dxc3 10. Bg5 Ne7 11. O-O O-O 12. Bb3 d6
+{ 12...Qe8  13.Re1  (and White is better) } 13. exd6 cxd6 14. Re1
+{ SF14:+3   Black can defend against the pin with Re8 or Be6   14...Re8  15.Qe2  adding a new pin Re1-Qe2-Ne7-Re8 and winning Ne7   14...Be6  15.Bxe6  fxe6  16.Rxe6  Rf7  17.Qe2  adding an attacker to the pinned Ne7 that can no longer be defended - SF14:+5 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "2. Variations"]
+[Black "6... Bb6 7... Ne4 11.... h6! 12... g5"]
+[Result "*"]
+
+{ Relative importance of this variation: Medium   6... Bb6  78% after 6.b4 7... Ne4 20% after 7.e5 11... h6 38% after 11.O-O }
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. b4 Bb6 7. e5 Ne4 8. Bd5
+Nxc3 9. Nxc3 dxc3 10. Bg5 Ne7 11. O-O h6 12. Bh4 g5 13. Nxg5 hxg5
+{ Analysis Dubov just to show the complexity of the whole variation and the beauty of chess. Don't try to memorize this!   13...Nxd5  14.Nf3  Ne7  15.Bf6  Black is a piece up but his king is unsafe and he has a hard time finishing his development.  Rg8  16.Re1  a5  17.Qc2  axb4  18.Qh7  b3  19.Rad1  Bxf2+  20.Kf1   Not  20.Kxf2?  Rxa2+  21.Kg1  Raxg2+  22.Kh1-+  20...Bxe1  21.e6  Rf8  22.Ne5  dxe6  23.Rxd8+  Kxd8  24.Nxf7+  Ke8  25.Nd6+  Kd7  26.Qxe7+  Kc6  27.Qxf8  b2  28.Ne4  b1=Q  29.Qc5+  Kd7  30.Qe7+  with perpetual check. }
+14. Bxg5 d6 { 14...c6  15.Bb3  Qc7  16.Qf3  SF14: +6 } 15. Qf3 Be6 16. Bxb7 Rb8
+{ 'It still looks like a strange mess after  16...d5  17.Bc6+  Nxc6  18.Bxd8  Kxd8  19.Qxc3=∞  and White doesn't seem to be worse.' Dubov }
+17. Bc6+ Kf8
+{ White can repeat after  17...Bd7  18.Bd5  Be6  19.Bc6  . Personally, I would bluff with  18.Qf6  and dare my opponent club player to defend against the threats Qxh8 and exd6-Re1 and continue after  19...O-O  19.Qh6  threatening Bf6-Qg7 and Qh8 mate. }
+18. Rad1 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "2. Variations"]
+[Black "6... Bb6 7... Ng4 8... O-O "]
+[Result "*"]
+
+{ Relative importance of this variation: Medium   6... Bb6 78% after 6.b4 7... Ng4 17% after 7.e5 8... O-O 36% after 8.O-O }
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. b4 Bb6
+{ 6... Bb6 78%, 6. .. Be7 14%    (Lichess Rapid and Classical; all ratings)   6...Bd6  7.O-O  O-O  8.b5  Na5  9.Bd3±  White threatens e4-e5 forking Bd6 and Nf6. It is hard for Black to complete his development. }
+7. e5 Ng4
+{ The knight on g4 is vulnerable to being chased back by h2-h3  (after White has played cxd4)  . The knight can only go to h6 after which White can often damage Black's pawn structure with Bxh6 gxh6 }
+8. O-O
+{ The natural  8.cxd4  runs into the surprising  8...Nxd4  9.Nxd4  d5  10.exd6   Not  10.Be2?  Nxf2  11.Kxf2  Qh4  and Black wins  10...O-O  11.O-O  Qxd6  12.Nf3  Qxd1  13.Rxd1  Nxf2  14.Rf1  Nd3+  15.Kh1  Nf2+=  is not the perpetual we are looking for.  This is all different if Black retreats his bishop to e7 instead of b6:variation 6... Be7 7... Ng4 }
+8... O-O
+{ 8...Ngxe5?  9.Nxe5  Nxe5  10.Re1  d6  11.cxd4+-  SF14:+4   8...dxc3  9.Bg5  Ne7  10.Nxc3+-  SF14:+5 }
+9. cxd4 d5 { 9...d6  10.h3± } 10. Bb3 Nxd4 { 10...Nxb4?!  11.h3± } 11. Nxd4 Qh4
+12. Bf4 { 12.h3??  Nxf2  13.Rxf2  Bxd4  and Black wins. } 12... Nxh2 13. Bxh2
+Bxd4
+{ An example of how White will attack when Black takes with the queen on d4  13...Qxd4  14.Nd2  c6  15.Nf3  Qxb4  16.Bc2  Bg4  17.a4  Rfe8  18.a5  Bc7  19.Ra4  Bxf3  20.Qxf3  Qe7  21.Bxh7+  Kxh7  22.Qh5+  Kg8  23.Rh4  and White wins. }
+14. Bg3
+{ A free move. The bishop is more active on g3 than on h2. The bishop protects f2 and can join the attack later with Bh4-Bf6. SF14:+2   White has a Bishop + Knight  (6)  versus a Rook + 3 pawns  (8)  .    White's strategies:   Attack the Black king taking advantage of the lead in development and the half-open h-file   Use the extra piece to win back pawns and then convert the material advantage    My recommendation is that you practice this position against a BOT  (like Maia on Lichess)  to learn how to convert White's initiative despite his material deficit.  A typical continuation:   14...Qg4  15.Na3  Bxa1  16.Qxa1  Qxb4  17.Nc2  Qb6  18.Ne3  c6  19.Rd1  Be6  20.Bc2  Rad8  21.Bh4  Rd7  22.Nf5  Qc7  23.Nxg7  Kxg7  24.Bf6+  Kg8  25.Qc1  and White wins. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "2. Variations"]
+[Black "6... Bb6 7... Ng4 8... dxc3"]
+[Result "*"]
+
+{ Relative importance of this variation: Medium   6... Bb6 78% after 6.b4 7... Ng4 17% after 7.e5 8... dxc3 36% after 8.O-O }
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. b4 Bb6
+{ 6...Bd6  7.O-O  O-O  8.b5  Na5  9.Bd3±  White threatens e4-e5 forking Bd6 and Nf6. It is hard for Black to complete his development. }
+7. e5 Ng4 8. O-O dxc3
+{ The members of the Pawngrabbers Society are not going to survive this. } 9.
+Bg5 Ne7 { 9...f6  10.exf6  gxf6  11.Bh4+-  with Re1+ and Nc3-d5 to follow. }
+10. Nxc3
+{ White is winning SF14:+5. His main threats are Nd5, attacking the pinned Ne7 and h3 - chasing the knight back and destroying Black's pawn structure after Nh6.   Note that if Black tries to avoid getting pinned by playing  10...h6  that his knight on  g4  gets trapped after  11.Bxe7  Qxe7  12.Nd5  Qd8  13.Nxb6  axb6  14.h3 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "2. Variations"]
+[Black "6... Bb6 7... Qe7?"]
+[Result "*"]
+
+{ Relative importance of this variation: Medium   6... Bb6 78% after 6.b4 7... Qe7 13% after 7.e5 }
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. b4 Bb6 7. e5 Qe7
+{ Bad idea to give the queen such a central defending task  (pinning e5)  while after castle Nf6 has to move and Qe7 is subject to an attack with Bg5. }
+8. O-O Ng4
+{ 8...Ne4  9.cxd4  Qxb4  10.Qd3  SF14: +5   8...Nxe5  9.Nxe5  Qxe5  10.Re1  Ne4  11.Nd2  d5  12.Bxd5  Qxd5  13.c4  Qf5  14.Rxe4+-  SF14:+5 }
+9. Bg5 f6 { 9...Qf8  10.cxd4  SF14:+4 } 10. exf6 gxf6 11. Re1 Nge5 12. cxd4
+{ Taking Bg5 is not a threat:  12...fxg5  13.Nxe5  and the discovered attack with Ne5-Re1 and the pin threat over the e-file Re1-Qe7-Ke8, are killing Black SF14-+10.   The alternative  12.Nxe5  Nxe5  13.cxd4  is also good. SF14:+6 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "2. Variations"]
+[Black "6... Be7 7... Ng4"]
+[Result "*"]
+
+{ Relative importance of this variation: Medium   6... Be7 14% after 6.b4 7... Ng4 41% after 7.e5 }
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. b4 Be7
+{ Played in 14% of the games after 6.b4    (Lichess - all rapid and classical) }
+7. e5 Ng4 8. cxd4 Bxb4+ 9. Bd2 Bxd2+ 10. Qxd2 O-O
+{ 10...d5  11.Bb5   The move  11.exd6?  is bad as it gives up the centre, weakens pawn d4, and gives Ng4 the square f6  11...cxd6  12.O-O  O-O  13.Nc3  Nf6⩱  11...Bd7  12.O-O  with equality. }
+11. h3 Nh6 12. O-O
+{ 'White's centre seems rather impressive, but he is a pawn down and Black is about to undermine the centre with d7-d6. However, the g4-knight is very misplaced and White is more active at the moment. I think that after a sequence of careful moves the position peters out into equality.   12...d6  13.exd6  Qxd6  14.Nc3  Nf5  15.Rad1  keeps the tension when after  15...Bd7  16.Ne4  Qh6  17.Qc3  we just keep the pieces on the board. Moves like Nc5 and Rfe1 can still keep Black busy defending, although I think he is perfectly fine, as after all, he is a pawn up in a relatively simple position.' IM Yurily Krykun, New In Chess YearBook 138 - 2021 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "2. Variations"]
+[Black "6... Be7 7... Ne4"]
+[Result "*"]
+
+{ Relative importance of this variation: Medium   6... Be7 14% after 6.b4 7... Ne4 42% after 7.e5 }
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. b4 Be7 7. e5 Ne4 8. b5
+{ Please note that in thevariation with 6... Bb6 7.e5 Ne4 we play 8. Bd5 because we follow up with Bg5 attacking Qd8. With the bishop on e7, we can not continue with Bg5 and that is why we play 8. b5. }
+8... Na5
+{ 8...d5  9.exd6  Nxd6  10.bxc6  Nxc4  11.cxb7  Bxb7  12.Qa4+  Qd7  13.Qxc4+-  White is a piece up against a pawn and the bishop pair advantage.   8...Nb8  9.Qxd4  Nc5  10.Qg4  g6  11.Qf4± }
+9. Bd3 Nxc3 10. Nxc3 dxc3 11. Qa4
+{ Changing the move order and castling first allows Black to free themselves:  11.O-O  d5  12.Qa4  c5  13.bxc6  Nxc6  and Black is better SF14:-2,   while after  11.Qa4  c5  12.O-O  d5  13.exd6  Qxd6  14.Bc2  White is better SF14:+3. Na5 is hanging, Black's king is in the middle and White has a lead in development. }
+11... b6
+{ 11...c6  This move is a bit of an outlier  (never played in the nine million games of the ChessBase Mega Database and played in less than 0.1% of the games in the Dubov-variation on Lichess.)  (Most humans choose 11... b6 to give Na5 the square b7 and to avoid tying up Qd8 defending Na5.)  12.O-O  cxb5  13.Qg4  O-O   Or  13...g6  14.Bh6⩲  and Black has difficulty completing his development.  14.Qh5   White should not be materialistic as after  14.Bh6?!  g6  15.Bxf8  Bxf8⩱  Black is slightly better.  14...g6  15.Qh6±  threatening Ng5 and mate on h7. }
+12. O-O
+{ White has compensation for his material deficit with the threats Qe4 or Qg4, pressuring g7.     Please note that  12...O-O  fails to the double attack  13.Qe4  attacking Ra8 and threatening mate on h7.  A game example:   12...c5  13.Rd1  g6  14.Bh6  Bb7  15.Qf4  Qc7  16.Ng5  f6  17.Nxh7  f5  18.Nf6+  Bxf6  19.exf6  Qxf4  20.Bxf4  Kf7  21.Bd6  a6  22.Rac1  axb5  23.Bxb5  Nc6  24.f4  Rhe8  1/2-1/2  (24)  Lodici,L  (2483)  - Hovhannisyan,R  (2632)  Tornelo INT 2021 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "2. Variations"]
+[Black "6... Be7 7... d5"]
+[Result "*"]
+
+{ This variation is rarely played. You can skip it by selecting 'Important Variations Only' in the 'Course Options - Learn' menu of the course options.  Relative importance of this variation: Low   6... Be7 14% after 6.b4 7... d5 8% after 7.e5 }
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. b4 Be7
+{ Played in 14% of the games after 6.b4    (Lichess - all rapid and classical) }
+7. e5 d5
+{ 7... d5 has not been played over the board and is a novelty suggested by IM Yuriy Krykun }
+8. exf6 Bxf6 9. b5
+{ Not  9.Bd3?  Qe7  10.Qe2  dxc3  11.Qxe7  Kxe7  12.Ba3  a5  13.b5  Nb4  14.O-O  Kd8  and Black is winning. Black's passed pawns are too strong and Ra1 is still vulnerable. }
+9... Ne7 { The knight is more active on e7 than a5. } 10. Bd3 dxc3 11. Qc2
+{ Blockading the pawn - defending against the discovered attack c3-c2  (attacking Ra1 and Qd1.)   Black has 3 pawns for a knight. Another very unbalanced position with chances for both sides!    'We are definitely up for a wild ride here, but with the pawns safely blockaded, I would probably prefer White   11...d4  12.O-O  Qd5  13.Na3  Bf5  14.Bxf5  Nxf5  15.Re1  Ne7  16.Qd3  O-O  17.Bg5  Bxg5  18.Re5  Qd6  19.Nxg5  and White is better.' Yuriy Krykun, New In Chess Yearbook 138 2021. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "3. Puzzles"]
+[Black "* Puzzle 1"]
+[Result "*"]
+[FEN "r1bqk2r/p1ppbppp/1p6/nP2P3/Q7/2pB1N2/P4PPP/R1B2RK1 b kq - 0 1"]
+[SetUp "1"]
+
+1... O-O
+{ Chapter 3.Puzzles is a combination of exercises to reinforce key motifs and tactics. So don't just look for tactics, but play the best move in the position.   The number of  *  indicates the difficulty of the puzzle.  From variation6... Be7 7... Ne4 }
+2. Qe4 { With a double attack on Ra8 and h7  (mate)  . } 2... g6 3. Qxa8 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "3. Puzzles"]
+[Black "* Puzzle 2"]
+[Result "*"]
+[FEN "r1bqk2r/pppp1ppp/1bn5/4P3/1PBp2n1/2P2N2/P4PPP/RNBQ1RK1 b kq - 0 1"]
+[SetUp "1"]
+
+dxc3 { From variation6... Bb6 7... Ng4 8... dxc3 } 2. Bg5
+{ Attacking Qd8. If Black plays Bb6 then the diagonal h4-d8 is more vulnerable. }
+2... Ne7 3. Nxc3
+{ SF14:+5  White is winning.   His main threats are Nd5, attacking the pinned Ne7 and h3 - chasing the knight back and destroying Black's pawn structure after Nh6.     Note that if Black tries to avoid getting pinned by playing  3...h6  that  Ng4  gets trapped after  4.Bxe7  Qxe7  5.Nd5  Qd8  6.Nxb6  axb6  7.h3 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "3. Puzzles"]
+[Black "* Puzzle 3"]
+[Result "*"]
+[FEN "r1bq1k1r/ppp2ppp/1b3P2/nP2Q3/2p5/2Pp1N2/P4PPP/RNB1K2R b KQ - 0 1"]
+[SetUp "1"]
+
+1... Qxf6 { From variation 6... Bb6 7... d5 9... Kf8? } 2. Ba3+ Kg8 3. Qe8# *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "3. Puzzles"]
+[Black "* Puzzle 4"]
+[Result "*"]
+[FEN "r1bqk2r/pppp1ppp/1bn5/4P3/1PBp2n1/2P2N2/P4PPP/RNBQ1RK1 b kq - 0 1"]
+[SetUp "1"]
+
+Ngxe5
+{ A poor move but played quite often in practice.  A sub-variation of6... Bb6 7... Ng4 8... O-O }
+2. Nxe5
+{ 2.Re1  d6  3.cxd4  Nxd4  4.Nxd4  is also good for White but not as good as the course solution. }
+2... Nxe5 3. Re1 { Pinning Ne5 to Ke8. } 3... d6 4. cxd4
+{ Winning a piece by attacking the pinned Ne5 with a pawn.   On  4...Qh4  , White plays  5.Be3  and the knight on  e5  can still not move because of the discovered attack threat  Bg5+  , winning the queen on  h4 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "3. Puzzles"]
+[Black "** Puzzle 5"]
+[Result "*"]
+[FEN "r2qk2r/ppp2ppp/1b2bP2/1P6/1np1Q3/2Pp1N2/P4PPP/RNB2RK1 b kq - 0 1"]
+[SetUp "1"]
+
+1... Qxf6
+{ Defending Nb4 by pinning the pawn on c3 to Ra1.   A sub-variation of 6... Bb6 7... d5 9... Be6 10... d3 11... Nb4 }
+2. Bg5 { Attacking the  (indirect)  defender of Nb4. } 2... Qg6 3. Qxg6 hxg6
+{ Trading the queen on e4 who was under attack. After trading, we are free to take Nb4. }
+4. cxb4 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "3. Puzzles"]
+[Black "** Puzzle 6"]
+[Result "*"]
+[FEN "r2qk2r/ppp2pPp/1b2b3/nP6/2p1Q3/2Pp1N2/P4PPP/RNB1K2R b KQkq - 0 1"]
+[SetUp "1"]
+
+Rg8 { A sub-variation of 6... Bb6 7... d5 9... Be6 10... d3 11... Na5 } 2. Bg5
+{ To prevent Black from castling long and to prepare  Bf6  , protecting the pawn on  g7  .  2.Qxh7?  f6  and Black is OK after  3.O-O  Qd7  4.Bh6  O-O-O }
+2... Qd7 3. Qxh7 f5 { Attacking the pawn on g7 with Qd7 and Rg8. } 4. Bf6
+{ SF14:+6 White secured the pawn on g7, Black's king is stuck in the middle and White will bring attackers with Nbd2-Re1 and then Ne5 or Ng5. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "3. Puzzles"]
+[Black "** Puzzle 7"]
+[Result "*"]
+[FEN "r1bq1rk1/ppppnppp/1b6/4P1B1/1P6/1Bp2N2/P4PPP/R2Q1RK1 b - - 0 1"]
+[SetUp "1"]
+
+1... h6 { From variation6... Bb6 7... Ne4 11... 0-0?! 12... h6 } 2. Qd3 hxg5 3.
+Nxg5 { Threatening mate on h7. } 3... Ng6
+{ After  3....g6  4.Qh3  , Black can't avoid mate on  h7  . } 4. Qxg6
+{ And White is winning. 15... fxg6 is not possible because of the pin Bb3-f7-Kg8.   White will mate on the next move on h7. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "3. Puzzles"]
+[Black "** Puzzle 8"]
+[Result "*"]
+[FEN "r3k1r1/ppp2pPp/4b3/nP6/2pq4/8/PB2QPPP/RN2K2R b KQq - 0 1"]
+[SetUp "1"]
+
+1... Qd3 { From variation6... Bb6 7... d5 9... Be6 10... Na5 14... Qd3 } 2. Bf6
+{ It is critical that White prevents Black from castling long and prevents Ke7-f6 from winning the pawn on g7. In addition, exchanging queens on d3 would give Black the c4 square for his poorly placed knight on a5. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "3. Puzzles"]
+[Black "** Puzzle 9"]
+[Result "*"]
+[FEN "r3k1r1/ppp2pPp/4b3/nP6/2pq4/8/PB2QPPP/RN2K2R b KQq - 0 1"]
+[SetUp "1"]
+
+1... Qd5 { From6... Bb6 7... d5 9... Be6 10... Na5 14... Qd5 } 2. Nc3
+{ Attacking Qd5 and developing the knight with tempo. } 2... Qxg2 3. O-O-O
+{ Defending Rh1 by connecting the rooks, preventing Black from castling long and bringing his king into safety. SF14: +6 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "3. Puzzles"]
+[Black "*** Puzzle 10"]
+[Result "*"]
+[FEN "r1bqk2r/ppppnppp/1b6/4P1B1/1PB3n1/2N2N2/P4PPP/R2Q1RK1 b kq - 0 1"]
+[SetUp "1"]
+
+1... h6 { From variation6... Bb6 7... Ng4 8... dxc3 } 2. Bxe7 Qxe7 3. Nd5 Qd8
+4. Nxb6 axb6 5. h3 { Trapping the knight on g4. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "3. Puzzles"]
+[Black "*** Puzzle 11"]
+[Result "*"]
+[FEN "r1bqk2r/ppppbppp/2n5/1P2P3/2Bpn3/2P2N2/P4PPP/RNBQK2R b KQkq - 0 1"]
+[SetUp "1"]
+
+1... d5 { A sub-variation of 6... Be7 7... Ne4 } 2. exd6
+{ Attacking both Be7 and Nc6. } 2... Nxd6 { Attacking Bc4. } 3. bxc6 Nxc4 4.
+cxb7
+{ Attacking Ra8 with pawn b7 and opening up the a4-e8 diagonal for a future double attack with the queen. }
+4... Bxb7 5. Qa4+ { Attacking the unprotected Nc4 and checking Ke8. } 5... Qd7
+6. Qxc4
+{ SF14:+2 White is a piece up against a pawn and the bishop pair advantage. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "3. Puzzles"]
+[Black "*** Puzzle 12"]
+[Result "*"]
+[FEN "r1b1k2r/ppppqppp/1bn2n2/4P3/1PBp4/2P2N2/P4PPP/RNBQ1RK1 b kq - 0 1"]
+[SetUp "1"]
+
+1... Nxe5
+{ The themes are pinning and trapping.  A sub-variation of 6... Bb6 7... Qe7?. }
+2. Nxe5 Qxe5 3. Re1 Ne4 4. Nd2
+{ 4.f3?  loses to  4...dxc3+  5.Kf1  O-O  6.Rxe4  c2  7.Qxc2  Qxh2 } 4... d5 5.
+Bxd5 Qxd5 6. c4
+{ 6.Rxe4  is an alternative.  But not   6.Nxe4  O-O  and White no longer has c4-c5 as c4 is no longer protected by Nd2. }
+6... Qf5 7. Rxe4+
+{ Now  7.Nxe4  works too as  Nd2  is no longer necessary to play  c4  and White is threatening  Nd6+ }
+7... Be6 8. c5 { Trapping Bb6. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "3. Puzzles"]
+[Black "**** Puzzle 13"]
+[Result "*"]
+[FEN "r5r1/pppk1pP1/1b6/1P1q1bBQ/2p5/2Pp1N2/P1nN1PPP/R4RK1 b - - 0 1"]
+[SetUp "1"]
+
+1... Nxa1 { From variation6... Bb6 7... d5 9... Be6 10... d3 11... Nb4 } 2.
+Ne5+ Kc8 { 2...Qxe5?  3.Qxf7+  Kd6  4.Nxc4++- } 3. Bf6 Qe6 4. Qh8
+{ This variation highlights:  the importance of Bf6 defending g7 the vulnerability of the Black king the weakness of square e5 @@StartBracket@@Ne5+, Re5@@EndBracket@@  the importance of the pawn on g7 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "3. Puzzles"]
+[Black "**** Puzzle 14"]
+[Result "*"]
+[FEN "r1bq1rk1/ppp2ppp/1bn5/3pP3/1P1P2n1/1B3N2/P4PPP/RNBQ1RK1 b - - 0 1"]
+[SetUp "1"]
+
+1... Nxd4 { From variation6... Bb6 7... Ng4 8... O-O } 2. Nxd4 Qh4 3. Bf4
+{ 3.h3??  Nxf2  4.Rxf2  Bxd4  and Black wins. } 3... Nxh2 4. Bxh2 Bxd4 5. Bg3
+{ A free move: on g3 the bishop is more active than on h2. The bishop protects f2 and can be used in a future attack with Bh4-f6. }
+5... Qg4 6. Na3 Bxa1 7. Qxa1
+{ SF14:+2    An example of why Bg3 is useful:   7...Qxb4  8.Nc2  Qb6  9.Ne3  c6  10.Rd1  Be6  11.Bc2  Rad8  12.Bh4  Rd7  13.Nf5  Qc7  14.Nxg7  Kxg7  15.Bf6+  Kg8  16.Qc1  and White wins.  White has Bishop + Knight  (6)  versus Rook + 3 pawns  (8)  . Strategies for White:   1. attack the Black king taking advantage of the lead in development and the half-open h-file   2. use the extra piece to win back pawns  (d5, c7 etc.)  and then convert the material advantage. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "3. Puzzles"]
+[Black "***** Puzzle 15"]
+[Result "*"]
+[FEN "r5r1/pppk1pPQ/1b2b3/1P1q2B1/2p5/2Pp1N2/P1nN1PPP/R4RK1 b - - 0 1"]
+[SetUp "1"]
+
+1... Nxa1 { A sub-variation of6... Bb6 7... d5 9... Be6 10... d3 11... Nb4 } 2.
+Ne4
+{ 2.Re1  Bf5  3.Re7+  (only move!)  is an alternative  (. After 2. Ne4, White threatens Nf6+ with a double attack on Kd7 and Qd5.) }
+2... Qf5 { Black tries to reduce the pressure by trading queens. } 3. Nf6+ Kd6
+{ The Black king can not go to the back rank as that would leave Rg8 undefended. }
+4. Qh6 { Defending the pawn on g7. } 4... Qg6
+{ After  4...Nc2  , White wins with  5.Bf4  Ke7  6.Qh4  threatening a deadly discovered attack, for example,  6...Rxg7  7.Nd5  . }
+5. Qh4
+{ And White wins. The Black king can not find safety. For example  5...Rxg7  6.Ne4  Kd5  7.Re1  Nc2  8.Qf4  threatening Qe5# }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4. Model games"]
+[Black "Dubov, Daniil vs. Karjakin, Sergey - Russian Ch 2020"]
+[Result "*"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. b4
+{ 'Sasha Riazantsev and I looked at this for quite some time after I had mentioned it as an amusing line for a blitz game. Sasha has a very specific sense of humour and, after laughing for 10 minutes, he came up with some deep analysis. All in all, the line looks decent for White; I don't see a way to get an advantage, which is quite something for such a sharp position!   Daniil Dubov - New In Chess Magazine 2021 #1 }
+6... Bb6 7. e5 Ne4 8. Bd5 Nxc3 9. Nxc3 dxc3 10. Bg5 Ne7 11. O-O h6
+{ 11...O-O ?!  12.Bb3  h6  13.Qd3!  and now:  13...hxg5?  is impossible because after:  14.Nxg5  Ng6  15.Qxg6  Black gets mated. }
+12. Bh4 O-O
+{ 'A very logical move and hard to criticize, but   12...g5  was probably better, even though it still looks like a strange mess after:  13.Nxg5!  hxg5   13...Nxd5!?  is also decent. I'll show one of the lines I like, just to make you understand the amount of work Sasha had done:  14.Nf3  Ne7  15.Bf6  Rg8  16.Re1  a5  17.Qc2  axb4  18.Qh7  b3  19.Rad1!  Bxf2+!  20.Kf1!  Bxe1  21.e6  Rf8  22.Ne5  dxe6  23.Rxd8+  Kxd8  24.Nxf7+  Ke8!  25.Nd6+  Kd7  26.Qxe7+  Kc6  27.Qxf8  b2  28.Ne4  b1=Q  29.Qc5+  Kd7  30.Qe7+  with a perpetual  14.Bxg5  d6  15.Qf3  Be6  16.Bxb7  d5  17.Bc6+  Nxc6  18.Bxd8  Kxd8  19.Qxc3  and White doesn't seem to be worse.'  (Dubov) }
+13. Re1 Qe8 { Better  13...a5  14.Qd3  axb4  15.Bb3  Qe8  16.Bf6  Ra3= } 14.
+Bb3 { To avoid trading pieces with Nxd5. } 14... a5
+{ Better  14...Nf5!  15.Qd3  d5  16.exd6  Qd7  17.Rad1  cxd6  18.Bc2  Qc6= }
+15. Bf6 a4 16. Bc4 Ng6 17. Qd3
+{ 17.Qc2  d5  18.exd6  Be6  19.Bxc3  cxd6  20.Qxg6  with an improved version of the queen sac in the game. }
+17... d5 18. exd6 Be6 19. Qxg6
+{ White sacrifices his queen for 2 minor pieces and a dangerous passed pawn.  'A cool move to play, but I'm actually left with nothing else.' Dubov. }
+19... fxg6 20. Rxe6 Qf7
+{ Better  20...Qc6  21.Re7+  Qxc4  22.Rxg7+  Kh8  23.Rxc7+  Rxf6  24.Rxc4  and Black can still fight. }
+21. Bxc3 Kh8
+{ 21...Bxf2+  another crazy idea: lure the king to f2 for a future, potential double attack with Qc2 on Kf2 and Bc3  22.Kxf2  Kh8  23.Re4  Qf5  24.Bd3   24.Re7?  Qc2+  Qd5⩲ }
+22. Re4 Qf5 23. Re7 Rg8 { SF14: +4   23...Rf6  24.d7+- } 24. Bxg8 Rxg8 25. dxc7
+{ Now Black has a R + N + passed pawn on c7 for the Q. } 25... Qc2 26. Be5
+Bxf2+ 27. Kh1 Bb6 28. h3 Kh7 29. Re1 a3 30. Kh2 g5 31. Nd4 Qc4 32. Nf5 Qxb4 33.
+Rc1 Kg6 34. Rxg7+ { Not:   34.Nd6??  Bd4  35.Bg3  Bf2  And Black is OK. } 34...
+Kxf5 35. Rxg8 Bxc7 36. Bxc7 Qb2 37. Rc5+ Ke4 38. Rd8 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4. Model games"]
+[Black "Skvortsov, Oleg vs. Anand, Viswanathan - Zürich 2017"]
+[Result "*"]
+
+{ Oleg Skvortsov is the sponsor of, among others, the Zürich Chess Challenge and the Nutcracker matches of the generations in Moscow. }
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. b4 Bb6 7. e5 d5 8. exf6
+dxc4 9. Qe2+ Be6 10. b5 Nb4
+{ Anand: 'Sometimes, it is better to be aggressive than accurate. Now the connected passed pawns and the two bishops are quite dangerous in practical play.'    This was played in three of the 2,200+ Rapid and Classical games on Lichess with 6. b4. So a small chance you will get it over the board. }
+11. fxg7
+{ In the mini-course I recommend not to take the pawn on  g7  , but directly  11.cxb4  Qxf6  12.O-O  . Taking on  g7  allows Black to set up an attack against the White king and Black can castle long. }
+11... Rg8 12. cxb4 Qf6 13. O-O
+{ 13.a4!?  Qxg7  14.Qe5  Qxg2  15.Rg1  Qxg1+  16.Nxg1  Rxg1+  17.Kd2  c3+  18.Kd3  Rxc1  19.a5  'Another dead equality, according to the machine, or an extremely complicated position to human eyes', Yuriy Krykun NIC YB138 2021 }
+13... Qxg7 14. g3 O-O-O 15. a4 d3 16. Qb2 Qxg3+
+{ Objectively better is  16...Qg4  17.Qf6  a5  18.bxa5  Bxa5= } 17. hxg3 Rxg3+
+18. Kh2 Rxf3 { White is slightly better } 19. Bg5
+{ SF14:-6 Now Black is suddenly completely winning.   Better is  19.Qg7  Rh3+  20.Kg2  Bd4  21.Qg5  h6  22.Qxd8+  Kxd8  23.Ra3  'I was sure that Black has enough here' Anand - SF14:+1 }
+19... Bd4 20. Qd2 Rg8 21. Ra3
+{ After  21.Rg1  Rh3+  22.Kg2  h6  23.Kf1  Rxg5+- } 21... h6 22. Rg1 Rh3+ 23.
+Kg2 Rxg5+ 24. Kf1 Rxg1+ 25. Kxg1 Bd5 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4. Model games"]
+[Black "Yoo, Christopher (2457) vs. Vidyarthi, Vyom (2165) - Las Vegas 2021"]
+[Result "*"]
+
+{ Christopher Yoo, now 15, became an International Master at the age of 12. This game was played at the US National Open in Las Vegas in June 2021. So also prodigies endorse this opening!  This game illustrates perfectly the type of fight you can expect with this variation. In addition, it highlighted that the advance of the h-pawn is an important idea in lines where White has secured the pawn on g7 with Bf6. }
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. b4 Bb6 7. e5 d5 8. exf6
+dxc4 9. Qe2+ Be6 10. b5 d3 11. Qe4 Nb4
+{ A courageous choice by the Black player. Most likely he was surprised by White's opening choice but he goes for the sharpest response. The line is covered in Chapter 2. Variations 6... Bb6 7... d5 9... Be6 10... d3 11... Nb4. With 11... Nb4, Black threatens a double attack on Ra1 and Ke1 with Nc2+. }
+12. O-O
+{ Taking the knight with  12.cxb4??  is not possible because after  12...Qxf6-+  White loses his rook on  a1  . }
+12... Nc2 { 12...Qxf6  13.Bg5  Qg6  14.Qxg6  hxg6  15.cxb4  and White wins }
+13. fxg7 Rg8 14. Bg5 Qd5 15. Qxh7 Kd7 16. Nbd2 Bf5
+{ 16...Nxa1?  17.Ne4  Qf5  18.Nf6  Kd6  19.Qh6  Qg6  20.Qh4+-   16...Rae8  17.Ne4  SF14:+8 }
+17. Qh5 Rae8
+{ 17...Rxg7  18.Bf6!  Rgg8  19.Ne5+  Ke8  20.g3+-   In thevariation in Chapter 2- Variations, I investigate the greedy 17... Nxa1. With 17... Rae8, Black connects his rooks, prepares to bring his king into safety with Kc8, and threatens to take the crucial pawn on g7. }
+18. Bf6 { Defending the pawn on g7. } 18... Nxa1 19. Rxa1 Kc8
+{ Black has played a perfect game so far. Black is an exchange up and has been able to bring his king into safety and finish his development. White's protected passed pawn on g7 gives him sufficient compensation for the exchange. White has seven pawns and Black six. White's pawn on b5 is under attack. White can take on c4 with Nd2. If Black takes the knight on c4, then White takes the bishop on f5 with check. A dynamic balance. White chooses now a suboptimal continuation, but Black does not spot the surprising tactic. }
+20. h4
+{ A strong idea but it allows for a crazy combination. It was better to play directly  20.Nxc4  Qxc4  21.Qxf5+  Qe6  22.Qg5  and White plans to follow up with h4-h5-h6. }
+20... c6
+{ 20...Bxf2+!  21.Kxf2  Re2+  22.Kf1  Rxg2  23.Kxg2  Bh3+  24.Kxh3  Qxh5  25.Ng5  the only way to defend against  Qf5  25...Qe2⩱  with a very unbalanced position. }
+21. bxc6 bxc6 22. Nxc4 Qxc4 23. Qxf5+ Qe6 24. Qg5 Bd8 25. Bxd8 Rxd8 26. Nd4
+{ Better:  26.Rb1  Rd5  27.Qf4  Rb5  28.Rxb5  cxb5+- } 26... Qc4
+{ Better:  26...Qg6  27.Qf5+  Rd7=  And White is losing the pawn on  g7  . }
+27. Qf4 Rd7 28. Rb1 Rb7 29. Qf5+ Kb8 30. Rd1 f6 31. Qxd3 Qxd3 32. Rxd3 Rbxg7
+33. g3 Kb7 34. Re3 Rg4 35. Re7+ Kb6 36. Re6 Kb7 37. Kf1 c5 38. Nb3 f5 39. Nxc5+
+Kc7 40. Rf6 Rc4 41. Rxf5 Kd6 42. Nb3 Ra4 43. h5 Rxa2 44. Nc5 a5 45. Nb7+ Ke6
+46. Rxa5 Rxa5 47. Nxa5 Rg5 48. Nb3 Rxh5 49. Ke2 Rh1 50. Nd2 Kf5 51. c4 Kg4 52.
+Ne4 Kf5 53. f3 Ra1 54. Kd3 Rd1+ 55. Ke3 Re1+ 56. Kf2 Ra1 57. c5 Ke5 58. g4 Kf4
+59. Nc3 Ra5 60. Ne2+ Ke5 61. Nc1 Ra1 62. Ne2 Ra5 63. Nc1 Ra1 64. Nd3+ Kd4 65.
+Nf4 Kxc5 66. Ke3 Kd6 67. Nd3 Kd5 68. Kf4 Ra4+ 69. Kf5 Ra3 70. Ne5 Ra4 71. g5
+Kd6 72. g6 Ke7 73. g7 Ra8 74. Kg6 Ke6 75. Ng4 Kd5 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4. Model games"]
+[Black "Han Schut vs. MoistvonLipwig (Lichess 2380), Lichess 45 45 - Season 26"]
+[Result "*"]
+
+{ This game was played in Season 26 of the Lichess 45 45 league. My opponent was a German player with a FIDE rating of 2100. A team consists of 10 players. This game was played on board 1. The time control is 45 minutes for the game plus 45 additional seconds per move as of move 1. }
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. b4 Bb6 7. e5 d5 8. exf6
+dxc4 9. Qe2+ Be6 10. b5 Na5
+{ My opponent realized that  10...d3  11.Qe4  Na5  12.fxg7  Rg8  13.Bg5  Qd5  14.Qxh7  is better for White and he should not activate the White queen to  e4  , eyeing  h7  . }
+11. fxg7 Rg8 12. Nxd4 Bxd4
+{ An important alternative is  12...Rxg7  13.Nxe6  fxe6  14.O-O  Qd5= } 13.
+cxd4 Qxd4
+{ Logical, but it activates the bishop to b2 defending the pawn on g7 and controlling f6. Better is  13...Qd5  followed by castling long. }
+14. Bb2 Qd3 15. Bf6
+{ 15. Bf6 prevents Black from castling long.  15.Qxd3  would be a mistake as it gives Black the c4-square for the poorly placed knight on a5. }
+15... Qf5
+{ After this move I was out of book. Bf6 and the pawn on b5 are hanging. The mini-course continues with  15...Qg6  16.Qe5+- }
+16. Qe5
+{ My candidate moves were now 16. Qe5, 16. Qb2 and 16. Qf3.   I did not consider the variation  16.Qb2  Qe4+  17.Kf1  Qd3+  18.Qe2  Qf5  promising.   Had I studied the correspondence game City Barmen - City Berlin Academy, I would have realized that 16. Qf3 is the move of choice here  16.Qf3  Qxf3  17.gxf3  c6  18.Nc3  SF14:+5! }
+16... Qxe5+ 17. Bxe5 Ke7
+{ Prepares f6 and Rxg7. I expected Black to castle long after which White is better after  17...O-O-O  18.Nc3± }
+18. Nc3 f6 19. Bxc7 b6 20. O-O-O Nb7
+{ 20...Rxg7  21.Rhe1  Rxg2??  22.Nd5+  Kf7  23.Nf4+- } 21. Rhe1
+{ White has activated all his pieces. } 21... Rxg7
+{ The material balance has been restored but Black's pieces lack coordination @@StartBracket@@Rg7-Nb7-Ra8 all undefended@@EndBracket@@ and the Black king is vulnerable in the middle of the board. }
+22. Ne4 Kf7 23. Nxf6 Rxg2
+{ With the idea  23...Kxf6  24.Be5+  Kf7  25.Bxg7  Kxg7?   Better  25...Nc5  26.Rxe6+- }
+24. Ne4 Rg6 25. f4 Bf5 26. Ng5+ Kg8 27. Rd5
+{ My preparation did not lead to a win straight out of the opening. It did lead to a great fight and my opponent felt under pressure during the whole game and blundered now in a tense, but equal position. }
+27... Rg7 { Better  27...Nc5  28.Re7  Rf8= } 28. Be5
+{ I missed the prosaic  28.Bd8!  with a lethal mate threat on  e8  . } 28...
+Rd7 29. Rxd7 Bxd7 30. Rg1 Rc8 31. Ne4+ Kf8 32. Rg7 Bxb5 33. Rxb7 Bc6 34. Bg7+
+Kg8 35. Nf6# *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4. Model games"]
+[Black "Han Schut vs. Protput (2459), Lichess Blitz  - 7/3/2021"]
+[Result "*"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. b4 Bb6 7. e5 d5 8. exf6
+dxc4 9. Qe2+ Be6 10. b5 d3
+{ Clubplayers asked me to include games that demonstrate typical mistakes and their refutations. The move 10... d3 activates Qe2 to e4 eyeing h7. }
+11. Qe4 Na5 12. fxg7 Rg8 13. Bg5 Qd7
+{ White is winning SF14:+6 after 13 moves!   13...Qd5  14.Qxh7  f6  15.Bxf6  Bf5  16.Qh5+  Kd7  17.Ne5+  Ke6  18.Qf7+  Kd6  19.Qe7#  1-0 Han Schut - indfraeng  (2506)  Titled Tuesday 2021   Our mini-course is  13...Qd5  14.Qxh7  Kd7  15.O-O+-  For example:  15...Qxb5  16.Nbd2  Rae8  17.Ne4  Kc8  18.Nf6  Bf5  19.Qxg8  Rxg8  20.Nxg8  Bh7  21.Ne7+  Kd7  22.g8=Q  Bxg8  23.Nxg8  Qb2  24.Rae1  Qxc3  25.Ne5+  Kd6  26.Be7+  Kd5  27.Nf6+  Kd4  28.Nf3  1-0 Han Schut - CM Pantata007  (2305)  Titled Tuesday 2021   15...Rae8  16.Nbd2  Qxb5  17.Ne4  Qf5  18.Nf6+  Kc8  19.Qh6   Even stronger was  19.Qxg8  Rxg8  20.Nxg8  threatening Ne7+ with a double attack on Qf5 and Kc8 and Nh6 and the g-pawn promotes.  19...Qg6  20.Qxg6  fxg6  21.Nxe8  Rxe8  22.Rfe1  Threatening Rxe6  22...Kd7  23.Ne5+  Kc8  24.Nxg6  Kd7  25.Nf8+  1-0 Han Schut - Areliae @@StartBracket@@2216@@EndBracket@@ Blitz Chess.com 2021   13...Qd5  14.Qxh7  f5??  15.O-O  Kd7  16.Nbd2  Qxb5  17.Rae1  Nc6  18.Rxe6  Kxe6  19.Qg6+  Kd7  20.Qf7+  Kd6  21.Nxc4+  Kc5  22.Be3+  Nd4  23.Bxd4+  1-0 Han Schut - Phlegmaman  (2087)  Blitz Chess.com 2021 }
+14. Qxh7 f6 { Defending Rg8 } 15. Bxf6 Qf7 16. Qh6 { Defending Bf6. } 16... c6
+17. Ne5 Qc7 18. O-O cxb5 19. Re1 Nc6 20. Qh5+ Bf7 21. Nxf7+ Kd7 22. Qf5#
+{ mate. } *
+

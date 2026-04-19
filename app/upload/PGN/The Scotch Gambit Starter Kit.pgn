@@ -1,0 +1,829 @@
+[Event "The Scotch Gambit Starter Kit"]
+[White "Welcome to the Scotch Gambit"]
+[Black "Introduction"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/19999439"]
+[ECO "C44"]
+
+{ Hey there, welcome to the Scotch Gambit Opening Prep course! Since I first began playing chess, one of my main motivations to improve was to get beautiful games that made me incredibly proud. Throughout my chess journey, the Scotch Gambit has allowed me to do just that. In my opinion, the Scotch Gambit has a unique ability to balance the aggressive play of a gambit, with the safer positional variations that give White everything they can ask for out of an opening. You'll learn multiple strange lines that fall under the radar of most players, so even if you are looking to counter the Scotch Gambit, you'll find these ideas quite useful. Before we start studying the variations, I'll share my very first Scotch Gambit game, which at the time got me my highest rated win. } 1. e4 e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } Nf6 {[%cal Bf6e4][%csl Be4]} { Here, Black played an inferior variation, aiming for an exchange in the center. } 
+4. dxe5 Nxe4 
+5. Bc4 {[%cal Bc4f7,Bd1d5][%csl Bf7]} { Already, White is threatening to sacrifice on f7 . } Bc5 {[%cal Bc5f2,Be4f2][%csl Bf2]} { Black plays a natural looking move, developing the bishop and eyeing down the f2-square. } 
+6. Qd5 { But unfortunately for Black, they miss the response Qd5 , targeting f7 and the e4-knight. } Bxf2+ {[%cal Bd5e4,Bd5f7][%csl Be4,Bf7]} 
+7. Ke2 Qe7 
+8. Qxe4 Bb6 {[%csl Bc3,Bc1,Bc4,Bf3]} { Not even ten moves in, White is already up a knight for a pawn. } 
+9. Nc3 O-O 
+10. Be3 Qb4 {[%cal Bb4b2][%csl Bb2]} 
+11. Nd5 {[%cal Bd5b4][%csl Bb4]} { Black is aiming to recoup some of the lost material, but leaves the kingside completely unprotected. } Qxb2 { White is looking to play Bd3 and threaten checkmate, but the move g6 would keep Black in the game... } 
+12. Nf6+ {[%cal Bf6h7,Be4h7][%csl Bh7]} { Nf6+ completely destroys Black's kingside, preventing Black from defending h7 with g6 . } gxf6 { Black is forced to capture, and Bd3 becomes an unstoppable threat. } 
+13. Bd3 {[%cal Be4h7][%csl Bh7]} Re8 
+14. Qxh7+ Kf8 
+15. Qh6+ {[%cal Bh6f6][%csl Bf6]} { Black tries to run, but our e5-pawn is a thorn in Black's position. } Kg8 
+16. Bh7+ Kh8 { Finally, using a little mating combination, we can end the game in style. } 
+17. Bg6+ Kg8 
+18. Qh7+ Kf8 
+{ After studying these very lines, it felt incredible to see this game play out exactly as I had practiced. I've done my best to cover all the realistic responses that you may encounter in your games, so that you can have a similar experience. I hope this course helps you, and wish you the best of luck in all your games. } 19. Qxf7# *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "1) Mainline Scotch Gambit"]
+[Black "Mainline Variation: Introduction"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/13496222"]
+[ECO "C44"]
+
+1. e4 {[%mdl 32768]} e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } exd4 
+4. Bc4 {[%cal Bc4f7,Be4e5][%csl Be5,Bf7]} { Many players are familiar with the continuation Nxd4 , the mainline of the Scotch. Instead, the Scotch Gambit continues with the move Bc4 , delaying the recapture of the d4 pawn. This applies pressure to the weak f7-square and keeps the knight on f3 , where it continues to support the pawn push e5 . } Nf6 
+5. e5 {[%cal Be5f6][%csl Bf6]} ( { While we will usually focus on 5. e5, it's important to mention the popular alternative } 5.O-O { . The line continues with } 5...Nxe4 6.Re1 d5 7.Bxd5 Qxd5 { and now the tactical } 8.Nc3 { , putting pressure on the } { e4 knight. 8...Qh5 9.Nxe4 . } ) d5 
+6. Bb5 {[%cal Bb5e8,Bf3d4,Bd1d4][%csl Bd4]} ( { The continuation } 6.exf6 dxc4 7.O-O gxf6 { gives black the center and a pawn. } ) { White continues applying central pressure by pinning the c6-Knight. } Ne4 
+7. Nxd4 {[%cal Bd4c6,Bb5c6][%csl Bc6]} { Finally, White recaptures the d4 pawn and threatens to harm the structure of black's queenside. } Bd7 
+8. Bxc6 { White captures on c6 to create a pawn weakness and take the pressure off of e5 . } bxc6 {[%csl Bc7,Bc6]} 
+9. O-O ( { Although f2-f3-f4 is part of White's plan, we should avoid playing it until our king is castled since: } 9.f3 Qh4+ { . } ) Bc5 
+10. Be3 {[%cal Bf2f3,Bf3e4,Bb1d2][%csl Be4,Bd2]} { At first, this variation may seem a bit chaotic, but that's the best part! As you explore all the possible alternatives in the future, you will realize that Black will have to find these exact ideas to avoid giving White an advantage. This means that a lot of games will be won in the opening against unprepared opponents. Here, White and Black are on even ground, but white is threatening an aggressive f2-f3-f4 advance with tempo on the knight. White's biggest weakness is the overextended pawn on e5 , which is often sacrificed in the later stages of the game to aid the kingside attack. } *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "1) Mainline Scotch Gambit"]
+[Black "Mainline Variation: 10...Bb6"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/13496223"]
+[ECO "C44"]
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } exd4 
+4. Bc4 {[%cal Bc4f7,Be4e5][%csl Be5,Bf7]} Nf6 { Black must find the uncomfortable variation } { 4.Nf6 e5 5.d5 . } 
+5. e5 {[%cal Be5f6][%csl Bf6]} d5 
+6. Bb5 {[%cal Bb5e8,Bf3d4,Bd1d4][%csl Bd4]} Ne4 
+7. Nxd4 {[%cal Bd4c6,Bb5c6][%csl Bc6]} Bc5 {[%cal Bc5f2][%csl Bf2]} 
+8. Be3 {[%mdl 32768]} ( { In the previous variation, we analyzed the simple Bd7 . Here, Black is inviting Nxc6 . However, if you capture with the intent of winning the rook, you will be disappointed: } 8.Nxc6 Bxf2 9.Kf1 bxc6 10.Bxc6+ Kf8 { and there is no time to capture the rook as } 11.Bxa8 Ba6+ { forces white to give up the queen. Instead we will play the most solid move } ) ( 8.Be3 { . } ) Bd7 
+9. Bxc6 bxc6 {[%csl Bc7,Bc6]} 
+10. O-O { Notice that we have transposed to the position presented in the previous variation. As always, avoid advancing f2-f3 until the king has castled to prevent the nasty Qh4+ . } Bb6 {[%cal Be4c5,Bf2f3][%csl Bc5,Bf3]} 
+11. Nd2 ( { Black retreats the bishop to a safer post on b6 to avoid any discovered attacks in the future. This move also allows the e4-knight to retreat to the vacant c5-square and prevents White from playing } 11.f3 Ng5 12.f4 { with tempo. } ) Nxd2 
+12. Qxd2 c5 {[%cal Bd5d4,Bc5c4][%csl Bc4,Bd4]} { Black won't allow the f2-f4-f5 advance without some counter play. Although we are just out of the opening, Black has their sights set on creating a passed d-pawn. } 
+13. Ne2 d4 
+14. Bg5 {[%cal Bf2f4,Bg5d8][%csl Bf4,Bd8]} Qc8 
+15. f4 { White finally puts their plan in action. } h6 
+16. Bh4 O-O 
+17. Ng3 { White swings the knight to g3 to add support for the f5 advance. } c4 
+18. Kh1 {[%cal Bf8e8,Bd7f5,Ba1e1][%csl Be8,Bf5,Be1]} ( { There are two paths from this position. White should be wary of the threats on the b6-g1 and b7-h1 diagonals pointing right towards the king, and can play the patient } 18.Kh1 { , or continue with the aggressive } ) ( 18.f5 c3 19.Qf4 cxb2 20.Rab1 Bb5 21.Rfe1 { where both players are playing an all or nothing game. } ) ( { White's goal is to win control over f5 and break through with the f4-f5-f6 advance. Black should continue with } 18. Bf5 to prevent the immediate advance. White should counter by bringing the a1-rook to e1 to support the e5 pawn. A possible continuation after18...Bf5 { is } { 19.Nxf5 Qxf5 20.h3 with the aggressive g4 plan. } ) *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "1) Mainline Scotch Gambit"]
+[Black "Mainline Variation: 10...O-O"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/13496224"]
+[ECO "C44"]
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } exd4 
+4. Bc4 {[%cal Bc4f7,Be4e5][%csl Be5,Bf7]} Nf6 
+5. e5 {[%cal Be5f6][%csl Bf6]} d5 
+6. Bb5 {[%cal Bb5e8,Bf3d4,Bd1d4][%csl Bd4]} Ne4 { White continues adding pressure on the center by pinning the c6-Knight and preparing to recapture the d4 pawn. } 
+7. Nxd4 {[%cal Bd4c6,Bb5c6][%csl Bc6]} Bc5 {[%cal Bc5f2][%csl Bf2]} 
+8. Be3 Bd7 
+9. Bxc6 bxc6 {[%csl Bc7,Bc6]} { As always, avoid advancing f2-f3 until the king has castled to prevent the nasty Qh4+ . } 
+10. O-O O-O { Alright, we've reached a similar position, but this time Black has opted for the more natural 10...O-O instead of 10...Bb6. Now we can more effectively chase the e4-Knight around the board. } 
+11. f3 {[%mdl 32768]} { White plays f2-f3-f4 , winning tempo on the knight and jumpstarting the kingside attack. } Ng5 
+12. f4 {[%cal Bf2f4,Bf3e4,Bf4g5][%csl Bg5,Be4]} Ne4 
+13. Nd2 Nxd2 
+14. Qxd2 { This position looks quite nice for White, as Black has not began any sort of aggressive c-d-pawn counter play. But now Black will try to tear through our e-f-pawns before they get to his king. } f6 
+15. Rae1 {[%cal Be5e6][%csl Be6]} -- ( { White shouldn't fear a capture on e5 since the plan has shifted towards creating a passed pawn on the e-file. White is already threatening the e6 advance. For example: } 15...Rb8 16.e6 Be8 17.Nxc6 Bxe3+ 18.Qxe3 { threatening the } { e7 advance. } )
+*
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "1) Mainline Scotch Gambit"]
+[Black "Mainline Variation: 13...f6"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/20363385"]
+[ECO "C44"]
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } exd4 
+4. Bc4 {[%cal Bc4f7,Be4e5][%csl Bf7,Be5]} Nf6 
+5. e5 {[%cal Be5f6][%csl Bf6]} d5 
+6. Bb5 {[%cal Bb5e8,Bf3d4,Bd1d4][%csl Bd4]} Ne4 
+7. Nxd4 {[%cal Bd4c6,Bb5c6][%csl Bc6]} Bc5 {[%cal Bc5f2][%csl Bf2]} 
+8. Be3 { Both players continue with simple development, fighting to keep their pieces in the center. } Bd7 
+9. Bxc6 bxc6 {[%csl Bc6,Bc7]} { As always, avoid advancing f2-f3 until the king has castled to prevent the nasty Qh4+ . } 
+10. O-O O-O 
+11. f3 Ng5 
+12. f4 {[%cal Bf2f4,Bf3e4,Bf4g5][%csl Be4,Bg5]} Ne4 
+13. Nd2 f6 ( { We need to investigate a move order trick that Black may pull on us. Recall that previously Black played } 13...Nxd2 14.Qxd2 f6 { which allowed for the reinforcing move } 15.Rae1 { . Now we need a more precise line. } ) 
+14. Nxe4 {[%mdl 32768]} dxe4 
+15. Qe2 {[%cal Be2c4][%csl Bc4]} Bg4 {[%cal Bd8d4,Bc5d4][%csl Bd4]} { Black plays a tactical move, opening up for their queen to defend against Qc4+ , as well as creating a discovered attack on d4 . Capturing on g4 loses the d4 knight and allows Black to infiltrate our position, so we decline the offer. } 
+16. Qf2 { 16...fxe5 would've been followed by 17. Nxc6 , preparing to recapture the e5-pawn. } Qd7 
+17. Nb3 Bb6 
+18. h3 Bf5 
+19. Rad1 {[%cal Bg2g4,Ba1d1][%csl Bg4]} -- ( { White has an aggressive position with a lot of momentum. After White has exhausted their tempo gaining moves to improve their position, they should be prepared to capture on f6 to prevent any nasty surprises on the f-file. The white knight should also look to rejoin the battle through d4 . Finally, provided that Black does not play } 19...Qe6 { , since } 20.g4 Bxg4 21.hxg4 Qxg4+ { will put both the king and e3-bishop in danger, White can be brave and advance to g4. } )
+*
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "1) Mainline Scotch Gambit"]
+[Black "Mainline Variation: 12...Ne6"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/20411743"]
+[ECO "C44"]
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } exd4 
+4. Bc4 {[%cal Bc4f7,Be4e5][%csl Be5,Bf7]} Nf6 
+5. e5 {[%cal Be5f6][%csl Bf6]} d5 
+6. Bb5 {[%cal Bb5e8,Bf3d4,Bd1d4][%csl Bd4]} Ne4 
+7. Nxd4 {[%cal Bd4c6,Bb5c6][%csl Bc6]} { White finally recaptures the center pawn and adds pressure to the c6-knight. } Bc5 {[%cal Bc5f2][%csl Bf2]} 
+8. Be3 Bd7 
+9. Bxc6 bxc6 {[%csl Bc7,Bc6]} 
+10. O-O { As always, avoid advancing f2-f3 until the king has castled to prevent the nasty Qh4+ . } O-O 
+11. f3 Ng5 
+12. f4 {[%cal Bf2f4,Bf3e4,Bf4g5][%csl Be4,Bg5]} Ne6 { Let's explore what happens if Black retreats their knight to e6 . } 
+13. Nc3 {[%mdl 32768]} ( { Resist the tempting immediate f5 advance. After } 13.f5 Nxd4 14.Bxd4 Bxd4 15.Qxd4 Qg5 { , the position is dead equal with best play: } 16.h4 Qg3 17.Rf3 Qe1+ 18.Rf1 Qg3 { and repetition. Deviating from this line will immediately give the opponent an advantage. } ) Qe7 
+14. Qd2 ( { Qd3 is another active square for the queen, but less optimal, since } 14.Qd3 Nxd4 15.Bxd4 Bf5 { allows Black to activate their bishop. } ) Rab8 
+15. b3 { Although White is free to play f5 , Black has done a good job of neutralizing the aggressive play that could follow with the move Qg5 , should White lose control of that square. White can continue by activating their a1-rook and fighting for the c5-square with Na4 , a strong outpost if White succeeds in planting the knight there. } *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "2) 4...Bb4+"]
+[Black "4...Bb4+ Variation: Introduction"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/13489496"]
+[ECO "C44"]
+
+1. e4 {[%mdl 32768]} e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } exd4 
+4. Bc4 {[%cal Bc4f7,Be4e5][%csl Be5,Bf7]} Bb4+ {[%cal Bc2c3][%csl Bc3]} { One of the most important responses to be prepared for is Bb4+ . These variations are when the Scotch Gambit begins to feel like a real gambit. } 
+5. c3 dxc3 {[%cal Bb2g7,Bc4f7,Bc1b2][%csl Bg7,Bf7]} 
+6. O-O { White is committing 2 pawns for incredible development and open lines towards Black's king. } Nf6 
+7. e5 {[%cal Be5f6][%csl Bf6]} cxb2 
+8. Bxb2 Nh5 {[%csl Bh5,Bb4,Bc6]} { Black's position is already chaotic and disorganized. } 
+9. Nbd2 O-O 
+10. Ne4 {[%cal Bd1h5,Bf2f6][%csl Bh5,Bf6]} { While White doesn't yet have a tangible advantage in the form of any material, such a strong position will likely end with Black having to give up some material to slow White's attack. White should try to avoid exchanging material and instead focus on transferring their pieces towards aggressive posts on the kingside. } *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "2) 4...Bb4+"]
+[Black "4...Bb4+ Variation: 7...d5 (11... Bxc3)"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/21892195"]
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } exd4 
+4. Bc4 {[%cal Bc4f7,Be4e5][%csl Be5,Bf7]} Bb4+ {[%cal Bc2c3][%csl Bc3]} { Black is trying to entice White to play c3 to commit to a gambit style of play. } 
+5. c3 dxc3 {[%cal Bc1b2,Bb2g7,Bc4f7][%csl Bg7,Bf7]} 
+6. O-O Nf6 
+7. e5 {[%cal Be5f6][%csl Bf6]} d5 {[%cal Be5f6,Bd5c4][%csl Bc4]} 
+8. exf6 {[%mdl 32768]} { Both players begin a capture chain with little room for deviation. } dxc4 
+9. fxg7 Rg8 { White has no attack here, and will instead rely on piece activity and Black's scattered pawns to compensate for the material loss. } 
+10. Qxd8+ Kxd8 
+11. Nxc3 Bxc3 { Black closes down the c-file against any attack. } 
+12. bxc3 {[%cal Bf7f6][%csl Bf6]} { Black should make an effort to prevent Bg5 , where it would be anchored by the h-pawn and contest d8. Combined with the pressure on the central files, White would stand slightly better despite being down a pawn. } f6 
+13. Bh6 { White is no longer down a pawn, and has a menacing position. The open center files should be occupied with both rooks to try to infiltrate the 7th rank and pressure the weak c and f-pawns. White may also seek to trade the knights via Nd4 , removing one of the few pieces capable of pressuring the g7-pawn. } *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "2) 4...Bb4+"]
+[Black "4...Bb4+ Variation: 7...d5 (11...Bg4)"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/21892248"]
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } exd4 
+4. Bc4 {[%cal Bc4f7,Be4e5][%csl Be5,Bf7]} Bb4+ {[%cal Bc2c3][%csl Bc3]} { Black is trying to entice White to play c3 to commit to a gambit style of play. } 
+5. c3 dxc3 {[%cal Bc1b2,Bb2g7,Bc4f7][%csl Bg7,Bf7]} 
+6. O-O Nf6 
+7. e5 {[%cal Be5f6][%csl Bf6]} d5 {[%cal Be5f6,Bd5c4][%csl Bf6,Bc4]} { Both players begin a capture chain with little room for deviation. } 
+8. exf6 dxc4 
+9. fxg7 Rg8 
+10. Qxd8+ { White has no attack here, and will instead rely on piece activity and Black's scattered pawns to compensate for the material loss. } Kxd8 
+11. Nxc3 Bg4 {[%cal Bg4f3][%csl Bf3]} { Previously, we explored 11...Bxc3. Alternatively, Black has 11...Bg4, trying to wreck White's kingside. } 
+12. Bh6 {[%mdl 32768]} { We will allow it, but we will at least preserve our g7-pawn. } Bxf3 
+13. gxf3 {[%csl Bf2,Bf3]} Bxc3 { Once again, Black closes down the c-file against attacks. } 
+14. bxc3 Ne5 {[%cal Be5d3,Be5f3][%csl Bd3,Bf3]} ( { Black leaps into the center, looking to arrive at d3 or win the weak f-pawn. Black can also play } 14...Ne7 { , intending to come to f5. White should continue with } 15.Rad1+ Kc8 16.Kh1 { , surrendering the g7-pawn, } 16...Nf5 17.Bf4 Rxg7 18.Rfe1 { and again, White achieves a very active position. } ) 
+15. Rfd1+ {[%cal Ba1b1,Bf1d1][%csl Bb1,Bd1]} { We will save the second rook for vertical movement on the b-file, where it would seek to pressure the b7 and c4-pawns by positioning on b4 or coming to the more active d4 square via Rb5-d5-d4 in response to either Rb8 or b6. } Nd3 
+16. Rab1 {[%cal Bb1b7,Bb1b4,Bb5d5,Bd5d4][%csl Bc4,Bb7,Bd4]} { White will continue executing the ideas discussed after 15. Rfd1+ . } *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "2) 4...Bb4+"]
+[Black "4...Bb4+ Variation: 7...Ng4"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/13489502"]
+[ECO "C44"]
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } exd4 
+4. Bc4 {[%cal Bc4f7,Be4e5][%csl Be5,Bf7]} Bb4+ {[%cal Bc2c3][%csl Bc3]} 
+5. c3 dxc3 {[%cal Bc1b2,Bb2g7,Bc4f7][%csl Bg7,Bf7]} 
+6. O-O { White is committing two pawns for incredible development and open lines towards Black's king. } Nf6 
+7. e5 {[%cal Be5f6][%csl Bf6]} Ng4 {[%cal Bc4f7,Bf3g5][%csl Bf7,Bg5]} { It may be good to mention the following tactical variation... } 
+8. Bxf7+ {[%mdl 32768]} Kxf7 
+9. Ng5+ Ke8 
+10. Qxg4 d5 
+11. e6 {[%cal Bb1c3,Bf2f4][%csl Bc3,Bf4]} { White has a strong positional advantage and should aim to complete queenside development to aid in the attack on the naked king. As always in such positions, avoid trading to maintain pressure on Black's position. } *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "2) 4...Bb4+"]
+[Black "4...Bb4+ Variation: 7...d5 (8. Bb5 Unsound)"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/13489498"]
+[ECO "C44"]
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } exd4 
+4. Bc4 {[%cal Bc4f7,Be4e5][%csl Be5,Bf7]} Bb4+ {[%cal Bc2c3][%csl Bc3]} { Black is trying to entice White to play c3 to commit to a gambit style of play. } 
+5. c3 dxc3 {[%cal Bc1b2,Bb2g7,Bc4f7][%csl Bg7,Bf7]} 
+6. O-O Nf6 
+7. e5 {[%cal Be5f6][%csl Bf6]} d5 {[%cal Bc4b5,Bf6e4][%csl Bb5,Be4]} { It's unlikely that Black will capture on b2 , instead the position begins to resemble the main-line move order in the center. } 
+8. Bb5 {[%mdl 32768]} Ne4 ( { Bb5 is an unsound move, giving Black a near -1 advantage. However, by mistake, the following variations in this chapter were developed expecting } 8...Ne4 { instead of Black's strongest response } ) ( 8...cxb2 { . Below I will elaborate on the most accurate variation, and how to continue after } ) ( 8...cxb2 { , if you still choose to play this risky line.
+
+Beginning with the sound continuation: @@StartFEN@@r1bqk2r/pppp1ppp/2n2n2/4P3/1bB5/2p2N2/PP3PPP/RNBQ1RK1 b kq - 0 7@@EndFEN@@ 7...d5 8.exf6 dxc4 9.fxg7 Rg8 , White has no attack here, and will instead rely on piece activity and Black's scattered pawns to compensate for the material loss, 10.Qxd8+ Kxd8 11.Nxc3 Bxc3 , closing down the c-file against any attack. Black should proceed with 12.bxc3 f6 , making an effort to keep the bishop off of g5, where it would be anchored by the h-pawn, contesting d8. White would rely on play along the open files and coordinated pressure against Black's pawns. White may also choose to keep the g7-pawn alive with Bh6 if Black allows it. Alternatively, Black could play 11...Bg4 , to which White responds with 12.Bh6 Bxf3 13.gxf3 Bxc3 14.bxc3 Ne5 , alternatively 14...Ne7 15.Rad1+ Kc8 16.Kh1 Nf5 17.Bf4 Rxg7 18.Rfe1 , 15.Rfd1+ saving the second rook for vertical movement on the b-file, where it would seek to pressure the b7 and c4-pawns by positioning on b4 or coming to the more active d4 square via Rb5-d5-d4 in response to either Rb8 or b6.
+
+Now, returning all the way back to our troublesome @@StartFEN@@r1bqk2r/ppp2ppp/2n2n2/3pP3/1bB5/2p2N2/PP3PPP/RNBQ1RK1 w kq d6 0 8@@EndFEN@@ 8.Bb5 . After 8...cxb2 9.Bxb2 , Black's only way to keep an advantage is 9...Nd7 . Rather than the immediate 10. Qxd5, we will first play 10.Qb3 , driving the bishop back. If 10...a5 , then 11.a3 Be7 12.e6 , opening up the b2-bishop to win the g7-pawn, and later taking advantage of the weak b5-square. 10...Be7 , now White can try to win the pawns back and accept a worse position with 11.Qxd5 O-O 12.Bxc6 bxc6 13.Qxc6 Rb8 14.Qc2 Bb7 and Black's advantage manifests itself into a very active position with pressure against White's overextended e-pawn. } ) 
+9. Qa4 {[%cal Bb5e8,Ba4b4][%csl Be8,Bb4]} { Qa4 is a tricky move, since it forces Black to find c2 , threatening b1 and forcing a trade as the knight escapes. Otherwise, Black will have a hard time defending both c6 and b4. } c2 {[%cal Bc2b1,Bb4d2][%csl Bb1,Bd2]} { White can simply capture on b4 , and win the pawn back on b1 , but White would remain down a pawn and the position would begin to lose its flow. } 
+10. Nbd2 Nxd2 
+11. Bxd2 Bxd2 { White takes this opportunity to capture the c6-knight and create targetable c-file weaknesses. } 
+12. Bxc6+ bxc6 
+13. Nxd2 {[%cal Ba1c1,Ba4c6][%csl Bc1,Bc6]} { While White is currently down two whole pawns, it's evident that White is on track to win the material back while maintaining a better structure. } *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "2) 4...Bb4+"]
+[Black "4...Bb4+ Variation: 8...Nd7 (8. Bb5 Unsound)"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/13489499"]
+[ECO "C44"]
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } exd4 
+4. Bc4 {[%cal Bc4f7,Be4e5][%csl Be5,Bf7]} Bb4+ {[%cal Bc2c3][%csl Bc3]} 
+5. c3 dxc3 {[%cal Bc4f7,Bc1b2,Bb2g7][%csl Bf7,Bg7]} 
+6. O-O { White is prepared to give up a second pawn for an incredible lead in development. } Nf6 
+7. e5 {[%cal Be5f6][%csl Bf6]} d5 {[%cal Bd5c4][%csl Bc4]} 
+8. Bb5 Nd7 { Black may choose to retreat the knight to d7 rather than step into the center and become a target. } 
+9. Nxc3 {[%mdl 32768]} Bxc3 
+10. bxc3 {[%cal Bc1a3,Bc1g5][%csl Ba3,Bg5]} O-O 
+11. Bg5 Ne7 {[%cal Bg5e7,Bb5d7][%csl Be7,Bd7]} { For only a pawn, you too could have this position! } 
+12. c4 { White intends to strategically open the d-file, or win a massive center with cxd5 . } dxc4 {[%cal Bd1d7][%csl Bd7]} 
+13. Re1 {[%cal Be5e6][%csl Be6]} { White is preparing a big blow against Black's tied down pieces. } a6 
+14. e6 {[%cal Bg5e7,Be1e7][%csl Be7]} fxe6 ( { If } 14...axb5 15.exd7 { , White is ready to pick up a second piece on e7. } ) 
+15. Bxd7 Bxd7 
+16. Ne5 {[%cal Be5d7,Bd1d7][%csl Bd7]} { Black is running out of defensive moves. } Rf5 
+17. Bxe7 Qxe7 
+18. Qxd7 Qxd7 
+19. Nxd7 {[%csl Bc4,Bc7,Bb7]} { Black has received three pawns for the knight. While this position is theoretically equal and follows general best play, I would argue that players may find it easier to play up a minor piece here. Not to mention that Black would likely feel like they were getting crushed up to this moment. } *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "3) 4...Bc5"]
+[Black "4...Bc5 Variation: Introduction"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/13489503"]
+[ECO "C44"]
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } exd4 
+4. Bc4 {[%cal Bc4f7,Be4e5][%csl Be5,Bf7]} Bc5 { Meet the Haxo Gambit. Bc5 is one of the most natural moves to play in this position, simply defending the d4-pawn. More often than not, Black has no idea what they're doing and will make a tactical mistake quickly. Let's break down some sample variations. } 
+5. c3 {[%mdl 32768]} {[%cal Bc3d4,Bf3d4,Bd1d4][%csl Bd4]} Nf6 ( { We immediately put pressure on d4, and if Black isn't careful they may simply interpret this as White's aggressive attempt to develop the knight. If Black captures on c3, they've enabled a simple tactic: } 5...dxc3 6.Bxf7+ Kxf7 7.Qd5+ { . Alternatively, White already has the opportunity to set up a sacrifice on f7 with @@StartFEN@@r1bqk1nr/pppp1ppp/2n5/2b5/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 2 5@@EndFEN@@ 5.Ng5 Nh6 6.Nxf7! Nxf7 7.Bxf7 Kxf7 8.Qh5+ winning back the bishop on c5. Black can do nothing to stop this, but still achieves equality at the end of the variation, compensating king safety with piece activity. } ) 
+6. e5 {[%cal Be5f6][%csl Bf6]} Ne4 {[%cal Be4f2][%csl Bd6,Bf6,Bg5,Bf2]} { The simplest continuation is to capture on d4 , but Black is offering an unsound gambit here since the knight has no way out. } 
+7. Bd5 { In this variation, white accepts the role of the defender, and allows Black's unsound sacrifice: 7...Nxf2. } Nxf2 
+8. Kxf2 dxc3+ 
+9. Kf1 cxb2 
+10. Bxb2 {[%cal Bb2g7,Bd5f7][%csl Bg7,Bf7]} { White's position is active enough to give them the advantage despite the weak king. } O-O 
+11. Nc3 {[%csl Bd5,Bc3,Bf3,Bb2]} { Despite black's sacrifice, White's developed pieces are prepared to start their own attack at any moment. However, Black has an incredible queenside pawn mass that should not be overlooked... Neither player should let their guard down or feel too confident here. } *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "3) 4...Bc5"]
+[Black "4...Bc5 Variation: 6...Ng4"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/13489504"]
+[ECO "C44"]
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } exd4 
+4. Bc4 {[%cal Bc4f7,Be4e5][%csl Be5,Bf7]} Bc5 
+5. c3 {[%cal Bc3d4,Bf3d4,Bd1d4][%csl Bd4]} Nf6 
+6. e5 {[%cal Be5f6][%csl Bf6]} Ng4 
+7. cxd4 {[%mdl 32768]} { Similarly to the position that is covered in the sidelines chapter and arises after: @@StartFEN@@rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1@@EndFEN@@ 1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Bc4 Nf6 5.e5 Ng4 , White does not get a very strong position after 6.Bxf7+ . } { In this position especially: 7.Bxf7+ Kxf7 8.Ng5+ Ke8 9.Qxg4 d6 , and White is losing control of the center. } Bb4+ 
+8. Nc3 {[%cal Be1h1][%csl Bd4,Be5]} { White ends up with an amazing center, amazing development, and open lines for attack. White has played the opening perfectly and is ready to shine in the rest of the game. } *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "3) 4...Bc5"]
+[Black "4...Bc5 Variation: 6...d5 7. Bb5 Ne4"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/20411826"]
+[ECO "C44"]
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } exd4 
+4. Bc4 {[%cal Bc4f7,Be4e5][%csl Be5,Bf7]} Bc5 
+5. c3 {[%cal Bc3d4,Bf3d4,Bd1d4][%csl Bd4]} Nf6 
+6. e5 {[%cal Be5f6][%csl Bf6]} d5 { Let's take a look at one of the most sound and straight forward variations that stems from 4...Bc5 . } 
+7. Bb5 {[%mdl 32768]} {[%cal Bb5e8]} Ne4 
+8. cxd4 Bb6 {[%csl Bd4,Be5]} { The move order and position resemble a main-line Scotch Gambit variation, but we are able to recapture d4 with our c3-pawn and build a strong center. } 
+9. Nc3 O-O 
+10. Be3 f6 
+11. Qb3 {[%cal Bf3e5,Ba1c1][%csl Be5,Bc1]} Nxc3 ( { White nearly finishes all development, with the exception of castling, and begins applying pressure on Black's center. There are a few consistent ideas in this position: White wants to build pressure on the c-file and place their knight on e5 if Black plays fxe5. These goals guide White's move order and decision making. Therefore: } 11...fxe5 12.Bxc6 bxc6 13.Nxe5 ) 
+12. Bxc6 {[%cal Bb3c3,Ba1c1][%csl Bc3,Bc1]} { White makes a point by capturing on c6. By doubling the c-pawns and planning to keep the c-file open after Qxc3 , White is creating a clear target. } Ba5 { Black plays a tactical move Ba4, preventing White from capturing with the queen and keeping the c-file open, but White has a response prepared. } 
+13. Qa3 {[%cal Ba3a5][%csl Ba5]} Ne4+ 
+14. Qxa5 bxc6 
+15. O-O {[%cal Ba1c1,Bf3e5][%csl Bc1,Be5]} { White has achieved a strong position with attacking plans on the c-file. The f3-knight is prepared to position itself in the center should Black capture on e5. In response to Bg4 , White's knight can retreat to d2 , after which White will maintain their slight advantage as long as Black's d5-d4 advance is kept in check . } *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "3) 4...Bc5"]
+[Black "4...Bc5 Variation: 12...Bg4"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/20411834"]
+[ECO "C44"]
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } exd4 
+4. Bc4 {[%cal Bc4f7,Be4e5][%csl Be5,Bf7]} Bc5 
+5. c3 {[%cal Bc3d4,Bf3d4,Bd1d4][%csl Bd4]} Nf6 
+6. e5 {[%cal Be5f6][%csl Bf6]} d5 { While most move orders should be played according to White's plan to attack on the c-file and place a knight on an uncontested e5-square, we will continue analyzing a few distinct variations that will arise from this position. } 
+7. Bb5 {[%cal Bb5e8]} Ne4 
+8. cxd4 {[%csl Bd4,Be5]} Bb6 
+9. Nc3 O-O {[%cal Bd1b3,Bb3d5,Bc1e3][%csl Bd5,Be3]} { White is preparing to finish development and apply pressure on d5 with the move Qb3 . } 
+10. Be3 f6 
+11. Qb3 {[%cal Bc3d5,Bb3d5][%csl Bd5]} Kh8 
+12. O-O ( 12.Qxd5 { is theoretically the best move. } 12...Qxd5 13.Nxd5 Ba5+ 14.Ke2 Rd8 { , the pressure starts to mount on White and we give back a pawn after: } 15.Bd3 Nxf2 16.Kxf2 Rxd5 { . } ) Bg4 { This variation is distinct because Black is threatening to destroy our kingside structure. } 
+13. Qxd5 {[%mdl 32768]} { White allows the destruction of their kingside structure, and wins the pawn on d5 . Our goal is to advance those central pawns. } Bxf3 
+14. Qxd8 Raxd8 
+15. e6 {[%cal Be6e7][%csl Be7]} { White takes advantage of the threat Bxc6 followed by e6 to create a passed pawn. } Ne7 
+16. gxf3 {[%cal Bf3e4,Bd4d5][%csl Be4,Bd5]} Ng5 {[%cal Bd4d5,Ba1d1][%csl Bd5,Bd1]} 
+17. d5 { While White is giving back the f3-pawn, they have solidified their central e-pawn. White is looking to capture on b6 to double up the pawns and make it difficult to block the b5-e8 diagonal. White's main goal is to advance the d-pawn and clear the d5-square for the white knight, in an effort to remove the e7 blockade. } *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "3) 4...Bc5"]
+[Black "4...Bc5 Variation: 10...Bg4"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/13489512"]
+[ECO "C44"]
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } exd4 
+4. Bc4 {[%cal Bc4f7,Be4e5][%csl Be5,Bf7]} Bc5 
+5. c3 {[%cal Bc3d4,Bf3d4,Bd1d4][%csl Bd4]} Nf6 
+6. e5 {[%cal Be4e5][%csl Be5]} d5 { Entering the same position, we will take a look at what Black's plan to play Bg4 instead of f6 looks likes. } 
+7. Bb5 {[%cal Bb5e8]} Ne4 
+8. cxd4 {[%cal Ba1c1][%csl Bd4,Be5,Bc1]} { We've opened up the c-file for additional pressure. } Bb6 
+9. Nc3 O-O {[%cal Bc1e3,Bd1b3][%csl Be3,Bb3]} 
+10. Be3 Bg4 {[%cal Bh2h3][%csl Bh3]} { Black plays a very natural developing move. Here, White is not going to hold back, and will offer Black the opportunity to damage the pawns. } 
+11. h3 {[%mdl 32768]} Bh5 
+12. Qc2 {[%cal Bh1g1,Be1a1,Bc3e4,Bc2e4][%csl Bg1,Be4]} { White is inviting Black to capture on f3 and open the g-file. If Black accepts, White will continue with queenside castle and a kingside attack. } Bg6 
+13. Qb3 {[%cal Bb3d5,Bc3d5,Be1h1][%csl Bd5]} -- ( { Here we reach a similar position, with the same key ideas of creating pressure on the c-file through proper move orders. Reminder, that means } 13...Nxc3 { is followed by } 14.Bxc6 { . } )
+*
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "3) 4...Bc5"]
+[Black "4...Bc5 Variation: 10...f5"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/20723840"]
+[ECO "C44"]
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Bd5,Be5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } exd4 
+4. Bc4 {[%cal Be4e5,Bc4f7][%csl Bf7,Be5]} Bc5 
+5. c3 {[%cal Bc3d4,Bf3d4,Bd1d4][%csl Bd4]} Nf6 
+6. e5 {[%cal Be4e5][%csl Be5]} d5 { Entering the same position, we will take a look at what Black's plan to play Bg4 instead of f6 looks likes. } 
+7. Bb5 {[%cal Bb5e8]} Ne4 
+8. cxd4 {[%cal Ba1c1][%csl Bd4,Be5,Bc1]} { We've opened up the c-file for additional pressure. } Bb6 
+9. Nc3 O-O {[%cal Bc1e3,Bd1b3][%csl Be3,Bb3]} 
+10. Be3 f5 { Arguably Black's strongest continuation is the f5 advance, threatening f4, which would remove an important defender of the d4 pawn. } 
+11. exf6 {[%mdl 32768]} { White's best continuation is to capture en-passant, giving up the strong center, but neutralizing the threat. } Nxc3 {[%cal Bd8f6][%csl Bd5,Bf6]} { Black first captures on c3 to remove the attacker on d5, allowing the queen to capture on f6. } 
+12. bxc3 Qxf6 { While White has a solid position, this variation doesn't give the sense of attacking pressure that other lines do. However, White has numerous hidden ideas. } 
+13. O-O Bg4 
+14. Be2 Rae8 {[%cal Bf3e5,Bc6e5][%csl Be5]} { White is feeling a bit passive right now. Luckily, the f3-knight is threatening to come to e5, which means Black's c6-knight is currently tied down. Black cannot capture on f3, since recapturing with the bishop would allow White to put significant pressure on the d5 weakness. } 
+15. a4 {[%cal Bd1b3,Be3c1,Bc1a3,Ba1e1][%csl Bb3,Ba3,Be1]} { White pushes the a-pawn, threatening to advance to a5 and trap the bishop if the c6-knight leaves. White is preparing to transfer the queen and the e3-bishop to b3 and a3 respectively. Finally, White plans to activate the a1-rook by playing Rae1. Together, these ideas should significantly improve White's position, but be cognizant of Black's attacking chances on the kingside. } *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "4) 3...Nf6"]
+[Black "3...Nf6 Variation: Introduction"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/13507463"]
+[ECO "C44"]
+
+1. e4 {[%mdl 32768]} e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Bd5,Be5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } Nf6 {[%cal Bf6e4,Bf6g4][%csl Be4,Bg4]} { The move 3...Nf6 is a less common and less sound continuation for Black. White immediately finds themselves with a positional advantage and captures on e5 . } 
+4. dxe5 Ng4 { We will explore the Ng4 variations first. } 
+5. Qd5 {[%cal Bd5e5][%csl Be5]} { With no piece to kick her away, the White queen comes to the center, defending the e5 pawn and supporting the h3 advance, which would send Black's knight to the h-file. } Ne7 { Black has a few options here, including Qe7 , but we will explore Ne7 . } 
+6. Qb3 Nc6 {[%cal Bc6e5,Bg4e5][%csl Be5]} { This may seem a bit silly or unrealistic, but the position that arises is comparable to similar variations. } 
+7. h3 Ngxe5 
+8. Nxe5 Nxe5 
+9. Be3 {[%cal Bb1c3,Be1a1][%csl Bc3]} { White intends to castle queenside and use their central control to start an uncontested kingside attack. } Be7 
+10. Nc3 O-O 
+11. O-O-O {[%cal Bf2f4,Bg2g4][%csl Bf4,Bg4]} { White has a solid positional advantage and a clear plan to advance the f-g-pawns. Black's position on the other hand feels passive and unpleasant to manage. } *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "4) 3...Nf6"]
+[Black "3...Nf6 Variation: 5...Bc5 Trap"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/13507465"]
+[ECO "C44"]
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } Nf6 {[%cal Bf6e4,Bf6g4][%csl Be4,Bg4]} 
+4. dxe5 Nxe4 
+5. Bc4 {[%mdl 32768]} {[%cal Bc4f7,Bd1d5][%csl Bf7]} { On c4 , the white bishops is preparing the all too common f7 sacrifice. It is also preparing the tactical Qd5 , threatening mate and the e4-knight. } Bc5 {[%cal Bc5f2,Be4f2][%csl Bf2]} { Black has now played multiple mistakes: 3...Nf6 and 5...Bc5 . Although Black makes a threat on f2 , we see through the smoke and play Qd5 . } 
+6. Qd5 Bxf2+ 
+7. Ke2 {[%cal Bd5f7,Bd5e4,Be2f2][%csl Bf7,Be4,Bf2]} O-O 
+8. Qxe4 { Yet another trap to add to your Scotch Gambit arsenal. Remember that game in the introduction [/variation/19999439/#/8/w]? } *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "4) 3...Nf6"]
+[Black "3...Nf6 Variation: 5...Nc5"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/13507466"]
+[ECO "C44"]
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } Nf6 {[%cal Bf6e4,Bf6g4][%csl Be4,Bg4]} 
+4. dxe5 Nxe4 
+5. Bc4 {[%cal Bc4f7,Bd1d5][%csl Bf7]} Nc5 { Black is aware of the threat to f7 and is planning to rotate the knight to e6 . } 
+6. Qe2 {[%mdl 32768]} {[%cal Be2e8][%csl Be8]} { Qe2 prevents Black from immediately playing a pawn break to free up their position. } Be7 
+7. Be3 Na5 
+8. Nc3 {[%cal Be1a1,Bh2h6][%csl Bh6]} { White has chosen to castle queenside and use their central dominance to storm the kingside. } Nxc4 
+9. Qxc4 b6 
+10. O-O-O {[%cal Be5f6,Be5d6,Bh2h6][%csl Bf6,Bd6,Bh6]} { Once again, White finds themselves with a positional advantage. The e5-pawn is a thorn in Black's position that will support a strong kingside attack. } *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "4) 3...Nf6"]
+[Black "3...Nf6 Variation: 5...d6"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/13507467"]
+[ECO "C44"]
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } Nf6 {[%cal Bf6e4,Bf6g4][%csl Be4,Bg4]} 
+4. dxe5 Nxe4 
+5. Bc4 {[%cal Bc4f7,Bd1d5][%csl Bf7]} d6 { Black has left their e4-knight undefended in the center. We can easily punish this mistake. } 
+6. Bxf7+ {[%mdl 32768]} {[%cal Bd1d5][%csl Bd5]} Kxf7 
+7. Qd5+ Be6 
+8. Qxe4 {[%cal Be1h1,Bf2f5,Bb1c3,Bc1e3][%csl Bf5,Bc3,Be3]} { White is playing with a subtle positional advantage and an extra pawn. White should aim to finish their own development and start advancing the f-pawn, tearing down the doors to Black's weak king. } *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "5) 5...Ne4"]
+[Black "5... Ne4 Variation: Introduction"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/13489518"]
+[ECO "C44"]
+
+1. e4 {[%mdl 32768]} e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } exd4 
+4. Bc4 {[%cal Bc4f7,Be4e5][%csl Be5,Bf7]} Nf6 
+5. e5 {[%cal Be5f6][%csl Bf6]} Ne4 {[%cal Be4c5,Bc5e6][%csl Be6]} { Instead of the most common d5 continuation, Black chooses the Ne4-Nc5-Ne6 maneuver to bunker down and prevent White's aggressive play. Ng4 is also a very interesting alternative that will be covered in the sidelines chapter. } 
+6. Qe2 Nc5 
+7. Ng5 {[%cal Bg5f7,Bg5e6][%csl Bf7,Be6]} Ne6 
+8. Nxe6 dxe6 {[%cal Bf2f4,Bb1d2,Bd2b3][%csl Bf4,Bb3]} { White is planning to create kingside pressure through the advance of the f-pawn. } 
+9. O-O Na5 
+10. Bd3 {[%cal Bd3h7][%csl Bh7]} { Black is likely castling kingside, therefore our light-square bishop will be important for an attack. } c5 
+11. c3 Nc6 
+12. Bf4 {[%cal Bf4g3][%csl Bg3]} { Although temporarily blocking the f4 advance, our dark-squared bishop is heading to g3 . } Bd7 
+13. Nd2 {[%cal Bd2e4,Be4d6][%csl Bd6]} Qh4 
+14. Bg3 Qh6 
+15. f4 {[%cal Bf4f5,Bd2b3,Bb3d4,Bb3c5,Ba1c1][%csl Bf5,Bd4,Bc5,Bc1]} { Despite being a pawn down, White has a strong upcoming break with the pawn push f5 . Black's attempt to stop White with the advance f7-f5 should be met with exf6 . If Black castles queenside, White should continue with Nb3 , adding more pressure to the c-d-pawns and preparing to open up the c-file towards the black king. } *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "5) 5...Ne4"]
+[Black "5...Ne4 Variation: 14...g5 Sacrifice"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/13489519"]
+[ECO "C44"]
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4e5,Bd4d5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } exd4 
+4. Bc4 {[%cal Bc4f7,Be4e5][%csl Be5,Bf7]} Nf6 
+5. e5 {[%cal Bf6e4,Be4c5,Bc5e6][%csl Be6]} { Again, Black chooses to rotate the knight through e4-c5-e6 rather than playing the popular d5 counter attack. } Ne4 
+6. Qe2 Nc5 
+7. Ng5 {[%cal Bg5e6,Bg5f7][%csl Bf7,Be6]} Ne6 
+8. Nxe6 dxe6 {[%cal Bf2f4,Be1h1,Bb1d2,Bd2b3][%csl Bf4,Bb3]} { White is planning to create kingside pressure through the advance of the f-pawn. } 
+9. O-O Na5 
+10. Bd3 {[%cal Bd3h7][%csl Bh7]} { Our bishop is important enough to save. From d3 , the pressure on h7 can be very helpful in the future. } c5 
+11. c3 Nc6 
+12. Bf4 {[%cal Bf4g3][%csl Bg3]} Bd7 
+13. Nd2 {[%cal Bd2e4,Be4d6][%csl Bd6]} { We have arrived at a very similar position, where Black previously played Qh4 trying to activate their queen and slow down our advance. Here Black plays the more natural and passive Be7. } Be7 
+14. Ne4 {[%mdl 32768]} g5 {[%cal Bf4g5,Be4d6,Be2h5][%csl Bg5,Bd6,Bh5]} { While the best response to this sudden attack is simply retreating to g3 , we should take a look at the position that arises from Bxg5 , since it is unique and difficult to play for both sides. } 
+15. Bxg5 Bxg5 
+16. Nd6+ Kf8 
+17. Qh5 {[%cal Bd6f7,Bh5f7][%csl Bf7]} { White has found the best squares for all his pieces. The knight is as strong as can be, and the queen is applying pressure on f7 , while simultaneously tying Black's bishop to guarding h6 . } Qe7 
+18. f4 Bf6 
+19. Rae1 {[%cal Bd3c4,Bc4f7,Bd6f7,Bh5f7,Bf1f7][%csl Bf7]} { While a computer evaluates this as equal, a sharp player who can spot the weaknesses of their opponent will thrive here. In general, White wants to break the entire board open with f5 to finish the game on f7 . Bc4 is one continuation for White that sets up the break with additional pressure. } *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "5) 5...Ne4"]
+[Black "5...Ne4 Variation: 9...Bc5"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/13489521"]
+[ECO "C44"]
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } exd4 
+4. Bc4 {[%cal Bc4f7,Be4e5][%csl Be5,Bf7]} Nf6 
+5. e5 {[%cal Be5f6][%csl Bf6]} Ne4 {[%cal Be4c5,Bc5e6][%csl Be6]} { Instead of the most common d5 continuation, Black chooses the Ne4-Nc5-Ne6 maneuver to bunker down and prevent White's aggressive play. } 
+6. Qe2 Nc5 
+7. Ng5 {[%cal Bg5e6,Bg5f7][%csl Bf7,Be6]} Ne6 
+8. Nxe6 dxe6 {[%cal Be1h1,Bf2f4,Bb1d2,Bd2b3][%csl Bf4,Bb3]} { White is planning to create kingside pressure through the advance of the f-pawn. } 
+9. O-O Bc5 { Where previously we saw Black play Na5 , chasing White's bishop back to d3 , Black now plays a more natural developing move and brings their Bishop to an active diagonal. } 
+10. Nd2 {[%mdl 32768]} Bd7 
+11. Bd3 {[%cal Bd3h7][%csl Bh7]} { Although our bishop is safe this time, we are still looking for ways to improve our pieces. We are also preventing any advance of the d-pawn, and making the c5-bishop look silly. } O-O 
+12. Qe4 {[%cal Bd3h7][%csl Bh7]} g6 {[%cal Bd2f3,Bc1g5,Be4h4][%csl Bf6,Bg7,Bh6,Bf3,Bg5,Bh4]} { We have already forced Black to create dark-square weaknesses around their king. Bg5 paired with Qh4 look like legitimate threats already. This forces Black to act fast. } 
+13. Nf3 f5 
+14. exf6 Qxf6 
+15. Bg5 {[%cal Ba1d1,Bf1e1][%csl Bd1,Be1]} { White is creating a strong attack and should continue by bringing the rooks to the e-d-files to restrict the movement of Black's center. } *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "5) 5...Ne4"]
+[Black "5...Ne4 Variation: 9...Bd7"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/13489522"]
+[ECO "C44"]
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } exd4 
+4. Bc4 {[%cal Bc4f7,Be4e5][%csl Be5,Bf7]} Nf6 
+5. e5 {[%cal Be5f6][%csl Bf6]} Ne4 {[%cal Be4c5,Bc5e6][%csl Be6]} { Instead of the most common d5 continuation, Black chooses the Ne4-Nc5-Ne6 maneuver to bunker down and prevent White's aggressive play. } 
+6. Qe2 Nc5 
+7. Ng5 {[%cal Bg5e6,Bg5f7][%csl Bf7,Be6]} Ne6 
+8. Nxe6 dxe6 {[%cal Bf2f4,Bb1d2,Bd2b3,Be1h1][%csl Bf4,Bb3]} { White is planning to create kingside pressure through the advance of the f-pawn. } 
+9. O-O Bd7 {[%cal Bf1d1,Bb1d2,Bd2b3][%csl Bd4,Bb3,Bd1]} { Black is making no attempt to rescue the d4-pawn. } 
+10. Nd2 {[%mdl 32768]} Be7 
+11. Nb3 O-O 
+12. Rd1 {[%cal Bb3d4,Bd1d4][%csl Bd4]} { The distinctive feature of this variation is Black's extremely passive and defensive play. White's plan to immediately win back the d4-pawn is clear. After all is said and done, Black is left with a crammed position and an exposed kingside. } *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "6) 6...Nd7"]
+[Black "6...Nd7 Variation: Introduction"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/13496967"]
+[ECO "C44"]
+
+1. e4 {[%mdl 32768]} e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } exd4 
+4. Bc4 {[%cal Bc4f7,Be4e5][%csl Be5,Bf7]} Nf6 
+5. e5 {[%cal Be5f6][%csl Bf6]} d5 
+6. Bb5 {[%cal Bf3d4,Bd1d4,Bb5e8][%csl Bd4]} Nd7 { At first glance, Nd7 looks like a strange and harmless move. It turns out this line is incredibly frustrating to play against and takes White into very uncomfortable territory. } 
+7. O-O Be7 
+8. Bxc6 bxc6 {[%csl Bc7,Bc6]} 
+9. Nxd4 {[%cal Bd7e5,Bc1f4][%csl Be5,Bf4]} Nb8 ( { White exchanges away the c6-knight and wins back the pawn in the center. } 9...Nxe5 { would be a bad choice for Black, since } 10.Bf4 { makes guarding the c6-square and the e-file quite difficult. } ) { Yes, Black just rotated their knight across g8-f6-d7-b8... but now they're prepared to roll their c-d-pawn mass down the board. } 
+10. c4 {[%cal Bd5c4][%csl Bc4,Bc6,Bc7]} { We are inviting the tripled pawns on the open c-file. If Black declines, White intends to build pressure on d4 with Nc3 . } c5 
+11. Nb5 d4 
+12. Qf3 {[%cal Bf3a8][%csl Ba8]} { The d4-pawn looks scary, but we're going to fight for counter play and prevent Black from ever getting a chance to use that pawn. } c6 
+13. Nd6+ { This is White's strongest continuation. We will explore why Black cannot capture twice on d6 in just a moment. } Bxd6 
+14. exd6 {[%cal Bf1e1][%csl Be1]} O-O ( { There are a few tactical continuations that arise here. Black's best move is to simply castle since capturing on d6 leads to: } 14...Qxd6 15.Bf4 Qf6 { , guarding the g7-square, } 16.Qg3 Na6 17.Bd6 { , and the black king can't castle. } ) 
+15. Bf4 Be6 
+16. Nd2 Nd7 {[%cal Bd8b6,Ba7a5,Bf3g3,Bh2h6][%csl Bb6,Ba5,Bg3,Bh6]} { Both players have completed development, and it's important to note that Black's efforts will mainly involve an attack on White's queenside pawns. Breaking through on the queenside will allow Black to support his d-pawn further. White on the other hand, is preparing a kingside attack. } 
+17. Rfe1 Qb6 
+18. b3 a5 
+19. Qg3 {[%cal Bf4h6,Bg3g7,Ba7a5][%csl Bg7,Ba5,Bh6]} { White is all hands on deck on the kingside. We will need to take advantage of the fact that Black has few kingside defenders. Already, we can see threats like Bh6 forming. Once Black's kingside structure is weakened, we can launch our h-pawn up as our final break. } *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "6) 6...Nd7"]
+[Black "6...Nd7 Variation: 11...c6"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/13496969"]
+[ECO "C44"]
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } exd4 
+4. Bc4 {[%cal Bc4f7,Be4e5][%csl Be5,Bf7]} Nf6 
+5. e5 {[%cal Be5f6][%csl Bf6]} d5 
+6. Bb5 {[%cal Bb5e8,Bf3d4,Bd1d4][%csl Bd4]} Nd7 { Consistent with this chapter's theme, Black continues with Nd7 . } 
+7. O-O Be7 
+8. Bxc6 bxc6 {[%csl Bc7,Bc6]} 
+9. Nxd4 {[%cal Bd7e5,Bc1f4][%csl Be5,Bf4]} Nb8 ( { White exchanges away the c6-knight and wins back the pawn in the center. } 9...Nxe5 { would be a bad choice for black, since } 10.f4 { makes guarding the c6-square and the e-file quite difficult. } ) 
+10. c4 {[%cal Bd5c4][%csl Bc4,Bc6,Bc7]} c5 
+11. Nb5 {[%mdl 32768]} c6 { Let's explore what happens if Black delays locking down the position with the d5-d4 advance. } 
+12. Nd6+ { Thanks to a few tactical variations, White is able to place the knight on d6 without permanently giving up a pawn. } Bxd6 
+13. exd6 Qxd6 {[%cal Bf1e1][%csl Be1]} 
+14. Re1+ { White must immediately take advantage of the open e-file to paralyze Black's position. } Be6 
+15. Bf4 {[%cal Bc4d5,Bd1d5][%csl Bd5]} Qxf4 ( { Multiple variations stem out of this position. The sacrifice is built around the threat of capturing on d5: } 15...Qxf4 16.cxd5 cxd5 17.Qxd5 { , and now Black must find the only move in this position, } 17...Qc1 18.Qxe6 fxe6 19.Rxc1 Bxd5 { . Black can also simply decline and play } ) ( 15...Qd7 { , after which White should continue with } 16.Qa4 O-O 17.Qa3 { , targeting c5, } 17...Qe7 18.Nc3 Rd8 19.Rad1 dxc4 20.Rxd8 Qxd8 21.Qxc5 { . } ) 
+16. cxd5 O-O { This final variation illustrates another way for Black to respond to 15. Bf4 . } 
+17. dxe6 fxe6 {[%cal Bf8f2][%csl Bf2]} 
+18. Qe2 Nd7 { Capturing on e6 is too dangerous, since the eventual Rae8 will give Black the advantage. } 
+19. Nc3 {[%cal Ba1c1,Bc3e4][%csl Bc1,Be4,Bc5,Be6]} { Black has strong pressure on the f-file, but Black also has permanent weaknesses on the c-e-files that White should continue to target. } *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "6) 6...Nd7"]
+[Black "6...Nd7 Variation: 10...O-O"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/13496971"]
+[ECO "C44"]
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } exd4 
+4. Bc4 {[%cal Bc4f7,Be4e5][%csl Be5,Bf7]} Nf6 
+5. e5 {[%cal Be5f6][%csl Bf6]} d5 
+6. Bb5 {[%cal Bf3d4,Bd1d4,Bb5e8][%csl Bd4]} Nd7 { Again, Black chooses to retreat the knight to avoid getting stuck in the center. } 
+7. O-O Be7 
+8. Bxc6 bxc6 {[%csl Bc6,Bc7]} 
+9. Nxd4 {[%cal Bd7e5,Bc1f4][%csl Be5,Bf4]} Nb8 ( { White exchanges away the c6-knight and wins back the pawn in the center. } 9...Nxe5 { would be a bad choice for black, since } 10.f4 { makes guarding the c6-square and the e-file quite difficult. } ) 
+10. c4 {[%cal Bd5c4][%csl Bc4,Bc6,Bc7]} O-O { In this variation Black simply castles instead of advancing the c-d-file pawn mass. } 
+11. Nc3 {[%mdl 32768]} c5 { Unfortunately the advance always remains at Black's disposal. } 
+12. Nb3 dxc4 ( { Here we will investigate dxc4, but it's worth noting that a good continuation after } 12...d4 { is } 13.Qf3 c6 14.Ne4 Nd7 15.Bf4 { . Black has given up a lot of space in exchange for the annoying d-pawn, which means White will once again aim to create a strong attack while Black is having a hard time organizing their position. } ) 
+13. Na5 {[%cal Ba5c4,Ba5c6][%csl Bc4,Bc6]} Be6 { Although the a5-knight is awkwardly placed, Black has no time to attack it as we keep adding attackers on c4. } 
+14. Qe2 {[%cal Be2c4][%csl Bc4]} Qd3 
+15. Rd1 Qg6 
+16. Bf4 {[%cal Ba5c6,Bb8c6,Bf4g3][%csl Bc6,Bg3]} { Notice that the a5-knight is also taking c6 away from our opponent's knight. Without this, Nb8-Nc6-Nd4 would be dangerous. Ideally, we will wait until Black develops the knight to d7 before capturing on c4. White will also retreat their bishop to g3 and support the f-pawn advance in an effort to create a kingside attack. } *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "6) 6...Nd7"]
+[Black "6...Nd7 Variation: dxc4"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/13496973"]
+[ECO "C44"]
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } exd4 
+4. Bc4 {[%cal Bc4f7,Be4e5][%csl Be5,Bf7]} Nf6 
+5. e5 {[%cal Be5f6][%csl Bf6]} d5 
+6. Bb5 {[%cal Bb5e8,Bf3d4,Bd1d4][%csl Bd4]} Nd7 { Black continues with the more exotic Nd7 variation, avoiding placing the knight in the center where it becomes a target. } 
+7. O-O Be7 
+8. Bxc6 bxc6 {[%csl Bc6,Bc7]} 
+9. Nxd4 {[%cal Bd7e5,Bc1f4][%csl Be5,Bf4]} Nb8 ( { White exchanges away the c6-knight and wins back the pawn in the center. } 9...Nxe5 { would be a bad choice for black, since } 10.f4 { makes guarding the c6-square and the e-file quite difficult. } ) 
+10. c4 {[%cal Bd5c4][%csl Bc4,Bc6,Bc7]} O-O 
+11. Nc3 dxc4 {[%csl Bc4,Bc6,Bc7]} { In this final variation we'll take a quick look at the best way to play if Black voluntarily triples the pawns. } 
+12. Be3 {[%mdl 32768]} c5 
+13. Ndb5 { Again, our knight is temporarily out of place, but with plans to retreat to a3 , the knight will be applying necessary pressure on c4 . } a6 
+14. Qxd8 Bxd8 
+15. Na3 Re8 
+16. f4 {[%cal Ba3c4,Be3c5][%csl Bc4,Bc5]} ( { White has a clear plan of targeting and winning the triplets on the c-file. } 16.Nxc4 { is also playable since } 16...Be6 { blocks the black rook's vision of the e5-pawn. } ) *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "7) Sidelines"]
+[Black "8...O-O"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/13489531"]
+[ECO "C44"]
+
+1. e4 {[%mdl 32768]} e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } exd4 
+4. Bc4 {[%cal Bc4f7,Be4e5][%csl Be5,Bf7]} Nf6 
+5. e5 {[%cal Be5f6][%csl Bf6]} d5 
+6. Bb5 {[%cal Bb5e8,Bf3d4,Bd1d4][%csl Be8,Bd4]} Ne4 
+7. Nxd4 {[%cal Bd4c6,Bb5c6][%csl Bc6]} { White finally recaptures the center pawn and puts pressure on the pinned c6-knight. } Bc5 {[%cal Bc5f2][%csl Bf2]} 
+8. Be3 { We have analyzed similar lines in the main-line chapter, exploring 8. Nxc6 as well as 8. Be3 Bd7 , but here Black plays something different. } O-O { Black is sacrificing a pawn... Let's see what the position looks like after the following exchange. } 
+9. Nxc6 bxc6 
+10. Bxc5 {[%cal Bc5f8][%csl Bf8]} Nxc5 
+11. Bxc6 {[%cal Bc6a8][%csl Ba8]} Rb8 {[%cal Bb8b2][%csl Bb2]} 
+12. Qxd5 {[%cal Bd8e7,Bb1c3,Bd5f3,Be1h1][%csl Be7,Bf3,Bc3]} { White is currently up a pawn, but Black has a dynamic position and is prepared to fight back very effectively. White shouldn't try to save the b2-pawn, but should instead focus on finishing development and creating a kingside attack that leverages the e5-pawn. I've included a game from this position [/variation/19975698] that illustrates these attacking ideas. } *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "7) Sidelines"]
+[Black "Sample Game: 8...O-O"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/19975698"]
+[ECO "C44"]
+
+{ This is an example game from my first tournament after my return to chess: the 2021 USCF Junior Congress. At the time I was rated 1226 and my opponent was rated 2015; the time control was 60+5. As you'll see, I was only a single move from ending the day 3/3 against players rated 1900-2100. } 1. e4 e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Bd5,Be5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } exd4 
+4. Bc4 {[%cal Bc4f7,Be4e5][%csl Be5,Bf7]} Nf6 
+5. e5 {[%cal Be5f6][%csl Bf6]} d5 {[%cal Bd5c4][%csl Bc4]} 
+6. Bb5 {[%cal Bb5e8,Bf3d4,Bd1d4][%csl Bd4]} Ne4 
+7. Nxd4 {[%cal Bd4c6,Bb5c6][%csl Bc6]} { Now that the e5-pawn is safe, White finally recaptures in the center and applies pressure on the c6-knight. } Bc5 {[%cal Bc5f2][%csl Bf2]} { Black is inviting tactical lines following 8. Nxc6 , but White chooses the calmer 8. Be3 . } 
+8. Be3 O-O 
+9. Nxc6 bxc6 
+10. Bxc5 {[%cal Bc5f8][%csl Bf8]} ( { White makes sure to capture the c5-bishop first, as } 10.Bxc6 Bxe3 11.fxe3 Qh4+ { is disastrous for White. } ) Nxc5 
+11. Bxc6 {[%cal Bc6a8][%csl Ba8]} Rb8 {[%cal Bb8b2][%csl Bb2]} 
+12. Qxd5 { Black has the option to exchange queens and win back the pawn on b2, but often chooses a more dynamic game. } Qe7 {[%cal Bf8d8,Bc8a6][%csl Bd8,Ba6]} 
+13. O-O Ba6 
+14. Re1 Rfd8 
+15. Qf3 { Black was able to activate their material with tempo, but White stabilizes before Black can cause any damage. } Rxb2 
+16. Nc3 {[%cal Bc3d5,Ba1d1][%csl Bd5,Bd1]} { White's knight is headed to d5 , and the a1-rook is headed to d1 , the position is quickly becoming tactical. } Ne6 { Black takes a move to regroup their pieces and stabilize the position. } 
+17. Nd5 {[%cal Bd5e7,Bd5f6][%csl Be7,Bf6]} Qc5 
+18. Rad1 Nd4 { Here Black blunders, since after 18...Nd4 19. Qe3 the knight is pinned against the queen and the discovered attack on the d-file. Unfortunately I missed this tactic and lost shortly after miscalculating the Nf6 sacrifice. } 
+19. Qe3 {[%cal Be3c5,Bd1d8][%csl Bc5,Bd8]} { Although Black is the one to offer the pawn sacrifice in this variation, White is by no means playing a defensive game. } *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "7) Sidelines"]
+[Black "5...Ng4"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/13489525"]
+[ECO "C44"]
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } exd4 
+4. Bc4 {[%cal Bc4f7,Be4e5][%csl Be5,Bf7]} Nf6 
+5. e5 {[%cal Be5f6][%csl Bf6]} Ng4 { As it turns out, Ng4 is an incredibly interesting move. At first glance it appears natural and sound, then suddenly White finds the tactical sacrifice Bxf7... but after the dust settles, Black somehow walks away with a slight advantage. In this lesson, we will explore the strongest continuation for White, but I include a demonstration of the Bxf7+ sacrifice in a sample game later in this chapter. } 
+6. Qe2 {[%mdl 32768]} {[%cal Be2e8][%csl Be8]} { White adds pressure by playing Qe2 . This move does two things: We prevent Black from immediately recapturing and bringing the knight towards the center, and we prevent the d6-pawn break by threatening to capture with check. The next series of moves shows both players fighting for the e5-pawn. } Qe7 
+7. Bg5 f6 
+8. exf6 { White gives into the pressure and captures on f6 . } gxf6 
+9. Bh4 Qxe2+ 
+10. Bxe2 {[%cal Be1a1,Bb1d2,Bd2b3][%csl Bb3]} { Looking around... White has natural development and is prepared to fight along the d-file to target Black's weaknesses. } Bb4+ 
+11. Nbd2 O-O 
+12. O-O-O {[%cal Bh2h3,Bg2g4,Bd2b3,Bb3d4][%csl Bd4]} { Despite being a pawn down, White's plan to castle queenside and target Black's weak pawn structure is in full motion. White is ready to play Nb3 and start advancing on the kingside, using Black's pawns as hooks to open up lines against Black's king. } *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "7) Sidelines"]
+[Black "Sample Game: 5...Ng4 with 6.Bxf7?"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/19976511"]
+[ECO "C44"]
+
+{ This was the opening sequence of first game played at the 2020 National Online Scholastic Chess Championship. The time control was 25+5, most of which was was spent scratching my head trying to figure out where I slipped up. } 1. e4 e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } exd4 
+4. Bc4 {[%cal Bc4f7,Be4e5][%csl Be5,Bf7]} Nf6 
+5. e5 {[%cal Be5f6][%csl Bf6]} Ng4 {[%cal Bc4f7,Bf3g5][%csl Bf7,Bg5]} { Black invites the Bxf7+ sacrifice. } 
+6. Bxf7+ Kxf7 
+7. Ng5+ Kg8 { Here, White shouldn't recapture the g4-knight, as 8. Qxg4 d5 gives black the center and a strong positional advantage. Instead White plays a more tactical move, nearly ending the game. } 
+8. Qf3 {[%cal Bf3d5,Bf3f7,Bf3b3][%csl Bf7,Bd5,Bb3]} Bb4+ {[%cal Bf3d5,Bg8f8][%csl Bd5,Bf8]} { Black's saving grace, indirectly defending against mate on d5 by creating an escape square for the king. } 
+9. c3 Ngxe5 
+10. Qd5+ Kf8 
+11. O-O {[%cal Bf2f4,Bd5f7,Bg5f7][%csl Bf4,Bf7]} { White delays recapturing, instead preparing to play f4 , threatening the defender of f7 , and lining up the rook on the f-file. } Qf6 
+12. cxb4 { Here White finds their attack running out of fuse, and begins to feel the pressure of their own queenside weaknesses. Being down a pawn doesn't help either. } *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "7) Sidelines"]
+[Black "3...d6"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/20760373"]
+[ECO "C44"]
+
+1. e4 {[%mdl 32768]} e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} { White strikes in the center immediately with d4 , threatening to capture e5 or advance to d5 if Black doesn't exchange. } d6 
+4. d5 ( { White always has the simple } 4.dxe5 dxe5 5.Qxd8 { , and Black loses castling rights. However, trading queens this way and playing a symmetrical position gives up a lot of winning chances. } ) Nce7 
+5. c4 {[%cal Bb1c3,Bf1d3,Bc4c5][%csl Bc3,Bd3,Bc5]} { White grabs all the space he can ask for, but Black's position will not be easy to break into. } f5 {[%cal Bg8f6,Bf5f4][%csl Bf6,Bf4]} { Black has no obligation to execute this f5 plan. You may commonly encounter the move b6 , significantly slowing White's queenside expansion and giving Black enough time to build a more passive fianchetto setup on the kingside. In that case, White should still continue queenside expansion by eventually playing b4 , being careful not to lock down the position. } 
+6. Nc3 Nf6 
+7. Bd3 {[%cal Bc4c5,Bd3b5,Bf3g5,Bg5e6][%csl Bc5,Bb5,Be6]} { Black can play g6 to stabilize the f-pawn, but must avoid trading light square bishops at all costs to prevent losing control over e6. The move f4 invites c5, undermining the pawn chain and preparing Bb5+ in an effort to trade bishops. } Bd7 { If Black had continued with f4 , White would immediately execute the c5 plan. If Black had tried to support the f5-pawn with g6 , White would continue with h2-h4-h5 . } 
+8. exf5 { Despite the resource c5, White avoids castling in fear of the f4 advance. } Nxf5 
+9. O-O {[%cal Bh2h3,Bg2g4,Bf3g5,Bg5e6,Bc4c5][%csl Be6,Bc5]} { White gets a sizeable +1.5 positional advantage, but converting it will take skill. Some immediate plans for White are the c5 advance and the strange looking h2-h3 g2-g4 advance, followed by Nf3-Ng5-Ne6 and the f-pawn catapult. Alternatively, White could have started with the innocent looking 9. h3 , preparing to immediately play g2-g4-g5 if Black plays the natural looking 10. Be7 . Anticipating the g-pawn advance, Black should instead continue with 10. g6 , providing the f6-knight with a safe square on h5 and preventing discovered attacks along the d1-h5 diagonal. } *
+
+[Event "The Scotch Gambit Starter Kit"]
+[White "7) Sidelines"]
+[Black "3...d5"]
+[Date "2022.11.08"]
+[Result "*"]
+[SourceTitle "https://www.chessable.com/variation/20760425"]
+[ECO "C44"]
+
+1. e4 {[%mdl 32768]} e5 
+2. Nf3 Nc6 
+3. d4 {[%cal Bd4d5,Bd4e5][%csl Be5,Bd5]} d5 {[%cal Bf3e5][%csl Be5]} { Don't let this strange looking move throw you off. The following line is the simplest way to walk away with a great position. } 
+4. Nxe5 dxe4 
+5. Bb5 {[%cal Bb5c6,Be5c6][%csl Bc6]} { White is immediately putting pressure on the c6-knight and threatening the d5 advance. } Bd7 
+6. Nxd7 Qxd7 
+7. d5 {[%cal Bd5c6][%csl Bc6]} a6 {[%cal Ba6b5][%csl Bb5]} { Luckily for Black, the counter attack a6 saves the knight. } 
+8. dxc6 Qxd1+ 
+9. Kxd1 O-O-O+ {[%cal Bd8d1][%csl Bd1]} { Black gets a chance to improve their position by castling queenside with a tempo on White's king. } 
+10. Ke2 axb5 
+11. cxb7+ {[%cal Bb1c3,Bc1f4,Bh1d1][%csl Bc3,Bf4,Bd1]} { Again, White has a healthy +1 positional advantage with a three vs two queenside pawn majority. Black's pawns on b5 and e4 look out of place and are fantastic targets for our developing pieces. } *
+

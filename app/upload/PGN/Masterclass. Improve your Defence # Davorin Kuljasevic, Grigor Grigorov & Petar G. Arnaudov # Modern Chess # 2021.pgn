@@ -1,0 +1,2414 @@
+﻿[Event "?"]
+[Site "?"]
+[Date "2004.07.08"]
+[Round "?"]
+[White "Van den Doel, Erik"]
+[Black "Sokolov, Ivan"]
+[Result "0-1"]
+[ECO "C54"]
+[WhiteElo "2599"]
+[BlackElo "2690"]
+[Annotator "GM Petar Arnaudov"]
+[SetUp "1"]
+[FEN "r4k2/p1R3pp/1p3p2/8/7P/1P4P1/1P3P2/6K1 b - - 0 39"]
+[PlyCount "37"]
+[EventDate "1909.02.15"]
+[EventType "tourn"]
+[EventRounds "19"]
+
+{In this lecture, I want to present the most successful defensive strategies:
+1."Activate your pieces." You should ignore material and prioritize the
+activity. 2. "Activate the King." We all know the famous quote, "The king
+should be safe in the middlegame and brave in the endgame" 3. "Building a
+Fortress" 4. Sacrifice material to simplify in a theoretical draw 5.
+Transposing to theoretically lost positions but with practical chances 6. When
+you are defending, exchange as many pawns as you can In the following example,
+GM Sokolov abandons the "a7" pawn and activates his rook.} 39... Rd8 $1 40.
+Rxa7 Rd3 41. Ra3 (41. h5 $1 {This is the simplest defence. White should
+realize that his position is not better and switch to the defensive mode. I
+believe that Erik still wanted to play for a win.} Rxb3) 41... b5 42. b4 (42.
+h5 $1 {It wasn't too late to switch to the defensive setup I showed you before.
+}) 42... Rd4 43. Rb3 $2 {To evaluate the position, we need to compare the
+position of both rooks} (43. h5 $1 $11 {This was the last chance}) 43... h5 $1
+{From now on Black is on the driving seat} 44. Kg2 Kf7 45. Kf3 Rc4 46. Ke3 g5
+$1 47. f4 $2 {Very strange decision. An important rule that you should
+remember is that the defensive side is trying to exchange the maximum amount
+of pawns.} (47. hxg5 $1 fxg5 48. f4 gxf4+ 49. gxf4 Ke6 50. Rd3 {White has
+enough counterplay to save the game without troubles}) 47... gxh4 $1 48. gxh4
+Kg6 $1 49. Rc3 $1 Rxb4 50. Rc5 $1 Rb3+ 51. Ke4 Rxb2 52. f5+ Kh6 53. Rc6 $1 Rb4+
+$1 54. Kf3 $4 (54. Kd5 $1 {Again the active defense was better choice. This
+was the only move which saves the game.} Rxh4 55. Rxf6+ Kg5 56. Rf8 $1 Rh1 (
+56... b4 57. f6 Kg6 58. Ke5 $11) 57. f6 Kg6 58. f7 Kg7 59. Rb8 Kxf7 60. Rxb5
+$11) 54... Rxh4 55. Rxf6+ Kg5 56. Rg6+ (56. Rb6 Rf4+ $19) (56. Rf8 Rf4+ 57. Ke3
+Rxf5 $19) 56... Kxf5 57. Rb6 Rb4 0-1
+
+[Event "Moscow"]
+[Site "?"]
+[Date "1965.??.??"]
+[Round "?"]
+[White "Botvinnik, M..."]
+[Black "Smyslov, V..."]
+[Result "0-1"]
+[Annotator "GM Petar Arnaudov"]
+[SetUp "1"]
+[FEN "8/5pkp/p2N1p2/1p2pP2/1P1b4/P4P1P/2K5/8 b - - 0 1"]
+[PlyCount "27"]
+[EventDate "1965.??.??"]
+
+{Black has a pawn up, but it doesn't seem that simple to convert the advantage
+to a full point. This is a classical situation in which Black should make a
+decision. To activate his king and abandon the "f7" pawn or to play "safe" and
+keep his extra pawn.} 1... Kh6 $1 (1... Kf8 $6 {Is the "safe" choice, but is
+wrong here} 2. Kb3 Ke7 3. Ne4 {with the idea a3-a4. White has enough
+counterplay to hold the draw.}) 2. Ne4 (2. Nxf7+ {is possible, but doesn't
+solve the problems. The pawn is not important at all, and Black activates his
+king.} Kh5) 2... Kh5 $1 {Of course, the "f6" and "h7" pawns are not that
+important.} 3. Nxf6+ Kg5 4. Nxh7+ Kxf5 5. h4 Be3 $1 {Restricting the knight.
+The threat is Bh6, followed by Kg6.} 6. Nf8 Kf4 7. Nd7 Bd4 8. Nf6 (8. h5 Kxf3
+9. Kd3 (9. h6 e4 $19) 9... f5 10. h6 Bb2 $19 {followed by e5-e4}) 8... Kxf3 9.
+Kd3 Kf4 10. Nd5+ Kg4 {Now is over. The "h" pawn is not going anywhere, and
+Black's central pawns decide the game.} 11. Nc7 f5 12. Nxa6 f4 13. Nc7 f3 14.
+Nxb5 Kh3 $1 {The last finess, now the "f" pawn is unstoppable and Botvinnik
+resign.} 0-1
+
+[Event "San Sebastian"]
+[Site "?"]
+[Date "1911.??.??"]
+[Round "?"]
+[White "Tarrasch, S..."]
+[Black "Rubinstein, A..."]
+[Result "1/2-1/2"]
+[Annotator "GM Petar Arnaudov"]
+[SetUp "1"]
+[FEN "3r4/7p/Rp4k1/5p2/4p3/2P5/PP3P1P/5K2 b - - 0 1"]
+[PlyCount "27"]
+[EventDate "1911.??.??"]
+
+{This classical example shows once again that the best chance to save hard
+endgames is with active defense.} 1... Rd2 $1 {The best chance for Black. The
+position remains objectively lost, but White needs to be very accurate.} (1...
+Rd6 $6 {White wins here easily after:} 2. a4 Kg5 3. Ke2 $18) 2. Rxb6+ Kg5 3.
+Ke1 (3. a4 $3 {This logical move still wins} Kg4 $5 4. Ke1 Rc2 5. a5 Kf3 6. a6
+Re2+ (6... Rc1+ 7. Kd2 Ra1 8. Rf6 $1 f4 9. c4 $18) 7. Kd1 Kxf2 8. Rf6 (8. a7 $4
+{leads only to draw after:} Re1+ 9. Kc2 Ra1 10. Rf6 Rxa7 11. Rxf5+ Ke2 {
+Black has enough counterplay to save the game.}) 8... Rxb2 9. Rxf5+ Ke3 10. Ra5
+Kd3 11. Kc1 Rb8 12. a7 Ra8 13. c4 Kxc4 14. Kd2 $18 {and White wins}) 3... Rc2
+4. Rb5 $4 {this move is too slow} (4. a4 $1 {trying to transpose to the
+variations below}) 4... Kg4 $1 5. h3+ (5. a4 $6 {It is too late for that.} f4
+$19 {and Black is faster}) 5... Kxh3 6. Rxf5 Rxb2 7. Rf4 (7. a4 Ra2 8. a5 Kg4
+9. Re5 Kf3) 7... Rxa2 {Now the draw is obvious} 8. Rxe4 h5 9. c4 Kg2 10. Rf4
+Rc2 11. Rh4 Kf3 $1 {avoiding the last trap} (11... Rxf2 $2 12. Rh2+ $1 Kxh2 13.
+Kxf2) 12. Kd1 Rxf2 13. c5 Ke3 14. Rxh5 Kd4 1/2-1/2
+
+[Event "Russian Championship Superfinal"]
+[Site "?"]
+[Date "2020.12.13"]
+[Round "8.1"]
+[White "Karjakin, Sergey"]
+[Black "Svidler, Peter"]
+[Result "1-0"]
+[ECO "B96"]
+[WhiteElo "2752"]
+[BlackElo "2723"]
+[Annotator "GM Petar Arnaudov"]
+[SetUp "1"]
+[FEN "3r4/1k6/p7/1p6/6q1/8/1QP3PP/1K5R w - - 0 34"]
+[PlyCount "9"]
+[EventDate "2020.??.??"]
+
+34. Re1 {This is a quite recent example. Black is a pawn down but could save
+the game. Svidler was in time trouble and made the wrong choice. Very often,
+the simplest defensive strategy is to simplify to a well known theoretical
+position. Black has a choice between 3 continuations: 34...Qxg2, 34...Rd4, 34..
+.Rd1} Qxg2 $4 {Svidler played that in 2 seconds, and it appears that this is a
+losing mistake.} (34... Rd4 $6 {looks tempting, but it is not entirely correct.
+} 35. Qc3 $1 {Black still need to solve his problems.} Rb4+ 36. Kc1 Qf4+ 37.
+Qe3 $16) (34... Rd1+ {was simple and strong} 35. Rxd1 Qxd1+ 36. Qc1 Qe2 $11 {
+and White can't make any progress}) 35. Re7+ Ka8 36. Qf6 Qg1+ 37. Ka2 Qg8+ 38.
+Rf7 1-0
+
+[Event "Russian Championship Superfinal"]
+[Site "?"]
+[Date "2020.12.15"]
+[Round "10.5"]
+[White "Nepomniachtchi, Ian"]
+[Black "Esipenko, Andrey"]
+[Result "1-0"]
+[ECO "C42"]
+[WhiteElo "2784"]
+[BlackElo "2686"]
+[Annotator "GM Petar Arnaudov"]
+[SetUp "1"]
+[FEN "rn3r2/pp5k/3R1p1p/8/7P/2P5/P4PP1/4R1K1 w - - 0 25"]
+[PlyCount "53"]
+[EventDate "2020.??.??"]
+
+{[#]} 25. Re7+ {Nepomniachtchi shows great opening preparation and blitz out
+25 moves. So far the young Esipenko finds the right defence. Here we reach the
+critical point of the game.} Kg6 $4 {This is the case where the passive
+defense was much better than the active one.} (25... Kg8 {and White has
+nothing better than to force a draw after:} 26. Rxb7 a5 27. Re6 Ra6 28. Ree7
+Rd8 $11) ({or even} 25... Kh8) 26. h5+ $1 Kg5 $8 (26... Kxh5 $4 27. Rg7 $18 {
+[%cal Rd6d3,Rd3h3]}) (26... Kf5 27. Rd5+ Kf4 28. g3+ Kg4 29. Re4+ Kf3 30. Rdd4
+Nc6 31. Re3#) 27. Rxb7 $2 (27. Rd3 $3 {The fantastic resource which Nepo
+missed. Now Black king is getting mated in all lines.} f5 28. Re6 $3 {I will
+not show you all the lines, but you can easily ask Stockfish. I am just
+providing you with one variation, which illustrates White's idea.} Rc8 29. Rg3+
+Kxh5 30. Re5 Rf8 31. Rg7 Nc6 32. Re3) 27... a5 28. g3 Ra6 29. Rxb8 Rxd6 30.
+Rxf8 Rd2 31. a4 Ra2 32. Kg2 f5 33. Rc8 Rxa4 34. Rc5 {We reach the second
+critical position of the game. Black saves the game very easily, but you need
+to apply the defensive strategy that we already discussed: Simplifying the
+position to a theoretical draw.} Ra2 {It is hard to say that this move is a
+mistake, it is even the engines first line, but it is a step in the wrong
+direction.} (34... Kxh5 $1 {this is the easiest draw} 35. Rxf5+ Kg6 36. Rb5 Rc4
+37. Rxa5 Rxc3 {sooner or later, we will transpose to this endgame. If you
+don't know how to hold it, you can have some problems, and probably that's why
+Esipenko wants to avoid it.} 38. f4 {The the simplest way to make a draw is to
+keep the rook on the third rank. Black is attacking the "g" pawn, and when
+White plays g3-g4 or White's king is going to h4 then the rook is going on the
+first rank and start giving checks from behind.} Rb3 39. Kh3 Rc3 40. Kh4 Rc1
+41. f5+ (41. g4 Rh1+ $11) 41... Kf6 $11) 35. Kf3 {with a thread, g3-g4} Kf6 {
+Esipenko panicked and made a mistake.} (35... a4 $1 36. g4 Kh4 $3 {And Black
+is out of danger.} 37. Rxf5 Rc2 38. Rc5 a3 $11) 36. Ke3 $16 Kg5 37. f3 Kxh5 38.
+Kf4 Kg6 39. Rc6+ Kg7 40. Kxf5 $18 {The rest is simple technique} Rf2 41. Rc7+
+Kf8 42. f4 Rf3 43. g4 a4 44. c4 a3 45. Ra7 Rc3 46. Kf6 Ke8 47. c5 Rc4 48. f5
+Rxg4 49. c6 Kd8 50. Rxa3 Kc7 51. Rh3 1-0
+
+[Event "Tidskrift for Schack "]
+[Site "?"]
+[Date "1910.??.??"]
+[Round "?"]
+[White "Alexey Troitzky"]
+[Black "?"]
+[Result "1/2-1/2"]
+[Annotator "GM Petar Arnaudov"]
+[SetUp "1"]
+[FEN "1N6/b7/8/7p/3p3k/5P2/6PK/8 w - - 0 1"]
+[PlyCount "11"]
+[EventDate "1910.??.??"]
+
+{The second defensive strategy which I would like to show you is "Fortress."
+Magnus Carlsen said that he didn't believe in Fortresses, but they actually
+exist, and if you learn different types, you can save many games. The fortress
+as an extreme and versatile defensive tool has naturally turned on the the
+imagination of the study composers who have demonstrated numerous artistic
+fortresses, partly with practical value and partly mere creatures of fantasy.
+Here is one by the father of Modern study. Can white meet his opponent's
+double threat? White cannot save his knight and stop the passed pawn and
+should find a creative reply to the promotion.} 1. Nc6 $1 (1. Nd7 $2 d3 2. Nf6
+{is refuted by the zwischenschach} Bb8+ $1 ({to avoid} 2... d2 3. g3+ Kg5 4.
+Ne4+)) 1... d3 $1 2. Nxa7 $1 (2. Ne5 $2 {is met by} d2 3. f4 {with another
+zwischenschach} Bg1+ $1 ({to avoid} 3... d1=Q $2 4. g3#)) 2... d2 3. Nb5 $1
+d1=Q 4. Nc3 $1 Qd6+ 5. Kh1 $1 ({Not} 5. Kg1 $2 Qc5+) 5... Qe6 {Or any other
+queen move.} (5... Kg5 6. Ne4+) (5... Kg3 6. Ne4+) 6. Ne4 $1 {The knight has
+completed the sieg around the black king From now on dear reader it's your
+move!} 1/2-1/2
+
+[Event "Parna Ty Bull"]
+[Site "?"]
+[Date "1947.??.??"]
+[Round "?"]
+[White "Vitaly Chekhover"]
+[Black "?"]
+[Result "1/2-1/2"]
+[Annotator "GM Petar Arnaudov"]
+[SetUp "1"]
+[FEN "7r/p3k3/2p5/1pPp4/3P4/PP4P1/3P1PB1/2K5 w - - 0 1"]
+[PlyCount "11"]
+[EventDate "1947.??.??"]
+
+{In the following example, you will find another amazing fortress. White needs
+to sacrifice his bishop to save the game.} 1. Kd1 $1 ({Following either} 1. Kc2
+$2 Rh2 $1 2. Bf1 Rxf2 3. Bd3 Rg2) ({or} 1. Bf3 $2 Rf8 2. Bh5 Rxf2 3. g4 Rg2 4.
+Kc2 Rg3 {the black king will join his rook on a decisive attack.}) 1... Rh2 2.
+Ke1 $3 {[#]} ({or} 2. Ke2) 2... Rxg2 3. Kf1 Rh2 4. Kg1 Rh3 5. Kg2 Rh6 6. f3 $1
+{Black can make no progress against the White fortress.} 1/2-1/2
+
+[Event "Pula op 11th"]
+[Site "Pula"]
+[Date "1997.??.??"]
+[Round "8"]
+[White "Kozul, Zdenko"]
+[Black "Zaja, Ivan"]
+[Result "1/2-1/2"]
+[ECO "D27"]
+[WhiteElo "2590"]
+[BlackElo "2440"]
+[Annotator "GM Petar Arnaudov"]
+[SetUp "1"]
+[FEN "8/5k2/8/pp3P2/2n2K2/P1B5/1P6/8 b - - 0 58"]
+[PlyCount "11"]
+[EventDate "1997.05.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "CRO"]
+[SourceTitle "EXT 2000"]
+[Source "ChessBase"]
+[SourceDate "1999.11.16"]
+[SourceVersion "1"]
+[SourceVersionDate "1999.11.16"]
+[SourceQuality "1"]
+
+{In the following example, the GM Zaja found an amazing fortress and saved
+this hard endgame with ease. White, a pawn ahead, is ready to move his king to
+the queenside while the Black king is tied up to restrain the passer.} 58... b4
+$1 59. axb4 axb4 60. Bd4 Na5 ({Or} 60... Nd2) 61. Ke4 Nb3 $1 62. Kd5 Na1 $1 63.
+Kc4 b3 {[#] The passed pawn is under control while the black pawn is safe as
+the bishop cannot attack its guard.} 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Adianto, U...."]
+[Black "Korchnoi, V...."]
+[Result "*"]
+[Annotator "GM Petar Arnaudov"]
+[SetUp "1"]
+[FEN "6k1/5p2/4r3/6K1/8/p4QP1/4P3/8 w - - 0 1"]
+[PlyCount "14"]
+
+{In this game, White didn't recognize Black's threat.} 1. Qxa3 $2 {Without the
+"e2" and "a3" pawns Black can set up a fortress.} ({White could win after the
+correct} 1. Qa8+ $1 Kg7 2. e4 Rg6+ 3. Kf4 {, keeping both pawns alive}) 1...
+Rxe2 2. Qc3 ({After} 2. Qb3 Re6 $1 {draws easily}) 2... Re6 $1 {Now Black's
+defence is straightforward. Just move the rook from "g6 to "e6". The only
+thing which Black should look for is not to enter a lost pawn endgame.} 3. Kf5
+({Or} 3. Qd3 Kg7 $11 (3... Rg6+ $4 4. Qxg6+ $1 fxg6 5. Kxg6 $18 {.})) 3... Kh7
+4. Qd4 Rg6 5. Qd8 Kg7 6. g4 Rh6 7. g5 Rg6 {White tried for a few more moves,
+but it is already evident that he can't make any progress.} *
+
+[Event "?"]
+[Site "?"]
+[Date "2015.10.05"]
+[Round "?"]
+[White "Karjakin, Sergey"]
+[Black "Svidler, Peter"]
+[Result "1-0"]
+[ECO "A56"]
+[WhiteElo "2762"]
+[BlackElo "2727"]
+[Annotator "GM Petar Arnaudov"]
+[SetUp "1"]
+[FEN "1K6/3b4/2k3p1/1p2Pp1p/3P1B1P/2P3P1/8/8 w - - 0 77"]
+[PlyCount "25"]
+[EventDate "2015.??.??"]
+
+77. Bg5 {This is an amazing endgame. Here the defensive strategy is
+straightforward: first, you need to realize that you are in danger. Then the
+draw is achieved by sacrificing a pawn. Karjakin realized that if he reaches
+the board's position but with the bishop on e6, he is winning.} (77. d5+ $2 {
+now is premature} Kxd5 78. Kc7 Ke6 $11) (77. Ka7 {is not dangerous as well})
+77... Be6 (77... f4 $1 {is a very simple draw.} 78. gxf4 Bf5 $11) 78. Bh6 $1 {
+continuing with his plan} Bd7 $2 (78... f4 $1 $11 {the last chance}) 79. Bf4 $1
+Be6 80. d5+ $3 $18 {amazing idea} Bxd5 (80... Kxd5 81. Kc7 {with the bishop on
+"d7" king could go to "e6" and keep the kingside safe.} Kc4 82. Kd6 $18 {
+and White is queening the e-pawn and then collecting the pawns on the
+kingiside. Black's counterplay with the b-pawn is too slow}) 81. Kc8 $1 Bb3 82.
+Kd8 Bc4 (82... Kd5 83. Ke7 Kc4 84. Kf7 Kxc3+ 85. Kxg6 $18) 83. Ke7 Bb3 84. e6
+Bc4 85. Kf6 Bb3 86. Bc1 $1 {Karjakin is precise until the end} Bc4 87. Ba3 Bb3
+88. e7 Kd7 89. Kxg6 1-0
+
+[Event "Utrecht OKU op 46th"]
+[Site "Utrecht"]
+[Date "2019.06.01"]
+[Round "4"]
+[White "Arnaudov, Petar G"]
+[Black "Van Kerkhof, David"]
+[Result "1/2-1/2"]
+[ECO "A48"]
+[WhiteElo "2482"]
+[BlackElo "2376"]
+[Annotator "GM Petar Arnaudov"]
+[SetUp "1"]
+[FEN "3N4/7p/6p1/3k1p2/5P2/2n4P/pK4P1/8 w - - 0 45"]
+[PlyCount "36"]
+[EventDate "2019.05.31"]
+[EventType "swiss"]
+[EventRounds "6"]
+[EventCountry "NED"]
+[SourceTitle "CBM 190 Extra"]
+[Source "ChessBase"]
+[SourceDate "2019.07.15"]
+[SourceVersion "1"]
+[SourceVersionDate "2019.07.15"]
+[SourceQuality "1"]
+
+{[#] The last two examples are from my practice. I choose them because I want
+to show you another defensive idea. When your position is lost, it makes sense
+to try to transpose to a theoretically lost endgame, but where your opponent
+can make a mistake.} 45. g4 {I remember that I had a powerful desire to resign,
+but then I saw my chance. If I manage to eliminate all Black's pawns on the
+kingside the position is draw.} h5 46. gxf5 gxf5 47. h4 Ke4 48. Ne6 Kf3 49. Ng7
+Kg4 50. Ka1 Kxh4 (50... Ne2 {[%cal Re2f4] and I would resign, but my opponent
+fell into the trap.}) 51. Nxf5+ Kg4 52. Ne3+ Kxf4 53. Ng2+ Kg3 54. Ne3 h4 $4 {
+I should admit that here the smile comes back to my face.} (54... Kf3 55. Nf5
+Nd5 $19) 55. Nf5+ Kg4 56. Nxh4 Kxh4 {This is a theoretical draw. It took a few
+more moves for my opponent to realize that and to sign the scoresheet. Very
+luck and undeserved draw for me.} 57. Kb2 Kg4 58. Ka1 Kf4 59. Kb2 Ke4 60. Ka1
+Kd4 61. Kb2 Kc4 62. Ka1 Kb3 1/2-1/2
+
+[Event "Dresden ZMD op 23rd"]
+[Site "Dresden"]
+[Date "2014.08.19"]
+[Round "5"]
+[White "Arnaudov, Petar G"]
+[Black "Neef, Maximilian"]
+[Result "1/2-1/2"]
+[ECO "E92"]
+[WhiteElo "2429"]
+[BlackElo "2331"]
+[Annotator "GM Petar Arnaudov"]
+[SetUp "1"]
+[FEN "4k3/4P3/8/2K5/p1p5/P7/1P6/3n4 b - - 0 68"]
+[PlyCount "25"]
+[EventDate "2014.08.15"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "GER"]
+[SourceTitle "CBM 161 Extra"]
+[Source "ChessBase"]
+[SourceDate "2014.08.29"]
+[SourceVersion "1"]
+[SourceVersionDate "2014.08.29"]
+[SourceQuality "1"]
+
+{[#]} 68... Nxb2 {Similary to the previous example, I can resign here, but my
+opponent was in time trouble . I decided to check his endgame knowledge in the
+textbook pawn endgame, which arises after:} 69. Kb4 Kxe7 70. Kc3 Kd6 71. Kxb2
+Kd5 72. Kc3 Kc5 73. Kc2 Kd4 74. Kd2 c3+ 75. Kc1 $1 {I remember that my
+opponent was stunned when he saw this move on the board. I tried to bluff him,
+and I think that he believed me. He had around 2 minutes on the clock and
+didn't find the winning manoeuvre with the ticking clock's pressure.} Kd5 76.
+Kd1 Ke5 $2 {this is a serious step in the wrong direction} (76... Kc5 $19 {
+finish the famous triangulation and White is in zugzwang}) 77. Kc2 Kd4 78. Kc1
+Kd3 {This move drops the half point. It wasn't too late for} (78... Kd5 79. Kd1
+Kc5 $19) 79. Kd1 c2+ 80. Kc1 Kc3 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Prophylactic Thinking"]
+[Black "Introduction"]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[PlyCount "0"]
+
+{In this lecture, we shall focus on two of the most important defensive
+strategies - prophylactic thinking and elimination. As will become obvious,
+these two approaches often work together. In order to find the best defence by
+using the elimination method, you need to understand why the alternative
+defences wouldn't work. Therefore, you should put yourself in the shoes of
+your opponent by applying prophylactic thinking. In the first part of the
+lecture, however, we are going to examine the prophylactic thinking in a
+broader way. At this height, our task will be to feel and prevent danger
+before it happens. In order to achieve that, one needs to constantly track the
+dynamic and static tendencies in the position. In general, whenever you see
+that some positive evolution of the position of your opponent is possible (his
+next few moves are clear), you should be on alert. If you cannot create your
+own play, the prevention (prophylaxis) remains the best strategy. Now, we
+shall take a look at the games of some player who managed to develop a great
+sense of danger.}  *
+
+[Event "Hastings 7980"]
+[Site "Hastings"]
+[Date "1980.??.??"]
+[Round "5"]
+[White "Christiansen, Larry Mark"]
+[Black "Andersson, Ulf"]
+[Result "0-1"]
+[ECO "A30"]
+[WhiteElo "2475"]
+[BlackElo "2560"]
+[Annotator "GM Grigor Grigorov"]
+[PlyCount "80"]
+[EventDate "2020.??.??"]
+
+{[%evp 0,80,39,5,26,32,34,40,16,16,25,28,28,26,32,35,26,25,38,40,63,70,58,70,
+74,63,72,51,53,51,72,57,83,80,87,83,82,32,55,45,53,-15,16,36,13,-1,2,-51,-28,
+-63,-50,-81,-77,-112,-4,-24,8,-65,2,-11,-10,-79,-106,-64,-100,-146,-138,-321,
+-151,-152,-203,-184,-238,-290,-312,-357,-357,-612,-576,-622,-590,-611,-702]
+The first two examples, taken from the practice of the Swedish grandmaster Ulf
+Andersson, show how to prevent the opponent's attack before it starts. The
+first critical position arises after White's 25.g4.} 1. c4 c5 2. Nf3 Nf6 3. Nc3
+e6 4. g3 b6 5. Bg2 Bb7 6. O-O Nc6 (6... Be7 7. d4 cxd4 8. Qxd4 d6) 7. e4 (7. d4
+Nxd4 8. Nxd4 Bxg2 9. Kxg2 cxd4 10. Qxd4) 7... d6 8. d4 cxd4 9. Nxd4 Nxd4 10.
+Qxd4 Be7 11. b3 O-O 12. Bb2 Qb8 {[%cal Gf8d8,Ge7f8] Intending to defend the
+d6-pawn by ...Rd8 and then continue with ...Bf8 to protect the g7-pawn.} 13. h3
+Rd8 14. Rad1 Bf8 15. Kh2 (15. f4 $2 d5 $1) 15... Nd7 16. f4 Bc6 17. b4 $6 {
+This move weakens White`s queenside.} (17. Qf2 a6 18. f5 Ne5 19. fxe6 fxe6 20.
+Ne2 {with the idea} Qc7 21. Nd4 Bd7 22. Nf3 Nxf3+ 23. Qxf3 $36) 17... a6 18. a4
+{White prevents ...b6-b5, but this advance makes it possible for Black to
+obtain later the c5-square for his knight after ...a6-a5.} Qc7 19. Rc1 {
+Was better to keep the rook on d1 and defend on c4 by Rfe1 with Bf1 to follow.}
+Bb7 20. Rfe1 Rac8 21. Bf1 Qb8 22. Qf2 a5 $1 23. b5 Nc5 24. Rcd1 Be7 25. g4 {
+[%cal Bh3h4,Bg4g5,Bf2g3,Bh4h5,Bg5g6,Bf4f5,Bf5f6,Bh7h6,Bg8h7,Bd8h8] We have
+reached the first critical position in the game - White's next few moves are
+clear. If given enough time, Christiansen would proceed with Qg3 followed by
+h3-h4-h5 and possibly g5-g6. In some positions, the advance f4-f5-f6 also
+comes into consideration. Since Black cannot counterattack in the centre, he
+should prevent White's attack before it happens. Andersson, comes with a
+typical defensive setup that he likes a lot.} h6 {Looks dangerous for Black,
+but Andersson prepares the following defensive manoeuvre.} 26. h4 Kh7 $1 {
+[%cal Gg4g5,Gd8h8] Vacates the h8-square for the rook.} 27. Bh3 (27. g5 hxg5
+28. hxg5 Rh8 29. Re3 Kg8+ 30. Rh3 Rxh3+ 31. Bxh3 Qc7 {[%csl Bc4,Be4,Ba4][%cal
+Bg7g6,Be7f8,Bf8g7]} 32. Qe3 {with balanced situation.}) 27... Rc7 28. Re3 Rh8
+$1 {It turns out that the advance g4-g5 is more dangerous for White.} 29. Kg1
+Qd8 {[%csl Bh4,Bh8]} 30. e5 $2 {[%csl Bg1] After this mistake White`s position
+quickly collapses.} ({Better would have been} 30. g5 hxg5 31. hxg5 Kg8 32. Bg2
+{with a normal position.}) 30... Rd7 $1 {[%cal Bd6e5]} 31. g5 $2 (31. exd6 Rxd6
+32. Rxd6 Qxd6 $17) 31... dxe5 32. Rxd7 Nxd7 $19 33. Qc2+ g6 34. Rd3 Qc7 35. h5
+Nc5 36. hxg6+ fxg6 37. Bxe6 Nxe6 38. Rh3 Qc5+ 39. Kh2 Nxf4 40. Rxh6+ Kg8 {
+0-1 White resigns.} 0-1
+
+[Event "Sao Paulo"]
+[Site "Sao Paulo"]
+[Date "1979.??.??"]
+[Round "?"]
+[White "Filguth, Rubens Alberto"]
+[Black "Andersson, Ulf"]
+[Result "0-1"]
+[WhiteElo "2335"]
+[BlackElo "2560"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "1r1q1rk1/3bppbp/3p2p1/pNp1nP2/P1P1P1PP/3P2Q1/6B1/2BR1R1K b - - 0 28"]
+[PlyCount "39"]
+[EventDate "2020.??.??"]
+
+{Earlier Andersson realized the same defensive idea in the following position.
+} 28... h6 $1 {[%cal Gg8h7,Gf8h8] If Black doesn't make this move, White can
+develop his attack by means of g4-g5 or h4-h5. After ... Kh7 followed by ...
+Rh8, White cannot easily open the kingside due to the vulnerability of his own
+king.} 29. Rf2 ({Another point behind 28...h6 is that} 29. h5 {will be met by}
+g5 {, thus closing the kingside.}) 29... Kh7 $5 30. Rdf1 Rh8 $5 31. Bh3 Kg8 32.
+fxg6 {Opens the f-file for the rooks, but gives the kingside space advantage
+away.} ({After} 32. g5 {was possible} hxg5 33. Bxg5 Bh6 $132 {[%csl Bh4]} 34.
+Bxh6 Rxh6 {[%csl Rh1][%cal Gg8g7,Gd8h8] Black is planning to proceed with ...
+Kg7 followed by ...Qh8. White's king is more vulnerable now.}) 32... fxg6 33.
+Bb2 Be6 34. h5 ({After} 34. g5 $6 Bxh3 35. Qxh3 Qc8 36. Qxc8+ Rxc8 37. Bxe5
+Bxe5 $15 {Black is better since White's kingside is hanging.}) 34... Qd7 35.
+hxg6 Nxg6 36. Bxg7 Kxg7 37. Kg1 Rbf8 38. Rxf8 $2 {Now, the g4-pawn becomes
+vulnerable.} ({Better would have been} 38. Rf5 {keeping the balance.}) 38...
+Rxf8 39. Rxf8 Kxf8 40. Qe3 Kg7 41. d4 Bxg4 42. Bg2 cxd4 43. Qxd4+ Kh7 44. Qb6
+$2 {Loses immediately.} (44. e5 Nxe5 45. c5 $17) 44... Bh3 45. Bf3 Ne5 46. Be2
+Bg4 47. Bf1 Bf3 {0-1 White resigns.} 0-1
+
+[Event "EU-Cup 24th"]
+[Site "Kallithea"]
+[Date "2008.10.23"]
+[Round "7"]
+[White "Huzman, Alexander"]
+[Black "Carlsen, Magnus"]
+[Result "0-1"]
+[ECO "E15"]
+[WhiteElo "2590"]
+[BlackElo "2786"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "r2nk2r/p3bppp/1pp5/3qP3/Q2P4/5NP1/P2B1PKP/R1R5 b kq - 0 17"]
+[PlyCount "51"]
+[EventDate "2020.??.??"]
+[WhiteTeam "Beer Sheva"]
+[BlackTeam "Erevan MIKA"]
+
+{The current World Champion Magnus Carlsen is famous for his sense of danger.
+The position on the board arose in his game against the Israeli GM Alexander
+Huzman. Black's position looks strategically promising. He has almost
+unchallenged control on the light squares. In order to achieve the full
+success he would only need to play ... Ne6, but then we notice the only
+imperfection in his position the weakness of the c6-pawn. As mentioned in the
+introduction, we should always look for dangerous tendencies. If White
+exchanges the queens by means of Qc4, Black will have difficulties to
+coordinate his pieces. Carlsen found a spectacular way to solve his
+coordination problems.} 17... Kd7 $3 {[%cal Gd8e6,Gh8c8] The king bravely
+steps closer to the centre, although most of the pieces are still on the board.
+The main reason why this works is Black's stability on the light squares. Let
+us check the alternatives in order to convince ourselves that this is the
+strongest move, indeed.} (17... O-O 18. Qc4 $14 {and it is not likely that
+Black is going to connect his rooks with ...Ne6 soon.}) (17... g5 $5 {Actually
+this is the most viable alternative to the game move.} 18. h3 h5 19. Qc4 g4 20.
+Qxd5 cxd5 21. hxg4 hxg4 22. Nh2 Rg8 23. Bf4 Ne6 24. Rd1 Rc8 25. Nf1 Rc4 26. Ne3
+Rxd4 27. Nxd5 Rxd1 28. Rxd1 {, and White still retains some light initiative,
+as the black rook needs to take care of the g4-pawn.}) (17... b5 18. Qb3 {
+offers White a consistent initiative against Black's weakened queenside,
+mainly due to his advance in development.} Ne6 19. Rab1 a6 20. a4 Qxb3 21. Rxb3
+Kd7 22. axb5 axb5 23. d5 cxd5 24. Rxb5 $16 {Despite the queen exchange (or
+maybe precisely because of it) the king feels much less secure on d7 than in
+the game.}) (17... a5 {, planning . ..Rc8 and ..Ne6.} 18. Rcb1 $1 {Now that
+there is a new target on a5, it is better to keep one rook on a1.} b5 (18...
+Rb8 19. Qb3 Qxb3 20. Rxb3 {, threatening Bxa5, forces Black to continue to
+weaken his queenside:} a4 21. Rd3 O-O 22. Rb1 Ne6 23. Rc3 Rfc8 24. Rbc1 $16 {
+threatening both Rxc6 and d4-d5.}) 19. Qb3 Qxb3 20. axb3 $16 {and the a5-pawn
+is in danger.}) 18. Bb4 (18. Rc3 Ne6 19. Rac1 Rhc8 {[%cal Bc8c7,Ba8c8,Bd7e8,
+Be8f8,Bf8g8]} 20. Be3 Rc7 {, followed by ...Rac8 and, if needed, the king's
+evacuation. Black would keep all the initial strategic trumps and solve his
+problems of coordination.}) 18... b5 {Under the given circumstances Black is
+prepared for the queenside expansion, as this will be done with a gain of time,
+allowing him to complete his development in the process.} 19. Qa3 Bxb4 20. Qxb4
+a5 21. Qb3 Ne6 22. Rxc6 $5 {White feels that he loses ground and decides to
+play for an attack before Black completes his development. But his combination
+can only lead to a draw at best.} (22. Rab1 {is not effective due to the simple
+} Rab8 {and Black defends all the important squares.}) 22... Qxc6 (22... Qxb3
+$2 23. Rd6+) (22... Kxc6 $2 23. Rc1+) 23. d5 Qc4 (23... Qb7 $5 24. dxe6+ fxe6
+25. Rd1+ Ke7 26. Rd6 Rhd8 27. Qxe6+ Kf8 {makes White's compensation
+questionable as the f3-knight is pinned.}) 24. dxe6+ Kxe6 {The start of an
+incredibly safe king's march.} 25. Nd4+ Kd5 26. Qf3+ Kxd4 {Ole!!!} 27. Qe3+ $2
+(27. Re1 $1 Kc5 28. Qe3+ Qd4 29. Rc1+ Kd5 30. Qb3+ Kxe5 31. Re1+ Kf6 32. Qf3+
+Kg6 33. Re4 Qf6 34. Rg4+ Kh6 35. Rh4+ Qxh4 36. gxh4 f6 37. Qf4+ Kh5 38. Qf5+
+Kh6 39. Qf4+ Kg6 40. Qg4+ Kf7 41. Qd7+ {with a perpetual.}) 27... Kd5 28. Rd1+
+Ke6 29. Rd6+ Ke7 30. Qg5+ Ke8 $19 {The king has returned where his glorious
+story started many moves earlier. White's attack does not compensate for the
+missing rook.} 31. e6 Rc8 32. exf7+ Qxf7 33. Rd3 Qb7+ 34. Kh3 {No, it is not
+the same thing. Not all the king's advances are glorious.} Rf8 35. Qh5+ Ke7 36.
+Re3+ Kd8 37. Rd3+ Kc7 38. Rd5 Rce8 39. Rc5+ Kd6 {Once he has tasted the mirage
+of high altitudes the king cannot resist returning to the center.} 40. Rxb5
+Qc8+ 41. Kh4 {Jealousy?} Qc4+ 42. g4 Qd4 {0-1 White resigns.} 0-1
+
+[Event "Candidates Tournament"]
+[Site "Zuerich"]
+[Date "1953.??.??"]
+[Round "2"]
+[White "Reshevsky, Samuel Herman"]
+[Black "Petrosian, Tigran V"]
+[Result "1/2-1/2"]
+[ECO "E58"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "3rq1k1/4rppp/2n3b1/pp2P3/2pP1QB1/P1P1R3/1B4PP/4R1K1 b - - 0 25"]
+[PlyCount "32"]
+[EventDate "2020.??.??"]
+
+{Another player with great feeling of danger was the former World Champion
+Tigran Petrosian. He was often able to predict dangerous tendencies which
+could develop in the long run. The next classical example is a must-know for
+every player. White enjoys a strong pawn centre and a pair of bishops.
+Moreover, he has a clear plan to develop his advantage. After Bf3 followed by
+d4-d5, the central pawns would start rolling. Another dangerous idea is e5-e6.
+Petrosian prevents these ideas with} 25... Re6 $1 {[%cal Gc6e7,Ge7d5] The
+classical exchange sacrifice allows Black to take the control of the light
+squares. Black is preparing the manoeuvre... Ne7-d5.} ({After} 25... Ra7 26. e6
+f6 27. a4 Ne7 28. Bf3 b4 $140 (28... bxa4 29. Ba3) 29. d5 Nxd5 30. Bxd5 Rxd5
+31. Qxc4 {Black's position is very dangerous.}) 26. a4 $5 (26. Bxe6 fxe6 $44 {
+[%cal Bc6e7,Be7d5]}) 26... Ne7 $1 {Played in the right moment.} ({The
+alternative} 26... b4 $2 {would have allowed} 27. d5 $1 Rxd5 28. Bxe6 fxe6 29.
+Qxc4 $16 {with a big advantage for White.}) 27. Bxe6 fxe6 {[%cal Ge7d5] The
+complete control of the light squares provides more than sufficient
+compensation for the exchange.} 28. Qf1 (28. Qf2 $6 Nd5 29. Rf3 b4 $15) 28...
+Nd5 29. Rf3 Bd3 30. Rxd3 $1 {Otherwise Black plays b5-b4.} cxd3 31. Qxd3 b4 $5
+(31... bxa4 32. Ba3 (32. c4 Nb4) 32... Qg6 33. Qd2 Rb8 34. c4 Nb4 $13 {[%cal
+Gb4c2] but the text is simpler.}) 32. cxb4 (32. c4 $6 Nb6) 32... axb4 {White`s
+extra pawn does not play any role because of the blockade on d5-square.} ({
+Another option would have been} 32... Nxb4 33. Qb3 (33. Qb5 Qxb5 34. axb5 Rb8)
+33... Nd5 34. Ba3 Rb8 35. Qc4 Nb6 36. Qc7 Nd5 $1 (36... Nxa4 $2 37. Rf1 $18)
+37. Qxa5 Ra8 38. Qd2 Rxa4 $11 {with equality.}) 33. a5 Ra8 34. Ra1 Qc6 35. Bc1
+Qc7 36. a6 Qb6 37. Bd2 b3 38. Qc4 h6 (38... b2 39. Rb1 Qxa6 40. Qxa6 Rxa6 41.
+Rxb2 Ra4 $11) 39. h3 b2 40. Rb1 Kh8 (40... Qxa6 41. Qxa6 Rxa6 42. Rxb2 Ra4 $11)
+41. Be1 {1/2-1/2 The game is a draw.} 1/2-1/2
+
+[Event "URS-ch43 Final"]
+[Site "Yerevan"]
+[Date "1975.??.??"]
+[Round "6"]
+[White "Tal, M.."]
+[Black "Petrosian, T.."]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "r1b2rk1/2q1bppp/p2p1n2/1ppPp3/2n1P1P1/2P2N1P/PPB2P2/R1BQRNK1 b - - 0 15"]
+[PlyCount "13"]
+[EventDate "2020.??.??"]
+
+{Let's proceed with another instructive example which illustrates the
+prophylactic thinking of Petrosian. It is already clear how White will develop
+his kingside play - Ng3, Kh1, Rg1 and Nf5. On the other hand, Black's
+queenside counterplay is rather slow. Therefore, Black must act now.} 15... h5
+$1 {[%cal Bf1g3,Bg1h2,Be1g1,Bg3f5,Bg4g5] Just in time! Black should play this
+move before White's Ng3.} ({Let's see how the game might develop if Black
+plays passively. In one of the early games, he opted for} 15... Rd8 {when
+White can easily prepare his kingside attack. The next moves are quite logical.
+} 16. Ng3 g6 17. Kh2 Ne8 18. Rg1 Ng7 19. b3 Nb6 20. Bh6 Bf8 21. Qd2 {[%cal
+Gg1g2,Ga1g1] White managed to mobilize all his pieces. He is now ready to
+double the rooks on the g-file.} Qe7 22. Rg2 f6 {This move allows} 23. g5 Nd7
+24. Rag1 fxg5 25. Bxg5 {White's attack is very strong. Later on, White has
+converted his advantage.} Nf6 26. Nh4 Re8 27. Bd1 Ra7 28. f4 Qd8 29. f5 Be7 30.
+Kh1 Rf8 31. fxg6 h6 32. Bxf6 Bxf6 33. Qxh6 Ne8 34. Ngf5 Bxf5 35. Nxf5 Qc7 36.
+g7 Nxg7 37. Nxg7 Bxg7 38. Rxg7+ Qxg7 39. Rxg7+ Rxg7 40. Bg4 {1-0 (40) Colon
+Romero,A-Benkner,O Moscow 1956}) 16. gxh5 {This move is not desirable, but the
+alternatives are not better.} ({After} 16. g5 $2 Nh7 17. h4 g6 {[%cal Gf7f6,
+Bc8g4] Black is better. He can use the kingside weaknesses by means of ...Bg4
+and ...f7-f6.}) ({In a case of} 16. N3h2 {, Black would play} hxg4 17. hxg4 Nh7
+{[%csl Gf4,Gg5][%cal Ge7g5] preparing ...Bg5. After exchanging the
+dark-squared bishops, Black can make use of the weak dark squares.}) 16... Bxh3
+17. N3h2 g6 $1 {[%cal Gg8g7,Gf8h8] It turns out that Black is the one who will
+attack on the kingside. With his last move, he prepares ...Kg7 followed by ...
+Rh8.} 18. Ng3 Kg7 19. Kh1 Rh8 20. Rg1 Kf8 21. a4 Nb6 $15 {Black was already
+slightly better.} *
+
+[Event "Palma de Mallorca"]
+[Site "Palma de Mallorca"]
+[Date "1969.??.??"]
+[Round "14"]
+[White "Diez del Corral, Jesus"]
+[Black "Petrosian, Tigran V"]
+[Result "0-1"]
+[ECO "C18"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "r5k1/p1r2qp1/1pn1p1p1/3pPp2/3P1Q1P/P2PB1P1/5PK1/R6R b - - 0 22"]
+[PlyCount "65"]
+[EventDate "1969.??.??"]
+[EventType "tourn"]
+[EventRounds "17"]
+[EventCountry "ESP"]
+
+{Here White is planning to open the h-file by Qg5 with h4-h5 to follow.
+Therefore Black`s king must leave the dangerous zone.} 22... Kf8 $1 23. Qg5 Ke8
+24. Rac1 Kd7 25. h5 gxh5 26. Rxh5 Rg8 27. Rh7 Kc8 {In result, already White
+has problems because of the defects in his pawn structure and the passive
+bishop.} 28. Qh4 Qg6 29. Rh8 Rxh8 30. Qxh8+ Kb7 31. Qf8 {This penetration can
+be easily parried.} Rc8 32. Qd6 Qe8 $1 {Intending to drive away white queen
+from d6.} 33. a4 Rd8 34. Qa3 Qe7 $1 35. Qc3 {The exchange of queens leads to a
+difficult endgame for White in view of Black`s pawn majority on the queenside.}
+Rc8 36. Bd2 g5 37. Qc2 $2 ({It seems that White`s best chance was} 37. a5 $5 b5
+38. a6+ $1 Kxa6 39. Qb2 {, for example:} Kb6 40. Bb4 Qb7 41. Bc5+ Kc7 42. Bd6+
+Kb6 43. Bc5+ {with repetition of moves.}) 37... f4 $1 {Threatening f4-f3.} 38.
+gxf4 gxf4 39. Bxf4 Rg8+ 40. Bg3 $2 ({It was necessary to move the king away
+from the g-file by} 40. Kf1 Nxd4 41. Qb2) 40... Nxd4 41. Qc3 Ne2 $1 42. Qc6+
+Kb8 43. Re1 ({After} 43. Rh1 Qg7 $1 {is decisive.}) 43... Nf4+ 44. Kf1 Nxd3 45.
+Rb1 Qf7 {[%cal Gg8g3]} 46. Qd6+ Kb7 47. Ke2 Rc8 $1 ({Also strong was} 47... Qh7
+$1 48. Qxe6 $140 Nf4+ 49. Bxf4 Qc2+ $1 50. Ke3 (50. Bd2 Qc4+ $1 51. Kd1 Rg1+
+52. Be1 Qd3+ 53. Kc1 Qc3+ 54. Kd1 Rxe1#) 50... Qe4+ 51. Kd2 Qxf4+ 52. Ke2 Qc4+
+$1 53. Kd2 Qa2+ $1 {winning.}) 48. a5 Rc2+ $1 $19 49. Kf1 (49. Kxd3 Qf5+ $19) (
+49. Ke3 Nc5 $1 50. axb6 Rc3+ 51. Kd4 Rc4+ 52. Ke3 d4+ 53. Ke2 Qh5+ $19) (49.
+Kd1 Rc4 50. axb6 Nxf2+ $1 51. Ke2 (51. Bxf2 Qf3+ $19) (51. Ke1 Qh7 $19) 51...
+Qh5+ 52. Ke3 Qh6+ 53. Kf3 (53. Kxf2 Rc2+ 54. Kf3 Qh5+ 55. Ke3 Re2+ 56. Kd4 Qg4+
+$19) 53... Rc3+ 54. Ke2 (54. Kxf2 Qd2+ 55. Kf1 Rf3+ $19) 54... Rc2+ 55. Kf3
+Qh5+ $19) 49... Nxf2 {[%cal Gf2e4]} 50. Rxb6+ axb6 51. Qxb6+ Kc8 52. Qa6+ Kb8
+53. Qb6+ Qb7 54. Qd6+ Qc7 0-1
+
+[Event "Horgen CS"]
+[Site "Horgen"]
+[Date "1994.??.??"]
+[Round "10"]
+[White "Shirov, Alexei"]
+[Black "Gavrikov, Viktor"]
+[Result "1/2-1/2"]
+[ECO "B90"]
+[WhiteElo "2740"]
+[BlackElo "2600"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "2r2b1k/3n1rp1/p2pp1qp/4p3/P1P1P3/1N1QBP2/6PP/1R3RK1 b - - 0 26"]
+[PlyCount "10"]
+[EventDate "1994.09.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "SUI"]
+[EventCategory "16"]
+
+{This position was reached in the game Shirov - Gavrikov, 1994. We can already
+notice some tendencies which are dangerous for Black. White's concrete threat
+is the advance c4-c5. Another long-term idea would be to remove the knight,
+double the rooks on the b-file and invade Black's position via b7. After
+taking into consideration all these ideas, Gavrikov took preventive measures.
+Black has to reckon with the advance c4-c5 and the following preventive move
+decreases the danger.} 26... Rc7 $1 27. Nd2 {[%cal Gb1b3,Gf1b1] Intending to
+double the rooks on the b-file.} ({Now} 27. c5 $6 d5 28. Qxa6 {will not attack
+the rook and Black can create counterplay by} dxe4 $1 (28... d4 $6 29. Bd2 Nxc5
+30. Nxc5 Bxc5 31. a5 $16) 29. fxe4 Rxf1+ 30. Rxf1 Qxe4 $132) ({more dangerous
+for Black looks} 27. Na5 {However, it seems that also here he has adequate
+counterplay after} Nc5 28. Bxc5 Rxc5 29. Nb7 Rcc7 30. Nxd6 Bxd6 31. Qxd6 Rxc4 {
+for example:} 32. Qxa6 (32. Qxe5 Rxa4 33. Rb6 Rf6) 32... Rc2 33. Rf2 Rxf2 34.
+Kxf2 Qxe4 35. Rb8+ Kh7 36. Qxe6 Qd4+ 37. Ke2 Rd7 $5 (37... Rc7 38. Qg8+ Kg6 39.
+Qb3) 38. Qf5+ g6 39. Qf6 ({In case of} 39. Qc2 {Black has} e4 $1 {which leads
+to a perpetual -} 40. Qxe4 (40. fxe4 $4 Rf7 $19 {[%cal Gf7f2]}) 40... Qd2+ 41.
+Kf1 Qc1+ 42. Kf2 ({or} 42. Qe1 Rd1 43. Rb7+ Kg8 44. Rb8+ Kf7 45. Rb7+ $11)
+42... Rd2+ 43. Kg3 Qc7+ 44. Kh3 Qxb8 45. Qe7+ Kg8 46. Qe6+ Kg7 47. Qe7+ $11)
+39... Qd1+ 40. Kf2 Rd2+ 41. Kg3 Rxg2+ $1 42. Kxg2 Qe2+ 43. Kg3 Qe1+ 44. Kh3
+Qf1+ $11) 27... Be7 $1 {[%cal Gf7f8,Gf8c8] Vacating the f8-square for Rf7.} 28.
+Rb3 Rf8 29. Rfb1 Rfc8 30. Rb7 Qe8 {Just in time.} 31. Rxc7 {with draw offer
+which was accepted.} (31. Rxc7 Rxc7 32. c5 $140 $6 Nxc5 33. Bxc5 Rxc5 34. Qxa6
+Rc2 $132) 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Fragment"]
+[Black "Carlsen - Anand"]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "r1r3k1/p3p1np/1q2p1p1/2p5/2Pp1NP1/1P3P2/P2Q3P/4RR1K b - - 0 24"]
+[PlyCount "3"]
+[EventDate "2020.??.??"]
+
+{The position was reached in the game Carlsen - Anand. Black is in a difficult
+situation due to his vulnerable king and inferior pawn structure. Our first
+task is to see how White can develop his advantage. A closer look at the
+position would allow us to see two possible ideas: 1) Nh3 followed by Qh6 and
+Ng5 2) Re5 followed by Rfe1 In order to prevent these ideas from happening,
+Black should have played the prophylactic} 24... Qd6 $1 {I find this best.
+Black prevents ...Re5 (which now requires Nd3) and prepares an antidote to Nh3,
+too.} 25. Nd3 {, although after} (25. Nh3 e5 {[%csl Be5]} 26. Qh6 Ne6 {[%csl
+Bg5] and everything is fine for Black already.}) 25... a5 $14 {Black has
+chances to keep the balance.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Elimination Method"]
+[Black "Introduction"]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[PlyCount "0"]
+
+{The second part of the lecture deals with the so-called "Elimination method".
+Even though it can be used in different situations, this method is very
+effective when our king is under attack. The logic is quite simple. We need to
+find the only defence by rejecting all the bad moves. Even though this might
+sound simple, the method is far from easy. The problem is that it is very
+difficult to prove that other moves are bad. The process of elimination
+requires the ability to constantly refute our own ideas. In order to be able
+to refute our ideas, we need to find all the available resorces for the
+opponent. That's how the prophylactic thinking interferes with the elimination
+method. In order to make the elimination process easier, I would suggest
+following the step-by-step guide: 1) Discover ALL the threats of your opponent.
+At this stage, defining his candidate moves will make your job easier. 2) By
+defining your candidate moves, try to find ALL possible defences. 3) Start
+looking for a refutation of your ideas. You try to refute your candidate moves
+one by one. 4) After refuting the wrong moves, you play the correct one. Quite
+obviously, refuting our own ideas is the most difficult part of the job. Very
+often, with a low level of prophylactic thinking and calculation just fail to
+refute their own ideas. Besides prophylactic thinking and good calculation
+skills, at this stage, we need mental toughness as well. When you see that all
+the natural defences just don't work, it is very easy to get frustrated.
+Therefore, when you are about to surrender, force yourself to keep looking for
+possibilities.}  *
+
+[Event "RUS-chT 19th"]
+[Site "Sochi"]
+[Date "2012.??.??"]
+[Round "7"]
+[White "Dobrov, V.."]
+[Black "Timofeev, A.."]
+[Result "1-0"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "3r1nk1/p3r2p/5BpQ/1pp5/4q3/5R2/6PP/5RK1 b - - 0 32"]
+[PlyCount "14"]
+[EventDate "2020.??.??"]
+
+{The following examples illustrate how the elimination method works in
+practice. Let's try to find the best defence in this position. First of all,
+we need to find all the threats of the opponent. His candidate moves are: 32.
+Bxe7 as well as every possible retreat of the bishop. The first thing that I
+would try to understand is if Bxe7 followed by Rf7 is a real threat. It is
+easy to see that this is not a threat because Black can sacrifice his queen
+for the rooks. In the resulting endgame, White can never win. Even if we
+remove the queenside pawns, there should be a fortress on the kingside. All
+the bishop moves on the long diagonal can be answered with ...Ne6. If we keep
+looking for the ideas of our opponent, we would probably notice the idea 32.
+Bg5. Besides the standard threat of Rxf8, White creates an additional one -
+Re3. In the game, Black didn't notice this subtle bishop move and went} 32...
+b4 $2 {[%cal Bf6e5,Bf8e6] which loses on the spot.} ({The correct defence
+would have been} 32... Nd7 $1 {when the following sequence is possible.} 33.
+Bxe7 Qxe7 34. Rf7 Qxf7 35. Rxf7 Kxf7 36. Qxh7+ Kf6 37. Qh4+ g5 38. Qf2+ Ke6 39.
+Qa2+ Ke7 40. Qe2+ Kf6 41. Qxb5 $14 {Despite the fact that White would keep
+playing for a win, Black has fair chances for a draw.}) 33. Bg5 $1 $18 {
+[%cal Gf3e3,Gf3f8] White is already winning. Black is helpless against the
+double threat.} Qd4+ (33... Nd7 34. Re3 $18) 34. Kh1 Qg7 (34... Ree8 35. Rf7
+Rc8 36. Be7 $18) 35. Qh4 $1 (35. Qxg7+ Rxg7 36. Bxd8 Ne6 37. Re3 $18) 35... Rd4
+(35... Ree8 36. Qc4+ Ne6 37. Bxd8 $18) (35... Rdd7 36. Bh6 Qf7 37. Qc4 $18) 36.
+Rxf8+ $1 Qxf8 37. Rxf8+ Kxf8 38. Bxe7+ Ke8 39. Qe1 {1-0 Black resigns.} 1-0
+
+[Event "Bundesliga 9798"]
+[Site "Germany"]
+[Date "1997.??.??"]
+[Round "2.1"]
+[White "Ftacnik, L.."]
+[Black "Cvitan, O.."]
+[Result "0-1"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "r5k1/ppp2rbn/1P1P2n1/P3p2p/2N1Pp1q/2N2Ppb/4B1PP/R2Q1RBK w - - 0 23"]
+[PlyCount "10"]
+[EventDate "2020.??.??"]
+
+{In this example, we have a typical King's Indian middlegame. Even though
+White has completely won the battle on the queenside, Black launched a very
+dangerous kingside attack. In this game, Ftacnik failed to see Black's idea
+and played} 23. bxc7 $4 ({Finding Black's idea was not too difficult. His only
+obvious candidate move is 23...Bxg2+. Later on, everything is forced - ... Qh3,
+...Ng5, ...Nh4, and ...g2 mate. Since we can easily refute 23.Re1 and 23. hxg3,
+the only remaining option is} 23. gxh3 $1 Qxh3 24. Rf2 $1 {Once again, this is
+the only move.} gxf2 25. Bxf2 {[%csl Bh1]} axb6 26. Nd5 $1 {Since Black's
+kingside play is over, White proceeds with his expansion on the other wing.
+After} cxd6 27. Nxd6 Rff8 28. Nxb6 Rad8 29. Bf1 Qe6 30. Bc4 $18 {, White is
+already winning.}) (23. Re1 Bxg2+ 24. Kxg2 Qh3+ 25. Kxh3 Ng5+ 26. Kg2 Nh4+ 27.
+Kf1 g2+ 28. Kf2 Nh3#) (23. hxg3 fxg3 $19 {[%cal Gg6f4]}) 23... Bxg2+ $1 24.
+Kxg2 Qh3+ $3 25. Kxh3 Ng5+ 26. Kg2 Nh4+ 27. Kh1 g2# 0-1
+
+[Event "Match Capablanca-Marshall +8-1=14"]
+[Site "New York"]
+[Date "1909.??.??"]
+[Round "11"]
+[White "Marshall, F.."]
+[Black "Capablanca, J.."]
+[Result "0-1"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "4rkn1/p1q4p/1p2Q1p1/4P1N1/b1p4P/2P1P3/6P1/4R1K1 b - - 0 36"]
+[PlyCount "15"]
+[EventDate "2020.??.??"]
+
+{In the next example, we shall see how Capablanca used the elimination method
+in his game against Marshall. This fragment shows why it is so important to
+take into consideration all the ideas of your opponent. For example, in this
+position, most of the people would immediately spot White's move obvious
+threat - 37.Rf1 Kg7 38.Rf7. The problem is, however, that in response to 37...
+Kg7, White has an additional option - 38.Qxe8 followed by Nxe6 on the next
+move. If you don't see this second idea, chances are that you would seriously
+consider playing 36...Kg7. In this case, however, you would run into 37.Qxe8.
+Another thing that you need to spot is that closing the f-file with a piece
+does not work due to g4. By using the elimination method, Capablanca found the
+move} 36... Re7 {[%csl Be8,Bf7][%cal Be6e8]} ({As mentioned, closing the
+f-file does not help. For instance:} 36... Nh6 37. Rf1+ Nf5 38. g4 $18) ({or} 
+36... Bc2 37. Rf1+ Bf5 38. g4 $18 {[%cal Be8e6,Bg5e6,Be6c7]}) (36... Kg7 $2 37.
+Qxe8 $18 {[%csl Rc7][%cal Gg5e6,Ge6g7,Ge6c7]}) 37. Rf1+ Kg7 38. h5 Be8 $19 {
+Being a piece up, Black is already winning.} 39. h6+ Kh8 (39... Nxh6 $2 40.
+Qf6+ $18) 40. Qd6 Qc5 (40... Qxd6 $2 41. exd6 Rxe3 (41... Rd7 42. Rf8 $18) 42.
+Rf7 $18) 41. Qd4 (41. Qxc5 bxc5 42. Rf8 Rxe5 43. Nf3 Re7 (43... Rh5 $1) 44. Ng5
+$10) 41... Rxe5 42. Qd7 (42. Rf7 Nxh6 $19) 42... Re7 43. Rf7 Bxd7 {0-1 White
+resigns.} 0-1
+
+[Event "Toronto"]
+[Site "Toronto"]
+[Date "1989.??.??"]
+[Round "3"]
+[White "Wolff, P.."]
+[Black "Dlugy, M.."]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "3r4/1pq2pkp/p7/2bn2N1/6Q1/8/PPP3PP/1K2R3 b - - 0 29"]
+[PlyCount "7"]
+[EventDate "2020.??.??"]
+
+{Now, we shall proceed with a difficult example in which the solution requires
+mental toughness as well. Black's king is under fierce attack in this position.
+The good news is that White doesn't have many threats. Besides the main threat
+30. Ne6+, depending on the position, he can consider moves like Qf5 and Qh5 as
+well. By using the method of elimination, Black could have found the best move
+which is} 29... Rg8 $3 ({Before finding ...Rg8, Black should refute the
+remaining candidate moves. For example, after a move like} 29... Nf6 $4 {
+, Black is getting mated -} 30. Ne6+ Kh8 31. Qg7#) ({Another obvious move that
+can be easily refuted is} 29... f5 $2 30. Ne6+ Kh8 31. Qxf5 $18) ({The move
+which was a played in the game is a serious candidate move.} 29... Kh8 $6 {
+After the forced sequence} 30. Qh5 Nf6 31. Nxf7+ Kg8 32. Nxd8 Nxh5 33. Re8+ Bf8
+34. Rxf8+ Kxf8 35. Ne6+ Ke7 36. Nxc7 $18 {White had a technically winning
+position.}) 30. Ne6+ ({After} 30. Re8 $2 Rxe8 31. Ne6+ Kf6 {, Black is winning.
+}) 30... Kh8 31. Qxg8+ Kxg8 32. Nxc7 Nxc7 {with an equal position. In any case,
+finding ...Rg8 is a difficult task because of 2 reasons: 1) Black fails to
+accurately calculate the sequence after 29...Kh8 2) Lack of mental toughness
+which will force us to keep looking for something better than 29...Kh8.} *
+
+[Event "Ubeda"]
+[Site "Ubeda"]
+[Date "1997.??.??"]
+[Round "4"]
+[White "Illescas, M.."]
+[Black "Andersson, U.."]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "3rr2k/1p2bppp/p1b2n2/2qp1PB1/7Q/1BN4R/PPP3PP/5R1K b - - 0 20"]
+[PlyCount "9"]
+[EventDate "2020.??.??"]
+
+{In this position, White's threat is pretty obvious - 21.Bxf6 followed by 22.
+Qxh7. By using the elimination method, Andersson found the only defence -} 
+20... Kg8 $1 {, evacuating the king.} ({The only alternative that Black needs
+to refute is} 20... h6 $2 $18 {which would be answered with} 21. Bxh6 $18 {
+[%cal Rh6g7]} Nh7 22. Bxg7+ (22. Bg5 $18) 22... Kxg7 23. Qh6+ Kg8 24. Qxh7+ Kf8
+25. Qh8#) {After this dubious move, Black gets the initiative.} 21. Bxf6 $6 ({
+White should have played} 21. Rg3 $1 {[%cal Rg5f6]} Kh8 $1 (21... Kf8 $2 22.
+Bh6 $1 $18) 22. Rh3 $10) 21... Bxf6 22. Qxh7+ Kf8 $44 23. Qh8+ (23. Qh5 $5 Re5
+$1 $44 (23... Qf2 $2 24. Qh8+ Ke7 25. Qxe8+ $18)) (23. Rf4 Re5) 23... Ke7 24.
+Qh5 (24. Re1+ $2 Kd7 $19) 24... Rd7 $1 {[%cal Ge7d8,Gd5d4] Planning ...Kd8
+followed by . ..d5-d4. Black is already better.} *
+
+[Event "Interzonal-13c"]
+[Site "Biel"]
+[Date "1985.??.??"]
+[Round "16"]
+[White "Sokolov, I.."]
+[Black "Short, N.."]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "3q1rk1/1p1npp2/3p2pQ/p7/Pn2P2B/1P3R2/4r1PP/R6K b - - 0 20"]
+[PlyCount "10"]
+[EventDate "2020.??.??"]
+
+{A fantastic application of the elimination method was seen in the game
+Sokolov - Short. Black is about to get mated and should defend precisely. What
+are the threats? There are three obvious candidate moves - 21.Rh3, 21.Bf6 and
+21.Bxe7. The easiest part of the job is to notice that 21.Bf6 is not dangerous
+in view of 21...Nxf6 22.Rh3 Nh5. Slightly more difficult is to understand that
+21.Bxe7 is not a real threat since after 21...Qxe7 22.Rh3, Black has 22...f6.
+After making these short calculations, Black should focus on the move 21.Rh3
+which creates a variety of threats - besides all the bishop moves, White
+threatens Qh8(h7) followed by Bf6+ and Rh8 (mate) as well. By using the method
+of elimination, Short found the move} 20... Qe8 $1 {[%cal Gf7f6] Preparing the
+advance ...f7-f6.} ({Quite an instructive is the following line:} 20... Qb6 21.
+Rh3 Qd4 {Black's idea is that 22.Bf6 runs into 22...Qxa1+ followed by 23...Rd1.
+The queen also controls the h8-square, thus preventing 22.Qh8 followed by Bf6.
+Nevertheless, one of White's ideas remains available -} 22. Qh7+ $1 Kxh7 23.
+Bf6+ {with a mate to follow. That's why you should try to figure out all the
+threats of your opponent.}) 21. Bf6 ({As we already know, the idea} 21. Bxe7
+Qxe7 22. Rh3 {does not work -} f6 23. Qh8+ Kf7 24. Rh7+ Ke8 25. Rxe7+ Kxe7 $19
+{Black is winning.}) 21... Nxf6 22. Rh3 Nh5 23. Rxh5 gxh5 24. Qg5+ Kh7 25.
+Qxh5+ {with a perpetual.} *
+
+[Event "Barcza mem"]
+[Site "Debrecen"]
+[Date "1988.??.??"]
+[Round "?"]
+[White "Lukacs, Peter"]
+[Black "Gavrikov, Viktor"]
+[Result "0-1"]
+[ECO "D93"]
+[WhiteElo "2490"]
+[BlackElo "2545"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "r1b2rk1/pp2ppbp/5np1/q1n1N3/5B2/1BN1P3/PP3PPP/2RQ1RK1 w - - 0 13"]
+[PlyCount "30"]
+[EventDate "1988.06.22"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "HUN"]
+[EventCategory "10"]
+
+{In the next two examples, we shall see how my former trainer GM Viktor
+Gavrikov used the elimination method to face a dangerous opening preparation.
+In this position, White went} 13. Bxf7+ $5 {which was a surprise for Viktor.} (
+{He only analyzed} 13. Nd5 Nxd5 14. Bxd5 Be6 $132 {with enough counterplay.})
+13... Rxf7 {In his comments to the game, Viktor writes, "At this moment I
+could not understand White`s intentions, but Black has no choice here and
+therefore this move was made immediately."} 14. Nxf7 Kxf7 15. b4 $1 Qxb4 16.
+Nd5 Nxd5 {Once again, Black uses the elimination.} ({Bad is} 16... Qa3 $2 17.
+Nc7 Rb8 18. Nb5 $18) ({and} 16... Qa5 {was rejected in view of} 17. Nxf6 Bxf6
+18. Qd5+ Be6 19. Qxc5 Qxc5 20. Rxc5 {- if necessary, Black can sacrifice an
+exchange after the played move.}) 17. Qxd5+ {Now became clear that after} Ne6 {
+White is going to double with tempo his rooks on the c-file and win Bc8.} ({
+But before calculating the consequences of the knight`s retreat Gavrikov
+started analyzing the alternative} 17... Be6 18. Qxc5 Qxc5 19. Rxc5 Bxa2 {
+when Black is ready to advance his a-pawn. However, the reply} 20. Be5 {
+secures better prospects for White. For example:} b6 21. Rc2 Bb3 22. Rc3 Bxe5
+23. Rxb3 $14 a5 $140 $6 24. Rxb6 a4 25. f4 $1 Bg7 26. Rf2 a3 27. Ra2 Bb2 $16) {
+Therefore, Black concentrated on his attempts to avoid the loss of exchange
+and finally the saving idea was found.} 18. Rc4 Qb2 {The most logical, because
+here the queen is protected by Bg7.} 19. Rfc1 $2 {Consistent and bad.} ({
+Correct was} 19. Rc7 $1 {[%cal Gd5c4]} Kf8 20. Rxc8+ Rxc8 21. Qxe6 Rc1 22. g4
+Rxf1+ 23. Kxf1 {with an equal ending.}) 19... Bd7 $3 {The bishop cannot be
+taken and in result Black has a decisive advantage.} 20. h3 (20. Qxd7 $2 Rd8
+21. Qa4 b5 $19) (20. R4c2 Qb5 (20... Bc6) 21. Rc5 $140 $2 Rc8 $1 $19) 20... Rd8
+$5 ({Or} 20... Bc6 21. Rxc6 $140 $2 bxc6 22. Rxc6 Qb1+ $1 23. Kh2 Qf5 $19) 21.
+Qf3 (21. Bc7 Bc6 $19) ({it is interesting that after 6 weeks the same position
+occurred in another game of Gavrikov which continued} 21. Qa5 a6 22. Bc7 Rc8
+23. R4c2 Qb5 24. Qxb5 Bxb5 25. Bb6 Rc6 26. Rxc6 Bxc6 27. f3 Nf8 $1 28. Kf2 Nd7
+29. Ba7 Be5 $1 30. e4 Bd6 31. Ke3 e5 {In resulting ending, White is helpless
+against Black`s pawn majority on the queenside.} 32. Kd2 Ke6 33. Be3 Be7 34.
+Kc2 b6 35. Kb2 Kd6 36. Rd1+ Kc7 37. h4 a5 38. h5 g5 39. h6 Nf8 (39... b5) 40.
+Bd2 Ne6 41. Bc3 Bd6 42. Ka1 Nd4 43. Kb1 Ne2 44. Bb2 b5 45. Rd2 Nf4 46. a3 Ne6
+47. Bc3 b4 48. axb4 axb4 49. Rxd6 {Desperation in a lost position.} Kxd6 50.
+Bxb4+ Kd7 51. Kc2 Nf4 52. g4 Ne2 53. Bc5 Bb5 54. Kd2 Nf4 55. Ke3 Be2 56. Bb4
+Bd1 {0-1 Beliavsky,A (2655) -Gavrikov, V (2545)/Moscow 1988/URS-ch}) 21... Ke8
+22. R4c2 Qb5 23. Bg3 Bc6 24. Qg4 Qf5 25. Qb4 Rd3 {[%cal Gf5d5]} 26. Rc4 Qd5 27.
+e4 Qb5 {and White decided to resign because he has no chances to save the game.
+} 0-1
+
+[Event "SUI-chT"]
+[Site "Allschwil"]
+[Date "1994.08.28"]
+[Round "5"]
+[White "Forster, Richard"]
+[Black "Gavrikov, Viktor"]
+[Result "0-1"]
+[ECO "B62"]
+[WhiteElo "2315"]
+[BlackElo "2590"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "r2qkb1r/3b1ppp/p1nppn2/1p4B1/3NPP2/2NQ4/PPP3PP/2KR1B1R w kq - 0 10"]
+[PlyCount "28"]
+[EventDate "1994.08.28"]
+[EventType "team"]
+[EventRounds "9"]
+[EventCountry "SUI"]
+
+{In this position, White played} 10. e5 $5 {A new idea back then - at the
+price of a pawn, White tries to seize the initiative and exploit the uncastled
+position of the black king.} ({In this situation} 10. Bxf6 {will be met by}
+Qxf6 {because the f4-pawn is not protected}) ({but deserves attention} 10. Nxc6
+Bxc6 11. Qe3 Be7 12. Bxf6 Bxf6 13. e5 Be7 14. exd6 Bxd6 15. Ne4 Bxe4 16. Qxe4
+O-O 17. Bd3 g6 18. h4 Qf6 19. Rdf1 {[%cal Gg2g4] 1-0 Grabarczyk,B (2345)
+-Panchenko,A (2460)/Katowice 1993/(35)}) 10... dxe5 11. fxe5 Nxe5 12. Qg3 Ng6
+$1 {Black removes his knight from the vulnerable square and closes the g-file
+for the white queen. Gavrikov only needed to calculate the possible sacrifice
+on b5, but the concrete variations showed that White doesn't have enough
+attacking resources.} ({Before this choice was made (it took Viktor about 40
+minutes) he analysed also the following moves-candidates:} 12... Bd6 $2 {
+- creates a critical point which can be exploited by} 13. Nf5 exf5 14. Rxd6 {
+and Black is in trouble}) (12... b4 $2 {- here strong is} 13. Nd5 $1 exd5 14.
+Qxe5+ Qe7 (14... Be7 15. Bxf6 gxf6 16. Qxd5) 15. Bxf6 gxf6 16. Qxd5 Bh6+ 17.
+Kb1 O-O 18. Bd3 {with the same evaluation}) (12... Nc4 $2 {- here unpleasant is
+} 13. Bxc4 bxc4 14. Rhe1 {[%cal Gd1d8,Ge1e8] and Black´s position looks bad
+too}) (12... Qb8 {- the drawback of this move is that Nf6 is less protected
+and White has} 13. Bxf6 gxf6 14. Ne4 Be7 15. Qg7 Ng6 16. Nxf6+ Bxf6 17. Qxf6 {
+when Black must accept a worse ending after} Qf4+ 18. Qxf4 Nxf4 19. g3 Ng6 20.
+Bg2 {with an advantage for White}) ({therefore he tried to improve the
+previous variation by} 12... Qc7 {keeping the possibility to castle after an
+exchange on f6, but unfortunately the position of the black queen is
+vulnerable and White can continue} 13. Nf3 ({now dubious is} 13. Bxf6 $6 gxf6
+14. Ne4 Be7 15. Qg7 $140 $2 O-O-O 16. Nxf6 $2 Ng6 $1 {[%cal Gc7e5]} 17. Nxd7
+Qxd7 18. Qh6 (18. Be2 Bg5+ 19. Kb1 Rdg8 $19) 18... e5 $19) 13... Nfg4 (13...
+Bd6 14. Rxd6 Qxd6 15. Nxe5) 14. Bf4 f6 15. Qxg4 (15. h3 $6 g5) 15... Nxg4 16.
+Bxc7 Nf2 17. Bd3 {with slightly better prospects}) (12... h6 {- in this case
+is possible} 13. Bxf6 gxf6 ({loses a piece} 13... Qxf6 $2 14. Ne4) 14. Ne4 {
+and White has sufficient compensation for the pawn} ({or} 14. Be2)) 13. Ndxb5
+$2 ({Was necessary} 13. Bd3) ({or} 13. Qf3 {with some compensation.}) 13...
+axb5 14. Bxb5 (14. Rxd7 Kxd7 15. Bxb5+ Kc8 $19) (14. Bxf6 gxf6 15. Bxb5 Ne5 (
+15... Ra7 16. Rxd7 Bh6+ $1 (16... Rxd7 {gives White a chance to force the
+perpetual check by} 17. Bxd7+ Qxd7 18. Qb8+ Ke7 (18... Qd8 19. Qb5+ $11) 19.
+Qb4+ Qd6 20. Qb7+ Qd7 21. Qb4+) 17. Rd2+ (17. Kb1 Rxd7 18. Rd1 Ne5 19. Ne4 Bf8)
+17... Ke7 18. Rhd1 $15) 16. Rhe1 Ra7 $17) 14... Qb6 $1 {White underestimated
+this reply, which allows to parry White`s threats.} 15. Qf3 (15. Bxf6 Bxb5 $19)
+(15. Bxd7+ Nxd7 $19) 15... Ra7 ({Stronger was} 15... Rb8 $1 $19 {with the idea
+to meet} 16. Bxf6 {with} Bxb5) 16. Bxf6 gxf6 17. Rxd7 Rxd7 18. Rd1 (18. Bxd7+
+Kxd7 19. Rd1+ Ke7 20. Ne4 Bh6+ 21. Kb1 Rb8 22. Qxf6+ Kf8 $17) 18... Ne5 19.
+Qxf6 Qe3+ {Defending with a tempo the e5-knight.} 20. Kb1 Rg8 {This is the
+position Gavrikov was going for in his calculations. He evaluated it as
+winning for Black.} 21. Qf1 $1 Rg4 $6 {An inaccuracy in time-trouble.} (21...
+Qb6 $17) 22. Bxd7+ $2 ({We both missed the continuation} 22. Re1 $1 Qd4 (22...
+Qf4 $143 23. Qxf4 Rxf4 24. Rxe5 Kd8 25. a4 $13) 23. Qe2 $1 {[%cal Ge1d1]} Kd8
+$1 24. Rd1 Qf4 $1 (24... Qb4 $143 25. Qxe5 Rxd1+ 26. Nxd1 Qd4 27. Qb8+ Ke7 28.
+Be2 $13) 25. h3 (25. Bxd7 Nxd7 26. Qd3 Qc7 27. Qxh7 Bg7 28. Qh5 f5 $17) 25...
+Rg6 26. Bxd7 Nxd7 27. a4 {when Black has difficulties to convert his material
+advantage.}) 22... Nxd7 23. Nd5 Qe5 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 1"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "r4rk1/p1p2ppp/2ppb3/2q5/4PP2/1PNQ3P/P1P3PK/4RR2 b - - 0 1"]
+[PlyCount "0"]
+[EventDate "2020.??.??"]
+
+{Black to move}  *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 2"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "8/P5p1/4k3/2B4p/4b3/4K1P1/1P5P/8 b - - 0 1"]
+[PlyCount "0"]
+[EventDate "1946.08.13"]
+[EventType "tourn"]
+[EventRounds "19"]
+
+{Black to move}  *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 3"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "bq2r2k/3nbp1p/pp1ppnp1/2r3B1/2P1P2Q/1PN2P2/P3N1PP/1BRR3K b - - 0 1"]
+[PlyCount "0"]
+[EventDate "1985.05.10"]
+[EventType "tourn"]
+[EventRounds "17"]
+[EventCategory "11"]
+
+{Black to move}  *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 4"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "1r4k1/2p3pp/R7/1P1pP1nr/3P1p1q/1N3P1P/1P2Q1P1/5RK1 w - - 0 1"]
+[PlyCount "0"]
+[EventDate "2020.??.??"]
+
+{White to move}  *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 5"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "2b2rk1/p3Bpp1/2p4p/3p4/3q3r/1PN3QP/P1P3P1/4R2K b - - 0 1"]
+[PlyCount "0"]
+[EventDate "2020.??.??"]
+
+{Black to move}  *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 6"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "3q3k/5Qpp/8/8/3p4/P1rn2P1/6BP/5R1K b - - 0 1"]
+[PlyCount "0"]
+[EventDate "2020.??.??"]
+
+{Black to move}  *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 7"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "1n2R1k1/3r4/2q3rB/3b3Q/1p6/6P1/P4P1P/6K1 b - - 0 1"]
+[PlyCount "0"]
+[EventDate "2020.??.??"]
+
+{Black to move}  *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 8"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "5r1k/2q1r1pp/2p4n/2P2B2/pPQ1pR2/P5P1/4R2P/7K w - - 0 1"]
+[PlyCount "0"]
+
+{White to move}  *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 9"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "5rk1/1b1n1p2/p2p3Q/2rPp2p/1p4Pq/7P/PPP3BK/R4R2 b - - 0 1"]
+[PlyCount "0"]
+[EventDate "2020.??.??"]
+
+{Black to move}  *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 10"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "2r4k/7p/3Q1n2/3Pp3/4b2N/N6P/1q1BKP2/6R1 b - - 0 1"]
+[PlyCount "0"]
+[EventDate "2020.??.??"]
+
+{Black to move}  *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 11"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "r4rk1/p2qb1pp/2N2p2/1p1n3b/2pPQB2/8/PPB2PPP/R4RK1 b - - 0 1"]
+[PlyCount "0"]
+[EventDate "2020.??.??"]
+
+{Black to move}  *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 12"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "r2r2k1/pb3p1p/1p2pP2/8/1nR5/qP1B4/P4PPP/3Q1RK1 b - - 0 1"]
+[PlyCount "0"]
+[EventDate "2020.??.??"]
+
+{Black to move}  *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 13"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "2r3r1/pp2bp1k/2b1p1pp/n3q2P/3N1NQ1/P2B4/1P3PP1/3R1RK1 b - - 0 1"]
+[PlyCount "0"]
+[EventDate "2020.??.??"]
+
+{Black to move}  *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 14"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "5rk1/p1q1Rp2/1pb2Qp1/2pp4/3P4/2b2K2/P6P/5NR1 b - - 0 1"]
+[PlyCount "0"]
+[EventDate "2020.??.??"]
+
+{Black to move}  *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 15"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "r3rbk1/1bp1qpp1/p1n4p/1p2p2Q/4P2N/1BP4P/PP3PP1/R1B1R1K1 b - - 0 1"]
+[PlyCount "0"]
+[EventDate "1967.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+
+{Black to move}  *
+
+[Event "St Petersburg Chigorin Memorial"]
+[Site "St Petersburg"]
+[Date "1909.??.??"]
+[Round "17"]
+[White "Lasker, E.."]
+[Black "Cohn"]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "r4rk1/p1p2ppp/2ppb3/2q5/4PP2/1PNQ3P/P1P3PK/4RR2 b - - 0 18"]
+[PlyCount "7"]
+[EventDate "2020.??.??"]
+
+18... f6 $1 {It is important to prevent the advance f4-f5-f6.} ({The game went
+} 18... f5 $6 19. e5 d5 20. Na4 Qe7 21. Qd4 $16 {With complete domination on
+the dark squares.}) 19. Na4 Qa5 20. c4 Rae8 21. Re3 Bf7 {With a solid position.
+} *
+
+[Event "Staunton mem"]
+[Site "Groningen"]
+[Date "1946.??.??"]
+[Round "1"]
+[White "Euwe, Max"]
+[Black "Yanofsky, Daniel Abraham"]
+[Result "1-0"]
+[ECO "E46"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "8/P5p1/4k3/2B4p/4b3/4K1P1/1P5P/8 b - - 0 35"]
+[PlyCount "22"]
+[EventDate "1946.08.13"]
+[EventType "tourn"]
+[EventRounds "19"]
+[EventCountry "NED"]
+
+{[#]} 35... Bg2 $2 {Overlooking the detour of the white king.} ({Was necessary
+to prevent Ke3-f4 by} 35... Kf5 $1 {with an easy draw. For example:} 36. Bf8 g6
+37. Kd4 Bg2 38. Kc5 Ke6 39. Kb6 Kd7 $10) 36. Kf4 $1 $18 {The key square in
+White`s winning plan.} g6 37. g4 hxg4 38. Kxg4 Bh1 39. Kg5 Kf7 40. Bd4 Bg2 41.
+h4 Bh1 42. b4 Bg2 43. b5 Bh1 44. Bf6 $1 {Preparing the following manoeuvre.}
+Bg2 45. h5 $1 gxh5 46. Kf5 $1 ({Black resigned in view of} 46. Kf5 $1 Bh1 47.
+Bh4 Bg2 48. Ke5 Bh1 49. Kd6 Ke8 50. Kc7 $18) 1-0
+
+[Event "Tunis Interzonal"]
+[Site "Tunis"]
+[Date "1985.05.10"]
+[Round "10"]
+[White "Hmadi, Slaheddine"]
+[Black "Gavrikov, Viktor"]
+[Result "0-1"]
+[ECO "B42"]
+[WhiteElo "2285"]
+[BlackElo "2550"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "bq2r2k/3nbp1p/pp1ppnp1/2r3B1/2P1P2Q/1PN2P2/P3N1PP/1BRR3K b - - 0 22"]
+[PlyCount "47"]
+[EventDate "1985.05.10"]
+[EventType "tourn"]
+[EventRounds "17"]
+[EventCountry "TUN"]
+[EventCategory "11"]
+
+{[#]} 22... Kg8 $1 {By removing the king from opposition with Qh4 Black
+prepares for White`s action.} 23. f4 (23. Na4 Re5 $1 24. f4 Ra5 25. Nac3 (25.
+e5 $6 Qb7 $1) {leads to the game after} 25... h6 $1 26. Qxh6 Rxg5 $3) ({
+perhaps the best was} 23. b4 $5 Rxc4 24. Bd3 Rxb4 25. Bxa6 {[%cal Ga6b5] with
+compensation for the pawn.}) 23... h6 $1 24. Qxh6 (24. Bxh6 $4 Rh5 $19) (24.
+Bxf6 Nxf6 $132) 24... Rxg5 $3 25. Qxg5 (25. fxg5 $4 Nh5 {[%csl Rh6][%cal Ge7f8]
+}) 25... Nxe4 26. Qh6 Nf2+ 27. Kg1 Bf8 $5 {Avoiding possible sacrifice on g6.}
+({Black had no time to calculate the variation} 27... Nxd1 28. Bxg6 $2 Nf8 $1)
+28. Qh4 $6 (28. Qg5 Nxd1 29. Rxd1 Qc8 30. Be4 Bxe4 31. Nxe4 Qc6 $132) 28...
+Nxd1 29. Rxd1 b5 $1 {In result, Black seizes the initiative.} 30. cxb5 axb5 31.
+Ne4 $2 {A blunder in mutual time-trouble.} Bxe4 32. Bxe4 Qa7+ 33. Kh1 Qxa2 34.
+Nd4 d5 35. Bb1 Qb2 36. Qg3 Bg7 37. Nxb5 Rb8 38. Bd3 Qxb3 39. Rb1 Qa4 40. Qf2 d4
+41. Qf1 Nc5 42. Ra1 Qb4 43. Rb1 Qd2 44. Bc4 (44. Rd1 Qe3 $19) 44... d3 $1 45.
+g3 Qc2 (45... Qc2 46. Rc1 Bb2 $1 47. Rxc2 dxc2 $19) 0-1
+
+[Event "ARM-ch"]
+[Site "Yerevan"]
+[Date "1999.??.??"]
+[Round "?"]
+[White "Asrian, K.."]
+[Black "Nadanian, A.."]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "1r4k1/2p3pp/R7/1P1pP1nr/3P1p1q/1N3P1P/1P2Q1P1/5RK1 w - - 0 25"]
+[PlyCount "19"]
+[EventDate "2020.??.??"]
+
+25. Rf2 $1 {[%cal Gg1f1,Gf1e2] The most precise move. White prepares the
+future evacuation of the king.} ({After} 25. Rfa1 {Black can follow with} Nxh3+
+$1 26. Kf1 (26. gxh3 $2 Rg5+ 27. Kf1 Qxh3+ 28. Ke1 Rg2 $19) 26... Ng5 27. Qf2
+Rxb5 $13 {with more than sufficient counterplay for Black.}) 25... c5 ({
+In case of} 25... Qg3 {White can play} 26. Kf1 $1 {when the king escapes. For
+example, after} Nxh3 27. gxh3 Rxh3 28. Qd3 Rh1+ 29. Ke2 Rh2 30. Rxh2 Qxh2+ 31.
+Kd1 Qxb2 32. Rc6 Rb7 33. Rc5 $18 {White is winning.}) ({The immediate} 25...
+Nxh3+ {does not work either -} 26. gxh3 Qxh3 27. Rh2 Qg3+ 28. Rg2 {White is
+winning.}) 26. Nxc5 Nxh3+ (26... Qg3 27. Kf1 Nxh3 28. gxh3 Rxh3 29. Ke1 $18)
+27. gxh3 Qxh3 28. Rh2 Rg5+ 29. Rg2 Rh5 30. Qf1 {/\ Kf2-e2} ({Another
+possibility was} 30. Ra7 $5 Qh1+ 31. Kf2 Qh4+ 32. Kf1 Qh1+ $140 33. Rg1 $18)
+30... Qh1+ 31. Kf2 Qh4+ 32. Ke2 Rxb5 33. Ra8+ Kf7 34. Qa1 $18 *
+
+[Event "Krynica"]
+[Site "Krynica"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Todorov, T.."]
+[Black "Balogh, T.."]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "2b2rk1/p3Bpp1/2p4p/3p4/3q3r/1PN3QP/P1P3P1/4R2K b - - 0 22"]
+[PlyCount "7"]
+[EventDate "2020.??.??"]
+
+22... g5 $1 $17 {The only move which can be found by using the elimination
+method.} ({The game went} 22... Rf4 $4 {when after} 23. Bd6 $3 $18 {White is
+winning.} (23. Bxf8 $2 Kxf8 24. Ne2 Qf2) 23... Rf6 24. Bxf8 Kxf8 25. Qb8 $18)
+23. Bxf8 Kxf8 $17 24. Qd6+ Kg7 25. Qxc6 Bxh3 $1 $19 *
+
+[Event "Bermuda-B"]
+[Site "Bermuda"]
+[Date "2003.??.??"]
+[Round "8"]
+[White "Dinstuhl"]
+[Black "Mulyar"]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "3q3k/5Qpp/8/8/3p4/P1rn2P1/6BP/5R1K b - - 0 35"]
+[PlyCount "5"]
+[EventDate "2020.??.??"]
+
+35... g6 $1 {Besides making room for the king, this move neutralizes White's
+main threat - 36.Be4.} (35... h6 {loses to} 36. Be4 $18) ({The game went} 35...
+Rc8 $2 36. Qf5 $1 $18 Nc5 (36... Nb2 37. Bb7 Rb8 38. Be4 Qg8 39. Bd5 Qe8 40.
+Rf4 $18) 37. Bh3 $18 {and White is winning.}) ({The attempt to simplify the
+position by means of} 35... Rc1 {runs into} 36. Rxc1 Nxc1 37. Qc4 d3 38. Qxc1
+d2 39. Qd1 $18) 36. Qe6 Rc5 $1 37. h4 Ne5 {Black managed to establish a
+reliable defence on the dark squares. The d4-pawn is an important asset in
+this position.} *
+
+[Event "URS-ch55"]
+[Site "Moscow"]
+[Date "1988.??.??"]
+[Round "16"]
+[White "Jussupow, A.."]
+[Black "Salov, V.."]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "1n2R1k1/3r4/2q3rB/3b3Q/1p6/6P1/P4P1P/6K1 b - - 0 38"]
+[PlyCount "11"]
+[EventDate "2020.??.??"]
+
+38... Kh7 $1 {This only move secures the win.} ({In the game, Black played} 
+38... Kf7 $2 {which is losing -} 39. Qf5+ Rf6 40. Qh5+ Rg6 41. Qf5+ Rf6 42.
+Rf8+ Ke7 43. Rxf6 Qxf6 44. Bg5 Qxg5 45. Qxg5+ Kf7 46. Qf4+ $18 {[%cal Gf4b8]})
+39. Bg7+ (39. Bc1+ Rh6 40. Qf5+ Qg6 41. Qf8 Qf6 $19) 39... Rh6 40. Bxh6 (40.
+Qf5+ Kxg7 $19) 40... Bf3 $1 (40... Bf7 $4 41. Rh8+) 41. Qf5+ Qg6 42. Qxf3 Qxe8
+43. Bf4 Nc6 $19 *
+
+[Event "London Phillips&Drew"]
+[Site "London"]
+[Date "1982.??.??"]
+[Round "?"]
+[White "Timman, J.."]
+[Black "Speelman, J.."]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "5r1k/2q1r1pp/2p4n/2P2B2/pPQ1pR2/P5P1/4R2P/7K w - - 0 37"]
+[PlyCount "3"]
+[EventDate "2020.??.??"]
+
+37. Rexe4 $1 {The correct way to go.} ({The game went} 37. Ref2 g5 38. Rxe4
+Rxf5 39. Qd4+ Kg8 $19 {with a winning position for Black.}) 37... Nxf5 (37...
+Rxf5 38. Rxf5 Nxf5 39. Qf7 $1 $16) 38. g4 $1 {White is the one who is fighting
+for a win.} *
+
+[Event "USA-ch"]
+[Site "Berkeley"]
+[Date "1984.??.??"]
+[Round "?"]
+[White "Kudrin, S.."]
+[Black "Byrne, R.."]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "5rk1/1b1n1p2/p2p3Q/2rPp2p/1p4Pq/7P/PPP3BK/R4R2 b - - 0 23"]
+[PlyCount "5"]
+[EventDate "2020.??.??"]
+
+23... Rc4 $1 {This move prevents White's two attacking ideas - 24.Be4 and 24.
+Rf5.} ({After} 23... f5 24. Qg6+ {White delivers a perpetual.}) 24. Kg1 ({
+The point behind 23...Rc4 is that} 24. Rf5 {can be answered with} Rxg4 $19)
+24... Rf4 25. Qxd6 Bc8 $19 {0-1 White resigns.} *
+
+[Event "Interzonal-10b"]
+[Site "Manila"]
+[Date "1976.??.??"]
+[Round "15"]
+[White "Polugaevsky, L.."]
+[Black "Torre, E.."]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "2r4k/7p/3Q1n2/3Pp3/4b2N/N6P/1q1BKP2/6R1 b - - 0 30"]
+[PlyCount "12"]
+[EventDate "2020.??.??"]
+
+30... Bd3+ {Torre failed to find this only way to the draw.} ({Instead, he
+played} 30... Nxd5 $2 {when after} 31. Rg4 Nf4+ 32. Ke3 (32. Rxf4 exf4 33. Nc4
+f3+ 34. Nxf3 Bxf3+ 35. Kxf3 $18) 32... Nd5+ 33. Kxe4 Qd4+ 34. Kf3 $18 {White
+is winning.}) ({The idea} 30... Nh5 {[%cal Gh5f4] is well met by} 31. Rg4 $18)
+31. Kxd3 {with a draw.} Qd4+ 32. Ke2 Ne4 33. Qh6 Qxf2+ 34. Kd3 Nc5+ 35. Kc2
+Ne4+ 36. Kd3 *
+
+[Event "EU-Cup 21st"]
+[Site "Saint Vincent"]
+[Date "2005.??.??"]
+[Round "1.3"]
+[White "Kempinski"]
+[Black "Ogaard"]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "r4rk1/p2qb1pp/2N2p2/1p1n3b/2pPQB2/8/PPB2PPP/R4RK1 b - - 0 18"]
+[PlyCount "7"]
+[EventDate "2020.??.??"]
+
+18... Kf7 $1 {Only this move allows Black to establish coordination.} ({
+In the game, Black played} 18... Nxf4 $4 19. Nxe7+ $18 Kf7 20. Qxf4 Qxe7 21.
+Rfe1 Qb4 22. Qf5 g6 23. Qd7+ Kg8 24. Re7 $18 {White is winning.}) 19. Nxe7 Nxe7
+20. Qxh7 Rh8 21. Qe4 Rae8 $17 {Despite his extra pawn, White is in trouble due
+to the restricted position of the queen. Black's threats are 21...Bg6, 21...
+Nd5 and 21...Ng6.} *
+
+[Event "Rilton Cup 34th"]
+[Site "Stockholm"]
+[Date "2004.??.??"]
+[Round "2"]
+[White "Bellon Lopez, J.."]
+[Black "Kosmo, S.."]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "r2r2k1/pb3p1p/1p2pP2/8/1nR5/qP1B4/P4PPP/3Q1RK1 b - - 0 19"]
+[PlyCount "9"]
+[EventDate "2020.??.??"]
+
+19... Kh8 $1 {This move not only saves the king but also wins the game.} ({
+In the game, Black went for} 19... Nd5 $2 {when after} 20. Qg4+ Kf8 21. Qg7+
+Ke8 22. Ra4 $1 Qc5 23. Qg8+ Kd7 $6 (23... Qf8 24. Bb5+ Rd7 25. Qxf8+ Kxf8 26.
+Bxd7 Nxf6 27. Bb5 $18) 24. Qxf7+ Kd6 25. Qxb7 {White is winning.}) 20. Rh4 Nxd3
+21. Qh5 (21. Rxh7+ $2 Kxh7 22. Qh5+ Kg8 23. Qh6 Qf8 24. Qg5+ Kh7 25. Qh5+ Qh6
+26. Qxf7+ Kh8 $19) 21... Be4 $1 {Maybe, Black failed to notice this move in
+his calculations.} 22. Rxe4 Qc5 $1 23. Qxf7 Qf8 $19 *
+
+[Event "Moscow Tal Memorial 4th"]
+[Site "Moscow"]
+[Date "2009.??.??"]
+[Round "9"]
+[White "Ivanchuk, V.."]
+[Black "Kramnik, V.."]
+[Result "1/2-1/2"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "2r3r1/pp2bp1k/2b1p1pp/n3q2P/3N1NQ1/P2B4/1P3PP1/3R1RK1 b - - 0 24"]
+[PlyCount "14"]
+[EventDate "2020.??.??"]
+
+24... Kh8 $3 {A fantastic defence by Kramnik. The alternatives are inferior.} (
+{After} 24... Qg5 25. hxg6+ fxg6 26. Qxg5 Bxg5 27. Ndxe6 Bxf4 28. Nxf4 $16 {
+White's advantage is obvious.}) ({Even worse is} 24... Bd6 {when after} 25.
+hxg6+ Kh8 26. Qh3 Qxf4 27. g3 Qg5 28. gxf7 $18 {White is winning.}) 25. Nxc6 (
+25. hxg6 $2 Qxd4 $19) 25... Nxc6 26. hxg6 f5 27. g7+ (27. Qf3 Nd4 28. Qe3 Bd6
+29. Qxe5+ Bxe5 $11) 27... Rxg7 (27... Qxg7 $2 28. Qxg7+ Rxg7 (28... Kxg7 29.
+Bc4 $16) 29. Nxe6 Rf7 30. Bb1 $36) 28. Ng6+ Kg8 29. Nxe5 fxg4 30. Bc4 Nd8 31.
+Rfe1 $44 {1/2-1/2 The game ended in a draw.} 1/2-1/2
+
+[Event "Stockholm Four Masters"]
+[Site "Stockholm"]
+[Date "1919.??.??"]
+[Round "2"]
+[White "Reti, R.."]
+[Black "Bogoljubow, E.."]
+[Result "*"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "5rk1/p1q1Rp2/1pb2Qp1/2pp4/3P4/2b2K2/P6P/5NR1 b - - 0 26"]
+[PlyCount "12"]
+[EventDate "2020.??.??"]
+
+26... Qd8 $3 {In the game, Black didn't find this only defence.} ({Instead,
+Bogoljubow played} 26... Bxd4 27. Rxc7 Bxf6 28. Rxc6 $18 {and White was
+winning.}) 27. Rg4 Bxd4 28. Rxd4 cxd4 29. Ng3 Qc8 {Now, White is the one who
+should force the draw.} 30. Rc7 $1 Qxc7 31. Nh5 gxh5 32. Qg5+ $11 {with a
+perpetual.} *
+
+[Event "Moscow"]
+[Site "Moscow"]
+[Date "1967.??.??"]
+[Round "?"]
+[White "Geller, Efim P"]
+[Black "Portisch, Lajos"]
+[Result "1-0"]
+[ECO "C93"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "r3rbk1/1bp1qpp1/p1n4p/1p2p2Q/4P2N/1BP4P/PP3PP1/R1B1R1K1 b - - 0 17"]
+[PlyCount "12"]
+[EventDate "1967.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "URS"]
+
+{[#]} 17... Na5 $2 {The decisive mistake.} ({Also loses} 17... Qf6 $2 18. Bg5
+$1 hxg5 (18... g6 19. Bxf6 gxh5 20. Re3) 19. Ng6 $18) ({the only defence was} 
+17... Nd8 $1 {over-protecting the f7-pawn and reducing by this way the number
+of critical points in Black`s camp. The position is playable.}) 18. Bg5 $1 Qd7
+(18... Qxg5 19. Qxf7+ $18) (18... hxg5 19. Ng6 $18) 19. Rad1 Bd6 20. Bxh6 $1
+gxh6 ({Black has no time for} 20... Nxb3 {because of} 21. Bxg7 $1 Kxg7 22. Qg5+
+Kf8 (22... Kh7 23. Nf5 f6 24. Qh6+ Kg8 25. Qg6+ Kf8 26. Qxf6+ Qf7 27. Qh6+ Kg8
+28. Re3 $18) (22... Kh8 23. Qf6+ Kh7 24. Nf5 Qxf5 25. Qxf5+ Kg8 26. axb3 $18)
+23. Qf6 {[%cal Gh4g6]} Kg8 24. Rd3 Kh7 25. Nf5 $18) 21. Qg6+ ({Also wins} 21.
+Nf5 Re6 22. Qg4+ {1-0 Timoscenko,G (2470)-Kozlov,V/Novosibirsk 1976}) 21... Kf8
+22. Qf6 {[%cal Gh4g6]} Kg8 23. Re3 (23. Re3 Kh7 24. Nf5 $18) 1-0
+
+[Event "46th TCh-GRE 2018"]
+[Site "Rio (Achaia) GRE"]
+[Date "2018.07.11"]
+[Round "2.1"]
+[White "Kuljasevic, D..."]
+[Black "Safarli, E..."]
+[Result "1/2-1/2"]
+[ECO "D97"]
+[WhiteElo "2545"]
+[BlackElo "2667"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "6rk/p5r1/7p/1BRP4/5pn1/5p2/P4P1P/5R1K w - - 0 37"]
+[PlyCount "19"]
+[EventDate "2018.07.10"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "GRE"]
+[SourceTitle "The Week in Chess 1236"]
+[Source "Mark Crowther"]
+[SourceDate "2018.07.16"]
+[SourceVersion "1"]
+[SourceVersionDate "2018.07.16"]
+[SourceQuality "2"]
+[WhiteTeam "AO PEFKIS"]
+[BlackTeam "EASA 'FYSIOLATRIS' NIKIAS"]
+
+{[#] Active or passive defence against Nxf2 threat?} 37. h3 {Active is better!}
+({Passive defense is risky:} 37. Rcc1 Nxh2 (37... Rg5 38. Bd7 Nxh2 39. Rg1) 38.
+Kxh2 Rg5 39. Be8 Rxe8 40. Kh3 Reg8 41. Kh4 Rg2 42. Rh1 Rxf2) (37. Rc2 Rg5 38.
+Bd7 Nxh2) 37... Rg5 {[#]} (37... Ne3 $5 {was an interesting option, but Black
+may also risk something with a piece sacrifice.} 38. fxe3 Rg3 (38... fxe3 39.
+Rc6 $1 Rg3 40. Rxh6+ Kg7 41. Rh4 e2 42. Bxe2 fxe2 43. Re1 $11) 39. Kh2 Rg2+ 40.
+Kh1 fxe3 (40... R8g3 41. Rc8+ Kg7 42. Rc7+ Kf6 43. Rc6+ Kg5 44. h4+ $1 (44.
+exf4+ Kh5 $1 45. Rxf3 Rg1+ 46. Kh2 R3g2#) 44... Kh5 45. Rxf3 Rg1+ 46. Kh2 R3g2+
+47. Kh3 Rg4 48. Kh2 $11) 41. Rcc1 $1 e2 42. Bxe2 fxe2 43. Rfe1 Rf2 44. Rg1 $1
+Rgf8 45. d6 $1 Rf1 46. d7 $11) 38. Bd7 $1 {Active defense saves the day} ({
+Passive does not work here} 38. Rc3 Rh5 39. Rxf3 Ne5 40. Ra3 (40. Rb3 f3) 40...
+f3 $1 $19) 38... Rh5 (38... Ne3 39. Rb1 (39. fxe3 fxe3 $19 {[%csl Rd7]}) 39...
+Rg2 40. fxe3 fxe3 41. Bg4 e2 42. Rcc1 h5 43. Bxh5 R2g3 44. Kh2 Rg2+ $11) (38...
+Ne5 39. Be6) 39. Rc8 $1 $11 {The point. White king is not in the mating net
+any more.} (39. Bxg4 $2 Rxg4 40. Rc8+ Kg7 41. Rc7+ Kf6 42. Rc6+ Kf5 $19) 39...
+Rxh3+ 40. Kg1 Rh5 (40... Rh2 41. Rxg8+ Kxg8 42. Bxg4 Rg2+ 43. Kh1 Rxg4 44. d6
+Kf7 45. Re1 Rg6 46. d7 Rd6 47. Re4 Rxd7 48. Rxf4+ Ke6 49. Rxf3 $11) 41. d6 Rxc8
+42. Bxc8 Rg5 43. Bxg4 Rxg4+ 44. Kh2 Rh4+ 45. Kg1 Rg4+ 46. Kh2 1/2-1/2
+
+[Event "Zadar op-A 20th"]
+[Site "Zadar"]
+[Date "2013.12.20"]
+[Round "8"]
+[White "Saric, Ivan"]
+[Black "Saric, Ante"]
+[Result "1-0"]
+[ECO "C11"]
+[WhiteElo "2632"]
+[BlackElo "2547"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "r1b3k1/2q3p1/8/4p1P1/3p1rpP/pP1R4/P1P5/1K1RQB2 w - - 0 28"]
+[PlyCount "19"]
+[EventDate "2013.12.15"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "CRO"]
+[SourceTitle "CBM 158 Extra"]
+[Source "ChessBase"]
+[SourceDate "2014.02.28"]
+[SourceVersion "1"]
+[SourceVersionDate "2014.02.28"]
+[SourceQuality "1"]
+
+{[#] White position is objectively losing as his king is weak and Black has
+passed pawns. He made things more difficult for Black with active defence :} 
+28. Bg2 Ra5 29. Be4 Rc5 30. c4 $5 {This active move weakens the king
+irreparably, but makes the position more dynamic and tricky.} ({Passive
+defence like} 30. R3d2 {is bound to fail.} Qa5 31. Re2 Qxe1 32. Rdxe1 g3 $19)
+30... Bb7 31. Bxb7 Qxb7 32. h5 Qf7 33. b4 $1 {The best choice in a losing
+position, posing concrete practical problems to Black, who was also in a time
+scramble.} (33. Qb4 Rc8 34. Qxa3 Rf1 35. Qc1 Qf5 $19) 33... Rf2 $4 $138 {
+White blunders under sudden pressure.} (33... Rxc4 {is the most obvious move,
+but it is not clear if Black is winning after} 34. Qxe5 Rxb4+ 35. Ka1) (33...
+Rc8 $1 {is the right move, but not easy to find.} 34. Rxa3 (34. Qxe5 Qxc4 $1
+$19) 34... Qxc4 35. Rc1 Qxc1+ 36. Qxc1 Rxc1+ 37. Kxc1 e4 $19) 34. bxc5 {
+Black missed something as White can easily parry all threats.} Rb2+ (34... Qb7+
+35. Rb3 Rb2+ 36. Ka1) 35. Ka1 Qxc4 36. Rxa3 Re2 37. g6 1-0
+
+[Event "Candidates sf Spassky-Portisch +4-2=9"]
+[Site "Geneve"]
+[Date "1977.07.??"]
+[Round "9"]
+[White "Spassky, Boris Vasilievich"]
+[Black "Portisch, Lajos"]
+[Result "1-0"]
+[ECO "C95"]
+[WhiteElo "2610"]
+[BlackElo "2625"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "79"]
+[EventDate "1977.07.03"]
+[EventType "match"]
+[EventRounds "15"]
+[EventCountry "SUI"]
+[SourceTitle "Candidates"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+[SourceVersion "2"]
+[SourceVersionDate "1999.07.01"]
+[SourceQuality "1"]
+
+{[%evp 0,79,18,28,28,15,22,22,35,15,3,3,25,-12,2,10,10,-31,-17,-15,23,-14,-7,
+-31,-13,10,24,17,16,19,19,11,36,34,24,20,25,49,34,22,30,8,22,10,0,-31,-15,-26,
+41,42,74,-25,-36,-62,-45,81,81,109,131,131,158,60,342,427,445,501,501,519,526,
+504,503,576,583,575,581,581,581,566,566,587,587,587]} 1. e4 e5 2. Nf3 Nc6 3.
+Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Nb8 (9... Na5
+10. Bc2 c5 11. d4 Nd7 12. d5 Nb6 13. Nbd2 Bd7 14. Nf1 Nb7 15. Ng3 g6 16. Bh6
+Re8 17. Qc1 Qc7 18. Nh2 {[#] In a similar type of position compared to
+Spassky's game, GM Saric shows its modern treatment - dynamic defence :} Nd8 {
+The most flexible move.} ({Passive defences are slightly inferior:} 18... f6
+19. f4 exf4 20. Qxf4 Kh8 (20... Nd8 21. Nf5) 21. Ng4 Bxg4 22. Qxg4 $14 Nc4 23.
+Rf1 Ne5 24. Qd1 Bf8 25. Be3 Bg7 26. Ne2 Nd8 27. Nf4) ({and} 18... Qd8 19. Rf1 (
+19. f4 Bh4) 19... Bf8 20. h4 $36) 19. f4 Bh4 $1 20. f5 $1 {[#] A strong
+attacking idea, but Black has a good defense.} f6 $1 (20... Bxg3 21. Ng4 $1 Bh4
+22. Bg5 $18) 21. Ng4 Nf7 {[%csl Gf7,Rg3,Gh4,Rh6] Black defenders keep contact
+with white pieces, making it more difficult to attack.} 22. Rf1 Qd8 {
+Everything is defended and white pieces are forced to retreat.} 23. Be3 Nc4 {
+[%csl Gc4]} (23... Bxg3 $6 24. fxg6 hxg6 25. Nxf6+ Kg7 26. Bg5 $36) 24. Bf2 Bg5
+25. Ne3 Kh8 {[%cal Ge8g8] Suddenly, Black shows attacking ambitions on the
+kingside.} 26. b3 Nxe3 27. Bxe3 Rg8 28. Bxg5 Nxg5 29. Qe3 Qe7 30. h4 $2 (30.
+Kh2 Rg7) 30... Nf7 31. Qf3 Nh6 32. fxg6 Rxg6 $19 {Good active defense lead to
+attack on the same flank!} 33. Nf5 Bxf5 34. exf5 Rg4 35. Be4 Qg7 36. a4 b4 37.
+cxb4 cxb4 38. Rac1 Rxh4 39. Rc4 Ng4 40. g3 Qa7+ 41. Rf2 Rh2 {0-1 (41) Aravindh,
+C (2485)-Saric,I (2680) Doha 2014}) 10. d4 Nbd7 11. Nbd2 Bb7 12. Bc2 Re8 13.
+Nf1 Bf8 14. Ng3 g6 15. a4 c5 16. d5 c4 17. Bg5 h6 18. Be3 Nc5 19. Qd2 Kh7 20.
+Nh2 Bg7 21. Rf1 h5 22. f3 {[#] Black needs to take measures against the f3-f4
+break.} Qe7 $2 {[#] Static treatment of this position will land Black in
+trouble.} ({Among several alternatives, the most active defence was} 22... Kg8
+23. Bg5 bxa4 $1 (23... Qc7) (23... Qb6) 24. Bxa4 Rf8 25. Bc2 a5 $132) (22...
+Qc7 23. Bg5 Nfd7 (23... Kg8 24. Bh6 Bh8) 24. f4 exf4 25. Rxf4 Ne5 (25... f6 26.
+Nxh5 gxh5 27. e5+) 26. Raf1 Ncd7) (22... Nfd7 23. f4 exf4 24. Rxf4 Ne5 25. Raf1
+) 23. Bg5 (23. f4 $2 exf4 24. Rxf4 Nxd5 $1) 23... Qf8 24. f4 exf4 25. Rxf4 Nfd7
+26. Raf1 Ne5 {[#] Black position seems solid at the moment, but Spassky breaks
+through with a strong sacrifice:} 27. Nxh5 $1 gxh5 28. Qe2 Qh8 29. Rh4 Kg6 30.
+Bd1 f5 31. Rxf5 Rf8 32. Qxh5+ Qxh5 33. Bxh5+ Kh7 34. Bf7+ Bh6 35. Rxh6+ Kg7 36.
+Bf6+ Kxf7 37. Bxe5+ Ke8 38. Rxf8+ Kxf8 39. Bxd6+ Kg7 40. Ng4 1-0
+
+[Event "Casual Blitz game"]
+[Site "lichess.org"]
+[Date "2020.12.07"]
+[Round "?"]
+[White "Iniyan, P..."]
+[Black "Sankalp, G..."]
+[Result "1-0"]
+[ECO "E94"]
+[WhiteElo "2509"]
+[BlackElo "2552"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "r1b1n1k1/p2nq1b1/1p1p1r2/2pPp1pp/1PP1Pp2/P1NN1P2/2Q1BBPP/R2R2K1 w - - 0 18"]
+[PlyCount "113"]
+[EventDate "2020.??.??"]
+[EventType "blitz"]
+
+{[#] Black prepares the typical KID attack with Rg6, g5-g4, etc. In response,
+White found a strong active defence :} 18. Kh1 $1 Rg6 19. Rg1 g4 $6 {Premature,
+not expecting White's response.} (19... Bh6 20. g3 fxg3 21. Rxg3 Kh7 $13) 20.
+g3 $1 {Usually we do not push the pawns on the flank where we are getting
+attacked, but White is actually better mobilized than Black for the opening of
+the kingside!} fxg3 21. Rxg3 Ndf6 22. Rg2 Nh7 23. Rag1 {[%csl Rg4]} Nef6 24.
+Bh4 $1 {A strong idea, paralyzing black forces on the kingside.} Ng5 25. f4 (
+25. Nf2 $1 $18 {would have completed White's excellent strategy as Nh3 would
+be stopped and the g4-pawn would fall.}) 25... Nh3 26. f5 Rh6 27. Rf1 Ba6 28.
+b5 Bb7 29. Rg3 Qf7 30. Bd1 Nh7 31. Rxh3 gxh3 32. Rg1 Kh8 33. Qd2 Rg8 34. Rg3
+Bf8 35. Nf2 Rxg3 36. hxg3 Kg7 37. Nxh3 Be7 38. Ng5 Nxg5 39. Bxg5 Bxg5 40. Qxg5+
+Kh7 41. Kh2 Qg7 42. Qxg7+ Kxg7 43. Kh3 Bc8 44. Kh4 Bd7 45. Kg5 Be8 46. Be2 Rh8
+47. a4 Kh7 48. Nd1 Rg8+ 49. Kh4 Kh6 50. Nc3 Bf7 51. Bd1 Ra8 52. Be2 Be8 53. Bd1
+a6 54. Be2 axb5 55. cxb5 Ra7 56. Bc4 Rg7 57. Be2 Rg8 58. Bd1 Kg7 59. Be2 Kf6
+60. Bd1 Bf7 61. Be2 Ke7 62. Bd1 Kf6 63. Be2 Rf8 64. Bd1 Ra8 65. Be2 Be8 66. Bd1
+Bd7 67. Be2 Rg8 68. Bd1 Bxf5 69. exf5 Kxf5 70. Bxh5 e4 71. g4+ Ke5 72. g5 Kd4
+73. Ne2+ Ke3 74. g6 1-0
+
+[Event "Netanya Riordan"]
+[Site "Netanya"]
+[Date "2009.07.13"]
+[Round "8"]
+[White "Gelfand, Boris"]
+[Black "Smirin, Ilia"]
+[Result "1-0"]
+[ECO "E97"]
+[WhiteElo "2755"]
+[BlackElo "2650"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "r2q2k1/3b2b1/1R1p1rn1/P1pPp2p/2P1Ppp1/3N1P2/P2BQ1PP/3NR1K1 w - - 0 23"]
+[PlyCount "25"]
+[EventDate "2009.07.12"]
+[EventType "tourn (rapid)"]
+[EventRounds "13"]
+[EventCountry "ISR"]
+[EventCategory "17"]
+[SourceTitle "CBM 131 Extra"]
+[Source "ChessBase"]
+[SourceDate "2009.09.03"]
+[SourceVersion "2"]
+[SourceVersionDate "2009.09.16"]
+[SourceQuality "1"]
+
+{[#] In this game, Boris Gelfand used a similar defensive strategy as in the
+previous one. In fact, this game is a precedent.} 23. fxg4 $1 ({Passive
+defence like} 23. Kh1 Nh4 24. Rg1 Rg6 25. Be1 {would not be fruitful in the
+view of} g3) 23... hxg4 24. g3 $1 {Blocking the kingside. A remarkable concept.
+} fxg3 {Black goes all in, but to no avail.} (24... f3 25. Qf2 Qf8 26. Ne3 {
+is clearly in White's favour as the kingside is blocked and he dominates on
+the queenside.}) (24... Bh6 25. N1f2 $18) 25. Bg5 gxh2+ 26. Qxh2 Nf4 27. Nxf4
+exf4 28. e5 $1 $40 {Suddenly, White attacks on the kingside and soon delivers
+a mating attack.} dxe5 29. Qh4 Kf7 30. Rxf6+ Bxf6 31. Qh7+ Kf8 32. Bh6+ Ke8 33.
+Qg6+ Ke7 34. Rxe5+ Bxe5 35. d6+ 1-0
+
+[Event "Poikovsky Karpov 20th"]
+[Site "Poikovsky"]
+[Date "2019.06.10"]
+[Round "5"]
+[White "Saric, Ivan"]
+[Black "Artemiev, Vladislav"]
+[Result "1/2-1/2"]
+[ECO "B28"]
+[WhiteElo "2680"]
+[BlackElo "2761"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "r4rk1/5p1p/b1p1pp2/p7/3P4/5B2/PP1R1PPP/R5K1 b - - 0 19"]
+[PlyCount "32"]
+[EventDate "2019.06.06"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "RUS"]
+[EventCategory "18"]
+[SourceTitle "CBM 190 Extra"]
+[Source "ChessBase"]
+[SourceDate "2019.07.15"]
+[SourceVersion "1"]
+[SourceVersionDate "2019.07.15"]
+[SourceQuality "1"]
+
+{[#]} 19... Bb5 $1 {After a long think, Black produced an apparently illogical
+move, but in fact the strongest and most active defence.} ({In case of the
+straightforward} 19... Rac8 {White could easily get into a passive and
+slightly worse endgame after} 20. Rc1 Bb5 21. Bd1 $1 Rfd8 22. Rc5 $1 a4 (22...
+Rd5 23. Bb3 Rxc5 24. dxc5) (22... e5 23. a4 Ba6 24. Rxa5) 23. f4 Rd6 24. Kf2
+Rcd8 25. Ke3 $14) 20. a4 ({The key difference compared to a similar position
+from the variation above} 20. Rc1 Rfd8 21. Rc5 {is that here Black can
+activate his rook on the b-file:} Rab8 $1 22. Bd1 (22. Bxc6 Bxc6 23. Rxc6 Rb4
+24. Kf1 Rbxd4 25. Rxd4 Rxd4 {with a likely drawn outcome.}) 22... Rd5 23. Bb3
+Rd6 $1 24. a4 Ba6 25. Bc2 e5 26. Rxa5 Bc8 $132 {and Black gets sufficient
+counterplay for the pawn thanks to active rooks.}) 20... Bc4 21. Bxc6 Rab8 $44
+{Black has full compensation for the sacrificed pawn as there are several
+targets to attack: d4, b2, and a4 after White has weakened his position with
+20.a4. The remainder of the game confirms this assessment.} 22. d5 (22. Rc1 Rb4
+) 22... Rfd8 23. Rad1 Rb6 24. dxe6 Rxd2 25. Rxd2 fxe6 26. Bf3 Bb3 27. Rd8+ Kg7
+28. Rd7+ Kh6 29. Rb7 Rxb7 30. Bxb7 Bxa4 31. f4 e5 32. fxe5 fxe5 33. Kf2 Kg5 34.
+Ke3 Kf6 35. Bd5 1/2-1/2
+
+[Event "Biel MTO 2018"]
+[Site "?"]
+[Date "2018.04.08"]
+[Round "8"]
+[White "Wagner, Dennis"]
+[Black "Kuljasevic, Davorin"]
+[Result "1/2-1/2"]
+[ECO "C90"]
+[WhiteElo "2558"]
+[BlackElo "2545"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "3b1k2/1q3pp1/3p3p/4p3/Q1P1n3/4B2P/1P3PP1/5NK1 b - - 0 28"]
+[PlyCount "13"]
+[EventDate "2018.??.??"]
+
+{[#]} 28... f5 $1 $132 {The most active defense. Otherwise, Black could suffer
+a bit in the endgame.} (28... Be7 29. b4 d5 30. c5 Nc3 31. Qa1 d4 32. Bd2 $16)
+(28... Qxb2 $4 29. Qa8 $18) (28... d5 29. cxd5 Qxd5 30. Qa6 $14 {and the
+outside passed pawn gives White a slight edge.}) 29. f3 {leads to a forced
+draw.} (29. g3 Kf7 30. b4 d5 31. cxd5 Qxd5 {Now white kingside has been
+weakened by g2-g3 and Black has good counterplay.} 32. b5 f4 $1 33. gxf4 exf4
+34. Bxf4 Nc3 35. Qa7+ Kg8 $11) (29. b4 f4 30. Bd2 Bb6 31. Be1 Bd4 $132) 29...
+f4 30. fxe4 fxe3 31. Nxe3 Qb6 (31... Bb6 32. Qb3 Bxe3+ 33. Qxe3 Qxb2 34. c5 $11
+) 32. Qa3 Bg5 33. c5 Bxe3+ 34. Qxe3 dxc5 1/2-1/2
+
+[Event "40th White Tower Open"]
+[Site "Thessaloniki GRE"]
+[Date "2018.01.06"]
+[Round "6.5"]
+[White "Kuljasevic, Davorin"]
+[Black "Grigoriadis, Mihail"]
+[Result "1-0"]
+[ECO "E66"]
+[WhiteElo "2550"]
+[BlackElo "2200"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "2br2k1/4q2p/pQ1pp1p1/2p5/2P5/3nP1PP/P2N1PB1/3R2K1 b - - 0 26"]
+[PlyCount "26"]
+[EventDate "2018.01.02"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "GRE"]
+[SourceTitle "The Week in Chess 1209"]
+[Source "Mark Crowther"]
+[SourceDate "2018.01.08"]
+[SourceVersion "1"]
+[SourceVersionDate "2018.01.08"]
+[SourceQuality "2"]
+
+{[#] In the preparation for the game and during the game itself, I have
+noticed that my opponent was a one-sided player in a sense that he played
+strictly tactically. He was very creative in finding ways to enliven his
+pieces and start tactical sequences; however, he sometimes did this at the
+expense of broader, strategic goals. With this in mind, I set up a small
+psychological trap for him with my previous move 26.Rd1.} 26... d5 $2 {Based
+on the profile explained above, I had a strong feeling that he would go for
+this 'false activity'. He has been in a passive position for most of the game
+and now he finally gets a chance to make a statement in the centre and
+activate his passive bishop and rook. This implies a pawn sacrifice, which he
+had surely prepared and assessed as 'giving compensation' because his pieces
+suddenly become very active. There are two problems with this move, though.
+Firstly, it lacks strategic focus - it is purely a tactical device. Now, if it
+would work tactically, who cares about strategy. But what if it does not work
+tactically? Then Black's position falls apart. And here we come to the second
+problem with false activity - in such cases the validity of the sacrifice is
+determined very superficially - mostly by scanning active potential of the
+pieces and calculating a few variations that confirm it. It is a bit of
+wishful thinking because one does not analyze what could go wrong with it as
+deeply as one should. As I have seen this pattern many times in my practice, I
+was able to anticipate it and find the antidote in advance.} ({It was
+necessary to keep defending passively with} 26... Ne5 {and ...Ne5-f7, although
+White would keep a clear positional advantage after something like} 27. Qb2 $16
+{as Black has a shaky pawn structure and exposed king.}) 27. Qb3 Ne5 {Played
+quickly, which confirmed my prediction that Black had planned the pawn
+sacrifice.} (27... dxc4 {would keep the material balance, but Black's pawn
+structure after} 28. Nxc4 {would be awful and this is pretty much winning
+after:} Nb4 29. Rxd8+ Qxd8 30. a3 Nd5 31. Qb8 $18) 28. cxd5 exd5 29. Bxd5+ Kf8
+{[#] This is the position that Black was going for, but so did I! His pieces
+are seemingly active and he threatens to win back the pawn on h3. I believe
+that his assessment was based on White defending the pawn on the next move
+when he indeed gets some counterplay. However, I realized in advance that I do
+not have to waste time protecting that pawn and that I would have a big
+advantage by playing for positional domination with} 30. e4 $1 {It was
+important not to be materialistic. This move solidifies the powerful bishop on
+d5 and White can proceed increasing the pressure from there.} ({White has many
+ways to defend the h3-pawn, but all of them have some positional or tactical
+drawback, besides wasting time, of course:} 30. Kh2 Qd7) (30. Bg2 c4) (30. g4
+h5) (30. h4 Bg4) 30... Bxh3 31. Qc3 {[#] As a result of playing for false
+activity, Black ended up in an even worse position than the one he started
+from. The potential energy of white pieces is about to transform into
+something much more concrete; f2-f4 is a strong threat and after that, all the
+other pieces will move in.} Bg4 32. Rc1 {reminding Black that he has some pawn
+weaknesses as 'side-effects' of his false activity.} Rc8 33. f3 Bh3 34. Nc4 {
+Due to the mating threat on h8, Black can not trade the knight, so he has to
+retreat:} Nf7 35. Rb1 $1 {[#] and the last White piece joins the attack. Black
+can not defend all his weaknesses any further.} Qg5 {one last attempt to be
+active...} 36. f4 Qh5 37. Bxf7 Kxf7 38. Rb7+ Ke6 39. f5+ {This covers the
+fifth rank, so Black can not defend against the Qc3-e5# and he resigned.} 1-0
+
+[Event "TCh-AUT 2017-18"]
+[Site "Austria AUT"]
+[Date "2018.04.07"]
+[Round "11.3"]
+[White "Rotstein, A..."]
+[Black "Kuljasevic, Davorin"]
+[Result "1/2-1/2"]
+[ECO "A00"]
+[WhiteElo "2506"]
+[BlackElo "2555"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "2r2qk1/1Q3pp1/6b1/3p4/3N2P1/3P4/4PPK1/R7 b - - 0 35"]
+[PlyCount "23"]
+[EventDate "2017.11.16"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "AUT"]
+[SourceTitle "The Week in Chess 1222"]
+[Source "Mark Crowther"]
+[SourceDate "2018.04.09"]
+[SourceVersion "1"]
+[SourceVersionDate "2018.04.09"]
+[SourceQuality "2"]
+[WhiteTeam "Schachklub Absam"]
+[BlackTeam "SV Pillenkoenig St. Veit"]
+
+{[#] Ground rules for passive defence: 1. Make conversion difficult for your
+opponent - difficult strategic decisions, tricky or long variations to
+calculate 2. Wear him down or make him nervous with your resilient defence 3.
+Do not lose faith and keep creating chances for yourself} 35... Rd8 36. Qc7 Rc8
+37. Qe5 Qc5 {Keeping contact with d4-knight.} 38. Rb1 ({White could win with} 
+38. Rh1 f6 39. Qe6+ (39. Qf4 Re8) 39... Bf7 {but probably did not find} 40. Qf5
+$1 $18) 38... f6 {regrouping: Bg6-f7, take control of the e-file.} 39. Qf4 Qe7
+{keeping contact with e2-pawn, while keeping Qe5 as an option.} 40. Rb6 ({
+White spent some time evaluating the endgame after} 40. Rb8 Rxb8 41. Qxb8+ Kh7
+{but decided against it. White is surely winning here, as well, but this is a
+tricky strategic decision to make as he is also winning with the game
+continuation.}) 40... Bf7 41. Kf3 {Before going Nf5, White wants to
+overprotect the e2-pawn. However, this is the first sign of playing without a
+sense of danger.} ({He could win with} 41. Nf5 $1 {but he did not bother
+calculating the forced tricky variation:} Qxe2 42. g5 $1 d4 43. gxf6 Bd5+ 44.
+Kg3 Qxd3+ 45. Kh4 $1 $18) 41... Qa7 $5 {A glimmer of hope - Qa1-h1 is the idea.
+} 42. Qd6 $4 {White does not realize what Black's intentions are. He would
+still be winning if he retreated the rook, but he probably lost patience faced
+with Black's stubborn passive defence in a lost position.} (42. Rb4 $18) (42.
+Rb1 $18) 42... Qa1 $1 {now the perpetual cannot be avoided.} 43. Rb8 Qh1+ 44.
+Ke3 Qc1+ 45. Kf3 Qh1+ 46. Ke3 Qc1+ 1/2-1/2
+
+[Event "London Classic 9th"]
+[Site "London"]
+[Date "2017.12.11"]
+[Round "9"]
+[White "Aronian, Levon"]
+[Black "Carlsen, Magnus"]
+[Result "0-1"]
+[ECO "A43"]
+[WhiteElo "2805"]
+[BlackElo "2837"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "1r1r2k1/Rp3pp1/5nn1/1Ppp2N1/2P1p3/4P1P1/1P3PB1/3R2K1 b - - 0 27"]
+[PlyCount "53"]
+[EventDate "2017.12.01"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ENG"]
+[EventCategory "22"]
+[SourceTitle "CBM 182"]
+[Source "ChessBase"]
+[SourceDate "2018.01.17"]
+[SourceVersion "1"]
+[SourceVersionDate "2018.01.17"]
+[SourceQuality "1"]
+
+{[#] Creating strongholds and barriers} 27... Ne7 $1 (27... Re8 $14 {was
+better according to the engine but would be depressing to play. As a human you
+want all your pieces to be doing some work, and here the knight on g6 isn't
+performing well.} 28. cxd5 Re5 29. Nh3 Nxd5 30. Bxe4 Nxe3 31. Rxb7 $1 $18) 28.
+cxd5 Nc8 29. Ra4 Nb6 30. Ra3 {[#]} (30. Raa1 Re8 31. d6 Re5) 30... Nc4 $1 (
+30... Re8 31. d6 Re5 32. f4 $1 exf3 33. Nxf3 $16) 31. Rc3 Nd6 32. Rxc5 {
+[%csl Gd6,Ge4] White is up to two pawns but can hardly breakthrough.} Ra8 33.
+Bh3 {Probably a step in the wrong direction, even if the computer sees no
+problem. The problem is that White is now playing for strings of (albeit high
+level) tactical tricks.} (33. Nh3 $14 {was the right idea, if not the right
+implementation: this knight should be on f4 or d4 or something, not playing
+for tricks on the kingside.}) 33... Re8 {Playing with the motif of trapping
+the knight.} 34. Rc7 Kf8 (34... Re5 $4 {runs into a forced piece sacrifice:}
+35. Nxf7 Nxf7 36. Be6 Rf8 37. Rxb7 $18) 35. b6 (35. Be6 {was tempting but
+Black will just ignore it.} Re7 36. Rxe7 Kxe7 37. Bh3 Rh8 $11) 35... Re5 36.
+Ne6+ (36. Nxf7 $11 {was a better way to give up the piece and now White
+probably keeps dynamic equality}) 36... fxe6 37. dxe6 Nfe8 38. Rd7 Raa5 $1 {
+Now Black has completely turned the tables and gets to finish the event above
+50%!} 39. b4 (39. R1xd6 Nxd6 40. Rxd6 Rad5 {was objectively best but in a
+human game this ending would be absolute hell to defend.}) 39... Rad5 40. Ra1
+Rb5 $17 {Now the knights and e5-rook hold White's play back while the b5-rook
+takes stuff.} 41. Ra8 Rxb6 42. Bg4 Rd5 43. Kg2 Rxb4 44. Ra1 Rbb5 45. Be2 Rb2
+46. Bg4 Rdd2 47. Kh3 Rxf2 48. Kh4 Rh2+ 49. Bh3 g5+ 50. Kh5 Rxh3+ 51. Kg6 Rf2
+52. e7+ Kg8 53. Rxd6 Rh7 {Finally either taking the pawn or setting up mating
+tactics (...Rg7 and either ...g4 or ...Kf7)} 0-1
+
+[Event "TCh-TUR 2014"]
+[Site "Konya TUR"]
+[Date "2014.06.23"]
+[Round "1.7"]
+[White "Maghalashvili, Da"]
+[Black "Kuljasevic, Davorin"]
+[Result "1/2-1/2"]
+[ECO "A15"]
+[WhiteElo "2515"]
+[BlackElo "2564"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "8/4kp1p/1prnp1p1/8/PR6/3KN1P1/1P3P1P/8 b - - 0 28"]
+[PlyCount "41"]
+[EventDate "2014.06.23"]
+[EventType "team"]
+[EventRounds "9"]
+[EventCountry "TUR"]
+[SourceTitle "The Week in Chess 1025"]
+[Source "Mark Crowther"]
+[SourceDate "2014.06.30"]
+[SourceVersion "1"]
+[SourceVersionDate "2014.06.30"]
+[SourceQuality "2"]
+[WhiteTeam "Ataturk Universitesi Spor Kulubu"]
+[BlackTeam "Alapli Aktif Genclik Spor Kulubu"]
+
+{[#]} 28... Nb7 {The idea was to use the position of the white king in order
+to manoeuvre the knight to the square on which it should have landed a long
+time ago - d7.} ({The alternative was} 28... f6 29. Nc4 Nc8 ({The rook endgame
+after} 29... Nxc4 30. Rxc4 Rd6+ 31. Kc3 $16 {looks very difficult for Black.})
+30. f4 Kd7 {but White can improve his position effortlessly with} 31. Nd2 $1 {
+since every piece exchange makes his position better, as we can see in the
+following lines:} Ne7 (31... Rd6+ 32. Rd4) (31... Nd6 32. Ne4) 32. Ne4 Nd5 33.
+Rc4 Rxc4 34. Kxc4 $16) 29. Nc4 Nc5+ 30. Kd4 Nd7 31. Rb5 Kd8 {I decided to
+entrench and wait for my fate - what else to do?} ({An attempt to start some
+active play on the kingside, such as} 31... f6 {could always be neutralized -
+White pieces are just placed much better. For example:} 32. f4 h6 33. b4 g5 34.
+f5 $1 exf5 35. Rxf5 Ke6 36. Rd5 {[%csl Gd5,Rf6,Rh6] and black position is
+critical.} f5 37. b5 $18) 32. b4 {My opponent continues with the
+straightforward and logical play, preparing to get his outside passed pawn.} ({
+However, from a technical point of view, there was no need to rush things 
+(Black has no counterplay anyway) and preparing the creation of the second
+weakness on the kingside with} 32. g4 $5 Kc7 33. h4 {might have been even more
+methodical.}) 32... Kc7 33. f4 h5 34. a5 {The time for queenside breakthrough
+has arrived.} ({Nevertheless, the 'two weaknesses' approach still had its
+merits:} 34. h3 $5 Kc8 35. g4 hxg4 36. hxg4 Kc7 37. g5 Kc8 38. a5 bxa5 39. Rxa5
+Kb8 40. Ra3 Nb6 41. Ne5 $16 {and compared to the game, White has one more
+weakness to work with - the f7-pawn.}) 34... bxa5 35. bxa5 $2 {A serious
+technical mistake. Even though it might seem more dangerous to create an
+outside passed pawn on the more 'outside' file, the a-file would have been
+more suitable for the rook.} ({White would obtain serious winning chances if
+he had recaptured the other way} 35. Rxa5 {A possible line is:} f6 (35... Kb8 {
+prevents rook's intrusion, but Black has literally nothing useful to play
+after something like} 36. Ra2 $16) 36. Ra7+ Kd8 37. Ra8+ Rc8 38. Ra6 Rb8 39.
+Kc3 Ke7 40. Ra7 $16 {Black's defence would hang by a thread.}) 35... f6 36. h3
+{Logically, White proceeds to create the second weakness on the kingside with
+g4-g5, etc. Once again, the position begins looking critical for Black since
+there are no active options insight. However, here I found a strong piece
+regrouping that my opponent had probably missed.} Ra6 $1 {[#] The idea behind
+this move is twofold: 1. the king will take rook's place on c6, thereby
+expelling the rook from the important fifth rank. 2. the rook will be
+activated via the 8th rank. I already felt better about my chances when I
+spotted this defensive scheme and the game continuation confirmed this
+assessment:} 37. g4 hxg4 38. hxg4 Kc6 39. Rb1 Ra8 40. g5 Rd8 $5 {In the game,
+I thought that this is an essential inclusion,} ({because in case of} 40...
+fxg5 41. fxg5 Rd8 {White would have} 42. Ne5+ Nxe5+ 43. Kxe5 Rd5+ 44. Kf6 {
+which looked scary, so I stopped calculating. However, further analysis
+revealed that Black easily draws the rook endgame after} Rxa5 45. Kxg6 Kd5 46.
+Kf6 e5 47. g6 e4 {etc.}) 41. Kc3 {There were a couple concrete variations that
+I had to calculate to make 40...Rd8 work tactically. This was the main line,} (
+{but there was also} 41. gxf6 Nxf6+ 42. Ke5 Nd7+ 43. Kxe6 Re8+ 44. Kf7 Rf8+ 45.
+Kxg6 Rxf4 $11) ({and} 41. Ke3 $5 fxg5 42. fxg5 Rh8 $11 {and Black is fine in
+either case.}) 41... fxg5 42. fxg5 Nc5 $1 {[#] This is the most direct way to
+play for a draw. It was important to realize that White can be allowed to give
+checks on b6 and e5 without fatal consequences.} 43. Ne5+ ({In case of} 43.
+Rb6+ Kc7 44. Kb4 {Black obtains enough counterplay with} Nd3+ 45. Ka4 Rd4 $132)
+(43. a6 Ra8 44. Ne5+ Kd5 45. Nxg6 Rxa6 $11) 43... Kc7 44. Kc4 (44. Nxg6 Ne4+
+45. Kc2 Rd2+ 46. Kb3 Rd5 $11) 44... Rd5 45. Rb5 (45. Nxg6 Rxg5 $11) (45. Re1
+Nb7 46. a6 Nd6+ 47. Kc3 Kb6 $11) 45... Ne4 $1 $11 {The final precision. White
+cannot avoid simplifications and draw was soon agreed.} 46. Rxd5 exd5+ 47. Kxd5
+Nxg5 48. Nxg6 Kb7 1/2-1/2
+
+[Event "19th ch-EUR Indiv 2018"]
+[Site "Batumi GEO"]
+[Date "2018.03.25"]
+[Round "8.2"]
+[White "Wojtaszek, R..."]
+[Black "Demchenko, A..."]
+[Result "1-0"]
+[ECO "E94"]
+[WhiteElo "2738"]
+[BlackElo "2672"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "6k1/2r2n2/5p2/1p1Rp1pp/1P2P3/3N1P1P/6P1/5K2 b - - 0 44"]
+[PlyCount "42"]
+[EventDate "2018.03.17"]
+[EventType "swiss"]
+[EventRounds "11"]
+[EventCountry "GEO"]
+[SourceTitle "The Week in Chess 1220"]
+[Source "Mark Crowther"]
+[SourceDate "2018.03.26"]
+[SourceVersion "1"]
+[SourceVersionDate "2018.03.26"]
+[SourceQuality "2"]
+
+{[#] White has a slight initiative in this symmetrical endgame. His rook is
+dominant on d5-square, from where it puts pressure on the b5-pawn. Black's
+dilemma, typical for many endgames, is: defend actively or passively?
+Grandmaster Demchenko chooses the latter:} 44... Rc3 $5 {Most modern
+grandmasters prefer to defend actively without a pawn than passively with
+equal material. It is just more natural and easier to play that way. Of course,
+whenever material is sacrificed, some long-term risk is involved, but who says
+that the risk of going wrong while defending passively is not greater?} ({
+That being said, there was nothing wrong with the passive defence, either:} 
+44... Rb7 {Here, the only constructive plan I see for White is} 45. Nf2 {
+targeting the b5-pawn via d1-c3.} (45. Nc5 {brings no improvement:} Ra7 46. Nb3
+Rb7 $11 {and Black will slowly activate his kingside pieces.}) {However, Black
+also has his racing horse:} 45... Nh8 $1 {First, it takes one step back, but
+then...} 46. Nd1 Ng6 47. Nc3 (47. g3 h4 $11) 47... Nf4 48. Rxb5 Rxb5 49. Nxb5
+Nd3 $11 {...it gets to the finish line just in time.}) 45. Nf2 Rb3 46. Rxb5 {
+[#] Demchenko followed Tarrasch's rule and now his rook is in an excellent
+position. It not only defends against the passed pawn but may also be used
+actively along the b-file to target White's kingside. Here, Demchenko rushed
+to activate his knight, as well:} Nd6 $5 {This implies that Black is ready to
+give up his f6-pawn.} ({It was also possible to protect that pawn first:} 46...
+Kf8 47. Rb8+ Ke7 48. Nd1 {and only then play} Nd6 {Now after} 49. Ke2 {Black
+is just in time to deny the e3-square to white knight:} Nc4 $44 {Black's
+activity is fully sufficient to hold the balance. For example:} 50. h4 gxh4 51.
+Rb7+ Ke6 52. Rh7 h3 53. gxh3 Rxb4 54. Rxh5 Rb3 55. Rh8 Nd6 56. h4 f5 $11) 47.
+Rb6 {Wojtaszek's logical move instigates a forced sequence:} Nc4 48. Rxf6 Kg7
+49. Rc6 Ne3+ 50. Ke2 (50. Kg1 Rb1+ 51. Kh2 Nf1+ 52. Kg1 Ne3+ $11) 50... Nxg2
+51. Nd3 Nf4+ 52. Nxf4 {[#] Everything was forced up to this point. Black has
+an important decision to make: capture with the e-pawn to have an option of
+g5-g4 breakthrough, or keep the structure blocked with ...gxf4? Demchenko's
+choice} exf4 $6 {is not wrong, but it is practically more complicated} ({than} 
+52... gxf4 {White has two options now, but none of them is sufficient to win:
+1)} 53. Rc5 ({2)} 53. Rb6 h4 54. b5 Re3+ 55. Kf2 Rb3 $11) 53... Rxb4 54. Rxe5
+Rb2+ 55. Ke1 Rb3 {Black draws thanks to his active rook.} 56. Rxh5 Rxf3 $11)
+53. Rc5 Kg6 ({Black can not afford to take the b-pawn} 53... Rxb4 $2 {, like
+in 52...gxf4 variation. After} 54. Rxg5+ Kh6 55. Rf5 Rb2+ 56. Ke1 {The f4-pawn
+is hanging, so there is no time to play ...Rb2-b3.} Rb1+ 57. Kd2 Rb2+ 58. Kc3
+Rh2 59. Rxf4 Rxh3 60. Kd4 $18) 54. b5 Rb2+ $4 {I imagine that Demchenko was
+already in time trouble at this stage of the game and just had to play
+something because this move loses quite trivially.} ({Instead, Black should
+have proceeded with his breakthrough plan} 54... g4 {and after a few pawn
+trades:} 55. hxg4 hxg4 56. fxg4 Re3+ 57. Kd2 (57. Kf2 Rxe4 58. Kf3 Rb4 $11)
+57... Rxe4 {[#] we would reach 2 vs 1 rook endgame where the extra pawn is not
+of much importance. The g-pawn is safely blocked by black king, so this
+position is drawn. A likely variation would be:} 58. Rf5 Rb4 59. Kc3 Rb1 60.
+Kc4 Rc1+ 61. Kd5 Rb1 62. Kc6 Rc1+ $1 {(a necessary intermediate check to force
+White king in front of his pawn)} 63. Kb7 Rf1 64. b6 f3 65. Kb8 f2 66. b7 Kg7
+67. Kc7 Rc1+ 68. Kd6 Rb1 $11) ({Another, albeit more complex, way to reach a
+draw is:} 54... h4 $5 55. Rc6+ Kg7 56. b6 g4 $1 $11 {[#] and, again, the g5-g4
+breakthrough saves the day. I suggest the reader figure out how exactly on his
+own.}) 55. Kd3 Rb3+ 56. Kc4 Rxf3 57. b6 Rf1 58. Rb5 $18 {[#] It is white rook
+that is behind the passed b-pawn now, which is bad news for Black. His
+connected pawns on the kingside are no match for it.} Rc1+ 59. Kd5 Rd1+ 60. Kc6
+Rd8 61. b7 g4 62. hxg4 hxg4 63. Rf5 g3 64. Rxf4 Kg5 65. Rf1 1-0
+
+[Event "Philadelphia op 8th"]
+[Site "Philadelphia"]
+[Date "2014.04.18"]
+[Round "4"]
+[White "Mandiza, F.."]
+[Black "Oleksienko, M.."]
+[Result "*"]
+[ECO "B07"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "b4r2/2qnpp2/p2p3k/4PQNp/3P4/1r6/P5PP/5RK1 b - - 0 27"]
+[PlyCount "13"]
+[EventDate "2014.04.16"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "USA"]
+
+27... Rf3 $3 {Fantastic resource.} ({After} 27... Bf3 {White has} 28. h4 Rh8
+29. axb3 {with a winning position.}) ({When calculating, it is not so easy to
+refute the tempting} 27... Be4 {White can, however, play} 28. Qf4 $3 Kg7 29.
+Qxe4 Rh8 30. axb3 $18) 28. Nxf3 ({After} 28. gxf3 {Black goes for a
+counterattack with} Qc4 $3 29. h4 Qxd4+ $19) 28... Bxf3 29. Qf4+ Kg6 30. Rxf3
+Nxe5 ({Another option would have been} 30... Qc2 $1 31. Rg3+ Kh7 $19) 31. Qf5+
+Kg7 32. dxe5 Qc5+ 33. Kh1 Qxe5 $19 *
+
+[Event "Koop Tjuchem"]
+[Site "Groningen"]
+[Date "1996.??.??"]
+[Round "1"]
+[White "Timman, J.."]
+[Black "Leko, P.."]
+[Result "*"]
+[ECO "B17"]
+[Annotator "GM Grigor Grigorov"]
+[SetUp "1"]
+[FEN "5k1r/1q3pp1/3N1n1p/pB2p3/2Q5/P7/1PP2PPb/1K6 b - - 0 30"]
+[PlyCount "3"]
+[EventDate "1996.12.20"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "NED"]
+[EventCategory "16"]
+
+30... Ne4 $3 {In order to find this move, you should take all the candidate
+moves into consideration.} ({We can immediately refute} 30... Qa7 $4 31. Qc8+
+Ke7 32. Nf5#) ({The game went} 30... Qe7 $2 {Indeed, the refutation of this
+move is not that easy. We can easily make a mistake when calculating.} 31. Qc8+
+Ne8 32. Nf5 h5 (32... Qe6 33. Bd7 $18) 33. Nxe7 Kxe7 34. Qd7+ $18) 31. Nxe4 (
+31. Nxb7 Nd2+ 32. Ka2 Nxc4 33. Bxc4 Ke7 $19) 31... g6 $17 {Black is almost
+winning.} *
+
+[Event "12th ch-EUR"]
+[Site "Aix-les-Bains FRA"]
+[Date "2011.03.25"]
+[Round "4"]
+[White "Rapport, R...."]
+[Black "Laznicka, V...."]
+[Result "1/2-1/2"]
+[ECO "D44"]
+[WhiteElo "2540"]
+[BlackElo "2688"]
+[Annotator "GM Petar G. Arnaudov"]
+[SetUp "1"]
+[FEN "8/2r2k1p/1R3pp1/8/3KP2P/8/8/8 w - - 0 49"]
+[PlyCount "25"]
+[EventDate "2011.03.22"]
+[EventType "swiss"]
+[EventRounds "11"]
+[EventCountry "FRA"]
+
+49. h5 $1 {This is not the only way for White to make a draw but is the most
+straightforward one. White is following our rule} Rd7+ 50. Ke3 gxh5 (50... g5
+51. e5 fxe5 52. Ke4 $11) (50... Re7 51. hxg6+ hxg6 52. Kf3 $11) 51. e5 $1 fxe5
+52. Ke4 Re7 53. Rh6 Kg7 54. Rxh5 Kg6 55. Rh1 $1 h5 56. Rg1+ Kh6 57. Kf5 Rf7+
+58. Kxe5 h4 59. Ke4 Kh5 60. Rg8 h3 61. Ke3 (61. Ke3 Kh4 62. Rh8+ $11) 1/2-1/2
+
+[Event "Buenos Aires Circulo"]
+[Site "Buenos Aires"]
+[Date "1939.??.??"]
+[Round "?"]
+[White "Grau, Roberto"]
+[Black "Palau, Luis Argentino"]
+[Result "1-0"]
+[ECO "D53"]
+[Annotator "GM Petar G. Arnaudov"]
+[SetUp "1"]
+[FEN "5R2/5p1k/3K1P1p/6r1/4P3/8/8/8 b - - 0 58"]
+[PlyCount "8"]
+[EventDate "1939.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ARG"]
+
+58... Kg6 $2 (58... Ra5 {Black should activate the rook} 59. Rxf7+ (59. e5 {
+Is a serious try, but Black saves the game after:} Ra6+ 60. Kd5 Ra5+ 61. Ke4
+Ra4+ 62. Kf5 Ra7 63. Re8 Ra1 64. Re7 Kg8 $11) 59... Kg6 {White can't make a
+progress here} 60. Rf8 Ra6+ 61. Ke5 Ra5+ 62. Kf4 Ra4 $11) 59. e5 Rh5 60. Rg8+
+Kf5 61. e6 Kxf6 62. e7 $18 1-0
+
+[Event "RUS-Cup5"]
+[Site "Ekaterinburg"]
+[Date "1997.??.??"]
+[Round "2"]
+[White "Skatchkov, Pavel"]
+[Black "Sherbakov, Ruslan"]
+[Result "0-1"]
+[ECO "B22"]
+[WhiteElo "2370"]
+[BlackElo "2580"]
+[Annotator "GM Petar G. Arnaudov"]
+[SetUp "1"]
+[FEN "8/8/3kPb2/p7/2B2p1p/1P3Pp1/6K1/8 w - - 0 69"]
+[PlyCount "8"]
+[EventDate "1997.02.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "RUS"]
+
+69. Kh3 $2 {This is a losing mistake} (69. e7 $3 {Sacrificing a pawn and
+transpose to a well known drawish position} Bxe7 70. Bg8 Ke5 71. Bf7 Kd4 72.
+Bg8 Ke3 73. Be6 {[%cal Ge6b3,Ge6h3]} Bf6 74. Bh3 $11) 69... Be7 $3 70. Bd3 Ke5
+71. Kg2 Kd4 72. Bc4 Ke3 {[%cal Rh4h3,Re3f2]} 0-1
+

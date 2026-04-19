@@ -1,0 +1,21 @@
+{
+  "name": "OpeningMaster",
+  "short_name": "OpeningMaster",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#160423",
+  "theme_color": "#5E24C7",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

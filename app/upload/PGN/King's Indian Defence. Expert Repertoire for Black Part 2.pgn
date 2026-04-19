@@ -1,0 +1,2220 @@
+﻿[Event "?"]
+[Site "?"]
+[Date "2022.??.??"]
+[Round "?"]
+[White "Chapter 1"]
+[Black "Saemish 6.Bg5"]
+[Result "*"]
+[ECO "E81"]
+[Annotator "GM Ivan Cheparinov"]
+[PlyCount "42"]
+[SourceVersionDate "2022.06.24"]
+
+{[%evp 0,11,21,13,27,4,39,31,31,26,26,10,-1,-8]} 1. d4 Nf6 2. c4 g6 3. Nc3 Bg7
+4. e4 d6 5. f3 O-O 6. Bg5 {The second most popular move. Nowadays this move is
+losing its popularity. The idea of the move is to prevent e7-e5 and also provoke
+h7-h6.} a6 $5 {A bit rare, but a very flexible move. The idea is to prepare
+c7-c5 and then to be ready after d4-d5 to push b7-b5 immediately.} ({More
+popular are the moves:} 6... c5) (6... Nc6) (6... Nbd7) 7. Qd2 {The main move.
+All other options are harmless for Black.} (7. Nge2 {This move is quite
+typical in Saemish, but in this case, Black is ready for c7-c5 and then the
+b7-b5 break.} c5 8. d5 ({The endgame does not look very promising for White.} 
+8. dxc5 dxc5 9. Qxd8 Rxd8 10. Na4 {[%csl Rb6,Rc5] Trying to use the weak b6
+square.} ({In case of} 10. e5 Nfd7 11. Bxe7 ({Or} 11. Nd5 Nc6) 11... Re8 12.
+Nd5 Nc6 {The position becomes very concrete, but somehow it feels like White is
+playing with the fire. Next couple of moves are very forced.} 13. Bf6 Ndxe5 14.
+Bxg7 Kxg7 15. Nc7 Nd3+ 16. Kd2 Rd8 {[%cal Gd8d2]} 17. Nxa8 Nf2+ 18. Ke3 {
+The only way to continue the game.} ({A draw is:} 18. Ke1 Nd3+ $11) 18... Nxh1
+19. Nc3 Nb4 {[%cal Gb4c2] The position is very sharp, definitely Black has his
+chances.} 20. Rc1 Bf5 21. Nc7 Nc2+ 22. Rxc2 Bxc2 23. g3 h5 $132 {The position
+is sharp, but I like Black's chances.}) 10... Nc6 $1 {Black should play very
+energetically.} 11. Nec3 ({Or} 11. Nb6 Rb8) (11. Nxc5 Nb4 $1) 11... Nd7 12. Nd5
+({In case of} 12. O-O-O {strong is} Bd4 $1 13. Nd5 f6 14. Bf4 Nde5 $132 {
+[%csl Gd4,Ge5]}) 12... Kf8 {A simple move.} 13. Rd1 Rb8 14. Bf4 Be5 15. Bxe5
+Ncxe5 16. Ndb6 Ke8 17. Nxd7 Nxd7 $11 {Black is out of danger.}) 8... b5 9. cxb5
+h6 $1 $146 {An important improvement.} 10. Be3 (10. Bd2 {Looks a bit passive.}
+axb5 11. Nxb5 e6 12. dxe6 Bxe6 $132 {[%cal Gd6d5] Black has an excellent
+position. d6-d5 is coming next.}) 10... Qa5 11. Qd2 ({Or} 11. Ng3 h5 {[%cal
+Gh5h4]} 12. h4 e6 $132) 11... axb5 12. Bxh6 Nbd7 {[%cal Gd7e5]} 13. Ng3 c4 $132
+{[%cal Gd7c5,Gb5b4] Black has an excellent counterplay.}) (7. a4 {Without c5/
+d5 included this move feels strange.} Nc6 $1 8. Nge2 ({If} 8. d5 $6 {then} Nb4
+{[%csl Gb4][%cal Gc7c6] The knight on b4 is untouchable.}) 8... Na5 $1 {
+[%csl Rc4]} 9. b3 c6 $132 {[%cal Gd8b6,Ge7e5] Black has excellent prospects.})
+(7. Bd3 {It is a strange move, connected with Bg5.} Nfd7 $5 {[%csl Rd4][%cal
+Gg7d4] A nice move in this case.} 8. Nge2 c5 9. d5 Ne5 {[%cal Gb7b5] Black has
+an excellent play.} 10. a4 {White must prevent b5.} Nbd7 11. b3 ({Worse is:} 
+11. f4 $6 Nxd3+ 12. Qxd3 f6 $1 {A very nice and unusual idea. Black already
+takes the advantage.} 13. Bh4 g5 $1 14. Bg3 ({If} 14. fxg5 $6 {then strong is}
+Ne5 15. Qg3 f5 $1 $17) 14... gxf4 15. Bxf4 ({Worse is:} 15. Nxf4 $6 Ne5) 15...
+Ne5 16. Bxe5 fxe5 $132 {The game is still double-edged, but I prefer Black here.
+}) 11... Nxd3+ 12. Qxd3 f5 $132 {[%cal Gd7e5] Black is doing great in the game:
+Aymard,M (2041)-Alonso Gonzalez,C (2414) ICCF email 2018.}) 7... c5 $1 8. d5 ({
+After:} 8. Nge2 {good is:} Nc6 9. d5 Ne5 10. Ng3 b5 11. cxb5 c4 $132 {With an
+excellent play for Black.}) 8... b5 ({Similar is:} 8... Qa5) 9. cxb5 Qa5 10. a4
+({After:} 10. bxa6 {the right move is:} Nxa6 $1 {The point to take with the
+knight on a6 is that now for White is very difficult to develop his pieces.} ({
+Worse is:} 10... Bxa6 $6 11. Bxa6 Nxa6 12. Nge2 Rfb8 13. O-O $14) 11. Bc4 ({Or
+} 11. Nge2 Nc7 {[%cal Ge7e6,Gc8a6]} 12. Ng3 $6 e6 13. dxe6 Bxe6 $15 {[%cal
+Gd6d5] Black is better.}) 11... h6 $1 {Not the only, but in my opinion the best
+move.} 12. Be3 (12. Bxf6 {It is possible but is clear that Black already has a
+fantastic compensation for the pawn.} Bxf6 13. Nge2 Nc7 ({Also good is:} 13...
+Nb4 14. O-O Ba6 15. Bxa6 Qxa6 16. Qxh6 Nd3 $44) 14. O-O Ba6 15. Bxa6 Rxa6 16.
+Qxh6 Rb8 17. Rab1 Nb5 $44 {Black is two pawns down, but the initiative on the
+queen's side completely compensates that.}) ({White is worse after:} 12. Bxh6 $6
+Bxh6 13. Qxh6 Qb4 $15 {[%csl Rb2,Rc4]}) 12... Nd7 $1 {[%cal Gd7e5] White has
+no time to take a breath.} 13. Bxh6 {Now there is nothing better.} Bxh6 14.
+Qxh6 Qb4 15. Nh3 {[%cal Gh3g5] The point. White still can fight.} Qxc4 {
+Leads to a forced draw.} ({Worse is:} 15... Qxb2 $6 16. Rc1) ({A possible way
+to continue the game is:} 15... Rd8 $5 {[%cal Gd7f8]} 16. Bxa6 (16. Ng5 $6 Nf8)
+16... Bxa6 17. Qd2 Ne5 18. Kf2 Nc4 $132 {with a nice counterplay.}) 16. Ng5 Nf6
+17. e5 dxe5 18. Nce4 Qb4+ 19. Kf1 ({Similar is:} 19. Kf2 Nxe4+ 20. fxe4 Qd4+
+21. Kf3 Qd3+ $11) 19... Qc4+ 20. Kg1 Qd4+ $11 {With a perpetual check.}) 10...
+Nbd7 (10... axb5 $6 {Only helps White to develop.} 11. Bxb5 Ba6 12. Nge2 $16)
+11. Nge2 ({The alternatives are:} 11. bxa6 Bxa6 12. Bxa6 Qxa6 13. Nge2 Rfb8 14.
+O-O Rb4 $44 {[%cal Gd7e5,Ga8b8] Black has an excellent play.}) (11. Ra3 Ne5 12.
+f4 {White has to play this move, otherwise is not possible to develop his
+pieces.} Ned7 $132 {[%csl Re4][%cal Ga5b4]}) (11. Nh3 {Another serious option.}
+Nb6 ({Probably also fine is:} 11... axb5 12. Bxb5 Ba6 $44 {1/2-1/2 (23) Kortig,
+S-Wynkele,H IECC email 2012}) 12. Nf2 axb5 13. Bxb5 Ba6 14. O-O ({Or} 14. Bxa6
+Qxa6 $44 {[%csl Re1][%cal Gf8b8,Gb6c4]}) 14... Bxb5 15. axb5 Qxa1 16. Rxa1
+Rxa1+ 17. Nfd1 Rfa8 18. Kf2 {This position occurred in the game: Hoffman, A (2506)
+-Socko,B (2577) Linares 2003. Now Black had to play} Nh5 $132 {[%cal Gg7d4]}) (
+11. Nd1 $5 $146 {A new move.} Qxd2+ {I believe the endgame is good enough for
+Black.} ({Also possible is:} 11... Qc7 $5 {[%cal Ge7e6]}) 12. Kxd2 ({Or} 12.
+Bxd2 axb5 13. Bxb5 Ba6 14. Bxa6 Rxa6 15. a5 e6 16. dxe6 fxe6 $44 {[%cal Gd6d5]
+Black has good compensation for the pawn.}) 12... e6 13. Nc3 exd5 14. exd5
+Bb7 $132 {[%csl Rd5] Black is doing great.}) 11... Nb6 $1 12. Nc1 ({An awkward
+move.} 12. Ra2 Bd7 (12... Nc4 13. Qc2) 13. Nc1 e6 {It is important to open the
+centre.} 14. b3 ({Or} 14. bxa6 c4 $44) 14... axb5 15. dxe6 ({The alternatives
+are:} 15. axb5 Qb4 $132) (15. Nxb5 exd5 16. Qxa5 Rxa5 17. Bd2 ({The other
+option is:} 17. Nxd6 c4 18. bxc4 dxe4 19. Bxf6 Bxf6 20. Nxe4 Bd8 $44 {Black is
+at least not worse.}) 17... Raa8 18. a5 Bxb5 19. Bxb5 Nc8 20. exd5 Ne7 21. Kf2
+Nfxd5 $11 {Black is fine.}) 15... b4 $1 {An important intermediate move.} 16.
+exd7 ({Or} 16. exf7+ Rxf7 17. Nb5 d5 $132) 16... bxc3 17. Qxd6 Nfxd7 18. Bb5
+Be5 19. Qd3 Bd4 $44 {[%cal Gd7e5] Black has an excellent game in the game:
+Granados Ramirez,C-Vertiz Gutierrez,P (2318) ICCF email 2018.}) 12... axb5 ({
+Another interesting option is:} 12... e6 $5) 13. Bxb5 Bd7 14. Ra3 {Getting
+ready for Bxb5.} ({Worse is:} 14. Bxd7 $6 Nfxd7 {[%cal Gb6c4,Gd7e5]}) 14...
+Bxb5 15. axb5 Qb4 {The game is still very sharp, but I believe Black is doing
+very well. For example:} 16. N1a2 Qd4 17. Qxd4 cxd4 18. Nb1 Nc4 19. Rxa8 ({Or} 
+19. Ra6 Rab8) 19... Rxa8 20. Nb4 Nxb2 21. O-O h6 $11 {The endgame looks
+approximately equal.} *
+
+[Event "?"]
+[Site "?"]
+[Date "2022.??.??"]
+[Round "?"]
+[White "Chapter 2"]
+[Black "Saemish 6.Nge2"]
+[Result "*"]
+[ECO "E81"]
+[Annotator "GM Ivan Cheparinov"]
+[PlyCount "56"]
+[SourceVersionDate "2022.06.24"]
+
+{[%evp 0,11,21,22,27,4,39,31,26,26,26,-1,18,-9]} 1. d4 Nf6 2. c4 g6 3. Nc3 Bg7
+4. e4 d6 5. f3 O-O 6. Nge2 {Very popular move lately, also one of the most
+interesting to fight for the advantage with White.} c5 {In Saemish, in all
+lines I prefer the Benoni setup. I believe is better compared to the e5 plans.}
+7. d5 e6 8. Ng3 {The main move. This is the point behind 6.Nge2. The idea is to
+postpone Be3 or Bg5.} (8. Bg5 {This move here, is not very accurate.} h6 9. Be3
+exd5 10. cxd5 Nbd7 $1 {The best move order. I believe Black is doing very well
+here.} 11. Ng3 ({In case of} 11. Qd2 {strong is} Ne5 {[%cal Ge5c4]} 12. Ng3 ({
+Or} 12. Nc1 $6 Nh5 $15 {[%cal Gd8h4]}) 12... h5 {[%cal Gh5h4]} 13. h4 a6 14. a4
+Bd7 15. Be2 b5 $15 {Black is already at least slightly better.}) 11... h5 {
+[%cal Gh5h4] The typical move after White plays Ng3.} 12. Be2 ({If} 12. Bg5 $6
+{then} Qb6 13. Qd2 Nh7 $15 {[%cal Gh5h4]}) 12... h4 13. Nf1 Rb8 $5 {[%cal
+Gb7b5] Already is a good idea to prepare b7-b5.} ({Also good is the typical
+move in this situations} 13... Nh7 $132 {[%cal Gf7f5]}) 14. Bg5 {[%csl Rh4]} (
+14. a4 a6) 14... b5 $1 {Black does not care about the pawn on h4.} 15. Bxh4 b4
+16. Nb1 ({Risky is:} 16. Nb5 Qb6 {[%csl Rb5] White must be careful with his
+knight.} 17. a4 bxa3 18. Nxa3 Qxb2 {Next couple of moves are forced.} 19. Nc4
+Qc3+ 20. Nfd2 Nxd5 $1 21. Rc1 Ne3 $1 {A small tactic.} 22. Rxc3 Nxd1 23. Ra3
+Nc3 24. Nxd6 Rb2 $132 {Only White can be worse in this endgame.}) 16... Qc7 {
+[%cal Gf6h5] Prepares Nh5.} 17. Ne3 Nh5 18. Qc2 Nf4 $44 {Black has an
+excellent play.}) 8... exd5 9. cxd5 {The main position. Here Black has many
+different plans.} a6 {I prefer to include a6-a4.} ({Other possible moves are:} 
+9... Nbd7) (9... Na6) (9... h5) 10. a4 {The logical response.} (10. Be2 {
+Possible, but it looks like Black is doing great.} b5 11. O-O b4 $5 $146 {
+A nice improvement.} ({Also very possible is:} 11... Nbd7 12. Bg5 h6 13. Be3 h5
+14. Qd2 {Topalov,V (2739)-Krysa,L (2491) Caleta 2017. Here Black could continue
+} Re8 $13 {With a very double-edged position.}) 12. Na4 ({A little worse is:} 
+12. Nb1 Nbd7 13. Nd2 a5 14. Nc4 Nb6 $15) 12... Re8 {Waiting for White to
+develop his bishop from c1 and just then to push h7-h5.} 13. Bf4 h5 14. Bg5 Qc7
+15. Re1 Nbd7 $132 {[%cal Gf6h7,Gd7e5] Black has a nice play.}) 10... h5 {
+The most typical move in this pawn structure especially when White's knight is
+on g3.  Here White has two main options. 11.Bg5 and 11. Be2.} 11. Be2 (11. Bg5
+$5 Nbd7 (11... Qb6) (11... Qe8) (11... Qc7 {Similar to our main move, but
+permits 12.Qd2.}) 12. Be2 (12. Qd2 h4 $1 13. Bxh4 (13. Nge2 $6 Ne5 $17 {
+[%cal Ge5c4,Gh4h3]}) 13... Nxe4 14. Bxd8 Nxd2 15. Bc7 Nxf1 16. Kxf1 Ne5 17.
+Bxd6 Re8 18. Bxe5 (18. Bxc5 $6 Nd3 19. Ba3 $2 b5 $1 $19) 18... Bxe5 19. Nge4
+Bf5 20. a5 Bxe4 (20... Rad8 $11) 21. fxe4 (21. Nxe4 $6 Bxb2 22. Rb1 Bd4 {
+[%cal Gf7f5]}) 21... Bxc3 22. bxc3 Rxe4 $11) 12... Qc7 13. Qd2 (13. Nf1 $5 Ne5
+(13... Nh7 14. Bh4) 14. Qd2 (14. Ne3 Bd7 $1 {[%cal Gb7b5]} (14... Nh7 15. Bh4
+Bh6 16. Bf2 h4 17. O-O Qe7 18. Kh1 $14) 15. O-O (15. f4 $6 Neg4 $15) (15. a5 b5
+(15... Nh7 $5 {[%cal Gf7f5]}) 16. axb6 Qxb6 17. Qd2 Bb5 18. O-O Rfb8 19. Ra2
+Bxe2 20. Qxe2 c4 21. Kh1 Qb3 22. Nc2 Nfd7 23. Nd4 Qb7 $11) 15... b5 16. axb5
+axb5 17. Rxa8 Rxa8 18. Bxf6 Bxf6 19. f4 Ng4 (19... b4 $5 20. fxe5 Bxe5 21. Nb1
+Bxb2 22. Nc4 Bd4+ 23. Kh1 Bb5 $44 {[%csl Gb4,Gd4][%cal Ga8a1]}) 20. Bxg4 hxg4 (
+20... Bd4 21. Bxd7 Bxe3+ 22. Kh1 Qxd7 23. Qe2 Bd4 24. Nxb5 Bg7 25. Nc3 Qg4 $11
+{[%csl Rb2,Re4][%cal Gg7b2]}) 21. e5 dxe5 (21... Bg7 $5) 22. d6 Qd8 23. f5 Bg5
+$132) 14... c4 $1 15. Bh6 (15. Ne3 Nfd7 {[%cal Gd7c5]} (15... Rb8 $5 {[%cal
+Gb7b5]}) 16. f4 (16. O-O Nc5 17. Ra3 Bd7 $132) 16... Nd3+ 17. Bxd3 cxd3 18. O-O
+(18. Qxd3 $6 Nc5 19. Qc2 Bd4 $1 20. f5 Re8 $15) (18. f5 Bxc3 $5 19. bxc3 Nc5 {
+[%csl Re4]} 20. Bh6 Re8 21. O-O Nxe4 22. Qxd3 Qxc3 $11) 18... Nc5 19. f5 Re8
+$132) 15... Bxh6 16. Qxh6 Bd7 {[%cal Gb7b5]} 17. Ne3 b5 18. O-O (18. f4 Nd3+
+19. Bxd3 Qc5 20. f5 cxd3 21. fxg6 fxg6 22. O-O (22. Qxg6+ $2 Kh8 23. Qh6+ Nh7
+$19 {[%csl Re1]}) 22... Rf7 (22... b4 $5 23. Qxg6+ Kh8 24. Ncd1 Nh7 $44) 23.
+Qxg6+ Rg7 24. Qxf6 Qxe3+ 25. Qf2 (25. Kh1 $6 b4) 25... Qxf2+ 26. Rxf2 Re8 27.
+axb5 axb5 28. Re1 Rge7 $11 {[%cal Gb5b4]}) 18... Qc5 19. Kh1 Nh7 $132) (13. O-O
+c4 $1 14. Be3 (14. Qd2 {Transpose to 13.Qd2.}) (14. Kh1 $146 Nh7 15. Bh4 Rb8 $1
+(15... g5 16. Bxg5 Nxg5 17. Nxh5 Nh7 18. Nxg7 Kxg7 19. f4 $44) 16. f4 (16. a5
+b5 17. axb6 Rxb6 $132) 16... Bf6 $1 (16... b5 17. axb5 axb5 18. e5 $1 dxe5 19.
+Nge4 $36) 17. Bxf6 Ndxf6 18. e5 (18. Bf3 b5 19. Rc1 Re8 $132 {[%cal Gh5h4]})
+18... dxe5 19. d6 Qc5 20. f5 Kg7 21. Bxh5 (21. Nge4 Qd4) 21... Bd7 22. fxg6
+fxg6 23. Bf3 Ng5 $11) 14... Rb8 15. Bd4 (15. a5 b5 16. axb6 Rxb6 $1 17. Qc2 h4
+18. Nh1 h3 $132) 15... Ne8 $5 (15... b5 16. axb5 h4 17. Nh1 axb5 18. b4 $1 cxb3
+19. Nxb5 Qc2 20. Nxd6 Nxe4 $1 21. Bxg7 Qxd1 22. Rfxd1 Nxd6 23. Bxf8 Kxf8 $44 {
+[%csl Gb3]}) 16. a5 (16. Bxg7 Nxg7 $132 {[%cal Gb7b5,Gh5h4]}) 16... b5 17. axb6
+Rxb6 18. Na4 (18. Bxg7 Nxg7 19. Qc1 Ne5 $11) 18... Rb4 19. Bc3 a5 $1 20. Qd2
+Qa7+ 21. Rf2 Nc7 $132) 13... c4 14. O-O (14. Bh6 Rb8 {[%cal Gb7b5]}) 14... Rb8
+15. Be3 (15. a5 b5 16. axb6 Qxb6+ 17. Be3 Qxb2 18. Bxc4 Qxd2 19. Bxd2 Nc5 $11)
+(15. Rab1 b5 16. axb5 axb5 17. b4 cxb3 18. Rxb3 b4 (18... Nc5 $5 19. Rxb5 Bd7)
+19. Na2 {1-0 (34) Grover,S (2532)-Ootes,L (2326) Wijk aan Zee 2012} Nc5 $1 20.
+Rxb4 Nb3 $1 21. Qd3 (21. Qe1 Rxb4 22. Nxb4 Qc5+ 23. Kh1 Nh7 24. Bf4 h4 25. Nd3
+Qb6 {[%csl Rg3]} 26. Qb4 Qxb4 27. Nxb4 hxg3 28. Bxd6 Rd8 29. Bc7 Rf8 $11) 21...
+Nc5 22. Qe3 Nh7 23. Bf4 Rxb4 24. Nxb4 h4 25. Nc6 g5 $1 (25... hxg3 $2 26. Qxc5)
+26. Bxg5 Nxg5 27. Qxg5 hxg3 28. Ne7+ Kh7 29. Kh1 Qd8 30. Rb1 Bh6 31. Qf6 Bg7
+$11) (15. Rac1 b5 16. b4 bxa4 17. Nxa4 Ne5 18. Kh1 (18. f4 Nd3 19. Bxd3 Qa7+
+20. Kh1 cxd3 21. f5 Qd4 $132) 18... Nh7 19. Bh4 Qb7 20. f4 Qxb4 21. Nc3 Nd3 22.
+Bxd3 cxd3 23. Qxd3 a5 24. Rb1 Ba6 25. Qxa6 Qxc3 $11) 15... h4 16. Nh1 Nc5 17.
+Bxc4 (17. e5 $5 Nb3 (17... dxe5 18. Bxc4 $14) 18. exf6 Nxd2 19. fxg7 Nxf1 20.
+gxf8=Q+ Kxf8 21. Bxf1 Qa5 22. Nf2 Bf5 23. Re1 b5 $132) 17... Ncxe4 18. Nxe4
+Qxc4 19. Nhf2 Nxd5 (19... Bf5 $5) 20. Bh6 Qb4 21. Qg5 Bf5 22. Qxh4 f6 23. Bc1
+Rbe8 $11 {1/2-1/2 (29) Gupta,A (2198)-Opperman,R (2359) ICCF email 2020}) (11.
+Bd3 {This is a very rare move. Normally in this line, the bishop is better on e2.
+Now very easily can be attacked after Nbd7-e5.} h4 12. Nge2 Nbd7 13. O-O Rb8 {
+Prepares b5.} ({Another option is:} 13... Ne5 14. Bc2 Bd7 15. f4 Nc4 $132) 14.
+Bg5 h3 {The game is now very complicated, but it seems that Black has a good
+game.} 15. gxh3 Qe8 {[%cal Gf6h7] Prepares Nh7.} ({Black still should be
+careful. Worse is:} 15... Ne5 $6 16. f4 Nxd3 17. Qxd3 Qe8 18. f5 b5 19. axb5
+axb5 20. Ng3 $14 {White's position is more pleasant.}) 16. f4 Nh7 17. Bh4 Ndf6
+18. f5 b5 $132 {Black has a very serious counterplay.}) 11... Nh7 {[%cal Gh5h4,
+Gf7f5] Another typical move. Prepares f5 at the right moment.} 12. Be3 ({
+Of course not} 12. O-O $2 {because of} Bd4+ {with the idea after} 13. Kh1 $140
+$2 h4 $19 {[%csl Rg3] Black wins a piece.}) 12... h4 {The most accurate move
+order.} ({Big theory is:} 12... Nd7 13. O-O h4 14. Nh1 f5) 13. Nf1 Nd7 $1 {
+Black should be very accurate. I believe this is the best move order.} ({
+Worse is:} 13... f5 14. exf5 gxf5 (14... Bxf5 $6 15. g4 $1 hxg3 16. hxg3 $16)
+15. Nd2 $14 {[%csl Rf5,Rh4] Black's pawn structure can be a problem in a long
+term.}) 14. Nd2 h3 $1 {A very rare, but in my opinion the best move.} ({Worse
+is:} 14... Bd4 $6 {in view of} 15. Nc4 Qf6 16. a5 $16 {White has the advantage.
+}) ({In most of the games in this position Black played:} 14... f5 15. exf5
+gxf5 16. O-O Re8 17. Bf2 $14 {I think,this position is very dangerous for
+Black.}) 15. g3 {The most logical move.} ({A bit strange is:} 15. O-O Bd4 $1 {
+A nice intermediate move.} 16. Bf2 ({Clearly worse is:} 16. Bxd4 $6 cxd4 17.
+Ncb1 f5 $17 {Black takes the advantage.}) 16... hxg2 17. Kxg2 Re8 $132 {
+The game is very sharp, but Black has a good chance here.}) 15... Re8 16. O-O
+Rb8 $146 {A good improvement. For now, I prefer to prepare b5 and postpone
+f5.} ({Also an option is:} 16... f5 {Herzog,K (2022)-Belanoff,S (2339) LSS
+email 2009.} 17. Qc2 $13 {The game is still very sharp and unclear.}) 17. Kh1 {
+White has plenty of other moves here. For example:} (17. Qc2 {Another
+logical move.} Ne5 18. Kh1 f5 {Already is time for this typical push.} 19. a5
+b5 20. axb6 Rxb6 $132 {The game is very double-edged.}) (17. a5 b5 18. axb6
+Nxb6 {This is a rare case where taking with the knight is better than with the
+rook.} 19. Nb3 ({To an equal game leads.} 19. Bxa6 Bxa6 20. Rxa6 Bxc3 21. bxc3
+Nxd5 22. Nc4 Nxe3 23. Nxe3 Qf6 {[%csl Rc3]} 24. Nd5 Qe5 $11 {Black has no
+problems.}) 19... Nd7 $5 {[%csl Rb2][%cal Gb8b2] Keeps the tension.} ({Also an
+option is:} 19... Bxc3 20. bxc3 Nxd5 21. Qxd5 Be6 22. Qd2 Rxb3 23. Rxa6 Qb8 $13
+{[%cal Gb3b2] With an unclear game.}) 20. Ra2 Qc7 $132 {Black has enough
+counterplay.}) (17. Nc4 $6 {This is not very accurate in view of} Ne5 18. Nxe5
+Bxe5 19. Qd2 Bd7 $15 {[%cal Gb7b5] Black is taking the advantage.}) 17... Ne5 {
+Provoking f4.} 18. f4 ({The alternatives are:} 18. Qc2 f5 $132) (18. Ra3 f5
+$132) 18... Nd7 {[%csl Re4] The game now is very double-edged.  The game can
+continue:} 19. g4 b5 $1 20. axb5 axb5 21. Nxb5 Ndf6 22. Nc3 Rxb2 23. Ra3 Qc7 ({
+The other options are:} 23... Qe7 $5) (23... Bd7 $5) 24. g5 Rxd2 $1 {Black
+still must play very dynamic.} 25. Bxd2 Nxe4 26. Nxe4 Rxe4 27. Bf3 Rd4 28. Qe2
+Nf8 $44 {Black has more than enough compensation for the exchange down.} *
+
+[Event "?"]
+[Site "?"]
+[Date "2022.??.??"]
+[Round "?"]
+[White "Chapter 3"]
+[Black "Saemish 6.Be3 c5 7.d5"]
+[Result "*"]
+[ECO "E81"]
+[Annotator "GM Ivan Cheparinov"]
+[PlyCount "42"]
+[SourceVersionDate "2022.06.24"]
+
+{[%evp 0,11,22,24,25,4,39,26,26,26,34,17,9,24]} 1. d4 Nf6 2. c4 g6 3. Nc3 Bg7
+4. e4 d6 5. f3 O-O 6. Be3 {The most popular move.} c5 {Once again I prefer the
+Benoni setup.} 7. d5 {A rare move compare to 7.Nge2 and 7.dxc5. Nowadays the
+theory proved that Black is doing great here.} e6 8. Qd2 ({After:} 8.
+Nge2 exd5 9. cxd5 Nbd7 10. Ng3 h5 {Transpose to the previous chapter with 6.
+Nge2.}) 8... exd5 9. cxd5 a6 {Almost always is good to include this move.} 10.
+a4 Re8 {The critical position. White has two main options here.} 11. Nge2 {
+The main move, although I believe Black has zero problems here.} (11. Bd3 $6 {
+Once again, this is not the optimal square for the bishop.} Nbd7 {[%cal Gd7e5]}
+12. Nge2 Ne5 13. O-O Nxd3 14. Qxd3 Nd7 {[%cal Gd7e5]} 15. f4 Nf6 $1 $15 {
+[%csl Re4] I believe Black is already better.}) (11. Be2 $5 {A very awkward, but
+interesting move. Recently was played by very strong players, including Jan
+Duda. The idea is to wait for 11...Nbd7 and then to play 12.Nh3 followed by Nf2.
+} h5 {A good waiting move.} ({Another interesting waiting move is:} 11... Qe7)
+12. h4 {[%cal Gg1h3] The most logical response to h5.} ({The alternatives are:
+} 12. Bd1 $6 {This looks a bit too slow for White.} Nbd7 13. Nge2 Ne5 {[%cal
+Ge5c4]} 14. b3 {White must prevent Nc4.} b6 $1 {[%cal Ga8b8,Gb6b5] Black has
+time for this slow,but very strong plan.} 15. O-O Rb8 16. Bc2 b5 $15 {Black
+was better in the game: Yevseev, D (2503)-Sakaev, K (2649) St Petersburg 1999.})
+(12. Bh6 {This is another logical move.} Bh8 {Of course the bishop is
+important.} 13. Bf4 ({Another option is:} 13. Nh3 Bxh3 14. gxh3 {Looks strange
+for White, but in fact, the game is still very double-edged.} Nbd7 15. O-O Rc8
+16. Kh1 c4 $132 {With a very sharp game in the game: Schlenther, M (2517)
+-Nichols, S (2372) LSS email 2020.}) 13... Nh7 {The solution of the engines.} ({
+Also possible is:} 13... Qc7 $5 {[%cal Gb8d7,Gc5c4]}) 14. h4 Bd4 $1 {[%csl Gd4]
+} 15. Bd3 Qe7 16. Nge2 Bf6 17. g3 Nd7 $13 {Black was doing fine in the game:
+Figlio,G (2484)-Sasikiran,K (2553) ICCF email 2020.}) (12. a5 {Here Black is
+completely fine after:} b5 13. axb6 Qxb6 $132) 12... Qc7 $5 {Another waiting
+move.} ({The other options are also playable:} 12... Nh7 13. g3 f5 14. Nh3 ({
+May be interesting is:} 14. Bd3 $5) 14... fxe4 $6 ({Here better was:} 14...
+Bxc3 $1 15. bxc3 fxe4 16. Nf4 Qe7 $13 {with a very complicated game.}) 15. Nxe4
+Bf5 {This position occurred in the game Duda, J (2738)-Naroditsky, D (2623)
+chess24.com INT 2021. Here White could take advantage after:} 16. Nhf2 $14)
+(12... Nbd7 {Is also an option.} 13. Nh3 Ne5 14. Nf2 Bd7 15. O-O Rb8 16. a5 b5
+17. axb6 Rxb6 $11 {Looks like a very playable position.}) 13. Kf2 {Still
+waiting for Nbd7.} ({If} 13. Bh6 {then} Bh8) ({Clearly worse is:} 13. Nh3 $6
+Bxh3 14. Rxh3 Nbd7 $15 {[%csl Re1] Black is better.}) (13. a5 b5 14. axb6 Qxb6
+$132 {Black lost a tempo, but this does not make a big difference.}) (13. g4 {
+A very direct approach. I believe Black has enough defensive resources.} hxg4
+14. Bh6 Qe7 ({Also interesting is:} 14... Re5 $5) 15. h5 Nbd7 16. Bxg7 Kxg7 17.
+hxg6 fxg6 18. Qh6+ Kg8 $1 {[%cal Ge7g7] The best defense.} 19. Qxg6+ Qg7 20.
+Qxg7+ Kxg7 21. Kd2 Ne5 $11 {Only White can be worse in this endgame.}) 13...
+Nbd7 {Black's waiting move are over.} ({A bit worse is:} 13... c4 14. Ra3 Nbd7
+15. Nh3 Nc5 16. Ng5 Nb3 17. Qc2 Nd7 18. Rd1 $14) 14. Nh3 Ne5 15. Ng5 Bd7 {
+[%csl Ge5] With h5-h4 included, the knight on e5 is untouchable, because the
+plan h3-f4 is no longer available.} 16. Rhc1 {[%cal Gc1c7] The best position
+of White's rook. Other options are:} (16. a5 b5 17. axb6 Qxb6 18. b4 $5 {
+A very typical idea. Here the game is very complex and sharp.   The next couple of
+moves is very forced:} Qxb4 19. Rhb1 Nc4 $1 20. Qc1 Nxe3 21. Rxb4 cxb4 22.
+Qxe3 bxc3 $44 {[%csl Gc3] Black has a very serious counterplay, but the game is
+still very concrete.} 23. Qf4 ({The same is:} 23. Qb6 Rab8) 23... Rab8 $1 24.
+Qxd6 c2 {[%csl Gc2]} 25. Rc1 ({Also a draw is:} 25. e5 Rb1 26. exf6 c1=Q 27.
+Rxb1 Qxb1 28. Qxd7 Rxe2+ 29. Kxe2 Qc2+ 30. Ke3 Qc3+ $11 {With a perpetual
+check.}) 25... Ng4+ $1 {Clearly the best move.} 26. fxg4 Bd4+ 27. Ke1 {The
+rest of the moves are worse for White:} (27. Kg3 $2 {Here Black wins after:}
+Rb3+ 28. Nf3 Be5+ 29. Qxe5 Rxe5 30. Kf4 Re8 31. Rxc2 Bxg4 $19 {White's
+position is hopeless.}) (27. Kf1 $6 {Maybe still holds, but very risky for
+White after:} Rb1 28. Qf4 f6 29. Ne6 Bb2 30. Qc7 $1 {The only way to keep the
+balance.} Rxc1+ 31. Kf2 Rf1+ 32. Bxf1 c1=Q 33. Qxd7 Bd4+ $1 {The best chance.}
+34. Kg3 ({Black wins after:} 34. Nxd4 $2 Rxe4 35. Qd8+ Kf7 $19) 34... Qe3+ 35.
+Kh2 Qg1+ 36. Kh3 Qh1+ 37. Kg3 Be5+ 38. Kf2 Qxh4+ 39. Ke2 Qxg4+ 40. Kd2 Rxe6 {
+The only way to continue fighting for a win.} 41. dxe6 Qf4+ 42. Ke2 Qxe4+ 43.
+Kd1 $15 {[%csl Gd7,Ge6] It is not obvious how Black can win here.}) 27... Bc3+
+28. Kf1 {The only way to play for a win.} (28. Kf2 Bd4+ $11) 28... Rb1 29. Qf4
+f6 30. Bd3 $1 fxg5 {Black has also some alternatives.} 31. Qxg5 Rf8+ 32. Kg1
+Bd4+ 33. Kh1 Rf6 $1 {The best move. Now a draw is:} 34. Bxc2 Rf1+ 35. Rxf1
+Rxf1+ 36. Kh2 Bg1+ 37. Kg3 Bf2+ $11 {With a draw.}) (16. Rhb1 {[%cal Gb2b4] A
+very logical move. Prepares b4.} Nh7 $1 {[%cal Gg7c3] I think this is the best
+move, stopping b4 for now.} ({A bit worse for Black is:} 16... b5 17. axb5 axb5
+18. Nxb5 Bxb5 19. Bxb5 Rxa1 20. Rxa1 Rb8 21. Be2 $14) 17. a5 Nxg5 18. hxg5 Rab8
+{[%cal Gb7b5]} 19. Kg1 b5 20. axb6 Rxb6 21. Rxa6 Rxa6 22. Bxa6 c4 $44 {[%csl
+Ra6] Black has an excellent game for the pawn.}) 16... Qa5 ({Also an option is:
+} 16... Qd8 $5) 17. Kg1 Nh7 $11 {Looks fine for Black. The game is
+approximately equal.}) 11... Nbd7 12. Nc1 {A typical way to develop the pieces.
+} ({A strange, but possible move is.} 12. Nd1 {[%cal Ge2c3]} Nh5 $5 $146 {
+A good improvement.} ({Also good is:} 12... Ne5 13. Nec3 Bd7 $132 {[%cal Gb7b5]
+}) 13. Nec3 f5 14. Be2 Qh4+ 15. Bf2 Qf6 $132 {Black has an excellent game.}) ({
+Another option is:} 12. Ng3 h5 13. Be2 ({Or} 13. h4 Ne5 14. Be2 Nh7 $132 {
+[%csl Rh4] For White will be very difficult to make a castle.}) 13... h4 14. Nf1
+Nh7 {[%cal Gf7f5] Black is doing great here.  For example:} 15. Bf2 h3 16. Rg1
+({Worse is:} 16. g4 $6 Ne5 $17) 16... hxg2 17. Rxg2 Ndf6 $132 {According to
+engines the game is about equal, but in a practical game, definitely will be
+easier for Black.}) 12... Ne5 13. Be2 Nh5 {[%cal Gf7f5] The plan in this
+position.} 14. O-O f5 15. f4 {The only way for White to not be worse.} ({
+In case of:} 15. exf5 $6 Bxf5 16. Re1 ({Or} 16. g4 $2 Nxg4 $1 {A nice tactic.
+Black is crushing here.} 17. fxg4 Rxe3 $1 18. gxf5 Qg5+ 19. Kh1 Ng3+ $1 20.
+hxg3 Qxg3 21. Rf3 Rxf3 22. Bxf3 Re8 $1 $19 {[%cal Ge8e1] Black wins.}) 16... b6
+$15 {[%cal Ga8a7,Ga7e7] Black is already at least slightly better.}) 15... Ng4
+16. Bxg4 fxg4 17. N1e2 b6 {[%cal Ga8a7,Ga7e7] This position occurred in the
+game: Agafii,V (2259)-Macovei,A (2454) Kishinev 2022. The game here is still
+balanced but looks very easy game for Black. For example:} 18. Rae1 Ra7 19. Ng3
+Nxg3 20. hxg3 Rf7 {I like this move. Black wants to keep the game going.
+Prevents f5 for now.} ({Equal is:} 20... Bxc3 21. Qxc3 Rxe4 22. f5 $1 {[%cal
+Ge3h6] White must create problems for Black's king.} Bxf5 23. Bh6 Rxe1 24. Rxe1
+a5 25. b3 Rf7 26. Qe3 $11 {For Black is very difficult to make any progress.})
+({Also an option is:} 20... Rae7 21. f5 Rf7 22. Bg5 Bd4+ 23. Kh2 Qd7 24. Ne2
+Be5 $13 {With a very sharp game.}) 21. Bf2 h5 $132 {The game is approximately
+equal, but I like Black's chances.} *
+
+[Event "?"]
+[Site "?"]
+[Date "2022.??.??"]
+[Round "?"]
+[White "Chapter 4"]
+[Black "Saemish 6.Be3 c5 7.Nge2"]
+[Result "*"]
+[ECO "E81"]
+[Annotator "GM Ivan Cheparinov"]
+[PlyCount "69"]
+[SourceVersionDate "2022.06.24"]
+
+{[%evp 0,11,22,24,25,4,39,26,26,26,34,17,9,24]} 1. d4 Nf6 2. c4 g6 3. Nc3 Bg7
+4. e4 d6 5. f3 O-O 6. Be3 c5 7. Nge2 {The most critical line nowadays. Here
+usually the game is very sharp and double-edged.} Nc6 {Black must keep the
+pressure in the centre.} 8. d5 {The other options are:} ({In case of} 8. dxc5
+dxc5 9. Qxd8 Rxd8 10. Bxc5 {Transposes to the next chapter.}) (8. Qd2 {It is a
+logical move, but not very dangerous for Black.} Qa5 $1 {The best move, Black
+is getting ready for the actions in the centre.} 9. d5 {It is difficult to
+keep the centre untouched.} (9. O-O-O {Looks a bit risky for White.} Rb8 $5 {
+A bit unusual move, but a very decent one.} ({Also good is:} 9... b6 $5) 10. Kb1
+b6 $1 {[%cal Gc8a6] Prepares Ba6.} 11. d5 (11. h4 {White's attack is too slow.}
+Ba6 $132) 11... Ne5 12. Nc1 Bd7 $132 {[%cal Gb6b5,Ga7a6] Black has an
+excellent play on the queen's side.}) (9. Rd1 {Another waiting move.} a6 {
+[%cal Gb7b5] The most logical way to continue. Prepares b5.} ({Also good are:} 
+9... b6 $5) (9... Rb8 $5) 10. dxc5 {With a6 played, already d5 looks not
+logical because after Ne5 Black is ready to play b5 immediately.} dxc5 11. Nc1
+{[%cal Gc1b3]} ({Or} 11. Nd5 Qxd2+ 12. Rxd2 Nd7 $11 {[%cal Ge7e6] Black has a
+good game.}) 11... Rd8 12. Nd5 Qxd2+ 13. Rxd2 Nd7 14. Nb3 ({Or} 14. Bg5 Kf8 $11
+) 14... b6 $11 {[%cal Ge7e6] Black is doing very well. e7-e6 is coming next.})
+(9. Rc1 {Looks worse than the rook on d1.} a6 $132 {[%cal Gb7b5]}) 9... Ne5 10.
+Ng3 {The most normal move.} ({The alternative is:} 10. Nc1 Nfd7 $1 {[%cal
+Gd7b6] The best plan here. For White is very difficult to protect the c pawn.}
+11. Nb3 Qb4 12. Nb5 Qxd2+ 13. Nxd2 a6 14. Nc3 f5 $132 {Black is at least not
+worse in the game: Amico, R (2378)-Doric, N (2376) ICCF email 2016.}) 10... Nfd7
+$1 {[%cal Gd7b6] Clearly the best plan. Provokes f4, otherwise is very
+difficult to protect the c pawn.} 11. f4 ({If} 11. Be2 $2 {White is already
+lost after:} Nb6 $1 $19 {[%csl Rc4]}) 11... Ng4 12. Bg1 {The is still sharp,
+but Black is doing well. I White should be more careful.} Ngf6 13. Be2 a6 {
+[%cal Gb7b5]} 14. Be3 b5 15. O-O Nb6 {[%cal Gb6c4]} 16. f5 $1 {The only way to
+create counterchances. To more or less a forced draw leads:} Nxc4 17. Bxc4 bxc4
+18. fxg6 hxg6 19. Bh6 Bxh6 20. Qxh6 Ng4 $1 21. Qh3 ({Also a draw is:} 21. Qh4
+f6 22. Nf5 $1 gxf5 23. Rf3 {[%cal Gf3h3]} Rf7 {Black has enough defensive
+resources.} 24. Qh5 $1 Bb7 25. Rh3 Rg7 26. exf5 Ne5 27. Re1 Qb6 28. Rxe5 dxe5
+29. Qh8+ Kf7 30. Qh5+ Kf8 31. Qh6 $1 $11 {with this move White keeps the
+balance.}) 21... Ne3 22. Nf5 ({Or} 22. Qh6 Ng4 $11) 22... Nxf1 {Here a draw
+was agreed in the game: Kibalnichenko, S (2181)-Popov, E (2365) ICCF email 2017.}
+23. Qh6 Bxf5 24. exf5 Qb4 25. Rxf1 Qxb2 26. fxg6 fxg6 27. Qxg6+ Kh8 28. Qh6+
+$11 {With a perpetual check.}) 8... Ne5 9. Ng3 ({Much worse is:} 9. Nc1 $6 e6
+10. Be2 exd5 11. cxd5 Nh5 $1 {[%cal Gd8h4,Gf7f5] White is already in a serious
+danger.} 12. g4 $1 {The only chance for White.} ({Worse is:} 12. O-O f5 $17)
+12... f5 $1 {There is no way back.} 13. gxh5 fxe4 14. f4 Qh4+ 15. Kd2 Rxf4 $1 {
+Black's attack is quite serious.} 16. Bxf4 ({Probably better is:} 16. Qe1 $5
+Qf6 17. Bxf4 Qxf4+ 18. Kd1 Ng4 {[%cal Gg4e3,Gg4f2]} 19. Bxg4 Bxg4+ 20. N1e2 Qe3
+21. Qd2 Qh3 $40 {[%cal Ge4e3] White is still under serious attack.}) 16...
+Qxf4+ 17. Kc2 b5 $1 {Black is attacking with all forces.} 18. Rf1 Qxh2 19. hxg6
+hxg6 20. a4 ({Or} 20. Rh1 Qf4 21. Rf1 Qg5 $40) 20... b4 21. Nxe4 Ng4 $1 {
+[%cal Gg4e3]} 22. Kb1 Ne3 23. Qd2 Nxf1 24. Bxf1 Qe5 $17 {Black was better in
+the game: Husemann, A (2285)-Anderskewitz, R (2325) LSS email 2019.}) 9... e6 ({
+Another big line is:} 9... h5 $5 10. Be2 h4 11. Nf1 e6 12. Bg5 $13 {With a
+very big complications.}) 10. Be2 exd5 11. cxd5 {This is the critical position.
+Black has different plans.} b5 $5 {A rare move, compared to the main lines.
+Black sacrifices a pawn but immediately gets the initiative. The game here is
+very concrete and requires a lot of knowledge from both sides.} ({More popular
+are:} 11... h5) (11... a6) 12. Nxb5 {I believe the best and the most
+challenging move for Black.} ({The other possible capture is:} 12. Bxb5 Rb8 {
+[%cal Gb8b2]} ({The alternative is:} 12... h5 $5) 13. Rb1 {A bit passive, but
+protects the b pawn for now.} ({After:} 13. O-O {interesting is:} Nfg4 $5 14.
+fxg4 Nxg4 {[%csl Rb5,Rc3,Re3][%cal Gg7c3,Gb8b5,Gg4e3] All White's pieces are
+under attack.} 15. Rf3 Bxc3 ({Also fine is:} 15... Nxe3 16. Rxe3 Bd4 17. Nf1 f5
+18. exf5 gxf5 19. Kh1 f4 20. Re4 Bxc3 21. bxc3 Rxb5 22. Qd2 Qf6 $11 {With
+approximately an equal game.}) 16. bxc3 Rxb5 ({Also good is:} 16... Nxe3 17.
+Rxe3 Rxb5 $11) 17. Bf4 Qe7 $11 {Black has equal chances. Galopoulos, N (2430)
+-Gaehwiler,G (2260) Plovdiv 2012.}) 13... h5 $1 {[%cal Gh5h4] Already is time
+for this typical idea.} 14. O-O h4 15. Nh1 ({Worse is:} 15. Nge2 $6 Nh5 16. Qc1
+Qa5 $15 {[%csl Rb5] The problem for White now is that the bishop does not have
+the e2 square.}) 15... h3 {The easiest way to gain a lot of play.} ({
+Interesting, but not enough is:} 15... Nxe4 $6 16. fxe4 Ng4 17. Bd2 Be5 18. Nf2
+Nxh2 19. Qc1 $14 {White keeps a small advantage.}) ({Unclear is:} 15... Nh5 $5
+16. Nf2 g5 17. Qd2 Nf4 18. Bxf4 gxf4 19. Qxf4 f5 $44 {Black definitely has a
+nice compensation for the pawns.}) 16. g3 ({In case of:} 16. Bg5 hxg2 17. Kxg2
+{Black has the nice trick..} Nxd5 $1 $132 {[%csl Rg5][%cal Gd5e3]}) 16... Qa5
+$1 {[%csl Rb5]} 17. Be2 ({Worse is:} 17. a4 $6 c4 {[%csl Rb5]}) 17... Ba6 $1 {
+[%cal Ge5c4] The threat now is Nc4.} 18. Bxa6 ({Or} 18. Nf2 Nc4 $132 {[%csl
+Rb2,Re3][%cal Gc4b2,Gc4e3]}) 18... Qxa6 19. Nf2 Nfd7 ({Also possible is:} 19...
+Nc4 20. Qd3 Rb6 $44) 20. Nxh3 Nc4 $132 {[%csl Rb2,Re3][%cal Gc4b2,Gc4e3] Black
+has an excellent counterplay on the queenside.}) ({To not take the pawn,
+looks very strange for White:} 12. O-O $6 b4 13. Nb1 a5 $15 {Black is better.})
+({Or} 12. Qd2 b4 13. Nd1 Re8 14. O-O Qb6 15. Bh6 Bh8 16. Ne3 c4 17. Kh1 Ba6 18.
+Rac1 Rac8 $132 {Black has an excellent game.}) 12... Rb8 {A very critical
+moment. White has two serious moves here.} 13. Qd2 {The most played move.
+White wants to keep the pawn up for now.} ({Another option is to give the pawn
+back by} 13. O-O $5 a6 14. Nc3 {The most serious try. The rest of the moves
+are harmless:} (14. Na7 {Looks a bit strange.} Rxb2 ({A bit worse is:} 14...
+Bd7 15. b3) 15. Nxc8 Qxc8 16. Bd2 {[%cal Gd2c3] White transfers the bishop to
+c3. The game is still very dynamic, but probably approximately equal.} Re8 17.
+Bc3 Rb8 18. Nh1 {[%cal Gh1f2] A nice and typical idea.} Bh6 $5 {[%cal Gh6e3]
+Also a typical plan. Black wants to activate his bishop.} 19. Nf2 Be3 20. Kh1
+c4 21. Bd4 {There is nothing better.} Bxd4 22. Qxd4 Rb5 $11 {I believe the
+game is equal. For example:} 23. f4 Ned7 24. Bxc4 Rb4 25. Rac1 Qc5 26. Qxc5
+Nxc5 {[%csl Re4] White cannot keep the pawn up.}) (14. Na3 Rxb2 15. Qc1 ({Or} 
+15. Rb1 Rxb1 16. Qxb1 {Goryachkina,A (2518)-Lagno,K (2560) St Petersburg 2018.}
+h5 $132 {Black has a very nice game.}) 15... Rb4 {The rook is very nicely
+placed here.} 16. Bg5 ({If} 16. h3 {[%cal Gf3f4] then} h5 $1) 16... Re8 17. Kh1
+Bd7 18. f4 {White already must do something.} Neg4 19. Bxg4 Bxg4 20. Nc4 Qd7 {
+Black is completely fine. For example:} 21. a3 Rbb8 22. Qc2 Nh5 $1 23. Nxh5
+Bxh5 24. Rae1 f5 $11 {With a good game for Black.}) 14... Rxb2 15. Qc1 (15. h3
+{[%cal Gf3f4] A possible move. Prepares f4.} Nfd7 $1 {[%cal Gd8h4]} 16. Qc1 ({
+Or} 16. f4 Qh4 17. Nh1 Nc4 18. Bxc4 Bxc3 $132 {Black has good counterplay.})
+16... Rb4 {[%cal Ge5c4]} 17. f4 Nc4 18. Bf2 Re8 $132 {Black has a very nice
+game. After 19.a3 Black is planning to play Rb3.}) 15... Rb4 16. Bh6 c4 {
+[%cal Gd8b6,Ge5d3] The game is very sharp here. Definitely Black should be a
+bit careful, but with a few accurate moves, Black can get equal chances.} 17.
+h3 {[%cal Gf3f4]} ({The alternative is:} 17. Bxg7 Qb6+ 18. Kh1 Kxg7 19. Qd2 h5
+{[%cal Gh5h4]} 20. f4 {White has nothing better.} Nd3 21. Bxd3 cxd3 22. h3 ({
+White is worse after:} 22. Qxd3 $6 h4 23. Nge2 a5 {[%cal Gc8a6]} 24. e5 dxe5
+25. fxe5 Ng4 $15) 22... h4 23. e5 hxg3 24. exf6+ Kxf6 25. Qxd3 {White will win
+a pawn, but the game remains very balanced after:} Re8 26. Rfe1 ({Or} 26. Qxg3
+Re3 27. Qg5+ Kg7 28. f5 Re5 $1 {[%cal Ge5g5]} 29. f6+ Kh7 30. Qg3 Rc4 31. Rf3
+g5 $44 {[%cal Gb6d4] Black has an excellent compensation.}) 26... Rxe1+ 27.
+Rxe1 Kg7 28. Qxg3 Rc4 $44 {[%cal Gb6d4,Gc8f5] I don't think Black can be worse
+here. Black has a nice activity of his pieces.}) 17... Bxh6 18. Qxh6 a5 {
+[%cal Gc8a6] An important move. The idea is to support Nd3 with Ba6.} 19. Nd1 {
+[%cal Gd1e3] A nice manouvre.} ({The alternative is:} 19. Rac1 Nd3 20. Bxd3 ({
+Or} 20. Rc2 Qb6+ 21. Kh2 Qd4 {[%csl Gd4] The queen is perfectly placed here.}
+22. f4 Bd7 23. Qh4 Kg7 $11 {Black is fine.}) 20... cxd3 21. Rfd1 Ba6 22. e5 {
+The is sharp but objectively equal.} dxe5 23. Nge4 Nxe4 24. Nxe4 f6 25. Nc5 Bc8
+26. Rxd3 Rd4 $1 {The only move to keep the balance.} 27. Rxd4 exd4 28. Re1 Bf5
+({Of course not} 28... Qxd5 $2 {because of} 29. Re7 $18) 29. Nb7 Qd7 30. Nxa5
+g5 31. Nb3 d3 $11 {[%csl Gd3] Black is not worse.}) 19... Ba6 20. Rc1 Qe7 {
+[%cal Gf8b8] The queen should be close to our king.} 21. Ne3 Rfb8 22. Rc3 Qf8
+23. Qh4 Qd8 24. f4 Nd3 $13 {I believe Black has his chances.} 25. Qh6 ({After:
+} 25. Nef5 {strong is:} h5 $1 26. Qg5 Rb1 $1 27. Nd4 Rxf1+ 28. Bxf1 Nd7 29.
+Qxd8+ Rxd8 $11 {The endgame should be equal.}) 25... Rb1 26. Kh2 Rxf1 27. Bxf1
+Qf8 28. Qg5 Qd8 $11 {Looks fine for Black. The knight on d3 is quite strong.})
+13... h5 $1 {[%cal Gh5h4] Black is playing on both sides.} 14. O-O ({Worse is:
+} 14. Bg5 $6 {because of} Ba6 15. f4 Nc4 $1 16. Bxc4 Bxb5 $15 {[%csl Rb2,Re4]
+Black is better.}) ({Also risky is:} 14. h4 Ba6 15. a4 Bxb5 $5 {A concrete
+decision,which works quite good here.} ({Also possible is:} 15... Nfd7 $132)
+16. axb5 ({Worse is:} 16. Bxb5 $6 Nfd7 $1 {[%csl Rh4]} 17. Rb1 Rxb5 $1 {
+A very nice positional exchange sacrifice.} 18. axb5 Nc4 19. Qe2 Nxe3 20. Qxe3
+Qa5+ 21. Qd2 Qxb5 22. Ne2 Ne5 23. O-O Nc4 $15 {White has too many weaknesses.
+Black's play is very easy.}) 16... c4 17. Rc1 ({After:} 17. Qb4 {good is:} Re8
+$132 {With the idea after:} 18. Rxa7 $2 {to play} Nxd5 $1 19. exd5 Nd3+ 20.
+Bxd3 Qb6 $1 $19 {Black wins.}) 17... Rxb5 18. Bxc4 Nxc4 19. Rxc4 Nd7 {[%csl
+Rb2]} 20. Rc2 Ne5 {[%csl Ge5] Black has nice domination. The game is still
+level after:} 21. Ne2 {[%cal Ge2d4]} (21. Bd4 Rb3 {[%cal Ge5d3,Gb3d3]}) 21...
+Rxb2 {A small tactic.} 22. Rxb2 Nc4 23. Qc1 Nxb2 24. O-O a5 25. Nd4 Qb8 26. Nc6
+Qb5 $11 {With an equal game.}) 14... h4 15. Nh1 h3 {A very critical moment.
+White has different options:} 16. Ng3 {Probably the most critical.} ({Not a
+good idea is:} 16. Nc3 $2 hxg2 17. Kxg2 Nh5 18. Rab1 Rb4 19. Nf2 f5 $17 {
+Black was much better in: Aczel, G (2551)-Costachi, M (2453) Arad 2018.}) (16.
+Nxa7 {A risky, but possible move.} Nxd5 $5 {Leads to big complications.} ({
+Unclear is:} 16... Bd7 $13) 17. exd5 ({Worse is:} 17. Qxd5 $2 {because of} Rxb2
+18. Rf2 Be6 19. Qd1 Qd7 {[%csl Ra7]} 20. Nb5 Rxb5 21. Bxb5 Qxb5 22. Rb1 Qa6 $17
+{[%cal Ge5c4] Black is clearly better.}) 17... Rxb2 $1 {The whole point of the
+combination.} 18. Qxb2 Nxf3+ 19. Rxf3 Bxb2 {White pieces are lucking
+coordination, still with correct play the game is approximately equal.} 20. Rb1
+({Or} 20. Nc6 Qh4 21. Rb1 Bf6 22. Nf2 hxg2 $13 {With a very double-edged
+position.}) 20... Bg4 $1 21. Nc6 Qa8 22. Rxb2 Qa3 {Everything is hanging now.}
+23. Rd2 Re8 24. Nf2 Bxf3 25. Rd3 Qxa2 26. Bxf3 {White has 4! pieces for the
+queen, but still Black has the initiative and after:} Qc2 {[%cal Gc5c4]} ({
+Also interesting is:} 26... f5 $5 {[%cal Gf5f4]}) 27. gxh3 c4 {White must
+force a draw with} 28. Bd1 cxd3 29. Bxc2 dxc2 30. Bg5 c1=Q+ 31. Bxc1 Re1+ 32.
+Kg2 Rxc1 33. Ne4 Kf8 34. Nxd6 Rd1 {There is no way to keep the d5 pawn.} 35.
+Ne5 Rxd5 36. Nexf7 Kg7 $11 {The draw is obvious.}) (16. Nf2 {Objectively not
+so bad, but looks very dangerous for White.} hxg2 17. Kxg2 Nh5 $1 {[%cal Gd8h4]}
+18. f4 {This position occurred in the game: Gundavaa, B (2500)-Salem, A (2567)
+Tagaytay City 2013. Here Black had many interesting ideas.} Qh4 ({The
+alternatives are:} 18... f5 $5) (18... Ng4 $5) 19. Nxd6 {The best defence.} Nf3
+$1 {Looks very tempting.} 20. Kxf3 {The only move.} (20. Bxf3 $2 {Looses to}
+Rxb2 21. Qd3 Nxf4+ 22. Bxf4 Bh3+ 23. Kg1 Qxf4 $19 {Black's attack is
+unstoppable.}) 20... Rxb2 21. Qc1 ({Also a draw is:} 21. Qe1 Bd4 $1 22. Nxc8
+Bxe3 23. Ne7+ Kg7 24. Kxe3 Qxf4+ 25. Kd3 Qe5 26. Ke3 $1 Qf4+ $11 {With a draw.}
+) 21... Bg4+ {One of the ways to force a draw.} 22. Nxg4 Qh3+ 23. Kf2 Qh4+ $11
+{With a perpetual check.}) (16. g3 {The most played and the most human
+reaction to Black's last move.} Nxf3+ $1 {A very nice tactical move. Black
+gets the initiative, although the game is still very double-edged.} 17. Rxf3 Nxe4
+18. Qc2 ({Worse is:} 18. Qd3 $2 Re8 19. Raf1 Bf5 $17) 18... Re8 {Black has a
+very nice positional compensation for the piece. The king is very weak, and
+White's pieces lack coordination.} ({Probably also good is:} 18... Qe8 $5) 19.
+Raf1 {This position occurred in the game: Le, T (2485)-Belous, V (2567) Chess.com
+INT 2018. Now Black could continue with} (19. Bd3 $2 {It's not a good idea in
+view of} Bg4 $1 20. Rf4 ({Or} 20. Rff1 Nxg3 $1 21. hxg3 Rxe3 $17 {With a clear
+advantage. Black has full domination.}) 20... Ng5 $1 {[%cal Ge8e3] A very
+important nuance.} 21. Qf2 {Grigoryan,K (2658)-Korobov,A (2688) Silla 2020.
+Here Anton should have opted for} ({The alternative is:} 21. Rxg4 Rxe3 22. Nf2
+Nf3+ 23. Kh1 Re1+ {I believe Black is winning by force here.} 24. Rxe1 Nxe1 25.
+Qd2 Nxd3 26. Qxd3 Qf6 27. Nxh3 Rxb5 28. Qxb5 Qf3+ 29. Kg1 Qxg4 30. Nf2 Bd4 $19
+{With an easy win.}) 21... Bd7 22. Nc3 Rxe3 $1 23. Qxe3 Rxb2 {[%cal Gb2g2,
+Gg7c3] Black has fantastic domination.} 24. Qc1 Rg2+ 25. Kf1 Qa5 {Black
+starts taking some material back.} 26. Ne2 Bxa1 27. Qxa1 Qd2 28. Nf2 Rxf2+ 29.
+Rxf2 Qxd3 $19 {White's position is completely hopeless.}) (19. Nf2 {This move
+also keeps the balance.} Bf5 20. Bd3 Nxf2 21. Bxf5 Rxb5 22. Bxg6 fxg6 23. Qxg6
+Re7 {Black must stop Rf7.} 24. Bxf2 Qe8 {Black has full compensation, but the
+game remains level. For example:} 25. Qxd6 Rxb2 26. Rf1 c4 {[%csl Gc4]} 27. Qc5
+c3 {The draw is near.} 28. d6 Ree2 29. Qd5+ Qe6 30. Qxe6+ Rxe6 31. Rd3 Rd2 32.
+Rxd2 cxd2 33. Rd1 Rxd6 34. Be3 Bc3 $11) 19... a6 $5 {Probably the most
+concrete continuation.} ({The possible alternatives are:} 19... Bf5) (19... Qa5
+) 20. Nc3 Bf5 $1 21. Rxf5 Rxb2 $1 {An important intermediate move.} 22. Qxb2
+gxf5 23. Rxf5 Nxc3 24. Bh5 Re7 $1 {It is important to start with this move.
+Now White has many ways to make a draw. One of them is:} 25. Qc2 ({Or} 25. Qf2
+Qe8 26. Qf1 Rb7 $1 {[%cal Gb7b1]} 27. Nf2 Qxe3 28. Qxh3 Ne2+ 29. Kg2 Nd4 30.
+Rf4 f5 31. Bg6 Be5 32. Rxf5 Nxf5 33. Qxf5 Re7 $11 {White has enough
+compensation to make a draw here.}) 25... Rxe3 26. Bxf7+ Kf8 $1 27. Bh5+ Kg8
+28. Bf7+ $11 {With a perpetual check.}) 16... Bd7 $1 {I prefer this move.} ({
+A bit worse is:} 16... hxg2 {Sasikiran,K (2640)-Ding,L (2749) Danzhou 2015.
+Now after the unusual move:} 17. Rf2 $1 Bh3 18. Bh6 $14 {White has slightly
+preferable chances.}) 17. Na3 ({White has some alternatives. For example:} 17.
+Nc3 {Sethuraman,S (2632)-Triapishko,A (2508) St Petersburg 2017. Here the best
+move is:} Nh7 $1 {[%cal Gd8h4]} 18. gxh3 ({Or} 18. f4 Ng4 $132) 18... Bxh3 19.
+f4 Ng4 20. Bxg4 Bxg4 21. e5 f5 $5 {An interesting idea.} 22. Rae1 Re8 23. e6
+Qh4 $132 {[%csl Rg1][%cal Gb8b2] White's position is not safe.}) (17. Nxa7 {
+Black gets a serious counterplay after:} Qc7 18. Nc6 Bxc6 19. dxc6 d5 $1 20.
+gxh3 Rfd8 $132) (17. a4 {This inclusion, does not change much.} a6 18. Nc3 (18.
+Nxd6 Ne8 $1 {Still the best} 19. Nxe8 Rxb2 $1 20. Qc1 Rxe8 $132 {Black has an
+excellent play.}) 18... hxg2 19. Kxg2 Nh7 $132 {[%cal Gd8h4] Black is doing
+great.}) (17. Nxd6 Ne8 $1 {This is the point.} 18. Nxe8 Rxb2 $1 19. Qd1 Rxe8
+$132 {Black has the initiative.}) 17... Nxe4 $1 {A very nice tactical shot.
+Now the game is very messy.} ({Probably also interesting is:} 17... Nfg4 $5)
+18. Nxe4 ({Worse is:} 18. fxe4 $6 Rxb2 $1 19. Nc2 Ba4 20. Rac1 Rxa2 21. gxh3
+Qh4 $15 {[%cal Ga2c2] Black's pieces are very well placed. White should be
+very careful here.}) 18... Rxb2 $1 {The point of Black's previous move.} 19.
+Nc2 {The best defense.} ({The alternatives are worse:} 19. Qe1 $6 Re8 $15 {
+[%csl Ra3][%cal Ge8e1] White's pieces are completely lacking coordination.}) (
+19. Qxb2 $2 {This leads to a clear advantage for Black after:} Nxf3+ 20. Rxf3
+Bxb2 21. Rb1 Re8 $1 {[%cal Ge8e4]} 22. Rxb2 Rxe4 23. Bd3 Rg4 24. g3 ({Or} 24.
+Nc4 Bf5 $17) 24... Qa8 $1 25. Bc4 Rxc4 $1 26. Nxc4 Qxd5 27. Nd2 Kg7 $17 {
+[%csl Gd5,Gd7,Rg1] Black's domination is obvious.}) 19... f5 $1 {Black
+continues to play very direct.} 20. Bg5 Qb6 21. Nf2 c4 $1 {[%cal Gb6g1] Black
+definitely got a lot of initiative.} 22. Rac1 c3 $1 {[%csl Gc3] very critical
+position for the whole combination. White has many options here, but Black is
+fine everywhere.} 23. Qf4 ({The alternatives are:} 23. Qd1 Ba4 $1 {[%cal Ga4d1]
+the pins is very unpleasant.} 24. f4 Ng4 25. Bxg4 fxg4 26. gxh3 gxh3 27. Re1 {
+[%cal Ge1e7] The game is still very balanced.} Rxa2 28. Re7 Rxc2 {This forces
+the draw.} 29. Rxc2 Bxc2 30. Qxc2 Qb2 31. Qxg6 Qa1+ 32. Nd1 Qxd1+ 33. Kf2 Qd2+
+$11 {With a draw.}) (23. Qxc3 Rc8 24. Qd2 Ba4 25. Bd1 Bb5 26. Re1 ({A draw is:
+} 26. Be2 Ba4 $11) 26... Nd3 $1 27. Be3 Bc3 $1 {The position is absolute mess.}
+28. Qxd3 ({Also equal is:} 28. Qxc3 Rxc3 29. Bxb6 Nxc1 30. Bxa7 Rxa2 $11) 28...
+Qb7 {[%csl Rd3] White's queen is trapped.} 29. Qxc3 Rxc3 30. Bd4 Qc7 31. Nxh3
+Rbxc2 32. Bxc2 Rxc2 33. Rb1 Qa5 $11 {White has compensation,but nothing more.
+The game is about level.}) (23. Qe3 Qxe3 24. Bxe3 Ba4 {[%csl Rc2]} 25. f4 Bxc2
+26. fxe5 hxg2 27. Rfe1 Bxe5 $44 {[%csl Gc3] Black still keep fighting for the
+advantage.}) 23... Nf7 $1 {[%csl Rg5] The best move. White's pieces are
+paralyzed for the moment.} 24. Qh4 ({The alternatives are:} 24. Bd3 Re8 {
+This will transpose to some of the other lines.}) (24. Qg3 Re8 25. Bd3 ({Or} 
+25. Bc4 Ba4 $1) ({This looses to} 25. Rfe1 $2 Ba4 $1 $19) 25... Ne5 26. Kh1 ({
+Of course, White can repeat the moves with} 26. Be2 Nf7 $11) 26... Nxd3 27. Nxd3
+Re2 28. Rf2 Rxf2 29. Nxf2 Ba4 {[%csl Rc2,Rf2]} 30. Nxh3 Rxc2 31. Re1 Rd2 $1 {
+The best move.} 32. Bf6 ({Or} 32. Bh6 Qd4) 32... Qc7 $1 33. Bxg7 ({Of course
+not} 33. Qxg6 $2 Qf7 $19 {[%csl Gc3]}) 33... Qxg7 34. Qh4 {[%cal Gh4d8,Gh4a4]}
+c2 $1 {Leads to a forced draw.} 35. Qxa4 Qe5 $1 36. Rxe5 ({Or} 36. Rg1 Qe2 37.
+Qc6 Rd1 $11) 36... c1=Q+ 37. Ng1 dxe5 38. Qe8+ $11 {With a perpetual check.})
+24... Re8 $1 25. Rfe1 {Here this move is possible because now the queen
+controls the a4 square.} ({The other reasonable move is:} 25. Bd3 Ne5 26. Kh1 (
+{The alternatives are:} 26. Be3 Nxd3 $5 {Looks very tempting.} 27. Bxb6 Nxc1
+28. Nxh3 $1 {[%cal Gh3g5] White starts to counter-attack. Now is a forced draw
+after:} Ne2+ 29. Kh1 axb6 30. Ng5 Kf8 $1 31. Nh7+ Kf7 32. Ng5+ $11 {With a
+perpetual check.}) ({Or} 26. Be2 Nf7 $11) 26... Nxd3 27. Nxd3 Qb5 $1 {[%cal
+Gb5d3] The most accurate move here.} 28. Nxb2 cxb2 29. Rb1 Re2 30. Ne3 ({Or} 
+30. Rf2 Qd3 31. Rxe2 Qxe2 32. Ne3 hxg2+ 33. Kg1 Bb5 34. Bf4 Qxf3 35. Qd8+ Kh7
+36. Qh4+ $11 {With a draw.}) 30... f4 $1 {[%cal Gd7f5] The only way for Black
+to keep the balance.} 31. Bxf4 Bf5 $1 32. Qd8+ ({Or} 32. gxh3 Bxb1 33. Qd8+ $11
+) 32... Kh7 33. Qh4+ $11 {White must give a perpetual check.}) 25... Nxg5 26.
+Qxg5 Kf7 $1 {Black needs to protect the g6 pawn.} 27. Qh4 ({A bit more logical
+is:} 27. Bd3 Bf6 $1 28. Qh6 ({The alternative is:} 28. Qg3 Rxe1+ 29. Rxe1 Ba4 {
+[%csl Rc2]} 30. Qxh3 Kg7 $1 {[%csl Rc2] A very nice and calm move.} 31. Ne3 c2
+32. Bxc2 Bxc2 33. g4 $1 {With this move White manages to keep the balance.} Qb4
+34. Rc1 Rxa2 35. gxf5 Qd2 36. Rxc2 Rxc2 37. Nxc2 Qxc2 $11 {With an equal
+endgame.}) 28... Rh8 29. Qe3 Qxe3 30. Rxe3 ({After:} 30. Nxe3 {strong is:} Rd2
+$1 {[%cal Gf6d4]} 31. Nc4 Bd4 $1 32. Be2 Rxa2 33. Nxd6+ Kg7 $132 {[%cal Gd4f2]
+With a very nice compensation for the piece.}) 30... Bg5 31. Nxh3 Rxh3 $1 {
+Leads to a drawish endgame after:} 32. gxh3 Rxc2 33. Rxc2 Bxe3+ 34. Kf1 Bd2 {
+[%csl Gc3]} 35. Ke2 Ba4 36. Rxd2 cxd2 37. Kxd2 f4 38. h4 Kf6 $11 {The draw is
+near.}) 27... Rh8 28. Qg3 Bf6 $1 {[%cal Gf6h4] An important move.} 29. f4 Rxa2
+30. Bd3 Ba4 31. Qf3 hxg2 32. Kxg2 Qc5 $44 {[%csl Gc3] Black has very nice
+domination. Now White must play for a draw with} 33. Rb1 Bxc2 (33... Rb2 $5 {
+Also leads to a draw after:} 34. Ne4 $1 fxe4 35. Qxe4 Rh6 36. Rxb2 cxb2 37.
+Qxa4 Rxh2+ 38. Kxh2 Qf2+ 39. Kh3 Qf3+ $11) 34. Rb7+ Kf8 35. Rb8+ $11 {With a
+perpetual check.} *
+
+[Event "?"]
+[Site "?"]
+[Date "2022.??.??"]
+[Round "?"]
+[White "Chapter 5"]
+[Black "Saemish 6.Be3 c5 7.dxc5"]
+[Result "*"]
+[ECO "E81"]
+[Annotator "GM Ivan Cheparinov"]
+[PlyCount "44"]
+[SourceVersionDate "2022.06.24"]
+
+{[%evp 0,11,22,24,25,4,39,26,26,26,34,17,9,24]} 1. d4 Nf6 2. c4 g6 3. Nc3 Bg7
+4. e4 d6 5. f3 O-O 6. Be3 c5 7. dxc5 {One of the most popular moves in this
+position. White takes a pawn and enters an endgame. The practice has shown
+that Black has enough compensation for the pawn.} dxc5 8. Qxd8 ({The other
+moves are not so popular here.} 8. Bxc5 {In this move order Black has a couple
+of interesting ideas.} Qa5 $5 $146 {An interesting improvement. Black is
+definitely fighting for the advantage here.} ({The alternatives are:} 8... Nc6
+{Will transpose to the main line.}) (8... Nfd7 $5) (8... Qc7 $5 9. Be3 Rd8 10.
+Qc1 Bd7 $44) 9. b4 (9. Bxe7 {Looks risky.} Nxe4 $1 {The point. White is
+probably still fine, but already he should be very careful.} 10. fxe4 ({A
+mistake is:} 10. Bxf8 $2 {because of} Bxc3+ $1 11. bxc3 Qxc3+ 12. Ke2 Bg4 $3 {
+The winning move.White's king is too weak.} 13. fxg4 ({Or} 13. Qc1 Qd4 $1 $19 {
+[%cal Gd4f2]}) 13... Nc6 $19 {[%cal Ga8e8] Re8 is coming next. Black wins.})
+10... Re8 11. Bd6 Rxe4+ 12. Nge2 Bxc3+ 13. bxc3 Qxc3+ 14. Kf2 Qf6+ 15. Kg1 {
+The only move is to keep the balance.} (15. Ke1 $2 Nc6 $19) 15... Bg4 16. c5 {
+Unfortunately, Black has nothing more than a draw here.} Bxe2 17. Bxe2 Rxe2
+18. Qxe2 Qxa1+ 19. Kf2 Qf6+ ({Similar is} 19... Qd4+ 20. Qe3) 20. Qf3 Qd4+ $11
+{With a draw. The endgame is also equal.}) (9. Bf2 Nxe4 {Leads to a forced
+draw.} ({Another option is:} 9... Be6 $5 10. Qa4 Qxa4 11. Nxa4 Nfd7 $1 {
+[%cal Gd7b6] A nice manouvre.} 12. O-O-O Nb6 13. Nxb6 axb6 14. Kb1 b5 $11 {
+The endgame is approximately equal.}) 10. fxe4 Bxc3+ 11. bxc3 Qxc3+ 12. Ke2
+Bg4+ 13. Nf3 Qb2+ 14. Ke3 ({Also a draw is:} 14. Ke1 Qc3+ $11) 14... f5 $1 {
+[%cal Gf5f4] Now White must give a perpetual check by} 15. Qd5+ e6 16. Qxe6+
+Rf7 17. Qe8+ Rf8 $11) (9. Be3 Nfd7 $1 {Here this is the best move.} 10. Bd2 (
+10. Bd4 {Black has many interesting ideas here. One of them is:} Ne5 $5 {
+[%csl Rd4][%cal Gf8d8]} 11. f4 Rd8 12. b4 $1 {The only way to more or less
+keep the balance.} Qxb4 13. Rb1 Qa5 14. Rb5 Rxd4 $1 {A very nice exchange
+sacrifice. Black has a full compensation. For example:} 15. Rxa5 ({Worse is:} 
+15. Qxd4 $2 Nf3+ 16. Kd1 Bxd4 17. Rxa5 Nxg1 18. Rd5 Bb6 19. Rxg1 Be6 $17 {
+Black is better.}) 15... Rxd1+ 16. Nxd1 Nec6 17. Rb5 e5 $1 18. f5 Na6 19. Ne3
+b6 $44 {[%cal Ga6c5,Gc6d4] Black has an excellent compensation.}) (10. Nge2 {
+Looks scary for White after:} Nc5 11. Kf2 Nc6 $44 {[%csl Rf2][%cal Gf8d8,Gc5d3]
+}) 10... Nc6 11. Nd5 Qd8 12. Bc3 {This was the idea of White's previous move.}
+Bxc3+ 13. Nxc3 Nc5 14. Qxd8 Rxd8 {[%cal Gc5d3,Gc6d4,Gc6b4] White still did not
+develop his pieces.} 15. Rd1 ({Or} 15. Nd5 e6 16. Ne3 Nb4 $11 {[%cal Gb4d3]})
+15... Rxd1+ 16. Kxd1 Be6 17. Kd2 {[%cal Gd2e3]} ({Also equal is:} 17. Nd5 Bxd5
+18. cxd5 Nb4 19. a3 Nbd3 {[%cal Gd3b2,Gd3f2]} 20. Nh3 Nxb2+ 21. Kc2 Nba4 $11 {
+The endgame is equal.}) 17... Rd8+ 18. Ke3 Nb4 {[%cal Gb4c2]} 19. Nd5 Bxd5 20.
+cxd5 Nxa2 21. Bc4 Nb4 22. Ne2 e6 23. Rc1 b6 $11 {[%csl Gb4,Gc5] Black has no
+problems at all.}) 9... Qc7 10. Be3 ({Worse is:} 10. Nb5 $6 Qe5 11. Bd4 Qh5 {
+[%cal Gb8c6]} 12. Ne2 Nc6 13. Nf4 Qg5 14. Be3 {Now Black is better after the
+small combination..} Nxe4 $1 15. fxe4 Rd8 16. Qc1 Qe5 $1 {[%csl Ra1,Re4][%cal
+Ge5a1,Ge5e4]} 17. Rb1 a6 {[%csl Rb5]} 18. Nd3 {The best defence.} Qxe4 19. Nf2
+Qe5 20. Nd3 Rxd3 $1 {Playing for a win.} 21. Bxd3 Bh6 22. Kf2 Bxe3+ 23. Qxe3
+axb5 24. Qxe5 Nxe5 25. Be2 bxc4 $15 {Black has two pawns for the exchange down
+and definitely only White can be worse here.}) (10. Rc1 Na6 {Black is doing
+great here.} 11. Nb5 Qc6 {[%csl Rb4,Rc5]} 12. Bf2 Nxb4 13. Qb3 Na6 $132 {
+[%cal Ga6c5]}) 10... Nc6 11. Qb3 Be6 12. Rc1 ({Worse is:} 12. Rd1 $6 Rfc8 {
+[%csl Rc4]}) 12... Rfc8 13. Nd5 Qd6 $44 {White is still lacking development.
+Black has excellent compensation for the pawn.}) (8. e5 {Only Black can be
+better here.} Nfd7 9. f4 f6 $1 {This move is always good in this situation.}
+10. exf6 Nxf6 11. Qxd8 Rxd8 12. Bxc5 Nc6 13. Nf3 Bf5 {[%cal Gf6e4] The
+activity of Black's pieces compensates the pawn completely.} 14. Be2 Ne4 15.
+Nxe4 Bxe4 16. Kf2 {White has nothing better.} Bxb2 17. Rad1 Bf6 $11 {The
+endgame is equal.}) 8... Rxd8 9. Bxc5 (9. e5 $6 {White is fighting for the
+equality after:} Ne8 $1 ({Only equal is:} 9... Nfd7 10. f4 b6 $11 {[%cal Gc8b7]
+}) 10. Bxc5 ({Or} 10. f4 b6 11. Be2 Bb7 12. Bf3 Bxf3 13. Nxf3 Nc6 14. O-O f6
+$15 {I believe Black is slightly better.}) 10... Nc6 11. f4 b6 12. Be3 g5 $1
+13. g3 (13. fxg5 {Also looks better for Black after:} Nxe5 $15) 13... Nxe5 $1 {
+The point.} 14. fxe5 Bb7 15. Nd5 Rxd5 16. cxd5 Bxd5 17. Nf3 Bxf3 18. Rg1 Bxe5 {
+[%cal Ge5b2]} 19. Bg2 Bxg2 20. Rxg2 f6 21. Rc2 Kf7 $15 {Black is definitely
+out of danger and still fighting for the advantage.}) 9... Nc6 {The critical
+position. White has many different moves:} 10. Nge2 {Together with 10.Rd1,
+this is the most critical line.} (10. Nd5 {The old main move. Already the
+theory proved that Black is completely fine and out of danger.} Nd7 11. Nxe7+
+({The other options are:} 11. Ba3 e6 12. Nc7 Rb8 13. O-O-O (13. Nb5 $6 {
+Looks too slow, and White loses a lot of important time.} a6 14. Nd6 b5 $1 {Black
+is already much better.} 15. cxb5 axb5 16. Bxb5 ({Or} 16. Nxb5 Ba6 17. Nc3 Nd4
+$19 {[%cal Gd4c2] Black wins.}) 16... Nd4 17. Ba4 ({Or} 17. Bd3 Ne5 $19) 17...
+Ra8 ({Also good is:} 17... Ba6 $17) 18. Nxc8 Rxa4 19. Ne7+ Kh8 20. Rd1 Rc4 $1 {
+[%csl Re7] Black has full domination.} 21. Nh3 Bf6 22. O-O Nc5 $19 {[%csl
+Re7] Black wins material.}) 13... a6 $1 {[%csl Rc7] White's knight on c7 is in
+big trouble. For example:} 14. f4 Bf8 $1 15. Bxf8 Kxf8 16. Nf3 Nc5 17. Rxd8+
+Nxd8 18. Nd2 Ke7 $17) (11. Bxe7 {Leads to equality after:} Nxe7 12. Nxe7+ Kf8
+13. Nd5 Bxb2 14. Rb1 Bg7 {It is clear that Black has more than enough
+compensation for the pawn. The game can continue:} 15. Nh3 Nc5 16. Nf2 Be6 17.
+Be2 Rac8 $44 {[%csl Gc5,Gg7]}) 11... Nxe7 12. Bxe7 Bxb2 13. Rb1 ({Another
+option is:} 13. Bxd8 Bxa1 14. Ne2 Be5 {This is just one of the good moves here.
+} 15. Be7 b6 $44 {[%cal Gc8a6]}) 13... Bc3+ 14. Kf2 ({Or} 14. Kd1 Re8 15. Ne2
+Bg7 16. Bh4 Nc5 $44 {[%cal Gc8e6] Black is doing great.}) 14... Bd4+ 15. Kg3
+Re8 16. Bg5 Nf6 $44 {[%cal Gf6h5] Black has a strong initiative.}) (10. Rd1 {
+Played by some strong players lately. Definitely this move is a serious one,
+and Black should know exactly what to do.} Rxd1+ 11. Kxd1 ({A bit worse is:} 
+11. Nxd1 b6 ({Also good is:} 11... Nd7 12. Bf2 Nde5 $44) 12. Ba3 ({Worse is:} 
+12. Be3 $6 Nb4 $15 {[%cal Gb4a2,Gb4c2]}) ({Or} 12. Bf2 $6 Be6 $15) 12... a5 {
+[%cal Gc6b4] The typical move with the bishop on a3.} 13. Ne2 Nb4 14. Nec3 Nc2+
+15. Kd2 Nxa3 16. bxa3 Nd7 $44 {[%cal Gd7c5] Black has an excellent game.})
+11... Nd7 $1 12. Bf2 ({Worse is:} 12. Ba3 $6 {because of} Bxc3 $1 13. bxc3 Nde5
+$15 {[%csl Rc4]}) 12... Bxc3 {Looks nice here.} ({The alternative is:} 12... b6
+$5 13. Nge2 Ba6 14. Nb5 Nc5 $44) 13. bxc3 Nde5 ({Probably also fine is:} 13...
+b6 $5 14. Ne2 Ba6 15. Nf4 Kf8 $44) 14. Ne2 Be6 $1 {the best move. I believe now
+Black equalizes.} ({A bit worse is:} 14... Nxc4 15. Nf4 $14) 15. Nd4 Bxc4 16.
+Nxc6 bxc6 17. Bg3 Rd8+ 18. Kc2 {This position occurred in the game L'Ami, E 
+(2621)-Efimenko,Z (2597) Germany 2022. Now Black could equalize easily after:}
+Nd3 19. Be2 Nb4+ 20. cxb4 Bxe2 $11 {The draw is near.}) (10. Ba3 {This move
+was popular some years ago. Nowadays looks like Black has zero problems.} a5 $1
+{[%cal Gc6b4] I believe the best move.} ({The alternatives are:} 10... Be6) (
+10... b6) 11. Rd1 ({Much worse is:} 11. Nd5 $6 Nxd5 12. cxd5 Nb4 $15) 11... Be6
+12. Nd5 ({Or} 12. Bd3 Nb4 13. Nd5 {Transpose to 12.Nd5.}) ({Similar to the
+main line is:} 12. Rxd8+ Rxd8 13. Nd5 Bxd5 14. cxd5 Nb4 $132) 12... Nb4 $1 {
+The key move.} 13. Nxe7+ (13. Bd3 {Looks harmless after:} Nfxd5 $1 14. cxd5 ({
+Or} 14. exd5 Nxd3+ 15. Rxd3 Bf5 16. Rd1 Rac8 17. b3 a4 $132 {[%csl Rb3][%cal
+Gf5c2,Gb7b5] Only Black can be better here.}) 14... Bd7 15. Ne2 e6 {Black must
+open the centre. Now White more or less keeps the balance with} 16. Bxb4 axb4
+17. Bc4 Bxb2 $11 {The endgame is approximately equal, but still a bit more
+pleasant for Black.}) 13... Kh8 ({Of course not} 13... Kf8 $2 14. Nd5 $16 {
+[%cal Ga3f8]}) 14. Rxd8+ ({Similar, but a bit worse version for White is:} 14.
+Nd5 Nc2+ 15. Kf2 Nxa3 16. bxa3 b5 $132) 14... Rxd8 15. Nd5 Nc2+ 16. Kf2 Nxa3
+17. bxa3 b5 $1 {It seems that now the game is absolutely level. For example:}
+18. Nh3 bxc4 19. Bxc4 Rc8 20. Bb3 ({Or} 20. Nxf6 Rxc4) 20... Nxd5 $146 {
+A novelty.} ({Also completely equal is the theoretical move} 20... a4 21. Bxa4
+Nxd5 22. exd5 Bxd5 $11) 21. exd5 ({Or} 21. Bxd5 Rc2+) 21... Bxh3 22. gxh3 Bf8
+$11 {The endgame is just a draw.}) (10. Be3 {Another not very popular move
+here.} Nb4 {[%cal Gb4c2] The most direct approach.} ({Also possible is:} 10...
+Be6) 11. Rc1 Be6 12. Kf2 ({The alternative is:} 12. e5 Nd7 13. f4 f6 14. exf6
+Bxf6 15. a3 Nc6 16. Nf3 Nb6 $44 {[%csl Rc4] Black is at least not worse.})
+12... Ne8 $5 {[%cal Ge8d6] One of the good moves.} ({The alternatives are:} 
+12... Rac8 13. a3 Nd3+ 14. Bxd3 Rxd3 15. Nge2 Bxc4 16. Rhd1 Rxd1 17. Rxd1 a6
+$11 {The endgame looks very equal.}) (12... Nd7 13. a3 Nc6 14. Nh3 Bxh3 15.
+gxh3 Nd4 $44 {Black has enough compensation.}) 13. a3 ({After:} 13. Nh3 Nd6 {
+[%csl Rc4]} 14. b3 Bxc3 15. Rxc3 Nxa2 16. Rc2 Nb4 17. Rd2 Bxh3 18. gxh3 b6 $11
+{Black is just fine.}) 13... Nc6 14. b4 ({Or} 14. c5 Nd4 15. Nge2 {Now Black
+can force a draw by} Nb3 16. Rc2 Na1 17. Rc1 Nb3 $11) 14... Nd6 15. Nd5 a5 $1 {
+An important move.} 16. b5 Bxd5 17. exd5 ({Worse is:} 17. cxd5 $6 Ne5 $15 {
+[%cal Ga8c8,Gd8c8] Only Black can use the c file.}) 17... Ne5 {[%cal Gd6f5]}
+18. g4 {[%csl Rf5][%cal Gd6f5] An interesting positional move. Prevents Nf5.} (
+{In case of:} 18. Nh3 Nf5 $1 19. Bd2 Rac8 20. Be2 b6 $44 {[%csl Rc4][%cal
+Gf5d4,Gf5d6] Black is doing great.}) 18... b6 $1 {The only move to keep the
+balance.} 19. Bxb6 Rdc8 20. Be3 ({Of course not} 20. c5 $2 {because of} Nd7 $1
+$17) 20... Nexc4 21. Bxc4 Nxc4 22. Ne2 {The endgame is about equal. For
+example:} Bb2 23. Rc2 Bxa3 24. Ra1 Nxe3 25. Rxc8+ Rxc8 26. Kxe3 Bb4 $11) (10.
+Rc1 {A very rare move. Does not bring anything for White.} Nd7 11. Ba3 ({Or} 
+11. Be3 Nde5 {[%cal Ge5d3]}) 11... b6 {[%cal Ga7a5,Gd7c5]} 12. Nh3 a5 {[%cal
+Gc6b4,Gd7c5]} 13. Be2 Nc5 $44 {[%csl Rb4,Rd4][%cal Gc5d3] Black has a full
+control of the game.}) 10... b6 $1 {I believe is the best move.} ({The other
+possible continuation is:} 10... Nd7) 11. Ba3 ({Of course not} 11. Be3 $2 {
+because of} Nb4 $19 {[%cal Gb4c2,Gb4d3]}) 11... Ba6 {One of the good moves. I
+prefer this move, but the alternatives are also possible:} (11... Bb7) (11... a5
+{[%cal Gc6b4]}) (11... e6) 12. Nb5 {The main move. Blocking the bishop on a6.}
+(12. b3 {A possible and logical move.} Rd7 $1 {[%cal Ga8d8] I think
+objectively this is the best move. Prepares Rad8.} 13. Rd1 Rad8 14. Rxd7 Nxd7
+$1 {[%cal Gd7c5] Transfers the knight into a more active position.} 15. Na4 b5
+{Black has some alternatives, but this move equalizes very easy after:} 16. cxb5
+Bxb5 $44 17. Nec3 Bxa4 18. Nxa4 Nb6 $1 19. Be2 ({Or} 19. Nxb6 Bc3+) 19... Nxa4
+20. bxa4 Bc3+ 21. Kf2 Rd2 22. Rc1 Bd4+ 23. Ke1 Rxa2 24. Rxc6 Rxa3 $11 {White
+must be a bit more careful.}) (12. Nd5 {Leads to full equality after:} Bxc4 13.
+Nxe7+ Nxe7 14. Bxe7 Re8 15. Bxf6 ({Of course not} 15. Ba3 $2 {because of the
+very strong tactical shot} Nxe4 $1 16. fxe4 Rxe4 17. Kf2 Rd8 $1 {[%csl Re2]
+[%cal Gd8d2] Black is better. The threat is Rd2.} 18. Kf3 f5 19. Rc1 Rd3+ 20.
+Kf2 Rd2 21. Ke1 Bh6 $17) 15... Bxf6 16. Nc3 Rac8 17. Bxc4 Rxc4 18. Rc1 Rec8 $11
+{Black has zero problems.}) (12. Nf4 $6 {This is not very accurate, because of}
+e6 {[%csl Rf4] Now White has some problems. For example:} 13. Rd1 g5 $1 14. Nh3
+g4 15. Rxd8+ Rxd8 16. Nf4 Nd4 17. Kf2 Nc2 $15 {I prefer Black here.}) 12... Rd7
+{[%cal Ga8d8] Doubles the rooks and prevents Nc7.} 13. Rd1 ({Similar is:} 13.
+Nec3 Rad8 14. Rd1 {Transpose to 13.Rd1.}) 13... Rad8 14. Nec3 ({The
+alternative is:} 14. Rxd7 Nxd7 {[%cal Gd7c5,Gd7e5] Looks more logical} ({
+In this situation also possible is} 14... Rxd7) 15. Nec3 Nc5 16. Be2 Bc8 {
+[%cal Ga7a6] Black definitely has the initiative.} 17. Nd5 e6 18. Ne3 Na4 $5 {
+[%csl Rb2] The most direct approach.} ({Also possible is} 18... f5 19. exf5
+gxf5 $44) 19. Nd1 Bb7 20. Ndc3 Nxc3 21. Nxc3 ({Or} 21. bxc3 a6 22. Nd4 Nxd4 23.
+cxd4 Bxd4 24. Bd3 $11) 21... f5 $1 22. exf5 gxf5 23. Rf1 {White cannot castle,
+because Black rook is ready to enter the d2-square.} Nd4 24. Bd1 Ba6 $132 {
+Black is at least not worse.}) 14... Bxb5 $5 {I like to force the game. I
+believe Black equalizes by force here.} 15. Rxd7 ({Or} 15. cxb5 Nd4 16. Bd3
+Nxf3+ 17. gxf3 Rxd3 18. Rxd3 Rxd3 {Transposes to the main line.}) 15... Rxd7
+16. cxb5 ({Or} 16. Nxb5 Bh6 $1 17. Be2 Be3 18. Nc3 Rd2 19. e5 $1 {The only
+move to not be worse.} Nxe5 20. Nd1 Bh6 21. Bxe7 Nfd7 22. Bb4 Rc2 $11 {[%csl
+Gc2] The endgame is approximately equal. Black's rook is very active.}) 16...
+Nd4 {[%cal Gd4c2]} 17. Bd3 {White must return the pawn up.} ({Clearly worse is:
+} 17. Kf2 $6 Nc2 $15) 17... Nxf3+ 18. gxf3 Rxd3 19. Ke2 Rd7 {The endgame
+should be equal. For example:} 20. Rd1 {There is nothing better.} Rxd1 21. Nxd1
+Kf8 22. Ne3 Ke8 $11 {[%cal Ge8d7,Ge7e6,Gf6h5] The endgame is complex,but
+approximately equal.} *
+
+[Event "?"]
+[Site "?"]
+[Date "2022.??.??"]
+[Round "?"]
+[White "Chapter 6 - Systems with g3"]
+[Black "Rare move orders"]
+[Result "*"]
+[ECO "E61"]
+[Annotator "GM Ivan Cheparinov"]
+[PlyCount "48"]
+[SourceVersionDate "2022.06.24"]
+
+1. d4 Nf6 2. Nf3 (2. c4 g6 3. g3 Bg7 4. Bg2 O-O 5. Nc3 d6 6. e3 {A possible
+and very solid plan. The idea is to develop slowly by Nge2,0-0 and the b3-Bb2.}
+(6. e4 {This is very dubious here. White is just not ready for this move.} c5
+$1 {Definitely the best reaction. Black breaks immediately the centre.} 7. Nge2
+(7. dxc5 {The endgame looks absolutely harmless for Black.} dxc5 8. Qxd8 Rxd8
+9. e5 Nfd7 10. f4 Nc6 11. Nge2 Nb6 12. b3 f6 {The typical plan in this kind of
+situation.} 13. exf6 Bxf6 $11 {The endgame is about equal, but only White
+should be careful.}) (7. d5 $6 {It is a bad idea here,because of} e6 8. Nge2
+exd5 9. cxd5 a6 10. a4 Nbd7 {Black has an excellent Benoni. The knight on e2
+is too passive.} 11. O-O Re8 12. h3 Rb8 $15 {[%csl Re2][%cal Gb7b5] Black's
+game is very easy.}) 7... cxd4 8. Nxd4 Nc6 {White's problem is that now Nxe4
+is a serious threat.} 9. Nde2 ({Worse is} 9. O-O $6 {because of} Nxe4 $1 10.
+Nxc6 Nxc3 11. Nxe7+ Qxe7 12. bxc3 Be6 $15 {[%csl Rc3,Rc4] With a slightly
+better position for Black.}) 9... a6 {[%cal Gb7b5] Preparing the typical b5
+push.} 10. O-O ({In case of} 10. a4 {strong is} Bg4 $1 11. h3 Bxe2 12. Nxe2 Nd7
+{[%cal Gd7e5]} 13. Rb1 Nde5 14. b3 b5 $15 {Black is better.}) 10... Be6 11. b3
+({Or} 11. Nd5 b5) 11... b5 12. cxb5 axb5 13. Bb2 Nd7 $11 {[%cal Gb5b4,Gd7c5]
+Black has an excellent position.}) 6... e5 7. Nge2 Re8 8. O-O (8. h3 {Does not
+change much} c6) 8... e4 $5 {A bit rare, but a very ambitious plan. Black wants
+to block the bishop on g2.} ({More natural is:} 8... c6) 9. h3 ({Worse is:} 9.
+Qc2 $6 Bf5 {Now for White will be more difficult to open the position by f2-f3.
+}) 9... c6 ({If} 9... h5 $6 {then} 10. Nf4 {[%csl Rh5]}) 10. g4 {[%cal Ge2g3]
+A very logical move. White's plan is to play Ng3 next and put more pressure
+on the e4 pawn.} ({Also possible is:} 10. Nf4 Nbd7 11. g4 h6 {To prevent g4-g5
+is important.} 12. f3 g5 $1 {[%cal Gd7f8,Gf8g6] Looks risky, but actually is
+the best move. In some lines, Black knight can come to g6 via f8.} 13. Nfe2 ({
+Tempting, but not enough for advantage is:} 13. fxe4 $5 gxf4 14. exf4 c5 $1 {
+Black must break the centre.} 15. e5 {There is nothing better.} cxd4 $1 16.
+exf6 Nxf6 17. Nb5 a6 18. Nxd4 Qb6 {[%cal Gb6g1] Black definitely has good
+counterplay. For example:} 19. Kh2 Nxg4+ 20. hxg4 Bxd4 21. f5 Bd7 $132 {
+The game is very sharp.}) 13... exf3 14. Bxf3 Nf8 $1 {[%cal Gf8g6] The knight
+will be perfectly placed on g6.} 15. e4 Ng6 16. Ng3 Be6 $132 {The game is
+quite complicated, but Black has an excellent chance to fight for the
+advantage.}) 10... h6 {Stopping g4-g5 is crucial.} 11. Ng3 ({Or} 11. Qc2 d5 12.
+Bd2 Na6 $132) 11... d5 12. f3 {The most natural plan for White.} ({The
+alternative is:} 12. Bd2 Be6 13. Rc1 a5 $11 {[%cal Gb8a6]}) 12... exf3 13. Qxf3
+Be6 14. cxd5 cxd5 ({Also good is:} 14... Nxd5 15. Nce4 Na6 $11) 15. Nge2 {
+[%cal Ge2f4]} g5 $5 {The most ambitious continuation. The game is very sharp
+now.} 16. Ng3 Nc6 17. Nf5 ({Or} 17. Bd2 Ne7 $11) 17... Bxf5 18. Qxf5 Ne7 19.
+Qd3 Rc8 {[%cal Gc8c6,Gc6e6]} 20. Bd2 Rc6 $1 {[%cal Gc6e6]} 21. Rae1 Re6 $11 {
+The game is approximately equal. Both sides have their chances.}) 2... g6 3. g3
+Bg7 4. Bg2 O-O 5. O-O d6 {In this chapter we will see all the options for
+White except 6.c4.} 6. Nc3 {[%cal Ge2e4] A popular move. White wants to play
+in the style of Pirc-Ufimcev.} (6. Re1 $5 {An interesting move order. White
+prepares e4, but also keeps the option to play Nc3 later.} c5 $5 {A bit strange
+move. I prefer to play this way because I think this leads to a more
+complicated game.} ({The other moves are:} 6... Nbd7 7. e4 e5 8. Nc3 $14) ({Or
+} 6... d5 7. c4) 7. dxc5 {This is probably the best way for White to fight for
+the advantage.} ({Harmless is:} 7. d5 b5 8. e4 Nbd7 $132 {Looks good for Black.
+}) (7. e4 cxd4 8. Nxd4 Nc6 $11 {This is a nice Dragon for Black.}) (7. Nc3 cxd4
+8. Nxd4 Qb6 $1 {[%cal Gb8c6] Black has no problems. For example, :} 9. a4 Nc6 10.
+Nb3 Be6 11. a5 Qc7 12. e4 Qd7 13. Nd5 Bh3 $11 {The game is about equal.}) (7.
+c3 $5 {The best alternative to 7.dxc5. Black still should play a bit more accurate
+here.} cxd4 8. cxd4 Bf5 9. Nc3 ({The alternatives are harmless:} 9. Nh4 Be4 $11
+) ({Or} 9. Qb3 Nc6 $1 {of course Black does not care about the b7 pawn.} 10.
+Qxb7 Qe8 {[%cal Ga8b8]} 11. Qb3 ({To a draw leads:} 11. Nc3 Rb8 12. Qc7 Rc8 $11
+) 11... Rb8 12. Qd1 Nb4 13. Na3 {Black has excellent compensation for the
+pawn. For example:} Qc6 $5 ({Also possible is} 13... a5 $44) 14. Bd2 Qa6 15.
+Bf1 Ne4 $44 {Black has a very nice piece play.}) 9... Ne4 10. Nh4 {A logical
+move.} (10. Nd2 {Another possible move.} Nxc3 11. bxc3 Qd7 12. Qb3 Nc6 13. e4
+Bg4 14. Nc4 Rac8 15. Ne3 Bh3 $11 {Black is doing very well. Now to take the
+pawn by} 16. Bxh3 Qxh3 17. Qxb7 $2 {It is a bad idea in view of} Bxd4 $1 18.
+cxd4 Nxd4 {[%cal Gd4f3]} 19. e5 Rc6 $1 $19 {[%cal Gd4f3] Black wins.}) ({
+Looks harmless after:} 10. Qb3 Nxc3 11. bxc3 Be4 $11) 10... Nxc3 11. bxc3 Bc8 {
+There is nothing better now.} 12. Nf3 Qc7 13. Qd3 Nc6 $11 {The game is still
+very complex, but I believe Black has his chances.}) 7... dxc5 8. c3 {In my
+opinion this is a bit better move order for White.} ({The most common move is:
+} 8. Qxd8 Rxd8 9. c3 ({After:} 9. Ne5 {good is:} Nd5 $1 {[%cal Gd5b4]}) 9...
+Be6 $1 {The point is that now Black can play without Nc6.} 10. Ng5 ({Black is
+completely fine after:} 10. a4 Nc6 11. Ng5 Bd7 12. a5 h6 13. Ne4 Nxe4 14. Bxe4
+Rab8 {[%cal Gb7b6]} 15. Nd2 b6 16. axb6 axb6 17. Nc4 Be6 18. Bxc6 Bxc4 $11 {
+With a completely level game.}) 10... Bd5 11. e4 Bc6 12. Nd2 h6 13. Ngf3 Nbd7
+14. e5 {The only way for White to fight for something more.} ({Or} 14. h3 e6
+$11) 14... Ng4 15. e6 fxe6 16. Rxe6 Kf7 17. Re2 Nde5 18. Nxe5+ Nxe5 $11 {
+he controls of the d file should be enough for equality.}) ({Another possible
+move is:} 8. Nc3 Nc6 9. Bf4 Be6 10. Qc1 Qc8 11. e4 Rd8 12. Bh6 Bh3 $11 {
+Should be very equal.}) 8... Qc7 $5 {A very rare move, there is only one game.
+The point is already to keep the queens.} ({A bit unpleasant is:} 8... Nc6 9.
+Qxd8 Rxd8 10. Be3 $14) 9. Bf4 ({Another option is:} 9. Na3 Nc6 10. Nc4 Be6 11.
+Bf4 Qc8 $11) 9... Qb6 10. Qc1 Nc6 11. Nbd2 {Of course the game is still
+complex, but Black also has chances to fight for more than just equality.}
+Nd5 12. Bg5 Be6 ({Interesting is:} 12... f6 $5) 13. e4 Nf6 14. e5 Nd5 15. Nc4
+Qa6 16. Bf1 b5 17. Na3 ({Or} 17. Ne3 Qb7 $11) 17... Qb7 18. Bxb5 Rab8 {Black
+is a pawn down, but it is clear that the counterplay is strong enough.} 19. b3
+Qc7 {[%csl Re5]} 20. Bh6 Nxe5 $1 {Black should fight for the initiative at all
+costs.} 21. Nxe5 Bxe5 22. Bxf8 Rxf8 23. Bc4 ({After:} 23. Nb1 Rd8 $44 {Black
+has an excellent compensation.}) 23... Nxc3 24. Bxe6 fxe6 25. Qe3 Bd4 26. Qxe6+
+Kh8 {[%csl Rf2]} 27. Re3 $5 {An interesting move, but not enough for an
+advantage.} ({After} 27. Rf1 {Black has to play} Rf6 $1 28. Qc4 Rf3 $1 $11 {
+[%cal Gf3g3] The threat is Rxg3!}) 27... Qb7 $1 28. Nc2 Bxe3 29. Qxe3 Qf3 30.
+Qxf3 Rxf3 31. Ne3 Kg8 32. Kg2 Rf6 $11 {[%cal Gf6a6] The game looks very
+balanced.}) (6. a4 {A quite popular move. White wants to gain more space on
+the queen's side.} Nc6 $5 {[%cal Ge7e5] Black has many other moves, but this
+one is the most direct. The point is to push e7-e5 as soon as possible.} ({
+The other moves are:} 6... a5) (6... Nbd7) (6... c6) 7. a5 {The most logical
+way to continue.} ({Black is completely fine after:} 7. Nc3 e5 8. e4 ({Or} 8.
+d5 Nb4 $132 {[%csl Gb4] Because of the pawn on a4,now the knight is
+untouchable on b4.}) 8... exd4 9. Nxd4 Nxe4 $1 {Immediately equalize.} 10. Nxc6
+({Also equal is:} 10. Nxe4 Nxd4 11. Bg5 f6 {Obviously the only move.} 12. Qxd4
+fxg5 13. Qd5+ Kh8 14. Nxg5 Qf6 15. Rae1 c6 $11 {Black has no problems.}) 10...
+Nxc3 11. Nxd8 Nxd1 12. Nxb7 Bxb7 13. Bxb7 Rab8 14. Rxd1 Rxb7 15. c3 Re8 $11 {
+The endgame is just very equal.}) (7. Bf4 $5 $146 {[%csl Re5][%cal Ge7e5] A
+new move,which makes some sense. The point is to prevent e5 at least for now.}
+Re8 8. a5 Bf5 {[%cal Ge7e5] Black still needs to prepare e5.} 9. d5 ({After:} 
+9. a6 {strong is} bxa6 $1 {[%cal Gc6b4]}) 9... Nb4 10. Nh4 Bd7 11. e4 {The
+game is very complex here. One of the possible ways to continue is:} Nh5 $5 12.
+Bc1 Nf6 13. c3 ({Of course White can repeat moves by} 13. Bf4 $11) 13... Na6
+14. Re1 c6 $11 {Black is doing good.}) 7... e5 $1 8. dxe5 {The most logical
+plan for White is to open the position. The alternatives are:} (8. d5 Nb4 {
+[%csl Gb4]} 9. Ne1 c6 10. c4 cxd5 11. Bd2 Na6 12. cxd5 Bd7 $11 {Black has a
+good game.}) (8. a6 e4 9. Nfd2 Nxd4 10. c3 Ne6 11. Nxe4 Nxe4 12. Bxe4 c6 $132 {
+White should be more careful here.}) 8... dxe5 9. Qxd8 ({In case of} 9. Nc3 {
+Black can simply play} a6 10. e4 ({Or} 10. Be3 Qe7 $11) 10... Qxd1 11. Rxd1 Bg4
+12. Be3 Rfd8 $11 {The position is just equal.}) (9. a6 e4 {Will transpose to
+the main line.}) 9... Rxd8 10. a6 e4 11. Ng5 Nd4 {The game is a bit more
+concrete here, but still very equal after:} 12. Nc3 Nxc2 13. Ra4 b5 $1 {Clearly
+the best move.} 14. Nxb5 Bd7 15. Rc4 ({Another option is:} 15. Ra5 Bxb5 16.
+Rxb5 Nd4 17. Rb7 Nxe2+ 18. Kh1 Nxc1 19. Rxc1 Bh6 20. h4 Ne8 $11 {[%cal Ge8d6]
+Looks equal.}) 15... Bxb5 16. Rxc2 Re8 17. Rxc7 Bxe2 18. Re1 Bxa6 $11 {The
+draw is near.}) (6. b3 {A popular set-up for White. The plan is to develop
+slowly by Bb2 and Nbd2.} e5 $1 {This is the best reaction in this move order.
+White will not have time to develop properly.} 7. dxe5 {The most principled
+continuation.} ({The other moves are harmless. For example:} 7. c4 e4 {Leads
+to an equal position after:} 8. Ng5 Bf5 9. Nc3 Nc6 {Putting more pressure on
+the d4 pawn.} 10. h3 h6 11. Ngxe4 Nxe4 12. Nxe4 Nxd4 {I believe Black has zero
+problems.} 13. Be3 Re8 14. Bxd4 Bxe4 15. Bxg7 Kxg7 16. Qd4+ Qf6 17. Qxf6+ Kxf6
+$11 {The endgame is completely equal.}) 7... dxe5 8. Ba3 {By far the most
+popular move.  White has some alternatives:} (8. Bb2 {Not very ambitious move.
+Black has no problems after:} e4 9. Qxd8 Rxd8 10. Ne5 Bf5 11. Nc3 Na6 $11) (8.
+Nxe5 $5 {There is only one game with this move, but actually I think is an
+interesting try.} Ng4 $1 {The point.} 9. Nxg4 Bxa1 10. Ne3 {[%cal Ge3d5,Gc2c3]
+White is an exchange down, but clearly he has good compensation. For now c3
+is a serious threat.} Bg7 {Probably not the only move, but definitely the most
+logical.} 11. Ba3 {Winning a tempo.} Re8 12. Qxd8 Rxd8 13. Nd5 {[%cal Gd5c7,
+Gd5e7]} Nc6 $1 {Black must give up another pawn.} 14. Nxc7 Rb8 15. c4 Bf5 {
+The game is very complex, but I believe Black has enough counterplay at least
+for an equal game.} 16. e4 ({If} 16. Nd5 {then strong is} b5 $1) 16... Be6 17.
+f4 Rd7 18. Nxe6 fxe6 19. Bh3 Re8 20. e5 {Looks promising for White, but I
+believe Black is having a lot of counterplay thanks to the control of the d
+file.} Bf8 {It is important to exchange the black squared bishops.} 21. Bxf8
+Kxf8 22. Nc3 Rd3 $1 23. Ne4 Nd4 24. Nd6 Re7 $11 {The game is approximately
+level.}) 8... Qxd1 9. Rxd1 Re8 10. c4 ({The alternatives are:} 10. Nfd2 e4 11.
+Bb2 e3 {A very logical way to play.} 12. fxe3 Ng4 13. Bxg7 Kxg7 $11 {Black is
+doing great.}) (10. Bb2 e4 11. Nfd2 {Transpose to 10.Nfd2.}) (10. Nc3 {Another
+logical move.} e4 11. Nd2 ({Or} 11. Nd4 c6 ({Also good is:} 11... a6 $5 12. e3
+Nbd7) 12. e3 h5 $11 {[%cal Gb8d7] The endgame is approximately equal.}) 11...
+e3 $1 {One again this typical motif.} 12. fxe3 Na6 13. Bb2 Rb8 $44 {Black has
+excellent compensation for the pawn.}) 10... a5 $1 {[%cal Gb8a6] I believe
+here this is the best move.} (10... e4 11. Nd4) 11. Nc3 Na6 12. Rac1 e4 13. Nd4
+{This position occurred in the game Hakobyan, A (2588)-Vitiugov, N (2722) Chess.
+com INT 2020. Now Black could simply continue with} c6 $11 {With equal
+chances.}) (6. c3 {A passive way to play.} Nbd7 {[%cal Ge7e5] This simple plan
+already looks good enough for Black.} 7. Re1 ({Similar is:} 7. Nbd2 e5 8. e4
+Re8 9. Re1 {Transpose to 7.Re1.}) 7... e5 8. e4 Re8 9. Nbd2 {The knight on d2
+is quite passive.} b6 {[%cal Gc8b7] A very natural plan here. I believe Black
+has no problems. For example:} 10. dxe5 ({The other possible moves are:} 10.
+Qc2 Bb7 11. b3 exd4 12. cxd4 c5 $132 {With a good counterplay.}) (10. a4 a5 11.
+b3 exd4 12. cxd4 Bb7 $132) 10... Nxe5 ({Also good is:} 10... dxe5 11. b4 a5 $11
+) 11. Nxe5 dxe5 12. Nc4 Qe7 $11 {The game looks very equal.}) (6. Nbd2 {
+Similar to 6.c3.} Re8 $5 {[%cal Ge7e5] In this case I prefer to start with
+this move.} ({There is nothing wrong with:} 6... Nc6) ({Or} 6... Nbd7) 7. e4 e5
+8. dxe5 ({Worse is:} 8. d5 $6 a5 9. c4 Na6 $15 {[%csl Rd2][%cal Ga6c5,Gc8d7]
+The knight on d2 does not belong there.}) 8... dxe5 9. b3 ({Or} 9. Qe2 b6 {
+[%cal Gc8a6]}) 9... a5 10. a4 Nc6 11. Bb2 Qe7 $11 {Black has equal chances.}
+) 6... d5 $5 {[%csl Rc3] With the knight on c3 this move looks very logical.} (
+{More popular are:} 6... Nbd7) (6... c6) (6... Nc6) 7. Re1 {[%cal Ge2e4] White
+insisting on pushing e2-e4.} ({Also a normal move is:} 7. Ne5 c6 8. e4 ({If} 8.
+Bf4 {then} Nh5 $1) 8... dxe4 9. Nxe4 Nxe4 10. Bxe4 c5 {Black resolved all of
+his problems. For example:} 11. c3 cxd4 12. cxd4 Nd7 $11 {With an equal game.})
+(7. Bf4 {Another popular move.} c6 {A good waiting move.} 8. Re1 ({Or} 8. Qd2
+Bf5 {[%cal Gf6e4]}) 8... Bf5 9. Nh4 {To push e2-e4 is the only reasonable plan.
+} Be6 10. e4 dxe4 11. Nxe4 Nxe4 12. Rxe4 Bd5 13. Re3 Bxg2 14. Nxg2 Nd7 $11 {
+Black's position is very solid.}) (7. a4 {This move does not bring anything
+special for White.} a5 8. Re1 Na6 9. Ne5 ({The alternatives are:} 9. e4 dxe4
+10. Nxe4 Nxe4 11. Rxe4 c5 {Looks good for Black. The game is about equal after:
+} 12. Bg5 Re8 13. dxc5 Qxd1+ 14. Rxd1 Bf5 15. Rxe7 Rxe7 16. Bxe7 Re8 17. Rd8
+Rxd8 18. Bxd8 Bxc2 19. Bxa5 Bxb2 $11 {The draw is very near.}) ({If} 9. Bf4 {
+then} Bf5) 9... c5 $1 {Equalizes very easy.} 10. dxc5 Nxc5 11. Be3 ({Or} 11.
+Nb5 Bf5 $11) 11... Nce4 ({Also possible is:} 11... Nfe4 $5) 12. Nb5 Be6 13. c3
+Nd6 $11 {The game is equal.}) 7... c5 $1 {A rare move,which in my opinion
+equalizes.} ({More popular are:} 7... Bf5) (7... Ne4) (7... c6) 8. dxc5 {
+White has nothing better.} Na6 {[%cal Ga6c5]} 9. Nd4 {Probably the best try
+for White.} ({The alternative is:} 9. Be3 Ng4 $1 {The point of Black's plan.}
+10. Nxd5 ({After} 10. Bc1 {Black can simply repeat the moves with} Nf6 $11)
+10... Be6 11. c4 Bxd5 12. Qxd5 Qxd5 13. cxd5 Nxe3 14. fxe3 Nxc5 $44 {Black has
+excellent compensation for the pawn. The endgame is approximately equal.})
+9... Nxc5 10. Nb3 Nxb3 11. axb3 Be6 $146 {A good improvement.} ({A little
+worse is:} 11... d4 12. Na4 e5 13. c3 Re8 14. b4 a5 {Caille,H (2159)-Cornette,
+D (2384) Chartres 2022. Now White is slightly better after:} 15. Nc5 $14) 12.
+e4 {Leads to a lot of exchanges.} ({Or} 12. Be3 Qc7 $11 {with an equal chances.
+}) 12... dxe4 13. Nxe4 Qxd1 14. Rxd1 Rfd8 15. Bg5 ({Also equal is:} 15. Nxf6+
+Bxf6 16. Bf4 Bxb2 17. Bxb7 Bxa1 18. Rxa1 a6 19. Bxa8 Rxa8 $11 {With an easy
+draw.}) 15... Bf5 $5 {I prefer this move.} ({Also possible is:} 15... Nxe4 16.
+Rxd8+ Rxd8 17. Bxe4 Bxb2 18. Rxa7 Bh3 19. Bd3 Bd4 20. Ra4 f6 21. Be3 e5 $11 {
+Black's position is quite safe.}) 16. Bxf6 ({Another option is:} 16. Nc5 Rxd1+
+17. Rxd1 Rc8 18. Nxb7 Bxc2 19. Rc1 Bf5 20. Rxc8+ Bxc8 21. Be3 a6 $11 {With an
+equal endgame.}) 16... exf6 {For now is good to keep the pair of bishops.} 17.
+c3 Rxd1+ 18. Rxd1 Re8 {I believe this line is a forced draw.} 19. Nd6 Rd8 {
+The point of Black's previous move.} 20. Rd4 Be6 21. Nb5 ({All other moves
+also are leading to a draw:} 21. Bxb7 f5 22. Rd2 Bh6 23. Rd4 Bg7 $11 {White
+can't escape from the repetition of the moves.}) (21. Nxb7 Rxd4 22. cxd4 f5 $1 {
+[%cal Gg7b2]} ({But not} 22... Bxb3 $2 {because of} 23. Bc6 $1 $18 {[%cal
+Gd4d8]}) 23. d5 Bd7 24. Nc5 Bb5 $11 {[%cal Gg7b2] The endgame is equal.}) 21...
+Rxd4 22. Nxd4 b6 23. b4 a5 24. bxa5 bxa5 $11 {The draw is very close.} *
+
+[Event "?"]
+[Site "?"]
+[Date "2022.??.??"]
+[Round "?"]
+[White "Chapter 7 - Systems with g3"]
+[Black "Main Lines"]
+[Result "*"]
+[ECO "E62"]
+[Annotator "GM Ivan Cheparinov"]
+[PlyCount "34"]
+[SourceVersionDate "2022.06.24"]
+
+1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 O-O 5. Bg2 d6 6. O-O {The most common move
+order.} (6. Nc3 $5 {A very interesting move order for White. The point is that
+after 6...Nc6 7.d5Na5 White has the move 8.b3.} Nc6 {In this course I suggest
+this plan. Of course, Black has many other different plans, such as 6...Nbd7,6...
+c5 or 6...c6.} 7. d5 (7. Bf4 {[%csl Re5][%cal Ge7e5] A bit rare,but an
+interesting move. White prevents the move e7-e5 for now.} d5 $1 $146 {A very
+important improvement. After 7...a6 8.0-0 we are reaching a big theory, which
+is considered to be slightly better for White.} 8. O-O ({The alternatives
+are:} 8. cxd5 {Looks very harmless.} Nxd5 9. Nxd5 Qxd5 $11 {[%csl Rd4] Black
+is just fine.}) (8. Ne5 dxc4 $1 9. Nxc6 bxc6 10. O-O ({Worse is:} 10. Bxc6 $6
+Rb8) 10... Rb8 11. Be5 Nd5 $5 {The most practical decision.} ({After:} 11...
+Rxb2 12. Qc1 Rb8 13. Rd1 $44 {White has a full compensation, although also is
+very close to being equal.}) 12. Bxg7 Kxg7 13. Qd2 Qd6 14. Rfc1 Nxc3 15. Qxc3 Ba6
+$11 {Black still keeps the pawn up. I believe the chances are approximately
+equal.}) (8. Qd2 dxc4 9. Rd1 Nb4 $1 {[%cal Gb4d5] The knight is going to d5.}
+10. Bh6 ({Another option is:} 10. Ne5 c6 11. Nxc4 Be6 12. b3 Nbd5 $11 {Looks
+equal.}) ({Or} 10. O-O c6) 10... c6 11. Bxg7 Kxg7 12. Ne5 Be6 13. a3 Nbd5 14.
+e4 Nxc3 15. Qxc3 a5 {[%cal Ga5a4] Black has equal chances. The game can
+continue:} 16. O-O a4 17. Nxc4 Bxc4 18. Qxc4 Qb6 19. Rd2 Ra5 $11) 8... dxc4 9.
+Rc1 ({Another logical move is:} 9. Qd2 Nd5 {Probably Black has other options,
+but this move is good enough.} 10. Nxd5 ({Or} 10. Bh6 Nxc3 11. bxc3 e5 $1 {
+The key move. Now Black is completely fine.} 12. d5 e4 13. dxc6 Qxd2 14. Nxd2
+Bxh6 15. cxb7 Bxb7 16. Nxe4 f5 17. Nf6+ Rxf6 18. Bxb7 Rd8 $11 {The endgame is
+very equal.}) 10... Qxd5 11. Rac1 Bf5 12. Ne5 {Leads to mass exchange of
+pieces.} Qxd4 13. Nxc6 bxc6 14. Qxd4 Bxd4 15. Rxc4 Bxb2 16. Bxc6 Rad8 $11 {
+With a completely level game.}) 9... Nb4 {[%cal Gb4d5]} 10. b3 {An interesting
+way to play for White.} ({More normal looks} 10. Ne5 c6 11. Nxc4 Be6 {Black
+developed very nicely, and I believe the chances are equal. For example:} 12.
+Ne5 ({Or} 12. b3 Nfd5 13. Nxd5 Nxd5 14. Bg5 Nc7 $11 {[%csl Rd4]}) 12... Nfd5
+13. Bd2 c5 14. Nxd5 Bxd5 $11 {With an equal game.}) 10... cxb3 11. Qxb3 Nbd5
+12. Nxd5 Nxd5 13. Be5 {White has good compensation. Now I believe the best
+way for Black to continue is:} Bh6 $1 ({In case of} 13... Bxe5 14. Nxe5 c6 15.
+Rfd1 $44 {White has a nice and easy game.}) 14. e4 {A risky, but very logical
+move. White fights for the initiative.} ({If} 14. Rcd1 {then after} c6 15. e4
+Nf6 $132 {[%cal Gf6g4,Gf6e4] Black definitely has a good counterplay. An
+unpleasant threat is Ng4.}) 14... Bxc1 15. Rxc1 Nf6 16. Bxc7 Qd7 17. e5 Ne8 $1
+{A bit unusual, but definitely the best.} ({Worse is:} 17... Nd5 $6 {in view of}
+18. e6 $1 fxe6 {black are obligated to take with the pawn.} (18... Qxe6 $2 19.
+Ng5 $18 {[%csl Rd5][%cal Gb3d5]}) 19. Ne5 Qe8 20. h4 $36 {White's initiative
+is quite unpleasant.}) 18. Ba5 Ng7 $1 {[%cal Gg7f5]} 19. d5 b6 20. Bb4 Bb7 21.
+Nd4 Rad8 {[%csl Rd5] Black managed to get a nice counterplay. The game is
+equal. For example:} 22. Qa3 ({Or} 22. Nc6 Bxc6 23. dxc6 Qc7 $11) 22... Bxd5
+23. Bxd5 Qxd5 24. Nc6 Nf5 25. Nxe7+ Nxe7 26. Bxe7 $11 {With an equal game.})
+7... Na5 8. b3 {The point of White's idea is to develop the knight before
+casting.} ({White has a couple of other moves, which are not leading to an
+advantage:} 8. Nd2 c6 $1 {Now Black can play without c5.} 9. O-O cxd5 10. cxd5
+Bd7 {[%cal Gb7b5,Ga8c8] Definitely Black is having a good play on the queen's
+side.} 11. Nb3 b5 $132) (8. Qd3 c5 9. O-O {This position occurred many times
+in the practice.} a6 {[%cal Gb7b5] Soon or later Black must push b5.} 10. Nd2 (
+{In case of:} 10. e4 Rb8 {[%cal Gb7b5]} 11. Bf4 b5 12. b3 {Black is doing
+great after:} bxc4 13. bxc4 Rb4 14. Nd2 Ng4 $132 {[%csl Rc4][%cal Gg4e5] With
+a very nice piece play.}) 10... b5 $5 {The most direct approach.} ({The other
+options are also possible:} 10... Rb8) (10... Ng4) 11. cxb5 axb5 12. Qxb5 ({Or
+} 12. Nxb5 Qb6 13. a4 Ng4 $44 {[%cal Gg4e5,Gc8a6] Black has a good game.})
+12... Ng4 $1 {[%cal Gg4e5]} ({Worse is} 12... Ba6 $6 {because of} 13. Qa4) 13.
+h3 Ne5 14. Qa4 {The threat was Bd7 trapping the white queen.} Qb6 15. Qh4 Bf5
+$1 {All of Black's pieces are placed very nice.} 16. g4 ({Worse is} 16. Qxe7 $2
+f6 $1 $17 {[%csl Re7] White's queen is in a serious trouble now.}) 16... Bc2 $1
+{The key move.} 17. Be4 ({Still dangerous is:} 17. Qxe7 f5 $44) 17... Bxe4 18.
+Ndxe4 {White must activate his pieces.} ({Worse is:} 18. Ncxe4 $6 Rfe8) 18...
+Nb3 $1 {The point.} 19. axb3 {The only way to fight for the advantage.} ({
+Absolutely harmless is:} 19. Rb1 Nxc1 20. Rfxc1 Qa7 $44 {Black has a nice
+compensation for the pawn.}) 19... Rxa1 20. Qxe7 Qxb3 {The game is extremely
+sharp here. The analysis shows that Black is fine.} 21. Qxd6 ({The other
+options are:} 21. Nxd6 Rxc1 $1 22. Rxc1 Qxb2 23. Qg5 {The only move to keep
+everything together.} f5 $1 24. gxf5 gxf5 25. Kh1 Ng6 $44 {Black is at least
+not worse.}) (21. Bg5 Rxf1+ 22. Kxf1 Qxb2 ({Also a move is:} 22... f5 $5) 23.
+Bf6 Nc4 $1 24. Bxg7 Kxg7 25. Qf6+ Kg8 26. Kg2 Re8 $11 {Black is probably not
+better, but definitely not risk here.}) 21... Rxc1 $1 {Black also must
+play very concrete.} 22. Rxc1 f5 23. f4 fxe4 {Leads to an immediate draw.} ({
+Another option is:} 23... Nf7 $5 24. Nf6+ Kh8 25. Qxc5 Qb8 26. Qd4 g5 $13 {
+[%csl Rf6,Rg1] The game is extremely double-edged.}) 24. fxe5 Qxb2 25. Rf1 Qxc3
+26. Qe6+ {Black cannot escape from the perpetual check.} Kh8 27. Rxf8+ Bxf8 28.
+Qf6+ Kg8 29. Qe6+ $11) 8... c5 ({Of course not} 8... Nxd5 $2 9. Nxd5 Bxa1 {
+because of} 10. Bd2 $16 {[%csl Ra1,Ra5] White is clearly better.}) 9. Bb2 ({
+Harmless is:} 9. dxc6 Nxc6 $11 {[%cal Gf6e4] Ne4 is coming very fast now.})
+9... a6 {[%cal Ga8b8,Gb7b5] The only reasonable plan, otherwise the knight on
+a5 will not have a purpose at all.} 10. O-O Rb8 11. Nd2 {The main move.} ({
+Here very interesting is:} 11. a4 $5 {White prevents b5 for now, but in some
+lines, the pawn on b3 can be a weakness.} e5 {I am convinced that closing the
+position is the best plan.} ({A little bit worse for Black is:} 11... e6 12.
+Nd2 exd5 13. Nxd5 ({After:} 13. cxd5 b5 14. axb5 axb5 15. e3 b4 16. Ne2 Ra8 $13
+{[%cal Gc8a6] Black has a decent counterplay on the queen's side.}) 13... Nxd5
+14. Bxg7 Ne3 {A nice trick, but not enough for full equality.} 15. fxe3 Kxg7
+16. Ne4 Qe7 17. Qd2 b6 18. Rad1 {[%csl Rd6] White will win the pawn on d6.} Qe5
+19. Qxd6 Qxd6 20. Nxd6 Be6 ({Black is just lost after:} 20... Nxb3 $2 21. Nxc8
+Rbxc8 22. Rd7 $18 {[%cal Gg2d5]}) 21. Rd3 Rfd8 22. Kf2 Rd7 23. Rfd1 $14 {
+Probably will be not easy to win, but definitely White is pressing.}) 12. e4 ({
+Harmless is:} 12. dxe6 Bxe6 13. Ng5 Bf5 14. Ra2 Re8 $11 {[%csl Rb3] Black
+seems to be fine here.}) 12... Bh6 $5 {A typical move in this situation.} ({
+Probably also not so bad is:} 12... Bd7) 13. Qc2 b6 14. Bc1 {Soon or later
+White will need to exchange those bishops.} Bxc1 15. Raxc1 Nh5 16. Rb1 Bd7 $11
+{[%csl Rb3][%cal Gd8e7] The knight on a5 is out of the game, but also the pawn
+on b3 is a permanent weakness. Black's plan is very easy: Qe7-Rbe8 and push f5
+at the right moment.}) 11... b5 12. Qc1 $5 {A very rare move, but I am sure
+this is the latest trend. Already played by some strong players, and also is the
+top suggestion of the strongest engines. The point is that in some lines the
+move Bf5 will be not so strong with the queen on c instead of the queen on c2.}
+({Another big move is:} 12. Rb1 Bh6 $1 {Clealry the best move. The positions
+are a bit dangerous for Black, but the game is very dynamic, and White also must
+play accurate.} 13. Ba1 Bxd2 14. Qxd2 bxc4 {Black took a pawn, and hopes that
+the bishop on a will be not so dangerous.} 15. bxc4 ({Only a draw is:} 15. Ne4
+Nxe4 16. Bxe4 cxb3 17. Qh6 f6 18. Bxg6 hxg6 19. Qxg6+ Kh8 20. Qh6+ $11 {
+With a perpetual check.}) 15... Nxc4 16. Qf4 ({Or} 16. Qd3 Ne5 17. Qe3 Nc4 $11
+{With a repetition of the moves.}) 16... Rxb1 17. Nxb1 ({Worse is:} 17. Rxb1 $6
+{because of} Na3 $1 18. Rc1 Nb5 $132) 17... Nb6 {[%csl Rd5]} 18. e4 {The most
+logical move, but White has also other moves. For example:} (18. Rd1 Qd7 $1 {
+[%cal Gd7a4,Gd7f5] A nice move. Returning the pawn up, but definitely
+equalizing the game.} 19. Bxf6 {hite has nothing better now.} exf6 20. Qxf6 Qd8
+21. Qxd8 Rxd8 $11 {With an equal endgame.}) (18. Qh6 e5 19. dxe6 fxe6 20. Rd1
+d5 21. Qe3 Qe7 22. Nd2 Nbd7 $11 {White has compensation for the pawn, but
+nithing more.}) 18... Qc7 {[%cal Gc8d7,Gd7b5] The point of this move is to
+prepare the nice manoeuvre Bd7-b5.} 19. Nd2 (19. Bxf6 {Looks equal after:} exf6
+20. Qxf6 Re8 21. Nd2 Bd7 $11 {[%cal Gd7b5]}) 19... Ng4 $5 {[%cal Gg4e5]
+Looking for some counterplay.} ({After:} 19... Bd7 20. h3 Bb5 21. Rc1 $44 {
+The position is very complex, but somehow is difficult to find a useful plan
+for Black.}) 20. h3 ({Or} 20. Rc1 f6 {[%cal Gg4e5]}) 20... Ne5 21. Qe3 {
+[%cal Gf2f4] Prepares f4.} f6 22. f4 (22. Rc1 {Prevents Nc4.} Bd7 23. f4 Nf7 {
+Black's position is very solid. Now after} 24. g4 {very strong is} g5 $1 25.
+fxg5 Nxg5 26. h4 Nf7 27. g5 Ne5 $132 {[%csl Ge5] Black definitely has his
+chances here.}) 22... Nbc4 23. Nxc4 Nxc4 24. Qd3 Nb6 25. Kh2 $44 {Of course
+White has full compensation, but Black also has his play. For example:} Na4 $5
+{[%cal Gc5c4,Gc4c3] Looking for some counterplay.} 26. Qe3 c4 27. Rc1 Bd7 28.
+e5 Bb5 {The game is very dynamic. Now after:} 29. Bd4 c3 30. Bxc3 Nxc3 31. Rxc3
+Qb8 {The position seems very close to being completely equal.} 32. exf6 exf6 33.
+Qd4 Rf7 34. Qb4 Qd8 35. a4 Be8 $11 {Black is a bit passive,but very solid.}) (
+12. Qc2 {The main theoretical move.} e5 $1 {Clearly the best move in my
+opinion.} ({The old theory is:} 12... bxc4 $6 13. bxc4 Bh6 {but now after:} 14.
+Ncb1 $1 {[%cal Gb2c3] The theory proved that White has the advantage.}) 13.
+Rae1 {One of the main moves.} (13. dxe6 {Another main option for White.} Bxe6
+14. cxb5 axb5 15. Nce4 {Here Black equalizes with} Bf5 $1 16. Nxf6+ ({Or} 16.
+Qc3 Ne8 $1) 16... Bxf6 17. Ne4 Bxe4 18. Bxe4 Rb6 $11 {The position is very
+balanced.}) (13. e3 {This move is very similar to the main move.} Ne8 $5 {
+[%cal Gf7f5] The most simple solution here. Black just wants to push f5 next.}
+14. Rae1 f5 15. Nd1 Qe7 $11 {The position is very closed, and looks like
+neither of the sides can make big progress.}) (13. e4 {Here very good for
+Black is} Bh6 $1 14. Bc1 Bd7 15. Re1 Nh5 $132 {[%cal Gf7f5] With a nice
+counterplay.}) (13. Nd1 {With the rook still on a1 this move makes less sense.}
+Bd7 14. Kh1 h5 $13 {With a very complex game.}) 13... Nh5 ({SImilar is:} 13...
+Bh6 $5 14. Bc1 Nh5) 14. Nd1 ({Or} 14. e3 f5) 14... f5 15. e3 Nb7 $11 {[%cal
+Gd8e7,Gc8d7,Gb7d8,Gd8f7] The game is very closed and balanced.}) 12... Re8 $5
+$146 {A very interesting improvement. The point is to wait for the White's
+response and to prepare e5.} (12... e5 {The point of 12.Qc1 is that now after}
+13. dxe6 $1 Bxe6 ({Or} 13... fxe6 14. Rb1 $14) 14. cxb5 axb5 15. Nce4 Bf5 {
+White's queen is not attacked, and White can simply continue with} 16. Nxf6+
+Bxf6 17. h3 {[%cal Gg3g4]} Bxb2 18. Qxb2 Re8 19. Rfe1 $14 {[%csl Rf6,Rg7] With
+a small,but very stable advantage for White.}) ({Worse are:} 12... bxc4 $6 13.
+bxc4 Rb4 14. Nd1 $16 {[%csl Ra5,Rb4][%cal Gb2c3] White is much better.}) ({or} 
+12... Bh6 $6 13. e3) 13. Re1 {A good prophylactic.} ({In case of} 13. Rb1 e5
+14. dxe6 Bxe6 15. Nd5 {The only way to keep fighting for the advantage.} (15.
+cxb5 {Now this is not a good idea, because of the rook on b1.} axb5 16. Nde4 ({
+Or} 16. Nce4 $6 Bf5 $132 {[%csl Rb1]}) 16... Nxe4 17. Nxe4 Bf5 {[%cal Gf5b1]
+Black will exchange a lot of pieces.} 18. Bxg7 Kxg7 19. Qf4 Rb6 20. Rbd1 Bxe4
+21. Bxe4 Qf6 $11 {The game is very equal.}) 15... Bf5 ({The alternative is:} 
+15... Bxd5 $5 16. Bxf6 Qxf6 17. Bxd5 Rxe2 18. Ne4 Qe5 $1 {The only move to
+keep the balance.} 19. Qa3 {[%csl Ra5][%cal Ga3a5] Provokes some actions from
+Black.} ({Very unclear is:} 19. Re1 Rxa2 $13 {With the idea after} 20. Bxf7+ {
+to just play} Kh8) 19... Rxe4 $1 20. Bxe4 Qxe4 21. Qxa5 Bd4 {[%csl Gd4] This
+powerful bishop completely compensates for the exchange down.} 22. Qc7 Re8 23. cxb5
+({Or} 23. Qxd6 b4) 23... axb5 24. Qxd6 b4 $44 {Black has enough compensation.})
+16. e4 Bd7 17. f4 ({In case of} 17. Qc3 {Black has} Nh5 $1) 17... Nc6 {[%cal
+Gc6d4] Finally the knight comes into the game again.} 18. Bxf6 ({If} 18. cxb5
+{then} Nd4 $1) 18... Bxf6 19. Nxf6+ Qxf6 20. e5 {[%cal Gd2e4]} Qd8 $1 {A
+necessary move.} 21. Ne4 Nd4 22. Rb2 dxe5 23. Nd6 bxc4 {Black still must play
+accurate.} 24. fxe5 Be6 {Black is happy to give up an exchange.} 25. Nxe8 Qxe8
+26. bxc4 Rxb2 27. Qxb2 Bxc4 28. Rb1 Kg7 $44 {[%csl Gd4,Re5][%cal Ge8e5] It is
+clear that Black has more than enough compensation.}) 13... e5 14. dxe6 ({
+Unclear is:} 14. Nd1 h5 $13) 14... Bxe6 15. Nd5 {A very critical line, where if
+Black knows what to do, White also must be very careful.} ({In case of} 15. Nce4
+Bf5 16. Nxf6+ Bxf6 {Black has no problems. For example:} 17. Bc3 ({Or} 17. Bxf6
+Qxf6 18. Bd5 bxc4 19. Nxc4 Nxc4 20. Qxc4 a5 $11 {With an equal chances.}) 17...
+bxc4 18. bxc4 Rc8 19. Qb2 Bxc3 20. Qxc3 Nc6 $11 {The game is level.}) 15...
+bxc4 16. Nxf6+ Bxf6 17. Ne4 Bxb2 18. Qxb2 cxb3 $1 {The whole point. Suddenly
+the game becomes extremely sharp.} 19. Nf6+ Kf8 20. Nxh7+ Kg8 21. Nf6+ Kf8 22.
+Nxe8 ({Of course White can continue with the checks.} 22. Nh7+ $11) (22. Nd5 {
+Leads to equality after:} Bxd5 23. Bxd5 Qg5 $1 24. e4 Qe5 25. Qxe5 dxe5 26.
+axb3 Nxb3 27. Rxa6 Nd4 $11 {Black is out of danger.}) 22... bxa2 $1 {The key
+move.} 23. Qh8+ Ke7 24. Bh3 Bb3 $1 {[%csl Ga2,Gb3] It is very important to
+keep the bishop and the strong a2 pawn.} 25. e4 {[%cal Ge4e5] Looking for some
+way to attack black's king.} Qxe8 26. Qh4+ g5 $1 {The only defense.} ({The
+rest of the moves are just bad:} 26... Kf8 $2 27. e5 $18) (26... f6 $2 27. e5
+$18) 27. Qxg5+ f6 28. Qh4 Qh8 {The endgame is in Black's favour.} 29. Qg4 Rb7
+$1 {[%csl Rd7] A very calm and strong move. Just prevents Qd7+.} 30. f4 {
+[%cal Ge4e5]} ({Or} 30. Bg2 Rb6) 30... Nc6 31. e5 dxe5 32. Bg2 Rb6 33. Bxc6
+Rxc6 34. Qf3 Rb6 35. fxe5 fxe5 36. Qc3 Kd6 $132 {[%csl Ga2,Gb3] The position
+is insane, but it seems that Black is in control.}) 6... Nc6 7. Nc3 {The main
+move.} ({Here also possible is:} 7. d5 Na5 {Now it is a bit different compared
+with the line with 6.Nc3. White cannot play b3 now.} 8. Na3 (8. Nbd2 {Looks
+harmless.} b5 $5 {An interesting way to play.} ({Also normal is:} 8... c5) 9.
+Nd4 ({Or} 9. cxb5 Nxd5 10. Nd4 e6 $132) 9... Nxc4 10. Nxc4 ({Or:} 10. Nc6 Qe8)
+(10. Nxb5 Nb6 $11) 10... bxc4 11. Qa4 a5 12. Qxc4 Ba6 13. Qa4 Qe8 14. Nc6 e6
+15. dxe6 fxe6 $11 {Black is having a nice game.}) ({In case of} 8. Nfd2 {
+good is} c6 $1 $132 {[%cal Gc6d5,Gc8d7,Ga8c8]}) (8. Qa4 {A quite possible line.
+} c5 9. Bd2 b6 {The only way to defend the knight.} 10. Bc3 e6 {I prefer this
+move.} ({Also to an unclear position leads.} 10... Bd7 $5 11. Qc2 Nxc4 12. Bxf6
+Bxf6 13. Qxc4 Bxb2 14. Nbd2 Bxa1 15. Rxa1 b5 $13 {With a very sharp game.}) 11.
+dxe6 Bxe6 12. Nbd2 ({Or} 12. Ng5 Bd7) 12... d5 $5 {The easiest way to equalize.
+} 13. cxd5 Nxd5 14. Bxg7 Kxg7 15. a3 Qe7 16. e4 Nc7 17. Rfe1 Rfd8 $11 {The
+position is approximately equal.}) 8... c5 9. Re1 {[%cal Ge2e4]} ({Or} 9. Nd2
+a6 10. Rb1 Rb8 11. b3 b5 12. e4 Bd7 $11 {[%csl Ra3] Black has enough
+counterplay on both sides.}) 9... e6 $1 {Now Black must open the centre.} ({
+Worse is:} 9... a6 $6 10. e4) 10. e4 Re8 11. Bf4 exd5 12. exd5 Rxe1+ 13. Qxe1 {
+This is a strange Benoni with the knights on a5 and a3.} b6 {The most simple
+move.} ({Also an option is:} 13... a6 $5 14. Bxd6 Qxd6 15. Qxa5 b6 16. Qd2 Ra7
+$44 {[%cal Ga7e7] I believe Black is not worse here. The black squared bishop
+is too strong.}) 14. Qd2 Qf8 15. Re1 Bd7 $11 {[%cal Ga8e8] Black should be
+fine.}) 7... e5 $5 {A very popular line in the last couple of years. Always
+the move 7...a6 was considered to be the main, nowadays definitely 7...e5 is
+taking over. I believe Objectively Black has a very good chance to equalize
+and to have a good chance to fight for the advantage.} ({The alternatives are:
+} 7... a6) (7... Rb8) (7... Bf5) 8. dxe5 {One of the most principled
+continuations.} (8. Be3 {A rare,but possible move.} exd4 ({White is a bit
+better after:} 8... Ng4 9. Bg5 f6 10. Bc1 $14) 9. Nxd4 Ng4 $1 {The best way to
+equalzie the game.} 10. Nxc6 {Next couple of moves are completely forced.} Nxe3
+11. Nxd8 Nxd1 12. Rfxd1 Rxd8 13. Nd5 ({Also equal is:} 13. c5 Bxc3 14. bxc3 Kf8
+$11) 13... Rd7 {A bit passive, but good enough for equality.} ({Also an option
+is:} 13... Bg4 $5 14. Nxc7 Rac8 15. Nd5 Re8 {[%csl Rc4,Re2]}) 14. Bh3 {The
+only way to create some problems.} f5 15. e4 c6 16. Nc3 Rf7 {With a couple of
+accurate moves Black will level the game.} 17. exf5 Bxf5 18. Bxf5 Rxf5 19. Rxd6
+Bxc3 20. bxc3 Re8 21. Kf1 Kf7 $11 {[%csl Ra2,Rc3,Rc4][%cal Gf5c5,Gc5a5] Black
+is a pawn down,but the endgame is equal. White has too many weaknesses on the
+queen's side.}) (8. e3 {A passive way to play. This is a bit strange with the
+knight on f3 and not being on e2.} Rb8 $5 {A strange but good move. The
+point is to protect the pawn on b7 in some lines.} ({More popular are:} 8...
+Bf5) (8... a5) 9. d5 ({The alternatives also do not bring the advantage. For
+example:} 9. b3 Bg4 {[%cal Gg4d1,Gg7a1]} 10. h3 Bxf3 11. Bxf3 exd4 12. exd4
+Nxd4 $1 {A nice tactical shot. This move is possible thanks to the diagonal
+a1-h8.} 13. Qxd4 Nd7 14. Qe3 ({Or} 14. Qd2 Qf6 {[%csl Rc3,Rf3]} 15. Bb2 Qxf3
+16. Nd5 c6 17. Bxg7 Kxg7 18. Nf4 Rbd8 $11 {The endgame is quite equal.}) 14...
+Re8 15. Be4 {There is nothing better.} Bxc3 ({Also interesting is:} 15... Nf6
+$5) 16. Qxc3 Rxe4 17. Bb2 f6 18. Rae1 {White has compensation, but only for
+equality. The game now can continue:} Re7 $5 19. Rxe7 Qxe7 20. Qa5 b6 21. Qxa7
+Qd8 {[%cal Gb8a8]} 22. Re1 Ra8 23. Qb7 Rxa2 24. Qd5+ Kf8 $11 {Black seems to
+be out of danger.}) (9. h3 {Stopping all plans connected with Bg4.} Re8 10. b3
+{A typical way to develop the pieces.} a6 {[%cal Gb7b5] Prepares b5.} 11. Bb2
+exd4 12. exd4 ({Very equal is:} 12. Nxd4 Nxd4 13. Qxd4 Ne4 14. Qd3 Nxc3 15.
+Bxc3 Bf5 16. Qd2 Bxc3 17. Qxc3 Qd7 18. Kh2 Be4 $11 {Black simply has equalized.
+}) 12... b5 13. d5 Ne7 14. Nd2 Bd7 $11 {The game is complex, but it seems that
+Black is doing fine.}) 9... e4 $1 {An important move here.} 10. dxc6 ({In case
+of:} 10. Nd2 Ne5 11. Ncxe4 Nxe4 12. Bxe4 Bg4 13. Qc2 c6 $44 {Black has 
+excellent compensation for the pawn.}) 10... exf3 11. Qxf3 ({The alternative
+is:} 11. Bxf3 bxc6 12. Bxc6 Ng4 $1 {[%cal Gg4e5] Black has a nice piece play.
+It seems that the compensation is more than enough.} 13. Bg2 ({Or} 13. Qc2 Bf5
+14. Be4 Bxe4 15. Nxe4 Re8 16. Rb1 d5 $44 {Black is doing very well.}) 13...
+Bxc3 $5 {An interesting and thematic way to play.} ({Also possible is:} 13...
+Ne5) 14. bxc3 Ne5 15. e4 Re8 16. Bh6 Bg4 17. f3 Be6 $11 {[%csl Rc4] Black has
+a good game.}) 11... Bg4 12. Qf4 bxc6 13. b3 ({Worse is:} 13. Bxc6 $6 {in view
+of} h5 $1 14. Bg2 Nd7 $15 {[%csl Rf4] White should be careful here.}) 13... c5
+14. Bb2 Bd7 $11 {The game looks level.}) (8. h3 {Another way to play, which
+looks not so promising for White.} exd4 9. Nxd4 Nxd4 10. Qxd4 Be6 11. Qd3 ({
+In case of} 11. Qh4 {interesting is} Nh5 $5 12. Bg5 ({The endgame after:} 12.
+Qxd8 Raxd8 13. Bg5 Bf6 $11 {Looks approximately equal.}) 12... f6 13. Bd2 f5
+14. Qxd8 Raxd8 15. Rac1 c6 16. b3 Be5 $11 {Black's position is very solid.})
+11... a5 $5 $146 {An interesting improvement.} ({There is nothing wrong with
+the other moves as well:} 11... c6) (11... Nd7) 12. Be3 Bf5 13. Qd2 Re8 {
+[%cal Gf6e4] Black simply wants to exchange a lot of pieces by playing Ne4
+next.} 14. Bd4 Ne4 15. Bxe4 Bxe4 16. Bxg7 Kxg7 17. Qd4+ Qf6 18. Qxf6+ Kxf6 19.
+f3 Bc6 20. Kf2 Re5 $11 {The endgame is just equal. Black has zero problems.}) (
+8. d5 {The other main move. This move leads to very closed and complex
+positions, where definitely White also must be careful.} Nb8 9. e4 {The most
+logical continuation after 8.d5.} ({The alternative is:} 9. c5 Na6 10. cxd6
+cxd6 {[%cal Gc8d7,Ga8c8] This position looks very playable for both sides.
+Black's plan is to start playing on the queen's side by Bd7-Rc8.} 11. Nd2 ({
+Similar is:} 11. a4 Bd7) 11... Bd7 12. a4 Rc8 13. Nb3 ({Another option is:} 13.
+Qb3 b6 14. Qa3 Ne8 15. b4 {This position looks very double-edged. I actually
+like Black's chances here.} e4 16. Bb2 f5 17. Rfc1 h5 $5 {[%cal Gh5h4]} 18. e3
+h4 19. Ne2 Bxb2 20. Qxb2 Qf6 $11 {Black seems to be fine.}) 13... Ne8 14. Be3 {
+This position occurred in the game Kuzubov, Y (2643)-Onischuk, V (2633) Chess.
+com INT 2020. Here Black could have played} b6 15. Nb5 ({If} 15. a5 {then} Nc5)
+15... Ra8 $1 {Black must play this.} 16. Nd2 f5 17. Nc4 Qe7 $11 {The game is
+very complex, but Black is doing very fine.}) 9... a5 {[%cal Gb8a6] A very
+natural move, preparing Na6.} 10. b3 $5 {[%cal Ga2a3,Ga1b1] A bit rare move, but
+in my opinion, this is the best way for White to fight for the advantage. White
+wants immediately to push a3-b4.} ({More popular are:} 10. h3 {[%cal Gc1e3]
+The idea of this move is to place the bishop on e3.} Na6 11. Be3 Nc5 12. Qc2 ({
+In case of} 12. Bxc5 dxc5 13. Nxe5 {Black is doing great after:} Nxe4 $1 14.
+Nxe4 Bxe5 15. Nxc5 b6 16. Na4 ({Or} 16. Nd3 Bd6 $44 {[%cal Gd8f6]}) 16... Bd7
+17. Nc3 Qf6 18. Qd2 Rae8 $44 {[%csl Ge5] Black has excellent compensation
+for the pawn.}) 12... b6 {Already is good to prevent Bxc5.} 13. Rae1 Nh5 {
+[%cal Gf7f5] Black is ready to push f5 next.} 14. a3 {[%cal Gb2b4]} a4 $1 {
+A very typical pawn sacrifice. It is important to not allow b2-b4.} 15. Bxc5
+bxc5 16. Nxa4 f5 17. Nc3 Bh6 18. a4 Nf6 $44 {Black has a very nice counterplay
+on both sides.}) (10. Ne1 {[%cal Ge1d3] The most played move, and the most
+typical plan.} Na6 11. Nd3 Nd7 $1 {[%cal Gf7f5,Ga6c5] Black prepares f5 and
+Nac5.} 12. Be3 ({Another move is:} 12. a3 Nac5 13. Nxc5 Nxc5 14. Rb1 a4 {
+A very logical response.} ({Also good is:} 14... f5 15. b4 axb4 16. axb4 Nxe4
+17. Nxe4 fxe4 18. Be3 Bf5 $11 {I don't think Black can be worse here.}) 15. Be3
+Bd7 16. Bxc5 dxc5 17. b4 axb3 18. Qxb3 Bc8 $11 {The game is quite level.}) ({
+Just bad is:} 12. f4 $2 {in view of} exf4 13. gxf4 f5 $17 {Black is clearly
+better.}) 12... f5 ({Also good are:} 12... Ndc5) (12... b6 $5 {[%cal Gd7c5]})
+13. Qd2 b6 {[%cal Gd7c5] Prepares to jump with some of the knights on c5.} 14.
+Kh1 Ndc5 15. Nxc5 Nxc5 16. exf5 gxf5 17. f4 e4 18. Rg1 h5 19. Nb5 Ba6 $11 {
+The chances are equal.}) 10... Na6 11. Rb1 Nc5 12. Re1 Bd7 13. a3 ({White can
+also start with} 13. Qc2 Qe7 14. a3 a4 $1 {In this setup almost always after
+a3 Black is reacting with a4.} 15. b4 Nb3 16. Bb2 h5 {[%cal Gf6h7,Gf7f5] It is
+a very double-edged position. Black must create counterplay on the king's side.
+} 17. Ne2 {[%cal Ge2c1] White must exchange this knight from b3.} Nh7 18. Nc1
+f5 $1 {The best decision. Black is even ready to sacrifice a pawn, but to take
+the initiative.} 19. Nxb3 axb3 20. Qxb3 Qf7 $44 {[%cal Gf7f2,Gf5e4,Gg6g5,Gg5g4]
+Black definitely has a lot of play now.}) 13... a4 $1 {A very important motif.}
+14. b4 Nb3 15. Bb2 Bh6 16. Qc2 (16. Na2 {[%cal Ga2c1] This move was played in
+the game Ding, L (2778)-Grischuk, A (2747) Wenzhou 2016 Hereafter:} Bg4 $1 17.
+h3 Bxf3 18. Bxf3 Nd7 19. Qd3 f5 20. Rbd1 Qf6 $132 {Black could have an
+excellent counter-chances.}) ({Another move is:} 16. Qe2 Bg4 17. Rbd1 Qd7 ({
+Worse is:} 17... Nd4 $6 18. Qd3) 18. Qc2 Nh5 19. c5 f5 $132 {With a very
+double-edged position.}) 16... b6 {Already prevents c4-c5.} 17. Nb5 Ne8 18.
+Rbd1 f6 $13 {A bit awkward move, the point is to prevent some strikes on the e5
+square. The game is extremely double-edged.}) 8... dxe5 ({A bit worse, in my
+opinion, is:} 8... Nxe5 9. b3 $5 $14) 9. Bg5 {The best move.} ({The
+alternatives are less dangerous for Black:} 9. Qb3 Nd4 10. Nxd4 exd4 11. Rd1
+Ng4 $132 {Black is doing very well.}) (9. Qa4 Bd7 10. Bg5 h6 11. Bxf6 Qxf6 12.
+Rfd1 Rfd8 $132 {Black has an excellent game.}) (9. Qxd8 Rxd8 10. Bg5 Be6 ({
+Here also good is:} 10... e4 11. Nd2 h6 12. Bxf6 Rxd2 13. Bxg7 Kxg7 14. Bxe4
+Rxb2 $11 {With equal endgame.}) 11. Nd2 h6 12. Bxf6 Bxf6 13. Nd5 Bxd5 14. cxd5
+Ne7 15. e4 c6 $11 {The endgame is very level.}) (9. Be3 $5 {This move gains
+some popularity lately.} Bf5 $5 {[%cal Gf6e4] A bit rare, but I believe a good
+move.} ({More popular is:} 9... Be6 10. Qa4) 10. Nd2 ({In case of} 10. h3 {
+good is} Ne4 11. Nd5 ({Or} 11. Nb5 Qe7 12. Nh4 a6 13. Nxf5 gxf5 14. Nc3 Nxc3
+15. bxc3 e4 16. Qd5 Qf6 $11 {[%csl Rc3,Rg2] Black is doing very well here.})
+11... Re8 $5 {A quiet and a good move.} 12. Nh4 ({Or} 12. b4 Nd6) 12... Nd4 $1
+13. Nxf5 gxf5 14. g4 Nd6 $1 15. c5 Nc4 $132 {Black has a lot of initiative.}) (
+{Or} 10. Rc1 Re8 $11 {Black is fine in the game Rukavina,J-Huebner,R Leningrad
+1973.}) 10... Qc8 11. Nd5 h5 12. Rc1 Bh3 13. Nf3 Bxg2 14. Kxg2 Re8 $11 {
+Black has no problems at all.}) 9... h6 $5 {The modern approach. I believe
+this leads to an easy position for Black.} ({The main theoretical move is:} 
+9... Be6) 10. Qxd8 {Next couple of moves are very forced.} Rxd8 11. Bxf6 Bxf6
+12. Nd5 Kg7 13. Nxc7 Rb8 {Black lost a pawn but got a pair of bishops and nice
+control over the black squares.} 14. e4 ({The rest of the moves are less
+dangerous for Black.} 14. Rad1 e4 15. Nd2 Be5 {[%cal Gf7f5] The easiest way to
+continue.} ({Also good is:} 15... Bg4 $5 16. Nxe4 Be5 17. f3 Bf5 18. Rxd8 Rxd8
+19. Nd5 Bxe4 20. fxe4 Bxb2 21. Rb1 Ba3 22. Rxb7 Na5 $11 {Looks fine for Black.}
+) 16. Nd5 f5 17. b3 b5 18. e3 Be6 $11 {Black is not worse at all.}) (14. Nd5 e4
+15. Nd2 Bxb2 ({Interesting is:} 15... e3 $5) 16. Rab1 Ba3 17. Bxe4 ({Or} 17.
+Nxe4 Ne5 18. Ne3 b6 19. c5 Ba6 $44) 17... Bg4 $5 $146 {A good improvement.} ({
+There is nothing wrong with} 17... Ne5 $44 {Petrov,J (2403)-Zufic,M (2366)
+Mali Losinj 2021.}) 18. f3 ({Or} 18. Nf3 Re8 19. Bd3 b6 $44 {[%cal Ga3c5]
+Black has excellent compensation.}) 18... Bd7 19. Rfd1 b6 $44 {Black has 
+good compensation for the pawn.}) 14... Be7 {[%cal Ge7c5] The most played move
+in this position.} ({Black has several good alternatives. For example:} 14...
+Bg4 $5 15. Nd5 b5 16. c5 ({Or} 16. cxb5 Rxb5 17. b3 {Oparin,G (2655)-Mamedov,R
+(2654) Lichess.org INT 2021. Now after:} Nd4 $1 18. Nxd4 exd4 19. f3 Be6 20.
+Nxf6 Kxf6 $11 {[%csl Gd4][%cal Ga7a5] Black should be able to equalize
+completely.}) 16... a5 17. Rac1 Rbc8 $44 {Black's compensation should be
+enough for equality.}) (14... g5 $5 {A bit strange, but a possible move.} 15.
+Nd5 Be6 $44) 15. Nd5 ({Or} 15. Rfd1 Be6 {[%cal Ge7c5]}) 15... Bc5 16. Rfd1 Be6
+({SImilar is:} 16... a5) 17. b3 ({If} 17. Ne1 {then} a5 18. Nd3 Bd4 $44 {
+[%csl Gd4]}) 17... a5 $44 {[%csl Gc5,Rd4] Black has an excellent compensation
+for the pawn, thanks to the strong black squared bishop..Giri,A (2780)-Dubov,D
+(2710) chess24.com INT 2021} *
+
+[Event "?"]
+[Site "?"]
+[Date "2022.??.??"]
+[Round "?"]
+[White "Chapter 8"]
+[Black "Rare 5th moves"]
+[Result "*"]
+[ECO "E61"]
+[Annotator "GM Ivan Cheparinov"]
+[PlyCount "27"]
+[SourceVersionDate "2022.06.24"]
+
+{[%evp 0,27,40,19,33,-3,37,36,43,28,28,29,29,9,17,21,35,34,37,-6,-9,-2,10,-3,
+31,-18,1,-7,-5,-18]} 1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. Nf3 d6 5. Bg5 {This move
+is not very ambitious. White is trying to obtain a risk-free position with
+chances for a very slight advantage. Of course, in this chapter, I will show
+you how to complicate matters with Black.} ({Another calm continuation is} 5.
+e3 {when my suggestion would be} O-O 6. Be2 e5 $5 ({After} 6... Nbd7 {White
+can play} 7. O-O e5 8. Qc2 {[%cal Gf1d1,Gb2b4] Planning Rd1 and b2-b4. In this
+case, it's not so easy for Black to obtain counterplay.} ({It's possible to
+start even with} 8. b4)) ({In case of} 6... Bf5 $5 7. Nd2 {[%cal Ge3e4,Gg2g4]}
+e5 8. d5 e4 9. g4 Bd7 $13 {we get unclear position with mutual chances.}) 7.
+dxe5 {The most forcing continuation.} ({After} 7. O-O {Black's most precise
+reaction is} Bf5 $1 {supporting the advance ...e5-e4 and making possible the
+resource ...Ne4 under favourable circumstances.} 8. Qb3 {Immediately putting
+pressure on the weakened b7-pawn.} ({Another option is} 8. dxe5 dxe5 9. Nxe5 (
+9. Qxd8 {White can also start with} Rxd8 {when after} 10. Nxe5 {Black has the
+important idea} Ne4 11. Nxe4 Bxe4 {Black's superior development and active
+pieces provide more than sufficient compensation for the pawn. The following
+lines prove this evaluation.} 12. Nd3 a5 $5 ({There is nothing wrong with} 
+12... Nd7) ({or} 12... b6) 13. Rd1 ({After} 13. Nc5 Bc6 {it's not clear how
+White is going to proceed with the development.}) ({Another nice illustrative
+line is} 13. f3 Bxd3 14. Rd1 Nc6 15. Rxd3 Rxd3 16. Bxd3 a4 {[%cal Ga4a3] It
+turns out that White should play very precisely in order to keep the equality.
+A possible follow-up would be} 17. Be4 Rd8 18. Kf1 Nb4 19. Ke2 a3 20. bxa3 Nd5
+$1 21. Bxd5 Bxa1 22. Bxb7 Rb8 23. Bc6 Bb2 24. Bd2 Bxa3 $11 {with equality.})
+13... Nc6 14. Nc5 Bc2 15. Rxd8+ Rxd8 16. Nxb7 Rb8 17. Nc5 a4 (17... Bxb2 18.
+Bxb2 Rxb2 $44) 18. a3 Rd8 {[%csl Rc5][%cal Gg7f8]} (18... Na5 19. Kf1 Nb3 20.
+Nxb3 Rxb3 21. Ra2 Bb1 22. Ra1 Bc2 $11) 19. Nb7 Rb8 20. Nc5 $11 {Black's
+compensation is more than enough for equality.}) ({After} 9. Qb3 {Black again
+follows with} Ne4 $1 10. Qxb7 {The most principled continuation.} ({In case of
+} 10. Rd1 {Black can play} Nxc3 $1 11. Qxc3 ({Taking the queen is risky. For
+example, after} 11. Rxd8 $6 Nxe2+ 12. Kf1 Rxd8 13. Kxe2 b6 14. Bd2 Na6 $15 {
+[%csl Re2][%cal Ga6c5] Black has fantastic compensation due to the vulnerable
+white king.}) 11... Nd7 $11 {Black has nothing to worry about.}) 10... Nxc3 11.
+bxc3 Nd7 12. Ba3 c5 13. e4 Rb8 14. Qd5 Be6 15. Qd3 h6 $11 {[%csl Rg5][%cal
+Gd8a5] with ...Qa5 to follow. White's extra pawn is not a significant factor
+in this position.}) 9... Ne4 {Again, this thematic resource provides Black with 
+excellent compensation.} 10. Nxe4 Bxe4 11. Nd3 ({In case of} 11. Bf3 f5 $1 12.
+Bxe4 fxe4 {White should take care of his unstable knight. A possible follow-up
+will be} 13. Qd4 Re8 14. f4 exf3 15. Qxd8 Rxd8 16. Nxf3 Nc6 $44 {[%csl Rc1]
+when Black has a wonderful compensation.}) 11... Na6 ({Another possibility is} 
+11... a5 $5 12. Nf4 a4 {with a decent compensation.}) 12. Nf4 Qxd1 13. Rxd1
+Rfd8 14. Nd3 b6 15. f3 Bxd3 16. Rxd3 Rxd3 17. Bxd3 Rd8 18. Be2 Nb4 19. Kf1 a5
+$44 {[%csl Ra1,Rc1] As often happens in this line, Black has problems developing the queenside. White should probably play} 20. a3 Nd3 ({More fighting
+option is} 20... Nc2 $5 21. Ra2 a4 {[%csl Ra2] when White faces practical
+problems in view of his passive rook.}) 21. Bxd3 Rxd3 22. Ke2 Rb3 $11 {[%csl
+Gb3] The position is equal.}) ({More straightforward approach is} 8. b4 {
+In this case, Black can proceed with} Nbd7 9. Bb2 ({After} 9. a4 a5 10. b5 {
+Black can solve all problems with} Ne4 11. Nxe4 Bxe4 $11) 9... c6 10. Qb3 Re8
+11. Rfd1 e4 12. Nd2 h5 $132 {[%cal Gf6g4] We have a KIA reversed. The move ...
+h7-h5 is quite thematic for such structures. Black is planning to continue the
+attack with ...Ng4 on the next move.}) 8... e4 $1 $146 {This important novelty
+gives Black decent counterplay.} 9. Qxb7 {White should accept the challenge.} (
+{In case of the passive} 9. Nd2 {Black can play} Qc8 10. Rd1 h5 11. Nf1 Re8
+$132 {with decent attacking chances.}) 9... exf3 10. Bxf3 Nbd7 11. Qxa8 Qxa8
+12. Bxa8 Rxa8 {This is the critical position for the evaluation of the
+exchange operation. In my opinion, Black has adequate counterplay. In the next
+moves, he will increase the potential of his minor pieces.} 13. Rd1 {This move
+is directed against the break ...c7-c5.} ({After} 13. b3 c5 $1 {Black has very
+good counterplay. The following line is quite illustrative.} 14. Ba3 cxd4 15.
+exd4 d5 $1 16. cxd5 Ne4 17. Nxe4 Bxe4 {It's clear that White cannot retain all
+the captured material. One can already start feeling the power of the bishop
+pair.} 18. Rac1 (18. d6 Bxd4 19. Rad1 Bf6 $11 {[%csl Gd7][%cal Ge4f5] Black's
+bishop pair is enough for equality.}) 18... Bxd5 19. Rc7 Nb6 20. Bc5 Bf6 21.
+Re1 Kg7 $11 {with equality.}) 13... g5 $5 {Black seizes the opportunity to
+gain space on the kingside.} ({Another way of getting a counterplay is} 13...
+Be6 $5 14. b3 d5 15. Nb5 Ne8 16. cxd5 Bxd5 17. Bd2 Rb8 18. Nc3 Bb7 19. Rac1 f5
+$13 {In the arising unclear position the play is going for three results.}) 14.
+Bd2 ({An alternative is} 14. f3 Bc2 15. Rd2 Bg6 16. h3 h5 17. b3 Nf8 18. Bb2
+Ne6 $13 {with a very complicated position.}) 14... g4 15. Rac1 a5 $13 {Black
+has decent counterplay.}) 7... dxe5 8. Qxd8 ({The immediate} 8. Nxe5 {can be
+answered with} Qxd1+ 9. Nxd1 ({After} 9. Kxd1 Na6 10. Bd2 Rd8 $44 {White faces
+problems related to his bad piece coordination.}) 9... Rd8 10. O-O (10. Nc3 {
+Transposes to 8.Qxd8.}) 10... Na6 11. f3 Be6 12. Nf2 Nd7 13. Nxd7 Rxd7 $44 {
+As usual, Black's compensation is based on the fact that White cannot easily
+develop his queenside.}) 8... Rxd8 9. Nxe5 Ne4 $1 {We are already familiar
+with this typical resource.} 10. Nxe4 Bxe5 {Once again, Black gets his typical
+compensation. As always, the development of the white dark-squared bishop is
+problematic.} 11. Nc3 {The most natural continuation.} ({The ambitious} 11. f4
+{does not provide an advantage either. A possible follow-up would be} Bg7 12.
+Nc3 Na6 13. Bd2 Nb4 {Just in time! Black is going after the bishop pair.} 14.
+Rd1 Nd3+ 15. Bxd3 Rxd3 16. Ke2 Rd8 {[%cal Gc8g4]} 17. h3 (17. Kf3 c6 $44 {
+[%csl Gc8,Gg7][%cal Gc8e6]}) 17... Bf5 $1 18. e4 (18. Nd5 Be4) 18... Bxc3 19.
+exf5 (19. Bxc3 Bxe4 $11) 19... Bxb2 20. Rb1 Bf6 21. Rxb7 Rd4 $11 {The position
+is equal.}) 11... Na6 12. Bd2 {This move indicates White's intention of
+castling long.} ({After} 12. O-O Be6 13. e4 Nc5 14. f3 Nd3 15. Bxd3 Rxd3 $11 {
+White is the one who should prove the equality.}) ({Another interesting try is
+} 12. Nd5 {[%cal Gd5e7] threatening Ne7. In this case, Black should start with}
+Bd7 {An illustrative line would be} 13. f3 c6 14. Nf4 Bf5 15. e4 (15. Kf2 $6
+Bc2 $1 $15 {[%csl Rc1][%cal Gd8d1]}) 15... Nb4 $1 {This energetic move does
+not allow White to consolidate his position.} 16. Kf2 g5 $1 17. Nh3 (17. Nh5
+Bg6 18. g4 Bxh5 19. gxh5 h6 20. h4 f6 $44 {[%csl Ge5] Black has a fantastic
+compensation for the pawn.}) 17... Bd4+ 18. Kg3 Be5+ $11) 12... Nb4 13. O-O-O (
+{The passive} 13. Rc1 {is well met by} Bf5 {creating the threat of ...Nc2.}) ({
+In case of} 13. Rd1 {the most precise reaction is} Be6 $1 {targetting the
+c4-pawn.} 14. Na4 {This is the only way to keep the tension.} ({After} 14. f4
+Bxc3 15. Bxc3 Rxd1+ 16. Kxd1 Rd8+ 17. Ke1 Nd3+ (17... Nxa2 $6 18. Bf6) 18. Bxd3
+Rxd3 19. Kf2 Bxc4 $11 {the position is completely equal.}) 14... a5 (14... Bd6
+$5) 15. f4 Bg7 16. a3 Nd3+ 17. Bxd3 Rxd3 18. Nc5 Rd6 19. Nxe6 Rxe6 20. b3 a4
+$11 {Black has more than enough compensation for the pawn.}) 13... Bxc3 14.
+Bxc3 Nxa2+ 15. Kc2 Bf5+ 16. Kb3 Nxc3 17. Kxc3 a5 18. Rd4 Kf8 $11 {with
+equality.}) ({In case of} 5. Bf4 {the move} Bf5 $5 {[%cal Gf6e4] is again very
+strong. Black always has the resource ...Ne4 at his disposal.} (5... O-O 6. e3)
+6. e3 {The disadvantage of this move is that Black can go after the bishop
+pair by means of ...Nh5} ({Too slow is} 6. h3 $6 {when Black can just play} Ne4
+) ({After} 6. Qb3 {Black can calmly play} O-O {Taking the pawn now is very
+risky. For example, after} 7. Qxb7 $140 $6 Nbd7 {[%cal Ga8b8]} 8. Qb3 $6 Rb8 9.
+Qa3 e5 $17 {Black already has a huge advantage.}) ({The move} 6. g3 {should
+again be met with} Ne4 7. Nxe4 Bxe4 8. Bg2 O-O 9. O-O c5 $11 {The position is
+equal.}) ({To a repetition leads} 6. Nh4 Bd7 7. Nf3 Bf5 $11 ({If Black wants
+to play for a win, he should choose the complicated position arising after} 
+7... O-O 8. e3 c5)) 6... Nh5 $5 {This is the most ambitious continuation.} ({
+If Black is playing for equality, he can choose} 6... Ne4 7. Nxe4 Bxe4 8. Bd3
+Bxd3 9. Qxd3 O-O 10. O-O ({In such positions, we should always reckon with the
+aggressive} 10. h4 {In this concrete case, the most precise reaction is} Qe8 $1
+{[%cal Ge7e5] preparing the advance ...e7-e5. The play might continue} 11. h5
+e5 12. hxg6 exf4 13. gxf7+ Rxf7 14. Qxh7+ Kf8 15. Ng5 Rf6 16. Qh4 Kg8 17. Qh7+
+$11 {with a draw.}) 10... Qe8 {[%cal Ge7e5]} 11. e4 e5 12. Be3 Nd7 $11 {
+Black has no problems whatsoever.}) 7. Bg5 h6 8. Bh4 g5 9. Bg3 (9. Be2 c5 $1) (
+9. Nd2 c5 $1 10. Qxh5 cxd4 11. exd4 Qd7 $1 $132 {[%cal Gf5g4]}) 9... c5 $1 {
+This thematic break is very important for Black. The idea is to activate the
+g7-bishop.} 10. Be2 (10. Bd3 Bg4) 10... Qb6 11. O-O (11. Nd5 Qa5+) 11... Nxg3
+12. hxg3 Nc6 {[%csl Rd4]} 13. Nd5 Qd8 $11 {We have reached dynamic equality.
+In such positions, Even though the position is balanced, you can definitely
+play for a win.}) 5... h6 {In my opinion, this is the most precise move order.}
+({In case of} 5... O-O {White can play} 6. Qd2 {stabilizing the bishop.}) ({
+On the other hand, the move} 5... Bf5 $5 {is a decent option.}) 6. Bh4 g5 ({
+There is nothing wrong with the immediate} 6... c5 $5) 7. Bg3 Nh5 8. e3 c5 $1 {
+Once again, we see this thematic idea.} 9. Be2 ({The endgame arising after} 9.
+dxc5 Nxg3 10. hxg3 dxc5 11. Qxd8+ Kxd8 12. O-O-O+ Bd7 $11 {is equal but not
+completely dry.}) ({After} 9. d5 $6 {Black has a very nice idea at his
+disposal -} Nxg3 10. hxg3 Bxc3+ $1 11. bxc3 Kd7 $1 {[%cal Gd7c7] This idea can
+be often seen in the Leningrad Variation of the Nimzo-Indian Defence. In this
+structure, c7 is a very nice square for the king.} 12. Nd2 Kc7 13. Be2 Qf8 14.
+Rb1 Nd7 $15 {Black was slightly better in the game 0-1 (64) Barseghyan, H (2439)
+-Nihal,S (2656) Cannes 2022}) 9... Nxg3 10. hxg3 g4 $1 {An important move.
+Black forces the white knight on the unfavourable h4-square.} 11. Nh4 ({After} 
+11. Nd2 $6 cxd4 12. exd4 h5 13. Nb3 Nc6 $15 {[%cal Ga7a5] Black is already
+better. He is planning to follow with ...a7-a5-a4.}) 11... h5 {[%csl Rh4]} 12.
+Rc1 Qb6 $5 {[%csl Rd4] The d4-pawn is already problematic.} (12... cxd4 13.
+exd4 Nc6 14. d5 {1-0 (36) Materia,M (2398)-Kapnisis,S (2450) Heraklion 2022}
+Nd4 $5 15. Bd3 e5 $11) 13. Nd5 (13. O-O cxd4 14. Na4 Qa5 15. exd4 Nc6 16. d5
+Ne5 17. Nc3 Bd7 $132 {[%csl Rh4][%cal Ge8c8]}) 13... Qd8 14. Nc3 $11 {with
+dynamic equality.} *
+
+[Event "?"]
+[Site "?"]
+[Date "2022.??.??"]
+[Round "?"]
+[White "Chapter 9"]
+[Black "Rare 3th moves"]
+[Result "*"]
+[ECO "A48"]
+[Annotator "GM Ivan Cheparinov"]
+[PlyCount "30"]
+[SourceVersionDate "2022.06.24"]
+
+{[%evp 0,30,19,31,14,30,45,4,5,6,7,2,23,20,27,7,13,26,19,9,22,14,14,11,23,6,20,
+4,10,-3,-3,-1,-1]} 1. d4 Nf6 2. Nf3 g6 3. b3 {This is another interesting
+solid system. Instead of fighting for an opening advantage, White is trying to
+restrict Black's options and focus on the middlegame. In this chapter, I will
+show you how to fight for a win against this variation.} ({A bit more active is
+} 3. b4 Bg7 4. Bb2 O-O 5. e3 d6 {Now, White has a choice. Depending on the
+circumstances, Black will either strike with ...a7-a5 or ...c7-c5.} 6. Be2 ({
+In case of} 6. Nbd2 {Black can play} a5 $5 7. b5 {After this move, White's
+queenside appears to be a bit overextended.} ({After the passive} 7. a3 {
+Black can play} Bf5 $5 8. Be2 axb4 9. axb4 Rxa1 10. Bxa1 Na6 $1 {when it's not
+easy for White to keep his queenside intact.} 11. c3 (11. b5 $2 Nb4 $17 {
+[%csl Rc2]}) 11... c6 12. O-O b5 $132 {[%cal Gd8d7,Ga6c7] Black's position is
+already more pleasant. He will proceed with ...Nc7 followed by ...Qd7.}) 7...
+a4 8. c4 c6 {Black immediately makes use of White's overextended queenside.} 9.
+bxc6 bxc6 10. Bd3 c5 11. O-O Nc6 $132 {Black has very nice counterplay in this
+position.}) ({The overambitious} 6. c4 {is very well met by} c5 $1 ({Also
+possible is} 6... e5 $5) 7. a3 cxd4 (7... Bg4 $5) 8. Nxd4 ({After} 8. exd4 $6 {
+Black should immediately strike with} e5 $1 9. Be2 e4 10. Nfd2 Nc6 $17 {
+Black has a huge advantage.}) 8... a5 9. Be2 axb4 (9... Nc6) 10. axb4 Rxa1 11.
+Bxa1 Qb6 12. Qb3 Nc6 $11 {Black enjoys comfortable equality.}) 6... c5 $5 {
+This is the most natural way of obtaining counterplay.} 7. a3 (7. bxc5 dxc5 8.
+O-O cxd4 9. exd4 Nc6 10. c4 Qb6 $15 {[%csl Rd4][%cal Gf6e4,Gf8d8] Black is
+already better. He will increase the pressure on the central hanging pawns
+with ...Rd8 and ...Ne4.}) 7... cxd4 ({Another option is} 7... Qb6 $5 8. Nbd2
+cxb4 9. Nc4 Qc7 10. axb4 Bf5 $11) 8. Nxd4 a5 $11 {An important part of Black's
+strategy. Besides activating the a8-rook, Black creates queenside targets.})
+3... Bg7 4. Bb2 O-O ({The immediate} 4... c5 $5 {is possible as well. For
+instance, after} 5. dxc5 Na6 {Black has a decent counterplay.}) 5. e3 ({
+Less precise is} 5. g3 $6 {when the energetic} c5 $1 {creates problems for
+White.} 6. d5 ({Even worse is} 6. dxc5 $6 Qa5+ 7. Nbd2 Qxc5 $15 {[%csl Rf2]
+[%cal Gf6g4] when Black is better. The threat of ...Ng4 is pretty annoying.})
+6... Qa5+ $1 {This intermediate check spoils White's coordination.} 7. Bc3 Qb6
+{[%csl Rc3]} 8. Bg2 e6 $15 {White cannot hold the centre. His c3-bishop is
+clearly misplaced.}) 5... b6 $5 {[%cal Gc8b7,Gc7c5] In my opinion, this is the
+most flexible setup. After putting the bishop on b7, Black will play either ...
+c7-c5 or ...d7-d5.} 6. Be2 ({A high-profile game saw} 6. g3 Bb7 ({In my
+opinion, the standard} 6... c5 $5 {would have been a decent option as well.})
+7. Bg2 d5 8. O-O Nbd7 9. Nbd2 (9. c4 c5) 9... c5 10. Qe2 Rc8 11. c4 dxc4 12.
+bxc4 e6 13. a4 Ne4 $11 {The position was dynamically equal in the game ½-½ 
+(56) Caruana,F (2820)-Nepomniachtchi,I (2792) chess24.com INT 2021}) ({The
+Colle setup starting with} 6. Bd3 {does not work well against KID. A natural
+way of handling the position for Black is} Bb7 7. O-O c5 8. Nbd2 Nc6 9. c4 (9.
+a3 d5 $11) 9... cxd4 10. Nxd4 (10. exd4 d5 11. Re1 e6 $132 {Under favourable
+circumstances, Black will take on c4, thus getting a nice version of hanging
+pawns.}) 10... Nxd4 11. Bxd4 d5 $11 {The position is completely equal.}) ({
+Black's plan does not change in the event of} 6. c4 {He will follow with} Bb7
+7. Nc3 c5 8. Be2 (8. d5 e6 $132 {[%cal Gf6e4]}) 8... cxd4 9. exd4 d5 {Once
+again, Black is going for hanging pawns. In such positions, the g7-bishop is
+perfectly placed.} 10. O-O Nc6 11. Rc1 Rc8 12. Re1 dxc4 13. bxc4 Na5 $132 {
+[%csl Rc4] Black was already slightly better in the game ½-½ (73) Andreikin,
+D (2729)-Xiong,J (2685) Chess.com INT 2022}) 6... Bb7 7. O-O c5 8. c4 {This
+move usually leads to simplifications and equality.} ({The structure arising
+after} 8. dxc5 bxc5 9. c4 d6 {is quite double-edged since White needs to reckon
+with the advance ...a7-a5-a4. Here is a typical example:} 10. Nc3 $6 Ne4 $1 11.
+Qc2 Nxc3 12. Bxc3 {0-1 (30) Pogosyan,S (2442)-Praggnanandhaa,R (2608) Lichess.
+org INT 2020. At this point, Black could have played} Bxc3 13. Qxc3 a5 $15 {
+[%cal Ga5a4,Gb8c6] followed by ...Nc6 and ...a5-a4. He is already slightly
+better.}) ({Harmless is} 8. Nbd2 cxd4 $5 9. Nxd4 ({After} 9. exd4 {Black can
+settle for hanging pawns by playing} Nc6 10. Rc1 Rc8 11. Re1 e6 12. c4 $140 d5
+$132) 9... Nc6 10. c4 Nxd4 (10... Rc8) (10... d5) 11. Bxd4 d5 $11 {with
+equality.}) 8... cxd4 9. Nxd4 {This is the safest choice.} (9. exd4 d5 $132)
+9... Nc6 10. Bf3 d5 $5 {This move leads to massive simplifications resulting
+in equality.} 11. Nxc6 Bxc6 12. Nc3 (12. cxd5 Bxd5 $11) 12... Rc8 $1 13. Nxd5 (
+13. cxd5 Nxd5) 13... Nxd5 14. Bxg7 Nxe3 15. fxe3 (15. Qe1 Nxf1 16. Bxf8 Qxf8
+17. Bxc6 Rxc6 18. Qxf1 Qg7 $11) 15... Kxg7 $11 {1/2-1/2 (27) Aleksandrov,A 
+(2522)-Zarubitski,V (2451) Minsk 2022} *
+
+[Event "?"]
+[Site "?"]
+[Date "2022.??.??"]
+[Round "?"]
+[White "Chapter 10"]
+[Black "3.Nc3"]
+[Result "*"]
+[ECO "D00"]
+[Annotator "GM Ivan Cheparinov"]
+[PlyCount "20"]
+[SourceVersionDate "2022.06.24"]
+
+{[%evp 0,20,31,30,30,26,44,45,45,40,40,40,42,29,49,40,34,33,33,35,30,-3,27]} 1.
+d4 Nf6 2. Nf3 g6 3. Nc3 d5 4. Bf4 {This move marks the beginning of the
+so-called Jobava London. After achieving solid central control, White often
+launches a kingside activity with the advance h2-h4-h5. Another typical idea
+is Nb5 with the idea to force the black knight into the passive a6-square.} ({
+The alternative} 4. Bg5 $6 {gives Black an important tempo -} Ne4 $1 5. Bf4 ({
+Worse is} 5. Nxe4 $6 dxe4 $17 {[%csl Rd4] when the d4-pawn is immediately
+getting vulnerable.}) 5... Nxc3 6. bxc3 c5 7. e3 Bg7 $15 {[%csl Rc3][%cal
+Gb8c6,Gd8a5] Black is already better in view of White damaged pawn structure.
+The next moves will be ...Nc6 and ...Qa5.}) 4... Bg7 5. e3 {Before going for
+active actions, White should develop and stabilize the centre.} ({The immediate
+} 5. h4 $6 {is well met by} c5 $1 {when Black quickly organizes his conterplay.
+The following lines are quite illustrative.} 6. e3 ({Not advisable is} 6. dxc5
+O-O 7. Qd2 Nc6 $15 {[%cal Gd8a5,Gd5d4,Gf6e4] Black managed to develop a
+terrible initiative. The immediate threat is ...d5-d4 followed by ...Ne4 and ..
+.Qa5. It's clear that h2-h4 was premature.}) 6... O-O 7. Ne5 Nc6 {[%cal Gd8b6]
+This is an important move in Black's strategy. The d4-pawn is already under
+pressure. Black is ready to proceed with ...Qb6.} 8. h5 Qb6 9. Nxc6 bxc6 10.
+hxg6 fxg6 $15 {Black is better in view of his superior development and central
+pressure.}) ({Another interesting idea is} 5. Qd2 {[%cal Gf4h6] planning to
+exchange the bishops via h6. In my opinion, the simplest solution would be} O-O
+(5... Ne4 $5) (5... c5 $5) 6. Bh6 Ne4 $5 {This is the key idea. Black makes
+use of the position of the white queen.} 7. Nxe4 {The only way to fight for an
+advantage.} ({Harmless is} 7. Qe3 Nxc3 8. Bxg7 Kxg7 9. Qxc3 Qd6 10. e3 a5 $11 {
+when Black enjoys comfortable equality.}) 7... dxe4 8. Bxg7 Kxg7 9. Ng5 ({
+A typical mistake would be} 9. Ne5 $6 {when Black can play} b5 $1 {[%csl Re5]
+taking the c4-square for the white knight.}) 9... f5 {White should already
+take care of his knight.} 10. h4 ({The alternative} 10. O-O-O {is worse. Black
+can play} h6 11. Nh3 Qd5 12. Kb1 Be6 13. b3 Qd6 14. Nf4 Bf7 15. e3 Nd7 $15 {
+Black is already better. At some point, he will play ...e7-e5.}) 10... h6 11.
+Nh3 e5 {Just in time! Black prevents the white knight from reaching the
+f4-square.} 12. e3 ({After} 12. dxe5 $6 Qxd2+ 13. Kxd2 Nc6 $15 {Black will
+comfortably regain the pawn. His advantage is out of question.}) 12... Qxh4 {
+Accepting the challenge! It's not easy for White to prove compensation.} 13.
+O-O-O Qe7 14. f4 $1 exd4 {This move more or less forces a draw by repetition.
+The alternatives are risky.} (14... exf3 $6 15. gxf3 $40 {[%csl Rg7][%cal
+Gd2h2]}) (14... exf4 15. Nxf4 Nd7 16. g4 Nf6 17. gxf5 Bxf5 18. Bc4 $13) 15.
+Qxd4+ Qf6 16. Qc5 Nc6 17. Bb5 Qe7 18. Qc3+ Qf6 $11) (5. Nb5 {This is a typical
+idea in the Jobava London. Now, the black knight will have to occupy the
+inferior a6-square.} Na6 6. e3 ({Sometimes, White starts with} 6. h3 {
+defending against the potential ...Nh5. In this case, however, Black has
+enough time to organize his counterplay -} c6 7. Na3 ({White's problem is that
+Black is ready to meet} 7. Nc3 $6 {with} Ne4 $1 {with the following possible
+line} 8. e3 Nxc3 9. bxc3 Qa5 10. Qd2 Nc5 {[%cal Gc5e4]} 11. c4 Qa3 $15 {
+Black is already better. White should reckon with the threat of ...Ne4.}) 7...
+Qb6 8. Rb1 O-O 9. e3 Bf5 10. Be2 c5 11. O-O Rac8 $11 {Black has nothing to
+worry about.}) 6... O-O {I prefer the setups based on ...Ne4.} ({Of course,} 
+6... Nh5 $5 7. Bg5 O-O {is possible as well.}) 7. h3 Ne4 $5 {This was my
+initial idea.} ({After} 7... c6 8. Nc3 Qb6 9. Rb1 {White has nothing to worry
+about.}) 8. Nd2 {[%cal Gd2e4,Gb5c3] White immediately challenges the knight.
+After taking on e4, he can play Nc3 with a tempo.} ({It's very important to
+point out that after} 8. Be2 c6 9. Na3 Qb6 10. Rb1 {Black has} Qb4+ $1 {
+spoiling White's coordination.} 11. c3 (11. Kf1 $6 f6 12. c3 Qa5 $17) 11...
+Nxc3 12. bxc3 Qxa3 13. O-O Nb8 $15 {White does not have sufficient
+compensation for the pawn.}) ({The attempt to stabilize the centre with} 8. c3
+{does not work quite well. Black can play} c6 9. Na3 f6 $1 {[%cal Ge7e5]
+planning to gain space in the centre with ...e7-e5.} 10. Be2 (10. Bxa6 bxa6 11.
+O-O Qb6 $132) 10... e5 11. Bh2 Nc7 12. O-O exd4 13. cxd4 (13. Nxd4 f5 14. c4
+Ne6 $11) 13... f5 14. Nb1 Ne6 15. Nbd2 c5 $1 $132 {Black has more than
+sufficient counterplay.}) 8... c6 $5 {This is Black's most precise
+continuation.} ({In one of my games, I played} 8... Nxd2 9. Qxd2 c6 10. Nc3 Nc7
+11. O-O-O b5 $13 {with unclear position. ½-½ (66) Kryakvin,D (2577)
+-Cheparinov,I (2667) Tornelo INT 2021}) 9. Nxe4 dxe4 10. Nc3 c5 {Without this
+dynamic move, Black is just statically worse.} 11. Nxe4 ({Another important
+line is} 11. Bxa6 bxa6 12. O-O cxd4 13. exd4 Bxd4 14. Bh6 Re8 15. Qe1 Bb7 16.
+Rd1 e5 17. Nxe4 Qh4 18. Nd6 Qxh6 19. Nxb7 Bxb2 $11 {Once again, the position
+is dynamically balanced.}) 11... cxd4 12. exd4 Nb4 ({Another decent
+possibility is} 12... Qd5 $5 13. f3 Bf5) 13. c3 {The most natural reaction.} ({
+Worse is} 13. Be3 $6 Bxd4 14. a3 Bxe3 15. axb4 {½-½ (59) Harikrishna,P (2705)
+-Grandelius, N (2635) chess24.com INT 2022. At this point, Black could have
+played} Bb6 16. Bd3 Bf5 $17 {with a huge advantage.}) 13... Bf5 14. f3 (14. Qe2
+$6 Nd5 15. Bh2 Qa5 $40 {[%cal Gd5c3,Gf5e4]}) 14... Nd5 15. Bg3 {White tries to
+keep his control of the e5-square.} ({After} 15. Bg5 Qc7 16. Qd2 h6 17. Bh4 e5
+18. Bg3 Rad8 $44 {Black is obviously better.}) 15... e5 $1 {This energetic
+move seems to be the best way of developing the initiative.} 16. dxe5 Bxe4 17.
+fxe4 Bxe5 $1 {This is the key idea behind Black's 15...e5.} 18. Bxe5 {With
+this move, White accepts the draw.} ({An alternative is} 18. Qf3 Bxg3+ 19. Qxg3
+Re8 20. Bd3 {Once again, energetic play allows Black to equalize.} (20. O-O-O
+Rxe4) 20... Nf4 $1 21. O-O-O Rxe4 $1 22. Bxe4 Ne2+ 23. Kc2 Nxg3 24. Rxd8+ Rxd8
+25. Re1 Re8 26. Kd3 $11 {with a draw.}) 18... Qh4+ 19. Kd2 Qh6+ 20. Ke1 Qh4+
+$11) 5... O-O 6. Be2 ({After} 6. Nb5 Na6 {we have a transposition to 5.Nb5.}) (
+{In case of} 6. Bd3 {[%csl Rd3] Black obtains a good position with natural
+moves -} c5 7. h3 (7. O-O Bg4 8. Be2 cxd4 9. exd4 Nc6 $11) 7... b6 8. O-O Bb7
+9. Re1 Nbd7 $11 {with comfortable equality.}) ({After} 6. h3 {a good idea is}
+c5) 6... c5 7. O-O {White just completes the development. Of course, with such
+a play he cannot fight for an advantage.} ({Taking the pawn} 7. dxc5 {does not
+work quite well after} Qa5 ({or even} 7... Nbd7 $5) 8. O-O ({Another typical
+reaction is} 8. Nd2 Qxc5 9. Nb3 Qc6 10. O-O b6 $11 {with equality.}) 8... Qxc5
+9. Nd4 e6 10. Nb3 Qe7 11. e4 Rd8 $11 {Black enjoys comfortable counterplay.}) (
+{After} 7. Qd2 {a good idea would be} Bg4 8. h3 Bxf3 9. Bxf3 cxd4 10. exd4 Nc6
+11. O-O e6 $11 {This kind of Carlsbad pawn structure is quite favourable for
+Black, The c3-knight is obviously misplaced. In the next moves, Black can
+consider ...Rc8 followed by ...Na5-c4.}) ({Too slow is} 7. h3 {when after} Ne4
+$1 {Black obtains decent counterplay.}) (7. Ne5 cxd4 8. exd4 Nc6 9. O-O {
+transposes to 7.0-0.}) 7... cxd4 (7... b6 $5) 8. exd4 ({After} 8. Nxd4 $6 a6 {
+it's not clear how White can compensate for Black domination in the centre.})
+8... Nc6 9. Ne5 Bf5 ({Challenging the knight with} 9... Nd7 $5 {is also an
+option.}) 10. Re1 (10. Nxc6 bxc6 11. Qd2 c5 12. Be5 Rc8 $11) 10... Rc8 $11 {
+Black enjoys comfortable equality.} *
+
+[Event "?"]
+[Site "?"]
+[Date "2022.??.??"]
+[Round "?"]
+[White "Chapter 11"]
+[Black "3.Nbd2"]
+[Result "*"]
+[ECO "D02"]
+[Annotator "GM Ivan Cheparinov"]
+[PlyCount "40"]
+[SourceVersionDate "2022.06.24"]
+
+{[%evp 0,40,5,56,31,23,59,-8,11,-33,-14,-8,-1,5,8,-21,-12,-25,-28,-24,-21,-4,
+-11,-3,4,3,-7,16,25,25,46,32,46,49,29,30,29,26,21,36,32,46,35]} 1. d4 Nf6 2.
+Nf3 g6 3. Nbd2 {This move has recently seen some spike in popularity on GM
+level. White wants to follow with e2-e4. Also, it is planning to restrict
+Black's dark-squared bishop by means of c2-c3. Therefore, the most principled
+reply is} d5 {preventing e2-e4 and restricting the d2-knight.} 4. b4 {[%cal
+Gc1b2,Ge2e3,Gc2c4] This is the critical move. White gains space on the
+queenside and prepares Bb2 followed by e2-e3 and c2-c4.} ({Too harmless is} 4.
+b3 {when a possible continuation would be} Bg7 5. Bb2 O-O 6. e3 b6 $5 {[%cal
+Gc8b7,Gb8d7,Gc7c5] In my opinion, this is the most natural continuation.
+Black's plan is really simple - ...Bb7 followed by ...Nbd7, and ...c7-c5.} ({
+Of course, also possible is} 6... Bf5) 7. Be2 ({In his game against Caruana,
+Nakamura played} 7. Bd3 Bb7 8. O-O Nbd7 9. c4 c5 10. Qe2 (10. Rc1 Rc8 11. Re1
+e6 $11) 10... e6 11. Rfd1 {This position was reached in the game 1-0 (53)
+Nakamura,H (2786)-Caruana,F (2802) Chess.com INT 2017. Now, the simplest would
+have been} Rc8 12. Rac1 cxd4 13. exd4 Re8 $11 {with comfortable equality.})
+7... Bb7 8. O-O Nbd7 9. c4 c5 10. Rc1 (10. Qc2 Rc8) 10... Rc8 $11 {[%cal Ge7e6,
+Gf8e8] Black has nothing to worry about.}) 4... Bg7 5. e3 ({Another natural
+continuation would be} 5. Bb2 {In this case, Black follows the same strategy
+as in the main line.} O-O 6. e3 a5 {An important part of Black's strategy. We
+should challenge White's queenside structure before he develops his pieces.} 7.
+b5 a4 8. Ba3 {Blocking the pawn at the cost of an important tempo. Now, Black
+will start preparing ...e7-e5.} ({After} 8. c4 $6 c6 $1 9. bxc6 Nxc6 $15 {
+Black is already slightly better in view of his better development.}) ({
+Harmless is} 8. Rb1 {when a possible line would be} Bf5 9. Bd3 (9. h3 Be4) 9...
+Ne4 10. O-O Nd7 11. Qe2 c6 $11 {with equality.}) 8... Nbd7 9. Be2 Re8 $5 {
+[%cal Ge7e5] Black is ready to proceed with ...e7-e5.} 10. O-O (10. c4 e5)
+10... e5 11. dxe5 Nxe5 12. Nxe5 Rxe5 13. Nf3 Re8 $11 {[%cal Gf6e4] Even though
+the position is objectively equal, I would take Black.}) 5... a5 $5 {We should
+play this move without wasting too much time.} (5... O-O 6. c4) 6. b5 c5 7.
+bxc6 Nxc6 8. Be2 {For the time being, White just needs to complete the
+development.} ({After} 8. Bb5 O-O 9. O-O Bf5 10. Bxc6 bxc6 11. Ba3 Ne8 $5 {
+[%cal Ge8d6]} 12. c4 Nd6 $11 {Black enjoys comfortable equality.}) 8... O-O 9.
+O-O Bf5 {The most precise continuation. White should now reckon with the
+threat of ...Nb4.} 10. c4 {The most ambitious option.} ({In case of} 10. Ba3 $2
+Nb4 $1 {[%csl Rc2]} 11. Ne1 Qc7 $15 {Black is already slightly better.}) ({
+The simple development with} 10. Bb2 {does not create any problems for Black.
+For example, afetr} Qc7 11. a4 ({or} 11. c4 Nb4 12. Ne5 Nd7 13. Nxd7 Qxd7 14.
+a3 Bc2 15. Qc1 Bd3 $11) 11... Rfc8 12. c3 (12. Nh4 Bd7) 12... e5 $11 {Black is
+doing perfectly fine.}) ({Another passive move is} 10. c3 Qc7 11. a4 e5 12. Ba3
+Rfc8 $11 {Black had no problems in the game ½-½ (25) Aronian, L (2765)
+-Vachier Lagrave,M (2778) Saint Louis 2019}) 10... Nb4 {[%cal Gb4c2,Gf5c2]} 11.
+Qb3 {Only this continuation requires some precision from Black. Now, the
+threat is a2-a3.} ({After} 11. Bb2 Rc8 12. Qb3 dxc4 13. Bxc4 Bc2 14. Qa3 Ne4
+$15 {Black was already slightly better in the game ½-½ (49) Theodorou, N 
+(2577)-Vachier Lagrave,M (2761) Warsaw 2021}) 11... Bc2 $1 {As it will become
+clear a bit later, forcing the queen back to b2 is very important.} 12. Qb2 Qc7
+$1 {This is a nice prophylactic against a2-a3.} ({After} 12... dxc4 $2 13. Nxc4
+Be4 14. Bd2 $16 {Black had a huge advantage in the game ½-½ (96) Kuzubov, Y 
+(2636)-Cheparinov,I (2670) Douglas 2019}) 13. a3 ({To a repetition leads} 13.
+Ne5 Bf5 14. Ndf3 Nc2 15. Rb1 Nb4 $11) 13... Bd3 {We can now see the point
+behind 11...Bc2. The d3-square is available now.} 14. Bxd3 Nxd3 15. Qb3 ({
+Another interesting, although not forced, line is} 15. Qb5 dxc4 ({Black can
+also play.} 15... Qc6 $5) 16. Nxc4 Rac8 17. Nb6 Nxc1 18. Nxc8 Rxc8 19. Kh1 Ne4
+20. Qb1 Nxf2+ $1 21. Rxf2 Qc3 22. Qxb7 (22. Rf1 Nb3 23. Ra2 Qxe3 $44) 22... Rc7
+23. Qa8+ Rc8 $11 {with a draw.}) 15... dxc4 16. Nxc4 Rfc8 17. Qxd3 Qxc4 18.
+Qxc4 Rxc4 19. Rb1 Rb8 20. Bd2 a4 $11 {[%cal Gf6e4] The position is equal but
+Black still has chances to outplay his opponent. His next move is going to be .
+..Ne4.} *
+
+[Event "?"]
+[Site "?"]
+[Date "2022.??.??"]
+[Round "?"]
+[White "Chapter 12"]
+[Black "3.Bf4"]
+[Result "*"]
+[ECO "A48"]
+[Annotator "GM Ivan Cheparinov"]
+[PlyCount "22"]
+[SourceVersionDate "2022.06.24"]
+
+{[%evp 0,22,23,21,35,30,68,51,48,48,48,38,51,32,32,4,25,11,4,4,12,-46,-12,-31,
+22]} 1. d4 Nf6 2. Nf3 g6 3. Bf4 Bg7 4. e3 {In this chapter, we will briefly
+discuss the London System. I will provide an ambitious setup, so that you can
+play for a win with Black.} O-O 5. h3 {Usually, White plays this move in the
+London System. The idea is to make the h2-square available for the bishop in
+case of ...Nh5.} ({Another option is} 5. Nbd2 {In this case, Black's setup
+remains basically the same.} d6 6. c3 ({After} 6. h3 {I prefer} Nfd7 $5 {
+Immediately preparing ...e7-e5. Later on, Black can further expand on the
+kingside by means of ...f7-f5.} 7. c3 e5 8. Bh2 Kh8 {[%cal Gf7f5]} 9. Be2 Qe7
+10. O-O f5 $132 {In this complicated position, Black has more than sufficient
+counterplay.}) 6... Nc6 7. Be2 Qe8 {Once again, Black is going for ...e7-e5.}
+8. h3 e5 9. dxe5 dxe5 10. Bg3 a5 {[%cal Gf6d7,Ge8e7,Gd7c5] This move is an
+important part in Black's strategy. He is ready to proceed with ...Nd7
+followed by ...Qe7, and ...Nc5. The idea of ...a7-a5 is to prevent White from
+gaining space on the queenside.} 11. O-O Nd7 12. Qc2 Qe7 $11 {Black enjoys
+comfortable equality.}) (5. Be2 d6 6. h3 {transposes to 5.h3.}) 5... d6 6. Be2
+{This is White's most popular choice.} ({After} 6. Bc4 {Black should play} c5
+$5 {[%cal Gb8c6,Gd8b6] With a bishop on c4, the advance ...e7-e5 is becoming
+riskier. Therefore, Black starts playing on the queenside. He is planning to
+proceed with ...Nc6 followed by ...Qb6.} 7. O-O Nc6 8. c3 Qb6 9. Qc1 Re8 $5 {
+[%cal Ge7e5] The idea of this move is to follow with ...cxd4, and ...e7-e5,
+thus opening up the position.} (9... Bf5 10. Nbd2) 10. Nbd2 cxd4 11. exd4 ({
+After} 11. cxd4 Bf5 {[%cal Ga8c8,Gc8c1] followed by ...Rc8, White will face
+huge problems in view of his misplaced queen.}) 11... e5 12. dxe5 dxe5 13. Be3
+Qc7 $11 {Black's central majority can be very powerful in such positions.})
+6... Nc6 7. c3 {This is a prophylactic against the immediate ...e7-e5.} ({After
+} 7. O-O {Black can play} e5 8. Bh2 ({The point is that} 8. dxe5 {will be met
+by} Ne4 $1 {[%cal Gg7b2] That's why White should start with 7.c3.}) 8... exd4
+9. exd4 Re8 $11) 7... Nd7 8. Bh2 e5 9. O-O (9. b4 a6 10. a4 f5) 9... f5 10. b4
+a6 11. a4 {This typical London position arose in the game 0-1 (29) Nguyen, N 
+(2639)-Firouzja,A (2682) Xingtai 2019. Now, the most precise would have been}
+g5 $1 $132 {[%cal Gg5g4] planning ...g5-g4. Black can already think of
+overtaking the initiative.} *
+
+[Event "?"]
+[Site "?"]
+[Date "2022.??.??"]
+[Round "?"]
+[White "Chapter 13"]
+[Black "3.Bg5"]
+[Result "*"]
+[ECO "A48"]
+[Annotator "GM Ivan Cheparinov"]
+[PlyCount "30"]
+[SourceVersionDate "2022.06.24"]
+
+{[%evp 0,30,23,30,30,30,51,30,33,28,13,12,36,29,49,37,33,33,27,27,51,36,27,4,
+-8,0,0,6,8,16,27,1,6]} 1. d4 Nf6 2. Nf3 g6 3. Bg5 {This move marks the
+beginning of the so-called Torre System. This is one of the most solid weapons
+in response to King's Indian Defence. If allowed, he will proceed with Nbd2,
+c2-c3, and e2-e4.} Bg7 4. Nbd2 O-O 5. c3 {Before playing e2-e4, White should
+start with this move.} ({The immediate} 5. e4 {is not very precise in view of}
+d5 $1 {Black immediately opens the centre since White is not developed enough.}
+6. exd5 ({Harmless is} 6. Bd3 {when after} dxe4 7. Nxe4 Nxe4 8. Bxe4 c5 $11 {
+the position is equal.}) ({In case of} 6. e5 $6 Ne4 {Black overtakes the
+initiative. He can attack the centre by means of ...c7-c5 and ...f7-f6.}) 6...
+Nxd5 7. c3 c5 {Black should strike in the centre before White manages to
+stabilize the position.} 8. dxc5 h6 9. Bh4 Nf4 10. Qa4 {This is the only way
+to pose some problems.} ({After} 10. Nb3 {Black can play} Qc7 {[%cal Gf8d8]
+with the idea of ...Rd8.} 11. Bg3 Rd8 12. Qe2 ({In case of} 12. Qc1 e5 {
+it's not clear how White will complete the development.}) 12... e5 13. Bxf4
+exf4 14. Rd1 Bd7 {[%cal Gd8e8] Black has fantastic compensation for the pawn.
+With precise play from both sides, the position will be equal. The following
+line is quite illustrative.} 15. Qd2 Re8+ 16. Be2 Bb5 17. Nc1 Bxe2 18. Nxe2 Qe7
+19. Qc2 Na6 20. Rd2 Nxc5 21. O-O $11 {Even though the position is equal, there
+are still many possibilities to play for a win.}) ({The natural} 10. Nc4 {
+does not work quite well. Black can play} Qc7 11. Bg3 Rd8 12. Qc1 (12. Qa4 Bg4
+13. Ne3 Qxc5 $1 {[%cal Gg7c3] The threat of ...Bxc3 is very annoying, White's
+position is falling apart.}) 12... e5 {White cannot complete the development.
+For example, after} 13. Qe3 {Black has} Rd3 $1) (10. Bg3 Qc7 ({The alternative
+} 10... Nd3+ {only makes White's task easier after} 11. Bxd3 Qxd3 12. Nb3) 11.
+Qa4 (11. Bxf4 Qxf4) 11... e5 12. Nb3 Nd7 13. Qa5 Qxa5 14. Nxa5 Nxc5 15. O-O-O
+Bg4 $11 {The position is dynamically balanced and full of play. 1/2 (102)
+Sambuev,B (2541)-Dominguez Perez,L (2739)/chess.com INT 2017/The Week in Chess
+1165 (102)}) 10... g5 11. Bg3 ({The immediate} 11. O-O-O {is a bit risky in
+view of} Bd7 12. Qc4 (12. Qe4 Bc6 13. Qf5 Qd7) 12... b5 $1 {This move shows
+that the queenside is not a safe place for the white king.} 13. Qe4 Bc6 14. Qf5
+Qd7 15. Qxd7 Nxd7 16. Bg3 Nxc5 17. h4 b4 $40 {Black has a very strong attack
+in this queenless middlegame.}) 11... Nd3+ 12. Bxd3 Qxd3 13. O-O-O (13. h4 Na6
+$132) ({A decent alternative is} 13. Qc4 {when a possible line would be} Qxc4
+14. Nxc4 Nd7 15. c6 bxc6 16. O-O-O Nc5 {The position is balanced. White's
+slightly better structure is compensated by Black's powerful bishop pair.} 17.
+Nd4 (17. Rhe1 Ba6 18. Nce5 Rfe8 $11) 17... Ba6 18. Na5 f5 19. f3 e5 20. Ndxc6
+Nd3+ 21. Rxd3 Bxd3 22. Bxe5 Rfe8 23. Bxg7 Kxg7 24. Rd1 Re3 25. Nb4 Bb5 26. c4
+Be8 $11 {The position is equal.}) 13... Bf5 14. Ne1 {White should go for
+immediate simplifications.} ({After} 14. Bxb8 b5 $1 {White's position is very
+dangerous.}) ({Too slow is} 14. Rhe1 Nd7 15. Ne4 Nxc5 16. Rxd3 Nxa4 {Black has
+an obvious advantage in the endgame.}) 14... Qa6 15. Qxa6 Nxa6 16. c6 (16. Nb3
+Rac8) 16... bxc6 17. Nb3 h5 18. f3 g4 $11 {with balanced position.}) 5... d6 {
+This move fits into the philosophy of the King's Indian Defence.} ({A very
+decent alternative is} 5... d5) 6. e4 c5 7. dxc5 {White's best strategy is to
+play for a small advantage in a static position.} ({After} 7. Be2 {Black gets
+counterplay by means of} cxd4 8. cxd4 d5 9. e5 Ne4 {[%cal Gb8c6] Regardless of
+White is doing, Black will proceed with ...Nc6 followed by ...f7-f6.} 10. Be3 (
+10. Bf4 Nc6 11. O-O f6 $11) 10... Nc6 11. O-O f6 {White should already be
+precise in order not to find himself in a worse position.} 12. Re1 Nxd2 13.
+Qxd2 fxe5 14. dxe5 Nxe5 15. Bc5 ({Another way to equality is} 15. Nxe5 Bxe5
+16. Bh6 Bg7 17. Bxg7 Kxg7 18. Qc3+ Kg8 19. Rac1 Qd6 $11) 15... b6 16. Bb4 ({
+In case of} 16. Ba3 Bb7 17. Nxe5 Bxe5 18. Bg4 Bf6 19. Be6+ Kg7 20. Rad1 d4 $11
+{White's compensation for the pawn is enough only for equality.}) 16... Bb7 17.
+Rad1 ({After} 17. Nd4 Qd7) ({or} 17. Nxe5 Bxe5 18. Bg4 Bf6 {White still needs
+to prove his compensation.}) 17... Nxf3+ 18. Bxf3 Rf7 $11 {Black is giving the
+pawn back with the idea to get a completely equal endgame.}) ({The move} 7. d5
+{does not fit very well into the spirit of the Torre. Black can get a dynamic
+position after} h6 8. Bh4 ({The precise response to} 8. Bxf6 {is} exf6 {
+[%cal Gf6f5] threatening ...f6-f5.} 9. Bd3 Nd7 10. O-O Ne5 11. Nxe5 fxe5 12. a4
+h5 13. Nc4 Bh6 14. a5 Qc7 $11 {Black has a nice KID type of position.}) 8... e6
+9. dxe6 (9. Bxf6 Qxf6 10. Bc4 Na6 $11) 9... Bxe6 {This structure is usually
+acceptable for Black. After mobilizing his forces, he will try to prepare the
+advance ...d6-d5.} 10. Be2 ({Another decent option is} 10. Bc4 Re8 11. O-O Nc6
+12. Bxf6 Qxf6 $11 13. Re1 Rad8 14. Qc2 h5 15. a4 Bh6 $11 {The position was
+equal in the game 0-1 (38) Sedlak, N (2523)-Grandelius, N (2665)/Minsk BLR 2017/
+The Week in Chess 1178 (38)}) (10. Bd3 Nbd7 $5 11. O-O Qc7 12. Re1 Nh5 13. Nf1
+$11) ({Nothing gives} 10. Bxf6 Qxf6 11. Bc4 Nc6 12. O-O Rfe8 $11 {with full
+equality.}) 10... Nc6 11. O-O Qc7 12. Re1 (12. Qc2 Rfe8) 12... Rfe8 {In this
+type of position, Black has two possible ideas. He can either prepare ...d6-d5
+or start playing on the dark squares by means of ...Nh5-f4 and ...Ne5.} 13. Qc2
+(13. Bc4 Nh5 14. Bg3 Nxg3 15. hxg3 Rad8 16. Qc2 Na5 17. Bxe6 Rxe6 18. Rad1 Rde8
+$11 {0-1 (81) Gelfand,B (2743)-Nepomniachtchi,I (2740)/Moscow RUS 2016/The
+Week in Chess 1143 (81)}) (13. h3 a6 14. a4 Rab8 $11 {[%cal Gb7b5]}) 13... a6 (
+13... Nh5 $5) 14. Nf1 (14. a4 Na5) (14. Rad1 Rad8) 14... d5 15. Bg3 {This
+position was reached in the game 0-1 (82) Aronian, L (2781)-Vachier Lagrave, M 
+(2765)/Reykjavik ISL 2015 (82). At this point, Black could have played} Qd7 16.
+exd5 Nxd5 17. Rad1 b5 $11 {with equality.}) ({Black has plenty of counterplay} 
+7. Bd3 cxd4 8. cxd4 h6 9. Bh4 Nh5 $132) 7... dxc5 8. Bc4 {This active move is
+usually connected with the idea Qe2 and possibly e4-e5.} ({More solid is} 8.
+Be2 Nc6 9. O-O Qc7 {This is an important move in Black's strategy. Before
+playing ...h7-h6, we should take control of the dark squares.} 10. Qc2 ({
+Another option is} 10. Re1 h6 11. Be3 b6 12. h3 Bb7 $11 {with equality.}) 10...
+h6 11. Be3 ({The best reaction to} 11. Bh4 {is} Nh5 {when Black will
+definitely obtain the bishop pair.}) 11... b6 {[%cal Gf6g4]} 12. h3 (12. Nc4
+Bb7) 12... Bb7 13. b4 {The drawback of this ambitious move is that the
+g7-bishop is no longer restricted.} ({In case of} 13. Nc4 {the most precise
+reaction is} Nd8 $1 {when White cannot coordinate his pieces.}) ({After} 13. a4
+{it's important to play} Na5 {preventing Nc4.}) ({The waiting} 13. Rac1 {
+can be answered with the generally useful} Rac8) 13... cxb4 14. cxb4 Rac8 15.
+Rac1 Qb8 16. Qb1 (16. Qb3 Nh5) 16... Rfd8 (16... Nh5 17. b5 Na5) 17. Rfe1 Nh5
+$11 {Black has very nice counterplay on the dark squares.}) 8... Nc6 9. O-O {
+Before going for active actions, White wants to complete the development.} ({
+The ambitious} 9. Qe2 Qc7 10. e5 (10. Rd1 h6 11. Bxf6 exf6 $132) 10... Nh5 11.
+O-O-O {might backfire after} Rb8 $5 $132 {[%cal Gb7b5] planning ...b7-b5-b4.})
+9... Qc7 10. Qe2 ({Too harmless is} 10. h3 h6 11. Be3 b6 12. Qc2 (12. b4 Nd7)
+12... e6 13. Rfe1 Bb7 14. Rad1 Rfd8 15. Bf1 Rac8 16. Nc4 {This position was
+reached in the game 0-1 (71) Onischuk, A (2665)-Smirin, I (2644)/Tsaghkadzor ARM
+2015/The Week in Chess 1068 (71). At this point, Black could have played} Na5
+17. Nfd2 Nxc4 18. Bxc4 g5 {[%cal Gf6d7,Gd7e5] A very good positional move.
+Black secures the e5-square for his knight.} 19. a4 Nd7 $11) 10... Na5 $1 {
+This is the key move in Black's strategy. He uses the vulnerable position of
+the light-squared bishop.} 11. Bd3 ({After} 11. e5 $6 Nxc4 12. Nxc4 (12. Qxc4
+Ng4) 12... Nd5 13. Qe4 {White cannot put pressure without his light-squared
+bishop. This position was reached in the game 1/2 (45) Carlsen, M (2872)
+-Gelfand,B (2777)/Zurich SUI 2014/The Week in Chess 1004 (45). Now, Black
+could have played} Rd8 {=+}) 11... h6 ({Another option is} 11... Be6 $5 12. Nc4
+h6) 12. Bxf6 (12. Bh4 Nh5) (12. Be3 Ng4) 12... exf6 {Usually, I prefer to
+recapture with a pawn in order to get more dynamic position.} (12... Bxf6 13.
+Nc4 (13. e5 Bg7) (13. h3 Be6) 13... Be6 $11) 13. Nc4 (13. b4 cxb4 14. cxb4 Nc6
+$11) 13... Nxc4 14. Bxc4 a6 15. a4 Re8 $11 {The position is equal.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 1"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Ivan Cheparinov"]
+[SetUp "1"]
+[FEN "rnbq1rk1/1pp1ppbp/p2p1np1/6B1/P1PPP3/2N2P2/1P4PP/R2QKBNR b KQ - 0 7"]
+[PlyCount "5"]
+[EventDate "2022.10.22"]
+[SourceVersionDate "2022.06.24"]
+
+{[#] What is the best plan for Black?} 7... Nc6 $1 8. Nge2 ({If} 8. d5 $6 {then
+} Nb4 {[%csl Gb4][%cal Gc7c6] The knight on b4 is untouchable.}) 8... Na5 $1 {
+[%csl Rc4]} 9. b3 c6 $132 {[%cal Gd8b6,Ge7e5] Black has excellent prospects.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 2"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Ivan Cheparinov"]
+[SetUp "1"]
+[FEN "r1bq1rk1/pp1n1pb1/3p1np1/2pP4/4P2p/2N1BP2/PP2B1PP/R2QKN1R b KQ - 0 13"]
+[PlyCount "7"]
+[EventDate "2022.10.22"]
+[SourceVersionDate "2022.06.24"]
+
+{[#] What is the best plan for Black?} 13... Rb8 $1 {[%cal Gb7b5] Already is a
+good idea to prepare b7-b5.} ({Also good is the typical move in this situations
+} 13... Nh7 $132 {[%cal Gf7f5]}) 14. Bg5 {[%csl Rh4]} b5 $1 {Black does not
+care abouth the pawn on h4.} 15. Bxh4 b4 16. Nb1 ({Risky is:} 16. Nb5 Qb6 {
+[%csl Rb5] White must be careful with his knight.}) 16... Qc7 {[%cal Gf6h5] s
+Prepares Nh5.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 3"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Ivan Cheparinov"]
+[SetUp "1"]
+[FEN "r1bqr1k1/1p3pb1/p2p1np1/2pPn2p/P3P3/1PN1BP2/3QN1PP/R2BK2R b KQ - 0 14"]
+[PlyCount "5"]
+[EventDate "2022.10.22"]
+[SourceVersionDate "2022.06.24"]
+
+{[#] What is the best plan for Black?} 14... b6 $1 {[%cal Ga8b8,Gb6b5] Black
+has time for this slow,but very strong plan.} 15. O-O Rb8 16. Bc2 b5 $15 {
+Black was better in the game: Yevseev,D (2503)-Sakaev,K (2649) St Petersburg
+1999.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 4"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Ivan Cheparinov"]
+[SetUp "1"]
+[FEN "r1b2rk1/pp2ppbp/3p1np1/q1pPn3/2P1P3/2N1BPN1/PP1Q2PP/R3KB1R b KQ - 0 10"]
+[PlyCount "7"]
+[EventDate "2022.10.22"]
+[SourceVersionDate "2022.06.24"]
+
+{[#] What is the best plan for Black?} 10... Nfd7 $1 {[%cal Gd7b6] Clearly the
+best plan. Provokes f4,otherwise is very difficult to protect the c pawn.} 11.
+f4 ({If} 11. Be2 $2 {White is already lost after:} Nb6 $1 $19 {[%csl Rc4]})
+11... Ng4 12. Bg1 {The is still sharp,but Black is doing well. I White should
+be more careful.} Ngf6 13. Be2 a6 {[%cal Gb7b5]} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 5"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Ivan Cheparinov"]
+[SetUp "1"]
+[FEN "rnb2Bk1/pp3pbp/6p1/q7/2P1n3/2N2P2/PP4PP/R2QKBNR b KQ - 0 10"]
+[PlyCount "7"]
+[EventDate "2022.10.22"]
+[SourceVersionDate "2022.06.24"]
+
+{[#] How should Black continue?} 10... Bxc3+ $1 11. bxc3 Qxc3+ 12. Ke2 Bg4 $3 {
+The winning move.White's king is too weak.} 13. fxg4 ({Or} 13. Qc1 Qd4 $1 $19 {
+[%cal Gd4f2]}) 13... Nc6 $19 {[%cal Ga8e8] Re8 is coming next. Black wins.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 6"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Ivan Cheparinov"]
+[SetUp "1"]
+[FEN "r1bq1rk1/pp2ppbp/2np1np1/8/2PNP3/2N3P1/PP3PBP/R1BQ1RK1 b - - 0 9"]
+[PlyCount "7"]
+[EventDate "2022.10.22"]
+[SourceVersionDate "2022.06.24"]
+
+{[#] Black to move} 9... Nxe4 $1 10. Nxc6 Nxc3 11. Nxe7+ Qxe7 12. bxc3 Be6 $15
+{[%csl Rc3,Rc4] With a slightly better position for Black.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 7"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Ivan Cheparinov"]
+[SetUp "1"]
+[FEN "1rbq1rk1/1p3pbp/p2p1np1/n1pPp3/P1P1P3/1PN2NP1/1B3PBP/R2Q1RK1 b - - 0 12"]
+[PlyCount "9"]
+[EventDate "2022.10.22"]
+[SourceVersionDate "2022.06.24"]
+
+{Black to move} 12... Bh6 $5 {s A typical move in this situations.} 13. Qc2 b6
+14. Bc1 {Soon or later White will need to exchange those bishops.} Bxc1 15.
+Raxc1 Nh5 16. Rb1 Bd7 $11 {[%csl Rb3][%cal Gd8e7] The knight on a5 is out of
+the game,but also the pawn on b3 is a permanent weakness. Black's plan is very
+easy: Qe7-Rbe8 and push f5 at the right moment.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 8"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Ivan Cheparinov"]
+[SetUp "1"]
+[FEN "rn1q1rk1/ppp2pbp/5np1/4pb2/2P5/1QN1PN2/PP2BPPP/R1B2RK1 b - - 0 9"]
+[PlyCount "13"]
+[EventDate "2022.10.22"]
+[SourceVersionDate "2022.06.24"]
+
+{[#] How should Black continue?} 9... Ne4 $1 10. Qxb7 (10. Rd1 Nxc3 $1 11. Qxc3
+(11. Rxd8 $6 Nxe2+ 12. Kf1 Rxd8 13. Kxe2 b6 14. Bd2 Na6 $15 {[%csl Re2][%cal
+Ga6c5]}) 11... Nd7 $11) 10... Nxc3 11. bxc3 Nd7 12. Ba3 c5 13. e4 Rb8 14. Qd5
+Be6 15. Qd3 h6 $11 {[%csl Rg5][%cal Gd8a5]} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 9"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Ivan Cheparinov"]
+[SetUp "1"]
+[FEN "rnbq1rk1/ppppppbp/5np1/8/3P4/1P3NP1/PBP1PP1P/RN1QKB1R b KQ - 0 5"]
+[PlyCount "7"]
+[EventDate "2022.10.22"]
+[SourceVersionDate "2022.06.24"]
+
+{[#] Black to move} 5... c5 $1 6. d5 (6. dxc5 $6 Qa5+ 7. Nbd2 Qxc5 $15 {
+[%csl Rf2][%cal Gf6g4]}) 6... Qa5+ $1 7. Bc3 Qb6 {[%csl Rc3]} 8. Bg2 e6 $15 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 10"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Ivan Cheparinov"]
+[SetUp "1"]
+[FEN "rnbqkb1r/ppp1pp1p/5np1/3p2B1/3P4/2N2N2/PPP1PPPP/R2QKB1R b KQkq - 0 4"]
+[PlyCount "7"]
+[EventDate "2022.10.22"]
+[SourceVersionDate "2022.06.24"]
+
+{Black to move} 4... Ne4 $1 5. Bf4 (5. Nxe4 $6 dxe4 $17 {[%csl Rd4]}) 5... Nxc3
+6. bxc3 c5 7. e3 Bg7 $15 {[%csl Rc3][%cal Gb8c6,Gd8a5]} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 11"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Ivan Cheparinov"]
+[SetUp "1"]
+[FEN "rnbq1rk1/1pp1ppbp/5np1/1P1p4/p1PP4/4PN2/PB1N1PPP/R2QKB1R b KQ - 0 8"]
+[PlyCount "3"]
+[EventDate "2022.10.22"]
+[SourceVersionDate "2022.06.24"]
+
+{[#] Black to move} 8... c6 $1 9. bxc6 Nxc6 $15 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 12"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Ivan Cheparinov"]
+[SetUp "1"]
+[FEN "rnbq1rk1/ppp1ppbp/3p1np1/8/3P1B2/4PN1P/PPPN1PP1/R2QKB1R b KQ - 0 6"]
+[PlyCount "9"]
+[EventDate "2022.10.22"]
+[SourceVersionDate "2022.06.24"]
+
+{Black to move} 6... Nfd7 $5 7. c3 e5 8. Bh2 Kh8 {[%cal Gf7f5]} 9. Be2 Qe7 10.
+O-O f5 $132 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 13"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Ivan Cheparinov"]
+[SetUp "1"]
+[FEN "rnbq1rk1/ppppppbp/5np1/6B1/3PP3/5N2/PPPN1PPP/R2QKB1R b KQ - 0 5"]
+[PlyCount "9"]
+[EventDate "2022.10.22"]
+[SourceVersionDate "2022.06.24"]
+
+{Black to move} 5... d5 $1 6. exd5 (6. Bd3 dxe4 7. Nxe4 Nxe4 8. Bxe4 c5 $11) (
+6. e5 $6 Ne4 $15) 6... Nxd5 7. c3 c5 8. dxc5 h6 9. Bh4 Nf4 $17 *
+

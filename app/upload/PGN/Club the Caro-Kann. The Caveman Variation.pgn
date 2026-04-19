@@ -1,0 +1,2993 @@
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Caro-Kann: Introduction"]
+[Black "1. Caveman introduction"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5
+{ The starting position of the Advance Caro-Kann.    3...c5  is the respected Botvinnik-Carls gambit, which we will consider in chapter 9. }
+4. h4
+{ Nowadays this is the second most popular move, after Nigel Short's invention 4. Nf3. It used to be that Alexey Shirov's 4. Nc3 was the most popular, but this move has really fallen into obscurity in the last decade. For example, in one database I use I can find 20 games with 4. Nc3 in 2018, where 4. h4 has more than 20 games in the final month of 2018 alone...   In any case, the move 4. h4 has several ideas. Firstly,   4...e6?  is temporarily prevented because  5.g4  would trap the f5-bishop. Most Caro-Kann players do want to keep their bishop outside the pawn chain, so they will either go 4... h5 or 4... h6 - the latter is considered in chapter 7. The move ...h6 is less weakening, but also allows White to grab more space with g4 and  (eventually)  h5. Hence most Caro-Kann players  (including myself)  prefer 4... h5. }
+4... h5 5. Bg5
+{ Here we diverge from the main line. 4. h4 players normally play 5. c4 at this point, and thus enter a sort of refined variation of 4. c4  (with the moves h4 h5 inserted)  . White will have some kind of space advantage, but Black has the typical Caro-Kann rock solid position with smooth development and  (nearly)  no weaknesses.  The Caveman move 5. Bg5 frustrates Black's development by preventing him from playing ...e6. In order to achieve ...e6 Black will now have to move his queen out instead.   Though I think  5...f6!?  is a very interesting try , even if it has never been played yet!  With White's b2-pawn looking appetizing, most black players go for 5... Qb6, which at the same time unpins the e7-pawn. }
+5... Qb6 6. Bd3
+{ What's this? Isn't the b2-pawn simply hanging? The Caveman isn't that invested in material. He prefers the speed of quick development. }
+6... Bxd3
+{ Black has two important alternatives at this point, notably   6...Qxb2  - chapter 3,  and   6...Qxd4  - chapter 4. }
+7. Qxd3 Qxb2
+{ Most black players who know the Caveman variation will play  7...e6  at this point. This move will be looked at in chapter 5 & 6 , 'The Caveman declined'. }
+8. e6
+{ A fantastic move! But isn't White hanging his a1-rook? Fortunately the position is not that simple.  First of all, anytime Black takes on a1, White will answer with Qb3! with which White not only protects his b1-knight, but also threatens to invade on b7 in turn.  Thanks to the e6-pawn such an invasion would not just threaten the a8-rook, but also mate on c8.  Should Black prevent Qxb7 by playing ...b6 or ...b5, White can then develop the g1-knight to f3 or e2, protecting the d4-pawn, and suddenly the queen on a1 is in danger of being trapped!  Meanwhile the e6-pawn throws a huge spanner in the works of the black kingside. Not only does Black have to take into account that White can displace his king with exf7+, but quite simply the development of Black's kingside is in complete disarray. Playing ...fxe6 means it will take several more moves for the f8-bishop to come out. Meanwhile White can post a knight on the e5-square and threaten all sort of things on the weakened light squares  (f7, g6)  .  Some statistics: the position after 6. Bd3 features in roughly 160 games in my database. 5 of those games continued with 6... Qxb2  (analysed in chapter 3)  . 22 games went 6... Qxd4  (chapter 4)  . 33 games featured 6... Bxd3 7. Qxd3 Qxb2  (chapter 2)  . The rest of the games by and large went 6... Bxd3 7. Qxd3 e6  (the Caveman Declined, which is analyzed in chapters 5 and 6)  .  Disclaimer: Some of the chapters  (especially chapters 3, 4 and 6)  contain long variations in which exact play is required. These variations aren't theory, but they are indications of how White should play. I wanted to show that White gets good play for the sacrificed material in every variation, and sometimes I had to go very deep for that. In most cases the variations are useful to know though, as they illustrate typical ideas for White's position. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: Mainline"]
+[Black "2. The Caveman Mainline: 8... Qxa1"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 Qxb2 8. e6
+Qxa1 9. Qb3
+{ White defends the b1-knight and takes aim at the b7-pawn. At the same time he has ideas of trapping Black's queen. }
+9... Qxd4
+{ This is the only way Black can guarantee that his queen won't be trapped. }
+10. Qxb7 { 10.Be3  immediately is also strong and should transpose. } 10...
+fxe6 { Note  10...Qb6?  11.Qc8+!  Qd8  12.exf7+  and Black loses his queen. }
+11. Be3
+{ 11.Qxa8?  Qb6!  is less clear.  With the text White wins a tempo on Black's queen, prevents ...Qb6, and finally prepares the idea of Qxa8 followed by Bxa7 picking up the b8-knight. }
+11... Qa4
+{ The game Weggen - van der Heide  (2018)   went  11...Qa1  12.Nf3!  Kf7  13.O-O  and White can pick up the a8-rook next with a winning position. }
+12. Qxa8 Qa5+ 13. Nd2 Qd8 14. Ngf3
+{ White's development is harmonious and easy, while Black's position is full of holes and he won't be able to satisfactorily develop the kingside. }
+14... Nf6 15. O-O g6 16. Rb1 { And White wins material as simple as that! }
+16... Nbd7 { 16...Nfd7  17.Bxa7  Na6  18.Qxc6  and the a6-knight is lost. } 17.
+Qxc6 Bg7 18. Ng5 { Black resigned here in Perunovic - Lalith  (Dubai 2009)  . }
+18... O-O 19. Qxe6+ Kh8 20. Nf7+ Rxf7 21. Qxf7
+{ White is up an exchange and Black's position is still full of weaknesses. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: Mainline"]
+[Black "3. The Caveman Mainline: 8... Qxa1 and 11... Qe5"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 Qxb2 8. e6
+Qxa1 9. Qb3 Qxd4 10. Qxb7 fxe6 11. Be3 Qe5 12. Nf3
+{ Winning a tempo on Black's queen. } 12... Qd6 13. Qxa8
+{ It's finally time for White to cash in. } 13... Nf6 14. Bxa7 Nd7 15. Qb7
+{ An important move. White prevents Black from playing ...Qc7, and threatens Qc8+. }
+15... Kf7 16. O-O Kg8 17. Ng5 Rh6
+{ Notice the miserable position of the f8-bishop. If Black tries to improve this piece with  17...g6  , however ,  18.Qc8 !  followed by Qe8 is decisive. }
+18. Nd2 Rf6 19. Rb1
+{ Black can't do anything about the threat of Bxb8 winning a piece. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: Mainline"]
+[Black "4. The Caveman Mainline: 8... Qxa1 and 11... Qe5, 15... c5"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 Qxb2 8. e6
+Qxa1 9. Qb3 Qxd4 10. Qxb7 fxe6 11. Be3 Qe5 12. Nf3
+{ Winning a tempo on Black's queen. } 12... Qd6 13. Qxa8
+{ It's finally time for White to cash in. } 13... Nf6 14. Bxa7 Nd7 15. Qb7 c5
+16. Qc8+
+{ A second theme in the Caveman mainline is the weakened light squares on Black's kingside. Here White makes maximum use of them! }
+16... Kf7 17. Ng5+ Kg8 18. Qe8 { Threatening Qf7 mate. } 18... Rh6
+{ This prevents the mate, but allows a neat combination.   18...Qe5+  19.Kf1  Qf4   19...Rh6  20.Qf7+  Kh8  21.Qxf8+!  is similar to the text  20.g3!  and Black's queen has to let go of either the b8-knight or the f7-square. }
+19. Qf7+ Kh8 20. Qxf8+ Nxf8 21. Nf7+ Kg8 22. Nxd6 exd6 23. Bxb8
+{ White has won a piece. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: Mainline"]
+[Black "5. The Caveman Mainline: 8... Qxa1 and 11... Qc4"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 Qxb2 8. e6
+Qxa1 9. Qb3 Qxd4 10. Qxb7 fxe6 11. Be3 Qc4 12. Nf3
+{ The a8-rook won't run away, and now White has the deadly threat of Ne5. }
+12... Nd7
+{ Relatively best is  12...Qa6  13.Qxa8  Qc8  , but after  14.Bxa7  White again simply wins the b8-knight. }
+13. Qxa8+ Kf7 14. Ng5+ Kf6 { 14...Kg6  15.Qe8+  is similar. } 15. Qe8
+{ With the deadly threat of Qf7+. } 15... Kf5
+{ Ashwin - Kasparova went  15...Qb4+  16.Nd2  1-0. } 16. Qxd7
+{ White is a piece up and has a winning attack. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: Mainline"]
+[Black "6. The Caveman Mainline: 8... Qxa1 and 9... b5"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 Qxb2 8. e6
+Qxa1 9. Qb3 b5 10. Nf3
+{ Now that Qxb7 is no longer a threat, White switches course and aims to trap the a1-queen. Nf3 protects the d4-pawn so Black's queen has no moves, and also prepares O-O. }
+10... a5 { This doesn't work out.  10...Nf6  instead transposes to line 8. }
+11. O-O
+{ White calmly continues developing. He is already threatening Nbd2 and Nc3. }
+11... a4 12. Qa3 fxe6
+{ 12...b4  13.Qxb4  Qxa2  allows Black's queen out of her prison , but after  14.Qb7  Black is already being mated:  14...fxe6  15.Qc8+  Kf7  16.Ne5#. }
+13. Nc3 Qxf1+ 14. Kxf1
+{ Materially, Black now has two rooks and two pawns for the queen. However he has a ton of weaknesses, his king is not exactly safe, and he has no good way to solve his development problems. }
+14... Nd7 15. Ne2 { Going to f4. } 15... Ngf6 16. Nf4 Kf7 17. Ne5+
+{ There are a lot of promising alternatives as well. } 17... Nxe5 18. dxe5 Ng4
+{ 18...Ne4  19.Qh3!  targeting e6.   18...Nd7  19.Qh3! } 19. Qd3 Kg8 20. Qg6
+Nxe5 21. Qxe6+ Nf7 22. Ng6 Rh7 23. Qxc6
+{ White will pick up all the pawns on the queenside after which he has an easy win. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: Mainline"]
+[Black "7. The Caveman Mainline: 8... Qxa1 and 9...b5"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 Qxb2 8. e6
+Qxa1 9. Qb3 b5 10. Nf3 a5 11. O-O a4 12. exf7+
+{ This is a tactical alternative to the more methodical  12.Qa3. } 12... Kxf7
+{ 12...Kd8  of course allows  13.fxg8=Q. } 13. Ne5+ Ke8 14. Qh3
+{ Suddenly White has a winning attack. } 14... Kd8 15. Nf7+ Kc7
+{ 15...Ke8?  16.Nd6+!  exd6  17.Re1+  leads to mate. } 16. Bf4+ Kb6 17. Qc8
+{ White has a winning attack. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: Mainline"]
+[Black "8. The Caveman Mainline: 8... Qxa1 and 9... Nf6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 Qxb2 8. e6
+Qxa1 9. Qb3 Nf6 10. Nf3
+{ White should answer this move in the same way as 9... b5. } 10... b5 11. O-O
+Ne4 { This aims to prevent Nc3 and/or Nbd2. } 12. Bd2
+{ A nice move found by Michael Goeller. White intends to play Bc3 to trap Black's queen. }
+12... Nc5 { 12...a5  13.Bc3  a4  14.Qa3!  and White wins. } 13. dxc5
+{ This is the most straightforward option. } 13... Qf6
+{ The only move. Black is now an exchange up but he has huge development problems as well as various weaknesses. }
+14. Re1
+{ As always, White should let Black cripple his own kingside with ...fxe6. }
+14... fxe6 15. Bg5 Qf7 16. Nd4
+{ White should waste no time to exploit Black's weaknesses on e6 and c6. }
+16... e5 17. Rxe5 Nd7 18. Re6 Rc8 19. Qa3
+{ White can finish his development with Nd2-f3 and then decisively penetrate on a7 or a6 with his queen. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: Mainline"]
+[Black "9. The Caveman Mainline: 8... f6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 Qxb2 8. e6
+f6 9. Nf3
+{ Retreating with  9.Bd2  would be insipid. White must develop as fast as possible! }
+9... fxg5 10. O-O Rh6
+{ This seems stronger than Goeller's suggested move  10...gxh4  which is analyzed in line 10. }
+11. hxg5 Rxe6
+{ The rook has eliminated White's e6-pawn, but it has a shaky position in the middle of the board. }
+12. Nbd2 { Threatening Rfb1 trapping Black's queen. } 12... Qb6
+{ 12...Qb5  13.Qf5!  Rd6  14.Qc8+  Rd8  15.Qe6!  White picks up the g8-knight while maintaining a strong initiative  (he is already threatening a combination of Qg6+ and Ne5)  (.) }
+13. Rab1 Qc7 14. Qf5 { Winning a tempo on the poorly positioned rook. } 14...
+Re2
+{ 14...Rd6  15.Ne5  is similar.   14...Qd7  15.Rxb7!  Qxb7  16.Qxe6  and White picks up the g8-knight next with a dominant position. }
+15. Ne5
+{ White has a decisive attack. Black can hardly deal with the threat of Qf7+. }
+15... Rxe5 16. dxe5 Na6 17. Qg6+ Kd7 18. e6+ Kc8 19. Qf7
+{ White picks up the g8-knight. The more aggressively inclined can play  19.c4!?  instead. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: Mainline"]
+[Black "9.5 The Caveman Mainline: 8... f6, 10... Qxa1"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 Qxb2 8. e6
+f6 9. Nf3
+{ Retreating with  9.Bd2  would be insipid. White must develop as fast as possible! }
+9... fxg5 10. O-O Qxa1
+{ Of course we should also take a look at what happens when Black grabs as much material as he can. }
+11. Qb3
+{ This standard move attacks b7 and prepares to pick up Black's queen with Nbd2 or Nc3. }
+11... b5 12. Nc3 Qxf1+ 13. Kxf1
+{ Time to make up the balance. Black has two rooks and a bishop for the queen, but he is severely behind in development  (even more so than in the 'regular' Caveman where Black only gets two rooks for his queen)  , and completely locked up. It's not hard for Stockfish to conclude that White is easily winning. To start with, White is threatening both 14. Nxd5 cxd5 15. Qxd5 and 14. Nxb5 cxb5 15. Qxd5. }
+13... g4
+{ 13...Nf6  doesn't help:  14.hxg5  Ne4  15.Nxe4  dxe4  16.Ne5  and Black can't do anything about the threat of Nxc6 followed by Qd5. A sample line:  16...g6  17.Nxc6 !  Bg7  18.Qd5  O-O  19.Nxe7+  Kh7  20.Qxe4  and Stockfish announces mate in  10. }
+14. Ne5 { Black can't cope with the threats against c6, b5 and d5. } 14... a6
+15. Nxc6 Nf6 { 15...Nxc6  16.Qxd5  threatens both Qd7# and Qxc6+. } 16. Ne5
+{ This seems the most straight-forward: The knight is dominant on e5 and Black still can't defend his weaknesses on b5 and d5 properly. }
+16... g6 { This is far too late. } 17. Nxb5 axb5 18. Qc3
+{ 18.Qxb5+  is also decisive, but 18. Qc3 is the fastest way to mate.  The threat is 19. Qc8# and   18...Kd8  19.Nf7+  doesn't help. }
+18... Na6
+{ 18...Nbd7  holds out the longest , but White also mates after  19.exd7+  Nxd7  20.Qc6 ! }
+19. Qc6+ Kd8 20. Nf7# *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: Mainline"]
+[Black "10. The Caveman Mainline: 8... f6 and 10... gxh4"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 Qxb2 8. e6
+f6 9. Nf3
+{ Retreating with  9.Bd2  would be insipid. White must develop as fast as possible! }
+9... fxg5 10. O-O gxh4 11. Nbd2
+{ Finishing development and threatening to trap Black's queen with Rfb1. }
+11... Qb6 12. Rfb1 Qa6 13. Qg6+ Kd8 14. Ne5 Nh6 15. c4
+{ Also strong is  15.Qxh5  with an initiative  (Goeller)  (.)  Notice how all of Black's pieces - apart from the queen - are doing absolutely nothing at all! }
+15... dxc4
+{ What else? Notice how almost all of Black's pieces are locked in. } 16. Ndxc4
+Kc7 17. Rc1 { White calmly piles up on the c-file. } 17... Ng4 18. d5 Nxe5
+{ 18...cxd5  19.Nb6+!  Kxb6  20.Rab1+  Ka5  21.Qc2  leads to mate. } 19. Nxe5
+Qe2 { 19...Rh6  20.Qe8!  would not improve Black's position. } 20. dxc6
+{ Also good is  20.d6+  Kxd6  21.Nf7+  and White picks up the h8-rook. } 20...
+Nxc6
+{ 20...b6  21.Rd1!  Qxe5  22.Qe8!  and White has a decisive attack.   20...Qxe5  21.cxb7+  Kxb7  22.Rab1+  Ka6  23.Qd3+  Ka5  24.Qa3# }
+21. Nxc6 bxc6 22. Qf5 { Threatening Qa5+. } 22... Qa6 23. Qe5+ Kd8 24. Qd4+
+{ White's queen enters on d7 and mate follows. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: Mainline"]
+[Black "11. The Caveman Mainline: 8... fxe6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 Qxb2 8. e6
+fxe6 9. Nf3
+{ If Black delays taking the a1-rook White should simply play Nf3 and castle kingside. White does not hurry with Qg6+ as Black has no way to prevent it anyway, and long castling by Black would be welcomed as then White can use the half-open b-file for the attack. }
+9... Nd7 10. O-O Qxa1 11. Qb3 { Trapping Black's queen. } 11... e5 12. Nc3
+Qxf1+ 13. Kxf1 e4 14. Ne5 Nxe5 15. Qxb7
+{ An important in-between move. Black resigned here in Firman - Makarov  (Alushta 2006)  , but it is worth looking at what would have happened next. }
+15... Rd8 16. dxe5 { Now Black has no way to protect the c6-pawn. } 16... g6
+17. Qxc6+ Kf7 18. Ne2
+{ An instructive move. White notices that the g6-pawn cannot be defended. }
+18... Bg7 19. Nf4
+{ Black must give up a lot of material to prevent being mated. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: Mainline"]
+[Black "12. The Caveman Mainline: 8... fxe6 and 13... O-O-O"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 Qxb2 8. e6
+fxe6 9. Nf3 Nd7 10. O-O Qxa1 11. Qb3 e5 12. Nc3 Qxf1+ 13. Kxf1 O-O-O 14. dxe5
+{ Taking with the pawn is stronger here. White wants to preserve his pieces for an attack on Black's king. }
+14... Nh6 15. Qa3
+{ Attacking a7.   15.Na4  with the idea of e6  (is also strong.) } 15... Kb8
+16. e6
+{ Opening a diagonal for the bishop while at the same time preventing Black from playing ...e6. }
+16... Nb6 { 16...Nf6  17.Bf4+  Ka8  18.Na4!  with a decisive attack. } 17. Bf4+
+Ka8 18. Qa5 { Pinning the b6-knight and re-introducing the idea of Na4. } 18...
+Re8 19. Nd4
+{ White is threatening to put a knight on b5. Mate can hardly be prevented. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: Mainline"]
+[Black "13. The Caveman Mainline: 8... fxe6 and 13... Rb8"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 Qxb2 8. e6
+fxe6 9. Nf3 Nd7 10. O-O
+{ As usual, if Black delays taking the rook White should simply play Nf3 and castle kingside. White does not hurry with Qg6+ as Black has no way to prevent it anyway, and long castling by Black would be welcomed as then White can use the half-open b-file for the attack. }
+10... Qxa1 11. Qb3 { Trapping Black's queen. } 11... e5 12. Nc3 Qxf1+ 13. Kxf1
+Rb8 14. Nxe5
+{ 14.dxe5  is fine too. With the text White clears the 3rd rank so that after the c3-knight moves White's queen can swing over to the h3-square if necessary. }
+14... Nxe5 15. dxe5 e6 16. Ne2
+{ White clears the 3rd rank for his queen while directing the knight to f4 to target the weaknesses e6 and g6. }
+16... Ne7 17. Qa3
+{ With the decisive threats of Qxa7 and Qd6  (forking b8 and e6)  .   Also good is  17.Nd4  Kd7  18.Qh3  winning material. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: Mainline"]
+[Black "14. The Caveman Mainline: 8... fxe6 and 9... Qb6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 Qxb2 8. e6
+fxe6 9. Nf3 Qb6 { This cannot be good - Black chickens out. } 10. Nbd2
+{ With the idea of Rb1. } 10... Nd7 11. Rb1 Qa6 12. Qg6+ Kd8 13. Bf4
+{ Again, White makes room on g5 for his knight. } 13... Ngf6 14. Ng5 Kc8 15.
+Nxe6
+{ White is winning. Black is completely paralyzed and there is no good way to deal with the threat of Nc7. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxb2"]
+[Black "15. The Caveman 6... Qxb2: 7... e6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxb2
+{ This move amounts to Black winning an exchange. White gets great long-term compensation. }
+7. Bxf5 e6 { The main move is  7...Qxa1. } 8. Nd2
+{ Of course, if White retreats his bishop his compensation for the exchange would be dubious, since Black was allowed to play ...e6. }
+8... exf5 9. Ngf3
+{ Goeller analyses this line in more detail, but I think it's fine to stop here. White has fantastic compensation for the pawn. He will play O-O and Rb1 and has ideas such as e6 followed by Qe2, c4xd5, and so on. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxb2"]
+[Black "16. The Caveman 6... Qxb2: 7... g6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxb2 7. Bxf5 g6 8. Bc8
+{ Of course , White can also try  8.Nd2  gxf5  9.Ngf3  with play similar to the 7... e6 line. }
+8... Na6 9. Bxb7 Qxb7 10. Nc3
+{ White continues with Rb1 and has the better position. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxb2"]
+[Black "17. The Caveman 6... Qxb2: 8... Nh6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxb2
+{ This amounts to an exchange sacrifice for White. } 7. Bxf5 { The only move. }
+7... Qxa1 8. e6
+{ Otherwise Black would solidify his position with ...e6, and White's compensation for the exchange would be dubious. }
+8... Nh6
+{ Black has several alternatives here:   8...f6  - lines 20-22 ,   8...fxe6  - lines 23-24 ,   8...Nf6  - lines 25-27 ,   and  8...g6  - lines 28-29. }
+9. exf7+ Kxf7 { This loses directly. } 10. Qxh5+ Kg8 11. Be6+ Kh7 12. Bxh6 g6
+{ 12...Qxb1+  13.Bc1#!   12...gxh6  13.Qf5+!   or  13.Qf7+!  Bg7  14.Bf5#  Kg7  14.Qf7# }
+13. Bf5 { The only move that wins  (and forces mate)  ! } 13... gxf5 14. Nf3
+{ The threat of Ng5+ is decisive. Now Black can only give a few spite checks with his queen. }
+14... Qxb1+ 15. Kd2 Qb4+ 16. Kc1 Qa3+ 17. Kd1 { And Black is out of checks. }
+17... Bxh6 18. Ng5+ Kg7 19. Qf7# *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxb2"]
+[Black "18. The Caveman 6... Qxb2: 8... Nh6 and 9... Nxf7"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxb2
+{ This amounts to an exchange sacrifice for White. } 7. Bxf5 Qxa1 8. e6
+{ Otherwise Black would shore up his position with ...e6, and White's compensation for the exchange would be dubious. }
+8... Nh6 9. exf7+ Nxf7 10. Bg6 { Limiting Black's options. } 10... Nd7 11. Nf3
+e5
+{ Black will eventually have to move his e-pawn in order to get his kingside in the game. Note that Black cannot castle queenside because White will simply pick up the f7-knight. }
+12. O-O
+{ White needs to be careful here. After  12.dxe5?  Ndxe5  suddenly Black's pieces untangle and his queen joins the defense on the a1-h8 diagonal. }
+12... Bd6
+{ 12...e4?!  13.Qd2!  (threatening Qf4)  Bd6  14.c4!  exf3  15.Nc3  and Black's queen is trapped. }
+13. Bd2
+{ This threatens both Ng5, which wins material on f7, and Bc3 followed by dxe5.   13.dxe5  is an interesting alternative. }
+13... O-O
+{ It is hard to say what else Black should play. Note  13...exd4  14.Qe2+!  Kf8   14...Kd8  15.Bxf7  and White has won a piece  15.Qe6!  and Black is soon mated! }
+14. Bc3 Qxa2 15. dxe5 Bxe5
+{ 15...Be7  allows  16.e6  Nh8  17.Qd3!  Nf6  18.Ng5!  with a decisive attack. }
+16. Bxf7+ Rxf7 17. Nxe5 Nxe5 18. Bxe5
+{ The position has become materially balanced. Black's a-pawn is passed and can become a nuisance, but on the other hand it is hard to say what Black can do against a simple attacking plan by White: f4, Nd2-f3-g5 and Qxh5. If Black defends with ...g6, White can target the newly created weakness with Qd3 and Nd2-f3-d4.  In any case, Black lacks good open files for his rooks, while both of White's minor pieces will find strong squares. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxb2"]
+[Black "19. The Caveman 6... Qxb2: 8... Nh6 and 9... Nxf7, 12... Bd6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxb2 7. Bxf5 Qxa1 8. e6
+Nh6 9. exf7+ Nxf7 10. Bg6 Nd7 11. Nf3 e5 12. O-O Bd6 13. dxe5
+{ This is an interesting alternative to 13. Bd2. } 13... Bxe5
+{ 13...Nxe5?  14.Nxe5  Bxe5  15.Qe2!  and Black is in trouble -  15...O-O  is answered by  16.Qxh5!  with a strong attack. }
+14. Qd3 O-O 15. Bd2
+{ This prevents Nxg5 and has ideas of Qf5xh5 with an attack, as well as Bc3 Bxc3 Nxc3 to make use of the position of Black's queen. This queen will be exposed to attack from White's rook, and White can win additional time  (after ...Qb2)  by playing Rb1, and so on. }
+15... Qxa2 16. Qf5 { Forking d7 and h5. } 16... Rad8 17. Qxh5
+{ Threatening mate in 1. } 17... Nf6 { The only move. } 18. Bxf7+ Rxf7 19. Qxe5
+Qxc2
+{ Material is now balanced. My engine says the position is balanced too, but there is room for play on both sides. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxb2"]
+[Black "20. The Caveman 6... Qxb2: 8... f6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxb2 7. Bxf5 Qxa1 8. e6
+f6 9. Bg6+
+{ We now get a typical Caveman variation. Notice how Black's kingside is completely paralyzed! }
+9... Kd8 10. Bd2
+{ The point of this move is to keep the 3rd rank clear for the h1-rook. } 10...
+Na6
+{ 10...Qxd4??  11.Ba5+  and White picks up Black's queen.   10...Qxa2  11.Rh3!  followed by Ra3 and White has a strong initiative. }
+11. Rh3 { White's sole rook is a lot stronger than Black's two rooks! } 11...
+Nc7 12. Ne2
+{ Black was threatening ...Qxd4 as the a5-d8 diagonal is now blocked, and developing the knight to f3 would block the h3-rook's access to the queenside. }
+12... Kc8 13. a4
+{ This prevents ...Nb5. Now White is threatening Ra3 with queen trapping motifs. }
+13... Qxa4 { Now a more or less forced line follows. } 14. Ra3 Qb5 15. Bd3 Qb6
+16. Ba5 Qb2 17. Rb3 Qa2 18. Na3 { Followed by Nc1 picking up Black's queen. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxb2"]
+[Black "21. The Caveman 6... Qxb2: 8... f6 and 12... Qxa2"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxb2 7. Bxf5 Qxa1 8. e6
+f6 9. Bg6+ Kd8 10. Bd2 Na6 11. Rh3 Nc7 12. Ne2 Qxa2
+{ This is another option Black has. } 13. Qc1
+{ The direct  13.Ra3  would allow  13...Qb2. } 13... Nb5
+{ 13...Qc4  14.Ra3!  and Black is powerless against the threat of Bd3 trapping her majesty. }
+14. Ra3 { White plays Ra3 anyway! } 14... Nxa3 15. Nxa3
+{ The point is that the a3-knight takes away the only flight square of Black's queen - c4. }
+15... Nh6 16. Nc3 { Black's queen is trapped. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxb2"]
+[Black "22. The Caveman 6... Qxb2: 8... f6 and 12... Nxe6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxb2 7. Bxf5 Qxa1 8. e6
+f6 9. Bg6+ Kd8 10. Bd2 Na6 11. Rh3 Nc7 12. Ne2 Nxe6 13. Ra3
+{ Protecting the a2-pawn and thus threatening Bc3. } 13... Qb2
+{ 13...Nxd4?  14.Nxd4  Qxd4  15.Ba5+  and Black's queen is lost. } 14. Bc3 Qb5
+15. Bd3 Qb6 16. Ba5 { Again, Black's queen meets a miserable end. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxb2"]
+[Black "23. The Caveman 6... Qxb2: 8... fxe6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxb2 7. Bxf5 Qxa1 8. e6
+fxe6 9. Bg6+ Kd8 10. Nf3
+{ When Black plays ...fxe6 it is a good idea to try to exploit the e5-square. }
+10... Nd7 11. O-O Ngf6 12. Qe2
+{ Preparing Nbd2  (which attacks the Black queen)  and focusing on Black's weaknesses on the e-file. }
+12... Qxa2 13. Qxe6 Rh6
+{ Black offers the exchange back because otherwise he will never untangle his kingside. }
+14. Bxh6 gxh6 15. Bf5
+{ White is now two pawns behind, but he still has excellent compensation. There are opposite-colored bishops on the board, and in such positions what matters is who has the initiative, not who has a couple of extra pawns.  White's direct plan is to play Ne5 to pile up on d7. Black cannot reply ...Nxe5 because after dxe5 his f6-knight is hanging, but at the same time it must protect against Qd7+. }
+15... Kc7 16. Ne5 Rd8
+{ 16...Nxe5?  17.dxe5  Ne4  18.Qd7+  Kb6  19.Bxe4!  dxe4  20.Nc3!  and the threat of Rb1 is decisive. }
+17. Nd2
+{ White simply brings in the reserves as Black's pieces are totally tied down. }
+17... Qa4
+{ Notice the clever idea of  17...a5?!  18.Ne4!!  Nxe4  19.Nxd7  and White is winning.   17...Kb8  18.Ne4! }
+18. Nb3 Kb8 19. Nxd7+ Nxd7 20. Qf7
+{ Black is still completely tied down - his rook cannot move, his bishop cannot move, and if the knight moves White will play Nc5-e6 winning material.   A possible continuation is  20...e6  21.Bxe6  Nb6  22.Nc5  Bxc5  23.dxc5  Na8  24.Qe7  Qa5  25.Rb1  Qc7  26.Qf6  White will restore material equality by taking on h6 while keeping a dominant position. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxb2"]
+[Black "24. The Caveman 6... Qxb2: 8... fxe6 and 13... Qa5"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxb2 7. Bxf5 Qxa1 8. e6
+fxe6 9. Bg6+ Kd8 10. Nf3 Nd7 11. O-O Ngf6 12. Qe2 Qxa2 13. Qxe6 Qa5 14. Nbd2
+{ Preparing to bring the last pieces into action - the b1-knight and the f1-rook. }
+14... Qc7 15. Qf5
+{ Preparing Bf4, which also vacates the g5-square for the f3-knight. } 15...
+Qd6 16. Re1
+{ Black was intending  16.Bf4?  e6!  and he is let off the hook. After the text ...e6 is no longer a threat. }
+16... a5 17. Bf4 Qa3 18. Ng5
+{ White has a decisive attack over the light squares. For example:  18...Rg8  19.Nf7+  Kc8  20.Ne5!  a4  21.Nxd7  Nxd7  22.Be8!  and White wins. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxb2"]
+[Black "25. The Caveman 6... Qxb2: 8... Nf6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxb2 7. Bxf5 Qxa1 8. e6
+Nf6 9. exf7+
+{ An alternative is  9.Nf3!?  fxe6  (Sooner or later Black will have to play this move.)  10.Bg6+  Kd8  11.O-O  Nbd7  12.Qe2  Qxa2  13.Qxe6  transposing to line 23-24. }
+9... Kxf7 10. Nf3 Nbd7 11. Bf4 { Making room for a knight to come to g5. }
+11... g6 12. Be6+ { Winning a tempo on Black's king. } 12... Kxe6
+{ Black ought to play  12...Kg7. } 13. Ng5+
+{ Now Black's king has to move into the open. } 13... Kf5 14. Qf3
+{ A pretty finale! } 14... Qxb1+ 15. Bc1# *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxb2"]
+[Black "26. The Caveman 6... Qxb2: 8... Nf6 and 12... Kg7"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxb2 7. Bxf5 Qxa1 8. e6
+Nf6 9. exf7+ Kxf7 10. Nf3 Nbd7 11. Bf4 g6 12. Be6+ Kg7 13. O-O Qxa2 14. Ng5
+{ Goeller's analysis stops here, claiming White has enough compensation. In fact the position seems to be completely winning for White. As so often in the Caveman the main issue for Black is that all of his pieces  (except the queen)  are paralyzed! }
+14... Nb6 15. Nd2 Nc4 16. Nxc4 Qxc4 17. Be5
+{ Preparing the march of the f-pawn. } 17... a5
+{ With all his other pieces locked in, there isn't much that Black can do. }
+18. f4 { The threat of f5xg6 is decisive. } 18... a4 19. f5 a3 20. fxg6 Kxg6
+{ 20...a2  21.Bf7!  with the deadly threat of Ne6+. } 21. Bxf6 exf6 22. Rxf6+
+Kxf6 23. Qf3+ { Mate follows. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxb2"]
+[Black "27. The Caveman 6... Qxb2: 8... Nf6 and 14... a5"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxb2 7. Bxf5 Qxa1 8. e6
+Nf6 9. exf7+
+{ An alternative is  9.Nf3!?  fxe6  (Sooner or later Black will have to play this move.)  10.Bg6+  Kd8  11.O-O  Nbd7  12.Qe2  Qxa2  13.Qxe6  transposing to line 24-25. }
+9... Kxf7 10. Nf3 Nbd7 11. Bf4 { Making room for a knight to come to g5. }
+11... g6 12. Be6+ Kg7 13. O-O Qxa2 14. Ng5
+{ Goeller's analysis stops here, claiming White has enough compensation. In fact the position seems to be completely winning for White. As so often in the Caveman the main issue for Black is that all of his pieces  (except the queen)  are paralyzed! }
+14... a5 15. Qe2 Qc4
+{ 15...a4  16.Bxd7!  Nxd7  17.Qe6  and White has a winning attack. } 16. Qe3
+{ Of course, White avoids the exchange of queens. } 16... Nb6
+{ Otherwise White will again play Bxd7! followed by Qe6. } 17. Nc3
+{ White prevents Black from taking on c2, after which Black's queen could help defending the g6-pawn.   17.Be5?  Qxc2  18.f4  Nc4!  19.Qg3  Qe2  threatening Qe3+  (and Black is better.) }
+17... Na4
+{ 17...a4  18.Nf7!  a3  19.Bh6+  Kh7  20.Bxf8  and White's queen decisively enters on  h6. }
+18. Nxa4 Qxa4 19. Be5 Qxc2 20. f4 a4 21. f5 a3
+{ 21...gxf5  22.Bxf5  Qb3  23.Bxf6+  exf6  24.Qe6  and White wins. } 22. Qg3 a2
+23. Bxf6+ exf6 { 23...Kxf6  24.Qe5#. } 24. Qc7+ Kh6 25. Qf7 { Black is mated. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxb2"]
+[Black "28. The Caveman 6... Qxb2: 8... g6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxb2 7. Bxf5 Qxa1 8. e6
+g6 9. Bd3 Bg7 10. Nf3 f5
+{ This is rather committal and gives White the e5-square, while the e6-pawn remains a big problem for Black. }
+11. O-O Na6 { This was Chandran - Balakrishnan  (ICC 2012)  . } 12. Bxa6
+{ A suggestion by Goeller. With the attack on g6 blunted, White might as well use this bishop on the f1-a6 diagonal. }
+12... bxa6 13. Qd3 Qb2
+{ 13...Qxa2  14.Na3!  followed by Qxa6 gives White a dangerous initiative. }
+14. Nc3 Qb4 15. Rb1 Qc4 16. Qe3
+{ White has a strong, possibly decisive initiative. He can follow up with Rb7 and Ne2-f4. Anytime Black plays Nf6, White can reply Ne5 attacking g6 and c6. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxb2"]
+[Black "29. The Caveman 6... Qxb2: 8... g6 and 10... fxe6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxb2 7. Bxf5 Qxa1 8. e6
+g6 9. Bd3 Bg7 10. Nf3 fxe6 11. Bxg6+ Kd8 12. O-O Nd7 13. Bd2
+{ Vacating the g5-square for the knight, as well as preparing Qe2.   Directly  13.Qe2?!  could be met by  13...Bxd4. }
+13... Nh6 14. Qe2 Qxa2
+{ Now  14...Bxd4?  would be answered by  15.Nc3!  and both the a1-queen and the d4-bishop are hanging. }
+15. Ng5 { 15.Qxe6?  Nf8! } 15... Nf8 16. Nxe6+ Nxe6 17. Qxe6 Bxd4 18. Bg5
+{ White has a very strong initiative. As usual, Black's rooks and h6-knight are not participating in the game! }
+18... Bc5 19. Nc3 Qa3 20. Ne4 dxe4
+{ Otherwise Nxc5 followed by Re1 is decisive. } 21. Rd1+ Kc7 22. Qd7+ Kb6
+{ 22...Kb8  23.Bf4+  Bd6  24.Qxe7! } 23. Rb1+ Bb4
+{ The only move - otherwise White's queen enters on b7. } 24. Be3+ Ka6
+{ 24...c5  25.Bxe4  Rab8  26.Qxe7!  with the deadly threat of Qxc5+. } 25. Bxh5
+{ Intending Be2. } 25... Rhc8 26. Be2+ b5 27. c4
+{ White has a winning attack. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxd4"]
+[Black "30. The Caveman 6... Qxd4: 7... Qxb2"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxd4
+{ This move either leads to a pawn sacrifice after 7... Qg4, or a pawn plus exchange sacrifice after 7... Qxb2.  Note: the lines in this chapter were some of the hardest to find something favorable for White, so I am eager to share my ideas and analysis! }
+7. Nf3
+{ White needs to be careful that he doesn't play  7.Bxf5?  Qxe5+!  and Black regains the piece with a clear advantage. }
+7... Qxb2
+{ It seems illogical to first lose a tempo by taking the d4-pawn, and then go for the a1-rook anyway. However, it is very difficult to refute this move! }
+8. Bxf5 Qxa1 9. e6
+{ In essence this is the 6... Qxb2 variation, except White's knight is already on f3 and his d4-pawn is gone. This difference does not directly favor White, though of course we welcome the faster development! }
+9... fxe6 10. Bxe6
+{ In the previous chapter we saw ...fxe6 being answered by Bg6+, but in this position I prefer Bxe6. After Bg6+ Black would have a big pawn center and it would be difficult to activate our queen. On e6 the light-squared bishop dominates Black's position. White's queen can go to d3  (or c2)  to threaten Qg6+ and we can play c4xd5 to further chip at Black's center. }
+10... Nd7 11. Bxd7+
+{ White abandons his strong bishop very fast, but he exchanges a strong defender and now Black's king has to wander over the board. }
+11... Kxd7 12. O-O Nf6 13. Qd3 { Preparing Nc3. } 13... Qxa2 14. Ne5+ Kc7
+{ Black's king has no real good squares. Kd8 or Kd6 is answered by Nf7+, while ...Kc8 allows Qf5+ or Qh3+ at some point. }
+15. Bf4 Re8 16. Nc3
+{ Not  16.Ng6+?  e5!  17.Bxe5+  Rxe5!  and Black is better. White has to wait for the right moment for the discovered check! }
+16... Qa6 17. Qf5 { Now White is finally well-positioned for Ng6+ or Nf7+. }
+17... Kb8 18. Ng6+ Ka8 19. Nxh8
+{ The position is still highly unclear. White has a piece for three pawns, but arguably his pieces are better developed. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxd4"]
+[Black "31. The Caveman 6... Qxd4: 7... Qxb2 and 12... e6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxd4 7. Nf3 Qxb2 8. Bxf5
+Qxa1 9. e6 fxe6 10. Bxe6 Nd7 11. Bxd7+ Kxd7 12. O-O e6 13. Qd3
+{ Preparing Nc3. } 13... Qxa2
+{ Black will either have to play this or  13...Qb2  , when after  14.Nc3  White will eventually play Rb1 and Black loses time with his queen. }
+14. Nc3 Qa3 15. Ne5+ Kc8 { 15...Kc7  16.Bf4!  Kc8  17.Qh3  is similar. } 16.
+Qh3 Qd6 17. Nf7 Qd7 18. Nxh8 Bd6 19. Ng6
+{ Again, White has a piece for 3 pawns and is certainly not worse. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxd4"]
+[Black "32. The Caveman 6... Qxd4: 7... Qxb2 and 10... Nf6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxd4 7. Nf3 Qxb2 8. Bxf5
+Qxa1 9. e6 fxe6 10. Bxe6 Nf6
+{ This move prepares ...Nbd7 so that Black doesn't have to retake with the king after Bxd7+. }
+11. O-O Nbd7 12. c4
+{ Not just attacking d5, but also threatening Qc2 followed by Nc3 trapping the a1-queen. }
+12... Nc5
+{ 12...dxc4  directly loses after  13.Bxd7+  Nxd7  14.Qc2!  followed by Nc3 picking up the a1-queen. }
+13. Qc2 { Threatening Nc3. } 13... d4 14. Qf5
+{ Attacking the c5-knight.   14.Qg6+?!  looks nice , but the check needs a purpose! After  14...Kd8  White has nothing better than  15.Qf5  anyway, and the king is maybe safer on c7 than on e8. }
+14... Nxe6 { 14...b6?  15.Ne5!  and White has a decisive attack. } 15. Qxe6 Qb2
+16. Ne5 Qb4 17. Qf7+ Kd8 18. Ng6
+{ White wins back his sacrificed material while keeping the initiative. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxd4"]
+[Black "33. The Caveman 6... Qxd4: 7... Qxb2, 10... Nf6 and 13... Nxe6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxd4 7. Nf3 Qxb2 8. Bxf5
+Qxa1 9. e6 fxe6 10. Bxe6 Nf6 11. O-O Nbd7 12. c4 Nc5 13. Qc2 Nxe6 14. Nc3 Qxf1+
+15. Kxf1 d4
+{ 15...O-O-O  would be neat if it worked. Unfortunately for Black , he loses material after  16.Qf5!  Rd6  17.c5. }
+16. Qg6+ Kd8 17. Na4 b6 18. Qf5
+{ The e6-knight has to move, after which Black's position is falling apart. White can simply follow up with Ne5 and penetrate decisively with queen and knight. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxd4"]
+[Black "34. The Caveman 6... Qxd4: 7... Qxb2 and 9... Nh6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxd4 7. Nf3 Qxb2 8. Bxf5
+Qxa1 9. e6 Nh6 10. exf7+ Nxf7 11. Bg6 e5 12. c3
+{ This interferes with Qa1's defense of e5. Therefore, White is now threatening Nxe5, winning material on f7. }
+12... Bd6 13. Qb3 { Now Black is in danger of having the a1-queen trapped. }
+13... Nd7 { 13...e4?  14.O-O!  exf3?  15.Re1+  and White has a mating attack. }
+14. O-O Nc5 15. Qc2 { Now Black has no way to stop Nbd2 trapping his queen. }
+15... e4 16. Nbd2 Qxf1+ 17. Kxf1 exf3 18. Nxf3
+{ Material is roughly balanced, but White's pieces are positioned much better and Black's king is unsafe. }
+18... O-O { Attempting to bring the king to safety, but it fails. } 19. Bh7+
+Kh8 20. Qg6 { White will follow up with Qxh5 with a winning attack. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxd4"]
+[Black "35. The Caveman 6... Qxd4: 7... Qxb2, 9... Nh6 and 10... Kxf7"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxd4 7. Nf3 Qxb2 8. Bxf5
+Qxa1 9. e6 Nh6 10. exf7+ Kxf7 11. Bh3
+{ Keeping an eye on e6.   After  11.Bd3  e5!  White would have to reckon with ...e4 when he has to sacrifice even more material. }
+11... Ng4
+{ This way Black tries to block the h3-bishop's diagonal. However, at some point White will be able to play f3 chasing the g4-knight away. }
+12. O-O Nd7 13. Qd3 { eyeing the f5-square. } 13... Qb2 14. Qf5+ Ke8
+{ 14...Ndf6  15.Bf4!  the usual maneuver that vacates the g5-square for a knight  Qb6  16.Ng5+  Ke8  17.Qg6+  Kd7  18.Nd2!  with ideas like Rb1 and Nc4 dxc4 Rd1+. White is already winning according to the engine. }
+15. Nbd2 Qb6 16. Nb3
+{ Intending to play a knight to d4 and then e6.  As usual, the engine very slowly comes around to the fact that White has very promising compensation for his material. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxd4"]
+[Black "36. The Caveman 6... Qxd4: 7... Qg4"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxd4 7. Nf3 Qg4
+{ This is considered stronger than 7... Qxb2. Black satisfies himself with the win of a single pawn, after which he still has a very solid position - a hard nut to crack for White! }
+8. Bxf5
+{ This pulls Black's queen slightly out of position; she is better stationed on g4. }
+8... Qxf5 9. c4
+{ This is my recommendation. Goeller discusses 9. Qe2 and 9. O-O, but against both of those moves I can't find any advantage for White after the bold 9... f6!   For example:  9.O-O  f6!  10.exf6  gxf6  11.Be3  e5!  12.c4  d4  13.Bxd4  (this piece sac is more or less forced)  exd4  14.Nxd4  and White would have good compensation were it not for the fact that Black has the annoying  14...Qg4! }
+9... Qe4+ { Of course, Black picking up the c4-pawn is critical. } 10. Be3 Qxc4
+11. e6
+{ One of the main ideas of 9. c4. If Black immediately goes for the c4-pawn, we get to play the typical Caveman move again! }
+11... fxe6 12. Nbd2 Qb4 13. Qc2 Nf6 14. Ne5
+{ Black is already struggling for good moves. The direct threat is Qg6+ Kd8 Nf7+. }
+14... Rg8 15. a3
+{ An important move - White takes control over the a5-e1 diagonal. } 15... Qb5
+16. Ndf3 Ne4 17. Ng5 Nxg5 18. Qg6+ Kd8 19. hxg5
+{ Now Black has a big problem - there is no good way to prevent Qh7xg8  (...Rh8 is met by Nf7+)  . }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxd4"]
+[Black "37. The Caveman 6... Qxd4: 7... Qg4 and 9... e6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxd4 7. Nf3 Qg4 8. Bxf5
+Qxf5 9. c4 e6
+{ Of course we should check out what White should do after this solid move. }
+10. O-O
+{ White should wait with cxd5 until Black has committed his b8-knight to d7 so that he cannot develop it to c6. }
+10... Ne7
+{ Another possible line is  10...Nd7  11.cxd5  cxd5  12.Nc3  a6  13.Qb3  b5?!  14.Nxd5!  exd5  15.Qxd5  Rb8  16.Nd4  followed by e6 and White has a very strong attack. }
+11. Qb3 { Taking aim at the weak b7-pawn. } 11... b6 12. Nc3 Nd7 13. Rad1
+{ White prepares to play Nd4. } 13... Nc5 14. Qa3 dxc4 15. Rd6
+{ Another interesting idea is  15.Na4!?  Nd5  16.Nxb6!!  Nd7   16...Nxb6?  17.Qxa7!  and the queen is immune because of  Rd8  mate.  17.Qa4!  N5xb6  18.Qxc6  and Black cannot really meet the threat of Rxd7. Thus White wins back his piece with interest. }
+15... a5 { Almost any move by the e7-knight would allow Qxa7! } 16. Be3
+{ Threatening to take on c5. } 16... Nd7 17. Rxd7 Kxd7 18. Qd6+ Ke8 19. Rd1
+{ White has a winning initiative. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxd4"]
+[Black "38. The Caveman 6... Qxd4: 7... Qg4, 9... e6 and 10... Nd7"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxd4 7. Nf3 Qg4 8. Bxf5
+Qxf5 9. c4 e6 10. O-O Nd7 11. cxd5
+{ As a general rule, once Black has committed his queenside knight to d7 it is good to take on d5. }
+11... cxd5
+{ Now Black cannot develop a knight to the fantastic c6-square in one go. } 12.
+Nc3 a6 { This is necessary because Nb5 would be a major problem for Black. }
+13. Qb3 { Attacking the b7-weakness. } 13... b5
+{ This allows a typical piece sac. } 14. Nxd5 exd5 15. Qxd5 Rb8 16. Nd4 Ne7
+{ Black can save his position with this clever move.   16...Qg6?  17.e6!  fxe6  18.Nxe6  and White comes crashing through. }
+17. Bxe7 Qxe5
+{ This is the point - Black forces the exchange of queens by giving back the piece. }
+18. Qxe5 Nxe5 19. Rfe1
+{ However, White still has an initiative in this endgame. } 19... f6 20. Bxf8
+{ Not  20.f4?  Bxe7  21.fxe5  Bc5!  and Black is better. } 20... Kxf8 21. Rad1
+{ White will follow up with f4, Ne6  (+)  and Rd7 with a clear advantage in the endgame. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxd4"]
+[Black "39. The Caveman 6... Qxd4: 7... Qg4, 9... e6 and 13... Rb8"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxd4 7. Nf3 Qg4 8. Bxf5
+Qxf5 9. c4 e6 10. O-O Nd7 11. cxd5 cxd5 12. Nc3 a6 13. Qb3 Rb8
+{ This is definitely stronger than 13... b5. } 14. Rac1
+{ White should simply deploy his rooks  (c1, d1 and e1 are all good squares for them)  and wait to see how Black develops. Sometimes White can sacrifice a piece on d5, sometimes he can play Ne2-d4. In any case he has good compensation for the pawn. Black's main issue is that he lacks space to develop both the f8-bishop and the g8-knight smoothly. }
+14... Ne7 15. Rfd1 Nc6 16. Nxd5 { Again we see this typical piece sacrifice. }
+16... exd5 17. Rxd5 { White is threatening e6. } 17... Nc5 18. Qb6 Qe4
+{ Black hardly has a good move.  18...Ne6?  would be met by  19.Rxc6! } 19.
+Rdxc5 Bxc5 20. Qxc5
+{ White has a pawn and a lead in development for the exchange. } 20... Qb4 21.
+Qc2 O-O 22. Be3
+{ This threatens both Bc5 and Ng5 g6 e6! with a strong attack. White has excellent compensation for the exchange. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxd4"]
+[Black "40. The Caveman 6... Qxd4: 7... Qg4, 9... Qe4+ and 11... Bb4"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxd4 7. Nf3 Qg4 8. Bxf5
+Qxf5 9. c4 Qe4+ 10. Be3 e6
+{ This line is recommended in the course 'The Modernized Caro-Kann' by GM Daniel Fernandez, but he does not consider 11. Nbd2. }
+11. Nbd2 { Winning a tempo on Black's queen. } 11... Bb4
+{ Black often lacks space to develop his kingside, so it is a good idea of him to get rid of the bishop as soon as possible.  A game Francisco - Vigorito  (Charlotte 2017)   continued  11...Qd3  12.Rc1  dxc4; See line 41. }
+12. O-O { Simply developing. } 12... Bxd2 13. Qxd2 Qxc4
+{ Otherwise White will play b3 followed by Bg5 with good compensation for the pawn. }
+14. Rac1 Qg4 15. Qa5 { Thus White penetrates the queenside. } 15... Na6
+{ 15...b6  16.Bxb6.   15...Nd7  16.Qc7  and White at the very least wins the b7-pawn. }
+16. Rxc6 bxc6 17. Qxa6 Qc4 18. Qb7 Rd8 19. Nd4 { This prevents ...Qb5. } 19...
+Ne7 20. Rc1
+{ Black is 1 tempo short of castling. White's attack is just in time!   After  20...Qxa2  21.Nxc6  Nxc6  22.Qxc6+  Kf8  23.Bg5!  White has a winning attack. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxd4"]
+[Black "41. The Caveman 6... Qxd4: 7... Qg4, 9... Qe4+ and 14... Qxa2"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxd4 7. Nf3 Qg4 8. Bxf5
+Qxf5 9. c4 Qe4+ 10. Be3 e6 11. Nbd2 Bb4 12. O-O Bxd2 13. Qxd2 Qxc4 14. Rac1
+Qxa2
+{ This line demonstrates some resources for White if Black grabs the a2-pawn. }
+15. Ra1 Qc4
+{ 15...Qb3 ?  16.Nd4 !  and Black is in trouble. He has to resort to  16...Qb6   16...Qc4 ?  17.Rfc1  traps the queen.  17.Nxe6  c5  and here both Nxc5 and Nxg7+ are very promising for White. }
+16. b3 Qg4 { 16...Qxb3 ?  17.Rfb1  Qc4  18.Rb4  -+ } 17. Ra4 Qg6 18. Qb4
+{ White's queen decisively penetrates the queenside. } 18... b6 19. Qd6
+{ White is already threatening moves like Bxb6 and Rxa7. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxd4"]
+[Black "42. The Caveman 6... Qxd4: 7... Qg4, 9... Qe4+ and 14... Qa6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxd4 7. Nf3 Qg4 8. Bxf5
+Qxf5 9. c4 Qe4+ 10. Be3 e6 11. Nbd2 Bb4 12. O-O Bxd2 13. Qxd2 Qxc4 14. Rac1 Qa6
+{ This is another alternative. Now Black's queen guards b7, but the kingside is less well defended now. White can play on the dark squares: }
+15. Bc5 Nd7 16. Qg5
+{ Black now has several moves, including ...Rh6, ...Qd3 and ...g6, and in each case White can answer 17. Bd6 with good compensation. In any case Black should not play }
+16... Nxc5 17. Qxg7 { White wins material. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxd4"]
+[Black "43. The Caveman 6... Qxd4: 7... Qg4, 9... Qe4+ and 11... Qd3"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxd4 7. Nf3 Qg4 8. Bxf5
+Qxf5 9. c4 Qe4+ 10. Be3 e6 11. Nbd2 Qd3 12. Rc1 dxc4
+{ Thus far the game Francisco - Vigorito  (Charlotte 2017)  . } 13. Rxc4 Ne7
+14. Rd4 Qa6 15. Nc4
+{ Threatening Nd6+ and blocking the a6-f1 diagonal, so White can castle next move. }
+15... Nd5 16. O-O Bc5 { This looks good, but it's actually bait. } 17. Ng5 Nd7
+{ 17...Bxd4?!  18.Nd6+  Ke7  19.Bxd4  and White has massive compensation for the exchange. }
+18. Re4 Be7
+{ 18...Nxe3?  19.fxe3  and Black cannot prevent the move Nxf7 next. } 19. Qf3
+Rf8 20. Qxh5 { White has regained the pawn with an advantage. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Accepted: 6... Qxd4"]
+[Black "44. The Caveman 6... Qxd4: 7... Qg4 and 9... f6!?"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxd4 7. Nf3 Qg4 8. Bxf5
+Qxf5 9. c4 f6
+{ Of course, if this move gave me headaches after White's alternatives on move 9  (O-O and Qe2)  , then we should look at it here as well! }
+10. Be3
+{ White can simply retreat and let his e5-pawn hang because Black's d5-pawn in turn is also hanging. }
+10... e6 11. exf6 Nxf6 12. Qb3 b6 13. O-O { 13.Nc3  is a good alternative. }
+13... Nbd7 14. Nd4 { Forking c6 and f5. } 14... Qg4 15. f3
+{ White encourages Black to take on h4 so that White's knight can take on e6 in turn. }
+15... Qg3 16. Bf2
+{ White needs to be careful:  16.Nxe6?  Bd6!  and Black has a strong attack. }
+16... Qd6 17. cxd5 Nxd5 18. Nc3 Nc5 19. Qc2
+{ In return for the pawn White has good development. Black has various weaknesses and his king won't be safe on either queenside or kingside. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Declined: Mainline"]
+[Black "45. The Caveman Declined: 8... Qxb2"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 e6 8. Nd2
+{ I am going against Goeller's recommendation here, which is 8. Nc3. I do not believe White can hope for an advantage or play actively after 8. Nc3 - I think White needs the c2-c4 break to be able to do that, and the knight on c3 blocks that pawn break. }
+8... Qxb2 { Of course, we have to check out this pawn-grabbing move. } 9. Rb1
+Qxa2
+{ 9...Qa3  10.Qxa3  Bxa3  11.Rh3!  Bf8  12.Rxb7  with an advantage to White in Kislinsky - Grinev , Kiev 2006. }
+10. Rxb7
+{ It turns out Black has big problems developing his kingside - business as usual in the Caveman! }
+10... Ne7 11. Ngf3 Nf5 12. O-O Be7 13. Bxe7 Nxe7 14. Qc3 { Threatening Ra1. }
+14... Qa6 15. Qb2 { With the dual threat of Rxb8+ and Ra1. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Declined: Mainline"]
+[Black "46. The Caveman Declined: 8... Ne7"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 e6 8. Nd2
+Ne7 9. Ne2 { This is usually more flexible than Ngf3 in this variation. } 9...
+Nf5 10. O-O Nd7 11. c4 Bb4 12. cxd5
+{ White releases the tension because he sees that he can make use of the precarious position of the b4-bishop. }
+12... cxd5 { Notice  12...Bxd2?  13.dxe6! } 13. Nf3 O-O 14. a3 Be7 15. Ng3
+{ Now White achieves favorable exchanges on the kingside. } 15... Nxg3 16. fxg3
+Rfe8 17. Bxe7 Rxe7 18. Rf2 { White has a strong attacking position. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Declined: Mainline"]
+[Black "47. The Caveman Declined: 8... Ne7 and 11... Be7"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 e6 8. Nd2
+Ne7 9. Ne2 Nf5 10. O-O Nd7 11. c4 Be7 12. Bxe7 Nxe7 13. Nf4
+{ Making it difficult for Black to decide where to put his king. } 13... Nf5
+{ This leads to a forcing variation.   13...O-O-O?!  14.c5  and White can start a pawn storm on the queenside. }
+14. cxd5 Qxd4 { 14...cxd5?!  15.Nxd5. } 15. dxc6 bxc6 16. Qxd4 Nxd4 17. Nc4
+{ White has an advantage in development, and - more importantly - a better pawn structure. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Declined: Mainline"]
+[Black "48. The Caveman Declined: 8... Qa6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 e6 8. Nd2
+Qa6 9. c4
+{ Perhaps someone can grind out a win in the endgame after  9.Qxa6  Nxa6  , but that's not the Caveman style. }
+9... Bb4 { Threatening ...Qxc4. } 10. b3 Ne7 11. Ne2 Nd7 12. O-O Bxd2
+{ 12...O-O?  13.a3  Bxd2  14.Bxe7  is good for White. } 13. Qxd2 Nf5
+{ Black cannot castle until he moves the e7-knight away.   13...dxc4  14.Bxe7  Kxe7  15.Ng3!  Kf8  16.Ne4  and White has excellent compensation for the pawn. }
+14. cxd5 cxd5 15. Ng3 { Eliminating a defending piece on the kingside. } 15...
+Nxg3 { 15...g6?!  16.Nxf5  gxf5  17.Qb4!   15...Ne7  16.Bxe7  Kxe7  16.Qg5+ }
+16. fxg3 O-O 17. Bf6 { This leads to a winning attack. } 17... gxf6 18. exf6
+Rfc8 19. Qh6 Nxf6 20. Qg5+ Kf8 21. Qxf6
+{ Black resigned in Lahno - Khotenashvili  (Tbilisi 2011)   because of  21...Rc7  22.Qh8+. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Declined: Mainline"]
+[Black "49. The Caveman Declined: 8... Qa6 and 10... c5"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 e6 8. Nd2
+Qa6 9. c4 Bb4 10. b3 c5 11. Nf3
+{ Here, since Black has played ...c5, having the knight on f3 gives White extra resources involving dxc5  (with the knight on e2 Black could answer that move with Nxe5)  . }
+11... Nc6 12. O-O Nge7 13. dxc5 Bxc5 14. a3 { Threatening b4. } 14... dxc4 15.
+Nxc4
+{ White is still threatening b4-b5, since Qxb5 will be answered by Nd6+ picking up the queen. }
+15... Rd8 16. Qc2 O-O 17. b4 Bd4 18. Rad1
+{ Black has to be careful that he isn't squeezed away! } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Declined: Mainline"]
+[Black "50. The Caveman Declined: 8... c5"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 e6 8. Nd2
+c5 9. c4 { White cannot allow Black the possibility of ...c4. } 9... Nc6 10.
+Ngf3 cxd4 11. cxd5 Nb4
+{ 11...exd5  12.O-O  is better for White. If Black does not watch out, White will play e6! fxe6 Qg6+. }
+12. Qb3 Nxd5 13. Qa4+
+{ This is the issue with 10... cxd4 - now Black has to enter a slightly worse ending. }
+13... Qc6 14. Qxc6+ bxc6 15. Nxd4
+{ White has a small endgame advantage based on the better pawn structure. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Declined: Mainline"]
+[Black "51. The Caveman Declined: 8... c5 and 10... Nge7"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 e6 8. Nd2
+c5 9. c4 Nc6 10. Ngf3 Nge7 11. dxc5
+{ Another strong idea - once Black has blocked his f8-bishop, take on c5 so that Black is forced to retake with the queen. }
+11... Qxc5 12. O-O Ng6 13. Rfe1
+{ Now Black has a lack of space for his pieces. } 13... Be7 14. Bxe7 Ngxe7 15.
+a3 O-O { 15...a5  16.b4! } 16. b4 Qb6 17. cxd5 Nxd5 18. Nc4 Qc7 19. Ng5 g6 20.
+Nd6 { White is close to winning. } 20... Nxe5 21. Rxe5 Qxd6 22. Rxe6 Qd7 23.
+Rd1 fxe6 24. Qxg6+ { White has a winning attack. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Declined: Mainline"]
+[Black "52. The Caveman Declined: 8... c5 and 10... Nge7, 11... Qxb2"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 e6 8. Nd2
+c5 9. c4 Nc6 10. Ngf3 Nge7 11. dxc5 Qxb2
+{ This reckless pawn-grab is Black's only real alternative to 11... Qxc5. } 12.
+O-O Nxe5 13. Nxe5 Qxe5 14. Rfe1 Qf5
+{ 14...Qc7  15.cxd5  is problematic for Black due to the pin on the e-file. }
+15. Qb3 { The b7-weakness is a recurring theme. } 15... f6 16. cxd5
+{ A strong piece sacrifice. } 16... fxg5 17. Nc4 { Threatening Nd6+. } 17...
+Nxd5 18. Qb5+
+{ White gives an in-between check to force Black's king to an unfortunate position. }
+18... Kf7 19. Qxb7+ Kg8 20. Qxa8 { White has a winning position. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Declined: 9... Qxb2"]
+[Black "53. The Caveman Declined: 9... Qxb2, 10... Qxd4 "]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 e6 8. Nd2
+c5 9. c4 Qxb2
+{ This move is quite critical. The main issue is that White has to deal with the possibility of ...Qxd4 when Black will be up two pawns - which is fine, but White needs serious compensation for the material! }
+10. Rd1
+{ There have been games with 10. Rb1, but in my view the rook is better positioned on d1 to discourage ...Qxd4 and, should Black take the pawn anyway, make use of the semi-open d-file. Meanwhile, White's queen will  (if Black plays ...Qxd4)  go to b3 to harass b7. }
+10... Qxd4
+{ Black is rather greedy! The text is a minor but critical option. Later we will take a look at 10... Nc6 which is more dangerous.    10...Qxa2  and   10...Ne7  do not have independent value, as sooner or later Black will have to play ...Nc6 and transpose. }
+11. Qb3 Qxe5+
+{ Black has no real alternatives here, since other moves  (such as ...b6 or ...Nd7)  allow Ngf3 followed by cxd5 when White already takes over the initiative. }
+12. Ne2 b6 { Better is  12...Qc7. } 13. cxd5 Qxd5
+{ After  13...exd5  14.O-O  White will bring a rook to the e-file with a winning advantage. }
+14. Nf3 Qxb3 15. Rd8# *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Declined: 9... Qxb2"]
+[Black "54. The Caveman Declined: 9... Qxb2, 10... Qxd4 and 12... Qc7"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 e6 8. Nd2
+c5 9. c4 Qxb2 10. Rd1 Qxd4 11. Qb3 Qxe5+ 12. Ne2 Qc7 13. cxd5 e5
+{ 13...exd5  is an alternative we will consider in the next line. } 14. Nc4 Nd7
+15. Nc3 { Threatening Nb5. } 15... a6 16. d6 Qc6 17. Nd5 { Threatening Nc7+. }
+17... Rc8 18. Na5 { This forces Qxd6. } 18... Qxd6 19. Qxb7
+{ Black resigned here in Kevlishvili - Gomez Jurado  (Montcada 2018)  . } 19...
+Rb8 20. Nc7+ { Black loses a ton of material. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Declined: 9... Qxb2"]
+[Black "55. The Caveman Declined: 9... Qxb2, 10... Qxd4, 12... Qc7 13. cxd5 exd5"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 e6 8. Nd2
+c5 9. c4 Qxb2 10. Rd1 Qxd4 11. Qb3 Qxe5+ 12. Ne2 Qc7 13. cxd5 exd5
+{ This seems the most resilient, but even so Black's position resembles Swiss cheese. }
+14. Nf4 { Intending to land a knight on d5. } 14... Ne7 15. Bxe7
+{ Black defended d5, so we simply eliminate the defender. } 15... Bxe7 16. Nxd5
+Qd7
+{ Note that anytime Black checks with his queen on the e-file, White simply plays Kf1 with the decisive threat of bringing his rook to the e-file.   16...Qc6  17.Nc4!  is also winning for White. }
+17. O-O Nc6 18. Nc4 { Now Black cannot castle because of Nf6+. } 18... Kf8 19.
+Ndb6 { White wins decisive material. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Declined: 9... Qxb2"]
+[Black "56. The Caveman Declined: 9... Qxb2, 10... Nc6 and 12... Nc2+"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 e6 8. Nd2
+c5 9. c4 Qxb2 10. Rd1 Nc6
+{ This move provides White with a lot more headaches than the crude 10...Qxd4. With ...Nc6 Black increases his pressure on d4 such that   11.cxd5  Qxd4!  doesn't seem to lead to much -  12.Qb3   or  12.Qb5  Qb4!  Qxe5+  13.Ne2  Nd4!.  Therefore, White should probably bolster d4 and continue developing with 11. Ngf3 but this in turn allows Black's knight to go to b4 and then either to c2 with check or take on a2, after which Black threatens ...Nc3 with a fork on Rd1 and Qe2. }
+11. Ngf3 { As was said, simply developing. } 11... Nb4 12. Qe2 Nc2+
+{ This is not a problem for White. Black has more dangerous alternatives in 12... Nxa2 and 12... cxd4. }
+13. Kf1
+{ White's king is positioned quite safely here. The h1-rook can be deployed via h3, and White is already threatening cxd5 followed by Rb1. }
+13... Nxd4 14. Nxd4 cxd4 15. cxd5 exd5 16. Rh3
+{ White will follow up with Rb3 and Nf3xd4 with fantastic compensation for the pawn.   Note  16...Qxa2?  17.Qb5#. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Declined: 9... Qxb2"]
+[Black "57. The Caveman Declined: 9... Qxb2, 12... Nc2+ and 13... cxd4"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 e6 8. Nd2
+c5 9. c4 Qxb2 10. Rd1 Nc6 11. Ngf3 Nb4 12. Qe2 Nc2+ 13. Kf1 cxd4 14. cxd5
+{ The direct  14.Nb3?!  Qxa2  15.Nfxd4  Nb4!  is less strong. } 14... exd5 15.
+Nb3
+{ Threatening Nxd4 when the c2-knight is lost due to the pin on the b2-queen. }
+15... Qc3 { 15...Qxa2?  16.Qb5# } 16. Nfxd4 Nxd4 17. Nxd4
+{ White is already winning - he is threatening both Qb5+ and Nb5 with dire consequences. }
+17... a6 18. Rh3 Qc5 19. e6 { White has a decisive attack. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Declined: 9... Qxb2"]
+[Black "58. The Caveman Declined: 9... Qxb2, 12... Nc2+ and 13... Ne7"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 e6 8. Nd2
+c5 9. c4 Qxb2 10. Rd1 Nc6 11. Ngf3 Nb4 12. Qe2 Nc2+ 13. Kf1 Ne7 14. cxd5 exd5
+{ Black cannot retake with the knight: after  14...Nxd5?  15.Rb1  his queen is lost , because  15...Qxa2?  allows  16.Qb5#. }
+15. Nb3 { Threatening Na1. } 15... Rc8 16. Qb5+ Rc6 17. Qxb7
+{ Black's position is a complete mess. Notice that White is threatening Bxe7 followed by Qxc6+. }
+17... f6 18. Bc1 { The cleanest. } 18... Qxa2 19. Nxc5
+{ White has a winning attack starting with Qd7+. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Declined: 9... Qxb2"]
+[Black "59. The Caveman Declined: 9... Qxb2, 10... Nc6 and 12... Nxa2"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 e6 8. Nd2
+c5 9. c4 Qxb2 10. Rd1 Nc6 11. Ngf3 Nb4 12. Qe2 { The only move. } 12... Nxa2
+{ This has been played only once but it is a very dangerous move. Black is threatening ...Nc3. }
+13. cxd5
+{ And we simply ignore it! I like this move best because it is the most forcing. White is threatening Rb1 which pins Black's queen to the threat of Qb5#. }
+13... Nc3 14. Qd3 exd5
+{ 14...Nxd1  is possible here , and will be looked at in line 62. } 15. e6
+{ White should continue directly with this move , because after  15.O-O?  c4!  his queen has no good squares -  16.Qf5  g6!. }
+15... f6 16. O-O Nxd1
+{ 16...Ne7  17.dxc5  Nxd1  18.Rxd1  transposes to a different variation. } 17.
+Rxd1 fxg5 { 17...Ne7!  was necessary. } 18. Rb1 Qa2 { This leads to mate. } 19.
+Qb5+ Ke7 20. Qd7+ Kf6 21. Qf7#
+{ Just to show what happens if Black takes everything that is offered to him! }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Declined: 9... Qxb2"]
+[Black "60. The Caveman Declined: 9... Qxb2, 12... Nxa2 and 17... Ne7"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 e6 8. Nd2
+c5 9. c4 Qxb2 10. Rd1 Nc6 11. Ngf3 Nb4 12. Qe2 { The only move. } 12... Nxa2
+{ 12...cxd4  and   12...Nc2+  are alternatives at this point. After the text Black is threatening ...Nc3. }
+13. cxd5
+{ And we simply ignore it! I like this move best because it is the most forcing. White is threatening Rb1 which pins Black's queen to the threat of Qb5#. }
+13... Nc3 14. Qd3 exd5 15. e6 f6 16. O-O Nxd1 17. Rxd1 Ne7
+{ Covering the g6-square. } 18. dxc5 { White opens the d-file for his pieces. }
+18... Qb4
+{ The situation is incredibly dangerous for Black. See for example:   18...O-O-O  19.Rb1  Qa2  20.Qb5  Qa6  21.Qxa6  bxa6  22.Bf4!  (White merrily goes on with his attack.)  Nc6  23.Nd4!  Ne5  24.Bxe5  fxe5  25.Nc6  (Regaining a lot of material.)  Rh6  26.Rb8+  Kc7  27.Rxd8  Kxc6  28.Rxf8  and White should win the endgame.   18...fxg5?  19.Nc4!  Qb4   19...dxc4  20.Qd7#  20.Nd6+  Kd8  21.Rb1  with a decisive attack. }
+19. Ne4 Rd8
+{ Intending to take of White plays Nd6:   20.Nd6+  Rxd6  21.cxd6  Qxd6. } 20.
+Bf4 { Now the threat of Nd6+ is again deadly. } 20... Qxe4 21. Qb5+ Nc6 22.
+Qxb7 Be7 { 22...Qxe6  23.Re1. } 23. Qxc6+ Kf8 24. Bc7
+{ With a winning position. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Declined: 9... Qxb2"]
+[Black "61. The Caveman Declined: 9... Qxb2, 12... Nxa2 and 14... Nxd5"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 e6 8. Nd2
+c5 9. c4 Qxb2 10. Rd1 Nc6 11. Ngf3 Nb4 12. Qe2 Nxa2 13. cxd5 Nc3 14. Qd3 Nxd5
+{ This is not really an option. } 15. Rb1
+{ This pins Black's queen to the threat of Qb5+. } 15... c4 { The only move. }
+16. Nxc4 Qc3+ 17. Qxc3 Nxc3 18. Rxb7
+{ Material is equal, but that's where the similarities end. White is far ahead in development and is probably already winning. For example, he can bring the h1-rook into play via the c-file, or try Nd6+ exd6 and then bring the f3-knight to e5. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Declined: 9... Qxb2"]
+[Black "62. The Caveman Declined: 9... Qxb2, 12... Nxa2 and 15... Nf6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 e6 8. Nd2
+c5 9. c4 Qxb2 10. Rd1 Nc6 11. Ngf3 Nb4 12. Qe2 Nxa2 13. cxd5 Nc3 14. Qd3 exd5
+15. e6 Nf6 16. O-O Nxd1 17. Rxd1 c4
+{ 17...fxe6?  18.Qg6+  Kd7  19.Ne5+  Kc8  20.Rb1  Qa2  21.Bxf6  and White's attack is decisive. }
+18. Qf5 Be7
+{ 18...Qb6  19.Bxf6  exf6  20.Qxf6  Qxe6  (Black had to address the threat of Qxf7+)  21.Re1  and White wins. }
+19. exf7+ Kf8 20. Ne5 { White has a winning attack. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Declined: 9... Qxb2"]
+[Black "63. The Caveman Declined: 9... Qxb2, 12... Nxa2 and 15... Nh6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 e6 8. Nd2
+c5 9. c4 Qxb2 10. Rd1 Nc6 11. Ngf3 Nb4 12. Qe2 Nxa2 13. cxd5 Nc3 14. Qd3 exd5
+15. e6 Nh6 16. O-O Nxd1 { 16...c4  17.Nxc4!  is similar. } 17. Rxd1 c4
+{ This doesn't work , but after  17...Qb6  18.Ne5!  Bd6  19.exf7+  Nxf7  20.Nxf7  Kxf7  21.Qf5+  Black's position also falls apart. }
+18. Nxc4 dxc4 19. exf7+ Nxf7 20. Re1+ Kd7 21. Qxc4
+{ Despite being a rook down White is completely winning. As usual all of White's pieces are in play, while Black's army is watching from the sideline. }
+21... Re8 { 21...Nd6  22.Ne5+  Ke8  23.Qe6+  and mate. } 22. Qxf7+
+{ White is winning. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Declined: 9... Qxb2"]
+[Black "64. The Caveman Declined: 9... Qxb2, 12... Nxa2 and 14... Nxd1"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 e6 8. Nd2
+c5 9. c4 Qxb2 10. Rd1 Nc6 11. Ngf3 Nb4 12. Qe2 { The only move. } 12... Nxa2
+{ 12...cxd4  and   12...Nc2+  are alternatives at this point. After the text Black is threatening ...Nc3. }
+13. cxd5
+{ And we simply ignore it! I like this move best because it is the most forcing. White is threatening Rb1 which pins Black's queen to the threat of Qb5#. }
+13... Nc3 14. Qd3 { From this square the queen also eyes g6. } 14... Nxd1 15.
+dxe6 { And we merrily sacrifice more material! } 15... Nc3 16. exf7+ Kxf7 17.
+e6+ Kxe6 { 17...Ke8  18.Qg6#. } 18. d5+ Nxd5
+{ 18...Kd6  19.Nc4+  is a royal fork.   18...Kd7  19.Qf5+  Kc7  20.Bf4+  Kb6  21.Nc4+  and again , White wins the queen.   18...Kf7  19.Ne5+  Ke8  20.Qg6# }
+19. Qe4+ Kd7 { 19...Kd6  20.Nc4+. } 20. Qxd5+ Bd6 21. O-O
+{ White is threatening both Nc4 and Rb1, in each case with a winning attack. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Declined: 9... Qxb2"]
+[Black "65. The Caveman Declined: 9... Qxb2, 12... Nxa2 and 15... fxe6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 e6 8. Nd2
+c5 9. c4 Qxb2 10. Rd1 Nc6 11. Ngf3 Nb4 12. Qe2 { The only move. } 12... Nxa2
+{ 12...cxd4  and   12...Nc2+  are alternatives at this point. After the text Black is threatening ...Nc3. }
+13. cxd5
+{ And we simply ignore it! I like this move best because it is the most forcing. White is threatening Rb1 which pins Black's queen to the threat of Qb5#. }
+13... Nc3 14. Qd3 { From this square the queen also eyes g6. } 14... Nxd1 15.
+dxe6 fxe6 16. O-O Nc3
+{ Black tries to run off with his extra material because otherwise White plays Rxd1 and threatens moves like Rb1, Qg6+, Nc4 with a winning attack. }
+17. Nc4
+{ White's priority in this position is getting his rook to the b-file. He keeps open the possibility of playing Qg6+ at an opportune moment. }
+17... Qb4 18. Rc1 Nd5 19. Rb1 { The goal has been achieved! } 19... Qa4 20.
+Rxb7 { Threatening Qg6#. } 20... Rh6 21. Nd6+
+{ This forces Black to take, which opens up the e5-square for the f3-knight. }
+21... Bxd6 22. exd6 { Now White is also threatening d7+. } 22... Ngf6 23. Ne5
+{ White has several winning moves at this point. } 23... cxd4 24. Bxh6 gxh6 25.
+Qb1 { The threat of Rb8+ is decisive. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Declined: 9... Qxb2"]
+[Black "66. The Caveman Declined: 9... Qxb2, 10... Nc6 and 12... Ne7"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 e6 8. Nd2
+c5 9. c4 Qxb2 10. Rd1 Nc6 11. Ngf3 Nb4 12. Qe2 Ne7
+{ This is not as strong as ...Nxa2 or ...Nc2+ because Black cannot retake on d5 with a knight anyway. }
+13. cxd5 exd5
+{ 13...Nexd5??  14.Qb5+  Nc6  15.Qxb2  - oops!   13...Nbxd5?  14.Rb1  Qxa2  15.Qb5+  Kd8  16.Qxb7  Rc8  17.O-O  and White already has a winning initiative. }
+14. Qb5+ { White immediately takes over the initiative. } 14... Nec6 15. O-O
+{ Not  15.Qxb7??  Nc2+  16.Kf1  Qxb7. } 15... Rb8 16. Rb1
+{ Another strong idea is  16.e6  fxe6  17.Bf4. } 16... Qxa2 17. dxc5
+{ White simply intends to take the b4-knight next. It has precious few squares , for example  17...Na6  18.Ra1  Qc2  19.Rxa6!  and wins. }
+17... a6 18. Qb6 Nd3 19. Qc7 { Intending Rxb7. } 19... Qa5 20. Rb6
+{ White is threatening to win material with Rxc6 and there is nothing Black can do about it. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Declined: 9... Qxb2"]
+[Black "67. The Caveman Declined: 9... Qxb2, 10... Nc6 and 12... cxd4"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 e6 8. Nd2
+c5 9. c4 Qxb2 10. Rd1 Nc6 11. Ngf3 Nb4 12. Qe2 cxd4
+{ This is an interesting idea because now White has to reckon with the possibility of ...d3. }
+13. O-O
+{ White should not allow  13.cxd5  d3  14.Qe4  exd5  15.Qf4  Nc2+  16.Kf1  when his pieces are clumsily positioned. }
+13... d3
+{ 13...Nxa2  14.cxd5  Nc3  15.Qd3  Nxd1  16.dxe6!  is similiar to the 12... Nxa2 variation. }
+14. Qe3 Ne7
+{ A cute variation is  14...Rc8  15.cxd5  Bc5  16.Rc1!  Bxe3  17.Rxc8+  Kd7  18.Rd8+  Kc7  19.d6+  and White wins. }
+15. Rb1 Qc3
+{ Black has various possible moves here, but in any case White has good compensation by chasing after Black's queen with his rooks. }
+16. Rb3 Qc2 17. Nd4
+{ An important in-between move.  17.Rxb4?  Nf5!  would be winning for Black. }
+17... Qxa2 18. Rxb4 { Now White wins back material. } 18... Nf5 19. Nxf5 Bxb4
+20. Nxg7+
+{ Also possible is  20.Nd6+  , but the text leads to a winning attack. } 20...
+Kf8 21. Nxe6+ fxe6 22. Qf3+ Kg8 { 22...Ke8  23.Qf6!  forks e6 and h8. } 23.
+Qxd3 { White has a winning position. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Declined: 9... Qxb2"]
+[Black "68. The Caveman Declined: 9... Qxb2, 11... Nge7"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 e6 8. Nd2
+c5 9. c4 Qxb2 10. Rd1 Nc6 11. Ngf3 Nge7 { This seems too slow to me. } 12. Rb1
+{ White immediately takes control over the b-file. } 12... Nb4 13. Qe2 Qxa2 14.
+O-O
+{ Now White simply wants to take on c5 and d5 and utilize his superior development. }
+14... Nec6 15. dxc5 Bxc5 16. cxd5 exd5 17. Rfc1
+{ Black's bishop doesn't have a lot of squares - a common problem in the Caveman Declined. }
+17... Bb6 18. Rxb4 Nxb4 19. Qb5+ Nc6 20. Rxc6 O-O
+{ 20...bxc6  21.Qxc6+  and White regains his sacrificed material and more. }
+21. Rd6 { White is somewhat better here. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Declined: 9... Qxb2"]
+[Black "69. The Caveman Declined: 9... Qxb2, 11... Nxd4"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 e6 8. Nd2
+c5 9. c4 Qxb2 10. Rd1 Nc6 11. Ngf3 Nxd4
+{ This has not been played yet but it seems quite strong to me. White has to play accurately the next couple of moves, otherwise the game will fizzle out to an equal  (or slightly worse for White)  endgame quickly. }
+12. cxd5
+{ 12.Nxd4  Qxd4  13.Qe2  Be7!  is nothing.   Neither is  12.O-O  Qc2  13.Qe3  Qc3!   Finally , after  12.Rb1  Nxf3+  13.Nxf3  Qxa2  14.Rxb7  Qxc4  White can hardly avoid the exchange of queens. }
+12... Qc2 13. Qe3 Qxa2 14. O-O
+{ This is necessary because Black was threatening Nc2+. } 14... Qxd5
+{ Black seems to have a solid position } 15. Ne4
+{ Now White intends to simply take twice on d4 and double rooks on the d-file. }
+15... Nh6 16. Bxh6
+{ This is necessary:  16.Nxd4?!  cxd4  17.Rxd4  Nf5!  and Black wins. } 16...
+Rxh6 17. Nxd4 cxd4 18. Rxd4 Qxe5
+{ Black is up three pawns, but his king is unsafe and most of his pieces are not participating yet. My engine says it is 0.00, but in truth it is very hard for Black to hold the balance here. }
+19. Rb1 Qc7
+{ A move like  19...b6?!  allows  20.Qc3!  threatening both Qc6+ and Rd8+ followed by Qxe5. }
+20. Rbd1
+{ If White desires , he can go for a draw here with  20.Qxh6  gxh6  21.Nf6+  Ke7  22.Ng8+  Ke8  23.Nf6+  etc. }
+20... Be7 21. Rd7 Qxd7 22. Rxd7 Kxd7 23. Qd4+
+{ White will take on g7 next. The computer still think it is balanced, but again: it is very hard for Black to keep his position together. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman Declined: 9... Qxb2"]
+[Black "70. The Caveman Declined: 9... Qxb2, 11... Qxa2"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 e6 8. Nd2
+c5 9. c4 Qxb2 10. Rd1 Nc6 11. Ngf3 Qxa2
+{ This move doesn't fit in well with 10... Nc6. } 12. O-O
+{ White castles so that he can deploy his rooks on the queenside. } 12... Nge7
+13. Ra1 { Now White can simply go after Black's queen. } 13... Qb2 14. Rfb1 Nb4
+{ The only move. } 15. Qe2 Qc2 16. cxd5 { With the usual threat of Qb5+. }
+16... a6 17. Bxe7 Bxe7 18. d6 Bd8 19. dxc5 Qxc5 20. Ne4
+{ Aside from having a dominant position, White is simply winning the b4-knight.   For example:  20...Qb6  21.Ra4  a5  22.Rbxb4  axb4  23.Rxa8   Or:  20...Qc2  21.Qxc2  Nxc2  22.Ra2  Rc8  23.d7+!  Kxd7  24.Rxb7+  Rc7   24...Ke8  25.Nd6+  25.Rxc7+  Bxc7  26.Rxc2 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman: 4... h6"]
+[Black "71. The Caveman 4... h6 5. g4 Bd7 and 7... Qb6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h6
+{ Not at all a bad move, at least if Black intends to follow up with 5. g4 Bd7!. Black wants to lure White into playing g4 when he retreats the bishop back to d7, playing ...e6 and ...c5. He will play the position like a French defense in which White has already committed his pawns on the kingside forward - the question is whether these pawns constitute a weakness or a strength. }
+5. g4 { We take the 'bait'. } 5... Bd7
+{ Alternatively Black can try to keep his bishop on the b1-h7 diagonal, but that will repeatedly run into the pawn sacrifice e6! by White as we will see later. }
+6. Nc3
+{ The main move here is   6.h5  which cements White's space advantage on the kingside and prevents black from playing ...h5. However, after  6...c5!  Black is doing quite well - White is perhaps making too many pawn moves. The text gives Black more options such as ...h5 but it accelerates White's development. }
+6... e6 { Black has various alternatives here that we will look at. } 7. Be3
+Qb6
+{ Again, Black has other possible moves:   7...c5  ,   7...h5.   7...Qc7  has little independent value as Black will soon play  ..c5  transposing to  7...c5. }
+8. Nge2
+{ 8.Qd2  Qxb2  9.Rb1  Qa3  10.Rxb7?!  Bb4!  is a bit difficult for White to deal with , as after  11.Nge2  Na6  his rook will be trapped. }
+8... c5
+{ Now  8...Qxb2?!  9.Rb1  Qa3  10.Rxb7  Bb4  is less strong because of  11.Bd2  Na6  12.Rh3!  and the h-rook decisively joins the battle. }
+9. Qd2 Nc6 10. f4
+{ White does best to delay castling , as after  10.O-O-O  c4!?  he may be subject to a pawn storm on the queenside. The text prepares the push  f5  , but also simply taking on  c5  followed by long castling works here too.  The position now resembles the Steinitz variation of the French Defense   1.e4  e6  2.d4  d5  3.Nc3  Nf6  4.e5  Nfd7  5.f4  c5  ,  the key struggle being around the d4-square. }
+10... cxd4 11. Nxd4 Nxd4 12. Bxd4 Bc5 13. Bxc5
+{ This seems stronger to me than  13.O-O-O  Bxd4  14.Qxd4  Qxd4  15.Rxd4  Ne7  when the endgame looks rather equal , although White eventually ground out a win in Grandelius - Hillarp Persson  (Stockholm 2014)  (.) }
+13... Qxc5 14. h5
+{ White can continue with  O-O-O.  He has a pleasant space advantage. Notice that  14...d4?  is not a threat because of  15.Ne4  and the knight comes to d6. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman: 4... h6"]
+[Black "72. The Caveman 4... h6 5. g4 Bd7 and 7... c5"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h6 5. g4 Bd7 6. Nc3 e6 7. Be3 c5 8. dxc5 Qc7
+{ 8...Nc6  9.Nf3  and it is not clear how Black will regain his pawn. } 9. Qd2
+Bxc5
+{ If   9...Qxe5  Black will have to lose time because his queen on e5 will soon come under attack. For example  10.Nf3  White has many good alternatives here  Qc7  11.Nb5!?  Bxb5  12.Bxb5+  Nc6  13.Bf4  Qc8  14.Ne5  Nf6   14...Bxc5 ?  is impossible because of  15.Qc3 !  15.f3  and White has a bind on the position. }
+10. f4 { White has the typical space advantage. } 10... Bxe3
+{ Black had to move or exchange this bishop before he is able to play ...Nbc6. }
+11. Qxe3 h5 { This looks strong, but it is not at all a problem for White. }
+12. gxh5
+{ The weaknesses of f7 and g7 will turn out to be more important than the f5- and h5-squares that Black obtains. }
+12... Ne7 13. Bd3 { Of course, we don't allow ...Nf5. } 13... Rxh5 14. O-O-O a6
+{ Black has to make this move to prevent Nb5-d6 if he wants to play ...Nbc6. }
+15. Nf3 Nbc6
+{ This was Florstedt - Starostits  (Berlin 2018)  . Now strongest to me seems the following. }
+16. Qg1 { Attacking g7. } 16... g6 17. Ng5
+{ The attack on f7 prevents Black from castling long. } 17... Rh8 18. h5
+{ A strong temporary pawn sacrifice. } 18... gxh5 19. Qf2
+{ White intends Be2xh5. Meanwhile Black has no good way to solve his development problems. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman: 4... h6"]
+[Black "73. The Caveman 4... h6 5. g4 Bd7 and 7... h5"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h6 5. g4 Bd7 6. Nc3 e6 7. Be3 h5
+{ This is always an option White has to reckon with in the 4... h6 5. g4 Bd7 variation when White does not play an early h5. }
+8. gxh5
+{ The most important thing to remember is that in response to ...h5 you rarely, if ever, want to move the pawn to g5. In this case Black would go   8.g5?  g6!  and the kingside is eternally blocked, rendering White's space advantage useless, while Black has a nice square on f5 for his knight. }
+8... Nh6 9. Bh3
+{ We don't allow  ..Nf5  to go unchallenged.  9.Bd3  is also possible but it removes the control of White's queen over  d4. }
+9... c5 10. dxc5 Bc6
+{ This is Morozevich - Bologan  (Astana 2012)  . Now the following seems strongest to me. }
+11. Bd4
+{ Blocking the ...d4 advance and keeping the c5- and e5-pawns protected. }
+11... Nd7 12. b4 a6
+{ Black would like to play  12...b6  breaking up White's queenside pawns , but unfortunately that runs into  13.b5!  and White wins a piece. }
+13. a4 { Again threatening b5! } 13... Nxe5 14. b5
+{ 14.Bxe5?!  d4  and Black regains the piece with a decent position. } 14...
+Qa5 15. bxc6 Nxc6 16. Ne2 e5 17. Be3 d4
+{ Black seems to regain the piece, but this leads to a nice refutation. } 18.
+Bd2 { 18.Bxh6  Rxh6  19.Kf1  Qxc5  is also good for White , but less clear. }
+18... dxc3 { Otherwise White will play Ne4 next. } 19. Bd7+ Ke7
+{ 19...Kxd7  20.Bxc3+  wins the a5-queen thanks to the discovered check.   19...Kd8  20.Bxc3  Qc7  21.Bxc6+  and White stays a piece ahead. }
+20. Bg5+ f6 21. Qd5 { The threat of Qe6# is decisive. } 21... Nd8 22. Nf4
+{ Threatening Ng6#. } 22... exf4 23. O-O-O
+{ A rook will come to e1 and mate soon follows. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman: 4... h6"]
+[Black "74. The Caveman 4... h6 5. g4 Bd7 and 6... Qc8"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h6 5. g4 Bd7 6. Nc3 Qc8
+{ This move intends to lure the f1-bishop to an inferior square before playing the usual moves of ...e6 and ...c5. }
+7. Bh3 { The e2-square should be reserved for the g1-knight. } 7... e6
+{ Two games went  7...h5  8.gxh5  Nh6  9.Bxd7+  Qxd7  10.Bxh6!  Rxh6  11.Qf3!  and White had control over the kingside. It is nearly impossible for Black to regain the h5-pawn and White has the simple plan of developing pressure against the f7-pawn by bringing a knight to  g5  and his rooks to the f-file. }
+8. Be3 c5 9. dxc5
+{ The game Delaney - Parligras  (Novi Sad 2016)   went  9.Nge2  Nc6  10.f4  cxd4  11.Nxd4  Bb4  12.Qd3  Na5  and Black had good play with ..Nc4 coming. In my view White should keep the g1-knight on e2 so that it  (over)  protects the c3-knight. }
+9... Bxc5 10. Qd2
+{ Now White can just develop normally - Qd2, Nge2, f4, et cetera. } 10... Bb4
+11. Nge2 Nc6 12. f4 Na5 13. b3 { Now White does not have to fear ..Nc4. } 13...
+Qc7 14. a3 Bf8 { 14...Bxc3  15.Nxc3  Rc8  16.Bd4  Nc6?!  17.Nb5! } 15. h5
+{ White has strong control over the position. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman: 4... h6"]
+[Black "75. The Caveman 4... h6 5. g4 Bd7 and 6... Qb6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h6 5. g4 Bd7 6. Nc3 Qb6
+{ Moving the queen to b6 this early is rather committal and slow. There are moves that have a higher priority! }
+7. h5
+{ If Black is doing nothing aggressive then this is a useful move.  7.Na4  is also possible , but perhaps Black can play  7...Qa5+  8.c3  h5!?  9.gxh5  Bf5. }
+7... e6 8. Na4
+{ Black is going to play ...c5 anyway, so it is a good idea to 1  move the knight from away from c3 so that you can move a pawn to c3, and 2  control the c5-square with the knight. }
+8... Qa5+
+{ 8...Qc7  9.Be3  c5  10.Nxc5  Bxc5  11.dxc5  Qxe5  12.Nf3  and White will play Bd4 next. }
+9. c3 c5
+{ If this move is necessary , Black's strategy has failed. But after  9...b5  10.Nc5!  Bxc5  11.dxc5  White also establishes control over the dark squares. }
+10. Nxc5 Bxc5 11. dxc5 Qxc5 12. Be3 Qc7 13. f4 Ne7 14. Nf3
+{ White had an ideal position in Vitiugov - Popov  (Jurmala 2016)  . His dark-squared bishop is unopposed. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman: 4... h6"]
+[Black "76. The Caveman 4... h6 5. g4 Bd7 and 6... h5"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h6 5. g4 Bd7 6. Nc3 h5 7. gxh5
+{ The standard response to ...h5. } 7... Bf5 { This is rather slow. } 8. Bh3
+Qd7 { 8...Bh7  9.e6!  is a thorn in Black's kingside. } 9. Qf3
+{ This way White takes control over the kingside. } 9... Bxh3
+{ 9...Nh6  10.Bxh6  should transpose. } 10. Nxh3 Nh6 11. Bxh6
+{ This not only speeds up development, but also prevents Black from playing the knight to f5. }
+11... Rxh6 12. O-O-O e6 13. Ng5
+{ Now White has a very simple plan - play Rg1, Rg4 and Rf4 and break through on f7. The only thing Black can really do to stop this plan is play ..f6, but that in turn will open the center/kingside favorably for White. All in all, White is close to winning already. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman: 4... h6"]
+[Black "77. The Caveman 4... h6 5. g4 Bd7 and 6... h5 7. gxh5 Nh6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h6 5. g4 Bd7 6. Nc3 h5 7. gxh5 Nh6 8. Bg5
+{ The pin on the e7-pawn is quite annoying for Black. } 8... Bg4 9. Be2
+{ White should not let go of the h5-pawn easily. } 9... Bxe2 10. Qxe2 Qd7 11.
+Bxh6 { Castling long is also fine. } 11... Rxh6 12. O-O-O Qf5
+{ Now White cannot protect the h5-pawn any longer, but he has made Black waste a lot of time to recover his pawn. }
+13. Nf3 Rxh5 14. Kb1
+{ Here White has to be careful.  14.Ng5?  allows  14...Rxh4!  15.Rxh4?  Qxg5+. }
+14... Rh6 15. Ng5 f6
+{ In case of  15...e6  16.Rh3!  followed by Rf3 is hard to deal with for Black. }
+16. exf6
+{ Here in Terzidaki - Makka  (Porto Rio 2014)   White went for the speculative piece sac  16.f4?!  fxg5  17.fxg5  Rh8  18.e6  and eventually lost. The text seems straightforward to me. }
+16... Rxf6 17. f4
+{ White is clearly better. he intends Rde1 and Ne6 with a dominant position. Even if Black manages to prevent the knight from coming to e6, his f8-bishop remains a problem piece. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman: 4... h6"]
+[Black "78. The Caveman 4... h6 5. g4 Bd7 and 6... c5"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h6 5. g4 Bd7 6. Nc3 c5
+{ This is also possible, but likely to transpose to 6... e6 lines. } 7. dxc5 e6
+{ 7...Nc6?!  should be punished with  8.Qxd5  Bxg4  9.Qe4  Qd4   9...Qd7  10.Bd3  and Black has nothing for the pawn.  10.Qxd4  Nxd4  11.Bd3  e6  12.Ne4!  and Black has no compensation for the pawn. }
+8. Be3 Qc7 { 8...Nc6  9.Nf3!  and Black won't recover his pawn anytime soon. }
+9. Qd2 { This transposes to line 72. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman: 4... h6"]
+[Black "79. The Caveman 4... h6 5. g4 Bh7"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h6 5. g4 Bh7
+{ 5...Be4  6.f3  Bh7  has no independent value because White will soon play  f4  anyway.   5...Bg6?!  6.h5  Bh7  only helps White because he would rather his h-pawn be on  h5  than on  h4. }
+6. e6 { The typical Caveman sacrifice! } 6... fxe6 7. Bd3
+{ White should quickly start focusing on the weakened light squares. } 7...
+Bxd3 { If Black doesn't take then Bxh7 Rxh7 Qd3 will amount to much the same. }
+8. Qxd3 Qd6 { Preparing ...e5. } 9. f4
+{ Of course we should not allow ...e5!  Newcomers to this variation may be tempted by the move   9.Qg6+ ?  Kd8  ,  when Black is deprived of his castling rights. But after  10.f4  the freeing move  10...e5 !  has become possible because White's queen is attacked, and  11.Qxd6+  exd6  12.fxe5  dxe5  13.dxe5  Nd7  is probably a slightly worse endgame for White. }
+9... Nd7 10. Nf3 O-O-O 11. Ne5 Nxe5 12. fxe5 Qc7 13. Nc3
+{ Black's f8-bishop and g8-knight are permanently stuck! } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman: 4... h6"]
+[Black "80. The Caveman 4... h6 5. g4 Bh7 6. e6 Qd6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h6 5. g4 Bh7 6. e6 Qd6
+{ This is Black's main alternative to ...fxe6, intending Qxe6+. There is also   6...Nf6  ,  but that move doesn't solve the issue of how to deal with the e6-pawn, which prevents Black from deploying the Bf8 and Rh8.  See the model game Maxime Vachier-Lagrave vs. Ding Liren for an example of 6... Nf6. }
+7. exf7+ { We misplace Black's king instead. } 7... Kxf7 8. f4
+{ Black's second idea with ...Qd6 is to prepare ..e5, which this move decisively prevents. }
+8... Qe6+ { This is a bit greedy. } 9. Be2 Qe4 10. Nf3 Qxc2 11. Ne5+ Ke8 12. g5
+{ Threatening Bh5+. } 12... Qxd1+ { 12...Qe4  13.Rh2!  doesn't help Black. }
+13. Bxd1 Nd7 { 13...g6  14.h5! } 14. g6 Nxe5 15. gxh7 Nd3+ 16. Kd2
+{ White wins a piece. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman: 4... h6"]
+[Black "81. The Caveman 4... h6 5. g4 Bh7 and 6... Qd6, 8... Nf6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h6 5. g4 Bh7 6. e6 Qd6 7. exf7+ Kxf7 8. f4
+Nf6 { The standard move. } 9. Nf3
+{ White is more or less forced to sacrifice the g4-pawn. Other moves would allow Qe6+ followed by Nxg4 anyway. }
+9... Nxg4 10. h5
+{ This clamps down on the g6-square and prevents Black from playing ...h5 himself, which would help him significantly. }
+10... Nd7 11. Nc3 e6 12. Ne5+ Ngxe5 13. fxe5 Nxe5
+{ White has to be careful in how to answer this piece sacrifice. } 14. Bf4
+{ 14.dxe5  Qxe5+  15.Qe2  Qxe2+  16.Bxe2  Bxc2  and Black has decent compensation for the piece. }
+14... Bxc2 { 14...Nd3+?  15.Bxd3  Qxf4  doesn't work because of  16.Rf1!. } 15.
+dxe5 { 15.Qxc2?  Nf3+  followed by ...Qxf4 is Black's idea. } 15... Bxd1 16.
+exd6 Bg4 17. Bd3
+{ Now White has a significantly stronger version of the same endgame. White is better. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman: 4... h6"]
+[Black "82. The Caveman 4... h6 5. g4 Bh7 and 6... Qd6, 13... Qc7"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h6 5. g4 Bh7 6. e6 Qd6 7. exf7+ Kxf7 8. f4
+Nf6 9. Nf3 Nxg4 10. h5 Nd7 11. Nc3 e6 12. Ne5+ Ngxe5 13. fxe5 Qc7 14. Bh3
+{ The e6-pawn is the focal weakness here. } 14... Re8 15. Ne2
+{ The knight is coming to f4. } 15... c5 16. O-O+ Kg8 17. c3 cxd4 18. cxd4
+{ With Nf4-g6 coming White has a decisive initiative. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman: 4... h6"]
+[Black "83. The Caveman 4... h6 5. g4 Bh7 and 6... Qd6, 13... Qe7"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h6 5. g4 Bh7 6. e6 Qd6 7. exf7+ Kxf7 8. f4
+Nf6 9. Nf3 Nxg4 10. h5 Nd7 11. Nc3 e6 12. Ne5+ Ngxe5 13. fxe5 Qe7 14. Be3
+{ 14.Bh3?  Qh4+  doesn't work out for White here. } 14... c5 15. Qf3+ Ke8 16.
+O-O-O
+{ Black's extra pawn is meaningless, and he has big problems with his piece coordination as well as king safety. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman: Odds and Ends"]
+[Black "84. The Caveman: 6... Nh6!?"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Nh6
+{ This is quite an interesting move. Black can still choose to take at b2 at some point, but he can also exchange on d3, or simply play ...e6 and ...c5. So White now has to make moves that are good against all those options! }
+7. Ne2
+{ 7.Bxh6?!  Bxd3  8.Qxd3  Rxh6  doesn't promise White anything.   7.Nc3?!  is a favorite of my engine, but I think it prematurely blocks the c2-pawn.   7.Nf3!?  is a fully viable alternative, however. The point here is that White develops his g1-knight and castles kingside pretty much regardless of what Black does, so we can make those moves while Black has to answer the question how he is going to resolve the situation with his f5-bishop and h6-knight. }
+7... Bxd3
+{ 7...Qxb2  8.Nbc3!  Bxd3  9.cxd3  Qa3  otherwise Rb1 followed by Rxb7 will give White great play.  10.Rb1  b6  11.O-O   11.e6!?  is an interesting alternative in the spirit of the Caveman.  e6  12.Rb3  Qa5  13.Ng3  g6  14.Qc2   14.Bf6  is another idea  Nd7  15.Rc1  and White is threatening, for example, Nb5 and Nce4.   7...e6  8.O-O  Nd7  9.a4!?  and it is not obvious how Black finishes his development, considering the f8-bishop has no good squares. }
+8. Qxd3 Qxb2 9. O-O Qxa1 10. Qb3 Nd7 11. e6 fxe6 12. Nd2 Qxf1+ 13. Kxf1
+{ With a typical Caveman Accepted position - Black is up material, but has numerous weaknesses and no clear way to finish his development. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman: Odds and Ends"]
+[Black "85. The Caveman: 5... f6!?"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 f6
+{ This is a very interesting possibility which until now hasn't been tried yet in high level games. And I have to be honest: I have no clue how White should get an advantage after this move. If I had the black side of the Caveman I would probably go for this variation! }
+6. Bd3
+{ 6.Bf4  Qb6!  and   6.Be3  Qb6!  both seem fine for Black. The text is a piece sacrifice that aims to exploit the holes that ..f6 has created. }
+6... Bxd3
+{ 6...Qd7  7.Bf4  seems a bit better for White. Black's queen is poorly positioned on  d7. }
+7. Qxd3 fxg5 8. Qg6+ Kd7 9. e6+ Kc7
+{ 9...Kc8  10.hxg5  is also very much possible , but Black should not try  10...Qb6?!  11.Ne2  Qxb2  12.Qe8+  Kc7  13.Qxf8  Qxa1  14.O-O.  White will take on  g7  and restore material balance with a better position. }
+10. hxg5
+{ This is the starting position of this line. White has a bind on Black's kingside, but he lacks active play for his own pieces. It will take time to bring the knights and rooks into play. Meanwhile, at some point Black will play a knight to f6, after which White is forced to take gxf6 - material equality  (and likely also positional equality)  will be restored that way. Also, the pawn on e6 is often more a weakness than a bone in Black's throat in this line.   In any case I have not been able to find a line that leads to a comfortable edge for White. }
+10... Qd6
+{ This attacks and pins the e6-pawn, preparing moves like ...Nd7 and ...Nf6. }
+11. Ne2
+{ This is the most flexible development of the knights - pre-emptively blocking a check from Qxe6. }
+11... Nd7
+{ 11...Na6  is a viable alternative.   11...Nf6  12.gxf6  gxf6  13.Qf5!  Bh6  14.Nbc3  Na6  15.f4  and White will have some advantage if he manages to keep the e6-pawn intact. }
+12. Nd2 Ndf6 13. gxf6 Nxf6 14. O-O-O
+{ 14.Qf5?!  g6!  15.Qxg6  Rg8  and Black takes over the initiative. } 14...
+Qxe6 15. Rde1
+{ 15.Qg3+  Qd6  16.Nf4!?  g5!  White's intended Ne6+ is not really much of a threat.  17.Ne6+   17.Qxg5?  Bh6!  and Black wins  Kd7  18.Nc5+  Kc7  19.Ne6+  with a draw. }
+15... Qg4 16. Qxg4 Nxg4 17. f3 Nf6 18. Nf4
+{ White has compensation for the pawn , but no more than that. For example  18...e6!?  19.Nxe6+  Kd7  20.Nf4  Bd6  with a drawish position. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman: Odds and Ends"]
+[Black "86. The Caveman: 5... Qc7"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qc7
+{ The queen is rather passively placed here. } 6. c4
+{ I recommend transposing to this more common 4. h4 line, because Black's queen will be misplaced on c7. }
+6... e6 7. Nc3 Ne7 8. Nge2 { This knight is going to g3. } 8... Nd7
+{ Black can play  8...dxc4  9.Ng3  b5  , but after  10.a4  b4  11.Nce4  Bxe4  12.Nxe4  we see the problem. In the normal h4-line Black would be able to exert significant pressure on the d4-pawn with 12 ...Nf5. Here that isn't possible because the moves Bg5 for White and ...Qc7 for Black have been inserted. }
+9. Ng3 Bg6 10. cxd5 Nxd5 11. Bd3 Bxd3 12. Qxd3
+{ Black will eventually want to play ...c5, but he will have to move his queen again since after White plays a rook to c1 the queen will be misplaced. White is slightly better. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman: Odds and Ends"]
+[Black "87. The Caveman: 5... Qa5+"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qa5+
+{ A rare move but not particularly good or bad. } 6. c3
+{ White can play in various ways here. The only thing I do not recommend is putting the b1-knight on c3, since Black can then get fine play simply by playing ...e6 and ...c5. }
+6... e6 7. Ne2 c5 8. dxc5
+{ This type of play is similar to what I recommend against the Botvinnik-Carls 3... c5 system. White intends to give up the e5-pawn and play Nd4, b4, attacking the Bf5 and probing the a4-e8 diagonal with Bb5+. }
+8... Qc7 { 8...Bxc5?  9.b4. } 9. b4 Nc6
+{ After  9...Qxe5  10.Bf4  Qf6  Black's queenside is vulnerable , for example  11.Na3!?  a6  12.Qa4+  Nd7  13.Nb5! }
+10. Bf4 Nge7 11. Nd4 Bxb1 { 11...a6  12.Nd2  and White is slightly better. }
+12. Nb5
+{ This in-between move was winning in Hansen - Hallerod  (Guernsey 2014)  . } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman: Odds and Ends"]
+[Black "88. The Caveman: 4... c5?! and 5... Qc7"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 c5
+{ This move is known as dubious. As we will also see in the chapter on the Botvinnik-Carls variation, the move ...c5 doesn't combine well so early with ...Bf5. }
+5. dxc5 Qc7
+{ It is important to note that  5...e6?  is not possible yet because of  6.g4!  trapping the f5-bishop. }
+6. Nc3 Nc6
+{ 6...Qxe5+?!  7.Be3  and White is clearly better with  Nf3  coming next. } 7.
+Nf3 Rd8
+{ 7...Nxe5?  8.Bf4!  is already losing for Black:  8...Nxf3+  9.Qxf3  Qxc5  10.Bb5+  Bd7  11.Bxd7+  Kxd7  12.Nxd5  And White will follow with Rd1 with a winning attack. }
+8. Nb5 Qc8
+{ 8...Qb8  9.Nbd4.  The text was game 16 from the Botvinnik - Tal rematch , and now we seek to improve on Tal's play. }
+9. c3
+{ Tal - Botvinnik, 16th game World Championship match 1961 continued:   9.Nfd4  Bg4  10.f3  Bd7  11.Nxc6  bxc6  12.Nd4  Qb8  13.Qe2  e6  14.Nb3  Bxc5  15.Nxc5  Qb4+  16.c3  Qxc5  17.Be3  Qa5  18.b4  Qc7  19.Bc5  Ne7  20.h5  h6  21.Bd6  Qb7  22.O-O-O !?  Very risky, but that's vintage Tal!  Ra8  23.g4  a5  24.Qf2  axb4  25.cxb4  c5  26.Bxe7  Kxe7  27.Qxc5+  Ke8  28.Kb2  Rc8  29.Qd4  Ba4  30.Rc1  Rxc1  31.Kxc1  White is again a pawn up, but Black has decent compensation here. The game ended in a draw on the 90th  (!)  move. }
+9... e6 10. Be3 { Black has no good way to regain his pawn. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman: Odds and Ends"]
+[Black "89. The Caveman: 4... c5?! and 5... Nc6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 c5 5. dxc5 Nc6
+{ This is stronger than Botvinnik's 5... Qc7. } 6. Bb5
+{ 6.Be3?!  d4!  is good for Black. } 6... Qa5+ 7. Nc3 O-O-O
+{ Again ,  7...e6?  8.g4  isn't possible yet. Black still has to create a hole for the f5-bishop. }
+8. Bxc6 bxc6 9. Qd4 e6
+{ 9...Bxc2  10.e6!  fxe6  11.Nf3  leads to a fantastic position for White. }
+10. Be3 h5
+{ 10...Bxc2?  11.Rc1  Be4  12.f3  - the poor bishop is still getting trapped. }
+11. b4
+{ White not only has an extra pawn, but also a strong initiative on the queenside. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman: Odds and Ends"]
+[Black "90. The Caveman: 4... c5?! and 5... Nc6, 7... a6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 c5 5. dxc5 Nc6 6. Bb5 Qa5+ 7. Nc3 a6 8. Bxc6+
+bxc6 9. a3 { Intending b4 if Black does not retake on c5. } 9... Qxc5 10. Nge2
+e6 11. Be3 Qa5 12. Nd4
+{ White is again threatening to trap the f5-bishop with g4. } 12... h5 13. Nxf5
+{ 13.Nxc6  Qc7  gives Black some counterplay. } 13... exf5 14. b4 Qc7 15. Bd4
+Nh6 16. Qf3
+{ White dominates the position while Black has to figure out how to finish his development. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman: Odds and Ends"]
+[Black "91. The Caveman: 4... Qb6!?"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 Qb6
+{ A sort of waiting move. The queen may or may not be optimally placed on b6. }
+5. Nc3
+{ Another interesting idea which I dare you to try out is  5.g4  Bd7  6.Rh3!?  ,  swinging the rook over to b3. }
+5... h5
+{ 5...h6  6.g4  Bd7   6...Bh7  7.e6!  7.h5!  would transpose to line 73. } 6.
+a4 { White tries to abuse the position of Black's queen. } 6... e6
+{ 6...a5  is also possible, but it would give White the b5-square for his pieces since Black eventually will have to play ...c5 to get counterplay. }
+7. a5 Qc7 8. Nge2 c5 9. Nb5 Qd7 10. Ng3 Bg6 11. dxc5 Bxc5 12. Be3
+{ This is unpleasant for Black since  12...Bxe3  allows  13.Nd6+. } 12... Be7
+13. Nxa7 { White wins a pawn. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman: Odds and Ends"]
+[Black "92. The Caveman: 4... a6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 a6 { Another 'waiting move'. } 5. Nc3
+{ This is usually a good reply if Black plays a waiting move on move 4. } 5...
+h6 6. g4
+{ Now that Black has decided how to resolve the situation with his f5-bishop we grab more space. }
+6... Bd7 7. h5
+{ If White has the time for this move  (and here I think he does because Black used a tempo on ...a6)  he should definitely play it. }
+7... e6 8. Be3 { Anticipating ...c5. } 8... c5 9. dxc5 Qc7 10. f4 Bxc5 11. Qd2
+{ White has the usual space advantage and can continue with moves like Nf3 and O-O-O. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Caveman: Odds and Ends"]
+[Black "93. Caro-Kann Advance: 3... g6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 g6
+{ This type of setup is usually better when White has already played Nc3 or Nd2, as then his options are more limited. }
+4. c4 { 4.Nf3  Bg4  would be what Black wants. } 4... Nh6 5. Nc3 Bg7 6. Bf4
+{ Intending 7. Qd2 Nf5 8. g4, winning a piece. } 6... dxc4 7. Bxc4 Nf5
+{ Now Black temporarily has pressure against the d4-pawn, but the f5-knight blocks the development of his c8-bishop. }
+8. Nf3 O-O 9. g4 Nh6 10. h3
+{ White has a crushing position - the knight on h6 is totally offside. White can continue with Qd2 and O-O-O. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Botvinnik-Carls Gambit: 3. e5 c5 4. Ne2!?"]
+[Black "94. The Botvinnik-Carls Gambit: 4... Nc6 and 5... Bf5"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 c5
+{ This is a respectable gambit that became mainstream when Botvinnik used it in his rematch against Tal in 1961 - albeit with little success  (Botvinnik won the rematch easily, but only scored 1 out of 3 with this move)  . Black keeps his options open as to whether he'll develop the c8-bishop outside his pawn chain, and immediately starts counterplay against White's center. }
+4. Ne2
+{ This is my recommendation. Not because it is objectively the strongest, but because it avoids lines like 4. dxc5 or 4. Nf3 Nc6 5. c4 which require White to know a lot of theory - and even then these lines don't offer a clear path to a small advantage  (as far as I know)  .  4. Ne2 looks a bit strange but it has some good ideas. Firstly, it makes Black's development of his c8-bishop a bit more difficult. If this bishop is played to g4 White could answer f3, and on f5 the bishop can be hit by Ng3. With the knight not blocking his f-pawn White can also quickly play the advance f4-f5, of course after he has castled.  On the other hand the e2-knight blocks the smooth development of the f1-bishop. This is solved by the fact that White almost always plays dxc5 followed by Nd4 next.  To clarify, I do not think 4. Ne2 offers White an advantage  (though in some variations White gets great positions)  , but it takes play off the beaten track of established theory very quickly and offers positions that are quite unbalanced. }
+4... Nc6
+{ Black can also play  4...cxd4   or  4...e6  though these are rare alternatives - I consider them later in this chapter. }
+5. c3
+{ This does not just defend the d4-pawn but also prepares dxc5 to then prop up the c5-pawn with by playing b4. It also opens the d1-a4 diagonal for the white queen. }
+5... Bf5
+{ Black has alternatives at this point in   5...cxd4  ,   5...Bg4   and  5...e6  - this transposes to the line 4...e6.  The text allows White to execute his plan with dxc5 and b4. }
+6. dxc5 e6 { 6...Nxe5  is an important alternative. } 7. b4 Nxe5
+{ Black's main alternative here is  7...a5.  Instead,   7...Bxb1?!  8.Rxb1  Nxe5  9.Nd4  is similar to the line   7...Nxe5  8.Nd4  Bxb1?!  9.Bb5+  - White has great control over the light squares. }
+8. Nd4 Bg6
+{ Here Black has three moves - the text,   8...Bxb1?!  ,   and  8...Ne7  which is in my view the strongest. }
+9. Bb5+
+{ Now that Black's light-squared bishop is outside the pawn chain, the a4-e8 diagonal has become more vulnerable. }
+9... Nd7 10. O-O Nf6 11. f4
+{ Another disadvantage of having the bishop on g6 - it can be harassed by f4-f5. }
+11... Be7 12. f5 exf5 13. Nxf5
+{ White will win the bishop pair and achieves a good position after playing normal moves  (Be3 followed by Nd2-f3)  . He can play for a kingside attack, play against the d5-pawn, or try to utilize his pawn mass on the queenside. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Botvinnik-Carls Gambit: 3. e5 c5 4. Ne2!?"]
+[Black "95. The Botvinnik-Carls Gambit: 4... Nc6, 5... Bf5 and 8... Bxb1"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. Ne2 Nc6 5. c3 Bf5 6. dxc5 e6 7. b4 Nxe5 8. Nd4
+Bxb1 9. Bb5+
+{ An important in-between move that forces the e5-knight back to the sub-optimal d7-square. }
+9... Nd7 10. Rxb1
+{ With Black's light-squared bishop gone, White has uncontested control over the a4-e8 diagonal. The c5-pawn hampers Black's development and Black must continually deal with the consequences of a possible c5-c6 push. }
+10... Nf6 11. O-O Be7
+{ In case of   11...g6 ?!  12.Bg5 !  Bg7  13.Qf3  - White will play Bxd7 next after which Black is forced to retake with his king, otherwise he loses a piece on f6. }
+12. c4
+{ There are various ways to proceed, but this seems the most promising to me. White immediately starts chipping away at the black center. }
+12... a6
+{ 12...O-O  is answered by  13.c6!  bxc6  14.Nxc6  Qe8  15.Ne5  and Black has significant problems to solve. }
+13. Ba4 dxc4 14. c6 bxc6 15. Bf4
+{ Before retaking on c6 White first takes away the c7-square from the black queen. }
+15... Nd5
+{ Black has a lot of possible moves but none of them seem any good:   15...Qc8  16.Nxc6  Nd5  17.Ne5  probably transposes to the main line.   15...e5?!  16.Nxc6  Qc7  17.Nxe5  and White wins.   15...Rc8  16.Nxc6  Qb6  17.Ne5  and White should win.   15...Qb6  16.Nxc6  Nd5  17.Ne5  and White wins again.   15...Nb6  16.Bxc6+  and White wins the exchange. }
+16. Nxc6 Qc8 17. Ne5 O-O 18. Bxd7 Qc7
+{ Because the f4-bishop is hanging Black will regain some material. } 19. Bg3
+Bd6 20. Nxf7 Bxg3 21. Bxe6 Bxh2+ 22. Kh1 Nf4 23. Ng5+ Nxe6 24. Nxe6
+{ After the dust of all the tactics has settled, White is again winning an exchange. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Botvinnik-Carls Gambit: 3. e5 c5 4. Ne2!?"]
+[Black "96. The Botvinnik-Carls Gambit: 4... Nc6, 5... Bf5 and 8... Ne7"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. Ne2 Nc6 5. c3 Bf5 6. dxc5 e6 7. b4 Nxe5 8. Nd4
+Ne7 { This seems the most solid of Black's options. } 9. Bb5+ N5c6 10. O-O
+{ We now follow a simple plan: Play Nd2, pile up on the e-file and try to make use of the f5-bishop's precarious position. The e7-knight keeps Black's position together, but at the same time it blocks him from finishing development. If the e7-knight moves, White should take the f5-bishop to open the e-file. If Black plays ...a6, again White should take on c6 and continue his plan. }
+10... Qd7 11. Nd2 a6 12. Bxc6 bxc6 13. Re1
+{ Now it is not clear how Black should continue. } 13... h5
+{ This is the computer's suggestion, preventing any g4 ideas from White. } 14.
+Qe2 g6 15. N2f3 { White will soon dominate the dark squares. } 15... Bg7 16.
+Ne5 Qb7 17. Bg5 f6 { The only move, but it fails tactically. } 18. Nxe6
+{ 18.Nxg6  is also a strong idea. } 18... Bxe6 19. Nxg6 Nxg6 20. Qxe6+ Kf8 21.
+Bxf6 { White is close to winning. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Botvinnik-Carls Gambit: 3. e5 c5 4. Ne2!?"]
+[Black "97. The Botvinnik-Carls Gambit: 4... Nc6, 5... Bf5 and 7... a5"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. Ne2 Nc6 5. c3 Bf5 6. dxc5 e6 7. b4 a5 8. Nd4 axb4
+9. cxb4
+{ In similar positions in the mainline of the Botvinnik-Carls gambit with 4. dxc5, Black is often able to favorably break up the queenside with a well-timed ...b6. However, in this position his c8-bishop is already outside the pawn chain, which means that ...b6 isn't really possible because the light squares on his queenside are simply too weak. }
+9... Qc7 { Note  9...Nxb4?  10.Bb5+  Ke7  11.Qb3  and White wins. } 10. Bb5
+{ White returns his extra pawn, accelerating his development. } 10... Qxe5+ 11.
+Be3 Bxb1
+{ If Black retreats his queen to c7, White can simply take on f5 and on d5. }
+12. Rxb1 Qc7 13. O-O Be7 14. Bxc6+ bxc6 15. b5
+{ In Short - Gulko  (1992)  White had a strong initiative. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Botvinnik-Carls Gambit: 3. e5 c5 4. Ne2!?"]
+[Black "98. The Botvinnik-Carls Gambit: 4... Nc6, 5... Bf5 and 6... Nxe5"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. Ne2 Nc6 5. c3 Bf5 6. dxc5 Nxe5
+{ Instead of first playing ...e6 Black can also directly take this pawn. It delays his development but allows more flexibility with his light-squared bishop. }
+7. Nd4 Bd7
+{ 7...Bg6?  not only weakens the a4-e8 diagonal , but also allows  8.f4!  Nd7  9.f5  and Black can hardly avoid losing a piece. }
+8. b4
+{ Many games here continue 8. Qh5, which intends to grab the d5-pawn, but Black obtains good compensation so I do not like it. }
+8... Nc6
+{ This seems more challenging than the few moves that have been played so far, 8... g6 and 8... e6. Then White can just play Be2, O-O, Be3, Nd2 and eventually f4-f5. }
+9. Bd3 e5 { Ambitious, maybe too ambitious? } 10. Qe2 Nge7 11. Nxc6 Nxc6 12. b5
+Na5
+{ Not  12...Nb8 ?  13.Qxe5+  Qe7  14.Qe3 !  ± - Black doesn't have the resource  ...Rc8  here as he does in the main variation. }
+13. Qxe5+ Qe7 14. Qxe7+ Bxe7 15. Be3 Rc8
+{ 15...Nc4 !?  16.Bxc4  dxc4  17.a4 !?  Rc8  18.Nd2  Bxc5  19.Bxc5  Rxc5  and now the curious move  20.O-O-O !  seems to promise White some advantage - he intends  Ne4  with an initiative. }
+16. Nd2 Bxc5
+{ This seems by force to lead to an endgame that is preferable for White. Perhaps  16...O-O  is better -  17.Nb3  Nc4 !  18.Bxc4  dxc4  19.Na5  is very unclear to me. }
+17. Bxc5 Rxc5 18. Nb3 Rxc3 { Or  18...Nxb3  19.axb3  Rxc3 } 19. Kd2 Nxb3+
+{ 19...Rxb3  20.Rae1+ !  A nice in-between move.  Kd8  21.axb3  Nxb3+  += } 20.
+axb3 Rxb3 21. Rxa7 Ke7 { White was threatening Ra8+. } 22. Rxb7 Kd6 23. Ra1
+{ Intending Ra6+ and/or Raa7. } 23... Rb2+ 24. Ke3 Re8+ 25. Kd4 Rxf2 26. Ra6+
+Ke7 27. Raa7 Rd8 28. Ke3 Rf6
+{ The only move - otherwise White plays Bf5 winning a piece. } 29. Ra6
+{ Black has a hard time in this endgame, his pieces are all tied up and White's b-pawn is particularly dangerous. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Botvinnik-Carls Gambit: 3. e5 c5 4. Ne2!?"]
+[Black "99. The Botvinnik-Carls Gambit: 4... Nc6 and 5... cxd4"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. Ne2 Nc6 5. c3 cxd4
+{ Not at all a bad move, though it makes White's play fairly simple. } 6. cxd4
+Bf5 7. Nbc3 e6 8. Ng3
+{ In similar positions with the white knight on f3 Black's task is considerably easier, since he can always play ...Bg4 to exchange on f3 and keep a super solid position. He has no weaknesses and can pile up on the d4-pawn, while White's bishop pair won't matter in a position like this. Nor can White as easily advance his pawns on the kingside. }
+8... Bg6 9. Be3 { A useful prophylactic move guarding the d4-pawn. } 9... Nge7
+{ Now Black would like to play Nc8-b6, Be7, O-O and Rc8 and play on the queenside. }
+10. h4 { Probing for weaknesses. } 10... h6
+{ 10...h5  is actually the more common reply to  h4  in the Advance variation , but here it doesn't gel well with the slow plan of Nc8-b6 and so on. }
+11. h5 Bh7 12. Bd3 Bxd3 13. Qxd3
+{ This is Vachier-Lagrave - Jerez Perez  (2012)  . White can castle short and prepare an attack with f4-f5, which he eventually executed successfully. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Botvinnik-Carls Gambit: 3. e5 c5 4. Ne2!?"]
+[Black "100. The Botvinnik-Carls Gambit: 4... Nc6 and 5... Bg4!?"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. Ne2 Nc6 5. c3 Bg4
+{ This move is surprisingly hard to meet.   My first inclination was to play  6.f3  , but after  6...Bf5  we have similar positions as in the  5...Bf5  line except White has weakened the e1-h4 diagonal , which is crucial in some lines  (Black will play ...a5, ...axb4 and ...Qh4+ picking up the b4-pawn)  (.)   6.dxc5  is also not as attractive , because after  6...Nxe5  White cannot continue with  7.Nd4  because his knight is pinned. }
+6. h3
+{ This is not very ambitious, but it won't lead you into trouble either. } 6...
+Bxe2
+{ If  6...Bf5  then we have the same position as after  5...Bf5  except with  h3  inserted , which is 95% of the time quite useful for White. }
+7. Bxe2 e6
+{ Now the position is pretty dry - the bishop pair means little with this closed pawn structure, and Black has no real weaknesses to attack  (yet)  . }
+8. O-O Qb6
+{ Black can also exchange on d4, but that allows White to develop his pieces more harmoniously - knight to c3, bishop to e3 and d3, queen to d2, and so on. }
+9. dxc5 Bxc5 10. b4 Be7 11. Be3 Qc7 12. f4 Nh6 13. Nd2
+{ Vachier-Lagrave - Anand , 2017 continued with  13.Na3. } 13... Nf5 14. Bf2
+O-O 15. Nf3 { White is threatening g4. } 15... h5 16. Bd3 g6 17. Bxf5 gxf5 18.
+Ne1
+{ Black cannot really defend the h-pawn, but is it good for White to open lines in front of his king? You decide. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Botvinnik-Carls Gambit: 3. e5 c5 4. Ne2!?"]
+[Black "101. The Botvinnik-Carls Gambit: 4... cxd4"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. Ne2 cxd4
+{ This is Houska's recommendation , with the idea to transpose to more common lines after  4...cxd4  5.Nxd4  Nc6  6.c4  e6.  However, we do not have to play 6. c4. }
+5. Nxd4 Nc6 6. Nc3
+{ This seems to me a promising alternative to 6. c4, which would transpose to more common variations. White develops  a piece and puts some pressure on d5. }
+6... Bd7 { Black has alternatives here in 6... Nxe5 and 6... e6. } 7. Bg5
+{ In the spirit of the Caveman! Black would like to play ...e6 and finish his development, but this moves stops him in his tracks. }
+7... Nxe5 8. Ndb5 { Threatening not just Nxd5 but also Nd6+! } 8... Nf6 9. Nxd5
+Rc8 10. Qe2
+{ White has a dangerous initiative. The e5-knight cannot move because of  10...Nc6  11.Nd6#. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Botvinnik-Carls Gambit: 3. e5 c5 4. Ne2!?"]
+[Black "102. The Botvinnik-Carls Gambit: 4... cxd4 and 6... Nxe5"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. Ne2 cxd4 5. Nxd4 Nc6 6. Nc3 Nxe5
+{ This pawn grab is of course a possibility we must consider, but with correct play White gets a very strong position. }
+7. Ndb5 { Starting with concrete threats against d5. } 7... e6
+{ 7...a6  8.Qxd5  is very good for White.   7...Bf5   7...Bg4  8.f3  Bf5  is similar  8.Nxd5  Rc8  9.Bf4!  leaves Black under heavy pressure. }
+8. Bf4 { Now the e5-knight is pinned to White's threat of Nc7+. } 8... Bd6
+{ 8...f6  allows  9.Bxe5  fxe5  10.Qh5+  Ke7  11.Qxe5  when White has a dominant position as well as the threat of  Nc7. }
+9. Qd4 { 9.Nxd6+  would transpose. } 9... f6 10. Nxd6+ Qxd6 11. Nb5 Qb8
+{ The only move that doesn't lose directly. } 12. Bxe5 fxe5
+{ 12...Qxe5+?  13.Qxe5  fxe5  14.Nc7+. } 13. Qc5
+{ Threatening both Nc7+ and Nd6+. } 13... Kf7 14. Nc7
+{ White is grabbing an exchange just because he can. He can also play  14.Nd6+!?  with a strong initiative. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Botvinnik-Carls Gambit: 3. e5 c5 4. Ne2!?"]
+[Black "103. The Botvinnik-Carls Gambit: 4... cxd4 and 6... e6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. Ne2 cxd4 5. Nxd4 Nc6 6. Nc3 e6
+{ 6...a6  7.f4  should be similar. } 7. f4
+{ Now the line resembles a classical/Steinitz French defense 1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5. The main differences are that 1  here it is Black to move, and 2  Black's g8-knight is on d7 in that variation. These factors should even out as Black will have to spend one or more moves to deploy the g8-knight, but it makes play a bit different. Black can contain the kingside better by putting the knight on e7 or even h6, but at the same time he has less control over the squares on the queenside. }
+7... Qb6 8. Be3 Bd7
+{ In the similar line in the French , Black often plays  ...Bc5  but this isn't so good here:  8...Bc5  9.Bb5!  Bd7  10.Na4!  Qa5+  11.Bd2  Bb4  12.c3  Be7  and now White has a pleasant choice between the aggressive  13.f5  , exploiting Black's lack of kingside development   and  13.b4  , increasing control over the queenside.   Note that  8...Qxb2?  isn't possible because of  9.Ncb5!  Kd8  10.a3!  and Black's queen will be trapped with either 11. Rb1 or 11. Nxc6+ bxc6 12. Bd4. }
+9. Qd2 Nxd4
+{ White was threatening Nxe6.   9...Bc5?  10.Na4!  doesn't work out for Black. }
+10. Bxd4 Bc5 11. Bxc5 Qxc5 12. Bd3
+{ Or  12.Qf2  +=.  White has a slight advantage. He can still decide whether to castle queenside or to go for a pleasant endgame  (since he will control the d4-square)  with Qf2, offering the exchange of queens. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The Botvinnik-Carls Gambit: 3. e5 c5 4. Ne2!?"]
+[Black "104. The Botvinnik-Carls Gambit: 4... e6"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. Ne2 e6
+{ This rare move basically transposes to an Advance French Defense - 1. e4 e6 2. d4 d5 3. e5 - except White has a move extra - though that move was used for Ng1-e2, perhaps not the most ideal move. }
+5. c3 Nc6 6. g3
+{ White should adapt to the situation. In the French Advance this idea  (g3 and then Bh3)  is quite common, but with the knight already on e2 blocking any other development of the f1-bishop White doesn't have much choice anyway!  It should be said that in general when the center is closed like it is here, it is less important to know concrete lines and more important to know ideas. White will want to control the kingside as much as possible and eventually organize an attack over the f-file. Black's focus is the queenside, and eventually coming through on the c-, b- or even a-file. }
+6... Qb6 7. Bh3 Bd7 8. O-O a5 9. a4 Nh6 10. Bxh6 gxh6 11. Na3 O-O-O 12. Nb5
+{ This is the game Shirov - Ghaem Maghami  (2017)  , in which White eventually scored a nice win. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Model Games"]
+[Black "Supi, Luis Paulo vs. Van Riemsdijk, Dirk Dagobert"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 Qxb2 8. e6
+Qxa1 9. Qb3 Qxd4 10. Qxb7 Qe5+ 11. Be3
+{ One should remember that in this variation the bishop belongs on e3, in order to go to a7 to attack the b8-knight. }
+11... fxe6
+{ White was threatening  Qc8+.  For example:  11...Qd6?  12.Qc8+  Qd8  13.exf7+  and White wins the queen. }
+12. Qxa8
+{ Better is  12.Nf3!  first, because then Black's queen can't go to c7.  Qd6  13.Qxa8  Nf6  14.Bxa7  Nfd7  15.Qb7!  and Black can't untangle his knights. Moreover , White is threatening  Qc8+  followed by  Ng5+. }
+12... Nf6 13. Nf3 Qc7 14. Bxa7 { 14.O-O  Nfd7  15.Bxa7  is the same. } 14...
+Nd7 15. O-O e5
+{ 15...c5!  would have put up more resistance. Black is threatening to untangle with ...Qc6. He is still in a difficult spot, but not yet lost. This is by the way why earlier on, 12. Nf3 was preferable over 12. Qxa8. }
+16. Nbd2
+{ White's plan is simple - put the rook on the b-file, play a knight to g5 and watch Black's position crumble. }
+16... e6 17. Rb1
+{ 17.Ng5  first is better - the e6-pawn cannot really be covered. } 17... Bd6
+18. Bxb8 Nxb8
+{ Black's final chance was  18...Qc8!  pinning the b8-bishop  19.Ng5  Bxb8  20.Nxe6  Kf7  and he seems to be holding on. }
+19. Ng5 O-O { 19...Qc8  20.Rb7!  is decisive. } 20. Nxe6 Qf7 21. Nxf8
+{ White is up an exchange and can continue with Nf3-g5 or c4 while Black lacks counterplay. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Model Games"]
+[Black "Beckemeier, Werner vs. Johann, Stefan"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 Qxb2 8. e6
+fxe6 9. Nf3
+{ Since Black is waiting with capturing on a1, White simply develops  (and already protects the d4-pawn so that after Qxa1 Qb3 Black's queen will be trapped)  , intending to castle short next. }
+9... Nd7 10. O-O Qxa1
+{ Black finally relents, but his waiting moves haven't really helped. } 11. Qb3
+{ White will follow up with Nbd2 when the 'rook sacrifice' is really more an exchange of Black's queen for two rooks and two pawns. }
+11... b5 12. Nbd2
+{ 12.Nc3  is superficially a mistake, since on c3 the knight has no good squares to go to and it blocks White's queen from going to e3, but White can follow up powerfully with Ne2-f4. }
+12... Qxf1+ 13. Kxf1
+{ Materially Black is well ahead, but his position is riddled with weaknesses and nearly impossible to salvage. Meanwhile White simply has to put his pieces in the right position and he can reap the benefits of 8. e6! }
+13... Nh6 14. Qe3
+{ Also strong is  14.Qc3!?  Rc8  15.Qe3  e5  16.dxe5  when the queen is eyeing the a7-pawn. }
+14... e5 15. Nxe5
+{ 15.dxe5  is also good , but after the text White exchanges an important defender  (and arguably Black's only active piece)  (.) }
+15... Nxe5 16. Qxe5 Kd7 { This  (temporarily)  prevents Qc7 and Qe6. } 17. Nf3
+{ Stronger was  17.Nb3  intending Nc5+ with a winning attack. } 17... Ng4 18.
+Qf5+ Kc7 19. Bf4+ Kb6 20. Qe6 Rd8 21. Nd2
+{ Also strong seems  21.Ne1!  followed by Nd3 and Nc5. } 21... g6 22. Nb3 Bh6
+23. Bxh6 Nxh6 24. Qxe7 Nf5
+{ Finally Black has more or less completed his development, but it is just too late! White now starts a decisive attack on Black's king. }
+25. Qc5+ Kb7 26. Na5+ Ka6 27. Nxc6 Rd7 28. Nb4+ Kb7
+{ 28...Ka5  29.Nxd5  and Black has nothing better than  29...Rxd5  30.Qxd5  when the endgame should be an easy win for White. }
+29. Qc6+ { Black resigned because of  29...Kb8  30.Na6#. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Model Games"]
+[Black "Charochkina, Daria vs. Arabidze, Meri"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxb2 7. Bxf5 Qxa1 8. e6
+{ This move is of paramount importance - it weakens the light squares on Black's kingside  (e6, f7, g6)  and prevents Black from smoothly developing. }
+8... fxe6 { One of various possible answers. } 9. Bg6+
+{ 9.Bxe6!?  is also interesting , for example:  9...Na6  10.Nf3  Nc7  11.Bh3!  Nf6  12.O-O  with good compensation for the sacrificed material. }
+9... Kd8 10. Nf3 Nd7 11. Bf4
+{ White wants to stop the freeing advance  ...e5  , but this merely encourages it. In the theory section I recommend  11.O-O  , after which  11...e5  can be answered with either  12.c4   or  12.Qd2  (with ideas of trapping Black's queen.) }
+11... e5 12. dxe5 e6
+{ Now Black can in theory bring out the f8-bishop and g8-knight via e7, though in practice she still has a lot of problems to solve. }
+13. O-O Be7 { This does not make much sense.  13...Ne7  is a better try. } 14.
+Bf7 { White is right to focus on e6 as the main weakness in Black's camp. }
+14... Nf8
+{ This was probably the idea behind 13... Be7, but Black is mistaken if she thinks she can defend the e6-pawn adequately. She should instead be looking for a way to give up the pawn in a favorable manner. }
+15. Nd4 Kd7 16. Qd3
+{ Threatening not just 17. Qh3 but also 17. Nc3 Qb2 18. Rb1. } 16... Qxa2 17.
+Qh3 { Also strong is  17.Bxe6+  Nxe6  18.Qh3  with a strong initiative. } 17...
+Qc4 18. Nxe6 Nxe6 19. Qxe6+ Kd8 20. g3
+{ This quiet move, simply defending the f4-bishop, shows the basic problem with Black's position in the Caveman gambit. None of her pieces are participating and she has no good way to defend herself, even though she is  (still)  ahead a pawn and an exchange! }
+20... Nh6 { 20...Rh6!?  was a better try. } 21. Bxh5
+{ 21.Nd2!  wins. Black's queen has to stay on the a3-f8 diagonal protecting the e7-bishop, because otherwise White plays the winning Bg5.  Qc5   21...Qb4  22.Rb1  Qc5  23.Rxb7  22.Nb3  Qb4  23.Bxh5. }
+21... Rc8
+{ Perhaps  21...Qxc2  intending 22  ...Qf5  would give Black drawing chances. }
+22. Nd2 { Now White spots the winning idea. } 22... Qc5 23. Nb3 Qb6 24. Qg6
+{ Or  24.Bg5!  with the decisive threat of Qd6#. } 24... Rf8 25. Bd2
+{ Again ,  25.Bg5! } 25... Qa6 26. Bg5
+{ Again, White spots the winning idea a move later. } 26... Nf5 27. Bxe7+ Kxe7
+{ 27...Nxe7  28.Qd6#. } 28. Qg5+
+{ White wins Black's queen after  28...Kd7  29.Nc5+. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Model Games"]
+[Black "Hinrichs, Lars vs. Powierski, Emil"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxd4
+{ This move is more dangerous than 6... Qxb2 or 6... Bxd3 7. Qxd3 Qxb2. } 7.
+Nf3 Qxb2 8. Bxf5 Qxa1 9. e6
+{ As usual, this move is critical - it makes the development of Black's kingside difficult and highlights the weak light squares. }
+9... fxe6 10. Bg6+
+{ In the theory section I recommend   10.Bxe6.  With White not having a pawn on d4 it can be hard to get through Black's pawn mass in the center. }
+10... Kd8 11. Nd4 Kc8 12. O-O e5
+{ This weakens Black's pawn center as well as give White possibilities on the c8-h3 diagonal. Black should just develop with ...Nd7 and ...Ngf6 when White still has to prove his compensation. }
+13. Bf5+ { White immediately pounces on the opportunity. } 13... Nd7
+{ This knight is in an unfortunate pin , but  13...Kc7?  14.Ne6+  would simply drop the f8-bishop. }
+14. Nb3 Qxa2 15. c4 { Thus Black's pawn center is torn apart. } 15... e6
+{ After  15...d4  the piece sac  16.Nxd4!  is crude but effective.  16...Ngf6  17.Nb5!  (threatening Bxf6)  Rh7  18.Qd3!  and White has a winning attack. }
+16. Bxe6 Bd6
+{ After this move Black is clearly lost. But after  16...Ngf6  17.cxd5  Qa6  18.Bxf6  gxf6  19.Qf3!  he is also under heavy pressure  (with dxc6 and Qxf6 to follow)  . }
+17. cxd5 c5
+{ Keeping the c-file temporarily closed, but the light squares are becoming increasingly weak. }
+18. Nc3 Qa3 19. Qc2
+{ 19.Nb5  Qa6  20.Qd3!  Ngf6  21.Bxf6  Is also winning. After  gxf6  22.Bxd7+  Kxd7  23.Qf5+  White's queen will enter on either e6 or f6 with check. }
+19... Nf6 20. Bxf6 gxf6 21. Nb5 Qa6 22. Nxc5 { Or  22.Nxd6+  Qxd6  23.Nxc5! }
+22... Qxb5 23. Bxd7+ Qxd7 24. Nxd7+ Kxd7 25. Qf5+
+{ White's queen enters on e6 while the rook will join the attack decisively via c1. Therefore, Black resigned. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Model Games"]
+[Black "Barbosa, Evandro Amorim vs. Molina, Roberto Junio Brito"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxd4 7. Nf3 Qg4
+{ Black is content with an extra pawn. } 8. Bxf5
+{ This is preferable to 8. O-O as on g4 Black's queen has a lot of options on the 4th rank. }
+8... Qxf5 9. O-O { My recommendation is to play 9. c4 immediately. } 9... Qd7
+{ An interesting decision. Retreating the queen behind his own pawns means Black has more defensive resources, but it also means his position becomes more passive and cramped. }
+10. c4 e6 11. Nc3 Ne7 12. Qe2 { Vacating the d1-square for a rook. } 12... Nf5
+13. Rfd1 Bb4
+{ 13...d4!?  14.Ne4  c5  seems a good try for Black , but perhaps he was afraid of  15.b4!  when white has good compensation for the pawn. }
+14. Rac1 { 14.Ne4!?  was an interesting alternative. } 14... Na6
+{ It is difficult for Black to consider castling kingside , since his pawn structure there is already compromised. Take for example the line  14...O-O  15.Nd4  Nxd4  16.Rxd4  c5  17.Rd3  d4?  18.Bf6!  and White has a winning attack. }
+15. Ne4 Be7
+{ Again  15...O-O  16.Nf6+!  gxf6  17.Bxf6  is a promising piece sacrifice. White can continue with Ng5, Rc3 and/or Rd3 - the attack plays itself. }
+16. cxd5 exd5
+{ Black's first notable inaccuracy.  16...cxd5  is solid , although White retains decent compensation after  17.Nd4  Nxd4  18.Rxd4. }
+17. Nf6+
+{ Black must have underestimated this move. The e-file is now opened up favorably for White. }
+17... gxf6 18. exf6 Qe6 19. Qf1
+{ Stronger is  19.Qc2!  which prevents Black's next move. } 19... Nc5
+{ This throws a spanner in the works on e4. } 20. fxe7 Ne4 21. Nd4 Nxd4 22.
+Rxd4
+{ Material is now equal. White is somewhat better as Black's king is unsafe and the e7-pawn is a threat, while Black has no good way  (yet)  to get rid of it. }
+22... Qe5
+{ Still ,  22...Nxg5  23.hxg5  Qd6!  seems fairly solid for Black. He can use the e7-pawn as a shield for his own king and try to activate his own rooks next. }
+23. Rb4
+{ 23.Rxd5!!  Qxd5   23...cxd5??  24.Qb5#  24.Rd1!  and White wins Black's queen for two rooks due to the threat on  d8.  Play might continue  24...Nxg5  25.Rxd5  Nf3+  26.gxf3  cxd5  27.Qb5+  and White's queen is far superior to the two rooks here. }
+23... f6
+{ 23...Rb8?  24.f4!  Qd6  25.Rxe4!  dxe4  26.Rd1  isn't possible for Black.   However , again  23...Nxg5!  24.hxg5  Rb8  and Black has a difficult but sturdy position. After the text Black falls victim to a series of tactics. }
+24. Rxb7 Nd6
+{ It turns out that after  24...fxg5  25.Rxc6!  White has a decisive attack, the threats are Qb5 and Qa6. In fact the computer already announces mate in 15! }
+25. Re1
+{ This works , but why not  25.Rxc6!  Nxb7   25...fxg5  26.Rxd6!  followed by Qb5+.  26.Bxf6!  For the next 8 moves or so White retains a winning position but often misses an easier/faster win. }
+25... Qf5 26. Rc7 fxg5 27. Rxc6
+{ 27.Qa6!  was more accurate here, when Black cannot really prevent Qxc6+. }
+27... Nc4 28. b3 Nb6 29. hxg5 Qxg5 30. Rc7
+{ 30.Qb5!  Kf7  31.Rc3  with a decisive attack. } 30... d4 31. f4 Qd5 32. Re5
+Qd6 33. Qb5+ Nd7 34. Qb7
+{ White has finally decisively penetrated Black's defensive lines. } 34... Nb6
+{ This leads to a nice finish. } 35. Qxa8+ Nxa8 36. Rc8+ Kf7 37. Rxh8 Nc7 38.
+Rf8+
+{ Without this move White wouldn't be winning. The king has to be chased away from the e8-square! }
+38... Kg7 39. Rc8 { Black has no way to prevent the e7-pawn from promoting. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Model Games"]
+[Black "Katz, Alexander R vs. Koons, Nat"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Qxd4 7. Nf3 Qg4 8. O-O
+e6 9. Bxf5 Qxf5 10. c4
+{ We've reached our preferred setup via an alternative move order. } 10... Ne7
+11. cxd5
+{ This is a bit early. Now if  11...cxd5  Black can develop his b8-knight to c6.   11.Qb3!  b6  12.Nc3  Nd7  13.cxd5   13.Rad1  is a viable option too  Nc5  14.Qa3!  exd5  15.b4  Ne6  16.Qa4!?  and White can develop strong pressure on the c- and d-files. }
+11... Nxd5
+{ This is also an option, but it does decrease Black's control over the c4- and e4-squares as well as introduce tactical ideas on the open d-file. In return, Black's kingside development becomes a lot easier. }
+12. Nc3 Bc5 { 12...Nxc3??  13.Qd8#  - an example of d-file tactics. } 13. Qb3
+b6 14. Nxd5 { 14.Rfe1  O-O  15.Qa4  makes Black's life more difficult. } 14...
+exd5
+{ 14...cxd5?  15.Qa4+  Nd7  16.b4!  Be7  17.Nd4!  and White has a dangerous initiative. }
+15. Qc3 a5 { White was threatening b4, trapping the c5-bishop. } 16. a3 a4
+{ Now White is out of threats. } 17. Nd4 Qg4 18. Rad1 O-O
+{ White has no compensation for the pawn. } 19. Rfe1 Ra7 20. Rd3 Bxd4 21. Rxd4
+Qe6 22. Rd3 Nd7 23. Rg3 Re8 { White has no real threats on the kingside. } 24.
+Rge3 c5
+{ Black has developed and defended adequately, and now that White is out of activity Black can finally put his queenside pawn majority in motion. }
+25. Qc2 d4 26. Re4 Qf5 27. Qe2 Rxe5
+{ This leads to a favorable endgame for Black , but he could have played more patiently with  27...Re6! }
+28. Rxe5 Nxe5 29. Qxe5 Qxe5 30. Rxe5 f6
+{ This is Black's point - he regains the piece. } 31. Re6
+{ 31.Bxf6!  gxf6  32.Re6  was definitely a better try , though Black is still by all means a pawn up. }
+31... fxg5 32. hxg5 b5 33. Kf1 Kf7 34. Rc6 c4 35. g6+ Ke7 36. Rc5
+{ White cannot afford to be distracted by the h5-pawn.  36.Ke2  Rd7  37.g3  Rd5  38.Kd2  and the game is not yet decided. }
+36... Rb7 37. Rxh5 b4 { Black is breaking through. The rest is easy. } 38. Rh4
+c3 39. Re4+ Kf6 40. bxc3 b3 41. Rf4+ Kxg6 42. Rg4+ Kf5 43. Rxd4 b2
+{ This pawn will promote as soon as White runs out of checks. } 44. g4+ Kg6 45.
+Rd6+ Kf7 46. Rd7+ Rxd7 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Model Games"]
+[Black "Nepomniachtchi, Ian vs. Miton, Kamil"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bg5 Qb6 6. Bd3 Bxd3 7. Qxd3 e6 8. Nd2
+Ne7 9. Ngf3 Qa6 10. c4
+{ Allowing the exchange of queens would go against the nature of the opening, but also the nature of the position. With both queens and the light-squared bishops gone, Black would have excellent control over important squares like e4 and f5. }
+10... Nf5 11. O-O Bb4 12. b3
+{ Since Black is not threatening ...Bxd2 or ...Qxc4, this move is perhaps unnecessary. But it can be a useful option to be able to retake with a pawn should Black play ...dxc4. }
+12... Nd7 13. Rfc1
+{ White pre-emptively puts his rook on the c-file, as this file is the most likely to be opened  (after cxd5 cxd5)  . At the same time he makes space for the d2-knight to be rerouted via f1, as this knight is not doing much at the moment. }
+13... O-O 14. Nf1 Rfe8
+{ 14...c5  is more active , though perhaps Black did not like the complications that arise after  15.a3  Ba5  16.b4!   Barring that ,  14...Ba3!  15.Rc2  c5!  seems to give Black good chances. This game shows that without the  ...c5  advance , Black's position is too passive in this variation. }
+15. Ne3
+{ White intends to exchange the f5-knight after which Black's king does not have a lot of defenders around himself. }
+15... g6 16. Qc2 { Calmly unpinning the c4-pawn. } 16... Ba3 17. Rd1 Rac8 18.
+Nxf5 exf5 19. Bh6 Nf8
+{ This is too passive. Stronger is  19...dxc4  20.bxc4  Nb6!  21.c5  Nd5  and Black has a decent position, despite the odd-looking position of his bishop on a3. }
+20. c5 Ne6 21. Rdb1 { Preparing a queenside advance. } 21... Bb4 22. a3 Ba5 23.
+b4 Bd8
+{ Evacuated just in time! However, White now has a strong initiative on both sides of the board. }
+24. a4 b6 25. Qd2 Qb7 26. Bg5 Be7 27. Bf6
+{ This is committal , but in the end it turns out well.  27.cxb6!  axb6  28.a5!  and White keeps all his trump cards. }
+27... Rb8
+{ This loses immediately.   27...Bxf6!  28.exf6  Qc7!  was necessary , when  29.cxb6  axb6  30.a5  Qd8  31.a6  Qxf6  sees White obtain good compensation for the pawn. }
+28. Qh6
+{ After  28...Bxf6  29.exf6  Black is too late to prevent Ng5 with a decisive attack. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Model Games"]
+[Black "Balogh, Csaba vs. Tari, Aryan"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bd3 Bxd3 6. Qxd3 e6 7. Bg5 Qb6 8. Nd2
+c5 9. c4 Nc6 { 9...Qxb2  is the most dangerous option here. } 10. Ngf3 cxd4 11.
+O-O
+{ My recommendation is to take  11.cxd5  Nb4   11...exd5  12.O-O  and Black has to reckon with both e6! and Nb3xd4  12.Qb3  Nxd5  13.Qa4+  Qc6  14.Qxc6+  bxc6  15.Nxd4  and White has a better endgame. }
+11... Nge7 { Now Black can retake with the e7-knight should White play cxd5. }
+12. a3 { White intends to grab space with b4. } 12... Qxb2
+{ 12...a5!  seems equal. } 13. Rfc1
+{ Threatening to trap the queen with Rab1 Qa2 Rc2. } 13... Qb6 14. Rab1
+{ 14.cxd5!  Nxd5   14...exd5?!  15.Nb3  and Black cannot really move the e7-knight because of the reply e6!  15.Rab1  Qc7  16.Nxd4  and White has excellent compensation for the pawn. }
+14... Qa6 { Now the c4-pawn is pinned, which hampers White's initiative. } 15.
+Qb3 Rb8 16. Bxe7
+{ This is the only way to make something of the central tension, since otherwise Black simply recaptures on d5 with the e7-knight. However, now Black will be able to castle after which his development problems are over. }
+16... Bxe7 17. cxd5 exd5 18. Qxd5 O-O
+{ The position is about equal here - White has compensation for his pawn, but not more than that. }
+19. e6 { This seems the only way to make the position more interesting. } 19...
+f5
+{ 19...fxe6?  20.Qxe6+  Kh8   20...Rf7  21.Rxc6!  Qxc6  22.Qxc6  bxc6  23.Rxb8+  21.Rxc6  Qxc6  22.Qxe7  obviously isn't what Black wants.   19...Qxa3?  20.Rxc6!  Rbd8!   20...bxc6?  21.exf7+  Rxf7  22.Rxb8+  and White wins  21.exf7+  Rxf7  22.Qe6  bxc6  23.Ne5  Rf8  24.Nxf7  Rxf7  25.Ne4!  and White is winning. }
+20. Qd7 Qxa3 21. Nc4
+{ Black is two pawns up, but White has good compensation in the form of Black's weakened kingside and the passed e6-pawn. }
+21... Qc5 22. Nb6 Qa3
+{ Black shows that he would be fine with a draw by repetition. } 23. Nd5
+{ White however wants more! } 23... Rbd8 24. Qxb7 Rxd5 25. Rxc6
+{ White is better. He has regained one of his sacrificed pawns without losing any of his positional advantages. }
+25... Rdd8 26. Rc7
+{ 26.Ne5  a5  27.Nd7  Re8  28.Qb5!  , targeting the f5-pawn , was a strong alternative. }
+26... Rfe8 { 26...Rb8  immediately was necessary. } 27. Ne5
+{ Threatening Nc6. } 27... Rb8
+{ Black finds the right idea, but a move too late! } 28. Qxb8 Rxb8 29. Rxb8+
+Kh7 30. Rcc8 { Threatening Rh8#. } 30... Bd8 31. g4
+{ Not  31.Rxd8?  Qc1+  32.Kh2  Qf4+  33.Kg1  when Black can choose between a repetition of moves , or trying for more with  33...Qxe5.   However , winning would have been  31.Kh2!  (A strong prophylactic move against various checks by Black's queen)  Qa5  32.Nd3!  Bxh4  33.Nf4!  and Black has no more counterplay. }
+31... d3
+{ Not just bringing the pawn one step closer to promotion, but also opening the a1-h8 diagonal for the queen. }
+32. Rxd8 Qa1+ 33. Kg2 Qxe5
+{ A very complicated endgame arises. Both sides have a passed pawn on the 6th rank, but it is hard to make progress with both kings being liable to continuous checks. }
+34. Rh8+ Kg6 35. gxh5+ Kf6 36. Rhf8+ Ke7
+{ 36...Kxe6??  37.Rbe8+  and White wins. } 37. Rfe8+ Kf6 38. Rf8+ Ke7 39. Rf7+
+Kd6 40. Rd8+ Kc5 41. Rxd3 Qe4+ 42. Rf3 Qg4+ 43. Rg3 Qe4+ 44. Kh2 Qxh4+ 45. Kg1
+Qxh5 46. Rxa7
+{ The position has simplified a little, but the verdict is still: draw. } 46...
+Qd1+ 47. Kg2 Qd5+ 48. Rf3 Qxe6 49. Rxg7
+{ Now the position has become even simpler. To be clear, only White is playing for a win here. If he finds a way to win Black's f5-pawn, or find a favorable way to trade his rooks for the queen, he might be able to win the game. }
+49... Qf6 50. Ra7 Qg6+ 51. Kf1 Kd4 52. Ra4+ Kd5 53. Rd3+ Kc5 54. Rf4 Qf6 55.
+Rdf3 Qa1+ 56. Kg2 Qg7+ 57. Rg3 Qf6 58. Rff3 Kd4 59. Rc3 f4 60. Rgd3+ Ke4 61.
+f3+ Kf5 62. Rc5+ Kg6 63. Rdc3 Qd4 64. Rc6+ Kg7 65. Rc2 Kf7 66. Rc7+ Kf6 67.
+R2c4 Qd2+ 68. Kh3 Kg5 69. R7c5+ Kg6 70. Rc6+ Kg7 71. Rc7+ Kg6 72. R4c6+ Kg5 73.
+Rc5+ Kg6 74. R7c6+ Kg7 75. Kg4 Qg2+ 76. Kxf4
+{ White has managed to win the pawn. The question now becomes: can he avoid all of the checks and at the same time get his pawn to the 8th rank? Tablebase says the position is drawn. }
+76... Qh2+ 77. Ke3 Qg1+ 78. Ke4 Qe1+ 79. Kf5 Qb1+ 80. Kf4 Qb4+ 81. Kf5 Qb1+ 82.
+Rc2 Qb5+ 83. Kg4 Qb4+ 84. R6c4 Qe1 85. Rc7+ Kg8
+{ Black must remain careful:  85...Kf6??  86.R2c6+  Ke5  87.Re7+  and White wins. }
+86. Kf5 Qb1 87. f4 Qb5+ 88. Kg4 Qd5 89. R2c5 Qg2+ 90. Kf5 Qh3+ 91. Kf6 Qh6+ 92.
+Ke5 Qh8+ 93. Kd5 Qh1+ 94. Kd4 Qa1+ 95. Rc3 Qa4+ 96. Ke3 Qe8+ 97. Kf2 Qe4 98.
+R7c4 Qd5 99. Kg3 Qd1 100. f5 Kf7 101. Rc7+ Kf6 102. R7c6+ Kg5
+{ 102...Kxf5??  103.R3c5+  Ke4  104.Re6+  Kd4  105.Rd6+  runs into the same trick as earlier. }
+103. f6 Qg4+ 104. Kf2 Qd4+ 105. Ke2 Qe4+ 106. Kd2 Qd4+ 107. Kc1 Qf4+ 108. Kc2
+Qa4+ 109. Kd3 Kg6 110. R3c4 Qd1+ 111. Kc3 Qa1+ 112. Kb4 Qb2+ 113. Ka5 Qe5+ 114.
+Ka6 Qe2 115. Kb7 Kf7 116. Rb4 Qf3 117. Rb6 Qd5 118. Ka7 Qa5+ 119. Kb8 Qe5+ 120.
+Rc7+ Kf8 121. f7 Qf4 122. Re6
+{ It seems White is close to winning! All he has to do is play Re8+ and promote the pawn. }
+122... Qb4+ 123. Rb7 Qf4+ 124. Ka8 Kg7
+{ The only non-losing move!  124...Qa4+?  125.Ra7  and Black's queen is out of checks, leaving him powerless against Re8. }
+125. Ree7 { Now after  125.Re8  Black has  125...Qa4+  126.Ra7  Qc6+! } 125...
+Qa4+ 126. Kb8 Qf4+ 127. Rbc7 Qb4+ 128. Kc8 Qa4 129. Kb8 Qb4+ 130. Rb7 Qd6+ 131.
+Rec7 Qf8+ 132. Rc8 Qd6+ 133. Ka7 Qa3+ 134. Kb6 Qb4+ 135. Kc7 Qe7+ 136. Kb8 Qd6+
+137. Rcc7 Qf8+ 138. Ka7 Qa3+ 139. Kb6 Qb3+ 140. Kc6 Qe6+ 141. Kc5 Qe5+ 142. Kb6
+Qd6+ 143. Rc6 Qb4+ 144. Kc7 Qe7+ 145. Kb8 Qf8+ 146. Ka7 Qa3+ 147. Ra6 Qc5+ 148.
+Kb8 Qf8+ 149. Ka7 Qc5+
+{ White did everything he could to win, But Black defended accurately and deserved the draw! }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Model Games"]
+[Black "Alexander Morozevich vs. Viktor Laznicka"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bd3 Bxd3 6. Qxd3 e6 7. Bg5 Qb6 8. Nd2
+c5 9. c4 Qxb2 10. Rd1 Nc6
+{ I think this is one of the most dangerous lines in the entire Caveman system. }
+11. Ngf3 Nb4 12. Qe2 cxd4
+{ In the theory section I look at  12...Nxa2  13.cxd5!  Nc3  in depth since it is quite a critical option - after all , Black is pocketing a couple of pawns plus an exchange. }
+13. O-O { 13.Rb1?!  Nc2+  does not look good for White. } 13... d3
+{ This pawn is quite an annoyance, but White can play around it for now. And it should be said that White's pieces have been mobilized already, while the same can't be said for Black. }
+14. Qe3 Ne7 15. Rb1 Qa3 { In the theory section I look at 15... Qc3. } 16. Nd4
+{ The threat of Nb5 is quite annoying. } 16... a6 17. Rb3 Qa5 18. Rfb1 Nc2
+{ Perhaps  18...Ng6!  19.a3   19.cxd5  Qxd5!  20.Rxb4  Bxb4  21.Rxb4  Nxe5  looks alright for Black.  Nc2  20.Qxd3  Nxd4  21.Qxd4  Bc5  could have kept the balance. White has good compensation for the pawn. }
+19. Qxd3 Nxd4 20. Qxd4
+{ Compared to the variation on Black's 18th move, Black is one tempo down - which makes a world of difference. }
+20... b5 { This doesn't quite seem to work. } 21. Qc5
+{ I'm not sure why White rejected  21.cxb5  Nf5  22.Qb2  - he is close to winning there , having regained the sacrificed pawn while on the verge of a breakthrough on the b-file. }
+21... Rc8 22. Qa7 Nc6 23. Qb7 Rc7
+{ 23...Qc7!  24.Qxa6   24.Qxc7  Rxc7  25.cxb5  axb5  26.Rxb5  Kd7!  and Black has the superior endgame thanks to his better pawn structure.  bxc4  25.Rb7  Qa5  26.Re7+!  Bxe7  27.Qxc8+  Nd8  28.Bxe7  Kxe7  - White has some compensation for the pawn , but I doubt that it is enough. }
+24. Qa8+ { This gains a crucial tempo. } 24... Kd7 25. cxd5 exd5 26. Rf3
+{ Suddenly Black's position is falling apart. } 26... Nxe5 27. Qd8+ Kc6 28.
+Qe8+ Kd6 29. Ne4+ dxe4 30. Rd1+
+{ A possible finish is  30...Kc5  31.Qxe5+  Kb6  32.Be3+  Bc5  33.Rxf7!  and White has several mating threats. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Model Games"]
+[Black "Ivan Saric vs. Constantin Lupulescu"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bd3 Bxd3 6. Qxd3 e6 7. Bg5 Qb6 8. Nd2
+c5 9. c4 Qxb2 10. Rb1
+{ In the theory section we only look at 10. Rd1. The text is sometimes played, but I feel that the b-file should be reserved for White's queen so that in the case Black plays ...b6, White can continue to probe the light squares with Qa4+. }
+10... Qxd4 11. Qa3
+{ White directs the queen to the queenside anyway! More common is  11.Qe2  b6  12.Ngf3. }
+11... Qxe5+ 12. Ne2 Qc7
+{ For earlier mentioned reasons  12...b6!  is stronger. After  13.cxd5  Qxd5  White has sacrificed three pawns , so he will have to prove a lot! }
+13. cxd5 exd5 14. Nc3 Qd7 15. O-O
+{ Here too White has sacrificed three pawns, but it is easier to see that he has good compensation with all the open files and weak black pawns. }
+15... Be7 16. Rfe1 Kf8 17. Re5
+{ One of several promising moves  (Nf3, Nb3, Rbd1, and so on)  . } 17... Nc6
+{ 17...d4  seems better. } 18. Rxd5 Qc8 19. Nde4
+{ White has a clear advantage - all his pieces are active and Black has various weaknesses. White has more than enough compensation for two pawns. }
+19... b6 20. Rbd1
+{ With the b-file blocked it makes sense to move the b1-rook elsewhere, but e1 was perhaps a better square. }
+20... Nd4
+{ Now the rook is blocked on d1 as well  (unless White intends to sacrifice an exchange on d4)  . }
+21. Qa4 Nf6 22. Re5 Qc7 23. Bf4
+{ White's pieces are now a bit clumsily positioned, but he gets away with it. }
+23... Nxe4 24. Rxe4 Qb7 25. Rde1 Ne6
+{ Now that White has doubled rooks on the e-file, Black once again blocks the rooks! }
+26. Nb5 { This prepares an exchange sacrifice on e6. } 26... Rd8
+{ 26...Nxf4!  27.Rxf4  Kg8  and White does not have enough compensation for the two pawns. The h8-rook can be activated via h6. }
+27. Rxe6 fxe6 28. Nc7 b5
+{ After  28...Rh6!?  White has to be accurate:  29.Rxe6!   29.Nxe6+?  Rxe6  30.Rxe6  Rd4!  and Black wins.   29.Bxh6?  Qxc7  and Black is two pawns up.  Qc8  30.Rxh6  gxh6  31.Bxh6+  should be about equal. }
+29. Qc2 Kf7
+{ 29...Rc8!?  30.Nxe6+  Kg8  31.Qg6  Bf8  32.Re5  and White has some initiative for the exchange. }
+30. Rxe6 Bf6 31. Qxc5
+{ White is an exchange down, but his piece activity and the relative unsafe position of Black's king make up for it. }
+31... Rd7 32. Rc6 Rhd8 33. Bd6 Kg8 34. g3 { 34.Ne6  was necessary. } 34... Rf7
+{ 34...Rc8!  and the pin on the c-file will be decisive.  35.Qd5+  Rf7  36.Bf4  Bd8. }
+35. Ne6 Re8 36. Bf4 Qd7 37. Rd6 Qc8 38. Rc6 Qd7 39. Rd6 Qc8 40. Rc6 Qd7
+{ The game ended in a draw by repetition , presumably after time trouble. If Black wanted to he could have played on with  40...Qb7!?.  White has some compensation for the exchange , but Black is in no immediate trouble and in the long run he will have a passed pawn on the queenside. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Model Games"]
+[Black "Alekseev, Evgeny vs. Yevseev, Denis"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h6 5. g4 Bd7
+{ This is a solid move, even if it looks passive. Black intends to play ...e6 and ...c5 after which he has a French Advance type of position, in which White's pawn moves on the kingside may end up being premature. }
+6. Nc3 c5 7. dxc5 e6 8. Be3 h5 9. Nb5
+{ This threatens Nd6+, thus forcing Black to take the knight, but White in turn will have to make a concession on the kingside. My recommendation is to meet 8... h5 with 9. gxh5. }
+9... Bxb5 10. Bxb5+ Nc6 { Now Black is threatening Qa5+ as well as hxg4. } 11.
+c3 Qc7
+{ 11...hxg4  12.Qxg4  Ne7  and with ...Nf5 coming Black should be alright. }
+12. g5
+{ The position on the kingside is now blocked, which renders White's bishop pair and space advantage as unimportant  (especially considering Black has the f5-square for his knight)  . }
+12... Ne7 13. Qa4 Qxe5
+{ This opens the position for White's bishops. Instead after  13...Nf5!  14.Bd4  Be7  15.O-O-O  O-O!  Black should be fine. White's extra pawn means little , and the knights are stronger than the bishops in this position. Plus it is easier for Black to start an attack on White's king than the other way around. }
+14. Nf3
+{ Even stronger is  14.g6!  fxg6   note that  14...Nxg6  is impossible because of  15.Bxc6+  15.Nf3  with a fantastic position for White. }
+14... Qc7 15. Bf4 Qc8 16. O-O-O
+{ White has obtained a close to ideal position. } 16... Ng6 17. Be3
+{ Of course, White should not give up the c5-pawn easily. } 17... a6 18. Bd3
+{ Now Black has to be on the lookout for the possibility of Bxg6. } 18... Qd7
+19. c4
+{ White starts opening the position before Black has the chance to consolidate. }
+19... Nge5 { This allows White to transition to a very favorable endgame. } 20.
+Nxe5
+{ 20.cxd5  Nxd3+  21.Rxd3  exd5  22.Rhd1  also looks very strong , but perhaps Black can save his position with  22...Qg4! }
+20... Nxe5 21. Qxd7+ Nxd7 22. b4
+{ Again, White should not give up the c5-pawn lightly. } 22... dxc4 23. Bxc4
+Ne5
+{ Black obtains a little bit of activity with his knight, but it doesn't amount to much. }
+24. Bb3 Nc6 25. Bd2
+{ White defends methodically. The sharper  25.g6!?  fxg6  26.a3  was also possible. }
+25... a5 26. a3 axb4 27. axb4 Nd4 28. Kb2
+{ White does not hold on dogmatically to the bishop pair.  28.Bc4  b6  leads to unnecessary complications. }
+28... Nxb3 29. Kxb3
+{ White no longer has the bishop pair, but he kept his other advantages: his pieces are already developed and he is significantly on the way to obtaining a passed pawn on the queenside while the same can't be said for Black's majority on the kingside. }
+29... Be7 30. Bc3 { An ideal position for the bishop. } 30... f6 31. Rhe1
+{ Probing the newly created weakness of e6. } 31... fxg5 32. hxg5 Rd8 33. Ra1
+O-O { This loses at least a pawn. } 34. Rxe6 Bxg5 35. Rg1
+{ Now White has a decisive attack on the g-file. } 35... Rd5 36. Rg6
+{ Presumably Black overlooked this move. } 36... Rff5 37. Rxg7+ Kf8 38. Rxb7
+{ White has won two pawns and can march his c-pawn to victory. } 38... Rd3 39.
+Kc4 Rdf3 40. Bg7+ Ke8 41. Re1+ Kd8 42. c6 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Model Games"]
+[Black "Grandelius, Nils vs. Timman, Jan H"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h6 5. g4 Bd7 6. Nc3 e6 7. Be3 Qb6 8. Nge2
+{ Both sides develop in standard fashion. Note that one benefit of Black's bishop being on d7 is that ...Qxb2 most of the time does not entail a pawn sacrifice by White, as it can simply be answered with Rb1 followed by Rxb7. }
+8... c5 9. Qd2
+{ White should not play  dxc5  too early -  9.dxc5?!  Bxc5  10.Bxc5  Qxc5  11.Qd2  Nc6  12.f4  f6!  and White's center is being undermined. }
+9... Nc6 10. O-O-O
+{ This provokes Black into playing ...c4 when White's king may be subject to a pawn storm while the center is closed  (thus depriving White of adequate counterplay)  . 10. f4 is the move which I recommend in the theory section, after which White has the usual space advantage. }
+10... Qa5
+{ Black does not take the bait. He might have been afraid of  10...c4  11.Nf4  when White has ideas like Bxc4 dxc4 d5, or simply taking twice on d5 with his knights. }
+11. dxc5
+{ Here  ...c4  was a serious threat. For example:  11.f4?  c4!  12.f5  b5!  and Black's attack will arrive a lot sooner. }
+11... Nxe5 12. Nd4
+{ White is correctly playing for activity instead of material. } 12... Nxg4
+{ Taking the other pawn with  12...Bxc5  might have been safer. } 13. Nb3 Qd8
+14. Bf4 Ne7 15. Qe2
+{ Here the queen interferes with the f1-bishop , which should go to  b5  or  d3.  15.Rg1  Nf6  16.Nb5  Bxb5  17.Bxb5+  Nc6  18.Qe3  seems more natural. White has full compensation for the sacrificed pawn here. }
+15... Nf6 16. Nb5 Bxb5 17. Qxb5+ Qd7 18. Na5
+{ White makes the best of the situation, probing the b7-pawn. We see a standard chess theme here: when two pieces are in tension  (as the two queens are here)   , it is usually better to coax your opponent into taking than performing the exchange yourself. White indeed gains nothing from  18.Qxd7+. }
+18... Ng6 19. Bh2 a6 { Black in turn wants White to take on d7. } 20. Qb6
+{ 20.Qxb7  Qxb7  21.Nxb7  Ne4!  is similar to the game - White regains his pawn , but passes over the initiative to Black. }
+20... Qc8 21. b4 Be7 22. Qxb7
+{ 22.Nxb7  is stronger. After the similar  22...Ne4  23.h5  Black cannot really commit his e7-bishop to the attack because it has to guard against the fork Nd6+. }
+22... Qxb7 23. Nxb7 Ne4
+{ White has regained the pawn but with this move Black takes over the initiative. }
+24. h5 { 24.Bg3  Nc3!  is problematic as well. } 24... Bg5+ 25. Kb2 Nxf2 26.
+Bxa6
+{ White does his best to complicate the position. A lot of pieces are hanging now! }
+26... Nxd1+ 27. Rxd1 Bf6+
+{ Stronger is  27...Rxa6!  28.hxg6  fxg6  , but perhaps Black is scared of White's pawn mass on the queenside. }
+28. Kb3 Be5 29. Nd6+ Ke7 30. hxg6 Bxh2 31. Nxf7
+{ 31.Bb7!  Rab8  32.Nxf7  is similar to the text , except Black's rooks won't be positioned such that White has to give up the c5-pawn. White has good compensation for the exchange there. }
+31... Rhb8 32. Be2 Ra5
+{ This move makes all the difference. There is no way to protect the c5-pawn. }
+33. c6 Rc5 { The c6-pawn is lost. } 34. c4 Rxc6 35. cxd5
+{ It would be better for White to start pushing his a- and b-pawns. } 35...
+exd5 36. Bh5 Rbc8 37. Rd3 Rc4 38. Rh3 Bf4 39. a3 d4
+{ Black is clearly winning now. } 40. Ka4 Rc3 41. Rh4 { Hastening the end. }
+41... Ra8+ 42. Kb5 Rb8+ 43. Ka4 Bc1 44. b5 Ra8+ { 45.Kb4  Bxa3#. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Model Games"]
+[Black "Vachier Lagrave, Maxime vs. Ding, Liren"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h6 5. g4 Be4
+{ Strange that a player of Ding Liren's calibre would play a variation that has such a dubious reputation. }
+6. f3 Bh7 7. e6 Nf6
+{ This is also possible besides 7... Qd6 and 7... fxe6, but it doesn't really solve the issue of what to do with the e6-pawn. }
+8. Bf4
+{ White has several good moves here. Nc3, exf7+ and Bd3 are all fine alternatives. }
+8... Qb6 9. Nc3 Qxb2 { Now Nc3 and the c2-pawn are hanging as well. } 10. Kd2
+{ A radical solution, but a good one. White won't have to worry about his king's safety anytime soon. }
+10... Qb6
+{ The queen's adventure on the kingside has cost several tempi and Black is no closer to resolving the issue of how to develop his kingside.   10...Bxc2?  11.Qxc2!  Qxa1  12.Nge2  and the queen will be trapped with Bg2 to follow. }
+11. Nge2 a6
+{ Perhaps  11...c5  12.Rb1  Qxe6  13.Rxb7  was a better option , but then too White retains the better chances. }
+12. Rb1 Qa7 13. Na4 { Probing the newly created dark-squared weaknesses. }
+13... b5 14. Nc5 Bg8 { The Caro-Kann bishop is in a sorry state. } 15. Be5 fxe6
+16. Nf4 Nbd7
+{ Perhaps  16...Bf7!?  was better , though it allows White to win an exchange with  17.Nfxe6  Bxe6  18.Nxe6  Kf7  19.Nc7. }
+17. Nxd7 Nxd7 18. Ng6 Nxe5 19. dxe5 Rh7 20. h5
+{ A funny sight. Black's bishops and the h7-rook are permanently entombed! White is of course completely winning here, though my engine doesn't understand the position and thinks Black has a slight advantage. }
+20... c5 21. f4 Bf7 22. Qf3 O-O-O 23. Be2 c4 24. a4
+{ It's a matter of opening up the queenside, bringing the pieces into position and mating Black's king. }
+24... Kc7 25. axb5 axb5 26. Rxb5 Qd4+ 27. Ke1 Ra8 28. Rb1
+{ White plays it careful.  28.Kf1  Ra1+  29.Kg2  would also have been fine. }
+28... Ra2 29. c3 Qd2+ 30. Kf2 Rc2 31. Qe3
+{ Though technically White is not material ahead, Black's entombed bishops and rook might as well not exist. And when you're up material, the rule is that you should exchange as many pieces as possible. Thus White forces the exchange of queens even at the cost of a pawn. }
+31... Qxe3+ 32. Kxe3 Rxc3+ 33. Kd4 Rc2 34. Rhe1
+{ 34.Rb5!  Rxe2  35.Rhb1  would already have led to a mating attack. } 34...
+Kc6 35. Rb8
+{ Notice that White doesn't even bother with Nxf8 as that would release the h7-rook from its prison. }
+35... Bxg6 36. hxg6 Rh8 37. Reb1 Rd2+ 38. Ke3 Ra2 39. R8b6+
+{ A possible finish is  39...Kd7  40.Kd4!  Rxe2  41.Kc5!  and Black cannot stop the threat of Rb7+ Kd8 Rb8+ Kd7 R1b7#. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Model Games"]
+[Black "Popov, Ivan vs. Arutinian, David"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h6 5. g4 Be4 6. f3 Bh7 7. e6 Qd6
+{ This is more standard than the ...Nf6 of the previous game. } 8. exf7+ Kxf7
+9. f4
+{ This not only stops ...Qg3+, but also the freeing advance ...e5  (which is the main idea behind Black's ...Qd6 move)  . }
+9... Nf6 10. Nf3
+{ White's pawn moves have achieved a lot, but also come at a cost. He is behind in development and has some weaknesses in his position to deal with. The text sacrifices the g4-pawn while preventing Black from achieving anything with ...Qe6+. }
+10... Nxg4 11. h5
+{ This clamps down on the g6-square and also prevents Black from cementing his g4-knight with ...h5. }
+11... Bf5
+{ I am not a fan of this move. White will soon play Bd3 when the light-squared bishops will probably be exchanged anyway, and in that case this move will amount to a loss of tempo. }
+12. Nc3 Qe6+ 13. Ne5+ Nxe5 14. fxe5
+{ It is time to take stock. White has sacrificed a pawn. In return he has displaced Black's king and obtained a significant space advantage on the kingside. Moreover, Black's queen is positioned kind of clumsily - preventing Black from developing his kingside with ...e6 and ...Bb4. All in all, if White simply develops he will very easily develop a promising attack on the kingside. }
+14... g5 15. hxg6+
+{ Of course White does not allow Black to turn his g7-weakness into a strength on g5. }
+15... Qxg6 16. Be3 Ke8
+{ 16...Bxc2  is too risky:  17.Qe2!  Na6  18.Rg1  Qf5  (the only move, protecting the bishop as well as guarding against Qh5+)  19.Rg3  Ke8  20.Bh3  Qh7  21.Nxd5!  with a winning attack. }
+17. Rg1 Qf7 18. Bd3 Bxd3 19. Qxd3 { White is already close to winning. } 19...
+Rg8
+{ Exchanging this rook does not help Black much - it exchanges an attacker, but also a defender. }
+20. O-O-O Rxg1 21. Rxg1 Na6 22. Rf1 Nb4 23. Qd1 Qg6 24. a3 Na6 25. Qf3 Kd7
+{ This loses directly. After  25...Qg8  26.Ne2  Nc7  27.Nf4  Rd8  Black's position is very unpleasant but not yet lost. }
+26. Nxd5 Nc7
+{ 26...cxd5  27.Qxd5+  Kc7  28.e6!  gives White a winning attack due to the double threat Qd7+ and Bf4+. }
+27. Nf4 Qf5 28. Qg2
+{ Threatening  Ng6.  After  28...Qh7  29.e6+!  Ke8   29...Nxe6  30.Nxe6  Kxe6  31.Qg4+  does not end well  30.Ng6  Bg7  31.Rf7  is decisive. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Model Games"]
+[Black "Yudasin, Leonid vs. Sapis, Witalis"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 c5
+{ Playing ...c5 in combination with ...Bf5 this early is too ambitious. } 5.
+dxc5 Nc6
+{ The main issue is that Black cannot play  5...e6?  yet because the usual trap  6.g4  Bg6  7.h5  still works. Black should first provide a safe square for this bishop and only then worry about playing ...c5! }
+6. Bb5 { 6.Nf3  Bg4  would make Black's life considerably easier. } 6... Qa5+
+7. Nc3 O-O-O
+{ The fact that Black cannot play ...e6 limits him in the way he can develop. }
+8. Bxc6 { This is necessary as Black was threatening ...d4. } 8... bxc6 9. Qd4
+{ Setting up a blockade on the dark squares. } 9... h5
+{ 9...Bxc2  was possible , but would have been met by  10.e6!  fxe6  11.Nf3  and White has a fantastic position. After the text Black is finally ready to play ..e6, but he is a bit late! }
+10. b4 Qa6 11. a4
+{ Threatening to launch a deadly attack on Black's king with b5. } 11... Qc4
+{ Black flees into an endgame a pawn down. } 12. Qxc4 dxc4 13. Ra2
+{ This looks like an ugly way to defend the c2-pawn, but eventually White will reroute the c3-knight and play the pawn to c3 when the rook can join play again. }
+13... e6 14. a5
+{ This looks ugly too, but Black was threatening to break up White's queenside pawn formation with ...a5. }
+14... Ne7 15. Nf3 Nd5 16. Nxd5 Rxd5 17. O-O Be7 18. Be3 Rhd8 19. c3
+{ White has consolidated his position and is simply a pawn up. } 19... Bd3 20.
+Re1 a6 21. Bg5
+{ White would like to exchange the dark-squared bishops, when his knight would have uncontested squares like d4 and d6. }
+21... f6 22. Bf4
+{ Also promising is the exchange sacrifice  22.exf6  gxf6  23.Rxe6!  Kd7  24.Rxf6  Bxf6  25.Bxf6  - White has three pawns and control over the dark squares for the exchange. }
+22... Bf5 23. Rae2 Rd3 24. Re3 Bg4 25. Nd4 fxe5 26. Bxe5 Bxh4 27. g3
+{ This leads to some complications, but Yudasin seems to have calculately them accurately  (or did he? see the note to Black's 32th move)   . The calmer option was  27.Bxg7  Rg8  28.Be5  when White keeps a clear advantage. }
+27... Bg5 28. f4 Bf6 29. Nxc6
+{ This is what White wanted to play, but he first had to make some space for his king  (with g3 and f4)  . }
+29... Rxe3 30. Rxe3 Rd1+ 31. Kf2 Rd2+ 32. Kf1 Rd1+
+{ 32...h4!  seems to lead to a draw.  33.gxh4  (White really cannot allow this pawn to get to h3)  Rd1+  34.Re1   34.Kg2  Rd2+  35.Kg3  Rd3  36.Kxg4!?  Rxe3  37.Bxf6  gxf6  is an interesting try if White wants to play on , but the evaluation of this position is highly unclear.  Bh3+  35.Ke2  Bg4+  36.Kf1  Bh3+  is a repetition of moves. }
+33. Re1 Rd3 34. b5 { Breaking through. } 34... axb5 35. a6 Bf3
+{ Playing for passive defense is rarely a good idea in endgames , but here the more active option would have lost too:  35...h4!?  36.Na7+  Kd7  37.c6+  Ke8  (any other square for the king and White can exchange on f6 and take the h4-pawn)  38.Rb1!  making space for his king; Black was threatening a repetition a moves starting with Rf3+. White will play c7-c8 next. }
+36. Nd4 Rxc3 37. Nxb5 { 37.c6! } 37... Rb3 38. Nd4 Ra3
+{ Black misses his final chance:  38...Rd3!  39.Nxe6  c3  with some counterplay. }
+39. Bxf6 gxf6 40. Rxe6 Bd5 41. Rxf6
+{ The position has cleared up. White is two pawns up and Black's c-pawn is not lethal. }
+41... c3 42. Ke2 Bc4+ 43. Ke3 Bxa6 44. Nc2 Ra4 45. Rh6 Ra2 46. Nb4 Re2+ 47. Kd4
+Bb5 { 47...c2  48.Nxc2  Rxc2  49.Rxa6. } 48. Kxc3 Re3+ 49. Kd4 Rxg3 50. c6 Rg8
+51. Kc5
+{ Technically  White is only a pawn up, but the difference in king activity makes all the difference. Black will soon face mate threats. }
+51... Be2 52. Nd5 Rf8 53. Rh7 Kb8 54. Kb6
+{ White intends to play Ra7, Nc7 and Ra8# and it is not clear what Black can do about it. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Model Games"]
+[Black "Sutovsky, Emil vs. Egeli, Per Ove"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nc3 Qb6 5. h4
+{ Via an alternate move order we reach a type of Caveman position in which Black has played an early ...Qb6. }
+5... h5 6. Nge2 e6 7. Ng3 Bg6 8. Be2
+{ An alternative is  8.Na4!?  Qa5+  9.c3  when White intends to follow up with b4 to establish control over the c5-square. }
+8... c5 9. dxc5 Bxc5 10. O-O
+{ White's threat to take on h5 is not that much of a threat, because after taking Black can play ...Bxh5, ...g6 and ...Rxh4 winning back his pawn. }
+10... Nc6 11. Bxh5 { 11.Na4!?  is again an alternative. } 11... Bxh5 12. Nxh5
+g6 13. Nf4 Rxh4 14. g3 Rh7 15. Na4 Qb5 16. Nxc5 Qxc5 17. Nd3 Qc4
+{ Objectively White has not achieved that much from the opening. Black doesn't have that many weaknesses and can easily finish his development by playing Ne7-f5 and O-O-O. }
+18. Re1 Nge7 19. b3 Qa6
+{ The queen will be out of play here. Better is  19...Qb5  when Black can answer  20.Bg5  with  20...d4  21.Qf3  Qd5  , when the position is about equal. }
+20. Bg5 O-O-O 21. Bf6
+{ The bishop has a dominant position. Its control over h8 allows White to take control over the h-file next. }
+21... Qb6 22. Kg2 Rd7 23. Qd2 d4 24. Rh1 Rxh1 25. Rxh1 Nd5
+{ Black is slightly too late with this maneuver! } 26. Rh8+ Kc7 27. Qh6 Nxf6
+28. exf6 Qb5 29. Qf8
+{ White has taken full control over the 8th rank. While the computer may say the position is about equal, in practice it is extremely difficult for Black to defend this position. }
+29... Qd5+ 30. Kg1 e5
+{ Black makes good use of his main trump - his strong pawn center. } 31. Qc8+
+Kb6 32. Nb2 e4
+{ Black should probably have pre-emptively played  32...Ka6  33.Na4  Rd6!  though White can continue to probe with a3, b4 and Nc5. }
+33. Na4+ Ka5
+{ Presumably Black missed that   33...Ka6 ?  isn't possible now because of  34.Qxd7!  Qxd7  35.Nc5+. }
+34. Nc5 { Now Black's position seems to be falling apart. } 34... d3 35. c4 Qd4
+{ Here the computer comes up with the exchange sacrifice  35...Qxc5!  36.Qxd7  Kb4!!  when White has to be careful to hold the balance. Black's king will be safe behind White's queenside pawns while the d3-pawn is very close to being promoted. }
+36. b4+ { A strong in-between move which opens up the b-file. } 36... Kxb4
+{ 36...Nxb4?  37.Nb3+. } 37. Nxd7 d2 { 37...e3!  was the final chance. } 38.
+Qxb7+
+{ Now  38...Kc3  is impossible because the d2-pawn blocks the escape of Black's king:  39.Qb3#. }
+38... Qb6 39. Nxb6 d1=Q+ 40. Kh2 Nd4 41. Nd5+
+{ 41...Kxc4  42.Rc8+  Kd3  43.Nf4+  Kd2  44.Qb4#  is the end. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Model Games"]
+[Black "Short, Nigel D vs. Speelman, Jonathan S"]
+[Result "*"]
+
+{ At the time of this game, Nigel Short was a 14-year old with a rating of 2260, and Jonathan Speelman was a 22-year old IM. Of course, later on Short would become a world championship contender, and Speelman would become a strong grandmaster. }
+1. e4 c6 2. Ne2
+{ This is a more usual move order by which my recommendation against 1. e4 c6 2. d4 d5 3. e5 c5 comes on the board. }
+2... d5 3. e5 c5 4. d4
+{ Thus we get a Botvinnik-Carls Caro-Kann on the board. } 4... Nc6 5. c3 Bf5 6.
+dxc5 Nxe5 7. Nd4 Bd7 8. Be2 e6 9. b4
+{ An interesting position. Black has two center pawns to none, but White has a large pawn mass on the queenside and free development for his pieces where Black is a bit cramped. There are chances for both sides in such a position. }
+9... Nf6 10. O-O Be7 11. Be3 O-O 12. Nd2 Qc7 13. f4
+{ Both sides have developed calmly, and White decides the time is right for an advance on the kingside. }
+13... Ng6 14. Qe1 b6 15. N4b3 Ba4 16. Rc1 Rfe8
+{ Black has a promising exchange sacrifice here in  16...bxc5  17.Nxc5  Bxc5  18.Bxc5   18.bxc5!?  Nxf4!  19.Bxf8  Rxf8.  Black has good play on the dark squares. }
+17. Qf2 { Now White has both c5 and f4 well protected. } 17... Bxb3
+{ This exchange is a bit premature - perhaps  17...Rab8  first is better. } 18.
+axb3 Rab8 19. cxb6 axb6 20. Bd4 Nd7 21. Bb5
+{ White has a small advantage - a bit more space and better placed pieces. }
+21... Bd6 22. g3 Re7 23. Nf3 { 23.c4!?  was a more active option here. } 23...
+Nc5 24. Qc2 Ne4 25. Qd3 e5
+{ This pawn break activates Black's pieces. The position is equal now. } 26.
+fxe5 Nxe5 27. Nxe5 Bxe5 28. c4 Bxd4+
+{ 28...Qd6!  29.cxd5  Qxd5  and it is likely that soon a drawn endgame will arise. }
+29. Qxd4 { Now the tension c4-d5 is in White's favor. } 29... Rc8 30. Kg2 h5
+{ The decisive mistake. } 31. cxd5 Qxc1 32. Rxc1 Rxc1 33. Bd3
+{ The issue is that the e4-knight now has no good squares.  33...Nd6  34.Qf4!  forks c1-rook and d6-knight, while almost any other move allows White to play d6. }
+33... Re1 34. d6
+{ Black loses material because he cannot defend both the e4-knight and the d6-d7-d8 advance. }
+34... Nxd6 35. Qxd6 R1e6 36. Qd5 g6 37. b5 Ra7 38. b4 Kg7 39. Bc4 Rf6 40. Qe5
+{ A possible finish is  40...Ra3  41.h3  Raf3  42.g4  hxg4  43.hxg4  Kg8  44.Be2!  Rf2+  45.Kg3  Kh7  46.Qd4  and Black cannot escape the exchange of queen for two rooks. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Model Games"]
+[Black "Baklan, Vladimir vs. Fier, Alexandr"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. Ne2 Nc6 5. c3 Bg4
+{ This is quite an annoying move.  6.f3  is possible , but after  6...Bf5  we have an inferior version of the 5... Bf5 variation - the pawn on f3 allows tactics based on Qh4+. }
+6. h3 Bxe2
+{ Now the position becomes static - White has the bishop pair and a space advantage, but Black has no weaknesses and the bishop pair doesn't mean much with the center closed. }
+7. Bxe2 e6 8. O-O Nge7 9. Na3
+{ In the French defense  (with the same pawn structure)  this development of the knight is a common answer to Black playing Nge7-f5. }
+9... Nf5 10. Nc2 Be7 11. Bd3 { White's plan is a bit crude but effective. }
+11... g6 12. Bxf5 gxf5 { 12...exf5  would leave the d5-pawn chronically weak. }
+13. Qh5
+{ Now the h7-pawn will always be a liability, and it is not obvious yet how Black is going to solve the problem of his king's safety. }
+13... cxd4
+{ 13...Qb6  would allow  14.dxc5  Bxc5  15.b4  Be7  16.Be3  and it looks scary for Black to try to castle queenside. }
+14. Nxd4 { Threatening Nxe6. } 14... Qd7
+{ 14...Nxd4  15.cxd4  would be clearly better to White. } 15. Bh6 Rg8 16. Bf4
+Rg7 17. Rfd1 O-O-O 18. c4 Rdg8
+{ Black has some pressure. The problem is that with the compromised pawn-structure he doesn't have too many ways to attack, and once his attack runs out, it is only White who has opportunities to attack the enemy king. }
+19. g3 Bg5 20. Qf3 Bxf4 21. Qxf4 Ne7 22. Nb5 Kb8 23. Qe3 b6 24. a4
+{ White has a strong attack. } 24... Qc6
+{ 24...h5!?  25.a5  h4  26.axb6  Rxg3+!  27.fxg3  Rxg3+  sees Black obtain good counterchances. However, White can play more patiently with moves like 25. Qf4 or 25. Qd4 when it is not obvious how Black can make progress on the kingside. }
+25. Nd4 Qb7 26. a5 dxc4 27. axb6 Qxb6 28. Qa3
+{ 28.Ra4!  Nd5  29.Qa3  and White has a winning attack according to the computer. He is threatening Ra5-b5 among other moves. }
+28... Nd5
+{ Now however White's pieces - especially his rooks - are poorly positioned for an attack on Black's king, while Black in turn is threatening ...f4. Therefore White decides to flee into an endgame. }
+29. Qd6+ Qxd6 30. exd6 f4 31. d7 Kb7 32. Nf5 exf5
+{ The only move , as after  32...Rg6?  33.Nd6+  Kc7  34.Nxf7  (threatening to promote)  Kxd7  35.Ne5+  White wins the exchange. }
+33. Rxd5 Rd8 34. Rb5+ Kc6 35. Rxf5 fxg3 36. Rxa7 Kb6
+{ Black wins the d7-pawn and the position that remains is a dead draw. } 37.
+Ra4 Rxd7 38. Rb4+ Kc7 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Model Games"]
+[Black "Mamedov, Rauf vs. Prohaszka, Peter"]
+[Result "*"]
+
+1. e4 c6 2. Ne2 d5 3. e5 c5 4. d4 Nc6 5. c3 cxd4 6. cxd4 Bf5 7. Nbc3 e6 8. Ng3
+{ Playing Nge2 over Nf3 in the Caro-Kann Advance has the advantage that Black has more difficulties with his light-squared bishop. With the knight on f3, he can  (and often does)  play the bishop to g4 and just exchange it for the knight. But the knight on g3 harasses the bishop and supports the pawn advances f4-f5 and h4-h5. }
+8... Bg6 9. h4 h5 10. Be3
+{ Of course, having the knight on g3 has some disadvantages as well. One is that the d4-pawn is less well protected, which makes Be3 a necessity. }
+10... Qb6 11. Qd2 Nh6 12. Be2 Nf5
+{ Perhaps  12...Be7  is better. Black does not have to be scared of  13.Bxh5  Bxh5  14.Nxh5  Nf5  , as he will win back the h-pawn next move. }
+13. Nxf5 Bxf5 14. Rc1 Be7
+{ 14...Bb4  15.a3  Be7  leads to similar play as in the game. } 15. Na4
+{ This seems like the only way to make some progress in the position. } 15...
+Qb4
+{ 15...Qa5!?  16.Qxa5  Nxa5  17.b3  seems stronger , though White is still a little bit better. }
+16. Nc5 Bxc5 { This surrenders control over the dark squares to White. } 17.
+Rxc5 Qxd2+ 18. Kxd2
+{ An endgame has arisen in which White is clearly better. He is better developed and has an unopposed dark-squared bishop. }
+18... Kd7 19. b4 Bg6
+{ 19...Nxb4?  20.Rb5  would see White's rook enter the 7th rank decisively. }
+20. Rhc1 Rhc8 21. a3
+{ White does need to be careful:  21.a4?!  Nxb4  22.Rb5  Rxc1  23.Kxc1  Rc8+  24.Kd1  Nc2!  25.Rxb7+  Rc7  and his advantage is gone. }
+21... a6 22. g4
+{ White cannot make further progress on the queenside, so he turns his attention to the kingside. }
+22... hxg4 23. Bxg4 Ne7 { Necessary because White was threatening Rxd5+! } 24.
+h5 Be4 25. Bg5 b6
+{ Now exchanging all the rooks on c8 would lead to a probably drawn position. }
+26. Bxe7 { A courageous decision. White sacrifices the exchange for a pawn. }
+26... bxc5 27. Bxc5 g6
+{ Black wisely offers his g-pawn for exchange. In the long run it could have become a weakness on g7. }
+28. hxg6 Bxg6 29. Be2 Rh8 30. a4 Rh2 31. Ke3 Rh3+ 32. f3 Rh2 33. Bd6 Rc8 34.
+Bc5 Ra8 35. b5 Rxe2+
+{ Black returns the exchange. No doubt he was afraid that the bishop pair would steamroll the a-pawn to victory after  35...axb5  36.Bxb5+  Kd8  37.Bb6+  Ke7  38.a5.  But I don't see how White can make progress after  38...Rb2  39.Rc5  Rb8! }
+36. Kxe2 axb5 37. axb5
+{ Now White has an extra pawn, but he has to watch out for cases in which the factor of the opposite-colored bishops makes for a draw. }
+37... Ra2+ 38. Ke3 Rb2
+{ Black should not give up control over the a-file. After   38...Kc7  39.b6+  Kb7  40.Rh1  Ra8  41.Kf4  Ra4  42.Kg5  Ra2  43.Kf6  Ra8  44.Rg1  Rg8!  (Not allowing White to sacrifice the exchange again)  45.Ra1   Perhaps  45.f4  will win.  (Ra8! and White is not making progress.) }
+39. b6 Rb3+ 40. Kf4 Kc6 41. Ra1 { Now Black is lost. } 41... Bh5 42. Ra7 Kb5
+43. Kg5 Bg6 44. f4 Rb1 45. Kf6 Kc6 46. Ke7
+{ 46.Rc7+  Kb5  47.Rxf7!  also wins directly. } 46... Rxb6
+{ Another exchange sac, but this will not save Black. } 47. Bxb6 Kxb6 48. Ra3
+Kb5 49. Rc3 { Blocking Black's king on the c-file. } 49... Kb4 50. Rc5 Kb3 51.
+Kf6 Kb4 52. Rc6 Kb5 53. Rxe6 Kc4
+{ 53...fxe6  54.Kxg6  Kc4  55.f5  and White wins. } 54. Rc6+ Kxd4 55. f5 Bh5
+56. e6 fxe6 57. fxe6 Ke3 58. e7 d4 59. Rc8 d3 60. Rh8
+{ The only winning move here. The bishop is forced away from the e8-square, after which White promotes with check. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Model Games"]
+[Black "Kasparov, Garry vs. Kaiumov, Dmitry D"]
+[Result "*"]
+
+1. e4 c6 2. Ne2 d5 3. e5 c5 4. d4 Nc6 5. c3 e6
+{ This move makes the game transpose to a type of French Advance in which White has an extra move  (because Black played ...c5 in two moves)  but also is stuck with an early Ne2  (not necessarily good for him)  . }
+6. Nd2
+{ Kasparov decides to bring the b1-knight over to f3 so the d4-pawn is adequately protected. }
+6... cxd4 7. cxd4 Nh6 8. Nf3 Nf5 9. a3
+{ This move is usually a necessity to start operations on the queenside in the French Advance. The c6-knight and f8-bishop would both like access to the b4-square. }
+9... Qb6
+{ Perhaps  9...Bd7  is more accurate , so that  10.g4  can be answered with  10...Nh4. }
+10. g4 { Now the knight is kicked backwards. } 10... Nfe7
+{ This knight will lead a sorry life this game. } 11. Nf4
+{ A flexible square for the knight - it could go to either kingside or queenside. }
+11... Na5 12. Rb1 Nb3 13. Be3 Bd7 14. Bd3 Rc8 15. Bc2 Na5 16. Kf1 Nc4 17. Bc1
+{ Several moves of slow maneuvering have gone by. If Black now plays  17...Nc6!  , pressurizing the d4-pawn , his position seems fine. }
+17... Bb5 { Black threatens a discovered check, but this move lacks purpose. }
+18. Kg2
+{ White's king steps out of the way and the bishop on b5 just looks silly now. }
+18... Qc7 19. Bd3 Bd7 20. b3
+{ Now White is driving back Black's pieces and making real progress. } 20...
+Na5 21. Bd2 Qb6 22. Nh5
+{ The knight is a real nuisance here - it attacks the g7-pawn and, should Black play ...g6, the knight can move to f6. }
+22... Bb5 23. Bb4 Bxd3
+{ Black exchanges his bad bishop, but his position is still much worse. } 24.
+Qxd3 Nac6 25. Bc5 Qa6 26. Qe3
+{ Of course, Kasparov does not agree to exchange queens. } 26... b6 27. Bd6 Ng6
+28. Bxf8 Kxf8 29. Rhc1
+{ Though it wasn't necessary in this position, Kasparov never shirks away from sacrificing a pawn. }
+29... Qxa3 30. Rc3 Qe7 31. Rbc1 Qd7 32. b4 Nge7
+{ Black cracks under the pressure. After  32...a5!  33.bxa5  bxa5  White is clearly better , but he has yet to find a way to break through Black's defenses. }
+33. Nf6 Qd8
+{ This loses , but taking on  f6  wasn't any better:  33...gxf6  34.exf6  Ng6   34...Ng8  35.Ne5!  is another point of the piece sac - the e5-square is cleared for White's remaining knight.  35.b5!  regains the piece with a decisive advantage. }
+34. b5 Na5 { This leads to a quick end. } 35. Rxc8 Nxc8 36. Rxc8
+{ 36...Qxc8  37.Qa3+  and Black has to give up his queen to prevent mate. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Bibliography / Sources"]
+[Black "Sources "]
+[Result "*"]
+
+{ Sources:   “The complete Caveman” by Michael Goeller, @@LinkStart@@http://www.kenilworthchessclub.org/games/java/2013/complete-caveman.htm@@LinkEnd@@  “Caro-Kann Defence: Advance Variation and Gambit System” by Anatoly Karpov  (Batsford chess 2006)   “Grandmaster Secrets: The Caro-Kann” by Peter Wells  (Gambit Publications, 2007)   “Opening Repertoire: the Caro-Kann” by Jovanka Houska  (Everyman Chess, 2015)   “Grandmaster Repertoire: Caro-Kann” by Lars Schandorff  (Quality Chess, 2010)   Chessbase “Megabase”  Deep Fritz 13 }
+1. -- *
+

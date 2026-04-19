@@ -1,0 +1,475 @@
+﻿[Event "Leuven BEL"]
+[Site "Leuven BEL"]
+[Date "????.??.??"]
+[Round "?"]
+[White "e4, d4 vs. d6, no c5 move"]
+[Black "B on g7 or a7 setups"]
+[Result "*"]
+[ECO "C65"]
+[Annotator "Friedel,Josh"]
+[PlyCount "118"]
+[EventDate "2016.06.17"]
+[EventType "rapid"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 {Black now has a major fork the road.} (4.
+O-O {leads to the main lines of the Berlin.} Nxe4 5. d4 (5. Re1 Nd6 6. Nxe5 Be7
+) 5... Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8) 4... Bc5 (4... d6 5. Nbd2 g6
+6. c3 Bg7 7. O-O O-O 8. d4 {This move is slightly premature, as White's center
+now ends up under serious pressure.} (8. Re1 {and playing for d4 at a later
+time is more standard.}) 8... exd4 9. cxd4 {[%csl Gc7,Gd4,Gd6,Ge4][%cal Gd4e4,
+Gd2e4,Gf6e4,Gg7d4] The bishop on g7 is quite nice, as it safeguards the king
+and puts pressure on the center from a safe square.} Bd7 (9... Bg4 {[%csl Rd4,
+Re4,Rf3][%cal Gg4d1] is my preferred move.} 10. Qc2 (10. d5 Nd4) (10. h3 Bxf3
+11. Nxf3 (11. Qxf3 Nxd4) 11... Nxe4) 10... Nb4 11. Qb3 c5 $1 {with excellent
+play.}) 10. Re1 Re8 {[%csl Rd2][%cal Gc1g5,Ge8e4,Gf6e4]} 11. h3 a5 12. a3 Re7 (
+12... a4 {is more natural, with the idea that} 13. Bxa4 {runs into} Nxd4 $1 {
+[%csl Ra4][%cal Gd7a4,Gd4f3]}) 13. Bd3 Nh5 {[%cal Gg7d4]} 14. d5 {[%csl Ge5]
+[%cal Gg7b2] Black to Move} Nb8 {[%cal Gb8a6,Ga6c5]} (14... Ne5 15. Nxe5 Rxe5 (
+15... Bxe5 16. Nf3 Bg7 17. Bg5) 16. Nf3 Re8 17. Bg5) 15. Nf1 Nf6 (15... Na6)
+16. Ng3 Na6 17. Bxa6 Rxa6 18. Bf4 h6 19. Rc1 a4 20. Rc4 Kh7 21. Qd2 Be8 22. Be3
+c6 23. dxc6 Bxc6 24. Bd4 Ra8 25. Bc3 d5 26. Rd4 Qe8 27. e5 Ne4 28. Nxe4 dxe4
+29. Rexe4 Bxe4 30. Rxe4 Rd7 31. Qc2 Rd5 32. e6 Rc8 33. exf7 Qxf7 34. Qe2 Rc7
+35. Bxg7 Qxg7 36. Rxa4 Rc1+ 37. Kh2 Qc7+ 38. g3 Rc2 39. Qe3 Qc5 40. Nd4 Rxb2
+41. Rc4 Re5 42. Qc3 Rxf2+ 43. Kg1 Qf8 44. Rc7+ Rf7 45. Qf3 Ree7 46. Ne6 Qe8 47.
+Qe4 Rxe6 {0-1 (47) Christiansen, L (2559) -Goldin,A (2609) Qingdao 2002}) 5. c3
+O-O 6. O-O d6 7. Nbd2 Ne7 8. d4 exd4 9. cxd4 Bb6 10. Re1 Bg4 11. h3 Bh5 12. a4
+(12. Qb3 Nc6 13. d5 {[%csl Re4,Re5][%cal Ge4d5,Gb6c7,Gb6f2] Black is usually
+happy to see d5, as it opens up the bishop and keeps White from executing e5
+ideas.} Nb8 14. Bf1 Nbd7 15. Qc2 Re8 16. b3 Bg6 {[%csl Rd5,Re4]} 17. Bb2 Nxd5
+18. Rad1 N5f6 19. Qc3 Qe7 20. e5 dxe5 21. Nc4 Ne4 22. Rxe4 Bxe4 23. Nfxe5 Nxe5
+24. Nxe5 Qf6 25. Qg3 Rad8 26. Re1 Rd2 {0-1 (26) Nepomniachtchi,I (2757)
+-Grischuk,A (2766) chess.com INT 2018}) 12... a6 13. Bf1 Nc6 14. a5 Ba7 (14...
+Nxa5 15. d5 {[%csl Ra5]}) (14... Bxa5 15. g4 Bg6 16. d5 Bxd2 17. Nxd2 {[%csl
+Rg6][%cal Gf2f4,Gf4f5]}) (14... Bxf3 15. Nxf3 Bxa5 16. d5 Bxe1 17. dxc6 Bb4 18.
+cxb7 Rb8 19. Bxa6) 15. Ra4 Re8 (15... h6 16. Qc2 Re8 17. Bd3 Bg6 18. b3 Qd7 19.
+Bb2 {[%csl Gd4,Ge4][%cal Gb2d4,Ga4e4] Black to Move} Nh5 (19... d5 {was
+probably the best try.} 20. e5 Bxd3 21. Qxd3 Nh5 (21... Nh7 {[%cal Ga7d4,Gb2d4]
+}) 22. Qe3) 20. d5 {[%cal Gb2g7] Now that d5 opens up the bishop on b2, it is
+quite a powerful idea.} Ne5 21. Nxe5 dxe5 {[%csl Rc7,Ge4,Re5,Rg6][%cal Gg6e4]}
+22. Nf3 Nf4 23. Nxe5 Qd6 24. Ng4 Nxd5 25. Rd1 Nf4 26. Qc3 Ne6 27. Bc2 Qc5 28.
+Rc4 Qg5 29. Rd5 Qh4 30. Kh2 c6 31. g3 Qe7 32. Nxh6+ Kh7 33. Nf5 cxd5 34. exd5
+Qf6 35. Rh4+ Kg8 36. Nh6+ Kf8 37. Ba3+ Nc5 38. Bxc5+ Bxc5 39. Qxc5+ Qe7 40. Nf5
+{Caruana-Kramnik 1-0.}) 16. Qb3 Qd7 17. d5 {[%cal Ga7f2]} Ne7 18. Rb4 b5 (18...
+Bc5 19. Rxb7 Qc8 {[%csl Rb7]}) 19. axb6 Bxb6 20. Ra4 Reb8 (20... Rab8 {[%cal
+Ge8e4] was more accurate.} 21. Qc2 c6 22. dxc6 Nxc6) 21. Qa2 {Black to Move} c6
+22. dxc6 Nxc6 23. Bxa6 {Black to Move} (23. b4 {was preferable.}) 23... Nb4 $1
+24. Rxb4 Bxf2+ 25. Kxf2 Rxb4 {[%csl Ra6,Rc1,Rd2,Rf2][%cal Gc1f4]} 26. Nc4 Qa7+
+27. Re3 Qxa6 28. Ra3 Ra4 29. Nfd2 Bg6 30. Rxa4 Qxa4 31. Qxa4 Rxa4 32. b3 Ra2
+33. Ke3 d5 34. exd5 Nxd5+ 35. Kd4 Nf4 36. Bb2 Ra8 37. Nd6 Ne6+ 38. Kc4 Ra6 39.
+Be5 f6 40. Bg3 Kf8 41. b4 Ke7 42. Kd5 Nc7+ 43. Kc5 Ne6+ 44. Kd5 Nc7+ 45. Kc5
+Kd7 46. N2c4 Rc6+ 47. Kd4 Ne6+ 48. Kc3 Nc7 49. b5 Rc5 50. b6 Na6 51. b7 Rg5 52.
+Bf4 Rxg2 53. Nd2 Kc6 54. Nf3 Rc2+ 55. Kb3 Rf2 56. Nd4+ Kd5 57. Be3 Rh2 58. N6b5
+Rxh3 59. Ka4 Nc5+ {0-1 (59) Najer,E (2670)-Potkin,V (2597) Moscow RUS 2018} *
+
+[Event "?"]
+[Site "Tripolis"]
+[Date "????.??.??"]
+[Round "?"]
+[White "pawn e4 vs pawn d6"]
+[Black "vs b7-c7-d6 and c7-c6-d6"]
+[Result "1/2-1/2"]
+[ECO "C87"]
+[Annotator "Friedel,Josh"]
+[PlyCount "73"]
+[EventDate "2004.06.19"]
+[EventType "k.o."]
+[EventRounds "7"]
+[EventCountry "LBY"]
+[SourceTitle "CBM 102"]
+[Source "ChessBase"]
+[SourceDate "2004.09.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2004.09.23"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 (3... d6 4. d4 exd4 5. Nxd4 Bd7 {is generally
+considered a worse version for Black, mainly because there is no option of b5.}
+) 4. Ba4 Nf6 (4... d6 5. O-O (5. Bxc6+ bxc6 6. d4 {also leads to the same
+structure, although Black also has the option of f6.} exd4) 5... Bd7 6. d4 Nxd4
+{Not the only line by any means, but it leads to the purest form of the pawn
+structure.} 7. Bxd7+ Qxd7 8. Nxd4 exd4 9. Qxd4 {[%csl Gb7,Gc7,Gd6,Ge4] This
+structure is considered to be extremely solid, but also quite passive for
+Black. It is important to either apply pressure to e4 or get in the f5 break.
+Piece trades are also generally favorable.} Nf6 (9... Ne7 {is another common
+setup. It allows a strong knight on d5, but it also allows for easier
+counterplay with f5.} 10. Nc3 Nc6 11. Qd3 Be7 12. Nd5 {[%csl Gd5]} O-O 13. b3
+Rae8 14. Bb2 Bd8 15. f4 f5 16. exf5 (16. e5 {is perhaps more testing, but
+Black seems to hold the position together with} Re6 (16... dxe5 17. Nf6+))
+16... Qxf5 17. Qc4 Qf7 18. Qc3 {Black to move} Nb8 $1 (18... Nb4 $5 {
+Computerish move.} 19. Qxb4 (19. Nxb4 Bf6 {[%csl Rb2][%cal Gf6b2]}) 19... Qxd5
+20. Rad1 Qc6) (18... Bf6 19. Nxf6+ Qxf6 20. Qc4+ (20. Qxf6 gxf6) 20... Qf7) (
+18... Ne7 19. Nxc7) 19. Rf3 Nd7 20. Rg3 (20. Nxc7 Bf6) 20... Nf6 21. Rd1 c6 (
+21... Nh5 22. Rh3 Re5 23. fxe5 Qf2+ 24. Kh1 Qf1+) 22. Nxf6+ Bxf6 23. Qxf6 Qxf6
+{1/2-1/2 (23) Almasi,Z (2719)-Sokolov,I (2643) Nakhchivan 2011}) 10. Nc3 Be7
+11. b3 O-O 12. Bb2 c6 {[%csl Rc3][%cal Gc3d5]} 13. Rad1 Rad8 14. Rfe1 Rfe8 15.
+Ne2 {[%csl Rf6] Black to Move} Nh5 {[%cal Ge7f6,Gg7g6,Gh5g7]} (15... d5 16. e5
+Qf5 {[%cal Ge7f6,Gf6b2]} (16... Ne4 17. e6) 17. Qd3 Qxd3 18. cxd3 Nd7) 16. Qd3
+Bf6 17. Bc1 g6 18. Qf3 Qe7 19. Ba3 Qxe4 20. Qxe4 Rxe4 21. Kf1 d5 {Black is up
+a clear pawn now, but failed to convert his advantage.} 22. Nc1 Nf4 23. Bc5
+Rxe1+ 24. Rxe1 Ne6 25. Bb6 Rc8 26. Nd3 c5 27. c4 dxc4 28. bxc4 Kf8 29. Rb1 Ke8
+30. Ba7 Rc7 31. Bb6 Rc6 32. Ba7 Rc7 33. Bb6 Rd7 34. Nxc5 Nxc5 35. Bxc5 Kd8 36.
+Ke2 Kc7 37. Rd1 Rxd1 38. Kxd1 Kc6 39. Be3 Be7 40. Kc2 f5 {1/2-1/2 (40) Salgado
+Lopez,I (2627)-Demchenko,A (2645) Linares ESP 2017}) 5. O-O Be7 6. Re1 d6 7.
+Bxc6+ bxc6 8. d4 exd4 9. Nxd4 {[%csl Gc6,Gc7,Gd6,Ge4] This structure has
+similar properties, but the doubled pawns make it slightly different. The pawn
+push e5 is more of a positional threat, since taking on e5 leaves you with a
+poor pawn structure on the queenside. On the other hand, Black can make use of
+the b-file, and can also play c5 without weakening d6 too much.} Bd7 10. Qf3
+O-O 11. Nc3 (11. e5 dxe5 12. Nxc6 Bxc6 13. Qxc6 Qd6 {and Black's development
+lead compensates for the subpar pawns.}) 11... Re8 12. h3 {[%csl Rd7,Rd8,Re7,
+Rf6]} h6 (12... c5 {[%cal Gc3d5]} 13. Nf5 Bxf5 14. exf5 (14. Qxf5 Nd7 15. Nd5)
+14... d5 15. Bg5 c6 16. Re2) 13. Bd2 (13. Bf4 c5 (13... Nh7 14. e5 d5) 14. Nf5
+(14. Nde2 Bc6 15. Ng3 Nd7 16. Nf5 Bf6) 14... Bxf5 15. exf5 d5) 13... Nh7 14.
+Rad1 Bf6 15. Bf4 {Black to Play} Qb8 (15... Ng5 16. Bxg5 Bxg5 17. e5) (15...
+Nf8 16. Bg3) 16. Nb3 Ng5 17. Qd3 Bxc3 (17... Ne6) 18. bxc3 Ne6 19. Be3 a5 20.
+a4 (20. e5 {going after the dark squares looked quite strong.}) 20... c5 21.
+Ra1 Bc6 {[%csl Ra4,Rb3,Gc6,Re4][%cal Gc6a4,Gc6e4] and now Black has an idea
+position for this structure.} 22. c4 Qd8 23. Bd2 Qd7 24. Nxa5 Bxa4 25. Bc3 Ra6
+26. Nb3 Rea8 27. Rab1 Qe7 28. Re3 Nf4 29. Qd2 Ng6 30. Bb2 Be8 31. Rg3 Qxe4 32.
+Re1 Qf5 33. Qc3 f6 34. Rf3 Qg5 35. Rg3 Qf5 36. Rf3 Qg5 37. Rg3 {Hamdouchi -
+Adams 1/2-1/2, 2004 Tripoli.} 1/2-1/2
+
+[Event "London"]
+[Site "London"]
+[Date "2012.09.29"]
+[Round "?"]
+[White "Exchange Ruy"]
+[Black "?"]
+[Result "*"]
+[ECO "C69"]
+[Annotator "Friedel,Josh"]
+[PlyCount "40"]
+[EventDate "2012.09.21"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ENG"]
+[EventCategory "20"]
+[SourceTitle "CBM 151"]
+[Source "ChessBase"]
+[SourceDate "2012.11.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2012.11.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. O-O {This is most flexible, but
+also gives Black many options.} (5. d4 {is the old move, but it allows Black
+to have a nice version of the endgame after} exd4 6. Qxd4 Qxd4 7. Nxd4 Bd7 {
+and 0-0-0}) (5. Nc3 {is an interesting option that will often transpose, but
+it makes Nxd4 options less desireable due to the king still being on e1.} f6 6.
+d4 exd4 7. Qxd4 (7. Nxd4 c5 8. Nde2 Qxd1+ 9. Nxd1) 7... Qxd4 8. Nxd4 Bd7 9. Be3
+O-O-O 10. O-O-O Ne7 {is a direct transposition.} 11. Nb3 b6 12. f4 Ng6 13. a3
+c5 14. Rhf1 Bd6 15. Nd2 Rhe8 16. Nc4 Bf8 17. f5 Nh8 18. a4 Nf7 19. Bf4 b5 20.
+axb5 axb5 21. Nd2 Bc6 22. Rde1 Nd6 23. Bxd6 Bxd6 24. g3 Be5 25. Nd1 Kb7 26. Nf3
+Bd6 27. Nf2 Ra8 28. Kd2 Ra2 29. Ra1 Rxa1 30. Rxa1 Bxe4 31. Nxe4 Rxe4 32. Kd3
+Rb4 33. Kc3 Kc6 34. Rd1 g5 35. fxg6 hxg6 36. b3 g5 37. Rf1 g4 38. Nd2 Rd4 39.
+Nb1 Be5 40. Rf5 Rd8+ 41. Rxe5 b4+ 42. Kb2 fxe5 {0-1 (42) Adhiban,B (2567)
+-Nakamura,H (2772) Tromso NOR 2013}) 5... f6 {This is the simplest way to
+defend the pawn, and doesn't carry a huge risk as White has no light-squared
+bishop.} (5... Qf6 {looks odd, but the idea is to defend the pawn without
+walking into Na3-c4.} 6. d4 exd4 7. Bg5 Qd6 {Black "loses" a tempo, but the
+bishop on g5 is misplaced.} 8. Nxd4 Ne7 9. Nc3 Bd7 {and positions are similar
+to our main line.} 10. Nb3 Qxd1 11. Raxd1 b6 12. Rd2 O-O-O 13. Rfd1 f6 14. Be3
+Ng6 15. Nc1 Bb4 16. N1e2 Ne5 17. b3 Be6 18. Rxd8+ Rxd8 19. Rxd8+ Kxd8 20. h3 c5
+21. Nd5 a5 22. c4 a4 23. Nxb4 cxb4 24. Nd4 Bd7 25. Kf1 c5 26. Nc2 Nc6 27. Ke1
+Na5 28. Nxb4 Be6 29. Kd2 axb3 30. axb3 Bxc4 31. Nc6+ Nxc6 32. bxc4 Kd7 33. Kc3
+Ne7 34. Bf4 Kc6 35. f3 b5 36. cxb5+ Kxb5 37. Bd6 Ng6 38. g3 Kc6 39. Bb8 Nf8 40.
+Kc4 Nd7 41. Bf4 g5 42. Be3 Ne5+ 43. Kc3 Nxf3 44. Kc4 Ne5+ 45. Kc3 Kb5 46. Bf2
+Nc4 47. Bg1 h5 48. Bf2 Ne5 49. Be3 Nf7 50. Bd2 Nd6 51. Kd3 Nc4 52. Bc3 Ne5+ 53.
+Kc2 Kc4 54. Ba1 Kb5 55. Kd2 c4 56. Ke3 Kc5 57. Bd4+ Kb4 58. Ke2 c3 59. Kd1 Kc4
+60. Bb6 Kd3 61. Bd8 Nd7 62. h4 gxh4 63. gxh4 c2+ 64. Kc1 Nc5 {0-1 (64) Duda,J 
+(2737)-Karjakin,S (2773) chess.com INT 2018}) (5... Bg4 {one of the old main
+lines, trying to maintain a pin on the knight using tactics.} 6. h3 h5 (6...
+Bh5 7. g4 Bg6 8. Nxe5 Qh4 {is an interesting pawn sac.}) 7. d3 (7. hxg4 hxg4 {
+is simply bad for White.}) 7... Qf6 8. Be3 (8. Nbd2 {is the most common option,
+which often allows Black to have more fun.}) 8... Bxf3 9. Qxf3 Qxf3 10. gxf3 {
+is an endgame that should be fine for Black, but often it is difficult to play
+since there aren't many dynamic ideas. If White gets in f4 at any point
+unhindered, it is usually bad news, so Black needs to always keep an eye on
+breaks.}) (5... Qd6 {is a sharp line, and White usually plays aggressively
+after} 6. Na3 Be6 7. Qe2 {going for a quick d4 and play against Black's queen.}
+) (5... Bd6 {looks nice, but} 6. d4 exd4 7. Qxd4 {is quite annoying. This is a
+playable line, however, and isn't particularly explored.}) 6. d4 exd4 (6... Bg4
+{is another options, which can lead to more dynamic play.} 7. dxe5 (7. c3 Bd6 {
+leads to sharper play.}) 7... Qxd1 8. Rxd1 fxe5 {is an unusual pawn structure.
+Black's e5 pawn is a clear weakness, but Black also gets excellent development.
+} 9. Rd3 Bd6 10. Nbd2 Nf6 11. Nc4 O-O {with concrete play. Unlike in most
+exchange lines, Black is ahead in development, although if the game becomes
+too simplified White can sometimes use the pawn majority on the kingside.}) 7.
+Nxd4 {doesn't keep the queens on, but it forced Black to commit to c5.} (7.
+Qxd4 Qxd4 8. Nxd4 Bd7 9. Nc3 O-O-O 10. Be3 Bd6 {There is no need to play c5,
+and the pawn on c6 controls the c3 knight well.} 11. Rfd1 Re8 12. Rd2 {Awkward
+move.} (12. f3 f5 {was clearly the fear, but after} 13. Bf2 {I'm sure White is
+OK.}) 12... Ne7 13. Nb3 Be6 14. Nc5 Ng6 {Note how Black doesn't fear the
+capture on e6 due to dynamic counterplay.} 15. f3 (15. Nxe6 Rxe6 16. Rad1 Ne5 {
+and Nc4 is not so easy to counter.} 17. b3 Bb4 18. Bd4) 15... Bf7 16. Nd3 b6
+17. Bf2 Rd8 18. Rad1 Rd7 19. b3 Rhd8 20. Nb1 Be6 21. c4 f5 22. c5 fxe4 23. cxd6
+exd3 24. Rxd3 c5 25. dxc7 Kxc7 26. Rxd7+ Rxd7 27. Rxd7+ Kxd7 28. Bg3 a5 29. Kf2
+b5 30. Nd2 b4 31. Ke2 Kc6 32. Kd1 a4 33. Kc2 a3 34. Nf1 c4 35. Ne3 cxb3+ 36.
+axb3 Nf8 37. Be5 g6 38. Bg7 Nd7 39. Nf1 Nc5 40. Nd2 h5 41. Bf8 Kd5 42. h3 Bf5+
+43. Kc1 Nd3+ 44. Kb1 Kd4 45. g4 Be6 46. Kc2 Ne1+ 47. Kb1 Nd3 48. Kc2 h4 49.
+Bg7+ Ke3 50. Bh6+ Ke2 51. Kb1 Nf2 52. Nc4 Nxh3 53. Ne5 g5 54. Nc6 Bd5 55. Nxb4
+Bxb3 56. Nc6 Ke3 57. Ne5 Kf4 58. Ng6+ Kg3 {Nakamura-Ivanchuk}) 7... c5 8. Nb3 (
+8. Ne2 Qxd1 9. Rxd1 Bd7 {It is important to allow castling.} 10. Nbc3 O-O-O 11.
+Be3 (11. Bf4 g5 {This active idea has merit.} (11... Ne7 {is also fine.}) 12.
+Bg3 Ne7 13. f3 Bg7 {[%cal Gf6f5] Black is aiming for f5, and has great play.})
+11... Re8 12. Rd2 Bc6 13. Rad1 {White will often delay f3 to discourage f5.} b6
+14. a4 Ne7 (14... a5 {is possible, but giving White Nb5 options isn't ideal.})
+15. a5 {This looks counterintuitive, "fixing" Black's pawns, but White needs
+to play dynamically to use the development edge.} Kb7 16. axb6 (16. Rd8 Rxd8
+17. Rxd8 Ng6 {and Black is OK}) 16... cxb6 17. f3 f5 {Black tries to secure
+counterplay by creating a weakness.} 18. Rd8 Rxd8 19. Rxd8 Kc7 20. Rd1 fxe4 21.
+fxe4 Ng6 22. Nf4 Be7 23. Ncd5+ Bxd5 24. Nxd5+ Kc6 25. Nxe7+ Nxe7 26. Bf4 Ng6
+27. Rd6+ Kb5 {Black's active king helps provide counterplay.} 28. Bg5 Re8 29.
+Bd8 Rxe4 (29... Kc4 30. Bxb6 Rxe4) 30. Rxb6+ Kc4 31. Kf2 Rd4 32. Bg5 Rd5 33.
+Be3 Ne5 34. h3 a5 35. Re6 h5 36. Ke2 a4 37. Bd2 Kb5 38. Bc3 Nc4 39. Rg6 a3 40.
+b3 Nb2 41. Rxg7 Rd1 42. Ra7 Rc1 43. Kd2 Rd1+ 44. Ke3 Rc1 45. Kd2 Rd1+ 46. Ke2
+Rc1 47. Ra5+ Kb6 48. Kd2 Rd1+ 49. Ke2 Rg1 50. Kf3 Rf1+ 51. Ke2 Rg1 52. Kf3 Rf1+
+{1/2-1/2 (52) Guseinov,G (2664)-Onischuk,A (2647) Astana KAZ 2019}) 8... Qxd1
+9. Rxd1 Bg4 {provoking the pawn on f3 assists Black tactically.} (9... Be6 {
+is playable, but after} 10. Bf4 c4 11. Nd4 O-O-O 12. Nc3 Bf7 13. Nf5 {it is
+harder to finish development harmoniously.}) 10. f3 Be6 {The idea of c4 will
+alow Black to castle.} 11. Nc3 (11. Be3 b6 {will likely transpose.}) (11. Bf4
+c4 12. Nd4 O-O-O 13. Nc3 Bf7 (13... Bc5 {is also playable here, but it is
+unclear you want to trade bishops after Be3-Nf5.}) 14. Nf5 Rxd1+ {This feels
+counterintuitive, but Black will be able to force White back.} 15. Rxd1 g6 16.
+Ne3 Bc5 {followed by Ne7 with easy play.}) 11... Bd6 12. Be3 b6 13. a4 {
+This idea is quite common. White has to create weaknesses quickly, as the
+kingside majority is tough to realize and Black will have great play once
+development is completed.} O-O-O (13... a5 {is playable, but you have to be
+cautious allowing Nb5.} 14. Nb5 O-O-O 15. Nxd6+ cxd6 16. Nd2 {Black to Move} d5
+(16... Ne7 17. c4 f5 {and Black should be fine.}) 17. exd5 Bxd5 18. b4 $1 (18.
+Re1 {also looks annoying, since the g8 knight can't be developed immediately.})
+18... axb4 19. a5 {Black is not prepared for dynamic play.} bxa5 20. Bxc5 Nh6
+21. Rxa5 Rhe8 22. Bb6 Rd6 23. Nc4 Bxc4 24. Rxd6 Re1+ 25. Kf2 Re2+ 26. Kg3 {
+1-0 (26) Mamedyarov,S (2735)-Ragger,M (2688) Vienna AUT 2015}) (13... Kf7 {
+is also a move, with the idea of} 14. a5 c4 15. Nd4 b5) 14. a5 {Black to Play}
+Bxb3 (14... Kb7 15. e5 $1 fxe5 16. axb6 cxb6 17. Ne4 {and Black has tactical
+issues.} Be7 18. Rxd8 Bxd8 19. Nbxc5+ bxc5 20. Nxc5+) 15. cxb3 b5 16. Nd5 Ne7 {
+This should allow Black to equalize.} 17. Rac1 Nxd5 18. Rxd5 Be5 19. Rcxc5 {
+1/2-1/2 (19) Nisipeanu,L (2684)-Onischuk,A (2664) Foros 2008} (19. Rdxc5 Rd3)
+19... Rxd5 20. Rxd5 (20. exd5 Rd8) 20... Bxb2 *
+
+[Event "22nd North American Open"]
+[Site "Las Vegas USA"]
+[Date "2012.12.27"]
+[Round "3.12"]
+[White "Delayed Exchange Structure"]
+[Black "Bc6-dc6 with a N on f6"]
+[Result "*"]
+[ECO "C85"]
+[WhiteElo "2240"]
+[BlackElo "2494"]
+[Annotator "Friedel,Josh"]
+[PlyCount "113"]
+[EventDate "2012.12.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "USA"]
+[SourceTitle "The Week in Chess 947"]
+[Source "Mark Crowther"]
+[SourceDate "2012.12.31"]
+[SourceVersion "2"]
+[SourceVersionDate "2013.01.01"]
+[SourceQuality "2"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 (3... Nf6 {You can also get to a delayed
+exchange pawn structure with d3 anti-berlin lines, something very common in
+modern practice.} 4. d3 Bc5 (4... d6) 5. Bxc6 dxc6 6. O-O (6. Nbd2 Be6 7. O-O
+Bd6 (7... Nd7 8. Nb3 Bb6 (8... Be7 9. d4) (8... Bd6 9. Na5 {[%cal Ga5b7,Ga5c6]}
+Rb8 (9... Bb4 10. Nxb7 Qc8 11. a3) 10. Ng5 {[%csl Re6][%cal Gg5e6,Ga5c4]}) 9.
+Ng5 Bxb3 10. axb3 f6 11. Nf3 (11. Ne6 Qe7) 11... Nc5 12. Nd2 O-O 13. Nc4 Ne6 {
+[%csl Rb6,Ge6]}) 8. d4 (8. b3 Nd7 9. Nc4 Bxc4 10. bxc4) 8... Nd7 9. dxe5 Nxe5
+10. Nxe5 Bxe5 11. f4 Bd4+ 12. Kh1 {[%cal Gf4f5,Gd2f3]} f5 (12... f6 13. f5 Bf7
+14. Nf3 Bc5 15. Qe2 (15. Qe1 Bc4) 15... O-O 16. b3 {[%cal Gc1b2,Ge4e5,Gb2g7]})
+13. Qh5+ g6 14. Qe2 O-O 15. Nf3 Bf6 16. e5 Be7 17. Rd1 Qe8 18. Nd4 $14 Qf7 19.
+Nxe6 Qxe6 20. Be3 {[%csl Ge5]} Rad8 21. c4 a6 22. b3 Kf7 23. h3 h5 24. Bf2
+Rxd1+ 25. Rxd1 Rd8 26. Rxd8 Bxd8 27. Qe1 Qe7 28. Kh2 Ke6 29. Qd2 Qd7 30. Qb4
+Kf7 31. Qxb7 Qd2 32. e6+ Kg7 33. Bg1 Qxf4+ 34. Kh1 Qd6 35. Qxa6 Qxe6 36. Qa7 g5
+37. a4 g4 38. Qe3 Qc8 39. Qe8 gxh3 40. Bd4+ Kh6 41. Bf6 hxg2+ 42. Kxg2 f4 43.
+Qg8 Qd7 44. Qg5+ Kh7 45. Qxh5+ Kg8 46. Qh8+ Kf7 47. Qg7+ Ke6 48. Qxd7+ Kxd7 49.
+Bxd8 Kxd8 50. Kf3 {1-0 (50) Anand,V (2757)-So,W (2760) Kolkata IND 2019}) (6.
+Nxe5 $2 Qd4 $19) 6... Nd7 (6... Qe7 7. Nbd2 {[%csl Re5][%cal Gd2c4]} Bg4 (7...
+O-O 8. Nc4 Nd7 9. Ne3 {[%csl Re7][%cal Ge3f5]}) 8. h3 Bh5 9. a3 {[%csl Rc5]
+[%cal Gb2b4]} (9. Nc4 Nd7 10. Bd2 {[%cal Gb2b4]}) 9... a5 10. Nc4 Nd7 11. g4
+Bg6 12. b4 axb4 13. Bg5 f6 14. axb4 {with a nice initiative for White.}) 7. c3
+{[%csl Rc5][%cal Gd3d4]} (7. Be3 Bd6 {accepting a tempo loss.} (7... Bxe3 8.
+fxe3 Qe7 {[%cal Gd1e1,Gb1c3,Gd3d4,Gf3h4,Gh4f5] Probably not so bad, but plans
+are harder to come by for Black.}) 8. Nbd2 O-O 9. Nc4 Re8) (7. Nbd2 O-O 8. Nc4
+Re8 {solid, similar to normal delayed exchange lines.}) 7... O-O 8. d4 Bd6 (
+8... exd4 9. cxd4 Be7 (9... Bd6 10. Bg5 f6 11. Bh4 {[%cal Gf1e1,Gb1c3]}) 10.
+Nc3 Nb6 {[%csl Rd4][%cal Gc8g4]} 11. h3 {[%csl Gd4,Ge4][%cal Gf1e1,Gc1f4]}) 9.
+Bg5 f6 10. Bh4 Qe8 11. Nbd2 Nb6 12. h3 $6 {slow, and Bg4 no longer puts real
+pressure on d4. Black to Play.} (12. Re1 Bg4 (12... exd4 13. cxd4 Be6 14. Bg3 {
+[%cal Ge4e5]} Rd8 15. Qc2 (15. e5 fxe5 16. Nxe5 Bd5 {[%csl Gd5,Ge5]}) 15... Qf7
+16. e5 fxe5 17. Ng5 $6 Qf5) (12... Be6 13. Bg3 Nd7) 13. Qc2 Kh8 14. Bg3 Nd7 {
+a bit passive.} (14... Qh5 15. h3 Be6 $13 {[%cal Gh5e5]}) 15. h3 (15. Nh4 Qf7
+16. Qd3 Be6 17. Nf5 Rad8 18. Nxd6 cxd6 19. c4 c5 20. d5 Bg4 21. a3 b6 22. b4 f5
+23. Bh4 Nf6 24. f3 fxe4 25. Nxe4 Bf5 26. bxc5 bxc5 27. Rab1 Rd7 28. Rb2 Qh5 29.
+Bg3 Nxe4 30. fxe4 Bg6 31. h3 {1/2-1/2 (31) Balogh,C (2638)-Parligras,M (2603)
+Achaea GRE 2017}) 15... Be6 16. c4 exd4 17. Bxd6 cxd6 18. Nxd4 {[%csl Rd6]})
+12... exd4 $1 13. cxd4 Qg6 $1 {[%csl Rh3,Rh4][%cal Gh4g3,Gg6g3,Gd6g3,Gc8h3]} (
+13... Be6 14. Bg3 $1 $13) 14. Kh1 Be6 $15 {[%csl Rd4,Gd6,Re4,Ge6,Rh4]} 15. a3
+Bf4 16. Re1 f5 17. exf5 Bxf5 18. Qb3+ Nd5 19. Qxb7 Rab8 20. Qxa7 Rxb2 21. Nc4
+Bxh3 22. gxh3 Qd3 23. Kg2 Bd6 24. Ng1 Rfxf2+ 25. Bxf2 Qg3+ {0-1 (25) Robson,R 
+(2667)-Sevian, S (2642) Saint Louis USA 2019}) 4. Ba4 (4. Bxc6 dxc6 5. O-O f6
+6. d4 (6. d3 Ne7)) 4... Nf6 5. O-O (5. Bxc6 {The most direct move order.} dxc6
+6. d3 {[%csl Re5,Rf6]} Nd7 (6... Bd6 {is also a move.}) 7. Nbd2 Bd6 8. Nc4 O-O
+9. O-O Re8 10. b3 Nf8 11. Bb2 f6 12. Nfd2 (12. Nh4 {[%csl Rf6][%cal Gd8h4]} Ne6
+13. Nf5 Bf8 {[%cal Gc6c5,Ge6d4]} 14. Kh1 g6 (14... c5) 15. Nfe3) 12... Ne6 13.
+Kh1 b5 14. Ne3 (14. Nxd6 cxd6) 14... c5 15. a4 Rb8 16. Nf5 Bf8 17. axb5 axb5
+18. Qg4 Kh8 19. Qh4 Nd4 (19... Nf4) 20. Ne3 {Black to Play.} (20. Nxd4 cxd4 (
+20... exd4) 21. f4) 20... Nxc2 21. Nxc2 Qxd3 22. Qh5 Be6 23. Qd1 Red8 24. Nf3
+Qxe4 25. Qc1 Bxb3 26. Ne3 Bg8 27. Ra7 Qc6 28. Ng4 Ra8 29. Nfxe5 fxe5 30. Nxe5
+Qd6 31. Rxa8 Rxa8 32. Rd1 Qe6 33. Nd7 Bd6 34. Nxc5 Qf5 35. Qc3 Qg4 36. f3 b4
+37. Qe3 Qh5 38. Rxd6 cxd6 39. Ne4 Qg6 {0-1 (39) Baratosi,D (2407)-Beliavsky, A
+(2630) Plovdiv 2012}) 5... Be7 6. Bxc6 dxc6 7. d3 (7. Qe1 {is a rarer line.}
+Nd7 8. b3 O-O 9. Bb2 Bd6 10. d3 Re8) 7... Nd7 8. Nbd2 O-O 9. Nc4 f6 {main line.
+} (9... Bd6 {tempo down.} 10. d4) (9... Bf6 {[%cal Gf6e5,Gf6h4]} 10. b3 Re8 11.
+Bb2 b6 12. Re1 (12. h3 c5 13. Nh2 {[%csl Gg4][%cal Gh2g4]} Nb8 $1 {[%cal Gc8g4,
+Gb8c6]}) 12... c5 13. Qd2 g6 14. a4 Bg7 15. h3 (15. h4 $5 Qe7 16. h5 Bb7) 15...
+f6 16. Kh1 Nf8 (16... Nb8 17. b4) 17. Ng1 (17. b4 Ne6) 17... Ne6 18. Ne2 Bb7
+19. Qe3 Nd4 20. Nxd4 cxd4 21. Qd2 Qd7 22. Bc1 Re6 23. Qe2 Rf8 24. Bd2 Rd8 25.
+Rf1 Ba8 26. f3 Ree8 27. Qf2 Bb7 28. Qg3 Re6 29. Kg1 Rf8 30. Qh4 Qe8 31. g4 Bc8
+32. Qg3 f5 33. Rf2 b5 34. axb5 axb5 35. Na5 Qe7 36. Raf1 fxe4 37. fxe4 c5 38.
+Rg2 Rxf1+ 39. Kxf1 Ra6 40. Qe1 Be6 41. Ke2 Qc7 42. Rf2 Qc8 43. Rg2 c4 44. b4
+Bf8 45. Qb1 c3 46. Bg5 h5 47. Rg3 hxg4 48. h4 Qc7 49. Rg2 Qd6 50. Qf1 Bg7 51.
+Qb1 Ra7 52. Qc1 Rf7 53. Bh6 Qxb4 54. Bxg7 Kxg7 55. Nc6 Qb2 56. Qd1 b4 57. Nxe5
+b3 58. Rg1 g3 59. Rxg3 bxc2 60. Rxg6+ Kh7 {Vibbert-Friedel 2012 0-1}) 10. Nh4
+Re8 (10... Nc5 11. Nf5 Bxf5 12. exf5 Qd5 {old line.} 13. Qg4 Rfe8 14. Re1 Rad8
+15. Bh6 Bf8 16. Nd2 $1 {[%csl Ge4][%cal Gh6e3,Ge3c5,Gd2e4]} Kh8 17. Be3 b5 18.
+Bxc5 Bxc5 19. Ne4) (10... g6 $5 {[%csl Rg7,Rh4,Rh6][%cal Gg6f5]} 11. Bh6 Rf7
+12. d4 (12. f4 exf4 13. Rxf4 Ne5 (13... g5 14. Nf5 gxf4 15. Qg4+ Kh8 16. Bg7+
+Kg8 17. Nh6#) 14. Nxe5 Qd4+ 15. Kh1 Qxe5 16. d4 Qe6 $13) 12... exd4 13. Qxd4
+Nb6 14. Qc3 Nxc4 15. Qxc4 Qd6 $13) 11. Nf5 Bf8 12. f4 exf4 13. Bxf4 Nc5 14.
+Nce3 Ne6 15. Bg3 Nd4 (15... g6 $5 16. Nh4 Bc5 $13) 16. Kh1 Nxf5 (16... c5 $5)
+17. Nxf5 Be6 18. b3 Qd7 19. Qf3 a5 20. a4 Bb4 {[%cal Gb4e1,Ga1e1,Gd7g7]} 21.
+Be1 Bxe1 22. Raxe1 Bxf5 23. Qxf5 Qd6 $11 (23... Qxf5 24. Rxf5) 24. Qf2 b5 25.
+Ra1 Re5 26. Ra2 b4 27. Raa1 c5 28. Rae1 Rae8 {Black is doing well, despite
+going on to eventually lose the game.} 29. Re3 Rg5 30. Rf3 Ree5 31. h3 h5 32.
+Qe2 Qd7 33. Re3 Re8 34. Rff3 Rge5 35. Rf4 Qd4 36. Rg3 Kf7 37. Rgf3 c6 38. Qf1
+Qd6 39. Rf2 R8e6 40. Qe2 g6 41. Qe3 Kg7 42. Rf1 Rg5 43. Qf2 Qd4 44. Qh4 Qe5 45.
+R4f3 Rd6 46. Qe1 Re6 47. Qd2 Qd6 48. Rf4 Qd4 49. Qe1 Qd6 50. h4 Rge5 51. g4
+hxg4 52. Rxg4 f5 53. Rgf4 Re7 54. Qf2 fxe4 55. Rf7+ Kg8 56. Rf8+ Kg7 57. Qf7+ {
+1-0 (57) Ivanchuk,V (2747)-Matlakov,M (2694) Doha QAT 2016} *
+
+[Event "Saint Louis USA"]
+[Site "Saint Louis USA"]
+[Date "2020.02.27"]
+[Round "?"]
+[White "Berlin"]
+[Black "Ke8 and Kc8 plans"]
+[Result "0-1"]
+[ECO "C67"]
+[Annotator "Friedel,Josh"]
+[PlyCount "90"]
+[EventDate "2019.03.02"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 (3... a6 4. Bxc6 dxc6 5. O-O f6 6. d4 exd4 7.
+Nxd4 c5 8. Nb3 Qxd1 9. Rxd1 {Exchange Ruy endgame.}) 4. O-O Nxe4 5. d4 Nd6 6.
+Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8 {[%csl Rd8,Re5,Ge6,Gf5]} 9. h3 {A modern
+take, with the idea of threatening to play g4 at an earlier moment.} (9. Rd1+ {
+forces the king to e8, but commits the f-rook to d1.} Ke8 (9... Bd7 10. Ng5 (
+10. e6 fxe6 11. Ne5 Nd6) 10... Nh6 (10... Ke8 11. Nxf7)) 10. Nc3 Ne7 11. h3 h6
+12. b3 (12. Bf4 Ng6 13. Bh2) 12... Ng6 13. Bb2 Nf4 14. Rd4 (14. Rd2 Bb4 15. a3
+Bxc3 16. Bxc3 Be6 (16... b6) (16... Ne6) 17. Rad1 c5 18. b4 cxb4 19. axb4 c6 {
+This move often causes problems.} (19... Ke7 20. b5 Rhd8) 20. Bd4 b6 21. Bb2
+Nd5 22. Nd4 Nxb4 23. c3 Na6 24. Nxc6 f6 25. exf6 gxf6 26. Rd6 Nc7 27. Nd4 Kf7
+28. Rc6 Rhc8 29. Nxe6 Nxe6 30. Rd7+ Ke8 31. Rxc8+ Rxc8 32. Rxa7 Rc7 33. Ra8+
+Kf7 34. Rb8 Rc6 35. Bc1 h5 36. Be3 Rxc3 37. Rxb6 Rc4 38. g3 Ng7 39. Kg2 Nf5 40.
+Bd2 Rc2 41. Bf4 Rc4 42. Kf3 Nd4+ 43. Ke3 Nf5+ 44. Kd3 Rd4+ 45. Ke2 Ra4 46. Bc1
+Nd4+ 47. Kd3 Ne6 48. Bb2 Ra5 49. Ke3 Rf5 50. f4 Ra5 51. g4 hxg4 52. hxg4 f5 53.
+g5 Ra4 54. g6+ Ke7 55. Rb7+ Ke8 56. Be5 Re4+ 57. Kf3 Re1 58. Kf2 Rc1 59. g7
+Nxg7 60. Rxg7 Kf8 61. Rb7 Ke8 62. Kg3 Rh1 63. Rb2 Kf7 64. Rh2 Rg1+ 65. Kf3 Rf1+
+66. Ke2 Rc1 67. Rh6 Ke7 68. Rf6 Rh1 69. Rxf5 Ke6 70. Rf8 Kd5 71. Kf3 Rf1+ 72.
+Kg4 Ke4 73. Kg5 Rg1+ 74. Kf6 Rb1 75. Rd8 Rb6+ 76. Rd6 Rb5 77. Rd4+ Kf3 78. f5
+Ke3 79. Ra4 Rb6+ 80. Ke7 Rb5 81. Ke6 {1-0 (81) Hong,A (2390)-Sargissian,G 
+(2689) chess.com INT 2019}) 14... Ne6 {[%csl Ge6]} 15. Rd2 Bb4 16. Rad1 c5 (
+16... a5 17. a3 Bxc3 18. Bxc3 b6) 17. Nh2 b6 18. f4 Bb7 19. Rf2 (19. f5 Nd4 {
+[%csl Rf5]} 20. Rf1 (20. g4 $2 h5 $1 $36 {[%cal Gh8h3]}) 20... Rd8) 19... c4 (
+19... Rd8 20. Rxd8+ Kxd8 21. f5 Nd4) 20. f5 Ng5 21. Nb5 Rc8 22. Nxa7 (22. bxc4)
+22... Rd8 23. Rxd8+ Kxd8 24. Nb5 Ne4 25. Rf4 Bd2 26. Rg4 (26. Rf3) 26... c3 27.
+Ba1 Rh7 {[%csl Rg4]} 28. Nf1 h5 29. Rxe4 Bxe4 30. Nxc3 Bxc3 31. Bxc3 Bxf5 32.
+Ne3 Be4 33. Kf2 h4 34. Bb2 Kd7 35. a3 Ke6 36. Ke2 Rh8 37. Kf2 Rd8 38. Ke2 f5
+39. exf6 gxf6 40. Bc1 f5 41. Kf2 Rg8 42. Bd2 Rg3 {0-1 (42) Xiong,J (2376)
+-Friedel,J (2485) Wheeling USA 2013}) (9. Nc3 {is the main move and is most
+flexible.} Bd7 {[%cal Gd8c8]} (9... Ke8 10. h3 Be7 {[%cal Gf5h4]} (10... Ne7 {
+[%cal Ge7g6]}))) 9... Bd7 {[%cal Gd8c8,Gb7b6,Gc8b7]} (9... Ke8 10. Nc3 h5 (
+10... Be7 11. g4 Nh4 12. Nxh4 Bxh4 13. Rd1 (13. Kg2 h5 14. f3) 13... Be7 14.
+Kg2 h5 15. f3 Be6 16. Ne2 Rd8 17. Be3 a6 18. Nf4 g6 (18... Rxd1 19. Rxd1 hxg4
+20. hxg4 Bd7) 19. Rxd8+ Kxd8 20. Rd1+ Kc8 21. Nxe6 fxe6 {[%csl Rc6,Rc7,Ge5,Gf3,
+Gg4,Gh3]} 22. f4 b5 23. b3 Rh7 24. Bf2 hxg4 25. hxg4 Rh8 26. Rh1 Rxh1 27. Kxh1
+Kd7 28. Kg2 Bb4 29. Kf3 Ke8 30. Ke4 Ke7 31. Bh4+ Ke8 32. f5 gxf5+ 33. gxf5
+exf5+ 34. Kxf5 Bc3 35. Bf2 Ke7 36. e6 Ke8 37. Bg3 Ba5 38. Be5 Bb6 39. c3 c5 40.
+c4 Ba5 41. Kf6 c6 42. e7 Be1 43. Ke6 Bh4 44. Kd6 Bxe7+ 45. Kxc6 bxc4 46. bxc4
+Kd8 47. Bd6 Bh4 48. Bxc5 Kc8 49. Kb6 a5 50. Kxa5 Kb7 51. Kb5 Bg3 52. a4 Ka8 53.
+Be3 Bd6 54. Bd2 Kb7 {1-0 (54) Jakovenko,D (2737)-Wang Yue (2736) Elista 2008})
+(10... Ne7 11. Re1 Ng6 12. Ne4 h6 13. Bd2 c5 14. Rad1 Be6 15. a3 Rd8 16. Ng3
+Bd5 17. Nh2 Nh4 (17... h5) 18. f3 Be6 19. Ng4 Nf5 (19... Be7) 20. Nxf5 Bxf5 21.
+Ne3 Be6 22. f4 g6 23. g4 h5 24. f5 gxf5 25. gxf5 Bc8 26. Bc3 {[%csl Ge5,Gf5]}
+Rxd1 27. Rxd1 c6 28. Kf2 Rg8 29. Kf3 Be7 30. Ke4 Rg3 31. e6 Bg5 32. Nc4 fxe6
+33. f6 b5 34. Nd6+ Kf8 35. Bd2 Bd7 36. Bf4 Bxf4 37. Kxf4 Rxh3 38. Ne4 e5+ 39.
+Kxe5 Be8 40. Rd8 Re3 41. Kf4 Re1 42. Nd6 Rf1+ 43. Kg5 Rg1+ 44. Kh6 Rg6+ 45. Kh7
+{1-0 (45) Volokitin,A (2684)-Alekseev,E (2711) Foros 2008 CBM 125 [Marin,M]})
+11. Bf4 Be7 12. Rad1 Bd7 (12... Be6 {most common} 13. Ng5 {Black to Play} Rh6 (
+13... Bxg5 14. Bxg5 {[%csl Rd8,Re7,Gg5][%cal Gg5d8,Rh7h5,Gh7h6]}) (13... Bc4
+14. Rfe1) (13... Rd8 14. Nxe6 fxe6 15. Rxd8+ Kxd8 16. Ne4 {[%csl Rg5]}) 14. g3
+(14. Nxe6 Rxe6 {[%cal Ga8d8,Gf7f6,Ge7f6]} 15. Ne4 f6 {[%csl Re4][%cal Ge6e4]}
+16. g4 hxg4 17. hxg4 Nh4) 14... Bxg5 15. Bxg5 Rg6 16. h4 (16. Bf4 Nh4 17. Kh2
+Nf3+ 18. Kg2 Nh4+) 16... f6 17. exf6 gxf6 18. Bf4 Nxh4 19. f3 Rd8 20. Kf2 Rxd1
+21. Nxd1 (21. Rxd1 Nxf3 {[%cal Ge6g4]}) 21... Nf5 22. Rh1 Bxa2 23. Rxh5 Be6 24.
+Bxc7) 13. g3 {[%cal Gh5h4,Gf5h4]} (13. Ng5 {[%cal Ge5e6]} Rd8 (13... Rh6 14.
+Nxf7 Rg6 (14... Kxf7 15. Bxh6)) 14. e6 Bxe6 15. Nxe6 fxe6 16. Bxc7 Rd4 17. Rfe1
+(17. Be5 Rxd1 18. Rxd1 Bf6 19. Bc7) 17... Kf7 18. Be5 Rxd1 19. Rxd1 Rd8 20. Kf1
+Rxd1+ 21. Nxd1 Bf6 22. Bb8 a6 23. Ke2 b5 24. Kd3 Nh4 25. g4 hxg4 26. hxg4 Ng6
+27. f4 Nf8 28. b3 Nd7 29. Bd6 e5 30. f5 Bh4 31. Nc3 Nf6 32. Bxe5 Nxg4 33. Bd4
+Be7 34. Ne2 g6 35. fxg6+ Kxg6 36. c4 Kf5 37. cxb5 cxb5 38. a4 Ne5+ 39. Bxe5
+Kxe5 40. axb5 axb5 41. Nd4 Kd5 42. Nxb5 Bb4 43. Nc3+ {1/2-1/2 (43) Kokarev,D 
+(2622)-Malakhov,V (2703) Sochi RUS 2016}) 13... Rd8 14. Bg5 (14. Ng5) 14... Bc8
+(14... Be6) 15. Rxd8+ Bxd8 16. Bxd8 Kxd8 17. Ne2 Ne7 18. Ng5 Ke8 19. Kg2 {
+Black to move.} f6 (19... Ng6 {[%cal Ge8e7] also OK, but allows} 20. Nd4 Ke7
+21. f4) 20. exf6 gxf6 21. Ne4 Kf7 22. Nf4 Nd5 23. Nd3 Rd8 24. Re1 a5 25. a3 b6
+26. c4 Ne7 27. Nf4 h4 28. Nh5 Ng8 29. gxh4 c5 30. Nf4 Rd4 31. Nd5 (31. f3 Rxc4
+32. Nd5 $13 Rc2+ 33. Kg3 Rxb2 34. Nxc7) 31... Bb7 32. f3 Bxd5 33. cxd5 Rxd5 34.
+Nc3 Rd4 35. Re4 Ne7 36. h5 Rd2+ 37. Re2 Rd8 38. Re4 Nf5 39. Kf2 Rh8 40. Nd5
+Rxh5 41. Nxc7 Rxh3 42. Kg2 Rh8 43. Nd5 b5 44. Rf4 Rh5 45. Kg1 a4 46. Kf2 Nd4
+47. Nxf6 Rh2+ 48. Ke3 Ke6 49. Ng4 Rxb2 50. Rf6+ Kd5 51. Kf4 Ne6+ 52. Kf5 Rb3
+53. Ne5 Nd4+ 54. Kf4 Ne2+ {Kasimdzhanov - Liem 0-1 (St. Louis 2019)}) 10. Rd1 (
+10. Nc3 h6 11. Rd1 Kc8 12. a4 a5 13. b3 b6 14. Bb2 Ne7 15. Rd2 c5 16. Ne2 (16.
+Rad1 {Where to go with the Bishop?} Be6 (16... Bc6 $2 17. Nb5 Kb7 18. e6 fxe6
+19. Ne5 {[%csl Rb7,Re7,Rf8][%cal Gd2d8,Gd2d7]}) 17. Nb5 Nc6 {[%cal Gc8b7,Gf8e7]
+}) 16... Ng6 17. Rad1 Be6 18. c4 Be7 19. Nc3 Kb7 20. Nd5 Rad8 21. Nxe7 Rxd2 22.
+Nxd2 Nxe7 {[%csl Ra4,Rb2,Rb3,Rc4,Ge6]} 23. Nf1 Kc8 24. f3 g5 (24... h5) 25. Ng3
+Rd8 26. Rxd8+ Kxd8 27. Kf2 Bf5 28. Nxf5 Nxf5 29. g4 Nd4 30. Bxd4 cxd4 31. Ke2
+Kd7 32. Kd3 c5 33. Ke4 Ke6 34. f4 gxf4 35. Kxf4 d3 36. Ke3 Kxe5 37. Kxd3 Kf4
+38. Ke2 Kg3 39. Ke3 Kxh3 40. Kf4 Kh4 41. Kf5 Kg3 {0-1 (41) Grischuk,A (2764)
+-Kramnik,V (2810) London ENG 2013}) 10... Kc8 (10... Be7 11. g4 Nh4 12. Nxh4
+Bxh4 13. Nd2 Kc8 14. Nf3 Be7 15. Bg5 Bc5 16. Rd3 b6 17. Be3 Bxe3 18. Rxe3 h6 (
+18... h5 19. Ng5) 19. Rd1 c5 20. Nh4 g5 21. Nf5 Bxf5 (21... Be6 22. Ng7) 22.
+gxf5 Kb7 23. Kg2 Rad8 24. Rxd8 Rxd8 25. Kf3 c4 26. Re4 b5 27. Kg4 Kc8 28. e6
+fxe6 29. fxe6 Rh8 30. Kf5 Kd8 31. e7+ Ke8 32. Kg6 {1-0 (32) Vachier Lagrave,M 
+(2780)-Topalov,V (2737) Jerusalem ISR 2019}) 11. g4 Ne7 12. Ng5 Be8 13. f4 h6
+14. Nf3 {Black to Play, deal with f5} (14. Ne4 b6 15. c4 h5 16. Kf2 Ng6 17.
+Nbc3 Be7 18. b3 Bd7 19. Kg3 Bh4+ 20. Kf3 Be7 21. Nf2 hxg4+ 22. hxg4 f5 23. exf6
+Bxf6 24. Bb2 c5 25. Rd2 Rf8 26. f5 Nh4+ 27. Kg3 Be5+ 28. Kxh4 Bf4 29. Kh3 Bxd2
+30. Nce4 Bh6 31. Rd1 Bc6 32. g5 Rxf5 33. gxh6 gxh6 34. Kg4 Rf7 35. Nf6 Kb7 36.
+Rd2 Rg7+ 37. Kf4 Rg2 38. Be5 Rf8 39. Ke3 Rg5 40. Kf4 Rg2 41. Ke3 h5 42. Nd3
+Rxd2 43. Kxd2 h4 44. Nf4 Rh8 45. Ng4 Re8 46. Bf6 Re4 47. Bg5 h3 48. Nh2 Bd7 49.
+Ne2 Bf5 50. Be3 Re8 51. Nf4 Bb1 52. Nf1 Bxa2 53. Nxh3 Bxb3 54. Kc3 Bd1 55. Nf4
+a5 56. Bc1 Bg4 57. Ne3 Be6 58. Nd3 Rh8 59. Ba3 Rh3 60. Kd2 Rh2+ 61. Kc3 Rh3 62.
+Kd2 Bg8 63. Bc1 Bh7 64. Nf4 Rh4 65. Ne2 c6 66. Ba3 Ka6 67. Kc3 Re4 68. Kd2 Re8
+69. Nc1 Bg6 70. Ng4 Re4 71. Ne3 Rh4 72. Ne2 Bh7 73. Nc1 Rd4+ 74. Kc3 Kb7 75.
+Nf1 Kc7 76. Nd2 Rh4 77. Kb2 Rh2 78. Kc3 Rh3+ 79. Kb2 Rh2 80. Kc3 Kd6 81. Ncb3
+Rh3+ 82. Kb2 Rh2 83. Kc1 Rh4 84. Kb2 a4 85. Nf3 Rxc4 {0-1 (85) Shankland,S 
+(2717)-Howell,D (2692) Saint Louis USA 2019}) 14... f5 $1 (14... c5 {[%cal
+Ge8c6]} 15. f5 Bc6 16. Kf2) (14... h5 15. f5 hxg4 16. hxg4 {[%cal Gg1g2,Gg2g3,
+Gc1f4,Gb1c3]}) 15. Kg2 (15. exf6 gxf6 16. Kf2 h5 17. Nc3 c5 18. f5 Bc6) 15...
+Bd7 16. Kg3 (16. g5 c5 17. Kg3 Bc6 {[%cal Ge7g6,Gh6g5]}) 16... fxg4 17. hxg4 h5
+{[%csl Rg3,Rg4][%cal Gd7g4]} 18. gxh5 (18. g5 Nf5+ 19. Kg2 b6) 18... Rxh5 19.
+Nc3 Rh3+ 20. Kg2 Bg4 21. Rd3 Nf5 22. Ng1 (22. Ne4 Be7 (22... Rxf3 23. Rxf3 Nh4+
+24. Kg3 Bxf3 25. Ng5)) 22... Nh4+ 23. Kf1 Rh1 24. Be3 Bf5 25. Rd2 Be7 26. Kf2
+Bxc2 27. Nce2 Rh2+ 28. Kf1 (28. Kg3 Rg2+ 29. Kh3 Bf5#) 28... Nf5 29. Bf2 Be4
+30. Nc3 Bg2+ 31. Ke2 b6 32. Nf3 Rh3 33. Ne1 Rh1 34. Rad1 Bf1+ 35. Kf3 Kb7 36.
+Ng2 Rh3+ 37. Kg4 Bxg2 38. Kxf5 Bf3 39. Rd3 Rf8+ 40. Ke6 Bb4 41. Rg1 Rh6+ 42.
+Kd7 Bh5 43. Rxg7 Be8+ 44. Kd8 Bf7+ 45. Kd7 Be6# {0-1 (45) Adams,M (2703)
+-McShane,L (2664) London ENG 2018} 0-1
+

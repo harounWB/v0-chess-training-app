@@ -1,0 +1,1348 @@
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Preface"]
+[Black "Introduction"]
+[Result "*"]
+
+{ @@StartBlockQuote@@“Nobody ever won a chess game by resigning.” – Savielly Tartakower@@EndBlockQuote@@This course concentrates on selecting moves for White that are most commonly played by the 1600-2000 player.  Club players at this level will most likely encounter these during play.  Most of the moves I have selected for Black are based on the Chess engines at Chess.com and Lichess.com.  There are a few notable exceptions where I have selected moves that are one or two tenths of a pawn's value less.     o There is no clear understanding of the move by anyone other than AlphaZero and Super Grandmasters.  This means that there are no seemingly random a5 moves in the opening.     o Moves that begin lines of long expeditions that lie outside of the opening tenets of developing pieces, castling  (when appropriate)  , and connecting the rooks.     o Moves that make the line more difficult to remember.  Opening lines that are similar are more quickly and easily recalled.     o Moves that follow the most commonly used path when there are equally valid options.  By going down the road less traveled, your opponent has to spend more time catching up to your theory, and who does not want more time on their clock!  Once you pass the 2000 rating level it will be time to set this course aside and focus on more obscure and exacting lines.  For those of us who have not yet gotten to that level, this course will be useful in responding to lines most commonly played by our opponent. }
+1. e4 c6
+{ In this course we will be studying the Caro-Kann, a well known and solid defense by Black.  These first two moves define the name of the defense regardless of what happens next. }
+2. d4
+{ d4 is the most common response in this position.  The Lichess database offers over eight million games where this position exists, more than twice as many than the second most played response, Nf3  (to which d5 is the only reasonable response, then after an exchange of pawns White plays d4 and we have transposed to the Exchange Variation)  .  Also seen, in decreasing popularity, may be Bc4, Nc3, f4, and c4.  If the rare d3  (offered 3% of the time)  is played then White may be looking to play the King's Indian Attack }
+2... d5
+{ The only response at this point, and the position from where everything flows.  Some Ideas    Oftentimes this is the resulting pawn structure, where the two circled pawns get traded off, resulting in a queenside majority for White.  One strategy is to control the d5 square to prevent White from advancing the pawn.  Black can also look for a pawn break on c5 or e5.    
+  Similar to the French Defense, Black's light-squared Bishop's value is diminished by the fact that, in this case, 5 of the 7 pawns are on light squares.  If Black has the opportunity to trade this Bishop off then that would offer Black an advantage.  Course Structure  The course is divided into two main sections, Opening Variations and Middlegame Play.    Opening Variations is a set of 18 lines that take one from the opening move to the end of the opening, where the pieces have been developed, King is castled, and the rooks linked.  One line ends prematurely, but the path forward is clear.   Following the final move of each line, blue lines indicate possible responses to White's next move and ideas going forward.  Green lines indicate White's most likely next move, when there are games in the database.  Middlegame Play continues with the positions at the end of each of the lines in the Opening Variations section.  These are the positions that are most likely to be encountered when actually playing, and can help with the question, 'What do I do now?.'  It is suggested that the first part be mastered before moving to the second part.  When possible, actual moves for White will be followed, along with Black's best response.  FEN notation of the ending position will be offered so that they can be copied into a chess engine for additional study. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Preface"]
+[Black "History"]
+[Result "*"]
+
+1. e4 c6
+{ @@StartBlockQuote@@“Chess is beautiful enough to waste your life for.” – Hans Ree@@EndBlockQuote@@The Caro-Kann has been around seemingly forever.  The moves 1. e4 c6 are not out of the ordinary, so they have probably been played from the beginning, but we can only know for sure with recorded games.  The earliest recorded Caro-Kann by known players was played in 1856 by Somacarana, a Indian player who we only know through his nearly 200 games against John Cochrane.  Cochrane was a Scottish barrister and one of the best players in London, who recorded his games.  @@LinkStart@@http://bit.ly/CK_Cochrane@@LinkEnd@@   The namesake of the opening comes from British chess master Horatio Caro  (1862-1920)  and Marcus Kann  (1820-1886)  , an Austrian amateur player.  Caro, who spent most of his life in Berlin, was the first to analyze the move 1. ... c6 in his own magazine, Brüderschaft.  Marcus Kann is associated with the opening due to his impressive win against Jacques Mieses in the fourth German Chess Congress in 1885  (some references state that the game was 17 moves, chessgames has 24 - it does not really matter, as the game was basically over on move 17)  . @@LinkStart@@http://bit.ly/CK_MiesesVKann@@LinkEnd@@  He died a year before Caro's articles.  The first mention of the opening's name came in an article in Deutsche Schachzeitung  ('German Chess Player')  in 1890.  An interesting point is that the Fantasy Variation, which is sometimes thought of as a recent development  (my 1982 Modern Chess Openings mentions it as an afterthought, noting that it, 'loses impetus against a sensible defense')  , was recommended in the magazine as giving White an advantage.  There are numerous great players to have employed the Caro-Kann, like Capablanca  (@@LinkStart@@http://bit.ly/CK_Capablanca@@LinkEnd@@)  and Nimzowitsch  (@@LinkStart@@http://bit.ly/CK_Nimzowitsch@@LinkEnd@@)  , and they also played one another using the opening  (@@LinkStart@@https://bit.ly/CK_NimzowitschVCapablanca@@LinkEnd@@)  .  It has been played by Karpov, Botvinnik, Liren, Anand, Topalov, Nakamura, and on and on.  The opening has stood the test of time, and continues to be a staple response against 1. e4.  The next several sections of this chapter feature illustrative games. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Preface"]
+[Black "What Variations Should I Concentrate On?"]
+[Result "*"]
+
+1. e4 c6
+{ @@StartBlockQuote@@“One doesn’t have to play well, it’s enough to play better than your opponent.” – Siegbert Tarrasch@@EndBlockQuote@@The purpose of this course is to prepare the average player to play against the opening 1. e4 by using the Caro-Kann defense. The moves of the Masters, while instructive, are less helpful than being ready for the moves of the players we are likely to encounter. To this end, we need to not only examine the variations, but also to know which variations should be emphasized. Variations that are rarely played by our opponents are considerably less important than the ones we are more likely to see.  This course covers six main variations of the Caro-Kann:   •	Advance Variation  •	Exchange Variation  •	Classical  •	Two Knights Variation  •	Hillbilly Attack  •	Fantasy Variation  The Lichess database allows me to see how many players play particular moves, and in the current instance we are concentrating on those rated 1600-2000 in the Rapid and Classic time controls. The actual selection includes games where at least one player is above 1600 and below 2200. This is their rating on Lichess, and since the website starts players at 1500 when they join, the ratings are a bit higher than one might expect over the board or on other websites.  Their database of players in this range gives us insight into what is being played at the average player's level and how often. The question one should be asking is that of the six variations, which should have down solid. Yes, the answer is, of course, all of them. However, one of the things that make us average players is that we cannot remember everything that comes our way, so knowing where to place our emphasis is helpful.  The following numbers are from 15 September 2021 and include only games selected of players with a rating of 1600-2000 in the Rapid and Classic time controls.  Caro-Kann 1. ... c6 2,404,798  2. d4 1,275,661 53.0% of games  2. Nf3 557,155 23.2% of games  2. Bc4 143,310 6.0% of games  2. Nc3 135,468 5.6% of games  2. Other 293,204 12.2% of games  We generally think of the “Caro-Kann” as White playing d4, Nf3, Bc4 or Nc3 on their second move, but there are a variety of odd alternatives, like f4, c4 and d3. These lines constitute a small percentage of the possibilities, so the primary continuations should be learned first.  Before moving on I will mention that according to the Lichess database, interestingly, of all possible second moves for White, the one with the highest winning percentage for White is c4, the Accelerated Panov Attack, winning 49% of the time and losing 45% of the time. Daniel Naroditsky can be seen dismantling this at @@LinkStart@@https://www.youtube.com/watch?v=fz9td9L2uIo@@LinkEnd@@.  Black usually plays d5 against whatever White plays, but not all the time.  2. d4 d5 96.6% of games  2. Nf3 d5 91.0% of games  2. Bc4 d5 86.4% of games  2. Nc3 d5 88.9% of games  Getting out of theory is certainly a possibility in any game.  For instance, even the most straightforward Advance Variation can immediately take an unusual turn.  For instance:   1.e4  c6  2.d4  d5  3.Nf3?!  This strange third move has been played by at least three Masters, and two of the games resulted in draws. Certainly there is no way to prepare for such oddities.    We can, however, prepare for what can be reasonably expected, so here are the percentages for the most commonly played moves.  •	6.6% - Advance Variation  •	49.8% - Exchange Variation  •	29.2% - Classical  •	1.7% - Two Knights Variation  •	11.4% - Hillbilly Attack  •	1.4% - Fantasy Variation  Before finishing this section, however, I realized that these percentages worked for intermediate players, i.e. those who were selected in the Lichess database within a rating selection of 1600-2000.  I decided to look at the statistics of lower rated players, those who are selected just within the 1600 range.  It did not surprise me to find that the percentages were different.  •	7.8% - Advance Variation  •	29.0% - Exchange Variation  •	29.3% - Classical  •	1.2% - Two Knights Variation  •	31.4% - Hillbilly Attack  •	1.3% - Fantasy Variation  Regardless of your rating, the Exchange and Classical Variations are two variations that you are going to encounter on a regular basis.  If you are a lower rated player then the Hillbilly Attack will be an additional variation that will need to be known, as it will actually be seen as frequently as the other two.  This is good news because it is the easiest variation for Black to equalize and obtain a better position, so getting that variation down pat will definitely help you win games. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Preface"]
+[Black "An Illustrative Game"]
+[Result "*"]
+
+{ @@StartBlockQuote@@“The blunders are all there on the board, waiting to be made.” – Savielly Tartakower@@EndBlockQuote@@I thought that I would include a recent game where I used the Caro-Kann against e4, and my thoughts as I played it.  14 July 2020  brijesh0818 vs. GLSmyth }
+1. e4 c6 2. Nf3
+{ A possibility for the Two Knights Variation, or more probably transposing into another variation. }
+2... d5 3. e5
+{ More common is to transpose into the Exchange Variation, but this will be the Advance Variation. }
+3... Bg4 { We commonly pin the Knight in this variation. } 4. d4 c5
+{ Attacking the d-pawn.  White needs to decide whether to take the c5 pawn or protect the d4 pawn. }
+5. c3 Nc6 6. b3
+{ I was unclear what this move was meant to accomplish.  It is best to understand why an opponent plays a particular move so that those desires can be countered, but the only thing I could think of was that he would be playing Ba3 at some point.  If he was hoping to trade Bishops with me and revoke my Kingside castling rights, then this was too slow, as following thetheory my next move is to take the pawn on d4, then play e6. }
+6... cxd4 { Just following the theory. } 7. cxd4 e6
+{ e6 opens the diagonal for the Bishop and makes Ba3 a non-issue. } 8. Be2 Bb4+
+{ Usually this Bishop ends up on either e7 or d6, but since the King was still exposed I decided to harass it. }
+9. Bd2 Nge7
+{ Not the best move on my part.  I was interesting in getting my pieces developed, but missed an opportunity:   9...Bxf3  10.Bxf3  Qb6  11.Bxb4  Qxb4+  12.Qd2  Qxd4  and Black wins a pawn. }
+10. h3 { An unnecessary move, provoking me to rid myself of my bad Bishop. }
+10... Bxf3 11. Bxf3 Nf5 { Again, Qb6 would have been better. } 12. Bxb4
+{ Relieving some of the pressure. } 12... Nxb4 13. O-O Nc6
+{ Returning to where the Knight should be.  Now there is no way to properly protect the d-pawn. }
+14. Nc3 Ncxd4 { I took with this Knight to open up the c file. } 15. Bg4 O-O
+16. Bxf5
+{ When down material, unless there is a good reason one should not trade down material. }
+16... Nxf5 17. Re1 { Hoping to protect the e-pawn. } 17... Rc8
+{ Putting a Rook on the open file. } 18. Rc1 Qa5
+{ Putting pressure on the Knight and the a-pawn. } 19. Na4
+{ A good move for White, but now his Knight is on the rim. } 19... b5
+{ Forcing the Knight to move from its spot. } 20. b4
+{ A counter attack on my Queen, but a bad idea.  I initially started to think about where to put my Queen, as I had not anticipated that move, but then I thought, 'Isn't that just a free pawn?' }
+20... Qxb4 { Now White's position is starting to crumble. } 21. Rb1
+{ This move does nothing, but the Knight is toast anyway. } 21... Qxa4 22. Qxa4
+bxa4 { Doubling pawns is of no concern at this point. } 23. Rb4
+{ An attack without teeth. } 23... Rc4 { I am fine with a trade of Rooks. } 24.
+Rb7 Rc2 { And I am also fine with trading off one of my doubled pawns. } 25.
+Reb1
+{ A last gasp attempt to stay in the game.  I believe that he was hoping for   25...Rxa2  26.Rb8  Rxb8  27.Rxb8#  after all, it's never too late to blunder, but I was not going to allow that to happen. }
+25... Rxa2 { Now my pawns are passed. } 26. Rb8
+{ Yup, that was his plan, but it isn't going to happen. } 26... h6
+{ Create an escape square just in case I might happen to need it. } 27. R8b7
+{ He can get one pawn, but he cannot get both. } 27... Rc8
+{ With this move my opponent resigned.  Since my King was safe, my plan was to play Rcc2, and with doubled Rooks begin to pillage his pawns.  I did not play any spectacular or particularly insightful moves in this game, yet White's move 6 began his decline, and I simply played strong and steady moves until his position collapsed.  At the level of the average player it is not about trying to be brilliant, but about making fewer mistakes than one's opponent. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Preface"]
+[Black "Generalizations"]
+[Result "*"]
+
+{ @@StartBlockQuote@@“Those who say they understand chess, understand nothing.” – Robert Hübner@@EndBlockQuote@@   1.d4  Nf6  2.Bf4  Nd5  3.Nf3  0-1 }
+1. e4 c6
+{ I was watching Ginger GM play a speed run  (@@LinkStart@@https://www.youtube.com/watch?v=y2mhbgubuvQ@@LinkEnd@@)  , and at the end of the game above I literally broke into laughter.  It was a three-minute game and his opponent was premoving, as their first three moves took only one second off the clock.  To save embarrassing his opponent I will not give their name, but simply state that they were rated 1911, so this was a strong player.   Having a basic setup is oftentimes a great idea, but there may be circumstances where those initial ideas need to remain flexible.  In this section, I will discuss commonalities in the positions that are oftentimes reached in our Caro-Kann course, and will offer some ideas on piece placement.  As per the previous paragraph, it must be emphasized that there will always be exceptions, so none of the following is carved in stone.  One must be willing to alter plans to accommodate whatever situation arises.  These observations pertain only to the variations that are followed in this course.  We have avoided a fair amount of theory by occasionally deciding to follow less commonly traveled lines, so the situations outlined may be different from other Caro-Kann games.  King  The King gets castled Kingside.  The pawn structure in front of it is usually very solid so there is safety there. It is usually castled within the first ten moves, though in the Advance Variation it may take a little longer.  In cases where a trade has left the g file open, the King will oftentimes move to the h file so that the square it was on can be used by a Rook on the semi-open file.  Queen  The Queen is usually developed after all of the minor pieces have left the back rank.  In the Exchange Variation, it oftentimes finds a home on c7, which is a good location since that file is open on Black's side of the board.  Bishops  White's placement of their King's Knight is usually on f3, and Black, if possible, pins the Knight with its light-squared Bishop to the Queen via Bg4.  When the Knight is not on f3, if the Bishop has the support of its Knight on f6 then it can directly attack the Queen.  White will usually play h3, forcing Black to either take the Knight or drop back to h5.  The course identifies the best course of action in each variation, however, in a real game the correct move may be difficult to remember. I tested this decision in each of the valuations in the course and found that if Black made the wrong decision and moved the Bishop to h5 then at worst they lose 0.2 pawns.  However, if they make the wrong decision by taking the Knight then they could lose 1.1 pawns.  In real life, when in doubt, drop the Bishop back.   The natural placement for Black's dark-squared Bishop is on d6, with it sometimes going to e7.  When it does go to e7 it is not so much protecting a Knight on f6 with the fear of the doubling of pawns if the Knight is taken as it is for positional reasons.  Knights  f6 and c6 are the starting points for the Knights, except for the Classical Variations, where they are developed to d7 since Black has a pawn on c6.  In the Advance Variations, the Knight cannot be developed to f6 because of White's pawn on e5, so it travels to e7, then f5, which is commonly seen in the French Defense.  Pawns  Black normally has more light-squared pawns than dark-squared pawns, a trend that begins from its very first move.  By stripping away the pieces and showing just pawns, we can see what the pawn structures for both sides may look like.  We will examine the Exchange, Advance, and Classical Variations, and are including the Panov-Botvinnik Attack because although part of the Exchange Variation, the pawn structure is closer to that of the Classical Variation.  Exchange Variation    The pawn structure of the Exchange Variation is very even.  White is missing the e-pawn and Black the b or c pawn, but they are each taking up the same amount of space on the board.  Black's g-pawn may be used to push White's light-squared Bishop away.  If that is the case then the g and h-pawns can be used in a Kingside attack.  The d, e, and f-pawns generally stay where they are through the middlegame, although if the e-pawn can advance then there can be a great advantage in doing so.  The a and b or c-pawns  (whichever one remains following the opening)  generally stay put.  They may be used later in the game to disrupt White's Queenside majority  Advance Variation    The pawn structure here shows that White has a decided space advantage.  However, the open c file can give Black chances to attack White's weak d-pawn.  For the most part, Black's f, g, and h-pawns remain where they are.  A major exception to that is when the f-pawn is used to attack White's advanced e-pawn.  After an exchange, the semi-open file offers space for a Rook to work.  The e and d-pawns remain where they are, holding down Black's center.  As is the case with the Exchange Variation, if Black can play e4 then there is a real advantage to be had.  The a and b-pawns remain in place.  As they are matched by White's a and b-pawns and the c file is open, they do not have much chance for activity until much later in the game.  Classical and Panov-Botvinnik Variations    I put these two together because the pawn structures are similar in the respect that Black is missing their d and either e or c-pawns.  In both cases, White's d-pawn has an unobstructed path if it can find a way to remove Black's c or e-pawn.  This does not happen in our example lines in the Classical - Korchnoi and Panov-Botvinnik Attack Variations but is a threat in the Classical 6. Nf3 Variation.  For the most part, these pawns do not play much of a role in the middlegame, but are more of an endgame tool. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Caro-Kann Opening Variations"]
+[Black "Advance Variation 3. ... c5 4. c3"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5
+{ e5 is White's most common response to this position.  There is a boatload of theory connected with this move, but with Black's next move the vast majority of that will go out the window. }
+3... c5
+{ Stockfish 13 shows Bf5 and c5 as being equally good moves.  Bf5 is considerably more popular in the Masters games, and the 1600-2000 games it is played 83% of the time.  If they are equally good then why not go with the line that is less familiar to White?  c5 removes the vast majority of theory White may have learned when preparing to play against the Caro-Kann, so by learning the Advance lines well, Black can be pounding out the moves while White is trying to navigate what they think may work best. }
+4. c3 { Four times as popular as dxc5. } 4... Nc6 5. Nf3 cxd4
+{ Black is reasonably not going to be able to add more attackers at this point, so it is a good time to go ahead and strike into the line. }
+6. cxd4 Bg4
+{ Getting the Bishop out before closing the diagonal.  Pinning this Knight will be a recurring theme in this opening. }
+7. Be2 e6
+{ At times the Caro-Kann position can resemble that of a French position, with the important exception that the light-squared Bishop is out there doing something, as opposed to sitting on the back rank trying to get into the game. }
+8. O-O Nge7
+{ A natural square for the King's Knight, with the intention of going to g6 or f5.    8...Bxf3 is not as strong, and our concentration is to activate our pieces and get castled.  The line would continue:   8...Bxf3  9.Bxf3  Qb6  10.Be3  Qxb2  and an equal position. }
+9. Nc3
+{ Not the best move, but the most popular.  Nbd2 is better because it offers cover for Qb3 if Black decides to play Qb6, but is the fifth most popular move. }
+9... Nf5
+{ Adding a second attacker to d4.   If  9.h3  then  9...Bxf3  Rc8 is an equally valid alternative. }
+10. Be3 Be7
+{ There are a number of possibilities here, Be7 is selected as a developing move to give Black the option to castle.   Bb4 is is a perfectly acceptable alternative. }
+11. h3 Bxf3
+{ In these situations it is more common to take the Knight than it is to slide back to h5.  Both are fine in this position.  Black having five of its seven pawns on light-colored squares is common, so trading it off is oftentimes advantageous.  In both cases the position ends up being equal.   11...Bh5  12.g4  Nxe3  13.fxe3  Bg6 }
+12. Bxf3 O-O
+{ Evaluation: -0.2  Bg5 is, by two tenths of a pawn, the top engine move.  However, it is probably best to get in the habit of first being comfortably castled unless there is a real advantage to not doing so.  Under the arrow buttons below the board is the FEN notation for this position.  This can be placed into a chess engine so that you can play against it.  Even though you may not encounter the exact position in your games, you have the opportunity to practice playing against the general idea.  Additionally, this position, as will be the case with all end positions in this chapter, will appear as an initial position in the Middlegame Play chapter.  This will offer additional practice in playing this position.  Games from this position:   @@LinkStart@@https://lichess.org/pQyatU7u@@LinkEnd@@  @@LinkStart@@https://lichess.org/CjKwIhoB@@LinkEnd@@  @@LinkStart@@https://lichess.org/TbndhhBc@@LinkEnd@@ }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Caro-Kann Opening Variations"]
+[Black "Advance Variation 3. ... c5 4. dxc5"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. dxc5 e6
+{ For players of the French who are switching to the Caro-Kann because they are tired of trying to resolve the difficulties with the French Bishop  (that would be me!)  , this move is counterintuitive.  It blocks in the light-squared Bishop, which is an issue that will need to be resolved at some point.  But it is the beginning of pressure on a pawn that really does need to be retaken. }
+5. Be3 Nd7 { A second attacker of the c5 pawn. } 6. Bb5 Ne7
+{ A move that will eventually remove the dark-squared Bishop as a defender. }
+7. Nf3 { Better for White would have been Bd4. } 7... Nf5 8. Bd4
+{ Again, not the best move, but the most popular. } 8... Qa5+
+{ Positioning the Queen to eventually retake the pawn. } 9. Nc3 a6
+{ Time to remove the pin on the Knight. } 10. Bxd7+ Bxd7
+{ White has done Black a favor in offering a meaningful means of developing the light-squared Bishop. }
+11. O-O Nxd4 { Removing the defender of c5. } 12. Nxd4 Qxc5
+{ Evaluation: -0.2  Taking with the Queen is very slightly better than with the Bishop, as it places the piece on a more useful square.  Taking with the Bishop is fine.  The Rooks will contest for the c-file and there may be a better place to locate Black's light-squared Bishop.  Games in this position:  @@LinkStart@@https://lichess.org/9bBdkQjR@@LinkEnd@@  @@LinkStart@@https://lichess.org/UGriQRqD@@LinkEnd@@ }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Caro-Kann Opening Variations"]
+[Black "Exchange Variation 4. Nf3 5. Bd3"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. exd5
+{ The Exchange Variation is White's second most popular response to the Caro-Kann, even more popular than the Classical Variation.  In the French Defense when someone plays the Exchange Variation I wonder if I should simply offer them a draw at that moment, as they have decided to play the most boring choice possible.  This is not the case with the Caro-Kann, as can be seen by the number of variations following this choice. }
+3... cxd5 4. Nf3
+{ This is White's most popular move in this position.  Second most popular is c4 and third is Bd3, which will both be examined later. }
+4... Nf6
+{ With the exception of the Advance and Fantasy Variations, this Knight will always be placed on f6.  The engine says that Nc6 is one tenth of a pawn stronger, but we will get used to initially placing the King's Knight here, which will give us less to have to remember.    With the abilities of the average club player, this small of a difference is inconsequential  (certainly not the case in the higher levels)  .  With the abilities of Masters, they also agree that this is a better move. }
+5. Bd3
+{ The first of the two most popular lines played by the 1600-2000 crowd. } 5...
+Bg4
+{ Again, the engine shows Nc6 to be one tenth of a pawn stronger than this move. Pinning the Knight here is another recurring theme - the other Knight will make it's way out in a moment.  The purpose of moving the Bishop here is less to pin the Knight to the Queen, but more to move it outside of e6 when it is played, and to possibly exchange it with White's light-squared Bishop.  Masters games show that they prefer Nc6 by a slight margin, but Karpov played Bg4 in this position against Judit Polgar  (and won)  in 1995, so it is certainly a good move.  Not to worry, however, Nc6 will be played next. }
+6. O-O Nc6
+{ Developing the Knight in such a way that White will be required to do something to protect their d4 pawn, which currently cannot be defended. }
+7. c3 e6
+{ The e-pawn initially belongs on this pawn in nearly every version of the Caro-Kann. }
+8. Bg5 Bd6
+{ This is a very common placement for Black's Bishop, which will be seen in numerous variations. }
+9. Nbd2 O-O
+{ Finishes development.  There are a host of alternative moves, namely h6, Bh5, Rc8, and Qc7.  Evaluation: 0.0  Numerous games in this position, for instance:  @@LinkStart@@https://lichess.org/ed6C5tkr@@LinkEnd@@  @@LinkStart@@https://lichess.org/yQ9FrWyk@@LinkEnd@@  @@LinkStart@@https://lichess.org/L9Thpgit@@LinkEnd@@ }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Caro-Kann Opening Variations"]
+[Black "Exchange Variation 4. Nf3 5. Nc3 8. h3"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Nf3 Nf6 5. Nc3 Bg4
+{ Generally speaking, if you can pin this Knight then do so.  This is a common move in most variations that are being followed. }
+6. Be2 Nc6
+{ Since White's light-squared Bishop has already been given the task of supporting the Knight on f3, it is unlikely that it will be redeployed to b5 to pin the Knight. }
+7. O-O e6 8. h3 Bxf3
+{ Bringing the Bishop back to h5 is a tenth of a pawn stronger.  The trade will probably happen anyway, so it is fine getting this out of the way.   8...Bh5  9.Bg5  Bd6  10.Nb5  Be7  11.Ne5  Bxe2 }
+9. Bxf3 Bd6
+{ The engine has Rc8 a tenth of a pawn stronger.  If we are to emphasize development then getting the dark squared Bishop to its spot works well. }
+10. Bg5
+{ Definitely not the best move, but the most likely to be encountered. } 10...
+O-O
+{ Evaluation: -0.3  Again, the engine prefers Rc8 as a tenth of a pawn stronger.  Now that we are developed we can add this to our candidate moves.  A fairly even game where Black has a very slight edge.  Both sides have possibilities for attacking in this positional game.  Games in this position:  @@LinkStart@@https://lichess.org/J4VkIFex@@LinkEnd@@  @@LinkStart@@https://lichess.org/81tdz9j3@@LinkEnd@@  @@LinkStart@@https://lichess.org/eYiqj5PI@@LinkEnd@@ }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Caro-Kann Opening Variations"]
+[Black "Exchange Variation 4. Nf3 5. Nc3 8. Ne5"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Nf3 Nf6 5. Nc3 Bg4 6. Be2 Nc6
+{ Since White's light-squared Bishop has already been given the task of supporting the Knight on f3, it is unlikely that it will be redeployed to b5 to pin the Knight. }
+7. O-O e6 8. Ne5 Bxe2
+{ A common idea in the Caro-Kann, as is also the case with the French Defense, is for Black to rid themselves of their light-squared Bishop.  Note that at this point, five of Black's seven pawns are on light squares.  This is not usual in this opening, so the light squares are strong, and Black's light-squared Bishop is not as important. }
+9. Nxe2 Qc7
+{ Bd6 works equally well, and will almost certainly be played next, so move order is unimportant. }
+10. Bf4 Bd6 11. Nxc6 bxc6
+{ Bxf4 is almost as good, but with bxc6 the Queen ends up slightly more centralized. }
+12. Bxd6 Qxd6 13. c3 O-O
+{ Evaluation: -0.3  Games with this position:  @@LinkStart@@https://lichess.org/mPaD3RpW@@LinkEnd@@  @@LinkStart@@https://lichess.org/BMZ0xB09@@LinkEnd@@  @@LinkStart@@https://lichess.org/vSnB6oho@@LinkEnd@@ }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Caro-Kann Opening Variations"]
+[Black "Exchange Variation 4. c4 (Panov-Botvinnik Attack)"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4
+{ White's second most popular move in this position. } 4... Nf6
+{ g6 is also a move, but if White takes the pawn then that makes things slightly more difficult. }
+5. Nc3 g6
+{ We are going to fianchetto the Bishop.  This is actually one tenth of a pawn weaker than e6, but as a French Opening player who is learning the Caro-Kann because of the problems dealing with the locked in light-squared Bishop, it does not feel right to create this problem. }
+6. Nf3 Bg7 7. cxd5 { c5 is also a move, but is seldom played. } 7... Nxd5
+{ Castling is also an option, but why complicate things? } 8. Bc4 Nxc3
+{ Nb6 is the more popular move, but the engines prefer this forcing move. } 9.
+bxc3 Qc7
+{ Castling is a possibility, and the more popular move, but the engine prefers Qc7 because it is develops the Queen with a forcing move, attacking the c4 Bishop. }
+10. Qb3 O-O 11. O-O
+{ Bd5 is also a possibility, but nobody under 2000 plays it. } 11... Nc6
+{ Time to get the other pieces out. } 12. Bd3 Bg4
+{ Be6 is the choice of the engine.  This blocks the e-pawn and creates a one move threat on White's Queen.  At the cost of two tenths of a pawn, putting the Bishop on g4 not only completes development, but also threatens to ruin White's pawn structure, something White will need to address before moving forward. }
+13. Nd2 Rfd8
+{ Evaluation: -0.7  No games from this position.  In the only game from the previous position Black played Rac8, which is almost as good. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Caro-Kann Opening Variations"]
+[Black "Exchange Variation (Main line) 4. Bd3, 5. c3"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3
+{ Bd3 is the strongest square to place this Bishop.  It prevents Black from developing its light-squared Bishop to f5. }
+4... Nf6 5. c3 Bg4
+{ The only place for the light-squared Bishop.  Black needs to get this Bishop out so that it can play e6, finish developing, and get castled.  White will need to decide whether to offer the Knight to be pinned, move the Bishop a second time in the opening to meet the attack, weaken their Kingside pawn structure with f3, or move the Queen. }
+6. Qb3 { The most popular choice for White, a 2-1 choice over Nf3. } 6... Qc7
+{ Qd7 is equally good - I just don't like setting White up for the pin. } 7.
+Ne2 { h3 will also be seen, and possibly Bg5. } 7... Bxe2
+{ Trading off the light-squared Bishop favors Black, as the upcoming move e6 will give Black five of seven pawns on light squares. }
+8. Bxe2 e6
+{ From here on out it is just standard development, putting the pieces where they are most commonly placed in this opening. }
+9. O-O Bd6 10. h3 O-O 11. Nd2 Nc6
+{ Evaluation: -0.2  Black has a slight advantage in this very even game.  Games in this position:  @@LinkStart@@https://lichess.org/QuTvmEUZ@@LinkEnd@@  @@LinkStart@@https://lichess.org/5Wv1odDx@@LinkEnd@@  @@LinkStart@@https://lichess.org/AFE1QHpV@@LinkEnd@@ }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Caro-Kann Opening Variations"]
+[Black "Exchange Variation (Main line) 4. Bd3, 5. h3"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nf6 5. h3
+{ The final variation.  Unlike all of the other Exchange Variations, we will not be able to move our light-squared Bishop to pin an f3 Knight or attack the Queen.  Another strategy will need to take place. }
+5... g6
+{ This, and the Panov-Botvinnik Attack, will have us fianchetto our Bishop.  There will be a seemingly unusual way of getting the light-squared Bishop into play which may appear sketchy, but is quite solid. }
+6. Nf3 Bg7
+{ This is followed by typical developing moves that we have seen for this opening. }
+7. O-O O-O 8. Re1 Nc6
+{ By a tenth of a pawn the engine prefers what will be our next move.  It also results in the same position within a few moves. }
+9. c3 Bf5
+{ At the 1600-2000 level, White may think of this as a bad move.  However, note that five of seven pawns are on light squares - after Black plays e6 it will be six out of seven. }
+10. Bxf5
+{ White's best move is to slide the Bishop back to f1, or perhaps move it to b5, or e2.  However, try telling that to a 1600-2000 player. }
+10... gxf5
+{ Black's pawn structure is not destroyed, e6 will bring everything together, and Black will have an open file on which is can place its Rook, which will stare at White's King. }
+11. Bf4
+{ White has much to choose from, like Nbd2, Ne5 and Bg5, but Bf4 is the most popular. }
+11... e6
+{ Evaluation: +0.1  Tying everything together.  Note that after moving the King to h8, when the Rook is placed on g8 it is staring at White's King, as happened in the first game listed below.   Games from this position:  12. Ne5 @@LinkStart@@https://lichess.org/RiJhIPCY@@LinkEnd@@  12. Ne5 @@LinkStart@@https://lichess.org/n23aSOQP@@LinkEnd@@  12. Ne5 @@LinkStart@@https://lichess.org/jGbXuk1G@@LinkEnd@@ }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Caro-Kann Opening Variations"]
+[Black "Classical - Korchnoi Variation 6. Nf3"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. Nc3
+{ Nd2 results in the same continuation after Blacks takes the pawn on d4. }
+3... dxe4 4. Nxe4 Nf6
+{ Karpov preferred playing the solid Nbd7 here, then Ngf6, preventing the doubling of the pawns in the variation we will be using.  If one decides to go this route, they need to watch for a well known trap.   4...Nd7  5.Qe2  Ngf6?  a natural move  6.Nd6# }
+5. Nxf6+
+{ The overwhelming choice, and White's best option.  However, White can set a trap that over 150 players have fallen for in the Lichess database.  Whenever a player brings out their Queen early in the game one should be suspicious.   5.Qd3  Bf5?  6.Nxf6+  exf6  7.Qxf5  For what it is worth, the correct response is the simple Nxe4.   5.Qd3  Nxe4 }
+5... exf6
+{ The decision of which pawn to take with will be a matter of player's style.  Taking with the e-pawn is considered to be 'drawish.'  In the second chapter, where we look at continuations following the opening, we will see that this is the case, but at the 1600-2000 level there are yet mistakes to be made, so anything can happen.  I chose this line because it is safer than capturing with the g-pawn.  My strategy is somewhat like the Hippocratic oath, 'Do no harm,' so safety is the first consideration.  Once this variation is mastered then one can look into taking with the g-pawn, which will result in more interesting games. }
+6. Nf3
+{ Masters are more prone to play c3.  Their second choice is Bc4.  1600-2000 players greatly prefer Nf3.  This line is so similar to the c3 line that there is no need to follow it basically to the same place. }
+6... Bd6 { This is best almost regardless of White's move. } 7. Bd3 O-O
+{ The engine suggests Na6 as the best move by one tenth of a pawn, which may work as a novelty.  If you do not mind seeing your Knight on the rim, then baiting White to take the Knight leads to the following:   7...Na6  8.Bxa6  Qa5+  Of the 103 games in Lichess's Masters database, this move has never been played, while O-O has been played 93 times. }
+8. O-O Bg4 9. h3 Bh5
+{ The only reasonable move.  If chased it can always move to g6 without concerns of pawns being doubled.  Also, Black  does not have a preponderance of pawns on light-colored squares. }
+10. c3 Nd7 11. Re1 Re8
+{ By a tenth of a pawn the engine recommends Qc7, then wants to play c5.  We have chosen development into the open file before pushing ahead. }
+12. Rxe8+ Qxe8 13. Be3 Rd8 { Evaluation: 0.0  No games in this position. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Caro-Kann Opening Variations"]
+[Black "Classical - Korchnoi Variation 6. c3"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Nxf6+ exf6 6. c3
+{ Not the most popular for lower rated players, but the best move available to White. }
+6... Bd6
+{ The engine prefers either Bf5, g6, and Be7 by one tenth of a pawn over Bd6.  Masters prefer Bd6 ten times more than Bf5, one hundred times more than g6, and three hundred times more than Be7.  We are choosing to play Bd6 partially because in this opening we usually play this move early, and partially because it is what Masters play. }
+7. Bd3 O-O 8. Qc2 Re8+
+{ Another case where the engine differs from what Masters play.  It says that h6 and g6 evaluate two tenths of a pawn better, and Kh8 and h5 one tenth of a pawn stronger.  Masters prefer developing the Rook with tempo and prefer it:   4 times more than h6  10 times more than g6  15 times more than Kh8  41 times more than h5  Again, we side with the Masters.  e2 is the typical placement for White's Knight in this situation, but Black may as well force it and take the file with tempo.  This also opens up the f8 square, which may be used by the Knight in the future. }
+9. Ne2 h6
+{ I love the engines, but they can be frustrating.  Stockfish 14 on Lichess offers h5 as two tenths of a pawn stronger than h6.  Stockfish 14 at @@LinkStart@@https://nextchessmove.com/@@LinkEnd@@ claims h6 to be the strongest move in this position.  It is a flip of the coin as to which one to play, but I have a feeling that the average player is more comfortable with h6. }
+10. O-O Nd7 11. Bf4
+{ Not White'se best move, but the choice of lower and higher rated players.  The engines prefer placing the Bishop on d2. }
+11... Nf8
+{ Black has no choice but to trade its dark-squared Bishop.  Black does multiple things with this move - it allows the trade to be made where the Queen will be more centralized, it clears the way to develop the light-squared Bishop, and offers the opportunity to later place the Knight on g6 or e6, which are more useful squares.  All that said, Nf8 is almost certain to be the move here regardless of White's previous move. }
+12. Bxd6 Qxd6 13. Ng3 Bd7
+{ There are two continuations that are two tenths of a pawn better than Bd7.   13...Qf4  14.Rfe1  Bd7  15.Nf1  Rad8  16.Rxe8  Rxe8  17.a4  Ne6  18.g3  Qd6  19.Ne3  Ng5  20.h4  Rxe3  21.hxg5   13...Qc7  14.Rfe1  Be6  15.Re3  Rad8  16.h4  Bd7  17.Rxe8  Rxe8  18.a4  c5  19.dxc5  Qxc5  20.b4  Qc7  21.a5  Masters have no use for either of these moves Queen moves.  I struggle to figure out why relocating the Queen offers a better position than developing the Bishop so that the Rooks can connect.  If the reader understands the logic behind the recommended Queen moves then I would suggest that they may be a better alternative.  Lacking that, it is better to have a reason behind making a move than playing an engine move that is not understood.  Bd7 allows the Rooks to connect.  White will probably bring one of their Rooks to e1, and after exchanging Rooks, Black's Knight will probably end up on e6 or g6.  Evaluation: +0.4  This is a challenging line for Black, probably the most problematic of all in the course.  White won both example games below, but Black's defeat had nothing to do with the opening.  In the initial game things were fairly even until Black made significant blunders on moves 20, 21, and 23.  In the second example Black made a seven pawn blunder on move 19, and never recovered.  In the case of the average player, mistakes and blunders determine the fate of the game more than slight two tenths of a pawn inaccuracies.  Games in this position:  @@LinkStart@@https://lichess.org/z2LqR5QQ@@LinkEnd@@  @@LinkStart@@https://lichess.org/l4i8TkNb@@LinkEnd@@ }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Caro-Kann Opening Variations"]
+[Black "Two Knights Variation 6. d4"]
+[Result "*"]
+
+1. e4 c6 2. Nc3
+{ The Two Knights Variation is a valid option for the White player, but at the 1600-2000 level offers numerous possibilities to play inaccurate moves.  When Black sees this move it is almost as if seeing a puzzle in this position that states, 'Black to move and move to obtain strong advantage.' }
+2... d5 3. Nf3 Bg4
+{ By far, the most common move for Black is dxe4.  There are two advantages to playing Bg4.  The first is that Black has moved away from White's expectations, and perhaps, their preparation.  Also, by a whisker, the engines show that Bg4 is simply a better move.  The other is that this move avoids a well known trap that can send Black home early.  If you can avoid a trap in the first place by naturally playing a better move then that is an all around win.  Check out these moves.   3...dxe4  4.Nxe4  Nf6  5.Qe2  Nbd7  6.Nd6# }
+4. h3 Bxf3
+{ Moving the Bishop back to h5 is okay, but not as strong.   4...Bh5  5.exd5  cxd5  6.g4  Bg6  7.Ne5  Nc6  8.d4  e6  9.h4  h6  10.Nxg6  fxg6  Black ends up with an opened Kingside and a weak e-pawn. }
+5. Qxf3 e6
+{ Black has gotten rid of the bad Bishop and strengthened the light squares. }
+6. d4
+{ The most common move in this variation.  There is a line where White plays d3 that can be turned to Black's advantage if White is feeling greedy.   6.d3  Bb4  7.Qg3  Nf6  8.Qxg7  Rg8  9.Qh6  d4  10.a3  Bf8! }
+6... Nf6 7. e5 Nfd7 8. Bd3 c5
+{ It is a common theme in the Caro-Kann to attack the d4 pawn with c5, and when it is protected add a layer of attack with the Queenside Knight.  Of course, if White is willing to take the pawn then Black can retake with the dark-squared Bishop, developing it. }
+9. Be3
+{ dxc5 is the correct move in this position, but in the 1600-2000 section the errant Be3 is played more than three times more often. }
+9... Nc6 { Locking in the advantage of White's error. } 10. Bb5
+{ Actually, in 1600-2000 games, White is more likely to compound their problems with   10.dxc5  than play the much better Bb5.  If this happens, Black simply plays d4, forking the Bishop and Knight. }
+10... cxd4
+{ A common thread is to take at this point, when Black has no realistic hope of adding more attackers to the d4 pawn than White can successfully defend.  Taking with the Knight is an equally valid option. }
+11. Bxc6 bxc6 12. Bxd4 c5
+{ Despite White removing the attacker, like the Walking Dead, the c-pawn arises to again attack the d4 square. }
+13. Be3
+{ Again, I diverge from showing the most likely move for the 1600-2000 player, which would have been Nxd5.   Be3 is White's best chance. }
+13... Nxe5
+{ Evaluation: -2.8  No need to continue from here.  Black has an easy path to fork the Bishop and Knight, develop the Bishop, and castle.  No games in this position. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Caro-Kann Opening Variations"]
+[Black "Two Knights Variation 6. exd5"]
+[Result "*"]
+
+1. e4 c6 2. Nc3 d5 3. Nf3 Bg4 4. h3 Bxf3 5. Qxf3 e6 6. exd5
+{ The second most commonly played move in this position. } 6... cxd5 7. Bb5+
+Nc6
+{ The Knight is better placed here than d7.  If White decides to take the Knight then Black will have replaced their missing c-pawn that can be used to attack the center. }
+8. O-O Nf6
+{ The engine likes Rc8 by one tenth of a pawn, but this move cannot be found in the Masters database.  They greatly prefer developing the Knight at this point. }
+9. Re1
+{ This is the first of White's likely miscalculations in this variation.  d4 is a much better move. }
+9... Be7
+{ The engines prefer Bd6 here by two tenths of a pawn, but Masters almost unanimously prefer Be7, so we are going with that line. }
+10. d3 O-O 11. Bxc6
+{ The 1600-2000 players are evenly split between Bxc6 and Bg5.  The latter is very disadvantageous unless White continues with exacting play.  For instance,   11.Bg5  Nd4  12.Qg3  or Qf4 or Qe3 then Nxc2.  Only 12. Qd1 survives, and Black has the initiative with either Nxb5 or the better h6.  The better of the two moves, Bxc6, will be followed. }
+11... bxc6
+{ This pawn will certainly be headed to help with commanding the center. } 12.
+Bg5 h6 13. Bh4 Qb6 { Evaluation: -0.5  No games in this position. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Caro-Kann Opening Variations"]
+[Black "Two Knights Variation 6. d3"]
+[Result "*"]
+
+1. e4 c6 2. Nc3 d5 3. Nf3 Bg4 4. h3 Bxf3 5. Qxf3
+{ Black has rid itself of its bad Bishop. } 5... e6 6. d3 Nf6 7. Bd2
+{ With this move, White signals that it may decide to castle long. } 7... Qb6
+{ The Queen is placed on an open diagonal and in a position to attack the Queenside in case White goes that way. }
+8. O-O-O d4
+{ Advancing toward White's castled King and removing a defender of that fortress. }
+9. Ne2 a5
+{ The race is on.  Black is going to attack on the Queenside and White on the Kingside.  The question is who will be faster and more accurate.  From this point we are following the game at @@LinkStart@@https://lichess.org/9LWwMeQB@@LinkEnd@@, where the move order was not the same, but transposed into this position. }
+10. g4 Na6
+{ The engines offer Nfd7 as one tenth of a pawn better, but in the only game in the Masters database with this position, a 2460 player preferred developing the Knight.  This makes sense, as it follows our tenet of development, and leaves available the d7 square in case we wish to move the other Knight to the Queenside. }
+11. e5
+{ There are no positions in the Lichess database in this position, so we will follow the Masters game. }
+11... Nd5
+{ White's previous move gives us a chance to move the Knight to a more commanding square. }
+12. Qe4 Bc5
+{ Evaluation: -2.0  Black has activity and an attack while White is relegated to defending.  In the Masters game with this position linked below, Black built a winning advantage but threw it away with an endgame blunder on move 52, resulting in a draw.  Game in this position:  @@LinkStart@@https://lichess.org/SfkqnO2Z@@LinkEnd@@ }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Caro-Kann Opening Variations"]
+[Black "Hillbilly Attack 4. Bb3, 5. d4"]
+[Result "*"]
+
+1. e4 c6 2. Bc4
+{ The Hillbilly Attack is not one of White's best replies to the Caro-Kann.  By the time Black is developed they should have an advantageous position.  After all, there is a reason why Masters choose to employ the Hillbilly Attack only 0.02% of the time against the Caro-Kann. }
+2... d5 3. exd5 cxd5
+{ This forces White to either retreat or continue by checking the King on b5. }
+4. Bb3
+{ Retreating is the more common move by a 2-1 margin.  Also possible is to attack the King via:   4.Bb5+  , which will be examined in another variation. }
+4... Nf6 5. d4 Bg4
+{ Only the third most commonly played move by Black.  Does this attack make sense? }
+6. f3
+{ This is White's most common move, almost 2-1, over Nf3.  I have also had Ne2 played against me, which is fine, but not as strong as f3 or Nf3. }
+6... Bd7
+{ In games played at the 1600-2000 level, the two most common moves are   6...Bf5  and  6...Bh5  Only 3% of the time does Black play Bd7, which along with Bf5 are the two strongest moves.  The most popular move in this position, Bf5, is completely fine.  However, it may be better to play the line my opponent may be less prepared for, and will have to take more time from their clock to figure the best response.  At first it looks like Black has wasted time with a one move attack that was thwarted by a pawn.  However, the reason for Bg4 was to provoke f3.  This weakens White's Kingside, removes the natural square for the Knight, and if White castles on that side then Black can place their Queen on the very natural b6 square, x-raying the King through the center pawn. }
+7. Ne2 { The natural location for White Knight is taken by a pawn. } 7... e6 8.
+O-O Be7 { The Bishop could also be placed on d6. } 9. c3 O-O 10. Ng3 b5
+{ b5 is the strongest engine move.  In the only game in the Lichess database that contains the previous position  (@@LinkStart@@https://lichess.org/nMKRju4D@@LinkEnd@@)  Black played Qc7, so from this point forward we will be looking at best moves. }
+11. f4 g6
+{ This reinforces protection of the f5 square to discourage the additional advancement of White's f-pawn. }
+12. a3 a5 { Black continues the Queenside attack. } 13. Nd2 Nc6
+{ Evaluation: -1.0  Black has opened up an attack on the Queenside and White is still two moves away from developing their dark-squared Bishop.  Black has an advantage that should be retained with a continued attack.  No games in this position. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Caro-Kann Opening Variations"]
+[Black "Hillbilly Attack 4. Bb3, 5. Nf3"]
+[Result "*"]
+
+1. e4 c6 2. Bc4 d5 3. exd5 cxd5 4. Bb3 Nf6 5. Nf3
+{ This move is a bit less common than d4, as was examined in the previous variation. }
+5... Nc6
+{ Following the simple tenet of Knights out first.  The Bishop could have gone to g4, but that will come next. }
+6. O-O Bg4 { Pinning this Knight is a recurring theme in this opening. } 7. h3
+Bh5
+{ While taking the Knight is a common element in the other variations, this time we drop back.  In this position if White similarly pins the Knight on f6 then the Bishop will be very useful in the subsequent attack.  While Black is, according to Stockfish 13, currently holding a -0.8 advantage, taking the Knight in this case offers White a chance to completely equalize.   7...Bxf3  8.Qxf3  e6  9.d3 }
+8. d3 { d4 does not work for White.   8.d4  Bxf3  9.Qxf3  Nxd4 } 8... e6 9. Bg5
+h6
+{ Is there psychology in chess?  Bobby Fischer once said, “I don't believe in psychology. I believe in good moves.”  However, here we have set the example for White that they should follow what we did, which is to move back to h4.  This is the move made in five of the six games at this level. }
+10. Bh4 Bd6 { Getting the Bishop out to its typical location. } 11. Nbd2 g5
+{ Following up on pushing the Bishop out of the way.  Black's previous move is in anticipation of White's next move. }
+12. Bg3 Bxg3
+{ Not only will this remove White's good Bishop from the board, but also the removal of the pawn on f2 opens the King to future attack. }
+13. fxg3 g4 { This brings further damage to White's Kingside structure. } 14.
+hxg4 Nxg4
+{ Evaluation: -2.1  Isolated doubled pawns are not ideal for Kingside protection.  Black has an excellent position and is in charge.  Game in this position:  @@LinkStart@@https://lichess.org/XsQOmFWR@@LinkEnd@@ }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Caro-Kann Opening Variations"]
+[Black "Hillbilly Attack 4. Bb5+"]
+[Result "*"]
+
+1. e4 c6 2. Bc4 d5 3. exd5 cxd5 4. Bb5+
+{ A more confrontational and less popular move than Bb3, but equally ineffective. }
+4... Bd7 { A move that more actively attacks White's only developed piece. } 5.
+Bxd7+
+{ It is possible, but unlikely, that White will instead play:   5.Qe2  or  5.Nc3  Best for White is to either trade the Bishops or return to e2. }
+5... Nxd7
+{ The best move, as opposed to taking with the Queen.  This develops the Knight to a natural square and opens things up so that the Queenside Rook can get into the game. }
+6. Nf3 Ngf6 7. O-O e6 8. d4 Bd6
+{ The best place for the Bishop at this point. The Knight on d6 is protecting the f6 Knight from a future pin. }
+9. Bg5 Qb6
+{ Now that the dark-squared Bishop has left its post, its time to put pressure on b2. }
+10. b3 Qa6
+{ Now that White has weakened the Queenside pawns, the Queen can be placed on a more useful square.  With this move there are no games in the Lichess database. From here we look at best moves. }
+11. Nbd2 h6 { Kicking the Bishop back. } 12. Be3 O-O
+{ Evaluation: -0.6  Stockfish 14 on Lichess says that the best move is b6, Stockfish 14 on nextchessmove.com/ says it is to castle.  The latter makes more sense to me.  Castling offers Black the ability to move the King's Rook to the Queenside for possible invasion there. This position is comfortable for Black.  No games in this position. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Caro-Kann Opening Variations"]
+[Black "Fantasy Variation"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. f3
+{ f3 is the Fantasy Variation, which is unlikely, but needs to be examined. }
+3... dxe4
+{ This is the most popular continuation for Black, with e6, g6 and Qb6 being alternatives.  It is not absolutely the strongest continuation for Black, but immediately solves the problem of having no proper square for the light-squared Bishop. }
+4. fxe4 e5
+{ The best move by far.  If White takes the pawn thinking that that may be compensation following an exchange of Queens, Black can instead play Qh4+.  The e4 pawn will then fall, and Black can carefully develop using White's exposed King to gain tempo.   5.dxe5  Qh4+  6.Kd2  Qf4+  7.Ke1  Qxe5 }
+5. Nf3 Bg4
+{ The best move, with Be6 a close second.  The reason that Be6 is a good move, as we usually pin the Knight when possible, is that it prevents White from playing Bc4.  As will be seen when Black makes move 6, playing the natural move could result in huge complications - Be6 prevents this.  Black may think of taking the pawn, but that can offer poor results.   5...exd4  6.Bc4  Bc5  Trying to protect the pawn with the Bishop  7.O-O  Nf6  8.Ng5  O-O  9.Bxf7+  Rxf7  10.Nxf7  The King cannot take the Knight.  Kxf7  11.Qh5+  Kg8  12.Qxc5  Trying to hold the pawn with c5 does not help either.   5...exd4  6.Bc4  c5  7.O-O  Be6  8.Bxe6  fxe6  9.Ng5  Qd7  10.Nf7  and the Rook falls. }
+6. Bc4
+{ An important point here is that whenever one sees a Bishop on c4 and a Knight on f3, red flags should fly and possible tactics should be observed.  Even though White's Knight is pinned, that may not matter if it can be moved with check.  A nonchalant move could result in a disastrous loss of material. }
+6... Nd7
+{ An instructive move.  If Nd7 is not played, White can take the pawn on f7 with check, and after the King takes, Nxe5+ and Black's Bishop falls.  Black can play Ke7  (unlikely at the 1600-2000 level)  , after which White simply plays Bb3 and enjoys playing a position where Black has an isolated King pawn, and the King is stuck in the center, blocking in its dark-squared Bishop, without the possibility of castling.   6...Nf6  7.Bxf7+  Kxf7  8.Nxe5+  Ke8  9.Nxg4  By placing the Knight on d7, the tactics do not work because at the end of the sequence, the Knight that had been placed on d7 ends up on e5, protecting the Bishop.  White would end up trading two pieces for two pawns.  
+Bh5 and Qe7 are also possible, but vastly inferior. }
+7. O-O Ngf6 8. c3 Bd6
+{ By the way, Black cannot take the e4 pawn.   8...Nxe4  9.Bxf7+  Kxf7  10.Nxe5+  Ke8  11.Qxg4 }
+9. Bg5 O-O
+{ Evaluation: 0.0  Games in this position:  @@LinkStart@@https://lichess.org/CxtE7c7q@@LinkEnd@@  @@LinkStart@@https://lichess.org/u27OdJwS@@LinkEnd@@  @@LinkStart@@https://lichess.org/mL26o2O2@@LinkEnd@@ }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Advance Variation 3. ... c5 4. c3 13. a3"]
+[Result "*"]
+
+{ The best way to work with this Middlegame section is to return to the Course Options and change the Reps to 1 and click the infinity symbol next to the Time option.  The idea is not to memorize moves in positions you will never see, but to examine positions that will be similar to the ones you will be seeing and become familiar with the directions they may take.  It is ludicrous to be limited to 60 seconds to make a response, unless you are a Blitz or Bullet player, so setting the Time to infinity gives you time to understand what is in front of you, instead of trying to make a hasty move. }
+1. e4 c6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 cxd4 6. cxd4 Bg4 7. Be2 e6 8. O-O
+Nge7 9. Nc3 Nf5 10. Be3 Be7 11. h3 Bxf3 12. Bxf3 O-O 13. a3
+{ This is the most commonly played move in this position, an inaccuracy that costs White time.  Better would have been Qd3, Rb1 or Bg4, the last of which will be examined in another line. }
+13... Rc8 { Developing to an open file. } 14. Rc1 Bg5
+{ There were several games in the previous position, but none of them responded in the best way by playing Bg5  (although all but one went on to win, and the other one a draw)  .  From this point we are looking at best moves. }
+15. Qd3 g6
+{ A move that initially looks strange but has purpose.  One plan for Black would be to play Na5, then eventually Nc4. However, without the g6 support to the f5 Knight it cannot work.   15...Na5  16.Nxd5  taking back immediately is a mistake  exd5  17.Qxf5  Even making the best move following the pawn capture is not good.   15...Na5  16.Nxd5  Nc6  At the beginning of this sequence the valuation was -0.7.  Following these two examples the valuations are respectively +4.5 and +0.6. }
+16. Rc2 Bxe3
+{ Both dark-squared Bishops are good.  However, as Black has six of seven pawns on light squares, trading at this point makes White's light-squared Bishop very bad. }
+17. fxe3 Qg5 { The beginnings of an attack on White's Kingside. } 18. Re1 f6
+{ Black would like to open a line for attack as well as chip away at White's center, offering White the choice to take the pawn or end up with isolated doubled pawns. }
+19. exf6 Rxf6 20. Bg4 {  } 20... Nh6
+{ Evaluation: -0.9  Although Black is doing well, it will take exacting play to tip the scales completely.  As was the case in the previous chapter, under the move arrows below the board is the FEN notation for the position.  This can be copied into a chess engine and play against it.  Even though you may not encounter the exact position, you will have the opportunity to practice playing against the general idea. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Advance Variation 3. ... c5 4. c3 13. g4"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 cxd4 6. cxd4 Bg4 7. Be2 e6 8. O-O
+Nge7 9. Nc3 Nf5 10. Be3 Be7 11. h3 Bxf3 12. Bxf3 O-O 13. g4
+{ The second most commonly played move in this position and an inaccuracy. }
+13... Nxe3 { Relieving White of its Bishop pair. } 14. fxe3 Rc8
+{ Moving the Rook to the open line. } 15. Rc1
+{ From this point we will be following White's moves at @@LinkStart@@https://lichess.org/geXktp3g@@LinkEnd@@. }
+15... Bg5 { 1. Identify weakness  2. Attack weakness } 16. Re1
+{ A mistake - the e3 pawn should have been protected by placing the Queen on d2 or e2, connecting the Rooks.  Now the Bishop is only protected by the Queen, with Black about to double-up on the f-file. }
+16... f6 { Chipping away at White's center. } 17. exf6 Qxf6 18. Kg2 Ne7
+{ Ne7 not only places the Knight on a more useful square, but it also pins White's c3 Knight, e.g.   19.Nb5  Rxc1  it almost does not matter what White does  20.Qxc1  Qxf3+  mate in 4 }
+19. Rf1 Qh6 20. Qe2 Ng6 21. Rce1 Nh4+
+{ Evaluation -4.2  Black has a compelling attack underway.  Even precise play by White may not be enough to survive. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Advance Variation 3. ... c5 4. c3 13. Bg4"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 cxd4 6. cxd4 Bg4 7. Be2 e6 8. O-O
+Nge7 9. Nc3 Nf5 10. Be3 Be7 11. h3 Bxf3 12. Bxf3 O-O 13. Bg4
+{ The  third most popular move in this position, and White's best continuation. }
+13... Nxe3 { White no longer has the Bishop pair. } 14. fxe3 Bg5
+{ White's e3 pawn is a weakness that can be attacked. } 15. Qe2 Qe7
+{ The games in Lichess's database in this position continued with Qb6 and a6. Qe7, so from this point on we are looking at best moves. This move makes way for the Rooks to connect and remains on the side of the board where there may be an attack on the Kingside.  It also supports the e6 pawn so that the f-pawn can advance. }
+16. Rad1 Rad8 { Black moves to a better square, mirroring White's move. } 17.
+Kh1 f5 { Time to begin working against White's pawn center. } 18. exf6 Bxf6
+{ Taking with the Bishop places it where it can be most useful with Black's next move. }
+19. Na4 e5
+{ Evaluation: 0.0  A completely equal game.  White has more room but Black has chances on the Kingside. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Advance Variation 3. ... c5 4. c3 13. Rc1"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 cxd4 6. cxd4 Bg4 7. Be2 e6 8. O-O
+Nge7 9. Nc3 Nf5 10. Be3 Be7 11. h3 Bxf3 12. Bxf3 O-O 13. Rc1
+{ Fourth most commonly played move in this position, and a good choice. } 13...
+Bg5 14. Bxg5
+{ Not waiting to be taken, White takes the initiative.  For the next several moves we will be following White's moves in the game at @@LinkStart@@https://lichess.org/XxiJfOay@@LinkEnd@@. }
+14... Qxg5 15. Ne2 Nh4
+{ Seeking to remove White's Bishop.  White must either move the Bishop to g4 or add additional protection. }
+16. Qd3
+{ In the game we were following, White played the errant Ng3.  However, through transposition, we now follow White's moves in the game at @@LinkStart@@https://lichess.org/ARWO3Jw9@@LinkEnd@@.  Better for White would have been Rc3 to prevent infiltration of the Queen at d2. }
+16... Nxf3+
+{ And just as quickly we exit following White's moves, as they played the considerably weaker Rac8, which eventually ended in a draw. }
+17. Qxf3 Qd2
+{ Evaluation: -1.3  Black has an advantage at this point, which is converted when White's b-pawn falls.  A Queenside pawn majority is advantageous, but White has more advancement on the King's side. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Advance Variation 3. ... c5 4. c3 13. Ne2"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 cxd4 6. cxd4 Bg4 7. Be2 e6 8. O-O
+Nge7 9. Nc3 Nf5 10. Be3 Be7 11. h3 Bxf3 12. Bxf3 O-O 13. Ne2
+{ The fifth most popular move in this position.  This is a well traveled path, so there will still be one more position to look at following this one. }
+13... Qb6 { Black decides to work on the Queenside in this variation. } 14. b3
+Nxe3
+{ From this point we follow the singular game of White's moves in this position at @@LinkStart@@https://lichess.org/zZDstadM@@LinkEnd@@. }
+15. fxe3 Rac8 { Seeking to command the open file. } 16. Nf4 Nb4
+{ Clearing the c-file with hopes of getting the c Rook into the seventh rank. }
+17. Rf2 Bg5
+{ In the game we were following Black played Rc7, which removed its advantage completely  (Black went on to eventually win)  .  With this move Black retains its advantage, working with its command of the c-file and looking to pressure White's weak pawn at e3.  Evaluation: -1.9 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Advance Variation 3. ... c5 4. c3 13. Qd2"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 cxd4 6. cxd4 Bg4 7. Be2 e6 8. O-O
+Nge7 9. Nc3 Nf5 10. Be3 Be7 11. h3 Bxf3 12. Bxf3 O-O 13. Qd2
+{ The sixth most popular move in this position, and the last one to be examined. }
+13... Rc8 14. Rac1 Nxe3
+{ With this move we follow White's moves in the singular game in this position at @@LinkStart@@https://lichess.org/LbNk3VmS@@LinkEnd@@. }
+15. fxe3 Bg5
+{ Attacking and pinning the pawn to the Queen, and getting in position for a pawn push to f6. }
+16. Nb5 f6 { Attacking the tip of the pawn chain. } 17. Bg4 Qe7 18. exf6 gxf6
+{ Evaluation: -0.6  By taking with the g-pawn we are no longer following the game, where Black took with the Rook and the game ended as a draw.  Taking with the pawn keeps the Bishop actively pointing to the e3 pawn, and taking with the Rook results in a trade of Rooks and full equality for White.   18...Rxf6  19.Rxf6  Qxf6  20.Rf1 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Advance Variation 3. ... c5 4. dxc5 13. Nf3"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. dxc5 e6 5. Be3 Nd7 6. Bb5 Ne7 7. Nf3 Nf5 8. Bd4
+Qa5+ 9. Nc3 a6 10. Bxd7+ Bxd7 11. O-O Nxd4 12. Nxd4 Qxc5 13. Nf3
+{ Nf3 is the move played in the only game in the Lichess database, which can be found at @@LinkStart@@https://lichess.org/9bBdkQjR@@LinkEnd@@.  We will follow White's moves as long as we can. }
+13... Rc8 { The semi-open file offers more prospects for the Rook's activity. }
+14. Rc1 Be7 15. Ne2 Qb4
+{ From this point on we are no longer following the game, as Black played the more passive b5.  This move forces White to commit on the Queenside. }
+16. b3 Qa3 { Threatening the a-pawn, though patience is required. } 17. Nfd4
+O-O
+{ Finally castling.  Taking the a-pawn would not be a good idea at this point.   17...Qxa2  18.Ra1  Qb2  19.Qd2  Bc5  20.Rfb1 }
+18. Nf4 Kh8 { A prophylactic move, anticipating White's Kingside attack. } 19.
+Qg4 Bc5 { Attacking the unprotected Knight, with an x-ray on the King. } 20.
+Nh5 Rg8
+{ Evaluation: -1.1  Black is prepared for White's attack and should have no problems dealing with it. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Exchange Variation 4. Nf3 5. Bd3 10. Qc2"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Nf3 Nf6 5. Bd3 Bg4 6. O-O Nc6 7. c3 e6 8. Bg5
+Bd6 9. Nbd2 O-O 10. Qc2
+{ An even position and the first of four lines to look at from this position.  Qc2 is by far the most popular move by White. }
+10... h6 11. Bh4 Rc8 12. a3 Bh5
+{ There are a couple of alternatives, like Qe8 and Ne7, but Bh5 is consistent with allowing for the possibility of eventually trading off the light-squared Bishop. }
+13. Rfe1 Qc7
+{ Not worrying about doubled pawns if White trades its dark-squared Bishop for the Knight, as the King can be well protected. }
+14. Bxf6 gxf6 15. g3 f5
+{ Evaluation: 0.0  In the game we were following, Black played a6.  However, the move f5 blocks White's Queen-Bishop battery, and places the majority of its pawns on the white squares.  There are equal chances for both sides. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Exchange Variation 4. Nf3 5. Bd3 10. Rc1"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Nf3 Nf6 5. Bd3 Bg4 6. O-O Nc6 7. c3 e6 8. Bg5
+Bd6 9. Nbd2 O-O 10. Rc1
+{ Much less often played than Qc2, but the second most popular, and a good move. }
+10... h6 11. Bh4 Bf4
+{ A more active role for the Bishop - the c1 Rook will need to move if the d2 Knight is to go anywhere. }
+12. Bg3
+{ The only game in this position is found at @@LinkStart@@https://lichess.org/3e7xt4AE@@LinkEnd@@. }
+12... Bxf3
+{ In taking this attacks the Queen, so it must be retaken.  If the Queen retakes then the Knight is unprotected, if the Knight retakes then White loses the Bishop/Rook exchange. }
+13. gxf3 Nh5
+{ The Knight attacks White's Bishop, protects its own, and makes way for the Queen.  In the game we were following Black played e5, so we are looking at best moves from this point. }
+14. Rc2 Qf6
+{ The Queen vacates the d8 square so that it can be replaced by a Rook.  The c6 Knight will move toward the Kingside so that it can participate in the attack. }
+15. Nb3 Rfd8
+{ If e5 is to eventually be played then d5 will need to be protected. } 16. Bb5
+Ne7
+{ Black does not want to allow the trade of a piece that may be useful in its assault of the Kingside. }
+17. Nc5 b6
+{ Evaluation: -1.9  Black is preparing to attack White's Kingside, and has everything else well defended.  This is a very comfortable position for Black. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Exchange Variation 4. Nf3 5. Bd3 10. h3"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Nf3 Nf6 5. Bd3 Bg4 6. O-O Nc6 7. c3 e6 8. Bg5
+Bd6 9. Nbd2 O-O 10. h3 { The third most popular move from this position. }
+10... Bh5 11. Qc2 Bg6 { Offering to trade off the light-squared Bishop. } 12.
+Bxg6 hxg6 13. Rfe1 Rc8
+{ There are a number of other equally excellent moves in this position, such as Qc7, Qd7, Qb6 and Re8. }
+14. Qd3 Re8
+{ Again, there are a number of other equally excellent moves in this position, such as a6, Qb6, Qc7, Qd7, and Qa5. }
+15. Ne5 Qc7
+{ Evaluation: 0.0  In the game in this position at @@LinkStart@@https://lichess.org/Tsy3g3Lg@@LinkEnd@@, Black lost due to time in a favorable position on move 66. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Exchange Variation 4. Nf3 5. Bd3 10. Re1"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Nf3 Nf6 5. Bd3 Bg4 6. O-O Nc6 7. c3 e6 8. Bg5
+Bd6 9. Nbd2 O-O 10. Re1
+{ The fourth most popular and final possibility to be examined from this position. }
+10... h6 11. Bh4 g5
+{ The g-pawn can be used to support an eventually advancing h-pawn. } 12. Bg3
+Bxg3 { Removing some of the defense of the Kingside. } 13. hxg3 Kg7
+{ Clearing the way for the Rook. } 14. Rc1
+{ The only game in the Lichess database in this position is located at @@LinkStart@@https://lichess.org/xhAFAbet@@LinkEnd@@ }
+14... Rh8
+{ Evaluation: +0.4  So many good choices for Black in this position.  With this move Black announces the intention of taking control of the h-file.  In the game, Black pushed the h-pawn up the file and White blundered trying to defend, losing the game. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Exchange Variation 4. Nf3 5. Nc3 8. h3 11. a3"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Nf3 Nf6 5. Nc3 Bg4 6. Be2 Nc6 7. O-O e6 8. h3
+Bxf3 9. Bxf3 Bd6 10. Bg5 O-O 11. a3
+{ White's most common response in this position. } 11... h6 12. Bh4 g5
+{ We will see this scenario played out many times in the Exchange Variation 4. Nf3 5. Nc3 8. h3.  Since the White has pushed their pawn to h3, it is advantageous to play g5 to move their dark-squared Bishop to a place there it will be captured and open up the Kingside.  Black can also move the Queen to a place where it will x-ray White's King. }
+13. Bg3 Bxg3
+{ Opening up the Kingside and preparing to move the Queen where it can x-ray White's King. }
+14. fxg3 Qb6
+{ Black has a solid position.  It is time to place additional pressure on White's position. }
+15. Ne2
+{ This is the best move for White, and viewed here despite the more popular blunder Na4, which hangs the d4 pawn.  From this point the game at @@LinkStart@@https://lichess.org/esCOfDgH@@LinkEnd@@ is followed. }
+15... e5
+{ Evaluation: -1.5  And just as quickly we depart that game, where White played Rad8, a good move but not nearly as strong as e5. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Exchange Variation 4. Nf3 5. Nc3 8. h3 11. Nb5"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Nf3 Nf6 5. Nc3 Bg4 6. Be2 Nc6 7. O-O e6 8. h3
+Bxf3 9. Bxf3 Bd6 10. Bg5 O-O 11. Nb5
+{ White's second most common move in this position. } 11... Be7
+{ While the other variations have h6 as the move in this position, White's Knight on b5 makes this impossible.   11...h6  12.Bxf6  Qxf6  13.Nxd6 }
+12. c3 a6
+{ In the other similar variations h6 would have been played by now.  However, since White has closed off its best retreat square for its Knight, there is an opportunity to hurt White's pawn structure. }
+13. Na3 Bxa3 { Forcing a pair of Rook pawns for White. } 14. bxa3 Na5
+{ Black is eyeing a sweet location for its Knight.  From this point we are following the game at @@LinkStart@@https://lichess.org/0gdv1n5H@@LinkEnd@@. }
+15. Qa4 Nc4
+{ Evaluation: -1.4  In the game being followed, Black played b5.  The strongest reply is Nc4, putting the Knight on an outpost. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Exchange Variation 4. Nf3 5. Nc3 8. h3 11. Ne2"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Nf3 Nf6 5. Nc3 Bg4 6. Be2 Nc6 7. O-O e6 8. h3
+Bxf3 9. Bxf3 Bd6 10. Bg5 O-O 11. Ne2
+{ White's third most popular response in this position. } 11... h6 12. Bh4 g5
+13. Bg3 Bxg3 14. Nxg3 Qb6 { Looking at White's b and d-pawns. } 15. c3
+{ From this point we are following the moves from the game at @@LinkStart@@https://lichess.org/I4JTXzBv@@LinkEnd@@. }
+15... Qxb2 { Adding a pawn island to White's structure. } 16. Qd3 Qa3
+{ Evaluation: -0.5  At this point we depart the game we were following.  Black gave up the advantage by playing Rab8  (but subsequently won the game)  . }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Exchange Variation 4. Nf3 5. Nc3 8. h3 11. Re1"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Nf3 Nf6 5. Nc3 Bg4 6. Be2 Nc6 7. O-O e6 8. h3
+Bxf3 9. Bxf3 Bd6 10. Bg5 O-O 11. Re1
+{ The fourth most common move for White in this position. } 11... h6 12. Bh4 g5
+13. Bg3 Bxg3 14. fxg3 Qb6 { A double attack on the pawns. } 15. Ne2 e5
+{ I have listed Qxb2 as an alternative in this position, as it is similar to the other positions and is not a bad move, but e5 is much stronger.  Since White is not able to take the pawn, Black's subsequent move will be able to attack the Bishop and gain more space in the center.  From this point we are following the game at @@LinkStart@@https://lichess.org/T221tKyE@@LinkEnd@@. }
+16. c3
+{ There are better responses for White, but the position is already starting to fall apart. }
+16... e4 17. Bg4 Nxg4
+{ Evaluation: -3.1  In the game we were following Black played Ne7  (and continued to win on move 24)  .  However, taking the Bishop will leave White with an exceptionally ugly tripled pawn structure. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Exchange Variation 4. Nf3 5. Nc3 8. Ne5 14. Qd3"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Nf3 Nf6 5. Nc3 Bg4 6. Be2 Nc6 7. O-O e6 8.
+Ne5 Bxe2 9. Nxe2 Qc7 10. Bf4 Bd6 11. Nxc6 bxc6 12. Bxd6 Qxd6 13. c3 O-O 14. Qd3
+{ The most popular move from this position. } 14... c5
+{ It is difficult for White to not trade its most forward central pawn in this situation.  If White insists upon holding onto the pawn then Black can simply make the trade themselves at the opportune time.   15.b3  Rac8  16.h3  h6  17.Rfb1  Rc7  18.Qe3  Rfc8  19.a4  cxd4  White can take back with either the Queen or the Knight, and Black has an advantage. }
+15. dxc5 Qxc5 16. Nd4 Rfc8
+{ With this move we follow the game located at @@LinkStart@@https://lichess.org/tJbcGE8R@@LinkEnd@@. }
+17. Rfe1 Ne4
+{ With White moving the Rook. the f2 pawn is only protected by the King.  Moving White's Knight out of the way should be easy. }
+18. Re3 a5 { Preventing White from playing b4. } 19. Rh3
+{ A blunder when there were other moves that would have offered better chances, like h3, Re2 or Rc1. }
+19... e5
+{ Evaluation: -4.5  In the game we have been following, Black did not take advantage of this blunder and played g6. Pushing e5 can result in the following devastation:   19...e5  20.Nc2  Qxf2+  21.Kh1  Rab8  22.Rf3  Rxb2  If the Rook takes the Queen then retaking forks the King and Queen. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Exchange Variation 4. Nf3 5. Nc3 8. Ne5 14. Qd2"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Nf3 Nf6 5. Nc3 Bg4 6. Be2 Nc6 7. O-O e6 8.
+Ne5 Bxe2 9. Nxe2 Qc7 10. Bf4 Bd6 11. Nxc6 bxc6 12. Bxd6 Qxd6 13. c3 O-O 14. Qd2
+{ The second most common move in this position. } 14... c5
+{ We do not follow any games from this position because of the three games in the database, two play Ne4 and the other one plays e5, neither which come close to the best move, c5.  This will be 'best moves' continuation. }
+15. dxc5 Qxc5 16. b3 { The other best moves for White are Rfc1 and Rfd1. }
+16... Rfd8
+{ Black has a slight advantage, but the game will probably rest on getting a passed pawn. }
+17. Rfd1 Rac8
+{ Black has a number of alternatives here, like a5, seeking to irritate White's Queenside pawns, and Rd7, with ideas of doubling Rooks on the d-file. }
+18. Rac1 Ne4 { More pressure on the c3 pawn. } 19. Qd4 Qa5
+{ No advantage to trade Queens at this point, it is better to retain the pressure on c3 from a different location. }
+20. c4 Qxa2 { Grabbing the pawn and adding pressure to the Knight. } 21. Nc3
+Nxc3 22. Rxc3 Rb8
+{ Evaluation: -0.5  Black maintains a slight advantage and should be able to create a passed pawn.  Converting it, however, will be a difficult matter, but Black has a comfortable position. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Exchange Variation 4. Nf3 5. Nc3 8. Ne5 14. a4"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Nf3 Nf6 5. Nc3 Bg4 6. Be2 Nc6 7. O-O e6 8.
+Ne5 Bxe2 9. Nxe2 Qc7 10. Bf4 Bd6 11. Nxc6 bxc6 12. Bxd6 Qxd6 13. c3 O-O 14. a4
+{ The third most common move in this position, but a4 is not a good option for White. }
+14... a5 { Meeting White's push of the a-pawn. } 15. Rb1
+{ Another move by White that is weaker than the other moves, like Qd2 or Qc2..  From this point we follow the game at @@LinkStart@@https://lichess.org/7dmwgyA4@@LinkEnd@@. }
+15... Rab8
+{ White is going to work on the b-file now, so Black mirrors the movement. }
+16. Qd3 Rb7
+{ Black prepares the a possible doubling of the Rooks.  In the game we were following Black played Rb3, so from this point we will be following best moves. }
+17. b4 axb4
+{ Black rids itself of the Rook pawn.  The rest of Black's moves are forced. }
+18. cxb4 Rxb4 19. Rxb4 Qxb4
+{ Evaluation: -1.4  Black has a comfortable position and will look to attack the isolated Queen pawn and the a-pawn, both which will be increasingly difficult to defend. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Exchange Variation 4. Nf3 5. Nc3 8. Ne5 14. f3"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Nf3 Nf6 5. Nc3 Bg4 6. Be2 Nc6 7. O-O e6 8.
+Ne5 Bxe2 9. Nxe2 Qc7 10. Bf4 Bd6 11. Nxc6 bxc6 12. Bxd6 Qxd6 13. c3 O-O 14. f3
+{ The fourth most common move in this position.  A single game, @@LinkStart@@https://lichess.org/vSnB6oho@@LinkEnd@@, tried this move. }
+14... c5 { Starting to work against White's center. } 15. b3 Rfc8
+{ We leave the game we were following, as Black played the less accurate cxd4.  There is no need to hurry here, better to use the tempo to prepare to meet White's Queenside majority, which is why a5 is listed as an alternative. }
+16. Qd2 Rab8
+{ Black decides to keep the tension by moving its hidden Rook to the half-open b-file. }
+17. Rfc1 a5
+{ Hoping to trade the inactive a-pawn or at least weaken White's Queenside majority. }
+18. Rab1 h6 19. h3 c4 20. b4 Qd7
+{ Evaluation: -1.0  One of the most difficult things for the average player is to keep the tension.  There is always the threat that an advantage may slip away, which is why taking too early can lead to undesirable circumstances.   20...axb4  21.cxb4  gives White two passed pawns  Black has an advantage and will need to play sharp to find a way to press it. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Exchange Variation 4. c4 (Panov-Botvinnik Attack)"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4 Nf6 5. Nc3 g6 6. Nf3 Bg7 7. cxd5 Nxd5 8.
+Bc4 Nxc3 9. bxc3 Qc7 10. Qb3 O-O 11. O-O Nc6 12. Bd3 Bg4 13. Nd2 Rfd8
+{ There are no games from this position, so we will work with a 'best moves' scenario. }
+14. Rb1 { Equally good for White is Ne4. } 14... Na5 15. Qa3 Rac8
+{ e5 and b6 are also good choices. } 16. Ne4 Bf5
+{ The only move.  This paralyzes White's Knight due to the fact that the light-squared Bishop is not guarded. }
+17. Re1 { Protecting the Knight.  Also good would have been Bg5. } 17... Bxe4
+{ Removing a defender of the c3 pawn. } 18. Bxe4 Qxc3 19. Qxc3 Rxc3 {  } 20.
+Bxb7 Bxd4
+{ Evaluation: -0.7  A mass exodus of pieces favors Black, but the outcome is not completely clear. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Exchange Variation (Main line) 4. Bd3, 5. c3 12. Nf3"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nf6 5. c3 Bg4 6. Qb3 Qc7 7. Ne2 Bxe2 8.
+Bxe2 e6 9. O-O Be7 10. h3 O-O 11. Nd2 Nc6 12. Nf3 Ne4
+{ Clears the way for f5 and centralizes the Knight. } 13. Bd3 f5
+{ Allowing the weakening of the e6 pawn  with the understanding that this is the beginning of a massive fight for the center. }
+14. Be3 Rac8 { Starting a battery on the semi-open file. } 15. Qd1 Na5
+{ Preventing Qb3 and eyeing a possible move to c4. } 16. Ne5 Bd6 17. Bf4 g5
+{ Grabbing more of the center. } 18. Bh2 Nc6
+{ Evaluation: 0.0  The pin that bursts the tension.  There may be a clearing of pieces at this point that leads to the endgame, so it is best to make trades with that in mind. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Exchange Variation (Main line) 4. Bd3, 5. h3 12. Nbd2"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nf6 5. h3 g6 6. Nf3 Bg7 7. O-O O-O 8. Re1
+Nc6 9. c3 Bf5 10. Bxf5 gxf5 11. Bf4 e6 12. Nbd2
+{ The most common move from this position. } 12... Ne4
+{ With two pawns securing the Knight, this move strikes into White's territory. }
+13. Ne5 { White responds in kind. } 13... Nxe5 14. dxe5
+{ White takes with the pawn.  Taking with the Bishop would result in a trade of Bishops, with White's pawn surrounded by the enemy.   14.Bxe5  Bxe5  15.dxe5 }
+14... Qh4 15. Nxe4 fxe4 16. Qd2 f5
+{ In the two games from the previous position, neither played the best move shown here.  Black is looking to open lines to White's Kingside.  From this point we are not following any games and are looking at best moves. }
+17. Rac1 Rac8 18. Red1 Rf7
+{ By moving here Black now has the choice to either double the Rooks on the c-file, or move the Bishop to a more useful square. }
+19. a4 Rd7
+{ Evaluation: -0.3  With this move Black considers a third alternative, placing a Rook on the d-file, which may open up if White pushes the c-pawn.  If need be, the Queen can reinforce both Rooks by moving to d8.  Alternatively, the Rooks have the flexibility to double up on either file. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Exchange Variation (Main line) 4. Bd3, 5. h3 12. Ne5"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nf6 5. h3 g6 6. Nf3 Bg7 7. O-O O-O 8. Re1
+Nc6 9. c3 Bf5 10. Bxf5 gxf5 11. Bf4 e6 12. Ne5
+{ White's other popular move from this position. } 12... Nxe5
+{ As was the case in thesimilar variation, taking the Knight is the best move. }
+13. Bxe5 Ne4
+{ There is a single game in the Lichess database that offers this position, located at @@LinkStart@@https://lichess.org/k5ov3zoA@@LinkEnd@@.  We follow that game for a while. }
+14. Nd2 Bxe5
+{ One Bishop will take the other, so might as well make it more difficult to protect the separated pawn. }
+15. dxe5 Qg5
+{ We stop following the game at this point because Black played the weaker Qc7, allowing for a trade of Knights and the Queen protecting the pawn following check.  From this point we will be playing best moves. }
+16. Nxe4 dxe4 17. Qe2
+{ Black's placement of the Queen prevents White from checking without consequences. }
+17... Rac8
+{ Evaluation: -0.1  Black has many moves from which to choose.  There is an open file that needs to be filled, an e-pawn to attack, and a King to move from a semi-open file. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Classical 6. Nf3"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Nxf6+ exf6 6. Nf3 Bd6 7. Bd3 O-O
+8. O-O Bg4 9. h3 Bh5 10. c3 Nd7 11. Re1 Re8 12. Rxe8+ Qxe8 13. Be3 Rd8 14. Qe2
+{ As we chose the path less taken by playing the Korchnoi Variation, there are no games in the Lichess database that offer the position from where we left off.  For this reason, we will be looking at best moves. }
+14... Nf8
+{ This allows the Rook to offer protection to the Bishop, and gives Black the choice of whether to eventually place the Knight on e6 or g6  (or offer protection to the light-squared Bishop in case it ends up on g6)  . }
+15. Rd1 Ne6 16. g3 Qd7
+{ The best amongst a group of possibilities.  Black is hoping for tactics, or at least complications, involving the now unprotected h-pawn. }
+17. Bf5 Nf4
+{ An interesting idea, trading Queens, that will take White time to calculate. }
+18. Qc2 Bg6 19. Nh4
+{ White's Bishop can either take Black's Bishop or the Queen, but this is actually the best response. }
+19... Nxh3+
+{ It does not matter whether this move is played, or   19...Bxf5  , the same position results with just a different move order. }
+20. Kg2 Bxf5 21. Qxf5 Ng5 22. Qxd7 Rxd7
+{ Evaluation: +0.1  An even position with chances for both sides. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black " Classical - Korchnoi Variation 6. c3"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Nxf6+ exf6 6. c3 Bd6 7. Bd3 O-O 8.
+Qc2 Re8+ 9. Ne2 h6 10. O-O Nd7 11. Bf4 Nf8 12. Bxd6 Qxd6 13. Ng3 Bd7 14. Rfe1
+{ Because of the opening choice, there are only two games in the Lichess database that continue from this position. }
+14... Rxe1+ 15. Rxe1 c5
+{ The only games with the previous position played Re8.  The engines say that c5 is stronger, but truthfully it makes little difference.  This is a position that lacks winning chances for either side, and the players may have recognized this, hoping to simply trade all off the pieces away and call it a draw. }
+16. dxc5 Qxc5 17. h3 Rd8
+{ At this point both engines indicate evaluations for their top five moves to be within a tenth of a pawn from even.  We continue the line for a couple more moves. }
+18. b4 Qc7 19. Bf1 b6
+{ Evaluation: +0.1  This is a position where it would be understandable to shuffle pieces back and forth to obtain a draw.  Neither side really has a way to win without an outright blunder. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Two Knights Variation 6. d4"]
+[Result "*"]
+
+1. e4 c6 2. Nc3 d5 3. Nf3 Bg4 4. h3 Bxf3 5. Qxf3 e6 6. d4 Nf6 7. e5 Nfd7 8. Bd3
+c5 9. Be3 Nc6 10. Bb5 cxd4 11. Bxc6 bxc6 12. Bxd4 c5 13. Be3 Nxe5 14. Qe2
+{ The Two Knights Variation is not as popular as the standard 2. d4 response, so for the three variations being looked at, none have games at this point in the Lichess database.  The moves presented will be based on best moves.  The position from the opening had Black with a big advantage, and that can be continued. }
+14... d4 15. Bc1 Nc6 { Moving the Knight to g6 is also good. } 16. Ne4 Be7
+{ The only good square for Black at this time, as moving to d6 and trading is not appropriate at this point.  Black has an advantage, and in a position that is opening up, the Bishop is worth more than the Knight. }
+17. O-O O-O 18. f4 Rc8
+{ Giving Black's Bishop flexibility when it is time for it to move. } 19. Nd2
+Qd5 20. Nc4 Bf6
+{ The most useful location for the Bishop, striking at b2 when White's Bishop moves. }
+21. Rb1 Rfd8
+{ Evaluation: -2.7  Both sides are preparing for Black's pawn advance.  The important element here is that Black is on the offense and White is hoping to defend and survive.  A comfortable position for Black. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Two Knights Variation 6. exd5"]
+[Result "*"]
+
+1. e4 c6 2. Nc3 d5 3. Nf3 Bg4 4. h3 Bxf3 5. Qxf3 e6 6. exd5 cxd5 7. Bb5+ Nc6 8.
+O-O Nf6 9. Re1 Be7 10. d3 O-O 11. Bxc6 bxc6 12. Bg5 h6 13. Bh4 Qb6
+{ When we arrived at this position in the Openings chapter, Black had a half pawn advantage.  As there are no games in this position, the moves from this point are best moves. }
+14. Rab1 c5 { Gaining space and working against White playing b4. } 15. Bg3 Qa6
+{ Preventing Na4. } 16. Be5 Nd7
+{ It is a shell game at this point, with each side patiently positioning pieces for the upcoming conflict. }
+17. Bf4 Bd6 18. Bxd6 Qxd6 19. b3 Rab8
+{ It is time to position the Rooks on advantageous squares, starting with the semi-open b-file.  This also prevents Nb5.  Placing a Rook on the c or d-file also works equally well. }
+20. Rbc1 Rfd8
+{ Evaluation: -0.5  It is hard to decide whether to place this Rook on the d or c-file.  The engine seems to prefer the former, though the latter could probably be equally useful.  White is waiting for Black to attack, and this will probably happen on the Queenside, with the a and c-pawns leading the charge. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Two Knights Variation 6. d3"]
+[Result "*"]
+
+1. e4 c6 2. Nc3 d5 3. Nf3 Bg4 4. h3 Bxf3 5. Qxf3 e6 6. d3 Nf6 7. Bd2 Qb6 8.
+O-O-O d4 9. Ne2 a5 10. g4 Na6 11. e5 Nd5 12. Qe4 Bc5 13. f4
+{ There are no games in the Lichess database with this position, but there is one game in the Masters database at @@LinkStart@@https://lichess.org/SfkqnO2Z@@LinkEnd@@. }
+13... a4
+{ In the Masters game Black played Nac7, but a4 is a considerably stronger move. }
+14. f5 Nac7
+{ This provides additional protection for the d5 Knight, and opens the a-file for the Rook.  If Black plays exf5 then placing the Knight on the square can block the advance of White's e-pawn. }
+15. g5 exf5 { Chipping away at White's attack. } 16. Qxf5 a3
+{ Forcing the weakening of White's Queenside strucute. } 17. b3 Bb4 18. Bg2
+Bxd2+ 19. Rxd2 Ne3
+{ Evaluation: -4.5  Black has successfully infiltrated White's position, which is on the verge of collapse.  White can only react to Black's forcing moves. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Hillbilly Attack 4. Bb3, 5. d4"]
+[Result "*"]
+
+1. e4 c6 2. Bc4 d5 3. exd5 cxd5 4. Bb3 Nf6 5. d4 Bg4 6. f3 Bd7 7. Ne2 e6 8. O-O
+Be7 9. c3 O-O 10. Ng3 b5 11. f4 g6 12. a3 a5 13. Nd2 Nc6 14. Nf3 b4
+{ Black continues the minority attack on the Queenside. } 15. Ne5 bxa3 16. bxa3
+Qc7 { Allowing the Rooks to move freely along the back rank. } 17. Ba4 Nb8
+{ Offering a trade of White's good Bishop with Black's bad Bishop. } 18. f5
+exf5 19. Bh6 Rc8
+{ Evaluation: -1.1  Black has a solid position and attacking possibilities. Nothing is assured, however, as the advantage can easily be lost without great care. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Hillbilly Attack 4. Bb3, 5. Nf3"]
+[Result "*"]
+
+1. e4 c6 2. Bc4 d5 3. exd5 cxd5 4. Bb3 Nf6 5. Nf3 Nc6 6. O-O Bg4 7. h3 Bh5 8.
+d3 e6 9. Bg5 h6 10. Bh4 Bd6 11. Nbd2 g5 12. Bg3 Bxg3 13. fxg3 g4 14. hxg4 Nxg4
+15. Qe1 Qb6+ { Black develops the Queen to a strong square with tempo. } 16.
+Kh1 O-O-O { Connecting the Rooks and preparing to send the King to safety. }
+17. Nh4 Kb8
+{ In the only game in the Lichess database with the previous position  (@@LinkStart@@https://lichess.org/XsQOmFWR@@LinkEnd@@)  Black played Bg6, but it is much more important to get the King out of danger before embarking on an attack.  From this point on we are looking at best moves. }
+18. Ba4 Ne7 19. c3 Bg6
+{ If White moves their d-pawn then the Bishop can be moved to target one of White's weak g-pawns.  The Bishop can be taken, but this is just worse for White.   20.Nxg6  fxg6  21.d4  Nf5  22.Kg1  h5 }
+20. Bd1 h5
+{ Evaluation: -2.1  Black has everything defended and has weakened White's Kingside.  White can try to defend but Black has numerous chances. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Hillbilly Attack 4. Bb5+"]
+[Result "*"]
+
+1. e4 c6 2. Bc4 d5 3. exd5 cxd5 4. Bb5+ Bd7 5. Bxd7+ Nxd7 6. Nf3 e6 7. O-O Ngf6
+8. d4 Bd6 9. Bg5 Qb6 10. b3 Qa6 11. Nbd2 h6 12. Be3 O-O 13. a4 Rac8
+{ Rooks belong on open or semi-open files. } 14. c4 dxc4
+{ In a different move order Black would be starting a minority attack.  In this case White has begun an advance.  b6 is as good a response as the decision to begin removing pieces from the board. }
+15. bxc4 e5 { Looking to strip away one of White's paired pawns. } 16. Qb1
+{ This is White's best response, though there are others that work equally as well.  Pushing the d-pawn is not one of them.   16.d5  Nb6  17.Bxb6  Qxb6  18.Rb1  Qc7  19.Nh4  e4 }
+16... exd4 17. Bxd4 Bc5
+{ Offering to remove the Bishops from the opening board. } 18. Bc3 Rfd8
+{ Evaluation: -0.5  Placing the f-Rook on the e-file makes just as much sense, though the engine slightly prefers the d-file.  Black has a nice position but there are chances for both sides. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Middlegame Play"]
+[Black "Fantasy (Tartakower) Variation 10. Nbd2"]
+[Result "*"]
+
+1. e4 c6 2. d4 d5 3. f3 dxe4 4. fxe4 e5 5. Nf3 Bg4 6. Bc4 Nd7 7. O-O Ngf6 8. c3
+Bd6 9. Bg5 O-O 10. Nbd2 h6 11. Bh4 Qc7
+{ Black can move its Queen without concern of White damaging its Kingside pawn structure. }
+12. h3 Bh5 13. Qc2 Bg6
+{ Since the Bishop is no longer pinning anything, move it to a more useful square. }
+14. Bd3 b5
+{ This begins an advance on the Queenside, and prevents both Bc4 and Nc4. } 15.
+Rae1
+{ The single game in the Lichess database in this position is located at @@LinkStart@@https://lichess.org/9HpjanFY@@LinkEnd@@.  This is an inaccuracy, with a4 or Rfe1 being better alternatives. }
+15... Nh5
+{ We do not follow the aforementioned game because Black chose to play a6 instead of pressing their advantage.  In that game Black did continue to build an advantage, but a couple of inaccuracies wiped that out and White won.  We follow best moves from this point on. }
+16. Bf2 Rab8 { Black prepares for a possible attack on the Queenside. } 17. a4
+a6
+{ Evaluation: -0.4  There may be many trades coming in the next several moves.  Black has an advantage and with careful play should be able to convert it. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "BONUS: The Oddballs"]
+[Black "2. d3 - Breyer Variation"]
+[Result "*"]
+
+{ Of the 2,000,000+ Caro-Kann games in the Lichess database that involve games of players rated 1600-2000 in Rapid and Classical time limits, this course has covered nearly 90% of the most popular responses.  The remaining 10% means that there may be times when something out of the ordinary is thrown at you.  I had not planned to do this chapter, but recently an opponent offered the Breyer Variation against me, something that one at the 1600-2000 level will see about one out of every 50 Caro-Kann games.  I was immediately out of theory and did not make the best move on move 3.  Fortunately, I was able to recover from the slight misstep and win the game.  I have decided to add some of these offbeat continuations so that you can at least get past move 3 without a misstep. }
+1. e4 c6 2. d3 { This denotes the Breyer variation. } 2... d5 3. Nd2 e5
+{ The move I played was dxe4, which happens to be the most commonly played move at my level.  The game went:   3...dxe4  4.dxe4  Nd7  5.Ngf3  e5  6.Nc4  Ngf6  7.Bg5  Qc7  8.Qe2  Be7  9.Bxf6  Bxf6  10.Rd1  O-O  11.Nd6  Nb6  12.h3  Rd8  13.Qd3  a mistake, which led to a massive tradeoff and a win for Black. }
+4. Ngf3 Bd6 5. g3
+{ White hopes to fianchetto his Kingside Bishop so that it will be in a good position to attack Black's d5 pawn following a trade.  An alternative by White would be to play d4, which opens the center and results in Black having an isolated Queen pawn that cramps White's position.   5.d4  exd4  6.exd5  Nf6  7.dxc6  Nxc6  8.Be2  O-O  9.O-O  Bc7  evaluates to -0.1 }
+5... Nf6 6. Bg2 O-O 7. O-O Bg4
+{ A natural developing move that White will try to take advantage of. } 8. h3
+Bh5
+{ Trading for the Knight would not be good, as the Knight would only be replaces by another Knight, and the diagonal for White's dark-squared Bishop would open up. }
+9. g4 Bg6
+{ It appears that Black's Bishop is going nowhere, but if White's idea to fianchetto the Bishop was to have it available to help attack Black's d5 pawn, Black's Bishop is actually putting pressure on White's e4 pawn. }
+10. Nh4
+{ Moving aside for g2 Bishop and attacking Black's light-squared Bishop. }
+10... Nbd7
+{ Simply completing development.  If White chooses to remove Black's light-squared Bishop then that will not be a problem.  Another option for Black would have been to take the pawn.   10...dxe4  11.Nxe4  Bxe4  12.dxe4  g6 }
+11. Nf5
+{ The popular choice is to put the Knight on the doubly protected square.  Taking the Bishop is also possible followed with a Kingside attack, so Black should be prepared for that.   11.Nxg6  hxg6  12.g5  Nh5  13.exd5  cxd5  14.Bxd5  Nf4  Evaluation: -0.1 }
+11... Bxf5 { Black removes the invasive Knight. } 12. gxf5 Re8
+{ Evaluation: -0.4  Black holds a slight advantage but White has space.  Game in the database with this position:  @@LinkStart@@https://lichess.org/VrJmvLtX@@LinkEnd@@ }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "BONUS: The Oddballs"]
+[Black "2. f4 - Bird Variation 6. c3"]
+[Result "*"]
+
+1. e4 c6 2. f4
+{ It may appear to be a strange move, but is the most common second move for White outside of the main variations. }
+2... d5
+{ This will either end up resembling the Advanced Variation or the Classic Variation.  Exchanging is disadvantageous for White. }
+3. e5
+{ White overwhelmingly chooses the Advanced.  That said, I played an opponent who always plays e4 and f4 as White.  The beginning of the game went:   1.e4  c6  2.f4  d5  3.exd5  cxd5  4.d4  Nf6  5.Nf3  Bf5  6.Bd3  Bxd3  - better would have been e6 -  7.Qxd3  e6  8.O-O  Nc6  9.c3  Bd6  10.Ne5  O-O  11.Nd2  Nd7  12.Qg3  Ne7  13.Ndf3  Nf5  14.Qh3  and Black has a slight advantage. }
+3... Bf5
+{ Black has a number of alternatives here, like c5 and h5, but we should follow the idea of quickly developing our pieces.  This move gets the Bishop outside of the pawn structure. }
+4. Nf3 e6 5. d4 c5
+{ As is the case with the Advanced Variation, the idea is to attack White's pawn chain. }
+6. c3 Nc6 { Adding additional pressure to d4. } 7. Bb5
+{ The most common move for White, but Be2, Be3 and Qb3 would all have been much better. }
+7... Qb6
+{ h5 could be played here, as will be explained when we get to move 9.  There are other possibilities, but this immediately forces the question to White as to its intentions. }
+8. Bxc6+ { White pretty much always takes, instead of the much stronger Qe2. }
+8... bxc6
+{ Taking with the b-pawn makes more sense than taking with the Queen, as Black has plans for the doubled pawn on this file. }
+9. O-O h5
+{ h5 could also have been played back at move 7, or even earlier.  Black's light-squared Bishop, which is usually something to toss, is now something to protect, as it has the long diagonal to itself. }
+10. Nbd2 Nh6
+{ This puts additional pressure on g4 in case White has thoughts of h3 then g4.  It also develops the Knight while allowing Black's dark-squared Bishop to patrol c5. }
+11. Nb3
+{ Of the four games in Lichess's database, three have White moving the Knight to b3.  It will not be there for long. }
+11... c4
+{ Taking more space, forcing the Knight to return to where it was, and setting future plans for the advance of Black's pawn on c6. }
+12. Nbd2 Bd3
+{ An aggressive move by White, invading Black's Kingside while commanding the full diagonal. }
+13. Re1
+{ The only game in the database can be found at @@LinkStart@@https://lichess.org/YKoVV1F4@@LinkEnd@@.  It is a fascinating game played by 1933 and 2089 players, where Black makes an incredible blunder for their final move, but White, apparently not recognizing the blunder, resigned.  In this position in that game, Black played Nf5, so the final move has no games in the database. }
+13... Be7
+{ Evaluation: -1.7  Black is on the attack while White is still trying to develop.  No games in this position. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "BONUS: The Oddballs"]
+[Black " 2. f4 - Bird Variation 6. c4"]
+[Result "*"]
+
+1. e4 c6 2. f4 d5 3. e5 Bf5 4. Nf3 e6 5. d4 c5 6. c4
+{ I encountered this variation in a recent game, so I decided to include it in the course. This is an uncommon move within an uncommon variation.  Interestingly, I had just gone over the Bird Variation before playing this game, but I was expecting the move c3, which is literally played 28 times more frequently.  Sometimes we just need to 'play chess.' }
+6... dxc4
+{ The strongest continuation - taking the other pawn is about one pawn weaker. }
+7. Bxc4
+{ A normal and expected move by White.  Stockfish says that either Nc3 or Be3 would be a better choice. }
+7... Nc6
+{ In the Caro-Kann we generally tend to develop the Kingside first, but the oddity of White's choice of 6. c4 within Bird's Variation dictates different choices.  This variation is not complementary to White, and the most popular moves will prove not to be the best. }
+8. d5 { This is weaker than Be3, but played twice as often. } 8... exd5
+{ Black's only move in this position.  Other moves lead to problems.  The second best move -   8...Bxb1  9.Rxb1  b5  10.Be2  Stockfish evaluates +1.5 if   10...exd5  , otherwise Black is lost.  All other moves lead Black to disaster. }
+9. Bxd5 Nge7
+{ Developing the Knight, attacking the Bishop, and protecting the other Knight. }
+10. Nc3 Nxd5
+{ Removing the Bishop and giving room for the dark squared Bishop to develop. }
+11. Nxd5 c4
+{ Evaluation: -3.1  There are no games in the Lichess database because in the four games offering the previous position, Black chose to play either the weaker Be6, Be4 or Be7. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "BONUS: The Oddballs"]
+[Black "2. c4 - Accelerated Panov Attack"]
+[Result "*"]
+
+1. e4 c6 2. c4 d5 { The pawns at the center are going to go away. } 3. cxd5
+cxd5 4. exd5 Qxd5
+{ Black loses two center pawns, White has an isolated Queen pawn.  The game will revolve around White trying to push that pawn and Black trying to block it. }
+5. Nc3 Qd8
+{ Black has other options that are all pretty much the same, Qa5, Qd7, Qd6, and even Qe6+.  There is nothing wrong with undeveloping at this point and starting from scratch.  White has an extra tempo, but it also has a targeted pawn it must protect at all costs. }
+6. Nf3 g6
+{ The Panov-Botvinnik Attack is one of the two previous openings in this course where Black fianchettoed the Kingside Bishop.  There are other options here that are equally plausible, like Nc6 and Nf6 where Black does not continue in this way, but it may be easy to remember if both similarly named openings follow the same path. }
+7. d4 Bg7 8. Bc4 Nf6 9. O-O O-O { The Kingside is secure. } 10. h3 Nc6
+{ h3 has been played, so Black needs to decide where to place the Bishop.  As the Knight needs to get out, that should happen first, and then perhaps a clue on Bishop placement will arrive. }
+11. Be3 e6
+{ Building a wall against the White light-squared Bishop, and making White's potential Qb3 less useful. }
+12. Qd2
+{ When one sees this alignment, the expectation is that the dark-squared Bishops will at some point leave the board. }
+12... b6
+{ Black's last move means that either the light-squared Bishop goes to d7, where it has no current role, or gets fianchettoed along with its sibling. }
+13. Rad1 Bb7
+{ Once the c6 Knight moves, Black will have a nice long diagonal on which to work. }
+14. Bh6 Rc8
+{ In the only game in Lichess's database, at @@LinkStart@@https://lichess.org/i7n3oVyl@@LinkEnd@@, Black played Nb4.  No need for Black to take, it is better to develop another piece and make White remove the Bishop. }
+15. Bxg7 Kxg7
+{ Evaluation: -0.1  An even game that will probably rest on the fate of White's isolated Queen pawn.  No games in this position. }
+*
+

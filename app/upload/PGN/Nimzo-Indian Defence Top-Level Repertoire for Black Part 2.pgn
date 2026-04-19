@@ -1,0 +1,584 @@
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Introduction"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Kalyan,Arjun"]
+[ECO "E20"]
+[EventDate "2023.12.21"]
+[PlyCount "12"]
+[SourceVersionDate "2018.12.02"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 { In part 1 of this database we saw the Rubinstein variation (4.e3) and the Classical variation (4.Qc2) . Here, we will take a look at the other options. } 4. f3 { This is known as the Kmoch variation and is one of the most enterprising lines for White. White wants to immediately get control over the center with the move e4. It is a very commital move weakening the kingside. } ( 4. Qb3 { This has completely gone out of practice and it makes sense as we have a clear way to punish White for bringing his queen out too early. } 4... c5 { This is very effective here with the queen on b3. Ne4 is in the air and the queen is completely misplaced. } ) ( 4. g3 { This position can occur via the Catalan with Bb4+ or the Nimzo. There are many ways for Black to equalise but we need to be well prepared as we are entering Catalan territory which may be new for a few players. } ) ( 4. Bg5 { This is called the Leningrad system and it is one of the more aggressive options for White. However, in modern times it has gone out of practice as engines like the resulting positions for Black. } 4... c5 { We have already seen that this is particularly effective against the Bg5 systems. } ) ( 4. Nf3 { This is called the Kasparov variation and it is one of the most flexible moves as White retains the option to transpose to many different systems. There is always the transposition to the Ragozin with 4...d5 but it is not everyone's cup of tea. } 4... O-O { We do the usual - castle first and decide later. } 5. Bg5 { This is the best independent option for White. 4.e3 will transpose to the lines in my previous course and we will examine 4.Qc2 in the coming chapters. } ( 5. Qc2 { This can occur both via this move order and 4.Qc2. Since we do not go for the lines with d5 there we have to go for an independent option. } 5... c5 { We immediately challenge White's control over the center. } ) 5... c5 { This is something which we have not seen so far in any of the lines but is a very typical plan to break in the center. It is particularly effective against the Bg5 systems as White will face some issues along the a5-e1 diagonal. } 6. Rc1 { This has gotten popular over the last few years. It is a typical modern flexible move keeping options open. While it keeps an eye on c3, White will still likely have to recapture on c3 with the pawn as the rook will get too exposed. } ) ( 4. a3 { This is the Sämisch Variation which is one of the most aggresive and complicated lines against the Nimzo Indian. There are several ways for Black to equalise but the positions are usually quite messy. It has gotten pretty popular in recent times and was also played with success in the World Championship match 2023. } 4... Bxc3+ 5. bxc3 d6 { This is neither one of the common moves in this position nor one of the top choices of the computer. In these lines, the evaluation does not matter as much as a proper understanding of the ideas. Often engines underestimate White's play on the kingside. We play a flexible and cunning move without showing our hand. We keep options of both e5 and c5 open. } ) 4... d5 { This is the more solid alternative, in line with our general plans. We stop White from getting the move e4 easily. However, we will soon diverge from the usual lines. } 5. a3 { This is the only critical way to continue, winning the bishop pair. White will then take on d5 and then slowly prepare the move e4. The knight belongs on g3 in those positions. } 5... Bxc3+ 6. bxc3 c6 { This is our surprise for the opponent. I like such moves which have a conceptual idea in mind. We want to recapture on d5 with the c6 pawn maintaining good control over the center. This takes the sting out of the slow e4 ideas and also opens up the 'c' file. We will take a look at this in the first two chapters. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1 - Nimzo 4.f3"]
+[Black "4...d5 6...c6!? sidelines"]
+[Result "*"]
+[Annotator "GM Kalyan,Arjun"]
+[ECO "E20"]
+[EventDate "????.??.??"]
+[PlyCount "40"]
+[SourceVersionDate "2018.12.02"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. f3 { This is known as the Kmoch variation and is one of the most enterprising lines for White. White wants to immediately get control over the center with the move e4. It is a very commital move weakening the kingside. } 4... d5 { This is the more solid alternative, in line with our general plans. We stop White from getting the move e4 easily. However, we will soon diverge from the usual lines. } ( 4... c5 { is a very sharp alternative but I am not a fan of the long forcing variations. There are ways in which White can force a draw with good preparation. Having faced such an opponent myself, I wanted to look for other promising options. } ) 5. a3 { This is the only critical way to continue, winning the bishop pair. White will then take on d5 and then slowly prepare the move e4. The knight belongs on g3 in those positions. } ( 5. e3 { Is pretty slow and goes against the spirit of this entire system. } 5... c5 6. a3 Ba5 $1 { We do not need to give up our bishop on c3 immediately. } 7. dxc5 ( 7. cxd5 cxd4 $15 ) 7... Bxc3+ $1 { Now we take on c3 damaging his pawn structure. Releasing the tension with dxc5 was a big concession. } 8. bxc3 Nbd7 $11 { We will take on c5 next with a comfortable position. } ) 5... Bxc3+ 6. bxc3 c6 $5 { This is our surprise for the opponent. I like such moves which have a conceptual idea in mind. We want to recapture on d5 with the c6 pawn maintaining good control over the center. This takes the sting out of the slow e4 ideas and also opens up the 'c' file. } 7. e3 { This is already a concession as White admits that he is not able to get the move e4 directly. He can try to prepare it slowly but he gives us enough time to create counterplay. } ( 7. a4 { is too slow. } 7... O-O ( 7... Qa5 8. Qd2 O-O 9. e3 { 0-1 (26) Firouzja,A (2728) -Carlsen,M (2863) Lichess.org INT 2020 CBM 198 extra [Krasenkow,Michal] } 9... c5 $11 ) 8. e3 Qc7 { A very flexible move keeping options open. } ( 8... c5 9. cxd5 Nxd5 10. Qd2 cxd4 11. cxd4 Nc6 $11 { [%cal Ge6e5] } ) 9. g4 b6 { We would love to trade off the light-squared bishops. } 10. g5 Ne8 11. Ba3 Nd6 12. cxd5 cxd5 13. Kf2 Ba6 14. Bxa6 Nxa6 $11 { Our play on the queenside is much easier and faster. } ) ( 7. Bg5 { This does not make much sense in conjunction with the move f3. } 7... h6 ( 7... O-O { 1-0 (48) Mamedyarov,S (2817) -Karjakin,S (2753) Kolkata 2018 } ) 8. Bh4 ( 8. Bxf6 Qxf6 $11 ) 8... dxc4 9. e4 b5 $11 { It's not going to be easy for White to win back the pawn. } ) ( 7. cxd5 cxd5 $1 { This the reason why we went for the move c6. } 8. Bg5 O-O 9. e3 Nbd7 10. Bd3 e5 $11 { We make use of the 'e' pawn to gain control over the center. We can go for the move e4 next. } ) 7... O-O 8. Bd3 { White is willing to lose a tempo but he wants to get the move e4 on the next move. } ( 8. cxd5 cxd5 { In addition to opening up the 'c' file we also get the c6 square for the knight. b6, Ba6 is the other plan. } 9. Bd3 Nc6 ( 9... b6 10. Ne2 Ba6 11. e4 Bxd3 12. Qxd3 Nc6 13. O-O $36 ) 10. Ne2 e5 $1 { This perfectly showcases the reason why we went for the move c6. We can fight back in the center with our the 'e' pawn. We will maintain the tension for a long time. } 11. O-O Re8 12. Ng3 h5 $5 { A typical plan aimed against the knight on g3. } 13. h3 ( 13. Ra2 h4 14. Nh1 Be6 $15 ) 13... h4 14. Ne2 b6 $11 ) 8... dxc4 { We have seen this many times in the past- we take on c4 as soon as White moves his light-squared bishop. } ( 8... b6 9. Ne2 ( 9. cxd5 cxd5 10. Ne2 Ba6 11. O-O Bxd3 12. Qxd3 Nc6 13. e4 Qc7 ) 9... Ba6 10. cxd5 cxd5 11. O-O Bxd3 12. Qxd3 Nc6 ( 12... Qc8 13. e4 Qa6 14. Qe3 Nc6 15. e5 Nd7 16. Nf4 Rae8 17. a4 f6 18. exf6 Nxf6 19. Ba3 Rf7 20. Bb4 e5 $11 { 1/2-1/2 (23) Anton Guijarro,D (2642) -Lupulescu,C (2610) Moscow 2019 } ) 13. e4 $36 { [%cal Gc1g5] } 13... Qd7 ( 13... Na5 14. Bg5 ) ( 13... Nd7 { [%cal Gc6a5] } 14. Nf4 Ne7 15. a4 Rc8 ) 14. e5 ( 14. a4 e5 15. Bg5 dxe4 16. fxe4 Ne8 $11 ) 14... Ne8 15. Bg5 f6 16. exf6 Nxf6 17. Rae1 e5 $11 ) 9. Bxc4 c5 { This is similar to one of the variations in the Rubinstein system. There White has his pawn on f2 in the same situation. Pawn on f3 helps prepare e4 but weakens the king. } 10. Ne2 ( 10. e4 Qc7 11. Qc2 cxd4 ( 11... b6 12. Ne2 cxd4 13. cxd4 Ba6 14. Bd3 Qxc2 15. Bxc2 Nc6 16. Ba4 Rac8 17. Be3 Na5 $11 18. Kf2 Rc4 19. Bd1 Rcc8 ) 12. cxd4 Bd7 { We want to go Rc8 next. The bishop is eyeing the a6-f1 diagonal. } 13. Bd3 Qxc2 14. Bxc2 Bb5 { We are going to Nc6 and Rd8 next. It is not easy to defend the d4 pawn. We also do not let him castle easily. } 15. Be3 Nc6 16. Ne2 Rac8 17. Rc1 Rfd8 $11 ) 10... Qc7 11. Bd3 { The general rule in these positions is to go for the e5 plan when the bishop is on d3. This makes sure that White is unable to meet e5 with the move d5. } ( 11. Ba2 b6 $1 { With the bishop on a2 we can get our bishop to the a6-f1 diagonal. } 12. e4 Ba6 13. O-O Nc6 $11 { The d4 pawn is going to come under a lot of pressure. } ) 11... Nc6 12. O-O e5 13. e4 $5 { This is another plan from the previous part- White wants us to get a pawn to d4 to start his play on the center. The pawn keeps the 'd' file closed. } 13... cxd4 14. cxd4 exd4 15. f4 Rd8 16. Ng3 Ng4 $1 { A very important move getting the knight to e3. White can win the pawn back but it opens up some files for our pieces. } 17. Qf3 Ne3 18. Bxe3 dxe3 19. Qxe3 Qb6 $1 { We trade the queens and get the knight to d4. The endgame is roughly equal. } 20. Qxb6 axb6 $11 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 2 - Nimzo 4.f3"]
+[Black "4...d5 6...c6!? 7.e4"]
+[Result "*"]
+[Annotator "GM Kalyan,Arjun"]
+[ECO "E20"]
+[EventDate "????.??.??"]
+[PlyCount "38"]
+[SourceVersionDate "2018.12.02"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. f3 d5 5. a3 Bxc3+ 6. bxc3 c6 $5 7. e4 { The most critical move and the reason why many Black players avoid this line. We are not going to let White enjoy his centre at all. } 7... dxe4 8. fxe4 e5 $1 { A timely break, opening up the diagonal for the bishop. Our next move is likely to go Bg4 and further weaken the d4 square. } 9. Nf3 Bg4 ( 9... Qa5 10. Bd2 Nxe4 11. Bd3 Nxd2 12. Qxd2 Be6 ( 12... exd4 13. O-O O-O 14. Ng5 $18 { 1-0 (22) Adhiban,B (2660) -Delgado Ramirez,N (2622) Krasnaya Polyana 2021 CBM 203 [Adhiban,Baskaran] } ) 13. Nxe5 Nd7 14. Nf3 ( 14. Nxd7 Bxd7 ) 14... O-O 15. O-O h6 16. a4 ( 16. Rae1 Rae8 17. h3 Qa6 ) 16... Rae8 17. Rab1 b6 18. Rbe1 Bg4 ) ( 9... Nxe4 10. Qc2 $14 { [%cal Gf1d3,Gf3e5] } ) 10. Qd3 ( 10. Bd3 { White defends the e4 pawn and is ready to castle kingside. We need to go for the critical line here. } 10... exd4 11. e5 Nfd7 12. cxd4 Bxf3 13. Qxf3 Qh4+ $1 { We trade the queens off by force. The central pawns can be a liability for White. } 14. Qf2 Qxf2+ 15. Kxf2 c5 16. Rb1 Nc6 $1 { A pretty unusual idea- we prepare to meet Rb7 with 0-0-0 kicking the rook back. Both the pawns on d4 are e5 are weak. } 17. Rxb7 O-O-O 18. Rb1 cxd4 $11 ) ( 10. h3 { White wants to get his pawn to f3 to bolster his center. This reminds me of the saying- in for a penny in for a pound. His king is anyway open and he would rather make sure that he keeps his center intact. } 10... Bxf3 11. gxf3 Nh5 { It is not clear if we have a killing threat here since the White king can run to the queenside. Our main priority is to keep control over f4 and bring our pieces out quickly. We will likely go Nd7 next. } 12. Rb1 { A cold-blooded move allowing Qh4. But we do not need to go for it. We have a pretty amazing idea prepared. } ( 12. Rg1 Nd7 13. Qd2 h6 14. Rb1 b6 $11 { We want to go Qf6 next. We can also go g5 to keep control over f4. } ) 12... Nd7 ( 12... Qh4+ 13. Kd2 $14 ) 13. Rxb7 Nc5 $3 { I have very rarely seen such an idea work. This is the part which I like about these positions- they are often crazy and imaginative. } 14. Rb2 ( 14. dxc5 $4 Qh4+ 15. Kd2 O-O-O+ $19 ) 14... Qh4+ 15. Kd2 O-O $1 { Another cold-blooded response. Now Black is the one with the initiative. We have a simple plan of getting our pieces to the center and opening up as many files as possible. } 16. Kc2 Rad8 $36 ) 10... exd4 { We want to open the central files and get our king to safety quickly. The position is getting very dynamic with the value of each move sky high. } ( 10... Nbd7 { This was played in a top-level game but I feel our main line is simpler. This can also be analysed in more detail. } 11. dxe5 Nh5 12. Be2 O-O 13. O-O Qb6+ 14. Rf2 Rfe8 15. Be3 Qc7 16. Rd1 ( 16. c5 $2 Bxf3 17. gxf3 Nxe5 18. Qc2 Ng6 19. Kh1 Nhf4 $17 { 1-0 (46) Erigaisi, A (2689) -Parligras, M (2576) Chennai 2022 } ) 16... b6 17. c5 Bxf3 18. Qxd7 Qxd7 19. Rxd7 Bxe2 20. Rxe2 Rxe5 21. cxb6 axb6 22. Bxb6 Nf4 $11 ) 11. cxd4 c5 12. d5 O-O { The first part of our plan is complete. Now the threat is to take on e4. Let us see how long White can hold on to the pawn. } 13. Be2 ( 13. e5 { White decides to give up his 'e' pawn but forces us to bring our rook e5. } 13... Re8 14. Be2 Bxf3 15. Qxf3 Rxe5 16. O-O Nbd7 { We have to study this position carefully. Optically I would assume that White is better but we have enough play to neutralise the bishop pair. We can go for the move b5 next. Another plan is to play along the 'e' file. } 17. Bd3 ( 17. Bb2 Re8 $11 { [%cal Gd8e7,Ge7e3] } ) 17... b5 $1 18. Bf4 ( 18. Bb2 bxc4 19. Bc2 { White is kicking our rook back but at the cost of a pawn. } 19... Re8 { Our plan now is to go Qe3 and play along the 'e' file. } ( 19... Re7 20. d6 Re6 21. Rad1 Qe8 $11 ) 20. Ba4 { White creates some unpleasant pressure on our knights. We need to be very accurate here. } 20... Ne5 $8 21. Qg3 c3 $1 { We give up a pawn to gain a tempo with our knight. The lines are pretty forcing here. } 22. Bxc3 ( 22. Qxc3 Re7 23. Rae1 Nxd5 24. Qg3 Ng6 { Here White has to now play a few only moves. } 25. Bc6 Rxe1 26. Rxe1 Rb8 27. Re8+ Qxe8 28. Bxe8 Rxb2 $11 { We will get our knight to f4 next and have at least perpetual check. } ) 22... Ne4 { The queen is tied down to the c3 bishop and we have time to improve our pieces. } 23. Qe3 Ng4 $1 24. Qh3 Re7 25. Bc2 $1 Qxd5 { The lines get messy now but it is objectively equal throughout. } ( 25... Qd6 $5 { is another option. } 26. Bxg7 Nxh2 27. Bxe4 Rxe4 28. Rf6 Qe7 $13 ) 26. Qxg4 Nxc3 27. Bxh7+ Kh8 28. Kh1 Re5 $1 { The rook does a very good job along the 5th rank. } 29. Bf5 Kg8 30. Qh3 g6 31. Bxg6 fxg6 32. Qxc3 Rae8 { The position has simplified and we reach an equal major piece endgame. } ) 18... bxc4 $1 { We want to get our rook to e4. } 19. Bxc4 Re4 20. Rac1 Qb6 21. d6 Rb8 $1 { It is important to maintain control over the 'b' file. We are also preparing to go for the move Ne5 exchanging a pair of minor pieces. The 'd' pawn can be both an asset as well as a liabiltiy. } ( 21... Rae8 22. Rb1 $14 ) 22. Rfe1 ( 22. Kh1 h6 $11 ) 22... Rbe8 $1 { The exchange of rooks works very well for us. } 23. Red1 ( 23. Rxe4 Rxe4 $15 ) 23... h6 $11 { The position is still complicated and all three results are possible. We will put our rook on d4 next. } ) 13... Nbd7 { We bring our knight into the game and stop the move e5. } ( 13... Re8 { is also possible } 14. h3 Bh5 15. e5 Nfd7 16. O-O Nxe5 17. Nxe5 Bxe2 18. Qxe2 Nd7 19. Bb2 f6 20. Rf5 Nxe5 21. Bxe5 g6 22. Qg4 Qc8 23. Raf1 $11 { 1/2-1/2 (23) Menéndez Rodríguez,G (2357) -Zunkovic,S (2279) ICCF 2019 } ) 14. O-O Qe7 { White has a few options here. We are attacking the e4 pawn and also setting up a blockade on the dark squares. The rook is ready to come to the 'e' file. } 15. Bf4 ( 15. Rb1 b6 16. Nd2 Ne5 17. Qe3 Bxe2 18. Qxe2 Ne8 $11 { We have an excellent position with the knight on d6. White cannot do much with his control over the center. } ) ( 15. h3 Bh5 16. Bf4 Rfe8 17. Nd2 Bxe2 18. Qxe2 Nxe4 19. Rae1 f5 { We have an extra pawn and it is up to our opponent to prove the compensation. } 20. Nxe4 Qxe4 21. Qxe4 Rxe4 22. Rxe4 fxe4 23. Re1 { Do we have to defend the pawn passively here? } 23... b5 $1 { Of course not, the main point is to get activity for our rook. } 24. cxb5 a6 25. bxa6 Rxa6 $13 ) ( 15. Nd2 Ne5 16. Qe3 Bxe2 17. Qxe2 Ne8 $11 ) 15... Rfe8 { We want to get our rook to e4. We will end up winning the e4 pawn soon. } ( 15... Qxe4 $5 16. Qxe4 Nxe4 17. Bd3 Rfe8 18. Rfe1 Nef6 19. Ne5 Nh5 $11 ) 16. Nd2 Bxe2 17. Qxe2 Nxe4 18. Rae1 f5 19. Qd3 Ndf6 { All of this happened in the game Abolins-Abols,D (2323) -Ordobs Martínez,V (2314) ICCF 2021. The position is roughly equal but with chances for both sides. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 3 -Nimzo 4.a3 Saemisc"]
+[Black "5...d6 sidelines"]
+[Result "*"]
+[Annotator "GM Kalyan,Arjun"]
+[ECO "E28"]
+[EventDate "????.??.??"]
+[PlyCount "60"]
+[SourceVersionDate "2018.12.02"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. a3 { This is the Sämisch Variation which is one of the most aggresive and complicated lines against the Nimzo Indian. There are several ways for Black to equalise but the positions are usually quite messy. It has gotten pretty popular in recent times and was also played with success in the World Championship match 2023. } 4... Bxc3+ 5. bxc3 d6 { This is neither one of the common moves in this position nor one of the top choices of the computer. In these lines, the evaluation does not matter as much as a proper understanding of the ideas. Often engines underestimate White's play on the kingside. We play a flexible and cunning move without showing our hand. We keep options of both e5 and c5 open. } 6. e3 { This is the 2nd most played move. There are usually 2 approaches for White- to go f3,e4 (we will see this in the next chapter) or to prepare it more slowly with e3, Bd3. Our play is aimed against the latter plan as we want to go e5-e4. } ( 6. Nf3 { This does not fit in with White's previous move and we can take over after } 6... Qe7 $15 { [%cal Ge6e5] } ) ( 6. e4 $5 { This is the best move in the position exploiting the move d6. However, it has hardly been played in any games. The position remains even but we will have to play precisely. } 6... Nxe4 7. Qg4 { This is the point- White wins the g7 pawn in return for his central pawn. } 7... f5 { We are going to force the queens off the board. } ( 7... Nf6 $5 { This can be analysed further but I feel it is not necessary. } 8. Qxg7 Rg8 9. Qh6 Qe7 10. Bd3 ( 10. Nf3 e5 11. Be2 Rg6 12. Qe3 Nc6 13. O-O Ng4 14. Qe4 Bd7 { [%cal Gf7f5,Ge8c8] } ) ( 10. Ne2 Nc6 ( 10... e5 11. f3 $13 ) 11. Ng3 e5 12. d5 Na5 13. Rb1 b6 14. Be2 Rg6 15. Qh4 Nb7 16. O-O Nc5 17. f4 Nxd5 18. Qxh7 Nf6 $11 ) 10... e5 11. Ne2 Rxg2 12. dxe5 Ng4 ( 12... Qxe5 13. Bf4 $18 { [%cal Gf4g3,Ge1c1] } ) 13. exd6 ( 13. Qh3 Rxf2 14. Qxh7 Qxe5 15. Qg8+ Ke7 16. Bg5+ f6 17. Qg7+ Kd8 18. Qg8+ Ke7 19. h3 Rxe2+ 20. Bxe2 Qxc3+ 21. Kf1 Qxa1+ 22. Kg2 Qe5 23. Bxg4 Bxg4 24. hxg4 Kd7 25. Rh7+ Kc6 $11 { [%cal Ge5e2,Ge2e1] } ) ( 13. Qxh7 Nxf2 14. exd6 Nxd3+ 15. Qxd3 cxd6 $15 ) 13... cxd6 14. Qh3 Rxf2 15. Qxh7 Bf5 16. Qg8+ Qf8 17. Qxf8+ Kxf8 18. Bxf5 Rxf5 19. Bf4 Ne5 20. O-O-O Nxc4 21. Rhf1 Ra5 22. Bxd6+ Nxd6 23. Rxd6 Nc6 24. Rd7 Ne5 25. Rxb7 Rxa3 $11 ) 8. Qxg7 Qf6 { We trade queens which makes sense as our king is weaker but at the same time White does have the bishop pair. } 9. Qxf6 ( 9. Qh6 $14 { This is an artificial computer move but we just win the pawn on c3. } 9... Qxh6 10. Bxh6 Nxc3 { It is up to White to show his compensation here. } 11. Ne2 ( 11. Rc1 Na4 12. Be2 Rg8 13. c5 Bd7 $11 { We can get our bishop to the d5 outpost. Again, White has to prove compensation. } ) 11... Na4 { The White knight does not have a great square on the board. } 12. g4 fxg4 13. h3 gxh3 14. Bxh3 Nc6 { We will try to castle queenside next. We are up two pawns and although our opponent has some compensation it should not be for more than equality. } 15. Bg4 Bd7 16. Bh5+ Kd8 17. O-O-O Kc8 18. Bf7 Kb8 19. Nf4 e5 $11 ) 9... Nxf6 10. Bd3 Nc6 { The position is pretty imbalanced. We have two main plans- to go for the e5 break or go b6, Bb7. White also has a few different ways to develop his pieces. The position is completely unexplored though. } 11. Nf3 { The simplest move keeping an eye on the e5 square. However, I hope that its drawbacks are clear. } ( 11. Nh3 Kf7 $11 { [%cal Ge6e5] } ) ( 11. f3 b6 12. Ne2 Kf7 { We prepare to go Ba6 and Na5 next. e5 is another idea to watch out for. } ( 12... Ba6 13. Nf4 Kf7 14. Nxe6 $14 ) 13. g4 Ba6 14. gxf5 e5 $1 { The pawn on f5 keeps our king safe and the d3 bishop restricted. Na5 is hard to stop now. } 15. Kf2 ( 15. Bg5 Rae8 { We want to go e4 next. } 16. O-O-O e4 17. fxe4 Nxe4 18. Bh4 Na5 $36 { [%csl Rc4] 1-0 (27) Asi,E (1608) -Klemmer,M (2020) ICCF email 2021 } ) 15... Na5 16. Bh6 Bxc4 17. Be4 Rae8 { We have the better pawn structure which is compensated by the bishop pair. The position is dynamically balanced. } ) 11... e5 { We get to go e5 with a tempo threatening to go e4 next. } 12. Nh4 { White is provoking us to go for the move e4 which would weaken the dark squares. The d4 pawn is hanging but that is exactly what our opponent wants to achieve- to open up the center. } ( 12. Bc2 Rg8 13. O-O Bd7 { We will go 0-0-0 next and it is not easy for White to get rid of our control over the center. } 14. c5 e4 15. Nh4 dxc5 16. dxc5 Be6 $11 { We can castle long next with a great position. } ) 12... Bd7 { A clever move as White was not yet threatening to take on f5. } ( 12... e4 13. Be2 $14 ) 13. O-O ( 13. Bxf5 exd4 14. cxd4 Nxd4 $36 { [%cal Gd4b3,Gb3c1,Gb3a1] } ) 13... f4 { Since we have the light-squared bishop we should be placing our pawns on the dark squares, restricting his dark-squared bishop. } 14. c5 O-O-O 15. cxd6 cxd6 16. Re1 Rhg8 $11 { The position remains pretty complex but it is dynamically balanced. } ) 6... O-O 7. Bd3 { This is the most common plan after 4.a3 but we are specifically playing against this system with our move order. } ( 7. Nf3 { This goes completely against the spirit of the move 4.a3. White cannot afford to play slowly as he is positionally worse due to his pawn structure. } 7... Qe7 8. Be2 c5 $15 { We will go e5 next and the closed center suits our pieces much better. } ) ( 7. Ne2 { White tries to get his knight to g3 before developing the bishop. It takes up quite a bit of time though. It was famously played by Ding against Nepo in the World Championship match 2023 and we must take it very seriously. } 7... c5 8. Ng3 ( 8. d5 e5 $17 ) 8... Nc6 { We want to go b6, Ba6 next followed by Na5. It is one of the main plans against an early a3. } 9. Ra2 $5 { This was the move popularised by Ding Liren but I am sure it was analysed by a lot of players before that. In one of the training camps for the Chennai Olympiad 2022, I analysed this position briefly for the Indian team with Adhiban. It usually leads to very interesting positions provided that the Black player is not aware of the details. } ( 9. e4 { This is very risky with the king on e1. } 9... d5 $1 { Now, we are happy to open up the central files. } 10. e5 Ne4 11. Qc2 { This is the only way to keep complex. The following line leads to an endgame practically by force. } 11... cxd4 12. Nxe4 dxe4 13. Qxe4 Qa5 14. Bd3 Qxe5 15. cxd4 Qxe4+ 16. Bxe4 Nxd4 $36 { We are a pawn up in the endgame. White may be able to win back the pawn but we also have the better structure. } ) ( 9. Bd3 { This is the standard plan here. White will try to create play on the kingside as quickly as possible. } 9... b6 10. O-O Ba6 11. Qe2 ( 11. f4 { can be met with } 11... d5 $1 12. cxd5 Bxd3 13. Qxd3 exd5 14. dxc5 { White wants to go c4 next and open up the diagonal for his bishop. } 14... Na5 $1 { We keep control over the c4 square sacrificing a pawn in the process. } 15. cxb6 Qxb6 $44 { The bishop on c1 is completely restricted by his pawns. } ) 11... Rc8 { Let's bring more pieces to go after the c4 pawn. } 12. Bb2 ( 12. d5 $2 Ne5 $19 ) ( 12. Bd2 $5 { I think that this is the best for White keeping the bishop along this diagonal. } 12... Na5 13. d5 $14 Nd7 14. f4 $1 { White stops our knight from getting to the ideal e5 square. } 14... exd5 15. cxd5 Bxd3 16. Qxd3 c4 17. Qc2 Nb3 18. Rae1 Ndc5 $11 { We get the other knight to d3. The position remains complex but I would rather be Black here with the dancing knights. } ) 12... Na5 13. Rac1 ( 13. d5 { Leads to a slightly worse position after } 13... Nd7 $15 { [%cal Gd7e5] } ) 13... Qd7 { No mercy for him! The queen is heading to a4 now and White has to go for broke here. He cannot defend the c4 pawn anymore. } 14. e4 Qa4 15. e5 dxe5 16. dxe5 Ne8 { Even though we have 3 pieces on the 'a' file, White is unable to create anything in time on the kingside. } 17. Rcd1 Bxc4 18. Bc1 { Finally the bishop comes into the game but it is quite late to the party. } 18... Bxd3 19. Rxd3 Nc6 $36 { We will go c4 next and exchange rooks along the 'd' file. White has to work to show compensation. } ) 9... Qa5 $14 { I like to deviate early from the well-trodden path. We want to discoordinate White's pieces and tie them down to the c3 pawn. } ( 9... b6 { This was the main line of my analysis and what Nepo played. You can check this more deeply on your own. } 10. e4 Ba6 11. Bg5 h6 12. h4 $1 { White keeps the tension on the kingside. } 12... hxg5 { The most direct way. } 13. hxg5 g6 14. gxf6 Qxf6 15. e5 ( 15. Qg4 { This is what I had prepared for White before that game. } 15... cxd4 16. Nh5 Qe5 17. f4 Qxe4+ 18. Be2 Qb1+ 19. Bd1 Qe4+ $11 ) 15... dxe5 16. d5 $5 { This is where Ding deviates from the top line of the computer. } 16... Ne7 17. d6 Nf5 18. Ne4 Qd8 19. Qd3 Kg7 20. g4 Bb7 21. Rh3 Nh4 22. g5 { All this happened in 1/2-1/2 (45) Ding, L (2788) -Nepomniachtchi, I (2795) Astana 2023. Black would have been fine after } 22... Rh8 $1 23. f4 exf4 24. Nf6 e5 25. Rah2 Nf3+ 26. Qxf3 Bxf3 27. Rh7+ Rxh7 28. Rxh7+ Kf8 29. Rh8+ Kg7 $11 ) 10. Rd2 ( 10. Bd2 { This beats the purpose of going Ra2 and we can just go back. } 10... Qc7 $11 { [%cal Gb7b6,Gc8a6] } ) 10... d5 { With a lead in development we are happy to open up the center. } 11. cxd5 ( 11. Bb2 Ne4 12. Nxe4 dxe4 { We can go for the move e5 next. The bishop on b2 is completely shut down. } 13. Qc2 f5 $11 ) 11... exd5 { We want to go c4 now and keep the center closed. We are playing against the bishop on c1. } 12. Be2 c4 13. Qc2 Re8 14. O-O Bd7 $11 { We can go Ne7 followed by Ba4. On the kingside we can try to go h5-h4. The position is balanced. } ) 7... e5 $1 { This is the reason why we went for the move d6 instead of the usual c5 plan. We will go e4 followed by Be6 playing against the c4 pawn. Nc6-a5 is another idea. } 8. Ne2 { The natural continuation but it allows us to execute our master plan. } ( 8. f3 { He tries to stop the move e4 but this is just asking for it. } 8... e4 $1 9. fxe4 Nxe4 10. Nf3 Bf5 $15 { We have full control over e4. } ) ( 8. e4 { White stops us from going e4 but do not forget that his king is still on e1. How do we exploit that? } 8... exd4 9. cxd4 Nxe4 $1 { We win the central pawn opening up the 'e' file. White has to treat this as a sacrifice and make use of his bishop pair. The position is still dynamically balanced. } 10. Ne2 ( 10. Bxe4 Re8 $17 ) 10... d5 { We will try to keep our knight in the center until he makes some concession to force us back. } 11. O-O Re8 12. Ng3 ( 12. Qc2 Bf5 13. cxd5 Qxd5 14. Nf4 Qc6 $11 ) 12... Nd7 { We want to bolster our knight on e4. } 13. Qc2 Ndf6 14. c5 Nxg3 15. hxg3 Bd7 $11 { White has some compensation with the bishop pair but not more. } ) 8... e4 $1 { We close down the center and restrict his dark-squared bishop. } 9. Bb1 Be6 $1 { It would be great to force the move d5 as it gives up the e5 square. Otherwise, it is not easy to defend c4. } 10. Ba2 { This has been played very few times but is a natural continuation. } ( 10. Qb3 Nbd7 { We want to get our knight to b6 to attack the c4 pawn. } 11. Ng3 ( 11. Nf4 { Distracts our bishop but the knight is misplaced on f4. } 11... Bf5 12. O-O Rb8 $15 { [%csl Rb1,Rc1][%cal Gc7c6] } ) 11... Nb6 ( 11... b5 $5 ) 12. d5 Bg4 { This is a surprising inclusion as it turns out that the inclusion of move h3 might be beneficial for us. It is pretty deep but also not strictly necessary. } ( 12... Bc8 { [%cal Gb6d7,Gd7c5] is very similar. } ) 13. h3 Bc8 { We would love to get our knight to c5. White's pawns on the queenside are a long-term problem for him. } 14. Nxe4 { We do give up the central pawn but we will make sure that White is not able to open up the center. } 14... Nxe4 15. Bxe4 f5 16. Bc2 Nd7 $11 { [%cal Gd7c5,Gb7b6] The knight will be perfect on c5. } ) ( 10. Ng3 { This is a good trade for us as we stop White from castling kingside. He will likely have to trade the light-squared bishops and be stuck with the amazing bishop on c1. } 10... Bxc4 11. Nxe4 Nxe4 12. Bxe4 Nc6 { This has been played in only one game so far by Gukesh. We want to get out knight to c4 quickly. } ( 12... d5 { is a simpler option. } 13. Bd3 Bxd3 14. Qxd3 Nd7 15. c4 Nb6 $1 16. cxd5 Qxd5 $11 { We will go c5 next. } ) 13. Bd3 ( 13. Bb1 f5 $17 { [%csl Re1][%cal Gf5f4] } ) ( 13. Rb1 Rb8 14. Bd3 Na5 $11 ) 13... Na5 $1 { This was the reason to go for the move Nc6. The c4 square will be an outpost for our knight. } 14. Rb1 ( 14. O-O d5 $15 { [%csl Rc1] } ) 14... Bxd3 { I think this is slightly better as we do not let White go e4 and open up the center. } ( 14... d5 { was played in the game 0-1 (58) Gupta, A (2628) -Gukesh, D (2614) New Delhi 2022 } 15. Bxc4 Nxc4 $15 16. e4 $1 b6 17. Qd3 ) 15. Qxd3 d5 16. O-O f5 $17 { This is the point- we get full control over the center and restrict the bishop. The knight will eventually get to c4. } ) 10... Nc6 $5 { We are preparing to go Na5 next. White has to act quickly. } ( 10... Nbd7 { This is a simpler and maybe even better option objectively. It does not lead to forcing play here. } 11. Nf4 Bf5 12. h3 c6 $11 { We can go h6 next and we have a pleasant middlegame. I like our chances more. } ) 11. d5 $1 { White has to enter these complications. } ( 11. O-O { is too slow and allows us to execute our plan. } 11... Na5 12. d5 Bd7 13. Ng3 b6 $17 { [%csl Rc3,Rc4] } ) 11... Ne5 12. dxe6 Nd3+ 13. Kf1 Ng4 { This must look very scary to play for White and he has to find some only moves. } 14. Nf4 Ngxf2 15. e7 $1 { This is very important here not allowing us to open the 'f' file. } 15... Qxe7 16. Qd2 { Again the only move. This is a weird square for the queen but necessary as exd3 should not come with a tempo. } ( 16. Qe2 $4 Nxh1 17. Nxd3 exd3 18. Qxd3 Qf6+ $19 ) 16... Nxh1 17. Nxd3 exd3 18. Kg1 { We have quite a few options here to continue our initiative. } 18... Qf6 ( 18... Rae8 { is a promising option. } 19. Kxh1 f5 20. Qxd3 f4 21. c5+ d5 22. Bxd5+ Kh8 23. e4 c6 24. Bb3 Qxe4 25. Qxe4 Rxe4 26. Kg1 $11 ) 19. Bb2 Rae8 20. Kxh1 Re4 { This is a very messy position but dynamically balanced. We will look to create something quickly on the kingside. } 21. Kg1 Qe5 22. Re1 Re8 23. Bc1 Rh4 24. g3 Re6 $1 { We bring all our pieces into the game. There are too many options here to analyse very deeply. I think this is already far from the realms of possibility in a practical game. } 25. Qxd3 Rh3 26. Re2 Rg6 27. Rg2 ( 27. Qd2 Rgxg3+ 28. hxg3 Qxg3+ 29. Rg2 Qh4 30. Kf1 Rh1+ 31. Rg1 Rh2 32. Rg2 $11 ) 27... Rxh2 28. Kxh2 Qh5+ 29. Kg1 Rh6 30. Kf2 Rf6+ $11 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 4 -Nimzo 4.a3 Saemisc"]
+[Black "5...d6 6.f3"]
+[Result "*"]
+[Annotator "GM Kalyan,Arjun"]
+[ECO "E24"]
+[EventDate "????.??.??"]
+[PlyCount "50"]
+[SourceVersionDate "2018.12.02"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. a3 Bxc3+ 5. bxc3 d6 ( 5... c5 6. f3 d6 { transposes. } ) 6. f3 { This is the most played move in this position. However, the f3 plan in general is less popular compared to the safer e3, Bd3 plan. White is going all in to get control over the center. We will fight back on the queenside playing against the c4 pawn. I prefer to keep the king in the center for the time being. } 6... c5 { We transpose back into the main lines having avoided the critical e3 lines. } 7. e4 Nc6 { We make sure that White is not able to go Bd3, Ne2 easily as the d4 pawn is weak. We have two broad plans- to go e5 and close the center or to go b6, Na5, Ba6 and fight for the c4 pawn. In most cases, we will go after the c4 pawn maintaining the tension. } 8. Be3 { White wants to get his bishop to d3 and he first needs to defend his pawn on d4. } ( 8. Nh3 $6 { This plan is too slow here and we can exploit it immediately with } 8... e5 9. d5 Bxh3 $1 10. dxc6 Bc8 11. cxb7 Bxb7 $17 { We have managed to exchange the important d5 pawn for b7. Black was better in the game 0-1 (47) Bhakti, K (2281) -Ghosh, D (2570) Mumbai 2016. } ) ( 8. d5 { is premature releasing the tension in the center. } 8... Na5 9. Bd3 b6 { We will go hard after the c4 pawn. I like the plan of castling queenside as White has already closed the center. } 10. Ne2 Ba6 11. O-O Qe7 $1 { The king will be very safe on c8. It is hard to see where White is going to play next. } ( 11... O-O 12. Bg5 $14 ) ( 11... Nd7 12. f4 $13 ) 12. Ng3 ( 12. f4 O-O-O $15 ) 12... O-O-O { We can go Nd7 next and bring the knight to e5. Another plan is to go h5-h4 and play on the kingside. } ) ( 8. Ne2 { The knight is heading to g3 before the development of the f1 bishop. } 8... b6 9. Ng3 ( 9. Bg5 { White creates a potential threat of going for the move e5. } 9... h6 10. Bh4 O-O $1 { This is a rare case of us castling kingside very early. The justification is that it is extremely difficult for White to create anything on the kingside with his lack of development. The knight cannot go to g3 or f4 as it will run into g5. } ( 10... Bb7 11. Nc1 cxd4 12. cxd4 e5 13. Nb3 $16 { 1-0 (52) Salem,A (2679) -Moussard,J (2631) Sharjah 2021 } ) 11. Nc1 { This looks like a terrible square for the knight but he wants to go to b3 from where it stops Na5 and also defends the c4 pawn. } ( 11. f4 e5 $1 { We would love to open up the center. } 12. d5 Na5 13. f5 g5 $19 ) 11... Ba6 12. Nb3 { White is just in time but we now switch plans. } 12... Ne7 $1 { The knight is heading to g6 and we are willing to weaken our pawn structure on the kingside. } 13. Bxf6 gxf6 14. Be2 f5 { This is the benefit of doubling our pawns. We plan to go f4 and Ng6 followed by play on the kingside. } 15. Qd2 Kg7 16. O-O Ng6 $11 ) 9... O-O { Once again we castle very early. White has wasted a couple of tempi with Ne2-g3 and his setup is not that aggressive. Moreover, as I already mentioned, he cannot combine Ne2-g3 with Bg5 easily. } ( 9... Qc7 $6 { Happened in the game 1-0 (43) Salem, A (2690) -Moussard, J (2630) Abu Dhabi 2021 but White gets an edge after } 10. Bg5 $14 ) 10. Be2 { This is not the most active square for the bishop but it is the quickest way to complete development. } ( 10. h4 { White prepares to go Bg5 next and he will want to keep the bishop there even after h6. } 10... h6 { We stop it as he cannot sacrifice the piece immediately. White needed to follow up with f4 to keep the bishop there. } ( 10... Ba6 11. Bg5 h6 12. f4 $13 ) 11. Bf4 ( 11. Bg5 $2 cxd4 12. cxd4 hxg5 13. hxg5 Nh7 14. f4 g6 $19 ) 11... e5 12. Be3 { White provoked the move e5 to get the f5 square for the knight. We want to open up the position now. } 12... exd4 13. cxd4 cxd4 14. Bxd4 Be6 $11 ) 10... Ba6 11. O-O Na5 12. f4 $1 { Now it becomes a race- we are trying to be greedy and win a pawn on the queenside while White is trying to create an initiative on the kingside. } 12... cxd4 13. cxd4 Bxc4 14. f5 h6 { An important prophylactic move stopping Bg5. It is not easy for White to do much on the kingside. } 15. Bxc4 Nxc4 16. Rb1 e5 17. d5 Rc8 18. Nh5 Na5 { We want to get our rook to c4 putting pressure on the e4 pawn. } 19. Qf3 ( 19. Rb4 { This is too desperate trying to stop Rc4. } 19... Rc3 20. Bd2 { Happened in the game 0-1 (33) Giri, A (2764) -Praggnanandhaa, R (2678) chess24.com INT 2022. Black was almost winning after } 20... Rxa3 21. Qc1 Rd3 22. Nxg7 Kxg7 23. Bxh6+ Kh7 $19 ) 19... Rc4 20. Rb4 Rc2 21. Rb1 $11 { White had to repeat to maintain the balance while we have a few options to keep the game going. } ) 8... b6 { We will go after the pawn on c4. I like to keep my king in the center keeping both options open. We will usually go Ba6, Na5 and Qc7 first. } 9. Bd3 Na5 ( 9... e5 { Was played in the game 0-1 (46) Vitiugov,N (2727) -Oparin,G (2654) Riga 2021. It does not fit in with White's development. } 10. Ne2 $14 ) 10. Ne2 ( 10. Nh3 { White wants to castle and go for the move f4. The knight does not block the queen's path. } 10... e5 $5 { We immediately stop the plan of f4. The knight is not well placed to take advantage of our play. } 11. Nf2 Ba6 12. O-O Nd7 $1 { A nice multipurpose move- we stop Bg5 and also create a threat of taking on c4. } ( 12... O-O 13. Bg5 { [%cal Rg5d8] } ) 13. Qa4 ( 13. Re1 O-O $15 { [%csl Rc4,Rf2] } ) ( 13. f4 Bxc4 { White does not have much compensation for the pawn in practical play. I will challenge you to find the top choice of the computer here :) } ) 13... cxd4 { This is the simplest as we open the 'c' file for our rook and also prepare to bring the knight to c5. } ( 13... Rc8 $5 14. d5 Qe7 { I like the plan of Kd8-c7 here. This is a typical plan for these positions as the queenside is completely closed. } ) 14. cxd4 O-O 15. Rac1 exd4 16. Bxd4 Nc5 17. Bxc5 dxc5 { We have the better bishop and pawn structure. } ) 10... Ba6 11. O-O ( 11. Ng3 Qc7 { will likely transpose. } ) 11... Qc7 $1 { As I mentioned earlier we keep both options open for as long as possible. The other point is to stop his idea of Bg5 especially when we castle kingside. } 12. Ng3 ( 12. f4 O-O-O $1 { the point of blacks play...he is very flexible with the king } 13. f5 e5 14. d5 Bxc4 15. Bxc4 Nxc4 16. Bg5 Nxe4 17. Bxd8 Rxd8 $15 ) 12... O-O { [%csl Rc4] We have already seen that with the knight on g3, we can commit to castling kingside. } 13. f4 { This is in the spirit of the position- to go for an all-out attack against our king. } ( 13. Rf2 { White is trying to preserve the bishops on the board but it wastes a lot of time. } 13... Bxc4 14. Bc2 Rac8 $15 ) 13... Bxc4 14. f5 cxd4 15. cxd4 Bxd3 16. Qxd3 Qc4 { We are going to try our best to get the queens off the board. } 17. Qd1 h6 { We first stop ideas of Bg5. Let us see what White is going to try on the kingside. } ( 17... Qb3 18. Qe1 { [%cal Ge3g5] } ) 18. Kh1 ( 18. Rc1 Qb3 $11 ) 18... Rac8 ( 18... Qb3 19. Qe2 e5 $11 ) 19. Nh5 Nxh5 20. Qxh5 exf5 21. exf5 Rfe8 22. Bxh6 { This is the only way to keep the balance for White. } 22... Qxd4 23. Rad1 Qe5 24. Rf3 Qe1+ 25. Rf1 Qe5 { A very professional repetition of moves :) } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 5 - Nimzo 4.Nf3"]
+[Black "5.Bg5 sidelines"]
+[Result "*"]
+[Annotator "GM Kalyan,Arjun"]
+[ECO "B14"]
+[EventDate "????.??.??"]
+[PlyCount "38"]
+[SourceVersionDate "2018.12.02"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 { This is called the Kasparov variation and it is one of the most flexible moves as White retains the option to transpose to many different systems. There is always the transposition to the Ragozin with 4...d5 but it is not everyone's cup of tea. } 4... O-O { We do the usual - castle first and decide later. } 5. Bg5 { This is the best independent option for White. 4.e3 will transpose to the lines in my previous course and we will examine 4.Qc2 in the coming chapters. } 5... c5 { This is something which we have not seen so far in any of the lines but is a very typical plan to break in the center. It is particularly effective against the Bg5 systems as White will face some issues along the a5-e1 diagonal. } 6. e3 { This is the positional way, maintaining the tension but it is slow. } ( 6. a3 { I do not see the point of this move at all and it helps us take over the initiative quickly. } 6... Bxc3+ 7. bxc3 Qa5 8. Qc2 Ne4 9. Bd2 { A pretty sad move to play. } 9... Nxd2 10. Nxd2 d6 $11 { We will go e5 next with a great position due to our better pawn structure and the better minor piece. } ) ( 6. Qb3 { White brings his queen out early but there is no real threat and we will keep maintaining the tension. } 6... h6 7. Bh4 Nc6 { We are provoking White into doing something in the center. } 8. d5 { This has been played by Yu Yangyi in the past but it is a risky pawn sacrifice. } ( 8. dxc5 $6 { This has been played a few times but it is an inaccuracy as it weakens White's pawn structure. } 8... g5 $1 { This is something we should come to expect in the Nimzo. It is one of the few openings where I see Black taking over the initiative very early in the game. } 9. Bg3 Ne4 10. e3 Nxc3 11. bxc3 Bxc5 $15 { The queenside structure is a sorry sight for White. } ) ( 8. e3 { This is a solid approach, maintaining tension. } 8... cxd4 9. Nxd4 Nxd4 10. exd4 Be7 { We retreat calmly and prepare b6, Bb7. We will go d5 at the right moment and try to force White into an IQP position. } 11. Be2 b6 12. O-O Bb7 13. Rfd1 d5 $11 ) 8... Na5 9. Qc2 Nxc4 10. O-O-O b5 $1 { I do not think there is any reason to trade on c3 next and we are looking to open up the lines on the queenside. } ( 10... Bxc3 { happened in the aforementioned game } 11. Qxc3 b5 12. Bxf6 Qxf6 13. Qxf6 gxf6 14. e4 Bb7 15. Bxc4 bxc4 16. dxe6 dxe6 17. Rhe1 Rfd8 18. Re3 Rd3 19. Rdxd3 cxd3 $11 { 1/2-1/2 (31) Yu,Y (2763) -Ding,L (2811) Khanty Mansiysk 2019 } ) 11. Nxb5 Nxb2 $1 { The most enterprising option. There is an important concept in attack called the elimination of the 'b/g' pawn. This is usually the key to getting to the opponent's king as it exposes a lot of squares. } ( 11... a6 { is also good } ) 12. Qxb2 Rb8 { The following sequence is practically forced. } 13. a3 Rxb5 14. Bxf6 gxf6 15. axb4 Rxb4 16. Qa1 { A pretty nice square for the queen :) There is an alarming lack of pawns in White's queenside. } 16... exd5 17. e3 d4 18. exd4 c4 $1 19. d5 Qb6 $40 { White has to continue playing only moves to survive here. } ) ( 6. d5 { White is overextending his center with the king still stuck in the center for a while. We get a fantastic version of the Benoni. } 6... exd5 7. cxd5 d6 8. e3 Nbd7 { I want to immediately go Nb6 and try to win the pawn on d5. We can always go h6, g5 and kick the bishop back. } 9. Bd3 h6 10. Bh4 Nb6 11. e4 ( 11. O-O Bxc3 12. bxc3 Nbxd5 $11 { I doubt if White has enough compensation for the pawn even though the evaluation is close to zeros according to comp. } ) 11... g5 $1 { We have to play dynamically before White manages to get his king to safety. } 12. Bg3 ( 12. Nxg5 { This shoul always be checked properly. } 12... hxg5 13. Bxg5 Qe7 { [%cal Ge7e5] } 14. f4 Nbxd5 $1 15. O-O Nxc3 16. bxc3 Bxc3 { There are a lot of options here for both sides. I will give you a sample line. } 17. Kh1 Re8 18. Rc1 Bd4 19. e5 dxe5 20. fxe5 Bxe5 21. Qd2 { [%cal Gg5f6,Gd2h6] } 21... Bg4 22. h3 Rad8 23. Rce1 Rd6 24. Bh4 Bh5 { [%cal Gh5g6] } 25. Qh6 Bg6 26. Bxg6 fxg6 27. Rxe5 Qxe5 28. Qxg6+ $11 ) 12... Re8 { [%csl Re4] White is forced to give up his pawn here but he retains some compensation due to our exposed king. } 13. O-O Bxc3 14. bxc3 Nxe4 15. Bxe4 Rxe4 16. Nd2 Re8 17. Qh5 Qf6 { Once we get our bishop to f5 we are just better. } 18. f4 g4 19. f5 Qg5 $11 { We are up a pawn in the endgame although the game will probably simplify soon. } ) 6... cxd4 { We practically force White into an IQP position if he wants to play for something here. } 7. exd4 ( 7. Nxd4 Qa5 $1 { We win a pawn by force here. } 8. Bxf6 Bxc3+ 9. bxc3 Qxc3+ 10. Ke2 gxf6 $11 { The engine claims that White has some compensation with precise play but it is very easy to go wrong. } ) ( 7. Qxd4 { allows us to gain a tempo with } 7... Nc6 8. Qf4 h6 9. h4 { The principled way trying to create something on the kingside. As we know, a flank attack should be countered in the center. } ( 9. Bxf6 { leads to a nice endgame with the bishop pair. } 9... Qxf6 10. Qxf6 gxf6 11. Rc1 b6 $11 ) 9... Bxc3+ 10. bxc3 Re8 { We want to go e5 kicking the queen to a bad square. } 11. O-O-O e5 12. Bxf6 exf4 13. Bxd8 fxe3 $1 { A nice intermediate move. } 14. Bc7 e2 $11 { This was the point of the rook on e8. We now reach a good endgame with a better pawn structure. } ) 7... d5 { This is a great version of the traditional lines in the Karpov variation. We have a lead in development and are the ones having the choice to release the tension in the center. } 8. Rc1 { White plays a useful waiting move maintaining tension. } ( 8. cxd5 { White wants to develop his bishop without allowing dxc4 but it opens up the diagonal for our light-squared bishop. } 8... exd5 9. Be2 h6 10. Bh4 ( 10. Bxf6 Qxf6 11. O-O Be6 $11 { We will go Nc6 next with a comfortable position. } ) 10... g5 { Time to play for the initiative. We go for it just before he can castle. } 11. Bg3 Ne4 12. Rc1 Nc6 13. O-O Bf5 $13 { [%cal Ge4c3,Gb4a3,Gh6h5] We have a more active position and good chances to take over in the middlegame. } ) ( 8. Be2 { Both the bishop moves waste a tempo as they will have to recapture on c4. We have a tempo up on the Karpov variation which is already completely fine for Black. } 8... dxc4 9. Bxc4 ( 9. O-O a6 { We want to meet Bxc4 with b5 and Bb7. } 10. a4 { Thanks for the weakness on b4! } 10... Nc6 11. Bxc4 h6 12. Bh4 Be7 $11 { We can continue normally with Bd7 and Rc8. b4 is a big weakness for White. } ) 9... a6 { Usually, we are not able to play this slowly but with an extra tempo we can afford the luxury. } 10. O-O ( 10. a4 { creates a big weakness as usual. } 10... h6 11. Bh4 Qc7 12. Qd3 Nd5 $11 { [%cal Gd5f4] } ) 10... b5 11. Bd3 Bb7 { We have an excellent version of the IQP structure with very good control over d5. The exchange of minor pieces is usually in our favour here. } 12. a4 ( 12. Rc1 Nbd7 13. Qe2 h6 14. Bh4 Rc8 15. Ne5 Re8 $11 { We can allow White to double our pawns on the kingside. We have a very comfortable position. } ) 12... h6 13. Bh4 ( 13. Bxf6 Qxf6 14. axb5 axb5 15. Rxa8 Bxa8 16. Nxb5 Rd8 $11 { We will win back the pawn very soon with an equal endgame. } ) 13... bxa4 14. Ne5 Be7 $11 15. Rxa4 Nbd7 $11 { I feel White is the one who has to be careful here not to get positionally outplayed in the resulting endgames. } ) 8... h6 { I always like to force the bishop back when given the chance. You never know when we can go g5 and Ne4 in these positions. } ( 8... Be7 9. a3 ( 9. Be2 dxc4 10. Bxc4 h6 11. Bf4 Nc6 12. O-O b6 $11 ) ( 9. Bd3 dxc4 10. Bxc4 h6 11. Bf4 ( 11. Bh4 ) ) 9... b6 10. Bxf6 Bxf6 11. cxd5 exd5 12. Bb5 a6 13. Ba4 b5 14. Bb3 Re8+ $15 { 1/2-1/2 (35) Carlsen, M (2855) -Nakamura, H (2787) Paris 2016 } ) 9. Bh4 Nc6 { Our threat now is to go e5 and completely blast open the center. White has to be very careful. } 10. a3 ( 10. c5 $2 { is just asking for it. } 10... e5 $1 11. dxe5 d4 12. exf6 g5 $17 { We will go Re8 next and Be2 will be met with d3. White is in deep trouble. } ) ( 10. Bd3 { We have seen a similar position on the previous move. } 10... dxc4 11. Bxc4 Be7 12. O-O Nh5 $5 { We trade the dark-squared bishops and also bring the knight in contact with the d5 square. } 13. Bxe7 Nxe7 14. Ne5 Nf6 $11 { We can continue with Bd7 and Rc8 next. } ) 10... Be7 $1 { This is something which we have to keep in mind. It is very tempting to trade on c3 but instead, we are looking to go for Ne4 next. } ( 10... Bxc3+ 11. Rxc3 $14 { White has the edge here even with the king in the center. Our bishop is pretty passive on c8. } 11... g5 12. Nxg5 $18 ) 11. c5 { This is necessary to develop the bishop on f1. } 11... Ne4 $1 12. Bxe7 Qxe7 { Now White has to be very careful as we might break with e5 at any moment. } 13. Be2 ( 13. Bb5 { Happened in a high-level game but we have a straightforward continuation to fight for the initiative. } 13... Nxc3 14. Rxc3 e5 $1 15. O-O ( 15. dxe5 d4 16. Rc1 Nxe5 $11 ) 15... e4 { This is the most ambitious move keeping a pair of pieces on the board. } ( 15... Bg4 $11 { Happened in the game 1/2-1/2 (58) Carlsen, M (2855) -Nakamura,H (2787) Leuven 2016. The position simplified soon to a draw. } ) 16. Bxc6 bxc6 17. Ne5 Qe8 $11 { f6 is a big threat and the position remains dynamically balanced. } ) 13... Rd8 $1 { An important move to prepare e5 and open up the diagonal for the bishop. } ( 13... Nxc3 { is too early. } 14. Rxc3 e5 15. Nxe5 Nxe5 16. Re3 $1 ) 14. O-O e5 15. Nxe5 Nxe5 16. dxe5 Nxc3 17. Rxc3 d4 { The position has simplified and we reach an equal middlegame/endgame. I think there are likely to be a few simplifications which result in a drawn rook endgame. } 18. Rc1 Qxe5 19. Bd3 ( 19. Bf3 d3 $1 20. Qd2 Rb8 { The bishop will come to f5 next and the pawn becomes a big asset for us. } ) 19... Bf5 { This happened in the game 1/2-1/2 (47) Wojtaszek,R (2733) -Kramnik,V (2792) Dortmund 2018 and I think it is a good place for us to stop. The endgame is pretty even. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 6 - Nimzo 4.Nf3"]
+[Black "5.Bg5 6.Rc1"]
+[Result "*"]
+[Annotator "GM Kalyan,Arjun"]
+[ECO "E21"]
+[EventDate "????.??.??"]
+[PlyCount "38"]
+[SourceVersionDate "2018.12.02"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 O-O 5. Bg5 c5 6. Rc1 { This has gotten popular over the last few years. It is a typical modern flexible move keeping options open. While it keeps an eye on c3, White will still likely have to recapture on c3 with the pawn as the rook will get too exposed. } 6... h6 { It is always useful to kick the bishop back as we can break the pin in one go with g5. We usually go for it when we are sure that the capture on f6 is not great. } 7. Bh4 ( 7. Bxf6 { It is rarely a good idea to give up the bishop so early in the game. White will probably win our dark-squared bishop but we are ahead in development. } 7... Qxf6 8. e3 b6 9. Be2 Nc6 { We are looking to trade on d4 and play against White's shaky center. } 10. O-O cxd4 11. exd4 Bb7 $11 { We will go d5 at the right moment and I believe that the d4 pawn is a liability for White. } ) 7... cxd4 8. Nxd4 d5 $1 { We will play dynamically here making use of our lead in development. Our only issue is to get the light-squared bishop out into the game. } 9. cxd5 ( 9. Bxf6 { The Only reason is to force an IQP but we do have a huge development advantage. } 9... Qxf6 10. cxd5 exd5 11. e3 Nc6 12. Be2 Nxd4 $11 { We are at least fine with the bishop pair. } ) ( 9. e3 { Is too slow and runs into } 9... e5 $1 10. Nf3 ( 10. Nb3 g5 { A common occurrence in this line, getting out of the nasty pin. } ( 10... d4 { is also possible } 11. exd4 exd4 12. Qxd4 g5 13. Qxd8 Rxd8 14. Bg3 Ne4 15. f3 Nxg3 16. hxg3 $11 ) 11. Bg3 Nc6 { We are threatening to go d4 next which is very powerful with the king on e1. } 12. a3 Bxc3+ 13. bxc3 dxc4 14. Qxd8 Rxd8 15. Bxc4 Ne4 { Happened in the game 1/2-1/2 (46) Li, C (2746) -Giri, A (2755) Moscow 2016. We have a very pleasant endgame with the better pawn structure. } ) 10... d4 $1 { We are happy to open up the center. } 11. exd4 exd4 12. Qxd4 ( 12. Nxd4 Qb6 $1 { [%cal Gf8d8] The position is very risky for White. } 13. a3 { The only move which keeps the balance. } ( 13. Nf3 Rd8 14. Qc2 g5 15. Bg3 Nc6 $17 { [%cal Gg5g4,Gc6d4] 0-1 (35) Edouard,R (2613) -Nakamura,H (2785) Caleta 2017 CBM 177 [Navara,D] } ) 13... Rd8 14. Bxf6 Qxf6 15. axb4 Rxd4 16. Qe2 Be6 $36 { The position remains unpleasant for White and we will win the pawn on c$ soon> } ) 12... g5 13. Bg3 ( 13. Qxd8 Rxd8 14. Bg3 Ne4 15. Be2 Re8 $11 { [%cal Re8e1] } ) 13... Nc6 { We are happy to go into the endgame with our active pieces despite being a pawn down. } 14. Qxd8 Rxd8 15. Be2 Ne4 16. O-O Bxc3 17. bxc3 Be6 $44 { We have full compensation for the pawn and are likely to win the pawn on c4 shortly. } ) 9... g5 $1 { We want to take on d5 with the queen. The game is getting very concrete and White's king is likely to be in the center for the time being. } 10. Bg3 Qxd5 { We are sneakily threatening to take on a2. Another plan is to go e5 and bring our light-squared bishop out. } 11. e3 ( 11. h4 { This has been played in only one game between Inarkiev, E (2682) -Karjakin, S Nazran 2019. There are multiple ways to equalise and I will try to go for the easiest one. } 11... Ne4 12. e3 Bxc3+ 13. bxc3 Nxg3 14. fxg3 Nd7 { We have damaged White's pawn structure and will bring our knight to e4. White has to shift to damage control mode and trade queens. } 15. Qf3 Qxf3 16. gxf3 g4 17. fxg4 Ne5 $11 { [%csl Ge5] The knight has a beautiful outpost on e5 and we have more than enough compensation with White's weak pawns. } ) ( 11. a3 { White decides to force us to trade the bishops on c3. } 11... Bxc3+ 12. bxc3 ( 12. Rxc3 $6 e5 $15 { [%cal Gd5d1,Gf6e4] } ) 12... Ne4 { e5 is a big threat now and I feel we are already taking over the position at this point. } 13. f3 ( 13. e3 e5 14. Nb5 Qc5 $11 { a6 is a big threat and White is the one who has to be very precise. } ) 13... Nxg3 14. hxg3 { The 'h' file is now open but there is not much going on yet. } 14... Qe5 $14 { We do not necessarily need to go Kg7. One benefit is that it has not been played before. } ( 14... Kg7 15. e4 Qe5 16. Kf2 { 1/2-1/2 (45) Harikrishna,P (2743) -Kramnik,V (2779) Batumi 2018 } 16... Qf6 17. Kg1 e5 18. Nc2 Rd8 19. Qe1 Qc6 $11 { [%cal Gc8e6,Gb8d7] } ) 15. Rxh6 { The critical continuation. } ( 15. f4 Qe3 16. Nf3 gxf4 17. gxf4 Qxf4 $36 { We have a great position with e5 coming up next. } ) ( 15. Kf2 Qf6 { The queen is perfect here to prepare e5 and the move Rd8. It also defends h6. } 16. e4 e5 17. Nc2 Rd8 $36 ) 15... Qxg3+ 16. Kd2 Kg7 17. Rh3 Qc7 { The position is getting crazy and now there are many options for White. We are threatening to go for the move e5. } 18. Rh5 ( 18. Qc2 Rh8 19. Rxh8 Kxh8 20. e3 Nd7 21. Nb5 Qg3 22. c4 Kg7 $11 { The position is around equal with a lot of options for both sides. I feel better about our king compared to our opponent. } ) 18... e5 19. Rxg5+ Kf6 20. Rh5 exd4 21. cxd4 Nc6 22. Qc2 Be6 $11 { The position is dynamically balanced. All three results are certainly possible here but I would bet on a crazy repetition somewhere along the way. } ) 11... Qxa2 $1 { Once we have played the move g5, a very concrete approach is necessary. The position contains a lot of tricks for both sides. } 12. Qc2 { This line was revived by Magnus who played it against Ding. People realised that the positions are pretty complex and not easy to face over the board. } ( 12. Rc2 Qd5 { We thank White for the free pawn and will go for the move e5 next. } 13. h4 e5 14. Nf3 Qxd1+ 15. Kxd1 g4 16. Nxe5 Nc6 17. Nxc6 bxc6 $11 { [%csl Rd1] } ) ( 12. Bd3 { This has been played by Mamedyarov a few times. White gives up two pawns for quick development. } 12... Qxb2 13. O-O Bxc3 14. Rc2 { We force the queen back first before going Nb5. } ( 14. Nb5 { White is hell-bent on getting the knight to c7. } 14... Ba5 { We stop Nc7 and also keep the option of Qd2 open. } 15. Rb1 Qd2 16. Qxd2 Bxd2 17. Nc7 { White manages to get his knight to c7 but it is likely to be trapped soon after he takes on a8. } 17... Nc6 18. Nxa8 e5 ( 18... Rd8 $44 ) 19. Nc7 a6 { The position is very interesting as we are in no hurry to win the piece back. We can go Rd8 followed by slowly bringing the king to the center. } 20. Nxa6 { White simplifies the position but it does not lead to more than equality. } ( 20. Ra1 Rd8 21. Bc2 Kf8 $11 ) 20... bxa6 21. Rb6 Nb4 22. Rxf6 Nxd3 23. Rd1 Nc5 24. Rxd2 Ne4 25. Rdd6 Nxd6 26. Rxd6 f6 $11 ) 14... Qb4 15. Nb5 { The point is that compared to Nb5 on the previous move we do not have the Ba5 retreat, } 15... e5 16. Rxc3 Nc6 17. f4 { Definitely the way to go exploiting our weaknesses on the kingside. } ( 17. Rxc6 bxc6 18. Bxe5 Qg4 $1 { The exchange of the queens is practically forced as otherwise, the queen retreats to e6. } 19. Nc7 Qxd1 20. Rxd1 Nd7 $1 { We take the chance to get a tempo against the bishop. } 21. Bd6 Rb8 22. h3 Nb6 $11 { The position is balanced as White will win back the exchange anytime and he has the more active pieces. } ) 17... a6 { Both sides are playing on different sides of the board. White cannot afford to give up a piece yet. This has been played only once. } 18. Rb3 ( 18. Be1 Bg4 $1 19. Rxc6 bxc6 20. Bxb4 Bxd1 $11 ) 18... Qe7 19. fxg5 Ng4 { We too can create threats on the kingside. } 20. Nd6 Nxe3 21. Bh7+ Kxh7 22. Rxe3 Qxg5 { We are up three pawns but White still has enough activity to compensate for it. It is dynamically balanced. } 23. Qb3 ( 23. Qe1 Qg6 24. Nc4 Bf5 25. Bxe5 Rae8 $11 ) 23... Qg6 24. Rxf7+ Rxf7 25. Nxf7 Nd4 26. Qd5 Qb1+ 27. Re1 Ne2+ 28. Kf2 Qf5+ 29. Kxe2 Be6 30. Qxb7 Bc4+ 31. Kd2 { All of this happened in the game 1/2-1/2 (31) Li, D (2579) -Xu, X (2564) Hangzhou 2022 and we can continue the game posing practical problems for White. Our king seems safer on h7. } 31... Bxf7 32. Rxe5 Rd8+ 33. Ke1 Qg6 $11 ) 12... Bxc3+ { This is the simpler option and was also played against Magnus by Wesley. } ( 12... Nd5 { This is equal but there are a lot of complications. Feel free to explore them. } 13. h4 Nxc3 14. bxc3 ( 14. hxg5 Na4+ 15. Kd1 Qxb2 16. Qxb2 Nxb2+ 17. Kc2 hxg5 18. Kxb2 Be7 $11 ) 14... Qxc2 15. Rxc2 Be7 16. hxg5 hxg5 17. f4 Nc6 18. fxg5 Bxg5 19. Rh5 f6 20. Nf3 Bxe3 21. Re2 Bc1 22. Re4 e5 23. Bc4+ Kg7 24. Reh4 Kg6 25. Rh7 e4 ( 25... Bg4 26. Bd3+ f5 27. Nxe5+ Nxe5 28. Bxe5 Kg5 29. g3 Rg8 30. Rxb7 Rae8 31. Rb5 Rg6 32. Kf2 Rb6 33. Rxb6 axb6 { 1/2-1/2 (42) Carlsen,M (2882) -Ding,L (2805) Saint Louis 2019 } ) 26. Nd2 Ne5 27. R7h6+ Kg7 28. Rh7+ Kg6 29. R4h6+ Kf5 30. Rh5+ Kg6 31. R7h6+ Kg7 32. Rh7+ Kg6 33. R7h6+ Kg7 34. Bxe5 Bxd2+ $1 ( 34... fxe5 $2 35. Rh7+ Kg6 36. Bf7+ $1 ( 36. R7h6+ Kg7 37. Rh7+ Kg6 38. R7h6+ { 1/2-1/2 (38) Sevian, S (2654) -Sunilduth Lyna, N (2611) Douglas 2019 } ) 36... Rxf7 37. R5h6+ Kg5 38. Nxe4+ $18 ) 35. Kxd2 fxe5 36. Rd6 Bf5 $11 ) 13. Qxc3 Ne4 { White faces an unpleasant choice as the queen will either get kicked around a bit or he has to allow us to give a check on a5. } 14. Qc2 { This was played by Magnus and Nepo but in rapid games. } ( 14. Qb4 a5 15. Qb5 ( 15. Qb6 Nd7 16. Qb5 Ndc5 $11 ) 15... Bd7 $1 { Development is the priority here. } 16. Qxb7 Nc6 17. Bd3 ( 17. Bc4 Qa4 18. O-O Ra7 19. Qb6 Nxg3 20. hxg3 Qb4 $11 { We get the queens off the board. } ) 17... Nxg3 18. hxg3 Rab8 $1 { We exploit the drawback of the bishop on d3. The following line is forced. } 19. Qxd7 Ne5 20. Bb1 Qxb1 21. Rxb1 Nxd7 22. Rxh6 ( 22. Ke2 Kg7 23. b3 Rfc8 $11 { 1/2-1/2 (36) Schleef, H-Faber, H freechess.de 2021 } ) 22... Nc5 $44 { We easily have enough compensation for the pawn and the endgame is pretty fighting. } ) 14... Qa5+ 15. Ke2 { Now we have a choice whether or not to trade the knight on e4. I feel it is better to preserve more pieces on the board in general with the king on e2. } 15... Nf6 $14 { We keep the pieces on the board keeping the 'h' file closed. } ( 15... Nxg3+ { happened in those two games. It is certainly possible. } 16. hxg3 Kg7 17. f4 Nc6 ( 17... Bd7 18. b4 Qxb4 19. fxg5 Rc8 $4 ( 19... Nc6 $13 ) 20. gxh6+ Kh8 21. Qxc8+ Bxc8 22. Rxc8+ Kh7 23. Nf3 $18 { 1-0 (33) Carlsen,M (2863) -So,W (2770) chess24.com INT 2020 } ) ( 17... Nd7 $5 18. b4 Qd8 $13 ) 18. Nxc6 bxc6 19. Kf2 Rd8 20. Rd1 Rxd1 21. Qxd1 Qf5 $11 { 1/2-1/2 (38) Nepomniachtchi,I (2784) -Leko,P (2663) chess24.com INT 2020 } ) 16. h4 ( 16. f3 { White creates a square on f2 for the king. } 16... e5 17. Nb3 Qb4 18. h4 g4 19. Qc3 Qxc3 20. Rxc3 Nc6 $11 { We have a comfortable endgame where White has to try and prove his compensation. } ) 16... g4 { Of course, we do not want to open the 'h' file unnecessarily. } 17. f3 ( 17. Qc7 b6 $15 { [%cal Gc8a6] } ) 17... e5 18. Nf5 Nc6 19. Nxh6+ Kh8 $11 { We just want to go Be6 next and bring all our pieces into the game. Our king feels safer compared to White. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 7 - Nimzo 4.Nf3"]
+[Black "5.Qc2"]
+[Result "*"]
+[Annotator "GM Kalyan,Arjun"]
+[ECO "E39"]
+[EventDate "????.??.??"]
+[PlyCount "46"]
+[SourceVersionDate "2018.12.02"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 O-O 5. Qc2 { This can occur both via this move order and 4.Qc2. Since we do not go for the lines with d5 there we have to go for an independent option. } 5... c5 { We immediately challenge White's control over the center. } 6. dxc5 { This is the only way to pose problems for us. It is going to take us a while to complete development here. } ( 6. e3 { is too slow and we get a great position after } 6... cxd4 7. exd4 d5 $11 { There have been a few games here but I do not see the need to analyse it further. We are more comfortable as d4 is likely to be a long-term weakness. } ) ( 6. a3 { White is mixing up a few different systems which is rarely a good idea. } 6... Bxc3+ 7. bxc3 ( 7. Qxc3 { The move a3 is a complete waste here and we are able to complete our development much quicker. } 7... cxd4 8. Nxd4 ( 8. Qxd4 Nc6 9. Qh4 d5 $11 ) 8... d5 9. e3 e5 10. Nf3 Re8 $15 { d4 is hard to stop. } ) 7... Nc6 { We want to go d5 next. White has a few options. } 8. e4 { This is the only move which makes sense in conjunction with the move a3. White tries to bully us in the center. } ( 8. dxc5 Qa5 9. e3 b6 $5 { We want to open the 'a' file and get the light-squared bishop out to a6. The c4 pawn will fall soon. } 10. cxb6 axb6 11. Be2 Ba6 12. O-O Rfc8 $44 { We will go Ne5 next followed by winning the pawn on c4. } ) ( 8. e3 { Good luck to getting the bishop out from c1. } 8... b6 9. Bd3 Na5 10. O-O Bb7 $15 { We can go Rc8 and go after the c4 pawn next. } ) 8... d5 9. e5 Ne4 { We have seen similar lines in the 4.Qc2 variation. The inclusion of the move a3 is in our favour. } 10. Bd3 cxd4 11. Bxe4 ( 11. cxd4 $6 { allows } 11... Qa5+ 12. Bd2 Nxd2 13. Qxd2 dxc4 14. Bxc4 b6 $15 ) 11... dxe4 12. Qxe4 dxc3 13. Ng5 g6 14. Be3 Qa5 $11 { White has to retreat to defend the pawn on e5. We can then go for the f6 break. } ) 6... Na6 { The bishop is doing well on b4. We want to go Nc5-e4 before White manages to castle. } 7. g3 { This is the critical continuation, developing the bishop along the long diagonal. } ( 7. c6 { It is not clear if this improves or damages our pawn structure. We can even ignore the pawn and develop our pieces. } 7... Nc5 $5 ( 7... bxc6 8. g3 e5 $11 ) 8. cxd7 Bxd7 9. Bd2 Bc6 10. Ne5 Qb6 { We have a few threats in the position. White will have to take on c6 to stop our plan with Ba4/Be4. Ne4 is another plan. } 11. Nxc6 ( 11. e3 Be4 12. Qc1 Rfd8 $19 { [%csl Re1] } ) 11... bxc6 12. g3 Nce4 $11 { We will win back one of the pawns very soon. } ) ( 7. a3 { Once again this is pretty slow and does not achieve much. } 7... Bxc3+ 8. Qxc3 Nxc5 9. e3 ( 9. g3 { The direct g3 was a much better version with an extra tempo. } 9... b6 { We get the chance to neutralise the bishop easily. } 10. Bg2 Bb7 11. O-O Rc8 { Our next move is going to be d5 and the position is even. } ) ( 9. b4 $6 { This creates a weakness for us to attack on the queenside. } 9... Nce4 10. Qd4 ( 10. Qb2 a5 $15 ) 10... d6 11. Ng5 ( 11. Bg5 Nxg5 12. Nxg5 { Happened in the game 0-1 (32) Fodor, T (2500) -Nakamura, H (2787) Caleta 2016 and Black had a huge edge after } 12... e5 $17 ) 11... e5 12. Qb2 a5 $15 { White is lagging in development and his queenside is coming under pressure too. } ) 9... a5 $5 { We gain space on the queenside and create a threat of a4 fixing the weakness on b3. } 10. b3 { This does not secure the queenside as we will go a4 and plant our knight on b3 at the right moment. } ( 10. b4 { We now get a nice sequence of moves. } 10... Nce4 11. Qb2 Ng4 $1 { suddenly there is no way to defend the pawn on f2! } 12. Be2 ( 12. h3 Ngxf2 $19 { 0-1 (30) Hagen,A (2084) -Koskela,N (2191) Oslo 2010 } ) 12... Ngxf2 13. O-O Ng4 14. Qd4 d5 $11 { We have an extra pawn and White has to prove his compensation still. } ) 10... d6 11. Be2 Nfe4 12. Qb2 a4 13. b4 Nb3 14. Rb1 e5 $15 { The knights are doing an amazing job. We can go Be6 and f5 followed by an eventual f4. } ) ( 7. Bd2 { White decides to get his bishop to c3. } 7... Nxc5 8. e3 ( 8. a3 { The usual non-developing move wasting precious time. } 8... Bxc3 9. Bxc3 Nce4 { We will win the bishop one way or the other. } 10. e3 ( 10. Bxf6 Nxf6 11. e4 d6 12. Bd3 e5 13. O-O Be6 $11 { I prefer Black with the better bishop. } ) 10... Nxc3 11. Qxc3 b6 12. Be2 Ba6 { We are going after the c4 pawn. } 13. Qb3 ( 13. O-O Rc8 $15 { [%cal Gd7d5] } ) 13... Rc8 14. Qa4 Bb7 15. O-O { Happened in the game 1/2-1/2 (65) Nakamura,H (2764) -Caruana, F (2844) Tashkent 2014. I like Black's position more after } 15... Bc6 16. Qb3 Bxf3 17. Bxf3 Rc5 18. Qd3 Qc7 19. b3 a5 $11 ) 8... b6 { Once we establish our bishop on the long diagonal it is going to be hard for White to create anything. We will have full control over e4. } 9. Be2 Bb7 10. O-O Nce4 { We can trade a few pieces and go for the d5 break. } 11. Nxe4 Bxe4 12. Bd3 Bxd3 13. Qxd3 Bxd2 14. Qxd2 d5 $11 { We have managed to equalise pretty easily. } ) 7... Nxc5 8. Bg2 Nce4 { We need to damage our opponent's pawn structure to compensate for his lead in development. } ( 8... b6 9. O-O Bb7 10. Nb5 Be4 11. Qd1 Nb7 12. a3 Be7 13. Bf4 { is a bit unpleasant for black 1/2-1/2 (78) Nakamura, H (2779) -Topalov,V (2760) Saint Louis 2016 } ) 9. O-O { Now there are two different approaches to go for. Both of them are similar- we damage White's pawn structure but we are lagging in development. } ( 9. Bd2 { White gives up the bishop pair to preserve his pawn structure. } 9... Nxd2 10. Nxd2 Rb8 { We need to develop our light-squared bishop either on b7 or a6. } 11. O-O b6 12. Rfd1 ( 12. e4 { This restricts the bishop on g2 and creates a hole on d4. } 12... d6 13. Rfd1 Bb7 14. a3 Bxc3 15. Qxc3 Qc7 $11 { We get a great version of the Sicilian with the e4 pawn under a lot of pressure. In such positions the exchange of minor pieces favours us. } ) 12... a5 { This is an unusual move as we voluntarily weaken the b5 square. However, we need to stop his plan of a3,b4. White cannot exploit the weakness on b5 easily. } 13. Nde4 ( 13. a3 Be7 14. Qd3 Ba6 15. b4 Qc7 $11 ) 13... Ba6 { We would like to provoke the move b3 as it creates some weaknesses. } 14. Nxf6+ Qxf6 15. Ne4 Qd8 16. a3 Be7 17. b3 Qc7 $11 { I prefer Black with the bishop iar. We are threatening to go d5 now. } ) 9... Bxc3 { This is a responsible decision giving up the bishop pair. But we believe in our knight on e4 and want to finish development quickly. } ( 9... Nxc3 { This was my plan earlier but the resulting positions are passive with no chances to play for a win. I will give my analysis without comments. } 10. bxc3 Be7 11. e4 $1 ( 11. Rd1 Qc7 12. Qd3 d6 ( 12... Rd8 $1 { [%cal Gb7b6,Gc8b7] } ) 13. Rb1 Rb8 14. Be3 b6 15. Nd4 Bd7 16. Nb5 Bxb5 17. cxb5 Rbc8 18. Bc6 Ng4 19. Bf4 Ne5 20. Bxe5 dxe5 $11 { 1/2-1/2 (29) Mamedyarov, S (2772) -Aronian, L (2772) Bucharest 2019 } ) 11... d6 12. e5 dxe5 13. Nxe5 Qc7 14. Qe2 ( 14. Re1 Bd6 15. Qe2 ( 15. Bf4 Nh5 16. Rad1 Nxf4 17. gxf4 a5 $17 ) 15... Nd7 16. Bf4 Nxe5 17. Bxe5 ) 14... Nd7 $1 ( 14... Bd6 15. Bf4 $1 Ne8 { [%cal Gf7f6] } ( 15... Nd7 16. Nxd7 Bxd7 17. Bxd6 Qxd6 18. Bxb7 Rab8 19. Rab1 Qc7 20. Be4 Bc6 21. Rxb8 Rxb8 22. Rd1 h6 { with almost a draw but black is playing only for two results } ) 16. c5 $1 Qxc5 17. c4 f6 ( 17... Qc7 18. Rfd1 f6 19. Nd3 Bxf4 20. Nxf4 e5 21. Nd5 Qc5 22. Rab1 Nc7 23. Qd3 Rb8 24. Nxc7 Qxc7 25. Bd5+ Kh8 26. Qa3 Rd8 27. Qxa7 Bf5 28. Qb6 Qxb6 29. Rxb6 Be4 { again most probably a draw but black has to be precise } ) ( 17... Rb8 18. Rfe1 f6 19. Nd3 Qxc4 20. Rac1 Qa6 21. Rxc8 Bxf4 22. Rc3 Bd6 23. Qxe6+ Kh8 24. Rec1 $14 ) 18. Nd3 Qc7 19. Bd2 Qf7 20. c5 Bc7 21. Bb4 $14 { [%csl Gb4,Gg2] } ) 15. Bf4 Nxe5 16. Bxe5 Bd6 17. Rfe1 { tr } 17... Bxe5 ( 17... Rb8 18. Rad1 Bxe5 19. Qxe5 Qxe5 20. Rxe5 b6 21. c5 Ba6 ( 21... f6 22. cxb6 axb6 23. Re2 Kf7 { 1-0 (55) Navara,D (2730) -Caruana,F (2787) Wijk aan Zee 2016 } ) 22. c6 ( 22. h4 Rfd8 23. Rb1 Bc4 24. cxb6 Rxb6 25. Rb4 Bxa2 26. Ra5 Bd5 27. Bxd5 exd5 { 1/2-1/2 (28) Topalov,V (2740) -Dominguez Perez,L (2739) Saint Louis 2019 } ) 22... Rbc8 23. Bf3 ( 23. Rd7 Rfd8 24. Re4 Rxd7 25. cxd7 Rd8 26. Ra4 Bb5 27. Rxa7 Kf8 28. Bf1 Bxd7 { 1/2-1/2 (43) Nakamura,H (2781) -Caruana,F (2799) London 2017 } ) 23... Rc7 24. Rd4 Re8 25. a4 Kf8 26. Re1 Bc8 27. a5 bxa5 28. Re5 Ke7 29. Rxa5 Rd8 30. Rb4 a6 $11 { 1/2-1/2 (36) Xiong,J (2712) -Caruana,F (2822) Wijk aan Zee 2020 } ) 18. Qxe5 Qxc4 19. Red1 ( 19. Qa5 Bd7 20. Bxb7 Rab8 21. Rab1 h6 22. Qxa7 Qc7 23. Qa6 Qxc3 24. Rec1 Qd2 25. Rd1 Qc2 26. Qd6 Ba4 27. Be4 Qc8 28. Rbc1 Qd8 29. Qxd8 Rfxd8 { 1/2-1/2 (38) Balta, M (2315) -Rolle, H (2273) ICCF email 2018 } ) ( 19. Rad1 Qxa2 20. Qc7 e5 $11 ) ( 19. a3 Bd7 20. Bxb7 Rad8 21. Re4 Qb5 22. Qxb5 Bxb5 23. c4 f5 24. Rxe6 Bxc4 $11 ) 19... a5 20. a4 ( 20. Bf1 Qa4 $11 ) ( 20. a3 h6 21. Rab1 f6 22. Qd6 Re8 23. Bf1 ( 23. Bxb7 Bxb7 24. Rxb7 Kh8 $11 ) 23... Qc6 24. Bb5 Qxd6 25. Rxd6 Rf8 $11 ) 20... h6 ( 20... f6 21. Qd6 Re8 22. Bf1 Qc6 23. Bb5 Qxd6 24. Rxd6 Rf8 25. Rad1 e5 26. Bc4+ Kh8 27. Bd5 Ra7 $11 ) 21. Bf1 ( 21. h4 f6 22. Qd6 Qxc3 23. Rab1 Qe5 24. Qxe5 fxe5 $11 ) ( 21. Ra3 f6 22. Qb5 Qxb5 23. axb5 Rf7 24. Rd8+ Rf8 25. Rd4 Rf7 ) 21... Qc6 22. Rd6 Qc7 23. Rxe6 Qxe5 24. Rxe5 Be6 $11 ) 10. bxc3 d5 { This has been played only a few times but it makes sense as it opens up the diagonal for our bishop. It eliminates one of White's weak pawns though. } ( 10... Qc7 { is the main move. } ) 11. cxd5 { White is going to try and get rid of his weak pawns. It is a win-win for both sides since we are also able to finish our development. } ( 11. Bf4 Re8 { This is a useful flexible move asking White what he intends to do. } 12. Rfd1 Ng4 $1 { An idea we are already familiar with. } 13. Rd4 Qa5 14. cxd5 exd5 15. c4 Ngxf2 $11 { The position remains very complex but it is dynamically balanced. } ) ( 11. Nd4 Re8 { This seems to be the standard move to go for in these positions as White is bound to take on d5 at some point. } 12. cxd5 exd5 13. c4 dxc4 14. Qxc4 h5 $11 { We can go h4-h3 next. The knight is very well placed on e4. } ) ( 11. Ng5 { A very aggressive move but not sure what it achieves after } 11... Nd6 12. cxd5 exd5 13. Ba3 ( 13. Bf4 h6 14. Nf3 { 0-1 (52) Milikow,Y (2416) -Keymer,V (2696) Chess.com INT 2022 } 14... Re8 $11 { We will go b6 and Ba6 next. } ) ( 13. Rd1 h6 14. Nf3 b6 15. Ba3 Re8 16. Bxd6 Qxd6 17. c4 Be6 $11 { These positions can go wrong for White pretty quickly in the endgame as we have a majority on the queenside. } ) 13... Re8 14. Rfd1 Bf5 15. Qb2 h6 16. Bxd5 ( 16. Nf3 Nc4 $17 ) 16... Nxd5 17. Rxd5 hxg5 18. Bxd6 Be4 $11 { We have good chances to create an attack on the kingside. As we know in opposite colour bishop middlegames, king safety is more important compared to material. } ) ( 11. Nd2 { White decided to exchange our active knight but more trades generally favour us. White's pawns will come under fire in major piece endgames. } 11... Nxd2 12. Bxd2 dxc4 13. Bg5 e5 14. Rfd1 Qc7 $11 { We will continue with Be6 followed by bringing the rooks to the 'd' file. } ) 11... exd5 12. c4 ( 12. Be3 { The bishop has a nice square on d4 but the pawn on c3 will remain a weakness. } 12... Re8 13. Bd4 Bf5 14. Qb2 b6 15. Ne5 Rc8 16. Nd3 Nd7 $1 { We are bringing the knight to e6 to dislodge the bishop on d4. } 17. a4 Nf8 18. Nf4 Ne6 $11 ) 12... Bf5 { We have managed to complete our development with a tempo. } 13. Qb3 ( 13. Nh4 Be6 { The knight is now misplaced in the corner. } 14. cxd5 Qxd5 15. Bb2 Rfc8 16. Qb1 Qc4 17. Bxf6 { A necessity as our pieces were just too active. } 17... Nxf6 18. Qxb7 Qxe2 $11 { The position has simplified and is just equal. } ) 13... dxc4 { This is simpler and more forcing. We get to kick the queen around for a bit. } ( 13... Be6 14. cxd5 ( 14. Rd1 dxc4 15. Qc2 Qa5 16. Nd4 Bd7 17. Qxc4 Rac8 18. Qd3 Rc3 19. Qb1 Ba4 20. Rf1 Qd5 21. Be3 Rfc8 $11 ) 14... Bxd5 15. Qd3 Re8 16. Be3 Qa5 $11 ) 14. Qxc4 Rc8 15. Qb5 ( 15. Qb3 Nc3 $15 ) 15... Nd6 { We shift our pieces around a bit. The bishop would be ideal on e4. The queen lacks a good square on the board. } 16. Qb3 Bc2 17. Qb2 Be4 18. Rd1 Nd5 { I like our pieces in the middle of the board. White will have to trade the light-squared bishops at some point and we do have a queenside majority in the endgames. } 19. Ng5 Nc4 20. Qxb7 Bxg2 21. Kxg2 Nde3+ 22. Bxe3 Nxe3+ 23. fxe3 Qxg5 $11 *
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 8 - Nimzo 4.Bg5, Leningrad system"]
+[Black "4.Bg5"]
+[Result "*"]
+[Annotator "GM Kalyan,Arjun"]
+[ECO "E31"]
+[EventDate "????.??.??"]
+[PlyCount "38"]
+[SourceVersionDate "2018.12.02"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Bg5 { This is called the Leningrad system and it is one of the more aggressive options for White. However, in modern times it has gone out of practice as engines like the resulting positions for Black. } 4... c5 { We have already seen that this is particularly effective against the Bg5 systems. } 5. d5 ( 5. e3 $2 { is a huge mistake due to } 5... Qa5 $1 6. Ne2 Ne4 7. Qd3 cxd4 8. exd4 Nxf2 9. Kxf2 Qxg5 $17 ) ( 5. dxc5 { leads to a very comfortable position after } 5... Bxc3+ 6. bxc3 Qa5 7. Bxf6 gxf6 8. Qd4 e5 9. Qe3 Na6 $15 { We have a much better pawn structure and the knight would be very well placed on c5. } ) ( 5. Nf3 O-O { transposes to another file. } ) 5... d6 6. e3 { White decides to build his center a bit more slowly. We have two options- to go for some forcing lines or to play a more strategic game. } ( 6. e4 { is too soon } 6... Bxc3+ 7. bxc3 h6 8. Bxf6 Qxf6 $15 ) ( 6. Nf3 exd5 7. cxd5 Nbd7 8. Nd2 { White is trying to play in Benoni style but we have our bishop out on b4 which makes it easier to target White's center. } 8... O-O 9. e4 Qe8 10. Qf3 ( 10. f3 Bxc3 11. bxc3 Nxd5 $15 ) 10... Bxc3 11. bxc3 Nxd5 { We win a pawn and even though White has some compensation it is not enough for equality. } ) ( 6. f3 h6 7. Bh4 ( 7. Bd2 O-O 8. e4 exd5 9. cxd5 Nh5 $1 { This is a common idea in these lines with f3. It creates a threat of Qh4 and also prepares the f5 break. } 10. Qe2 f5 $15 ) 7... O-O 8. e4 Re8 { I love such positions where we have finished development and just play natural moves targeting our opponent's king in the center. } 9. dxe6 { This is practically forced. } ( 9. Bd3 $4 exd5 10. cxd5 Nxe4 $19 ) ( 9. Qc2 exd5 10. cxd5 a6 $17 { It is going to be very hard to develop the kingside pieces for White. The bishop can only go to e2 as otherwise it will be harassed with b5, c4. } ) 9... Bxe6 10. Bd3 Bxc3+ 11. bxc3 g5 12. Bg3 Nh5 $15 { We have the better minor piece, pawn structure and development, What more do we need? } ) 6... Bxc3+ { We take on c3 immediately after White goes e3 preparing the move Nge2. } ( 6... h6 { gives an extra option in } 7. Bxf6 Qxf6 8. Ne2 $11 ) ( 6... exd5 { This equalises concretely and you can check it out in more detail. However, we will face these lines once in 50 games and it makes sense to prepare something which is not forcing and is more strategic. } 7. cxd5 Nbd7 8. Bd3 ( 8. Bb5 h6 9. Bh4 Bxc3+ 10. bxc3 Qa5 ( 10... O-O $5 11. Ne2 Nb6 12. O-O Nbxd5 13. Bd3 Bg4 $1 14. Rc1 Re8 15. h3 Bd7 16. c4 Nb6 17. Nc3 Bc6 $11 ) 11. Bxd7+ Nxd7 12. Ne2 O-O 13. O-O ( 13. Be7 Re8 14. Bxd6 Nf6 15. O-O Bg4 16. Bg3 Nxd5 $15 ) 13... Re8 $15 ) 8... Qa5 9. Ne2 Nxd5 10. O-O Bxc3 11. bxc3 c4 $1 12. Bc2 ( 12. Be4 N5f6 13. Bxf6 Nxf6 14. Bf3 Qc5 $15 ) 12... O-O 13. Bh4 ( 13. Qd4 Nxc3 14. Nxc3 Qxg5 15. Qxc4 Nf6 16. Ne4 Qe5 17. Nxf6+ Qxf6 $11 ) ( 13. Ng3 Nxc3 14. Qh5 f5 15. Be7 Rf7 16. Bxd6 ( 16. Nxf5 Ne5 17. Bxd6 Bxf5 18. Bxf5 Nf3+ 19. Qxf3 Qxf5 20. Qxf5 Ne2+ 21. Kh1 Rxf5 $17 ) 16... Qb6 17. Ba3 Ne5 18. Rfc1 g6 19. Qh4 Bd7 20. Bxf5 Bxf5 21. Rxc3 Bd3 $17 ) ( 13. a4 Re8 ( 13... Nxc3 14. Nxc3 Qxc3 15. Be7 Re8 16. Bxd6 Qf6 17. a5 ( 17. f4 Re6 ) 17... Ne5 ( 17... h6 18. f4 Re6 19. Bb4 ) 18. Qd5 Bf5 19. e4 Rad8 20. Bxe5 Rxe5 21. Qxb7 ) ( 13... h6 14. Bh4 Nxc3 15. Nxc3 Qxc3 16. Rc1 Qe5 17. Bg3 Qe6 18. Qxd6 Qxd6 19. Bxd6 Re8 20. Bb1 b6 21. Ba2 ) 14. Qd2 Nxc3 15. Nxc3 Qxg5 16. Ne4 Qe7 17. Nxd6 Rd8 18. Nf5 Qf6 19. Rfd1 b6 20. Qd6 Qxd6 21. Rxd6 Kf8 ( 21... Re8 22. Rd4 Nc5 23. Rxc4 g6 24. Nd4 Bd7 25. a5 ) 22. Rad1 Rb8 23. Nd4 ) 13... Nxc3 14. Nxc3 Qxc3 15. Rc1 Qe5 ( 15... Qa3 $5 16. Be7 Re8 17. Bxd6 Qa6 ) 16. Bg3 Qe6 17. Qxd6 Qxd6 ( 17... Nf6 18. Qb4 a5 19. Qb1 Qc6 20. Rfd1 b5 21. Rd6 Qc5 22. Rd4 Be6 23. Bd6 Qc6 24. Bxf8 Rxf8 $44 ) 18. Bxd6 Re8 ( 18... Rd8 $11 ) 19. Rfd1 Nb6 ( 19... Nf6 20. Ba4 Rd8 21. Bb5 Ne4 ( 21... Be6 22. Bxc4 Rac8 23. Bxe6 fxe6 $11 ) 22. Be7 Rxd1+ 23. Rxd1 Be6 24. Rd4 Nf6 25. Bxc4 Rc8 26. Bf1 Nd5 { [%csl Ga7,Gb7] } ) 20. a4 Bd7 21. a5 Na4 22. Bb4 Bb5 23. Rd5 a6 $11 ) 7. bxc3 h6 8. Bh4 e5 { We gave up our bishop damaging the opponent's pawn structure and now we close down the center. This should suit our knights more than White's bishops. Both sides have different ways of playing here. Our king can go to the kingside or we have this idea to go Kd7-c7 where it is pretty safe. } 9. Qc2 { White stops us from going Bf5 but we will anyway go e4 first followed by Bf5. } ( 9. Nf3 { White should not allow us to get our bishop to f5 so easily. } 9... g5 10. Bg3 Bf5 $1 { This is the perfect diagonal for the bishop. It keeps an eye on the e4 square too. } 11. Nd2 Qe7 12. f3 { White has to try and get in the move e4. } 12... e4 $1 { Of course we instantly stop it. } 13. Be2 exf3 14. Bxf3 Bd3 ( 14... h5 $5 15. e4 h4 16. Bxd6 Qxd6 17. O-O Nbd7 18. exf5 O-O-O $15 ) 15. Be2 Bg6 $15 { We have a nice outpost on e5 and White has a clear weakness on the semi-open 'e' file. } ) ( 9. Bd3 { White attempts to stop Bf5 but this allows us to go e4 with a tempo. The move e4 is usually in our plans anyway. } 9... g5 10. Bg3 e4 11. Bc2 Qe7 12. h4 Rg8 { Castling kingside was never in the picture and we do not mind playing Rg8. h4 also weakens White's kingside. } 13. Ne2 Nbd7 14. Qb1 Kf8 $1 { This is a surprise but our king is pretty safe on g7 and it can be used to fight for the 'h' file in the future. } 15. Kd2 Nb6 16. Qb3 Bf5 $15 { Our next plan would be to go Rb8, Nd7-e5. } ) ( 9. f3 g5 $1 10. Bg3 ( 10. Bf2 { What is the drawback here? } 10... e4 $1 { We need to stop White from going e4 and f4 is not as good as it was with the bishop g3. } 11. f4 ( 11. Ne2 Nbd7 12. Ng3 exf3 13. gxf3 Ne5 14. Be2 Bh3 $17 { We will castle long next. } ) 11... Nbd7 { We are not in a hurry. We can bring the knight to the kingside via f8. } 12. Nh3 ( 12. Ne2 Ng4 13. Bg1 f5 $17 ) 12... g4 13. Ng1 Nf8 14. Bh4 Ng6 $17 ) 10... Kd7 $1 { This is a perfect position to showcase our idea of bringing the king to the queenside. We want to then start our play on the kingside with h5. } ( 10... e4 11. f4 $1 Nbd7 12. Nh3 $11 ) 11. e4 ( 11. Bd3 Kc7 12. Ne2 Qe7 13. a4 a5 14. Rb1 Rg8 $15 { h5 is coming up next. } ) 11... Kc7 12. Ne2 Nh5 { Now we will go for the move f5 next. It is a dream version of KID for us as we have managed to rid of our worst piece and get a super safe square for our king. } 13. Bf2 Qf8 $15 { [%cal Gf7f5] } ) 9... g5 10. Bg3 Qe7 { We are preparing e4. We are not too bothered about White going for e4 as we can then play f5 soon. } ( 10... e4 { is a bit premature. } 11. h4 Rg8 12. hxg5 hxg5 13. f4 $11 ) 11. Nf3 e4 $5 { I like to gain space in the center and get my bishop to f5. This leads to more confrontations in the center as White is bound to go f3 at some point. } ( 11... Kd8 { [%csl Gc7] This is another way of playing without going for the move e4. You can choose based on your preference. } 12. Nd2 Kc7 13. Bd3 Nbd7 14. a4 a5 15. Bf5 ( 15. Nb1 Nb6 16. Na3 Bd7 $15 ) 15... Nh5 16. O-O Ndf6 17. Bxc8 Raxc8 18. f3 Nd7 $11 { [%cal Gh5g7,Gf7f5] } ) 12. Nd2 Bf5 13. Be2 { This is probably the best followed by castling long. } ( 13. Rb1 O-O { With White's pieces focussing on the queenside I feel safe getting our king to g8. We will bring our knight to e5 and go f5-f4 in the future. } 14. Be2 Bg6 15. O-O ( 15. h4 b6 16. Kd1 Nbd7 $17 ) 15... b6 { We prepare to bring our knight into the game. } 16. a4 Nbd7 17. a5 Ne8 $15 { f5-f4 is a big threat now and the knight will go to g7-h5/f5. White has to be very careful to survive. } ) 13... Nbd7 14. h4 Bh7 { We will wait for White to decide with his king before committing to either side of the board. The king is likely to head to the kingside though. } 15. O-O-O Kf8 { I like the king on g7 keeping an eye on h8. The rook is already playing well on h8. } 16. hxg5 hxg5 17. Rh2 Kg7 18. Rdh1 Ne5 19. Qd1 Bg6 $36 { We can go Nd3 at any moment. a6, b5 is a potential idea to open up the queenside. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 9 - Nimzo 4.g3, Fianchetto System"]
+[Black "4...0-0 5.Bg2 d5"]
+[Result "*"]
+[Annotator "GM Kalyan,Arjun"]
+[ECO "E20"]
+[EventDate "????.??.??"]
+[PlyCount "34"]
+[SourceVersionDate "2018.12.02"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. g3 { This position can occur via the Catalan with Bb4+ or the Nimzo. There are many ways for Black to equalise but we need to be well prepared as we are entering Catalan territory which may be new for a few players. } 4... O-O 5. Bg2 d5 6. Nf3 { Definitely the Catalan way of playing, giving up the c4 pawn for activity and space in the center. } ( 6. cxd5 { This shows a bad understanding of the opening as the bishop is now staring at a very solid central formation. } 6... exd5 7. Nf3 c6 8. O-O Re8 9. a3 Bf8 10. Qc2 Nbd7 $11 { We can get our knight to e4 next. Another plan is to go Nb6, Be6 followed by Qc8 and Bh3. } ) ( 6. a3 { This non-developing move has been played by a few strong players. White is afraid that we would take on c4 and then retreat with the bishop. } 6... Bxc3+ 7. bxc3 dxc4 { We always take the bait when offered. We should go for either the c5 or e5 break as quickly as possible. } 8. Nf3 ( 8. Qa4 { White brings the queen out too early and gives us the chance to develop our pieces with a tempo. } 8... Bd7 9. Qxc4 Bc6 { This is a common theme in the Catalan. The light-squared bishop is well known to be Black's worst piece and we would love to exchange it. } 10. f3 { This is a non-developing move and it weakens several squares. } ( 10. Nf3 Bd5 11. Qd3 Be4 { Let the queen run back from where it came from. } 12. Qb5 ( 12. Qd1 c5 $15 ) 12... a6 13. Qb2 b5 $11 { The knight is coming to b6 soon and White is in trouble. } ) 10... Nbd7 11. e4 Nb6 12. Qa2 ( 12. Qd3 Nfd7 $15 { [%cal Gd7c5] The other knight is ready to come to c5 and White is in trouble. } ) 12... Bb5 13. Bf1 Ba4 $11 { We want to go Rc8 and c5 next. } ) 8... c5 9. O-O ( 9. Ne5 { White is too eager to win back the pawn. } 9... cxd4 10. Qxd4 Qxd4 11. cxd4 Nc6 $1 { A common resource in the Catalan as Black is ready to give up a pawn to free up his queenside. } 12. Nxc4 ( 12. Nxc6 bxc6 13. Bxc6 Rb8 14. Bf4 Rb6 $15 { [%cal Gc8b7,Gc8a6] } ) 12... Nxd4 13. Rb1 Bd7 $11 14. Bb2 Nc2+ 15. Kd2 Ba4 $15 { Black went on to win in the game 0-1 Froewis, G (2432) -Svane, R (2573) Minsk 2017. } ) 9... cxd4 10. Qxd4 { This was famously played by Magnus in his loss to Niemann in the Sinquifield Cup 2022 which sparked all of the drama. } ( 10. cxd4 Bd7 { We bring the bishop to c6 in order to trade the light-squared bishops. } 11. Qc2 ( 11. Ne5 Bc6 12. Bxc6 Nxc6 13. Nxc6 bxc6 14. Bg5 c5 $11 ) 11... Bc6 12. Qxc4 Bd5 $11 { Our next move will be Nc6 and the position is balanced. } ) 10... Nc6 { Why not follow Niemann who was still well prepared? } ( 10... Qxd4 11. Nxd4 Nd5 $11 { [%cal Gb8c6] } ) 11. Qxc4 e5 12. Bg5 h6 13. Rfd1 { This was a bailout move by Magnus but the resulting endgame is not without dangers. } ( 13. Bxf6 Qxf6 $11 ) 13... Be6 14. Rxd8 Bxc4 15. Rxa8 Rxa8 16. Bxf6 gxf6 $11 { Should have been a draw but madness ensued in the game 0-1 (57) Carlsen, M (2861) -Niemann, H (2688) Saint Louis 2022. } ) 6... dxc4 7. O-O Nc6 { The knight usually goes to d7 or we play c5 and Nc6. However, in Catalan, we need to both stop Ne5 and keep an eye on the d4 pawn. } 8. Qa4 { White creates a threat of Ne5 and he can go Qb5 next to win the pawn on c4. } ( 8. Ne5 { is not a great pawn sacrifice. } 8... Nxd4 9. Nxc4 Nc6 $11 ) ( 8. Bg5 { The exchange of the dark-squared bishop for the knight on f6 is another idea from the Catalan. White is following the colour strategy- he is playing on the light squares here and the dark-squared bishop is not necessary. } 8... h6 9. Bxf6 Qxf6 10. e3 Rb8 { We will see this move several times preparing the move b5. The rook gets out of any trouble along the long diagonal. } 11. Ne4 ( 11. Nd2 Na5 { [%cal Gb7b5] Yet another benefit of the knight on c6. } 12. Qa4 Qe7 $17 ) 11... Qg6 12. Ned2 b5 { We will not give up the pawn so easily. } 13. a4 Qh5 14. axb5 Qxb5 15. Qc2 e5 $11 { We will get our light-squared bishop out now and White has to be careful playing against the bishop pair. } ) ( 8. a3 Be7 { If given the choice we would love to bring the bishop back especially when we have an extra pawn. } 9. e4 a6 { It is not going to be easy to get the pawn back for White. He has to try and prove his compensation in the center or the kingside. } 10. Be3 ( 10. Bf4 { This has been played a few times but it does not achieve much. } 10... b5 11. Qe2 ( 11. Qd2 { Was played by Radjabov but it has a clear drawback. } 11... Na5 $1 12. Rad1 { Black was much better in the game 0-1 (29) Radjabov, T (2765) -Aronian, L (2781) Paris 2021 after } 12... Nb3 13. Qe2 Bb7 $17 ) ( 11. d5 exd5 12. Nxd5 Nxd5 13. exd5 Na5 $15 { There is still no compensation for the pawn. } ) 11... Bb7 12. Rad1 Na5 { The knight heads to b3 and we want to play c5 soon. } 13. h4 Nb3 14. Bg5 h6 15. Bf4 { Happened in the game 1-0 (28) Halkias, S (2581) -Lenderman, A (2614) St Petersburg 2012 and Black could have maintained his big advantage with } 15... Re8 $17 { [%cal Ge7f8] We the tuck the bishop followed by Nd7 and c5. } ) 10... b5 11. h4 { White's plan is to go e5 followed by Ng5. } ( 11. Qe2 Bb7 12. Rad1 Na5 $15 ) 11... Rb8 12. e5 Nd5 13. Ng5 Bxg5 14. Bxg5 Nce7 $11 { We maintain control over the d5 square. White has to give up his bishops if he wants to win back the pawn. } ) 8... Nd5 9. Qc2 Be7 { We retreat with the bishop to get the b4 square for the knight anticipating the move e4. } 10. Rd1 ( 10. a3 { This looks clever to cover the b4 square but it leaves a big hole on b3. } 10... Na5 11. Rb1 Bd7 12. e4 Nxc3 13. Qxc3 b6 $15 { [%cal Ga8c8,Gd7b5,Gc7c5] } ) 10... Rb8 { We get the rook out of the dangerous h1-a8 diagonal and prepare the move b5. } 11. e4 ( 11. Ne5 Nxe5 12. dxe5 c6 $11 { We keep the d5 square secure. The pin is not a big deal now since we have the move Nb4. } ) 11... Ncb4 ( 11... Ndb4 { is also possible but I want to keep the option to take on c3. } ) 12. Qd2 ( 12. Qe2 Nxc3 13. bxc3 Nd3 $11 { [%cal Gc7c5] Black is doing very well with c5 to follow. } ) ( 12. Qb1 { White anticipates the opening of the 'b' file but even in the best-case scenario, White wins back the pawn and nothing else. } 12... Nxc3 13. bxc3 Nd3 14. Qb5 Nxc1 { We eliminate a key minor piece. } 15. Raxc1 Bd7 16. Qxc4 c5 { All our plans have been executed well. } 17. Ne5 ( 17. dxc5 Qc7 $15 ) 17... b5 18. Qe2 Be8 $11 { We can go c4 and start pushing our pawns on the queenside. } ) 12... Nxc3 { Exchanging of pieces favour us here as we have less space. } 13. Qxc3 b5 14. b3 Bb7 $1 { We win a tempo against the e4 pawn and force White to make some concession. } ( 14... cxb3 15. Qxb3 { White has very good compensation here as we are forced to retreat with our knight. } ) 15. Ne1 { [%csl Gd3][%cal Ga2a3] White covers the d3 square and is threatening to go a3 next. } ( 15. a3 { allows the simple } 15... Nd3 16. bxc4 Nxc1 { We win the bishop pair and also the pawn on e4. Now White is fighting for equality. } 17. Rdxc1 Bxe4 18. Ne5 Bxg2 19. Kxg2 Rb6 20. cxb5 Rxb5 $11 { White will probably win back the pawn but we have nothing to worry about. } ) 15... cxb3 16. axb3 ( 16. Qxb3 a5 { Our pawns are quite dangerous on the queenside. } 17. Bf4 Qd7 18. Rab1 a4 19. Qc3 { White is trying to tempt us into taking the pawn on a2 as he can then trap the knight. } 19... Nxa2 $1 { We do it anyway as our pawns are more than enough compensation for the piece. } 20. Qd2 b4 21. Qxa2 b3 22. Qe2 Bc6 $15 { White has to play very precisely to survive here. } ) 16... Ra8 17. Bb2 { The threat here is to go d5 and we have to act prophylactically. } 17... Bd6 $11 { We are ready to meet d5 with e5 and I do not see a clear way for White to equalise. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 10 - Nimzo Sidelines"]
+[Black "4.Qb3"]
+[Result "*"]
+[Annotator "GM Kalyan,Arjun"]
+[ECO "E23"]
+[EventDate "2023.12.21"]
+[PlyCount "22"]
+[SourceVersionDate "2018.12.02"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3 { This has completely gone out of practice and it makes sense as we have a clear way to punish White for bringing his queen out too early. } ( 4. Bd2 { We have already seen this in the previous database. } ) 4... c5 $1 { This is very effective here with the queen on b3. Ne4 is in the air and the queen is completely misplaced. } 5. dxc5 ( 5. Nf3 Nc6 { We are trying to force him to release the tension. } 6. e3 ( 6. d5 Na5 { [%csl Rc4] } ) 6... cxd4 7. exd4 ( 7. Nxd4 Bc5 8. Nxc6 dxc6 { [%cal Ge6e5] } 9. Be2 e5 $11 { We have managed to open the diagonal for the bishop and have a very pleasant position. White cannot do the same as e4 becomes a big weakness. } ) 7... d5 { We will take on c4 as soon as White develops his light-squared bishop. The d4 pawn will then come under fire. } 8. Bg5 { This is the most played move but it does not fit in with the queen on b3. } ( 8. cxd5 Qxd5 9. Bc4 Qd6 10. O-O O-O { We have a huge threat of Na5 winning a piece. Also, the d4 pawn is hanging. } 11. Be2 ( 11. Rd1 $4 Na5 $19 ) 11... Nxd4 12. Nxd4 Qxd4 13. Rd1 Qb6 14. Be3 Qa5 $11 { Engines claim that White has enough compensation and while I do agree it is easier to play as Black. We can try to get e5 and Be6 next. } ) 8... O-O 9. Be2 ( 9. cxd5 exd5 $15 { [%cal Gf8e8,Ge8e1] } ) 9... Bxc3+ 10. Qxc3 dxc4 { This is almost automatic once the bishop moves away from f1. } 11. Bxc4 h6 12. Bh4 Nd5 $1 { A good simplification giving us a nice endgame edge. } 13. Bxd8 Nxc3 14. bxc3 Rxd8 $15 { [%csl Rc3,Rd4][%cal Gc8d7,Gc6e7,Ga8c8] } ) 5... Nc6 { [%cal Gf6e4,Gc6d4,Gd8a5] We are ready to jump in with Ne4. Qa5 and Nd4 are also in the air. } 6. Nf3 ( 6. Bg5 { Again, this does not achieve anything here. } 6... h6 7. Bxf6 ( 7. Bh4 g5 8. Bg3 Ne4 $15 ) 7... Qxf6 8. Nf3 Bxc3+ 9. Qxc3 Qxc3+ 10. bxc3 b6 $1 { Our main idea is to go after the pawn on c4 next. We clear the route for the bishop to a6. } 11. cxb6 axb6 $15 ) 6... Ne4 7. Bd2 Nxd2 { This was a pretty important bishop creating some idea for White. } 8. Nxd2 Bxc5 9. g3 ( 9. e3 { is timid and allows us to go } 9... O-O 10. Be2 b6 $11 ) ( 9. Nde4 Be7 $15 ) 9... Qb6 $1 { We get the queens off the board. } 10. Qxb6 Bxb6 11. Bg2 Ke7 $11 { Our king is well placed in the endgame and we have the bishop pair. White has a very active bishop and somewhat better-placed pieces. The position is balanced. It happened in the game 0-1 (71) Aravindh, C (2625) -Shyam, N (2489) Waskaduwa 2022. } *
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 1"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Kalyan,Arjun"]
+[SetUp "1"]
+[FEN "r1bqr1k1/pp3ppp/2n2n2/3pp3/3P4/P1PBPPN1/6PP/R1BQ1RK1 b - - 0 12"]
+[PlyCount "5"]
+[EventDate "2023.12.21"]
+[SourceVersionDate "2018.12.02"]
+
+ {[#]} {How to continue here?} 12... h5 $5 {A typical plan aimed against the
+knight on g3.} 13. h3 (13. Ra2 h4 14. Nh1 Be6 $15) 13... h4 14. Ne2 b6 $11 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 2"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Kalyan,Arjun"]
+[SetUp "1"]
+[FEN "r1br2k1/ppq2ppp/2n2n2/8/3pPP2/P2B2N1/6PP/R1BQ1RK1 b - - 0 16"]
+[PlyCount "9"]
+[EventDate "2023.12.21"]
+[SourceVersionDate "2018.12.02"]
+
+ {[#]} {How to continue here?} 16... Ng4 $1 {A very important move getting the
+knight to e3. White can win the pawn back but it opens up some files for our
+pieces.} 17. Qf3 Ne3 18. Bxe3 dxe3 19. Qxe3 Qb6 $1 {We trade the queens and
+get the knight to d4. The endgame is roughly equal.} 20. Qxb6 axb6 $11 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 3"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Kalyan,Arjun"]
+[SetUp "1"]
+[FEN "rn2k2r/pp1n1ppp/8/2p1P3/2PP4/P2B4/5KPP/1RB4R b kq - 0 16"]
+[PlyCount "5"]
+[EventDate "2023.12.21"]
+[SourceVersionDate "2018.12.02"]
+
+ {[#]} {How to continue here?} 16... Nc6 $1 {A pretty unusual idea- we prepare
+to meet Rb7 with 0-0-0 kicking the rook back. Both the pawns on d4 are e5 are
+weak.} 17. Rxb7 O-O-O 18. Rb1 cxd4 $11 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 4"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Kalyan,Arjun"]
+[SetUp "1"]
+[FEN "r2q1rk1/p4ppp/1pn2n2/2Pp4/5P2/P1PQP1N1/6PP/R1B2RK1 b - - 0 14"]
+[PlyCount "3"]
+[EventDate "2023.12.21"]
+[SourceVersionDate "2018.12.02"]
+
+ {[#]} {How to continue here?} 14... Na5 $1 {We keep control over the c4 square
+sacrificing a pawn in the process.} 15. cxb6 Qxb6 $44 {The bishop on c1 is
+completely restricted by his pawns.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 5"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Kalyan,Arjun"]
+[SetUp "1"]
+[FEN "r1bq1rk1/pp3ppp/2nppn2/2p5/2PP4/P1P1P1N1/R4PPP/2BQKB1R b K - 0 9"]
+[PlyCount "11"]
+[EventDate "2023.12.21"]
+[SourceVersionDate "2018.12.02"]
+
+ {[#]} {How to continue here?} 9... Qa5 $1 {I like to deviate early from the
+well-trodden path. We want to discoordinate White's pieces and tie them down
+to the c3 pawn.} (9... b6 {This was the main line of my analysis and what Nepo
+played. You can check this more deeply on your own.} 10. e4 Ba6 11. Bg5 h6 12.
+h4 $1 {White keeps the tension on the kingside.} hxg5 {The most direct way.}
+13. hxg5 g6 14. gxf6 Qxf6 15. e5 (15. Qg4 {This is what I had prepared for
+White before that game.} cxd4 16. Nh5 Qe5 17. f4 Qxe4+ 18. Be2 Qb1+ 19. Bd1
+Qe4+ $11) 15... dxe5 16. d5 $5 {This is where Ding deviates from the top line
+of the computer.} Ne7 17. d6 Nf5 18. Ne4 Qd8 19. Qd3 Kg7 20. g4 Bb7 21. Rh3 Nh4
+22. g5 {All this happened in 1/2-1/2 (45) Ding, L (2788) -Nepomniachtchi, I 
+(2795) Astana 2023. Black would have been fine after} Rh8 $1 23. f4 exf4 24.
+Nf6 e5 25. Rah2 Nf3+ 26. Qxf3 Bxf3 27. Rh7+ Rxh7 28. Rxh7+ Kf8 29. Rh8+ Kg7 $11
+) 10. Rd2 (10. Bd2 {This beats the purpose of going Ra2 and we can just go
+back.} Qc7 $11 {[%cal Gb7b6,Gc8a6]}) 10... d5 {With a lead in development we
+are happy to open up the center.} 11. cxd5 (11. Bb2 Ne4 12. Nxe4 dxe4 {We can
+go for the move e5 next. The bishop on b2 is completely shut down.} 13. Qc2 f5
+$11) 11... exd5 {We want to go c4 now and keep the center closed. We are
+playing against the bishop on c1.} 12. Be2 c4 13. Qc2 Re8 14. O-O Bd7 $11 {
+We can go Ne7 followed by Ba4. On the kingside we can try to go h5-h4. The
+position is balanced.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 6"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Kalyan,Arjun"]
+[SetUp "1"]
+[FEN "rnbq1rk1/ppp2ppp/3p1n2/4p3/2PPP3/P1PB4/5PPP/R1BQK1NR b KQ - 0 8"]
+[PlyCount "15"]
+[EventDate "2023.12.21"]
+[SourceVersionDate "2018.12.02"]
+
+ {[#]} {How to continue here?} 8... exd4 9. cxd4 Nxe4 $1 {We win the central
+pawn opening up the 'e' file. White has to treat this as a sacrifice and make
+use of his bishop pair. The position is still dynamically balanced.} 10. Ne2 (
+10. Bxe4 Re8 $17) 10... d5 {We will try to keep our knight in the center until
+he makes some concession to force us back.} 11. O-O Re8 12. Ng3 (12. Qc2 Bf5
+13. cxd5 Qxd5 14. Nf4 Qc6 $11) 12... Nd7 {We want to bolster our knight on e4.}
+13. Qc2 Ndf6 14. c5 Nxg3 15. hxg3 Bd7 $11 {White has some compensation with
+the bishop pair but not more.} *
+
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 7"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Kalyan,Arjun"]
+[SetUp "1"]
+[FEN "rn1q1rk1/ppp2ppp/3pbn2/8/2PPp3/P1P1P3/B3NPPP/R1BQK2R b KQ - 0 10"]
+[PlyCount "7"]
+[EventDate "2023.12.21"]
+[SourceVersionDate "2018.12.02"]
+
+ {[#]} {How to continue here?} 10... Nc6 $5 {We are preparing to go Na5 next.
+White has to act quickly.} (10... Nbd7 {This is a simpler and maybe even
+better option objectively. It does not lead to forcing play here.} 11. Nf4 Bf5
+12. h3 c6 $11 {We can go h6 next and we have a pleasant middlegame. I like our
+chances more.}) 11. d5 $1 {White has to enter these complications.} (11. O-O {
+is too slow and allows us to execute our plan.} Na5 12. d5 Bd7 13. Ng3 b6 $17 {
+[%csl Rc3,Rc4]}) 11... Ne5 12. dxe6 Nd3+ 13. Kf1 Ng4 (13... Ng4 {This must
+look very scary to play for White and he has to find some only moves.} 14. Nf4
+Ngxf2 15. e7 $1 {This is very important here not allowing us to open the 'f'
+file.} Qxe7 16. Qd2 {Again the only move. This is a weird square for the queen
+but necessary as exd3 should not come with a tempo.} (16. Qe2 $4 Nxh1 17. Nxd3
+exd3 18. Qxd3 Qf6+ $19) 16... Nxh1 17. Nxd3 exd3 18. Kg1 {We have quite a few
+options here to continue our initiative.} Qf6 (18... Rae8 {is a promising
+option.} 19. Kxh1 f5 20. Qxd3 f4 21. c5+ d5 22. Bxd5+ Kh8 23. e4 c6 24. Bb3
+Qxe4 25. Qxe4 Rxe4 26. Kg1 $11) 19. Bb2 Rae8 20. Kxh1 Re4 {This is a very
+messy position but dynamically balanced. We will look to create something
+quickly on the kingside.} 21. Kg1 Qe5 22. Re1 Re8 23. Bc1 Rh4 24. g3 Re6 $1 {
+We bring all our pieces into the game. There are too many options here to
+analyse very deeply. I think this is already far from the realms of
+possibility in a practical game.} 25. Qxd3 Rh3 26. Re2 Rg6 27. Rg2 (27. Qd2
+Rgxg3+ 28. hxg3 Qxg3+ 29. Rg2 Qh4 30. Kf1 Rh1+ 31. Rg1 Rh2 32. Rg2 $11) 27...
+Rxh2 28. Kxh2 Qh5+ 29. Kg1 Rh6 30. Kf2 Rf6+ $11) *
+
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 8"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Kalyan,Arjun"]
+[SetUp "1"]
+[FEN "r2qk2r/p4ppp/bp1ppn2/n1p5/2PPP3/P1PBBP2/4N1PP/R2Q1RK1 b kq - 0 11"]
+[PlyCount "11"]
+[EventDate "2023.12.21"]
+[SourceVersionDate "2018.12.02"]
+
+ {[#]} {How to continue here?} 11... Qc7 $1 {As I mentioned earlier we keep
+both options open for as long as possible. The other point is to stop his idea
+of Bg5 especially when we castle kingside.} 12. Ng3 (12. f4 O-O-O $1 {the
+point of blacks play...he is very flexible with the king} 13. f5 e5 14. d5 Bxc4
+15. Bxc4 Nxc4 16. Bg5 Nxe4 17. Bxd8 Rxd8 $15) 12... O-O {[%csl Rc4] We have
+already seen that with the knight on g3, we can commit to castling kingside.}
+13. f4 {This is in the spirit of the position- to go for an all-out attack
+against our king.} (13. Rf2 {White is trying to preserve the bishops on the
+board but it wastes a lot of time.} Bxc4 14. Bc2 Rac8 $15) 13... Bxc4 14. f5
+cxd4 15. cxd4 Bxd3 16. Qxd3 Qc4 (16... Qc4 {We are going to try our best to
+get the queens off the board.} 17. Qd1 h6 {We first stop ideas of Bg5. Let us
+see what White is going to try on the kingside.} (17... Qb3 18. Qe1 {[%cal
+Ge3g5]}) 18. Kh1 (18. Rc1 Qb3 $11) 18... Rac8 (18... Qb3 19. Qe2 e5 $11) 19.
+Nh5 Nxh5 20. Qxh5 exf5 21. exf5 Rfe8 22. Bxh6 {This is the only way to keep
+the balance for White.} Qxd4 23. Rad1 Qe5 24. Rf3 Qe1+ 25. Rf1 Qe5 {A very
+professional repetition of moves :)}) *
+
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 9"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Kalyan,Arjun"]
+[SetUp "1"]
+[FEN "r1bq1rk1/pp1p1pp1/2n1pn1p/2P5/1bP4B/1QN2N2/PP2PPPP/R3KB1R b KQ - 0 8"]
+[PlyCount "7"]
+[EventDate "2023.12.21"]
+[SourceVersionDate "2018.12.02"]
+
+ {[#]} {How to continue here?} 8... g5 $1 {This is something we should come to
+expect in the Nimzo. It is one of the few openings where I see Black taking
+over the initiative very early in the game.} 9. Bg3 Ne4 10. e3 Nxc3 11. bxc3
+Bxc5 $15 {The queenside structure is a sorry sight for White.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 10"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Kalyan,Arjun"]
+[SetUp "1"]
+[FEN "r1bq1rk1/p2p1pp1/4pn1p/1NpP4/1bn4B/5N2/PPQ1PPPP/2KR1B1R b - - 0 11"]
+[PlyCount "9"]
+[EventDate "2023.12.21"]
+[SourceVersionDate "2018.12.02"]
+
+ {[#]} {How to continue here?} 11... Nxb2 $1 {The most enterprising option.
+There is an important concept in attack called the elimination of the 'b/g'
+pawn. This is usually the key to getting to the opponent's king as it exposes
+a lot of squares.} (11... a6 {is also good}) 12. Qxb2 Rb8 {The following
+sequence is practically forced.} 13. a3 Rxb5 14. Bxf6 gxf6 15. axb4 Rxb4 (15...
+Rxb4 16. Qa1 {A pretty nice square for the queen :) There is an alarming lack
+of pawns in White's queenside.} exd5 17. e3 d4 18. exd4 c4 $1 19. d5 Qb6 $40 {
+White has to continue playing only moves to survive here.}) *
+
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 11"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Kalyan,Arjun"]
+[SetUp "1"]
+[FEN "r1b2rk1/pp2qpp1/2n1p2p/2Pp4/3Pn3/P1N2N2/1P2BPPP/2RQK2R b K - 0 13"]
+[PlyCount "13"]
+[EventDate "2023.12.21"]
+[SourceVersionDate "2018.12.02"]
+
+ {[#]} {How to continue here?} 13... Rd8 $1 {An important move to prepare e5
+and open up the diagonal for the bishop.} (13... Nxc3 {is too early.} 14. Rxc3
+e5 15. Nxe5 Nxe5 16. Re3 $1) 14. O-O e5 15. Nxe5 Nxe5 16. dxe5 Nxc3 17. Rxc3 d4
+{The position has simplified and we reach an equal middlegame/endgame. I think
+there are likely to be a few simplifications which result in a drawn rook
+endgame.} 18. Rc1 Qxe5 19. Bd3 (19. Bf3 d3 $1 20. Qd2 Rb8 {The bishop will
+come to f5 next and the pawn becomes a big asset for us.}) 19... Bf5 {This
+happened in the game 1/2-1/2 (47) Wojtaszek,R (2733) -Kramnik,V (2792)
+Dortmund 2018 and I think it is a good place for us to stop. The endgame is
+pretty even.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 12"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Kalyan,Arjun"]
+[SetUp "1"]
+[FEN "rnbq1rk1/pp3pp1/5n1p/3pp3/1bP4B/2N1PN2/PP3PPP/2RQKB1R b K - 0 10"]
+[PlyCount "15"]
+[EventDate "2023.12.21"]
+[SourceVersionDate "2018.12.02"]
+
+ {[#]} {How to continue here?} 10... d4 $1 {We are happy to open up the center.}
+11. exd4 exd4 12. Qxd4 (12. Nxd4 Qb6 $1 {[%cal Gf8d8] The position is very
+risky for White.} 13. a3 {The only move which keeps the balance.} (13. Nf3 Rd8
+14. Qc2 g5 15. Bg3 Nc6 $17 {[%cal Gg5g4,Gc6d4] 0-1 (35) Edouard,R (2613)
+-Nakamura,H (2785) Caleta 2017 CBM 177 [Navara,D]}) 13... Rd8 14. Bxf6 Qxf6 15.
+axb4 Rxd4 16. Qe2 Be6 $36 {The position remains unpleasant for White and we
+will win the pawn on c$ soon>}) 12... g5 13. Bg3 (13. Qxd8 Rxd8 14. Bg3 Ne4 15.
+Be2 Re8 $11 {[%cal Re8e1]}) 13... Nc6 {We are happy to go into the endgame
+with our active pieces despite being a pawn down.} 14. Qxd8 Rxd8 15. Be2 Ne4
+16. O-O Bxc3 17. bxc3 Be6 $44 {We have full compensation for the pawn and are
+likely to win the pawn on c4 shortly.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 13"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Kalyan,Arjun"]
+[SetUp "1"]
+[FEN "rnb2rk1/1p3p2/4p2p/pQ4p1/3Nn3/4P1B1/qP3PPP/2R1KB1R b K - 0 15"]
+[PlyCount "7"]
+[EventDate "2023.12.21"]
+[SourceVersionDate "2018.12.02"]
+
+{[#] How to continue here?} 15... Bd7 $1 {Development
+is the priority here.} 16. Qxb7 Nc6 17. Bd3 (17. Bc4 Qa4 18. O-O Ra7 19. Qb6
+Nxg3 20. hxg3 Qb4 $11 {We get the queens off the board.}) 17... Nxg3 18. hxg3
+Rab8 (18... Rab8 $1 {We exploit the drawback of the bishop on d3. The
+following line is forced.} 19. Qxd7 Ne5 20. Bb1 Qxb1 21. Rxb1 Nxd7 22. Rxh6 (
+22. Ke2 Kg7 23. b3 Rfc8 $11 {1/2-1/2 (36) Schleef, H-Faber, H freechess.de 2021
+}) 22... Nc5 $44 {We easily have enough compensation for the pawn and the
+endgame is pretty fighting.}) *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 14"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Kalyan,Arjun"]
+[SetUp "1"]
+[FEN "r1bq1rk1/1p1p1ppp/4pn2/p1n5/1PP5/P1Q1PN2/5PPP/R1B1KB1R b KQ - 0 10"]
+[PlyCount "9"]
+[EventDate "2023.12.21"]
+[SourceVersionDate "2018.12.02"]
+
+ {[#]} {How to continue here?} 10... Nce4 11. Qb2 Ng4 $1 {suddenly there is no
+way to defend the pawn on f2!} 12. Be2 (12. h3 Ngxf2 $19 {0-1 (30) Hagen,A 
+(2084) -Koskela,N (2191) Oslo 2010}) 12... Ngxf2 13. O-O Ng4 14. Qd4 d5 $11 {
+We have an extra pawn and White has to prove his compensation still.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 15"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Kalyan,Arjun"]
+[SetUp "1"]
+[FEN "rnbqk2r/pp3p2/3p1n1p/2pPp1p1/2P5/2P1PPB1/P5PP/R2QKBNR b KQkq - 0 10"]
+[PlyCount "7"]
+[EventDate "2023.12.21"]
+[SourceVersionDate "2018.12.02"]
+
+ {[#]} {How to continue here?} 10... Kd7 $1 {This is a perfect position to
+showcase our idea of bringing the king to the queenside. We want to then start
+our play on the kingside with h5.} (10... e4 11. f4 $1 Nbd7 12. Nh3 $11) 11. e4
+(11. Bd3 Kc7 12. Ne2 Qe7 13. a4 a5 14. Rb1 Rg8 $15 {h5 is coming up next.})
+11... Kc7 12. Ne2 Nh5 {Now we will go for the move f5 next. It is a dream
+version of KID for us as we have managed to rid of our worst piece and get a
+super safe square for our king.} 13. Bf2 Qf8 $15 {[%cal Gf7f5]} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 16"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Kalyan,Arjun"]
+[SetUp "1"]
+[FEN "rnbqk2r/pp3p2/3p1n1p/2pPp1p1/2P5/2P1PP2/P4BPP/R2QKBNR b KQkq - 0 10"]
+[PlyCount "9"]
+[EventDate "2023.12.21"]
+[SourceVersionDate "2018.12.02"]
+
+ {[#]} {How to continue here?} 10... e4 $1 {We need to stop White from going e4
+and f4 is not as good as it was with the bishop g3.} 11. f4 (11. Ne2 Nbd7 12.
+Ng3 exf3 13. gxf3 Ne5 14. Be2 Bh3 $17 {We will castle long next.}) 11... Nbd7 {
+We are not in a hurry. We can bring the knight to the kingside via f8.} 12. Nh3
+(12. Ne2 Ng4 13. Bg1 f5 $17) 12... g4 13. Ng1 Nf8 14. Bh4 Ng6 $17 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 17"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Kalyan,Arjun"]
+[SetUp "1"]
+[FEN "r1bq1rk1/ppp1bppp/2n1p3/3n4/2pP4/2N2NP1/PPQ1PPBP/R1BR2K1 b - - 0 10"]
+[PlyCount "15"]
+[EventDate "2023.12.21"]
+[SourceVersionDate "2018.12.02"]
+
+ {[#]} {How to continue here?} 10... Rb8 {We get the rook out of the dangerous
+h1-a8 diagonal and prepare the move b5.} 11. e4 (11. Ne5 Nxe5 12. dxe5 c6 $11 {
+We keep the d5 square secure. The pin is not a big deal now since we have the
+move Nb4.}) 11... Ncb4 (11... Ndb4 {is also possible but I want to keep the
+option to take on c3.}) 12. Qd2 (12. Qe2 Nxc3 13. bxc3 Nd3 $11 {[%cal Gc7c5]
+Black is doing very well with c5 to follow.}) (12. Qb1 {White anticipates the
+opening of the 'b' file but even in the best-case scenario, White wins back
+the pawn and nothing else.} Nxc3 13. bxc3 Nd3 14. Qb5 Nxc1 {We eliminate a key
+minor piece.} 15. Raxc1 Bd7 16. Qxc4 c5 {All our plans have been executed well.
+} 17. Ne5 (17. dxc5 Qc7 $15) 17... b5 18. Qe2 Be8 $11 {We can go c4 and start
+pushing our pawns on the queenside.}) 12... Nxc3 {Exchanging of pieces favour
+us here as we have less space.} 13. Qxc3 b5 14. b3 Bb7 $1 {We win a tempo
+against the e4 pawn and force White to make some concession.} (14... cxb3 15.
+Qxb3 {White has very good compensation here as we are forced to retreat with
+our knight.}) 15. Ne1 {[%csl Gd3][%cal Ga2a3] White covers the d3 square and
+is threatening to go a3 next.} (15. a3 {allows the simple} Nd3 16. bxc4 Nxc1 {
+We win the bishop pair and also the pawn on e4. Now White is fighting for
+equality.} 17. Rdxc1 Bxe4 18. Ne5 Bxg2 19. Kxg2 Rb6 20. cxb5 Rxb5 $11 {White
+will probably win back the pawn but we have nothing to worry about.}) 15...
+cxb3 16. axb3 (16. Qxb3 a5 {Our pawns are quite dangerous on the queenside.}
+17. Bf4 Qd7 18. Rab1 a4 19. Qc3 {White is trying to tempt us into taking the
+pawn on a2 as he can then trap the knight.} Nxa2 $1 {We do it anyway as our
+pawns are more than enough compensation for the piece.} 20. Qd2 b4 21. Qxa2 b3
+22. Qe2 Bc6 $15 {White has to play very precisely to survive here.}) 16... Ra8
+17. Bb2 {The threat here is to go d5 and we have to act prophylactically.} Bd6
+$11 {We are ready to meet d5 with e5 and I do not see a clear way for White to
+equalise.} *
+
