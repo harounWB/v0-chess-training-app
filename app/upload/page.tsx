@@ -768,10 +768,9 @@ export default function UploadPage() {
     setIsLoading(true);
     
     try {
-      const response = await fetch(`/api/pgn?file=${encodeURIComponent(fileName)}`);
+      const response = await fetch(`/pgn/${encodeURIComponent(fileName)}`);
       if (!response.ok) {
-        const errorData = await response.json().catch(() => null);
-        throw new Error(errorData?.error || `Failed to load ${fileName}`);
+        throw new Error(`Failed to load ${fileName}`);
       }
       
       const content = await response.text();
