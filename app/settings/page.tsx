@@ -41,6 +41,10 @@ export default function SettingsPage() {
     setPendingSettings(settings);
   }, [settings]);
 
+  useEffect(() => {
+    document.title = 'Settings | OpeningMaster';
+  }, []);
+
   const handleBoardThemeChange = (theme: typeof settings.boardTheme) => {
     setPendingSettings(prev => ({ ...prev, boardTheme: theme }));
     setSaved(false);

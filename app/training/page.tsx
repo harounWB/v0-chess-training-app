@@ -21,6 +21,7 @@ export default function TrainingPage() {
     const query = new URLSearchParams(window.location.search);
     setInitialMode(query.get('mode') === 'explore' ? 'explore' : 'train');
     setPreferredGameId(query.get('game'));
+    document.title = 'Chess Opening Trainer - Practice Openings Interactively | OpeningMaster';
 
     // Give context time to load from localStorage
     const timer = setTimeout(() => {
@@ -90,6 +91,14 @@ export default function TrainingPage() {
     <main className="min-h-screen bg-gray-950 text-gray-100">
       <Header />
       <div className="container mx-auto px-4 py-6 max-w-7xl">
+        <div className="mb-8 max-w-3xl">
+          <p className="text-xs uppercase tracking-[0.2em] text-gray-500">Training Mode</p>
+          <h1 className="mt-3 text-3xl font-bold text-white sm:text-5xl">Chess Opening Trainer - Practice Openings Interactively</h1>
+          <p className="mt-4 text-lg leading-8 text-gray-300">
+            Review your repertoire line by line, correct mistakes quickly, and build opening memory through repetition.
+          </p>
+        </div>
+
         {/* Control Bar */}
         <div className="flex items-center justify-between mb-6">
           <button

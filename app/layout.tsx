@@ -6,6 +6,7 @@ import { GameProvider } from '@/lib/GameContext'
 import { ThemeProvider } from '@/components/theme-provider'
 import { ThemeSync } from '@/components/ThemeSync'
 import { SupportButton } from '@/components/SupportButton'
+import { SiteFooter } from '@/components/SiteFooter'
 import './globals.css'
 
 const _geist = Geist({ subsets: ["latin"] });
@@ -13,8 +14,11 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://openingmaster.xyz'),
-  title: 'OpeningMaster',
-  description: 'Master chess openings with interactive training. Upload PGN files and train with multiple modes.',
+  title: {
+    default: 'OpeningMaster',
+    template: '%s | OpeningMaster',
+  },
+  description: 'Chess opening trainer and free PGN analyzer for fast practice, structured study, and game review.',
   generator: 'v0.app',
   manifest: '/site.webmanifest',
   icons: {
@@ -57,6 +61,7 @@ export default function RootLayout({
           <GameProvider>
               <ThemeSync />
             {children}
+            <SiteFooter />
             <SupportButton />
             {process.env.NODE_ENV === 'production' && <Analytics />}
           </GameProvider>

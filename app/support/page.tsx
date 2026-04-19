@@ -1,6 +1,7 @@
 'use client';
 
-import React, { useState, useMemo } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
+import Link from 'next/link';
 import { CRYPTO_DATA, CryptoKey } from '@/lib/cryptoData';
 import { QRCodeSVG } from 'qrcode.react';
 import { Copy, Check } from 'lucide-react';
@@ -10,6 +11,10 @@ export default function SupportPage() {
   const [selectedCrypto, setSelectedCrypto] = useState<CryptoKey | null>(null);
   const [selectedNetwork, setSelectedNetwork] = useState<string | null>(null);
   const [copied, setCopied] = useState(false);
+
+  useEffect(() => {
+    document.title = 'Support OpeningMaster | About the Project';
+  }, []);
 
   const cryptoList = useMemo(() => Object.entries(CRYPTO_DATA) as [CryptoKey, typeof CRYPTO_DATA[CryptoKey]][], []);
 
@@ -29,26 +34,31 @@ export default function SupportPage() {
   };
 
   return (
-    <main className="min-h-screen bg-gray-950 text-gray-100 py-12 px-4">
+    <main className="min-h-screen bg-gray-950 px-4 py-12 text-gray-100">
       <Header />
-      <div className="max-w-2xl mx-auto">
-        {/* Header */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold mb-4 text-white">Support the Project</h1>
-          <p className="text-gray-400 leading-relaxed">
-            This platform was built for the chess community — to help players train, improve, and enjoy the game
-            completely for free.
+      <div className="mx-auto max-w-2xl">
+        <div className="mb-12 text-center">
+          <p className="text-xs uppercase tracking-[0.2em] text-gray-500">Support / About</p>
+          <h1 className="mb-4 text-4xl font-bold text-white">Support the Project</h1>
+          <p className="leading-relaxed text-gray-400">
+            This platform was built for the chess community to help players train, improve, and enjoy the game completely for free.
           </p>
-          <p className="text-gray-400 leading-relaxed mt-4">
-            If you find it useful and want to support the project, you can donate using crypto. Every contribution
-            helps improve the platform and keep it running.
+          <p className="mt-4 leading-relaxed text-gray-400">
+            If you find it useful and want to support the project, you can donate using crypto. Every contribution helps improve the platform and keep it running.
             My Telegram for PGN files : bluhadtogo
           </p>
+          <div className="mt-6 flex flex-wrap justify-center gap-3">
+            <Link
+              href="/about-us"
+              className="rounded-full bg-purple-600 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-purple-700"
+            >
+              Learn About OpeningMaster
+            </Link>
+          </div>
         </div>
 
-        {/* Crypto Selection */}
         <div className="mb-8">
-          <h2 className="text-lg font-semibold mb-4 text-white">Select Cryptocurrency</h2>
+          <h2 className="mb-4 text-lg font-semibold text-white">Select Cryptocurrency</h2>
           <div className="space-y-2">
             {cryptoList.map(([key, crypto]) => (
               <button
@@ -57,15 +67,16 @@ export default function SupportPage() {
                   setSelectedCrypto(key);
                   setSelectedNetwork(null);
                 }}
-                className={`w-full flex items-center gap-3 p-4 rounded-lg transition-all duration-200 ${selectedCrypto === key
-                    ? 'bg-purple-600/30 border border-purple-500 shadow-lg shadow-purple-500/20'
-                    : 'bg-gray-800/50 border border-gray-700 hover:bg-gray-800 hover:border-gray-600'
-                  }`}
+                className={`flex w-full items-center gap-3 rounded-lg border p-4 transition-all duration-200 ${
+                  selectedCrypto === key
+                    ? 'border-purple-500 bg-purple-600/30 shadow-lg shadow-purple-500/20'
+                    : 'border-gray-700 bg-gray-800/50 hover:border-gray-600 hover:bg-gray-800'
+                }`}
               >
                 <img
                   src={crypto.icon}
                   alt={crypto.name}
-                  className="w-8 h-8 flex-shrink-0 object-contain"
+                  className="h-8 w-8 flex-shrink-0 object-contain"
                   loading="lazy"
                 />
                 <div className="flex-1 text-left">
@@ -77,19 +88,19 @@ export default function SupportPage() {
           </div>
         </div>
 
-        {/* Network Selection */}
         {selectedCryptoData && networkList.length > 0 && (
           <div className="mb-8 animate-in fade-in duration-300">
-            <h2 className="text-lg font-semibold mb-4 text-white">Select Network</h2>
+            <h2 className="mb-4 text-lg font-semibold text-white">Select Network</h2>
             <div className="space-y-2">
               {networkList.map(([networkKey, networkData]) => (
                 <button
                   key={networkKey}
                   onClick={() => setSelectedNetwork(networkKey)}
-                  className={`w-full flex items-center gap-3 p-4 rounded-lg transition-all duration-200 text-left ${selectedNetwork === networkKey
-                      ? 'bg-purple-600/30 border border-purple-500 shadow-lg shadow-purple-500/20'
-                      : 'bg-gray-800/50 border border-gray-700 hover:bg-gray-800 hover:border-gray-600'
-                    }`}
+                  className={`flex w-full items-center gap-3 rounded-lg border p-4 text-left transition-all duration-200 ${
+                    selectedNetwork === networkKey
+                      ? 'border-purple-500 bg-purple-600/30 shadow-lg shadow-purple-500/20'
+                      : 'border-gray-700 bg-gray-800/50 hover:border-gray-600 hover:bg-gray-800'
+                  }`}
                 >
                   <div className="flex-1">
                     <div className="font-medium text-white">{networkData.name}</div>
@@ -100,38 +111,30 @@ export default function SupportPage() {
           </div>
         )}
 
-        {/* Address Display & QR Code */}
         {selectedNetworkData && (
           <div className="mb-8 animate-in fade-in duration-300">
-            <div className="bg-gray-800/50 border border-gray-700 rounded-lg p-6">
-              {/* Network Name */}
+            <div className="rounded-lg border border-gray-700 bg-gray-800/50 p-6">
               <div className="mb-4">
-                <p className="text-sm text-gray-400 mb-1">Network</p>
-                <p className="text-white font-medium">{selectedNetworkData.name}</p>
+                <p className="mb-1 text-sm text-gray-400">Network</p>
+                <p className="font-medium text-white">{selectedNetworkData.name}</p>
               </div>
 
-              {/* Address */}
               <div className="mb-6">
-                <p className="text-sm text-gray-400 mb-2">Address</p>
-                <div className="flex items-center gap-2 bg-gray-900/50 p-3 rounded-lg mb-3 break-all">
-                  <code className="text-sm text-gray-300 flex-1">{selectedNetworkData.address}</code>
+                <p className="mb-2 text-sm text-gray-400">Address</p>
+                <div className="mb-3 flex items-center gap-2 break-all rounded-lg bg-gray-900/50 p-3">
+                  <code className="flex-1 text-sm text-gray-300">{selectedNetworkData.address}</code>
                   <button
                     onClick={handleCopyAddress}
-                    className="flex-shrink-0 p-2 hover:bg-gray-700 rounded transition-colors"
+                    className="flex-shrink-0 rounded p-2 transition-colors hover:bg-gray-700"
                     title="Copy address"
                   >
-                    {copied ? (
-                      <Check className="w-4 h-4 text-green-400" />
-                    ) : (
-                      <Copy className="w-4 h-4 text-gray-400 hover:text-gray-300" />
-                    )}
+                    {copied ? <Check className="h-4 w-4 text-green-400" /> : <Copy className="h-4 w-4 text-gray-400 hover:text-gray-300" />}
                   </button>
                 </div>
                 <p className="text-xs text-gray-500">{copied ? 'Copied!' : 'Click to copy'}</p>
               </div>
 
-              {/* QR Code */}
-              <div className="flex justify-center mb-6 p-4 bg-white rounded-lg">
+              <div className="mb-6 flex justify-center rounded-lg bg-white p-4">
                 <QRCodeSVG
                   value={selectedNetworkData.address}
                   size={200}
@@ -142,27 +145,22 @@ export default function SupportPage() {
                 />
               </div>
 
-              {/* Safety Warning */}
-              <div className="bg-yellow-900/20 border border-yellow-700/50 rounded-lg p-4">
+              <div className="rounded-lg border border-yellow-700/50 bg-yellow-900/20 p-4">
                 <p className="text-sm text-yellow-400">
-                  ⚠️ Make sure to send using the correct network. Sending funds using the wrong network may result in
-                  permanent loss.
+                  Make sure to send using the correct network. Sending funds using the wrong network may result in permanent loss.
                 </p>
               </div>
             </div>
           </div>
         )}
 
-        {/* Back Link */}
         <div className="text-center">
-          <a
-            href="/upload"
-            className="text-purple-400 hover:text-purple-300 transition-colors text-sm"
-          >
-            ← Back to Upload
+          <a href="/upload" className="text-sm text-purple-400 transition-colors hover:text-purple-300">
+            Back to Upload
           </a>
         </div>
       </div>
     </main>
   );
 }
+

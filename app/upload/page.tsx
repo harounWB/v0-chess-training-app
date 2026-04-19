@@ -7,9 +7,8 @@ import { useGameContext } from '@/lib/GameContext';
 import { useAuth } from '@/lib/AuthContext';
 import { Game } from '@/lib/types';
 import { scopeGamesForFile } from '@/lib/GameContext';
-import { Play, Upload as UploadIcon, AlertCircle, FileText, ChevronDown, ChevronUp, Search, X } from 'lucide-react';
+import { Play, Upload as UploadIcon, AlertCircle, FileText, Search, X } from 'lucide-react';
 import { Header } from '@/components/Header';
-import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { LogoMark } from '@/components/LogoMark';
 
@@ -26,6 +25,10 @@ export default function UploadPage() {
 
   useEffect(() => {
     setMounted(true);
+  }, []);
+
+  useEffect(() => {
+    document.title = 'Analyze Chess Games Online - Free PGN Analyzer | OpeningMaster';
   }, []);
 
   // Load list of PGN files
@@ -820,8 +823,8 @@ export default function UploadPage() {
             <div className="flex items-center gap-4">
               <LogoMark className="h-14 w-14 sm:h-16 sm:w-16" sizes="64px" priority />
               <div>
-                <h1 className="text-2xl font-bold text-white sm:text-3xl">OpeningMaster</h1>
-                <p className="text-sm text-gray-500">Master openings with interactive training</p>
+                <h1 className="text-2xl font-bold text-white sm:text-3xl">Analyze Chess Games Online</h1>
+                <p className="text-sm text-gray-500">Free PGN Analyzer and chess opening trainer</p>
               </div>
             </div>
           </header>
@@ -858,26 +861,18 @@ export default function UploadPage() {
 
           {/* Upload Form */}
           <div className="max-w-md mx-auto pt-12">
-            <PGNUpload onGamesLoaded={handleGamesLoaded} isLoading={isLoading} />
+            <PGNUpload
+              onGamesLoaded={handleGamesLoaded}
+              isLoading={isLoading}
+              onToggleSelectGames={() => setShowSelectGames((prev) => !prev)}
+              showSelectGames={showSelectGames}
+            />
           </div>
 
           {/* Select Games Section */}
-          <div className="max-w-md mx-auto pt-6">
-            <div className="text-center">
-              <Button
-                onClick={() => setShowSelectGames(!showSelectGames)}
-                disabled={isLoading}
-                variant="outline"
-                className="w-full bg-gray-800/50 border-gray-700 hover:bg-gray-700/50 text-gray-300 hover:text-white"
-              >
-                <FileText className="w-4 h-4 mr-2" />
-                Select Games
-                {showSelectGames ? <ChevronUp className="w-4 h-4 ml-2" /> : <ChevronDown className="w-4 h-4 ml-2" />}
-              </Button>
-            </div>
-
-            {showSelectGames && (
-              <Card className="mt-4 p-4 bg-gray-900/80 border-gray-800 backdrop-blur-sm">
+          {showSelectGames && (
+            <div className="max-w-md mx-auto pt-4">
+              <Card className="p-4 bg-gray-900/80 border-gray-800 backdrop-blur-sm">
                 <div className="space-y-3">
                   <h3 className="text-lg font-semibold text-white text-center">Choose a PGN File</h3>
 
@@ -936,8 +931,8 @@ export default function UploadPage() {
                   )}
                 </div>
               </Card>
-            )}
-          </div>
+            </div>
+          )}
         </div>
       </div>
     </div>

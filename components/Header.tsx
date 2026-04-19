@@ -17,7 +17,7 @@ export function Header() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4">
-            <Link href="/upload" className="flex items-center gap-3 rounded-xl text-white transition-opacity hover:opacity-90">
+            <Link href="/home" className="flex items-center gap-3 rounded-xl text-white transition-opacity hover:opacity-90">
               <LogoMark className="h-10 w-10 sm:h-11 sm:w-11" sizes="44px" priority />
               <div className="leading-tight">
                 <span className="block text-sm font-semibold sm:text-base">OpeningMaster</span>

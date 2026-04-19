@@ -48,6 +48,10 @@ export default function DashboardPage() {
   }, [user, isGuest, router]);
 
   useEffect(() => {
+    document.title = 'Training Dashboard | OpeningMaster';
+  }, []);
+
+  useEffect(() => {
     setSelectedFiles(prev => prev.filter(file => savedFiles.includes(file)));
   }, [savedFiles]);
 
