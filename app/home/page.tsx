@@ -99,7 +99,7 @@ export default function HomePage() {
               {openingPages.map((opening) => (
                 <Link
                   key={opening.slug}
-                  href={`/openings/${opening.slug}`}
+                  href="/openings"
                   className="block rounded-2xl border border-gray-800 bg-gray-950/70 px-4 py-3 transition-colors hover:border-gray-700 hover:bg-gray-900"
                 >
                   <div className="text-sm font-medium text-white">{opening.title}</div>
@@ -113,4 +113,3 @@ export default function HomePage() {
     </main>
   );
 }
-
