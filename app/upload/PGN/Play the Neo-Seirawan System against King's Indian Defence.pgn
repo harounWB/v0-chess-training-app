@@ -1,0 +1,2298 @@
+﻿[Event "?"]
+[Site "?"]
+[Date "2023.01.16"]
+[Round "?"]
+[White "Neo-Seirawan variation"]
+[Black "Introduction and overview"]
+[Result "*"]
+[ECO "E90"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "31"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 (5. Bd3 {is an alternative move
+order. After} O-O ({However, Black has an extra option} 5... Nc6 $5 {which can
+be avoided with the more flexible move order 5.Nf3 0-0 6.Bd3.}) 6. Nf3 $5 {
+we transpose into the main line.} (6. Nge2 {is the genuine Seirawan variation.}
+)) 5... O-O {White has many ways to fight against the King's Indian Defencse.
+In this database, I will suggest a fresh approach with} 6. Bd3 $5 {At first,
+this seems like a mixup between the two different systems. Usually, we develop
+our bishop and knight either in the ''classical'' Be2-Nf3 or the ''Seirawan''
+Bd3-Ne2 formation. By comparison, Bd3-Nf3 (which I decided to name the
+''Neo-Seirawan'' variation) seems less principled because it allows Black to
+pin the knight with Bg4. However, things are not that simple for Black after
+this move, as we will see. The first strong player to try this system was the
+ever-creative GM Daniil Dubov back in 2020. His opponent was no less than
+Magnus Carlsen, and Dubov scored a thematic win. This game caught the
+attention of other grandmasters, including Carlsen himself. The World Champion
+used 6.Bd3 in two blitz/rapid games, as well as Hikaru Nakamura. In classical
+chess, it scored particularly well in the hands of grandmasters Dardha and
+Bernadskiy. So far, most Black players have been reacting in less than optimal
+ways to the Neo-Seirawan variation, which partly explains why White have been
+getting very good positions (and scoring over 65% on 2400+ level) with it. The
+obvious advantage of developing the bishop to d3 instead of the more usual e2
+is that it helps White control the key e4-square. Moreover, it helps White
+fight against Black's thematic f5-break if the centre gets blocked with ...
+e7-e5/d4-d5. The bishop is also placed well on d3 in the Benoni/Benko
+structures, should Black go for the ...c7-c5 instead. The obvious downside is
+that it allows the Bg4 pin, but this is not such a big issue as it might seem
+at first. The database is broken down into two parts: 1) Theoretical material
+in the first nine chapters; and 2) Seven typical central structures with
+lightly annotated key games.} ({By comparison to 6.Bd3 Bg4 7.Be2! line, White
+is up a tempo in the Bg4 line of the Classical KID:} 6. Be2 Bg4 {This line is
+considered clearly advantageous for White after} 7. Be3 Nfd7 8. Qd2 {We don't
+mind playing a similar position down a tempo after 6.Bd3 Bg4 since we still
+have good chances to obtain an advantage out of the opening.}) {The most
+principled reply is} 6... Bg4 {pinning the f3-knight in order to weaken
+White's defence of the d4-pawn. We will discuss this essential reply in
+Chapters 1 through 3.} ({In Chapters 4 and 5, we examine a ''pure'' King's
+Indian approach with} 6... e5 7. d5 {In this type of position, the bishop is
+placed quite well on the b1-h7 diagonal, as discussed earlier. When attacked
+by a knight from f4 or c5, it can simply retreat to c2. The lines below
+illustrate typical ideas for both sides in the arising middlegame.} a5 {
+(Chapter 5)} (7... Nh5 {[%cal Gh5f4] (Chapter 4)} 8. O-O Nf4 9. Bc2 {[%csl Gc2]
+[%cal Yc2f5,Rf7f5]} Nd7 10. Kh1 $5 {[%cal Gg2g3]} Nf6 11. g3 {[%cal Gf3h4,
+Gh4g2,Yc1e3,Yc4c5] Once we have expelled the knight from f4, we will take
+prophylactic measures against Black's kingside play and prepare our own
+expansion on the queenside.}) 8. O-O Nbd7 9. Bc2 Nc5 10. a3 Bd7 11. b3 {
+[%cal Ra5a4]} Nh5 12. Rb1 {[%csl Gc2][%cal Gb3b4,Gf7f5] We have a fairly
+typical KID middlegame where both sides look to develop active play on the
+respective wings. The white bishop is placed quite conveniently on c2, not
+only to fight against the f5-break but also to prepare b3-b4 by covering
+important light squares on the queenside.}) ({In Chapter 4, we also take a
+look at} 6... Nbd7) ({and} 6... Na6 {In both cases, the game usually
+transposes into the 6...e5 7.d5 line after} 7. O-O e5 8. d5 {although White
+has some more flexibility here.}) ({The Benoni approach with} 6... c5 7. d5 {
+is covered in Chapters 6 through 8. Black usually continue} e6 ({In Chapter 6,
+we focus on the less popular continuations, such as} 7... Bg4) ({and} 7... e5)
+8. h3 {This way, we ensure that Bg4 is not an option anymore.} ({White can
+also transpose into other lines covered in the database with} 8. O-O exd5 9.
+exd5 Bg4 10. h3 ({or} 10. Be2)) {Black can either open the centre at once with}
+8... exd5 ({or keep the tension with} 8... Na6 {(Chapter 6)} 9. O-O Nc7 {
+A waiting game ensues, where both sides are trying to get in useful developing
+moves (Re1, Be3, Qd2 for White; Re8, Rb8 for Black) before determining the
+central structure. Still, the side with more space typically has the upper
+hand.}) 9. exd5 Re8+ 10. Be3 {By transposition, a well-known theoretical
+position of the Benoni is reached. White's space advantage cannot be disputed,
+so Black usually tries to create counterplay on the dark-square complex either
+by playing} Bh6 {(Chapter 8)} ({or the more flashy} 10... Rxe3+ $5 {(Chapter 7)
+} 11. fxe3 Qe7 12. O-O Nbd7 {Black can claim a positional compensation for the
+exchange since it's not easy for White to break the dark-square blockade. We
+will examine a relatively rare approach} 13. Qe1 $5 {[%cal Ge1h4]}) ({Black
+has also tried a few other moves in this tabiya, such as} 10... Nbd7 {[%cal
+Gd7e5]}) ({and} 10... Bf5 {[%cal Gf6e4] which are also covered in Chapter 7.})
+11. O-O Bxe3 12. fxe3 Qe7 (12... Rxe3 $2 {is not advisable as it gives White a
+huge attack after} 13. Qd2 $40 {[%cal Gd2h6]}) (12... Nbd7 13. e4 Rf8 $5 {
+[%cal Gf6e8,Gd7e5,Ye8d6] is an interesting alternative, but we will see how to
+deal with this idea, as well.}) 13. e4 Nbd7 {This position was reached in
+numerous games in this line. While there is nothing wrong with a patient
+approach based on the space advantage, such as doubling the rooks on the
+f-file and manoeuvring our pieces toward the kingside, I recommend a more
+direct approach with} 14. Nb5 $5 ({or even the immediate} 14. e5 $5) 14... Rf8
+15. e5 $1 Nxe5 16. Nxe5 dxe5 17. d6 {with promising initiative for a pawn.}) ({
+The main subject of Chapter 9 is the provocative} 6... Nc6 {attacking White's
+soft spot on d4. We should not hesitate with} 7. d5 Nb4 8. Be2 e6 {Black's
+main strategic idea in this line is to undermine the white pawn centre. Still,
+I believe that White keeps an edge after} 9. O-O Re8 (9... exd5 10. cxd5 a5 11.
+a3 Na6 12. Be3 {[%csl Gd5,Ge4] looks pleasant for White.}) 10. dxe6 $1 Bxe6 11.
+Nd4 {Now, we have something akin to the classical KID with early exd4. These
+positions can be tactically tricky, but this shouldn't deter us from playing
+principled chess with the extra space and good development.} Nc6 (11... Bd7 12.
+f3) 12. Be3 Nxd4 13. Bxd4 {We examine this and a few other branches in more
+detail in this chapter.}) ({Finally, a few rare but reasonable KID setups,
+such as} 6... c6 7. O-O a6 ({and} 7... Na6) 8. h3 b5 {are also covered in the
+final chapter, although these should not pose a problem to White's opening
+ambitions.}) 7. Be2 $1 {I believe that it is this move that drew the attention
+of the pioneer of this variation, Daniil Dubov, and other players that
+followed in his footsteps. Yes, it's not the best policy to waste a tempo
+playing with the same piece in the opening, but in concrete terms, we have
+gotten a well-known theoretical position, only with Black to move. The key
+issue here is that White usually gets a pleasant advantage if it's his move
+here (see my notes to 6.Be2 Bg4 line above!) . So, we might just check the
+same position with Black to play to see if White can still get an edge. As it
+turns out, Black needs to tread very carefully to even think about equalizing
+in this line.} Nfd7 {is the main and best move, clearing the long diagonal to
+attack the d4-pawn, followed by Nc6.} ({The immediate} 7... Nc6 {(Chapter 1)
+is less convincing because of} 8. d5 Bxf3 {and now both the sharp} 9. gxf3 $5 (
+{and a more positional} 9. Bxf3 Ne5 10. Be2 {should give White the upper hand
+in the middlegame.}) {This dynamic recapture puts White on a fast-track to a
+surprising kingside attack:} 9... Ne5 10. f4 Ned7 11. h4 {[%cal Gh1g1,Gf4f5,
+Gh4h5]}) ({Black could still opt for the Benoni structure with} 7... c5 {
+(Chapter 1)} 8. d5 e6 ({It's worth noting that the Benko-like pawn sacrifice} 
+8... b5 9. cxb5 a6 {is neutralized with} 10. a4 $1 axb5 11. Bxb5 $16) 9. O-O
+exd5 10. exd5 {In this version, Black typically trades his ''bad'' bishop} Bxf3
+11. Bxf3 {followed by} Nbd7 {[%cal Gf6e8,Gf7f5,Gd7e5] initiating play on the
+dark squares. For that reason, I prefer} 12. g3 $5 {[%cal Gg1g2,Gf3e2,Gf2f4,
+Yc1d2,Yd1c2] among several reasonable development schemes.}) 8. Be3 {The main
+reply, corresponding to the 6.Be2 Bg4 7.Be3 line.} ({There is also something
+to be said about} 8. Ng1 $5 {(Chapter 2) , a move that's virtually never been
+seriously tested. My analysis shows that White has at least a minimal edge in
+all lines, the main one being} Bxe2 9. Ngxe2 e5 10. d5 a5 (10... f5 11. exf5
+gxf5 12. O-O {[%cal Gf2f4]}) 11. h4 $1 {[%cal Gh4h5]}) 8... Bxf3 {Black
+eliminates one of the defenders of the key d4-square.} ({White is not troubled
+by} 8... e5 9. d5 a5 {One of the ways to get a stable advantage is} 10. h3 Bxf3
+11. Bxf3 f5 12. h4 f4 13. Bd2) 9. Bxf3 Nc6 {As Black threatens to establish
+his knight on d4 after ...e7-e5, it's best to proceed with} 10. d5 Na5 {
+(Chapter 3)} (10... Bxc3+ $5 {(Chapter 2)} 11. bxc3 Na5 {is a riskier approach,
+and I believe that White should accept the challenge by continuing} 12. O-O $1
+Nxc4 13. Bh6 Re8 14. Be2 Ncb6 15. Qd4 {[%csl Ye2,Rg8,Yh6][%cal Gf2f4] with a
+strong compensation for the pawn in the view of the bishop pair and attacking
+chances on the kingside.}) 11. Be2 Nb6 {The knights look awkward on b6 and a5,
+but the c4-pawn is very vulnerable. Fortunately, we can defend it by tactical
+means.} 12. Bd4 $1 Bxd4 (12... Naxc4 {fails to} 13. Bxc4 Nxc4 14. Bxg7 Kxg7 15.
+Qd4+ Ne5 16. f4 $18) 13. Qxd4 {Black, in turn, has his own tactic that allows
+him to keep a delicate balance.} c5 14. dxc6 e5 $1 {Black aims to secure an
+outpost on d4 with this intermezzo.} (14... Nxc6 15. Qd2 {is a very pleasant
+Maroczy bind for White.}) {All of this has already been featured in one
+classical grandmaster game, El Debs, F (2553) -Supi, L (2581) Osasco 2022
+½-½ (43) . It was also analyzed among many branches in Gawain Jones'
+super-popular King's Indian defence repertoire for Black. At this point, we
+have two possibilities, the more enterprising} 15. Qd2 ({and the ''safe''} 15.
+Qe3 {when White can obtain a slight structural advantage after} bxc6 16. c5)
+15... bxc6 (15... Nxc6 {releases the tension from c4, presenting White with an
+opportunity to attack the vulnerable kingside with} 16. h4 $1 {[%cal Gh4h5,
+Rh7h5,Yg2g4]}) 16. b3 {[%csl Ra5,Rb6,Rd6,Rg6][%cal Gh2h4,Gh4h5,Ga1d1,Ya5b7,
+Yb7c5,Yc5e6] with ideas like h4-h5, in order to exploit Black's weak dark
+squares around the black king. If Black follows up in the right way, the
+position should be roughly balanced thanks to his counterplay via the
+d4-square. In conclusion, if Black navigates this rare line properly, at the
+very least we get a playable middlegame with some initiative.} *
+
+[Event "?"]
+[Site "?"]
+[Date "2023.01.16"]
+[Round "?"]
+[White "Chapter 1: 6...Bg4"]
+[Black "7th move sidelines"]
+[Result "*"]
+[ECO "E90"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "33"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Bd3 Bg4 {As noted in the
+introduction, this is the critical reply against 6.Bd3. White doesn't mind
+losing a tempo with} 7. Be2 {to strengthen his defence of the d4-pawn. The
+main reply is 7...Nfd7, but in this chapter, we will examine its alternatives.
+Let's start with} c5 (7... e5 {was featured in a recent super-GM encounter,
+but it's hardly a principled way to play with Black.} 8. d5 a5 9. Be3 Na6 10.
+Nd2 {White gets everything he wants here. Black will not be in a good position
+to play ...f7-f5 any time soon.} Bxe2 (10... Bd7 11. g4 $16) 11. Qxe2 Nd7 12.
+g4 $1 Ndc5 13. O-O-O Qd7 14. h4 $16 {½-½ (68) Carlsen, M (2859) -Nakamura, H
+(2768) Chess.com INT 2022}) (7... Nc6 {is a direct assault on the pawn, but
+its drawback is that it allows White to win a tempo by advancing the pawn} 8.
+d5 Bxf3 {It's not often the case that two recaptures are equally good. Here,
+we have a pleasant choice between} 9. gxf3 $5 {This would be a good choice if
+we are in the mood to attack.} ({and} 9. Bxf3 {which leads to a more
+''classical'' type of middlegame with a space advantage and the bishop pair
+advantage.} Ne5 ({A queenside diversion with} 9... Na5 10. Be2 c6 {doesn't
+quite work because of} 11. b4 $1 Nxc4 12. Bxc4 cxd5 13. Bb3 $1 $16) 10. Be2 {
+Black can undermine the centre in one of two typical ways, but the verdict is
+the same: White has a pleasant edge in the arising middlegames.} e6 (10... c6
+11. O-O Rc8 12. f4 $14 {[%cal Gc1e3]}) 11. O-O Re8 12. Bg5 h6 13. Be3 exd5 14.
+cxd5 $14 {[%csl Yd5,Ge2,Ge3,Ye4]}) 9... Ne5 (9... Nb8 10. f4 {doesn't make a
+big difference unless Black plays} e6 (10... Nbd7 {transposes directly to the
+9...Ne5 line}) {but White doesn't mind weakening the g6-pawn by playing} 11.
+dxe6 fxe6 12. h4 {[%csl Rg6][%cal Gh4h5]} Qe8 13. Be3 Nbd7 14. Qd2 $40 {
+[%cal Ge1c1,Yg1g7,Yh4h5]}) 10. f4 Ned7 11. h4 {[%csl Rg6][%cal Gh4h5,Gf4f5]} h5
+12. Rg1 c6 13. Be3 {It's important to mobilize our pieces before starting any
+concrete actions on the kingside.} Qa5 14. Kf1 $36 {[%csl Yf1,Rg6][%cal Gf4f5,
+Ge3d4]}) (7... Nfd7 {[%csl Rd4][%cal Gb8c6,Ye7e5] is covered in the next two
+chapters.}) 8. d5 {The Benoni approach with} e6 {is pretty decent here since
+Black will also get to trade off his problematic light-squared bishop.} ({
+The same cannot be said for the Benko-gambit approach with} 8... b5 9. cxb5 a6
+10. a4 $1 {This is a slight improvement} ({over} 10. bxa6 {although Black's
+counterplay didn't seem sufficient even after} Nxa6 11. O-O Qb6 12. h3 Bxf3 13.
+Bxf3 Nd7 14. Be2 Rfb8 15. a4 $1 $14 {[%csl Gb5] 1-0 (43) Zhou, J (2619)
+-Moradiabadi, E (2576) Burlingame 2017}) {After either} 10... axb5 ({or} 10...
+Bxf3 11. Bxf3 axb5 12. Nxb5 $16 {[%csl Ga4,Gb5]}) 11. Bxb5 $16 {[%csl Ga4,Gb5]
+White pieces form a solid barrier on the a- and b-files, seriously hindering
+Black's ambitions to claim compensation for the pawn.}) ({or} 8... a6 9. O-O b5
+10. cxb5 axb5 11. Bxb5 Na6 12. h3 Bd7 13. Bc4 $16 {Black doesn't have the
+typical Benko counterplay on the queenside in this position.} Ne8 14. Bf4 Qb6
+15. Qe2 Nec7 16. e5 Rfb8 17. b3 $18 {1-0 (35) Dardha,D (2533) -Mohammad,N 
+(2429) Sitges 2021}) 9. O-O exd5 10. exd5 {In this position, Black has tried
+many moves in practice. We will examine a few of the most logical ones. Before
+that, let's just try to understand the strategic contours of this middlegame.
+Black is going to exchange his light-squared bishop on f3, sooner or later.
+This will allow him to get better access to dark squares like d4, e5 and h4.
+He usually tries to exploit them with dynamic moves like Bd4, Qh4, and N/Be5,
+often throwing the f7-f5- (f4) advance in the mix. White, on the other hand,
+enjoys a long-term static advantage thanks to his extra space and the bishop
+pair. Thus, his plan in the next phase of the game should be to neutralize the
+opponent's activity on the dark squares. Once he has done that, he can proceed
+to increase his positional advantage. Experience tells us that one of the best
+ways to achieve that is to place our pieces in the ''second rank formation'':
+g3, Kg2, Be2, Qc2, Bd2, often followed by f2-f4. We can see a perfect
+application of this plan in the following continuation:} Bxf3 ({A young
+Belgian GM Dardha, one of the leading experts of the Neo-Seirawan variation,
+also eventually employed this setup in the following game:} 10... Re8 11. h3
+Bxf3 12. Bxf3 Nbd7 13. Bf4 Ne5 14. Be2 a6 15. a4 Qc7 16. Qc2 Re7 17. Bg5 h6 18.
+Bd2 {[%csl Yc2,Yd2,Ye2][%cal Gg2g3,Gg1g2]} Rae8 19. Rfe1 g5 {[%csl Gf5,Gh5]
+[%cal Rf2f4]} 20. g3 $1 Qd7 21. Kg2 $14 {[%cal Yc2g2] White has a perfect
+piece setup, and can look forward to the next stage of the game. Meanwhile,
+Black is quite cramped.} Nh7 22. b3 Nf8 23. Bh5 Neg6 24. Rxe7 Rxe7 25. Bg4 $16
+{1-0 (55) Dardha,D (2520) -Erigaisi,A (2567) Peniche 2021}) (10... Nbd7 {
+seems like the most flexible choice. I would recommend a useful non-committal
+move} 11. a4 $5 {[%cal Ga1a3,Ga3h3,Ya4a5,Rd7b6,Rb7b5]} ({It might be better to
+omit} 11. h3 {for the time being, as it can make our kingside structure a
+little shaky, for example} Bxf3 12. Bxf3 Ne8 13. Qc2 Qh4 $132 {[%csl Rh3][%cal
+Rg2g3]}) {Let's see a sample line:} 11... Ne8 12. Ra3 a6 13. Re1 {We keep
+making useful moves in anticipation of ...Bxf3.} Bxf3 14. Bxf3 Bd4 15. Be2 Ng7
+16. Ne4 $1 {[%csl Rd6]} Ne5 17. Rh3 $1 $36 {[%csl Rf6,Rh7][%cal Yc1g5,Ye4f6,
+Ge4g5] looks nice for White.}) 11. Bxf3 Nbd7 12. g3 $5 {[%cal Gf3e2,Gg1g2]
+This continuation seems a bit more accurate} ({than} 12. Re1 {which is not to
+take away from Bernadskiy's nice win against GM Kadric.} Ne8 13. Be2 Be5 14. g3
+f5 15. Bh6 Ng7 16. Qd2 Nf6 17. f3 Kh8 18. Bd3 $14 {1-0 (24) Bernadskiy,V (2587)
+-Kadric,D (2584) Cattolica 2021}) 12... Ne8 13. Qc2 Ne5 14. Be2 f5 15. Kg2 Qd7
+16. Bd2 {[%cal Yc2g2] The ''second-rank'' formation has been achieved. White
+has a solid positional plus in the ensuing middlegame.} Nf6 17. Rae1 $14 {
+[%csl Re6][%cal Ye2d1,Yc3e2,Ye2f4,Gf2f4]} *
+
+[Event "?"]
+[Site "?"]
+[Date "2023.01.16"]
+[Round "?"]
+[White "Chapter 2: 6...Bg4"]
+[Black "8th and 10th move sidelines"]
+[Result "*"]
+[ECO "E90"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "41"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Bd3 Bg4 7. Be2 Nfd7 {
+[%csl Rd4][%cal Gb8c6,Ye7e5] This is the most consistent way to continue
+attacking the soft underbelly of the white position. Black doesn't commit his
+central pawns yet, which would allow White to achieve a favourable blockade
+with d4-d5.} 8. Be3 {This ''automatic'' move has a worthy alternative.} ({
+White can also force a trade of light-squared bishops with} 8. Ng1 $5 Bxe2 9.
+Ngxe2 {The knight resets to e2, which is a slightly inferior square compared
+to f3. However, White has accomplished two goals with this manoeuvre. Firstly,
+he strengthened his defence of the d4-pawn, basically eliminating Black's
+plans to destabilize it with ...Nc6. Secondly, a trade of the light-squared
+bishops is typically in White's favour in the King's Indian Defence. White LSB
+is generally his most passive piece, while its black counterpart is often
+instrumental in preparing the f5-break and defending the resulting weaknesses
+on the light squares. Since the game material is very limited in this line, we
+need to explore logical plans for both sides:} e5 (9... c5 10. d5 Ne5 $5 {
+This seems to be the only way to break from passivity.} ({The only game I
+found in this line continued} 10... Na6 11. O-O Nc7 {1-0 (34) Djuric, S (2464)
+-Tratar, M (2478) Campillos 2007 and here we can easily squeeze Black with} 12.
+a4 b6 13. Bg5 a6 14. f4 $36 {[%csl Re7][%cal Yd1d3] etc.}) 11. b3 b5 $1 {
+A consistent follow-up. Black sacrifices the pawn 'a la Benko' to generate
+some activity in an otherwise rather uninspiring position.} 12. cxb5 a6 13.
+bxa6 c4 14. O-O Nxa6 {Black has some compensation for the pawn, although White
+has several ways to keep an edge, such as} 15. Bg5 $5 Qc7 16. Nd4 $14 {[%csl
+Re7][%cal Gc3b5,Gd4c6]}) (9... a6 10. O-O c6 {[%csl Rc1,Rd4][%cal Yb7b5,Yd6d5]
+is an interesting approach, which makes all the more sense now that White
+doesn't have the light-squared bishop. If Black could eventually push ...b5 or
+...d5, he could get better control over the light squares and fix the white
+pawns on the dark squares. Anyway, we don't have to allow that.} 11. a4 $1 a5
+12. Bg5 $14) 10. d5 {I analyzed several reasonable moves here:} a5 (10... f5 {
+is also very logical. After} 11. exf5 gxf5 12. O-O {Black has a choice between}
+f4 {[%csl Rc1,Ge4,Rg7][%cal Yc3e4,Yf4f3] which has its pros and cons.} ({and} 
+12... Qh4 13. f4 {[%csl Rf5] which leads to an interesting middlegame battle.
+For example,} Nf6 14. Bd2 Nbd7 15. Nb5 Ne8 16. Rf3 $14) {White can take the
+annoying f-pawn head on after} 13. f3 Kh8 14. Kh1 $1 $14 {[%csl Rf4][%cal
+Gg2g3,Gf1g1]}) (10... Qh4 {[%cal Gg7h6] is strongly met by} 11. Ng1 $1 {
+[%cal Gg1f3,Rg7h6] preventing the trade of the dark-squared bishops.} f5 12.
+Nf3 $14 {[%csl Re6][%cal Gf3g5]}) 11. h4 $1 {This Alpha-Zero-like pawn advance
+is a very important resource in a few other lines in this variation. We take
+advantage of the knight's absence from f6 to soften up the black kingside. Our
+king can often find safety on the queenside or even in the centre in these
+closed positions, so we don't need to worry about this being a ''weakening''
+move. Black can react in one of two ways:} h5 {This move comes with a price:
+the g6-pawn and g5-square will be permanently weakened whenever Black pushes
+the pawn to f5 (along with the usual e6-square) .} ({and} 11... f5 12. h5 f4
+13. hxg6 hxg6 14. Ng1 $1 {[%csl Rg6][%cal Gd1g4,Gg1f3,Yg4e6] The knight
+returns to its initial square, once again. This time, it makes space for the
+queen so that it can exploit the newly created weaknesses on the light squares.
+} Na6 15. Qg4 Qe8 16. Nh3 {[%cal Yh3g5,Yg5e6]} Nf6 17. Qf3 $14) {This gives
+White assurance that he can claim a slight edge even with modest developing
+moves, for example} 12. Be3 Na6 13. Qc2 f5 14. f3 $14) 8... Bxf3 {The most
+straightforward continuation.} ({Carlsen preferred} 8... e5 9. d5 a5 {in his
+first encounter with this variation. However, White is spoiled for choice here,
+with several promising replies. The simplest one is} 10. h3 $146 (10. Nd2 {
+played by Dubov, is logical, but both players missed a key tactical detail
+down the line:} Bxe2 11. Qxe2 f5 12. f3 Na6 (12... Bh6 $1 {[%cal Yd8h4] would
+have taken advantage of the white king still being on e1. White doesn't really
+want to trade bishops, but} 13. Bf2 Na6 14. O-O-O Ndc5 $132 {[%csl Rf2,Yh6]
+looks like a clearly improved version of the game for Black.}) 13. O-O-O $1
+Nac5 14. Kb1 a4 15. a3 Rf7 16. exf5 gxf5 17. g4 $1 $16 {1-0 (54) Dubov,D (2699)
+-Carlsen,M (2863) chess24.com INT 2020}) (10. Ng5 $5 {is an interesting
+alternative if White still wants to make a B for B trade.} Bxe2 11. Qxe2 h6 (
+11... Na6 12. g4 $1) 12. Nh3 $1 f5 13. f3 f4 14. Bg1 Na6 15. O-O-O $14 {
+[%csl Yg1,Rg7][%cal Yh3f2,Yf2d3,Yg2g3] White is happy to have traded the
+light-squared bishops in this pawn structure.}) 10... Bxf3 11. Bxf3 f5 12. h4
+$1 {[%csl Rg6][%cal Gh4h5] This way, we will destabilize Black's h7-g6-f5 pawn
+chain and provoke him to weaken the light squares around his king.} f4 13. Bd2
+h6 14. h5 g5 15. Bg4 $14 {[%csl Gg4][%cal Yg4d7]}) (8... Nb6 {[%csl Rc4] is an
+interesting idea in the Alekhine-defense spirit, played by the Uzbek GM
+Yakubboev. However, the c4-pawn is not really under attack since we already
+know that the gxf3 recapture is usually a good option. White, therefore, has a
+rather wide range of good options at this point. I'd suggest} 9. Rc1 $5 {
+[%csl Yc3][%cal Gb2b3,Gd4d5] clearing the a1-h8 diagonal in order to prepare
+b2-b3, which would highlight the awakward position of the b6-knight.} ({
+In the original game, GM Jorden Van Foreest went for a sharper} 9. h4 e6 10.
+Ng5 Bxe2 11. Qxe2 Nc6 12. O-O-O h6 13. Nf3 {which leads to a complex
+middlegame. ½-½ (33) Van Foreest, J (2678) -Yakubboev, N (2620) Chennai 2022}
+) 9... c5 (9... Bxf3 10. gxf3 {[%cal Gf3f4] looks very good for us since} e5 {
+is strongly met by} 11. dxe5 $1 dxe5 12. Qxd8 Rxd8 13. c5 $16) ({If we follow
+Yakubboev's plan from the game:} 9... e6 10. b3 Nc6 {we can see how successful
+the plan with Rc1 was after} 11. d5 $16 {[%csl Rb6,Yc1,Yc3]}) 10. d5 e6 11. b3
+$14 {We are likely to transpose to the Benoni type of middlegame discussed in
+7...c5 8.d5 e6 line, where White has a typical slight edge.}) 9. Bxf3 Nc6 10.
+d5 {[%csl Rc6,Yg7][%cal Yg7a1] There is no point in allowing ...e5, ...Nd4, so
+this move makes the most sense. On the flip side, we are leaving the a1-h8
+diagonal wide open. It looks like the g7-bishop will have a buffet, but things
+aren't that simple.} (10. Ne2 {is ineffective because of} Na5 11. b3 c5 12. Rc1
+Nc6 $11) ({The engine is mildly optimistic about the position arising after} 
+10. h4 e5 11. d5 Nd4 12. h5 {, probably due to our space advantage. However,
+it won't be easy to make progress after} c5 {[%csl Yd4] Anyway, we can do
+better than that (see 10.d5) .}) {No one played} 10... Bxc3+ $5 {yet, but such
+ideas should always be checked.} ({The main line} 10... Na5 {is examined in
+Chapter 3.}) 11. bxc3 Na5 {[%csl Rc4] The position is relatively closed, so
+Black's idea to utilize his knight pair definitely has some merit.
+Nevertheless, I believe that White keeps better chances if he plays actively,
+for the initiative.} 12. O-O $1 Nxc4 ({Black doesn't have to take the pawn. If
+he plays} 12... e5 {[%cal Rd1d4] right now, though, he only speeds up White's
+attack.} 13. dxe6 fxe6 14. Bg4 Qe7 15. Bh6 Rf7 16. f4 $36 {[%csl Gg4,Rg8,Gh6]
+[%cal Yh6g5] We won a couple of important tempi to activate our bishops.
+Taking the pawn} Nxc4 {is already suspicious now in the view of} 17. Qd4 b5 18.
+a4 $16 {[%csl Rc4][%cal Ya1a8]}) ({Black has a serious alternative in} 12...
+Re8 $5 {[%csl Ge8,Rf8][%cal Ge7e6,Ye8e6,Ye3h6] The rook is placed better on e8
+than on f8, as it supports the push of the e-pawn, while simultaneously
+avoiding the Bh6-attack. White's only attempt at an advantage is} 13. Qa4 $1 (
+13. Bh6 $6 e5 14. dxe6 Rxe6 $15) 13... c6 (13... b6 {meets a thematic pawn
+sacrifice} 14. c5 $1 dxc5 ({The a5-knight becomes even more isolated after} 
+14... Nxc5 15. Bxc5 dxc5 16. e5 $16 {[%csl Ra5,Yd5,Ye5,Gf3]}) 15. Rad1 {
+[%csl Ra5][%cal Ye3f4,Ye4e5] Black's extra pawn is rather meaningless in this
+middlegame. White is fully mobilized for the central advance, and Black will
+be on the back foot.} Ne5 16. Be2 Qd7 17. Qc2 $36 {[%cal Gf2f4,Ge4e5]}) 14. Be2
+$14 {[%csl Rc3,Rc4][%cal Ga8c8,Ya4c2,Yh2h4,Yf2f4,Yh4h5] While White should
+have a slight edge due to the well-known factors (space advantage, bishop pair)
+, there is no denying that Black will get some counterplay on the c-file due
+to White's damaged pawn structure.}) 13. Bh6 Re8 14. Be2 Ncb6 15. Qd4 {All was
+virtually forced up to this point. Black needs to make a choice now between} f6
+({and} 15... Nf6 16. f4 c5 17. Qd3 $36) 16. f4 e5 17. dxe6 Rxe6 {[%csl Yf6,Yg8]
+Black dug in on the kingside, but, as solid his position is, White can
+gradually strengthen his grip on it. For example,} 18. Bg4 Re8 19. Rae1 Qe7 20.
+Bd1 $1 {[%cal Yd1b3]} Nc5 21. Bc2 $44 {[%cal Gh2h4,Gh4h5,Ge4e5] In a practical
+game, White is certainly going to be the one having more fun here.} *
+
+[Event "?"]
+[Site "?"]
+[Date "2023.01.16"]
+[Round "?"]
+[White "Chapter 3: 6...Bg4"]
+[Black "Main line 10...Na5"]
+[Result "*"]
+[ECO "E90"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "51"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Bd3 Bg4 7. Be2 Nfd7 8. Be3
+Bxf3 9. Bxf3 Nc6 10. d5 Na5 11. Be2 Nb6 {[%csl Rc4,Yg7][%cal Rb2b3] This move
+is the most consistent with Black's strategy to exploit our queenside
+weaknesses before we can consolidate with Rc1 and b3.} (11... Ne5 {is an
+alternative, but here White has} 12. Qa4 $1 (12. Bd4 c5 $11) 12... c6 13. Rc1 {
+threatening to fully consolidate, with a clear positional advantage. This
+should prompt Black to complicate matters with} Naxc4 $5 14. Bxc4 b5 15. Nxb5
+cxb5 (15... Nxc4 {preserves the material balance after} 16. Rxc4 cxb5 17. Qxb5
+Rb8 18. Qa6 Rxb2 {but White keeps a significant positional advantage with} 19.
+O-O $16 {[%csl Ga6,Ra7,Gc4,Ge3,Re7]}) 16. Bxb5 Ng4 17. Bd2 {Black can take the
+b2-pawn, but his goal at this point should be to imbalance the game instead.}
+Qb6 (17... Bxb2 $6 18. Rc4 $16 {gives White a pleasant and safe positional
+advantage.}) 18. O-O $14 {White has better chances, although the engine points
+out that Black can complicate matters in the following way:} Rab8 $1 (18... Bd4
+19. Be1 $16 {[%cal Gc1c6]}) 19. Be2 Nxf2 $1 20. Rxf2 Bd4 21. Rcf1 Qxb2 22. Bd3
+f5 {Fortunately, White can extinguish this burst of activity with his own
+sacrifices:} 23. e5 $1 dxe5 24. d6 $1 exd6 25. Bh6 $1 {[%cal Ga4d7,Gd7g7,Gd3c4]
+}) 12. Bd4 $1 {Defending the c-pawn by tactical means.} Bxd4 (12... Naxc4 $4
+13. Bxc4 Nxc4 14. Bxg7 Kxg7 15. Qd4+ Ne5 16. f4 $18) 13. Qxd4 {[%cal Gb2b4]} c5
+14. dxc6 e5 $1 {The key intermezzo; otherwise Black's whole opening concept
+would be put in doubt.} (14... bxc6 {allows White to secure a slight
+structural advantage with} 15. c5 dxc5 16. Qxc5 $14 {[%csl Ra7,Rc6]}) ({whereas
+} 14... Nxc6 15. Qd2 $16 {[%csl Rg8][%cal Gh2h4,Gh4h5] looks like a very good
+Maroczy bind for us. As in many other lines in this variation, we can take
+advantage of our rook on h1 to launch the h-pawn and accentuate weaknesses
+around the black king.}) {In my view, this is the critical position of the 6...
+Bg4 line. White needs to decide whether to play} 15. Qd2 {or 15.Qe3 (analyzed
+below) . Both moves have their merits; the first one is a ''fighting'' option,
+while the second one is a more risk-free, ''playing for two-results'' kind of
+choice. It's good to study both to make a more informed decision should this
+position arise over the board. 15.Qd2 was played by the Brazilian GM El Debs
+in 2022, and it wasn't analyzed in Gawain Jones' influential 2021 King's
+Indian repertoire course (he analyzes only 15.Qe3) . This means it could come
+as a surprise to some people, which can hardly be a bad thing from White's
+point of view.} (15. Qe3 $5 {In this case, our goal is to damage the
+opponent's pawn structure after} bxc6 (15... Nxc6 {is a little more to the
+point here compared to 15.Qd2 since Nd4 comes with a Nc2 family fork threat.
+Nevertheless, White keeps a stable edge after} 16. Rd1 Nd4 17. O-O Nd7 18. Kh1
+$14 {[%cal Gf2f4]}) 16. c5 Nbc4 17. Bxc4 Nxc4 18. Qe2 Na5 19. Rd1 Nb7 20. cxd6
+Nxd6 21. O-O {[%csl Ra7,Rc6] Everything was virtually forced up to this point.
+While this position looks slightly more pleasant for White on the surface,
+Gawain Jones correctly points out that Black has very good equalizing chances
+if he plays} Qb8 $5 {[%cal Gd6b5,Yb5c3,Yb5d4] looking to force simplifications
+with ...Nb5. It doesn't look like your average KID player's dream to try to
+force equality in this way, though...} ({I also analyzed the slower} 21... Qc7
+{when White gets a bit more time to prepare for ...Nd6-b5.} 22. h4 h5 23. g3 {
+[%cal Gg1g2] This is going to prove useful later.} Rab8 24. b3 Nb5 {In order
+to avoid complete simplification, White can let the black knight land on d4 by
+playing} 25. Qc4 $5 {In return, he could still try to exploit the structural
+advantage in the long haul.} Nd4 26. Kg2 {[%csl Gg2][%cal Rd4f3,Rd4e2] Moving
+the king out of the knight's geometry; this is why we played g2-g3 in the
+first place.} Rfd8 27. Na4 {[%csl Ga4,Ra7,Gc4,Rc6,Yd4,Re5][%cal Ya4b2,Yb2c4,
+Yb2d3] Our plan is to play around the d4-knight and approach Black's
+structural weaknesses in the patient, Ulf Andersson/Anatoly Karpov, manner.
+Whether this is enough to claim an objective advantage or not is hard to say.
+But we can safely say that White has avoided simplifications that Black might
+have hoped for, and can press on with no risk.}) 22. h4 {This move is useful
+in almost every position as it provokes further weaknesses around the black
+king.} h5 (22... Nb5 {looks premature in the view of} 23. Nxb5 Qxb5 24. Qxb5
+cxb5 25. Rd5 {[%csl Rb5,Re5][%cal Yd5b5,Yd5e5] and Black will have to defend a
+pawn-down rook endgame.}) 23. Rd2 Nb5 24. Nxb5 Qxb5 (24... cxb5 $6 {improves
+the pawn structure, but Black will suffer in the heavy piece middlegame after}
+25. Rfd1 $16 {[%cal Yd1d7]}) 25. Rfd1 Qxe2 26. Rxe2 {[%csl Ra7,Rc6][%cal Ya7a5,
+Ya5a4] As a result of the correct simplification strategy, Black has achieved
+a very drawish rook endgame. White can probably still press a bit, but a good
+player should hold this with Black without much trouble (even by simplifying
+into a 4 vs 3 on the same wing) . Still, this line is worth a shot if you want
+to play a no-risk game with White. For a more enterprising continuation, we
+should turn our attention to 15.Qd2.}) 15... bxc6 (15... Nxc6 {is already a
+little suspicious here for a specific reason:} 16. h4 $1 {Black will find it
+surprisingly difficult to avoid making big concessions on the kingside after
+this move.} h5 (16... Nd4 17. h5 $36 {[%csl Rg8][%cal Ga1d1,Gh1h3,Yd2h6]}) 17.
+Qh6 $1 {and now} Nd4 {is refuted by} 18. Bxh5 $3 {[%cal Gh1h3]} Nc2+ 19. Kd1
+Nxa1 20. Bxg6 fxg6 21. Qxg6+ Kh8 22. Qh6+ Kg8 23. Rh3 $1 $18) 16. b3 Nb7 {
+[%cal Gb7c5,Gc5e6,Ga7a5] I believe this is the critical move. Black should
+waste no time recentralizing his knight.} (16... Qe7 {[%cal Yf8d8] was played
+in the original game in this line. I advise a small improvement for White:} 17.
+h4 $1 {[%csl Rg8][%cal Gh4h5] By this point in the survey, this move should
+come to us almost automatically.} ({GM El Debs adopted a quieter approach with
+} 17. O-O Rfd8 (17... Nb7 $5 {[%cal Ga7a5,Gb7c5,Gc5e6] would have been more
+expedient and critical, though. For example,} 18. b4 a5 19. a3 Nd8 $1 $132 {
+[%cal Gd8e6]}) 18. Rfd1 Qf8 19. Qg5 c5 {½-½ (43) El Debs,F (2553) -Supi,L 
+(2581) Osasco 2022. Here, he could have obtained a more tangible advantage with
+} 20. f4 {[%cal Gf1f7]} exf4 21. Qxf4 Nc6 22. Rd2 Nd4 23. Rf1 $16 {[%csl Rf7,
+Rg8][%cal Ge2d1,Gd2f2,Gh2h4]}) 17... Nb7 (17... h5 $2 {is not a good idea on
+the account of} 18. g4 hxg4 19. Qh6 Qf6 20. h5 $40) 18. b4 a5 19. b5 cxb5 20.
+cxb5 Nc5 21. h5 Ne6 22. Rc1 $16 {[%csl Yc1,Rg8][%cal Ge2g4,Yd2h6,Yc3d5,Yb5b6]
+Even though the white position is visibly more pleasant, I am a little
+surprised that the engine gives a sizeable advantage to White here. I suppose
+it thinks we can just ignore the knight when it lands on d4 and play to our
+strengths: kingside pressure, the b5-pawn, and the c-file.}) {We have two
+interesting replies: the usual suspect} 17. h4 $5 {[%csl Rg8][%cal Gh4h5]} ({
+and a more restrained} 17. b4 {[%cal Rb7c5] The game is likely to continue} a5
+18. b5 Rc8 (18... cxb5 19. cxb5 Rc8 20. O-O $14 {[%csl Gb5,Rd6]}) 19. O-O {
+White seems to have a pretty solid grip on the black position since the
+backward d6-pawn is a liability for the opponent and his knights are quite
+passive. However, Black can solve most of his problems with the elegant} Nc5 $1
+({The slower} 19... Qe7 {[%cal Yf8d8] is less impressive due to} 20. Rab1 Nc5
+21. Rfd1 Rfd8 22. h3 $14 {and Black is kind of stuck since} Ne6 $2 {fails to}
+23. bxc6 Rxc6 24. Nd5 $18) 20. Rfd1 Ne6 {This is Black's point. The d-pawn is
+protected by tactical means, so we don't achieve much by taking it. We can
+keep the tension in the position instead with} 21. Rac1 (21. Qxd6 Qxd6 22. Rxd6
+Nd4 {[%csl Rc3,Rc4,Re2]} 23. Bf1 Nxc4 $1 24. Bxc4 cxb5 25. Nxb5 Rxc4 $11) 21...
+Nd4 22. Bf1 c5 23. f4 $13 {[%csl Yd4][%cal Gf1d3,Gd1f1,Gc3d5] It would be too
+optimistic to claim that White has a real advantage here since the d4-knight
+cannot be ignored. However, we have some ideas to outplay our opponent in the
+long run, such as doubling on the f-file and clearing the path for the b-pawn
+with a well-timed Nd5. For example,} Qh4 24. fxe5 dxe5 25. Qe3 {[%csl Re5]
+[%cal Rf7f5]} a4 26. Kh1 Kg7 27. Bd3 {[%csl Yb5][%cal Gd1f1,Gf1f2,Yb5b8,Yc3d5,
+Rf7f5]}) 17... a5 ({Black would be playing with fire if he played} 17... h5 $6
+{because of} 18. g4 hxg4 19. Bxg4 Qf6 20. Qh6 {[%cal Gh4h5]} Qf4 21. Qxf4 exf4
+22. O-O-O $16 {[%csl Rd6,Rf4]}) 18. h5 {The critical position. Black has only
+one reliable way to keep the balance, and that is} Qe7 $1 ({The seemingly more
+active} 18... Qf6 {[%csl Yf6][%cal Gb6d7,Rd7f6] a worse choice because this
+square is better suited for the knight.} 19. Rd1 Rad8 20. Bg4 Nc5 21. f3 $14 {
+[%csl Ra5][%cal Gc3e2] White is in control.}) ({If Black goes for the immediate
+} 18... Nd7 {[%cal Gd7f6] we have an unplesant surprise for him in store:} 19.
+c5 $1 {None of the three possible recaptures are good against this thematic
+pawn advance.} Ndxc5 (19... Nbxc5 20. hxg6 fxg6 21. Qxd6 $14) 20. hxg6 fxg6 21.
+Bc4+ Kh8 22. Qh6 Qe7 23. Qxg6 $14) 19. Rd1 Rad8 {This is more precise} ({than} 
+19... Nd7 20. a3 Ndc5 21. b4 axb4 22. axb4 Nb3 23. Qh6 Nd4 24. b5 {[%csl Rb7,
+Rf6,Rg8,Yh6][%cal Gc3d5]} Ra3 25. Rh3 $1 $36) 20. Bg4 Nd7 $1 {[%cal Gb7c5,
+Gd7f6] The last precise move.} (20... Nc5 {[%csl Rb6] also looks reasonable,
+but the other knight remains forgotten on b6.} 21. hxg6 fxg6 22. O-O $14 {
+[%csl Ra5,Rb6,Rd6][%cal Gf2f3,Gc3e2,Gd2e3]}) {We probably have nothing better
+than} 21. Bxd7 Rxd7 22. a3 Nc5 23. b4 axb4 24. axb4 Nb3 25. Qd3 Nd4 26. b5 {
+[%csl Rg8][%cal Gc3d5,Gb5c6,Yd3h3] with a few more ideas to trouble the black
+king. However, due to the rather simplified material situation, it is fair to
+say that Black is very close to equality. Despite the final evaluation, I
+think this analysis shows that White has the initiative in this line and that
+Black needs to play many precise moves to hold the balance. It's difficult to
+ask more of a fresh opening variation.} *
+
+[Event "?"]
+[Site "?"]
+[Date "2023.01.16"]
+[Round "?"]
+[White "Chapter 4: 6...e5"]
+[Black "Sidelines"]
+[Result "*"]
+[ECO "E90"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "39"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Bd3 e5 {This is Black's
+most common reply in practice, along with 6...Nbd7 which often transposes back
+to 6...e5 after a subsequent 7...e5. However, as I already mentioned in the
+introduction, it is doubtful whether this is a proper reaction to 6.Bd3.} (6...
+Nbd7 7. O-O {I recommend this move in accordance with the main line. It seems
+simpler than the alternative.} ({Several strong players preferred} 7. h3 $5 {
+[%cal Yg2g4,Ye1c1,Yc1e3] keeping the options open. Depending on Black's answer,
+we could prepare g2-g4 with queenside castling, as in Nakamura's game below.}
+e5 (7... a5 8. Bg5 h6 9. Be3 e5 10. d5 Nc5 11. Bc2 Nh5 12. g3 Bd7 13. Qd2 Kh7
+14. O-O-O $14 {[%csl Gc2][%cal Rf7f5,Yc2a4,Rc7c6] with a pleasant advantage
+for White in 1-0 (34) Nakamura,H (2768) -Carlsen,M (2859) Chess.com INT 2022})
+8. d5 Nc5 9. Bc2 a5 10. Bg5 Bd7 {[%cal Gd8e8,Gb7b5,Re1c1] It's not advisable
+to castle queenside here, however, in the view of the possible b5-break (this
+is where we miss the bishop on e2) , so it's best to continue} 11. O-O h6 (
+11... Qe8 $5 $132 {[%cal Gf6h5,Gf7f5]}) 12. Be3 Nh5 13. Qd2 g5 $6 {[%csl Rf5]}
+(13... Kh7 14. Kh2 $14 {[%cal Gg2g3]}) 14. Nh2 Nf4 15. Ne2 {[%csl Rf5][%cal
+Ge2g3]} b6 16. Ng3 $16 {1-0 (44) Paravyan,D (2625) -Tissir,M (2379) Krasnaya
+Polyana 2021}) 7... e5 8. Be3 $5 {This is an independent attempt to get an
+advantage from the opening.} ({We can also simply transpose to 6...e5 with} 8.
+d5) {Black has a strategic choice now between opening the position with} 8...
+exd4 ({and keeping a more closed profile after} 8... Ng4 9. Bg5 f6 10. Bc1 $14
+{[%csl Gc4,Gd4,Ge4] This type of position is often met in the classical
+variation, with the only difference here being the position of the
+light-squared bishop. Either way, White typically has slightly easier play.}
+Nh6 {[%cal Yh6f7]} 11. Bc2 c6 12. h3 $5 {[%csl Yd4,Rd7,Rg7,Rh6] Black doesn't
+have enough pressure against d4, so we can keep the tension in the center.} (
+12. d5 c5 {[%cal Gf6f5,Yh6f7,Yg7h6] makes it easier for Black to achieve his
+typical strategic goals.}) 12... Nf7 13. Be3 Bh6 14. Bxh6 Nxh6 15. Qd2 Nf7 16.
+Rad1 $14 {[%csl Rd6][%cal Yd1d8]}) 9. Nxd4 c6 {[%csl Gc4,Yc6,Yd6,Ge4] We have
+another typical KID structure on the board. White's space advantage usually
+promises him a more comfortable game, but Black is not without resources,
+either. He can put pressure on our central pawns with his pieces or by
+preparing one of the ...b5/...d5/...f5 pawn breaks. Let's check a sample line:}
+10. h3 {[%cal Rf6g4,Yd7c5]} Re8 11. Re1 Nc5 12. Qc2 {[%cal Ga1d1] We don't
+mind trading the light-squared bishop for the opponent's active knight.} Nxd3 (
+12... a5 13. Rad1 $14 {[%csl Rd6]}) 13. Qxd3 {[%csl Rd6][%cal Ga1d1] Black
+risks getting into a very passive position if he doesn't break with} d5 {
+at once. However, even after this freeing move, White keeps the initiative with
+} 14. exd5 cxd5 15. Red1 $1 dxc4 16. Qxc4 $36 {[%csl Rc7,Yd4,Rd6,Rd8][%cal
+Gd4b5]}) (6... Na6 {is less common, although it often leads to positions from
+the main lines by transposition.} 7. O-O Bg4 {This is the only reasonable
+independent try, as far as I can tell.} (7... e5 8. d5 Nc5 9. Bc2 a5 {
+transposes to 6...e5, covered in Chapter 5.}) ({while} 7... c5 8. d5 Nc7 9. h3
+e6 {transposes to Chapter 6.}) 8. Be2 e5 {I'd recommend keeping the central
+tension with} 9. Be3 ({instead of} 9. d5 Nc5 {[%csl Re4] when White might find
+it a bit awkward to defend the e-pawn since his ideal Be3, Nd2 setup is not
+achievable.}) {Black can resolve the tension in one of two ways:} 9... Bxf3 ({
+or} 9... exd4 10. Nxd4 Bxe2 11. Qxe2 Re8 12. f3 $14) ({In the case of} 9... Qe7
+{we are ready for} 10. d5 {in the view of} Nc5 11. Nd2 {[%csl Yd2,Ye3]} Bxe2
+12. Qxe2 $14) 10. Bxf3 exd4 11. Bxd4 $14 {[%cal Gg2g3,Gf3g2,Gd1c2,Ga1d1,Gf1e1]
+White has a typical pleasant edge thanks to the extra space.}) 7. d5 {[%csl
+Gd3][%cal Gd3f5,Gd3c2,Yf7f5,Ya7a5,Yb8a6,Ya6c5,Yf6h5] In the blocked-center
+type of position, the bishop may just prove to be more useful on the b1-h7
+than on e2, as in the classical variation. As far as Black is concerned, his
+plan remains straightforward: he will try to push ...f7-f5 with the help of
+his active knights.} Nh5 {provides a slightly different direction for Black
+compared to the main line 7...a5. Nevertheless, I suggest we play similarly.} (
+{The main line} 7... a5 {is examined in the next chapter.}) 8. O-O $5 (8. g3 {
+was Carlsen's choice.} Na6 9. Be2 {Here, Black could have obtained timely
+counterplay with} f5 (9... Qe8 {was slow and unnecessary.} 10. Be3 f5 11. exf5
+Bxf5 12. Ng5 Nb4 13. Nge4 Nf6 14. f3 $16 {½-½ (68) Carlsen,M (2864) -Aronian,
+L (2775) Miami 2022}) 10. exf5 Bxf5 {[%csl Re2,Gf5][%cal Yf5b1] This is why
+I'd prefer to keep our bishop on d3/c2.} 11. Be3 (11. Nh4 {doesn't work
+because of} Bh3 $1 12. Bxh5 $6 gxh5 13. Qxh5 Nc5 $17 {[%csl Re1,Gh3][%cal
+Gc5d3]}) 11... Nf6 $13 {[%cal Ga6b4,Gf6e4,Ye5e4] Black is very active.}) 8...
+Nf4 (8... a5 {is also likely to transpose to the main line after} 9. Bc2 Na6
+10. a3 Nc5 {etc.}) 9. Bc2 {[%csl Gc2][%cal Rf7f5] The bishop feels comfortable
+on this square, still discouraging the f5-break. Black can try a few other
+ideas, such as} Nd7 ({and} 9... c6 10. Be3 {although White doesn't mind it if
+the queenside opens up:} cxd5 11. cxd5 Nd7 12. Nd2 $14 {[%csl Yc4,Rd6][%cal
+Gd2c4,Ga2a4,Gc3b5]}) (9... f5 $6 {is premature because of} 10. Bxf4 exf4 11.
+exf5 Bxf5 12. Bxf5 Rxf5 13. Nb5 $16 {[%csl Ge6][%cal Gb5d4]}) 10. Kh1 $1 {
+[%cal Gg2g3] It's a good idea to do something about the opponent's most active
+piece. This way, we prepare to push it out with g2-g3.} Nf6 11. g3 Nh3 12. Nh4
+$14 {[%cal Gf2f3,Gh4g2,Gc1e3,Yc4c5,Yf3f4,Rf7f5] White has the f5-break under
+control. Moreover, he can strengthen his position with normal developing moves
+and gradually prepare his queenside play or the f4-break, depending on the
+circumstances. Let's consider a sample line that illustrates these ideas.} Ng4
+$5 13. Qe2 Bh6 14. f3 Bxc1 15. Raxc1 Nh6 16. Qd2 (16. c5 $5 $14 {[%cal Gb2b4]})
+16... Ng5 17. Ng2 f5 18. f4 $1 exf4 19. Nxf4 fxe4 20. Nxe4 $14 {[%csl Ge6,Rg8,
+Rh6]} *
+
+[Event "?"]
+[Site "?"]
+[Date "2023.01.16"]
+[Round "?"]
+[White "Chapter 5: 6...e5"]
+[Black "Main line 7...a5"]
+[Result "*"]
+[ECO "E90"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "33"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Bd3 e5 7. d5 a5 8. O-O {
+I believe that this is the most promising approach for White.} ({For some
+reason, top players tend to prefer preparing a kingside attack with} 8. h3 {
+[%cal Gg2g4] although after} Nh5 9. g3 Na6 10. Be3 {1-0 (55) Nakamura, H (2795)
+-Amin, B (2567) Almaty 2022} Qe7 $1 $132 {[%cal Gf7f5] the arising middlegame
+is all but clear.}) 8... Nbd7 {I believe that most people would automatically
+go for the Nbd7/a6-c5 manoeuvre here,} ({but let's also consider a few
+alternatives:} 8... Na6 9. a3 Bd7 10. Bc2 $1 {[%cal Ra5a4,Yc2a4] preventing 10.
+..Nc5, 11...a4, while also keeping an option of trading the bishops via a4 in
+certain cases.} c6 $5 {In this case, we can get a favourable transformation
+with} 11. dxc6 {[%csl Rd6]} Bxc6 12. b3 Nc7 {[%cal Gb7b5]} 13. a4 $14 {[%csl
+Gc4,Rd6,Ge4][%cal Rb7b5,Rd6d5] White is better thanks to his strong central
+bind. Let's examine a few possibilities to get a better feel for this
+structure:} Na6 14. Ba3 Nc5 (14... Nb4 15. Qe2 Qb6 16. Rad1 Rfd8 17. Bb1 $14 {
+[%cal Ga3c1]}) 15. Qe2 b6 16. Rad1 Qe7 17. Rfe1 $14 {with a gradual build-up.})
+(8... Ne8 {[%cal Gf7f5] is another way to prepare the f5-break.} 9. Bc2 Na6 ({
+In the case of a slightly premature} 9... f5 {White immediately shows the
+potential of the bishop on the b1-h7 diagonal with a resolute continuation} 10.
+exf5 gxf5 11. Ng5 $1 {[%csl Gc2,Rf5][%cal Gg5e6]} Qe7 12. g4 $1 $36 {[%csl Gc2,
+Rf5,Rh7]}) 10. a3 f5 {This is a better moment to play it. As a matter of
+principle, we should open the centre because our pieces are well-positioned
+for it.} 11. exf5 gxf5 {[%csl Yc1,Yc2,Yc3,Yf3] In this position, nothing
+really stops us from continuing with a standard plan of the queenside
+expansion:} 12. b4 {[%csl Ra6,Ye5,Yf5][%cal Ga1b1,Rf5f4,Re5e4] The issue with
+the e5-f5 pawn duo is that they are the strongest in their current formation.
+However, as soon as one pawn moves forward, a huge weakness arises on the
+neighbouring squares. For example,} Qf6 ({or} 12... e4 $6 13. Nd4 Qf6 14. Nce2
+$16 {[%csl Yd4,Yf4]}) 13. Ne2 f4 14. Rb1 $14 {[%csl Ra6,Ra8,Ye4,Re8][%cal
+Ge2c3,Gc3e4,Yc4c5] A complex middlegame lies ahead. White's superior piece
+coordination gives him better chances.}) 9. Bc2 Nc5 10. a3 (10. Rb1 $5 {
+might be a more accurate move order as it avoids complications in the 10...a4
+line (see below) , while keeping good chances to eventually transpose into the
+main line after a subsequent a3, b3, etc. Ultimately, it's probably not a big
+issue, but it's good to be aware of it.}) 10... Bd7 (10... a4 $5 {is an
+interesting attempt to complicate matters early.} 11. Be3 Bd7 (11... Nfd7 {
+is a different pawn sacrifice. Black gives away a pawn on the queenside to
+launch a quick kingside attack.} 12. Nxa4 Nxa4 13. Bxa4 f5 14. Bg5 $1 Qe8 15.
+Bc1 $5 {[%cal Yf3d2]} Qe7 16. Bc2 $14 {[%cal Gf3d2,Gb2b4,Yf5f4,Yg6g5,Ga3a4]
+Black will surely have some compensation due to the kingside attack prospects.
+White's extra pawn is not on schedule to make an impact soon, so our advantage
+is not large here.}) 12. Bxc5 dxc5 13. Re1 $1 {[%cal Gc2a4,Gf3e5]} (13. Nxe5 $2
+{allows} Nxe4) {Black has only one way to defend both pawns,} 13... Qe8 {
+[%cal Ye8e5,Yd7a4] Nevertheless, we get the upper hand with} 14. d6 $1 cxd6 15.
+Qxd6 {[%csl Rc5,Re5][%cal Gd6c5,Gd6e5] Black loses one of the pawns by force.
+Even so, after} Nh5 $14 {[%cal Yh5f4,Yf4e6,Yg7f8,Gf8f7,Gf7f6] he will obtain
+some compensation on the dark squares since we don't have a dark-squared
+bishop.}) 11. b3 {[%cal Ga1b1,Gb3b4] This is an improvement} ({over the
+previously played} 11. Be3 Ng4 12. Bxc5 dxc5 13. Ba4 {½-½ (50) Paravyan, D 
+(2629) -Murzin, V (2502) Cheboksary 2021 when Black could simply decline the
+trade with} Bc8 $5 $13 {[%cal Gf7f5,Yg4h6]}) 11... Nh5 {The most natural
+continuation.} ({White does well after both} 11... c6 12. dxc6 Bxc6 13. Re1 $14
+{[%csl Rd6][%cal Rb7b5,Rd6d5]}) ({and} 11... Ne8 12. Rb1 f5 13. exf5 gxf5 14.
+b4 axb4 15. axb4 {[%csl Gc2,Rc5][%cal Rc5a4,Rc5e4]} e4 16. Bg5 $1 {The crucial
+intermezzo.} Qc8 17. Nd4 Nd3 18. Nce2 $16 {[%csl Rd3,Yd4]}) 12. Rb1 {[%csl Gc2]
+[%cal Gb3b4] White is ready for the queenside break. We can see how
+well-placed the bishop is on c2, as it simultaneously controls key squares
+like b3, a4, and e4.} Qe8 {[%cal Gc5a4,Yb3b4] Black delays b3-b4 for a moment
+with this typical queen move. However, it has some downsides, as well.} ({
+In the case of the straigthforward} 12... f5 {we continue} 13. exf5 gxf5 14. b4
+axb4 15. axb4 {[%csl Rc5]} Na6 16. Bd2 $16 {[%csl Ra6,Gc2,Rf5,Rh5][%cal Gf3e5,
+Yf3g5,Yf3h4,Yg2g3] with a very pleasant middlegame. Black is doing well only
+optically. In reality, it's difficult for him to achieve active counterplay
+due to the multiple weaknesses incurred, ironically, by the f5-break. For
+instance:} Qe8 (16... Nf6 17. g3 Kh8 18. Nh4 {[%csl Rf5]}) 17. Nh4 e4 18. g4 $1
+{[%csl Re4,Rf5]} fxg4 19. Nxe4) 13. Re1 {[%cal Gf7f5,Ye1e8] A useful prelude
+to our queenside play. The queen will not feel comfortable on e8 while being
+x-rayed by the white rook.} f5 14. exf5 gxf5 15. Nb5 $1 {[%csl Rc7,Re8] This
+knight sortie highlights another typical downside of queen's position on e8:
+weakening of the c7-pawn.} ({White can also get an edge with a more
+straightforward} 15. b4 axb4 16. axb4 Na4 17. Nxa4 Bxa4 18. Ng5 {[%csl Ge6]}
+Bxc2 19. Qxc2 Qg6 20. Ne6 Rf7 21. Rb3 $14 {[%csl Ge6][%cal Gb3h3]}) 15... Bxb5
+{The trade on b5 comes with a big price - Black will bleed on the light
+squares.} ({In the event of} 15... Rc8 {we can utilize the e-file pin by
+playing} 16. Nbd4 $1 {[%csl Re8][%cal Gf3g5,Gb3b4] and if} Ne4 {we have} 17.
+Nxf5 $1 $16 {[%csl Re4]}) 16. cxb5 $14 {[%csl Gc2][%cal Gb3b4] A perfect
+example of Black's trouble with the light squares is the following line:} Qxb5
+17. Nh4 $18 {[%csl Gc2,Rf5,Rh5] In conclusion, many lines examined here show
+how effective the light-squared bishop is on the b1-h7 diagonal once the
+centre opens up. This is one of the key strategic ideas behind the
+Neo-Seirawan system.} *
+
+[Event "?"]
+[Site "?"]
+[Date "2023.02.15"]
+[Round "?"]
+[White "Chapter 6: 6...c5"]
+[Black "7th and 8th move sidelines"]
+[Result "*"]
+[ECO "E90"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "35"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Bd3 c5 {This move is not
+too popular against the Neo-Seirawan variation. Nevertheless, there will
+always be KID players who like to play the Benoni structure, so we have to be
+ready for it.} 7. d5 e6 {The most common reply, and the one that can lead into
+a well-known (delayed) Benoni tabiya, examined in the following two chapters.}
+({Let's examine the alternatives. Firstly,} 7... Bg4 {is quite logical. Black
+exchanges his light-squared bishop before White can prevent it with h2-h3. In
+response, we can simply transpose into a corresponding position from Chapter 1
+by playing 8.Be2. Alternatively, we could also play} 8. h3 ({for} 8. Be2 $5 {
+see Chapter 1: 6.Bd3 Bg4 7.Be2 c5 8.d5.}) 8... Bxf3 9. Qxf3 e6 10. O-O exd5 11.
+exd5 {A similar position has been examined in the first chapter, so I'd like
+to refer you there for the strategic analysis of this type of position. In
+this instance, Black is likely to try to bring the knight to e5, with either}
+Nbd7 ({or} 11... Nfd7 {[%csl Rb8][%cal Gf7f5] This way, he also prepares to
+push ...f5. Regardless, White's plan remains the same: retreat his pieces
+first, then launch the f-pawn.} 12. Qd1 {[%cal Gd3e2,Gf2f4,Yg2g3,Yg1g2,Yc1d2]}
+Ne5 13. Be2 f5 14. f4 Nf7 15. Bd2 Nd7 16. Bd3 Re8 17. Qf3 a6 18. Rae1 $16 {
+[%cal Gg2g4] ½-½ (51) Cvitan,O (2550) -Barbero,G (2480) Zuerich 1992. Both
+sides have achieved their objectives, but White has the upper hand thanks to
+the space advantage and the potential for a kingside initiative with g2-g4.})
+12. Qd1 Nh5 {[%cal Yg7d4,Yd8h4,Yd7e5] This move is in sync with Black's
+strategy to generate play on the dark squares.} ({A move like} 12... Re8 {
+looks a little passive. The following game is another good example of White
+achieving his ideal setup in this structure.} 13. Bg5 $5 h6 14. Bd2 {[%csl Rg6,
+Rh6]} a6 15. Qc2 Nh5 16. g4 $1 Nhf6 17. Kg2 {[%csl Gg2][%cal Yf2f4,Ya1e1]} Qc7
+18. b3 Re7 19. f4 Rae8 20. Rae1 $16 {Black lacked space and was eventually
+ground down in 1-0 (69) Peralta, F (2541) -Grigore, G (2507) Castellar 2004})
+13. Ne4 $1 {[%csl Rd6,Ge4][%cal Yc1g5] Not the only good move in the position,
+but I like it because it highlights the downsides of Black's previous move and
+his position, in general.} Be5 (13... Qe7 14. Bg5 $1 f6 15. Bd2 $14 {[%csl Re6]
+[%cal Gf6f5,Ye4g5]}) 14. f4 f5 {A direct reply, typical for Morozevich's
+dynamic style.} (14... Bd4+ {is safer than the game continuation, but White is
+better, anyway, after} 15. Kh2 $14 {[%cal Gd1f3,Gg2g4]}) 15. fxe5 fxe4 16.
+Rxf8+ Qxf8 17. e6 exd3 18. exd7 $16 {[%csl Yc1,Rd6,Rg8,Rh5] 1-0 (35) Topalov,
+V (2784) -Morozevich, A (2731) Bilbao 2014}) (7... e5 {is a pretty simplistic
+''Czech Benoni'' approach that can hardly be recommended here. White has a
+clear plan to seize the initiative on the kingside with h3-g4, etc. The
+following game of GM Erdos is an excellent example:} 8. h3 {[%cal Rg2g4]} Nh5 {
+[%cal Yh5f4,Rg2g4]} (8... Ne8 {doesn't even stop} 9. g4 $16 {and if} f5 10.
+gxf5 gxf5 11. exf5 Bxf5 12. Bxf5 Rxf5 13. Ne4 $18 {[%csl Rd6,Ge4,Rg7][%cal
+Gh1g1] the black position is close to strategically losing.}) 9. g3 Na6 ({
+Black's main problem is that} 9... f5 10. exf5 gxf5 {runs into} 11. g4 $1 $16 {
+[%csl Gd3,Rh7][%cal Gh1h7,Gf3g5]}) 10. Be2 Nc7 11. Nh2 $1 {[%csl Rh5][%cal
+Yf1e3,Yf1g3,Gh2f1] A knight maneuver worth remembering.} a6 $5 {Black is ready
+to sacrifice a pawn for positional compensation (light squares) , but White
+doesn't take the bait.} 12. a4 Rb8 13. a5 b5 14. axb6 Rxb6 15. Nf1 $1 $16 {
+[%csl Rh5][%cal Gf1e3,Ge2h5] Only now it Bxh5 a genuine threat because of
+Ne3-f5, so Black cannot keep sacrificing the pawn anymore.} Nf6 16. h4 Bd7 17.
+h5 Qe7 18. Ne3 $16 {White was fully in control in 1-0 (43) Erdos, V (2609)
+-Kende, G (2246) Zalakaros 2011}) ({Finally,} 7... Na6 {is likely to transpose
+after} 8. O-O Nc7 9. h3 e6 10. Re1 {- 7...e6 8.h3 Na6}) 8. h3 {The most
+principled continuation, ruling out ...Bg4. It leads to well-researched
+variations that we will examine below.} ({However, if you'd like to avoid deep
+theory, you might prefer to transpose into the more strategic positions that
+we already discussed in the previous and the first chapter.} 8. O-O exd5 9.
+exd5 Bg4 10. h3 {[%emt 0:00:05] - Chapter} (10. Be2 {[%emt 0:00:01] - Chapter})
+) {Black have two main directions here. The first one is to continue
+developing and keep White guessing about his intentions:} 8... Na6 ({The
+second one is} 8... exd5 {which we will cover in the following chapters.}) 9.
+O-O Nc7 10. Re1 {Black can decide to play ...exd5 or ...e5 at any moment, so
+our goal is to keep making useful developing moves. As a side with more space,
+we should have more such moves than our opponent, so Black will eventually
+have to make a decision.} Rb8 {[%cal Ge6d5,Gb7b5] Black is getting ready for
+the b5-break.} (10... a6 {doesn't fit so well with Black's plan because he
+usually wants to leave this square for his knight if White plays a2-a4.} 11. a4
+{[%cal Rc7a6]} b6 12. Bg5 $5 {We can play the same way as in the main line.} h6
+13. Be3 exd5 14. cxd5 $16 {[%cal Gd1d2]}) 11. Bg5 {This annoying pin will
+provoke Black to play and weaken his kingside structure with ...h6.} ({
+Alternatively, we could also prevent ...b7-b5 by playing} 11. a4 $5 {In
+response, Black usually block the center with} e5 {[%cal Rb2b4] because White
+will find it difficult to play for the b4-break when his pawn is already on a4.
+Nevertheless, White keeps the upper hand in the following way:} 12. Bg5 $1 Na6
+(12... h6 13. Bd2 {[%csl Rg6,Rh6]}) 13. Qd2 Nb4 14. Bb1 $1 {[%csl Gb1][%cal
+Ga1a3,Rf7f5] We keep the bishop on the important diagonal. The rook can be
+developed via a3.} b6 15. Nh2 a6 16. Ra3 $1 $16 {[%cal Ya3g3,Gg2g4,Gf2f4] As
+we can see, White doesn't need to play on the queenside; his chances lie on
+the kingside.}) 11... h6 12. Be3 exd5 (12... e5 {is even less principled here
+since White can play on both flanks.} 13. Qd2 Kh7 14. a3 $16 {[%cal Gb2b4,
+Gf2f4]}) 13. cxd5 $1 {In the main line, we recapture with the e-pawn, but it's
+important to remember that here we do it with the c-pawn, entering the
+classical Benoni structure. We don't mind it if Black plays} b5 {because his
+queenside play fades in comparison to our central/kingside initiative, as we
+can see from the game continuation:} 14. Qd2 $16 {[%csl Rh6]} b4 (14... c4 $6
+15. Bc2 {[%csl Rc6,Yd4][%cal Gf3d4,Gd4c6] and} b4 {are empty threats.} 16. Ne2
+{[%csl Ra7,Rc4][%cal Ge2d4,Ge2g3,Ga1c1] and Black will have to reckon with a
+serious weakness on c6, among other things.}) 15. Ne2 Kh7 16. Ng3 Nd7 17. h4 $1
+{[%csl Rg6,Rh6,Rh7][%cal Gh4h5]} Ne8 18. h5 $40 {1-0 (39) Grigore,G (2472)
+-Piat,J (2176) Creon 2006} *
+
+[Event "?"]
+[Site "?"]
+[Date "2023.02.15"]
+[Round "?"]
+[White "Chapter 7: 6...c5"]
+[Black "9th and 10th move sidelines"]
+[Result "*"]
+[ECO "E90"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "31"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Bd3 c5 7. d5 e6 8. h3 exd5
+9. exd5 {This recapture is more promising than the alternative.} (9. cxd5 {
+isn't wrong in principle, but in concrete terms,} b5 $1 {promises a
+well-prepared black player theoretical equality.}) 9... Re8+ ({The
+alternatives fail to impress.} 9... Qe7+ 10. Be3 Bh6 11. O-O Bxe3 12. Qe2 $1 {
+[%csl Re7] This pin is the crucial difference compared to 9...Re8+ line. White
+is always happy to sacrifice the f2-pawn to open the f-file for attack.} Nbd7 (
+12... Bxf2+ $6 13. Qxf2 $40 {[%csl Rf6,Rf7,Rg8][%cal Ga1e1,Yf2h4]}) 13. Rae1 a6
+14. Qc2 $1 {[%csl Ye1][%cal Ge1e3]} b5 15. Rxe3 Qd8 {½-½ (46) Neiksans,A 
+(2553) -Gdanski,J (2460) Sweden 2018. At the end of this logical sequence, I'd
+like to suggest an equally logical improvement for White.} 16. Rfe1 {[%cal
+Ye1e8]} bxc4 17. Bxc4 Nb6 18. b3 $16 {[%csl Gc4,Rd6][%cal Gb3c4,Ye1e8] It may
+not seem obvious at the moment, but the d6-pawn is a big liability for Black
+in the long run.}) (9... Nfd7 $6 10. O-O Ne5 11. Nxe5 Bxe5 12. Bh6 Re8 13. Qd2
+Nd7 14. Rae1 $40 {[%cal Gf2f4] 1-0 (31) Sokolov, I (2621) -El Taher, F (2535)
+Sharjah 2014}) 10. Be3 {This is an important tabiya in the Benoni, which often
+arises from alternative move orders. While Black has tried to neutralize
+White's space advantage in many ways, the two with the best reputation are 10..
+.Bh6 (covered in Chapter 8) and} Rxe3+ $5 (10... Nbd7 {[%cal Gd7e5] is a
+simple continuation, but not without a strategic point. Black would like to
+reduce his space disadvantage by trading a pair of knights on e5.} 11. O-O a6 {
+Black tries to provoke 12.a4, but we don't have to oblige.} ({In case of the
+immediate} 11... Ne5 12. Nxe5 Rxe5 {we can keep centralizing with} 13. Bf4 Re8
+14. Qd2 a6 15. Rae1 $16 {[%csl Rd6][%cal Rc8d7] so that Black is not in time
+to complete his development.}) 12. Qd2 $1 {[%cal Yd2g5] It's crucial to ensure
+control over the c1-h6 diagonal.} (12. a4 {would probably be a waste of time
+in the view of} Ne5 13. Nxe5 Rxe5 14. Bf4 Re8 15. Qd2 (15. Bg5 h6) 15... Nh5 $1
+16. Bg5 f6 17. Be3 f5 18. Bg5 Qc7 {[%cal Gc8d7]}) 12... b5 {The principled
+continuation. But we are ready to accept the gambit.} (12... Ne5 $6 13. Nxe5
+Rxe5 {is already quite suspicious because of} 14. Bg5 $1 {[%cal Gf2f4,Gf4f5]}
+Qf8 15. f4 Re8 16. f5 $40 {1-0 (25) Zimmermann, R (2172) -Tortolero Hernandez,
+C (1937) Caleta 2015}) 13. cxb5 Nb6 14. bxa6 Bxa6 15. Bxa6 Rxa6 {[%cal Gb6c4]}
+16. b3 {[%csl Rd5,Rd6] We have a typical Benko-gambit middlegame. Black is
+hoping to drum up counterplay against the d- and a-pawns. However, in this
+particular position, his compensation falls short because White is fully
+mobilized.} Qa8 17. Rad1 Ne4 18. Nxe4 Rxe4 19. Qd3 Rb4 20. Bd2 $16 {½-½ (57)
+Wang, J (2463) -Wang, T (2368) Charlotte 2021}) ({Finally, it's worth
+mentioning the somewhat odd but playable idea} 10... Bf5 11. Bxf5 gxf5 {
+[%csl Rf5,Rf7][%cal Gf6e4] Strategically, this looks awful for Black. However,
+his idea to use the doubled f-pawn to secure control over the important
+e4-outpost is not without merit from a dynamic point of view.} 12. O-O Ne4 13.
+Nxe4 {I believe it's a good idea to take the opponent head on if we can earn
+something in return.} ({There is also nothing wrong with the ''evasive''} 13.
+Ne2 $5 {but we should be prepared for a manoeuvring battle after, say,} Nd7 14.
+Qc2 Qf6 15. b3 $16 {[%csl Ge4,Gf5,Yf6][%cal Ye2f4,Ya1e1,Yf4h5]}) 13... fxe4 14.
+Nd2 {[%csl Re4][%cal Gd1g4] This way, we can check directly whether the whole
+idea behind 10...Bf5 works in concrete terms.} Nd7 15. Qg4 Nf6 16. Qh4 Nd7 17.
+Qg3 Qf6 (17... f5 18. f3 $1 $16 {[%csl Re4,Rf5] Black has weakened his
+kingside quite seriously, and this is the only way to exploit it.}) 18. Qg4 Ne5
+19. Qxe4 $16 {Even a strong tactician like Shirov didn't manage to prove
+compensation for the pawn in the game 1-0 (47) Huebner, R (2585) -Shirov, A 
+(2580) Manila 1990. So, the whole line looks a bit suspicious for Black, after
+all.}) ({Please refer to the next chapter to study the main line} 10... Bh6 11.
+O-O Bxe3 12. fxe3) 11. fxe3 Qe7 {In both cases (here and after 10...Bh6, 11...
+Bxe3) , Black forces White to compromise his pawn structure, although in this
+instance, he pays the price in material. His reasoning is that White will find
+it difficult to break the blockade on the dark squares, primarily the
+e5-square. While this is largely true (at least in the short run) , White has
+different ways to make his extra exchange count, as we will see.} 12. O-O {
+As in the main line, we are more than happy to give away the e3-pawn to open
+the e-file.} Nbd7 13. Qe1 $5 {[%cal Ye1h4] This rare move makes a lot of sense
+as the queen can participate more actively on the dark squares.} ({In the main
+line} 13. Qd2 {[%cal Gf1f2,Ga1f1] white goes for a typical rook-doubling on
+the f-file. However, this also allows his opponent to play more aggressively
+on the dark squares, for example} Nh5 {[%csl Rg3][%cal Yd7e5]} 14. g4 Ng3 15.
+Rf2 h5 $1 16. Kg2 h4 17. Ne2 b5 $1 $132 {[%csl Rc4,Rd5,Rg2][%cal Gc8b7] 0-1 
+(46) Cheng, B (2476) -Rapport, R (2654) Almaty 2022. Regardless of my engine's
+reassurances that all is fine and dandy with the white position, I wouldn't
+like to play like this if I don't have to.}) 13... Ne5 {[%cal Gc8d7,Ga8f8]} (
+13... Nh5 {is not nearly as problematic now that the g3-square is under
+control. We can simply continue} 14. g4 Ne5 $5 15. Rd1 $1 {There's no need to
+allow complications.} Nf6 16. Qh4 Bd7 17. Nxe5 Qxe5 18. Rf3 $16 {[%csl Rf6,Rf7]
+[%cal Gd1f1] White is fully in the driver's seat since Black won't be in time
+to put the other knight on e5. For example,} Be8 19. g5 Nd7 20. Ne4 $1 $40 {
+[%cal Ge4f6]}) (13... b6 {[%cal Yc8b7] is the alternative way to complete
+queenside development. However, it has a downside we can exploit.} 14. Kh1 Bb7
+15. a4 $1 {[%csl Rb6][%cal Ga4a5,Ya1a8] Looking to open the a-file for the
+rook or provoke other weaknesses.} a5 {[%csl Rb5,Rd6][%cal Gc3b5]} (15... Re8
+16. a5 bxa5 17. Rxa5 a6 18. Ra3 $14) 16. Qh4 Ba6 (16... Re8 17. Nb5) 17. g4 $5
+{[%csl Rf7][%cal Gg4g5] This is our standard plan in this line. White has an
+active position, with good chances to outplay his opponent. For example,} Qxe3
+18. Rad1 h5 19. g5 Nh7 20. Qe1 $1 Qxe1 21. Rdxe1 $14 {[%csl Rb6,Rd6,Rf7][%cal
+Ge1e7] Black will not have a lot of fun in the endgame.}) 14. Nxe5 Qxe5 15. Rd1
+$1 {A subtle move. The prophylactic idea behind it can be seen by comparing
+the lines 15.Rf3 and 15...Qe7 below.} (15. Rf3 Qe7 $1 {[%csl Ye5][%cal Gf6d7,
+Gd7e5]} 16. Qh4 Nxd5 17. Qxe7 Nxe7 $14) 15... Bd7 (15... Qe7 {[%csl Ye5][%cal
+Gf6d7,Gd7e5]} 16. Qh4 $1 {[%cal Rf6d7] and now} Nxd5 {doesn't work because of}
+17. Qxe7 Nxe7 18. Nb5 {[%csl Rd6]} Be5 19. Be4 $18 {[%csl Gd1,Rd6] which is
+why we put the rook on d1 in the first place.}) 16. Rf3 $14 {[%csl Rf6,Rf7]
+[%cal Ge1h4,Gg2g4,Gd1f1,Yg4g5,Yc3e4] ½-½ (61) Cuenca Jimenez,J (2555) -Silva
+Lucena,C (2234) Linares 2022. White has a simple plan of improving his
+position with moves like Qh4, g2-g4, Rdf1, etc.} *
+
+[Event "?"]
+[Site "?"]
+[Date "2023.02.15"]
+[Round "?"]
+[White "Chapter 8: 6....c5"]
+[Black "Main line 10...Bh6"]
+[Result "*"]
+[ECO "E90"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "57"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Bd3 c5 7. d5 e6 8. h3 exd5
+9. exd5 Re8+ 10. Be3 Bh6 11. O-O Bxe3 12. fxe3 {[%csl Rf6,Rg8][%cal Re1e8,
+Yf1f7] Knowing how important the e-file is in this rather static Benoni
+structure, we can understand Black's decision to force this structural change.
+On the flip side, his king is weakened by the absence of the dark
+squared-bishop, and White immediately obtains active play on the f-file.} Qe7 {
+[%csl Ye5][%cal Yb8d7,Yd7e5] This is Black's most common continuation. His
+plan is to exchange a pair of knights on e5 and recapture with the queen.} (
+12... Rxe3 $2 {is not advisable in the view of} 13. Qd2 $40 {[%csl Rf7,Rg8]
+[%cal Yd2h6]} Qe7 14. Nd1 $1 {[%csl Re3]} Rxf3 15. Rxf3 $16) (12... Nbd7 13. e4
+{[%cal Gd1d2,Gd2h6]} Rf8 $5 {[%csl Yf7][%cal Gf6e8,Gd7e5,Ye8d6] is another
+sensible idea for Black. With this move, he simultaneously clears the e8-d6
+path for the knight (after Ne5 Nxe5, dxe5) and overprotects the vulnerable
+f7-pawn.} (13... a6 {[%cal Rc3b5] prevents Nc3-b5 in some lines, but it also
+wastes precious time.} 14. Qd2 Kg7 15. Rf2 $40 {[%csl Rf6,Rf7][%cal Ga1f1]})
+14. Qd2 Ne8 15. Rf2 Ne5 (15... Qe7 {[%cal Yd7e5,Ye7e5] seems a little out of
+place in this particular move order.} 16. Raf1 Ne5 17. Nxe5 Qxe5 18. Kh1 $1 {
+[%cal Yc3e2,Ye2g1,Yg1f3] Queens are known to be poor blockers, and White will
+have an easy time removing the black queen from e5 (with Ne2-g1-f3) . Black
+would really like to get his knight on e5, but there is no route for it to get
+there.} Bd7 19. Ne2 Ng7 {[%cal Gg7h5] 1-0 (47) Bluebaum, M (2619) -Petrov, M 
+(2449) Chess.com INT 2019} 20. g4 $36 {[%csl Rd6,Rf7,Rg7][%cal Ge2g1,Gg1f3]
+Black keeps struggling with a lack of space for his pieces.}) 16. Nxe5 dxe5 17.
+Raf1 $14 {[%cal Ye8d6,Yf7f6,Yg8g7] White is better due to the pressure on the
+kingside. However, as far as the blockades in this variations go, this one
+looks quite solid for Black. White will need to show some skill to make
+something out of his slight advantage. Let's see a sample line:} Kg7 18. Qe3 b6
+19. Be2 f6 20. Qg3 Nd6 21. h4 $1 $36 {[%cal Gh4h5,Ye2g4,Yb2b3]}) 13. e4 Nbd7 ({
+Once again, Black can rule out the Nb5-sortie with} 13... a6 {but his lag in
+development gives strength to the thematic pawn sacrifice} 14. e5 $1 dxe5 15.
+Qd2 $40 {[%cal Ga1e1,Gf3g5,Yd2h6]}) {We have reached the critical position of
+this variation. White needs to decide how to proceed in the light of Black's
+intention to strengthen his blockade by trading the knights via e5. I believe
+it's a good idea to throw the spanner in the works with a quick e4-e5 pawn
+sacrifice. We can do this in one of two ways.} 14. Nb5 $5 {[%csl Rd6][%cal
+Gb5c7] This way, we win a tempo thanks to the unfortunate geometry of the
+black rooks.} (14. e5 $5 {is obviously the other way to do it.} Nxe5 (14...
+dxe5 15. Qd2 $36 {[%cal Ga1e1,Re5e4]}) 15. Nxe5 dxe5 ({After} 15... Qxe5 16.
+Qf3 $36 {[%csl Rf6,Rf7][%cal Gf1f2,Ga1f1] Black felt like he had to return the
+pawn with} Bf5 17. Bxf5 gxf5 18. Qxf5 Qxf5 19. Rxf5 Ne4 20. Nxe4 Rxe4 21. Raf1
+Rf8 22. b3 $16 {0-1 (31) Salem,A (2690) -Sindarov,J (2609) Sharjah 2022}) 16.
+Qf3 Kg7 17. Bc2 $5 $44 {[%cal Gd5d6,Yc2a4,Yf1f2,Ya1d1,Yd1e1] Black has many
+decent possibilities, but White's initiative is undeniable.}) (14. Qd2 {
+is the most common continuation, thoroughly tested in tournament practice and
+correspondence chess. The final verdict is that after} Ne5 15. Nxe5 Qxe5 16.
+Qf4 Kg7 17. Nb5 Rd8 {Black has good chances to hold the endgame, even being
+down a pawn.}) 14... Rf8 (14... Ne5 {doesn't work now because of} 15. Nxe5 dxe5
+16. d6 $18 {[%csl Ra8,Re8][%cal Gb5c7]}) 15. e5 $1 {This thematic pawn
+sacrifice allows White to open the files and diagonals for his more active
+pieces.} Nxe5 (15... dxe5 16. d6 Qd8 17. Bc2 $16 {[%csl Rc8,Rd7][%cal Gb5c7]
+looked like no fun for Black in 1-0 (54) Goryachkina, A (2478) -Majdan, J 
+(2378) Reykjavik 2015}) 16. Nxe5 dxe5 (16... Qxe5 17. Qf3 {[%csl Gb5,Rd6][%cal
+Ga1e1] is an even better version of Salem-Sindarov.}) 17. d6 Qd8 18. Qe2 {
+Black is under serious pressure here. The best move is the unattractive} Ne8 {
+All black pieces are on the eight rank, but he is hoping to win the d6-pawn.} (
+18... e4 {probably only compounds Black's issues after} 19. Bc2 $16 {[%csl Yd6]
+[%cal Ga1d1,Ye2e3]}) {We have two good continuations:} 19. Rad1 $5 {giving
+support to the d-pawn,} ({and a more pragmatic} 19. Qxe5 {This move is based
+on a strong tactical reply to the most obvious} a6 ({Black could also go for} 
+19... Be6 20. Qxc5 Rc8 {but White preserves a slight edge with} 21. Qf2 $1 {
+[%cal Gb5a7]} a6 22. Nd4 Qxd6 23. Nxe6 $14 {[%csl Gd3][%cal Gb2b4,Gc4c5]
+thanks to his queenside majority and a better minor piece, regardless of how
+Black recaptures.}) 20. Nc7 $1 Nxc7 21. dxc7 Qxd3 {The idea behind the piece
+sacrifice is to win a tempo with} 22. Rad1 {[%csl Yc7][%cal Gd1d8] to get our
+rook to the eight rank and threaten pawn promotion or checkmate. After a
+virtually forced line:} Qxc4 23. Rd8 Be6 24. Rfd1 Rc8 25. Qd6 Rfxd8 26. cxd8=R+
+Rxd8 27. Qxd8+ Kg7 28. a3 $14 {[%csl Ge6,Rg1,Rg7][%cal Gh7h5] we get an
+endgame in which Black probably has reasonable drawing chances due to the
+simplified material and somewhat exposed white king. Nevertheless, it's a
+two-result endgame, where White can press with no risk, so we don't mind it.})
+19... Be6 $1 {This is the best move, although not an obvious one.} ({Kicking
+out the knight with} 19... a6 {is more straightforward. However, after} 20. Nc3
+{it turns out that neither capture on d6 is good for Black. He should play} Be6
+{anyway, but then 19...a6 doesn't seem useful.} (20... Nxd6 {is a poor choice
+because of} 21. Qxe5 {[%csl Rc5,Rd6]} Re8 22. Qxc5 $18 {[%csl Ra8,Rc8,Rd6,Rd8]}
+) ({while} 20... Qxd6 {runs into} 21. Bf5 $1 {[%cal Gc3d5]} Qb8 22. Bxc8 Qxc8
+23. Qxe5 $40 {[%csl Re8,Rg8][%cal Gc3d5]}) 21. Rf2 Nxd6 (21... f6 22. Bc2 $16 {
+[%csl Yd6][%cal Gc2a4,Gd6d7] leaves Black in a passive position.}) 22. Qxe5 Qc7
+23. Bxg6 Ne8 $1 {This is Black's only chance to alleviate the pressure.
+However, even the queen trade doesn't solve all his problems} 24. Qxc7 Nxc7 25.
+Bd3 $16 {[%csl Rc5,Rh7][%cal Gc3e4]}) 20. b3 Qb6 $1 {[%csl Rd6][%cal Ga8d8]
+Instead of dealing with the knight and d-pawn, Black completes his development
+first.} ({Once more,} 20... a6 {is less accurate on the account of} 21. Nc3 f6
+(21... Nxd6 22. Qxe5 {[%csl Rc5,Rd6]}) (21... Qxd6 22. Bxg6) 22. Be4 $36 {
+[%csl Yd6]}) 21. Bc2 Rd8 22. Qxe5 a6 23. Nc3 Rxd6 {The annoying d-pawn has
+finally been destroyed, but we can win another one back with} 24. Na4 Qc7 25.
+Rxd6 Qxd6 26. Qxd6 Nxd6 27. Nxc5 {[%csl Rb7][%cal Gf1d1] Black will suffer in
+the endgame if he doesn't play} Rc8 28. Nxe6 fxe6 29. Rf6 $14 {[%csl Ga2,Gb3,
+Gc2,Gc4,Rd6] In endgames with pawns on both flanks, the bishop is usually
+better than the knight. Add to this a better pawn structure, and we can
+conclude that, despite the liquidated material, White keeps some winning
+chances in the long run.} *
+
+[Event "?"]
+[Site "?"]
+[Date "2023.02.15"]
+[Round "?"]
+[White "Chapter 9: 4...Nc6"]
+[Black "and 4th move sidelines"]
+[Result "*"]
+[ECO "E90"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "39"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Bd3 Nc6 {[%csl Rd4][%cal
+Gc6d4] is a somewhat rare and provocative reply, but not a bad one, actually.}
+({There aren't too many sensible alternatives for Black apart from those we've
+already covered.} 6... c6 {is perhaps the last typical KID setup worth
+checking.} 7. O-O a6 {[%cal Gb7b5]} (7... Na6 {is probably a more solid try,
+transposing into positions covered in Chapter 4 after} 8. h3 e5 9. d5 ({or} 9.
+Be3 exd4 10. Nxd4 Nc5 11. Qc2 Re8 12. Rfe1 a5 13. Rad1 $14 {[%csl Rd6]}) 9...
+Nc5 10. Bc2 cxd5 11. cxd5 a5 12. Be3 Bd7 13. a4 $14 {[%cal Gf3d2]}) 8. h3 b5 {
+[%csl Gd3,Gh3] This queenside operation can be successful in certain KID lines.
+However, White is just about ideally placed to meet it here.} 9. Re1 {[%csl
+Ge4][%cal Ye4e5]} Nbd7 ({In the event of} 9... bxc4 10. Bxc4 d5 11. Bb3 dxe4
+12. Nxe4 $16 {[%csl Gb3,Rc6,Rc8][%cal Rc8g4] White has a pleasant advantage.})
+10. e5 $36 Ne8 {After seizing space in the centre, we can proceed in several
+ways. There is the aggressive} 11. Be4 ({as well as a more positional} 11. exd6
+exd6 12. Bg5 Nef6 13. b3 $16 {[%csl Gc4,Rc8,Gd4][%cal Gd1d2]}) 11... Bb7 12. e6
+$5 fxe6 13. Ng5 {[%csl Rb7,Re6,Rg8,Rh7]} Nc7 {which is based on the following
+tactic:} 14. Nxh7 $1 Kxh7 15. Qh5+ Kg8 16. Bxg6 Nf6 17. Qh4 $40 {[%csl Gg6,Rg8]
+[%cal Yc1h6,Ye1e3,Ye3g3] with a strong kingside attack.}) 7. d5 {Black would
+like to argue that he doesn't lose a tempo after this move because he can win
+it back with} Nb4 {White doesn't want to part with his light-squared bishop at
+such an early stage, so we'll have to move the bishop.} (7... Nb8 {is much
+less logical. White can complete his development with ease now, obtaining a
+sizeable advantage in all lines:} 8. h3 {[%cal Rc8g4]} e6 (8... c6 9. O-O Na6
+10. Re1 Nc7 11. Bf4 $16 {1-0 (46) Afanasiev, N (2540) -Bilych, O (2288) Chess.
+com INT 2021}) (8... a5 9. O-O Na6 10. Bc2 e5 {Black is down a tempo compared
+to similar positions from Chapter 2.} 11. a3 c6 12. Be3 $16) 9. O-O Re8 10. Bg5
+$5 h6 11. Be3 {[%csl Rh6][%cal Gd1d2]} Nbd7 12. Qd2 $16 {1-0 (57) Dardha,D 
+(2520) -Lorenzo de la Riva,L (2417) Barcelona 2021}) 8. Be2 e6 9. O-O Re8 {
+[%csl Re4][%cal Ge6d5] This was played in the game 0-1 (30) Vrolijk, L (2433)
+-Heimann, A (2574) Karlsruhe 2018. Black delayed exd5 to eliminate the cxd5
+recapture from White's options.} ({The immediate} 9... exd5 {is less accurate
+because White can take back with} 10. cxd5 {[%csl Gd5,Ge4]} a5 {[%cal Yb4a6,
+Ya6c5] This seems to be necessary.} ({Black's issue here is that} 10... Re8 {
+which occurred in 1-0 (40) Irizanin, R (2325) -Todorovic, B (2275) Vrnjacka
+Banja 2007, can be met by} 11. a3 Na6 12. Bxa6 bxa6 13. Qd3 $16 {[%csl Rc6,Rc7]
+[%cal Gf3d4] when Black would not have much to show for the shattered
+queenside.}) 11. a3 Na6 12. Be3 Re8 13. Qc2 $14 {[%csl Rc7,Gd5,Ge4] with a
+typical pleasant edge for White.}) {I believe that the best way to relieve the
+tension and circumvent the potential attack on the e4-pawn is to change the
+structure with} 10. dxe6 $1 Bxe6 {followed by} 11. Nd4 {Now we have something
+similar to the Classical variation. A few black pieces are in weird squares,
+but this is only temporary. As the variations below show, Black can generate
+counterplay against the white centre despite a certain lack of operating space.
+The two main variations in my analysis are} Nc6 ({and} 11... Bd7 {[%csl Re4]}
+12. f3 Nh5 {[%cal Gg7e5,Gd8h4] This is another provocative knight move.
+Black's play in this line is obviously based on purely tactical considerations.
+As I noted earlier, we should always check whether we can take the opponent's
+plan head on. So, let's look at} 13. g4 (13. Be3 {is an apparently more
+restrained option, but it allows Black to complicate matters with} c5 $1 (13...
+f5 {looks tempting but after} 14. Qd2 f4 15. Bf2 Be5 16. Rfd1 {[%cal Gc4c5,
+Ga2a3,Gb2b4] White's queenside play comes quicker than whatever Black tries on
+the kingside. For example,} Ng3 17. c5 $1 $16 {[%csl Rd7]}) 14. Ndb5 Bxb5 15.
+Nxb5 Bxb2 16. Rb1 Bf6 $1 {[%cal Yh5g7,Yg7e6]} (16... Bg7 17. g4) 17. Nxd6 Bd4
+$1 {[%csl Rd6,Re3] Black holds on thanks to tactics.} 18. Bxd4 Qxd6 $132 {
+[%csl Yf4][%cal Yh5f4,Yb4a2,Yb4c6,Yc6d4]}) 13... Nf6 {[%csl Rg4] Was it worth
+spending two tempi to provoke a weakness on the kingside? This question never
+has a simple answer. I believe that, if we manage to consolidate the centre
+and follow it up with Kh1 and Rg1, the g2-g4 advance can only be in our favour.
+} 14. Be3 d5 $5 {[%csl Re3] This breakout tactic is a direct way to ''punish''
+White for weakening his position.} ({Alternatively, Black could play} 14... h5
+15. g5 Nh7 16. f4 $14 {[%cal Ge2f3,Gf1f2,Gd1d2] but this continuation doesn't
+guarantee that he will not get gradually squeezed.}) {After the principled
+reply} 15. a3 dxe4 16. axb4 exf3 17. Rxf3 Nxg4 18. Bf4 {[%csl Yd4,Yf4,Yh2] it
+doesn't look like Black has full compensation for the piece, objectively.}) 12.
+Be3 {Now we are in more familiar territory. This resembles a KID/Maroczy bind
+hybrid with the pawn on c7 instead of e7. White will keep a slight but stable
+advantage if he plays his cards right over the next 3-5 moves. Let's examine a
+logical continuation:} Nxd4 13. Bxd4 a6 {[%cal Gc7c6,Yd6d5,Yb7b5]} 14. Qd2 c6 {
+[%cal Gd6d5,Gb7b5]} 15. a4 {[%cal Rb7b5] This should be a no-brainer, even if
+we weaken some squares on the queenside. Otherwise, Black gets serious
+counterplay with ...b7-b5. Here are some possible continuations:} d5 (15... a5
+{[%csl Yb4,Yc5]} 16. Rad1 Qe7 17. Rfe1 Nd7 18. Bxg7 Kxg7 19. Bd3 $1 {[%cal
+Gd3c2,Gb2b3] As in many positions we've seen in the Neo-Seirawan variation,
+the bishop is placed perfectly on the b1-h7 diagonal.} Nc5 20. Bc2 Rad8 21. b3
+$14 {[%csl Gb3,Rg7][%cal Ge1e3,Ge3g3,Yh2h4,Yf2f4,Yc3e2,Ye2d4]}) (15... Rc8 16.
+Rad1 c5 $5 17. Be3 Ng4 18. Bg5 $14) 16. cxd5 cxd5 17. e5 Nd7 (17... Ne4 {
+is worse because of} 18. Qe3 Bf5 19. f4 {[%csl Rd5,Re4][%cal Ge2f3,Ga1d1] The
+e4-knight is not as secure as one might think.}) 18. f4 f6 {[%csl Re5] This
+pawn break allows Black to simplify matters in the centre and limit White's
+advantage to a minimal one.} 19. exf6 Nxf6 20. Rad1 $14 {[%csl Rd5][%cal Ge2f3,
+Gd4e5]} *
+
+[Event "?"]
+[Site "?"]
+[Date "2023.02.15"]
+[Round "?"]
+[White "Typical central structure 1"]
+[Black "''A hypermodernist's dream''"]
+[Result "*"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "6k1/ppp1pp1p/3p2p1/3P4/2P1P3/8/PP3PPP/6K1 w - - 0 1"]
+[PlyCount "0"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+{[#]}  *
+
+[Event "?"]
+[Site "Osasco"]
+[Date "2022.02.19"]
+[Round "1"]
+[White "El Debs, Felipe de Cresce"]
+[Black "Supi, Luis Paulo"]
+[Result "1/2-1/2"]
+[ECO "E90"]
+[WhiteElo "2553"]
+[BlackElo "2581"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "86"]
+[EventDate "2022.02.19"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "BRA"]
+[EventCategory "7"]
+[SourceTitle "Mega2022 Update 18"]
+[Source "Chessbase"]
+[SourceDate "2022.03.03"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Bd3 Bg4 7. Be2 Nc6 8. d5
+Bxf3 9. Bxf3 {[#]} Na5 10. Be2 Nd7 11. Be3 Nb6 12. Bd4 Bxd4 13. Qxd4 c5 14.
+dxc6 e5 15. Qd2 bxc6 16. b3 Qe7 17. O-O (17. h4 $1 Nb7 18. b4 a5 19. b5 $36)
+17... Rfd8 (17... Nb7 $5 18. b4 a5 19. a3 Nd8 $132) 18. Rfd1 Qf8 19. Qg5 c5 20.
+Nd5 $6 (20. f4 $1 exf4 21. Qxf4 Nc6 22. Rd2 Nd4 23. Rf1 $16) 20... Nc6 21. Nf6+
+Kg7 22. Ng4 Qe7 23. Qh6+ Kh8 24. Rd3 f5 $2 (24... Rf8 $15 {[%cal Gf7f5]}) 25.
+exf5 gxf5 26. Nf6 Qg7 27. Qh4 Nd4 28. Rh3 h6 29. Bf3 $16 Rf8 30. Bxa8 Rxf6 31.
+Bf3 e4 32. Rg3 Qf8 33. Bh5 d5 34. Qf4 Ne6 35. Qe5 Ng7 36. Rxg7 Qxg7 37. cxd5
+Rd6 38. Qe8+ Kh7 39. Rd1 Rxd5 40. Qe6 Rxd1+ 41. Bxd1 Qd7 42. Qxd7+ Nxd7 43. f3
+exf3 1/2-1/2
+
+[Event "?"]
+[Site "Barcelona"]
+[Date "2021.07.28"]
+[Round "1"]
+[White "Dardha, Daniel"]
+[Black "Lorenzo de la Riva, Lazaro"]
+[Result "1-0"]
+[ECO "E90"]
+[WhiteElo "2520"]
+[BlackElo "2417"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "113"]
+[EventDate "2021.07.28"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[SourceTitle "CBM 203 Extra"]
+[Source "ChessBase"]
+[SourceDate "2021.09.30"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. d4 O-O 6. Bd3 Nc6 7. d5 Nb8 8. h3 {
+[#]} e6 9. O-O Re8 10. Bg5 $1 h6 11. Be3 Nbd7 12. Qd2 Kh7 13. Rac1 (13. dxe6 $5
+Rxe6 (13... fxe6 14. e5 $1 Nxe5 15. Nxe5 dxe5 16. Qc2 $18) 14. Nd4 Re8 15. Bc2
+$16) 13... a5 14. Rfe1 e5 15. Bc2 Nh5 16. a3 g5 {[#]} 17. Nh2 $1 Nf4 18. Nf1
+Rg8 19. Ng3 Bf8 20. Nf5 Nf6 21. f3 (21. Kh2 {[%cal Gg2g3]} Bxf5 22. exf5 g4 23.
+g3 $1 Nxh3 24. Kg2 h5 25. Rh1 $16 {[%cal Gf2f3]}) 21... h5 22. Kf2 h4 $14 23.
+Kg1 Bxf5 24. exf5 Be7 25. Ne4 Nxe4 26. Bxe4 Bf6 $6 (26... Kg7) 27. c5 Kg7 28.
+Kh2 Qd7 29. Rc4 Qb5 30. Rec1 $16 Rgd8 31. Qc2 dxc5 32. Rxc5 Qe8 33. Qc4 Rac8
+34. Rxa5 c6 35. dxc6 bxc6 36. Ra6 c5 37. Ra7 Rb8 38. Rc2 Rd1 39. Qxc5 Rbd8 40.
+Rc7 Re1 41. Bf2 Rf1 42. Rc1 Rxc1 43. Qxc1 Nd3 44. Qc2 Nxf2 45. Qxf2 Rd4 46. Qc2
+Qd8 47. Qc5 Rd2 48. Qa7 Qf8 49. b4 g4 50. fxg4 Bg5 51. f6+ Kxf6 52. Rc6+ Rd6
+53. Qc5 Bf4+ 54. Kg1 Rxc6 55. Qxf8 Rc4 56. g5+ Kxg5 57. Qg7+ 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "2023.02.24"]
+[Round "?"]
+[White "Typical central structure 2"]
+[Black "Classical blockade with e5"]
+[Result "*"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "6k1/ppp2p1p/3p2p1/3Pp3/2P1P3/8/PP3PPP/6K1 w - - 0 1"]
+[PlyCount "0"]
+[EventDate "2021.07.28"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+{[#]}  *
+
+[Event "?"]
+[Site "Chess.com INT"]
+[Date "2022.12.18"]
+[Round "4.17"]
+[White "Nakamura, Hikaru"]
+[Black "Carlsen, Magnus"]
+[Result "1-0"]
+[ECO "E90"]
+[WhiteElo "2768"]
+[BlackElo "2859"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "67"]
+[EventDate "2022.11.23"]
+[EventType "k.o. (blitz)"]
+[EventRounds "4"]
+[EventCountry "USA"]
+[SourceTitle "Mega2023 Update 08"]
+[Source "Chessbase"]
+[SourceDate "2022.12.30"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 O-O 5. e4 d6 6. Bd3 Nbd7 7. h3 a5 8. Bg5
+h6 9. Be3 e5 10. d5 Nc5 11. Bc2 {[#]} Nh5 12. g3 Bd7 13. Qd2 Kh7 14. O-O-O a4
+15. Kb1 Qf6 16. Qe2 (16. Nh2 $1 $16 {[%csl Rf6,Rh6][%cal Gh2g4]} Bxh3 17. g4
+Nf4 18. Rdg1 $18 {[%csl Rh3][%cal Gg1g3]}) 16... Qe7 (16... a3 $5 17. b3 Na6
+$132) 17. Nh4 Rfb8 $2 {[#]} 18. Nf5 $1 Qe8 19. Nxg7 Nxg7 20. f4 $1 b5 21. Bxc5
+dxc5 22. d6 $1 cxd6 23. Nd5 (23. Rxd6 Ne6 24. Nd5 $18) 23... Qd8 (23... Nh5 $1
+$132) 24. fxe5 Ne8 25. exd6 bxc4 26. Qxc4 $16 Be6 27. Qxc5 Nxd6 28. e5 Rb5 29.
+Nf6+ Kg7 30. Qxd6 Qxd6 31. Rxd6 Rab8 32. Rxe6 Rxb2+ 33. Kc1 fxe6 34. Rd1 1-0
+
+[Event "?"]
+[Site "Krasnaya Polyana"]
+[Date "2021.07.12"]
+[Round "1.1"]
+[White "Paravyan, David"]
+[Black "Tissir, Mohamed"]
+[Result "1-0"]
+[ECO "E90"]
+[WhiteElo "2625"]
+[BlackElo "2379"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "87"]
+[EventDate "2021.07.12"]
+[EventType "k.o."]
+[EventRounds "8"]
+[EventCountry "RUS"]
+[SourceTitle "CBM 203"]
+[Source "ChessBase"]
+[SourceDate "2021.08.31"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. h3 e5 7. d5 Na6 8. Bd3 Nc5
+9. Bc2 a5 {[#]} 10. Bg5 Bd7 11. O-O h6 (11... Qe8 $132 {[%cal Gf6h5]}) 12. Be3
+Nh5 13. Qd2 g5 14. Nh2 Nf4 15. Ne2 $1 {[%cal Ge2g3]} b6 16. Ng3 Qf6 17. Ng4 (
+17. Bd1 $1 $16 {[%csl Gf5][%cal Gd1g4,Rh6h5]}) 17... Qg6 18. Nf5 Rfe8 19. f3 h5
+20. Nf2 h4 21. Ng4 f6 22. Bf2 Bxf5 23. exf5 Qf7 24. Rfe1 Qd7 25. Be3 Kf7 26. b3
+$16 {[%cal Ga2a3,Gb3b4]} Rh8 27. Rad1 Rhb8 28. Kh2 Rh8 29. Qc3 Nh5 30. Bf2 Rhe8
+31. a3 Nf4 32. b4 Nb7 33. Rd2 axb4 34. axb4 Ra2 {[#]} 35. c5 $18 bxc5 36. bxc5
+dxc5 37. Qc4 Rxc2 38. Qxc2 Nd6 39. Qxc5 Re7 40. Qc6 Qxf5 41. Ne3 Qd7 42. Rc1
+Qxc6 43. dxc6 e4 44. Rxd6 1-0
+
+[Event "?"]
+[Site "Cheboksary"]
+[Date "2021.06.28"]
+[Round "3"]
+[White "Paravyan, David"]
+[Black "Murzin, Volodar"]
+[Result "1/2-1/2"]
+[ECO "E90"]
+[WhiteElo "2629"]
+[BlackElo "2502"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "100"]
+[EventDate "2021.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "RUS"]
+[SourceTitle "CBM 203 Extra"]
+[Source "ChessBase"]
+[SourceDate "2021.09.30"]
+
+1. c4 Nf6 2. Nc3 g6 3. e4 d6 4. d4 Bg7 5. Nf3 O-O 6. Bd3 e5 7. d5 a5 8. O-O
+Nbd7 9. Bc2 Nc5 10. a3 Bd7 {[#]} 11. Be3 (11. b3 $142 $14 {[%cal Ga1b1,Gb3b4]})
+11... Ng4 12. Bxc5 dxc5 13. Ba4 Re8 (13... Bc8 $5 $13 {[%cal Gg4h6,Gf7f5]}) 14.
+Qb3 Bxa4 15. Nxa4 b6 16. Qb5 Bf8 17. Rae1 (17. Nc3 Bd6 18. Qa4 f5 19. Qc2 $14
+f4 20. Rfe1 Nh6 21. Kf1 $1 Nf7 22. Ke2 {[%cal Gg2g3,Ge1g1]}) 17... Bd6 18. Re2
+$6 (18. Nc3 $14) 18... f5 19. Nc3 Nh6 20. h3 Nf7 21. Qb3 f4 $11 22. g4 Kg7 23.
+Nb5 Rh8 24. Qc3 g5 25. Ne1 h5 26. f3 Rh6 27. Nd3 a4 28. Rg2 Qe7 29. Kf2 hxg4
+30. hxg4 Nh8 31. Ke2 Ng6 32. Qc2 Rh3 33. Rgf2 Qd7 34. Kd1 Nh4 35. Ne1 Ra5 36.
+Kc1 Be7 37. Nc3 Ra8 38. Kb1 Ng6 39. Rh2 Rh4 40. Nd3 Bd6 41. Nb5 Be7 42. Ka1 Bd6
+43. Nc1 Kf6 44. Na2 Qc8 45. Nac3 Qa6 46. Ka2 Ke7 47. Rd1 Kf6 48. Rd3 Ke7 49.
+Rd1 Kf6 50. Rd3 Ke7 1/2-1/2
+
+[Event "?"]
+[Site "Chess.com INT"]
+[Date "2022.12.18"]
+[Round "4.12"]
+[White "Carlsen, Magnus"]
+[Black "Nakamura, Hikaru"]
+[Result "1/2-1/2"]
+[ECO "E90"]
+[WhiteElo "2859"]
+[BlackElo "2768"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "136"]
+[EventDate "2022.11.23"]
+[EventType "k.o. (blitz)"]
+[EventRounds "4"]
+[EventCountry "USA"]
+[SourceTitle "Mega2023 Update 08"]
+[Source "Chessbase"]
+[SourceDate "2022.12.30"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Bd3 Bg4 7. Be2 e5 8. d5 a5
+9. Be3 Na6 10. Nd2 Bxe2 11. Qxe2 Nd7 {[#]} 12. g4 $1 $16 Ndc5 (12... f5 $6 13.
+gxf5 gxf5 14. exf5 Qf6 15. Nde4 Qxf5 16. Rg1 Kh8 17. Rg5) 13. O-O-O Qd7 (13...
+Qh4 14. Rdg1 $16) 14. h4 Na4 15. Ndb1 $1 (15. Nxa4 Qxa4 $132) 15... h6 16. Nxa4
+Qxa4 17. Nc3 Qd7 18. h5 g5 {[#]} 19. Kd2 $1 {[%cal Ga2a3,Gb2b4,Gd2e1,Ge1f1,
+Gf1g2]} c5 20. Ke1 Rfb8 21. Kf1 a4 22. Rb1 Nc7 23. b4 b6 24. Kg2 Na6 25. a3 Bf6
+26. Kg3 Bd8 27. Qc2 cxb4 28. axb4 Rc8 29. b5 Nc5 30. Bxc5 Rxc5 31. Nxa4 $18
+Rcc8 32. Rb4 Ra5 33. Nc3 Qe7 34. Rhb1 Qf6 35. Qd2 Ra3 36. Kg2 Rca8 37. R4b3
+R3a5 38. Ne2 Be7 39. Ng3 Bf8 40. Nf5 Qd8 41. Qe3 Qc7 42. Rc3 Ra4 43. Qd3 Qd7
+44. Ne3 Qc7 45. Rbb3 Qc5 46. Nf5 Ra1 47. Qe3 Qc7 48. Rc1 R1a4 49. Qd3 Ra2 50.
+Rbc3 R2a4 51. R3c2 Qc5 52. Qe3 Qc7 53. Rc3 Ra2 54. R3c2 R2a4 55. Qd3 Ra3 56.
+Rc3 R3a4 57. R1c2 Qc5 58. Rb3 Ra1 59. Qe3 Qc7 60. Rcc3 R1a4 61. Ra3 Rxa3 62.
+Rxa3 Rxa3 63. Qxa3 Qxc4 64. f3 Qe2+ 65. Kg3 Qe1+ 66. Kg2 Qe2+ 67. Kg3 Qe1+ 68.
+Kg2 Qe2+ 1/2-1/2
+
+[Event "?"]
+[Site "chess24.com INT"]
+[Date "2020.05.16"]
+[Round "9"]
+[White "Dubov, Daniil"]
+[Black "Carlsen, Magnus"]
+[Result "1-0"]
+[ECO "E90"]
+[WhiteElo "2699"]
+[BlackElo "2863"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "107"]
+[EventDate "2020.05.15"]
+[EventType "tourn (blitz)"]
+[EventRounds "18"]
+[EventCountry "USA"]
+[EventCategory "20"]
+[SourceTitle "CBM 196 Extra"]
+[Source "ChessBase"]
+[SourceDate "2020.07.31"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. d4 O-O 6. Bd3 Bg4 7. Be2 Nfd7 8. Be3
+e5 9. d5 a5 10. Nd2 Bxe2 11. Qxe2 f5 12. f3 {[#]} Na6 (12... Bh6 $1 $132 13.
+Bxh6 Qh4+ 14. g3 Qxh6 $11) 13. O-O-O Nac5 14. Kb1 a4 15. a3 Rf7 $6 (15... f4 $5
+16. Bf2 Bf6) 16. exf5 gxf5 17. g4 $1 Qf6 18. gxf5 Qxf5+ 19. Ka2 Qc2 20. Rc1 Qd3
+21. Qxd3 Nxd3 {[#]} 22. Rcg1 $16 N7c5 23. Rg3 Kh8 24. Rhg1 Bf6 25. Nde4 Nxe4
+26. Nxe4 Nf4 27. Bxf4 exf4 28. Rg4 Raf8 29. Kb1 b6 30. Kc2 Be7 31. Kd3 Bf6 32.
+R1g2 h6 33. Rg6 Bg7 34. Re6 Kh7 35. Nc3 Bxc3 36. Kxc3 Rg7 37. Rxg7+ Kxg7 38.
+Re7+ Kf6 39. Rxc7 Re8 40. Rd7 Re3+ 41. Kd4 Rxf3 42. Rxd6+ Kf5 43. Rxb6 Rf1 44.
+Rb8 Rd1+ 45. Kc5 f3 46. Rf8+ Ke4 47. d6 Rd2 48. Kc6 Rxh2 49. d7 Rd2 50. d8=Q
+Rxd8 51. Rxd8 h5 52. c5 h4 53. Kb5 f2 54. Rd1 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "2023.02.15"]
+[Round "?"]
+[White "Typical central structure 3"]
+[Black "Delayed Benoni structure"]
+[Result "*"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "6k1/pp3p1p/3p2p1/2pP4/2P5/8/PP3PPP/6K1 w - - 0 1"]
+[PlyCount "0"]
+[EventDate "2021.07.28"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+{[#]}  *
+
+[Event "?"]
+[Site "Peniche"]
+[Date "2021.07.21"]
+[Round "4.2"]
+[White "Dardha, Daniel"]
+[Black "Erigaisi, Arjun Kumar"]
+[Result "1-0"]
+[ECO "E90"]
+[WhiteElo "2520"]
+[BlackElo "2567"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "109"]
+[EventDate "2021.07.19"]
+[EventType "team-tourn"]
+[EventRounds "9"]
+[EventCountry "POR"]
+[SourceTitle "CBM 203 Extra"]
+[Source "ChessBase"]
+[SourceDate "2021.09.30"]
+[WhiteTeam "Montemor o Velho"]
+[BlackTeam "EPGaia"]
+[WhiteTeamCountry "POR"]
+[BlackTeamCountry "POR"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. d4 O-O 6. Bd3 Bg4 7. Be2 c5 8. d5 e6
+9. O-O exd5 10. exd5 Re8 11. h3 Bxf3 12. Bxf3 Nbd7 {[#]} 13. Bf4 (13. Qc2 $5
+Ne5 14. Be2 {[%cal Gc1d2]}) 13... Ne5 14. Be2 a6 15. a4 Qc7 16. Qc2 Re7 17. Bg5
+$5 h6 18. Bd2 Rae8 19. Rfe1 (19. f4 $5 Ned7 20. Bd3 $14 {[%cal Gg1h2]}) 19...
+g5 {[%cal Rf2f4]} 20. g3 Qd7 21. Kg2 $14 Nh7 22. b3 {[#]} (22. Rf1 $1 $16 {
+[%cal Ga1e1]}) 22... Nf8 $6 (22... f5 $132) 23. Bh5 $16 Neg6 24. Rxe7 Rxe7 25.
+Bg4 Qe8 26. Rh1 Nd7 27. Nd1 Bd4 28. Ne3 Bxe3 29. Bxe3 b5 30. Bf5 Nf6 31. Qc3
+Ne4 32. Qd3 bxc4 33. bxc4 Re5 34. Bxg6 fxg6 35. Rb1 $18 h5 36. Rb7 g4 37. hxg4
+hxg4 38. Bf4 Rh5 39. Qb1 Nc3 40. Rb8 Nxb1 41. Rxe8+ Kf7 42. Re1 Nc3 43. a5 Na4
+44. Bxd6 Nb2 45. Re7+ Kf6 46. Re4 Nd3 47. Re6+ Kf5 48. Be7 Rh7 49. Bf6 Rb7 50.
+Rb6 Rf7 51. Bc3 Re7 52. Rxa6 Re4 53. Rf6+ Kg5 54. Rf8 Rxc4 55. Bd2+ 1-0
+
+[Event "?"]
+[Site "Cattolica"]
+[Date "2021.06.01"]
+[Round "6"]
+[White "Bernadskiy, Vitaliy"]
+[Black "Kadric, Denis"]
+[Result "1-0"]
+[ECO "E90"]
+[WhiteElo "2587"]
+[BlackElo "2584"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "48"]
+[EventDate "2021.05.27"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ITA"]
+[SourceTitle "CBM 203 Extra"]
+[Source "ChessBase"]
+[SourceDate "2021.09.30"]
+
+1. d4 Nf6 2. Nf3 d6 3. c4 g6 4. Nc3 Bg7 5. e4 O-O 6. Bd3 Bg4 7. Be2 c5 8. d5 e6
+9. O-O exd5 10. exd5 Bxf3 11. Bxf3 Nbd7 12. Re1 Ne8 13. Be2 Be5 {[#]} 14. g3 (
+14. Bd2 $14 {[%cal Gg2g3]}) 14... f5 (14... Bxc3 $1 15. bxc3 Ng7 $13) 15. Bh6
+Ng7 16. Qd2 Nf6 17. f3 Kh8 18. Bd3 $16 Ng8 19. Be3 Nh5 $4 (19... b6 20. Kg2 $16
+) 20. Bxc5 $18 Bxg3 21. Bd4+ Be5 22. Bxe5+ dxe5 23. Rxe5 Qh4 24. Rae1 Nf4 1-0
+
+[Event "?"]
+[Site "Castellar"]
+[Date "2004.07.20"]
+[Round "7"]
+[White "Peralta, Fernando"]
+[Black "Grigore, George Gabriel"]
+[Result "1-0"]
+[ECO "E90"]
+[WhiteElo "2541"]
+[BlackElo "2507"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "138"]
+[EventDate "2004.07.14"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 101 Extra"]
+[Source "ChessBase"]
+[SourceDate "2004.09.01"]
+
+1. d4 Nf6 2. c4 d6 3. Nf3 g6 4. Nc3 Bf5 5. d5 c5 6. Nh4 Bd7 7. e4 Bg7 8. Bd3
+O-O 9. Nf3 e6 10. O-O exd5 11. exd5 Bg4 12. h3 Bxf3 13. Qxf3 Nbd7 {[#]} 14. Qd1
+Re8 15. Bg5 h6 16. Bd2 a6 17. Qc2 Nh5 18. g4 $1 (18. g3 Ne5 19. Be2 b5 $1 20.
+cxb5 axb5 21. Nxb5 Qd7 $44) 18... Nhf6 (18... Qh4 19. Kg2 Bxc3 20. Qxc3 $16)
+19. Kg2 Qc7 20. b3 Re7 21. f4 Rae8 22. Rae1 Rxe1 23. Rxe1 Rxe1 24. Bxe1 Qd8 {
+[#]} 25. Qe2 $16 Ne8 26. Bd2 Kf8 27. Ne4 Bd4 28. Ng3 Ng7 29. Nf1 $1 {[%cal
+Gf1h2,Gh2f3]} Ne8 30. Nh2 Bg7 31. Nf3 Bf6 32. h4 Ng7 33. Qe3 (33. g5 hxg5 34.
+hxg5 $16 {[%cal Gf4f5]}) 33... h5 34. g5 Bb2 35. Qe1 Ba3 36. Bc3 Bb4 37. Bxb4
+cxb4 38. Qxb4 Nc5 39. Bc2 a5 40. Qe1 $18 b6 41. Nd4 Qd7 42. Qe2 Kg8 43. Kg3 Kf8
+44. Bd1 Qc8 45. Bc2 Qd7 46. Kg2 Qc8 47. a3 Qd7 48. Kg3 Qc8 49. f5 gxf5 50. Qe3
+Ne4+ 51. Bxe4 fxe4 52. Qxe4 Qc5 53. Nf3 Kg8 54. a4 Qa3 55. Qc2 Qa1 56. Qe2 Qa3
+57. Nd2 Qa1 58. Nf3 Qa3 59. Qd1 Qb4 60. Qd3 Qa3 61. Qc2 Qa1 62. Kf2 Qa3 63. Nd2
+Qa1 64. Ne4 Qd4+ 65. Ke2 Qe5 66. Kd3 Kf8 67. Qf2 Qa1 68. Nxd6 Qb1+ 69. Ke2 Qc2+
+1-0
+
+[Event "?"]
+[Site "Manila"]
+[Date "1990.??.??"]
+[Round "8"]
+[White "Huebner, Robert"]
+[Black "Shirov, Alexei"]
+[Result "1-0"]
+[ECO "E90"]
+[WhiteElo "2585"]
+[BlackElo "2580"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "93"]
+[EventDate "1990.06.29"]
+[EventType "swiss"]
+[EventRounds "13"]
+[EventCountry "PHI"]
+[SourceTitle "CBM 019"]
+[Source "ChessBase"]
+[SourceDate "1990.12.01"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. h3 c5 7. d5 e6 8. Bd3 exd5
+9. exd5 Re8+ 10. Be3 Bf5 11. Bxf5 gxf5 {[#]} 12. O-O Ne4 13. Nxe4 (13. Ne2 $5 {
+[%cal Gd1c2,Ge2f4]}) 13... fxe4 14. Nd2 Nd7 (14... f5 15. Qh5 Rf8 16. Bg5 Qe8
+17. Qxe8 Rxe8 18. g4 $1 $16 {[%csl Re4,Rf5]}) 15. Qg4 Nf6 16. Qh4 Nd7 17. Qg3 (
+17. Qf4 $5) 17... Qf6 (17... f5 18. f3 $36 {[%csl Re4,Rf5]}) 18. Qg4 Ne5 {[#]}
+19. Qxe4 $16 Qg6 20. Qxg6 hxg6 21. b3 Nd3 22. Rad1 Nb4 23. a4 Nc2 24. Bf4 $18
+Rad8 25. Nf3 Re4 26. g3 a6 27. Rd2 Nb4 28. Re1 Rxe1+ 29. Nxe1 Bc3 30. Re2 Bxe1
+31. Rxe1 Nd3 32. Re7 Nxf4 33. gxf4 b5 34. Ra7 bxc4 35. bxc4 Rb8 36. Rxa6 Rb4
+37. a5 Rxc4 38. Rxd6 Kf8 39. f5 gxf5 40. Rc6 Ke7 41. Kg2 Rb4 42. Rxc5 Kd6 43.
+Rc6+ Kxd5 44. Rf6 Ke4 45. Rxf7 Rb8 46. Re7+ Kf4 47. a6 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "2023.02.24"]
+[Round "?"]
+[White "Typical central structure 4"]
+[Black "Delayed Benoni w/ open f-file"]
+[Result "*"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "6k1/pp3p1p/3p2p1/2pP4/2P5/4P3/PP4PP/6K1 w - - 0 1"]
+[PlyCount "0"]
+[EventDate "1990.06.29"]
+[EventType "swiss"]
+[EventRounds "13"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+{[#]}  *
+
+[Event "?"]
+[Site "Linares"]
+[Date "2022.08.14"]
+[Round "5"]
+[White "Cuenca Jimenez, Jose Fernando"]
+[Black "Silva Lucena, Cristian"]
+[Result "1/2-1/2"]
+[ECO "E90"]
+[WhiteElo "2555"]
+[BlackElo "2234"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "122"]
+[EventDate "2022.08.11"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "Mega2022 Update 43"]
+[Source "Chessbase"]
+[SourceDate "2022.08.25"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Be3 c5 7. d5 e6 8. Bd3 exd5
+9. exd5 Re8 10. Nf3 Rxe3+ 11. fxe3 {[#]} Qe7 12. O-O Nbd7 13. Qe1 Ne5 14. Nxe5
+Qxe5 15. Rd1 Bd7 16. Rf3 Rf8 17. Qh4 (17. Qf2 $1 {[%csl Rf7]} Qe7 18. Rf1 Ne8
+19. g4 $16) 17... g5 $6 {[#]} (17... h6 $5 {[%cal Gf6h7]} 18. Rdf1 Nh7 $44) 18.
+Qg3 $1 Qxg3 19. Rxg3 $16 {[%cal Gd1f1,Gd3f5]} g4 20. hxg4 Nxg4 21. Ne4 (21. Rf1
+Be5 22. Rh3 $18) 21... Be5 22. Rf3 f5 23. Nf2 f4 24. exf4 Bd4 25. g3 Re8 26.
+Bf1 $2 (26. Rd2 $16) 26... Re3 27. Rd3 Nxf2 28. Rxf2 Rxd3 29. Bxd3 Bh3 $1 $11
+30. Bf1 Bf5 31. Be2 Bh3 32. g4 Kg7 33. g5 h6 34. gxh6+ Kxh6 35. Bf1 Bg4 36. Kg2
+Bxf2 37. Kxf2 Kg7 38. Ke3 Kf6 39. Bd3 Bh5 40. Bh7 Bf7 41. Ke4 Bh5 42. Kd3 Bg4
+43. Bg8 Bf5+ 44. Kc3 Bd7 45. Kd2 Bf5 46. Ke3 Bh3 47. Be6 Bf1 48. b3 a5 49. Bd7
+Ke7 50. Bg4 a4 51. Kd2 axb3 52. axb3 Kf6 53. Be2 Bh3 54. Bd3 Bd7 55. Kc3 Kg7
+56. Kb2 b6 57. Ka3 Kh6 58. b4 Kh5 59. Bc2 Kg4 60. f5 Kg5 61. Kb3 Kf6 1/2-1/2
+
+[Event "?"]
+[Site "Chess.com INT"]
+[Date "2019.08.06"]
+[Round "8"]
+[White "Bluebaum, Matthias"]
+[Black "Petrov, Marian"]
+[Result "1-0"]
+[ECO "E90"]
+[WhiteElo "2619"]
+[BlackElo "2449"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "93"]
+[EventDate "2019.08.06"]
+[EventType "swiss (blitz)"]
+[EventRounds "10"]
+[EventCountry "USA"]
+[SourceTitle "EXT 2021"]
+[Source "ChessBase"]
+[SourceDate "2020.10.23"]
+
+1. d4 g6 2. c4 Bg7 3. e4 c5 4. d5 d6 5. h3 Nf6 6. Nc3 O-O 7. Nf3 e6 8. Bd3 exd5
+9. exd5 Re8+ 10. Be3 Bh6 11. O-O Bxe3 12. fxe3 Qe7 {[#]} 13. e4 Nbd7 14. Qd2
+Rf8 15. Rf2 Ne8 16. Raf1 Ne5 17. Nxe5 Qxe5 18. Kh1 $1 {[%cal Gc3e2,Ge2g1,Gg1f3]
+} Bd7 19. Ne2 Ng7 20. Qh6 $6 (20. g4 $16 {[%csl Rg7][%cal Rg7h5,Rf7f5]}) 20...
+f5 21. exf5 Bxf5 22. Nf4 Bxd3 23. Nxd3 Rxf2 24. Rxf2 Qd4 25. Qf4 Nf5 $11 26.
+Qxd4 Nxd4 27. Rf6 Rd8 28. g4 g5 29. h4 gxh4 30. g5 b5 31. b3 bxc4 32. bxc4 h3
+33. Kh2 Re8 34. Nf4 Re4 35. Kxh3 Re3+ 36. Kg4 Re4 37. Kg3 Re3+ 38. Kf2 Rc3 39.
+Kg2 Rxc4 40. Rxd6 Rc2+ 41. Kh3 Rxa2 42. Rd8+ Kf7 43. Rd7+ Kg8 44. d6 Rd2 45.
+Rxa7 Nf5 46. d7 c4 47. Ne6 1-0
+
+[Event "?"]
+[Site "Sharjah"]
+[Date "2022.04.13"]
+[Round "9"]
+[White "Salem, AR Saleh"]
+[Black "Sindarov, Javokhir"]
+[Result "0-1"]
+[ECO "E90"]
+[WhiteElo "2690"]
+[BlackElo "2609"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "62"]
+[EventDate "2022.04.12"]
+[EventType "tourn (rapid)"]
+[EventRounds "10"]
+[EventCountry "UAE"]
+[EventCategory "13"]
+[SourceTitle "Mega2022 Update 25"]
+[Source "Chessbase"]
+[SourceDate "2022.04.21"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Be3 c5 7. d5 e6 8. Nf3 Re8
+9. Bd3 exd5 10. exd5 Bh6 11. O-O Bxe3 12. fxe3 Nbd7 13. e4 Qe7 {[#]} 14. e5 $5
+(14. Nb5 $1 Rf8 15. e5 $1 $36) 14... Nxe5 15. Nxe5 Qxe5 16. Qf3 Bf5 $5 (16...
+Kg7 17. Rf2 Rf8 18. Raf1 Nh5 19. Re2 Qg3 20. Re3 Qxf3 21. Rexf3 f5 22. g4 Nf6
+23. gxf5 gxf5 24. Bxf5 Bxf5 25. Rxf5 $36 {[%csl Rd6]}) 17. Bxf5 gxf5 18. Qxf5
+Qxf5 19. Rxf5 Ne4 20. Nxe4 Rxe4 21. Raf1 Rf8 22. b3 $14 Re2 23. Rf6 Rxa2 24.
+Rxd6 a5 $1 $132 25. Rb6 a4 26. Rxb7 (26. bxa4 Rxa4 27. Rc1 Rb8 $14) 26... Rb2
+27. Rf3 a3 28. Ra7 a2 29. Rf2 Rb1+ 30. Rf1 Rb2 31. Ra1 Rb1+ 0-1
+
+[Event "?"]
+[Site "Reykjavik"]
+[Date "2015.11.21"]
+[Round "8.4"]
+[White "Goryachkina, Aleksandra"]
+[Black "Majdan, Joanna"]
+[Result "1-0"]
+[ECO "E90"]
+[WhiteElo "2478"]
+[BlackElo "2378"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "107"]
+[EventDate "2015.11.13"]
+[EventType "team-swiss"]
+[EventRounds "9"]
+[EventCountry "ISL"]
+[SourceTitle "CBM 169 Extra"]
+[Source "ChessBase"]
+[SourceDate "2015.12.18"]
+[WhiteTeam "Russia (W)"]
+[BlackTeam "Poland (W)"]
+[WhiteTeamCountry "RUS"]
+[BlackTeamCountry "POL"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 c5 4. d5 d6 5. Nc3 g6 6. e4 Bg7 7. h3 O-O 8. Bd3 exd5
+9. exd5 Re8+ 10. Be3 Bh6 11. O-O Bxe3 12. fxe3 Qe7 13. e4 Nbd7 {[#]} 14. Nb5 $1
+Rf8 15. e5 $1 dxe5 (15... Nxe5 16. Nxe5 dxe5 (16... Qxe5 17. Qf3 $40 {[%cal
+Ga1e1]} Ne8 18. Rae1 Qxb2 19. Rxe8 $18) 17. d6 Qd8 18. Qe2 $36) 16. d6 Qd8 17.
+Bc2 Ne8 18. Qd2 a6 $2 (18... f5 19. Rae1 $36) 19. Nc3 Nb6 {[#]} 20. Rad1 $18 {
+[%csl Yd6][%cal Gd2h6,Gf3e5]} Qxd6 (20... Be6 21. Nxe5 Nxc4 22. Nxc4 Bxc4) (
+20... Nxc4 21. Qh6 $18) 21. Qxd6 Nxd6 22. Rxd6 Nxc4 23. Rf6 Kg7 24. Ng5 $18 Bf5
+25. Bxf5 Kxf6 26. Nxh7+ Ke7 27. Be4 Rh8 28. Nd5+ Kd8 29. Rxf7 Nd6 30. Ng5 Nxf7
+31. Nxf7+ Kd7 32. Nxe5+ Ke6 33. Nxg6 Rhe8 34. Nc7+ Kf6 35. Nxe8+ Rxe8 36. Bxb7
+Re1+ 37. Kh2 Kxg6 38. Bxa6 Kg5 39. b3 Kf4 40. Bc4 Ra1 41. a4 Ra2 42. Bf7 Rf2
+43. Bg8 Ra2 44. Bc4 Ra1 45. Bf7 Ra2 46. h4 Kg4 47. h5 Rf2 48. Bd5 Kxh5 49. Kg3
+Rd2 50. Bc4 Kg5 51. a5 Kf5 52. a6 Ke4 53. Bb5 Rd8 54. Bc6+ 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Typical central structure 5"]
+[Black "Benko gambit structure"]
+[Result "*"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "6k1/4pp1p/3p2p1/2pP4/4P3/8/PP3PPP/6K1 w - - 0 1"]
+[PlyCount "0"]
+[EventDate "2015.11.13"]
+[EventType "team-swiss"]
+[EventRounds "9"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+{[#]}  *
+
+[Event "?"]
+[Site "Burlingame"]
+[Date "2017.02.25"]
+[Round "7"]
+[White "Zhou, Jianchao"]
+[Black "Moradiabadi, Elshan"]
+[Result "1-0"]
+[ECO "A58"]
+[WhiteElo "2619"]
+[BlackElo "2576"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "85"]
+[EventDate "2017.02.22"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "USA"]
+[EventCategory "11"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. bxa6 g6 6. Nc3 Bg7 7. e4 O-O 8. Bd3
+d6 9. Nf3 Nxa6 10. O-O Bg4 11. Be2 Qb6 12. h3 Bxf3 13. Bxf3 {[#]} Nd7 14. Be2
+Rfb8 15. a4 $1 {[%cal Gc3b5,Ga1a3]} (15. Nb5 $6 Nc7 16. a4 Nxb5 17. Bxb5 Qxb5
+$1 18. axb5 Rxa1 $44) 15... Nc7 16. Ra3 Bd4 17. Nb5 Nxb5 18. Bxb5 Ne5 {[#]} 19.
+b3 $16 Ra5 20. Qc2 Qa7 21. Be2 c4 22. Bxc4 Rc8 23. Bh6 f6 24. Qe2 Nxc4 25. bxc4
+Qd7 26. Rb1 Rac5 27. Be3 Bxe3 28. Qxe3 Ra8 29. Rb4 Qc7 30. Qe2 Rc8 31. h4 Kf7
+32. h5 Rxc4 33. Rxc4 Qxc4 34. hxg6+ hxg6 35. Qxc4 Rxc4 36. a5 Ke8 37. a6 Rc8
+38. a7 Ra8 39. g4 Kd7 40. g5 Kc7 41. gxf6 exf6 42. Ra6 f5 43. f3 1-0
+
+[Event "?"]
+[Site "Charlotte"]
+[Date "2021.09.03"]
+[Round "3"]
+[White "Wang, Justin"]
+[Black "Wang, Tianqi"]
+[Result "1/2-1/2"]
+[ECO "E90"]
+[WhiteElo "2463"]
+[BlackElo "2368"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "113"]
+[EventDate "2021.09.02"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "USA"]
+[EventCategory "9"]
+[SourceTitle "EXT 2022"]
+[Source "ChessBase"]
+[SourceDate "2021.10.06"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 c5 4. d5 Bg7 5. e4 d6 6. h3 O-O 7. Nf3 e6 8. Bd3 exd5
+9. exd5 Re8+ 10. Be3 Nbd7 11. O-O a6 12. Qd2 b5 13. cxb5 Nb6 14. bxa6 Bxa6 15.
+Bxa6 Rxa6 {[#]} 16. Rad1 (16. b3 $1 $16) 16... Qa8 (16... Na4 $1 17. Nxa4 Rxa4
+18. b3 Ra3 $132) 17. b3 Ne4 (17... Qb7 18. Rfe1 Rea8 19. Bh6 $40) 18. Nxe4 Rxe4
+19. Qd3 Rb4 20. Bd2 $1 c4 21. Qe4 Rb5 22. bxc4 Rc5 23. Rc1 Ra4 {[#]} 24. Rfe1 (
+24. Qb1 Nxc4 25. Bb4 Na3 26. Bxa3 Rxa3 27. Rxc5 dxc5 28. d6 Rxa2 29. d7 $16 {
+[%csl Gd7][%cal Gf1d1]}) 24... Rc8 25. Bf4 Bf8 26. Nd2 Qa6 27. Qd4 Rxa2 28. Ne4
+Nd7 29. Qd3 $16 Ra4 30. Nd2 Nc5 31. Qf3 Nd7 32. Re4 Nb6 33. Qd3 Nd7 34. Re3 Bg7
+35. Qe2 Nf6 36. Re1 Ra2 37. Qf3 Ra1 38. Bg5 Nd7 39. Rxa1 Qxa1+ 40. Kh2 Ne5 41.
+Qe2 h6 42. Be7 Qa6 43. f4 Nd7 44. Qg4 Nf6 45. Bxf6 Bxf6 46. Ne4 Bd4 47. Nxd6
+Rb8 48. Rd3 Qa1 49. Rd1 Rb1 50. Rxb1 Qxb1 51. Qe2 Bg1+ 52. Kg3 Qb3+ 53. Qf3 Qb4
+54. Ne4 Qxc4 55. d6 Bb6 56. d7 Qd4 57. h4 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Typical central structure 6"]
+[Black "Modern Benoni structure"]
+[Result "*"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "6k1/pp3p1p/3p2p1/2pP4/4P3/8/PP3PPP/6K1 w - - 0 1"]
+[PlyCount "0"]
+[EventDate "2021.09.02"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCategory "9"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+{[#]}  *
+
+[Event "?"]
+[Site "Creon"]
+[Date "2006.08.01"]
+[Round "2"]
+[White "Grigore, George Gabriel"]
+[Black "Piat, Jerome P"]
+[Result "1-0"]
+[ECO "E90"]
+[WhiteElo "2472"]
+[BlackElo "2176"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "77"]
+[EventDate "2006.07.31"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "FRA"]
+[SourceTitle "CBM 113 Extra"]
+[Source "ChessBase"]
+[SourceDate "2006.09.14"]
+
+1. d4 g6 2. c4 Bg7 3. Nc3 c5 4. d5 d6 5. e4 Nf6 6. Bd3 O-O 7. h3 Na6 8. Nf3 Nc7
+9. O-O e6 10. Re1 Rb8 11. Bg5 h6 12. Be3 exd5 13. cxd5 {[#]} b5 14. Qd2 b4 (
+14... c4 15. Bc2 b4 16. Ne2 $16 {[%csl Rc4,Rc6][%cal Ga1c1,Ge2d4]}) 15. Ne2 Kh7
+16. Ng3 Nd7 17. h4 $1 $40 {[%csl Rg6,Rh6,Rh7][%cal Gh4h5]} Ne8 18. h5 Nef6 19.
+e5 $1 dxe5 20. hxg6+ fxg6 21. Qc2 {[%csl Rg6]} e4 22. Nxe4 Nxd5 {[#]} 23. Neg5+
+$1 hxg5 24. Nxg5+ Kh8 25. Qc4 $1 $18 {[%csl Rh8][%cal Gc4h4,Gh4h7]} Nf4 26.
+Bxf4 Nb6 27. Nf7+ Kh7 28. Nxd8 Nxc4 29. Bxb8 Nxb2 30. Bf1 Rxd8 31. Re7 Rd5 32.
+Rae1 Kh6 33. Bf4+ g5 34. Bc1 Nd1 35. Rc7 Bg4 36. Ree7 Bf6 37. Rc6 Kg6 38. Rxa7
+Kf5 39. Rf7 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Typical central structure 7"]
+[Black "Czech Benoni structure"]
+[Result "*"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "6k1/pp3p1p/3p2p1/2pPp3/2P1P3/8/PP3PPP/6K1 w - - 0 1"]
+[PlyCount "0"]
+[EventDate "2021.09.02"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCategory "9"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+{[#]}  *
+
+[Event "?"]
+[Site "Zalakaros"]
+[Date "2011.05.20"]
+[Round "1"]
+[White "Erdos, Viktor"]
+[Black "Kende, Gyorgy"]
+[Result "1-0"]
+[ECO "E90"]
+[WhiteElo "2609"]
+[BlackElo "2246"]
+[Annotator "GM Davorin Kuljasevic"]
+[PlyCount "85"]
+[EventDate "2011.05.20"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "HUN"]
+[SourceTitle "CBM 142 Extra"]
+[Source "ChessBase"]
+[SourceDate "2011.06.27"]
+
+1. d4 g6 2. c4 Bg7 3. e4 c5 4. d5 d6 5. Nc3 Nf6 6. Bd3 O-O 7. Nf3 e5 {[#]} 8.
+h3 $1 {[%cal Gg2g4]} Nh5 9. g3 Na6 10. Be2 Nc7 11. Nh2 $1 {[%cal Ge2h5,Gh2f1,
+Yf1e3,Yf1g3]} a6 $5 12. a4 (12. Bxh5 gxh5 13. Qxh5 f5 $132) 12... Rb8 13. a5 b5
+14. axb6 Rxb6 15. Nf1 $1 {[%cal Ge2h5]} Nf6 (15... Rb4 16. Bxh5 gxh5 17. Ne3
+$16 {[%csl Ye3,Rh5][%cal Rf7f5,Ge3c4]}) 16. h4 Bd7 17. h5 Qe7 18. Ne3 $16 Rfb8
+19. Ra3 Qf8 20. Ng2 Rb4 {[#]} 21. g4 $40 Bc8 22. g5 Nfe8 23. Qc2 Na8 24. Nd1 $1
+{[%csl Yb2][%cal Gc1d2]} Qe7 25. Bd2 Nb6 26. Rg3 Na4 27. Bxb4 Rxb4 28. b3 Nb6
+29. Nb2 $18 {[%cal Gb2d3,Ge2g4]} Nd7 30. Bg4 Rb8 31. hxg6 hxg6 32. Nh4 Nf8 33.
+Bxc8 Rxc8 34. Nd1 Nh7 35. Nf3 Qd8 36. Kf1 Rc7 37. Ne3 f6 38. gxf6 Qxf6 39. Qd1
+Rf7 40. Rxh7 Kxh7 41. Ng5+ Kg8 42. Nxf7 Kxf7 43. Rf3 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 1"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "r2q1rk1/pp1n1pbp/3p1np1/2pP4/2P5/2N2B2/PP3PPP/R1BQ1RK1 w - - 0 12"]
+[PlyCount "11"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+{[#]} 12. g3 $5 {[%cal Gf3e2,Gg1g2] This continuation seems a bit more accurate
+} ({than} 12. Re1 {which is not to take away from Bernadskiy's nice win
+against GM Kadric.} Ne8 13. Be2 Be5 14. g3 f5 15. Bh6 Ng7 16. Qd2 Nf6 17. f3
+Kh8 18. Bd3 $14 {1-0 (24) Bernadskiy,V (2587) -Kadric,D (2584) Cattolica 2021})
+12... Ne8 13. Qc2 Ne5 14. Be2 f5 15. Kg2 Qd7 16. Bd2 {[%cal Yc2g2] The
+''second-rank'' formation has been achieved. White has a solid positional plus
+in the ensuing middlegame.} Nf6 17. Rae1 $14 {[%csl Re6][%cal Ye2d1,Yc3e2,
+Ye2f4,Gf2f4]} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 2"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "r2q1rk1/pppn1p1p/3p2p1/n2Pp3/2P1P3/2P1BB2/P4PPP/R2Q1RK1 w - - 0 13"]
+[PlyCount "7"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+{[#] dxe6 fxe6} 13. Bg4 Qe7 14. Bh6 $36 {[%csl Gg4,Rg8,Gh6][%cal Yh6g5] Rf7 f4
+We won a couple of important tempi to activate our bishops. Taking the pawn}
+Nxc4 {is already suspicious now in the view of} 15. Qd4 b5 16. a4 $16 {[%csl
+Rc4][%cal Ya1a8]} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 3"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "r2q1rk1/ppp1ppbp/1n1p2p1/n2P4/2P1P3/2N1B3/PP2BPPP/R2QK2R w KQ - 0 12"]
+[PlyCount "9"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+{[#]} 12. Bd4 $1 {Defending the c-pawn by tactical means.} Naxc4 $4 13. Bxc4
+Nxc4 14. Bxg7 Kxg7 15. Qd4+ Ne5 16. f4 $18 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 4"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "r1bq1rk1/pppn1pbp/3p2p1/3Pp3/2P1Pn2/2N2N2/PPB2PPP/R1BQ1RK1 w - - 0 10"]
+[PlyCount "5"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+{[#]} 10. Kh1 $1 {[%cal Gg2g3] It's a good idea to do something about the
+opponent's most active piece. This way, we prepare to push it out with g2-g3.}
+Nf6 11. g3 Nh3 12. Nh4 $14 {[%cal Gf2f3,Gh4g2,Gc1e3,Yc4c5,Yf3f4,Rf7f5] White
+has the f5-break under control. Moreover, he can strengthen his position with
+normal developing moves and gradually prepare his queenside play or the
+f4-break, depending on the circumstances.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 5"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "r2q1rk1/1ppb2bp/3p2p1/p1nPpp1n/2P1P3/PPN2N2/2B2PPP/1RBQ1RK1 w - - 0 13"]
+[PlyCount "7"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+{[#]} 13. exf5 gxf5 14. b4 axb4 15. axb4 {[%csl Rc5]} Na6 16. Bd2 $16 {[%csl
+Ra6,Gc2,Rf5,Rh5][%cal Gf3e5,Yf3g5,Yf3h4,Yg2g3] with a very pleasant middlegame.
+Black is doing well only optically. In reality, it's difficult for him to
+achieve active counterplay due to the multiple weaknesses incurred, ironically,
+by the f5-break.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 6"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "1rbq1rk1/pp3pbp/3p1np1/2pPp1B1/PnP1P3/2NB1N1P/1P1Q1PP1/R3R1K1 w - - 0 14"]
+[PlyCount "5"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+{[#]} 14. Bb1 $1 {[%csl Gb1][%cal Ga1a3,Rf7f5] We keep the bishop on the
+important diagonal. The rook can be developed via a3.} b6 15. Nh2 a6 16. Ra3 $1
+$16 {[%cal Ya3g3,Gg2g4,Gf2f4] As we can see, White doesn't need to play on the
+queenside; his chances lie on the kingside.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 7"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "r1b3k1/pp3pbp/3p1np1/2pPq3/2P5/2NBP2P/PP4P1/R3QRK1 w - - 0 15"]
+[PlyCount "3"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+{[#]} 15. Rd1 $1 {A subtle move. The prophylactic idea behind it can be seen
+by comparing the lines 15.Rf3 and 15...Qe7 below.} Bd7 (15... Qe7 {[%csl Ye5]
+[%cal Gf6d7,Gd7e5]} 16. Qh4 $1 {[%cal Rf6d7] and now} Nxd5 {doesn't work
+because of} 17. Qxe7 Nxe7 18. Nb5 {[%csl Rd6]} Be5 19. Be4 $18 {[%csl Gd1,Rd6]
+which is why we put the rook on d1 in the first place.}) 16. Rf3 $14 {[%csl
+Rf6,Rf7][%cal Ge1h4,Gg2g4,Gd1f1,Yg4g5,Yc3e4] ½-½ (61) Cuenca Jimenez,J (2555)
+-Silva Lucena,C (2234) Linares 2022. White has a simple plan of improving his
+position with moves like Qh4, g2-g4, Rdf1, etc.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 8"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "rnbq2k1/pp3p1p/3p1np1/2pP4/2P5/2NBrN1P/PP4P1/R2Q1RK1 w - - 0 13"]
+[PlyCount "5"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+{[#]} 13. Qd2 $40 {[%csl Rf7,Rg8][%cal Yd2h6]} Qe7 14. Nd1 $1 {[%csl Re3]} Rxf3
+15. Rxf3 $16 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 9"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "r2qr1k1/1p3pbp/p1ppbnp1/8/2PBP3/2N5/PP1QBPPP/R4RK1 w - - 0 15"]
+[PlyCount "11"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+{[#]} 15. a4 {[%cal Rb7b5] This should be a no-brainer, even if we weaken some
+squares on the queenside. Otherwise, Black gets serious counterplay with ...
+b7-b5. Here are some possible continuations:} d5 (15... a5 {[%csl Yb4,Yc5]} 16.
+Rad1 Qe7 17. Rfe1 Nd7 18. Bxg7 Kxg7 19. Bd3 $1 {[%cal Gd3c2,Gb2b3] As in many
+positions we've seen in the Neo-Seirawan variation, the bishop is placed
+perfectly on the b1-h7 diagonal.} Nc5 20. Bc2 Rad8 21. b3 $14 {[%csl Gb3,Rg7]
+[%cal Ge1e3,Ge3g3,Yh2h4,Yf2f4,Yc3e2,Ye2d4]}) (15... Rc8 16. Rad1 c5 $5 17. Be3
+Ng4 18. Bg5 $14) 16. cxd5 cxd5 17. e5 Nd7 (17... Ne4 {is worse because of} 18.
+Qe3 Bf5 19. f4 {[%csl Rd5,Re4][%cal Ge2f3,Ga1d1] The e4-knight is not as
+secure as one might think.}) 18. f4 f6 {[%csl Re5] This pawn break allows
+Black to simplify matters in the center and limit White's advantage to a
+minimal one.} 19. exf6 Nxf6 20. Rad1 $14 {[%csl Rd5][%cal Ge2f3,Gd4e5]} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 10"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "r2q1rk1/1p1n1pnp/p2p2p1/2pP4/P1Pb4/R1N5/1P2BPPP/2BQR1K1 w - - 0 16"]
+[PlyCount "3"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+{[#]} 16. Ne4 $1 {[%csl Rd6]} Ne5 17. Rh3 $1 $36 {[%csl Rf6,Rh7][%cal Yc1g5,
+Ye4f6,Ge4g5] looks nice for White.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 11"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "r2qnrk1/pp1n1pbp/3p2p1/2pP4/P1P3b1/2N2N2/1P2BPPP/R1BQ1RK1 w - - 0 12"]
+[PlyCount "11"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+{[#] White to move?} 12. Ra3 a6 13. Re1 {We keep making useful moves in
+anticipation of ...Bxf3.} Bxf3 14. Bxf3 Bd4 15. Be2 Ng7 16. Ne4 $1 {[%csl Rd6]}
+Ne5 17. Rh3 $1 $36 {[%csl Rf6,Rh7][%cal Yc1g5,Ye4f6,Ge4g5] looks nice for
+White.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 12"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "r2qr1k1/pppnpp1p/3p2p1/n2P4/2P1P3/2P1BB2/P4PPP/R2Q1RK1 w - - 0 13"]
+[PlyCount "3"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+{White to move} 13. Qa4 $1 c6 (13... b6 {meets a thematic pawn sacrifice} 14.
+c5 $1 dxc5 ({The a5-knight becomes even more isolated after} 14... Nxc5 15.
+Bxc5 dxc5 16. e5 $16 {[%csl Ra5,Yd5,Ye5,Gf3]}) 15. Rad1 {[%csl Ra5][%cal Ye3f4,
+Ye4e5] Black's extra pawn is rather meaningless in this middlegame. White is
+fully mobilized for the central advance, and Black will be on the back foot.}
+Ne5 16. Be2 Qd7 17. Qc2 $36 {[%cal Gf2f4,Ge4e5]}) 14. Be2 $14 {[%csl Rc3,Rc4]
+[%cal Ga8c8,Ya4c2,Yh2h4,Yf2f4,Yh4h5] While White should have a slight edge due
+to the well-known factors (space advantage, bishop pair) , there is no denying
+that Black will get some counterplay on the c-file due to White's damaged pawn
+structure.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 13"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "r2q1rk1/pp3p2/1nnp2p1/4p2p/2P1P2P/2N5/PP1QBPP1/R3K2R w KQ - 0 17"]
+[PlyCount "13"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+{[#] White to move} 17. Qh6 $1 {and now} Nd4 {is refuted by} 18. Bxh5 $3 {
+[%cal Gh1h3]} Nc2+ 19. Kd1 Nxa1 20. Bxg6 fxg6 21. Qxg6+ Kh8 22. Qh6+ Kg8 23.
+Rh3 $1 $18 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 14"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "rnbq1rk1/ppp3bp/3p2p1/3Ppp2/2P1Pn2/2N2N2/PPB2PPP/R1BQ1RK1 w - - 0 10"]
+[PlyCount "7"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+{[#] White to move} 10. Bxf4 exf4 11. exf5 Bxf5 12. Bxf5 Rxf5 13. Nb5 $16 {
+[%csl Ge6][%cal Gb5d4]} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 15"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "r2q1rk1/1ppb1pbp/n2p1np1/p2Pp3/2P1P3/P1NB1N2/1P3PPP/R1BQ1RK1 w - - 0 10"]
+[PlyCount "7"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+{[#] White to move} 10. Bc2 $1 {[%cal Ra5a4,Yc2a4] preventing 10...Nc5, 11...
+a4, while also keeping an option of trading the bishops via a4 in certain
+cases.} c6 $5 {In this case, we can get a favorable transformation with} 11.
+dxc6 {[%csl Rd6]} Bxc6 12. b3 Nc7 {[%cal Gb7b5]} 13. a4 $14 {[%csl Gc4,Rd6,Ge4]
+[%cal Rb7b5,Rd6d5] White is better thanks to his strong central bind.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 16"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "r1bq1rk1/ppn2pbp/3p2p1/2pPp2n/2P1P3/2N2NPP/PP2BP2/R1BQK2R w KQ - 0 11"]
+[PlyCount "9"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+{[#] White to move} 11. Nh2 $1 {[%csl Rh5][%cal Yf1e3,Yf1g3,Gh2f1] A knight
+maneuver worth remembering.} a6 $5 {Black is ready to sacrifice a pawn for
+positional compensation (light squares) , but White doesn't take the bait.} 12.
+a4 Rb8 13. a5 b5 14. axb6 Rxb6 15. Nf1 $1 $16 {[%csl Rh5][%cal Gf1e3,Ge2h5]
+Only now it Bxh5 a genuine threat because of Ne3-f5, so Black cannot keep
+sacrificing the pawn anymore. 1-0 (43) Erdos,V (2609) -Kende,G (2246)
+Zalakaros 2011} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 17"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "r1b3k1/pp2qpbp/3p2p1/2pPn2n/2P3P1/2NBPN1P/PP6/R3QRK1 w - - 0 15"]
+[PlyCount "11"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+{[#] White to move} 15. Rd1 $1 {There's no need to allow complications.} Nf6
+16. Qh4 Bd7 17. Nxe5 Qxe5 18. Rf3 $16 {[%csl Rf6,Rf7][%cal Gd1f1] White is
+fully in the driver's seat since Black won't be in time to put the other
+knight on e5. For example,} Be8 19. g5 Nd7 20. Ne4 $1 $40 {[%cal Ge4f6]} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 18"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "rnbq2k1/pp3p1p/3p1np1/2pP4/2P5/2NBrN1P/PP4P1/R2Q1RK1 w - - 0 13"]
+[PlyCount "5"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+{[#] White to move} 13. Qd2 $40 {[%csl Rf7,Rg8][%cal Yd2h6]} Qe7 14. Nd1 $1 {
+[%csl Re3]} Rxf3 15. Rxf3 $16 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 19"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "r2q1rk1/1bnnp1bp/p1ppp1p1/1p4N1/2PPB3/2N4P/PP3PP1/R1BQR1K1 w - - 0 14"]
+[PlyCount "7"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+{[#] White to move} 14. Nxh7 $1 Kxh7 15. Qh5+ Kg8 16. Bxg6 Nf6 17. Qh4 $40 {
+[%csl Gg6,Rg8][%cal Yc1h6,Ye1e3,Ye3g3] with a strong kingside attack.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 20"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Davorin Kuljasevic"]
+[SetUp "1"]
+[FEN "r3r3/1p1nqpkp/2ppb1p1/p7/P1P1P3/2N5/1P1QBPPP/3RR1K1 w - - 0 19"]
+[PlyCount "5"]
+[EventDate "2023.??.??"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+{[#] White to move} 19. Bd3 $1 {[%cal Gd3c2,Gb2b3] As in many positions we've
+seen in the Neo-Seirawan variation, the bishop is placed perfectly on the
+b1-h7 diagonal.} Nc5 20. Bc2 Rad8 21. b3 $14 {[%csl Gb3,Rg7][%cal Ge1e3,Ge3g3,
+Yh2h4,Yf2f4,Yc3e2,Ye2d4]} *
+

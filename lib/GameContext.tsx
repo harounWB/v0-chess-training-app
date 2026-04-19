@@ -1,31 +1,191 @@
 'use client';
 
 import React, { createContext, useContext, useEffect, useState } from 'react';
-import { Game, PGNProgress } from '@/lib/types';
+import { Game, PGNProgress, AppSettings, Collection } from '@/lib/types';
 import { createClient, hasSupabaseEnv } from '@/utils/supabase/client';
 import { useAuth } from '@/lib/AuthContext';
 
 interface GameContextType {
   games: Game[];
   pgnProgress: PGNProgress[];
+  settings: AppSettings;
+  collections: Collection[];
   setGames: (games: Game[], fileName?: string) => void;
+  loadGamesFromFiles: (fileNames: string[]) => Game[];
   selectedGame: Game | null;
   setSelectedGame: (game: Game | null) => void;
   moveIndex: number;
   setMoveIndex: (index: number) => void;
+  resetTrainingState: () => void;
   clearGameData: () => void;
+  deletePgnFiles: (fileNames: string[]) => void;
   saveCompletedGame: (gameId: string) => void;
   markGameExplored: (gameId: string) => void;
+  updateSettings: (settings: Partial<AppSettings>) => void;
+  createCollection: (name: string) => void;
+  renameCollection: (collectionId: string, name: string) => void;
+  deleteCollection: (collectionId: string) => void;
+  assignGameToCollection: (gameId: string, collectionId: string | null) => void;
   savedFiles: string[];
-  loadGamesFromFile: (fileName: string) => void;
+  loadGamesFromFile: (fileName: string) => Game[];
   getPGNProgress: (fileName: string) => PGNProgress | null;
 }
 
 const GameContext = createContext<GameContextType | undefined>(undefined);
 
+const GAME_ID_SEPARATOR = '::';
+
+export function scopeGameIdForFile(fileName: string, gameId: string) {
+  const prefix = `${fileName}${GAME_ID_SEPARATOR}`;
+  return gameId.startsWith(prefix) ? gameId : `${prefix}${gameId}`;
+}
+
+export function scopeGameForFile(fileName: string, game: Game): Game {
+  return {
+    ...game,
+    id: scopeGameIdForFile(fileName, game.id),
+  };
+}
+
+export function scopeGamesForFile(fileName: string, games: Game[]): Game[] {
+  return games.map(game => scopeGameForFile(fileName, game));
+}
+
+function scopeProgressForFile(fileName: string, progress: PGNProgress): PGNProgress {
+  const scopedGames = scopeGamesForFile(fileName, progress.games);
+  const scopedIds = scopedGames.map(game => game.id);
+
+  return {
+    ...progress,
+    games: scopedGames,
+    exploredGames: new Set(scopedIds.filter(id => progress.exploredGames.has(id) || progress.exploredGames.has(id.replace(`${fileName}${GAME_ID_SEPARATOR}`, '')))),
+    trainedGames: new Set(scopedIds.filter(id => progress.trainedGames.has(id) || progress.trainedGames.has(id.replace(`${fileName}${GAME_ID_SEPARATOR}`, '')))),
+  };
+}
+
+function normalizeProgressEntries(progressEntries: PGNProgress[]): PGNProgress[] {
+  return progressEntries.map(progress => scopeProgressForFile(progress.fileName, progress));
+}
+
+type PersistedPGNProgress = {
+  fileName: string;
+  exploredGames: string[];
+  trainedGames: string[];
+  isDone: boolean;
+  importedAt: number;
+};
+
+function readProgressGamesFromStorage(fileName: string): Game[] {
+  const savedGames = localStorage.getItem(`pgnfile:${fileName}`);
+  if (!savedGames) return [];
+
+  try {
+    const parsed = JSON.parse(savedGames);
+    return scopeGamesForFile(fileName, parsed);
+  } catch {
+    return [];
+  }
+}
+
+function hydrateProgressEntries(rawEntries: unknown): PGNProgress[] {
+  if (!Array.isArray(rawEntries)) return [];
+
+  return rawEntries
+    .map((entry: any) => {
+      const fileName = typeof entry?.fileName === 'string' ? entry.fileName : '';
+      const persistedGames = Array.isArray(entry?.games) ? entry.games : [];
+      const games = persistedGames.length > 0
+        ? scopeGamesForFile(fileName, persistedGames)
+        : readProgressGamesFromStorage(fileName);
+
+      return {
+        fileName,
+        games,
+        exploredGames: new Set(Array.isArray(entry?.exploredGames) ? entry.exploredGames : []),
+        trainedGames: new Set(Array.isArray(entry?.trainedGames) ? entry.trainedGames : []),
+        isDone: Boolean(entry?.isDone),
+        importedAt: typeof entry?.importedAt === 'number' ? entry.importedAt : Date.now(),
+      } satisfies PGNProgress;
+    })
+    .filter(progress => progress.fileName);
+}
+
+function serializeProgressEntries(progressEntries: PGNProgress[]): PersistedPGNProgress[] {
+  return progressEntries.map(progress => ({
+    fileName: progress.fileName,
+    exploredGames: Array.from(progress.exploredGames),
+    trainedGames: Array.from(progress.trainedGames),
+    isDone: progress.isDone,
+    importedAt: progress.importedAt,
+  }));
+}
+
+function safeSetLocalStorageItem(key: string, value: string) {
+  try {
+    localStorage.setItem(key, value);
+  } catch (error) {
+    const name = error instanceof Error ? error.name : 'StorageError';
+    const isQuotaError = name === 'QuotaExceededError' || name === 'NS_ERROR_DOM_QUOTA_REACHED';
+
+    if (isQuotaError) {
+      console.warn(`Unable to persist ${key}: browser storage quota was exceeded.`);
+      return;
+    }
+
+    console.warn(`Unable to persist ${key}:`, error);
+  }
+}
+
+function clearTrainingStorage() {
+  localStorage.removeItem('selectedGameIndex');
+  localStorage.removeItem('moveIndex');
+  localStorage.removeItem('currentGame');
+}
+
+type SaveSnapshot = {
+  games?: Game[];
+  selectedGame?: Game | null;
+  moveIndex?: number;
+};
+
+function formatSupabaseError(error: unknown) {
+  if (error instanceof Error) {
+    return {
+      name: error.name,
+      message: error.message,
+      stack: error.stack,
+    };
+  }
+
+  if (typeof error === 'object' && error !== null) {
+    const typedError = error as Record<string, unknown>;
+    return {
+      message: typedError.message ?? 'Unknown Supabase error',
+      code: typedError.code,
+      details: typedError.details,
+      hint: typedError.hint,
+      status: typedError.status,
+      ...typedError,
+    };
+  }
+
+  return { message: String(error) };
+}
+
 export function GameProvider({ children }: { children: React.ReactNode }) {
   const [games, setGamesState] = useState<Game[]>([]);
   const [pgnProgress, setPgnProgress] = useState<PGNProgress[]>([]);
+  const [settings, setSettings] = useState<AppSettings>({
+    themeMode: 'system',
+    soundEnabled: true,
+    animationSpeed: 'normal',
+    boardTheme: 'classic',
+    pieceTheme: 'merida',
+    remindersEnabled: false,
+    reminderTime: '19:00',
+    blitzModeEnabled: false,
+  });
+  const [collections, setCollections] = useState<Collection[]>([]);
   const [selectedGame, setSelectedGame] = useState<Game | null>(null);
   const [moveIndex, setMoveIndex] = useState(0);
   const [mounted, setMounted] = useState(false);
@@ -42,15 +202,27 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
     if (savedProgress) {
       try {
         const parsed = JSON.parse(savedProgress);
-        // Convert Set strings back to Sets
-        const progressWithSets = parsed.map((p: any) => ({
-          ...p,
-          exploredGames: new Set(p.exploredGames),
-          trainedGames: new Set(p.trainedGames)
-        }));
+        // Convert persisted IDs back to Sets and hydrate games from per-file storage.
+        const progressWithSets = normalizeProgressEntries(hydrateProgressEntries(parsed));
         setPgnProgress(progressWithSets);
       } catch (error) {
         console.error('Failed to load PGN progress:', error);
+      }
+    }
+    const savedSettings = localStorage.getItem('appSettings');
+    if (savedSettings) {
+      try {
+        setSettings(JSON.parse(savedSettings));
+      } catch (error) {
+        console.error('Failed to load app settings:', error);
+      }
+    }
+    const savedCollections = localStorage.getItem('collections');
+    if (savedCollections) {
+      try {
+        setCollections(JSON.parse(savedCollections));
+      } catch (error) {
+        console.error('Failed to load collections:', error);
       }
     }
   }, []);
@@ -58,7 +230,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   // Save to localStorage whenever games change
   useEffect(() => {
     if (mounted && (!user || isGuest)) {
-      localStorage.setItem('chessGames', JSON.stringify(games));
+      safeSetLocalStorageItem('chessGames', JSON.stringify(games));
     }
   }, [games, mounted, user, isGuest]);
 
@@ -67,23 +239,24 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
     if (mounted && (!user || isGuest) && selectedGame) {
       const index = games.findIndex(g => g.pgn === selectedGame.pgn);
       if (index !== -1) {
-        localStorage.setItem('selectedGameIndex', index.toString());
+        safeSetLocalStorageItem('selectedGameIndex', index.toString());
       }
     }
   }, [selectedGame, games, mounted, user, isGuest]);
 
   // Save games to a named file and as current
   const setGames = (newGames: Game[], fileName?: string) => {
-    setGamesState(newGames);
     if (fileName) {
-      localStorage.setItem('pgnfile:' + fileName, JSON.stringify(newGames));
+      const scopedGames = scopeGamesForFile(fileName, newGames);
+      setGamesState(scopedGames);
+      safeSetLocalStorageItem('pgnfile:' + fileName, JSON.stringify(scopedGames));
       
       // Create or update PGN progress entry
       setPgnProgress(prev => {
         const existingIndex = prev.findIndex(p => p.fileName === fileName);
         const newProgress: PGNProgress = {
           fileName,
-          games: newGames,
+          games: scopedGames,
           exploredGames: existingIndex >= 0 ? prev[existingIndex].exploredGames : new Set(),
           trainedGames: existingIndex >= 0 ? prev[existingIndex].trainedGames : new Set(),
           isDone: existingIndex >= 0 ? prev[existingIndex].isDone : false,
@@ -94,30 +267,27 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
           ? prev.map((p, i) => i === existingIndex ? newProgress : p)
           : [...prev, newProgress];
 
-        // Convert Sets to arrays for JSON serialization
-        const serializable = updated.map(p => ({
-          fileName: p.fileName,
-          games: p.games,
-          exploredGames: Array.from(p.exploredGames),
-          trainedGames: Array.from(p.trainedGames),
-          isDone: p.isDone,
-          importedAt: p.importedAt
-        }));
-        localStorage.setItem('pgnProgress', JSON.stringify(serializable));
+        safeSetLocalStorageItem('pgnProgress', JSON.stringify(serializeProgressEntries(updated)));
         return updated;
       });
 
       // Update saved files list
       const files = Object.keys(localStorage).filter(k => k.startsWith('pgnfile:')).map(k => k.replace('pgnfile:', ''));
       setSavedFiles(files);
+    } else {
+      setGamesState(newGames);
     }
 
-    // Sync to database if authenticated
-    if (user && !isGuest && hasSupabaseEnv) {
-      saveProgressToDatabase();
-    } else {
-      localStorage.setItem('chessGames', JSON.stringify(newGames));
+    // Sync to local storage for guests
+    if (!(user && !isGuest && hasSupabaseEnv)) {
+      safeSetLocalStorageItem('chessGames', JSON.stringify(fileName ? scopeGamesForFile(fileName, newGames) : newGames));
     }
+  };
+
+  const resetTrainingState = () => {
+    setSelectedGame(null);
+    setMoveIndex(0);
+    clearTrainingStorage();
   };
 
   // Mark a game as completed and persist
@@ -146,24 +316,12 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
           return pgn;
         });
 
-        // Convert Sets to arrays for JSON serialization
-        const serializable = updatedProgress.map(p => ({
-          fileName: p.fileName,
-          games: p.games,
-          exploredGames: Array.from(p.exploredGames),
-          trainedGames: Array.from(p.trainedGames),
-          isDone: p.isDone,
-          importedAt: p.importedAt
-        }));
-        localStorage.setItem('pgnProgress', JSON.stringify(serializable));
+        safeSetLocalStorageItem('pgnProgress', JSON.stringify(serializeProgressEntries(updatedProgress)));
         return updatedProgress;
       });
 
-      // Sync to database if authenticated
-      if (user && !isGuest && hasSupabaseEnv) {
-        saveProgressToDatabase();
-      } else {
-        localStorage.setItem('chessGames', JSON.stringify(updated));
+      if (!(user && !isGuest && hasSupabaseEnv)) {
+        safeSetLocalStorageItem('chessGames', JSON.stringify(updated));
         // Also update in all saved files
         savedFiles.forEach(file => {
           const fileGames = localStorage.getItem('pgnfile:' + file);
@@ -171,7 +329,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
             try {
               const parsed = JSON.parse(fileGames);
               const updatedFileGames = parsed.map((g: Game) => g.id === gameId ? { ...g, completed: true } : g);
-              localStorage.setItem('pgnfile:' + file, JSON.stringify(updatedFileGames));
+              safeSetLocalStorageItem('pgnfile:' + file, JSON.stringify(updatedFileGames));
             } catch {}
           }
         });
@@ -187,11 +345,39 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
     if (fileGames) {
       try {
         const parsed = JSON.parse(fileGames);
-        setGamesState(parsed);
-        setSelectedGame(parsed[0] || null);
-        localStorage.setItem('chessGames', JSON.stringify(parsed));
+        const scopedGames = scopeGamesForFile(fileName, parsed);
+        setGamesState(scopedGames);
+        setSelectedGame(scopedGames[0] || null);
+        setMoveIndex(0);
+        safeSetLocalStorageItem('pgnfile:' + fileName, JSON.stringify(scopedGames));
+        safeSetLocalStorageItem('chessGames', JSON.stringify(scopedGames));
+        return scopedGames;
       } catch {}
     }
+
+    return [];
+  };
+
+  const loadGamesFromFiles = (fileNames: string[]) => {
+    const combinedGames = fileNames.flatMap(fileName => {
+      const fileGames = localStorage.getItem('pgnfile:' + fileName);
+      if (!fileGames) return [];
+
+      try {
+        const parsed = JSON.parse(fileGames);
+        const scopedGames = scopeGamesForFile(fileName, parsed);
+        safeSetLocalStorageItem('pgnfile:' + fileName, JSON.stringify(scopedGames));
+        return scopedGames;
+      } catch {
+        return [];
+      }
+    });
+
+    setGamesState(combinedGames);
+    setSelectedGame(combinedGames[0] || null);
+    setMoveIndex(0);
+    safeSetLocalStorageItem('chessGames', JSON.stringify(combinedGames));
+    return combinedGames;
   };
 
   // Get PGN progress for a specific file
@@ -222,30 +408,87 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
       });
 
       // Save to localStorage - convert Sets to arrays for serialization
-      const serializable = updated.map(p => ({
-        fileName: p.fileName,
-        games: p.games,
-        exploredGames: Array.from(p.exploredGames),
-        trainedGames: Array.from(p.trainedGames),
-        isDone: p.isDone,
-        importedAt: p.importedAt
-      }));
-      localStorage.setItem('pgnProgress', JSON.stringify(serializable));
+      safeSetLocalStorageItem('pgnProgress', JSON.stringify(serializeProgressEntries(updated)));
       return updated;
     });
   };
 
+  const updateSettings = (newSettings: Partial<AppSettings>) => {
+    setSettings(prev => ({ ...prev, ...newSettings }));
+  };
+
+  const createCollection = (name: string) => {
+    const collection: Collection = {
+      id: `col-${Date.now()}`,
+      name,
+      gameIds: [],
+      createdAt: Date.now(),
+    };
+    setCollections(prev => [...prev, collection]);
+  };
+
+  const renameCollection = (collectionId: string, name: string) => {
+    setCollections(prev => prev.map(col => col.id === collectionId ? { ...col, name } : col));
+  };
+
+  const deleteCollection = (collectionId: string) => {
+    setCollections(prev => prev.filter(col => col.id !== collectionId));
+    setGamesState(prev => prev.map(game => game.collectionId === collectionId ? { ...game, collectionId: null } : game));
+  };
+
+  const assignGameToCollection = (gameId: string, collectionId: string | null) => {
+    setGamesState(prev => prev.map(game => game.id === gameId ? { ...game, collectionId } : game));
+  };
+
   const clearGameData = () => {
+    resetTrainingState();
     setGamesState([]);
-    setSelectedGame(null);
-    setMoveIndex(0);
     localStorage.removeItem('chessGames');
-    localStorage.removeItem('selectedGameIndex');
+  };
+
+  const deletePgnFiles = (fileNames: string[]) => {
+    if (fileNames.length === 0) return;
+
+    const fileSet = new Set(fileNames);
+
+    fileNames.forEach(fileName => {
+      localStorage.removeItem(`pgnfile:${fileName}`);
+    });
+
+    setPgnProgress(prev => {
+      const updated = prev.filter(progress => !fileSet.has(progress.fileName));
+      safeSetLocalStorageItem('pgnProgress', JSON.stringify(serializeProgressEntries(updated)));
+      return updated;
+    });
+
+    setSavedFiles(prev => prev.filter(file => !fileSet.has(file)));
+
+    setGamesState(prev => prev.filter(game => {
+      const prefix = game.id.split(GAME_ID_SEPARATOR)[0];
+      return !fileSet.has(prefix);
+    }));
+
+    if (selectedGame && fileSet.has(selectedGame.id.split(GAME_ID_SEPARATOR)[0])) {
+      resetTrainingState();
+    }
+
+    const remainingFiles = Object.keys(localStorage)
+      .filter(k => k.startsWith('pgnfile:'))
+      .map(k => k.replace('pgnfile:', ''));
+
+    if (remainingFiles.length === 0) {
+      localStorage.removeItem('chessGames');
+      clearTrainingStorage();
+    }
   };
 
   // Database sync functions
-  const saveProgressToDatabase = async () => {
-    if (!user || isGuest || !supabase) return;
+  const saveProgressToDatabase = async (snapshot: SaveSnapshot = {}) => {
+    if (!user || isGuest || !supabase || !hasSupabaseEnv) return;
+
+    const gamesToSave = snapshot.games ?? games;
+    const selectedGameToSave = snapshot.selectedGame ?? selectedGame;
+    const moveIndexToSave = snapshot.moveIndex ?? moveIndex;
 
     try {
       // Save current games
@@ -253,21 +496,25 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
         .from('user_games')
         .upsert({
           user_id: user.id,
-          games: games,
+          games: gamesToSave,
           updated_at: new Date().toISOString()
+        }, {
+          onConflict: 'user_id',
         });
 
       if (gamesError) throw gamesError;
 
       // Save current progress
-      if (selectedGame) {
+      if (selectedGameToSave) {
         const { error: progressError } = await supabase
           .from('user_progress')
           .upsert({
             user_id: user.id,
-            selected_game_id: selectedGame.id,
-            move_index: moveIndex,
+            selected_game_id: selectedGameToSave.id,
+            move_index: moveIndexToSave,
             updated_at: new Date().toISOString()
+          }, {
+            onConflict: 'user_id',
           });
 
         if (progressError) throw progressError;
@@ -275,7 +522,16 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
 
       console.log('Progress saved to database');
     } catch (error) {
-      console.error('Failed to save progress to database:', error);
+      console.warn('Failed to save progress to database:', formatSupabaseError(error));
+
+      // Keep local state resilient when the remote write is unavailable.
+      safeSetLocalStorageItem('chessGames', JSON.stringify(gamesToSave));
+      if (selectedGameToSave) {
+        const index = gamesToSave.findIndex(g => g.id === selectedGameToSave.id);
+        if (index !== -1) {
+          safeSetLocalStorageItem('selectedGameIndex', index.toString());
+        }
+      }
     }
   };
 
@@ -298,25 +554,6 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
         setGamesState(gamesData.games);
       }
 
-      // Load progress
-      const { data: progressData, error: progressError } = await supabase
-        .from('user_progress')
-        .select('selected_game_id, move_index')
-        .eq('user_id', user.id)
-        .single();
-
-      if (progressError && progressError.code !== 'PGRST116') {
-        throw progressError;
-      }
-
-      if (progressData) {
-        const game = gamesData?.games?.find((g: Game) => g.id === progressData.selected_game_id);
-        if (game) {
-          setSelectedGame(game);
-          setMoveIndex(progressData.move_index || 0);
-        }
-      }
-
       console.log('Progress loaded from database');
     } catch (error) {
       console.error('Failed to load progress from database:', error);
@@ -332,19 +569,12 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
     } else {
       // Load from localStorage for guest users
       const savedGames = localStorage.getItem('chessGames');
-      const savedSelectedIndex = localStorage.getItem('selectedGameIndex');
       const savedProgress = localStorage.getItem('pgnProgress');
       
       if (savedGames) {
         try {
           const parsedGames = JSON.parse(savedGames);
           setGamesState(parsedGames);
-          if (savedSelectedIndex) {
-            const index = parseInt(savedSelectedIndex);
-            if (parsedGames[index]) {
-              setSelectedGame(parsedGames[index]);
-            }
-          }
         } catch (error) {
           console.error('[v0] Failed to load from localStorage:', error);
         }
@@ -353,11 +583,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
       if (savedProgress) {
         try {
           const parsed = JSON.parse(savedProgress);
-          const progressWithSets = parsed.map((p: any) => ({
-            ...p,
-            exploredGames: new Set(p.exploredGames),
-            trainedGames: new Set(p.trainedGames)
-          }));
+          const progressWithSets = normalizeProgressEntries(hydrateProgressEntries(parsed));
           setPgnProgress(progressWithSets);
         } catch (error) {
           console.error('Failed to load PGN progress:', error);
@@ -376,55 +602,47 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
     if (!mounted) return;
 
     if (user && !isGuest && hasSupabaseEnv) {
-      saveProgressToDatabase();
+      void saveProgressToDatabase();
     } else if (mounted) {
-      localStorage.setItem('chessGames', JSON.stringify(games));
+      safeSetLocalStorageItem('chessGames', JSON.stringify(games));
     }
-  }, [games, mounted, user, isGuest]);
+  }, [games, selectedGame, moveIndex, mounted, user, isGuest]);
+
+  useEffect(() => {
+    if (!mounted) return;
+    safeSetLocalStorageItem('appSettings', JSON.stringify(settings));
+  }, [settings, mounted]);
+
+  useEffect(() => {
+    if (!mounted) return;
+    safeSetLocalStorageItem('collections', JSON.stringify(collections));
+  }, [collections, mounted]);
 
   // Save selected game index for guest users
-  useEffect(() => {
-    if (!mounted || (user && !isGuest)) return;
-
-    if (selectedGame) {
-      const index = games.findIndex(g => g.pgn === selectedGame.pgn);
-      if (index !== -1) {
-        localStorage.setItem('selectedGameIndex', index.toString());
-      }
-    }
-  }, [selectedGame, games, mounted, user, isGuest]);
-
-  // Save move index for guest users
-  useEffect(() => {
-    if (!mounted || (user && !isGuest)) return;
-
-    localStorage.setItem('moveIndex', moveIndex.toString());
-  }, [moveIndex, mounted, user, isGuest]);
-
-  // Load move index on mount for guest users
-  useEffect(() => {
-    if (!mounted || (user && !isGuest)) return;
-
-    const savedMoveIndex = localStorage.getItem('moveIndex');
-    if (savedMoveIndex) {
-      setMoveIndex(parseInt(savedMoveIndex));
-    }
-  }, [mounted, user, isGuest]);
-
   return (
     <GameContext.Provider value={{ 
       games, 
       pgnProgress,
+      settings,
+      collections,
       setGames, 
       selectedGame, 
       setSelectedGame, 
       moveIndex, 
       setMoveIndex, 
+      resetTrainingState,
       clearGameData, 
+      deletePgnFiles,
       saveCompletedGame, 
       markGameExplored,
+      updateSettings,
+      createCollection,
+      renameCollection,
+      deleteCollection,
+      assignGameToCollection,
       savedFiles, 
       loadGamesFromFile,
+      loadGamesFromFiles,
       getPGNProgress 
     }}>
       {children}

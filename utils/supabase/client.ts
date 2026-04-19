@@ -8,7 +8,7 @@ export const hasSupabaseEnv = Boolean(supabaseUrl && supabaseKey);
 export const createClient = () =>
   hasSupabaseEnv
     ? createBrowserClient(
-        supabaseUrl,
-        supabaseKey,
+        supabaseUrl!,
+        supabaseKey!,
       )
     : null;

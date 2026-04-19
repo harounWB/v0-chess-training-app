@@ -1,0 +1,622 @@
+﻿[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Classical Defence"]
+[Black "3...Bc5"]
+[Result "*"]
+[ECO "C64"]
+[Annotator "GM Fabiano Caruana"]
+[PlyCount "33"]
+[EventType "swiss (rapid)"]
+[EventRounds "15"]
+
+{[%evp 0,15,28,31,24,23,23,4,22,8,45,50,50,50,89,67,70,40]} 1. e4 e5 2. Nf3 Nc6
+3. Bb5 Bc5 {[%cal Gd2d3]} (3... Nf6 4. d3 (4. O-O Bc5) 4... Bc5 {[%cal Gc2c3,
+Gd3d4]}) 4. c3 {[%cal Gd2d4]} Nf6 (4... f5 5. d4 (5. exf5 e4 6. d4 exf3 7. dxc5
+Qe7+ 8. Be3 fxg2 9. Rg1 Nf6 10. Rxg2 O-O) 5... fxe4 (5... exd4 6. exf5 Qe7+ 7.
+Be2 dxc3 8. Nxc3 Nf6 9. O-O O-O 10. Bc4+ Kh8 11. Re1 Qd8) 6. Bxc6 (6. Nxe5 Nxe5
+7. dxe5 c6 8. Bc4 Qh4 9. g3 Qh3) 6... dxc6 (6... exf3 7. Bxf3 {[%csl Gc5]}) 7.
+Nxe5 {[%cal Gd1h5,Gh5e8]} Bd6 8. Qh5+ g6 9. Qe2 (9. Nxg6 Nf6 10. Qh4 Rg8) 9...
+Bf5 10. Bf4 {[%cal Gb1d2]} (10. h3 Qe7 11. Bf4 {1-0 (31) Anand,V (2776)-L'Ami,
+E (2605) Germany 2017}) 10... Qe7 (10... Nf6 11. Nd2 O-O 12. O-O {[%cal Gf2f3,
+Ge4f3,Gd2f3]}) 11. Nd2 Nf6 12. O-O O-O-O 13. f3 exf3 14. Ndxf3 $14 {[%csl Gf6]
+[%cal Gg7g6,Gf4g5,Ga1e1]} c5 {[%cal Gc5d4]} 15. Kh1 cxd4 16. Nxd4 (16. cxd4)
+16... Rhe8 17. Ndc6 $18 bxc6 $2 18. Qa6+ Kb8 19. Nxc6+ Ka8 20. Qxa7#) 5. d4
+exd4 (5... Bb6 6. dxe5 (6. Nxe5 Nxe5 7. dxe5 Nxe4 8. Qg4 Nxf2 (8... Bxf2+ 9.
+Ke2 Qh4 10. Qxg7 Rf8) 9. Qxg7 Rf8 10. Bg5) 6... Nxe4 7. O-O d5 (7... O-O 8. Qd5
+Nc5 {[%cal Gc1g5]}) 8. exd6 Nxd6 9. Re1+) 6. e5 {[%csl Gc4][%cal Gb5c4,Gd7d5,
+Gf6e4,Gf6d5]} Ne4 (6... Nd5 7. O-O (7. cxd4 Bb4+ 8. Nbd2 O-O 9. O-O) 7... Be7 (
+7... O-O 8. cxd4 Be7 9. Nc3 (9. Qb3 Nb6 10. d5) 9... Nxc3 10. bxc3) 8. cxd4 d6
+9. Nc3 $14 Nxc3 10. bxc3 O-O 11. exd6 Bxd6) 7. O-O $1 (7. cxd4 Bb4+ 8. Nbd2 O-O
+9. O-O Nxd2 10. Bxd2 Bxd2 11. Qxd2 Ne7 12. Ng5 d6 13. f4 Bf5 14. Rae1 dxe5 15.
+fxe5 Qd5 16. Qb4 Bg6 17. Rf4 h6 18. Nf3 Qd8 19. Qb3 Nd5 20. Rg4 Bf5 21. Rg3 c6
+22. Bc4 Qb6 23. Bxd5 cxd5 24. Qxb6 axb6 25. a3 Rfc8 26. Nh4 Be4 27. Rb3 Rc6 28.
+Re2 Ra4 29. Rd2 Rac4 30. Nf3 f6 31. Kf2 g5 32. exf6 Rxf6 33. Kg3 Kg7 34. Ne5
+Rc7 35. Rc3 Rxc3+ 36. bxc3 h5 37. h4 Kh6 38. Rb2 gxh4+ 39. Kxh4 Rf4+ 40. g4
+hxg4 41. Rxb6+ Kg7 42. Rxb7+ Kf8 43. a4 Rf1 44. Kxg4 Ra1 45. Ra7 Ra3 46. a5
+Rxc3 47. a6 Ra3 48. Rf7+ Ke8 49. a7 Kd8 50. Rf8+ {1-0 (50) Anand,V (2779)
+-Vallejo Pons,F (2711) Doha 2016}) 7... dxc3 (7... d5 8. cxd4 (8. exd6 O-O 9.
+Bxc6 bxc6 10. dxc7 Qxc7 11. cxd4 $14) 8... Bb6 9. h3 {[%cal Gc8g4]} O-O 10. Nc3
+$14 Nxc3 (10... f6 11. exf6 (11. Qb3) 11... Rxf6 12. Be3) 11. bxc3 {[%csl Gb6,
+Ge5][%cal Gb5d3]}) 8. Qd5 Bxf2+ 9. Rxf2 Nxf2 10. Nxc3 $1 (10. Kxf2 cxb2) 10...
+Ng4 11. Bg5 Ne7 (11... f6 12. exf6 Nxf6 13. Re1+) 12. Qc5 {[%cal Ge8g8]} c6 (
+12... h6 13. Bxe7 Qxe7 14. Qxc7 $16) 13. Ne4 $1 cxb5 (13... d5 14. exd6 f6 15.
+Re1 $16) 14. Nd6+ Kf8 15. Nd4 $16 {[%cal Ga1f1]} Qb6 (15... Kg8 16. Rf1) 16.
+Bxe7+ Kxe7 17. Nxc8+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Bird's Defence"]
+[Black "3...Nd4"]
+[Result "*"]
+[ECO "C61"]
+[Annotator "GM Fabiano Caruana"]
+[PlyCount "27"]
+[EventType "swiss (rapid)"]
+[EventRounds "15"]
+
+{[%evp 0,27,20,20,30,30,18,32,32,32,32,32,55,32,69,68,62,68,68,29,39,39,39,35,
+40,47,49,49,49,31]} 1. e4 e5 2. Nf3 Nc6 3. Bb5 Nd4 4. Nxd4 exd4 {[%csl Gd4]
+[%cal Ge4e5,Gg8f6]} 5. O-O {[%cal Gf8c5]} (5. Bc4 {[%cal Gb5e8,Gc4f7]} Nf6 6.
+O-O d5 7. exd5 Be7 8. Qf3 Bg4 9. Qf4 O-O 10. h3 Bd6 11. Qxd4 c5 12. Qd3 Bh5 13.
+Nc3 Re8 14. f4 a6 15. a4 Qd7 16. Qg3 Ne4 17. Nxe4 Rxe4 18. b3 Qc7 19. d3 Re2
+20. Qg5 g6 21. Bb2 Be7 22. Bf6 h6 23. Be5 Qd8 24. Qxh6 Rxe5 25. d6 Re2 26. dxe7
+Qxe7 27. f5 Qh4 28. Qf4 g5 29. Qxh4 gxh4 30. Rf4 Rxc2 31. Rxh4 Be2 32. Re4 Rd2
+33. Re7 Bxd3 34. Bxf7+ Kf8 35. f6 Rd8 36. Bh5 Kg8 37. Re8+ {1-0 (37) Saric,I 
+(2671)-Carlsen,M (2877) Tromsoe 2014 CBM 162 [Roiz,M]}) 5... Bc5 (5... Nf6 6.
+e5) (5... c6 6. Bc4 Nf6 (6... d5 7. exd5 cxd5 8. Bb5+ Bd7 9. Re1+ Ne7 (9... Be7
+$2 10. Qg4 {[%csl Gg4][%cal Gb5e8]} Bxb5 11. Qxg7) 10. c4 a6 (10... Bxb5 11.
+cxb5) (10... dxc3 11. Nxc3) 11. Bxd7+ Qxd7 12. d3 O-O-O 13. Nd2 {1-0 (23)
+Kasparov,G (2838)-Khalifman,A (2698) Moscow 2002}) 7. d3 (7. e5 d5 8. exf6 dxc4
+9. Re1+ Be6) 7... d5 (7... d6 8. Nd2 Be7 9. Nf3 Bg4 10. h3 Bh5 (10... Bxf3 11.
+Qxf3) 11. g4 Nxg4 (11... Bg6 12. Nxd4) 12. hxg4 Bxg4 13. Kg2 Qd7 14. Rh1) (7...
+Be7 8. e5 d5 (8... Nd5 9. Bxd5 cxd5 {[%cal Gd1g4]}) 9. exf6) 8. exd5 Nxd5 (8...
+cxd5 9. Bb5+ Bd7 10. Bxd7+ Qxd7 11. Nd2 {[%cal Gd2b3]} Bc5 (11... Be7 12. Nb3
+Qa4 13. Re1 (13. Bf4 {[%cal Gf4e5]})) 12. Re1+) 9. Re1+ {[%cal Gd5e7]} Be7 (
+9... Be6 10. Qh5 Qd7 11. Bxd5 Qxd5 (11... cxd5 12. Nd2) 12. Qxd5 cxd5 13. Nd2
+Rc8 (13... Bc5 14. Nb3 Bb6 15. Bf4 {[%cal Gf4e5]} Rc8 16. Rac1) 14. Nb3 Rxc2
+15. Nxd4) 10. Bg5 O-O 11. Bxe7 Nxe7 12. Nd2 $14 {[%csl Gc4][%cal Gd1h5,Gd1e2]}
+Bf5 13. Qh5 Bg6 14. Qe5) (5... a6 6. Bc4) 6. Bc4 {[%cal Gc4f7,Gd1h5]} Qh4 (6...
+d6 7. d3 Qh4 {[%cal Gg8f6]} (7... Ne7 8. f4 {[%csl Ge7][%cal Gf4f5]} O-O 9. f5
+{[%cal Gd1h5]} d5 10. Bb3 dxe4 11. dxe4 d3+ 12. Kh1) (7... Nf6 8. Bg5 h6 9. Bh4
+g5 10. Bg3 {[%cal Gb1d2]} O-O (10... Qe7 11. e5 (11. Nd2 Bg4 12. f3 {[%cal
+Gg3f2,Gd2b3]}) 11... dxe5 12. Bxe5 Qxe5 13. Re1) 11. Nd2) 8. Nd2 Ne7 (8... Nf6
+9. Nf3 Qh5 10. h3 O-O 11. Re1 {[%cal Ge4e5]} Bxh3 (11... Re8 12. Ng5 Qxd1 13.
+Bxf7+) 12. gxh3 Qxh3 13. Ng5 {[%cal Gd1f3]}) 9. f4 O-O 10. f5 {[%cal Gd2f3]} d5
+11. Bb3 $16 dxe4 12. Nxe4) (6... Ne7 7. Bxf7+ Kxf7 8. Qh5+) (6... Nf6 7. e5 d5
+8. Bb5+ (8. exf6 dxc4 9. fxg7 Rg8 {[%cal Gd1h5]} 10. Qh5)) 7. d3 (7. Qf3 $5 d5
+(7... Qf6 8. Qh5 d6 9. d3) 8. Bxd5 (8. exd5 Bd6 9. Re1+ Ne7 10. g3 Bg4 11. Bb5+
+Kf8 12. Qe4 Qh5 13. b3) 8... Nf6 9. Bb3 (9. d3 Nxd5 10. exd5 O-O 11. h3) 9...
+Bd6 (9... O-O 10. d3) (9... d3 10. Qxd3) 10. g3 Bg4 11. Bxf7+ Kxf7 12. Qb3+ Be6
+13. gxh4 Bxb3 14. axb3 Nxe4 15. d3 Nf6 16. Nd2 $14) 7... Ne7 (7... d6 8. Nd2) (
+7... Nf6 8. e5 Ng4 9. Bf4) 8. Nd2 O-O (8... d6 9. f4) 9. f4 {[%cal Gf4f5,Gd2f3]
+} (9. Nf3 Qh5 10. h3 d6) (9. c3 d5 (9... dxc3 10. bxc3) 10. exd5 Bg4 11. Nf3
+Qh5 12. h3 Bxf3 13. Qxf3 Qxf3 14. gxf3 Ng6 15. Re1 Rfe8 16. Re4 Ne5 17. Kg2 f5
+18. d6+ Nxc4 19. Rxe8+ Rxe8 20. d7 Rd8 21. dxc4 dxc3 22. bxc3 Rxd7 23. Bf4 g5
+24. Be3 Bxe3 25. fxe3 Rd3 26. Rb1 b6 27. c5 Rxc3 28. cxb6 cxb6 29. Rb5 Rc5 30.
+Rb2 Kf7 31. Rd2 Ke7 32. h4 gxh4 33. Rd4 Rc2+ 34. Kh3 Rxa2 35. Rxh4 b5 36. Kg3
+Kd6 37. Kf4 Ra4+ 38. e4 fxe4 39. fxe4 a5 40. Rxh7 Ra1 41. e5+ Kc5 42. e6 Rf1+
+43. Ke5 a4 44. Ra7 Kb4 45. e7 a3 46. Ra8 Re1+ 47. Kd6 Kb3 48. e8=Q Rxe8 49.
+Rxe8 b4 50. Kc5 a2 51. Ra8 Kb2 52. Kxb4 a1=Q 53. Rxa1 {1/2-1/2 (53) Sutovsky,E
+(2642)-Rapport,R (2693) Ashdod 2015}) 9... d5 (9... d6 10. f5 d5 11. Bb3 {
+[%cal Gd2f3]} dxe4 12. Nxe4) 10. exd5 Nf5 {[%cal Gf5e3]} 11. Ne4 Bb6 12. h3 $16
+{[%cal Gg1h2]} Ne3 13. Bxe3 dxe3 14. Kh2 {[%csl Gb6]} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Schliemann Defence"]
+[Black "3...f5"]
+[Result "*"]
+[ECO "C63"]
+[Annotator "GM Fabiano Caruana"]
+[PlyCount "39"]
+[EventType "swiss (rapid)"]
+[EventRounds "15"]
+
+{[%evp 0,39,27,27,28,27,16,37,47,47,50,50,44,55,35,35,35,35,35,45,45,43,39,42,
+77,77,69,68,68,68,71,71,101,63,87,86,90,88,89,75,89,84]} 1. e4 e5 2. Nf3 Nc6 3.
+Bb5 f5 4. d3 (4. Nc3 fxe4 5. Nxe4 d5 6. Nxe5 dxe4 7. Nxc6) (4. exf5) 4... fxe4
+(4... Nf6 5. exf5) 5. dxe4 Nf6 6. O-O (6. Nc3 Bb4) (6. Qd3) 6... Bc5 (6... d6
+7. Bc4 {[%cal Gf3g5]} Bg4 (7... Na5 8. Be2 {[%csl Ga5][%cal Gf3g5,Ge2h5]} Be7 (
+8... Be6 9. Ng5) 9. b4 Nc6 10. b5 Nb8 11. Bc4) (7... Be7 8. Ng5 Rf8 9. Nxh7
+Nxh7 10. Qh5+) 8. h3 Bh5 (8... Bxf3 9. Qxf3 Qd7 10. Nc3 O-O-O 11. Be3) 9. Nc3 (
+9. g4 Bg6 10. Ng5 Qe7 11. Ne6 Bf7) 9... Qd7 (9... Nd4 10. g4 Nxf3+ (10... Nxg4
+11. Nxd4 exd4 12. hxg4) 11. Qxf3 Bg6 12. g5 (12. Be6 c6 (12... Qe7 13. Nd5) 13.
+Be3 Qe7 14. Bb3 Bf7 15. Rfd1 a6 16. Qg3 b5 17. f4 Bxb3 18. axb3 g6 19. b4 Qe6
+20. Qf3 exf4 21. Bxf4 Nd7 22. e5 d5 23. Rd4 Bg7 24. Bg3 Bxe5 25. Rd3 Bxg3 26.
+Qxg3 O-O 27. Re1 Qf6 28. Rd2 Rae8 29. Rxe8 Rxe8 30. Rf2 Qe5 31. Qxe5 Rxe5 32.
+Ne2 c5 33. bxc5 Nxc5 34. Nd4 Kg7 35. Kg2 Ne6 36. Nxe6+ Rxe6 37. Rd2 Rd6 38. Kf3
+Kf6 39. c3 Ke5 40. Re2+ Kf6 41. Re8 d4 42. cxd4 Rxd4 43. Ra8 Rd6 44. Ke4 Kg5
+45. Rh8 Rd7 46. Ra8 Rd6 47. Rh8 h6 48. b4 Rc6 49. Kd5 Rc4 50. Ra8 Rxb4 51. Rxa6
+Rb3 52. h4+ Kxg4 53. Rxg6+ Kh5 54. Rb6 b4 55. Ke4 Rh3 56. Rb5+ Kg6 57. Rb6+ Kg7
+58. Rb7+ Kf8 59. Kf5 Rxh4 60. Kf6 Ke8 61. Ke6 Re4+ 62. Kf5 Rc4 63. Rb6 h5 64.
+Ke6 Kd8 65. Kd6 Kc8 66. Kd5 Kc7 67. Rh6 Rh4 68. Kc5 Kd7 69. Kd5 b3 70. Rh7+ Kc8
+71. Kc6 Rc4+ 72. Kd5 Rb4 73. Kc6 Rc4+ 74. Kd5 b2 75. Kxc4 b1=Q 76. Rxh5 Qc2+
+77. Kd4 Qd1+ {0-1 (77) Caruana,F (2832)-Aronian,L (2765) London 2018}) 12...
+Nd7 13. h4 $16 Qe7 14. Nd5) (9... Be7 10. g4 Bg6 (10... Nxg4 11. hxg4 Bxg4 12.
+Qd3 (12. Be2)) 11. Ng5 {[%cal Gg5e6]} Nd4 (11... Qd7 12. Be6) 12. f4 h6 13. Nf3
+Nxf3+ 14. Qxf3) 10. Be3 (10. g4 Nxg4 11. hxg4 Qxg4+) 10... O-O-O (10... Be7 11.
+Be2 Bg6 12. Nh4 Bf7 13. Nf5) 11. Rb1 {[%cal Gb2b4]} (11. Be2) 11... Be7 (11...
+Kb8 12. b4) 12. b4 Kb8 (12... Rhf8 {[%cal Gc6d4]} 13. Be2 (13. b5 Nd4)) 13. Be2
+{[%cal Gb4b5]} d5 (13... Rhf8 14. b5 Na5 15. Nd2 Bxe2 16. Qxe2 {[%cal Gd2b3,
+Ga5b3,Ga2b3]} d5 17. exd5 Nxd5) 14. b5 {[%csl Ge5]} Bxf3 15. Bxf3 (15. bxc6
+Qxc6) 15... Nb4 16. exd5 Nbxd5 17. Nxd5 Nxd5 18. Bxd5 Qxd5 19. a4 $14 {[%csl
+Ga4,Gb5,Ge5][%cal Ga4b5]} Qxd1 20. Rfxd1) (6... Nxe4 7. Re1 d5) 7. Bxc6 bxc6 8.
+Nxe5 O-O 9. Nc3 {[%cal Gc8a6]} d6 (9... Ba6 10. Nd3 (10. Re1 Bxf2+ 11. Kxf2
+Ng4+) 10... Bd4 (10... Bb6 11. Bg5 {[%cal Ge4e5]} Qe8 12. Re1 Rb8 (12... Bxd3
+13. cxd3 Bxf2+ 14. Kxf2 Nxe4+ 15. Kg1 {[%cal Ge4g5]} Nxg5 16. Rxe8) (12... Qg6
+13. Bh4 {[%cal Gh4g3]} (13. Be3 Nxe4 14. Nxe4)) 13. Na4 Bxd3 14. Nxb6 (14. cxd3
+Bd4) 14... Rxb6 15. cxd3 Rxb2 16. Qc1 {[%csl Ga7][%cal Gg5e3,Gc1a3] 1-0 (71)
+Robson,R (2615)-Chirila,I (2525) Princeton 2012}) 11. Re1 {[%cal Ge4e5]} d5 (
+11... Qe8 12. e5) 12. exd5 cxd5 13. Bf4 {[%cal Gd3b4,Gf4g3]} (13. Nb4 Bxf2+ 14.
+Kxf2 Ng4+ 15. Kg1 Qh4) (13. Nf4) 13... Ne4 14. Nxe4 dxe4 15. Rxe4 Bb7 16. Re1
+Qd5 17. Qg4 {[%cal Gg4e6]} Rf6 {[%csl Ge6][%cal Gf6g6]} 18. c4 $1 Qxc4 19. Be5
+$16 Qxd3 20. Qxd4 Qg6 (20... Qxd4 21. Bxd4) 21. Bg3) 10. Na4 $5 (10. Nd3 Bd4
+11. Qe1) (10. Nxc6 Qe8) 10... Qe8 (10... Nxe4 11. Nxc5 Nxc5 12. Nxc6 Qe8 13.
+Nd4 $16 {[%cal Gf2f3]} Bb7 14. f3) (10... Qe7 11. Nxc6 Qxe4 12. Nxc5 Qxc6 (
+12... dxc5 13. Na5 {[%cal Gf2f3]}) 13. Nb3 Bb7 14. f3 {[%csl Gf3][%cal Gc1e3,
+Gd1d2,Ga1e1]} Rae8 {[%cal Gc1g5,Gd1d3]} 15. Bg5 (15. Qd3 Ba6)) (10... Bb4 11.
+Nxc6 Qe8 12. Nxb4 Qxa4) (10... Bxf2+ 11. Rxf2 dxe5 12. Qxd8 Rxd8 13. Bg5 Rd6 (
+13... Rd4 14. Bxf6 Rxa4 15. Bxe5 Rxe4 16. Bxc7) 14. Bxf6 gxf6 15. Nc5) 11. Nd3
+(11. Nxc5 Qxe5) 11... Nxe4 (11... Bd4 12. c3 Bb6 13. Nxb6 axb6 14. f3 {[%cal
+Gc3c4,Gb2b3]} Be6 15. b3 {[%cal Gd1b3]}) (11... Bg4 12. Qe1 Bd4 13. c3 Bb6 14.
+h3 (14. Nxb6 axb6 15. f3 Be6 16. b3 (16. a3) 16... Bxb3) 14... Bh5 (14... Be6
+15. b3) 15. e5 dxe5 (15... Bg6 16. Nf4) 16. Nxe5 $14 {[%cal Ga4b6,Gc1f4,Gf4g3]}
+) (11... Bb6 12. Nxb6 axb6 13. f3 {[%cal Gb2b3,Gc1b2]}) 12. Naxc5 Nxc5 13. Nxc5
+dxc5 14. Be3 {[%csl Gc5,Gc6,Gc7,Gf2,Gg2,Gh2]} Qg6 (14... c4 15. Bd4 {[%cal
+Gd4c3]} (15. Qd2)) 15. Qd2 (15. Qd3 Bf5 (15... Qxd3 16. cxd3 Bf5 {[%csl Gc5,
+Gd3]} 17. Rfc1 Bxd3 18. Rxc5 Be4 19. Ra5) 16. Qc4+ Be6 17. Qe2 (17. Qxc5 Bd5)
+17... c4 (17... Bh3 18. f3 Rae8 19. Rf2) 18. f3 a6 19. Bd4 Rae8 20. Kh1 Bd5 21.
+Qd2 Re6 22. Bc3 h6 23. Rf2 Kh7 24. Raf1 Rf5 25. Re1 Rd6 26. Be5 Rd7 27. Qc3 Qg5
+28. Rfe2 Rdf7 29. Re3 h5 30. R1e2 Qg6 31. h3 Qg5 32. Kh2 h4 33. Qd4 Re7 34. Qg4
+Kg8 35. Bc3 Rxe3 36. Rxe3 Kf7 (36... Qxe3 37. Qxg7#) 37. Be1 Qf4+ 38. Qxf4 Rxf4
+39. Ra3 Rd4 40. Rxa6 g5 41. Ra7 Rd1 42. Rxc7+ Ke6 43. Bb4 c3 44. Bxc3 Rc1 45.
+Rg7 Bxa2 46. Rxg5 Rxc2 47. Rg6+ Kd7 48. Rg4 Bd5 49. Kg1 Rc1+ 50. Kf2 Rc2+ 51.
+Kf1 Be6 {1-0 (51) Caruana,F (2772)-Radjabov,T (2793) Zug 2013 CBM 154 [Schulz,
+André]}) (15. Bxc5 Bh3 16. g3) 15... Bf5 (15... Bh3 16. f3) 16. f3 $16 (16.
+Bxc5 Be4 17. f3 Rxf3) 16... Bxc2 17. Bxc5 Rfd8 18. Qf2 a6 19. Rac1 Bd3 20. Rfe1
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Cozio Defence "]
+[Black "3...Nge7"]
+[Result "*"]
+[ECO "C60"]
+[Annotator "GM Fabiano Caruana"]
+[PlyCount "93"]
+[EventDate "2016.03.31"]
+[EventType "tourn (blitz)"]
+[EventRounds "5"]
+[EventCategory "15"]
+[SourceTitle "CBM 171 Extra"]
+[Source "ChessBase"]
+[SourceDate "2016.04.26"]
+[SourceVersion "1"]
+[SourceVersionDate "2016.04.26"]
+[SourceQuality "1"]
+
+{[%evp 0,93,19,38,25,7,30,29,47,40,50,30,22,40,79,73,46,40,44,36,36,22,57,12,
+30,51,37,60,45,17,46,10,123,85,57,-62,-71,-66,-66,-66,-66,-217,-26,-22,-59,-77,
+-77,-78,-57,-26,0,-19,-59,-54,-41,-57,-62,-54,-43,-46,0,0,0,0,0,-7,15,8,11,0,
+14,14,55,40,69,89,87,79,84,83,103,87,205,218,269,361,330,318,318,313,313,308,
+529,503,537,503]} 1. e4 e5 2. Nf3 Nc6 3. Bb5 Nge7 4. Nc3 {[%cal Gc3d5,Gd5f6]} (
+4. c3 d5 $5 5. Nxe5 (5. exd5 Qxd5) 5... dxe4 {[%cal Gd8d5]}) 4... g6 {[%cal
+Gf8g7,Ge8g8]} (4... Ng6 5. d4 exd4 6. Nxd4 Nxd4 7. Qxd4 {[%cal Gd4g7]} c6 8.
+Be2 Qb6 9. Qd3 Be7 (9... Bc5 10. O-O) 10. O-O O-O 11. a4 {[%cal Ga4a5,Gc1e3]} (
+11. Be3 Qxb2 12. Rfb1 Qa3)) (4... a6 {[%cal Gb5a4]} 5. Bc4 Ng6 (5... g6 6. Ng5)
+(5... d6 6. Ng5) 6. d4 exd4 7. Nxd4 {[%cal Gd4f5]} Bc5 8. Be3 (8. Nf5 O-O 9.
+Qh5 {[%cal Gc1g5]}) 8... Nxd4 9. Bxd4 Bxd4 10. Qxd4 O-O 11. O-O-O {[%cal Gg2g3,
+Gf2f4]}) (4... d6 5. d4 exd4 6. Nxd4 a6 7. Be2 Nxd4 8. Qxd4 Nc6 {[%cal Gd4d1]}
+9. Qd3 (9. Qd2 {[%cal Gb2b3,Gc1b2]}) 9... g6 (9... Nb4 10. Qd1 {[%cal Gc1e3,
+Gd1d2,Ge1c1]} g6 11. Be3 Bg7 12. Qd2 O-O 13. O-O (13. O-O-O Bxc3 14. bxc3 Nc6
+15. h4) (13. a3 Nc6 14. O-O-O {[%cal Gh2h4]})) 10. Be3 Bg7 11. O-O-O {[%csl
+Gc7,Gd5,Ge7][%cal Gc3d5,Gc7c6]}) 5. d4 {[%cal Gd4d5]} exd4 (5... Bg7 6. dxe5
+Nxe5 7. Nxe5 Bxe5 8. Bh6) 6. Nd5 (6. Nxd4 Bg7) 6... Bg7 (6... Nxd5 7. exd5 Qe7+
+8. Be2 Nb4 9. O-O) 7. Bg5 {[%cal Gb5c6]} h6 8. Bf6 (8. Nf6+ Kf8) 8... Bxf6 (
+8... O-O 9. Bxc6 Bxf6 10. Nxf6+ Kg7 11. Qxd4 Nxc6 12. Nh5+ {[%cal Gd4g7]}) 9.
+Nxf6+ Kf8 {[%cal Gf8g7,Ge1g1]} 10. Qd2 {[%cal Gd7d5]} (10. Nxd4 Nf5 11. exf5 (
+11. Nxc6 Qxf6) 11... Qxf6 12. Nxc6 dxc6) 10... a6 {[%cal Gb5a4]} (10... Kg7 11.
+Nxd4 Kxf6 (11... Nxd4 12. Qxd4 {[%cal Gf6h5]}) (11... Nf5 12. Nxf5+) 12. Qc3 $1
+Ne5 (12... Nxd4 13. Qxd4+ Ke6 14. O-O-O (14. Bc4+ d5 15. exd5+ Kd7 16. Bb5+ c6
+17. dxc6+ Kc7 18. Qe5+)) 13. f4) (10... d5 {[%cal Gd8d6]} 11. Bxc6 Nxc6 (11...
+bxc6 12. Qxd4) 12. Nxd5 Bf5 13. Qf4 {[%csl Gc7][%cal Gd5c7,Ge1c1]} (13. Nxc7
+Qxc7 14. exf5 Re8+ 15. Kf1 gxf5 16. g3 Kg7 17. Kg2 Re4 18. Rhe1 Rd8 19. Nh4 Qe5
+20. f3 Re3 21. Rxe3 dxe3 22. Qxe3 Qxe3 23. Nxf5+ Kg6 24. Nxe3 Rd2+ 25. Kf1 Rxh2
+26. Rd1 h5 27. Rd6+ f6 28. Ng2 Ne5 29. Kf2 Rh1 30. b3 Kf7 31. Rd8 b5 32. Rb8
+Rd1 33. Rb7+ Kf8 34. Ne1 a6 35. Rb6 {1-0 (35) Navara,D (2718)-Stevic,H (2616)
+Bol 2014}) (13. exf5 Qxd5) 13... Bxe4 14. Qxe4 Qd6 {[%cal Ga8e8]} 15. Nxc7 {
+[%csl Ge8]} (15. O-O-O Re8) 15... Qxc7 16. O-O-O (16. O-O Rd8) 16... Re8 (16...
+Kg7 17. Nxd4) (16... Rd8 17. Nxd4) 17. Qh4 g5 (17... Re2 18. Rhe1 Rxe1 19. Rxe1
+) 18. Qg3 (18. Nxg5 Nb4) 18... Qd7 19. Kb1) (10... d6 11. O-O-O Kg7 (11... Nf5
+12. Nd5) 12. Nxd4 Kxf6 13. Qc3 Ne5 (13... Nxd4 14. Rxd4) 14. f4) (10... Nf5 11.
+Nd5 (11. exf5 Qxf6 12. fxg6 fxg6 13. O-O-O d6) 11... Nfe7 (11... Nd6 12. Bd3)
+12. O-O-O {[%cal Gf3d4]}) 11. Bc4 Nf5 (11... d6 12. Nxd4 Nf5 13. Nxc6 bxc6 14.
+exf5 Qxf6 15. fxg6) (11... Ng8 12. Nd5 (12. Nxg8 Kxg8) 12... d6 13. Nxd4 Nf6
+14. Nxc6 bxc6 15. Nc3 Kg7 16. O-O-O) (11... Kg7 12. Nxd4 Kxf6 13. Qc3 {[%cal
+Gd1d2,Gd2c3]} Ne5 14. f4 Nxc4 15. Nc6+) 12. Nd5 Nd6 13. Bd3 {[%cal Ge4e5]} Kg7
+14. O-O-O Re8 15. Rhe1 Nb5 (15... f6 {[%csl Gd4][%cal Gd6f7]} 16. Qf4 {[%csl
+Gc7]} Ne5 (16... g5 17. Qg3 {[%cal Ge4e5]}) 17. Nxd4) 16. a4 Nba7 17. e5 d6 18.
+exd6 Rxe1 19. Rxe1 Qxd6 20. Be4 Be6 21. Nf4 Bg4 22. h3 Bxf3 23. Bxf3 Rd8 24.
+Nd3 b5 25. a5 b4 26. b3 Rb8 27. Kb2 Nxa5 28. Ra1 Rb5 29. Qf4 Qd7 30. Ne5 Qf5
+31. Qxf5 gxf5 32. Nc4 Nxc4+ 33. bxc4 Rb6 34. c5 Re6 35. Kb3 Nb5 36. Kxb4 d3 37.
+cxd3 Nd4 38. Kc4 Nxf3 39. gxf3 Kf6 40. d4 Kg5 41. d5 Rf6 42. d6 cxd6 43. c6 Re6
+44. c7 Re8 45. Kd5 Kf6 46. Rc1 Re5+ 47. Kd4 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Cozio Defence Deferred"]
+[Black "3...a6 4.Ba4 Nge7"]
+[Result "*"]
+[ECO "C70"]
+[Annotator "GM Fabiano Caruana"]
+[PlyCount "35"]
+[EventDate "2016.03.31"]
+[EventType "tourn (blitz)"]
+[EventRounds "5"]
+[EventCategory "15"]
+[SourceTitle "CBM 171 Extra"]
+[Source "ChessBase"]
+[SourceDate "2016.04.26"]
+[SourceVersion "1"]
+[SourceVersionDate "2016.04.26"]
+[SourceQuality "1"]
+
+{[%evp 0,93,19,38,25,7,30,29,47,40,50,30,22,40,79,73,46,40,44,36,36,22,57,12,
+30,51,37,60,45,17,46,10,123,85,57,-62,-71,-66,-66,-66,-66,-217,-26,-22,-59,-77,
+-77,-78,-57,-26,0,-19,-59,-54,-41,-57,-62,-54,-43,-46,0,0,0,0,0,-7,15,8,11,0,
+14,14,55,40,69,89,87,79,84,83,103,87,205,218,269,361,330,318,318,313,313,308,
+529,503,537,503]} 1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nge7 5. c3 (5. Nc3 d6 (
+5... g6 6. d4 exd4 7. Nd5 Bg7 8. Bg5 b5) 6. d4 exd4 7. Nxd4 b5) 5... g6 (5...
+d5 $2 6. Nxe5 dxe4 7. Qb3 Be6 (7... Qd5 8. Qxd5 (8. Nxc6) 8... Nxd5 9. Nxc6 Bd7
+10. Nb4 Nxb4 11. Bxd7+ Kxd7 12. cxb4) 8. Qxb7) (5... b5 6. Bb3 Ng6 7. d4) (5...
+Ng6 6. d4) (5... d6) 6. d4 exd4 7. cxd4 b5 (7... Bg7 8. d5) (7... d5 8. exd5
+Nxd5 9. O-O Bg7 10. Bg5 Qd6 11. Nbd2 (11. Re1+ Be6) 11... O-O 12. Nc4 $36 Qb4
+13. Rc1 b5 14. a3 Qxa4 15. b3) 8. Bc2 (8. Bb3 Bg7 9. d5 Na5 {[%csl Gb3]}) 8...
+d5 (8... Bg7 9. d5 Na5 (9... Nb4 10. Bb3 a5 11. a3 Na6 12. Nc3 {[%csl Gb5]})
+10. Bd2 $1 c5 (10... Bxb2 11. Bxa5 Bxa1 12. Nc3 Bb2 (12... Bxc3+ 13. Bxc3 O-O (
+13... Rg8 14. Bf6) 14. Bf6 {[%cal Gd1d2,Gd2h6]}) 13. d6 Nc6 14. dxc7 (14. Nd5
+Nxa5 15. dxc7 {[%csl Ge7,Gf6,Gg5,Gh4]}) 14... Qe7 15. Nd5) (10... Nc4 11. Bc3
+Bxc3+ 12. Nxc3 Nxb2 13. Qd4 O-O 14. e5 {[%cal Gc3e4,Ge4f6]} (14. h4)) 11. Bc3
+O-O 12. O-O $16 Bxc3 13. Nxc3 d6 14. b3 {[%cal Gf7f5,Ga5c4]} f5 15. e5 dxe5 16.
+d6) 9. exd5 (9. e5 {[%cal Gf8g7,Gf7f6]}) 9... Nxd5 10. O-O Be6 (10... Bg7 11.
+Bg5 (11. Re1+ Be6 12. Bg5 Qd7 13. Nc3 O-O 14. Be4 Rae8 15. Bxd5 Bxd5 16. Ne5
+Nxe5 17. dxe5 c6 18. f4 f6 19. Bxf6 Bxf6 20. Nxd5 cxd5 21. exf6 Rxe1+ 22. Qxe1
+Rxf6 23. Qd2 d4 24. Rd1 d3 25. Qxd3 Qxd3 26. Rxd3 Rxf4 27. Rd6 Rc4 28. Rxa6
+Rc1+ 29. Kf2 Rc2+ 30. Kg1 Rc1+ 31. Kf2 Rc2+ 32. Kg1 Rc1+ {1/2-1/2 (32) Anand,V
+(2760)-Mamedyarov,S (2808) Stavanger 2018}) 11... Nde7 (11... Qd6 12. Nbd2 O-O
+13. Ne4 Qd7 {[%cal Ge4c5,Gf3e5]} 14. Bb3) (11... Nce7 12. Nc3 Nxc3 13. bxc3 O-O
+14. Re1) (11... Qd7 12. Re1+) 12. Be4 f6 13. Bf4 O-O 14. Nc3 g5 (14... f5 {
+[%csl Gf4]} 15. Bc2 (15. Bxc6 Nxc6 16. d5) 15... Nxd4 16. Nxd4 Qxd4 17. Bb3+
+Kh8 18. Qxd4 Bxd4 19. Rfe1 {[%csl Gc7]}) 15. d5 $1 (15. Bg3 f5 16. Bxc6 Nxc6
+17. d5 f4 18. dxc6 fxg3 19. Qb3+ Kh8 20. fxg3 g4 21. Nh4 Rxf1+ 22. Rxf1 Qe7 23.
+Qf7 Bd4+ 24. Kh1 Qxf7 25. Rxf7 Be6 26. Rf4 Bxc3 27. bxc3 Bxa2 28. Nf5 a5 29.
+Nd4 Bc4 30. Nc2 Bd3 31. Rf2 a4 32. Rd2 Bxc2 33. Rxc2 Ra6 34. Rb2 Rxc6 35. Rxb5
+Rb6 {0-1 (35) Zhigalko,A (2584)-Morozevich,A (2731) Bilbao 2014}) 15... gxf4 (
+15... Nb4 16. d6 {[%csl Ga8,Ge7]}) 16. dxc6 Qxd1 17. Raxd1 $16 f5 18. Bd5+ Nxd5
+19. Nxd5 {[%csl Gc7]}) 11. Nc3 (11. Bg5 Be7 (11... Qd7)) 11... Bg7 12. Bg5 (12.
+Nxd5 Qxd5 (12... Bxd5 13. Re1+ Be6 (13... Ne7 14. Bg5 Be6 15. Bxe7 Qxe7 16. d5)
+14. d5) 13. Bb3 Qf5 14. Bxe6 (14. d5 O-O-O) 14... fxe6) 12... Nxc3 (12... Qd7
+13. Nxd5 Bxd5 (13... Qxd5 14. Bb3 Qf5 15. d5) 14. Re1+ Kf8 15. Ne5 (15. Be4)
+15... Nxe5 16. dxe5) 13. bxc3 Qd7 (13... Qd6 14. Nd2 O-O 15. Ne4) (13... Ne7
+14. Re1 O-O 15. d5) 14. Be4 (14. Re1 O-O {[%cal Ge6d5]}) 14... f5 (14... O-O
+15. d5) (14... h6 15. d5 hxg5 16. dxe6) 15. Bc2 Na5 (15... O-O 16. d5 Bxd5 (
+16... Qxd5 17. Bb3) 17. Bb3 Rad8 18. Bxd8 Rxd8) 16. Re1 O-O 17. h4 $14 h6 (
+17... Nc4 18. h5 (18. Bf4) (18. Qc1 {[%cal Gh4h5,Gh5h6]}) 18... h6) 18. Bf4 {
+[%csl Ge5]} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Smyslov Defence"]
+[Black "3...g6"]
+[Result "*"]
+[ECO "C60"]
+[Annotator "GM Fabiano Caruana"]
+[PlyCount "91"]
+[EventType "swiss (rapid)"]
+[EventRounds "15"]
+[SourceTitle "Mega2018 Update 54"]
+[Source "Chessbase"]
+[SourceDate "2018.11.04"]
+[SourceVersion "1"]
+[SourceVersionDate "2018.11.04"]
+[SourceQuality "1"]
+
+{[%evp 0,91,26,20,20,20,26,14,53,36,36,14,29,29,23,17,31,12,12,9,8,9,9,9,9,20,
+10,0,0,10,17,-8,-8,-8,-8,-3,4,12,76,18,59,45,57,45,57,26,33,45,41,55,92,82,95,
+95,177,99,114,63,111,111,102,0,0,0,0,0,16,2,142,63,63,-71,135,51,166,174,244,
+197,199,154,154,162,218,226,254,255,298,278,721,647,744,731,921,1052]} 1. e4 e5
+2. Nf3 Nc6 3. Bb5 g6 {[%cal Gf8g7,Gg8e7,Ge8g8]} (3... a6 4. Ba4 g6 5. d4 (5. c3
+Bg7 6. d4 exd4 7. cxd4 b5 8. Bc2 d6 9. d5 Na5 10. Bd2 Bxb2 11. Bxa5 Bxa1 12.
+Nc3 Bb2) 5... exd4 6. Nxd4 (6. Bg5) 6... Bg7 (6... b5 7. Nxc6 dxc6 8. Qxd8+
+Kxd8 9. Bb3) 7. Nxc6 bxc6 (7... dxc6 8. Qxd8+ Kxd8 9. Nc3 Be6 10. Bb3) 8. Nc3
+Ne7 9. Be3 O-O (9... Rb8 10. Bb3) 10. Qd2 d6 11. O-O-O Be6 12. h4 Rb8 13. h5 c5
+14. Bh6 Bh8 15. f4 f5 16. hxg6 Nxg6 17. g4 fxe4 18. f5 Be5 19. fxe6 Rf3 20. Bb3
+Kh8 21. Nxe4 c4 22. Ng5 cxb3 23. axb3 Qf6 24. Nxf3 Qxf3 25. Qa5 Rc8 26. Qa4 c6
+27. Qxa6 Re8 28. Kb1 c5 29. Qb5 Ra8 30. Bd2 Bg7 31. Bc3 Bxc3 32. bxc3 Ne5 33.
+e7 {1-0 (33) Tukhaev,A (2570)-Sindarov,J (2429) New Delhi 2018}) (3... Nge7 {
+[%cal Gb1c3]} 4. c3 g6 5. d4) 4. d4 (4. c3 a6 (4... Bg7 5. d4 exd4 6. cxd4) 5.
+Ba4 (5. Bxc6 dxc6 6. d4) 5... Bg7 (5... Nge7 6. d4) 6. d4 exd4 (6... b5 7. Bb3)
+7. cxd4 b5 8. Bc2 {[%cal Gd7d6]} d6 (8... Nge7 9. d5) 9. d5 Na5 10. Bd2 Bxb2
+11. Bxa5 Bxa1 12. Nc3 Bb2) 4... exd4 5. c3 $5 (5. Nxd4 Bg7) (5. Bg5 Be7 6. Bxe7
+Qxe7 7. Bxc6 dxc6 8. Qxd4 Nf6) 5... Nge7 (5... Bg7 6. cxd4 a6 7. Ba4 (7. Bxc6))
+(5... dxc3 6. Nxc3 h6 (6... Bg7 7. Bg5 Nge7 8. Nd5 h6 9. Bf6 Bxf6 10. Nxf6+ Kf8
+11. Qd2 {[%cal Gf8g7,Gd2c3]}) (6... a6 7. Bc4 Bg7 8. Ng5 Nh6) 7. O-O Bg7 8. Bd2
+$1 Nge7 9. Qc1 d6 (9... g5 10. Nd5 {[%cal Gd2c3]} O-O 11. Bc3 d6 12. Bxg7 Kxg7
+13. Qc3+ f6 14. Rac1 {[%csl Gc7][%cal Gd5e7]}) 10. Nd5 $44 Kf8 (10... Bd7 11.
+Bc3) 11. Bxc6 Nxc6 12. Bc3 Be6 13. Re1) (5... a6 6. Bxc6 (6. Ba4 Bg7 7. cxd4 b5
+8. Bc2 d6) 6... dxc6 7. cxd4 Bg4 (7... Bg7 8. h3 Ne7 (8... Nf6 9. Nc3 O-O 10.
+O-O {[%csl Gc8]}) 9. Nc3 O-O 10. O-O {[%cal Gc1f4,Gd1d2]} f5 (10... h6 11. Bf4)
+11. Re1 fxe4 12. Nxe4 {[%cal Gf3e5,Gc1g5,Ge4c5]}) 8. Qb3 {[%csl Gb7]} Bxf3 (
+8... Bg7 9. Ne5 Bxe5 10. dxe5 Qd7 11. f3 Be6 12. Qxb7) 9. gxf3 Bg7 (9... Qxd4
+10. Qxb7 Qb4+ 11. Qxb4 Bxb4+ 12. Bd2 (12. Ke2) 12... Bxd2+ 13. Nxd2 {[%cal
+Ga1c1,Gb2b3,Gd2c4]}) 10. Be3 (10. Qxb7 Ne7) 10... Ne7 (10... Bxd4 11. Bxd4 Qxd4
+12. Qxb7 Rd8 13. Qxc6+ Kf8 14. O-O) 11. Nc3 Bxd4 (11... O-O 12. O-O-O {[%csl
+Gd4][%cal Gh2h5]}) 12. O-O-O (12. Bxd4 Qxd4 13. Qxb7 O-O 14. Qxc7 Nd5) 12...
+Bxe3+ (12... c5 13. Qxb7) 13. fxe3 Qc8 14. h4 b6 (14... O-O 15. h5 Qe6 16. Qxb7
+(16. Qxe6 fxe6 17. Rd7 Rae8 18. f4 {[%cal Ge4e5]})) 15. h5 Qe6 16. Qa4 O-O 17.
+Qd4 c5 18. Qd7 Rac8 (18... Qxd7 19. Rxd7) 19. f4 Nc6 20. hxg6 hxg6 21. Qd2 Kg7
+22. Nd5 Nb4 23. f5 Nxa2+ 24. Kb1 Qxe4+ 25. Kxa2 Qxf5 26. e4 {1-0 (26)
+Fressinet,L (2649)-Stevic,H (2579) Batumi 2018}) 6. cxd4 d5 (6... a6 7. Ba4 b5
+8. Bc2) 7. exd5 Nxd5 8. O-O Bg7 (8... a6 9. Bxc6+) 9. Bxc6+ (9. Bg5 Qd6 (9...
+f6 10. Re1+ Kf7 11. Bd2) 10. Re1+ Be6 11. Nbd2 O-O 12. Ne4 Qb4 13. Bxc6 bxc6
+14. Qc1 {tr.}) (9. Re1+ Be6) 9... bxc6 10. Bg5 Qd6 (10... f6 11. Re1+ Kf7 12.
+Ne5+ (12. Bd2) 12... Kg8 13. Nc3 $1 (13. Nxc6 Qd7) 13... fxg5 (13... Nxc3 14.
+bxc3 fxg5 15. Nxc6) 14. Nxc6 Qd7 15. Nxd5 {[%csl Gc6,Gd5][%cal Gd5e7,Gc6e7]})
+11. Re1+ Be6 12. Nbd2 O-O 13. Ne4 Qb4 14. Qc1 $1 {tr.} (14. Qc2 h6) 14... Rfe8
+(14... Rab8 15. b3) (14... Rae8 15. Bd2 Qb6 16. Nc5 Bf5 17. Ne5 Re7 18. h3 Rfe8
+19. a4 Bxe5 20. dxe5 Rxe5 21. Rxe5 Rxe5 22. Bh6 {[%csl Gh6]} Nf4 23. Qxf4 Qxc5
+24. Rd1) 15. Bd2 Qb6 (15... Qb5 16. a4 Qb6 17. Nc5 {[%cal Ga1a3,Ga3b3]}) 16.
+Nc5 Bf5 (16... Bg4 17. Ne5) 17. Ne5 Rad8 (17... Re7 {[%cal Ga8e8]} 18. h3) 18.
+h3 Nf6 19. Nb3 Rd5 (19... Be4 20. Ba5 Qb5 (20... Qb7 21. Nc5) (20... Qb8 21.
+Nxc6 Bxc6 22. Qxc6) 21. Bxc7 Rc8 22. Bd6) (19... Rxe5) (19... Re6 20. Ba5) 20.
+Nxc6 Rxe1+ 21. Bxe1 Bf8 22. Ne5 Be6 23. Nc4 Qb7 24. Ne3 Rh5 25. Nc5 Bxc5 26.
+dxc5 Bxh3 27. c6 Qc8 28. f3 Bxg2 29. Nxg2 Qh3 30. Bc3 Nd5 31. Bd4 f6 32. Qe1
+Kf7 33. Rd1 Rg5 34. Qe2 Kg7 35. Bc5 Re5 36. Qf2 Rg5 37. Rd4 Qe6 38. Re4 Qxc6
+39. Qd4 a5 40. a3 h5 41. Kh2 Kh7 42. Qc4 Qb7 43. Re7+ Kh8 44. Bd4 Rf5 45. Rd7
+Qb8 46. Qc6 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Steinitz Defence "]
+[Black "3...d6"]
+[Result "*"]
+[ECO "C62"]
+[Annotator "GM Fabiano Caruana"]
+[PlyCount "39"]
+[EventType "swiss (rapid)"]
+[EventRounds "15"]
+
+{[%evp 0,39,21,20,20,36,32,25,25,4,32,19,28,0,0,0,8,11,11,19,14,33,52,52,52,52,
+52,52,60,52,65,65,65,14,52,-5,38,25,26,26,26,26]} 1. e4 e5 2. Nf3 Nc6 3. Bb5 d6
+4. d4 (4. c3 Nf6 (4... a6) (4... g6 5. d4 Bd7 6. O-O Bg7) (4... Bd7 5. d4 a6 6.
+Bc4) 5. d4 Bd7 6. Bd3 (6. O-O Nxe4 7. Re1 Nf6) (6. Nbd2 Be7 7. O-O O-O 8. Bd3
+Bg4 9. h3 Bh5 10. Qb3 Qc8 11. Re1 Re8) 6... Be7 (6... exd4 7. cxd4 Nb4 8. Nc3
+Nxd3+ 9. Qxd3) 7. O-O O-O 8. d5 (8. a3 Bg4 9. d5 Nb8) (8. h3 exd4 9. cxd4 Nb4
+10. Nc3 Nxd3 11. Qxd3) 8... Nb8 9. c4 Bg4 10. h3 Bh5 11. Nc3 Nbd7 12. Be3 h6
+13. Be2) 4... exd4 (4... Bd7 5. d5 Nce7 (5... Nb8 {[%cal Gf7f5,Gf3g5,Gg5e6]} 6.
+Bd3 {[%csl Gb8,Gd7][%cal Gd3f5]} (6. c4 {[%cal Gc4b5]} Nf6 (6... Bxb5 7. cxb5 {
+[%csl Gc7][%cal Gc1c7]}) 7. Nc3 Be7 (7... c6 8. Ba4 {[%csl Gd6]} Be7 9. O-O O-O
+10. c5 (10. h3 {[%cal Gc1e3]} Na6 11. Be3 {[%csl Gc5]}) 10... cxd5) 8. Bxd7+ (
+8. Be3 O-O {[%csl Gb5][%cal Gd7g4]}) 8... Nbxd7 9. Be3 g6 10. h3 Nh5 {[%cal
+Gf6h5,Gh5g7]} 11. O-O O-O (11... f5 12. exf5 gxf5 13. Nxe5 {[%cal Gd1h5]}) 12.
+Rc1 Ng7 13. b4 (13. Ne1 {[%cal Gf3e1,Ge1d3]} f5 14. f3 f4 (14... Bg5) 15. Bf2 {
+[%csl Gc8][%cal Gc8g4,Gg6g5,Gh7h5,Gg5g4]}) 13... f5 14. c5 f4 (14... dxc5 15.
+bxc5 {[%csl Ge5][%cal Gd5d6]}) 15. cxd6 cxd6 16. Bd2 a6 17. b5 g5 18. bxa6 bxa6
+19. Ne1 h5 20. Nd3 {[%cal Gd3b4,Gb4c6]} a5 {[%cal Gc3b5,Gb5c7]} 21. g4 {
+[%csl Gg7]} f3 22. Ne1 hxg4 23. hxg4 Nf6 24. Qxf3 Qd7 25. Qh3 Nxg4 26. Kg2 Kf7
+27. f3 Nf6 28. Qxd7 Nxd7 29. Nd3 a4 30. Rb1 Ra7 31. Nb5 Raa8 32. Nc3 Ra7 33.
+Rb4 Nh5 34. Rfb1 Nf4+ 35. Bxf4 exf4 36. Nb5 Ra5 37. Nd4 Nc5 38. Nc6 Nxd3 39.
+Rb7 Rc5 40. Rxe7+ Kg6 41. Re6+ Kg7 42. Nd4 g4 43. Rxd6 gxf3+ 44. Kxf3 Ne5+ 45.
+Kf2 Rc4 46. Ne6+ Kf7 47. Rb7+ {1-0 (47) Ivanchuk,V (2758)-Ehlvest,J (2613)
+Jurmala 2013}) (6. Bxd7+ Nxd7 7. c4 {[%cal Gf3g5,Gg5e6]})) 6. Bxd7+ Qxd7 7. c4
+Nf6 (7... Ng6 8. Nc3) 8. Nc3 Ng6 9. Bg5 Be7 10. Bxf6 Bxf6 11. g3 O-O 12. h4) 5.
+Nxd4 Bd7 (5... Nge7 {[%cal Gg7g6,Gf8g7]} 6. O-O a6 (6... g6 7. Nxc6 Nxc6 8. Qd4
+) 7. Be2 {[%csl Gc4]} g6 8. Be3 Bg7 9. Nc3 O-O 10. Qd2 Nxd4 (10... f5 11. Nxc6
+Nxc6 12. exf5 (12. Rad1) 12... Bxf5 13. Rad1 {[%csl Gd5][%cal Gc7c6]}) 11. Bxd4
+Bxd4 12. Qxd4 Nc6 {[%cal Gd4e3,Gd4d2]} 13. Qd2) 6. O-O (6. Nc3 g6 7. Be3 Bg7 8.
+Qd2 Nf6 {[%cal Gf6g4]} 9. f3 O-O 10. O-O-O Nxd4 11. Bxd4 c6 12. Bc4 b5) (6.
+Nxc6 bxc6 7. Bc4 g6 8. Nc3 Bg7 9. Be3 Nf6 10. f3 O-O) (6. Bxc6 bxc6 7. O-O g6
+8. c4 c5 9. Nf3 Bg7 10. Nc3 Ne7 11. h3 O-O 12. Re1 Nc6 13. Bg5 f6 14. Be3 f5
+15. exf5 Rxf5 16. Rc1 Ne5 17. Nxe5 Bxe5 18. Qd2 Bc6 19. Nd5 Qd7 20. Bxc5 Qf7
+21. Be3 Rb8 22. b4 Bxd5 23. cxd5 Rb5 24. Red1 Rxd5 25. Qc2 Rxd1+ 26. Rxd1 a6
+27. Qe2 Bf4 28. Qxa6 Bxe3 29. fxe3 Rf2 30. Rc1 c5 31. bxc5 Rxa2 32. Qc8+ Kg7
+33. Rf1 Qe7 34. cxd6 Qxd6 35. Qc3+ Kh6 36. Rf4 Rd2 37. Rh4+ Kg5 38. Rg4+ Kh6
+39. Rd4 Rd1+ 40. Rxd1 Qxd1+ 41. Kf2 Qd5 42. Qf6 Qd3 43. Qf8+ {1-0 (43) Bologan,
+V (2732)-Ivanchuk,V (2769) Astana 2012}) 6... g6 7. Nc3 Bg7 8. Nxc6 (8. Be3 Nf6
+9. f3 O-O) 8... bxc6 {[%csl Ga7,Gc6,Gc7]} (8... Bxc6 9. Bxc6+ bxc6 10. Be3 {
+[%cal Gd1d2,Ge3h6,Ge3d4]}) 9. Ba4 {[%csl Ga7,Gc6,Gc7][%cal Gd6d5]} (9. Bc4 Nf6
+{[%cal Gd6d5]}) 9... Ne7 {[%csl Ge7][%cal Gc6c5,Ge7c6]} (9... Nf6 {[%cal Gf6g4,
+Gg4e5]} 10. Bg5 h6 (10... O-O 11. e5 dxe5 12. Ne4) 11. Be3 (11. Bh4 O-O) 11...
+O-O (11... Ng4 12. Bd4) 12. f3 {[%csl Gh6][%cal Gd1d2]} Re8 (12... Rb8 {
+[%cal Ga4b3]} 13. Qd2 {[%csl Ga7]} (13. Bb3 {[%csl Ga7][%cal Gc6c5]} c5 14. Qd2
+Kh7 15. e5 dxe5 (15... Ne8 16. exd6 cxd6 17. Rad1 {[%csl Gc5,Gd6]}) 16. Bxc5 {
+[%csl Ga7,Gf7,Gf8]}) 13... Rxb2 14. Bb3 {[%csl Gc3][%cal Gc3a4,Ge3h6]}) 13. Qd2
+Kh7 (13... h5 14. Bg5 {[%csl Gg5]}) 14. Bb3 {[%csl Gf7]} Be6 {[%csl Ga7][%cal
+Ge6b3,Ga2b3]} 15. Ne2 {[%cal Ge2d4]}) 10. Be3 (10. Bg5 h6 11. Bh4 (11. Be3 O-O
+12. Qd2 Kh7 {[%csl Ge7,Gh6,Gh7][%cal Gf7f5,Gg6g5]}) 11... g5 12. Bg3 Ng6 {
+[%csl Ge5,Gf4,Gf5]} 13. f3 O-O 14. Rb1 Kh7 15. Ne2 c5 16. c3 f5 17. exf5 Bxf5
+18. Bc2 Qf6 19. b4 Bxc2 20. Qxc2 Qf5 21. Rfc1 Rab8 22. Qxf5 Rxf5 23. Bf2 c4 24.
+Nd4 Bxd4 25. Bxd4 Nf4 26. Re1 Rf7 27. Rbd1 Nd3 28. Re4 c5 29. bxc5 dxc5 30. Be3
+Rfb7 31. h4 Rb1 32. Rxb1 Rxb1+ 33. Kh2 Rb2 34. hxg5 hxg5 35. Rxc4 Rxa2 36. Kg3
+Kg6 37. Rg4 Ne1 38. Bf2 Nd3 39. Be3 Ne1 40. Kh3 Re2 41. Bxc5 Nd3 42. Bxa7 Nf4+
+43. Kh2 Rc2 44. Be3 Kf5 45. Bxf4 gxf4 46. Rg8 Rxc3 47. Ra8 Rc2 48. Ra5+ Kf6 49.
+Kh3 Rb2 {1/2-1/2 (49) King,D (2506)-Beikert,G (2440) Germany 1999}) 10... O-O
+11. Qd2 {[%csl Gf6][%cal Ge3h6]} Rb8 12. Bb3 $14 {[%csl Ga7]} c5 13. Bh6 {
+[%cal Gf2f4,Gf4f5]} Nc6 14. Bxg7 Kxg7 15. Nd5 {[%cal Gc6d4,Gc2c3,Gd2c3,Gf2f4,
+Gf4f5]} Nd4 16. c3 Nxb3 17. axb3 Rxb3 18. Rxa7 {[%csl Gc7,Gf6]} Qb8 19. Rxc7
+Rxb2 20. Qf4 {[%cal Gf4f6]} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Steinitz Defence Deferred"]
+[Black "3...a6 4.Ba4 d6 5.0-0 Bg4"]
+[Result "*"]
+[ECO "C72"]
+[Annotator "GM Fabiano Caruana"]
+[PlyCount "33"]
+[EventType "swiss (rapid)"]
+[EventRounds "15"]
+
+{[%evp 0,39,21,20,20,36,32,25,25,4,32,19,28,0,0,0,8,11,11,19,14,33,52,52,52,52,
+52,52,60,52,65,65,65,14,52,-5,38,25,26,26,26,26]} 1. e4 e5 2. Nf3 Nc6 3. Bb5 a6
+4. Ba4 (4. Bxc6 dxc6 5. O-O Bg4 6. h3 h5) 4... d6 5. O-O (5. d4 b5 (5... exd4
+6. Nxd4 Bd7 7. Nxc6 bxc6 {[%csl Ga4]}) 6. Bb3 Nxd4 7. Nxd4 exd4 8. c3 (8. Qxd4
+c5 9. Qd5 Be6 10. Qc6+ Bd7 11. Qd5 c4) 8... dxc3 9. Qd5 {[%csl Ga8,Gf7]} Be6
+10. Qc6+ Bd7 11. Qd5 Be6) (5. c3 f5 (5... g6 6. d4 Bd7) 6. exf5 Bxf5 7. O-O {
+[%cal Gd2d4]} Bd3 {[%csl Gd3]} 8. Re1 {[%csl Gd3]}) (5. c4 {[%csl Gb5][%cal
+Gb1c3,Gd2d4]}) 5... Bg4 $6 6. h3 h5 (6... Bh5 7. c3 Nf6 8. d4 b5 9. Bc2 Bxf3 (
+9... exd4 10. cxd4 Bxf3 11. gxf3) 10. Qxf3 (10. gxf3 Nh5 {[%csl Gf4]}) 10...
+exd4 11. Qd3 $1 (11. Rd1 Ne5 12. Qg3 Nh5 13. Qh2 dxc3 14. Nxc3 c6 15. f4 Qb6+
+16. Kf1 Nc4 17. g4 Nf6 18. Qe2 Be7 19. b3 Na5 20. e5 dxe5 21. fxe5 Nd7 22. Bf5
+Nf8 23. Ne4 Ne6 24. Bb2 O-O 25. Nf6+ gxf6 26. exf6 Bc5 27. Bxe6 Kh8 28. Rd7
+Rae8 29. Rad1 Nb7 30. Re7 Rd8 31. Rxf7 Rxd1+ 32. Qxd1 Rxf7 33. Bxf7 Qc7 34. Bd5
+Qf4+ 35. Qf3 Qxf3+ 36. Bxf3 Kg8 37. Bxc6 {1-0 (37) Altshuler,R-Estrin,Y ICCF
+corr 1965}) 11... dxc3 (11... Be7 12. cxd4 Nb4 13. Qc3 Nxc2 14. Qxc2 {[%csl
+Gd4,Ge4]} O-O 15. Nc3 {[%csl Gc7]} c5 16. dxc5 dxc5 17. e5) 12. Qxc3 Qd7 (12...
+Ne5 13. f4) 13. Rd1 $16 Be7 14. f4 {[%cal Ge4e5]}) (6... Bxf3 7. Qxf3 {[%cal
+Gc2c3,Gd2d4]}) 7. d4 $1 (7. hxg4 hxg4 {[%cal Gh8h1,Gd8h4]}) 7... b5 (7... exd4
+8. hxg4 hxg4 9. Ng5) (7... Bxf3 8. Qxf3 b5 (8... exd4 9. e5)) 8. Bb3 Nxd4 (8...
+Bxf3 9. Qxf3 {[%csl Gd4][%cal Gf3f7]}) 9. hxg4 hxg4 (9... Nxb3 10. axb3 hxg4
+11. Ng5 Qd7 (11... Nh6 12. Qd5 {[%cal Gd5c6]} Be7 {[%csl Ga8,Gg5]} 13. f4 {
+[%cal Gd5g5]} exf4 14. Bxf4 {[%csl Gg5]}) 12. c4 (12. Qd3 Rb8 13. Rxa6 f6 14.
+Nc3 fxg5 15. Bxg5 Be7 16. f4 gxf3 17. Qxf3 Nf6 18. Nd5 Nxd5 19. Qf7+ Kd8 20.
+Qxg7 Kc8 21. Qxh8+ Kb7 22. Qh7 Qg4 23. exd5 Qd4+ 24. Kh1 Bxg5 25. Rfa1 Be3 26.
+Ra7+ Qxa7 27. Rxa7+ Bxa7 28. g4 Rf8 29. g5 Rf2 30. Qe4 Rf1+ 31. Kh2 Rf4 32.
+Qxf4 exf4 33. c3 {1-0 (33) Gashimov,V (2679)-Grischuk,A (2716) Baku 2008 CBM
+124 [Gashimov,V]}) 12... Rb8 (12... c6 13. cxb5 cxb5 14. Nc3 {[%csl Gd5]} f6
+15. Qd5 {[%csl Ga8][%cal Gg5e6,Gd5e6]}) 13. Rxa6 f6 14. Nc3 fxg5 15. Ra7 $1 Qf7
+(15... g6 16. Nxb5 Qh7 (16... Rxb5 17. Ra8+ Kf7 18. cxb5) 17. Nxc7+ {[%cal
+Gc7e6]}) 16. Nd5 Qh5 17. Nxc7+ Kd8 18. Bxg5+ Nf6 (18... Qxg5 19. Ne6+ {[%csl
+Gd8,Gg5]}) 19. f4 (19. Re1) 19... exf4 (19... g3 20. Qxh5) (19... Qh2+ 20. Kf2
+{[%cal Gc7e6]}) 20. Ne6+ Ke8 21. Kf2 $1 g3+ 22. Ke1 Qxd1+ 23. Kxd1 {1-0 (44)
+Makarov,A-Calonge Gonzalez,A (2306) ICCF email 2012}) 10. Ng5 Nh6 11. Bd5 c6 (
+11... Be7 12. c3 Bxg5 13. cxd4) (11... Rb8 12. c3 {[%csl Gd4]}) 12. c3 cxd5 13.
+cxd4 Be7 14. Qd2 dxe4 15. Nc3 $1 (15. dxe5 d5 16. Nc3 e3 17. Qxd5 Bxg5 18. Qc6+
+Kf8 19. Bxe3 Bxe3 20. fxe3 Qe8 21. Qd6+ Kg8 22. Rad1 g3 23. Nd5 Kh7 24. Rf6 Ng4
+25. Rd4 Rd8 26. Rxg4 Rxd6 27. exd6 Kg8 28. Ne7+ Kf8 29. Ng6+ Kg8 30. Ne7+ Kf8
+31. Ng6+ {1/2-1/2 (31) De Firmian,N (2570)-Timman,J (2655) Reykjavik 2000})
+15... Nf5 16. Ngxe4 Nxd4 (16... exd4 17. Nd5 {[%cal Gd8h4,Gd2f4]}) 17. Ng3 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Steinitz Defence Deferred"]
+[Black "3...a6 4.Ba4 d6 5.0-0 Bd7/Nf6"]
+[Result "*"]
+[ECO "C72"]
+[Annotator "GM Fabiano Caruana"]
+[PlyCount "39"]
+[EventType "swiss (rapid)"]
+[EventRounds "15"]
+
+{[%evp 0,39,21,20,20,36,32,25,25,4,32,19,28,0,0,0,8,11,11,19,14,33,52,52,52,52,
+52,52,60,52,65,65,65,14,52,-5,38,25,26,26,26,26]} 1. e4 e5 2. Nf3 Nc6 3. Bb5 a6
+4. Ba4 d6 5. O-O (5. c4 {[%csl Gb5][%cal Gb1c3,Gd2d4]}) 5... Bd7 (5... Nf6 6.
+Re1 b5 (6... Bg4 7. Bxc6+ bxc6 8. h3 Bxf3 9. Qxf3 Be7 10. Na3 O-O 11. Nc4 $14)
+(6... Bd7 7. c3) 7. Bb3 Na5 (7... Be7 8. c3 (8. d4 Nxd4 9. Nxd4 exd4) 8... O-O
+9. h3) 8. d4 Nxb3 9. axb3 exd4 10. Nxd4 Bd7 11. Nf5 (11. e5 dxe5 12. Rxe5+ Be7
+13. Qe2 c5 14. Nf3 Be6 15. Bg5 O-O 16. Nc3 Qc7 17. h3 h6 18. Bh4 Rfe8 19. Re1
+Kh8 20. Qe3 Nd7 21. Rxe6 fxe6 22. Bxe7 b4 23. Nh4 bxc3 24. bxc3 Qc6 25. Rd1 c4
+26. Rd6 Qb5 27. Qxe6 Nf8 28. Qf7 Rxe7 29. Qxe7 Re8 30. Qc7 Re1+ 31. Kh2 Qe5+
+32. g3 Re2 33. Qb6 Kh7 34. Rd8 Ne6 35. Rh8+ {1-0 (35) Huebner,R (2600)-Kavalek,
+L (2600) Tilburg 1980}) 11... Bxf5 12. exf5+ Be7 13. Qe2 $16) 6. d4 (6. Bxc6
+Bxc6 7. d4 Bxe4) 6... b5 (6... exd4 7. Bxc6 Bxc6 (7... bxc6 8. Qxd4 c5 (8...
+Nf6 9. e5) 9. Qd3 Ne7 (9... Nf6 10. Nc3 Be7 11. e5 dxe5 12. Nxe5) 10. Re1 f6
+11. Nc3 g6 12. e5 $1 (12. Nd5 Bg7 13. Bf4 Be6 14. c3 O-O 15. b4 cxb4 16. cxb4
+Bf7 17. Rac1 Nxd5 18. exd5 Qd7 19. a3 Rfe8 20. Rxe8+ Rxe8 21. h3 g5 22. Be3 h5
+23. Qc4 g4 24. hxg4 hxg4 25. Nd4 f5 26. Ne6 Bxe6 27. dxe6 Qxe6 28. Qxe6+ Rxe6
+29. Rxc7 Be5 30. Rc6 f4 31. Bd2 g3 32. Kf1 Bd4 33. fxg3 fxg3 34. Be1 Rf6+ 35.
+Ke2 Re6+ 36. Kd1 Be5 37. Rxa6 Re7 38. b5 Kf7 39. a4 Ke6 40. Rc6 Rb7 41. Rc4 Rb8
+42. Rg4 Kf5 43. Rb4 Ke6 44. a5 Kd5 45. a6 Kc5 46. a7 Ra8 47. b6 d5 48. Rb3 Kc6
+49. Bxg3 Bxg3 50. Rxg3 Kxb6 51. Ra3 {1-0 (51) Mista,A (2590)-Piorun,K (2633)
+Warsaw 2018 CBM 185 [Sadorra,J]}) 12... dxe5 (12... fxe5 13. Bg5 {[%cal Gc3d5,
+Gg5f6]} Bg7 14. Nd5) 13. Bg5 $1 Bg7 (13... fxg5 14. Nxe5) 14. Rad1 fxg5 15.
+Nxe5 Bxe5 (15... Bf5 16. Qc4 {[%cal Gd1d8,Gc4f7]} Qxd1 17. Qf7+) 16. Rxe5 Bg4 (
+16... Bf5 {[%cal Gd3e3]}) 17. Rde1 Qxd3 18. Rxe7+ {[%cal Gc2d3]}) 8. Nxd4 Be7 (
+8... Bd7 9. c4 Nf6 10. Nc3 Be7 11. h3 O-O 12. Re1 $14) 9. Nxc6 (9. Nc3) 9...
+bxc6 10. Qf3 Qd7 (10... Nf6 11. e5 dxe5 12. Qxc6+ Nd7 13. Rd1) 11. Bf4 (11. b3
+Bf6 12. Nc3 Ne7 13. Bd2) 11... Bf6 (11... Nf6 12. Nc3 O-O 13. e5 dxe5 14. Bxe5)
+12. Nc3 Ne7 13. Qd3 Bxc3 (13... Ng6 14. Bd2 O-O 15. f4 Rab8 16. b3) (13... O-O
+14. e5 Ng6 15. exf6 Nxf4) 14. Qxc3 O-O 15. Rad1 Qe6 16. Rfe1 c5 (16... Qxa2 17.
+b3) 17. Bg3 Ng6 18. e5 dxe5 19. Bxe5 Nxe5 20. Rxe5 Qxa2 21. b3 Qa3 22. Rxc5 a5
+23. g3 Rad8 24. Ra1 Qb4 25. Qxb4 axb4 26. Rxc7 g6 27. Raa7 Rd4 28. Rab7 g5 29.
+Kf1 h6 30. Rc4 Rd2 31. Ke1 Rfd8 32. Rbxb4 {1-0 (32) Motylev,A (2675)-Le Roux,J
+(2560) London 2017}) (6... Nf6 7. Bxc6 (7. Re1 b5 8. Bb3 Nxd4 9. Nxd4 exd4)
+7... Bxc6 8. Re1 Be7 (8... exd4 9. Nxd4 Be7 10. Nf5 O-O 11. Bg5) (8... Bxe4 9.
+Bg5 Bxf3 10. Qxf3 {[%csl Gb7,Ge5]}) (8... Nxe4 9. d5) 9. Nc3 exd4 (9... O-O 10.
+dxe5 dxe5 11. Qxd8 Raxd8 12. Nxe5 Bxe4 13. Nxe4 Nxe4 14. Nd3 $18 (14. Rxe4 Rd1+
+) 14... f5 15. f3 Bc5+ 16. Nxc5 Nxc5 17. Bg5 {[%cal Gg5e7]}) 10. Nxd4 Bd7 (
+10... O-O 11. Nxc6 (11. Nf5 Bd7 12. Nxe7+ Qxe7 13. Be3) 11... bxc6 12. f4 Re8
+13. Be3 Bf8 14. Qf3 Rb8 15. b3 {[%cal Ga1d1,Ge4e5]}) 11. h3 O-O 12. Qf3 c6 13.
+Bf4 Qb6 14. Rad1 (14. Nb3) 14... Rad8 (14... Qxb2 15. Rb1 Qa3 16. Nd5 {[%csl
+Ga3]} Qxf3 17. Nxe7+ Kh8 18. Nxf3) 15. g4 Ne8 16. Nf5 Bxf5 17. exf5 Bf6 18. g5
+Bxc3 19. Qxc3 Rd7 20. f6 Qd8 21. Qg3 (21. Kh1 Nc7 22. Qg3 Re8 23. Rxe8+ Qxe8
+24. fxg7 Qe4+ 25. Kh2 Nd5 26. Bxd6 Qxc2 27. Rg1 Rd8 28. Be5 Qe2 29. Rg2 Re8 30.
+f4 Qe4 31. Rf2 a5 32. h4 Ne3 33. Qf3 Rxe5 34. fxe5 Qxh4+ 35. Kg1 Qxg5+ 36. Kh1
+Qh4+ 37. Kg1 {1/2-1/2 (37) Svidler,P (2690)-Ivanchuk,V (2711) Moscow 2002})
+21... gxf6 22. gxf6+ Kh8 23. Rxe8 {[%csl Gg7]}) 7. Bb3 Nxd4 (7... exd4 8. c3 (
+8. Nxd4 Nxd4 9. Qxd4 c5) 8... dxc3 9. Nxc3 Be7 10. Qd5 {[%csl Gf7]}) (7... Nf6
+8. Ng5) 8. Nxd4 exd4 9. c3 dxc3 (9... Nf6 10. cxd4 {[%cal Ge4e5]}) 10. Qh5 (10.
+Nxc3) (10. Qd5 Be6 11. Qc6+ Bd7) 10... g6 (10... Qe7 11. Nxc3 Nf6 12. Qf3 Qd8)
+(10... Qf6 11. Nxc3 {[%cal Gc3d5]}) 11. Qd5 Be6 12. Qc6+ Bd7 13. Qxc3 Nf6 (
+13... f6) (13... Qf6 14. Qxc7) 14. Re1 (14. e5 dxe5 15. Qxe5+ Qe7 (15... Be7 {
+[%cal Gc1h6]}) 16. Qxc7 (16. Qc3 b4 17. Qf3 Rb8) 16... Bg7 17. Nc3 O-O 18. Bf4)
+14... Bg7 (14... Be7 {[%cal Gc1h6]} 15. e5 dxe5 16. Qxe5) 15. e5 dxe5 16. Rxe5+
+Kf8 17. h3 $1 Bf5 (17... Ne8 18. Bf4 (18. Qf3 Nd6 {[%csl Gf7]} 19. Bg5)) (17...
+h6 {[%cal Gf8g8,Gg8h7]}) 18. Qc6 $1 Nd7 19. Rd5 Qe8 20. Rd1 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Norwegian Variation"]
+[Black "4...b5 5...Na5"]
+[Result "*"]
+[ECO "C70"]
+[Annotator "GM Fabiano Caruana"]
+[PlyCount "37"]
+[EventDate "2014.06.16"]
+[EventType "swiss (rapid)"]
+[EventRounds "15"]
+
+{[%evp 0,25,20,20,20,20,9,14,16,4,4,4,60,49,34,49,41,31,31,40,56,63,70,67,63,
+63,89,93]} 1. e4 e5 2. Nf3 Nc6 (2... Nf6 3. Nxe5 d6 4. Nxf7 Kxf7) 3. Bb5 a6 4.
+Ba4 b5 5. Bb3 Na5 {[%csl Ge5][%cal Gb8c6,Gc6a5,Ga5b3]} 6. O-O (6. Bd5 c6 7.
+Bxf7+ Kxf7 8. Nxe5+ {[%csl Ga5]} Ke7 9. d4) 6... d6 (6... Nxb3 7. axb3 d6 8. d4
+) 7. d4 exd4 8. Nxd4 Bb7 {[%csl Gf8,Gg8][%cal Gb8c6,Gc6a5,Ga5b3,Gc2c4]} (8...
+Nxb3 9. axb3 {[%csl Gb5]}) (8... c5 9. Bd5 Rb8) 9. Bd2 $1 {[%csl Ga5]} (9. c4 {
+[%csl Gc4]} c5 (9... bxc4 10. Ba4+ c6 11. Bd2 {[%csl Ga5][%cal Gd1e1]}) (9...
+Nxc4 10. a4 {[%csl Gb5]}) 10. Nf5 (10. Ne2 {[%csl Ga5,Gb5][%cal Gb1c3]} Bxe4
+11. Ng3 Bb7 12. Re1+ {[%cal Gg3f5]}) 10... g6 11. Ne3 Nf6 12. Nd5 Bg7 13. Nbc3
+O-O 14. Bg5 Nxb3 15. axb3 b4 16. Qf3 Nxd5 17. Bxd8 bxc3 18. exd5 cxb2 19. Bf6
+bxa1=Q 20. Rxa1 Rfe8 21. h3 a5 22. Bxg7 Kxg7 23. Rxa5 Re1+ 24. Kh2 Rae8 25. Ra7
+R1e7 26. Qc3+ f6 27. Qa5 {1-0 (27) Anand,V (2788)-Mamedyarov,S (2719) Moscow
+2009}) 9... c5 {[%cal Gc5d4,Gc5c4]} (9... Nxb3 10. Nxb3 {[%cal Gb3a5]} Nf6 11.
+Na5 Rb8 (11... Bxe4 12. Re1 {[%cal Gf2f3,Gb1c3]} Be7 13. Nc3 d5 14. Nc6 Qd7 15.
+Nxe7 Qxe7 16. f3) (11... Qc8 12. Re1 Be7 13. e5 dxe5 14. Rxe5 Bd5) 12. Nxb7
+Rxb7 13. Qf3 {[%csl Ge8][%cal Ge4e5]} Rb8 {[%cal Gd2a5,Gb1c3]} 14. Nc3 Be7 15.
+Rad1 {[%cal Gd2f4,Ge4e5]}) 10. Bd5 Bxd5 (10... cxd4 11. Bxa5 Qxa5 12. Bxb7 {
+[%csl Gd4][%cal Gb7c6]}) 11. exd5 cxd4 12. Qe1+ {[%csl Ga5,Gd4,Gd6,Ge8]} Qe7 (
+12... Be7 13. Bxa5 {[%cal Gb1d2,Gd2f3,Gf3d4]}) 13. Bxa5 {[%cal Ge1d2]} Qxe1 14.
+Rxe1+ Ne7 {[%cal Ge8d7,Ge7f5,Gf8e7]} 15. c4 $1 dxc3 (15... bxc4 16. Nd2 {
+[%cal Gd2c4]} Rc8 17. Rac1 {[%csl Gd6][%cal Gd2c4]}) (15... Kd7 16. Na3 {
+[%csl Gb5]} (16. Nd2 {[%cal Ga1c1]})) 16. Nxc3 Kd7 17. a4 bxa4 18. Nxa4 Nxd5
+19. Red1 *
+

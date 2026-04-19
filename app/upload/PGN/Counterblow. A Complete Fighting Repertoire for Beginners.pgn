@@ -1,0 +1,3465 @@
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Introduction"]
+[Black "Welcome to this repertoire!"]
+[Result "*"]
+[FEN "rnbq1rk1/ppp1ppbp/3p1np1/8/8/8/PPPPPPPP/RNBQKBNR w KQ - 0 1"]
+[SetUp "1"]
+
+
+{ Hello and welcome aboard! I'm so excited to share with you the opening system that got me from a 12-year-old beginner to a National Master. The fact that it can be used against king's pawn opening [ 1.e4 ], all 1.d4 setups including the London System, the English Opening [ 1.c4 ], and anything else White plays made it my only weapon as Black. And yes, I still use it all the time when I play online or over the board. I would like to give you a special thanks for taking the time to go over this introduction chapter. Here you will learn how even though I started Chess late, the opening system you are about to learn was all I needed to make it to master level with very little memorization. I will also tell you more about why I picked it and why I never replaced it. Lastly, you must understand how although this setup works against anything White plays, we still need to be able to tell when we are facing the king's pawn opening [ 1.e4 ] or something else. My first visit to the local Chess academy in Artemisa, Cuba was at the age of 12. When I got there, they already had a group of players who had been training together for years. According to the head coach, I was a bit old to get into competitive Chess since they typically looked for kids between the ages of 5 and 9. Compared to someone who started that young, I was indeed behind. Of course, he didn't tell me this until many years later, but he certainly did not want to invest time and energy on me. I was given a tactics book to work on my own at the back of the room. I could only join the rest of the students once they were done with their lesson to play blitz [5 minute games]. This continued for four months until it was time to compete to see who would represent Artemisa in the State scholastic championship. That's when the head coach of the academy sat with me to talk about an opening repertoire. He showed me a few openings for Black, but he already knew which one I was going to pick. Before visiting the academy, I knew the basics of the game from playing in my neighborhood with other novice players. They often forgot about my hidden bishops from far away [like the g7-bishop in the current position]. Once in the academy, I continued developing my bishops in such a way. It's called a fianchetto. So, when I saw an opening with such a component, I chose it. It happened to be the Pirc Defense. Of course, my coach had stronger reasons for introducing me to the hypermodern movement! Hypermodern? Yes, we will talk about it later in the course. First, let's review why my coach thought this was the opening for someone who started Chess 'late'. a] It is a system. This means one only needs to know where the pieces go and the typical plans. Move order is not that relevant and that reduces the amount of theory one has to memorize. b] It can be played even if White does not start with 1.e4 . In such cases, we call it King's Indian Defense [KID] instead of Pirc Defense, but the setup is the same. This means we don't need to learn a separate opening to face the queen's pawn opening [ 1.d4 ] for example. c] Although elite players such as Magnus Carlsen and Vladimir Kramnik have used the Pirc Defense, it is not so popular. So, a lot of players are not familiar with it. Even at the master level, I always feel like I'm bringing my opponents into my territory. d] I don't want you to, but this opening system could also be played as White. I hope you pick something else as White so that you learn more Chess in general, but know you have that option. It could look something like this: @@StartFEN@@rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1@@EndFEN@@ 1.d3 d5 2.Nf3 Nf6 3.g3 e6 4.Bg2 Be7 5.O-O and so on. This could occur from a variety of move-orders, including after @@StartFEN@@rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1@@EndFEN@@ 1.Nf3 . But again, I don't recommend playing this way as White to avoid becoming a one-note chess player. My experience with this repertoire: With this opening system for Black, I made the team for my hometown. Then, thanks to my results in the state championships, I was offered to join a school of Chess where training was more intense than what we had at the local academy. I was there for 3 years until my family decided to move to the United States. By then, I had been training consistently and playing one or two tournaments a year, but I didn't have any rating yet. Rated tournaments were not so abundant back then. Why am I telling you all this? Well, once in the U.S., I did not play Chess for years. However, once in college, I decided to play a few tournaments. Since Pirc/KID is all about the main ideas and plans, I was able to utilize it without much preparation and after a few tournaments, I got the National Master title. Of course, we cannot attribute it to my opening repertoire only, but it certainly helped to always be in my elements and get to the middlegame comfortably. Why did I make this course? I have been teaching Chess for over 10 years now and I've learned a great deal about what beginners want in order to take their game to the next level. I also know that what they typically want is the opposite of what they need. I don't teach the same opening to every student I work with. At the end of the day, we are all different and we need an opening we connect with and enjoy. However, my formula to take beginners to the next level is simple: 10 % Opening [understand the ideas behind your moves] 75 % Tactics [solve as many puzzles as possible] 10 % Strategy & positional Chess 5% Basic endgames [basic checkmates + basic king & pawns] This and playing games consistently over a long period of time [length depends on talent and other factors] never fails. The key word is consistency of course. Every time any of my students learns a new opening from a book or course, they expect the author to cover every single line their opponent could play. They want to be handheld all the way. However, due to the nature of Chess, that is impossible. The good news is that since we chose a system, we can apply the same plans to anything White plays. For example, once you cover the chapter titledPirc vs. Classical Variation, you will have the most important plans in this opening system and with them, you can start playing and getting familiarized with your new opening. However, learning the other variations is crucial too since they show you more specific and effective plans to deal with the trickiest setups White can adopt. Please, don't aim to memorize everything. Just learn the initial moves and typical ideas. Then, you start using it. If you encounter a variation you forgot, refer back to this course and review it. With that said, here is what I want you to keep in mind as you go through this course: a] If White starts with the move 1.e4 , our system is called Pirc Defense. b] If White starts with the move 1.d4 [or anything other than 1.e4 , ] our system is called King's Indian Defense [KID] and middlegame plans might be slightly different. c] After many years playing and teaching this opening system, I can tell you it's way more common to encounter 1.e4 than 1.d4 at the beginner and intermediate levels. For that reason, I would focus more on the Pirc Defense chapters. The other White opening you'll encounter often is theLondon System. So, review that chapter well too. I hope you enjoy the course and are able to use this fighting repertoire for the rest of your chess career! }
+1.-- *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Introduction"]
+[Black "What is the Pirc Defense?"]
+[Result "*"]
+[ECO "B08"]
+
+1.e4
+{ This is called King's Pawn Opening because White starts by moving the
+pawn in front of their king two steps. } 1...d6
+{ against 1. e4 we do not start with 1...Nf6 because that would allow White
+to take more space and hit our knight with 2.e5! . This way, our d-pawn
+controls the e5 square and we are ready to continue with ...Nf6 next. } 2.d4
+Nf6 3.Nc3 g6 4.Nf3 Bg7
+{ Since White played the King's Pawn Opening [1.
+e4], our system is called Pirc Defense. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Introduction"]
+[Black "What is the King's Indian Defense (KID)?"]
+[Result "*"]
+[ECO "E61"]
+
+1.d4
+{ This is called Queen's Pawn Opening because White starts by moving the
+pawn in front of their queen two steps. } 1...d6 2.c4 Nf6 3.Nc3 g6 4.Nf3 Bg7
+{ Since White played the Queen's Pawn Opening [1.
+d4], our system is called King's Indian Defense
+[KID]. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Introduction"]
+[Black "Glossary of Terms"]
+[Result "*"]
+
+
+{ Here is a glossary of some chess terms relevant to this repertoire. When
+these terms first arise in the course, you can click them to see their
+definition here. You can also click the terms from here to navigate to an example from the course. Fianchetto: The term for the placement of a bishop
+on a long diagonal - specifically the b2, g2, g7, or b7 squares. From here, they have great scope and aggressive possibilities. Flank Pawn: A pawn on the edge of the board, as opposed to the center. Typically these are the a, b, g, & h-pawns. In the middlegame, these can be pushed to aid in an
+attack. Fork: Also called a double attack, when a piece attacks more than one of the opponent's pieces at the same time. Hypermodern: An approach to the opening that emerged after World War 1 by pioneer Aron Nimzowitsch that involves conceding the center and attacking it from the sides with minor pieces, and only later striking in the center with a pawn. Leverage Pawn: When attacking with pawns on one side of the board, it can be useful to start with a pawn move up one square to support a future push by an adjacent pawn. The supporting pawn can be called a Leverage Pawn. In this
+course, ...c6 will be a common leverage pawn move, preparing the aggressive ...b5 advance. Prophylaxis The concept of stopping your opponent's idea before proceeding with your own. Thematic: A term to describe a normal idea, maneuver, or piece arrangement in a given opening that is useful to know and repeat in your own games. Tempo: A term used to measure time and development in chess, often in the opening. If a white knight develops from its starting square and attacks the enemy queen at the same time, White is gaining a tempo since the queen likely must spend another move to retreat. This can also apply in other stages of the game. Transposition: An alternative move-order that reaches the same position as from another move order. In other words, different routes to the same destination. }
+1.-- *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "1) Pirc vs. Classical Variation"]
+[Black "Pirc vs. Classical Variation Introduction"]
+[Result "*"]
+[ECO "B08"]
+
+
+{ What is the most important part of the Chess board? Before learning any
+openings, we need to know the answer to this question. Yes, we are talking
+about the center. More specifically the squares e4, e5, d4 and d5 . } 1.e4 d6
+{ Ashypermodern players, we would love to start by moving our knight from
+g8 to f6. That way, we immediately threaten their e4-pawn. Yes, that's what
+we like to do! However, that same pawn could advance putting our knight in danger. For that reason, we first play 1...d6. }
+2.d4 Nf6
+{ As early as in move #2, we can fully appreciate whathypermodern openings
+are all about. We allow our opponent to build a solid pawn center
+[White's e4 and d4 pawns] only to attack it with our knights and bishops [also known as minor
+pieces]. } 3.Nc3 g6
+{ Now that White reacted to our previous threat
+[Nxe4], we prepare to put our f8-bishop inside
+thefianchetto [g7]. From there, it will be eyeing the center. }
+4.Nf3 Bg7
+{ I love this bishop hiding inside the fianchetto. So many opponents forget
+about it. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "1) Pirc vs. Classical Variation"]
+[Black "Classical Variation: 3.e5 Sideline"]
+[Result "*"]
+[ECO "B00"]
+
+
+{ What is the most important part of the Chess board? Before learning any
+openings, we need to know the answer to this question. Yes, we are talking
+about the center. More specifically the squares e4, e5, d4 and d5 . } 1.e4
+{ Now you understand why White typically starts by moving their central
+pawns. Of course they want to control the most important part of the
+battlefield. On the other hand, Black wants the opposite! } 1...d6
+{ Ashypermodern players, we would love to start by moving our knight from
+g8 to f6. That way, we immediately threaten their e4-pawn. Yes, that's what
+we like to do! However, that same pawn could advance putting our knight in danger. For that reason, we first play 1...d6. }
+2.d4
+{ Just like that! White is so happy to have full control over the center. }
+2...Nf6
+{ As early as in move #2, we can fully appreciate whathypermodern openings
+are all about. We allow our opponent to build a solid pawn center
+[White's e4 and d4 pawns] only to attack it with our knights and bishops [also known as minor
+pieces]. } 3.e5
+{ Mistake! As Pirc/KID players, we like when our opponent breaks their
+perfect center. It's like when a boxer throws a punch and leaves themselves
+open for our counterpunch. Now, we can take advantage of this premature attack thanks to simple tactics. }
+3...dxe5 4.dxe5 Qxd1+
+{ This is the main problem with White's third move. Now, they must
+re-capture with their king losing the right to castle. } 5.Kxd1
+{ We forced the white king to move, which means it cannot castle anymore
+and the f2-pawn is no longer defended. With that said, don't forget about
+their e5-pawn hitting our knight. So, where should we move next? } 5...Ng4
+{ Fork! I hope you have been training your tactics. } 6.Ke1
+{ If they try to hold on to their pawns by playing 6.f4 then we have
+another nice fork after 6...Nf2 . } 6...Nxe5
+{ After this forced line, Black: a] won a pawn b]
+got ahead in development c] prevented White from castling } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "1) Pirc vs. Classical Variation"]
+[Black "Classical Variation: 5.Bc4"]
+[Result "*"]
+[ECO "B08"]
+
+
+{ What is the most important part of the Chess board? Before learning any
+openings, we need to know the answer to this question. Yes, we are talking
+about the center. More specifically the squares e4, e5, d4 and d5 . } 1.e4
+{ Now you understand why White typically starts by moving their central
+pawns. Of course they want to control the most important part of the
+battlefield. On the other hand, Black wants the opposite! } 1...d6
+{ Ashypermodern players, we would love to start by moving our knight from
+g8 to f6. That way, we immediately threaten their e4-pawn. Yes, that's what
+we like to do! However, that same pawn could advance putting our knight in danger. For that reason, we first play 1...d6. }
+2.d4
+{ Just like that! White is so happy to have full control over the center. }
+2...Nf6
+{ As early as in move #2, we can fully appreciate whathypermodern openings
+are all about. We allow our opponent to build a solid pawn center
+[White's e4 and d4 pawns] only to attack it with our knights and bishops [also known as minor
+pieces]. } 3.Nc3
+{ This time, White plays the main move. Notice how their knight develops by
+protecting the vulnerable e4-pawn. } 3...g6
+{ Now that White reacted to our previous threat
+[Nxe4], we prepare to put our f8-bishop inside
+thefianchetto [g7]. From there, it will be eyeing the center. }
+4.Nf3
+{ After White's fourth move, we are officially facing the classical
+variation. In my mind, this means no stress! } 4...Bg7
+{ I love this bishop hiding inside the fianchetto. So many opponents forget
+about it. } 5.Bc4
+{ This is the move my students find the most at the beginner level. We all
+learn the importance of developing our minor pieces as in the Italian game.
+Therefore, it's common to see White adopting this setup. } 5...O-O
+{ Now that our king is safe, we are ready to show our opponent what the
+hypermodern movement is all about. } 6.O-O
+{ At this point, you can play what's considered to be the best move
+6...Nxe4! or what I like to play myself 6...Bg4 . The former is simpler and
+easy to memorize. The latter requires more work, but I feel it brings White into our tricky hypermodern territory. You will see 6...Bg4 next.
+Let's focus on the easy one! } 6...Nxe4
+{ This feels good! Once again, you see how our main focus is White's
+central pawns! Now they can capture our knight right away or sacrifice
+their bishop on f7 first. } 7.Nxe4
+{ The alternative would be 7.Bxf7+ Rxf7 8.Nxe4 h6 We need to keep the white
+pieces away from g5. Then, we redirect our focus to the center with
+Bg4-Nc6-e5. } 7...d5
+{ Fork! Give me my piece back and your center is not what it used to be. }
+8.Bd3 dxe4 9.Bxe4 Nd7
+{ White still has a central pawn and we want to trade it for ourflank pawn
+by playing c5. } 10.Be3 c5
+{ A possible continuation is 11.dxc5 Qc7 where Black has pressure on the
+c5-pawn while the g7-bishop is ready to capture something down the a1-h8
+diagonal. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "1) Pirc vs. Classical Variation"]
+[Black "Classical Variation: 5.Bd3 #1"]
+[Result "*"]
+[ECO "B08"]
+
+
+{ What is the most important part of the Chess board? Before learning any
+openings, we need to know the answer to this question. Yes, we are talking
+about the center. More specifically the squares e4, e5, d4 and d5 . } 1.e4
+{ Now you understand why White typically starts by moving their central
+pawns. Of course they want to control the most important part of the
+battlefield. On the other hand, Black wants the opposite! } 1...d6
+{ Ashypermodern players, we would love to start by moving our knight from
+g8 to f6. That way, we immediately threaten their e4-pawn. Yes, that's what
+we like to do! However, that same pawn could advance putting our knight in danger. For that reason, we first play 1...d6. }
+2.d4
+{ Just like that! White is so happy to have full control over the center. }
+2...Nf6
+{ As early as in move #2, we can fully appreciate whathypermodern openings
+are all about. We allow our opponent to build a solid pawn center
+[White's e4 and d4 pawns] only to attack it with our knights and bishops [also known as minor
+pieces]. } 3.Nc3
+{ This time, White plays the main move. Notice how their knight develops by
+protecting the vulnerable e4-pawn. } 3...g6
+{ Now that White reacted to our previous threat
+[Nxe4], we prepare to put our f8-bishop inside
+thefianchetto [g7]. From there, it will be eyeing the center. }
+4.Nf3
+{ After White's fourth move, we are officially facing the classical
+variation. In my mind, this means no stress! } 4...Bg7
+{ I love this bishop hiding inside the fianchetto. So many opponents forget
+about it. } 5.Bd3
+{ In this variation, White develops their light-squared bishop to d3
+avoiding Black's central fork [seeprevious line with 5.Bc4
+] . } 5...O-O
+{ White's last move still means no stress, so we take a moment to put our
+king in safety. } 6.O-O
+{ I can see you getting sad already because we don't have the centralfork.
+Well, let me introduce you to my favorite plan against the Classical
+setup... } 6...Bg4
+{ I've used this move vs. anything in the Classical: 5. Bc4 5. Bd3 or 5.
+Be2. Fewer plans to remember! We want to neutralize the f3-knight! Sure,
+but why? a] now White feels pressured and if that knight moves, we get their queen b] eliminating the f3-knight leaves
+their d4-pawn hanging in the center [our target] c] the f3-knight is preventing us from striking the center with thethematic ...e5 push. }
+7.h3 Bxf3 { Our bishop did its part —good bye, knight! } 8.Qxf3
+{ Do we play ...e5 now? No! White's d4-pawn is not protected anymore. White
+could also play 8.gxf3 but it would ruin their pawn structure and expose
+their king. } 8...Nc6
+{ It's so nice to develop our pieces with atempo! Now White has two ways to
+react to our threat [...Nxd4]. Option 1 is to
+advance their pawn to safety 9.d5 Option 2 is to develop their final minor piece 9.Be3 and keep their center stable. Notice how our c6-knight attacks
+their d4-pawn and supports our ...e5 push. } 9.d5
+{ As I mentioned earlier, we like when our opponents break their perfect
+center. Now, the d4 and e5 squares belong to us. } 9...Ne5
+{ I remember this as the dark-square strategy because we play on the dark
+squares in the center. You will see how our pieces typically play around
+the d4, e5 and c5 squares. } 10.Qg3
+{ If you make it this far, the rest is easy. First, you can eliminate their
+d3-bishop any time by playing Nxd3. Second, we have to target their central
+pawns again. Now ...c6 is the way to go as it also opens your mighty queen to move to the active a5-square. Third, never forget about your hidden but
+powerful fianchettoed bishop. } 10...c6
+{ Time to talk about the middlegame! a] queen wants to go to
+a5 b] a8-rook wants to go to the c-file
+[Rc8] c] f6-knight can go to d7 to open our fianchettoed bishop and eventually land on the dark c5-square.
+Yes, we talk about the dark square strategy again and again. A possible continuation is 11.f4 Nxd3 12.Qxd3 cxd5 happy to trade our flank pawn for one of White's central pawns. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "1) Pirc vs. Classical Variation"]
+[Black "Classical Variation: 5.Bd3 #2"]
+[Result "*"]
+[ECO "B08"]
+
+
+{ What is the most important part of the Chess board? Before learning any
+openings, we need to know the answer to this question. Yes, we are talking
+about the center. More specifically the squares e4, e5, d4 and d5 . } 1.e4
+{ Now you understand why White typically starts by moving their central
+pawns. Of course they want to control the most important part of the
+battlefield. On the other hand, Black wants the opposite! } 1...d6
+{ Ashypermodern players, we would love to start by moving our knight from
+g8 to f6. That way, we immediately threaten their e4-pawn. Yes, that's what
+we like to do! However, that same pawn could advance putting our knight in danger. For that reason, we first play 1...d6. }
+2.d4
+{ Just like that! White is so happy to have full control over the center. }
+2...Nf6
+{ As early as in move #2, we can fully appreciate whathypermodern openings
+are all about. We allow our opponent to build a solid pawn center
+[White's e4 and d4 pawns] only to attack it with our knights and bishops [also known as minor
+pieces]. } 3.Nc3
+{ This time, White plays the main move. Notice how their knight develops by
+protecting the vulnerable e4-pawn. } 3...g6
+{ Now that White reacted to our previous threat
+[Nxe4], we prepare to put our f8-bishop inside
+thefianchetto [g7]. From there, it will be eyeing the center. }
+4.Nf3
+{ After White's fourth move, we are officially facing the classical
+variation. In my mind, this means no stress! } 4...Bg7
+{ I love this bishop hiding inside the fianchetto. So many opponents forget
+about it. } 5.Bd3
+{ In this variation, White develops their light-squared bishop to d3
+avoiding Black's central fork [seeprevious line with 5.Bc4
+] . } 5...O-O
+{ White's last move still means no stress, so we take a moment to put our
+king in safety. } 6.O-O
+{ I can see you getting sad already because we don't have the centralfork.
+Well, let me introduce you to my favorite plan against the Classical
+setup... } 6...Bg4
+{ I've used this move vs. anything in the Classical: 5. Bc4 5. Bd3 or 5.
+Be2. Fewer plans to remember! We want to neutralize the f3-knight! Sure,
+but why? a] now White feels pressured and if that knight moves, we get their queen b] eliminating the f3-knight leaves
+their d4-pawn hanging in the center [our target] c] the f3-knight is preventing us from striking the center with thethematic ...e5 push. }
+7.h3 Bxf3 { Our bishop did its part —good bye, knight! } 8.Qxf3
+{ Do we play ...e5 now? No! White's d4-pawn is not protected anymore. White
+could also play 8.gxf3 but it would ruin their pawn structure and expose
+their king. } 8...Nc6
+{ It's so nice to develop our pieces with atempo! Now White has two ways to
+react to our threat [...Nxd4]. Option 1 is to
+advance their pawn to safety 9.d5 Option 2 is to develop their final minor piece 9.Be3 and keep their center stable. Notice how our c6-knight attacks
+their d4-pawn and supports our ...e5 push. } 9.Be3
+{ This is the most natural move since it completes development and keeps
+their center stable. Now the c6-knight cannot jump to d4 or e5. So, what do
+we do? } 9...Nd7
+{ I feel so hypermodern now — pressure on their central pawns from far
+away! Joking aside, it's a tricky style and many players don't know how to
+handle it. White might not even notice the bishop is now attacking their d4-pawn too. Inexperienced players tend to push their d-pawn leaving the
+same weaknesses on d4 and e5. We will talk more about that premature push soon. }
+10.Ne2 { This moves keeps the white center intact. } 10...Nb4
+{ The annoying knight jumps again! The main advice I give my beginner
+students is to be aggressive. In general, defending is much more difficult
+than attacking and if you add pressure, your opponent is more likely to make mistakes. A possible continuation is 11.Rfd1 Nxd3 12.Rxd3 c5 and now
+you see the full picture. Moving our knight from c6 also cleared the path for our flank pawn. Notice how the c5-pawn challenges White's center and if d4 moves, our knight is ready to land on e5 creating a fork. Please, don't get tired of me repeating the same thing: 'it's all about the
+dark squares in the center'. Time to talk about the middlegame! a] queen wants to go to a5 b] a8-rook wants to go to the c-file c] knight is waiting to jump to e5 or c5 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "1) Pirc vs. Classical Variation"]
+[Black "Classical Variation: 5.Bd3 #3"]
+[Result "*"]
+[ECO "B08"]
+
+
+{ What is the most important part of the Chess board? Before learning any
+openings, we need to know the answer to this question. Yes, we are talking
+about the center. More specifically the squares e4, e5, d4 and d5 . } 1.e4
+{ Now you understand why White typically starts by moving their central
+pawns. Of course they want to control the most important part of the
+battlefield. On the other hand, Black wants the opposite! } 1...d6
+{ Ashypermodern players, we would love to start by moving our knight from
+g8 to f6. That way, we immediately threaten their e4-pawn. Yes, that's what
+we like to do! However, that same pawn could advance putting our knight in danger. For that reason, we first play 1...d6. }
+2.d4
+{ Just like that! White is so happy to have full control over the center. }
+2...Nf6
+{ As early as in move #2, we can fully appreciate whathypermodern openings
+are all about. We allow our opponent to build a solid pawn center
+[White's e4 and d4 pawns] only to attack it with our knights and bishops [also known as minor
+pieces]. } 3.Nc3
+{ This time, White plays the main move. Notice how their knight develops by
+protecting the vulnerable e4-pawn. } 3...g6
+{ Now that White reacted to our previous threat
+[Nxe4], we prepare to put our f8-bishop inside
+thefianchetto [g7]. From there, it will be eyeing the center. }
+4.Nf3
+{ After White's fourth move, we are officially facing the classical
+variation. In my mind, this means no stress! } 4...Bg7
+{ I love this bishop hiding inside the fianchetto. So many opponents forget
+about it. } 5.Bd3
+{ In this variation, White develops their light-squared bishop to d3
+avoiding Black's central fork [seeprevious line with 5.Bc4
+] . } 5...O-O
+{ White's last move still means no stress, so we take a moment to put our
+king in safety. } 6.O-O
+{ I can see you getting sad already because we don't have the centralfork.
+Well, let me introduce you to my favorite plan against the Classical
+setup... } 6...Bg4
+{ I've used this move vs. anything in the Classical: 5. Bc4 5. Bd3 or 5.
+Be2. Fewer plans to remember! We want to neutralize the f3-knight! Sure,
+but why? a] now White feels pressured and if that knight moves, we get their queen b] eliminating the f3-knight leaves
+their d4-pawn hanging in the center [our target] c] the f3-knight is preventing us from striking the center with thethematic ...e5 push. }
+7.h3 Bxf3 { Our bishop did its part —good bye, knight! } 8.Qxf3
+{ Do we play ...e5 now? No! White's d4-pawn is not protected anymore. White
+could also play 8.gxf3 but it would ruin their pawn structure and expose
+their king. } 8...Nc6
+{ It's so nice to develop our pieces with atempo! Now White has two ways to
+react to our threat [...Nxd4]. Option 1 is to
+advance their pawn to safety 9.d5 Option 2 is to develop their final minor piece 9.Be3 and keep their center stable. Notice how our c6-knight attacks
+their d4-pawn and supports our ...e5 push. } 9.Be3
+{ This is the most natural move since it completes development and keeps
+their center stable. Now the c6-knight cannot jump to d4 or e5. So, what do
+we do? } 9...Nd7
+{ I feel so hypermodern now — pressure on their central pawns from far
+away! Joking aside, it's a tricky style and many players don't know how to
+handle it. White might not even notice the bishop is now attacking their d4-pawn too. Inexperienced players tend to push their d-pawn leaving the
+same weaknesses on d4 and e5. We will talk more about that premature push soon. }
+10.d5
+{ Again? Well, you should be happy to see this move by now. Let's test if
+your overall Chess is improving. What came to mind when you saw White's
+pawn push? I hope it was one of the following: a] the dark square strategy b] every time we push a pawn in Chess,
+weaknesses are created c] fork. } 10...Nce5
+{ Black is ready to eliminate the d3-bishop and play c6 to challenge
+White's central pawn [d5]. A possible
+continuation is 11.Qe2 c6 12.dxc6 bxc6 [replacing the important c6-pawn to keep the c3-knight away] 13.f4 Nxd3 and
+yes, similar ideas for the middlegame: a] queen wants to go to a5 b] a8-rook wants to go to the b-file since it's now open c] d7-knight is waiting to jump to e5 or c5 }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "1) Pirc vs. Classical Variation"]
+[Black "Classical Variation: 5.h3 #1"]
+[Result "*"]
+[ECO "B08"]
+
+
+{ What is the most important part of the Chess board? Before learning any
+openings, we need to know the answer to this question. Yes, we are talking
+about the center. More specifically the squares e4, e5, d4 and d5 . } 1.e4
+{ Now you understand why White typically starts by moving their central
+pawns. Of course they want to control the most important part of the
+battlefield. On the other hand, Black wants the opposite! } 1...d6
+{ Ashypermodern players, we would love to start by moving our knight from
+g8 to f6. That way, we immediately threaten their e4-pawn. Yes, that's what
+we like to do! However, that same pawn could advance putting our knight in danger. For that reason, we first play 1...d6. }
+2.d4
+{ Just like that! White is so happy to have full control over the center. }
+2...Nf6
+{ As early as in move #2, we can fully appreciate whathypermodern openings
+are all about. We allow our opponent to build a solid pawn center
+[White's e4 and d4 pawns] only to attack it with our knights and bishops [also known as minor
+pieces]. } 3.Nc3
+{ This time, White plays the main move. Notice how their knight develops by
+protecting the vulnerable e4-pawn. } 3...g6
+{ Now that White reacted to our previous threat
+[Nxe4], we prepare to put our f8-bishop inside
+thefianchetto [g7]. From there, it will be eyeing the center. }
+4.Nf3
+{ After White's fourth move, we are officially facing the classical
+variation. In my mind, this means no stress! } 4...Bg7
+{ I love this bishop hiding inside the fianchetto. So many opponents forget
+about it. } 5.h3
+{ It's time to introduce you to the concept ofprophylaxis. As you face more
+experienced opponents, they will be familiar with our Bg4 move. If they
+don't like it, they could prevent it by moving their pawn to h3 on move #5. }
+5...O-O
+{ As sophisticated as h3 might look, in my mind it still means no stress.
+So, I take a moment to put my king in safety. } 6.Bd3
+{ Here we are again facing that Bd3 line, but we cannot play Bg4. What
+then? Well, as a hypermodern player, only one question should come to mind.
+How do I bother White's central pawns? I want to whistle at them. I want to throw rocks at them. Anything to make them feel the pressure! }
+6...Nc6
+{ Yes, the same knight attacking the dark squares in the center. This time,
+we want to put our e-pawn on e5 as soon as possible; and with our knight on
+c6, we are finally ready. } 7.O-O
+{ White could have responded to our provocation by playing 7.d5 , but this
+time let's see what happens if they simply castle. } 7...e5
+{ Get used to this ...e5 break. It's one of our main plans to claim our
+share of the center. Now White can take, advance or defend. Let's review
+8.dxe5 first. } 8.dxe5 Nxe5
+{ Why do we take with knight instead of pawn? Another typical move in
+Black's middlegame plan is to put our pawn on c6. That way, we keep their
+c3-knight from coming into our territory with Nd5 or Nb5. As you can see, now c6 is available for our c7-pawn. }
+9.Nxe5 dxe5 10.Bg5 Be6
+{ Time to talk about our middlegame plan: a] c-pawn wants to
+go to c6 to control d5 and b5 b] Queen belongs on c7 to
+connect our rooks and defend the e5-pawn c] h6 would be nice to remove their annoying g5-bishop d] our a8-rook belongs on
+d8 to control the open d-file } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "1) Pirc vs. Classical Variation"]
+[Black "Classical Variation: 5.h3 #2"]
+[Result "*"]
+[ECO "B08"]
+
+
+{ What is the most important part of the Chess board? Before learning any
+openings, we need to know the answer to this question. Yes, we are talking
+about the center. More specifically the squares e4, e5, d4 and d5 . } 1.e4
+{ Now you understand why White typically starts by moving their central
+pawns. Of course they want to control the most important part of the
+battlefield. On the other hand, Black wants the opposite! } 1...d6
+{ Ashypermodern players, we would love to start by moving our knight from
+g8 to f6. That way, we immediately threaten their e4-pawn. Yes, that's what
+we like to do! However, that same pawn could advance putting our knight in danger. For that reason, we first play 1...d6. }
+2.d4
+{ Just like that! White is so happy to have full control over the center. }
+2...Nf6
+{ As early as in move #2, we can fully appreciate whathypermodern openings
+are all about. We allow our opponent to build a solid pawn center
+[White's e4 and d4 pawns] only to attack it with our knights and bishops [also known as minor
+pieces]. } 3.Nc3
+{ This time, White plays the main move. Notice how their knight develops by
+protecting the vulnerable e4-pawn. } 3...g6
+{ Now that White reacted to our previous threat
+[Nxe4], we prepare to put our f8-bishop inside
+thefianchetto [g7]. From there, it will be eyeing the center. }
+4.Nf3
+{ After White's fourth move, we are officially facing the classical
+variation. In my mind, this means no stress! } 4...Bg7
+{ I love this bishop hiding inside the fianchetto. So many opponents forget
+about it. } 5.h3
+{ It's time to introduce you to the concept ofprophylaxis. As you face more
+experienced opponents, they will be familiar with our Bg4 move. If they
+don't like it, they could prevent it by moving their pawn to h3 on move #5. }
+5...O-O
+{ As sophisticated as h3 might look, in my mind it still means no stress.
+So, I take a moment to put my king in safety. } 6.Bd3
+{ Here we are again facing that Bd3 line, but we cannot play Bg4. What
+then? Well, as a hypermodern player, only one question should come to mind.
+How do I bother White's central pawns? I want to whistle at them. I want to throw rocks at them. Anything to make them feel the pressure! }
+6...Nc6
+{ Yes, the same knight attacking the dark squares in the center. This time,
+we want to put our e-pawn on e5 as soon as possible; and with our knight on
+c6, we are finally ready. } 7.O-O
+{ White could have responded to our provocation by playing 7.d5 , but this
+time let's see what happens if they simply castle. } 7...e5
+{ Get used to this ...e5 break. It's one of our main plans to claim our
+share of the center. Now let's see what happens when they defend with the
+bishop. } 8.Be3
+{ Once again White resists our provocation and tries to maintain a solid
+center. } 8...exd4 { Good bye central pawn! } 9.Nxd4 Nxd4 10.Bxd4
+{ Now we can continue with 10...c6 with the idea of ...b5, or 10...b6 with
+the idea of ...Bb7 . } 10...b6
+{ Next, we want to complete development by placing our bishop on b7. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "1) Pirc vs. Classical Variation"]
+[Black "Classical Variation: 5.h3 #3"]
+[Result "*"]
+[ECO "B08"]
+
+
+{ What is the most important part of the Chess board? Before learning any
+openings, we need to know the answer to this question. Yes, we are talking
+about the center. More specifically the squares e4, e5, d4 and d5 . } 1.e4
+{ Now you understand why White typically starts by moving their central
+pawns. Of course they want to control the most important part of the
+battlefield. On the other hand, Black wants the opposite! } 1...d6
+{ Ashypermodern players, we would love to start by moving our knight from
+g8 to f6. That way, we immediately threaten their e4-pawn. Yes, that's what
+we like to do! However, that same pawn could advance putting our knight in danger. For that reason, we first play 1...d6. }
+2.d4
+{ Just like that! White is so happy to have full control over the center. }
+2...Nf6
+{ As early as in move #2, we can fully appreciate whathypermodern openings
+are all about. We allow our opponent to build a solid pawn center
+[White's e4 and d4 pawns] only to attack it with our knights and bishops [also known as minor
+pieces]. } 3.Nc3
+{ This time, White plays the main move. Notice how their knight develops by
+protecting the vulnerable e4-pawn. } 3...g6
+{ Now that White reacted to our previous threat
+[Nxe4], we prepare to put our f8-bishop inside
+thefianchetto [g7]. From there, it will be eyeing the center. }
+4.Nf3
+{ After White's fourth move, we are officially facing the classical
+variation. In my mind, this means no stress! } 4...Bg7
+{ I love this bishop hiding inside the fianchetto. So many opponents forget
+about it. } 5.h3
+{ It's time to introduce you to the concept ofprophylaxis. As you face more
+experienced opponents, they will be familiar with our Bg4 move. If they
+don't like it, they could prevent it by moving their pawn to h3 on move #5. }
+5...O-O
+{ As sophisticated as h3 might look, in my mind it still means no stress.
+So, I take a moment to put my king in safety. } 6.Bd3
+{ Here we are again facing that Bd3 line, but we cannot play Bg4. What
+then? Well, as a hypermodern player, only one question should come to mind.
+How do I bother White's central pawns? I want to whistle at them. I want to throw rocks at them. Anything to make them feel the pressure! }
+6...Nc6
+{ Yes, the same knight attacking the dark squares in the center. This time,
+we want to put our e-pawn on e5 as soon as possible; and with our knight on
+c6, we are finally ready. } 7.O-O
+{ White could have responded to our provocation by playing 7.d5 , but this
+time let's see what happens if they simply castle. } 7...e5
+{ Get used to this ...e5 break. It's one of our main plans to claim our
+share of the center. Now White can take, advance or defend. Here we will
+look at the advance. } 8.d5
+{ No, this is not the moment to smile... Not yet. White pushed their
+d-pawn, but they are following sound chess principles this time. When our
+central pawns are next to each other controlling the center, we don't want to push them unless we are challenged by an enemy pawn. It's in
+White's interest to advance to avoid the possibility of the e5-square becoming vacant for the black minor pieces [knights and bishops] if we ever decide to capture on d4. For example, in a line like this: 8.Be3 exd4 9.Nxd4 Nxd4 10.Bxd4 Re8 Black is doing very
+well with excellent control of the e5-square. } 8...Ne7
+{ Please, don't get overwhelmed yet. It might seem like our c6-knight moves
+to a random square every time we review a new variation, but it's not like
+that. Let's connect the dots: In general, when we have a locked center [notice how the four central pawns are stuck], we
+must attack on the flanks. How do we know what flank is best for us? Easy! Our pawn chain is aiming at it. The c7-d6-e5 pawns are pointing towards the kingside. }
+9.Be3
+{ White pieces have e4-d5 pointing at the queenside. For this reason, they
+should attack on that side of the board. I see, but why? Well, it comes
+down to this. Thanks to our own central pawns, we simply have more space on a particular side of the board. And yes, this is another general Chess
+principle. } 9...Ne8
+{ What is this now? Get ready for more Chess wisdom. When it's time to
+expand on our flank, we want to target the pawn in front of our most
+forward pawn. Our most forward pawn now is e5. The pawn in front of it is e4. Well, we need to play f5 in order to target it. The only other thing
+you have to do is bring as many pieces as possible to the kingside. } 10.a4
+f5
+{ Hey Robert, I don't mean to bother, but isn't our king getting a bit
+exposed? First, our fianchettoed bishop is acting like a pawn too. Second,
+as long as the center is locked, White won't be able to open up lines and attack our king. So, keep that center locked! Also, if they play 11.exf5
+you can recapture however you like, but I prefer to use the g6-pawn. 11...gxf5 Soon you will see a game I played using this line. In the interim, here is a possible continuation 11.b4 f4 [the pawn storm] 12.Bd2 g5 13.Nxg5 Nxd5 14.exd5 Qxg5 and now everything is
+set to hunt the white king. You will love the game I'm about to show you! }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "1) Pirc vs. Classical Variation"]
+[Black "Classical Variation: 5.h3 #4"]
+[Result "*"]
+[ECO "B08"]
+
+
+{ What is the most important part of the Chess board? Before learning any
+openings, we need to know the answer to this question. Yes, we are talking
+about the center. More specifically the squares e4, e5, d4 and d5 . } 1.e4
+{ Now you understand why White typically starts by moving their central
+pawns. Of course they want to control the most important part of the
+battlefield. On the other hand, Black wants the opposite! } 1...d6
+{ Ashypermodern players, we would love to start by moving our knight from
+g8 to f6. That way, we immediately threaten their e4-pawn. Yes, that's what
+we like to do! However, that same pawn could advance putting our knight in danger. For that reason, we first play 1...d6. }
+2.d4
+{ Just like that! White is so happy to have full control over the center. }
+2...Nf6
+{ As early as in move #2, we can fully appreciate whathypermodern openings
+are all about. We allow our opponent to build a solid pawn center
+[White's e4 and d4 pawns] only to attack it with our knights and bishops [also known as minor
+pieces]. } 3.Nc3
+{ This time, White plays the main move. Notice how their knight develops by
+protecting the vulnerable e4-pawn. } 3...g6
+{ Now that White reacted to our previous threat
+[Nxe4], we prepare to put our f8-bishop inside
+thefianchetto [g7]. From there, it will be eyeing the center. }
+4.Nf3
+{ After White's fourth move, we are officially facing the classical
+variation. In my mind, this means no stress! } 4...Bg7
+{ I love this bishop hiding inside the fianchetto. So many opponents forget
+about it. } 5.h3
+{ It's time to introduce you to the concept ofprophylaxis. As you face more
+experienced opponents, they will be familiar with our Bg4 move. If they
+don't like it, they could prevent it by moving their pawn to h3 on move #5. }
+5...O-O
+{ As sophisticated as h3 might look, in my mind it still means no stress.
+So, I take a moment to put my king in safety. } 6.Bd3
+{ Here we are again facing that Bd3 line, but we cannot play Bg4. What
+then? Well, as a hypermodern player, only one question should come to mind.
+How do I bother White's central pawns? I want to whistle at them. I want to throw rocks at them. Anything to make them feel the pressure! }
+6...Nc6
+{ Yes, the same knight attacking the dark squares in the center. This time,
+we want to put our e-pawn on e5 as soon as possible; and with our knight on
+c6, we are finally ready. } 7.d5
+{ I can see the smile on your face! White's center is not what it used to
+be. For example, look how powerful our fianchettoed bishop is on the a1-h8
+diagonal. However, our c6-knight is attacked. Where should we move it? }
+7...Nb4
+{ Our knight served its purpose. White's center is now weaker and we go for
+their d3-bishop. The main thing to remember in this line is that we play
+...Nc6 because we can respond to White's d5 by attacking their d3-bishop. We do not hop into the center because the central dark squares
+[d4 and e5] are controlled by their f3-knight. }
+8.O-O Nxd3 { Our knight leaves the board with a medal of honor! } 9.Qxd3 c6
+{ Our last move should be familiar to you by now. We challenge White's
+central pawn with one of our flank pawns. Middlegame plan should also be
+easy for you: a] queen wants to go to a5 b] c8-bishop wants to go to d7 c] a8-rook wants to go to the
+c-file since our c-pawn will be traded soon d] Pay attention to your hidden fianchetto bishop from g7. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "1) Pirc vs. Classical Variation"]
+[Black "Example: KingHuntingMachine vs. Robert Ramirez"]
+[Result "*"]
+[ECO "B00"]
+
+1.e4 d6
+{ Ashypermodern players, we would love to start by moving our knight from
+g8 to f6. That way, we immediately threaten their e4-pawn. Yes, that's what
+we like to do! However, that same pawn could advance putting our knight in danger. For that reason, we first play 1...d6. }
+2.d4 Nf6
+{ As early as in move #2, we can fully appreciate whathypermodern openings
+are all about. We allow our opponent to build a solid pawn center
+[White's e4 and d4 pawns] only to attack it with our knights and bishops [also known as minor
+pieces]. } 3.Bd3
+{ A different way to protect the e4-pawn. Something about my beginner
+students when they learn a new opening is that they expect their opponents
+to play exactly what they learned. However, with so many possible moves in Chess, that's often not the case. }
+3...g6
+{ Good news is we know where our pieces belong regardless of what White
+plays (unless they do something aggressive) . } 4.Nf3 Bg7 5.O-O O-O
+{ Kingside development is complete. } 6.Re1 Bg4
+{ You know this plan by now. And yes, I could have also played 6...Nc6 or
+6...c6 . } 7.h3 Bxf3 8.Qxf3
+{ Recapturing with the g-pawn would ruin White's pawn structure and expose
+their king. } 8...Nc6 { Again — we develop with a tempo. } 9.c3 e5
+{ Opening phase is complete now that we stroke the center with the thematic
+...e5 push. } 10.d5
+{ The four central pawns are locked. Time to pick your flank and transfer
+our knight from the unsafe c6-square to it. } 10...Ne7
+{ Getting ready to target the pawn in front of our most forward pawn. } 11.c4
+{ White knew these principles too! } 11...Nd7
+{ Notice how I moved my knight from f6 to d7 this time. I have also moved
+it to e8 in other games. It's mostly a matter of taste. We mainly want to
+free our f7-pawn. } 12.Nc3 f5 13.Qd1 f4 14.f3 g5 { Pawn storm! } 15.b4 h5
+{ Once we played f4, that f-pawn became our most forward pawn. So, now we
+target the white pawn in front of it [f3]. }
+16.Bd2 Ng6 { All my pieces want to go to the kingside. } 17.Be2 Nf6
+{ Let's go! } 18.a4 Rf7
+{ Thematic plan at this point. I want my rook on the same file as the white
+king and it also helps my g-pawn break on g4. } 19.c5 Bf8
+{ Yes, even our dark-squared bishop that seemed to be bad has an important
+role in our plan. It moves to support our center while leaving g7 available
+for the f7-rook. } 20.cxd6 cxd6
+{ We recapture with a pawn to keep the center locked. } 21.Rc1 Rg7
+{ Our maneuver is complete! } 22.Nb5 a6
+{ I don't like enemy pieces in my territory. We typically don't move pawns
+where we are being attacked, but here it comes with a tempo on the
+b5-knight. } 23.Nc3 Nh4 { Our infiltration begins. } 24.Kh1 Qe8
+{ Our queen transfers from queenside to kingside. } 25.a5 Qg6
+{ The black queen arrived and the party may begin! } 26.Rg1 g4
+{ We finally made contact. Black's main objective now is to open up lines
+for their pieces to attack. } 27.Be1 g3
+{ I know I'm doing the opposite of opening up lines. However, since I'm
+familiar with these positions, I knew it was only preparation for the final
+blow. } 28.Na4 Nh7
+{ My knight is going for the h3 pawn and everybody knows it. That's how we
+open the kingside again. } 29.Nb6 Rd8 30.Rc8 Rxc8 31.Nxc8 Ng5
+{ It's coming! } 32.Nb6 Nxh3 { I was not kidding. } 33.gxh3
+{ Black to move and there is a forced mate in 3 moves. Can you find it? }
+33...g2+ 34.Kh2
+{ Come on! There is mate in 2 moves now. Did you already see it? } 34...Qg3+
+35.Bxg3 fxg3#
+{ Checkmate! Our knight protects the g2-pawn while our rook protects the g3
+pawn. Besides the interesting mate, pay attention to White's queenside
+expansion. It did not succeed because they had to react to our pawn storm on the other flank. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "1) Pirc vs. Classical Variation"]
+[Black "Classical Variation: 5.Be2 #1"]
+[Result "*"]
+[ECO "B08"]
+
+
+{ What is the most important part of the Chess board? Before learning any
+openings, we need to know the answer to this question. Yes, we are talking
+about the center. More specifically the squares e4, e5, d4 and d5 . } 1.e4
+{ Now you understand why White typically starts by moving their central
+pawns. Of course they want to control the most important part of the
+battlefield. On the other hand, Black wants the opposite! } 1...d6
+{ Ashypermodern players, we would love to start by moving our knight from
+g8 to f6. That way, we immediately threaten their e4-pawn. Yes, that's what
+we like to do! However, that same pawn could advance putting our knight in danger. For that reason, we first play 1...d6. }
+2.d4
+{ Just like that! White is so happy to have full control over the center. }
+2...Nf6
+{ As early as in move #2, we can fully appreciate whathypermodern openings
+are all about. We allow our opponent to build a solid pawn center
+[White's e4 and d4 pawns] only to attack it with our knights and bishops [also known as minor
+pieces]. } 3.Nc3
+{ This time, White plays the main move. Notice how their knight develops by
+protecting the vulnerable e4-pawn. } 3...g6
+{ Now that White reacted to our previous threat
+[Nxe4], we prepare to put our f8-bishop inside
+thefianchetto [g7]. From there, it will be eyeing the center. }
+4.Nf3
+{ After White's fourth move, we are officially facing the classical
+variation. In my mind, this means no stress! } 4...Bg7
+{ I love this bishop hiding inside the fianchetto. So many opponents forget
+about it. } 5.Be2
+{ That's new. Is it dangerous? No! Then, we keep going with our setup. }
+5...O-O { Kingside development is complete. } 6.O-O c6
+{ So far we have learned the central fork when the white bishop is
+developed to c4. We also learned the Bg4 pin when White moves their bishop
+to d3. However, with this ultra passive move [Be2], the central fork is impossible while Bg4 is less effective.
+Also, this c6 move will be present in so many other variations. So, pay attention! a] we already know our c6-pawn keeps their c3-knight from entering our territory [d5 and b5]. b] it also makes the c7-square available for our
+queen. } 7.h3
+{ White can also play 7.e5 dxe5 8.dxe5 Qxd1 9.Rxd1 Ng4 10.Bf4 Nd7 and now
+the e5-pawn is under heavy attack. } 7...Nbd7
+{ We want our thematic ...e5 break. For that, we need the help of our
+knight. Since c6 is occupied by one of our own pawns, we develop it to d7.
+} 8.Bg5 { White's last minor piece is developed. } 8...e5
+{ Black finally strikes the center. } 9.Qd2 Qc7
+{ Yes, you already knew the black queen belongs on c7. } 10.dxe5 dxe5
+{ Middlegame plan: a] d7-knight wants to go to either d4 or f4
+supported by our e5-pawn. b] c8-bishop then comes out to e6
+c] f8-rook wants to go to e8 and the a8-rook goes to d8. Note: this 6...c6 plan can be played vs. 5. Bc4 and 5. Bd3 too for simplicity. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "1) Pirc vs. Classical Variation"]
+[Black "Classical Variation: 5.Be2 #2"]
+[Result "*"]
+[ECO "B08"]
+
+
+{ What is the most important part of the Chess board? Before learning any
+openings, we need to know the answer to this question. Yes, we are talking
+about the center. More specifically the squares e4, e5, d4 and d5 . } 1.e4
+{ Now you understand why White typically starts by moving their central
+pawns. Of course they want to control the most important part of the
+battlefield. On the other hand, Black wants the opposite! } 1...d6
+{ Ashypermodern players, we would love to start by moving our knight from
+g8 to f6. That way, we immediately threaten their e4-pawn. Yes, that's what
+we like to do! However, that same pawn could advance putting our knight in danger. For that reason, we first play 1...d6. }
+2.d4
+{ Just like that! White is so happy to have full control over the center. }
+2...Nf6
+{ As early as in move #2, we can fully appreciate whathypermodern openings
+are all about. We allow our opponent to build a solid pawn center
+[White's e4 and d4 pawns] only to attack it with our knights and bishops [also known as minor
+pieces]. } 3.Nc3
+{ This time, White plays the main move. Notice how their knight develops by
+protecting the vulnerable e4-pawn. } 3...g6
+{ Now that White reacted to our previous threat
+[Nxe4], we prepare to put our f8-bishop inside
+thefianchetto [g7]. From there, it will be eyeing the center. }
+4.Nf3
+{ After White's fourth move, we are officially facing the classical
+variation. In my mind, this means no stress! } 4...Bg7
+{ I love this bishop hiding inside the fianchetto. So many opponents forget
+about it. } 5.Be2
+{ That's new. Is it dangerous? No! Then, we keep going with our setup. }
+5...O-O { Kingside development is complete. } 6.O-O c6
+{ So far we have learned the central fork when the white bishop is
+developed to c4. We also learned the Bg4 pin when White moves their bishop
+to d3. However, with this ultra passive move [Be2], the central fork is impossible while Bg4 is less effective.
+Also, this c6 move will be present in so many other variations. So, pay attention! a] we already know our c6-pawn keeps their c3-knight from entering our territory [d5 and b5]. b] it also makes the c7-square available for our
+queen. } 7.h3
+{ White can also play 7.e5 dxe5 8.dxe5 Qxd1 9.Rxd1 Ng4 10.Bf4 Nd7 and now
+the e5-pawn is under heavy attack. } 7...Nbd7
+{ We want our thematic ...e5 break. For that, we need the help of our
+knight. Since c6 is occupied by one of our own pawns, we develop it to d7.
+} 8.e5
+{ We always have to consider this aggressive move. Luckily we've been
+preparing for it since move one. } 8...dxe5 { Good bye pawn! } 9.dxe5
+{ Wait a second! Do we have another enemy pawn on e5? Yes, but it is only
+defended by a minor piece now instead of another pawn. Once the f6-knight
+moves out of danger, our fianchettoed bishop from g7 will activate. } 9...Nd5
+10.Nxd5 cxd5
+{ After 11.Qxd5 Nxe5 the white queen would be hanging on d5. Regarding the
+middlegame plan, top priority is the development of our c8-bishop followed
+by bringing our rooks to c8 and d8. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "1) Pirc vs. Classical Variation"]
+[Black "Classical Variation: 5.Be2 #3"]
+[Result "*"]
+[ECO "B08"]
+
+
+{ What is the most important part of the Chess board? Before learning any
+openings, we need to know the answer to this question. Yes, we are talking
+about the center. More specifically the squares e4, e5, d4 and d5 . } 1.e4
+{ Now you understand why White typically starts by moving their central
+pawns. Of course they want to control the most important part of the
+battlefield. On the other hand, Black wants the opposite! } 1...d6
+{ Ashypermodern players, we would love to start by moving our knight from
+g8 to f6. That way, we immediately threaten their e4-pawn. Yes, that's what
+we like to do! However, that same pawn could advance putting our knight in danger. For that reason, we first play 1...d6. }
+2.d4
+{ Just like that! White is so happy to have full control over the center. }
+2...Nf6
+{ As early as in move #2, we can fully appreciate whathypermodern openings
+are all about. We allow our opponent to build a solid pawn center
+[White's e4 and d4 pawns] only to attack it with our knights and bishops [also known as minor
+pieces]. } 3.Nc3
+{ This time, White plays the main move. Notice how their knight develops by
+protecting the vulnerable e4-pawn. } 3...g6
+{ Now that White reacted to our previous threat
+[Nxe4], we prepare to put our f8-bishop inside
+thefianchetto [g7]. From there, it will be eyeing the center. }
+4.Nf3
+{ After White's fourth move, we are officially facing the classical
+variation. In my mind, this means no stress! } 4...Bg7
+{ I love this bishop hiding inside the fianchetto. So many opponents forget
+about it. } 5.Be2
+{ That's new. Is it dangerous? No! Then, we keep going with our setup. }
+5...O-O { Kingside development is complete. } 6.O-O c6
+{ So far we have learned the central fork when the white bishop is
+developed to c4. We also learned the Bg4 pin when White moves their bishop
+to d3. However, with this ultra passive move [Be2], the central fork is impossible while Bg4 is less effective.
+Also, this c6 move will be present in so many other variations. So, pay attention! a] we already know our c6-pawn keeps their c3-knight from entering our territory [d5 and b5]. b] it also makes the c7-square available for our
+queen. } 7.h3
+{ White can also play 7.e5 dxe5 8.dxe5 Qxd1 9.Rxd1 Ng4 10.Bf4 Nd7 and now
+the e5-pawn is under heavy attack. } 7...Nbd7
+{ We want our thematic ...e5 break. For that, we need the help of our
+knight. Since c6 is occupied by one of our own pawns, we develop it to d7.
+} 8.Bf4 { White has decided to stop Black from putting their pawn on e5. }
+8...Qa5
+{ If they bring more attackers, we bring more defenders. The ...e5 push has
+to happen! We already learned the black queen belongs on c7, but we don't
+like being on the same diagonal as the f4-bishop. That's why we place our queen on a5 this time. }
+9.Qd2
+{ The alternative is 9.e5 Nh5 [hitting the
+f4-bishop] 10.Bh2 dxe5 and you can see how White's e5 push
+fails once more due to their hanging f4-bishop and our well-known resources. }
+9...e5 { We made it! } 10.dxe5 dxe5
+{ At this point, Black may continue with ...b5 thanks to their c6-pawn or
+...Nc5 to open the c8-bishop next. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "1) Pirc vs. Classical Variation"]
+[Black "Classical Variation: 5.Bb5+"]
+[Result "*"]
+[ECO "B08"]
+
+
+{ What is the most important part of the Chess board? Before learning any
+openings, we need to know the answer to this question. Yes, we are talking
+about the center. More specifically the squares e4, e5, d4 and d5 . } 1.e4
+{ Now you understand why White typically starts by moving their central
+pawns. Of course they want to control the most important part of the
+battlefield. On the other hand, Black wants the opposite! } 1...d6
+{ Ashypermodern players, we would love to start by moving our knight from
+g8 to f6. That way, we immediately threaten their e4-pawn. Yes, that's what
+we like to do! However, that same pawn could advance putting our knight in danger. For that reason, we first play 1...d6. }
+2.d4
+{ Just like that! White is so happy to have full control over the center. }
+2...Nf6
+{ As early as in move #2, we can fully appreciate whathypermodern openings
+are all about. We allow our opponent to build a solid pawn center
+[White's e4 and d4 pawns] only to attack it with our knights and bishops [also known as minor
+pieces]. } 3.Nc3
+{ This time, White plays the main move. Notice how their knight develops by
+protecting the vulnerable e4-pawn. } 3...g6
+{ Now that White reacted to our previous threat
+[Nxe4], we prepare to put our f8-bishop inside
+thefianchetto [g7]. From there, it will be eyeing the center. }
+4.Nf3
+{ After White's fourth move, we are officially facing the classical
+variation. In my mind, this means no stress! } 4...Bg7
+{ I love this bishop hiding inside the fianchetto. So many opponents forget
+about it. } 5.Bb5+
+{ Wait! What? Yes, we have to consider this possibility. It's a bad move
+simply because Black gets to put their pawn on c6 for free since it attacks
+the aggressive white bishop. } 5...c6
+{ So, is this just a reminder to play c6? Yes, and then we continue with
+the same ideas we already learned at this point in the chapter, but we are
+one move ahead since that b5-bishop will have to move again. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "1) Pirc vs. Classical Variation"]
+[Black "Example: Jon Ludvig Hammer vs. Magnus Carlsen"]
+[Result "*"]
+[ECO "A46"]
+
+1.Nf3 d6
+{ This game was played years before Magnus became an elite player. However,
+it was obvious he would be joining the top soon. Notice how even though
+White didn't start with @@StartFEN@@rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1@@EndFEN@@ 1.e4 , he played 1...d6 anyways in order to get
+into our opening system. } 2.d4 Nf6 3.Nbd2 g6 4.e4
+{ This is now officially the Pirc Defense. It's the same thing as if White
+had played e4 on their first turn. As you can see, Black allows White to
+fill the center with two pawns in order to attack them later with pieces and strategic pawn breaks. }
+4...Bg7 5.Bd3 O-O
+{ Our kingside development is complete! Now it's time to develop our
+queenside minor pieces and start targeting White's central pawns. } 6.O-O Nc6
+{ The hypermodern approach in action! Magnus is already putting pressure on
+the white central pawns from far away. } 7.c3
+{ As we will learn in this course, if instead of c3 White pushes their
+d-pawn, the c6-knight moves to b4 attacking the white bishop on d3. } 7...e5
+{ The thematic pawn break to claim our share of the center and make the
+white central pawns unstable. } 8.h3 Nh5
+{ Black's h5-knight is ready to land on f4. Likewise, now the fianchettoed
+bishop is open from g7, which puts more pressure on White's d4-pawn
+[it's all about White's center]. How can you not like this move? }
+9.dxe5 Nf4
+{ These kinds of moves is what separates experienced from inexperienced
+players. Black got their knight to a good square with a tempo on the
+d3-bishop. They know the e5-pawn is not going anywhere! You know you would have captured on e5 just like me. }
+10.Bb5 Nxe5 11.Nxe5 Qg5
+{ Once again, Magnus resists his impulse to recapture on e5. Instead, he
+improves his powerful queen by threatening checkmate on g2. } 12.Ng4 Qxb5
+13.Nb3 Ne2+ 14.Kh1 Bxg4
+{ Black develops their last minor piece by exposing the white king. } 15.hxg4
+Rae8
+{ The only black piece that was doing nothing gets activated by putting
+pressure on White's central pawn. } 16.Be3 Rxe4 17.Re1 Qh5+
+{ Beautiful queen sacrifice! Once White captures the black queen, the
+e4-rook is open to move to h4 with a nice checkmate. 18.gxh5 Rh4# } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "2) Pirc vs. Opposite-Castle Attack"]
+[Black "Pirc vs. Opposite-Side Attack Introduction"]
+[Result "*"]
+[ECO "B07"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f3
+{ Allow me to introduce you to the variation that almost made me stop
+playing this opening. The f3-pawn is what we call a leverage pawn. White
+basically wants to castle queenside and start a pawn storm towards the castled black king. How? Easy! They want to continue with Be3, Qd2, O-O-O,
+and then g4 to start attacking our king with pawns. Aggressive players enjoy this system as White because it's easy to execute and extremely powerful. Luckily, I didn't quit despite all my painful defeats. I did stick around and found an antidote instead! }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "2) Pirc vs. Opposite-Castle Attack"]
+[Black "Opposite-Side Attack: 5.Be3"]
+[Result "*"]
+[ECO "B07"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f3
+{ Do you remember what I said about the classical variation
+[ 4.Nf3? ] I told you how in my mind it means
+no stress. Well, whenever I see 4. f3 or any indication that White wants to castle queenside, all I see is chaos on the horizon. }
+4...c6
+{ Yes, this is the antidote. White's f3-pawn is what we call a leverage
+pawn. They simply want to castle queenside and start a pawn storm towards
+the black king once it castles kingside. So, all we need to remember, when there is any indication of opposite-side castling attack, is the
+following a] stop everything on your kingside [even Bg7] b] focus on expanding on the queenside where the white king wants to castle. }
+5.Be3
+{ Please, keep in mind that White could have played Be3 before f3. Just
+know that f3 or queenside development are clear indications of
+opposite-side castling attack [chaos]. } 5...b5
+{ Now you see why we call our c6-pawn a leverage pawn. Because of it, we
+could play b5 to gain space on the queenside. At the beginning of my
+career, I used to play ...b5 hoping my opponent would feel scared and abort their aggressive plan. Today, I look forward to the opposite-side castle
+attack. } 6.Qd2
+{ White is ready to execute two key parts of their plan. First, they can
+finally castle queenside. Second, their e3-bishop can move to h6 in order
+to remove our kingside bishop. The good news is that we would be happy to give them our dark-squared bishop since it's not developed and we are not
+castling kingside for now. Without our king castled kingside, their plan makes no sense. }
+6...Nbd7 { Mobilizing our queenside pieces! } 7.O-O-O
+{ The white king is finally here. Let's attack it! } 7...Qa5
+{ I really like this move. From a5, our queen puts a lot of pressure on the
+white king and on our opponent's head. Now we are ready to kick the
+c3-knight out with 8...b4 followed by 9...Qxa2. Likewise, we are one step closer to castling queenside in case our king is no longer safe in the
+center. } 8.Kb1 Nb6
+{ We continue working on the queenside. Our b6-knight wants to land on c4.
+If the f1-bishop captures it, we capture back with our b-pawn opening the
+b-file for our a8-rook. } 9.Bh6 Bxh6 10.Qxh6 Be6
+{ Now thanks to our bishop, we renewed the threat of b4 followed by Qxa2+.
+In the interim, the white queen is misplaced on h6 since our king is not on
+that side of the board. The black king feels safe in the center for now, but remember you can always bring it to the queenside in case of an
+emergency. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "2) Pirc vs. Opposite-Castle Attack"]
+[Black "Opposite-Side Attack: 5.a4"]
+[Result "*"]
+[ECO "B07"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f3
+{ Do you remember what I said about the classical variation
+[ 4.Nf3? ] I told you how in my mind it means
+no stress. Well, whenever I see 4. f3 or any indication that White wants to castle queenside, all I see is chaos on the horizon. }
+4...c6
+{ Yes, this is the antidote. White's f3-pawn is what we call a leverage
+pawn. They simply want to castle queenside and start a pawn storm towards
+the black king once it castles kingside. So, all we need to remember, when there is any indication of opposite-side castling attack, is the
+following a] stop everything on your kingside [even Bg7] b] focus on expanding on the queenside where the white king wants to castle. }
+5.a4
+{ This move is designed to prevent our queenside expansion with ...b5.
+However, it also means the white king won't be as safe on the queenside
+without their a-pawn on its home square. } 5...Nbd7
+{ It's true we cannot play b5 this time, but everything else remains the
+same. } 6.Be3 Qa5 7.Qd2 Bg7
+{ Knowing White won't castle queenside [because of their
+absent a-pawn], makes me want to get ready to castle kingside.
+} 8.Bd3 e5 { Let's not forget our thematic strike in the center. } 9.Nge2 O-O
+10.O-O exd4
+{ Clearing the a1-h8 diagonal for our fianchetto bishop from g7. Next, we
+want to: a] bring our queen to c7 b] move our
+d7-knight in order to develop our c8-bishop. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "2) Pirc vs. Opposite-Castle Attack"]
+[Black "Opposite-Side Attack (Psyche!)"]
+[Result "*"]
+[ECO "B07"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3
+{ Now let's take a look at what happens if White stays flexible and has
+second thoughts about going queenside. I initially didn't include this line
+in the course because I've only gotten it over the board (OTB) against advanced players who know me and prepared beforehand. However, I figured it
+cannot hurt for you to get some exposure to it. } 4...c6 5.Qd2 b5
+{ After our ...c6-b5 approach, many white players get the hint and decide
+to castle kingside. While it's not dangerous for Black, some Pirc Defense
+players get confused. That's why I wanted to share this line with you. }
+6.Bd3 Nbd7 7.Nf3
+{ This is a clear indication that White might be considering to switch
+gears and castle kingside. To continue in full
+aggressive-opposite-side-attack mode, f3 should be left for their f-pawn [f3-g4-h4]. }
+7...Qc7
+{ Black chooses a move that is useful and flexible at the same time. We
+know White might end up castling kingside after all. } 8.O-O Bg7
+{ Since White castled kingside, their aggressive pawn storm isn't coming
+anymore. That's why we relax and prepare to castle kingside too. } 9.Bh6 O-O
+{ With both kings castled on the same side, this should be a quiet game. }
+10.Bxg7 Kxg7
+{ Our king keeps the white queen away from h6, and now we are perfectly
+ready for ensuing play in the center and on the queenside. Notice how since
+White castled kingside, any attempt at an attack on our king is far less effective. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "2) Pirc vs. Opposite-Castle Attack"]
+[Black "Example: Santiago Casares vs. Robert Ramirez"]
+[Result "*"]
+[ECO "B07"]
+
+
+{ I initially didn't include this line in the course because I've only
+gotten it over the board (OTB) against advanced players who know me and
+prepared beforehand. However, I figured it cannot hurt for you to get some exposure to it. }
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3 c6 5.Qd2 b5
+{ After our ...c6-b5 approach, many white players get the hint and decide
+to castle kingside. While it's not dangerous for Black, some Pirc Defense
+players get confused. That's why I wanted to share this game with you. }
+6.Bd3 Nbd7 7.Nf3
+{ This is a clear indication that White might be considering to switch
+gears and castle kingside. To continue in full
+aggressive-opposite-side-attack mode, f3 should be left for their f-pawn [f3-g4-h4]. }
+7...Qc7
+{ Black chooses a move that is useful and flexible at the same time. We
+know White might end up castling kingside after all. } 8.O-O Bg7
+{ Since White castled kingside, their aggressive pawn storm isn't coming
+anymore. That's why we relax and prepare to castle kingside too. } 9.Bh6 O-O
+{ With both kings castled on the same side, this should be a quiet game. }
+10.Bxg7 Kxg7 { Our king keeps the white queen away from h6. } 11.a4 b4
+{ The fact that White gave up on their kingside expansion doesn't mean we
+have to give up on ours. We continue to gain space on the queenside! } 12.Ne2
+c5 { Ready to play 13...c4 trapping the white bishop. } 13.dxc5 dxc5 14.c3 c4
+15.Bb1 Nc5
+{ Our knight gets ready to land on b3 [fork] or
+capture on e4. } 16.e5 Nfd7 { Counterpunching! } 17.Ned4 Nxe5 18.Nxe5 Qxe5
+19.cxb4 Rd8 { Pin! Notice how everything is happening on the queenside. }
+20.Nc6 Rxd2 21.Nxe5 Nb3 22.Be4 Rb8
+{ If they want my rook, their knight has to come for it. } 23.Nc6 Nxa1
+24.Nxb8
+{ I decided to trade now because White had to capture my rook with knight
+instead of bishop. Their knight is way less active now than when it was on
+e5. } 24...Nb3 25.Re1 Rxb2
+{ The moment I captured the b2-pawn, my c4-pawn officially became a passed
+pawn and such pawns are meant to be pushed! } 26.f3 c3 27.Re3 Nd4
+{ Daring my opponent to play 28.Rxc3 and then 28...Ne2+
+[fork]. } 28.b5 c2 29.Bxc2 Rxc2 30.Rxe7 Ra2
+31.Rxa7 Nxb5 { Tactics in the air. } 32.Ra5 Nd6 33.Ra7 Nc4 34.Nc6 Ne3 35.g4
+Rg2+ 36.Kh1 Rc2
+{ White resigned. Now I'm threatening checkmate
+[Rc1#] or winning the c6-knight
+[Rxc6]. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "2) Pirc vs. Opposite-Castle Attack"]
+[Black "Example: Nemo Zhou vs. Robert Ramirez"]
+[Result "*"]
+[ECO "B07"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3
+{ White chooses an aggressive setup! Luckily, Black has the antidote to it.
+} 4...c6
+{ We stop everything on the kingside to get ready for an attack on the
+queenside since our opponent is likely to castle on that side of the board.
+} 5.f3 b5 6.Qd2
+{ White is ready to execute two key parts of their plan. First, they can
+finally castle queenside. Second, their e3-bishop can move to h6 in order
+to remove our kingside bishop. The good news is that we would be happy to give them our dark-squared bishop since it's not developed and we are not
+castling kingside for now. Without our king castled kingside, their plan makes no sense. }
+6...Nbd7 7.O-O-O Qa5
+{ I really like this move. From a5, our queen puts a lot of pressure on the
+white king and on our opponent's head. Now we are ready to kick the
+c3-knight out with 8...b4 followed by 9...Qxa2. Likewise, we are one step closer to castling queenside in case our king is no longer safe in the
+center. } 8.Kb1 Nb6 { Every black piece wants to go towards the white king! }
+9.Bd3 Nc4 10.Bxc4 bxc4
+{ Now the a8-rook can move to b8 to put pressure on the white king. } 11.Qe2
+Ba6 12.d5 c5
+{ Black knows they have a powerful attack on the queenside. There is no
+need to create anything in the center. } 13.Ka1 Rb8 14.Rb1 Bg7
+{ We typically develop our dark-squared bishop early in the game. This
+time, we waited for the right time. Just look at that a1-h8 diagonal. Our
+bishop has to be on it. } 15.Bd2 Rb4 16.Nd1 Qxa2+
+{ Nice queen sacrifice. Black is ready to move their b4-rook over to a4
+with checkmate. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Neutralizing the h-pawn Attack"]
+[Black "Neutralizing the h-pawn Attack - Introduction"]
+[Result "*"]
+[FEN "rnbqkb1r/ppp1pp1p/3p1np1/8/3PP2P/2N5/PPP2PP1/R1BQKBNR b KQkq - 0 4"]
+[SetUp "1"]
+
+
+{ How dangerous is Harry, the h-pawn? Not dangerous at all if you put a
+stop to it soon. We have to make sure we don't see ghosts when it's sent to
+attack our fianchetto structure. I didn't think I needed to emphasize this so much, but after listening to your feedback, I understood Harry can't
+be ignored. I've been playing this system for many years and that's why Harry means no stress to me, but if you are not that experienced, you'll appreciate the information in this chapter. As you will see, all we need to do is reply with ...h5 like we explained in theKID vs. Averbakh chapter,
+but let's go over some examples to make sure we get comfortable with this simple but important idea. }
+4...-- *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Neutralizing the h-pawn Attack"]
+[Black "h4 h5 in the Classical"]
+[Result "*"]
+[ECO "B07"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.h4
+{ At this point, the h5-square is well protected by our g6-pawn and
+f6-knight. So, we continue with our normal development. } 4...Bg7 5.Be2
+{ With the white bishop on e2, we have to worry about their h5-push. So,
+what do we do? We play ..h5 ourselves! } 5...h5
+{ The only downside of our ...h5 move is that the g5-square becomes
+available for the white pieces, but it's not really a problem. } 6.Bg5 O-O
+7.Bxf6
+{ I don't think anyone would take on f6, but I still wanted to mention it
+for you to see how even when White really tries, they get nothing out of
+their attack. } 7...Bxf6
+{ 7...exf6 is possible too, but I prefer to maintain a healthy pawn
+structure. } 8.g4 hxg4 9.Bxg4 Bxd4 10.Qxd4 Bxg4
+{ I don't think anyone has gotten this position before, but with the white
+king in the center, our b8-knight ready to move to c6 hitting the white
+queen, and our superior pawn structure, I would feel very comfortable as Black. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Neutralizing the h-pawn Attack"]
+[Black "Jobava, B. vs. Petrosian, T., European Rapid Ch. 2015"]
+[Result "*"]
+[ECO "B07"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be2 Bg7 5.h4
+{ White's h-pawn is coming our way and they have enough helpers
+[h1-rook, d1-queen, and e2-bishop]. } 5...h5
+{ When you see a Grandmaster of Mr. Petrosian's caliber play a line or
+idea, you better take notes. } 6.Nf3 O-O 7.Ng5
+{ This time, White decided to occupy our g5-square with their knight. Not
+ideal, but it really doesn't pose any threats. If we ever want to get rid
+of it, ...Nh7 should be enough. } 7...Nc6 8.Be3 e5 9.dxe5 Nxe5 10.f3 Re8
+11.Qd2 a6
+{ As we learn in Chapter 2, White might castle queenside and we need to be
+ready to play ...b5. ...a6 allows us to do so without weakening our
+d6-pawn. } 12.a4
+{ This move prevents our ...b5 push, but it also means the white king won't
+be safe castling to the queenside. } 12...Bd7 13.a5 Bc6 14.Rd1 Qe7 15.O-O
+{ And this is a completely equal position. It's time to play Chess! Black
+played 15...Rad8 and carried on to win the game. The rest of the game is
+not relevant to our course, but you can certainly find it on the internet if you'd like to see how it ended. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Neutralizing the h-pawn Attack"]
+[Black "h4 h5 in Opposite-Side Castling"]
+[Result "*"]
+[ECO "B07"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3 c6 5.f3 b5 6.Qd2 Nbd7 7.h4
+{ Once again, we see White sending their h-pawn to attack our fianchetto
+structure. And of course, we let them know we also have an h-pawn. } 7...h5
+{ Now, we continue with the same ideas fromchapter 2! } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Neutralizing the h-pawn Attack"]
+[Black "Nepomniachtchi, I. vs. Nyback, T. Champion's Challenge, 2023"]
+[Result "*"]
+[ECO "B07"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3 c6 5.f3 b5 6.Qd2 Nbd7 7.h4
+{ Imagine you are facing an elite player as strong as GM Ian Nepomniachtchi
+and he quickly plays h4. What to do? Of course, the same recipe! } 7...h5
+{ Nepo, just go home! } 8.Nh3 Bg7 9.Ng5
+{ Same idea by White. They have to place a piece on the g5-square to feel
+better about their h4-push. } 9...Qc7 10.Rd1 a6 11.a3 Bb7 12.Kf2
+{ White is castling by foot, but they are going to the kingside. That means
+our king is actually safe castling kingside. } 12...c5 13.d5 Ne5 14.Kg1 Bc8
+{ Our bishop looks for a better diagonal. } 15.g3 O-O
+{ And Black ended up winning this game. The rest of the game is not
+relevant to our course, but you can certainly find it on the internet if
+you'd like to see how it ended. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "3) Pirc vs. Byrne Variation"]
+[Black "Pirc vs. Byrne Variation Introduction"]
+[Result "*"]
+[ECO "B07"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Bg5
+{ The starting variation of the Byrne Variation. } 4...Bg7
+{ This is known as the Byrne variation and I have good news and bad news
+for you. Bad news is that it is dangerous and easy to encounter at the
+beginner and intermediate levels. Good news is that you already know how to deal with it. We will continue with ...c6 creating our own leverage pawn
+to attack on the queenside. Let's see. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "3) Pirc vs. Byrne Variation"]
+[Black "Byrne Variation: 5.Qd2"]
+[Result "*"]
+[ECO "B07"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Bg5
+{ The starting variation of the Byrne Variation. } 4...Bg7
+{ In case White captures our f6-knight, we have to be ready to recapture
+with our bishop instead of pawn. } 5.Qd2
+{ This is why I said you already know how to deal with it. White is ready
+to castle queenside and attack us heavily when we castle kingside. Never
+forget that any time White shows intentions to adopt this plan, we react quickly on the queenside and delay kingside castling. }
+5...c6 { Say hello to ourleverage pawn! } 6.O-O-O b5
+{ Let's go for their king before they get to ours. } 7.Bd3 Nbd7 8.Bh6 Bxh6
+{ Since we are not going to castle kingside, we take their bishop. } 9.Qxh6
+Qa5
+{ Now we are ready to play ...b4 followed by ...Qxa2. Also, if our king
+feels compromised in the center, we can quickly bring it to the queenside
+with ...Bb7 and ...O-O-O. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "3) Pirc vs. Byrne Variation"]
+[Black "Byrne Variation: 5.e5 Nfd7 6.exd6"]
+[Result "*"]
+[ECO "B07"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Bg5
+{ The starting variation of the Byrne Variation. } 4...Bg7
+{ In case White captures our f6-knight, we have to be ready to recapture
+with our bishop instead of pawn. } 5.e5
+{ This is the tricky move in the Byrne variation. What? The premature e5?
+Yes, this time the a1-rook is protecting the white Queen
+[because their queenside bishop already moved to g5]. So, trading pawns on e5 followed by the trade of queens on d1 would
+only activate their rook. } 5...Nfd7
+{ If we cannot take on e5, then we have to move our knight. From d7, we are
+safely targeting White's e5-pawn with the help of our d6-pawn and
+g7-bishop. Also, thanks to their bishop being on g5, we can play the powerful ...f6 move. }
+6.exd6 cxd6 7.Qd2 { The white queen gets in position for aggressive play. }
+7...Qa5 { Of course our queen follows suit. } 8.O-O-O
+{ At this point, it's all set and our main focus is mobilizing forces to
+attack the white king. } 8...Nc6 9.Nf3 Nb6
+{ Our knight moves towards the objective and opens up our undeveloped
+c8-bishop. } 10.Bh6 Bxh6
+{ We are not afraid of the white queen landing on h6 since we are not going
+to castle kingside anyway. After 11.Qxh6 Be6 , we are fully developed and
+ready to attack the white king. We can always castle queenside if necessary. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "3) Pirc vs. Byrne Variation"]
+[Black "Byrne Variation: 5.e5 Nfd7 6.f4"]
+[Result "*"]
+[ECO "B07"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Bg5
+{ The starting variation of the Byrne Variation. } 4...Bg7
+{ In case White captures our f6-knight, we have to be ready to recapture
+with our bishop instead of pawn. } 5.e5
+{ This is the tricky move in the Byrne variation. What? The premature e5?
+Yes, this time the a1-rook is protecting the white Queen
+[because their queenside bishop already moved to g5]. So, trading pawns on e5 followed by the trade of queens on d1 would
+only activate their rook. } 5...Nfd7
+{ If we cannot take on e5, then we have to move our knight. From d7, we are
+safely targeting White's e5-pawn with the help of our d6-pawn and
+g7-bishop. Also, thanks to their bishop being on g5, we can play the powerful ...f6 move. }
+6.f4
+{ This setup is very rare, but we have to learn how to deal with it. Don't
+worry! If you remember the ...f6 break, you will be fine. After all, it's
+about targeting White's center. However, we need to get our king away from the center before it opens up. }
+6...O-O 7.Nf3 f6
+{ Inevitably the position will open up and the white king is the one stuck
+in the center. } 8.exf6 exf6 9.Bc4+ Kh8 10.Bh4 Nb6
+{ Our knight is improved with a tempo on the c4-bishop. Once White takes
+care of their hanging bishop, we finish development. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4) Pirc vs. Austrian Attack"]
+[Black "Pirc vs. Austrian Attack Introduction"]
+[Result "*"]
+[ECO "B09"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4
+{ What's better than two pawns in the center? Yes, you guessed it —three
+pawns in the center. That's White's philosophy when they play the Austrian
+attack. Black has several ways to deal with such a big center and as long as we keep our hypermodern spirit, we will be fine. The great Bobby
+Fischer used the Austrian Attack often and that contributed to its popularity. So, we better get ready for it! }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4) Pirc vs. Austrian Attack"]
+[Black "Austrian Attack: 5.e5 #1"]
+[Result "*"]
+[ECO "B09"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4
+{ This is officially the Austrian Attack. And yes, it looks scary. White is
+letting Black know they can now play e5 anytime they like. Good news for us
+is that, as usual, White's e5 push is not dangerous. } 4...Bg7
+{ Since there is nothing we can do to prevent the e4-pawn from advancing,
+we simply continue with our normal development. } 5.e5
+{ Inexperienced players won't be able to control themselves. So, we have to
+review this early aggression. } 5...dxe5
+{ Our d-pawn has been waiting for this opportunity since move one. } 6.dxe5
+Qxd1+
+{ We already now what happens when White recaptures on e5 with their
+d-pawn. The d-file opens and we immediately take their queen. Now they have
+to compromise one of their pieces. } 7.Nxd1
+{ 7.Kxd1 would lose White the right to castle. Black can continue with
+7...Ng4 threatening to land on the f2-square with a lethal fork. } 7...Nd5
+{ Since the white knight left, we have the central d5-square for ourselves.
+} 8.Nf3 O-O { Now it's a matter of developing our queenside. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4) Pirc vs. Austrian Attack"]
+[Black "Austrian Attack: 5.e5 #2"]
+[Result "*"]
+[ECO "B09"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4
+{ This is officially the Austrian Attack. And yes, it looks scary. White is
+letting Black know they can now play e5 anytime they like. Good news for us
+is that, as usual, White's e5 push is not dangerous. } 4...Bg7
+{ Since there is nothing we can do to prevent the e4-pawn from advancing,
+we simply continue with our normal development. } 5.e5
+{ Inexperienced players won't be able to control themselves. So, we have to
+review this early aggression. } 5...dxe5
+{ Our d-pawn has been waiting for this opportunity since move one. } 6.fxe5
+{ White decided to keep two pawns in the center anyways. They also
+prevented Black from taking their queen. However, now our f6-knight can
+safely move to the central d5-square. } 6...Nd5 7.Nxd5
+{ White takes us before we take them. } 7...Qxd5 8.Nf3 c5
+{ You should be familiar with these kinds of moves by now. We want to trade
+one of White's central pawns for one of our flank pawns. Soon, we will be
+castling and finishing development on the queenside. } 9.c4 Qe4+
+{ Getting away from White's threat by gaining a tempo on their king. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4) Pirc vs. Austrian Attack"]
+[Black "Austrian Attack: 5.Nf3 O-O 6.e5"]
+[Result "*"]
+[ECO "B09"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4
+{ This is officially the Austrian Attack. And yes, it looks scary. White is
+letting Black know they can now play e5 anytime they like. Good news for us
+is that, as usual, White's e5 push is not dangerous. } 4...Bg7 5.Nf3
+{ White understands the importance of keeping the central pawns next to
+each other and waits for a better time to execute their ...e5 push. } 5...O-O
+{ Now that our king is castled, we are ready to fight for the initiative. }
+6.e5
+{ I know you don't need this information by now, but we still have to cover
+it. We treat this early attack the same way we would if they played it one
+move earlier. Among other things, notice how the d5-square is now available to our f6-knight. }
+6...dxe5 7.fxe5
+{ The alternative would be 7.dxe5 Qxd1+ 8.Nxd1 Nd5 or 7.dxe5 Qxd1+ 8.Kxd1
+Rd8+ 9.Ke1 Nd5 . } 7...Nd5 8.Nxd5 Qxd5 9.c4 Qe4+
+{ Getting away from White's threat by gaining a tempo on their king. } 10.Be2
+Nc6
+{ Happy to develop by adding more pressure to White's central pawns. Next,
+we want to develop our c8-bishop and place one of our rooks on the d-file.
+} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4) Pirc vs. Austrian Attack"]
+[Black "Austrian Attack: 5.Nf3 O-O 6.Be3 "]
+[Result "*"]
+[ECO "B09"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4
+{ This is officially the Austrian Attack. And yes, it looks scary. White is
+letting Black know they can now play e5 anytime they like. Good news for us
+is that, as usual, White's e5 push is not dangerous. } 4...Bg7 5.Nf3
+{ White understands the importance of keeping the central pawns next to
+each other and waits for a better time to execute their ...e5 push. } 5...O-O
+{ Now that our king is castled, we are ready to fight for the initiative. }
+6.Be3
+{ From White's perspective, this move seems very natural. For a hypermodern
+player, it is a unique opportunity to fight for the initiative. } 6...Ng4
+{ We quickly target that hanging bishop on e3 and open our own fianchettoed
+bishop from g7. What a subtle way to disguise our true objective! } 7.Qd2
+{ Some players might want to preserve their dark-squared bishop with 7.Bd2
+, but then we can reply with 7...c5 striking the center and trying to open
+up our fianchettoed bishop from g7. } 7...e5
+{ As much as we would like to eliminate their e3-bishop, there is no rush.
+We cannot forget the ...e5 break to claim our share of the center. } 8.dxe5
+dxe5 9.fxe5 Nxe3 10.Qxe3 Bg4
+{ Look at White's central pawns. They are weak and we will take on e5
+sooner or later. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4) Pirc vs. Austrian Attack"]
+[Black "Austrian Attack: 5.Nf3 O-O 6.Bd3 #1"]
+[Result "*"]
+[ECO "B09"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4
+{ This is officially the Austrian Attack. And yes, it looks scary. White is
+letting Black know they can now play e5 anytime they like. Good news for us
+is that, as usual, White's e5 push is not dangerous. } 4...Bg7 5.Nf3
+{ White understands the importance of keeping the central pawns next to
+each other and waits for a better time to execute their ...e5 push. } 5...O-O
+{ Now that our king is castled, we are ready to fight for the initiative. }
+6.Bd3
+{ Here is another natural move that supports the white center while leaving
+everything ready to castle. } 6...Nc6
+{ We saw a similar idea against Bd3 in the classical variation. Our
+c6-knight is ready to support thethematic ...e5 push by Black. What if
+White's d-pawn advances to attack our knight? Well, same treatment we gave their dark-squared bishop when it moved to e3 in the other line. }
+7.d5 Nb4
+{ The annoying knight jumps to attack White's d3-bishop. We were familiar
+with this resource already, but I still wanted to remind you this is why we
+were okay with 6...Nc6 in the first place. } 8.Be2 c6
+{ Even if we cannot capture their bishop, moving our knight gave us another
+resource —attacking their central pawn with our flank pawn. } 9.a3 Na6
+10.Bxa6 bxa6
+{ Don't worry about our c6-pawn. 11.dxc6 Qb6 and we get our pawn back. From
+b6, the black queen is very powerful, especially if we manage to bring our
+knight to g4 in the future. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4) Pirc vs. Austrian Attack"]
+[Black "Austrian Attack: 5.Nf3 O-O 6.Bd3 #2"]
+[Result "*"]
+[ECO "B09"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4
+{ This is officially the Austrian Attack. And yes, it looks scary. White is
+letting Black know they can now play e5 anytime they like. Good news for us
+is that, as usual, White's e5 push is not dangerous. } 4...Bg7 5.Nf3
+{ White understands the importance of keeping the central pawns next to
+each other and waits for a better time to execute their ...e5 push. } 5...O-O
+{ Now that our king is castled, we are ready to fight for the initiative. }
+6.Bd3
+{ Here is another natural move that supports the white center while leaving
+everything ready to castle. } 6...Nc6
+{ We saw a similar idea against Bd3 in the classical variation. Our
+c6-knight is ready to support thethematic ...e5 push by Black. What if
+White's d-pawn advances to attack our knight? Well, same treatment we gave their dark-squared bishop when it moved to e3 in the other line. }
+7.e5
+{ Of course we have to consider this e5-push! I hope you immediately
+thought of the d5-square. } 7...dxe5 8.dxe5
+{ Taking with their f4-pawn would not make that big a difference. } 8...Nd5
+{ Yes, knights love to be in the center of the board. } 9.Nxd5 Qxd5 10.O-O
+Nb4
+{ Once White's light-squared bishop leaves d3, our c8-bishop can land on
+f5. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "4) Pirc vs. Austrian Attack"]
+[Black "Austrian Attack: 5.Nf3 O-O 6.Bd3 #3"]
+[Result "*"]
+[ECO "B09"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4
+{ This is officially the Austrian Attack. And yes, it looks scary. White is
+letting Black know they can now play e5 anytime they like. Good news for us
+is that, as usual, White's e5 push is not dangerous. } 4...Bg7 5.Nf3
+{ White understands the importance of keeping the central pawns next to
+each other and waits for a better time to execute their ...e5 push. } 5...O-O
+{ Now that our king is castled, we are ready to fight for the initiative. }
+6.Bd3
+{ Here is another natural move that supports the white center while leaving
+everything ready to castle. } 6...Nc6
+{ We saw a similar idea against Bd3 in the classical variation. Our
+c6-knight is ready to support thethematic ...e5 push by Black. What if
+White's d-pawn advances to attack our knight? Well, same treatment we gave their dark-squared bishop when it moved to e3 in the other line. }
+7.O-O
+{ This time, we are not being attacked. That means we can carry on with our
+ultimate plan — the ...e5 push. } 7...e5 8.fxe5
+{ The alternative would be 8.dxe5 dxe5 9.f5 Nb4 . } 8...dxe5 9.d5
+{ Double capturing on e5 would give Black a nice position after 9.dxe5 Nxe5
+10.Nxe5 Qd4+ 11.Kh1 Qxe5 . } 9...Nd4 10.Nxe5 Nxe4
+{ Our g7-bishop is ready to capture on e5. A simple tactic that gets our
+pawn back and leaves White without their strong center. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "5) Pirc vs. Fianchetto Variation"]
+[Black "Pirc vs. Fianchetto Variation Introduction"]
+[Result "*"]
+[ECO "B07"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.g3 Bg7
+{ As you can see, in this variation White chooses to fianchetto their
+kingside bishop just like us. In my experience, this line is easy to deal
+with as long as you remember the plans we have already learned in the classical variation. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "5) Pirc vs. Fianchetto Variation"]
+[Black "Fianchetto Variation: 6.Nf3"]
+[Result "*"]
+[ECO "B07"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.g3 Bg7
+{ The starting position of the Fianchetto Variation. } 5.Bg2 O-O
+{ Now that the black king is castled, we get ready to unleash our
+hypermodern magic! } 6.Nf3
+{ So, what should a hypermodern player like you play here? Black simply
+wants their e5 break in the center. Can we play ...Nc6 first? If 6...Nc6 ,
+White can attack our knight by advancing their d-pawn 7.d5 and then we don't have a good square to go to. What? Why can't our knight jump to e5?
+7...Ne5 Because of their f3-knight! We would like to avoid doubled pawns. Got it! }
+6...Bg4
+{ I know you didn't need any help to think of this plan! Now Black is ready
+to claim their share of the center by playing ...e5. } 7.h3 Bxf3 8.Qxf3 Nc6
+{ At this point, we are fully developed and ready to strike the center with
+...e5. Here I recommend 8...Nc6 because Black completes development with a
+tempo on the d4-pawn. However, 8...Nfd7 or 8...c6 are probably more accurate. Just feel free to try them all and pick the one you like the most. }
+9.Be3
+{ The alternative would be 9.d5 Ne5 10.Qe2 c6 as we have seen in the
+classical variation. } 9...e5 { Welcome to your hypermodern territory! }
+10.d5
+{ The alternative would have been 10.dxe5 dxe5 and Black has a comfortable
+position. } 10...Nd4
+{ The annoying black knight lands in the center with serious threats hoping
+White captures it, opening up the center. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "5) Pirc vs. Fianchetto Variation"]
+[Black "Fianchetto Variation: 6.Nge2 e5 7.O-O"]
+[Result "*"]
+[ECO "B07"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.g3 Bg7
+{ The starting position of the Fianchetto Variation. } 5.Bg2 O-O
+{ Now that the black king is castled, we get ready to unleash our
+hypermodern magic! } 6.Nge2
+{ This time, White develops their kingside knight to e2 instead of f3 in
+order to not block their fianchetto bishop from g2. } 6...e5
+{ Of course! Without the white knight on f3, we are free to play ...e5
+right away. Now White can take, advance or leave it up to us. Let's review
+them one by one. } 7.O-O exd4 { If they don't take us, we take them! } 8.Nxd4
+Nc6
+{ This is my favorite way to continue, but we can always play 8...Bd7 first
+and only then we develop our knight to c6. } 9.Nxc6 bxc6
+{ Now you can appreciate why I don't mind getting a bad pawn structure on
+the queenside. Thanks to it, we have more control over the d5 and b5
+squares. We also get the b-file for our a8-rook. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "5) Pirc vs. Fianchetto Variation"]
+[Black "Fianchetto Variation: 6.Nge2 e5 7.dxe5"]
+[Result "*"]
+[ECO "B07"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.g3 Bg7
+{ The starting position of the Fianchetto Variation. } 5.Bg2 O-O
+{ Now that the black king is castled, we get ready to unleash our
+hypermodern magic! } 6.Nge2
+{ This time, White develops their kingside knight to e2 instead of f3 in
+order to not block their fianchetto bishop from g2. } 6...e5
+{ Of course! Without the white knight on f3, we are free to play ...e5
+right away. Now White can take, advance or leave it up to us. Let's review
+them one by one. } 7.dxe5 dxe5 8.Qxd8 Rxd8 9.Bg5
+{ In many variations, this white bishop on g5 is dangerous. Our f6-knight
+is under attack and unable to move since the d8-rook would be hanging.
+That's why White would love to put their c3-knight on d5. So, how do we confiscate the d5-square? }
+9...c6
+{ The helpful c6-pawn! Now we are ready to complete development and kick
+the g5-bishop out with our h-pawn. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "5) Pirc vs. Fianchetto Variation"]
+[Black "Fianchetto Variation: 6.Nge2 e5 7.d5"]
+[Result "*"]
+[ECO "B07"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.g3 Bg7
+{ The starting position of the Fianchetto Variation. } 5.Bg2 O-O
+{ Now that the black king is castled, we get ready to unleash our
+hypermodern magic! } 6.Nge2
+{ This time, White develops their kingside knight to e2 instead of f3 in
+order to not block their fianchetto bishop from g2. } 6...e5
+{ Of course! Without the white knight on f3, we are free to play ...e5
+right away. Now White can take, advance or leave it up to us. Let's review
+them one by one. } 7.d5 c6
+{ Once more, we see the c-pawn in action. This time in the form of a flank
+pawn that vigorously challenges one of White's central pawns. } 8.dxc6 bxc6
+{ Anyone would have captured with the b8-knight, but we understand the
+importance of having a pawn on c6. At this point, we want to develop our
+queenside minor pieces [knight and bishop], place our queen on c7 and our a8-rook belongs on the b8-square. }
+9.O-O Qc7
+{ Next we will finish our queenside development and exert pressure with our
+b8-rook. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "6) Pirc vs. Harmonist Variation"]
+[Black "Pirc vs. Harmonist Variation Introduction"]
+[Result "*"]
+[ECO "B00"]
+
+1.e4 d6 2.Bc4 Nf6 3.d3 g6 4.f4 Bg7
+{ What? Is this the Austrian Attack? No! This is the Harmonist Variation -
+White prefers to have a solid central structure with ambitions of a
+kingside attack. White's d-pawn is on d3 instead of d4. Ok! Is it dangerous? Only if Black underestimates the powerful c4-bishop. For now, we complete
+kingside development. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "6) Pirc vs. Harmonist Variation"]
+[Black "Harmonist Variation: 5.Nc3 #1"]
+[Result "*"]
+[ECO "B00"]
+
+1.e4 d6 2.Bc4
+{ This move is not new to us. However, with this move order, it can lead to
+a specific setup that many Pirc Defense players find annoying. } 2...Nf6
+{ Yes, we continue with our setup! } 3.d3
+{ Such an innocent move, right? So, Black continues. } 3...g6 4.f4
+{ What? Is this the Austrian Attack? No! White's d-pawn is on d3 instead of
+d4. Ok! Is it dangerous? Only if Black underestimates the powerful
+c4-bishop. For now, we complete kingside development. } 4...Bg7 5.Nc3 O-O
+{ Kingside is complete! } 6.Nf3
+{ It's time to pick the right plan from our toolbox. This time, we are
+going after the c4-bishop. } 6...Nc6
+{ Our knight is ready to go to a5 in order to eliminate White's powerful
+bishop. Now you only need to know what to do when they allow it and when
+they don't. } 7.O-O
+{ If White doesn't play 7.a3 to hide their bishop on a2, we immediately go
+after it. } 7...Na5 8.Bb3
+{ White can also leave their bishop on c4 with 8.Qe1 Nxc4 9.dxc4 c6 10.Qh4
+b5 11.cxb5 cxb5 12.Be3 12.Nxb5 loses to 12...Qb6+ 12...b4 13.Nd5 Nxd5
+14.exd5 Bf5 and Black is in good shape. } 8...Nxb3 { Good bye bishop! }
+9.axb3 a6
+{ White lost their powerful bishop, but their a1-rook is now activated. So,
+it's good to keep our a-pawn safe. } 10.h3 b6
+{ Black's bishop is headed for b7 giving us good control over the long
+diagonals [a1-h8 and h1-a8]. However, without
+our bishop on c8, we lose control over the f5-square and White could play f5 at any moment. For that reason, I would play ...e6 before ...Bb7. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "6) Pirc vs. Harmonist Variation"]
+[Black "Harmonist Variation: 5.Nc3 #2"]
+[Result "*"]
+[ECO "B00"]
+
+1.e4 d6 2.Bc4
+{ This move is not new to us. However, with this move order, it can lead to
+a specific setup that many Pirc Defense players find annoying. } 2...Nf6
+{ Yes, we continue with our setup! } 3.d3
+{ Such an innocent move, right? So, Black continues. } 3...g6 4.f4
+{ What? Is this the Austrian Attack? No! White's d-pawn is on d3 instead of
+d4. Ok! Is it dangerous? Only if Black underestimates the powerful
+c4-bishop. For now, we complete kingside development. } 4...Bg7 5.Nc3 O-O
+{ Kingside is complete! } 6.Nf3
+{ It's time to pick the right plan from our toolbox. This time, we are
+going after the c4-bishop. } 6...Nc6
+{ Our knight is ready to go to a5 in order to eliminate White's powerful
+bishop. Now you only need to know what to do when they allow it and when
+they don't. } 7.a3
+{ With this clever move, White can always put their c4-bishop on a2. }
+7...Bg4
+{ With the ...Na5 plan out of the picture, we look inside our toolbox again
+and this time we pick my favorite ...Bg4. With the f3-knight neutralized,
+our c6-knight can land on the d4-square. } 8.h3 Bxf3 9.Qxf3 Nd4
+{ I don't know about you, but I get a great feeling when I play a move like
+this one. } 10.Qf2 c5
+{ Yes, you could have played 10...Nd7 opening our fianchetto bishop from
+g7, but I like 10...c5 better in this position. Partly because it will help
+you remember what Black's middlegame plan is about. Since our central pawn chain [e7-d6-c5] is aiming at the queenside
+we should expand there. A possible continuation could be 11.Be3 b5 [beautiful move] 12.Bxb5 Qb6 and Black either collects the b5-bishop or the b2 pawn. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "6) Pirc vs. Harmonist Variation"]
+[Black "Harmonist Variation: 5.e5"]
+[Result "*"]
+[ECO "B00"]
+
+1.e4 d6 2.Bc4
+{ This move is not new to us. However, with this move order, it can lead to
+a specific setup that many Pirc Defense players find annoying. } 2...Nf6
+{ Yes, we continue with our setup! } 3.d3
+{ Such an innocent move, right? So, Black continues. } 3...g6 4.f4
+{ What? Is this the Austrian Attack? No! White's d-pawn is on d3 instead of
+d4. Ok! Is it dangerous? Only if Black underestimates the powerful
+c4-bishop. For now, we complete kingside development. } 4...Bg7 5.e5
+{ At this point in the course, we know this e5-push is not White's best
+option. However, we still need to be familiar with it when combined with
+the powerful c4-bishop. } 5...dxe5
+{ Our d-pawn has been waiting for this opportunity since move one. } 6.fxe5
+Ng4
+{ Our knight goes to the aggressive g4-square as we've seen in other
+variations. Now, White has to protect their e5-pawn. } 7.d4
+{ It's time to reach into our toolbox again. What move do we use to break
+White's center apart [or at least try]. } 7...c5
+{ We challenge White's central pawn with our flank pawn. If the d4-pawn
+moves, then their e5-pawn falls. } 8.c3 cxd4 9.cxd4 O-O
+{ Putting our king in safety before taking another blow at White's center.
+} 10.Nf3 Nc6
+{ Our c6-knight and queen are putting pressure on the d4-pawn and soon
+we'll have our g4 knight landing on f5 [via h6]
+with even more pressure. Yes, the hypermodern approach in full effect! } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "7) KID vs. Classical Variation"]
+[Black "KID vs. Classical Variation Introduction"]
+[Result "*"]
+[ECO "E90"]
+
+1.d4 d6 2.c4 Nf6 3.Nc3 g6 4.e4 Bg7 5.Nf3 O-O
+{ Welcome to the Classical Variation! What? How? Didn't we already cover
+this? No! This time we are playing King's Indian Defense
+[against 1. d4]. What's the difference? White's c-pawn is on c4 instead of c2. That's why I said you must be able to
+tell when we are playing Pirc Defense [against 1. e4] and when we are playing King's Indian Defense [against 1. d4 or anything that is not 1. e4] }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "7) KID vs. Classical Variation"]
+[Black "Classical Variation: 8.dxe5 "]
+[Result "*"]
+[ECO "E91"]
+
+1.d4
+{ White starts with their queen's pawn and believe it or not, this changes
+things a bit. There is no need to worry since we will be adopting the same
+setup. However, you must learn to distinguish when you are playing against 1. e4 [Pirc Defense] and when you are facing
+something else [King's Indian Defense]. } 1...d6
+{ Whenever White does not start with 1.e4, Black likes to play 1...Nf6.
+After all, that's what the hypermodern approach is all about and now we can
+do it without the e4-pawn ready to attack our knight. With that said, you and I will stick to 1...d6. Why? 1] consistency
+2] playing 1...Nf6 now allows White to play the annoying 2.Bg5 move [we will talk more about it soon]. Do note, though, that both move-orders are possible, and very often lead totranspositions. For example,
+@@StartFEN@@rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1@@EndFEN@@ 1.d4 d6 2.c4 Nf6 leads to the same position as @@StartFEN@@rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1@@EndFEN@@ 1.d4 Nf6 2.c4 d6 . }
+2.c4
+{ Most 1. d4 players will play 2. c4 since it strengthens White's control
+over the center. Notice how in our lines against 1. e4 White's c-pawn would
+remain on c2. Here it's a crucial part of their setup. } 2...Nf6 3.Nc3 g6
+4.e4 Bg7 5.Nf3 { The starting position of the Classical Variation. } 5...O-O
+{ Still, the classical variation means no stress. So we take a moment to
+castle. } 6.Be2
+{ Notice how this bishop could only be developed to e2 or d3. There is no
+Bc4 this time because of their c-pawn. } 6...Nbd7
+{ Just like we do against theLondon System which we will see later. Our
+queenside knight is developed to d7. From there, it can easily support our
+...e5 break. } 7.O-O
+{ White's e5 push would only get them in trouble after 8.e5 dxe5 9.dxe5 Ng4
+and their e5 pawn is heavily attack by our two knights and the g7-bishop. }
+7...e5
+{ Mission accomplished! Now White can capture, push or maintain the
+pressure in the center. } 8.dxe5 dxe5 9.Be3 c6
+{ Our thematic ...c6 keeps the c3-knight away from d5 and b5. } 10.Qc2 Qe7
+{ Our main plan now is to transfer our d7-knight to c5 and then to e6. From
+there, it's ready to jump to the attractive d4 or f4 squares. It could be
+something like 11.Rad1 Re8 12.h3 Nc5 13.b4 Ne6 [ready to land on d4 or f4] and if 14.Nxe5 Qxb4 Black has a good position. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "7) KID vs. Classical Variation"]
+[Black "Classical Variation: 8.d5"]
+[Result "*"]
+[ECO "E91"]
+
+1.d4
+{ White starts with their queen's pawn and believe it or not, this changes
+things a bit. There is no need to worry since we will be adopting the same
+setup. However, you must learn to distinguish when you are playing against 1. e4 [Pirc Defense] and when you are facing
+something else [King's Indian Defense]. } 1...d6
+{ Whenever White does not start with 1.e4, Black likes to play 1...Nf6.
+After all, that's what the hypermodern approach is all about and now we can
+do it without the e4-pawn ready to attack our knight. With that said, you and I will stick to 1...d6. Why? 1] consistency
+2] playing 1...Nf6 now allows White to play the annoying 2.Bg5 move [we will talk more about it soon]. Do note, though, that both move-orders are possible, and very often lead totranspositions. For example,
+@@StartFEN@@rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1@@EndFEN@@ 1.d4 d6 2.c4 Nf6 leads to the same position as @@StartFEN@@rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1@@EndFEN@@ 1.d4 Nf6 2.c4 d6 . }
+2.c4
+{ Most 1. d4 players will play 2. c4 since it strengthens White's control
+over the center. Notice how in our lines against 1. e4 White's c-pawn would
+remain on c2. Here it's a crucial part of their setup. } 2...Nf6 3.Nc3 g6
+4.e4 Bg7 5.Nf3 { The starting position of the Classical Variation. } 5...O-O
+{ Still, the classical variation means no stress. So we take a moment to
+castle. } 6.Be2
+{ Notice how this bishop could only be developed to e2 or d3. There is no
+Bc4 this time because of their c-pawn. } 6...Nbd7
+{ Just like we do against theLondon System which we will see later. Our
+queenside knight is developed to d7. From there, it can easily support our
+...e5 break. } 7.O-O
+{ White's e5 push would only get them in trouble after 8.e5 dxe5 9.dxe5 Ng4
+and their e5 pawn is heavily attack by our two knights and the g7-bishop. }
+7...e5
+{ Mission accomplished! Now White can capture, push or maintain the
+pressure in the center. } 8.d5
+{ White chooses to advance the d-pawn and lock the center regardless of the
+weaknesses it creates. What square became available for our d7-knight? }
+8...a5
+{ I know you got it correct. Our d7-knight wants to land on the c5-square.
+However, we don't want White to kick us out by putting their b-pawn on b4.
+That's why we secure it first by playing ...a5. } 9.Bg5 h6
+{ We typically attack the intrusive bishop with our h-pawn. } 10.Be3
+{ Controlling the c5-square. } 10...Ng4
+{ Black could have played 10...Nc5 as well, but I prefer to put our
+kingside pawn storm in motion. As per the wisdom outlinedhere, our f-pawn
+is ready to go to f5 targeting the enemy pawn in front of our most forward pawn [as we learned in the Pirc vs.
+Classical]. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "7) KID vs. Classical Variation"]
+[Black "Classical Variation: 8.Be3"]
+[Result "*"]
+[ECO "E94"]
+
+1.d4
+{ White starts with their queen's pawn and believe it or not, this changes
+things a bit. There is no need to worry since we will be adopting the same
+setup. However, you must learn to distinguish when you are playing against 1. e4 [Pirc Defense] and when you are facing
+something else [King's Indian Defense]. } 1...d6
+{ Whenever White does not start with 1.e4, Black likes to play 1...Nf6.
+After all, that's what the hypermodern approach is all about and now we can
+do it without the e4-pawn ready to attack our knight. With that said, you and I will stick to 1...d6. Why? 1] consistency
+2] playing 1...Nf6 now allows White to play the annoying 2.Bg5 move [we will talk more about it soon]. Do note, though, that both move-orders are possible, and very often lead totranspositions. For example,
+@@StartFEN@@rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1@@EndFEN@@ 1.d4 d6 2.c4 Nf6 leads to the same position as @@StartFEN@@rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1@@EndFEN@@ 1.d4 Nf6 2.c4 d6 . }
+2.c4
+{ Most 1. d4 players will play 2. c4 since it strengthens White's control
+over the center. Notice how in our lines against 1. e4 White's c-pawn would
+remain on c2. Here it's a crucial part of their setup. } 2...Nf6 3.Nc3 g6
+4.e4 Bg7 5.Nf3 { The starting position of the Classical Variation. } 5...O-O
+{ Still, the classical variation means no stress. So we take a moment to
+castle. } 6.Be2
+{ Notice how this bishop could only be developed to e2 or d3. There is no
+Bc4 this time because of their c-pawn. } 6...Nbd7
+{ Just like we do against theLondon System which we will see later. Our
+queenside knight is developed to d7. From there, it can easily support our
+...e5 break. } 7.O-O
+{ White's e5 push would only get them in trouble after 8.e5 dxe5 9.dxe5 Ng4
+and their e5 pawn is heavily attack by our two knights and the g7-bishop. }
+7...e5
+{ Mission accomplished! Now White can capture, push or maintain the
+pressure in the center. } 8.Be3
+{ Well, if they don't take us, we take them! } 8...exd4 9.Nxd4 Nc5
+{ Our knight likes the c5-square and this time it comes with a tempo on the
+e4-pawn. Once White protects their central pawn, we continue with ...b6 and
+...Bb7 completing development. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "8) KID vs. Opposite-Castle Attack"]
+[Black "KID vs. Opposite-Side Attack Introduction"]
+[Result "*"]
+[ECO "E80"]
+
+1.d4 d6 2.c4 Nf6 3.Nc3 g6 4.e4 Bg7 5.f3
+{ We are now facing the dangerous Sämisch Variation. Did you notice the
+leverage pawn on f3? Yes, we have seen this before. White intends to castle
+queenside and launch an aggressive attack on the kingside where they expect us to castle. }
+5...c6
+{ No way! Do we treat it the same way we do in the Pirc Defense vs.
+Opposite-Side Attack? Yes, but since they have a pawn on c4, we cannot play
+b5 safely yet. So, we need a second leverage pawn. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "8) KID vs. Opposite-Castle Attack"]
+[Black "Opposite-Side Attack: 8.O-O-O"]
+[Result "*"]
+[ECO "E80"]
+
+1.d4 d6 2.c4 Nf6 3.Nc3 g6 4.e4 Bg7 5.f3
+{ The starting position of the Sämisch Variation. } 5...c6
+{ No way! Do we treat it the same way we do in the Pirc Defense vs.
+Opposite-Side Attack? Yes, but since they have a pawn on c4, we cannot play
+...b5 safely yet. So, we need a second leverage pawn. } 6.Be3 a6
+{ Now we are ready to expand on the queenside with ...b5. } 7.Qd2 b5
+{ With such a head start on the queenside, White will think twice before
+castling there. } 8.O-O-O
+{ White ignores our warning. Now it's all about attacking their king with
+everything we got. } 8...Qa5 { Our most powerful piece just checked in! }
+9.Kb1 Nbd7 10.g4 Rb8
+{ At this point, we are ready to incorporate our b8-rook to the attack. It
+will be a sharp middlegame, but we have good attacking chances. It's all
+about getting to their king before they get to ours. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "8) KID vs. Opposite-Castle Attack"]
+[Black "Opposite-Side Attack: 8.cxb5"]
+[Result "*"]
+[ECO "E80"]
+
+1.d4 d6 2.c4 Nf6 3.Nc3 g6 4.e4 Bg7 5.f3
+{ The starting position of the Sämisch Variation. } 5...c6
+{ No way! Do we treat it the same way we do in the Pirc Defense vs.
+Opposite-Side Attack? Yes, but since they have a pawn on c4, we cannot play
+...b5 safely yet. So, we need a second leverage pawn. } 6.Be3 a6
+{ Now we are ready to expand on the queenside with ...b5. } 7.Qd2 b5
+{ With such a head start on the queenside, White will think twice before
+castling there. } 8.cxb5 { Of course White can capture on b5. } 8...axb5
+{ Black is happy to open the a-file for their rook. They basically
+activated that a8-rook without moving it. } 9.Bd3 O-O
+{ Aren't we supposed to delay castling kingside? With our pawn on b5 and
+the powerful a8-rook, White is pretty much forced to castle kingside. So,
+we are safe. } 10.Nge2 Nbd7
+{ Black is now ready to strike the center with ...e5 or ...c5. Pushing the
+b-pawn is also in the air. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "8) KID vs. Opposite-Castle Attack"]
+[Black "Opposite-Side Attack: 8.d5"]
+[Result "*"]
+[ECO "E80"]
+
+1.d4 d6 2.c4 Nf6 3.Nc3 g6 4.e4 Bg7 5.f3
+{ The starting position of the Sämisch Variation. } 5...c6
+{ No way! Do we treat it the same way we do in the Pirc Defense vs.
+Opposite-Side Attack? Yes, but since they have a pawn on c4, we cannot play
+...b5 safely yet. So, we need a second leverage pawn. } 6.Be3 a6
+{ Now we are ready to expand on the queenside with ...b5. } 7.Qd2 b5
+{ With such a head start on the queenside, White will think twice before
+castling there. } 8.d5
+{ This move is meant to undermine our b5-pawn by eliminating one of our
+leverage pawns [c6]. } 8...b4
+{ We advance with a tempo on the c3-knight. } 9.Nd1 a5
+{ Our b-pawn is protected again and we are ready to castle kingside
+[O-O] followed by queenside development. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "8) KID vs. Opposite-Castle Attack"]
+[Black "Opposite-Side Attack: 8.e5"]
+[Result "*"]
+[ECO "E80"]
+
+1.d4 d6 2.c4 Nf6 3.Nc3 g6 4.e4 Bg7 5.f3
+{ The starting position of the Sämisch Variation. } 5...c6
+{ No way! Do we treat it the same way we do in the Pirc Defense vs.
+Opposite-Side Attack? Yes, but since they have a pawn on c4, we cannot play
+...b5 safely yet. So, we need a second leverage pawn. } 6.Be3 a6
+{ Now we are ready to expand on the queenside with ...b5. } 7.Qd2 b5
+{ With such a head start on the queenside, White will think twice before
+castling there. } 8.e5
+{ I know you know how to handle this ...e5 push, but we still have to talk
+about it briefly. } 8...dxe5 9.dxe5 Qxd2+ 10.Bxd2 Nfd7
+{ Our knight moves out of trouble with a tempo on the e5-pawn and it's
+ready to transfer to the queenside next via b6. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "8) KID vs. Opposite-Castle Attack"]
+[Black "Opposite-Side Attack: 8.c5"]
+[Result "*"]
+[ECO "E80"]
+
+1.d4 d6 2.c4 Nf6 3.Nc3 g6 4.e4 Bg7 5.f3
+{ The starting position of the Sämisch Variation. } 5...c6
+{ No way! Do we treat it the same way we do in the Pirc Defense vs.
+Opposite-Side Attack? Yes, but since they have a pawn on c4, we cannot play
+...b5 safely yet. So, we need a second leverage pawn. } 6.Be3 a6
+{ Now we are ready to expand on the queenside with ...b5. } 7.Qd2 b5
+{ With such a head start on the queenside, White will think twice before
+castling there. } 8.c5
+{ We treat this move the same way we do with White's e5 push. } 8...dxc5
+9.dxc5 Qxd2+ 10.Bxd2 O-O
+{ And it's safe to say Black is ahead in development! An interesting
+middlegame plan is to put pressure on the c5-pawn with our knights. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "8) KID vs. Opposite-Castle Attack"]
+[Black "Opposite-Side Attack: 8.Bd3"]
+[Result "*"]
+[ECO "E80"]
+
+1.d4 d6 2.c4 Nf6 3.Nc3 g6 4.e4 Bg7 5.f3
+{ The starting position of the Sämisch Variation. } 5...c6
+{ No way! Do we treat it the same way we do in the Pirc Defense vs.
+Opposite-Side Attack? Yes, but since they have a pawn on c4, we cannot play
+...b5 safely yet. So, we need a second leverage pawn. } 6.Be3 a6
+{ Now we are ready to expand on the queenside with ...b5. } 7.Qd2 b5
+{ With such a head start on the queenside, White will think twice before
+castling there. } 8.Bd3
+{ White can also focus on developing the rest of their minor pieces and
+simply castle kingside as quickly as possible. } 8...bxc4
+{ Let's make that bishop move again while we open lines on the queen side .
+} 9.Bxc4 O-O
+{ At this point, it's all about developing our queenside minor pieces.
+However, I would like to mention it's possible to break the center
+immediately by placing our d-pawn on d5. } 10.Nge2 d5
+{ In case you don't like this d5 break, just know 10...Nbd7 is possible
+too. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "9) KID vs. Averbakh Variation"]
+[Black "KID vs. Averbakh Variation Introduction"]
+[Result "*"]
+[ECO "E73"]
+
+1.d4 d6 2.c4 Nf6 3.Nc3 g6 4.e4 Bg7 5.Be2 O-O 6.Bg5 Nbd7
+{ Say hello to the Averbakh variation! It's named after the legendary
+grandmaster Yuri Averbakh. I don't think you will see it much at the
+beginner or intermediate level, but if you ever do, you must be able to classify it correctly. Classify it correctly? What do you mean? Well, is
+this a quiet setup like the Classical variation or is it aggressive like theSämisch? The Averbakh variation is an aggressive setup and we must treat it as such. How? By using the same plan we play against the Sämisch, which includes ...c6-...a6-...b5 in case they castle
+opposite-side. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "9) KID vs. Averbakh Variation"]
+[Black "Averbakh Variation "]
+[Result "*"]
+[ECO "E73"]
+
+1.d4 d6 2.c4 Nf6 3.Nc3 g6 4.e4 Bg7 5.Be2
+{ Every time I see this move, my antenna goes up. Sometimes they continue
+with 6. Nf3 and it stays in the classical variation [quiet
+approach]. However, White can also continue with 6. h4 intending 7. h5, which is an aggressive approach. }
+5...O-O
+{ Even though my antenna is up, I'm not concerned yet. 6.h4 would be met by
+6...h5 while 6.Nf3 stays in the Classical Variation. } 6.Bg5
+{ This is officially the Averbakh variation. White wants to put their queen
+on d2 followed by queenside castling and an aggressive pawn storm on the
+kingside. How should we respond? } 6...Nbd7
+{ Yes, the same Nbd7! Black is controlling the e5-square and ready to
+replace their f6-knight with another knight. } 7.Qd2
+{ Okay! White just revealed their aggressive intentions. They are
+opposite-side castling and coming for our king. } 7...c6
+{ Black adopts the same plan we saw in theKID vs. Sämisch Variation
+chapter. The rest should be easy for you to remember. } 8.h4 a6
+{ We are now ready to play ...b5. However, you can also play 8...h5 to stop
+White's h-pawn. } 9.g4
+{ 9.h5 b5 10.hxg6 fxg6 is another option where Black is in good shape
+thanks to their open f-file. } 9...b5
+{ Black's b-pawn is ready to attack the c3-knight followed by ...Nxe4. }
+10.f3 { White protects their e4-pawn. } 10...h5
+{ Now that our queenside expansion is in motion, it's a good idea to stop
+White's h-pawn. With that said, I also like 10...Qa5 . Black's main task
+now is to target the white king. Since it's still in the center, we want to play e5 to open up lines there. If it castles queenside, then we focus on
+that part of the board. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "9) KID vs. Averbakh Variation"]
+[Black "Example: Elod Kovacs vs. Sandor Videki, 1999"]
+[Result "*"]
+[ECO "E73"]
+
+1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Be2 O-O 6.Bg5
+{ This is officially the Averbakh variation. White wants to put their queen
+on d2 followed by queenside castling and an aggressive pawn storm on the
+kingside. How should we respond? } 6...Nbd7
+{ Yes, the same Nbd7! Black is controlling the e5-square and ready to
+replace their f6-knight with another knight. } 7.Qd2
+{ Okay! White just revealed their aggressive intentions. They are
+opposite-side castling and coming for our king. } 7...c6
+{ Black adopts the same plan we saw in theKID vs. Sämisch Variation
+chapter. The rest should be easy for you to remember. } 8.h4 a6
+{ We are now ready to play ...b5. However, you can also play 8...h5 to stop
+White's h-pawn. } 9.O-O-O
+{ All the cards are on the table. Now Black must find ways to expose and
+attack the white king. Of course, White will try to do the same to the
+black monarch. } 9...b5 10.f3 Qa5
+{ You should be familiar with this move already. Our most powerful attacker
+is in position. } 11.h5 e5
+{ Unfortunately, Black underestimated their own ...b4-push followed by
+...Qxa2. It would have been crushing in this position. } 12.hxg6 fxg6
+{ Taking with the f-pawn activates the f8-rook while opening an escape
+window for our king. } 13.d5 b4 14.Nb1 cxd5
+{ Opening the c-file to attack the white king. I know you can already see a
+black rook landing on c8. } 15.cxd5 Bb7 16.b3 Rac8+
+{ Black made contact with the enemy king first. That's what opposite-side
+castling attack is all about! } 17.Bc4 Nb6
+{ Black won't stop until they get to the White king! } 18.Qd3 Nxc4 19.bxc4
+Qxa2 20.Nd2 Nd7
+{ Black knows the importance of bringing more attackers towards the white
+king. However, 20...Rxc4+ 21.Nxc4 Rc8 was stronger. } 21.Qb1 Qa5
+{ Generally, the defender [White in this case]
+wants to trade down pieces while the attacker [Black in this
+case] needs all their pieces for a more effective attack. }
+22.Be3 Qa3+
+{ Now Black will capture the e3-bishop. So, White resigned. I hope this
+game illustrates what we look for in this kind of middlegame positions. Of
+course, things will not always go our way, but the more we expose ourselves to these sharp plans, the better we'll become. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "10) KID vs. Four Pawns Attack"]
+[Black "KID vs. The Four Pawns Attack Introduction"]
+[Result "*"]
+[ECO "E76"]
+
+1.d4 d6 2.c4 Nf6 3.Nc3 g6 4.e4 Bg7 5.f4
+{ We are officially facing the Four Pawns Attack. From White's perspective,
+they have solid control over the center. The more the merrier! Black thinks
+those four pawns are liabilities White cannot maintain for long. Sometimes more is less! From now on, both players will try to prove each other wrong.
+You can check out a model game in this variationhere. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "10) KID vs. Four Pawns Attack"]
+[Black "Example: Kayden Troff vs. Daniel Naroditsky, US Junior Championship, 2011"]
+[Result "*"]
+[ECO "E76"]
+
+
+{ Before we start learning the setup I recommend against this variation,
+let's see how GM Daniel Narodistky used the ...Bg4 plan we covered in the
+Pirc Defense. As long as we understand the plans and ideas we have already discussed, we can deal with anything. }
+1.d4 g6
+{ Daniel started with 1...g6 instead of 1...d6 and it's perfectly fine.
+Move order is not that important as long as we know where our pieces go. }
+2.c4 Bg7 3.Nc3 d6 4.e4 Nf6 5.f4
+{ We are officially facing the Four Pawns Attack. From White's perspective,
+they have solid control over the center. The more the merrier! Black thinks
+those four pawns are liabilities White cannot maintain for long. Sometimes more is less! From now on, both players will try to prove each other wrong.
+} 5...Bg4
+{ If you already went over our Pirc Defense lines [vs.
+e4], you should be familiar with this move. Even though it's
+not the best choice in this position, Black knows their plan and that's what matters. }
+6.Qb3 Nc6
+{ Yes, we know this knight loves the c6-square and we often see it happen
+in the ...Bg4 lines. } 7.Be3 e5
+{ What did I say? You are more than familiar with all of this hypermodern
+ideas. } 8.Qxb7 exd4 { Fork! } 9.Nb5 O-O
+{ With our king in safety, we are ready to attack. } 10.Qxc6 dxe3 11.Nc3 Rb8
+{ Without our b-pawn, we get to put pressure down the b-file. } 12.Be2 Rxb2
+13.O-O-O Qb8
+{ With kings castled opposite side, we know we must attack theirs before
+they attack ours. As you can see, the b-file is our way in. } 14.h3 Nxe4
+{ Narodistky remembered his powerful bishop is fianchettoed on g7 and now
+it's too much for the White king. } 15.Nxe4 Rb1+ 16.Kc2 Qb2+ 17.Kd3 Qa3+
+18.Nc3 Qxc3+ 19.Ke4 f5+ 20.Kd5 Rxd1+
+{ White resigned here, but let me show you why. } 21.Bxd1 Qd4+ 22.Ke6 Qf6+
+23.Kd5 { 23.Kd7 Qf7 is also checkmate. } 23...Qf7# *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "10) KID vs. Four Pawns Attack"]
+[Black "Four Pawns Attack: 6.e5 Sideline #1"]
+[Result "*"]
+[ECO "E76"]
+
+1.d4 d6 2.c4 Nf6 3.Nc3 g6 4.e4 Bg7 5.f4
+{ We are officially facing the Four Pawns Attack. From White's perspective,
+they have solid control over the center. The more the merrier! Black thinks
+those four pawns are liabilities White cannot maintain for long. Sometimes more is less! From now on, both players will try to prove each other wrong.
+} 5...O-O
+{ Black puts their king in safety before striking the center. They
+understand it can get messy. } 6.e5
+{ As you probably suspect, this early e5 push cannot be good for White. }
+6...dxe5 { Our d-pawn was waiting for this moment. } 7.fxe5 Nfd7
+{ Our knight was under attack and from d7, we are both attacking the
+aggressive ...e5 pawn and supporting our own ...c5 break. Don't forget it's
+all about White's central pawns. } 8.Nf3 c5
+{ The final strike to break down White's center. } 9.dxc5
+{ Without a pawn on d4, the aggressive e5-pawn is hanging. } 9...Nxe5
+{ Yes, mission accomplished! White's center is not what it used to be and
+their king is still in the center. Also, their pawns on the c-file are in
+bad shape. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "10) KID vs. Four Pawns Attack"]
+[Black "Four Pawns Attack: 6.e5 Sideline #2"]
+[Result "*"]
+[ECO "E76"]
+
+1.d4 d6 2.c4 Nf6 3.Nc3 g6 4.e4 Bg7 5.f4
+{ We are officially facing the Four Pawns Attack. From White's perspective,
+they have solid control over the center. The more the merrier! Black thinks
+those four pawns are liabilities White cannot maintain for long. Sometimes more is less! From now on, both players will try to prove each other wrong.
+} 5...O-O
+{ Black puts their king in safety before striking the center. They
+understand it can get messy. } 6.e5
+{ As you probably suspect, this early e5 push cannot be good for White. }
+6...dxe5 { Our d-pawn was waiting for this moment. } 7.dxe5
+{ When White recaptures with their d-pawn, the d-files opens. Now, we trade
+queens! } 7...Qxd1+ 8.Nxd1
+{ Taking with the king would make White lose the right to castle. If they
+did, 8.Kxd1 I would continue with 8...Ng4 threatening 9...Nf2+ with a fork.
+} 8...Ne4
+{ Since White's knight moved to d1, we can land in the center safely. } 9.Nf3
+f6 { Our final blow to destroy what's left of White's central pawns. }
+10.exf6 exf6
+{ Mission accomplished! White's central pawns are gone and the white king
+is still in the center. Now, it's a matter of developing the rest of your
+pieces and eventually moving your f-pawn to open the g7-bishop. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "10) KID vs. Four Pawns Attack"]
+[Black "Four Pawns Attack: 7.d5"]
+[Result "*"]
+[ECO "E76"]
+
+1.d4 d6 2.c4 Nf6 3.Nc3 g6 4.e4 Bg7 5.f4
+{ We are officially facing the Four Pawns Attack. From White's perspective,
+they have solid control over the center. The more the merrier! Black thinks
+those four pawns are liabilities White cannot maintain for long. Sometimes more is less! From now on, both players will try to prove each other wrong.
+} 5...O-O 6.Nf3
+{ White focuses on developing their pieces and castling quickly. That's why
+Black must act. } 6...e5
+{ Nobody was expecting this! Black meets White's challenge head on. As you
+can see in GM Daniel Naroditsky's game, Black has different ways to
+proceed. He actually chose the ...Bg4 plan. However, I like this one so much because of a few reasons. a] White's king is still in the
+center and we want to open up the game to attack it. b] It has the surprise factor since it seems like Black can never put a pawn on e5 due to White having 3 attackers on that square. c] It gives us exposure to one of the most dynamic approaches a hypermodern player
+can adopt. } 7.d5
+{ This is very rare, but if White gives us the opportunity to open the
+e-file, we take it! } 7...exf4 8.Bxf4 Nxe4
+{ Tactics in the air! The white king is in the center and our f8-rook is
+ready to take advantage of it. } 9.Nxe4 Re8 10.Bd3 f5
+{ The e4-knight cannot move because of the vulnerable white king. Black is
+getting their piece back and maintaining the advantage. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "10) KID vs. Four Pawns Attack"]
+[Black "Four Pawns Attack: 7.dxe5 #1"]
+[Result "*"]
+[ECO "E76"]
+
+1.d4 d6 2.c4 Nf6 3.Nc3 g6 4.e4 Bg7 5.f4
+{ We are officially facing the Four Pawns Attack. From White's perspective,
+they have solid control over the center. The more the merrier! Black thinks
+those four pawns are liabilities White cannot maintain for long. Sometimes more is less! From now on, both players will try to prove each other wrong.
+} 5...O-O 6.Nf3
+{ White focuses on developing their pieces and castling quickly. That's why
+Black must act. } 6...e5
+{ Nobody was expecting this! Black meets White's challenge head on. As you
+can see in GM Daniel Naroditsky's game, Black has different ways to
+proceed. He actually chose the ...Bg4 plan. However, I like this one so much because of a few reasons. a] White's king is still in the
+center and we want to open up the game to attack it. b] It has the surprise factor since it seems like Black can never put a pawn on e5 due to White having 3 attackers on that square. c] It gives us exposure to one of the most dynamic approaches a hypermodern player
+can adopt. } 7.dxe5 dxe5 8.Qxd8
+{ White takes our queen before we take theirs. They don't want their
+c3-knight or king going to the uncomfortable d1-square. } 8...Rxd8 9.fxe5 Ng4
+{ Now it's a matter of time before the e5-pawn is captured and White's
+center is certainly not as strong. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "10) KID vs. Four Pawns Attack"]
+[Black "Four Pawns Attack: 7.dxe5 #2"]
+[Result "*"]
+[ECO "E76"]
+
+1.d4 d6 2.c4 Nf6 3.Nc3 g6 4.e4 Bg7 5.f4
+{ We are officially facing the Four Pawns Attack. From White's perspective,
+they have solid control over the center. The more the merrier! Black thinks
+those four pawns are liabilities White cannot maintain for long. Sometimes more is less! From now on, both players will try to prove each other wrong.
+} 5...O-O 6.Nf3
+{ White focuses on developing their pieces and castling quickly. That's why
+Black must act. } 6...e5
+{ Nobody was expecting this! Black meets White's challenge head on. As you
+can see in GM Daniel Naroditsky's game, Black has different ways to
+proceed. He actually chose the ...Bg4 plan. However, I like this one so much because of a few reasons. a] White's king is still in the
+center and we want to open up the game to attack it. b] It has the surprise factor since it seems like Black can never put a pawn on e5 due to White having 3 attackers on that square. c] It gives us exposure to one of the most dynamic approaches a hypermodern player
+can adopt. } 7.dxe5 dxe5 8.Qxd8
+{ White takes our queen before we take theirs. They don't want their
+c3-knight or king going to the uncomfortable d1-square. } 8...Rxd8 9.Nxe5
+Nfd7
+{ Hitting the powerful e5-knight and more importantly, opening our
+fianchettoed bishop. } 10.Nxd7 Bxc3+
+{ Black destroys White's pawn structure and gets ready to recapture on d7
+with their knight. Next, that same knight can move to a square like b6 to
+put pressure on the enemy weak pawns. Notice how Black is down a pawn, but we are ahead in development and the white king is still in the center. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "10) KID vs. Four Pawns Attack"]
+[Black "Four Pawns Attack: 7.Bd3"]
+[Result "*"]
+[ECO "E76"]
+
+1.d4 d6 2.c4 Nf6 3.Nc3 g6 4.e4 Bg7 5.f4
+{ We are officially facing the Four Pawns Attack. From White's perspective,
+they have solid control over the center. The more the merrier! Black thinks
+those four pawns are liabilities White cannot maintain for long. Sometimes more is less! From now on, both players will try to prove each other wrong.
+} 5...O-O 6.Nf3
+{ White focuses on developing their pieces and castling quickly. That's why
+Black must act. } 6...e5
+{ Nobody was expecting this! Black meets White's challenge head on. As you
+can see in GM Daniel Naroditsky's game, Black has different ways to
+proceed. He actually chose the ...Bg4 plan. However, I like this one so much because of a few reasons. a] White's king is still in the
+center and we want to open up the game to attack it. b] It has the surprise factor since it seems like Black can never put a pawn on e5 due to White having 3 attackers on that square. c] It gives us exposure to one of the most dynamic approaches a hypermodern player
+can adopt. } 7.Bd3
+{ Sometimes, White decides to trust us and simply ignores our e5 break. }
+7...exd4 { If they don't take us, we take them! } 8.Nxd4 Re8
+{ All eyes on the e4-pawn. Especially now that the white king is still in
+the center. } 9.O-O Bg4
+{ Yes, it's nice to improve our pieces with a tempo. } 10.Nf3 Nbd7
+{ Our development is complete and we all know where that d7-knight is going
+next —c5. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "10) KID vs. Four Pawns Attack"]
+[Black "Four Pawns Attack: 7.fxe5 dxe5 8.d5"]
+[Result "*"]
+[ECO "E76"]
+
+1.d4 d6 2.c4 Nf6 3.Nc3 g6 4.e4 Bg7 5.f4
+{ We are officially facing the Four Pawns Attack. From White's perspective,
+they have solid control over the center. The more the merrier! Black thinks
+those four pawns are liabilities White cannot maintain for long. Sometimes more is less! From now on, both players will try to prove each other wrong.
+} 5...O-O 6.Nf3
+{ White focuses on developing their pieces and castling quickly. That's why
+Black must act. } 6...e5
+{ Nobody was expecting this! Black meets White's challenge head on. As you
+can see in GM Daniel Naroditsky's game, Black has different ways to
+proceed. He actually chose the ...Bg4 plan. However, I like this one so much because of a few reasons. a] White's king is still in the
+center and we want to open up the game to attack it. b] It has the surprise factor since it seems like Black can never put a pawn on e5 due to White having 3 attackers on that square. c] It gives us exposure to one of the most dynamic approaches a hypermodern player
+can adopt. } 7.fxe5 { In my opinion, this is the most natural reply. }
+7...dxe5
+{ Once more, White has to deal with the brave and annoying black pawn on
+e5! They have to capture it or advance their d-pawn to prevent Black from
+taking on d4. Let's examine these options. } 8.d5
+{ Once we see that d5-push, one main plan should come to mind. Our
+b8-knight wants to land on the c5-square. } 8...Nbd7 9.Bd3 a5
+{ Preventing White from kicking our knight out with b4 once we land it on
+c5. } 10.O-O Nc5
+{ It looks like our e5-pawn is lost, but we can always get it back after
+11.Nxe5 Nxd5 and our g7-bishop is ready to take on e5. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "10) KID vs. Four Pawns Attack"]
+[Black "Four Pawns Attack: 7.fxe5 dxe5 8.dxe5"]
+[Result "*"]
+[ECO "E76"]
+
+1.d4 d6 2.c4 Nf6 3.Nc3 g6 4.e4 Bg7 5.f4
+{ We are officially facing the Four Pawns Attack. From White's perspective,
+they have solid control over the center. The more the merrier! Black thinks
+those four pawns are liabilities White cannot maintain for long. Sometimes more is less! From now on, both players will try to prove each other wrong.
+} 5...O-O 6.Nf3
+{ White focuses on developing their pieces and castling quickly. That's why
+Black must act. } 6...e5
+{ Nobody was expecting this! Black meets White's challenge head on. As you
+can see in GM Daniel Naroditsky's game, Black has different ways to
+proceed. He actually chose the ...Bg4 plan. However, I like this one so much because of a few reasons. a] White's king is still in the
+center and we want to open up the game to attack it. b] It has the surprise factor since it seems like Black can never put a pawn on e5 due to White having 3 attackers on that square. c] It gives us exposure to one of the most dynamic approaches a hypermodern player
+can adopt. } 7.fxe5 { In my opinion, this is the most natural reply. }
+7...dxe5
+{ Once more, White has to deal with the brave and annoying black pawn on
+e5! They have to capture it or advance their d-pawn to prevent Black from
+taking on d4. Let's examine these options. } 8.dxe5
+{ We've seen this before. Time to take the white queen making the c3-knight
+or king go to the uncomfortable d1-square. } 8...Qxd1+ 9.Kxd1 Ng4
+{ Our knight is now attacking the weak e5-pawn and ready to land on f2 with
+a fork. } 10.Nd5
+{ What's the d5-knight threatening? Of course, they want to land on c7. }
+10...Na6
+{ Everything is defended and we will be getting our pawn back soon. White
+still needs to develop their bishops and castle. Don't forget our c-pawn
+can kick the d5-knight out whenever we like. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "10) KID vs. Four Pawns Attack"]
+[Black "Four Pawns Attack: 7.fxe5 dxe5 8.Nxe5 #1"]
+[Result "*"]
+[ECO "E76"]
+
+1.d4 d6 2.c4 Nf6 3.Nc3 g6 4.e4 Bg7 5.f4
+{ We are officially facing the Four Pawns Attack. From White's perspective,
+they have solid control over the center. The more the merrier! Black thinks
+those four pawns are liabilities White cannot maintain for long. Sometimes more is less! From now on, both players will try to prove each other wrong.
+} 5...O-O 6.Nf3
+{ White focuses on developing their pieces and castling quickly. That's why
+Black must act. } 6...e5
+{ Nobody was expecting this! Black meets White's challenge head on. As you
+can see in GM Daniel Naroditsky's game, Black has different ways to
+proceed. He actually chose the ...Bg4 plan. However, I like this one so much because of a few reasons. a] White's king is still in the
+center and we want to open up the game to attack it. b] It has the surprise factor since it seems like Black can never put a pawn on e5 due to White having 3 attackers on that square. c] It gives us exposure to one of the most dynamic approaches a hypermodern player
+can adopt. } 7.fxe5 { In my opinion, this is the most natural reply. }
+7...dxe5
+{ Once more, White has to deal with the brave and annoying black pawn on
+e5! They have to capture it or advance their d-pawn to prevent Black from
+taking on d4. Let's examine these options. } 8.Nxe5
+{ Believe it or not, this position is considered to be clearly superior for
+Black. How is it possible? They have a powerful pawn center and just won an
+enemy pawn. Well, only a hypermodern player can understand. } 8...c5
+{ When I said this is the ultimate challenge for a hypermodern player, I
+meant it! However, this goes beyond the hypermodern movement. White's king
+is in the center and Black must open up lines to attack it. That's a general Chess principle that we must follow regardless of the opening we play.
+Now White has a few options. } 9.dxc5
+{ This is an exciting but tricky moment. White's knight is hanging on e5.
+So, we know we have to have something. However, we must remember the white
+king is still in the center and we need as many pieces as possible to attack it —especially our queen. So, how do we put pressure down the e-file
+without trading queens? } 9...Qe8 10.Bf4
+{ White doesn't want to move their knight from e5, but they can only delay
+it for so long. } 10...Nh5
+{ At this point, our h5-knight attacks the hanging f4-bishop while both our
+fianchettoed bishop and queen attack the e5-knight. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "10) KID vs. Four Pawns Attack"]
+[Black "Four Pawns Attack: 7.fxe5 dxe5 8.Nxe5 #2"]
+[Result "*"]
+[ECO "E76"]
+
+1.d4 d6 2.c4 Nf6 3.Nc3 g6 4.e4 Bg7 5.f4
+{ We are officially facing the Four Pawns Attack. From White's perspective,
+they have solid control over the center. The more the merrier! Black thinks
+those four pawns are liabilities White cannot maintain for long. Sometimes more is less! From now on, both players will try to prove each other wrong.
+} 5...O-O 6.Nf3
+{ White focuses on developing their pieces and castling quickly. That's why
+Black must act. } 6...e5
+{ Nobody was expecting this! Black meets White's challenge head on. As you
+can see in GM Daniel Naroditsky's game, Black has different ways to
+proceed. He actually chose the ...Bg4 plan. However, I like this one so much because of a few reasons. a] White's king is still in the
+center and we want to open up the game to attack it. b] It has the surprise factor since it seems like Black can never put a pawn on e5 due to White having 3 attackers on that square. c] It gives us exposure to one of the most dynamic approaches a hypermodern player
+can adopt. } 7.fxe5 { In my opinion, this is the most natural reply. }
+7...dxe5
+{ Once more, White has to deal with the brave and annoying black pawn on
+e5! They have to capture it or advance their d-pawn to prevent Black from
+taking on d4. Let's examine these options. } 8.Nxe5
+{ Believe it or not, this position is considered to be clearly superior for
+Black. How is it possible? They have a powerful pawn center and just won an
+enemy pawn. Well, only a hypermodern player can understand. } 8...c5
+{ When I said this is the ultimate challenge for a hypermodern player, I
+meant it! However, this goes beyond the hypermodern movement. White's king
+is in the center and Black must open up lines to attack it. That's a general Chess principle that we must follow regardless of the opening we play.
+Now White has a few options. } 9.d5
+{ This is an exciting but tricky moment. White's knight is hanging on e5.
+So, we know we have to have something. And yes, all we need to do is put
+pressure down the e-file. In this case either rook or queen can do it, but I prefer 9...Qe8 to keep it consistent with what we learned against 9.dxc5
+[easier to remember]. } 9...Qe8 10.Nf3 Nxe4
+{ At this point, Black is threatening to move their knight by checking the
+white king since the black queen is on the e-file. There is also pressure
+on the c3-knight. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "10) KID vs. Four Pawns Attack"]
+[Black "Four Pawns Attack: 7.fxe5 dxe5 8.Nxe5 #3"]
+[Result "*"]
+[ECO "E76"]
+
+1.d4 d6 2.c4 Nf6 3.Nc3 g6 4.e4 Bg7 5.f4
+{ We are officially facing the Four Pawns Attack. From White's perspective,
+they have solid control over the center. The more the merrier! Black thinks
+those four pawns are liabilities White cannot maintain for long. Sometimes more is less! From now on, both players will try to prove each other wrong.
+} 5...O-O 6.Nf3
+{ White focuses on developing their pieces and castling quickly. That's why
+Black must act. } 6...e5
+{ Nobody was expecting this! Black meets White's challenge head on. As you
+can see in GM Daniel Naroditsky's game, Black has different ways to
+proceed. He actually chose the ...Bg4 plan. However, I like this one so much because of a few reasons. a] White's king is still in the
+center and we want to open up the game to attack it. b] It has the surprise factor since it seems like Black can never put a pawn on e5 due to White having 3 attackers on that square. c] It gives us exposure to one of the most dynamic approaches a hypermodern player
+can adopt. } 7.fxe5 { In my opinion, this is the most natural reply. }
+7...dxe5
+{ Once more, White has to deal with the brave and annoying black pawn on
+e5! They have to capture it or advance their d-pawn to prevent Black from
+taking on d4. Let's examine these options. } 8.Nxe5
+{ Believe it or not, this position is considered to be clearly superior for
+Black. How is it possible? They have a powerful pawn center and just won an
+enemy pawn. Well, only a hypermodern player can understand. } 8...c5
+{ When I said this is the ultimate challenge for a hypermodern player, I
+meant it! However, this goes beyond the hypermodern movement. White's king
+is in the center and Black must open up lines to attack it. That's a general Chess principle that we must follow regardless of the opening we play.
+Now White has a few options. } 9.Nf3
+{ If White allows us to take on d4 by playing 9.Nf3 or 9.Be3 , we simply
+take and their center is weak. } 9...cxd4 10.Qxd4 Qxd4
+{ Once White takes on d4 11.Nxd4 , their knight will be hanging there. That
+allows Black to play 11...Nxe4 and the g7-bishop is open to capture on d4.
+} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "11) KID vs. Fianchetto Variation"]
+[Black "KID vs. Fianchetto Variation Introduction"]
+[Result "*"]
+[ECO "E62"]
+
+1.d4 d6 2.c4 Nf6 3.Nc3 g6 4.Nf3 Bg7 5.g3 O-O
+{ By now, it should be clear what White is trying to do. Welcome to the
+Fianchetto Variation! This time against our King's Indian Defense since
+they started with queen's pawn opening [1. d4]. }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "11) KID vs. Fianchetto Variation"]
+[Black "Fianchetto Variation: 8.dxe5"]
+[Result "*"]
+[ECO "E67"]
+
+1.d4 d6 2.c4 Nf6 3.Nc3 g6 4.Nf3 Bg7 5.g3
+{ The starting position of the Fianchetto Variation. } 5...O-O 6.Bg2 Nbd7
+{ Once again, we develop our queenside knight to the comfortable d7-square.
+Now we are ready to claim our share of the center with our thematic ...e5
+break. } 7.O-O e5
+{ Mission accomplished! Now White can capture, push or maintain the
+pressure in the center. } 8.dxe5 dxe5
+{ It's possible to recapture with the d7-knight too, but I prefer pawn. }
+9.e4 c6
+{ Once more, Black places a pawn on c6 to keep the c3-knight away while
+making the c7-square available for their queen. } 10.Qc2 Qe7
+{ Our queen could also go to c7, but I prefer e7 in this line. Next, we
+want our d7-knight to go to the attractive d4-square via c5 and e6 or f8
+and e6. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "11) KID vs. Fianchetto Variation"]
+[Black "Fianchetto Variation: 8.d5"]
+[Result "*"]
+[ECO "E67"]
+
+1.d4 d6 2.c4 Nf6 3.Nc3 g6 4.Nf3 Bg7 5.g3
+{ The starting position of the Fianchetto Variation. } 5...O-O 6.Bg2 Nbd7
+{ Once again, we develop our queenside knight to the comfortable d7-square.
+Now we are ready to claim our share of the center with our thematic ...e5
+break. } 7.O-O e5
+{ Mission accomplished! Now White can capture, push or maintain the
+pressure in the center. } 8.d5
+{ You should be more than familiar with this pattern by now. Central pawn
+advances? Look for the juicy square! } 8...a5
+{ We want to place our d7-knight on c5, but we first prevent White from
+kicking it out with their b-pawn. } 9.e4 Nc5
+{ Both black knights attack the e4-pawn. } 10.Qc2 Ne8
+{ We remove our knight to start the thematic pawn storm on the kingside.
+Don't forget our pawn chain in the center is telling us where to expand.
+Now, we target the pawn in front of our most forward pawn via f5. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "11) KID vs. Fianchetto Variation"]
+[Black "Fianchetto Variation: 8.e4"]
+[Result "*"]
+[ECO "E67"]
+
+1.d4 d6 2.c4 Nf6 3.Nc3 g6 4.Nf3 Bg7 5.g3
+{ The starting position of the Fianchetto Variation. } 5...O-O 6.Bg2 Nbd7
+{ Once again, we develop our queenside knight to the comfortable d7-square.
+Now we are ready to claim our share of the center with our thematic ...e5
+break. } 7.O-O e5
+{ Mission accomplished! Now White can capture, push or maintain the
+pressure in the center. } 8.e4 exd4
+{ If they don't take us, we take them and say good bye to White's strong
+center. } 9.Nxd4 Nc5
+{ You should know by now that our knight likes the c5-square. Why didn't we
+play ...a5 first? Well, here we don't mind getting kicked out since we want
+to go to e6 in order to challenge the powerful d4-knight. } 10.h3 Re8
+{ As usual, we target White's central pawns! } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "12) KID vs. London System"]
+[Black "KID vs. London Introduction"]
+[Result "*"]
+[ECO "A41"]
+
+1.d4 d6 2.Bf4 Nf6
+{ Say hello to the London System! This is one of the most popular openings
+for White among beginner, intermediate and advanced players alike. It's
+easy to learn and dangerous. What does that mean for us? We will be facing it a lot! }
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "12) KID vs. London System"]
+[Black "London System: 3.Nf3 #1"]
+[Result "*"]
+[ECO "A41"]
+
+1.d4
+{ White starts with their queen's pawn and believe it or not, this changes
+things a bit. There is no need to worry since we will be adopting the same
+setup. However, you must learn to distinguish when you are playing against 1.e4 [Pirc Defense] and when you are facing
+something else [King's Indian Defense]. } 1...d6
+{ Whenever White does not start with 1. e4, Black likes to play 1...Nf6.
+After all, that's what the hypermodern approach is all about and now we can
+do it without the e4-pawn ready to attack our knight. With that said, you and I will stick to 1...d6. Why? 1] consistency
+2] playing 1...Nf6 now allows White to play the annoying 2.Bg5 move [we will talk more about it soon]. }
+2.Bf4
+{ The starting position of the London System. This tame but solid
+developing move aims to build a pawn triangle with e3 and c3 with the
+dark-squared bishop comfortably outside the pawn chain. Our system does not change against this. }
+2...Nf6
+{ Here I would still be careful with the possibility of White playing 3.Bg5
+. It cannot be right of course since they are moving the same piece twice
+with no clear compensation, but it is still possible. Then, if you play 3...g6 4.Bxf6 destroys Black's pawn structure. Nothing serious, but I just
+don't like it. So, I would play 2...g6 so that I can meet White's Bg5 with ...Bg7 defending our f6-knight. }
+3.Nf3 g6 4.e3 Bg7 5.Be2
+{ We will soon see why White typically prefers to develop their
+light-squared bishop to e2 instead of d3. Spoiler alert: it's because after
+we play ...e5, in many cases, advancing the pawn further with ...e4 is a fork threat! }
+5...O-O
+{ See? We simply did what we typically do. With our king castled, now we
+think of our queenside pieces and our middlegame plans. } 6.O-O Nbd7
+{ Our knight silently moves to d7 in order to support our thematic ...e5
+break. Yes, our system is that flexible. What can I tell you? } 7.c3 Re8
+{ Our rook joins the d7-knight to finally play e5 although we are not ready
+yet. } 8.h3 b6
+{ I once played 8...e5 in this position and immediately lost a pawn after
+9.dxe5 dxe5 10.Nxe5 Nxe5 11.Qxd8 Rxd8 12.Bxe5 . So, please don't hurry.
+Fianchetto your c8-bishop first and your a8-rook will be open to protect your queen too. }
+9.Nbd2 Bb7 10.Qc2 e5 { Mission accomplished! Now you play chess! } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "12) KID vs. London System"]
+[Black "London System: 3.Nf3 #2"]
+[Result "*"]
+[ECO "A41"]
+
+1.d4
+{ White starts with their queen's pawn and believe it or not, this changes
+things a bit. There is no need to worry since we will be adopting the same
+setup. However, you must learn to distinguish when you are playing against 1.e4 [Pirc Defense] and when you are facing
+something else [King's Indian Defense]. } 1...d6
+{ Whenever White does not start with 1. e4, Black likes to play 1...Nf6.
+After all, that's what the hypermodern approach is all about and now we can
+do it without the e4-pawn ready to attack our knight. With that said, you and I will stick to 1...d6. Why? 1] consistency
+2] playing 1...Nf6 now allows White to play the annoying 2.Bg5 move [we will talk more about it soon]. }
+2.Bf4
+{ The starting position of the London System. This tame but solid
+developing move aims to build a pawn triangle with e3 and c3 with the
+dark-squared bishop comfortably outside the pawn chain. Our system does not change against this. }
+2...Nf6
+{ Here I would still be careful with the possibility of White playing 3.Bg5
+. It cannot be right of course since they are moving the same piece twice
+with no clear compensation, but it is still possible. Then, if you play 3...g6 4.Bxf6 destroys Black's pawn structure. Nothing serious, but I just
+don't like it. So, I would play 2...g6 so that I can meet White's Bg5 with ...Bg7 defending our f6-knight. }
+3.Nf3 g6 4.e3 Bg7 5.Bd3
+{ White tends to avoid developing their bishop to d3 since it could fall
+victim to a fork. Once Black accomplishes their ...e5 push, that same
+e-pawn could advance to e4 attacking both the f3-knight and d3-bishop. }
+5...O-O
+{ See? We simply did what we typically do. With our king castled, now we
+think of our queenside pieces and our middlegame plans. } 6.O-O Nbd7
+{ Our knight silently moves to d7 in order to support our thematic ...e5
+break. Yes, our system is that flexible. What can I tell you? } 7.c3 Re8
+{ Our rook joins the d7-knight to finally play ...e5. And yes, this time we
+are finally ready! } 8.Nbd2 e5
+{ Since the white queen has the d3-bishop and d2-knight in front, it's safe
+to play ...e5 now. Please, keep in mind that you can also fianchetto your
+c8-bishop first, and only after strike the center with ...e5. Note that here if White is sloppy and plays 9.Bg3 we have afork! 9...e4 ,
+double-attacking the white bishop and knight when both cannot be saved. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "12) KID vs. London System"]
+[Black "London System: 3.Nc3 "]
+[Result "*"]
+[ECO "A41"]
+
+1.d4
+{ White starts with their queen's pawn and believe it or not, this changes
+things a bit. There is no need to worry since we will be adopting the same
+setup. However, you must learn to distinguish when you are playing against 1.e4 [Pirc Defense] and when you are facing
+something else [King's Indian Defense]. } 1...d6
+{ Whenever White does not start with 1. e4, Black likes to play 1...Nf6.
+After all, that's what the hypermodern approach is all about and now we can
+do it without the e4-pawn ready to attack our knight. With that said, you and I will stick to 1...d6. Why? 1] consistency
+2] playing 1...Nf6 now allows White to play the annoying 2.Bg5 move [we will talk more about it soon]. }
+2.Bf4
+{ The starting position of the London System. This tame but solid
+developing move aims to build a pawn triangle with e3 and c3 with the
+dark-squared bishop comfortably outside the pawn chain. Our system does not change against this. }
+2...Nf6
+{ Here I would still be careful with the possibility of White playing 3.Bg5
+. It cannot be right of course since they are moving the same piece twice
+with no clear compensation, but it is still possible. Then, if you play 3...g6 4.Bxf6 destroys Black's pawn structure. Nothing serious, but I just
+don't like it. So, I would play 2...g6 so that I can meet White's Bg5 with ...Bg7 defending our f6-knight. }
+3.Nc3
+{ Alert! This is a tricky move. Can you guess why? Well, this time White
+quickly develops their queenside knight to c3. Does it ring a bell? They
+might be getting ready to castle queenside and attack us heavily on the kingside. How will I know? Their next move will reveal their true
+intentions. } 3...g6 4.e4
+{ We can also see 4.e3 Bg7 5.Nf3 O-O 6.Be2 Nbd7 7.O-O b6 and we simply
+carry on as we do against the regular London System. } 4...c6
+{ Our c-pawn to the rescue again. This time in the form of a leverage pawn
+in case White wants to castle queenside and attack us on the kingside. }
+5.Qd2 Qa5 6.O-O-O b5
+{ That's it! I just wanted to make you aware of the possibility of White
+trying to go from the quiet London System to aggressive opposite-side
+castling attack. This is basically the same as starting out with a king's pawn opening @@StartFEN@@rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w
+KQkq - 0 1@@EndFEN@@ 1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Bf4 . } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "13) KID vs. 1.b3, English Opening (1.c4) & Colle System"]
+[Black "KID vs. 1.b3 & English (1.c4) Introduction"]
+[Result "*"]
+[ECO "A01"]
+
+1.b3
+{ This move is known as the Nimzowitsch-Larsen Attack. I don't consider it
+to be dangerous, but it can get us in positions we are not familiar with.
+So, it helps to familiarize ourselves with it. 1.c4 d6 The English opening, which we will also cover in this chapter, is a legendary setup that you
+are not likely to encounter at the beginner level. However, as you move up the ladder, you will face it and it's good to at least be familiar with it. It's not that tricky mainly because White typically allows Black to do their opening without any immediate pressure. }
+1...g6 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "13) KID vs. 1.b3, English Opening (1.c4) & Colle System"]
+[Black "English (1.c4)"]
+[Result "*"]
+[ECO "A26"]
+
+1.c4
+{ The English opening is a legendary setup that you are not likely to
+encounter at the beginner level. However, as you move up the ladder, you
+will face it and it's good to at least be familiar with it. It's not that tricky mainly because White typically allows Black to do their opening
+without any immediate pressure. } 1...d6 2.Nc3 Nf6 3.g3 g6 4.Bg2 Bg7 5.d3 O-O
+{ Notice how White decided to control the center with a flank pawn
+[c4]. This means we have no central pawns to
+target. However, we continue with our typical plan of claiming our share of the center via ...e5. }
+6.Nf3 e5 { This time, it's easy to put our pawn on e5. So, we do it! } 7.O-O
+Nc6 { Yes, Black could also move their queenside knight to d7. } 8.Bd2 h6
+{ This is a prophylactic move to keep White's pieces from the g5-square.
+Now we can continue with either 9...Be6 followed by 10...Qd7 or 9...Nh5
+followed by 10...f5. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "13) KID vs. 1.b3, English Opening (1.c4) & Colle System"]
+[Black "1.b3: 3.Bxf6"]
+[Result "*"]
+[ECO "A01"]
+
+1.b3
+{ An uncommon, but solid starting move. The intention is clear - to develop
+the dark-squared bishop on its long diagonal. } 1...g6
+{ Yes, different move order. The headline in my mind is fianchetto vs.
+fianchetto. } 2.Bb2 Nf6
+{ We have to block the b2-bishop and ...Nf6 is a move we do in our system
+anyway. } 3.Bxf6
+{ White rarely lets go of their powerful fianchetto bishop so easily, but
+at the beginner and intermediate levels, it's pretty common. } 3...exf6
+{ Capturing on f6 opens the e-file for one of our rooks to attack in the
+future. Also, our f6-pawn will move to f5 controlling the e4-square and
+leaving the a1-h8 diagonal open for our fianchetto bishop. } 4.d4 Bg7 5.Nf3
+O-O 6.e3 f5
+{ Problem solved! Our g7-bishop is open and we control the e4-square. } 7.Be2
+Re8 8.O-O d6 9.Nbd2 Nd7 { Our knight is headed for the e4-square via f6. }
+10.c3 Nf6 { The c8-bishop can be developed via d7 or b7. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "13) KID vs. 1.b3, English Opening (1.c4) & Colle System"]
+[Black "1.b3: 3.e3 (Colle System)"]
+[Result "*"]
+[ECO "A01"]
+
+1.b3
+{ An uncommon, but solid starting move. The intention is clear - to develop
+the dark-squared bishop on its long diagonal. } 1...g6
+{ Yes, different move order. The headline in my mind is fianchetto vs.
+fianchetto. } 2.Bb2 Nf6
+{ We have to block the b2-bishop and ...Nf6 is a move we do in our system
+anyway. } 3.e3
+{ Of course, we have to know what to do when White preserves their
+b2-bishop. } 3...Bg7 4.Nf3 d6 5.d4 O-O 6.Be2 Nbd7
+{ Once again we see our queenside knight develop to d7. We are getting
+ready for our thematic ...e5 push. } 7.O-O b6
+{ Double fianchetto? Where have we seen this before? It's the same way we
+treat the London System. } 8.c4 Bb7 9.Nbd2
+{ 9.Nc3 would block the powerful b2-bishop. } 9...e5
+{ Is this safe? Yes, it is! } 10.dxe5 Ng4
+{ The e5-pawn cannot move because our fianchetto bishop would take theirs
+on b2. Now we have four pieces to recapture with. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Review: Typical ideas & Thematic Tactics"]
+[Black "Summary of Typical Ideas"]
+[Result "*"]
+
+
+{ 1] The early e5-push by White: is a mistake because after
+@@StartFEN@@rnbqkb1r/ppp1pppp/3p1n2/4P3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0
+3@@EndFEN@@ 3...dxe5 4.dxe5 Qxd1+ 5.Kxd1 Ng4 Black is attacking both e5 and f2 while the white king lost the right to castle. 2] The
+Central Fork: is one of our main plans [seen mainly in the classical variation]. @@StartFEN@@rnbq1rk1/ppp1ppbp/3p1np1/8/2BPP3/2N2N2/PPP2PPP/R1BQ1RK1 b - - 0 6@@EndFEN@@ 6...Nxe4 destroys White's solid pawn center and 7.Nxe4 would be met by 7...d5 of course.
+3] The Bg4 Plan: @@StartFEN@@rn1q1rk1/ppp1ppbp/3p1np1/8/3PP1b1/2NB1N2/PPP2PPP/R1BQ1RK1 w - - 0 7@@EndFEN@@ 1.a3 This plan can be used in many different variations. The idea is to neutralize White's f3-knight. Why? To help the b8-knight. Let me explain! Should the b8-knight be developed to d7 or c6? We use both, but c6 is preferred as it is more aggressive —pressure on the d4-pawn. In an ideal world, we would develop our b8-knight to c6. It's an active square and it attacks the d4-pawn [hypermodern approach]. If White responds to 2...Nc6 with
+3.d5 , our knight then would land on the d4 or e5-squares [knights love to be in the center]. The only problem is both the d4 and e5-squares are currently protected by White's f3-knight. I'd like to point out that pinning that f3-knight is enough. We don't have to take it unless they play h3 or break the pin by moving their queen away or playing Be2, for example. 4] White's d5-push: is music to our ears! Automatically the dark squares in the center [d4, e5 and c5] belong to Black. Now we use what I remember as the dark-square strategy. Immediately our c6-knight can jump in the holes - d4 or e5 . @@StartFEN@@r2q1rk1/ppp1ppbp/2np1np1/3P4/4P3/2NB1Q1P/PPP2PP1/R1B2RK1 b - - 0 9@@EndFEN@@ 1...Ne5 Even the f6-knight can reroute itself via d7 to land on e5 or c5. The fianchetto bishop is also happy to see the a1-h8 diagonal open up. 5] The Nc6 & Bd3 Romance: is real. In this position, we played ...Nc6 even though we cannot jump to the center after White plays d5 [f3-knight's fault]. With the white bishop on d3, however, our knight is happy to hop to
+@@StartFEN@@r1bq1rk1/ppp1ppbp/2np1np1/3P4/4P3/2NB1N1P/PPP2PP1/R1BQK2R b KQ - 0 7@@EndFEN@@ 1...Nb4 completing its mission: White's center is now weaker [after their d5-push] and we go for their bishop pair. 6] White's d5-pawn: can also be exploited by challenging that d5-pawn [an important central pawn] with our c-pawn with @@StartFEN@@r2q1rk1/ppp1ppbp/3p1np1/3P4/4P3/2NQ3P/PPP2PP1/R1B2RK1 b - - 0 12@@EndFEN@@ 1...c6 [less important flank pawn]. 7] Black's @@StartFEN@@r1bq1rk1/ppp1ppbp/2np1np1/8/3PP3/2NB1N1P/PPP2PP1/R1BQ1RK1 b - - 0 8@@EndFEN@@ 1...e5 strike: is what we ultimately look for. We allow White to build a solid pawn center for us to target it. However, sooner or later we want to claim our share of the center and e5 is our way to do it. Classical players prefer to put a pawn on e5 since move 1. [e.g. 1.e4 e5]. Hypermodern players like us understand how important it is to place a pawn in the center, but we want to do it whenever we want —later in the game. 8] The c6-pawn: in this kind of position @@StartFEN@@r1bq1rk1/pp3pbp/2p2np1/4p1B1/4P3/2NB3P/PPP2PP1/R2QK2R w KQ - 0 11@@EndFEN@@ 1.O-O ...c6 is extremely important in our system and it can be used in different ways. One of them is to keep White's c3-knight from landing on the d5 or b5 squares. It also makes the c7-square available for the black queen. 9] Recapturing on e5: has a lot to do with the c-pawn moving to c6. Black always has to be careful with White's c3-knight landing on d5. Our thematic way to deal with it is by placing a pawn on c6. That's why in a position like this one, I would play @@StartFEN@@r1bq1rk1/ppp2pbp/2np1np1/4P3/4P3/2NB1N1P/PPP2PP1/R1BQ1RK1 b - - 0 8@@EndFEN@@ 1...Nxe5 . Then c6 is available for our c-pawn. 10] White keeps central tension: and we don't like it. Once we strike the center with e5, if they don't take us, we take them @@StartFEN@@r1bq1rk1/ppp2pbp/2np1np1/4p3/3PP3/2NBBN1P/PPP2PP1/R2Q1RK1 b - - 0 8@@EndFEN@@ 1...exd4 if possible [there might be some exceptions of course]. 11] The closed center [ e4 , e5 , d5 , d6]: occurs when Black strikes the center with
+...e5 and White replies with d5. @@StartFEN@@r1bq1rk1/ppp2pbp/2np1np1/3Pp3/4P3/2NB1N1P/PPP2PP1/R1BQ1RK1 b - - 0 8@@EndFEN@@ 1...Ne7 At this point, it's time to pick a flank and attack there! How do we know what flank is best for us? Easy! Our pawn chain is aiming at it. The c7-d6-e5 pawns are pointing towards the kingside. For the most part, Black wants to transfer pieces to the kingside and target the pawn in front of their most forward pawn. In other words, the thematic plan for Black is to make ...f5 happen as we demonstrated in chapter 1. 12] The c6-plan: can be implemented almost any time. We already learned some of the perks of playing @@StartFEN@@rnbq1rk1/ppp1ppbp/3p1np1/8/3PP3/2N2N2/PPP1BPPP/R1BQ1RK1 b - - 0 7@@EndFEN@@ 1...c6 . However, there is a whole plan behind it. Whenever I don't feel like or can't play the Bg4 or Central Fork plans, I play ...c6 and ...Nbd7 getting ready to strike the center with our thematic ...e5-push. ...Qc7/...Qa5 and ...Re8 can also be included. 13] @@StartFEN@@rnbqkb1r/ppp1pp1p/3p1np1/8/3PP3/2N1B3/PPP2PPP/R2QKBNR b KQkq - 0 5@@EndFEN@@ 1...c6 the leverage pawn: is all about aggressive play. Whenever we see White prioritizing queenside development [Be3 or Bf4] over kingside development, it means they might castle long [...O-O-O] and start a pawn storm towards our kingside. Moving the f-pawn to f3 is another signal. As a result, we should delay castling kingside. We don't want White to checkmate us there. Instead we expand on the queenside where White might end up castling - chapter 3. 14] The Austrian Attack: offers White three pawns in the center and their early e5-push might seem scary. However, every time a pawn is moved in Chess, weaknesses are created and that's why Black is happy to take @@StartFEN@@rnbqk2r/ppp1ppbp/3p1np1/4P3/3P1P2/2N5/PPP3PP/R1BQKBNR b KQkq - 0 5@@EndFEN@@ 1...dxe5 by occupying the d5 or e4 squares with our f6-knight. 15] The Austrian Attack: without an early e5 by White is possible too. In that case, we castle and use our knights to pressure White. When their bishop is developed to @@StartFEN@@rnbq1rk1/ppp1ppbp/3p1np1/8/3PPP2/2N2N2/PPP3PP/R1BQKB1R w KQ - 0 6@@EndFEN@@ 1.Be3 , Black plays ...Ng4 with ideas of ...e5. 16] The Austrian Attack vs. d3-bishop: When their bishop is developed to d3, Black plays @@StartFEN@@rnbq1rk1/ppp1ppbp/3p1np1/8/3PPP2/2NB1N2/PPP3PP/R1BQK2R b KQ - 0 7@@EndFEN@@ 1...Nc6 with ideas of ...Nb4 or ...e5. 17] The Mighty g5-bishop: puts instant pressure on our f6-knight. For that reason, we play @@StartFEN@@rnbqkb1r/ppp1pp1p/3p1np1/6B1/3PP3/2N5/PPP2PPP/R2QKBNR b KQkq - 0 4@@EndFEN@@ 1...Bg7 to free our e-pawn from being the only defender. We often continue with the c6 leverage pawn as White tends to castle queenside and attack us on the kingside. 18] The annoying c4-bishop: must be eliminated in this setup. That's where ...Nc6 comes handy. We want to play ...Na5 attacking White's bishop. If White plays @@StartFEN@@r1bq1rk1/ppp1ppbp/2np1np1/8/2B1PP2/2NP1N2/PPP3PP/R1BQK2R w KQ - 0 7@@EndFEN@@ 1.a3 in order to hide their bishop on a2, we then continue aggressively with Bg4 and ...Nd4. 19] The London System: is easy to deal with. Black simply gets ready to strike the center with @@StartFEN@@r1bqr1k1/pppnppbp/3p1np1/8/3P1B2/3BPN1P/PPPN1PP1/R2Q1RK1 b - - 2 8@@EndFEN@@ 1...e5 . It's also possible to fianchetto the c8-bishop as well before the thematic ...e5-push. 20] In the KID lines: @@StartFEN@@r1bq1rk1/pppn1pbp/3p1np1/4p3/2PPP3/2N2N2/PP2BPPP/R1BQ1RK1 w - - 0 8@@EndFEN@@ 1.d5 we often see our queenside knight develop to d7. From there, it supports our thematic ...e5-push and it's ready to land on c5 whenever it becomes available. Black typically plays ...a5 too in order to prevent White's b4-push from kicking our knight out of c5. 21] @@StartFEN@@rnbqk2r/pp2ppbp/2pp1np1/8/2PPP3/2N1BP2/PP4PP/R2QKBNR b KQkq - 0 7@@EndFEN@@ 1...a6 the leverage pawn: is another way to support the ...b5 expansion. In this position from the Sämisch variation, White is also prioritizing queenside development and Black wants to play ...b5, but due to White's c4-pawn, it's not safe unless ...a6 is played. 22] Four Pawns in The Center: is one of the worst setups White can adopt and Black is not afraid to prove it by breaking it apart immediately with our thematic @@StartFEN@@rnbq1rk1/ppp1ppbp/3p1np1/8/2PPPP2/2N2N2/PP4PP/R1BQKB1R b KQ - 0 7@@EndFEN@@ 1...e5 push. No preparation is needed as you can see. 23] The English
+Opening: is also easy to deal with. @@StartFEN@@r1bq1rk1/ppp2pb1/2np1npp/4p3/2P5/2NP1NPP/PP1BPPB1/R2Q1RK1 b - - 0 10@@EndFEN@@ 1...Be6 From this simple setup, Black can continue with ...Qd7 and/or prepare the ...f5-push. 24] Harry the h-pawn: is not a problem. Whenever White tries to attack us by playing h4, we can stop it right away by playing @@StartFEN@@rnbqk2r/ppp1ppbp/3p1np1/8/3PP2P/2N5/PPP1BPP1/R1BQK1NR b KQkq - 0 6@@EndFEN@@ 1...h5 ourselves. 25] The Colle System: is treated similarly to the London System. We can double fianchetto @@StartFEN@@r1bq1rk1/p1pn1pbp/1p1p1np1/4p3/2PP4/1P2PN2/PB1NBPPP/R2Q1RK1 b - - 0 10@@EndFEN@@ 1...Bb7 and prepare our thematic ...e5-push. In this position, if White plays dxe5, Black has ...Ng4. White's e5-pawn cannot move because our fianchettoed bishop would capture theirs on b2. }
+1.-- *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Review: Typical ideas & Thematic Tactics"]
+[Black "Thematic Tactic #1"]
+[Result "*"]
+[FEN "rnb1kb1r/ppp1pppp/5n2/4P3/8/8/PPP2PPP/RNBK1BNR b kq - 0 5"]
+[SetUp "1"]
+
+5...Ng4 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Review: Typical ideas & Thematic Tactics"]
+[Black "Thematic Tactic #2"]
+[Result "*"]
+[FEN "rnbqk2r/p3ppbp/2pp1np1/8/4P3/1PN2N2/P1P2PPP/R1BQKB1R b KQkq - 0 7"]
+[SetUp "1"]
+
+7...Nxe4 8.Nxe4 Bxa1 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Review: Typical ideas & Thematic Tactics"]
+[Black "Thematic Tactic #3"]
+[Result "*"]
+[FEN "1rb1r3/pp2qpbk/3p1npp/2p1n3/4P3/1PN1B1PP/P1PQNPB1/R3R1K1 b - - 0 15"]
+[SetUp "1"]
+
+15...Bxh3 16.Bxh3 Nf3+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Review: Typical ideas & Thematic Tactics"]
+[Black "Thematic Tactic #4"]
+[Result "*"]
+[FEN "r1bq1rk1/ppp2p1p/6pB/3Pb3/3nB3/2N5/PPP3PP/R2Q1RK1 b - - 0 12"]
+[SetUp "1"]
+
+12...Qh4 13.Bxf8 Bxh2+ 14.Kh1 Bg3+ 15.Kg1 Qh2# *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Review: Typical ideas & Thematic Tactics"]
+[Black "Thematic Tactic #5"]
+[Result "*"]
+[FEN "r2q1rk1/pppnppb1/2n3pp/4P3/3P4/2PBBQ1P/PP4P1/RN3RK1 b - - 0 12"]
+[SetUp "1"]
+
+12...Ndxe5 13.dxe5 Qxd3 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Review: Typical ideas & Thematic Tactics"]
+[Black "Thematic Tactic #6"]
+[Result "*"]
+[FEN "r1bq1rk1/ppp2pbp/2np1np1/8/3NP3/2NQ2PP/PPP2PB1/R1B1K2R b KQ - 0 9"]
+[SetUp "1"]
+
+9...Nxd4 10.Qxd4 Nxe4 11.Qxe4 Re8 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Review: Typical ideas & Thematic Tactics"]
+[Black "Thematic Tactic #7"]
+[Result "*"]
+[FEN "4k2r/p3ppbp/b2p1np1/q1pP4/1rp1P3/5P2/PPPBQ1PP/KR1N2NR b k - 0 16"]
+[SetUp "1"]
+
+16...Qxa2+ 17.Kxa2 Ra4# *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Review: Typical ideas & Thematic Tactics"]
+[Black "Thematic Tactic #8"]
+[Result "*"]
+[FEN "N2q1bk1/pp1b1r1p/3p2n1/P2Pp3/1P2Pp2/5PP1/4BRP1/2RQN2K b - - 0 24"]
+[SetUp "1"]
+
+24...fxg3 25.Kg1 Qh4 26.Bd3 Qh2+
+{ [26...Nf4 also works] } 27.Kf1 Nf4 28.b5 Qh1#
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Review: Typical ideas & Thematic Tactics"]
+[Black "Thematic Tactic #9"]
+[Result "*"]
+[FEN "r4k1r/p2q1pb1/1n1p2p1/2pn2Bp/1p5P/5P1N/PPPQ2P1/1NK1R2R b - - 0 18"]
+[SetUp "1"]
+
+18...Bxb2+ 19.Kxb2 Nc4+ 20.Ka1 Nxd2 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Review: Typical ideas & Thematic Tactics"]
+[Black "Thematic Tactic #10"]
+[Result "*"]
+[FEN "r1bqr1k1/pppnppbp/3p1np1/8/3P1B2/2PBPN1P/PP3PP1/RN1Q1RK1 b - - 0 8"]
+[SetUp "1"]
+
+8...e5 9.Bg5 e4 10.Bxe4 Rxe4 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Review: Typical ideas & Thematic Tactics"]
+[Black "Thematic Tactic #11"]
+[Result "*"]
+[FEN "r2q1rk1/pppnppbp/3p2p1/3P4/2BnP3/2NQ3P/PPPB1PP1/R4RK1 b - - 0 11"]
+[SetUp "1"]
+
+11...Ne5 12.Qxd4 Nf3+ 13.gxf3 Bxd4 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Review: Typical ideas & Thematic Tactics"]
+[Black "Thematic Tactic #12"]
+[Result "*"]
+[FEN "2kr1b1r/p3pp2/2p1bnp1/1p2q2p/2n5/P1NBBPN1/1PP2QPP/2KRR3 b - - 0 15"]
+[SetUp "1"]
+
+15...Nxe3 16.Rxe3 Bh6 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Review: Typical ideas & Thematic Tactics"]
+[Black "Thematic Tactic #13"]
+[Result "*"]
+[FEN "r3kr2/p3ppQ1/2pp1np1/1q5p/1p2P3/1N2RP1P/PPP4P/2KR4 b - - 0 27"]
+[SetUp "1"]
+
+27...Qg5 28.Re1 Rg8 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Review: Typical ideas & Thematic Tactics"]
+[Black "Thematic Tactic #14"]
+[Result "*"]
+[FEN "r1bq1rk1/1pp2pbp/3p1np1/p1nPp3/2P1P3/2N2N2/PPQ1BPPP/1RB2RK1 b - - 0 10"]
+[SetUp "1"]
+
+10...Ncxe4 11.Nxe4 Nxe4 12.Qxe4 Bf5 13.Qe3 Bxb1 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Review: Typical ideas & Thematic Tactics"]
+[Black "Thematic Tactic #15"]
+[Result "*"]
+[FEN "rn3rk1/pp2ppbp/2p3p1/q5B1/3P2b1/P1N2N2/1PP2PPP/R2QR1K1 b - - 0 12"]
+[SetUp "1"]
+
+12...Bxf3 13.Qxf3 Qxg5 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Review: Typical ideas & Thematic Tactics"]
+[Black "Thematic Tactic #16"]
+[Result "*"]
+[FEN "1rb1k2r/p3p2p/2pp1npQ/q7/2pPP1P1/2N2P2/PPP5/1R2K1NR b Kk - 0 14"]
+[SetUp "1"]
+
+14...Rxb2 15.Rxb2 Qxc3+ 16.Qd2 Qxb2 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Model Games"]
+[Black "Ben Adelson vs. Alexis Mosse, South Florida Grand Prix, 2018"]
+[Result "*"]
+[ECO "B00"]
+
+
+{ In this game, we have one of my former students —Alexis Mosse— playing
+the Pirc Defense as Black. Back then, he was around 7 years old. We would
+meet once a week for 1 hour and he would play a tournament whenever he could. At the time he played this game, we had been using the formula I
+shared with you in theintroduction chapter for a year (around 50 hours) . }
+1.e4 d6 2.Bc4 Nf6 3.Qf3
+{ It is common to see this move order at the beginner level. They simply
+want to execute what's known as Scholar's Mate. The problem is that Black
+already has a knight on f6, which makes everything difficult. } 3...g6 4.h3
+Bg7 5.g4
+{ White is determined to kick the f6-knight out in order to bring their
+queen to f7 protected by their c4-bishop with checkmate. } 5...Nc6
+{ Black deploys their queenside knight so that it goes after the white
+queen. } 6.g5 Nd4
+{ Once again, we see the hypermodern approach in action! The black minor
+pieces [knights and bishops] start to attack. }
+7.Qd3 Nd7
+{ Yes, Alexis remembered our brief discussion about the dark squares
+strategy. } 8.Nf3 Nc5 9.Qc3
+{ The white queen continues to protect the c2-pawn, but e4 is hanging. }
+9...Nxe4
+{ Both black knights are too powerful now and at the beginner level,
+knights are extremely dangerous. } 10.Qd3 Nxf3+ 11.Qxf3 Nxg5 12.Qf4 e5
+{ Black attacks the white queen while opening their own. } 13.Qe3 Qf6 14.Nc3
+Nf3+ 15.Kf1 Qh4
+{ The black queen continues to make its presence known. Now White has to
+take care of their c4-bishop and h3-pawn. } 16.Be2 Bxh3+ 17.Rxh3
+{ Only move. } 17...Qxh3# { Nice checkmate! } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Model Games"]
+[Black "Jon Ludvig Hammer vs. Magnus Carlsen, Wch. U14, 2003"]
+[Result "*"]
+[ECO "A46"]
+
+1.Nf3 d6
+{ This game was played years before Magnus became an elite player. However,
+it was obvious he would be joining the top soon. Notice how even though
+White didn't start with @@StartFEN@@rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1@@EndFEN@@ 1.e4 , he played 1...d6 anyways in order to get
+into our opening system. This rare move-order is not covered the course but our approach doesn't change. }
+2.d4 Nf6 3.Nbd2 g6 4.e4
+{ This is now officially the Pirc Defense. It's the same thing as if White
+had played e4 on their first turn. As you can see, Black allows White to
+fill the center with two pawns in order to attack them later with pieces and strategic pawn breaks. }
+4...Bg7 5.Bd3 O-O
+{ Our kingside development is complete! Now it's time to develop our
+queenside minor pieces and start targeting White's central pawns. } 6.O-O Nc6
+{ The hypermodern approach in action! Magnus is already putting pressure on
+the white central pawns from far away. } 7.c3
+{ As we will learn in this course, if White pushes their d-pawn 7.d5 , the
+c6-knight moves to b4 7...Nb4 attacking the white bishop from d3. } 7...e5
+{ The thematic pawn break to claim our share of the center and make the
+white central pawns unstable. } 8.h3 Nh5
+{ Black's h5-knight is ready to land on f4. Likewise, now the fianchettoed
+bishop is open from g7, which puts more pressure on White's d4-pawn
+[it's all about White's center]. How can you not like this move? }
+9.dxe5 Nf4
+{ This kind of move is what separates experienced from inexperienced
+players. Black got their knight to a good square with a tempo on the
+d3-bishop. They know the e5-pawn is not going anywhere! You know you would have captured on e5 just like me. }
+10.Bb5 Nxe5 11.Nxe5 Qg5
+{ Once again, Magnus resists his impulse to recapture on e5. Instead, he
+improves his powerful queen by threatening checkmate on g2. } 12.Ng4 Qxb5
+13.Nb3 Ne2+ 14.Kh1 Bxg4
+{ Black develops their last minor piece by exposing the white king. } 15.hxg4
+Rae8
+{ The only black piece that was doing nothing gets activated by putting
+pressure on White's central pawn. } 16.Be3 Rxe4 17.Re1 Qh5+
+{ Beautiful queen sacrifice! Once White captures the black queen, the
+e4-rook is open to move to h4 with a nice checkmate. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Model Games"]
+[Black "Nemo Zhou vs. Robert Ramirez, 2022"]
+[Result "*"]
+[ECO "B07"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3
+{ White chooses an aggressive setup! Luckily, Black has the antidote to it.
+} 4...c6
+{ We stop everything on the kingside to get ready for an attack on the
+queenside since our opponent is likely to castle on that side of the board.
+} 5.f3 b5 6.Qd2 Nbd7 7.O-O-O Qa5
+{ With the white king committed to the queenside, we have no time to waste.
+} 8.Kb1 Nb6 { Every black piece wants to go towards the white king! } 9.Bd3
+Nc4 10.Bxc4 bxc4
+{ Now the a8-rook can move to b8 to put pressure on the white king. } 11.Qe2
+Ba6 12.d5 c5
+{ Black knows they have a powerful attack on the queenside. There is no
+need to create anything in the center. } 13.Ka1 Rb8 14.Rb1 Bg7
+{ We typically develop our dark-squared bishop early in the game. This
+time, we waited for the right time. Just look at that a1-h8 diagonal. Our
+bishop has to be on it. } 15.Bd2 Rb4 16.Nd1 Qxa2+
+{ Nice queen sacrifice. Black is ready to move their b4-rook over to a4
+with checkmate. } *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Model Games"]
+[Black "Kayden Troff vs. Daniel Naroditsky, US Junior Ch. 2011"]
+[Result "*"]
+[ECO "E76"]
+
+
+{ Before we start learning the setup I recommend against the Four Pawns
+Attack, let's see how GM Daniel Narodistky used the Bg4 plan we cover in
+the Pirc Defense. As long as we understand the plans and ideas from this course, we can deal with anything. }
+1.d4 g6
+{ Daniel started with 1...g6 instead of 1...d6 and it's perfectly fine.
+Move order is not that important as long as we know where our pieces go. }
+2.c4 Bg7 3.Nc3 d6 4.e4 Nf6 5.f4 { The Four Pawns Attack. } 5...Bg4
+{ If you already went over our Pirc Defense lines [vs.
+e4], you should be familiar with this move. Even though it's
+not the best choice in this position, Black knows their plan and that's what matters. }
+6.Qb3 Nc6
+{ Yes, we know this knight loves the c6-square and we often see it happen
+in the ...Bg4 lines. } 7.Be3 e5
+{ The thematic ...e5 push to break White's center! Yes, you will see it
+over and over. So, pay attention to how Daniel uses it in this game. } 8.Qxb7
+exd4 { Fork! } 9.Nb5 O-O { With our king in safety, we are ready to attack. }
+10.Qxc6 dxe3 11.Nc3 Rb8
+{ Without our b-pawn, we get to put pressure down the b-file. } 12.Be2 Rxb2
+13.O-O-O Qb8
+{ With kings castled opposite side, we know we must attack theirs before
+they attack ours. As you can see, the b-file is our way in. } 14.h3 Nxe4
+{ Narodistky remembered his powerful bishop is fianchettoed on g7 and now
+it's too much for the White king. } 15.Nxe4 Rb1+ 16.Kc2 Qb2+ 17.Kd3 Qa3+
+18.Nc3 Qxc3+ 19.Ke4 f5+ 20.Kd5 Rxd1+
+{ White resigned here, but let me show you why. } 21.Bxd1 Qd4+ 22.Ke6 Qf6+
+23.Kd5 { 23.Kd7 Qf7 is another checkmate. } 23...Qf7# *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Model Games"]
+[Black "KingHuntingMachine vs. Robert Ramirez, Online Game, 2018"]
+[Result "*"]
+[ECO "B00"]
+
+1.e4 d6 2.d4 Nf6 3.Bd3
+{ A different way to protect the e4-pawn. Something about my beginner
+students when they learn a new opening is that they expect their opponents
+to play exactly what they learned. However, with so many possible moves in Chess, that's often not the case. }
+3...g6
+{ Good news is we know where our piece belong regardless of what White
+plays [unless they do something aggressive]. }
+4.Nf3 Bg7 5.O-O O-O { Kingside development is complete. } 6.Re1 Bg4
+{ One of the main plans we cover in this course. And yes, I could have also
+played 6...Nc6 or 6...c6 . } 7.h3 Bxf3 8.Qxf3
+{ Recapturing with the g-pawn would ruin White's pawn structure and expose
+their king. } 8...Nc6 { Again — we develop with a tempo. } 9.c3 e5
+{ Opening phase is complete now that we stroke the center with the thematic
+...e5 push. } 10.d5
+{ The four central pawns are locked. Time to pick your flank and transfer
+our knight from the unsafe c6-square to it. } 10...Ne7
+{ Getting ready to target the pawn in front of our most forward pawn. } 11.c4
+{ White knew these principles too! } 11...Nd7
+{ Notice how I moved my knight from f6 to d7 this time. I have also moved
+it to e8 in other games. It's mostly a matter of taste. We mainly want to
+free our f7-pawn. } 12.Nc3 f5 13.Qd1 f4 14.f3 g5 { Pawn storm! } 15.b4 h5
+{ Once we played f4, that f-pawn became our most forward pawn. So, now we
+target the white pawn in front of it [f3]. }
+16.Bd2 Ng6 { All my pieces want to go to the kingside. } 17.Be2 Nf6
+{ Let's go! } 18.a4 Rf7
+{ Thematic plan at this point. I want my rook on the same file as the white
+king and it also helps my g-pawn break on g4. } 19.c5 Bf8
+{ Yes, even our dark-squared bishop that seemed to be bad has an important
+role in our plan. It moves to support our center while leaving g7 available
+for the f7-rook. } 20.cxd6 cxd6
+{ We recapture with a pawn to keep the center locked. } 21.Rc1 Rg7
+{ Our maneuver is complete! } 22.Nb5 a6
+{ I don't like enemy pieces in my territory. We typically don't move pawns
+where we are being attacked, but here it comes with a tempo on the
+b5-knight. } 23.Nc3 Nh4 { Our infiltration begins. } 24.Kh1 Qe8
+{ Our queen transfers from queenside to kingside. } 25.a5 Qg6
+{ The black queen arrived and the party may begin! } 26.Rg1 g4
+{ We finally made contact. Black's main objective now is to open up lines
+for their pieces to attack. } 27.Be1 g3
+{ I know I'm doing the opposite of opening up lines. However, since I'm
+familiar with these positions, I knew it was only preparation for the final
+blow. } 28.Na4 Nh7
+{ My knight is going for the h3 pawn and everybody knows it. That's how we
+open the kingside again. } 29.Nb6 Rd8 30.Rc8 Rxc8 31.Nxc8 Ng5
+{ It's coming! } 32.Nb6 Nxh3 { I was not kidding. } 33.gxh3
+{ Black to move and there is a forced mate in 3 moves. Can you find it? }
+33...g2+ 34.Kh2
+{ Come on! There is mate in 2 moves now. Did you already see it? } 34...Qg3+
+35.Bxg3 fxg3#
+{ Checkmate! Our knight protects the g2-pawn while our rook protects the g3
+pawn. Besides the interesting mate, pay attention to White's queenside
+expansion. It did not succeed because they had to react to our pawn storm on the other flank. }
+*
+

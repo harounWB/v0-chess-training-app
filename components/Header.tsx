@@ -1,13 +1,15 @@
 'use client';
 
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { useAuth } from '@/lib/AuthContext';
 import { AuthModal } from '@/components/AuthModal';
 import { Button } from '@/components/ui/button';
-import { User, LogOut, Crown, BarChart3 } from 'lucide-react';
+import { User, LogOut, Crown, BarChart3, Settings } from 'lucide-react';
 
 export function Header() {
   const { user, signOut, isGuest } = useAuth();
+  const pathname = usePathname();
 
   return (
     <header className="border-b border-gray-800 bg-gray-950/80 backdrop-blur-sm">
@@ -35,6 +37,18 @@ export function Header() {
           </div>
 
           <div className="flex items-center gap-3">
+            {pathname === '/training' && (
+              <Link href="/settings">
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="text-gray-300 border-gray-700 hover:bg-gray-800 text-xs sm:text-sm px-2 sm:px-3"
+                >
+                  <Settings className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
+                  Settings
+                </Button>
+              </Link>
+            )}
             {user ? (
               <div className="flex items-center gap-2 md:gap-3">
                 <div className="hidden sm:flex items-center gap-2 text-gray-300">

@@ -6,6 +6,8 @@ export interface Move {
   promotion?: string;
   comment?: string;
   variations?: Variation[];
+  fenBefore?: string; // Board state before the move is played
+  fenAfter?: string; // Board state after the move is played
 }
 
 export interface Variation {
@@ -48,6 +50,11 @@ export interface Game {
   moves: Move[];
   variations: Variation[];
   completed?: boolean;
+  pgn?: string;
+  opening?: string;
+  openingCode?: string;
+  collectionId?: string | null;
+  fen?: string; // Starting position FEN if not standard starting position
 }
 
 export interface PGNFile {
@@ -63,8 +70,38 @@ export interface PGNProgress {
   importedAt: number; // Timestamp when this PGN was imported
 }
 
+export type ThemeMode = 'light' | 'dark' | 'system';
+export type BoardTheme = 'classic' | 'wood' | 'stone' | 'purple' | 'lichess';
+export type PieceTheme = 'neo' | 'alpha' | 'merida' | 'lichess';
+export type AnimationSpeed = 'slow' | 'normal' | 'fast';
+
+export interface AppSettings {
+  themeMode: ThemeMode;
+  soundEnabled: boolean;
+  animationSpeed: AnimationSpeed;
+  boardTheme: BoardTheme;
+  pieceTheme: PieceTheme;
+  remindersEnabled: boolean;
+  reminderTime: string;
+  blitzModeEnabled: boolean;
+}
+
+export interface Collection {
+  id: string;
+  name: string;
+  gameIds: string[];
+  createdAt: number;
+}
+
 export type PlayerColor = 'w' | 'b';
 export type TrainingMode = 'train' | 'explore';
+export type PracticeSide = 'white' | 'black' | 'random';
+
+export interface PracticeSetup {
+  fileNames: string[];
+  side: PracticeSide;
+  createdAt: number;
+}
 
 export interface TrainerState {
   currentGame: Game | null;

@@ -1,0 +1,1993 @@
+﻿[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Position 1"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Mihail Marin"]
+[SetUp "1"]
+[FEN "5rk1/1p3ppp/p1p5/3p4/PP1P4/4P3/5PPP/1R4K1 w - - 0 1"]
+[PlyCount "0"]
+[EventDate "2015.08.17"]
+
+{The Carlsbad structure One of White's main plans in the Queen's Gambit is
+based on an early exchange on d5, reaching the so-called Carlsbad structure.
+This optimally happens before Bg5 or Bf4, as otherwise, as we can see in the
+theoretical databases, Black could answer cxd5 with ...Nxd5, taking advantage
+of the exposed position of the enemy bishop. Strictly speaking, cxd5 looks
+like a small concession, as it absolves Black from the worries regarding
+White's intentions in the centre, thus making his planning simpler, while also
+opening the h3-c8 diagonal for his bishop. But on the other hand, White also
+gets a very clear plan known as the minority's attack. Mechanically, the
+effectiveness of this plan is easy to explain. Initially, Black has four pawns
+against three on the left half of the board. After b4-b5 and the inevitable
+exchange(s) the situation would change to 3 pawns versus or more typically 2 
+(c7, d5) versus one (d4), meaning that Black would be left with permanent
+weaknesses. Black's kingside attacking plan usually takes longer to develop
+and is less one-sided, as the massive pawn advance would also weaken his king
+and possibly e5. I should also add another important detail regarding the
+repertoire covered in the theoretical databases. With the move order
+recommended there, it is possible to reach the Carlsbad structure under two
+circumstances. Most typically, this happens after 1.d4 d5 2.c4 e6 3.Nc3 Be7 4.
+cxd5 exd5 5.Bf4, when Black manages to develop his potentially passive bishop
+with ...Bf5, usually resulting in its exchange after Bd3. This implies that
+White's control over c4 is weakened, making the advance of the b-pawn more
+problematic strategically. But on the other hand, Black's kingside attacking
+chances have also diminished, as his problem bishop can often be useful to
+deliver strong blows, usually on h3. Another typical situation (not belonging
+to the absolute main lines, though) arises after 4.Nf3 Nf6 5.Bg5 h6 6.Bxf6
+Bxf6 7.e3 0-0 8.cxd5 exd5. The exchange on f6 has absolved Black from his
+slight space problems and created some potential pressure in the centre. But
+in the absence of the knight f6 and with the bishop away from the h2-b8
+diagonal, Black's attacking potential is once again smaller than in the usual
+lines arising after 3...Nf6 4.cxd5 exd5. Taking all these into account, it is
+essential to know a few typical and effective ways to deal with the minority
+attack itself, even though sometimes the kingside counterattack is possible.} 
+*
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Poisition 2"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Mihail Marin"]
+[SetUp "1"]
+[FEN "2r3k1/1p3ppp/pnp5/3p4/PP1P4/2N1P3/5PPP/2R3K1 w - - 0 1"]
+[PlyCount "4"]
+[EventDate "2019.??.??"]
+
+{Placing a knight on b6 anticipates the pawn break with maximum economy of
+forces. The typical continuations are:} 1. b5 ({In such positions engines are
+enthusiastic about} 1. a5 {, but this completely deprives White of
+constructive plans, leaving Black free hands to prepare his kingside play.})
+1... cxb5 ({With a bishop on f6, another effective answer is} 1... axb5 2. axb5
+c5 {Apart from undermining d4, Black stabilizes his knight as a safe defender
+of the isolani.}) 2. axb5 a5 {If Black manages to defend d5 properly (the
+knight does an excellent job, actually), the a-pawn could cause White many
+problems, especially in the endgame.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Position 3"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Mihail Marin"]
+[SetUp "1"]
+[FEN "6k1/5ppp/p1p5/1p1p4/1PnP4/P1N1P3/5PPP/6K1 w - - 0 1"]
+[PlyCount "0"]
+[EventDate "2019.??.??"]
+
+{Another possible plan is to consolidate the control over c4 with ...b7-b5.
+The success of this operation greatly depends on whether Black succeeds in
+playing ...a6-a5 followed by either ...a5-a4 or ...axb4. This would turn the
+a3- or b4 pawns into permanent weaknesses. If White is quicker in advancing
+his pawn to a5, then a6 would be a chronic weakness, especially dangerous for
+Black in the endgame. Next we will see a practical example in which Black
+managed to stabilize the queenside without making any commitments at all.}  *
+
+[Event "World Cup"]
+[Site "Skelleftea"]
+[Date "1989.08.??"]
+[Round "9"]
+[White "Portisch, Lajos"]
+[Black "Kasparov, Garry"]
+[Result "0-1"]
+[ECO "D36"]
+[WhiteElo "2600"]
+[BlackElo "2775"]
+[Annotator "GM Mihail Marin"]
+[PlyCount "124"]
+[EventDate "1989.08.??"]
+[EventRounds "15"]
+[EventCountry "SWE"]
+[EventCategory "16"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 e6 4. cxd5 exd5 5. Nc3 c6 ({We do not have this
+concrete position in our repertoire, as White usually exchanges on d5 later
+than in this game.} 5... Be7) 6. Qc2 Na6 {In our repertoire, we refrain from
+this manoeuvre, but the position is slightly different there with Bg5 and ...
+Be7 on board. In that case, White can play e2-e3, when after ...Nb4 the knight
+would soon have to return. With the bishop on c1, e2-e3 is not a serious
+option.} 7. a3 Nc7 8. Bg5 g6 $1 {We have this plan at several points in our
+repertoire. Black prepares ...Bf5.} 9. e3 Bf5 10. Bd3 Bxd3 11. Qxd3 Be7 12. O-O
+O-O 13. b4 {Even in the absence of the light-squared bishops, the minority
+attack can be consistent. Strictly speaking, Black has gained a tempo with his
+knight manoeuvre, as a2-a3 will not be very useful after ...a7-a6, when White
+has to spend time on a3-a4 to prepare b4-b5. But on the other hand, the knight
+on c7 fulfils a purely defensive task at this point, by just controlling b5
+and being far away from c4 or even b6.} Ne4 {The correct decision, aiming to
+exchange the knight on c3 and thus slow down b4-b5.} 14. Bf4 {Portisch rightly
+decides to target the knight on c7, in order to keep his main plan possible.} (
+{If} 14. Bxe7 Qxe7 15. Rfb1 {Precisely this rook, in anticipation of ...a7-a5.}
+Nd6 16. a4 a6 {Now is the right moment to mention that in the Carlsbad
+structure d6 is the optimal square for the knight. It controls c4 and e4 while
+also taking measures against b4-b5. More about it later in the game. White
+does not have any constructive plans while Black can prepare the same kind of
+kingside expansion as in the game.} 17. Nd2 Rae8 18. Nb3 {, trying to
+reinforce the queenside pressure (although this has no practical effects),
+Black can even speed up his attack with 18...f5!? as the knight is far from e5.
+} f5 $5 {as the knight is far from e5.}) 14... Nxc3 15. Qxc3 $6 {Rather
+inconsequent.} ({White should have carried out his plan until its logical end
+with} 15. Bxc7 $1 Qxc7 16. Qxc3 {, keeping his queenside attack alive. A
+possible continuation is} a6 17. a4 Rfc8 18. Rab1 Bd6 19. Rfc1 Kg7 20. Qb3 {
+With b4-b5 in the air, Black should stabilize the queenside with} a5 $5 21. b5
+(21. bxa5 Rcb8 $15 {leaves White with weaknesses.}) 21... Rab8 {with static
+equality, since} 22. bxc6 bxc6 23. Qc2 Rb4 {would offer Black certain
+counterplay. This is another structure to remember. The presence of the
+a-pawns helps Black.}) 15... Bd6 {Black uses the given chance to keep his
+knight. When agreeing to that, Portisch must have thought that the knight is
+passive on c7, overlooking a small tactical detail.} 16. Bxd6 $6 {Going all
+the way.} ({Better was} 16. a4 Bxf4 ({If} 16... Ne8 {Black cannot bring his
+knight to d6 in time to stop} 17. b5) 17. exf4 $11 {True, White's structure is
+imperfect, but he is safe against any kingside attack. He could play Ne5 and
+if ...f7-f6, then Nd3.}) 16... Nb5 $1 {The move missed by Portisch. The knight
+reaches d6 in time.} 17. Qb3 Nxd6 $15 {Black has achieved a dream position.
+The knight on d6 controls all important squares and Black is ready to launch a
+slow positional attack based on ...f7-f6, ...g6-g5 and ...h7-h5-h4.} 18. a4 a6
+19. Ne5 {White will play without a plan until the end of the game. о /\} ({
+Preparing b4-b5 is not easy, but it was all White had to put up at least some
+resistance. Here is an illustrative line based on transferring the knight to
+c3:} 19. Nd2 Qe7 20. Nb1 a5 $5 {A logical counterplay, taking advantage of
+White's temporary lack of coordination.} 21. b5 cxb5 22. axb5 (22. Qxd5 b4 $17
+{followed by ...b7-b5 soon creates two dangerous queenside passers.}) 22... Nc4
+23. Rc1 Rfc8 24. Nc3 Qb4 $5 (24... Nxe3 25. fxe3 Qxe3+ 26. Kh1 Rc4 {offers
+Black good compensation for the knight, but hardly an advantage.}) 25. Qa2 ({
+Relatively best.} 25. Rab1 $2 {loses to} Nd2 26. Qxb4 axb4 27. Rxb4 Rxc3 $1) ({
+Or if} 25. Qxb4 axb4 26. Nxd5 b3 $1 $17 {and the b-pawn is very unpleasant.
+For instance} 27. Ne7+ $2 Kf8 28. Nxc8 b2 $1 {wins a knight.}) 25... Nxe3 26.
+Nxd5 Rxc1+ 27. Rxc1 Nxd5 28. Qxd5 Qa3 $5 29. Rf1 Qe7 {Black's position remains
+preferable because of his outside passed pawn, but White is still very much in
+the game.}) 19... Re8 20. Rfe1 Qg5 21. h3 Kg7 22. Qc2 Re6 23. Rac1 Rae8 24. Qb1
+Qh5 $1 25. Qb3 f6 26. Nd3 g5 27. Qd1 Qg6 28. Qc2 R6e7 29. Red1 h5 30. Qb1 ({
+Now or at later moments White could have considered 30.Nc5, to offer the queen
+exchange before Black's kingside pressure becomes too strong.} 30. Nc5 {
+to offer the queen exchange before Black's kingside pressure becomes too
+strong.}) 30... h4 {Black has carried out his plan with brilliant consequence,
+while White has been mainly waiting.} 31. Qc2 {о /\} g4 $6 {This premature
+break will be crowned by success only because of White's lack of resolution.} (
+{Black should have prepared it with} 31... Kh6 $5 {planning to transfer his
+rooks to the g-file.} 32. Kh2 ({The attempt at evacuation} 32. Kf1 {can be met
+with} Nc4 {threatening ...Rxe3.}) 32... Rg7 33. Rg1 Reg8 34. Nc5 Qxc2 35. Rxc2
+f5 36. Nd3 g4 37. hxg4 fxg4 38. Rh1 Kg5 $15 {, with a very unpleasant position
+for White.}) 32. Nf4 $2 ({Hard to say why Portisch refrained from stabilizing
+his position with} 32. hxg4 Qxg4 33. Nf4 {The only active attempt is} h3 $5 34.
+Nxh3 Nf5 35. Nf4 Re4 ({Preparing ...Nh4 followed by ...Rxf4} 35... Nh4 {
+is ineffective due to} 36. Kf1) 36. f3 Nxe3 37. Qxe4 Rxe4 38. fxg4 Nxd1 39.
+Nh5+ Kg6 40. Rxd1 Rxg4 41. Nxf6 Kxf6 42. Kf2 {and White should reach a draw
+with a well-timed b4-b5 (finally possible!).}) 32... Qxc2 33. Rxc2 g3 $1 {
+о /\The weakness on e3 is decisive.} 34. Rd3 (34. fxg3 Nf5 $1 $19) 34... Kh6
+35. Kf1 Kg5 36. Ne2 Nc4 37. Rcc3 Nb2 38. Rd2 Nxa4 39. Rb3 Nb6 40. Ng1 Nc4 41.
+Nf3+ Kh5 42. Rdd3 a5 $1 43. bxa5 Ra8 44. Rd1 Rxa5 45. Re1 b5 46. Re2 Ra1+ 47.
+Re1 Rea7 48. fxg3 Rxe1+ (48... hxg3 $19) 49. Kxe1 Ra1+ 50. Ke2 hxg3 51. Ne1
+Ra2+ 52. Kd1 Rd2+ 53. Kc1 Re2 54. Kd1 Rxe3 55. Rxe3 Nxe3+ 56. Ke2 Nf5 57. Nc2
+Nh4 58. Nb4 Nxg2 59. Kf3 Nh4+ 60. Kxg3 Nf5+ 61. Kf4 Nxd4 62. Ke3 Nf5+ 0-1
+
+[Event "Antofagasta Zicosur"]
+[Site "Antofagasta"]
+[Date "2015.01.06"]
+[Round "2"]
+[White "Henriquez Villagra, Cristobal"]
+[Black "Granda Zuniga, Julio E"]
+[Result "0-1"]
+[ECO "D55"]
+[WhiteElo "2471"]
+[BlackElo "2640"]
+[Annotator "GM Mihail Marin"]
+[PlyCount "104"]
+[EventDate "2015.01.05"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "CHI"]
+
+{The next example features the second typical situation for our repertoire,
+involving an early Bxf6.} 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Be7 5. cxd5 ({
+A more natural move order is} 5. Bg5 h6 6. Bxf6 Bxf6 7. cxd5 exd5) 5... exd5 6.
+Bg5 h6 7. Bxf6 Bxf6 8. e3 O-O 9. Bd3 Re8 {This move is probably aimed at
+inhibiting e3-e4 before making any queenside commitments.} ({When Black has
+the bishops' pair he has a wider choice with respect to the way of meeting or
+anticipating the minority attack. We are familiar already with} 9... c6 10. O-O
+Nd7 11. b4 a6 12. a4 Nb6) 10. O-O {о /\} a5 ({Even after spending a tempo on ..
+.Re8 Black would be in time to switch to the aforementioned plan:} 10... c6 11.
+b4 a6 12. a4 Nd7 13. b5 {Otherwise ...Nb6.} Nc5 $5 14. Bc2 (14. Be2 {even
+hands over the initiative:} Ne4 15. Nxe4 dxe4 16. Nd2 c5 $15) 14... Ne6 15.
+bxc6 bxc6 {Threatening ...c6-c5.} 16. Qd2 a5 $5 {Black has reached a more
+active version of the structure mentioned in the comments to White's 15th move
+in the previous game. He plans ...Ba6, ..Rb8, ...Qd6 and keeps ...c6-c5 in
+reserve. In this line we can feel the latent force of the bishop on f6.}) 11.
+h3 {It will later turn out that this prophylactic move weakens the kingside.} (
+{I assume that White wanted to stabilize his knight on f3, as if} 11. Qc2 Na6 (
+11... Bg4 $2 12. Qb3 {loses a pawn.}) 12. a3 Bg4 13. Nd2 {Black has} c5 {
+with excellent counterplay, for instance} 14. h3 cxd4 15. exd4 Be6 {, reaching
+a structure that is familiar to us from the previous strategic article.}) 11...
+c6 {о /\} 12. Rc1 {White plays without a clear plan.} ({Under the given
+circumstances, continuing the minority attack would mainly cause weaknesses in
+the own camp:} 12. a3 Nd7 13. b4 b5 {This is possible only with the insertion
+of a7-a5 and a2-a3. Otherwise, White would break with a2-a4.} 14. Qc2 ({
+More active is} 14. e4 {when Black's most solid plan is} Nb6 15. e5 Be7 16. Qb3
+Bf8 17. Ne2 Nc4 18. Nf4 Re7 19. Bc2 g6 $5 {, preparing to meet Bd3 with ...Bf5
+and keeping the possibility of taking control over the a-file with Rea7.})
+14... Nb6 15. Nd2 axb4 16. axb4 Rxa1 17. Rxa1 Qd6 {In the absence of the white
+dark-squared bishop, the pawn on b4 is chronically weak.} 18. Na2 Nc4 19. Bxc4
+bxc4 20. Qa4 Bd7 21. Rc1 Rb8 22. Nb1 g5 {With the queenside stable, Black is
+ready for his kingside attack.} 23. Nbc3 h5 24. Qd1 g4 $17 {Lan,Z (2354)-Ma,Q 
+(2637) Beijing 2017 (0-1, 52)}) ({White should adopt a neutral policy for the
+time being, keeping the possibility of e3-e4.} 12. Qc2 Nd7 13. Rfe1 Nf8 $5 ({
+Slightly more ambitious than} 13... Nb6 {, when White could try} 14. e4 dxe4
+15. Nxe4 Nd5 16. a3 Be7 {with approximate equality, as White's activity
+compensates for the weakness of the isolani.}) 14. a3 ({Now that the knight is
+far away from c4, this plan is more adequate.} 14. e4 Ne6 {could lead to a
+structure examined in the previous strategic article.}) 14... Ne6 15. b4 Qd6
+16. b5 ({White should not delay concrete action as if} 16. Qb3 {Black can
+start a slow but consistent kingside attack:} Ng5 17. Nxg5 hxg5 18. b5 g6 19.
+Na4 g4 20. hxg4 Bxg4 21. bxc6 bxc6 22. Nc5 Kg7) 16... c5 17. dxc5 Nxc5 18. Rad1
+Be6 {Once again, the structure resembles those examined in the previous
+article.}) 12... Nd7 13. Na4 Be7 14. Qb3 Bd6 15. Nc5 Rb8 {о /\White's
+queenside pressure is sterile.} 16. Nxd7 $6 {This only helps Black completing
+his development after having wasted a lot of time on a pseudo-attack.} ({
+But Black has excellent play after, say} 16. Qc2 Qf6 {as if} 17. e4 $6 Bxc5 18.
+dxc5 dxe4 19. Bxe4 Nxc5 $1 {Black wins a pawn, for instance} 20. Bxc6 bxc6 21.
+Qxc5 Rxb2 22. Qxa5 Bxh3 $17) 16... Bxd7 17. Qc2 Qf6 18. Qe2 Re7 19. Rfe1 Rbe8 {
+о /\Black's perfect regrouping is very aesthetically pleasing. I would make a
+special mention about the bishops, who control both wings. Without promising
+pawn breaks in view, White is doomed to passivity.} 20. Nd2 g6 21. a3 h5 22.
+Qf3 (22. Rb1 Kg7 23. b4 axb4 24. axb4 b5 {does not improve things for White.
+While sustaining the attack, the bishops defend c6 and keep b4 under pressure.}
+) 22... Qg5 23. Nf1 Kg7 24. Nh2 h4 25. Rcd1 f5 {After Black has started to
+advance his pawns, the rest is agony.} 26. Nf1 Qf6 27. Qe2 g5 28. Qd2 g4 29.
+Kh1 f4 30. hxg4 Bxg4 31. f3 Bd7 32. Bc2 fxe3 33. Rxe3 Rxe3 34. Nxe3 h3 35. Qf2
+Qf4 36. Nf1 Bg4 37. Kg1 hxg2 38. Kxg2 Rf8 39. Rd3 Bf5 40. Rc3 Bxc2 41. Qxc2
+Qxd4 42. Rb3 Rf7 43. Qf2 Qf6 44. Ne3 Qf4 45. Ng4 d4 46. Rd3 c5 47. a4 Qf5 48.
+Rd1 Re7 49. Qd2 Bf4 50. Qf2 d3 51. Re1 Qg5 52. Kf1 d2 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Practical Example 1"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Mihail Marin"]
+[SetUp "1"]
+[FEN "r5k1/1p3ppp/1n1r2n1/pP1p4/3P2q1/2N1P1P1/1Q1N1P1P/R1R3K1 w - - 0 26"]
+[PlyCount "3"]
+[EventDate "2019.??.??"]
+
+{[#]Black's position looks promising on both wings, but his last move, 25...
+Rd6, preparing to insert the rook into the attack, was careless. Why?} 26. Rxa5
+$1 {This simple combination wins a pawn.} ({The game went} 26. Qb3 Nh4 27. Qd1
+({A well-timed retreat to the defence as if} 27. h3 $2 Qxh3 $1 28. gxh4 $2 Rg6#
+) 27... Qh3 28. Qf1 Qg4 29. Qd1 Qh3 30. Qf1 Qg4 {В1/2-В1/2 Becker,A-Eliskases,
+E Vienna 1939}) 26... Rxa5 27. Qb4 $16 {Black cannot defend both of his rooks
+simultaneously.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Practical Example 2"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Mihail Marin"]
+[SetUp "1"]
+[FEN "2r1r3/1p1b1pk1/p1pb2p1/1P1p2qp/P2P4/3BP2P/1R3PP1/3QRKN1 b - - 0 30"]
+[PlyCount "25"]
+[EventDate "2019.??.??"]
+
+{[%evp 0,25,-98,-98,-95,-95,-136,-71,-70,-56,-113,-93,-105,-132,-119,-127,-176,
+-49,-133,-122,-108,-128,-126,0,0,-167,-188,-190]} {о /\Black's kingside
+pressure has forced the white knight to retreat to g1. With such poor
+coordination, White's decision to start his minority attack on the previous
+move is illogical. What is the best way to punish this?} 30... cxb5 $1 {
+Even in the absence of a knight on b6 this plan is very strong. The point is
+that White cannot use his knight to defend against the advance of the a-pawn
+while the bishops, as seen in an example above, control both wings.} (30...
+axb5 31. axb5 c5 {is a reasonable alternative, but it offers Black just some
+light advantage as White manages to consolidate.} 32. dxc5 Bxc5 33. Nf3 Qf6 $15
+{Black retains active play, but White has considerably improved his
+coordination and in the future can hope to play Nd4.}) 31. axb5 a5 $1 $17 {
+This pawn will prove to be hard to stop.} 32. Rc2 Qf6 33. Rxc8 Rxc8 34. Re2 Qd8
+{Not the only strong move, but the most elegant. The queen switch to the
+queenside is very hard to meet.} (34... Bf5 $17 {[%csl Gc4]}) (34... Rc3 $17)
+35. Rb2 ({White is not in time to activate his knight:} 35. Nf3 Qe8 36. Rb2 Bb4
+{White has no convenient way to defend his b-pawn:} 37. Qa4 $2 (37. Qe2 $2 Rc1+
+{wins}) 37... Rc1+ 38. Ke2 Qc8 {followed by ...Qc3 with a decisive attack.})
+35... a4 $1 {A good moment to advance the pawn.} (35... Bb4 36. Ne2 Qe8 37. Qa4
+{still holds.}) 36. Ne2 (36. Qxa4 $2 Rc1+) 36... Qa5 37. Rb1 Bb4 {The pawn on
+b5 is doomed.} 38. Kg1 Bxb5 39. Bxb5 Qxb5 40. Nf4 a3 41. Nd3 Rc4 42. Ne5 (42.
+Qb3 Rc3 43. Qxc3 Bxc3 44. Rxb5 a2 $19) 42... Rc3 {0-1 Portisch,L (2610)
+-Beliavsky,A (2640) Linares 1989} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Practical Example 3"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Mihail Marin"]
+[SetUp "1"]
+[FEN "r4rk1/3n1pbp/2pq2p1/ppNp1b2/1P1P4/PQ2PN2/4BPPP/R4RK1 b - - 0 16"]
+[PlyCount "5"]
+[EventDate "2019.??.??"]
+
+{[#]Black has achieved a perfect form of the queenside blockade and can
+already think of taking over the initiative.} 16... Ra7 {Indeed, it would have
+been best to keep the tension, distracting White's pieces on the queenside in
+order to prepare a slow kingside attack.} (16... a4 {From a static point of
+view this looks perfect, but as the game shows White's position is solid
+enough to defend.} 17. Qc3 Nb6 18. Nd2 Rae8 19. Rfe1 Re7 20. Bf3 Rfe8 21. g3
+Bh3 22. Bg2 Bxg2 23. Kxg2 f5 24. h4 Nc4 25. Nf3 Bf6 26. Re2 Rg7 27. Rh1 Qe7 28.
+Ree1 h6 29. Qd3 Rf8 30. Nd2 Qe8 31. Nxc4 dxc4 32. Qd1 {White managed to
+exchange queens and while Black was looking for an active plan, he became
+ambitious with g3-g4, eventually resulting in a win.1-0 (62) Seirawan,Y (2510)
+-Kasparov,G (2595) Dubai 1986}) 17. Ra2 Rfa8 18. Rfa1 Bf6 $15 {[%cal Gg8g7,
+Gh7h5,Gh5h4] followed by ...Bg7, ...h7-h5-h4 and so on. White would have
+worries on both wings.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Practical Example 4"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Mihail Marin"]
+[SetUp "1"]
+[FEN "r3r1k1/p2n1pbp/1npq2p1/3p2B1/P2P4/2NQP3/3N1PPP/R4RK1 b - - 0 17"]
+[PlyCount "3"]
+[EventDate "2019.??.??"]
+
+{[#]The position is approximately equal and there are several good moves for
+Black. But just to reveal some hidden tactical nuances, do you see a way of
+installing a knight on c4?} 17... Ne5 $5 {Without really yielding Black an
+advantage, this would have been a simple way to activate Black's play.} (17...
+a5 18. Bf4 Qe6 {would transpose to the game.}) ({The game went} 17... Qe6 18.
+Bf4 a5 19. Bg3 Bf8 $1 {Now is a good moment to return the bishop to the active
+diagonal.} 20. Ne2 {В1/2-В1/2 Kasparov,G (2760)-Eingorn,V (2560) Moscow 1988
+White has no advantage at all.} Bb4 21. Rfc1 c5 $11) 18. Qc2 (18. dxe5 Qxe5 {
+leaves White's pieces hanging.} 19. a5 Nc8 20. Nxd5 Qxg5 21. Nc7 Rd8 22. Qc2
+Bxa1 23. Nxa8 Bg7 $17) 18... Nec4 $11 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Practical Example 5"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Mihail Marin"]
+[SetUp "1"]
+[FEN "4r1k1/1p3pp1/1Npr3p/3p3q/3P2n1/4P1PP/PP3PK1/1RR1Q3 b - - 0 29"]
+[PlyCount "7"]
+[EventDate "2019.??.??"]
+
+{[#]White has won a pawn, but otherwise his queenside attack has not even
+started. Besides, his knight is completely out of play. How can Black make use
+of his kingside pressure?} 29... Nxf2 $1 {A winning combination. Since the
+white knight does not count for practical reasons, this should not even be
+considered a sacrifice.} (29... Nf6 {allows White to neutralize the pressure
+with} 30. Qd1 $1 Qf5 31. Qf3 Qg6 32. Rf1 $5 {taking measures against ...Ne4
+followed by ...Rf6.}) 30. Qxf2 {No matter how White takes on f2, he will not
+find safe squares for his king and queen, as his rooks are a bit far from the
+kingside, too.} ({If} 30. Kxf2 Rf6+ 31. Kg2 Qf3+ 32. Kh2 Rxe3 $19) 30... Rf6
+31. Qg1 (31. Qd2 Qf3+ 32. Kh2 Rxe3 33. Re1 Qxg3+ 34. Kh1 Rxe1+ 35. Rxe1 Rg6 {
+, threatening ...Bh3+ and mating soon.}) 31... Qe2+ 32. Kh1 Rf2 {[%cal Ge2f3]
+With the imparable threat ...Qf3+. 0-1 Fuster,G-Simagin,V Telegraph 1949} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1 "]
+[Black "5.Bf4 0-0 6.e3 b6 7.cxd5 exd5"]
+[Result "*"]
+[ECO "D37"]
+[Annotator "GM Mihail Marin"]
+[PlyCount "30"]
+[EventDate "2019.??.??"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. Nf3 Nf6 5. Bf4 {In the late seventies and
+early eighties, Kortschnoj was one of the few pioneers trying to create
+problems in this system for Black, mainly in his matches with Karpov. Nowadays,
+this line is not a bit less important than 5.Bg5. On f4, the bishop does not
+put immediate pressure on Black's centre (in other words, it does not
+undermine his control on d5). but since this is an open invitation for Black
+to play an early ...c7-c5, the bishop is likely to restrict Black's mobility
+by controlling a few important squares along the h2-b8 diagonal.} (5. g3 {
+is a somewhat unusual way of transposing to the Catalan.}) 5... O-O 6. e3 ({
+As far as I understand,} 6. a3 {is an attempt to transpose to some of the 6.e3
+c5 lines and avoid some black deviations. But it does not cross our plans as
+a2-a3 is not very useful in the positions with hanging pawns. (Please refer to
+our main lines below).} b6 7. cxd5 Nxd5 (7... exd5 {is also possible. If 8.e3,
+a2-a3 is mainly a waste of time, while after} 8. g3 c5 9. Bg2 Bb7 10. O-O Na6 {
+play transposes to an a2-a3 Queen's Indian. This will be examined in the third
+database, dedicated to the Catalan and the Reti systems.}) 8. Nxd5 exd5 ({
+With a2-a3 on the board, I find this best. But} 8... Qxd5 {is also playable:}
+9. Bxc7 Ba6 10. Bxb8 Raxb8 11. e3 Bxf1 12. Kxf1 Qb5+ 13. Qe2 Qb3 14. h4 {
+Avrukh,B (2603)-Pelletier,Y (2587) Mulhouse 2011 (1/2-1/2, 27)} Rfc8 $1 {
+Why precisely this rook? The answer is given by Black's plan:} 15. Ne1 b5 16.
+Rh3 a5 17. h5 b4 18. axb4 a4 $44 {The weakness on b2 offers Black enough
+compensation.}) 9. g3 ({The only way to deviate from the usual lines where
+a2-a3 would not be very useful.} 9. e3 {transposes to one of the lines below,
+where a2-a3 is not common.} c5 10. Bd3 c4 11. Bc2 Nc6 12. h4 {The only way to
+take advantage of the fact that White has not castled yet.} b5 13. Ng5 h6 14.
+Qh5 Qe8 15. Nf3 f5 {We will have this structure in some later lines.} 16. g4
+Qxh5 17. gxh5 Bf6 18. Rg1 Kh8 19. Kd2 Be6 20. Be5 {Eljanov,P (2693)
+-Kasimdzhanov,R (2695) Nalchik 2009 (1/2-1/2, 65)} Bxe5 21. Nxe5 Nxe5 22. dxe5
+f4 $132) 9... c5 10. Bg2 Be6 11. O-O Nc6 {Black develops the same way as in
+Line 6.} 12. Qa4 Qd7 13. dxc5 bxc5 14. Rfd1 Rfd8 15. Ng5 {Fressinet,L (2653)
+-Alekseev,E (2715) Khanty-Mansiysk 2009 (1/2-1/2, 51)} Bxg5 16. Bxg5 Nd4 17.
+Rxd4 (17. Qxd7 Rxd7 18. e4 Bg4 $15) 17... cxd4 18. Qxd4 Rdc8 {White has some
+compensation for the exchange, but in view of the threat ...Rc2 Black's
+chances are a bit better.}) ({The rare} 6. Qc2 {has the same ideas and
+drawbacks as 7.Qc2 below.} b6 7. cxd5 exd5 8. g3 (8. e3 {transposes to 7. Qc2
+below}) 8... c5 9. Rd1 Nc6 10. Bg2 Be6 11. O-O Rc8 12. dxc5 (12. Qb1 h6 13. h3
+Bd6 14. Bxd6 Qxd6 15. e3 {1/2-1/2 Maninang,R (2350)-Rodriguez Vargas, O (2485)
+Surakarta 1982} c4 16. b3 Na5 17. b4 Nc6 18. a3 a5 19. b5 Ne7 $15) 12... bxc5
+13. Ng5 Qe8 $5 {Preparing to activate the queen along the h5-e8 diagonal after
+the exchange on e6, while also avoiding problems along the d-file.} 14. Qa4 (
+14. Nxe6 fxe6 {offers Black kingside counterplay.} 15. Bh3 Nd4 16. Qd3 Qh5 17.
+Kg2 g5 18. e3 g4 19. Bxg4 Nxg4 20. h3 Nxf2 21. Rxf2 Nc6 $15) (14. h4 Nd4 15.
+Qd2 Bg4 $11) 14... Bd7 15. Nxd5 Nd4 16. Nxe7+ (16. Qxa7 Nxe2+ 17. Kh1 Nxd5 18.
+Bxd5 Bc6 $15) 16... Qxe7 17. Qxa7 h6 18. Nf3 Nxe2+ 19. Kh1 Nxf4 20. gxf4 Ra8
+21. Qc7 Rfc8 {White should agree to a move repetition by keeping his queen on
+the queenside as if} 22. Qe5 Qf8 23. a3 $6 Bb5 24. Rfe1 $6 Ng4 $19) 6... b6 $5
+{This is far from the most popular move, but not really a rarity either. After
+comparing to the main lines,} (6... c5 {and}) (6... Nbd7 {, where play usually
+flows along extensively analyzed lines and Black is close to equality but
+still struggling a bit, I have come to the conclusion that we do not need to
+deviate from our usual Tartakower setup. This system not only has a strong
+resemblance with the main Tartakower lines but is also flexible enough to
+avoid falling into the opponent's deep preparation. For this purpose, I have
+built up a repertoire offering Black a choice between three main structures
+against most of White's answers. Since 5.Bf4 is so popular nowadays, it makes
+sense to alternate those structures during a tournament.}) 7. cxd5 {Before
+anything else, we should know how to answer the early central exchange.} (7.
+Be2 Bb7 {does not have independent value:} 8. O-O (8. cxd5 Nxd5 9. Nxd5 Qxd5 {
+transposes to line 4.}) 8... c5 9. Rc1 Nbd7 10. h3 $5 (10. cxd5 Nxd5 11. Nxd5
+exd5 {transposes to Line 8.}) 10... dxc4 11. Bxc4 cxd4 12. exd4 (12. Qxd4 Rc8
+13. Rfd1 {Seemingly the most consistent. Against other moves Black could play .
+.. a7-a6 followed by ...b6-b5.} Bxf3 14. gxf3 e5 15. Bxe5 Rxc4 16. Qxc4 Nxe5
+17. Rxd8 Nxc4 18. Rxf8+ Bxf8 {The ending remains interesting, but material and
+chances are about equal.}) 12... Rc8 13. Bb3 (13. Bd3 Nd5) 13... Ne4 $11) (7.
+Qc2 {increases the latent pressure on c7, but is an early queen commitment.}
+Bb7 8. cxd5 ({White does not get much out of refraining from this exchange, as
+his queen will be unsafe if the c-file opens.} 8. Rd1 c5 9. Be2 Nbd7 10. O-O
+cxd4 11. exd4 dxc4 12. Bxc4 Rc8 13. Bb3 Nd5 14. Bg3 Bb4 $15) 8... exd5 9. Be2 (
+9. Bd3 {exposes the bishop to} c5 10. O-O Nc6 11. a3 c4 {, when there is no
+retreat along the b1-h7 diagonal available.} 12. Bf5 g6 13. Bh3 a6 $11) 9... c5
+10. dxc5 bxc5 11. O-O Nh5 $5 12. Be5 Nd7 13. Rfd1 {Ravi,L (2419) -Prathamesh,S
+(2366) Mumbai 2003 (1-0, 62)} Nxe5 14. Nxe5 Nf6 $11) 7... exd5 {In this line
+we will examine a few essential aspects of this genuine Tartakower structure.
+The lines below may arise from different move orders, too, if Black meets a
+later cxd5 with ...exd5. The lines with ... exd5 are traditionally considered
+to put Black under pressure, but I have discovered that things are not
+one-sided and, at least as a reserve variation, it should work out well.} ({
+The main line is} 7... Nxd5 {and will be examined in the next lines.}) 8. Bd3 {
+The most active continuation.} ({The seemingly modest} 8. Be2 {is also
+interesting. Instead of putting the bid on a kingside attack, White prepares
+to put pressure on the hanging pawns with Ne5 and Bf3.} Bb7 9. O-O c5 10. Ne5
+Nbd7 11. Bf3 (11. dxc5 Nxc5 ({Now is a good moment to switch to the Isolani
+structure. Not only are the pawns hanging a bit more than usual after} 11...
+bxc5 12. Bf3 Nb6 13. a4 a5 14. Nb5 {, but as we will see in the mainline the
+bishop is not optimally placed on f4 in the isolani structure.}) 12. Nf3 Ne6 (
+12... Nfe4 13. Be5 {Farago,I (2475)-Southam, T (2335) Luxembourg 1990 (1/2-1/2,
+48)} f6 14. Bd4 Rc8 15. Rc1 Ne6 $11 {The bishop deprives the knight of its
+natural square and is also vulnerable.}) 13. Be5 a6 $5 {The start of a typical
+queenside expansion.} 14. Rc1 Rc8 15. Rc2 b5 16. Rd2 (16. Nd4 Nd7 {forces the
+bishop to retreat far away from the d4-square.}) 16... Qe8 (16... Qb6 $5) 17.
+Qb1 Ne4 $132) 11... Nxe5 {The best way to release the central tension.} (11...
+Ne4 $6 {Belousov,G (2222)-Duda,A (2055) Pardubice 2014 (1-0, 35)} 12. Bxe4 dxe4
+13. Nxd7 Qxd7 14. dxc5 Qxd1 15. Rfxd1 Bxc5 16. Bd6 $14) 12. Bxe5 (12. dxe5 Ne4
+$11) 12... Ne4 13. dxc5 Bxc5 14. Rc1 {Skema, L-Max,H Munich 1936 (1-0, 52)} Qe7
+15. Bd4 Rad8 $11 {Black has a very compact development and central activity.
+In the long run, he can consider starting a kingside attack with ...f7-f5,
+while for White it is not easy to formulate a concrete plan.}) 8... Bb7 9. O-O
+c5 10. Ne5 Nc6 {This is not the most typical square for the knight in this
+structure, but as we will see Black needs to leave the h3-c8 diagonal
+available for the queen.} (10... Nbd7 11. Qf3 $14 {offers White good attacking
+chances.}) 11. Qf3 (11. Rc1 {does not change anything essentially after} Qc8)
+11... Qc8 $1 {The queen is heading for e6. We know already that this is one of
+Black's best regroupings.} 12. Rac1 (12. Rad1 {was played in a few games but
+Black should have stuck to his plan with} Qe6 $1 $146) 12... Qe6 13. Nxc6 (13.
+Nb5 {Hoang,T (2350)-Mikhalevski,A (2470) Budapest 1997 (1/2-1/2, 44)} Rfc8 14.
+Bg3 Ne4 $11) (13. Rfd1 a6 {Controlling b5 and also threatening ...c5-c4
+followed by ...b7-b5.} 14. a3 $5 Rad8 {Black is well regrouped and defends his
+hanging pawns quite well.}) 13... Bxc6 14. Rfd1 c4 $1 $146 (14... Ne4 {offers
+White some chances to retain an edge.} 15. Bxe4 dxe4 16. Qg3 Rfd8 (16... cxd4
+$1) 17. Bc7 Rd7 18. dxc5 bxc5 19. Rxd7 Qxd7 20. Rd1 Qf5 21. h3 h5 {Kantsler,B 
+(2495)-Mikhalevski,A (2470) Beersheba 1997 (1-0, 105) The position may be
+close to equality, but optically White's position is more pleasant due to his
+control of the weakened central squares.}) 15. Bb1 b5 $11 {With promising
+queenside counterplay. This system is useful to keep in mind as it allows
+Black to meet a wide range of white move orders, including the exchange
+variation, without the need of memorizing long forced lines.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 2"]
+[Black "5.Bf4 0-0 6.e3 b6 7.cxd5 Nxd5"]
+[Result "*"]
+[ECO "D37"]
+[Annotator "GM Mihail Marin"]
+[PlyCount "40"]
+[EventDate "2019.??.??"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. Nf3 Nf6 5. Bf4 O-O 6. e3 b6 7. cxd5 Nxd5 8.
+Nxd5 {Like in similar lines with the bishop on h4 (the genuine Tartakower
+lines), this is the most principled continuation. True, the reasons are a bit
+different here.} (8. Bg3 {wastes a tempo, offering Black easy development.} Bb7
+9. Bd3 c5 10. O-O Nxc3 (10... cxd4 11. exd4 Nc6 $11 {is also good, as the
+bishop does not stand too well on g3 with a white isolani, either.}) 11. bxc3
+Nd7 12. e4 Nf6 13. Qe2 Nh5 14. Be5 cxd4 15. cxd4 Rc8 (15... f6 $5 16. Bg3 Nxg3
+17. hxg3 Rc8 $11) 16. Rfd1 (16. h3 f6 17. Bh2 Bd6 18. Qe3 Bxh2+ 19. Kxh2 Qd6+
+20. g3 $13 {Dautov}) (16. Ne1 g6 17. Nc2 f6 18. Bg3 Nxg3 19. hxg3 Rc3 $15 {
+Dautov}) (16. Nd2 g6 17. g4 f6 18. gxh5 fxe5 19. hxg6 hxg6 20. dxe5 Bc5 $44 {
+Dautov}) 16... f6 17. Bg3 Nxg3 18. hxg3 Qc7 19. a4 Rfd8 $1 (19... Kh8 $6 {
+unnecessarily offered White a tempo in Sasikiran,K (2668)-Vaganian,R (2640)
+Mallorca 2004 (1/2-1/2, 60)}) 20. a5 (20. Ba6 Bb4 $1 21. Rab1 Bxa6 22. Qxa6 Ba5
+23. d5 exd5 24. exd5 Qc4 $1 $15) 20... bxa5 21. Qa2 Rd6 22. Qxa5 Qxa5 23. Rxa5
+a6 $11 {Dautov.}) 8... Qxd5 {The most active continuation, implying a pawn
+sacrifice. This is the second typical structure in which Black occupies d5
+with a piece.} (8... exd5 {would most likely transpose to Line 6, being the
+third typical structure, with black hanging pawns and missing knights from f6
+and c3.}) 9. Bxc7 {It is just natural to first of all check what happens if
+White takes the pawn. In the next lines we will examine} (9. Bd3) (9. Be2) ({
+and} 9. a3) 9... Bb4+ {An essential check, forcing White to move into a pin
+and leave g2 hanging from the perspective of his kingside development.} 10. Nd2
+Nc6 $1 {The knight anticipates White's practically only reasonable answer by
+stepping closer to the queenside light squares. Besides, the hanging bishop on
+c7 will later cause White more loss of time.} (10... Ba6 {allows} 11. Bxb8 $1 {
+, reducing Black's attacking potential a bit.} (11. f3 Bxf1 12. Rxf1 Nc6 13. a3
+Rac8 14. Bg3 Bxd2+ 15. Qxd2 Na5 16. Rd1 {Jorczik,J (2405)-Baramidze,D (2613)
+Germany 2014 (0-1, 68)} Nb3 17. Qe2 Nc1 $11) 11... Bxf1 12. Kxf1 Raxb8 13. Nf3
+Rbc8 14. Qd3 Rc7 15. a3 Be7 16. e4 {Black may have some compensation for the
+pawn, but finding a clear plan is not easy, as the knight ensures White some
+stability.}) (10... Bb7 {looks natural, but we will see that the bishop will
+be useful on a different diagonal.}) 11. a3 ({The developing plan based on} 11.
+f3 {is slow and likely to offer Black tactical possibilities.} Bd7 12. Be2 {
+is relatively better, but it does not change Black's intentions.} (12. Kf2 Nxd4
+13. exd4 Qxd4+ 14. Ke1 Rac8 15. Bg3 (15. Rc1 Ba4 $1 16. b3 Qe3+ 17. Be2 Bb5 18.
+Kf1 Rfd8 $1 $19) 15... Ba4 16. b3 Bxd2+ 17. Qxd2 Qxa1+) 12... Rac8 13. Bg3 Nxd4
+14. exd4 Qxd4 {, with a very strong initiative against the uncastled king.})
+11... Bxd2+ 12. Qxd2 Na5 13. Rd1 Bd7 {Preparing the queenside invasion with ...
+Ba4 and ...Nb3.} 14. b4 {What else? Oner,O (1960)-Zor,A (2150) Antalya 2018 
+(0-1, 75)} Rac8 15. bxa5 Rxc7 16. f3 (16. axb6 axb6 17. f3 Ra8 $11) 16... Rfc8
+17. Bd3 Bb5 18. axb6 axb6 19. O-O Bxd3 20. Qxd3 Rc3 $11 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 3"]
+[Black "7...Nxd5 8.Nxd5 Qxd5 9.Bd3"]
+[Result "*"]
+[ECO "D37"]
+[Annotator "GM Mihail Marin"]
+[PlyCount "42"]
+[EventDate "2019.??.??"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. Nf3 Nf6 5. Bf4 O-O 6. e3 b6 7. cxd5 Nxd5 8.
+Nxd5 Qxd5 9. Bd3 {A developing move, keeping Bxc7 in reserve.} Qa5+ {Black's
+queen was exposed on d5 so he uses the first possibility to use it for keeping
+the enemy king uncastled.} 10. Kf1 {White plans a long regrouping finishing
+with Kh2. But this offers Black time to organize his counterplay.} (10. Nd2 Ba6
+$1 {Black continues developing while also delaying White's castle.} 11. Bxa6 (
+11. Qe2 Bxd3 12. Qxd3 c5 {After removing the threat Be4 and clearing some
+space for his queen, Black can finally break in the centre.} 13. O-O cxd4 14.
+Nb3 Qa6 $11) 11... Qxa6 12. Qe2 Rc8 $5 $146 ({I find it useful to prepare ...
+c7-c5 as} 12... c5 {offers White some light endgame initiative:} 13. dxc5 Bxc5
+14. Bxb8 Qxe2+ 15. Kxe2 Raxb8 16. Rac1 Rfc8 17. Rc2 Bd6 18. Rhc1 Rxc2 19. Rxc2
+{White's position is more active but Black will gradually equalize with
+planful play:} Kf8 20. Rc6 Ke7 21. Nc4 Rd8 22. f4 Bb8 23. b4 g5 24. g3 gxf4 25.
+gxf4 Rg8 26. Kf2 Kd7 27. b5 Rg6 28. Nd2 e5 29. Rc4 {1/2-1/2 Yakovich,Y (2480)
+-Gelfand,B Minsk 1986}) 13. a3 (13. Qxa6 Nxa6 14. Ke2 c5 {, and Black is
+prepared to re-capture on c5 with the knight.}) (13. Rc1 Qxa2) (13. Ne4 Qa5+
+14. Nc3 c5 $11) 13... c5 14. dxc5 Rxc5 {This is an important difference with
+respect to the game quoted above. Black controls the c-file already.} 15. Bxb8
+Qxe2+ 16. Kxe2 Rxb8 17. Rac1 Rbc8 {, with at least equal play.}) (10. Ke2 {
+plans to develop the king's rook and only then retreat with the king, if still
+necessary.} Ba6 11. a3 (11. Bxc7 {wastes too much time and opens the c-file
+for Black's rooks.} Bxd3+ 12. Qxd3 Na6 13. Bg3 Nb4 14. Qb3 Qa6+ 15. Kd2 Rfc8
+$40 {with a dangerous attack.}) 11... c5 12. b4 $5 (12. dxc5 bxc5 $15 {leaves
+White vulnerable along the d-file (and possibly along the b-file).} 13. Qc2 Rd8
+14. Rhd1 Rxd3 15. Rxd3 Nc6 16. Rad1 Rd8 $17) 12... Bxd3+ 13. Qxd3 Qa4 14. bxc5
+(14. Rhc1 Nd7 15. dxc5 bxc5 16. Bd6 Bxd6 17. Qxd6 Rac8 18. bxc5 Qb5+ 19. Qd3
+Qxd3+ 20. Kxd3 Nxc5+ $11 {Esen,B (2301)-Boensch,U (2547)/Saint Vincent 2005})
+14... bxc5 15. Rhc1 Nd7 $11 {Radjabov,T (2744)-Carlsen,M (2815) Medias 2011 (1/
+2-1/2, 29)}) 10... Ba6 ({A necessary move, ensuring the queen with some
+freedom and avoiding} 10... c5 $2 11. Be4) 11. Bxc7 {White has to take the
+pawn as otherwise, he would have no compensation for the time wasted on
+completing his development.} (11. h4 c5 12. Bxb8 Raxb8 ({With hindsight,} 12...
+Rfxb8 {may be even better:} 13. Bxa6 Qxa6+ 14. Qe2 Qb7 15. dxc5 bxc5 16. b3 a5
+{and the rook is useful on a8.}) 13. Bxa6 Qxa6+ 14. Qe2 Qb7 15. dxc5 bxc5 16.
+b3 a5 $15 {Lima,D (2535)-Jatoba de Oliveira Reis,P (2377) Natal 2019 (В1/2-В1/
+2, 44)}) 11... Bxd3+ 12. Qxd3 Na6 13. Bg3 Nb4 {It can be easily seen that
+Black has gained a few tempi for his initiative.} 14. Qe2 {The safest retreat.}
+(14. Qb3 Rfc8 15. h3 Rc2 16. Ne1 $5 (16. Kg1 Qd5 $1 17. Qxd5 exd5 18. a3 Nd3
+$11) 16... Rd2 $1 (16... Rc6 {is a bit slow} 17. Kg1 {Graf,A (2613)-Boensch,U 
+(2547) Germany 2005 (1/2-1/2, 40)}) 17. Kg1 (17. Qc3 Qb5+ 18. Kg1 Qe2 $11) (17.
+a3 Rc8 18. Kg1 Qd5 19. Qxd5 Nxd5 20. Rb1 h5 $44) 17... Rc8 18. Kh2 h5 19. h4
+Qd5 $44) 14... Rac8 $1 ({For reasons far from clear at this point,} 14... Rfc8
+{is less accurate:} 15. a3 Qa4 16. Kg1 Na2 ({The same line as recommended
+below does not work out so well here:} 16... Nd5 17. Ne1 Bb4 18. Nd3 Rc2 19.
+Qg4 Nf6 20. Qf3 $1 {Gaining an essential tempo by attacking the rook on a8.
+This is the difference!} Rac8 21. h3) 17. h3 Nc1 18. Qf1 Qc2 19. Kh2 Ne2 20.
+Be5 Qxb2 21. d5 $36 {Caruana,F (2832)-Nakamura,H (2746) London 2018 (0-1, 54)})
+15. a3 {The same plan as in Caruana's game.} (15. Ne1 Rc6 16. a3 Rfc8 17. Rd1
+Na2 18. Qd2 Qa4 19. f4 Rc1 $17 {with a massive invasion in Shishkin,V (2513)
+-Thesing,M (2425) Baia Sprie 2010 (0-1, 32)}) 15... Qa4 16. Kg1 Nd5 $1 17. Ne1
+Bb4 18. Nd3 Rc2 19. Qg4 Nf6 (19... f5 {is also good. With the rook on a8 it
+would look less natural, of course.} 20. Qf3 Bd2 21. h3 Qb3 {, and Black will
+most likely retrieve the pawn due to his strong queenside pressure.}) 20. Qf3
+Bd2 21. h3 Qa6 $132 {White has serious stability problems.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 4"]
+[Black "7...Nxd5 8.Nxd5 Qxd5 9.Be2"]
+[Result "*"]
+[ECO "D37"]
+[Annotator "GM Mihail Marin"]
+[PlyCount "38"]
+[EventDate "2019.??.??"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. Nf3 Nf6 5. Bf4 O-O 6. e3 b6 7. cxd5 Nxd5 8.
+Nxd5 Qxd5 9. Be2 {Even though this looks more modest than 9.Bd3, it offers
+White some additional possibilities.} Bb7 {Since the enemy bishop is generally
+less active than in the previous line, Black can develop slowly. With the
+bishop on d3, the last move would run into 10.Qc2 with a double attack and if
+10...h6 then 11.Qxc7, gaining more time.} ({One important point is that if} 
+9... Ba6 {Basso,P (2417)-Brunello,S (2557) Rome 2016 (0-1, 50)} 10. Bxc7 Qa5+
+11. Kf1 Rc8 12. Bg3 {the bishop exchange would take place on e2, thus yielding
+White an extra tempo with respect to the previous lines based on ...Na6-b4.}) (
+{Another point is that} 9... c5 $2 {runs into} 10. Ne5 $18 {followed by Bf3.})
+({Or if} 9... Bd6 10. Nd2 Bxf4 11. Bf3 Qb5 12. Bxa8 Bd6 13. Bf3 e5 14. Be2 Qxb2
+15. O-O $16 {Swiercz,D (2663)-Bruzon Batista,L (2646) Philadelphia 2018 (1-0,
+76)}) 10. Bxc7 {The critical continuation.} ({If} 10. O-O Bd6 $5 (10... c5 11.
+dxc5 Bxc5 12. Qc2 {leaves the black queen exposed.}) 11. Bxd6 (11. Bg3 Bxg3 12.
+hxg3 Nd7 13. Qa4 a5 14. Rfd1 Rac8 15. Rac1 Nf6 16. Ne1 e5 $11) 11... cxd6 {
+Black's queen's activity and his lack of weaknesses compensate for White's
+slightly superiority in space.} 12. Bd3 Nd7 (12... Ba6 {is also a safe way to
+reach comfortable equality.} 13. Rc1 Qb7 14. e4 Nd7 15. Qe2 Bxd3 16. Qxd3 Rac8
+$11) 13. e4 Qh5 14. Qd2 Nf6 (14... Rac8 $5 {may be more to the point, leaving
+the question open about how Black will attack the enemy centre, with .. .e6-e5,
+...d6-d5 or ...f7-f5.}) 15. Rfe1 Rac8 16. a4 a5 17. Ra3 Bc6 18. Bb1 b5 19. axb5
+Qxb5 20. e5 dxe5 21. Nxe5 (21. dxe5 Rfd8 22. Rd3 Nd5 {is stable for Black.})
+21... Qb4 22. Qxb4 axb4 23. Ra7 Bd5 $11 {Parligras,M (2645)-Bhakti,K (2312)
+Abu Dhabi 2018 (1/2-1/2, 49)}) 10... Qa5+ {A familiar reaction to the pawn
+grabbing.} 11. Kf1 Nd7 12. h4 {Clearing the h2-square for the king and
+ensuring some stability for the bishop.} ({If} 12. h3 Rac8 13. Bg3 (13. Bf4 {
+runs into} g5) 13... Nf6 14. Kg1 Ne4 15. Bf4 Rfd8 16. a3 f6 {, preparing ...
+e6-e5. White does not have a clear way to complete his regrouping as f2 is
+hanging.}) 12... Rac8 13. Bf4 Rfd8 {Completing the regrouping before embarking
+on concrete operations.} (13... Bxf3 {is premature because after} 14. gxf3 e5
+15. dxe5 Nxe5 16. Kg2 {the king reaches g2 without loss of time.}) 14. Kg1 ({If
+} 14. a3 {Black has to change his plans:} Ba6 $1 ({A logical reaction to
+White's weakening his light squares on the previous move.} 14... Bxf3 15. gxf3
+e5 {does not work out so well because of} 16. b4 Qd5 17. dxe5 Qe6 18. Kg2 Nxe5
+19. Qa4 Rd2 20. Qb5 $1 $14) 15. Kg1 Bxe2 16. Qxe2 Qa4 {with promising
+queenside pressure.}) 14... Bxf3 $1 15. Bxf3 ({If} 15. gxf3 e5 16. dxe5 Nxe5
+17. Qe1 {Black has several ways to use his superior mobilization. One of them
+is} Qd5 18. Kg2 Nd3 19. Bxd3 Qxd3 20. Rc1 Bf6 21. b3 Rc2 $11 {, retrieving the
+pawn soon.}) 15... e5 16. Bg5 Bxg5 17. hxg5 exd4 18. Qxd4 Qxg5 19. Rh5 Qf6 $11
+{Ding,L (2769)-So,W (2799) Berlin 2018 (1/2-1/2, 31) Black's superior
+coordination compensates for the theoretical bishop's superiority over the
+knight in the endgame.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 5"]
+[Black "7...Nxd5 8.Nxd5 Qxd5 9.a3"]
+[Result "*"]
+[ECO "D37"]
+[Annotator "GM Mihail Marin"]
+[PlyCount "40"]
+[EventDate "2019.??.??"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. Nf3 Nf6 5. Bf4 O-O 6. e3 b6 7. cxd5 Nxd5 8.
+Nxd5 Qxd5 9. a3 {Since checks along the e1-a5 diagonal were Black's main
+source of counterplay, White's last move makes sense. But it wastes an
+important developing tempo.} c5 {This seems to work out best under the given
+circumstances, as White is a tempo behind in development with respect to the
+previous lines.} (9... Ba6 {In connection with the next move, this is a
+familiar method to delay White's castle. But it seems that White is well
+prepared to take the pawn now:} 10. Bxa6 Qa5+ 11. Nd2 $5 (11. Ke2 {This
+ambitious move, heading for an ending (or queenless middlegame) in which the
+king's presence in the centre could be useful. is not the most critical.} Qxa6+
+12. Qd3 Qb7 13. b4 Nd7 14. Rhc1 {Suba,M (2464)-Danner,G (2422) Arco 2010 (1-0,
+65)} Rfc8 15. Rab1 (15. Rc2 c5 16. Rac1 a5 17. b5 a4 18. Kf1 h6 $11) 15... a5
+16. b5 c5 17. Kf1 (17. a4 cxd4 {[%csl Gg2]} 18. exd4 Nf6) 17... a4) 11... Qxa6
+12. Bxc7 $5 $146 (12. Qe2 {is too soft.} Qb7 13. O-O Nd7 14. Rfd1 c5 15. Qf3
+Qxf3 16. Nxf3 Rfc8 17. Rac1 Kf8 18. Kf1 cxd4 19. exd4 Nf6 $15 {Grujic,Z (2362)
+-Iordachescu,V (2584) Zlatibor 2007 (0-1, 45)}) 12... Nd7 (12... Qb7 13. Rc1
+Qxg2 14. Qf3 Qxf3 15. Nxf3 $14 {followed by Ke2 leaves White with a strong
+centre and better development.}) 13. Bg3 e5 14. Qe2 {White cannot allow the
+centre to open, nor the enemy knight to get to c5-d3.} Qxe2+ 15. Kxe2 exd4 16.
+exd4 {Black has some initiative for the lost pawn, but he will have to
+struggle for a while on his way to equality, if this even exists.} Rfe8 17.
+Rhe1 (17. Kf3 Bf6 18. Nc4 Bxd4 19. Rad1 Ne5+ 20. Bxe5 Bxe5 21. Rd7 Re6 $11)
+17... Bf6+ (17... Bxa3+ 18. Kd3 Rxe1 19. Rxe1 $14 Bxb2 $2 20. Nc4) 18. Kd3 Red8
+19. Nf3 Nc5+ 20. Ke3 Ne6 21. Be5 $14) 10. dxc5 (10. Be2 cxd4 $5 (10... Ba6 $5
+$11) (10... Bb7 11. dxc5 Qxc5 12. O-O Rd8 13. Qb1 Nc6 14. Rc1 Qf5 15. Qxf5 exf5
+16. Rc2 {1-0 (50) Ivanchuk,V (2726)-Fridman,D (2649) Berlin 2015}) 11. Nxd4 Bb7
+$11 12. Bf3 Qa5+ 13. b4 Bxf3 14. Nxf3 (14. Qxf3 Bxb4+ $1) 14... Qa6) 10... Qxc5
+11. Rc1 (11. Be2 Ba6 12. O-O Rd8 13. Qe1 {Zhou,W (2560)-Wu,W (2442) Jiangsu
+Wuxi 2008 (1/2-1/2, 21)} Qc2 $5 $11) 11... Qa5+ 12. Qd2 Qxd2+ 13. Nxd2 Na6 {
+White does not have enough resources to sustain his initiative in this almost
+symmetrical structure.} 14. b4 ({More critical than} 14. Nc4 Rd8 15. Be2 Bb7
+16. O-O f6 {Restricting White's knight and dark-squared bishop.} ({But a
+simpler way to take advantage of the missing b2-b4 was} 16... g5 {, forcing
+the bishop to occupy an exposed square in view of the knight's centralization.}
+17. Bg3 Nc5 18. b4 Ne4 $11) 17. b4 Kf7 18. Rfd1 {Matviishen,V (2350)-Sabuk,P 
+(2407) Lvov 2015 (1/2-1/2, 56)} (18. f3 Rac8 19. Rcd1 e5 20. Bg3 Nc7 21. f4
+exf4 22. exf4 Ne6 $11 {Tomczak,M (2391)-Sabuk,P (2368) Gorzow Wielkopolski
+2017 (1/2-1/2, 35)}) 18... Rac8 19. f3 Nb8 $11) (14. Rxc8 $2 Raxc8 15. Bxa6
+Rc1+) 14... Bb7 15. Bd3 $5 (15. f3 {This solid but slow move offers Black a
+tempo for his development. But there does not seem to be anything better.} Rac8
+16. Rc4 Bd5 17. Rxc8 Rxc8 $11 {followed by ...Nb8 or ...Nc7 soon.}) (15. e4 {
+is even slightly risky as it exposes White too much.} Rac8 16. Kd1 Rxc1+ 17.
+Kxc1 Nb8 18. Kb2 Rd8 19. Be2 g5 20. Be3 f5 $15 {Jakubowski,K (2529)
+-Krysztofiak,M (2378) Poronin 2016 (1/2-1/2, 39)}) 15... Bxg2 16. Rg1 Bb7 17.
+Bh6 Bf6 {White's attack is not dangerous as his development is incomplete yet.}
+18. Ke2 {The best idea is to complete mobilization, of course.} (18. Ne4 Bxe4
+19. Bxe4 Rac8 $17) (18. Bxa6 Bxa6 19. Ne4 Bb2 20. Rb1 Rfc8 21. Rg3 Be5 22. f4
+Bd3 $17) (18. Be4 Rfc8 $17) 18... Kh8 19. Bf4 Rad8 20. Nc4 Nb8 $11 {Even
+though White has some pressure for the pawn, in the absence of queens Black
+should not have any concrete problems.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 6"]
+[Black "5.Bf4 0-0 6.e3 b6 7.Bd3"]
+[Result "*"]
+[ECO "D37"]
+[Annotator "GM Mihail Marin"]
+[PlyCount "38"]
+[EventDate "2019.??.??"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. Nf3 Nf6 5. Bf4 O-O 6. e3 b6 7. Bd3 {White
+continues developing, keeping the idea of cxd5 in reserve.} c5 {Black is
+heading for the hanging pawns structure (according to our previous
+classification it could be structure number one or three).} (7... Bb7 {
+restricts Black's possibilities.} 8. cxd5 Nxd5 ({Better is} 8... exd5 {,
+transposing to structure number one.}) 9. Nxd5 Qxd5 (9... exd5 {runs into} 10.
+Qc2 $16 {with a double attack.}) 10. Bxc7 {With Bd3 on the board, Black's
+compensation is not very clear.}) (7... dxc4 {is a logical way of exploiting
+the early bishop's development. In principle, Black should be able to
+gradually equalize with accurate play, but this is not my main idea when
+recommending 6.. .b6. Here is a top-level example.} 8. Bxc4 Bb7 9. O-O c5 10.
+dxc5 (10. Qe2 cxd4 11. Rfd1 Nc6 12. Nxd4 Nxd4 13. Rxd4 Qc8 $11) 10... Qxd1 ({
+One of Black's main problems in this symmetrical structure is to find a safe
+square for the queen. Therefore, exchanging it is a reasonable decision, even
+though it offers White a developing tempo. If} 10... Bxc5 11. Qe2 Nbd7 12. Rfd1
+Qe7 13. a3 a5 {as played in a few games, Black is a bit on the edge.}) 11.
+Rfxd1 Bxc5 12. Nb5 Nbd7 13. Nd6 Bd5 14. Bb5 Nh5 $5 {Black will equalize with a
+few small tricks.} 15. Bxd7 Nxf4 16. Nb5 Rad8 17. exf4 Rxd7 18. Ne5 Rb7 19. Nc3
+f6 20. Nd3 Bc6 21. Nxc5 bxc5 22. Rd6 Rc8 23. b3 Kf7 24. Re1 Bd7 25. Ne4 Ke7 26.
+Ra6 Rcc7 $11 {Gelfand,B (2738)-Carlsen,M (2837) Astana 2012 (1/2-1/2, 45)}) 8.
+cxd5 Nxd5 {Heading for structure three, which will be examined in this and the
+next line in some detail.} (8... exd5 {would lead to structure number one.}) 9.
+Nxd5 exd5 10. dxc5 {With ...c5-c4 in the air, this exchange makes sense.} (10.
+Ne5 {This attacking move is less problematic than in the positions with
+knights on f6 and c3, as the central knight is not entirely stable.} Bb7 (10...
+cxd4 11. exd4 Bb4+ {gives up the tension too easily, just for the sake of this
+check.} 12. Kf1 Qf6 13. Qh5 h6 14. g3 Nc6 15. Nxc6 Qxc6 16. Kg2 $14 {Jones,G 
+(2593) -Illner,A (2345) Caleta 2011 (1-0, 22)}) (10... Bf6 {leads to animated
+play, where Black's position may be less dangerous than it looks:} 11. Qh5 g6
+12. Qf3 Bxe5 13. Bxe5 Nc6 14. Bf6 Qd6 15. dxc5 bxc5 16. O-O c4 17. Bc2 Bg4 $1
+18. Qf4 Qxf4 {1/2-1/2 Gelfand,B (2758)-Jakovenko,D (2736) Khanty-Mansiysk 2009}
+) ({But} 10... c4 $2 {is precisely what White had prepared against with his
+previous move.} 11. Nxc4 dxc4 12. Be4 g5 13. Bg3 f5 14. Bxa8 f4 15. Be4 $16)
+11. O-O {Ibragimov,I (2550)-Radulov,I (2400) Heraklio 1993 (1-0, 41)} (11. Qf3
+Nc6 12. O-O Nxe5 13. Bxe5 g6 14. Rfd1 Qd7 $11) 11... c4 $146 12. Bf5 Nc6 13.
+Qh5 g6 14. Nxg6 {Otherwise Black may take over the initiative by advancing his
+queenside pawns.} fxg6 15. Bxg6 hxg6 16. Qxg6+ Kh8 $11) (10. Qc2 {offers Black
+a choice.} h6 ({Even though the position may remain equal after this move, I
+am not enthusiastic about weakening g6.} 10... f5 $5 11. h4 c4 12. Be2 Nc6 $11)
+(10... g6 $5 {may be the most solid as White is not in time to create
+dangerous kingside threats:} 11. h4 Nc6 12. a3 c4 13. h5 Bd7 14. Be2 g5 $15)
+11. Ne5 cxd4 12. exd4 Bb4+ 13. Bd2 Bxd2+ 14. Qxd2 f6 15. Nf3 {The knight has
+to defend d4, but it might soon have the possibility to go to g6.} Re8+ 16. Kf1
+Ba6 17. g3 Re4 (17... Bxd3+ $5 18. Qxd3 Qd7 19. Kg2 Nc6 20. h4 Ne7 21. h5 Nf5 {
+and Black is only symbolically worse.}) 18. Kg2 Bxd3 19. Qxd3 Nc6 20. Rac1 {
+Onischuk,A (2666)-Morrison,W (2330) Rockville 2012 (1-0, 29)} Qd7 21. Rc3 Rc8
+22. Rhc1 Ne7 $11 {and again Black seems to be doing fine.}) (10. O-O {is
+examined in the next line.}) 10... bxc5 11. O-O Nc6 {The fastest way to
+develop and create the potential possibility of ...d5-d4 or even ...c5-c4
+without giving up control over d4.} 12. Rc1 Be6 {As we know from the
+Tartakower lines, this is the best square for the bishop if the exchange in
+the centre takes place early.} 13. a3 {Preparing Qc2.} (13. b3 {slows down ...
+c5-c4 but offers Black a clear target.} a5 (13... Nb4 $5 14. Bb1 a5 {may be
+more accurate.}) 14. Qe2 (14. Nd4 $5 {is interesting, but Black seems to hold
+his own:} Nxd4 15. exd4 cxd4 16. Bc7 Qd7 17. Be5 Rfc8 18. Bxd4 Bf5) 14... h6
+15. Rfd1 Qb6 16. Bb1 a4 17. bxa4 (17. Qc2 f5) 17... Qa5 18. Nd4 Nxd4 19. exd4
+c4 20. Qc2 f5 21. Re1 (21. Qe2 Ra6) 21... Ra6 22. Re3 Bf6 23. Qe2 Bd7 $15 {
+Chistiakova,T (2310)-Nechaeva,M (2261) Nojabrsk 2005 (0-1, 37)}) (13. Ne5 {
+considerably simplifies Black's coordination.} Nxe5 14. Bxe5 Rc8 15. Qe2 (15.
+Ba6 Rc6 16. Qa4 Qb6 17. Bb5 Rcc8 $11) 15... Bf6 $11) (13. h3 h6 14. Bb1 Rc8 (
+14... f5 15. Nd4 $1 {Holzke,F (2506)-Levin,F (2482) Germany 2012 (1/2-1/2, 30)}
+) 15. Qc2 f5 $11 {The weakening implied by this move is compensated by the 
+(now) passive bishop on b1 and Black's excellent control in the centre.}) (13.
+Qa4 {Malakhatko,V (2543)-Galinsky,T (2430) Kiev 2004 (1/2-1/2, 39)} Qb6 14. Ng5
+Bxg5 15. Bxg5 Ne5 16. Bb1 c4 $11) 13... Qb6 14. Qc2 h6 15. e4 {Iturrizaga
+Bonelli,E (2624)-Batsiashvili,N (2466) Benasque 2016 (1/2-1/2, 100) This was
+the plan White had been playing for (with the actual regrouping it is hard to
+figure out anything else) but Black is well prepared against it.} Rac8 $5 $146
+{A useful developing move, inviting White to show his cards.} 16. exd5 (16.
+Rfd1 $2 dxe4 17. Bxe4 Bb3) (16. e5 $6 c4 (16... g5 $5 17. Bg3 g4 18. Nh4 Nd4
+19. Qb1 c4 $17 {with overwhelming initiative.}) 17. Bh7+ (17. Be2 g5 18. Bg3 g4
+19. Nh4 Nd4 20. Qd1 Bg5 $17) 17... Kh8 18. Bf5 Bc5 $17) 16... Bxd5 17. Bh7+ Kh8
+18. Be4 (18. Bf5 Bxf3 $17 19. Bxc8 Nd4 20. Qd2 Qg6 21. Bh3 Bxg2 $1) 18... Bxe4
+19. Qxe4 Qxb2 {White must still prove his compensation for the pawn.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 7"]
+[Black "5.Bf4 0-0 6.e3 b6 7.Bd3 , Part II"]
+[Result "*"]
+[ECO "D37"]
+[Annotator "GM Mihail Marin"]
+[PlyCount "46"]
+[EventDate "2019.??.??"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. Nf3 Nf6 5. Bf4 O-O 6. e3 b6 7. Bd3 c5 8. cxd5
+Nxd5 9. Nxd5 exd5 10. O-O c4 {Strictly speaking, this is not forced. But first
+of all, it is useful to investigate this structure, which can arise in many
+other situations. White needs to undertake something active as otherwise the
+black pawns' advance would cause him problems.} ({Secondly, after} 10... Nc6 {
+White can try} 11. Bb5 Bb7 12. b3 {Stopping ...c5-c4, White is now ready to
+meet ...a7-a6 with Bd3/e2 after having forced the enemy bishop to occupy a
+sub-optimal square. Fier,A (2603)-Grachev,B (2693) Basel 2012 (1/2-1/2, 27)})
+11. Bc2 Nc6 {As we will see, it is best to delay the bishop's development.} 12.
+Ne5 ({The point is that after} 12. b3 {Black has} Ba6 13. bxc4 Bxc4 {with
+active queenside play.} 14. Bd3 Na5 (14... Nb4 $5 15. Bxc4 dxc4 16. a3 Nd3 17.
+Bg3 b5 $15) 15. Ne5 (15. Qc2 Bxd3 16. Qxd3 Bd6 17. Be5 f6 18. Bxd6 Qxd6 19.
+Rfc1 Rfc8 20. Qf5 Rxc1+ 21. Rxc1 g6 22. Qc2 Nc4 23. e4 b5 $11 {Banikas,H (2571)
+-Sandalakis,A (2341) Paleochora 2008 (1/2-1/2, 41)}) 15... Bxd3 16. Nxd3 Rc8
+17. Qa4 Rc3 18. Qb5 Qe8 19. Qxe8 Rxe8 20. Rfd1 Ba3 $15 {Pilaj,H (2389)-Stanec,
+N (2538) Graz 2008 (0-1, 31)}) 12... Nxe5 13. Bxe5 f6 ({Another possible move
+order is} 13... Be6 14. Qh5 g6 ({If Black does not want a draw he should
+consider} 14... f5 $5 {Even though he usually does this after ...f7-f6, Lg3,
+the extra tempo does not offer White that much activity.}) 15. Qh6 f6 16. Bxg6
+hxg6 17. Qxg6+ Kh8 18. Qh6+ Kg8 {1/2-1/2 Malakhatko,V (2526)-Bellia,F (2425)
+Gallipoli 2012}) 14. Bf4 (14. Qh5 g6 $11) 14... f5 (14... Be6 15. Qh5 f5 16.
+Be5 b5 17. f4 g6 18. Qf3 Qd7 19. h3 a5 20. Kh1 a4 21. Rg1 b4 22. g4 Rad8 $15 {
+Black's position is preferable as things are stable on the kingside, while on
+the queenside his majority could become dangerous at any time, Rapport,R (2523)
+-Horvath,C (2529) Hungary 2010 (1-0, 41)}) 15. Be5 Be6 16. f4 Qd7 17. h3 Bf6
+18. Kh2 Rad8 19. Qe1 a5 20. a3 Ra8 21. Rd1 b5 22. Rg1 g6 23. Rd2 b4 $15 {
+Vitiugov,N (2709)-Babula,V (2536) Czechia 2010 (1/2-1/2, 36) With a similar
+evaluation as above.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 8"]
+[Black "5.Bf4 0-0 6.e3 b6 7.Rc1"]
+[Result "*"]
+[ECO "D37"]
+[Annotator "GM Mihail Marin"]
+[PlyCount "46"]
+[EventDate "2019.??.??"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. Nf3 Nf6 5. Bf4 O-O 6. e3 b6 7. Rc1 {A flexible
+move, inhibiting an early ...dxc4, as White has not moved his bishop yet.} Bb7
+{Black chooses another gambit line.} ({Alternatively he can also opt for one
+of the hanging pawns structures with} 7... c5 8. cxd5 Nxd5 (8... exd5) 9. Nxd5
+exd5 {In both cases Rc1 is not especially useful at this point.}) 8. cxd5 ({If
+} 8. Be2 {, Black can go for the hanging pawns after having avoided Bd3:} c5 9.
+O-O Nbd7 (9... Nc6 10. cxd5 Nxd5 11. Nxd5 exd5 12. dxc5 bxc5 13. Ne5 Nxe5 14.
+Bxe5 Qb6 15. Bf3 Rfd8 $11) 10. cxd5 Nxd5 11. Nxd5 exd5 12. dxc5 bxc5 13. b4 $5
+(13. Qa4 Nf6 14. Ba6 Bxa6 15. Qxa6 Qb6 16. Qe2 Ne4 17. Rfd1 Bf6 18. Be5 Rfd8
+19. Rc2 Rac8 20. Bxf6 Qxf6 $11 {Spassov, L (2428)-Fernandez Borrego,P (2229)
+Ourense 2008 (1/2-1/2, 54)}) (13. Ne5 Nxe5 14. Bxe5 Qb6 15. Bd3 Qe6 16. Bg3
+Rac8 17. Re1 Bf6 $11 {Sapunov,E-Burmakin, V (2560) St Petersburg 1998 (1/2-1/2,
+62)}) 13... c4 $1 (13... cxb4 14. Bc7 Qe8 15. Bb5 $16) 14. Nd4 (14. Ne5 Nxe5
+15. Bxe5 Bxb4 16. Rb1 Qe7 17. Qd4 f6 $15 {White does not have full
+compensation for the pawn.}) 14... Bf6 15. Qa4 Ne5 16. Rfd1 Qb6 17. Rb1 Rac8
+18. b5 Rfe8 (18... c3 $6 {prematurely exposes the pawn and concedes control
+over d3 and b3.} 19. Rbc1 Nc4 20. Qb4 Nb2 21. Re1 a5 22. Qd6 $14 {Sturua,Z 
+(2585)-Ovsejevitsch,S (2465) Berlin 1997 (1-0, 52)}) 19. Qb4 {Planning a4-a5.}
+a5 20. Qc3 Ng6 21. Bg3 Nf8 22. Qc2 Ne6 $11) ({If} 8. Bd3 {Black can play
+trickier than above, transposing to the hanging pawns as the bishop is exposed
+on d3.} c5 9. cxd5 (9. O-O Nc6 10. cxd5 Nxd5 11. Nxd5 Qxd5 12. dxc5 Rfd8 $1 {
+Black does not have this extra tempo after Be2.} 13. Bb1 Qxd1 14. Rcxd1 Rxd1
+15. Rxd1 Bxc5 $11) 9... cxd4 10. Nxd4 Nxd5 11. O-O Nxf4 12. exf4 Bf6 (12... Nc6
+$5) (12... Na6 $5) 13. Nf3 Nc6 $11 {Bourdageau,L (1635) -Steimbach,I (1947)
+Karlsruhe 2018 (0-1, 43)}) 8... Nxd5 9. Nxd5 Qxd5 10. a3 {A familiar move,
+preparing to defend the dangerous diagonal.} (10. Rxc7 {is risky:} Bb4+ 11. Nd2
+Na6 12. Rxb7 ({This does not seem to offer full compensation for the exchange
+as White is incompletely developed, but the alternative is even more dangerous:
+} 12. Rc2 Rac8 13. a3 Rxc2 14. Qxc2 Rc8 15. Qd1 Bxd2+ 16. Qxd2 Qa2 17. e4 Qb1+
+18. Qd1 Qxb2 19. Be2 Rc2 20. f3 Nc7 21. Bxc7 Rc1 {0-1 Nguyen,H (2406)-Wang,S 
+(2187) Chengdu 2017}) 12... Qxb7 13. a3 Bxd2+ 14. Qxd2 Rac8 15. f3 Rfd8 16. Kf2
+Nc5 17. Qb4 Nd7 18. Bd3 e5 $15 19. dxe5 Nc5 20. Be2 Nd3+ 21. Bxd3 Rxd3 $19 {
+Gusev,A (2400)-Smirnov,A (2396) Efremov 2017 (0-1, 32)}) 10... Nd7 $1 {Black
+keeps developing, while preparing ...c7-c5 under favourable circumstances and
+inviting White to finally take the pawn.} (10... Qa5+ 11. Nd2 c5 {runs into}
+12. Rc3 $1 $146 {with big complications in which White has chances to retain
+the initiative:} (12. dxc5 bxc5 13. Be5 Nd7 14. Bc3 Qc7 15. Bd3 {Goudriaan,E 
+(2376)-Riemersma,L (2432) Amsterdam 2015 (В1/2-В1/2, 88)} Nb6 $11) 12... cxd4
+13. Rc7 e5 14. Bg3 dxe3 15. fxe3 Bg5 16. Rxb7 Bxe3 17. Bc4 Nc6 18. Rf1 Rad8 19.
+Rfxf7 Bxd2+ 20. Kf1 $40) 11. Rxc7 {The safest of the two possible captures.} (
+11. Bxc7 Rac8 {leaves White a bit hanging:} 12. Be2 Qa5+ 13. Nd2 (13. Qd2 Bd8
+$19 {leaves White pinned.} 14. b4 Qxa3) (13. Kf1 Nc5 14. dxc5 Rxc7 15. cxb6
+Rxc1 16. Qxc1 Rc8 17. Qd1 Qxb6 $17) 13... Bxg2 14. Rg1 Bb7 $15) (11. Qa4 Rac8 (
+11... Bd6 $5 {may be also good, but it requieres some accuracy:} 12. Bb5 Bxf4
+13. Bxd7 Bd6 14. Bc6 Bxc6 15. Rxc6 {Jorczik,J (2326)-Klek,H (2311) Bayern 2015
+(0-1, 35)} Qa2 16. Qc2 Qa1+ 17. Qc1 Qxc1+ 18. Rxc1 c5 $11) 12. Bb5 c6 13. Bc4
+Qa5+ 14. Qxa5 bxa5 15. Ke2 c5 16. Bb5 Rfd8 17. Rhd1 a6 18. Bd3 a4 $11) 11...
+Rac8 12. Rxc8 Rxc8 13. Bd3 Qa5+ 14. Kf1 Nf6 {At this height it may seem that
+Black has just reasonable compensation for the pawn as White has a solid
+structure. But the following lines show that things are not entirely so.} 15.
+Kg1 (15. h3 Nd5 $17 16. Bg3 Bxa3 $1 {The structure is not as solid as it looks!
+} 17. bxa3 Qxa3 18. Ne1 Rc1 19. Qd2 Qa1 20. e4 Rd1 21. Qe2 Nc3 22. Qe3 Rxd3 23.
+Qxd3 Ba6 $19) 15... Nd5 16. Bg3 Bxa3 {Same idea.} 17. bxa3 Qxa3 18. Ne1 Rc1 19.
+Qd2 Qa1 20. f3 Rd1 21. Qe2 Qc1 22. Bf2 Nc3 23. Qf1 a5 $17 {White is completely
+paralyzed and the a-pawn advances.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 9"]
+[Black "Carlsbad Structure 5.Nf3"]
+[Result "*"]
+[ECO "D36"]
+[Annotator "GM Mihail Marin"]
+[PlyCount "50"]
+[EventDate "2019.??.??"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. cxd5 exd5 {We now start investigating a series
+of lines which can be classified as "The Exchange system" or else "The
+Carlsbad structure". For White, it is optimal to develop his bishops on d3 and
+f4 or g5, but due to the move order based on 3...Be7, he cannot achieve that
+aim.} 5. Nf3 ({The main line goes} 5. Bf4 {and will be examined later.}) 5...
+Nf6 6. Bg5 (6. Bf4 {transposes to 5.Bf4.}) ({Or if} 6. Qc2 {, preventing ...
+Bf5 and hoping for Bf4, e2-e3 and Bd3,} c6 7. Bf4 (7. Bg5 g6 {transposes below}
+) 7... g6 $1 {Same idea as in the main line.} 8. e3 Bf5 9. Bd3 Bxd3 10. Qxd3
+Nbd7 $11 {White does not get much from} 11. Bh6 Ng4 12. Bg7 Rg8 13. Be5 Ngxe5
+14. Nxe5 Nxe5 15. dxe5 Qc7 16. Qd4 Qb6 17. O-O O-O-O $11 {Arkell,K (2505)
+-Dempsey,T Hastings 1995 (1-0, 49)}) 6... c6 {Preparing ...Bf5 without fearing
+Qb3, which could be answered now with ...Qb6.} 7. Qc2 g6 $1 8. e4 {This way of
+preventing Black from achieving a comfortable exchange system position was
+introduced by Karpov. At this height of the theory, it is not dangerous for
+Black. Staying within Black's improved exchange variation territory offers
+very little:} (8. Bxf6 Bxf6 9. e3 Bf5 10. Bd3 Bxd3 11. Qxd3 O-O 12. O-O Nd7 13.
+b4 a6 14. a4 Nb6 15. b5 cxb5 16. axb5 a5 17. Na4 Nxa4 18. Rxa4 Qd6 19. Qb3 b6
+$1 ({Better than} 19... Rfc8 20. Ne1 b6 21. Nd3 {when in anticipation of Nf4,
+Black had to spend a tempo on relocating his rook.} Rd8 22. Rc1 Rac8 23. Raa1
+$11 {Nei,I-Van Scheltinga,T Beverwijk 1966 (1/2-1/2, 50)}) 20. Ne1 Rac8 21. Nd3
+Kg7 $17 {Black controls the open file and has a dangerous passed pawn.}) (8. e3
+Bf5 9. Bd3 (9. Qb3 Qb6 {leads to an interesting situation. While Qxb6 ...axb6
+followed by ...b6-b5 would just strengthen Black's structure, ...Qxb3 axb3
+would weaken White's!} 10. Nd2 Nbd7 11. Be2 h6 12. Bf4 Qxb3 13. axb3 g5 14. Bg3
+O-O 15. O-O Kg7 16. Rfc1 a6 17. f3 {Graf,A (2605)-Landa,K (2500)
+Cappelle-la-Grande 1995 (0-1, 61)} Bg6 {[%cal Gf6h5,Gf7f5]} 18. h3 Rae8 19. Bc7
+h5 20. e4 h4 $15) 9... Bxd3 10. Qxd3 O-O 11. O-O Nbd7 12. Rab1 Re8 (12... Ne4 {
+may be premature:} 13. Bh6 Re8 14. Nxe4 Bf8 15. Bg5 dxe4 16. Bxd8 exd3 17. Bh4
+c5 18. dxc5 Nxc5 19. Rfd1 {Kutueva, N (1961)-Vasenina,A (1750) Rybinsk 2009 
+(1-0, 77) The far advanced pawn looks more like a weakness than strength.}) 13.
+b4 a6 14. a4 Ne4 15. Bxe7 (15. Bf4 Nxc3 16. Qxc3 Nb6 17. Qb3 Nc4 18. Ra1 Bd6 {
+Hoping to get his knight to d6.} 19. Bh6 Qe7 20. b5 cxb5 21. axb5 a5 $15) 15...
+Qxe7 16. Nd2 (16. b5 $2 axb5 17. axb5 Ra3 18. Rfc1 cxb5 $19 {De Carvalho,I 
+(1878)-Umetsubo,C (2236) Maringa 2012 (0-1, 41)}) 16... Nxd2 17. Qxd2 Nb6 18.
+b5 cxb5 19. axb5 a5 $15) 8... dxe4 $1 (8... Nxe4 9. Bxe7 $14 Qxe7 $2 10. Nxd5)
+9. Bxf6 {The only consistent move.} (9. Nxe4 Nxe4 10. Qxe4 Be6 $15) 9... Bxf6
+10. Qxe4+ Qe7 11. Bc4 Bf5 12. Qxe7+ Kxe7 13. O-O-O Nd7 {Black's bishops are a
+permanent threat for the enemy king and for the Isolani. This compensates for
+the own king's (temporary) exposure.} 14. h3 (14. Rhe1+ {does not change
+anything essentially:} Kf8 15. Ne4 Bxe4 16. Rxe4 Nb6 17. Bb3 Kg7 18. Ne5 Nd5
+$11 {Korchagina,A (2167)-Kasaeva,S (1960) Moscow 2019 (1-0, 47)}) 14... Nb6 15.
+Bb3 h5 16. Rhg1 ({Omitting this intermediate move offers Black additional
+possibilities:} 16. Rhe1+ Kf8 17. Ne4 Bxe4 18. Rxe4 Kg7 19. Ne5 a5 $5 {As we
+will see, the similar treatment is not entirely sound in the main line.} 20.
+Nxf7 a4 21. Be6 Rhe8 22. Nd6 Re7 23. b3 Rd8 24. Nc4 axb3 25. axb3 (25. Nxb6
+bxa2 26. Kb2 Rd6 27. Bf5 Rxe4 28. Bxe4 Rxd4 29. Rxd4 Bxd4+ 30. Kxa2 Bxb6 {
+, and since there is no obvious way to force the pawn to advance on dark
+squares with Bc8, Black is not without winning chances.}) 25... Nxc4 26. bxc4
+Rxd4 27. Rdxd4 Bxd4 28. Rxd4 Rxe6 29. Rd7+ Kf6 30. Rxb7 Re4 $11) 16... h4 17.
+Rge1+ Kf8 18. Ne4 {The only way to display activity.} (18. Ne5 $2 Bg5+) (18. d5
+cxd5 $15 {[%cal Ga8c8] followed by Rc8, putting the enemy king in danger.})
+18... Bxe4 19. Rxe4 Kg7 20. Ne5 Nd5 (20... a5 $6 21. Nxf7 a4 22. Be6 Rhe8 23.
+Nd6 Re7 {allows} 24. Bg4 $14 {, which was not available in the similar line
+above.}) (20... Rhf8 $5 21. Kb1 a5 22. a3 a4 23. Ba2 Rae8 24. Rde1 Nc8 25. Nd7
+Rxe4 26. Rxe4 Nd6 27. Nxf6 Kxf6 28. Rxh4 Re8 29. Rf4+ Kg7 30. Kc1 Re2 $44) 21.
+Bxd5 cxd5 22. Re2 Rac8+ 23. Kd2 Rh5 24. Nf3 Rf5 25. Kd3 Rf4 $11 {Sulava,N 
+(2565)-Brkic,A (2564) Marija Bistrica 2011 (0-1, 47)} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 10"]
+[Black "Carlsbad Structure - 5.Bf4"]
+[Result "*"]
+[ECO "D35"]
+[Annotator "GM Mihail Marin"]
+[PlyCount "38"]
+[EventDate "2019.??.??"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. cxd5 exd5 5. Bf4 {This is the main line in the
+Carlsbad structure with the given move order.} ({Just a few words about the
+plans based on} 5. g3 {In the Carlsbad structure the bishop does not belong to
+g2. It fails to support b4-b5, it leaves the c4-square weak after b2-b4 and it
+is restricted by the black central chain.} Nf6 6. Bg2 O-O 7. Nf3 c6 8. O-O ({
+Preventing ...Bf5 with} 8. Qc2 {does not really bother Black.} Re8 9. O-O Nbd7
+10. Bf4 Nf8 11. Rad1 Ng6 12. Bc1 Bd6 13. Rfe1 h6 14. a3 a5 {possibly followed
+by ...Ne7 and ...Bf5.}) 8... Bf5 9. Nh4 $5 (9. Bf4 Nbd7 10. Ne5 Nxe5 11. Bxe5
+Nd7 12. Bf4 Nb6 13. b3 Qd7 14. a4 a5 15. Qd2 $15 {1/2-1/2 Tempone,M (2450)
+-Ricardi,P (2415) Buenos Aires 1988. It is only Black who can think of active
+kingside operations.} Rfe8) 9... Be6 10. Qc2 (10. f4 Re8 11. Qd3 c5 12. dxc5
+Na6) 10... Qc8 11. Bg5 Re8 $11) 5... Nf6 ({The main alternative is} 5... c6 6.
+e3 Bf5 {, but this exposes the bishop to} 7. g4 Be6 8. h4) 6. Qc2 {An early
+attempt to prevent ...Bf5. But this implies a strong commitment, allowing
+Black to start strong counterplay in the centre.} ({The main continuation} 6.
+e3 {is examined below}) 6... c5 $1 7. dxc5 (7. e3 {leads to a symmetrical
+structure where once again the queen is not optimally placed.} cxd4 8. exd4 Nc6
+(8... O-O $5) 9. Bb5 (9. Nf3 O-O {[%cal Gf8e8,Gc8g4] Planning ...Re8 or ...Bg4.
+} 10. Bb5 Nb4 {[%cal Gc8f5]} 11. Qb1 Ne4 12. Nxe4 dxe4 13. Qxe4 Nc2+ 14. Qxc2
+Qa5+ 15. Nd2 Qxb5 $15 {With ample compensation for the pawn, as the white king
+is stuck in the centre.}) 9... Qb6 10. Nge2 O-O 11. Bxc6 Qxc6 12. O-O Be6 $11 {
+Foisor,S (2320)-Zatonskih,A (2462) Saint Louis 2009 (0-1, 56).}) (7. Nf3 Nc6 8.
+dxc5 (8. e3 {as played in Alonso Rosell,A (2393)-Prohaszka,P (2508) Herceg
+Novi 2008 (0-1, 86) may transpose after an exchange on d4, but Black could try
+to take over the initiative:} Nb4 9. Qb1 {Preventing ...Bf5.} c4 10. a3 Nc6 11.
+Be2 O-O 12. O-O a6 $11 {, followed by ...b7-b5.}) 8... Bxc5 (8... d4 $5 9.
+O-O-O O-O 10. Nb5 Qa5 11. Nfxd4 Qxa2 12. e3 Qa1+ 13. Qb1 Qxb1+ 14. Kxb1 Bxc5
+$11) 9. e3 O-O 10. Rd1 d4 11. Be2 Qb6 12. Na4 $6 (12. exd4 Nxd4 13. Nxd4 Bxd4
+14. O-O $11) 12... Qb4+ 13. Kf1 dxe3 $1 {Attacking the bishop on f4.} 14. fxe3
+Be7 $15 {Karason,A (2250)-Arnason,A Reykjavik 1990 (1/2-1/2, 25)}) 7... d4 8.
+O-O-O {It is hard to decide whether the king is safer in the centre or on the
+queenside.} (8. Rd1 {D'Costa,L (2157)-Stephenson,F (2241) Millfield 2000 (0-1,
+15)} Bxc5 9. e3 Qe7 10. Bb5+ Nc6 11. Na4 Bb4+ 12. Kf1 Bd7 13. a3 O-O $1 {
+A promising piece sacrifice.} 14. Nf3 (14. Bxc6 Bxc6 15. axb4 Bb5+ 16. Ne2 Rac8
+17. Qb3 Nh5 18. Bg3 Rfe8 $5 $19 {The knight is out of play on a4 and the
+central pressure is killing.}) (14. axb4 Nxb4 15. Qe2 d3 16. Bxd3 Bxa4 17. Bd6
+Qd7 18. Bxb4 Bxd1 19. Qxd1 Rfd8 20. Ke2 Qg4+ 21. Nf3 Qxb4 $19) 14... Rfd8 15.
+exd4 Ba5 16. Nc3 Rac8 $15 {With more than enough compensation for the pawn, as
+Black is fully mobilized while White is still struggling to connect his rooks.}
+) 8... Qa5 (8... Bxc5 $5 9. e3 O-O 10. exd4 Bd6 {offers Black good
+compensation for the pawn, as the white king is a bit insecure.}) 9. Qa4+ (9.
+Rxd4 {is better, offering White chances to maintain equality.} Nc6 10. e3 $5 (
+10. Rd2 $2 Nb4 11. Qb1 Be6 $17) (10. Rd1 Nb4 11. Qa4+ Qxa4 12. Nxa4 Nxa2+ 13.
+Kb1 Nb4 14. f3 Be6 15. e4 O-O 16. Nc3 Bxc5 $15) (10. Ra4 Qxc5 11. e3 {
+transposes}) 10... Qxc5 (10... Nxd4 11. exd4 {strengthens White's centre.}) 11.
+Rc4 Qa5 {Now and later White could try to force a draw by perpetually
+attacking the queen.} 12. Nf3 O-O 13. Qa4 Qb6 $44 {With excellent attacking
+prospects for the pawn.}) 9... Qxa4 10. Nxa4 Ne4 {The pawn on d4 strongly
+restricts White's mobility.} 11. Bg3 (11. Rxd4 Nxf2 $19) 11... Nc6 (11... Bg5+
+$1 12. Kb1 Bf5 13. Ka1 Nc6 14. Nf3 Bf6 $17) 12. Nf3 Nxc5 13. Nxc5 Bxc5 $15 14.
+Ne5 Nxe5 15. Bxe5 Bf5 16. g4 {Ilincic,Z (2565)-Vukovic,Z (2470) Yugoslavia
+1995 (0-1, 40)} Be4 17. f3 Rc8 18. fxe4 Bd6+ 19. Kb1 Bxe5 $15 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 11"]
+[Black "5.Bf4 Nf6 6.e3 Bf5 , Sidelines"]
+[Result "*"]
+[ECO "D35"]
+[Annotator "GM Mihail Marin"]
+[PlyCount "48"]
+[EventDate "2019.??.??"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. cxd5 exd5 5. Bf4 Nf6 6. e3 Bf5 {Black has
+managed to develop his bishop on the best diagonal.} ({Black could try to
+transpose to structure one with} 6... O-O 7. Bd3 b6 8. Nge2 {The most
+constructive way to deviate.} (8. Nf3 {transposes to familiar lines.}) 8... c5
+9. O-O Nc6 10. Rc1 Bb7 (10... Be6 11. b3 c4 $6 12. bxc4 dxc4 13. Bc2 Bb4 14.
+Bg5 $16 {Reshevsky,S-Czerniak,M Nathanya 1969 (1-0, 32)}) 11. h3 Qd7 ({With
+the knight on e2, Black should not hurry with} 11... a6 12. Bb1 c4 13. Ng3 g6
+14. e4 $14 {Sadler,M (2535)-Meijers,V (2415) Biel 1993 (1-0, 41)}) 12. dxc5 ({
+Maintaining the tension does not offer White too much.} 12. a3 Rad8 13. Bc2
+Rfe8 14. Ng3 g6 $11) 12... bxc5 13. Na4 c4 14. Bc2 Rfd8 15. Nd4 Nxd4 16. Qxd4
+Qc6 17. Rfd1 Ne4 $11 {With mutual chances.}) 7. Bd3 {With this move White aims
+for normal development. As we will see, this offers him very little.} ({
+The crucial lines are} 7. Nge2) ({and} 7. Qb3) (7. h3 {is an attempt to use
+the slightly exposed bishop's position, which wastes too much developing time,
+though.} c6 $1 ({It is better to delay castling as if} 7... O-O 8. g4 Bg6 9. h4
+$1 $146 {offers White some initiative.}) 8. g4 Bg6 9. Nf3 (9. h4 {is less
+justified with the black king not castled yet.} Qb6 10. Qc1 (10. Qe2 h5 11. g5
+Ne4 $11) 10... Nxg4 11. h5 Bf5 12. Nge2 Nf6 13. Ng3 Be6 14. Bd3 c5 $15 {
+Preotu,R (2469)-Kiewra,K (2426) Rockville 2016 (0-1, 40) White's compensation
+for the pawn is questionable.}) 9... Nbd7 10. Nh4 (10. Bg2 {transposes to some
+sort of fianchetto Carlbad.} Ne4 11. O-O O-O 12. Ne2 Qb6 13. b3 Rfe8 14. Bh2
+Bd6 15. Nf4 Qa6 16. Kh1 Rad8 17. Nh4 Nf8 18. f3 Nf6 19. Qd2 Ne6 $11 20. Rad1 $2
+Nxf4 21. Bxf4 Bxf4 22. exf4 Re2 23. Qb4 Bd3 $17 {Laznicka,V (2686)-Colovic,A 
+(2516) England 2014 (1/2-1/2, 27)}) 10... Be4 11. Rg1 (11. Nxe4 Nxe4 12. Nf5
+Bb4+ 13. Ke2 g6 14. a3 Bf8 15. Ng3 Bd6 16. Nxe4 Bxf4 $15 {All White has
+achieved with his "attack" is problems for his own king.}) 11... O-O $5 $146 {
+Preparing ...Re8 followed by ...Bd6.} 12. g5 (12. f3 Nh5 $1 $15) (12. Qd2 Nb6
+$11) (12. Nf5 Bxf5 13. gxf5 Kh8 14. Qc2 a5 $5 {Anticipating White's castling
+long.} 15. O-O-O b5 16. Kb1 a4 17. f3 Qa5 18. e4 b4 19. Qg2 Rg8 20. Ne2 g6 {
+with excellent counterplay.}) 12... Ne8 13. f3 Bg6 14. Qd2 Bd6 15. e4 Bxf4 16.
+Qxf4 Nc7 17. O-O-O b5 $11 {Black plans ...Nb6 followed by the massive advance
+of his queenside pawns.} 18. Qd6 $6 Nb6 19. Qxc6 $6 Rc8 20. Kb1 b4 21. Nxg6
+hxg6 22. Nb5 Ne6 23. Qb7 (23. Qd6 $2 a6 {wins the knight.}) 23... dxe4 24. fxe4
+Nc5 25. Qxa7 Nxe4 $17) 7... Bxd3 8. Qxd3 c6 9. Nge2 ({Or if} 9. Nf3 Nbd7 10. h3
+O-O 11. O-O Re8 12. Qc2 Nb6 {As we know, a knight on this square is an
+excellent way to anticipate the minority attack.} 13. Ne5 Nfd7 14. Nd3 Nc4 15.
+Rad1 Nf8 16. b3 Nd6 17. Nc5 Qc8 18. Rfe1 {Black is well regrouped and ready to
+start fighting for the initiative.} b6 $5 19. Nd3 Ne6 20. Bh2 Qb7 21. Ne5 Rac8
+22. Qd3 Bf8 23. Rc1 Red8 24. Red1 f6 25. Nf3 Nf7 26. e4 {There is little else
+that White can try.} (26. Rc2 Bb4 27. Rdc1 Ba3 28. Rd1 a5 $5) 26... dxe4 27.
+Qxe4 Neg5 28. Nxg5 Nxg5 29. Qe2 Re8 $11 {Fressinet,L (2707)-Fridman,D (2647)
+Trzcianka 2015 (0-1, 50)}) 9... Nbd7 ({Another possible knight trayectory is} 
+9... Na6 10. O-O Nc7 11. f3 {White's main hopes are connected with a central
+expansion.} Ne6 12. Bg3 O-O 13. Rad1 Qb6 14. Bf2 Rad8 15. Rd2 (15. e4 dxe4 16.
+fxe4 Ng4 $15) 15... Rd7 16. h3 Qd8 17. Qc2 Nh5 {Starting to display kingside
+activity after having completed a thorough regrouping.} 18. Nc1 Bh4 19. Nd3
+Bxf2+ 20. Rdxf2 Re7 21. g4 Nf6 22. Rg2 Rfe8 23. Nd1 Nd7 24. f4 Qb6 25. g5 {
+Grachev,B (2683)-Berkes,F (2687) Denizli 2013 (1-0, 66)} Nc7 $1 26. Rf3 Nb5 27.
+f5 f6 28. h4 Nd6 29. b3 Qa5 $11) ({The resolute} 9... Nh5 $5 {deserves
+attention, too.} 10. Bxb8 Rxb8 11. f3 O-O 12. O-O f5 13. a3 a6 14. b4 Qd7 15.
+Rae1 Rbe8 16. Nc1 {Nakamura,H (2774) -Ponomariov,R (2754) Saint Louis 2011 (1/
+2-1/2, 51)} Bd6 $5 $15) 10. h3 O-O 11. O-O Re8 12. f3 b5 $5 {An interesting
+way to start queenside counterplay as an answer to White's territorial
+ambitions.} 13. a3 a5 14. e4 Nb6 ({It may be safer to insert} 14... dxe4 15.
+fxe4 {before} b4 16. axb4 axb4 17. Rxa8 Qxa8 18. Nd1 c5 19. e5 Nd5 20. Qf5 N7b6
+21. Bg3 Rf8 $11) 15. e5 Nfd7 16. Bc1 b4 17. axb4 axb4 18. Rxa8 Qxa8 19. Nd1 c5
+20. f4 Bf8 21. Kh2 Qa2 22. Ne3 c4 23. Qd1 {Mamedyarov,S (2800)-Topalov,V (2749)
+Paris 2017 (1-0, 35)} c3 24. bxc3 b3 {With sharp mutual attacks on opposite
+wings.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 12"]
+[Black "5.Bf4 Nf6 6.e3 Bf5 7.Nge2"]
+[Result "*"]
+[ECO "D31"]
+[Annotator "GM Mihail Marin"]
+[PlyCount "30"]
+[EventDate "2019.??.??"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. cxd5 exd5 5. Bf4 Nf6 6. e3 Bf5 7. Nge2 {
+The plan initiated by this move requires certain accuracy from Black.} c6 $1 ({
+Black is best adviced to delay his castle as after} 7... O-O 8. Ng3 Bg6 ({
+Daniel Fridman has specialized on the line} 8... Be6 9. Bd3 c5 10. dxc5 Bxc5
+11. O-O Nc6 12. Rc1 d4 13. Nce4 Be7 14. Nxf6+ Bxf6 15. Ne4 {, which,
+nevertheless, implies a bit of struggling for equality.}) 9. h4 h6 (9... h5 10.
+Be2 {wins the pawn on h5.}) 10. h5 Bh7 11. Bd3 c6 12. Bxh7+ Nxh7 13. Nf5 Nd7
+14. g4 {with a positional advantage in Nepomniachtchi,I (2751)-Nakamura,H 
+(2793) Zuerich 2017 (1/2-1/2, 42)}) 8. Ng3 Bg6 9. h4 {Once again the critical
+plan.} ({If} 9. Bd3 {Black should not hurry with taking on d3 as this would
+force him to take care of the f5-square.} Nbd7 ({He should also delay his
+castle as} 9... O-O {allows} 10. Bxg6 hxg6 11. h4 {with certain attacking
+chances.}) 10. Nf5 ({Or if} 10. h4 {Damaso,R (2485)-Santos,C (2355) Maceira
+1997 (0-1, 32)} Nb6 11. h5 Bxd3 12. Qxd3 Bd6 13. Bxd6 Qxd6 14. Nf5 Qf8 15. h6
+g6 16. Ng7+ Kd7 17. O-O Rd8 $11 {and the king will reach b8 without problems.})
+(10. O-O O-O 11. f3 Nb6 $11) 10... Nh5 (10... Bxf5 11. Bxf5 g6 12. Bd3 Nh5 13.
+Bh6 Bg5 $11) 11. Bd6 Bxf5 12. Bxe7 Qxe7 13. Bxf5 g6 $11) 9... h5 10. Be2 ({
+White's hopes for an attack are not too real after} 10. Bd3 Bxd3 11. Qxd3 g6
+12. O-O-O Nbd7 13. f3 (13. e4 dxe4 14. Ngxe4 Nxe4 15. Nxe4 Nb6 16. Be5 Rh7 17.
+Rde1 Kf8 18. Re2 Nd5 19. Kb1 a5 $11 {The super blocking knight ensures Black
+the needed stability all over the board and he can already think of
+counterplay. White will find it hard to formulate a constructive plan.}) 13...
+Nb6 14. e4 dxe4 15. Ngxe4 (15. fxe4 Ng4) 15... Nxe4 (15... Nfd5 16. Be5 f6 17.
+Bh2 Kf7 18. g4 a5 19. Rde1 a4 20. a3 Qd7 {is also quite stable for Black.}) 16.
+fxe4 Bxh4 17. d5 Bg5 18. Qg3 Bxf4+ 19. Qxf4 Qe7 20. dxc6 {Preventing ...0-0-0.}
+bxc6 21. g4 {As we will see, White's initiative just compensates for the pawn.}
+h4 22. e5 Nd5 23. Nxd5 cxd5 24. Rxd5 Qe6 25. Qd4 Rb8 $11 {With mutual chances.}
+) 10... Nbd7 {Since h5 is hanging, Black cannot castle. But the same applies
+for White, whose pawn on h4 would also turn vulnerable.} 11. Bg5 {White has
+tried all kinds of semi-waiting moves here.} (11. Rc1 Kf8 $5 {A typical
+manoeuvre, clearing the e8-square for the queen's rook. One important point is
+that White has given up the right to castle long already, so both kings are
+stuck in the centre.} 12. O-O Nb6 13. Bg5 {Moiseenko,A (2667)-Jojua,D (2530)
+Dresden 2010 (1/2-1/2, 27)} Ne8 $1 14. f4 {Otherwise the pawn on h4 would be
+lost.} Nd6 {Planning ...Nf5.} 15. Bxe7+ Qxe7 16. f5 Bh7 $15) (11. a3 Nb6 (11...
+Kf8 {may also be playable, as if White castles long the pawn on a3 wil be a
+target.} 12. Bf3 Nb6 13. b3 Qd7 14. Bg5 Re8 15. Nce2 Ne4 16. Bxe4 Bxe4 17. Nxe4
+dxe4 18. Bxe7+ Qxe7 19. Nf4 Rd8 20. Nxh5 c5 21. Qg4 g6 22. Ng3 cxd4 23. Qxe4
+dxe3 24. fxe3 Qf6 25. Rc1 Re8 26. Qb4+ Kg8 $17 {Zhao,X (2579)-Khotenashvili,B 
+(2514) Tashkent 2013 (0-1, 70)}) 12. Rc1 Kf8 {Now is a perfect moment for this
+move.} 13. Bg5 Ne8 14. Bxe7+ Qxe7 15. Na4 (15. Nxh5 Bxh5 16. Bxh5 g6 17. Bf3
+Rxh4 $11) 15... Nd6 16. Nc5 Nbc4 17. Qb3 Re8 18. a4 Rh6 $5 {An interesting way
+to activate the rook.} 19. Qc3 b6 20. Nd3 Bxd3 (20... Nxe3 $5 21. fxe3 Qxe3 22.
+Ne5 Bd3 23. Qxd3 Qxc1+ 24. Qd1 Qf4 $19) 21. Bxd3 {1/2-1/2 Aleksandrov,A (2650)
+-Kacheishvili,G (2592) Istanbul 2003} Nxe3 $1 22. fxe3 Qxe3+ 23. Be2 Qf4 $17 {
+Black has a very strong attack with the participation of all pieces.}) (11. Bf3
+Nb6 12. Bg5 Nc4 13. Qe2 (13. O-O Ng4 14. b3 Nd6 15. Bxg4 hxg4 16. Qxg4 Qd7 17.
+Qxd7+ Kxd7 {Planning ...f7-f6.} 18. Bxe7 Kxe7 $11 {Black will soon retrieve
+the pawn with some kingside initiative.}) 13... Qb6 14. Bxf6 gxf6 15. Bxh5 (15.
+b3 Bb4 $1) 15... Bxh5 16. Nxh5 {Volodin,I (2235)-Paley,A (2098) Nabereznye
+Chelny 2010 (1/2-1/2, 22)} Rxh5 17. Qxh5 Qxb2 18. O-O Qxc3 19. Qh8+ Bf8 20.
+Qxf6 Rd8 21. Rab1 Nd6 22. h5 Qd3 23. e4 Be7 24. Qh8+ Kd7 $19) 11... Bd6 (11...
+Ne4 $5 12. Bxe7 Qxe7 13. Nxh5 Bxh5 14. Bxh5 g6 15. Nxe4 Rxh5 16. Ng3 Rxh4 17.
+Rxh4 Qxh4 $11 {Navara,D (2741)-Harikrishna,P (2739) Linares 2018 (1/2-1/2, 52)}
+) 12. f4 $6 {Just weakening the central structure.} (12. O-O Bxg3 13. fxg3 Qb6
+$11) (12. Bf4 {leads to a draw by repetition at best.}) 12... Qb6 13. Qd2 O-O-O
+14. Rc1 Kb8 15. a3 Rde8 $17 {Navara,D (2738)-So,W (2765) Saint Louis 2019 (1/
+2-1/2, 58)} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 13"]
+[Black "5.Bf4 Nf6 6.e3 Bf5 7.Qb3, Critical Test"]
+[Result "*"]
+[ECO "D35"]
+[Annotator "GM Mihail Marin"]
+[PlyCount "52"]
+[EventDate "2019.??.??"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. cxd5 exd5 5. Bf4 Nf6 6. e3 Bf5 7. Qb3 {In the
+exchange variation, this is a typical reaction when Black plays ...Bf5 without
+...c7-c6. The point is that he does not have ..Qb6.} Nc6 $1 {A developing move,
+sacrificing the pawn on b7 for the initiative.} 8. Qxb7 {A critical test to
+Black's play.} (8. a3 {, preventing ...Nb4, and preparing the queen's retreat
+to a2 is examined in the next line.}) ({The resolute} 8. g4 {[%emt 0:00:16] is
+examined in Lines 15 and 16.}) ({If} 8. Nf3 O-O {White does not have anything
+better than a2-a3, as if} 9. Rc1 Na5 10. Qd1 {it is safe to say that he has
+just wasted two tempi with his queen manoeuvre.} c6 11. Ne5 {Zhao,J (2611)-Li,
+Y (2435) Tianjin 2018 (1-0, 50)} Ne4 12. g4 Be6 $11 {Planning ...f7-f6
+followed by ...Nc4.}) 8... Nb4 {Apart from ...Nc2+, Black also has some hopes
+to trap the queen, or at least to reach a draw by perpetually attacking it.} 9.
+Bb5+ {It is useful to deprive Black of the right to castle, but the bishop
+will be exposed on this square.} (9. Rc1 O-O 10. Bxc7 Qc8 {offers Black a
+serious advance in development, compensating for the missing pawns.} 11. Qxc8
+Raxc8 $1 ({More accurate than} 11... Rfxc8 {, and if play continues in a
+similar way as in the recommended line, White has} 12. Bf4 Ne4 13. a3 Nxc3 14.
+bxc3 Na2 15. Ra1 Nxc3 16. Ba6 Rc6 17. Bb7) 12. Bf4 Ne4 (12... Nc2+ $2 13. Kd1
+$18 {Kazantzidis,I (2078)-Mihopoulos,K (1964) Peristeri 2011 (1-0, 23)}) 13.
+Nf3 (13. a3 Nxc3 14. bxc3 Na2 15. Ra1 Nxc3 {with plenty of compensation as
+White is almost undeveloped and the a-pawn is vulnerable.}) 13... g5 14. Bg3
+Nxc3 15. bxc3 a5 $5 {Bringing the pawn closer to the promotion square.} 16. a3
+Na2 17. Ra1 Nxc3 18. Nd2 Bg6 $17 19. h3 Nb1 $1 20. Nxb1 Rc1+ 21. Kd2 Rfc8 22.
+Bd3 Rxh1) (9. Kd1 O-O 10. Qxc7 Qxc7 11. Bxc7 Rfc8 12. Bg3 (12. Bf4 {leaves the
+pawn on f2 vulnerable.} Ne4 13. Nxe4 dxe4 {[%cal Gf5e6] Planning ...Be6.
+White's problem is that 14.Ne2 runs into 14...Nd3 with a double attack, while}
+14. a3 {is anwswered with} Be6 $1 {anyway.}) 12... Bc2+ (12... Ne4 {does not
+work out so well here. White can maintain an edge with very accurate play:} 13.
+Nxe4 dxe4 14. Ne2 {The f2-pawn is defended now.} Rc2 15. a3 Rac8 16. Rc1 Rxc1+
+17. Nxc1 Nd3 18. Bxd3 exd3 19. e4 $1 Bxe4 20. Re1 f5 21. Nxd3 Bf6 22. Nc5 $14)
+13. Ke1 (13. Kd2 Ne4+ 14. Nxe4 Bxe4 15. f3 Rc2+ 16. Kd1 Rxb2 $5 17. fxe4 dxe4
+18. Rc1 Nd5 19. Bf4 Bb4 {Black has ensured a draw by perpetual already.}) (13.
+Kc1 Ne4 $1) 13... Bf5 14. Rd1 Ne4 15. Nxe4 dxe4 16. a3 Rc2 17. Be2 Nd3+ 18. Kf1
+Nxb2 19. Re1 Bxa3 $19 {Lupulescu,C (2650)-Fridman,D (2659) Khanty-Mansiysk
+2011 (0-1, 34)}) 9... Kf8 10. Kd2 (10. Rd1 Bd6 $5 11. Bxd6+ cxd6 12. a3 Rb8 13.
+Qxa7 Ra8 $11) (10. Rc1 a6 11. Be2 Ne8 12. a3 Rb8 $11) 10... Ne4+ (10... Bd6 $2
+11. Bxd6+ cxd6 12. Be8 $1 {This is possible because Black does not have the
+intermediate check on c2.} Kxe8 13. Qxb4 Rb8 14. Qa3 Qb6 15. b3 $16 {Volzhin,
+A-Koniushkov,I/St.Petersburg op 1995 (1-0, 54)}) 11. Nxe4 (11. Ke2 Nd6 12. Bxd6
+Bxd6 13. a3 Bc8 14. Qxa8 Bg4+ 15. f3 Qxa8 16. fxg4 Nc6 $17 {Marin}) 11... Bxe4
+12. f3 (12. Bxc7 Qc8 13. Qxc8+ Rxc8 14. f3 Bf5 15. g4 Be6 16. Ba5 Rc2+ 17. Kd1
+Rxb2 {[%cal Gb4c2] Threatening ...Nc2.} 18. Kc1 Rc2+ 19. Kd1 Rb2 20. Kc1 Rc2+
+21. Kd1 Rb2 {В1/2-В1/2 Papin,V (2483)-Korneev,O (2551) Runavik 2018}) 12... Rb8
+13. Qxc7 {В1/2-В1/2 Dorfman,J (2585)-Marciano,D (2525) Meribel 1998} Qxc7 14.
+Bxc7 Rxb5 15. fxe4 dxe4 $44 {Black has a strong initiative for just a pawn.}
+16. b3 Nd5 17. Rc1 Bb4+ 18. Ke2 Nc3+ 19. Kf2 Rf5+ 20. Kg3 (20. Bf4 g5 21. a3
+Ba5 22. b4 Nd5 23. bxa5 gxf4 24. exf4 Nxf4 $11) 20... Nd5 21. Ne2 g5 22. a3 Be7
+$17 23. h3 $2 Kg7 24. Rc6 Nxc7 {[%csl Rg3][%cal Ge7d6]} 25. Kg4 Ra5 26. Kg3 h5
+$19 {0-1 Gutov,A (2445)-Stockmann,M (2255) Aix les Bains 2011} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 14"]
+[Black "7.Qb3 Nc6 8.a3"]
+[Result "*"]
+[ECO "D35"]
+[Annotator "GM Mihail Marin"]
+[PlyCount "46"]
+[EventDate "2019.??.??"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. cxd5 exd5 5. Bf4 Nf6 6. e3 Bf5 7. Qb3 Nc6 8. a3
+{This move prevents ...Nb4 and aims to prove that the knight is not well
+placed on c6. But this is not the case as the knight has quick access to c4.}
+Na5 9. Qa2 {The only move which does not imply a waste of time. Besides, the
+queen keeps an eye on c4.} (9. Qa4+ {is surprisingly frequently played, but it
+just wastes a tempo in comparison to the main line.} c6 10. Nf3 O-O 11. Be2 (
+11. Ne5 Ne4 (11... b5 $2 {Moreno Ruiz,J (2545)-Madina Yadarola,M (2291)
+Collado Villalba 2011 (1-0, 42)} 12. Qxa5 $1 Qxa5 13. Nxc6 $14) 12. Nxe4 Bxe4
+13. Qd1 f6 14. Nd3 Nc4 $15) 11... b5 12. Qd1 Nc4 13. Qc1 a5 (13... Nh5 $5) 14.
+Ne5 Qc8 15. O-O a4 (15... Nxe5 16. Bxe5 a4 $11) 16. Nxc4 bxc4 $15 (16... dxc4
+17. Bg5 {Vaisser,A (2575)-San Segundo Carrillo,P (2495) Athens 1997 (В1/2-В1/2,
+30)} Qd7 18. Bf3 Rae8 19. Re1 Bd3 $15 {[%csl Gd4]}) 17. Bd1 $6 Bd3 18. Re1 Ne4
+19. Nxa4 Bh4 20. Bg3 (20. g3 g5) 20... Bxg3 21. hxg3 Qf5 $19) (9. Qd1 {is
+rather passive.} O-O 10. Nf3 c6 11. Ne5 {Black has several reasonable
+continuations.} Nd7 (11... Ne4 12. Nxe4 Bxe4 13. f3 Bf5 14. b4 f6 15. bxa5 fxe5
+16. Bxe5 Qxa5+ 17. Qd2 Qb6 18. Be2 c5 19. O-O Rac8 $11) (11... c5 12. dxc5 Bxc5
+13. b4 d4 $1 14. Ne2 (14. Na2 dxe3 15. fxe3 Bd6 16. Nxf7 Rxf7 17. Qxd6 Qxd6 18.
+Bxd6 Nb3 19. Rd1 Rc8 $15) 14... Bb6 15. Ng3 Be6 16. e4 (16. bxa5 Bxa5+ 17. Ke2
+Nd5 $19) 16... Bc7 17. Nd3 (17. bxa5 Bxe5 18. Bxe5 Qxa5+) 17... Nc4 $15) 12.
+Be2 Nxe5 13. Bxe5 Nc4 (13... b5 14. b3 b4 $11) 14. Bxc4 dxc4 15. e4 Bg6 16. O-O
+b5 {1/2-1/2 Kharlov,A (2560)-Korneev,O (2560) Maikop 1998}) 9... O-O 10. Nf3 ({
+The pawn grabbing with} 10. b4 Nc4 11. Bxc4 dxc4 12. Qxc4 {weakens the light
+squares and delays White's development.} c6 {Preparing ...a7-a5.} (12... a5 $6
+13. b5 $1 {Chibukhchian,A (2444)-Tassopoulos,M (2293) Budva 2009 (1-0, 46)})
+13. Nf3 ({The untested} 13. Nge2 {is no big improvement.} Be6 14. Qd3 b5 15.
+O-O a5 16. Rab1 axb4 17. axb4 Bc4 18. Qc2 Nd5 19. Nxd5 cxd5 20. Rb2 Qb6 21.
+Rfb1 Ra3 22. Nc3 Rfa8 23. h3 g5 24. Bg3 Qg6 25. Qd2 h5 $15 {For the missing
+pawn Black has complete domination.}) 13... a5 14. b5 (14. O-O axb4 15. axb4
+Be6 16. Qd3 Bxb4 $11) (14. bxa5 Qxa5 15. O-O b5 16. Qb3 b4 $11 {also retrieves
+the pawn.} 17. axb4 $2 Qxa1 18. Rxa1 Rxa1+ 19. Nd1 Rfa8 $19) 14... Rc8 {
+Black's initiative fully compensates for the pawn.} 15. O-O (15. bxc6 Rxc6 16.
+Qb3 (16. Qb5 Rxc3 17. Qxf5 Qc8 18. Qxc8 Rfxc8 19. O-O Rxa3 $17) 16... a4 $1 $19
+17. Qb5 (17. Nxa4 Qa5+ 18. Nd2 Ne4) 17... Bd7 $19) 15... cxb5 (15... Be6 $5 {
+is my favourite continuation.} 16. Qa4 cxb5 17. Nxb5 Qb6 18. Rfb1 Bf5 19. Rb2
+Nd5 20. Qb3 Rfd8 21. h3 {Avoiding any back rank problems.} (21. Bg3 Be6 22. Qd3
+Nc3 $15 {[%cal Ga5a4]} 23. a4 $6 Nxa4 $1) (21. a4 Be6 22. Qd3 Nxf4 23. exf4 Bc4
+24. Qe4 Bb4 $15) 21... Nxf4 (21... Be6 22. Qd3 Nc3 23. a4 $1) (21... Qa6 $5 {
+[%cal Ga5a4] , preparing ...a5-a4, is also interesting.}) 22. exf4 Be6 23. Qd1
+Qa6 $44 {[%cal Ga5a4] followed by ...a5-a4.}) 16. Qxb5 Rxc3 17. Qxf5 Bxa3 18.
+Be5 Bb4 $1 (18... Qc8 $2 19. Qb1 $1 {A strong queen retreat.} Nd7 20. Ng5 g6
+21. Ne4 $18 {Shipov,S (2625)-Marciano,D (2513) FIDE.com 2001 (1-0, 38)}) 19.
+Rfd1 (19. Qb1 Nd7 $11) (19. Ng5 Qd5 20. Qb1 h6 21. Bxf6 hxg5 22. e4 Qd6 23.
+Bxg5 Qxd4 $17) 19... Qd5 $11 {With mutual chances.}) 10... c6 11. Be2 (11. b4
+Nc4 {transposes above.}) 11... b5 $1 {Preparing the invasion on c4.} 12. Ne5 (
+12. O-O Nc4 13. Rfc1 (13. h3 a5 14. a4 b4 15. Nb1 c5 16. Bxc4 dxc4 17. Qxc4 Bc8
+$5 $15 {followed by ...Ba6.}) 13... Nh5 14. Be5 f6 15. Bg3 Nxg3 16. hxg3 Qd7 (
+16... a5 17. a4 b4 18. Nd1 Be6 19. b3 Nd6 20. Rxc6 Qd7 21. Rac1 $14) (16... Rb8
+$5 17. Nd1 Qd7 18. a4 a6 19. Ne1 {Mamedyarov,S (2765)-Fridman,D (2659)
+Khanty-Mansiysk 2011 (1/2-1/2, 41)} Rfc8 20. Nd3 Nd2 21. b3 Ne4 22. b4 Qe8 $11
+{Preparing a possible queen switch to the kingside.}) 17. a4 (17. e4 dxe4 18.
+Nd2 Kh8 {and Black is not worse.}) 17... b4 18. Nd1 Nd6 19. b3 a5 {Black is
+well regrouped and has a solid position. The weakness on c6 is easy to defend.}
+) 12... Rc8 $1 {Avoiding a later pin along the a-file after a3-a4.} (12... Qb6
+13. O-O (13. b3 $5) 13... Nc4 14. a4 a6 (14... Nxe5 15. Bxe5 b4 16. a5 $14) 15.
+axb5 cxb5 {Forced but weakening d5.} 16. Bg5 $16 {Gelfand,B (2729) -Inarkiev,E
+(2702) Nazran 2017 (1/2-1/2, 35)}) 13. O-O (13. b3 {allows Black strong
+counterplay:} c5 $1 $17 14. Nxb5 (14. dxc5 Rxc5 15. Qb2 Qc8 16. Rc1 Ne4 $19 17.
+Na2 Rxc1+ 18. Nxc1 Bxa3 19. Qxa3 Qc3+ 20. Kf1 b4) 14... a6 15. Na7 Rc7 $17) (
+13. a4 $2 b4 14. Nd1 b3 $19 {traps the queen.}) 13... Nc4 14. Bd3 (14. a4 b4
+15. Nb1 c5 $17) 14... Bxd3 15. Nxd3 a5 16. Rad1 Nh5 (16... a4 $15 {leads to a
+dream position on the queenside.}) 17. a4 Nxf4 18. Nxf4 b4 19. Nce2 b3 20. Qb1
+(20. Qxb3 Rb8 21. Qc3 Rxb2 22. Rb1 Bb4 23. Qd3 Rd2 24. Qf5 Qe7 $17) 20... Bb4
+21. Qc1 Qe7 22. Kh1 Rfd8 (22... f5 23. Nd3 Bd6 $15) 23. Qa1 Qe4 $15 {Debashis,
+D (2532)-Buksa,N (2416) Sharjah 2019 (1/2-1/2, 34) With obvious initiative for
+Black.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 15"]
+[Black "7.Qb3 Nc6 8.g4!?"]
+[Result "*"]
+[ECO "D35"]
+[Annotator "GM Mihail Marin"]
+[PlyCount "40"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. cxd5 exd5 5. Bf4 Nf6 6. e3 Bf5 7. Qb3 Nc6 8. g4
+$5 {An interesting move, leading to a change of structure.} Nxg4 (8... Bxg4 {
+releases the pressure on c2, allowing} 9. Qxb7 {under improved circumstances
+with respect to 8.Qxb7 above.}) 9. Qxd5 (9. Nxd5 $6 {is likely to leave White
+hanging.} O-O 10. Bg2 (10. Bxc7 Qd7 {[%cal Gf5e4] Threatening ...Be4.} 11. Bg2
+Be6 12. Nxe7+ Nxe7 $19) (10. Nxc7 Nxd4 11. exd4 Qxd4 $19 {with a decisive
+attack against White's exposed king and uncoordinated army.}) 10... Bh4 11. Bg3
+Be6 12. Kf1 a5 13. Nh3 a4 14. Qc4 Na5 15. Qc5 b6 16. Bxh4 bxc5 17. Bxd8 Raxd8
+18. Ne7+ Kh8 19. d5 Bd7 $17 {Topalov,V (2725)-Kasparov,G (2795) Linares 1997 
+(0-1, 39)}) (9. Qxb7 $146 Nb4 10. Bb5+ Kf8 $44 {does not chance the essence of
+the position with respect to Line 13. In fact, the g4-knight's pressure on f2
+may be unpleasant.}) (9. a3 $6 {Aleksandrov,A (2660) -Azmaiparashvili,Z (2645)
+Groningen 1997 (1/2-1/2, 37)} Bh4 $1 10. Bg3 (10. Nh3 Na5 11. Qxd5 Qxd5 12.
+Nxd5 O-O-O 13. Bg2 Nb3 14. Rd1 Bc2 $17) 10... Bxg3 11. hxg3 Ne7 12. Qxb7 Rb8
+13. Qxa7 Rxb2 $15) 9... Qxd5 10. Nxd5 {White has obtained a strong centre, but
+his delay in development and the relative weakness of the light squares makes
+the final evaluation unclear.} Bb4+ ({The most resolute and popular
+continuation, but the developing} 10... O-O-O {deserves mentioning.} 11. Nxe7+
+(11. Bg2 $2 Rxd5 $1 12. Bxd5 Nb4 13. Bb3 Nd3+ 14. Ke2 Ngxf2 $17) (11. Nc3 {
+offers Black too much play} Nb4 12. Rc1 Nc2+ 13. Ke2 Rhe8) 11... Nxe7 {The
+material balance is the same as in Line 16. Black is a tempo up, but in Line
+16 his knight is more active on b4 than on e7 now.} 12. Rc1 (12. Nf3 Nd5 13.
+Bg3 Ngf6 14. Rc1 Ne4 15. Ne5 Rhf8 16. a3 f6 17. Nc4 Rfe8 18. Be2 {Krush,I 
+(2472)-Zatonskih,A (2499) Saint Louis 2011 (1-0, 60)} g5 $5 $11) 12... Nd5 13.
+Bg3 Ngf6 (13... Rhe8 {is a bit too slow, allowing White to get coordinated} 14.
+Ne2 c6 15. Nc3 Ngf6 16. Be5 Ng4 17. Bg3 Ngf6 18. Be2 $14 {Najer,E (2647)
+-Azarov,S (2618) Czechia 2013 (1-0, 40)}) 14. Ne2 Ne4 {Black's pressure
+compensates for White's massive centre.}) 11. Nc3 (11. Nxb4 {[%emt 0:00:16] is
+examined in Line 16.}) 11... O-O-O 12. Bg2 (12. a3 {Bhakti,K (2256)-Pogonina,N
+(2465) Khanty-Mansiysk 2018 (1/2-1/2, 53)} Bxc3+ $1 13. bxc3 h6 {Starting to
+fight for space.} 14. h4 (14. Ne2 g5 15. Bg3 Be4 16. Rg1 f5 $11) 14... g5 $1
+15. hxg5 hxg5 16. Rxh8 Rxh8 17. Bxg5 Nh2 18. Bf4 (18. Bc4 Na5 19. Bxf7 Nf3+ 20.
+Nxf3 Rh1+ 21. Kd2 Rxa1 {with very unclear play and approximately equal chances:
+} 22. Ne5 Rxa3 23. e4 $5 Bxe4 24. Be6+ Kb8 25. f4 Nc6 26. Nd7+ Ka8 27. f5 Ra5
+28. Nc5 Bb1 29. f6 Nd8 30. f7 Nxf7 31. Bxf7 b6 32. Bf4 bxc5 33. Bxc7 Rb5 34.
+Bd5+ Rb7 35. dxc5 Ba2 36. Bg2 a6 {, with a probable draw.}) 18... Nxf1 19. Kxf1
+Bd3+ {Black has excellent play on the light squares.} 20. Kg2 (20. Ke1 Rh1 21.
+Kd2 Bb5 22. Rb1 a6 23. Kc2 Na5 $11) 20... Rg8+ 21. Bg3 Na5 22. Nh3 Nc4 23. Nf4
+Be4+ 24. f3 (24. Kf1 Bf3 25. Ng2 Rg5 $15 26. Ne1 Nd2+ 27. Kg1 Bd5 28. Rc1 b5
+29. Rc2 Nc4) 24... Nxe3+ 25. Kf2 Bc6 $11) 12... Nf6 $146 {Starting the fight
+for the central squares.} (12... Bd6 {is slightly less logical, but remains
+playable.} 13. Bxd6 Rxd6 14. Nge2 Re8 15. h3 {Wojtaszek,R (2727)-Tarjan,J 
+(2478) Caleta 2016 (1-0, 46)} Nf6 16. Ng3 Bg6 17. O-O Nb4 $11) 13. Nge2 Be4 14.
+f3 Bg6 15. a3 Be7 16. Bg3 Nh5 17. Nf4 f5 18. Nxh5 (18. Nxg6 hxg6 {Planning ...
+f5-f4.} 19. Bf2 (19. f4 g5) 19... Bf6 20. f4 g5) 18... Bxh5 {[%cal Gg7g5]} 19.
+h4 Bd6 20. Ne2 Bf7 $11 {Black is well regrouped and ready to keep the enemy
+centre under control.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 16"]
+[Black "7.Qb3 Nc6 8.g4 - Part II"]
+[Result "*"]
+[ECO "D35"]
+[Annotator "GM Mihail Marin"]
+[PlyCount "54"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. cxd5 exd5 5. Bf4 Nf6 6. e3 Bf5 7. Qb3 Nc6 8. g4
+Nxg4 9. Qxd5 Qxd5 10. Nxd5 Bb4+ 11. Nxb4 Nxb4 12. Rc1 c6 13. a3 Nd5 (13... Nd3+
+{somewhat reduces Black's dynamism, leaving him slightly struggling against
+the white centre:} 14. Bxd3 Bxd3 15. f3 Nf6 16. Kd2 Bg6 {Krush,I (2472)
+-Zatonskih,A (2499) Saint Louis 2011 (0-1, 35) and Wojtaszek,R (2713)-Onischuk,
+A (2672) Poikovsky 2012 (1/2-1/2, 41)}) 14. h3 Ngf6 15. Be5 ({Another possible
+move order is} 15. Ne2 O-O 16. Be5 Nd7 17. Bd6 Rfe8 18. Nf4 Nxf4 19. Bxf4 Nf6
+20. Rg1 Nd5 21. Be5 f6 22. Bg3 Rad8 23. h4 Kf7 24. Kd2 h6 ({Since time is not
+important, Black could prepare his expansion with} 24... g6 {followed by ...
+h7-h6 and ...g6-g5.}) 25. Be2 (25. h5 $5 Bg4 26. Bc7 Nxc7 27. Rxg4 Re5 $1 28.
+Bd3 Rg5 29. Rcg1 Kf8 30. f4 Rxg4 31. Rxg4 Rd5 32. f5 c5 $11) 25... g5 26. hxg5
+hxg5 27. Rh1 Bg6 28. b4 a6 29. Bc4 Kg7 30. Bb3 Be4 31. Rhg1 Rd7 32. Bd1 Bg6 33.
+Rc5 Rdd8 34. Be2 Re7 35. Rh1 Rde8 $11 {Gustafsson,J (2625) -Baramidze,D (2611)
+Oberhof 2012 (0-1, 62)}) 15... Nd7 16. Bg3 ({The bishop is exposed on g3, but} 
+16. Bh2 $2 {as played in Krush,I (2472)-Zatonskih,A (2499) Saint Louis 2011 
+(0-1, 69), allows} Nxe3 $1 17. fxe3 Be4 $17) 16... O-O 17. Ne2 ({With the
+bishop on h2} 17. Nf3 {would have offered some chances for an advantage, but
+here it runs into} Be4 18. Be2 f5 $15 {, followed by ...f5-f4 soon.}) 17...
+Rfe8 18. Nc3 (18. Rg1 Rac8) 18... Rac8 {Being slightly underdeveloped, White
+has to count with ...c6-c5.} 19. Be2 N7f6 20. Be5 (20. b4 Nxc3 21. Rxc3 Ne4 $17
+{Now is another moment when the bishop's exposure counts.}) (20. Bh2 Bxh3) (20.
+h4 Nxc3 21. bxc3 (21. Rxc3 Ne4 $17) 21... c5 $11 22. O-O Ne4 23. Kg2 Re6 24. d5
+Rg6 25. Bh5 Ra6 {with excellent counterplay.}) 20... Nd7 (20... Nxc3 $5 21.
+Rxc3 Nd5 22. Rc1 f6 23. Bg3 Rcd8 24. h4 g6 25. Kd2 Kf7 {leads to similar play
+as in Gustafsson,J (2625)-Baramidze,D (2611) Oberhof 2012 (0-1, 62) above.})
+21. Bd6 N5f6 22. b4 Nb6 23. h4 g6 24. Be5 Nbd5 25. Nxd5 Nxd5 26. h5 f6 27. Bg3
+g5 $11 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 17"]
+[Black "5.Qc2 c5! 6.cxd5"]
+[Result "*"]
+[ECO "D37"]
+[Annotator "GM Mihail Marin"]
+[PlyCount "34"]
+[EventDate "2019.??.??"]
+
+1. d4 ({It is interesting to compare a sub-line from the comment to the 6th
+move with this one:} 1. c4 c6 2. e4 d5 3. exd5 cxd5 4. d4 Nf6 5. Nc3 e6 6. Nf3
+Bb4 7. cxd5 Nxd5 8. Qc2 O-O 9. Be2 Nc6 10. O-O {In this position Black usually
+retreats with the bishop to e7 (sometimes after a2-a3, which is useful as it
+prevents ...Nb4.) In the line below the bishop is on e7 already.}) 1... d5 2.
+c4 e6 3. Nc3 Be7 4. Nf3 Nf6 5. Qc2 $5 {This is intended to be a subtle
+semi-waiting move. White takes the b1-h7 diagonal under control in advance,
+hoping to transpose to a normal Exchange variation. But the queen's early
+development weakens the control in the centre, allowing an immediate reaction.}
+c5 $1 ({White's idea would be justified after} 5... O-O 6. cxd5 exd5 7. Bg5 c6
+8. e3 {followed by Bd3.}) 6. cxd5 ({If} 6. e3 {I would recommend} b6 $5 $146 (
+6... cxd4 7. exd4 O-O 8. cxd5 Nxd5 9. Be2 Nc6 {leads to an improved version of
+the tabiya mentioned in the introduction.}) 7. cxd5 exd5 8. Bb5+ {Otherwise
+Black would get a comfortable hanging pawns version, as the queen is exposed
+on c2 and the bishop passive on c1.} Bd7 9. Bxd7+ Nbxd7 (9... Qxd7 $5 {leads
+to interesting but unnecessary complications:} 10. Ne5 Qe6 11. Qa4+ Nbd7 12.
+O-O O-O 13. Nxd7 Nxd7 14. e4 dxe4 15. d5 Qf5 16. f3 Ne5 17. fxe4 Qg6 {with
+mutual chances.}) 10. O-O O-O 11. Rd1 Rc8 $11) (6. dxc5 {is examined in the
+next line.}) 6... cxd4 7. Nxd4 (7. Qa4+ {mainly helps Black to develop.} Bd7 8.
+Qxd4 exd5 9. Nxd5 Qa5+ 10. Nc3 Nc6 11. Qd1 O-O-O {The quickest way to set up
+pressure along the central files, but also slightly exposing his own king. The
+following game is illustrative for the strength of Black's initiative:} (11...
+O-O 12. Bd2 Rfd8 {also offers Black the initiative.}) 12. Bd2 Bg4 13. e3 Rd7
+14. h3 Bxf3 15. Qxf3 Rhd8 16. Rd1 Qb4 17. Bb5 (17. Ba6 Kb8) 17... Rxd2 18. Rxd2
+Rxd2 19. Kxd2 Qxb2+ 20. Kd1 Qxc3 21. Qf5+ Kc7 22. Qb1 Bb4 23. Qc1 Ne4 24. Rf1
+a6 {0-1 Ovsejevitsch,S (2600)-Fodor,T (2420) Zalakaros 2010}) 7... O-O {
+This is possible precisely because the queen is not on d1 anymore.} 8. Bg5 {
+The most active move and the safest way to stay out of trouble.} (8. a3 Nxd5 (
+8... exd5 $5 {leads to an interesting isolani version. Qc2 and a2-a3 do not
+count as useful developing moves.}) 9. Nf3 (9. Bd2 b6 10. e4 Nxc3 11. Bxc3 Bb7
+12. Be2 Qc7 13. O-O Nd7 $11) 9... Nxc3 10. Qxc3 Bf6 11. Qc2 Bd7 12. e3 {
+Hahn,A (2218)-Bennett,A (2306) Seattle 2003 (0-1, 41)} Na6 $17 13. Bxa6 Qa5+
+14. Qd2 Qxa6 15. Qxd7 $2 Rfd8 16. Qc7 Rac8 17. Qg3 Rc2 18. Bd2 Bxb2 19. Rd1 Qd3
+$19) (8. e3 {is too passive to be challenging.} exd5 9. Bd3 Nc6 10. Nxc6 bxc6
+11. O-O Bd6 $11 12. e4 Re8 13. f4 $2 Ng4 (13... dxe4 14. Nxe4 Nxe4 15. Bxe4 Ba6
+16. Rd1 h6 17. Bf3 Qb6+ 18. Kh1 Rad8 $11 {Zhou,J (2650)-Xu,J (2513) China 2010
+(В1/2-В1/2, 45)}) 14. g3 Bc5+ 15. Kg2 Qd7 16. f5 Ne5 $17) (8. g3 $6 {weakens
+the long diagonal.} Nxd5 $15 9. Nb3 (9. Bg2 $2 Nb4 10. Qd1 Qxd4 $19) (9. Nxd5
+Qxd5 10. Nf3 e5 $15) 9... Nxc3 10. Qxc3 (10. bxc3 Qd5 $15) 10... Nc6 11. Bd2
+Qd5 $15) (8. e4 $146 {is a premature display of activity.} exd5 9. e5 Ng4 10.
+Bf4 (10. f4 $2 Bc5 $19) 10... Bg5 11. Bxg5 Qxg5 12. Nf3 Qh5 13. Nxd5 Nxe5 {
+Black has some initiative in a symmetrical position.} 14. Be2 Bg4 15. O-O-O
+Nbc6 16. Nxe5 Bxe2 17. Nxc6 bxc6 18. Ne7+ Kh8 19. Rd2 Bg4 20. f3 Be6 $15 {
+The knight is almost trapped as taking on c6 would get into a nasty pin and
+both white wings are under pressure.}) 8... h6 9. Bh4 (9. Bxf6 Bxf6 10. e3 exd5
+{This position is similar to the one arising in Line 13 from the first
+database, with the difference that the queen stands on the more exposed
+c2-square and not on the safer d2-square.} 11. Be2 ({With the queen on d2,
+Line 13 from the first database goes} 11. Bb5 {But here Black is doing well
+after} a6 12. Ba4 b5 13. Bb3 Bxd4 14. exd4 {Here is the first difference: the
+queen does not control d4.} Re8+ 15. Ne2 a5 {And now the queen stands in the
+bishop's way.} 16. Qd2 Bf5 $11) (11. Rd1 Nc6 12. Be2 Nxd4 13. exd4 Be6 $15)
+11... Nc6 12. Nxc6 bxc6 13. O-O Be5 14. Na4 Qd6 15. g3 Bh3 16. Rfd1 Rac8 17.
+Rac1 Qf6 18. b3 Rfe8 $11 19. Nc5 (19. Rd2 $2 d4 20. e4 Bf4 $1 $17 {Tomaszewski,
+R (2435)-Boensch,U (2530) Halle 1987 (0-1, 39)}) 19... a5 (19... d4 $11) 20.
+Bf1 Bg4 21. Rd2 h5 $11) 9... Nxd5 10. Bxe7 (10. Nxd5 $2 Bxh4 $19 {leaves the
+knights hanging.}) 10... Qxe7 {The most active continuation.} ({Black has all
+the reasons to count on dull equality after} 10... Nxe7 11. Rd1 Qb6 12. e3 (12.
+Qb3 Qxb3 13. Nxb3 {1/2-1/2 Erdos,V (2576)-Khalifman,A (2628) Plovdiv 2008})
+12... e5 13. Nf3 Bf5 14. Bd3 Bxd3 15. Rxd3 Qg6 16. Nh4 Qg4 {1/2-1/2 Golod,V 
+(2590)-David, A (2487) Vlissingen 2000} 17. g3 Nbc6 18. O-O g5 19. Ng2 Qe6 $11)
+11. Nxd5 exd5 12. e3 Nc6 {Black's lead in development compensates for White's
+blockade on d4. Once again we notice that the queen does not defend the centre.
+} 13. Qd2 {Practically a loss of time, but optically the safest move.} (13. Rd1
+{offers Black some light initiative.} Bg4 14. Nxc6 (14. Be2 Nxd4 15. Rxd4 Rac8
+16. Qd2 Bxe2 17. Kxe2 Qg5 18. g3 Qh5+ 19. f3 Qg6 20. Rc1 Qa6+ {followed by ...
+Qxa2.}) 14... bxc6 15. Be2 Bxe2 16. Qxe2 f5 17. O-O f4 18. Qf3 fxe3 19. Qxe3
+Qxe3 20. fxe3 Rab8 21. b3 Rb6 22. Rxf8+ Kxf8 23. e4 Ra6 24. exd5 cxd5 25. Rxd5
+{В1/2-В1/2 Akopian,V (2679)-Jakovenko,D (2737) Elista 2008}) (13. Nxc6 bxc6 14.
+Rd1 (14. Qxc6 d4 $17 {[%cal Ge7b4,Gc8b7]} 15. Qxa8 Qb4+) 14... Be6 15. Be2 {
+1/2-1/2 Villar Reymundo,J (2233)-Panelo Munoz,M (2379) Almazan 2017} c5 $11)
+13... Nxd4 {A rather simplistic continuation.} (13... Re8 $1 {is much stronger.
+At a later moment the pressure along the e-file will prove useful.} 14. Bb5 ({
+The point is that} 14. Be2 {runs into the double attack} Qe4 $15 15. Bf3 $2
+Qxd4 $1) 14... Bd7 15. Bxc6 (15. O-O Nxd4 16. Bxd7 Nf3+ 17. gxf3 Qxd7 $15)
+15... bxc6 16. Nb3 c5 $11 17. Qxd5 $6 Bb5 18. O-O-O Rad8 19. Qf5 Bd3 20. Rxd3
+g6 $17) 14. Qxd4 Qe4 15. Bd3 (15. Qxe4 dxe4 16. Bc4 {offers White just a
+symbolic advantage.} Rd8 17. O-O (17. Ke2 Bg4+ 18. f3 Rac8 19. Bb3 exf3+ 20.
+gxf3 Be6 $15) 17... Kf8 18. Rfd1 Bg4 19. Rdc1 Rac8 20. h3 Bd7 21. Bd5 Rxc1+ 22.
+Rxc1 Bxh3 23. Bxb7 Be6 24. Bxe4 Bxa2 25. Ra1 Be6 26. Rxa7 Rd1+ 27. Kh2 Rd2 $11)
+15... Qxd4 (15... Qxg2 $6 16. O-O-O Qg4 17. f4 Qe6 18. Rhg1 f6 19. Kb1 {
+with some initiative for the pawn in Bratanov,Z (2457)-Doncea,V (2388) Sunny
+Beach 2011 (0-1, 54)}) 16. exd4 Re8+ 17. Kd2 Kf8 $11 {Black should have no
+problems reaching a draw, as he only has one potential weakness on d5.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 18"]
+[Black "5.Qc2 c5! 6.dxc5"]
+[Result "*"]
+[ECO "D37"]
+[Annotator "GM Mihail Marin"]
+[PlyCount "42"]
+[EventDate "2019.??.??"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. Nf3 Nf6 5. Qc2 c5 6. dxc5 {An ambitious, but
+in view of Black's answer also risky move.} d4 $1 {Black refrains from
+retrieving the pawn and prefers to gain space in the centre. This implies a
+pawn sacrifice, but quite a promising one, as White will have problems with
+his development.} 7. Nb5 {This forces Black to sacrifice a pawn:} (7. Na4 {
+places the knight on a bad square.} b6 $1 {Inviting White to clear the a3-f8
+diagonal and give up his queenside space advantage.} (7... Nc6 8. a3 e5 9. e4
+Nxe4 $6 ({Better is} 9... Bg4 10. Be2 b6 $44 {but it is probably best to
+switch to this plan at once, as in the mainline.}) 10. Qxe4 Qa5+ 11. b4 Qxa4
+12. Be2 $1 (12. Bd3 {exposes the bishop to} f5 {Miles,A (2565)-Van der Sterren,
+P (2520) Wijk aan Zee 1987 (0-1, 35)}) 12... Nxb4 13. O-O Nc6 14. Nxe5 $14) 8.
+cxb6 (8. e4 bxc5 {retrieves the pawn and consolidates Black's space advantage.}
+9. Bd3 Nc6 10. a3 e5 11. O-O O-O 12. Bd2 Bg4 13. Ne1 Qc7 14. f3 Be6 $17 {
+Krasenkow,M (2585)-Nielsen,P (2636) Copenhagen 2003 (0-1, 40)}) 8... axb6 9. b3
+Bb7 10. e3 e5 11. Nxe5 ({What else? if} 11. Be2 d3 $1 12. Qxd3 Qxd3 13. Bxd3 e4
+{wins a piece.}) (11. exd4 Bxf3 12. gxf3 Nc6 $1 {offers Black tremendous
+initiative. For instance:} 13. dxe5 Bb4+ 14. Bd2 Nd4 15. Qd3 Nxf3+ 16. Ke2
+Qxd3+ 17. Kxd3 O-O-O+ 18. Ke3 Nxd2 19. exf6 Rhe8+ $17) 11... dxe3 12. fxe3 (12.
+Bxe3 Bb4+ $17 13. Bd2 $2 Qd4 $19 14. Bc3 Qxe5+) 12... O-O 13. Bd3 Qc7 14. Bb2
+Bb4+ 15. Kf1 Re8 {with promising initiative for the pawn.}) (7. Ne4 Nxe4 8.
+Qxe4 {exposes the white queen.} Nc6 9. a3 (9. g4 $1 Qa5+ 10. Bd2 Qxc5 $15) 9...
+a5 (9... f5 10. Qf4 O-O 11. b4 b6 12. cxb6 axb6 13. Bb2 Bf6 14. Rd1 e5 $15) 10.
+g3 (10. g4 Bxc5 $11) 10... O-O 11. Bg2 Bxc5 12. O-O f5 13. Qf4 Qf6 14. e4 e5
+$17 {Van Hoolandt,P (2065)-Upper,J (1969) Quebec 2018 (0-1, 40)}) 7... e5 $1 {
+It is essential to keep the molesting pawn on d4.} 8. Nxe5 (8. e3 Nc6 9. exd4
+exd4 10. Bf4 O-O 11. Bc7 (11. Nd6 Nh5 $17) (11. Bd6 Bxd6 12. cxd6 Qa5+ 13. Qd2
+Re8+ 14. Kd1 Qxd2+ 15. Kxd2 Ne4+ 16. Kc1 Nxf2 $17) 11... Qd7 12. Ne5 Qe6 13.
+O-O-O Ne8 14. f4 {Svidler,P (2744)-Jakovenko,D (2729) Sochi 2012 (0-1, 25)}
+Bxc5 15. Nd3 b6 $19) 8... a6 9. Na3 (9. Nd6+ Bxd6 10. cxd6 Qa5+ 11. Qd2 Qxe5
+$19 {Zhu,C (2485)-Zatonskih,A (2522) Hangzhou 2011 (1/2-1/2, 53)}) (9. Qa4 O-O
+10. Nd6 Bxd6 11. cxd6 Qxd6 12. Nd3 Bf5 13. Bf4 Qe6 14. Qa3 Qxc4 $15 {В1/2-В1/2
+Bogner,S (2522)-Naumann,A (2528) Bad Liebenzell 2010}) 9... O-O {White's
+knight on a3 is passive and he needs a lot of time to complete his development.
+} 10. g3 (10. Nd3 Bf5 11. g3 Nfd7 ({A better regrouping than} 11... Nbd7 12.
+Bg2 Nxc5 {which also offers Black reasonable compensation:} 13. O-O Rc8 14. Qd1
+Re8 15. Bf4 Qb6 16. Rb1 Nfe4 17. Be5 {Shimanov,A (2606)-Tregubov,P (2595)
+Konya 2012 (1-0, 34)} Nd7 18. Bf4 Bxa3 19. bxa3 Qf6 20. Bd2 Ndc5 $15) 12. Bg2
+Nxc5 13. O-O Nc6 14. Qd1 Nxd3 15. exd3 Nb4 16. Bxb7 (16. Be4 Bxe4 17. dxe4 Re8
+18. Bd2 Nc6 19. Nc2 Bf8 20. Re1 Qd7 $15) 16... Bxd3 17. Bxa8 Qxa8 18. Re1 Be4
+19. Qe2 (19. Qxd4 Bh1 20. f3 Qxf3 21. Qf2 Qxf2+ 22. Kxf2 Nd3+ 23. Kg1 Nxe1 24.
+Kxh1 Re8 25. Bd2 Nd3 $15 {with a persistent initiative in the ending}) 19... f5
+20. f3 Bc5 21. Kg2 d3 $36 {with a dangerous initiative.}) (10. Bd2 Bxc5 11. b4
+Re8 12. Nd3 Bf8 13. c5 {Bosboom,M (2440)-Dutreeuw,M (2315) Germany 2003 (1-0,
+40)} a5 14. bxa5 Bf5 15. Nc4 Na6 $19) 10... Qa5+ 11. Bd2 (11. Qd2 Qxc5 12. Nd3
+Qc6 $15) 11... Qxc5 12. Nd3 {Under different circumstances such a blocking
+knight would ensure White against any problems. But due to his delayed
+development, White is in a critical position anyway. One important aspect is
+that the knight is excposed to ...Bxd3 followed by ...Ne5, removing the
+blockade.} Qc6 13. Rg1 (13. f3 Bf5 $15) 13... Bf5 14. Bg2 Qc8 15. c5 (15. Qb3
+Nc6 16. c5 Re8 17. Rc1 {Markus,R (2481)-Benkovic,P (2469) Subotica 2003 (1-0,
+62)} Bxd3 18. Qxd3 Ne5 19. Qxd4 Bxc5 {[%cal Ge5d3]} 20. Rxc5 (20. Qc3 Qf5 $19)
+20... Qxc5 21. Qxc5 Nd3+ 22. Kd1 Nxc5 $17) 15... Nbd7 16. c6 (16. b4 Re8 17.
+Kf1 a5 $15) 16... Bxa3 17. bxa3 Ne5 18. Nxe5 Bxc2 19. cxb7 Qe6 20. bxa8=Q Rxa8
+21. Bxa8 Qxe5 $15 {Khalifman,A (2688)-Topalov,V (2739) Dubai 2002 (0-1, 32)} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 1"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Mihail Marin"]
+[SetUp "1"]
+[FEN "r2q1rk1/pb2bppp/1pn2n2/2ppN3/3P1B2/2NBPQ2/PP3PPP/R4RK1 b - - 0 1"]
+[PlyCount "9"]
+[EventDate "2019.??.??"]
+
+{White is planning to attack on the kingside by means of Qh3. How should Black
+regroup his pieces?} 1... Qc8 $1 {The queen is heading for the optimal
+e6-square.} 2. Rac1 Qe6 3. Nxc6 Bxc6 4. Rfd1 c4 $1 5. Bb1 b5 {With promising
+queenside counterplay.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 2"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Mihail Marin"]
+[SetUp "1"]
+[FEN "rnb2rk1/p1B2ppp/1p2p3/3q4/1b1P4/4P3/PP1N1PPP/R2QKB1R b KQ - 0 1"]
+[PlyCount "7"]
+[EventDate "2019.??.??"]
+
+{Black has to prove his compensation for the pawn. How should he proceed?} 1...
+Nc6 $1 {The knight anticipates White's practically only reasonable answer by
+stepping closer to the queenside light squares. Besides, the hanging bishop on
+c7 will later cause White more loss of time.} 2. a3 Bxd2+ 3. Qxd2 Na5 4. Rd1
+Bd7 {Preparing the queenside invasion with ... Ba4 and ...Nb3.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 3"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Mihail Marin"]
+[SetUp "1"]
+[FEN "rnb2rk1/p1p1bppp/1p2p3/q7/3P1B2/3BPN2/PP3PPP/R2Q1K1R b - - 0 1"]
+[PlyCount "7"]
+[EventDate "2019.??.??"]
+
+{White plans a long regrouping finishing with Kh2. But this offers Black time
+to organize his counterplay. How should Black develop his initiative?} 1... Ba6
+$1 2. Bxc7 Bxd3+ 3. Qxd3 Na6 4. Bg3 Nb4 {It can be easily seen that Black has
+gained a few tempi for his initiative. He is already planning to follow with ..
+.Rac8.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 4"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Mihail Marin"]
+[SetUp "1"]
+[FEN "2rr2k1/pb1nbppp/1p2p3/q7/3P1B1P/4PN2/PP2BPP1/R2Q2KR b - - 0 1"]
+[PlyCount "11"]
+[EventDate "2019.??.??"]
+
+{White is ready to coordinate his pieces with Kh2. Black should play
+energetically.} 1... Bxf3 $1 {Very wise decision. Black is giving his strong
+bishop in order to strike in the center.} 2. Bxf3 e5 3. Bg5 Bxg5 4. hxg5 exd4
+5. Qxd4 Qxg5 6. Rh5 Qf6 $11 {Ding,L (2769)-So,W (2799) Berlin 2018 (1/2-1/2,
+31) Black's superior coordination compensates for the theoretical bishop's
+superiority over the knight in the endgame.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 5"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Mihail Marin"]
+[SetUp "1"]
+[FEN "r4rk1/pb2bppp/np2p3/8/1P3B2/P2BP3/3N1PPP/2R1K2R b K - 0 1"]
+[PlyCount "5"]
+[EventDate "2019.??.??"]
+
+{It seems that White has a slight pressure in this pawn structure. Black
+should play dynamically.} 1... Bxg2 2. Rg1 Bb7 3. Bh6 Bf6 {White's attack is
+not dangerous as his development is incomplete yet.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 6"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Mihail Marin"]
+[SetUp "1"]
+[FEN "r4rk1/p3bpp1/1qn1b2p/2pp4/4PB2/P2B1N2/1PQ2PPP/2R2RK1 b - - 0 1"]
+[PlyCount "9"]
+[EventDate "2019.??.??"]
+
+{How should Black deal with the central tension?} 1... Rac8 $1 {A useful
+developing move, inviting White to show his cards.} 2. exd5 Bxd5 3. Bh7+ Kh8 4.
+Be4 Bxe4 5. Qxe4 Qxb2 {White must still prove his compensation for the pawn.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 7"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Mihail Marin"]
+[SetUp "1"]
+[FEN "r2q1rk1/p3b1pp/1p2bp2/3p3Q/2pP1B2/4P3/PPB2PPP/R4RK1 b - - 0 1"]
+[PlyCount "15"]
+[EventDate "2019.??.??"]
+
+{How should Black parry White's kingside initiative?} 1... f5 2. Be5 b5 3. f4
+g6 4. Qf3 Qd7 5. h3 a5 6. Kh1 a4 7. Rg1 b4 8. g4 Rad8 $15 {Black's position is
+preferable as things are stable on the kingside, while on the queenside his
+majority could become dangerous at any time.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 8"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Mihail Marin"]
+[SetUp "1"]
+[FEN "2r3k1/pb2bppp/1p2pn2/q7/3P1B2/P2BPN1P/1P3PP1/3Q1K1R b - - 0 1"]
+[PlyCount "7"]
+[EventDate "2019.??.??"]
+
+{White is planning to complete the development by means of Kg1 followed by Kh2.
+How can Black prevent this idea?} 1... Nd5 2. Bg3 Bxa3 $1 {The structure is
+not as solid as it looks!} 3. bxa3 Qxa3 4. Ne1 Rc1 {Black has a killing
+initiative.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 9"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Mihail Marin"]
+[SetUp "1"]
+[FEN "r2q1rk1/ppn2p1p/2pB2p1/3p4/1P1P4/P1Q1PN2/5PPP/R4RK1 b - - 0 1"]
+[PlyCount "3"]
+[EventDate "1989.08.??"]
+[EventRounds "15"]
+[EventCategory "16"]
+
+{How should Black answer White's Bxd6?} 1... Nb5 $1 {Of course, in Carlsbad
+structure, d6 is the ideal spot for the knight.} 2. Qb3 Nxd6 {Black has
+achieved a dream position. The knight on d6 controls all important squares and
+Black is ready to launch a slow positional attack based on ...f7-f6, ...g6-g5
+and ...h7-h5-h4.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 10"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Mihail Marin"]
+[SetUp "1"]
+[FEN "rnbqk2r/ppp1bppp/5n2/3p4/3P1B2/2N5/PPQ1PPPP/R3KBNR b KQkq - 0 6"]
+[PlyCount "5"]
+
+{How Black should react to 6.Qc2} 6... c5 $1 7. dxc5 d4 $1 8. O-O-O Qa5 $1 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 11"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Mihail Marin"]
+[SetUp "1"]
+[FEN "rnb1k2r/pp2bppp/8/2P5/N2pn3/6B1/PP2PPPP/2KR1BNR b kq - 0 11"]
+[PlyCount "7"]
+
+{Find the best continuation for Black.} 11... Bg5+ $1 {The right decision.
+Black gains some time to finish the development.} 12. Kb1 Bf5 $1 {The logical
+follow up} 13. Ka1 Nc6 {The pawn on d4 needs to be defended.} 14. Nf3 Bf6 {
+Black is much better} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 12"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Mihail Marin"]
+[SetUp "1"]
+[FEN "rn1qk2r/ppp1bppp/5n2/3p1b2/3P1B2/1QN1P3/PP3PPP/R3KBNR b KQkq - 0 7"]
+[PlyCount "7"]
+[EventDate "2019.??.??"]
+
+{7.Qb3 is the critical test for our setup with 5...Nf6. Do you remember how
+Black should react?} 7... Nc6 $1 {A developing move, sacrificing the pawn on
+b7 for the initiative.} 8. Qxb7 {critical test for Black's reply} Nb4 $1 {
+Apart from ...Nc2+, Black also has some hopes to trap the queen, or at least
+to reach a draw by perpetually attacking it} 9. Bb5+ Kf8 10. Kd2 Ne4+ $1 {
+[%emt 0:00:13] With a double-edged position with mutual chances. For more
+information check again chapter} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 13"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Mihail Marin"]
+[SetUp "1"]
+[FEN "r2q1rk1/pp2bppp/2p2n2/n2p1b2/3P1B2/P1N1PN2/QP2BPPP/R3K2R b KQ - 0 11"]
+[PlyCount "3"]
+
+{What is the best plan for Black in this position?} 11... b5 12. Ne5 Rc8 {
+Black is ready to follow with ...Nc4.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 14"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Mihail Marin"]
+[SetUp "1"]
+[FEN "r3k2r/pp1n1ppp/2p5/3n1b2/3P4/P3P2P/1P3P1B/2R1KBNR b Kkq - 0 16"]
+[PlyCount "3"]
+
+{What's the best move for Black?} 16... Nxe3 $1 {easy but cute tactic} 17. fxe3
+Be4 $1 {Black is winning.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 15"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Mihail Marin"]
+[SetUp "1"]
+[FEN "2r1r1k1/p4pp1/2p2q1p/3pb3/N7/1P2P1Pb/P1QRBP1P/2R3K1 b - - 0 19"]
+[PlyCount "3"]
+
+{How Black should continue?} 19... d4 $1 {Black should open the position} 20.
+e4 {is just bad} Bf4 $1 $17 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 16"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Mihail Marin"]
+[SetUp "1"]
+[FEN "rnbqk2r/pp2bppp/4pn2/2Pp4/2P5/2N2N2/PPQ1PPPP/R1B1KB1R b KQkq - 0 6"]
+[PlyCount "7"]
+
+{6.dxc5 is an ambitious, but risky move. How Black should develop the
+initiative?} 6... d4 $1 {Black refrains from retrieving the pawn and prefers
+to gain space in the centre. This implies a pawn sacrifice, but quite a
+promising one, as White will have problems with his development.} 7. Nb5 e5 $1
+{It is essential to keep the molesting pawn on d4.} 8. Nxe5 a6 $1 9. Na3 O-O $1
+{[%emt 0:00:18] White's knight on a3 is passive and he needs a lot of time to
+complete his development. The exercise continued in Test} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 17"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Mihail Marin"]
+[SetUp "1"]
+[FEN "rnbq1rk1/1p2bppp/p4n2/2P1N3/2Pp4/N5P1/PPQ1PP1P/R1B1KB1R b KQ - 0 10"]
+[PlyCount "7"]
+
+{How Black should continue after 10.g3} 10... Qa5+ $1 11. Bd2 Qxc5 12. Nd3 Qc6
+$1 13. Rg1 Bf5 $1 {with more than enough compensation for the pawn} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 18"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Mihail Marin"]
+[SetUp "1"]
+[FEN "r2qk2r/ppp1bppp/2n5/3N1b2/3P1Bn1/1Q2P3/PP3P1P/R3KBNR b KQkq - 0 9"]
+[PlyCount "5"]
+
+{9.Nxd5 is not very good for White. Find the right continuation for Black.} 
+9... O-O $1 10. Bg2 Bh4 $1 11. Bg3 Be6 $1 {Black is already much better in the
+game Topalov - Kasparov, Linares 1997} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 19"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Mihail Marin"]
+[SetUp "1"]
+[FEN "rn1q1rk1/pp1b1ppp/4pb2/8/8/P3PN2/1PQ2PPP/R1B1KB1R b KQ - 0 12"]
+[PlyCount "3"]
+
+{What is the best way for Black to seize the initiative?} 12... Na6 {Black is
+preparing ...Rc8 and Nc5.} 13. Bxa6 Qa5+ {Important intermezzo after Which it
+is not clear how White will complete the development.} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Test 20"]
+[Black "?"]
+[Result "*"]
+[Annotator "GM Mihail Marin"]
+[SetUp "1"]
+[FEN "rn1q1rk1/1p2bppp/p4n2/2P2b2/2Pp4/N2N2P1/PPQ1PP1P/R1B1KB1R b KQ - 0 11"]
+[PlyCount "9"]
+
+{How Black should regroup his pieces?} 11... Nfd7 $1 {the best setup, one
+knight is coming on c5, the other on c6} 12. Bg2 Nxc5 13. O-O Nc6 $1 14. Qd1
+Nxd3 15. exd3 Nb4 $1 {Black has enough compensation for the small material
+deficit.} *
+

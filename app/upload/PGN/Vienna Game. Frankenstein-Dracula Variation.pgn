@@ -1,0 +1,827 @@
+[Event "Vienna Game: Frankenstein-Dracula Variation"]
+[Site "Main Level"]
+[Date "????.??.??"]
+[Round "?"]
+[White "About This Course"]
+[Black "?"]
+[Result "*"]
+[SourceTitle "Main Level"]
+[Source "Chessable.com"]
+[Comment "vienna-game-frankenstein-dracula-variation/course/29512, variation/5209875"]
+
+{Welcome to this course on the 'Frankenstein-Dracula' variation of the Vienna 
+Game. I've taken the unusual step of giving different variations from different 
+color perspectives, as I firmly believe the best way to understand a chess 
+opening (among other things) is from the perspective of both sides. In general, 
+when the variation given favors White, it will be presented from White's 
+perspective and vice-versa, and when the variation is equal/unclear, I've mostly 
+presented it from White's perspective as a 'default'. In any event, please feel 
+free to send me feedback about this or anything else about this course - a chess 
+opening is very much a 'living document' and I expect to update it in future as 
+it continues to evolve. Thank you, - John Chernoff} 1. -- *
+
+[Event "Vienna Game: Frankenstein-Dracula Variation"]
+[Site "Main Level"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Introduction"]
+[Black "?"]
+[Result "*"]
+[SourceTitle "Main Level"]
+[Source "Chessable.com"]
+[Comment "vienna-game-frankenstein-dracula-variation/course/29512, variation/5197513"]
+
+{Welcome to this course on one of the most complex if not downright 
+controversial of openings: the 'Frankenstein Dracula' variation. As we shall 
+see, the positions that arise from this opening defy easy explanation. In fact, 
+even computers tend to require quite a bit of time to unearth many of the hidden 
+ideas buried deep within, waiting until the witching hour to surface and haunt 
+our opponent! Adding to the interest of this variation is that it was for some 
+time considered one of the most theoretically crucial lines of the entire Vienna 
+Game. The mid-20th century American Master Weaver Adams even went as far as to 
+claim it, and therefore chess itself, a 'forced win' for White! Nowadays there 
+are several other, at least as theoretically viable defenses for Black, but the 
+Frankenstein-Dracula variation still lurks deep within the heart of the Vienna, 
+waiting for brave practitioners to resurrect it once more.} 1. e4 e5 2. Nc3 
+{This begins the 'Vienna Game', an opening popular in the 19th century. One of 
+the main ideas of the Vienna is to eventually push f4 (often after Bc4 and d3) 
+and transpose to a favorable form of the Kings Gambit Declined. However, as we 
+shall see, Black's third move twists the game in a completely different 
+direction...} Nf6 3. Bc4 ({Again, White intends after this move something like} 
+3. Bc4 3... Nc6 4. d3 Bc5 {(4 ...Bb4 or 4 ...Na5 are perhaps a bit better, but 
+we digress)} 5. f4 $1 {with a promising version of the Kings Gambit Declined.}) 
+Nxe4 ({This is the key move of the 'Frankenstein-Dracula', the point being that} 
+Nxe4 4. Nxe4 d5 {recovers Black's piece with immediate equality.}) ({For} Nxe4 
+4. Bxf7+ {, see the 'Caveman Attack' lines.}) 4. Qh5 {[%cal 
+Gh5f7,Gh5e5,Gc3e4][%csl Re4,Re5,Rf7] White's threats of Qxf7, Qxe5, and Nxe4 
+(after, say, Qe7?) force Black's next move.} Nd6 {[%cal Gd6f7,Gd6c4] Covering f7 
+and attacking the bishop on c4.} 5. Bb3 ({After} 5. Qxe5+ {,} Qe7 ({but not} 
+5... Be7 $2 6. Qxg7 {,} 6... Bf6 7. Qg4 $1) {Black will have already extracted 
+the proverbial fangs from this opening.}) Nc6 {[%cal Gc6e5]} ({For the actually 
+quite reasonable} 5... Be7 {, see the 'Return to Sanity' lines.}) 6. Nb5 {[%cal 
+Bb5d6,Gh5f7,Gb3f7][%csl Rd6,Rf7] This obnoxious move is the crux of White's play 
+so far. Faced with the threat of Nxd6+ and Qxf7++, Black suddenly finds it 
+difficult to defend f7 in a way that doesn't lose material.} g6 7. Qf3 {[%cal 
+Gf3f7,Gb3f7][%csl Rf7] Renewing the attack on f7.} f5 8. Qd5 {[%cal Gb3f7][%csl 
+Rf7] Once again menacing f7. Black must now lose an entire rook (!) but, as we 
+shall see, White's sudden largesse comes at a high positional price.} Qe7 {[%cal 
+Ge7f7][%csl Rc7]} ({This used to be considered practically the 'only move' for 
+Black, but as we shall see later on, there is a case to be made for} 8... Qf6 $5 
+{as well.}) 9. Nxc7+ Kd8 10. Nxa8 ({Now, after} 10. Nxa8 10... b6 {, White, up a 
+rook, is suddenly faced with the main thematic problem of this entire variation 
+- what to do with his Queen! Black intends 11... Bb7 and 12... Nd4, and how 
+White plans to retreat (or, in some rare cases, not retreat) his Queen defines 
+the following lines:}) {• For lines where the Queen goes to h3 (or sometimes 
+g4 after ...f4), see 'Kingside Ho'; • For other Queen retreats, see 'Modern 
+Options'; • For lines where the Queen stays put, see the 'Boomerang Trap'.} *
+
+[Event "Vienna Game: Frankenstein-Dracula Variation"]
+[Site "Main Level"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Caveman Attack"]
+[Black "(Bxf7+): Part One"]
+[Result "*"]
+[SourceTitle "Main Level"]
+[Source "Chessable.com"]
+[Comment "vienna-game-frankenstein-dracula-variation/course/29512, variation/5178528"]
+
+1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Bxf7+ {One of the many odd themes of the 
+Frankenstein-Dracula is how often Black loses the right to castle and how rarely 
+it matters due to White's backward development. This variation is very much a 
+case in point as Black's King is, outside of a few transparent traps, hardly 
+bothered at all by the temporary exposure.} Kxf7 5. Nxe4 d5 {[%csl Gd5,Ge5,Re4]} 
+({By far the most natural continuation - if} d5 6. Ng3 {, Black is clearly for 
+choice after, for instance,} 6... Nc6 7. d3 Be7 8. Nf3 h5 $1 {, intending ...h4 
+and, should White allow it, ...h3. Thus White instead engages in some tactical 
+shenanigans in order to maintain the Knight on e4 for a little while longer.}) 
+6. Qf3+ Kg8 7. Ng5 {[%cal Gf3f7,Gf3d5][%csl Rf7,Rd5]} Qd7 {[%cal Gd7f7,Gd7d5] 
+The only move, but completely sufficient.} 8. d4 exd4 ({Also good (and perhaps 
+even simpler) is} 8... e4 9. Qb3 h6 $1 {, since} 10. Nxe4 $2 {runs into} 10... 
+Qe6 $1) 9. Ne2 h6 {[%csl Rg5] Begone, foul steed!} 10. Nh3 g5 $17 {[%cal 
+Bc7c5,Bb8c6][%csl Rh3,Rf3] In spite of an optically airy King, Black's Bishop 
+pair and central pawns combined with White's ungainly Knight on h3 give 
+significantly better chances for the second player.} *
+
+[Event "Vienna Game: Frankenstein-Dracula Variation"]
+[Site "Main Level"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Caveman Attack"]
+[Black "(4.Bxf7+): Part Two"]
+[Result "*"]
+[SourceTitle "Main Level"]
+[Source "Chessable.com"]
+[Comment "vienna-game-frankenstein-dracula-variation/course/29512, variation/5178527"]
+
+1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Bxf7+ {Here we explore one other, equally 
+ineffective, attempt by White to create play against Black's temporarily exposed 
+King.} Kxf7 5. Nxe4 d5 6. Qf3+ Kg8 7. d4 {[%cal Bf3b3,Gb3g8][%csl Rd5,Rg8] Again 
+White relies on Qb3 to indirectly 'defend' the Knight on e4.} exd4 8. Ne2 ({For} 
+8. Ng5 {, see the previous line.}) c6 {[%cal Bd5e4,Gd8d5][%csl Re4] Renewing the 
+threat to White's Knight, since Qb3+ can now be answered with ...Qd5.} 9. Qb3 
+{One last valiant attempt to thwart fate.} Qe7 {[%cal Be7e4][%csl Re4]} 10. Ng5 
+({Or} 10. Ng3 Na6 $1 11. O-O h5 $1 {, with a strong initiative.}) h6 11. Nf3 
+{White thus keeps his Knight from relegation on g3, but at a high cost, for now 
+Black's pawns continue to assert themselves.} c5 {[%cal Gc5d4][%csl 
+Gc5,Gd5,Gd4]} 12. Qxd5+ Be6 13. Qe4 Nc6 14. O-O Qf7 $17 {[%cal Be6d5,Bf8d6]} 
+({Black's bishops, harmonious development and central control promise an 
+excellent middlegame. For instance, after} Qf7 15. Nf4 Bf5 $1 16. Qe2 Re8 17. 
+Qd1 g5 18. Nd3 c4 19. Nde1 {White's pieces are almost comically useless.}) *
+
+[Event "Vienna Game: Frankenstein-Dracula Variation"]
+[Site "Main Level"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Return to Sanity (5...Be7)"]
+[Black ": Fishing Pole Attack"]
+[Result "*"]
+[SourceTitle "Main Level"]
+[Source "Chessable.com"]
+[Comment "vienna-game-frankenstein-dracula-variation/course/29512, variation/5177474"]
+
+1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Qh5 Nd6 5. Bb3 Be7 {[%cal Be8g8] With this 
+move Black intends to return the extra pawn in return for a much less chaotic 
+existence. However, as we shall see, with a bit of ingenuity White can still 
+manage to create serious difficulties for an unwary defender.} 6. Nf3 ({For the 
+newer} 6. Qxe5 {, see Caruana-Giri.}) O-O $6 ({As we shall see, this plausible 
+move is significantly riskier than} 6... Nc6 {.}) 7. h4 $1 {[%cal Bf3g5] This 
+is, for all practical purposes, White's most aggressive and promising 
+continuation.} Nc6 8. Ng5 {[%csl Rh7] White now embarks upon a somewhat long but 
+very forcing 'positional' combination.} h6 9. Qg6 {[%cal Gg6h7][%csl Rh7]} Bxg5 
+10. hxg5 Qxg5 11. Qxg5 hxg5 12. Nd5 $1 {[%cal Gh1h8,Gb3g8,Bd2d3,Bc1g5] In spite 
+of managing to exchange queens and having two extra pawns, Black is in a very 
+precarious situation. White's threat is d3, Bxg5, and Nf6+, and amazingly 
+enough, very little can be done to prevent it!} Nf5 $6 ({This at first appears 
+to be Black's only real try, but there is also} 12... a5 $1 {when White might be 
+a tempo short with d3, Bxg5, and Nf6+, and may have to settle for a small 
+positional edge with} 13. a4 {, since Black still cannot consolidate with} 13... 
+Ne8 {due to} 14. d4 $1 exd4 (14... Nxd4 $4 15. Ne7#) 15. Bxg5 {with} 16. Ne7+ 
+{to follow.}) 13. d3 g4 $1 {[%csl Gf5]} ({The point of this odd-looking move is 
+that g2-g4 is prevented, thus allowing the Knight on f5 to remain in defense of 
+the Kingside. If instead} 13... Nfd4 $2 14. Bxg5 Nxb3 {, White mates immediately 
+with} 15. Nf6+ $1) 14. Bg5 Ncd4 {[%cal Bd4b3] Seemingly warding off the worst, 
+but White has still more wood for the fire...} 15. Nf6+ $1 {[%csl Rg8] In spite 
+of Black's best efforts, this move still works!} gxf6 16. Bxf6 {[%cal 
+Bh1h8][%csl Rg8]} Ng7 17. Kd2 $1 {[%cal Bh1h6,Ba1h1] White's plan is simplicity 
+itself: double rooks on the h-file and give checkmate, and due to Black's 
+undeveloped queenside, there is no easy way to prevent this.} a5 {[%cal 
+Ba8a6,Ga6h6] In order to transfer the Queen's Rook over to the defense of 
+Black's beleaguered Kingside.} 18. Rh6 ({Much more exact than} 18. Rh2 $6 {when 
+Black can defend with} 18... Ra6 {,} 19. Rah1 Nh5 $1 {, intending to meet} 20. 
+Rxh5 {with 20....Rxf6.}) Ndf5 {Forcing White's rook back to h2 at the expense of 
+misplacing the formerly well-placed Knight on d4.} 19. Rh2 Ra6 {The only 
+defense.} 20. Rah1 Nh5 ({Is Black surviving?} Nh5 21. Rxh5 $2 Rxf6 22. Rh8+ Kg7 
+{leads nowhere, but, alas, White has one last trump.}) 21. Bxe5 $1 {[%csl 
+Rh5,Rf5,Ge5,Gb3] White's bishops are absolutely dominating the Black Knights.} 
+Re8 22. Bc3 Nfg7 {There is no longer any decent defense.} 23. Bxg7 Kxg7 24. Rxh5 
+$18 {[%csl Rg7,Gh5,Gh1,Gb3,Rg4,Ra5,Rc8] The smoke has cleared, and material 
+equilibrium has been re-established. Unfortunately for Black, White is 
+positionally winning due to active pieces, healthier pawns, and significantly 
+less exposed King.} *
+
+[Event "Vienna Game: Frankenstein-Dracula Variation"]
+[Site "Main Level"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Return to Sanity (5...Be7)"]
+[Black ": Nak Attack, Part One"]
+[Result "*"]
+[SourceTitle "Main Level"]
+[Source "Chessable.com"]
+[Comment "vienna-game-frankenstein-dracula-variation/course/29512, variation/5177475"]
+
+1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Qh5 Nd6 5. Bb3 Be7 6. Nf3 O-O $6 {In this 
+line Black continues to tempt fate with 6... O-O, but this time White tries a 
+different but no less intriguing attacking plan.} 7. O-O {This move is mostly 
+noteworthy for having been tried by Nakamura, albeit in a 'bullet' game against 
+Harikrishna. Nevertheless, the idea is interesting - White eschews the e5 pawn 
+in order to rapidly develop an attack based on Black's awkward Knight on d6 and 
+undeveloped queenside.} ({It's also worth noting that the simple} 7. Nxe5 {also 
+gives White an excellent game.}) Nc6 ({Also possible, and certainly simpler, is} 
+7... e4 8. Ne5 Nc6 9. Nxe4 Nxe5 10. Qxe5 Nxe4 11. Qxe4 c6 {, with 
+straightforward equality.}) 8. d4 $5 {The point of White's play. Black must now 
+tread with caution.} Nxd4 9. Nxd4 exd4 10. Nd5 ({White intends to cause trouble 
+with the two bishops in an open position. Black has a variety of defenses, many 
+of which ultimately lead to similar situations, so we'll examine two in 
+particular:} 10. Nd5 10... Ne8 $6 {, as played by Harikrishna, and 10... c6.}) 
+c6 {This defense illustrates some typical ideas for both sides in this variation 
+- White's activity with the two bishops and rapid development, and Black's 
+inherently solid position and imposing pawn center.} 11. Nxe7+ Qxe7 12. Bg5 Qe5 
+13. Rae1 Qc5 {Though Black's position might seem precarious, it remains a tough 
+nut for White to crack open.} 14. f4 ({Also possible was} 14. g4 b6 {(what 
+else?)} 15. Be7 Qxh5 16. gxh5 Nf5 17. Bxf8 Kxf8 {with an unclear endgame.}) d3+ 
+{Black must act quickly to distract White from his nefarious plans on the 
+Kingside.} 15. Kh1 dxc2 16. f5 Nxf5 {Practically forced, as otherwise 17. f6.} 
+17. Re8 $1 {[%cal Ge8f8,Gh5f7,Gb3f7][%csl Rf7] Yikes! Black now must conduct a 
+very cool but by no means hopeless defense.} d5 {[%cal Gb3d5][%csl Rd5]} 
+({Avoiding} 17... g6 $4 18. Bxf7+ $3 Kxf7 19. Rxf5+ $1 Qxf5 20. Qxh7+ Kxe8 21. 
+Qe7 {mate!}) 18. Be7 $1 {[%cal Ge7f8,Ge7c5,Gf1f7,Bf5e7][%csl Rc5,Rf8,Rf7] The 
+hits keep coming!} Qxe7 {And Black keeps rolling along. White has nothing better 
+now than 'win' the queen for ultimately too much material (rook, knight, and 
+three (!) pawns).} 19. Rxe7 c1=Q 20. Rxc1 Nxe7 $17 {Black, with a solid position 
+and a significant material advantage, should be at least significantly better if 
+not outright winning.} *
+
+[Event "Vienna Game: Frankenstein-Dracula Variation"]
+[Site "Main Level"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Return to Sanity (5...Be7)"]
+[Black ": Nak Attack, Part Two"]
+[Result "*"]
+[SourceTitle "Main Level"]
+[Source "Chessable.com"]
+[Comment "vienna-game-frankenstein-dracula-variation/course/29512, variation/5177476"]
+
+1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Qh5 Nd6 5. Bb3 Be7 6. Nf3 ({For the newer} 6. 
+Qxe5 {, see Caruana-Giri.}) O-O $6 ({As we shall see, this plausible move is 
+significantly riskier than} 6... Nc6 {.}) 7. O-O {Again White plays a la 
+Nakamura - Harikrishna.} Nc6 8. d4 $5 Nxd4 9. Nxd4 exd4 10. Nd5 {In the previous 
+variation, Black successfully navigated a treacherous situation after 10...c6. 
+This time we'll see how Harikrishna initially reacted against Nakamura's 
+novelty.} Ne8 $6 {[%cal Be8f6] Black's plan is to simplify with 11... Nf6 next, 
+but is it a tempo late?} 11. Re1 Nf6 ({Perhaps White now expected} 11... Bf6 12. 
+Bc4 $1 d6 13. Bd3 g6 14. Nxf6+ {with play on the dark squares, but Black instead 
+finds a cheeky way to enter a not as scary as it at first appears endgame.}) 12. 
+Nxe7+ Qxe7 13. Qxh7+ ({If instead} 13. Rxe7 Nxh5 {places the Knight on an oddly 
+useful square where it prevents Bf4, White's best attacking try.}) Kxh7 14. Rxe7 
+$14 ({White stands at least slightly better here due to the two bishops and 
+powerful rook on e7. It would be easy for Black to go wrong with, say,} 14. Rxe7 
+14... Kg6 $2 15. c3 ({even better is} 15. h4) 15... dxc3 $4 16. Bc2+ $1) *
+
+[Event "Vienna Game: Frankenstein-Dracula Variation"]
+[Site "Main Level"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Return to Sanity (5...Be7)"]
+[Black ": Anand - Ivanchuk"]
+[Result "*"]
+[SourceTitle "Main Level"]
+[Source "Chessable.com"]
+[Comment "vienna-game-frankenstein-dracula-variation/course/29512, variation/5177477"]
+
+1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Qh5 Nd6 5. Bb3 Be7 {With this move Black 
+intends to return the extra pawn in return for a much less chaotic existence. 
+However, as we shall see, with a bit of ingenuity White can still manage to 
+create serious difficulties for an unwary defender.} 6. Nf3 {In this line we 
+explore the much safer 6...Nc6 for Black, starting with a blitz game between 
+Anand and Ivanchuk.} Nc6 {[%cal Gc6e5,Gc6d4][%csl Rc2]} ({This is a much more 
+sensible alternative to the} 6... O-O $6 {of the previous lines.}) 7. Nxe5 
+{[%csl Rf7]} g6 $1 {[%csl Rh5]} ({In 1935, Alexander Alekhine won a crucial 
+world championship game against Max Euwe after} 7... Nxe5 $6 8. Qxe5 O-O 9. Nd5 
+$1 {, and for some time thereafter this whole line was considered to be quite 
+good for White. Alas, in modern times 7... g6 has been found to take a lot of 
+fun out of this line.}) 8. Qe2 (8. Nxc6 dxc6 {is even less promising for 
+White.}) Nd4 {[%csl Rb3,Re2]} 9. Qd3 Nxb3 10. axb3 {[%csl 
+Rc1,Gc8,Ge7,Rf6,Rg7,Rh6] At first sight White seems to be doing well due to the 
+open a-file, actively placed pieces and Black's dark square weakness on the 
+kingside. However, White's difficulty developing the queen's bishop (normally 
+Black's main problem in these lines) and Black's latent bishop pair add up to a 
+roughly equal position.} Nf5 {[%cal Bd7d6]} 11. O-O (11. Nd5 c6 12. Nxe7 Qxe7 
+{is awkward for White.}) d6 12. Nf3 c6 {[%cal Gc6d5][%csl Gd5]} 13. b4 {[%cal 
+Bb4b5,Bb2b3,Bc1b2] Not only intending b4-b5 but also to possibly develop the 
+Bishop after b3.} O-O 14. b5 d5 $10 {[%cal Be7f6,Bf8e8]} ({Anand, against 
+Ivanchuk, continued with} d5 15. bxc6 {and wound up with rather little. Other 
+attempts have been made to demonstrate an advantage of some sort as White from 
+here (with mixed results), but in reality this position (like so many in chess) 
+is simply going to favor the better player.}) *
+
+[Event "Vienna Game: Frankenstein-Dracula Variation"]
+[Site "Main Level"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Return to Sanity"]
+[Black "(5...Be7) : Caruana - Giri"]
+[Result "*"]
+[SourceTitle "Main Level"]
+[Source "Chessable.com"]
+[Comment "vienna-game-frankenstein-dracula-variation/course/29512, variation/5177478"]
+
+1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Qh5 Nd6 5. Bb3 Be7 {In this line we will see 
+a different, perhaps more positional approach as adopted by Caruana against 
+Giri.} 6. Qxe5 $5 ({An interesting attempt to avoid the dregs of the previous 
+line -} 6. Nf3 Nc6 7. Nxe5 g6 $1) O-O 7. d4 (7. Nd5 {would be premature here due 
+to} 7... Re8 {.}) Nc6 {[%csl Re5,Rd4]} 8. Qf4 {[%csl Gf4,Rd6] In many lines of 
+this variation the White Queen finds a more or less acceptable 'home' on f4. 
+Black's positional problem now is his d6 Knight, which prevents the natural 
+development of his queenside pieces. Giri, however, as always, manages to find a 
+path to some sort of equality.} Na5 {[%cal Ba5b3][%csl Rb3]} ({Also possible is 
+the slightly wackier looking} 8... b5 $5 {.}) 9. Bd5 {Without this Bishop 
+White's advantage would most likely vanish completely.} Ne8 (9... c6 $5 {is 
+interesting as well after} 10. Bf3 Ndc4 $5 11. b3 Na3 {(!)}) 10. Bf3 {[%cal 
+Bd4d5] White intends d5 with some minor yet possibly enduring space advantage.} 
+Nc6 ({Returning the offsides knight into action. If now} Nc6 11. d5 {, Black can 
+try either} 11... Nb4 {, exploiting the newly undefended c2 square due to 
+White's Bd5-f3 maneuver,} ({or} 11... Bd6 $1 {, with 12... Ne5 to follow.})) 11. 
+Nd5 {[%csl Rc7,Re7] Aiming to procure the two bishops.} Bd6 {[%cal 
+Gd6c7,Gd6f4][%csl Rf4]} 12. Qd2 ({Thus Black has managed to swap an awkward 
+knight on d6 for an equally awkward bishop! In return, White has agreed to 
+misplace his queen on d2, so the position remains balanced in a rather ungainly 
+way. In Caruana's game, Giri now played the slightly dodgy} 12. Qd2 12... b6 $6 
+(12... Nf6) ({or} 12... Ne7 {are simpler}) {but of course managed to eventually 
+draw anyhow.}) *
+
+[Event "Vienna Game: Frankenstein-Dracula Variation"]
+[Site "Main Level"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Kingside Ho, Nunn"]
+[Black "Attack, Part One"]
+[Result "*"]
+[SourceTitle "Main Level"]
+[Source "Chessable.com"]
+[Comment "vienna-game-frankenstein-dracula-variation/course/29512, variation/5177486"]
+
+1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Qh5 Nd6 5. Bb3 Nc6 6. Nb5 g6 7. Qf3 f5 8. Qd5 
+Qe7 9. Nxc7+ Kd8 10. Nxa8 b6 {[%cal Bc8b7] As mentioned in the introduction, 
+White is at a major crossroads of this opening here. First we will examine lines 
+where the White Queen seeks a Kingside shelter on either h3 or g4 after Black 
+has played ...f4 (often in response to h2-h4). Also, a quick word about Nxb6, 
+both here and elsewhere: This move can and often is played at practically any 
+juncture in this opening and it is rarely completely clear when it is 
+appropriate to do so. However, there are a few general considerations to make: 
+• A) Black's Knight on c6 almost invariably goes to d4 (after Bb7) where White 
+will sometimes wish to drive it off with c3. However, if White has refrained 
+from Nxb6, Black will, in reponse to c3, be loath to take on b3 as the open 
+a-file will point directly to a suddenly weak pawn on a7. • B) There are a 
+variety of situations where the Black Bishop penetrates to h1, capturing the 
+White Rook, and is then recaptured by the White Queen. Obviously in these cases 
+White would then regret having given up his Knight as it might have otherwise 
+survived unless Black could afford to have spent a tempo capturing it on a8. • 
+C) There are many lines where, after Nxb6 axb6, the Black pawn on b6 can be 
+profitably targeted by a White piece (typically a Bishop or Queen threatening 
+B/Qxb6+). As you can see, these are fairly vague guidelines. The best advice for 
+White is to experiment with Nxb6 at various moments and see where it 
+particularly helps or hinders your development - remember, you're up quite a bit 
+of material already, so the first and most important thing right now is 
+survival!} 11. d3 Bb7 {[%csl Ra8]} 12. h4 {[%cal Bc1g5][%csl Re7,Rd8] Creating 
+both a threat of 13. Bg5 and also a bit of breathing room on the Kingside for 
+both the Queen and in some cases (especially after an eventual ...Bxg2) the 
+Rook. That said, this does involve a small loss of time as Black often wishes to 
+play ...f4 in any event. In later variations we will look at what happens when 
+White tries sending her majesty directly to h3 (and into a possible Black 
+pawnstorm spearheaded by ...g5, ...h5, etc.).} f4 {[%cal Gf4e3][%csl Rc1]} 13. 
+Qf3 Bh6 $1 {[%cal Gh8e8,Gh6f4,Be5e4] The foundations of modern 'Frankenstein' 
+theory comes from the good Doctor of Mathematics, Grandmaster John Nunn, who 
+examined this line in the early 70's. 13... Bh6 is one of his chief 
+contributions, and the strength of the move is immediately apparent: Black 
+intends ...e4 and possibly ...e3 afterwards, supported by the Bishop on h6. 
+13... Bh6 also paves the way for Black's most important 'reserve' unit - the h8 
+rook - to enter the game, often with lethal consequences.} 14. Qg4 $6 {As we 
+shall see, this move, natural as it may seem to sidestep ...Nd4, wastes a 
+valuable tempo and lands White in serious trouble.} e4 $1 {[%cal 
+Ge7e1,Gd6e4][%csl Re1] This thrust is often the key to breaking apart White's 
+position.} 15. Bxf4 {This move, made 'famous' in Hansen - Nunn (under 26 World 
+Championship, 1974), leads to a quick a ruthless demolition of White's 
+Kingside.} exd3+ 16. Kf1 Bxf4 17. Qxf4 Rf8 $1 {[%cal Gf8f1][%csl Rf1,Rf4] The 
+power of Black's Rook - see comments about 13 ...Bh6 - is graphically 
+demonstrated here.} 18. Qg3 Ne4 {[%csl Rf2,Rg3]} 19. Qc7+ Ke8 20. Nh3 Nxf2 
+{[%cal Be7e2] As a certain English Grandmaster might say here, 'Splat!'.} 21. 
+Nxf2 Qe2+ 22. Kg1 Qxf2+ 23. Kh2 Qxh4+ 24. Kg1 Qd4+ 25. Kh2 Ne5 $19 {And White is 
+either checkmated in a few more moves or must give up copious amounts of 
+material (and then be checkmated in a few more moves).} *
+
+[Event "Vienna Game: Frankenstein-Dracula Variation"]
+[Site "Main Level"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Kingside Ho: Nunn"]
+[Black "Attack, Part Two"]
+[Result "*"]
+[SourceTitle "Main Level"]
+[Source "Chessable.com"]
+[Comment "vienna-game-frankenstein-dracula-variation/course/29512, variation/5177485"]
+
+1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Qh5 Nd6 5. Bb3 Nc6 6. Nb5 g6 7. Qf3 f5 8. Qd5 
+Qe7 9. Nxc7+ Kd8 10. Nxa8 b6 11. d3 Bb7 12. h4 f4 13. Qf3 Bh6 $1 {Again we will 
+examine 'Nunn's Move' of 13 ...Bh6, but this time with a slightly less suicidal 
+defense by White.} 14. Qg4 $6 {Again, this move is probably not best, though as 
+we shall see by no means simple for Black to refute.} e4 $1 {As in Hansen-Nunn, 
+but White has a different, and much less flimsy, defensive setup in mind.} 15. 
+d4 $1 {[%cal Bc1f4][%csl Rf4] This is the improvement!} e3 {[%csl Ge3,Re1] Black 
+no longer gets a quick attack and must instead patiently probe for weaknesses 
+around the White King.} 16. Nf3 {Black would like to see fxe3 by White as then 
+he might have Rf8-f4 as well as a more active Bishop on h6.} Rf8 {[%cal Gf8f2]} 
+({Also possible, though not quite as good as it at first seems, would be} 16... 
+exf2+ 17. Kxf2 Ne4+ 18. Kg1 {.}) 17. O-O Ne4 {[%cal Ge4f2,Ge3f2][%csl Rf2] Black 
+decides to try and 'force' fxe3.} 18. fxe3 fxe3 $13 {[%cal 
+Gh6f4,Gf8f4,Gf4g3,Ge4g3][%csl Rf4,Rg3] The position remains unclear, with Black 
+planning to infiltrate along the weak dark squares of White's Kingside (mostly 
+likely either by ...Bf4 and ...Ng3, or, if White plays d5, with ...Rf4 and 
+...Qc5+).} *
+
+[Event "Vienna Game: Frankenstein-Dracula Variation"]
+[Site "Main Level"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Kingside Ho, Nunn"]
+[Black "Attack, Part Three"]
+[Result "*"]
+[SourceTitle "Main Level"]
+[Source "Chessable.com"]
+[Comment "vienna-game-frankenstein-dracula-variation/course/29512, variation/5177487"]
+
+1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Qh5 Nd6 5. Bb3 Nc6 6. Nb5 g6 7. Qf3 f5 8. Qd5 
+Qe7 9. Nxc7+ Kd8 10. Nxa8 b6 11. d3 Bb7 12. h4 f4 13. Qf3 Bh6 $1 14. Bd2 {In 
+this variation we will examine what happens if White tries to head for the 
+queenside 'hills'. 14. Bd2 is the most natural move, attempting to O-O-O before 
+anything too serious starts hitting the proverbial fan.} ({It's perhaps also 
+worth mentioning that} 14. Ne2 {isn't a terrible option either, though after} 
+14... Nd4 15. Qg4 Nxe2 16. Kxe2 (16. Qxe2 $6 Bxg2) 16... e4 $1 {, it's hard not 
+to be a bit nervous about White's King.}) Nd4 15. Qg4 $6 ({As mentioned before, 
+this, in spite of appearing several times in master practice, is pretty much 
+demonstrably inferior to} 15. Qh3 {.}) e4 {[%cal Be4d3,Ge7e1,Be4e3][%csl Re1] 
+The key to Black's counterplay.} 16. O-O-O (16. Kf1 {is a fairly miserable 
+alternative.}) ({Note that} 16. dxe4 {loses quickly to} 16... Nxe4 17. Ne2 Nf6 
+$1 {,}) ({as does} 16. Bc3 {- which, as we shall see in the next variation, is 
+an excellent move after 15. Qh3 -} 16... exd3+ 17. Kf1 Ne4 $1) e3 {[%csl 
+Rd2,Ge3]} 17. fxe3 Nxb3+ 18. axb3 fxe3 19. Be1 e2+ {[%cal Gh6c1,Be2d1][%csl 
+Rc1,Rd1]} 20. Rd2 Bxa8 21. Nh3 ({White could alternatively head for a somewhat 
+drab endgame with} 21. Qxe2 Rf8 22. Qxe7 Kxe7 23. Nf3 Bxf3 24. gxf3 Rxf3 {,}) 
+({but not} 21. Nf3 $6 Bxf3 22. gxf3 (22. Qxf3 $2 Rf8 $1) 22... Re8 $1) ({or} 21. 
+Nxe2 $6 Re8 $1 {with a dodgy position in either case.}) Bxd2+ 22. Bxd2 Rf8 $13 
+{[%cal Bf8f1,Bd6f5][%csl Ge2,Ga8] In spite of the sightly inaccurate 15. Qg4, it 
+must be admitted that this position is probably roughly equal, with White up a 
+doubled pawn and Black with certain nebulous chances based on well placed pieces 
+and a dangerous looking pawn on e2.} *
+
+[Event "Vienna Game: Frankenstein-Dracula Variation"]
+[Site "Main Level"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Kingside Ho: Nunn"]
+[Black "Attack, Part Four"]
+[Result "*"]
+[SourceTitle "Main Level"]
+[Source "Chessable.com"]
+[Comment "vienna-game-frankenstein-dracula-variation/course/29512, variation/5177480"]
+
+1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Qh5 Nd6 5. Bb3 Nc6 6. Nb5 g6 7. Qf3 f5 8. Qd5 
+Qe7 9. Nxc7+ Kd8 10. Nxa8 b6 11. d3 {In this variation we play White, because I 
+think this is White's best line to play against the dreaded 'Nunn Attack'! It's 
+similar to the previous variation except that our Queen runs to h3 instead of 
+g4, and that, as it turns out, makes a big difference...} Bb7 12. h4 {[%cal 
+Bc1g5][%csl Re7,Rd8]} f4 13. Qf3 Bh6 $1 14. Bd2 {[%cal Be1c1] Like the previous 
+variation, White tries to escape to the queenside. Unlike the previous 
+variation, White does not succeed, but only because something better arises!} 
+Nd4 15. Qh3 $1 ({This move has yet to be tested in master practice, but there 
+are some fairly concrete tactical reasons why it is superior to} 15. Qg4 {, 
+which, as we have seen, has been played several times with dubious results.}) e4 
+16. Bc3 $1 {[%cal Gc3h8,Gh3d3][%csl Rd4,Rh8,Gd3]} ({The point of Qh3 is that 
+this interesting move is now possible. If instead} 16. O-O-O {we have lines 
+similar to 15. Qg4 with Black pushing the pawn down White's chessic throat.}) 
+Nxc2+ {[%cal Gh3d3]} ({In lines with 15. Qg4, Black would now have} 16... exd3+ 
+17. Kf1 Ne4 $1 {, but here that would immediately fail to} 18. Qxd3 {. Black 
+therefore must instead try his luck in this wild line.}) 17. Bxc2 exd3+ 18. Kf1 
+dxc2 {[%cal Bb7a6][%csl Rf1] Threatening 19....Ba6+.} 19. Qd3 {[%cal Gd3a6]} Re8 
+20. Nf3 $13 {Another wonky position has arisen, rife with possibilities for both 
+sides, but given that White seems to have weathered the worst and remains up an 
+exchange, I'd recommend this line over any of the other 'Kingside Ho' 
+variations.} *
+
+[Event "Vienna Game: Frankenstein-Dracula Variation"]
+[Site "Main Level"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Kingside Ho: Nunn"]
+[Black "Attack, Part Five"]
+[Result "*"]
+[SourceTitle "Main Level"]
+[Source "Chessable.com"]
+[Comment "vienna-game-frankenstein-dracula-variation/course/29512, variation/5177484"]
+
+1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Qh5 Nd6 5. Bb3 Nc6 6. Nb5 g6 7. Qf3 f5 8. Qd5 
+Qe7 9. Nxc7+ Kd8 10. Nxa8 b6 11. d3 Bb7 12. h4 f4 13. Qf3 Bh6 $1 {While I 
+consider the previous variation to be probably White's best against the 'Nunn', 
+it must be admitted that it is still quite complex and perhaps not to everyone's 
+taste. However, there is one more variation to try out, and perhaps the oddest 
+of all!} 14. Bd5 $5 {[%cal Gf3b7][%csl Rb7,Rc6] This quirky attempt to turn the 
+tables on the long diagonal has the benefit of, if not surprise, than at least 
+the virtue of being easy to remember as both sides have little room for 
+variation over the next several moves.} Nd4 {[%csl Rf3]} 15. Bxb7 {White not 
+only gets two pieces for the Queen but also saves the Knight on a8 from what 
+once seemed certain demise.} Nxf3+ 16. Bxf3 $13 {[%cal Gf3a8,Bg1e2][%csl Ga8] 
+White is 'up' two pieces and a rook for a Queen, though the Knight on a8 still 
+has a fair amount of work to do before it is 'officially' extracted. Also, Black 
+retains some attacking chances here based on ...e4 and what not, so the 
+evaluation of this position remains, like so many others in this line, roughly 
+unclear with chances for both sides and plenty of room for imaginative play.} *
+
+[Event "Vienna Game: Frankenstein-Dracula Variation"]
+[Site "Main Level"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Kingside Ho: Smothered"]
+[Black "Queen Defense"]
+[Result "*"]
+[SourceTitle "Main Level"]
+[Source "Chessable.com"]
+[Comment "vienna-game-frankenstein-dracula-variation/course/29512, variation/5177483"]
+
+1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Qh5 Nd6 5. Bb3 Nc6 6. Nb5 g6 7. Qf3 f5 8. Qd5 
+Qe7 9. Nxc7+ Kd8 10. Nxa8 b6 11. d3 Bb7 12. Qf3 {[%cal Bf3h3] In this line White 
+eschews 12. h4 and heads for h3 with the queen, hoping to create some sort of 
+makeshift shelter against the coming storm.} Nd4 {[%cal Gb7g2][%csl Rf3,Rg2]} 
+13. Qh3 ({Of course} 13. Qd1 {wasn't possible here due to} 13... Bxg2 {.}) f4 
+{[%cal Gd4f5] It is particularly important for Black to throw ...f4 in lines 
+where White has yet to play Nxb6 as it provides an excellent retreat (after c3) 
+on f5 for his d4-knight.} 14. c3 N4f5 15. Nxb6 {Having driven the Black Knight 
+from d4, this seems a logical moment to finally make this capture.} axb6 16. Bd2 
+{[%cal Be1c1] In this line White's King, at least, can expect relative safety on 
+the Queenside. The same, alas, cannot be said for the Queen on the Kingside!} h5 
+{[%cal Bg6g5,Bg5g4][%csl Rh3] The stormclouds gather.} 17. O-O-O g5 {[%cal 
+Bg5g4][%csl Rh3] Black is now already threatening to win the Queen outright with 
+...g4.} 18. f3 Qg7 $13 {[%cal Bg5g4][%csl Rh3]} ({Again threatening ....g4. In 
+Hawelko-Czerwonski (Lublin, 1993), White unsuccessfully tried} Qg7 19. g4 {,}) 
+({but in all fairness the slightly better} Qg7 19. g3 {also leads to a difficult 
+to defend position. In summary, though the computer evaluations are roughly 
+equal in this variation, it remains, practically speaking, a hazardous path for 
+White to tread.}) *
+
+[Event "Vienna Game: Frankenstein-Dracula Variation"]
+[Site "Main Level"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Kingside Ho:"]
+[Black "Kaidanov - Lputian"]
+[Result "*"]
+[SourceTitle "Main Level"]
+[Source "Chessable.com"]
+[Comment "vienna-game-frankenstein-dracula-variation/course/29512, variation/5177481"]
+
+1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Qh5 Nd6 5. Bb3 Nc6 6. Nb5 g6 7. Qf3 f5 8. Qd5 
+Qe7 9. Nxc7+ Kd8 10. Nxa8 b6 11. Nxb6 {Here we examine the consequences of 
+heading directly for h3 combined with an early Nxb6. Again, this makes Nxb3 a 
+bit more palatable for Black, though in our stem game Kaidanov-Lputian (USSR 
+Championship, 1987) White doesn't even bother ousting the Knight on d4, 
+preferring instead to castle queenside as quickly as possible.} axb6 12. d3 Bb7 
+{[%cal Gb7d5,Bc6d4][%csl Rd5]} 13. Qf3 ({Again eschewing} 13. h4 {in favor of a 
+beeline towards h3, which perhaps makes sense given the slight loss of tempo 
+involved with an early Nxb6.}) Nd4 14. Qh3 h5 {[%csl Rh3] Again Black tries to 
+smother the stranded Queen on h3.} 15. f3 {[%cal Gf3g4] Kaidanov sees the storm 
+coming (...f4, ...g5, and ...g4) and takes early precautions against the tsunami 
+of pawns upon the horizon.} f4 16. Bd2 Bg7 ({Black could have also tried the 
+'stock' plan of} 16... g5 {, 17... Qg7, and 18... g4.}) 17. O-O-O N6f5 {[%csl 
+Rd1,Rh1,Gb7,Gg7] A common theme in the Frankenstein-Dracula is for White to ward 
+off immediate threats to King and/or Queen only to drift into a position that 
+is, though not immediately losing, difficult to play for purely positional 
+reasons. This is that sort of position - Black's Bishops are currently far 
+stronger dynamically than either White Rook, and White still must find a way to 
+develop the dormant Kingside and eventually reactivate his nearly entombed 
+Queen.} 18. Re1 {Kaidanov, ever resourceful, finds a way to untangle things a 
+bit.} Kc7 ({Making way for ...Ra8 and also setting a sly trap:} Kc7 19. Bxf4 $2 
+Nxb3+ 20. axb3 Qb4 $1 21. Bd2 Bh6 $1) 19. Ne2 Nxb3+ 20. axb3 {Now Nxf4 is a real 
+threat, so Black carefully relocates the Queen.} Qd6 (20... Qc5 {is less 
+accurate due to} 21. b4 {-} 21... Qb5 22. Nc3 $1 {.}) 21. Nc3 {Threatening, 
+among other things, Nb5+.} Nd4 {Though White has made appreciable progress 
+bringing his Knight into play, Black is still doing very well due to the attack 
+brewing on the queenside after an inevitable ...Ra8.} 22. Ne4 Ra8 ({Very well 
+timed! if now} Ra8 23. Kb1 {, Black has} 23... Nxb3 $3 {- threatening ...Ra1++ 
+-} 24. cxb3 Qxd3+ {and mate next move.}) 23. Bc3 {White therefore must run the 
+King to d2 and hope for the best.} Bxe4 24. fxe4 ({This opens the h6-c1 
+diagonal, but there was little choice:} 24. Rxe4 Ra1+ {,} 24. dxe4 Ne2+ $1) f3 
+25. Bxd4 ({Lputian has conducted the attack with great energy and imagination, 
+but now makes a terrible misstep with} 25. Bxd4 25... Qb4 $2 {after which 
+Kaidanov was suddenly winning after} 26. Bxb6+ $1 {. We will instead look at 
+what Black could have done instead.}) Ra1+ 26. Kd2 Qb4+ 27. c3 (27. Bc3 Bh6+ 28. 
+Re3 Bxe3+ 29. Kxe3 Qc5+ {would be pretty rough sledding for White.}) Qxb3 28. 
+Bxe5+ (28. Rxa1 {runs into the drastic} 28... Qxb2+ 29. Ke3 Qe2# {.}) Bxe5 29. 
+Ke3 {Run away!} Qxb2 ({Since} Qxb2 30. Rxa1 {is still impossible due to} 30... 
+Qe2# {, White finally takes a moment to remove the troublesome pawn on f3.}) 30. 
+Qxf3 Bxc3 {A picturesque position! White now has a choice of ultimately iffy 
+endgames to seek refuge in.} 31. Qg3+ ({Also possible was the not terribly 
+attractive rook endgame after} 31. Qe2 Qxe2+ 32. Rxe2 ({or} 32. Kxe2 Ra2+) Rxh1 
+33. Rc2 Rxh2 {.}) Be5 32. Qxe5+ Qxe5 33. Rxa1 $15 {Though this endgame is 
+probably objectively drawn, Black's active Queen and White's still exposed King 
+suggests that this is by no means the end of White's practical difficulties.} *
+
+[Event "Vienna Game: Frankenstein-Dracula Variation"]
+[Site "Main Level"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Kingside Ho: Zhao Defense"]
+[Black "?"]
+[Result "*"]
+[SourceTitle "Main Level"]
+[Source "Chessable.com"]
+[Comment "vienna-game-frankenstein-dracula-variation/course/29512, variation/5208561"]
+
+1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Qh5 Nd6 5. Bb3 Nc6 6. Nb5 g6 7. Qf3 f5 8. Qd5 
+Qe7 9. Nxc7+ Kd8 10. Nxa8 b6 11. Qf3 {In this game GM Zhao Jun tries a rather 
+cheeky combination of an early Nxb6, Qd5-f3-h3, and forgoing d3 entirely in 
+order to save a tempo via an eventual d4. Let's see how it pans out!} Bb7 {[%cal 
+Gb7f3,Gb7a8][%csl Rf3]} 12. Nxb6 Nd4 {[%csl Rf3]} 13. Qh3 axb6 14. c3 Ne6 {Given 
+that White has already 'cooperated' a bit with 11. Nxb6, it is therefore 
+slightly surprising that Black does not simply now take on b3, followed by the 
+standard plan of 15... f4 and a kingside pawnstorm. Perhaps the open a-file 
+spooked him, but tempi are precious!} 15. Bxe6 Qxe6 16. Ne2 ({White stands quite 
+well here as Black will now find it awkward to begin pushing his kingside pawns 
+-} 16. Ne2 16... f4 $2 17. Qxe6 {.}) g5 {[%cal Bg5g4][%csl Rh3] Regardless, 
+Zhao's opponent, IM Dimitry Schneider, does not shirk from the challenge and 
+attempts to get his pawns going no matter what.} 17. d4 $1 {Thus White 
+vindicates his decision to omit d3 earlier.} g4 18. Qh4+ Kc8 19. dxe5 Bxg2 20. 
+Rg1 Bf3 {Though slightly thrown off of the 'normal' attacking avenues, Black is 
+still very much fighting here and White must play very accurately to avoid a 
+rapid debacle.} 21. Nd4 Qxe5+ 22. Be3 ({After} 22. Be3 22... Be4 {Zhao Jun 
+played the slightly inaccurate} 23. Nb3 {(f4 is probably safest) but managed to 
+eventually win an topsy-turvey affair. Suffice it to say that this position is 
+extraordinarily difficult to play for either side and that the better prepared 
+player will enjoy an enormous advantage here.}) *
+
+[Event "Vienna Game: Frankenstein-Dracula Variation"]
+[Site "Main Level"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Modern Alternatives:"]
+[Black "Qd3, Part One"]
+[Result "*"]
+[SourceTitle "Main Level"]
+[Source "Chessable.com"]
+[Comment "vienna-game-frankenstein-dracula-variation/course/29512, variation/5177488"]
+
+1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Qh5 Nd6 5. Bb3 Nc6 6. Nb5 g6 7. Qf3 f5 8. Qd5 
+Qe7 9. Nxc7+ Kd8 10. Nxa8 b6 11. Nxb6 axb6 12. Qd3 {Here White adopts an unusual 
+but interesting stratagem of simply dropping the Queen to d3 in order to save a 
+crucial tempo for the development of the Kingside. This however comes at the 
+costs of hemming in the queenside, something that could wind up haunting White 
+in the long term.} Bb7 13. Ne2 f4 {[%cal Be5e4][%csl Gf4] As usual, this move 
+remains Black's chief avenue of attack.} 14. O-O {White, having safely (for the 
+moment, at least) castled, will now try and untangle the queenside.} h5 {Black 
+must throw whatever he can towards the King as quickly as possible before White 
+activates any queenside pieces.} 15. Re1 {Perhaps a bit too fancy, as Black now 
+generates some nebulous-looking but actually quite potent threats. Therefore 15. 
+f3 might well be the future of this line for White.} e4 {[%csl Rd3,Ge4,Gf4]} 16. 
+Qc3 (16. Qh3 {seems to play right into the teeth of Black's pawnstorm after} 
+16... g5 {.}) Bg7 {[%cal Gg7b2][%csl Rc3]} 17. d4 $1 ({White now seems a move or 
+two away from some sort of sensible arrangement of pieces. For instance,} 17. d4 
+17... g5 {can be met with} 18. Bd5 $1 {,}) ({and} 17. d4 17... f3 $6 {leads to 
+favorable complications for White after} 18. Nf4 Bxd4 19. Qd2 {.}) e3 {[%cal 
+Be3f2,Gb7g2][%csl Rf2,Rg2] But this instructive 'sweeper-sealer' pawn thrust 
+comes just in time for Black to begin a very dangerous attack.} 18. fxe3 {18... 
+exf2+ was too dangerous to allow.} Ne4 $1 {[%csl Ge4,Rc3,Rc1] The point of 
+Black's play. White's e3 pawn now hems in both the Bishop on c1 and Queen on 
+c3.} 19. Qc4 ({The more natural looking} 19. Qd3 {runs into} 19... f3 $1 20. 
+gxf3 Qg5+ 21. Kf1 Nb4 $1) f3 $1 {[%csl Rg2,Rg1] Further neduding the enemy 
+Kingside.} 20. gxf3 Ng5 {[%cal Bg5f3][%csl Rg1,Re1] White's awkwardly placed 
+pieces now struggle to meet the simple threat of ...Nxf3+.} 21. Rf1 Rf8 {[%csl 
+Rf3]} 22. Nf4 ({Also possible was} 22. e4 {, sacrificing back material after} 
+22... Nxf3+ 23. Rxf3 Rxf3 24. Qd5 {with a totally unclear position.}) Nxd4 $1 
+{[%cal Gb7f3,Gg7d4,Gg5f3][%csl Rf3] Literally all of Black's pieces are taking 
+part in the assault.} 23. exd4 Nxf3+ 24. Rxf3 Bxf3 {White has been reeling from 
+the continuous blows, but now can shed a piece to finally develop the queenside 
+and reach a playable middlegame.} 25. Ne6+ $1 dxe6 26. Be3 $10 ({Amazingly, 
+after all that chaos, the position is now more or less equal after} 26. Be3 
+26... Bd5 27. Qd3 Rf3 28. Rf1 $1) *
+
+[Event "Vienna Game: Frankenstein-Dracula Variation"]
+[Site "Main Level"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Modern Alternatives:"]
+[Black "Qd3, Part Two"]
+[Result "*"]
+[SourceTitle "Main Level"]
+[Source "Chessable.com"]
+[Comment "vienna-game-frankenstein-dracula-variation/course/29512, variation/5177492"]
+
+1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Qh5 Nd6 5. Bb3 Nc6 6. Nb5 g6 7. Qf3 f5 8. Qd5 
+Qe7 9. Nxc7+ Kd8 10. Nxa8 b6 11. Nxb6 axb6 12. Qd3 {Here we explore another 
+attempt by White to save a tempo by immediately retreating to d3, though this 
+time it is mixed with a completely different plan for where to put the King...} 
+Bb7 13. c3 {At first this appears to be merely a misguided attempt to discourage 
+...Nd4, but in fact it is part of a much stranger idea!} Nd4 $1 {Threatening, as 
+usual, ...Bxg2.} 14. Qf1 {An unusual division of labor of the White Royalty now 
+takes place.} Nxb3 15. axb3 Bg7 {White now confronts the question of where the 
+King should reside in an particularly original manner.} 16. Kd1 $5 {Heading for 
+the 'hole' on c2.} Qe6 {Black immediately plans to huff and puff against White's 
+makeshift queenside home.} 17. Kc2 {Home, sweet home...} Ke7 {Allowing the h8 
+rook to participate in the coming festivities.} 18. Ne2 Rc8 19. d3 Bd5 {Black's 
+pieces look ominous indeed.} 20. c4 {Ungainly but forced.} b5 {Black throws the 
+last spanner into the works...} 21. Ra3 {An odd looking moving with several 
+purposes: 1) To guard b3, 2) To interpose along the soon to be devastated 
+c-file, and 3) To give the King access to a1 (after Kb1)} bxc4 22. bxc4 Nxc4 
+{The storm breaks.} 23. dxc4 Bxc4 24. Kb1 {24.Rc3 was also possible, though of 
+questionable efficacy after 24...e4. In any event, Black, though a rook down, 
+seems to have a alarming attack after 25...Qe4, and whether White can actually 
+survive is still anyone's guess. So, in other words, a typical 
+Frankenstein-Dracula variation!} *
+
+[Event "Vienna Game: Frankenstein-Dracula Variation"]
+[Site "Main Level"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Modern Alternatives:"]
+[Black "Prodigal Queen, Part One"]
+[Result "*"]
+[SourceTitle "Main Level"]
+[Source "Chessable.com"]
+[Comment "vienna-game-frankenstein-dracula-variation/course/29512, variation/5197508"]
+
+1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Qh5 Nd6 5. Bb3 Nc6 6. Nb5 g6 7. Qf3 f5 8. Qd5 
+Qe7 9. Nxc7+ Kd8 10. Nxa8 b6 11. Nxb6 {Here and in the next variation we examine 
+the (rather dodgy) consequences of White retreating the Queen all the way back 
+to d1.} axb6 12. Qf3 Bb7 13. Qd1 $6 {Back so soon, dearest?} Nd4 {[%cal 
+Gb7g2][%csl Gd4,Rg2,Rh1]} 14. Kf1 ({Since the Queen has abdicated her duties, 
+the King must help defend the Kingside. If instead} 14. f3 $2 e4 $1 {is an 
+immediate disaster for White.}) f4 {[%cal Be5e4,Bf4f3]} 15. f3 $2 {Again, this 
+move only encourages Black to break with ...e4.} e4 16. d3 {[%cal Gc1f4]} exf3 
+(16... e3 {was also very good/close to winning for Black.}) 17. gxf3 Bh6 {[%cal 
+Gh6f4][%csl Gf4]} 18. c3 N4f5 {[%cal Gf5e3,Gf5g3]} 19. Qe2 Qf6 20. Qf2 {In 
+Varga-Lalic (Croatian Championship, 1997), Black could now have continued as 
+follows:} Ne3+ $19 {[%cal Bh8e8,Bd6f5][%csl Ge3,Rf1,Rh1,Rg1,Ra1] With an 
+overwhelming position.} *
+
+[Event "Vienna Game: Frankenstein-Dracula Variation"]
+[Site "Main Level"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Modern Alternatives:"]
+[Black "Prodigal Queen, Part Two"]
+[Result "*"]
+[SourceTitle "Main Level"]
+[Source "Chessable.com"]
+[Comment "vienna-game-frankenstein-dracula-variation/course/29512, variation/5197509"]
+
+1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Qh5 Nd6 5. Bb3 Nc6 6. Nb5 g6 7. Qf3 f5 8. Qd5 
+Qe7 9. Nxc7+ Kd8 10. Nxa8 b6 11. Nxb6 {Here we again examine what happens when 
+the White Queen retreats all the way back to d1. In the previous variation 
+White's defense was a bit suicidal, so we'll try and improve upon it as best we 
+can here.} axb6 12. Qf3 Bb7 13. Qd1 $6 Nd4 14. Kf1 f4 15. c3 {A much better 
+defensive try than 15.f3? in the previous variation.} N4f5 16. d3 Nh4 $1 {[%cal 
+Gb7g2,Gh4g2][%csl Rg2] It's hard to keep the Knight down.} 17. f3 Ndf5 {[%cal 
+Gf5e3,Gf5g3] Reinforcements.} 18. Qe2 (18. Ne2 {would be drastically punished 
+by} 18... Nxf3 $1 19. gxf3 Bxf3 20. Rg1 Qh4 $1 {with an overwhelming attack.}) 
+g5 {[%cal Bg5g4] Intending to increase pressure even further with 19... g4.} 19. 
+d4 {Sacrificing a pawn to in order to exchange queens, but Black's attack will 
+continue to rage.} exd4 20. Qxe7+ Bxe7 $17 {[%cal Bb7a6,Bh8e8,Be7c5][%csl Rf1]} 
+({White can now play} Bxe7 21. Bc4 {to preclude 21... Ba6+. Regardless, Black 
+continues to have ample positional compensation for the exchange.}) *
+
+[Event "Vienna Game: Frankenstein-Dracula Variation"]
+[Site "Main Level"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Boomerang Trap"]
+[Black "?"]
+[Result "*"]
+[SourceTitle "Main Level"]
+[Source "Chessable.com"]
+[Comment "vienna-game-frankenstein-dracula-variation/course/29512, variation/5197511"]
+
+1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Qh5 Nd6 5. Bb3 Nc6 6. Nb5 g6 7. Qf3 f5 8. Qd5 
+Qe7 9. Nxc7+ Kd8 10. Nxa8 b6 {This is very much a key position in the 
+Frankenstein-Dracula, and generally wherever White chooses to retreat his Queen 
+to will define the way the game shapes up strategically. The one exception is 
+the following line, which I've decided to call the 'Boomerang Trap', and will 
+leave for to the reader to decide whom the trap is being sprung upon!} 11. Nf3 
+$6 {This at first suicidal-looking move is based on several hidden tactical 
+points.} Bb7 {[%cal Bc6d4,Gb7d5][%csl Rd5] How is White to extricate his Queen?} 
+12. d4 $1 {[%cal Gc1g5,Bd4e5][%csl Re5,Re7,Rd8] This is how! White now threatens 
+both ♗g5 and dxe5, thus forcing Black's reply.} Nxd4 {[%cal Gb7d5][%csl Rd5]} 
+13. Bg5 {One funny thing about this line is that actually both Queens will now 
+survive the ensuing melee.} Nxf3+ {[%cal Be7g5][%csl Rg5]} 14. Qxf3 Qxg5 {Black 
+seems to now be winning a lot of material for his missing Rook, but White isn't 
+going to let his Knight be captured without a fight!} 15. Bd5 {An unexpected 
+reversal of roles has now taken place upon the long diagonal.} e4 {[%cal 
+Bb7d5][%csl Rf3]} ({It is difficult to say for certain if this is objectively 
+better or worse than} 15... Bxd5 16. Qxd5 Qf4 17. O-O Qe4 18. Rfd1 {, when Black 
+will eventually win the a8 Knight at the cost of a rather technically difficult 
+endgame.}) 16. Qc3 {[%cal Gc3c7,Gc3h8][%csl Rh8,Rd8] Suddenly White menaces both 
+17. ♕c7+ and 17. ♕xh8!} Bxd5 17. Qxh8 {[%cal Gh8f8][%csl Rf8]} Qe7 {[%cal 
+Ge7f8]} 18. Nxb6 {A fortuitously timed sacrifice, gaining two pawns for the 
+piece.} axb6 19. Qd4 {[%cal Gd4b6,Gd4d5][%csl Rd5,Rb6]} Bc6 20. Qxb6+ Ke8 $13 
+{This position is difficult to evaluate - White is up a significant amount of 
+material, but his rooks will struggle to become active and Black's minor pieces 
+could well manage to eventually combine in some frightening ways.} *
+
+[Event "Vienna Game: Frankenstein-Dracula Variation"]
+[Site "Main Level"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Modern Alternatives: 8...Qf6!?"]
+[Black "?"]
+[Result "*"]
+[SourceTitle "Main Level"]
+[Source "Chessable.com"]
+[Comment "vienna-game-frankenstein-dracula-variation/course/29512, variation/5206920"]
+
+1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Qh5 Nd6 5. Bb3 Nc6 6. Nb5 g6 7. Qf3 f5 8. Qd5 
+Qf6 {This move is quite tricky, for there are many 'standard' lines that White 
+can adopt where the Black Queen proves better placed on f6. However, if nothing 
+else, White does have now a better version of the 'Boomerang' to fall back 
+on...} 9. Nxc7+ Kd8 10. Nxa8 b6 11. Nxb6 {To be fair, this computer will tell 
+you that White should just go into the 'main' lines from here, but for 
+simplicity's sake we will follow the most straightforward path to an (admittedly 
+slight) advantage.} axb6 12. d4 $5 {In the 'Boomering Trap' we saw that this 
+move was possible (though murky) for White, but here it works even better due to 
+the Black Queen no longer looming along the e-file.} Nxd4 13. Nf3 Bb7 {Seemingly 
+making nonsense of White's plan...} 14. Qxd4 {Surprise! In lines where Black has 
+played 8... ♕e7, this of course would run into 14... exd4+, but now it 
+forcibly leads to an at least slightly better endgame for White.} exd4 15. Bg5 
+Qxg5 16. Nxg5 Bxg2 17. Rg1 {While this position can be played for a win by 
+either side and certainly cannot be considered a refutation of 8... Qf6, it 
+nevertheless remains that White is a healthy exchange (for a pawn) up and 
+Black's pawns are a bit dodgy. If nothing else, this line is a practical respite 
+from the unending murk of the 'mainline' Frankenstein.} *
+

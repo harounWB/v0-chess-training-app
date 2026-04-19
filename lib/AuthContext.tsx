@@ -4,6 +4,8 @@ import { createContext, useContext, useEffect, useState } from 'react';
 import { User } from '@supabase/supabase-js';
 import { createClient, hasSupabaseEnv } from '@/utils/supabase/client';
 
+const GUEST_MODE_STORAGE_KEY = 'guestMode';
+
 interface AuthContextType {
   user: User | null;
   loading: boolean;
@@ -32,6 +34,12 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     const getSession = async () => {
       const { data: { session } } = await supabase.auth.getSession();
       setUser(session?.user ?? null);
+      if (session?.user) {
+        setIsGuest(false);
+        localStorage.removeItem(GUEST_MODE_STORAGE_KEY);
+      } else {
+        setIsGuest(localStorage.getItem(GUEST_MODE_STORAGE_KEY) === 'true');
+      }
       setLoading(false);
     };
 
@@ -41,6 +49,12 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     const { data: { subscription } } = supabase.auth.onAuthStateChange(
       async (event, session) => {
         setUser(session?.user ?? null);
+        if (session?.user) {
+          setIsGuest(false);
+          localStorage.removeItem(GUEST_MODE_STORAGE_KEY);
+        } else if (event === 'SIGNED_OUT') {
+          setIsGuest(localStorage.getItem(GUEST_MODE_STORAGE_KEY) === 'true');
+        }
         setLoading(false);
       }
     );
@@ -69,21 +83,28 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       email,
       password,
     });
+    if (!error) {
+      setIsGuest(false);
+      localStorage.removeItem(GUEST_MODE_STORAGE_KEY);
+    }
     return { error: error?.message };
   };
 
   const signOut = async () => {
     if (!supabase) {
-      setIsGuest(false);
       return;
     }
 
     await supabase.auth.signOut();
-    setIsGuest(false);
   };
 
   const setGuestMode = (guest: boolean) => {
     setIsGuest(guest);
+    if (guest) {
+      localStorage.setItem(GUEST_MODE_STORAGE_KEY, 'true');
+    } else {
+      localStorage.removeItem(GUEST_MODE_STORAGE_KEY);
+    }
   };
 
   return (

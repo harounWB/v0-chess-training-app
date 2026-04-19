@@ -1,0 +1,257 @@
+﻿[Event "?"]
+[Site "lichess.org"]
+[Date "2019.06.17"]
+[Round "?"]
+[White "All Grunfeld variations"]
+[Black "without Anti Grunfeld"]
+[Result "*"]
+[Annotator "Professional"]
+[PlyCount "32"]
+[EventDate "2019.??.??"]
+[SourceVersionDate "2019.05.18"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 (3. g3 c6 4. Bg2 (4. Nf3 d5 5. cxd5 cxd5 6. Nc3 Bg7
+7. Ne5 Nfd7 8. f4 Nxe5 9. fxe5 {p63}) 4... d5 5. b3 (5. Nf3 Bg7 6. O-O O-O {p64
+}) (5. Qa4 {p64} Nfd7) 5... dxc4 6. bxc4 e5 {p64}) (3. Nf3 Bg7 4. g3 c6 5. Bg2
+d5 6. cxd5 (6. Ne5 Ne4 7. O-O O-O {p65}) (6. Qb3 O-O 7. Nc3 Qb6 8. O-O Rd8 {p69
+}) (6. b3 O-O {p73} 7. O-O (7. Bb2 dxc4 8. bxc4 c5 {p73}) 7... dxc4 8. bxc4 c5
+{p73}) 6... cxd5 7. Nc3 (7. O-O O-O 8. Ne5 {p66} (8. Nc3 Ne4 {p66})) (7. Ne5 {
+p66} Ne4 {p66}) 7... Ne4 {p65}) (3. f3 d5 4. cxd5 Nxd5 5. e4 Nb6 6. Nc3 Bg7 7.
+Be3 O-O {p192} (7... Nc6 {p195 This is a move I played myself against Fabiano
+Caruana in one of the Grand Prix tournaments. It's an important alternative
+for Black, and although I'm not recommending it for this particular series
+I've included some notes on the move.}) 8. f4 (8. a4 a5 {p192 are moves that
+have been included in some games, but I don't want to waste any time on this
+as it's quite clearly anti-positional. Once the knight from b8 lands on b4
+White will deeply regret what he's done.}) (8. Rc1 Nc6 9. d5 Ne5 10. Bd4 c6 11.
+f4 Ng4 12. Bxg7 Kxg7 {p192}) (8. Qd2 Nc6 {p198 This is the move I want to
+cover here, as it's something I've been doing exclusively in this position.
+I've never played 8...e5 in my life so I thought I should stick to stuff I'm
+more comfortable doing myself.} (8... e5 9. d5 c6 10. h4 {p198 This has been
+played in a variety of high-level games and was seen, for instance, in the
+Anand-Gelfand match. It's a very interesting position and one that's a lot of
+fun to analyse.}) 9. O-O-O Qd6 (9... f5 {p198 To be honest with you, my
+original intention was to recommend this move, which I've been playing for a
+number of years. I even began that video, but then I ran into some very
+serious chess problems equalising after 10.e5} 10. e5) 10. h4 $6 (10. d5 $6 Ne5
+{drives the black pieces towards the squares they want to occupy.}) (10. f4 $6
+Bg4 11. Nf3 Rfd8) (10. e5 $6 Qb4 {p198 is completely counterproductive for
+White, as it drives the queen directly to the squares it wants to occupy. Nc4
+will now be a constant threat, as will Rd8, and the bishop has a fantastic
+square on f5.}) (10. Kb1 Rd8 {p200}) (10. Nb5 Qd7 {p205}) 10... Rd8 {p198
+After this move White has to pay attention to the centre.}) 8... Nc6 {p193})
+3... d5 4. Nf3 (4. e3 Bg7 5. Bd2 (5. Nf3 O-O 6. Be2 (6. b4 c6 7. Bb2 a5 8. b5
+a4 {p3}) 6... c5 7. dxc5 dxc4 {p4}) (5. Qb3 e6 6. Qa3 a5 7. Nf3 c6 {p6}) (5.
+cxd5 Nxd5 6. Nxd5 Qxd5 7. Ne2 O-O 8. Nc3 {p8} Qd8 9. Be2 c5 10. d5 e6 11. e4
+exd5 12. exd5 b6 {p9 12... Qb6 13. O-O Na6 , as recommended by Boris Avrukh,
+is a very decent idea and very reminiscent of the positions that arise from
+the Qb3-line we'll mention later.} 13. O-O Bb7) 5... O-O 6. Rc1 c5 7. dxc5 Na6
+8. Nxd5 (8. cxd5 Nxc5 9. Bc4 Bf5 10. Nge2 Bd3 11. Bb3 Ba6 12. O-O Rc8 {p2})
+8... Ne4 9. f3 Nxd2 10. Qxd2 e6 11. Nc3 {p2}) (4. cxd5 Nxd5 5. Na4 (5. e4 Nxc3
+6. bxc3 Bg7 7. Ba3 (7. Bg5 c5 8. Rc1 O-O 9. Nf3 (9. d5 {p13}) 9... Bg4 10. d5
+Qd6 {p13}) (7. Qa4+ Nd7 8. Nf3 (8. Be3 O-O {p15}) 8... O-O {p16} 9. Be2 (9. Bg5
+c5 10. Rc1 a6 {p16}) 9... c5) (7. Bb5+ {p44} c6 8. Ba4 O-O 9. Ne2 c5 10. O-O
+Nc6 {p45}) (7. Nf3 c5 8. Bb5+ {p46} (8. h3 {p49} O-O) (8. Rb1 O-O 9. Be2 {
+p125 This line has been a source of worry for me over a number of years
+because, as you may already have surmised from my videos, I tend to look for
+replies to White's ideas in the Grünfeld which aren't very theory-heavy and
+don't involve memorising long lines just to make a draw. That's not always
+possible, however, and in particular in the 8.Rb1 line if Black wants to get a
+position which is "interesting" or non-standard he's very likely to end up
+playing something substandard where he runs the risk of being worse after the
+opening. Of course that didn't stop me on many occasions playing both the very
+playable 9...Nc6 and also 9...b6.} cxd4 (9... b6 10. O-O Bb7 {leads to unclear
+positions}) 10. cxd4 Qa5+ 11. Bd2 (11. Qd2 Qxd2+ 12. Bxd2 b6 {p125}) 11... Qxa2
+12. O-O Bg4 {127} 13. Bg5 h6 {p131} 14. Be3 Nc6 {p133}) 8... Nc6 9. O-O (9. d5
+Qa5 10. Rb1 Bxc3+ {p47})) (7. Be3 c5 8. Qd2 {Not a particularly threatening
+line. This move and also 8.Rc1 are attempts to triangulate Black into
+unfavourable move orders i.e. to get him to choose something he wouldn't
+normally have chosen against 7.Be3.} (8. Rc1 {p163 This is a very fashionable
+and serious move and Black has to be precise so as not to land in lines he
+doesn't want to play.} Qa5 9. Qd2 cxd4 (9... O-O 10. Nf3 Rd8 11. d5 {p163
+Black has ended up stuck in a very topical line with a lot of possibilities
+for both sides. This isn't something I want to recommend because I think it's
+potentially very dangerous for Black.}) (9... Nc6 $2 {9... Nc6 is completely
+wrong because 10. d5 is possible - the main point of 8.Rc1 is that White wants
+to have the option of playing d5 the moment Black plays ...Nc6.} 10. d5) 10.
+cxd4 Qxd2+ {p163}) (8. Nf3 Qa5 (8... Nc6 {p167 is a decent back-up choice.}) (
+8... Bg4 9. Rc1 $1 {p167 I'm not quite sure how to equalise, which is why I'm
+not recommending 8...Bg4 and one of the reasons Black is stuck playing the
+main line in the Be3 Grünfeld.}) 9. Bd2 (9. Nd2 Bd7 {p169 I think this is the
+strongest move and it's the one I want to concentrate on.} (9... Nd7 {p169 is
+quite playable and something I've tried myself in this position.}) (9... cxd4 {
+p169 isn't entirely accurate:} 10. Nc4)) (9. Qd2 {p173 We're now going to
+concentrate on this position, which features a large number of forcing and
+very important lines. Black has a clear choice.} Nc6 (9... O-O 10. Rc1 Rd8 11.
+d5 e6 12. Bg5 {This is a very well-known position which has been debated at
+the highest level for a number of years. There have been a lot of recent
+developments and, as things stand right now, I'm not quite sure Black
+equalises.}) 10. Rc1 (10. Rb1 {I consider this the most problematic move for
+Black.} O-O (10... cxd4 11. cxd4 Qxd2+ (11... O-O {p177 doesn't promise full
+equality either:}) 12. Kxd2 O-O {p177}) (10... a6 11. Rc1 f5 {p180 This move
+leads to very unclear and incredibly unbalanced positions where Black requires
+a lot of precision, but nonetheless I think they're very playable and I'll try
+to provide a complete overview of this position so you can feel comfortable
+playing it.} (11... Bg4 {p179 This is recommended by Boris Avrukh in his
+excellent book on the Grünfeld.} 12. d5 Rd8 {p179}) (11... cxd4 12. cxd4 Qxd2+
+13. Kxd2 {p179}) 12. exf5 (12. e5 {p184 I think Black should be able to make a
+more or less forced draw after this move.}) (12. Bd3 {p187 The most critical
+move, and currently perhaps Black's biggest problem in the whole 11...f5
+variation.})) 11. Rb5 cxd4 12. Rxa5 dxe3 13. Qxe3 Nxa5 {I once played this
+myself against Rustem Dautov, one of the godfathers of the Be3 line. I made a
+reasonably comfortable draw, but I'm no longer sure Black actually equalises
+here so I can't really recommend this.}) 10... cxd4 11. cxd4 Qxd2+ 12. Kxd2 O-O
+{p173}) 9... O-O 10. Be2 Bg4 {p167}) 8... cxd4 9. cxd4 Nc6 {p162} 10. Rd1 O-O)
+(7. Bc4 {p214 I'm now going to cover the Bc4 Grünfeld, a line which has been
+universally popular over the course of the existence of the Grünfeld Defence.
+The play here is very interesting and I've always enjoyed looking at this line
+even if I haven't always enjoyed the results of my analysis. This time I want
+to do something slightly different. Although there will be quite a lot of
+actual theory I want to give you an idea of how my views on the line have
+evolved and how my attitude towards certain positions and how to correctly
+deal with them has changed.} c5 8. Ne2 Nc6 9. Be3 O-O (9... cxd4 10. cxd4 Qa5+
+11. Bd2 Qd8 {p214 This is quite a fancy line that I've tried once or twice
+against decent opposition. It looks a bit odd, frankly, but the point is that
+if White doesn't want an immediate repetition - and normally he doesn't - he
+has to play 12.Bc3.}) 10. O-O {p214 The main position of the Bc4 line, and one
+in which Black has a variety of choices.} (10. h4 Qa5 11. Kf1 b6 12. h5 Ba6 {
+p215 Grandmaster Ioannis Nikolaidis has played a number of games here with the
+white pieces, and I believe they sufficiently cover everything that's going on
+in the position.}) (10. Rc1 cxd4 11. cxd4 Qa5+ {p215}) 10... Bg4 {p215 Black
+can, and by now I think should, play this first rather than 10...Bd7.} (10...
+Na5 11. Bd3 b6 {p215 I'm proud to say I was the original inventor of this line,
+mainly due to absolutely murderous jetlag. This was a game I played against
+Veselin Topalov in the Morelia/Linares tournament, split between Mexico and
+Spain. It was the Linares leg, so you can imagine that it wasn't even the
+first jetlag but the second, and it was absolutely unbearable. I couldn't
+sleep at all and felt completely exhausted, so the idea of preparing for games
+just didn't appeal to me. I'd turn up at the board and then tell myself, "ok,
+this is a position where I have to find a move - let's find something." So
+when Topalov played the Classical Grünfeld against me, as he'd done on a
+number of previous occasions, I thought, "ok, he probably has something
+prepared against the lines I played in all those previous encounters, so let's
+create something new". That's why I played 10...Na5 and then 11...b6, with the
+idea of continuing} 12. Rc1 e5 {Since that game this line has exploded to
+become one of the main variations in the Grünfeld. There have been many
+crucial developments, it was played in the World Championship match between
+Topalov and Anand as well as in a number of very high level games outside the
+World Championship cycle, but I left it altogether after that first game. I
+thought, "ok, I created this and it now has a life of its own, but it's not
+much fun for me to join the "clicking party" when everybody's doing it." So
+it's now living an absolutely separate life without me.}) (10... b6 {p216 I
+played this against Magnus Carlsen in the 2011 Tal Memorial, and I still
+believe it's very playable.} 11. dxc5 Qc7 12. Nd4 {The reason I'm not
+recommending this line, or going into any detail, is that after this move I
+believe Black holds, but what he holds is one of a number of endgames a pawn
+down (White even has a choice). Frankly, the idea of holding an endgame a pawn
+down, even if you do truly believe it's holdable, isn't to everybody's taste.
+It's ok to do it every now and again, especially in a game where you're not
+favourite to win to begin with, as was the case in my game against Carlsen 
+(against him a passive position a pawn down also isn't an ideal solution, but
+there you go!), but in a normal game going for an endgame like this isn't
+everybody's cup of tea.}) (10... Bd7 {p217 This is the move I've generally
+made in this position, and the move I almost, but not quite, recommend making.
+What I mean by "almost, but not quite" is that as I said above, Black can, and
+by now perhaps should, play 10...Bg4 first.} 11. Rc1 $5 {p217 This is the move
+people would just automatically play here when I started playing this position
+with Black. This is how you were brought up, so to speak - you develop the
+bishop to e3 in this line and then put the rook on c1, supporting the bishop
+on c4 in case Black takes on d4. In general, it just looks very natural and
+harmonious, so why not?} (11. h4 b5 {p217}) (11. Rb1 {p219 This is the main
+move, and one you're very likely to face if you play the ...Bd7 systems.} Qc7
+12. Bf4 {p223 As I said in Part 1, the two main moves Black has to face here
+are 12.Bf4 and 12.Bd3, and I'll try to cover them in quite some detail. I'll
+also attempt to explain why starting with 10...Bg4 11.f3 Bd7 is very
+beneficial for Black. The differences are much more pronounced and clearer in
+the 12.Bd3 line, but we'll start by looking at 12.Bf4.} (12. Bd3 {p233 This is
+perhaps the central and most critical line of the whole ...Bd7 variation. It's
+also the line in which the difference between 10...Bd7 and 10...Bg4 11.f3 Bd7
+is most pronounced. I'll try to explain what Black should do here after
+starting with 10...Bg4, but I'll do it in a slightly roundabout way. I want to
+explain my thought processes in this position with a pawn on f2, because I had
+to play and prepare for this position on a number of occasions against strong
+players. Obviously a rook has to go to d8 here, as otherwise it's not clear
+what Black's previous play was all about.} Rfd8 {p236}) 12... Qc8 13. Rc1 {p226
+} (13. d5 {p230 This is the first occurrence of a structure which has to be
+discussed at some length. It's one White will get if he wants in the Bc4
+Grünfeld, so you have to be prepared for it as Black.}) 13... a6 14. Qd2 b5
+15. Bd3 {p228}) 11... Rc8 {p217}) 11. f3 Bd7 {p216 Only now. I was of course
+aware of this possibility for a number of years, or in fact pretty much for
+the entirety of my Grünfeld career, but it always seemed to me that this was
+just a waste of a tempo - why would you force White to make the move f2-f3,
+which he generally likes to make in this kind of structure? f3 supports the
+centre and it just seemed somewhat illogical to me to be forcing White into a
+move which really doesn't seem to have any drawbacks. However, I think it was
+to my detriment that I never carefully considered the implications of forcing
+White to play f3. I'll try to explain why that move makes quite a large
+difference in some lines, but I'll do it by first concentrating on 10...Bd7
+and showing you how the understanding of this line developed over the years.} (
+11... Na5 {p216 leads to very forcing and well-researched lines}) 12. Rb1 Qc7 {
+p240}) 7... Nd7 8. Nf3 c5 9. Qb3 (9. Bc4 cxd4 10. Qb3 (10. O-O dxc3 11. Bxf7+
+Kxf7 12. Ng5+ Ke8 13. Ne6 Qb6 14. Nxg7+ Kf7 {p12}) 10... O-O 11. cxd4 Nb6 {p12}
+) 9... O-O {p12}) (5. Bd2 Nb6 6. e3 (6. Nf3 Bg7 7. Rc1 Nc6 8. e3 O-O 9. Bb5 {
+p36}) (6. Bg5 Bg7 7. e3 {p36}) (6. Bf4 Bg7 7. e3 {p38}) 6... Bg7 7. f4 {p30}
+O-O) (5. g3 Bg7 6. Bg2 Nxc3 7. bxc3 c5 8. e3 {p59} (8. Nf3 {p60} cxd4 (8... Nc6
+{p60 is what most people play here, which is a fine move in itself, but after
+9.0-0 it allows White a position I would recommend trying to avoid.}) 9. cxd4 (
+9. Nxd4 O-O 10. O-O Qc7 {p61}) 9... Nc6 {p61})) 5... Bg7 6. e4 Nb6 7. Be3 O-O
+8. Nf3 Bg4 {p10}) (4. Bf4 Bg7 5. Rc1 (5. Nf3 O-O 6. Rc1 dxc4 7. e3 {p80} (7. e4
+{p80})) (5. e3 O-O 6. cxd5 (6. Rc1 Be6 7. Qb3 (7. c5 c6 {p85}) 7... c5 {p86}) (
+6. Nf3 c5 7. dxc5 Qa5 {p87} (7... Ne4 {p87})) 6... Nxd5 7. Nxd5 Qxd5 8. Bxc7
+Na6 {p84}) 5... Nh5 {p77}) (4. Qb3 dxc4 5. Qxc4 Be6 (5... Bg7 {p92} 6. e4 O-O
+7. Be2 a6 8. Bf4 {and while this position is holdable for Black and not at all
+bad I honestly don't believe any fun is to be had, so I'm not going to
+recommend it.)}) 6. Qb5+ Bd7 {p92}) (4. Bg5 Bg7 (4... Ne4 {p136 For the past
+6-8 years I've almost exclusively replied 4... Ne4 That move is perfectly fine
+and objectively Black is comfortable, but the reason I'm not recommending it
+is because it involves a lot of very complicated transpositions and difficult
+theory.}) 5. e3 (5. Nf3 Ne4 (5... c5 $6 6. dxc5 {p137}) 6. Bf4 (6. cxd5 Nxg5 7.
+Nxg5 e6 {p139}) (6. Bh4 Nxc3 7. bxc3 dxc4 {p140} 8. Qa4+ (8. e3 b5 $1 9. a4 c6
+{p140}) 8... Qd7 (8... Nd7 {p141}) 9. Qxc4 b6 {p141 the queen comes under
+direct attack in many lines, and for a number of years now this has been known
+to be very comfortable for Black.}) 6... Nxc3 7. bxc3 c5 8. e3 O-O 9. cxd5 cxd4
+10. cxd4 Qxd5 11. Be2 Nc6 12. O-O Bf5 {138 This small tabiya of the Bg5 line
+has been known about for many years and has been tried and tested by very
+strong players. It's currently considered completely safe for Black.}) (5. Bxf6
+Bxf6 6. cxd5 c6 {p143 6... c5 is a move people have started to play due to the
+problems Black is experiencing after 6...c6. It's a very interesting line,
+sacrificing a second pawn for development and to prevent White from playing e4
+as he can after 6... c6. I encourage you to have a look at it, although I'm
+not sure it equalises for Black and it's not my recommendation.} 7. e4 {
+This poses Black serious problems.} O-O {p146 Currently the main line in this
+position.} (7... cxd5 {p148 as played in a game between Vovk and Tregubov, was
+my first attempt at reviving this line, but it doesn't quite work:}) (7... Qb6
+{p153}) (7... Bg7 {p155 I was stuck without a proper recommendation for Black
+until it dawned on me that this move hasn't yet been played in this position
+and might be very interesting. The point is that Black steps away from a
+possible tempo White might gain from playing e5 or Nxd5 after Black takes on
+d5. Black is aiming for a variety of positions where he doesn't even attempt
+to win the pawn back. He does, however, get a lot of positional compensation
+due to his very strong bishops and play against the white centre and queenside.
+If you don't like positions where you're behind in material you perhaps won't
+be as excited about this as I am, but I honestly believe this is very, very
+playable for Black, and it also has serious surprise value. White has four
+main moves in this position.})) 5... c5 6. dxc5 Qa5 {p136}) 4... Bg7 5. cxd5 (
+5. e3 O-O 6. Bd2 (6. Bd3 c5 {p19}) (6. cxd5 Nxd5 7. Bc4 Nxc3 8. bxc3 c5 9. O-O
+Nc6 {p20} (9... Qc7 {p20})) 6... c5 7. dxc5 Na6 8. cxd5 Nxc5 9. Bc4 a6 {p19}) (
+5. Qa4+ Bd7 6. Qb3 dxc4 {p23} 7. Qxc4 O-O 8. Bf4 c6 {p24}) (5. h4 {p50}) (5.
+Qb3 dxc4 6. Qxc4 O-O 7. e4 a6 {This is how I was taught to play. I briefly
+dabbled in 7...Na6 at some point, with reasonable but non-spectacular results,
+and then went back to 7...a6, which is the move I feel most comfortable with.}
+8. Be2 (8. Qa4 {is a more serious attempt by White than 8.Bf4, and has been
+played in a number of reasonably high-level games. The move I am recommending
+is 8... c5⁉ This is a very thematic break which will occur in a lot of these
+positions. Here, as in most cases, it's very good.} c5 {p95} 9. dxc5 Bd7) (8.
+Bf4 b5 9. Qxc7 Qxc7 10. Bxc7 Bb7 {p94}) (8. e5 b5 9. Qb3 Nfd7 10. Be3 (10. h4
+c5 11. e6 c4 {p107}) (10. Ng5 Nc6 {p109 Black has generally played 10... Nb6
+11. Be3 Nc6 12. Rd1 Na5 This position is very unclear and I don't see any
+reason for Black to go for this.}) (10. Be2 c5 11. e6 fxe6 {p111 It's possible
+to play 11... cxd4} (11... cxd4 {p111})) (10. e6 {The classical move in this
+position.} fxe6 {p112}) 10... c5 11. e6 cxd4 {p106}) 8... b5 9. Qb3 c5 {
+A thematic break that will feature in almost all the positions starting with
+a6.} 10. dxc5 $8 Be6 11. Qc2 Nbd7 {p98 People would previously automatically
+play Nc6 or Qc7 first, when White can expect to apply some real pressure,
+which is why I came up with the idea of this move.} 12. Be3 {p100} Rc8) 5...
+Nxd5 6. Bg5 c5 7. Rc1 Nxc3 8. bxc3 Qa5 9. Qd2 Bf5 10. e3 Nd7 11. Be2 Nf6 12.
+O-O Ne4 13. Qb2 Nxg5 14. Bb5+ Kf8 15. Nxg5 Bf6 16. Nf3 Kg7 {P2} *
+

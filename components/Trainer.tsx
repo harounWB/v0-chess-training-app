@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useCallback, useEffect, useRef } from 'react';
+import { useRouter } from 'next/navigation';
 import { Chess } from 'chess.js';
 import { Game, PlayerColor, TrainingMode, DifficultyLevel, GameSession, MoveAttempt } from '@/lib/types';
 import { ChessBoard } from './ChessBoard';
@@ -13,16 +14,21 @@ import { Button } from './ui/button';
 import { ChevronLeft, ChevronRight, ChevronsLeft, ChevronsRight, Lightbulb } from 'lucide-react';
 import { useChessSound } from '@/hooks/useChessSound';
 import { useGameContext } from '@/lib/GameContext';
+import { replayGameToMoveIndex } from '@/lib/pgn-parser';
 
 interface TrainerProps {
   games: Game[];
+  initialMode?: TrainingMode;
 }
 
-export function Trainer({ games }: TrainerProps) {
+export function Trainer({ games, initialMode = 'train' }: TrainerProps) {
+  const router = useRouter();
   const { playMoveSound } = useChessSound();
-  const { selectedGame, setSelectedGame, moveIndex, setMoveIndex, saveCompletedGame, markGameExplored } = useGameContext();
+  const { selectedGame, setSelectedGame, moveIndex, setMoveIndex, saveCompletedGame, markGameExplored, settings, clearGameData, pgnProgress } = useGameContext();
+  const lastExploredGameRef = useRef<string | null>(null);
+  const lastAutoCompletedGameRef = useRef<string | null>(null);
   const currentGameIndex = games.findIndex(g => g.id === selectedGame?.id) ?? -1;
-  const [trainingMode, setTrainingMode] = useState<TrainingMode>('train');
+  const [trainingMode, setTrainingMode] = useState<TrainingMode>(initialMode);
   const [playerColor, setPlayerColor] = useState<PlayerColor>('w');
   const [gameState, setGameState] = useState<Chess | null>(null);
   const [message, setMessage] = useState('');
@@ -42,23 +48,69 @@ export function Trainer({ games }: TrainerProps) {
   const [playbackSpeed, setPlaybackSpeed] = useState(1);
   const [boardOrientation, setBoardOrientation] = useState<'white' | 'black'>('white');
   const [exploreFen, setExploreFen] = useState<string | null>(null);
+  const [moveTransition, setMoveTransition] = useState<{ from: string; to: string; direction?: 'forward' | 'backward' } | null>(null);
   const playbackIntervalRef = useRef<NodeJS.Timeout | null>(null);
+  const moveIndexRef = useRef(moveIndex);
+  const moveAnimationDurationMs = {
+    slow: 260,
+    normal: 180,
+    fast: 120,
+  }[settings.animationSpeed];
+  const completedGameIds = React.useMemo(
+    () => new Set([
+      ...games.filter(game => game.completed).map(game => game.id),
+      ...pgnProgress.flatMap(progress => Array.from(progress.trainedGames)),
+    ]),
+    [games, pgnProgress]
+  );
+
+  const getBoardFenForGame = useCallback((game: Game | null | undefined, index: number) => {
+    if (!game) return new Chess().fen();
+    return replayGameToMoveIndex(game, index).fen();
+  }, []);
+
+  useEffect(() => {
+    moveIndexRef.current = moveIndex;
+  }, [moveIndex]);
+
+  useEffect(() => {
+    setCompletedGames(completedGameIds);
+  }, [completedGameIds]);
+
+  useEffect(() => {
+    if (!selectedGame?.id || !sessionComplete || currentSession?.gameId !== selectedGame.id) {
+      return;
+    }
+
+    if (completedGameIds.has(selectedGame.id)) {
+      lastAutoCompletedGameRef.current = selectedGame.id;
+      return;
+    }
+
+    if (lastAutoCompletedGameRef.current === selectedGame.id) {
+      return;
+    }
+
+    lastAutoCompletedGameRef.current = selectedGame.id;
+    saveCompletedGame(selectedGame.id);
+  }, [selectedGame?.id, sessionComplete, currentSession?.gameId, completedGameIds, saveCompletedGame]);
 
   // Reset exploreFen when switching to explore mode
   useEffect(() => {
     if (trainingMode === 'explore') {
       setExploreFen(null);
       // Mark game as explored when entering explore mode
-      if (selectedGame) {
+      if (selectedGame?.id && lastExploredGameRef.current !== selectedGame.id) {
         markGameExplored(selectedGame.id);
+        lastExploredGameRef.current = selectedGame.id;
       }
     }
-  }, [trainingMode, selectedGame, markGameExplored]);
+  }, [trainingMode, selectedGame?.id, markGameExplored]);
 
   // Initialize game state when game is selected or player color changes
   useEffect(() => {
     if (selectedGame) {
-      const chess = new Chess();
+      const chess = selectedGame.fen ? new Chess(selectedGame.fen) : new Chess();
       setGameState(chess);
       setIsCorrect(null);
       setHintLevel(0);
@@ -77,8 +129,8 @@ export function Trainer({ games }: TrainerProps) {
         startTime: Date.now(),
         totalMoves: trainingMode === 'train'
           ? playerColor === 'w'
-            ? Math.ceil(selectedGame.moves.length / 2) // White plays ceil(n/2) moves
-            : Math.floor(selectedGame.moves.length / 2) // Black plays floor(n/2) moves
+            ? Math.ceil(Math.max(0, selectedGame.moves.length - moveIndexRef.current) / 2) // White plays ceil(n/2) moves
+            : Math.floor(Math.max(0, selectedGame.moves.length - moveIndexRef.current) / 2) // Black plays floor(n/2) moves
           : selectedGame.moves.length, // In explore mode, count all moves
         correctMoves: 0,
         incorrectMoves: 0,
@@ -87,19 +139,22 @@ export function Trainer({ games }: TrainerProps) {
       setCurrentSession(newSession);
       
       if (trainingMode === 'train' && playerColor === 'b' && selectedGame.moves.length > 0) {
-        setMoveIndex(0);
-        setMessage(`White is playing...`);
-        const timer = setTimeout(() => {
-          setMoveIndex(1);
-          setMessage(`Playing as Black. Your turn...`);
-        }, 1000);
-        return () => clearTimeout(timer);
+        const position = replayGameToMoveIndex(selectedGame, moveIndexRef.current);
+        if (position.turn() === 'w') {
+          setMessage(`White is playing...`);
+          const timer = setTimeout(() => {
+            if (moveIndexRef.current < selectedGame.moves.length) {
+              setMoveIndex(moveIndexRef.current + 1);
+              setMessage(`Playing as Black. Your turn...`);
+            }
+          }, 1000);
+          return () => clearTimeout(timer);
+        }
+        setMessage(`Playing as Black. Your turn...`);
       } else if (trainingMode === 'explore') {
-        setMoveIndex(0);
         setExploreFen(null);
         setMessage('');
       } else {
-        setMoveIndex(0);
         setMessage(`Playing as ${playerColor === 'w' ? 'White' : 'Black'}. Your turn...`);
       }
     }
@@ -107,45 +162,17 @@ export function Trainer({ games }: TrainerProps) {
 
   // Get current FEN by replaying moves up to moveIndex
   const getCurrentFen = useCallback((): string => {
-    const chess = new Chess();
-    if (selectedGame) {
-      for (let i = 0; i < moveIndex; i++) {
-        if (i < selectedGame.moves.length) {
-          const move = selectedGame.moves[i];
-          try {
-            chess.move({
-              from: move.from,
-              to: move.to,
-              promotion: move.promotion,
-            });
-          } catch {
-            // Skip invalid moves silently
-          }
-        }
-      }
+    if (!selectedGame) {
+      return new Chess().fen();
     }
-    return chess.fen();
-  }, [selectedGame, moveIndex]);
+    return getBoardFenForGame(selectedGame, moveIndex);
+  }, [selectedGame, moveIndex, getBoardFenForGame]);
 
   const getCurrentPosition = useCallback((): Chess => {
-    const chess = new Chess();
-    if (selectedGame) {
-      for (let i = 0; i < moveIndex; i++) {
-        if (i < selectedGame.moves.length) {
-          const move = selectedGame.moves[i];
-          try {
-            chess.move({
-              from: move.from,
-              to: move.to,
-              promotion: move.promotion,
-            });
-          } catch {
-            // Skip invalid moves
-          }
-        }
-      }
+    if (!selectedGame) {
+      return new Chess();
     }
-    return chess;
+    return replayGameToMoveIndex(selectedGame, moveIndex);
   }, [selectedGame, moveIndex]);
 
   const getExpectedMove = useCallback((): string | null => {
@@ -248,17 +275,8 @@ export function Trainer({ games }: TrainerProps) {
     if (!selectedGame) return currentMoveIndex;
     
     const nextMoveIndex = currentMoveIndex;
-    
-    const chess = new Chess();
-    if (selectedGame) {
-      for (let i = 0; i < nextMoveIndex; i++) {
-        if (i < selectedGame.moves.length) {
-          const m = selectedGame.moves[i];
-          chess.move({ from: m.from, to: m.to, promotion: m.promotion });
-        }
-      }
-    }
-    
+
+    const chess = replayGameToMoveIndex(selectedGame, nextMoveIndex);
     if (chess.turn() !== playerColor && nextMoveIndex < selectedGame.moves.length) {
       return nextMoveIndex + 1;
     }
@@ -302,7 +320,7 @@ export function Trainer({ games }: TrainerProps) {
           setShowMoveComment(true);
           
           // Detect special move types for sound
-          const tempChess = new Chess(getCurrentFen());
+          const tempChess = replayGameToMoveIndex(selectedGame, moveIndex);
           const result = tempChess.move(move);
           const isCapture = result?.captured !== undefined;
           const isCheck = tempChess.inCheck();
@@ -330,6 +348,7 @@ export function Trainer({ games }: TrainerProps) {
           
           // Reset for next move
           setMoveAttemptedWrong(false);
+          setMoveTransition({ from: move.from, to: move.to, direction: 'forward' });
           
           let newIndex = moveIndex + 1;
           
@@ -342,18 +361,14 @@ export function Trainer({ games }: TrainerProps) {
               // Clear highlight after animation duration
               setTimeout(() => {
                 setCorrectMoveSquares(null);
-              }, 300);
+              }, moveAnimationDurationMs);
               
               // After opponent move completes, update board state
               setTimeout(() => {
                 // Play sound for opponent's move
                 const opponentMove = selectedGame.moves[newIndex];
                 if (opponentMove) {
-                  const tempChess = new Chess();
-                  for (let i = 0; i < newIndex; i++) {
-                    const m = selectedGame.moves[i];
-                    tempChess.move({ from: m.from, to: m.to, promotion: m.promotion });
-                  }
+                  const tempChess = replayGameToMoveIndex(selectedGame, newIndex);
                   const result = tempChess.move({ from: opponentMove.from, to: opponentMove.to, promotion: opponentMove.promotion });
                   const isCapture = result?.captured !== undefined;
                   const isCheck = tempChess.inCheck();
@@ -362,6 +377,7 @@ export function Trainer({ games }: TrainerProps) {
                   
                   playMoveSound(isCapture, isCheck, isCastle, isPromotion);
                 }
+                setMoveTransition({ from: selectedGame.moves[newIndex].from, to: selectedGame.moves[newIndex].to, direction: 'forward' });
                 setMoveIndex(opponentIndex);
                 setShowMoveComment(false);
                 if (opponentIndex >= selectedGame.moves.length) {
@@ -384,11 +400,12 @@ export function Trainer({ games }: TrainerProps) {
           }
           
           setMoveIndex(newIndex);
+          setMoveTransition({ from: move.from, to: move.to, direction: 'forward' });
           
           // Clear highlight after animation duration
           setTimeout(() => {
             setCorrectMoveSquares(null);
-          }, 300);
+          }, moveAnimationDurationMs);
           
           if (newIndex >= selectedGame.moves.length) {
             if (currentSession) {
@@ -420,7 +437,7 @@ export function Trainer({ games }: TrainerProps) {
           
           setTimeout(() => {
             setWrongMoveSquares(null);
-          }, 400);
+          }, moveAnimationDurationMs);
         }
       } else {
         // EXPLORE MODE - apply move and check if it matches PGN
@@ -450,9 +467,8 @@ export function Trainer({ games }: TrainerProps) {
             
             if (moveMatches) {
               // Advance through PGN - no auto-play, user plays both sides
+              setMoveTransition({ from: move.from, to: move.to, direction: 'forward' });
               setMoveIndex(moveIndex + 1);
-              setCorrectMoveSquares({ from: move.from, to: move.to });
-              setTimeout(() => setCorrectMoveSquares(null), 300);
               setMessage(`Correct! ${result.san}`);
               setIsCorrect(true);
             } else {
@@ -478,7 +494,34 @@ export function Trainer({ games }: TrainerProps) {
     setTrainingMode('train');
     setPlayerColor('w');
     setExploreFen(null);
+    setMoveTransition(null);
+    setIsCorrect(null);
+    setHintLevel(0);
+    setHintUsedCount(0);
+    setShowMoveComment(false);
+    setMoveAttempts([]);
+    setSessionComplete(false);
+    setCurrentSession(null);
+    setCorrectMoveSquares(null);
+    setWrongMoveSquares(null);
+    setMoveAttemptedWrong(false);
+    setMessage('Playing as White. Your turn...');
   }, [setSelectedGame]);
+
+  const handleModeChange = useCallback((mode: TrainingMode) => {
+    setTrainingMode(mode);
+    setMoveIndex(0);
+    setMoveTransition(null);
+    setIsCorrect(null);
+    setExploreFen(null);
+  }, []);
+
+  const handleColorChange = useCallback((color: PlayerColor) => {
+    setPlayerColor(color);
+    setMoveIndex(0);
+    setMoveTransition(null);
+    setIsCorrect(null);
+  }, []);
 
   const handleResetGame = useCallback(() => {
     if (selectedGame) {
@@ -488,14 +531,21 @@ export function Trainer({ games }: TrainerProps) {
       setWrongMoveSquares(null);
       setCorrectMoveSquares(null);
       setMoveAttemptedWrong(false);
+      setMoveTransition(null);
       
       if (trainingMode === 'train' && playerColor === 'b' && selectedGame.moves.length > 0) {
         setMoveIndex(0);
-        setMessage(`White is playing...`);
-        setTimeout(() => {
-          setMoveIndex(1);
+        const initialPosition = replayGameToMoveIndex(selectedGame, 0);
+        if (initialPosition.turn() === 'w') {
+          setMessage(`White is playing...`);
+          setTimeout(() => {
+            setMoveTransition({ from: selectedGame.moves[0].from, to: selectedGame.moves[0].to, direction: 'forward' });
+            setMoveIndex(1);
+            setMessage(`Playing as Black. Your turn...`);
+          }, 1000);
+        } else {
           setMessage(`Playing as Black. Your turn...`);
-        }, 1000);
+        }
       } else if (trainingMode === 'explore') {
         setMoveIndex(0);
         setExploreFen(null);
@@ -509,19 +559,27 @@ export function Trainer({ games }: TrainerProps) {
 
   const handleCompleteGame = useCallback(() => {
     if (selectedGame) {
-      const newCompleted = new Set(completedGames);
-      newCompleted.add(selectedGame.id);
-      setCompletedGames(newCompleted);
       saveCompletedGame(selectedGame.id); // Save to context
+      lastAutoCompletedGameRef.current = selectedGame.id;
       setMessage('Game marked as complete!');
     }
-  }, [selectedGame, completedGames, saveCompletedGame]);
+  }, [selectedGame, saveCompletedGame]);
 
   const handleNavigateMove = useCallback((index: number) => {
     if (selectedGame && index >= 0 && index <= selectedGame.moves.length) {
       if (trainingMode === 'train' && index > moveIndex) {
         setMessage('Complete the current move to continue');
         return;
+      }
+
+      if (index === moveIndex + 1 && selectedGame.moves[moveIndex]) {
+        const move = selectedGame.moves[moveIndex];
+        setMoveTransition({ from: move.from, to: move.to, direction: 'forward' });
+      } else if (index === moveIndex - 1 && selectedGame.moves[index]) {
+        const move = selectedGame.moves[index];
+        setMoveTransition({ from: move.from, to: move.to, direction: 'backward' });
+      } else {
+        setMoveTransition(null);
       }
       
       setMoveIndex(index);
@@ -530,18 +588,6 @@ export function Trainer({ games }: TrainerProps) {
       // In explore mode, reset exploreFen to follow PGN when navigating
       if (trainingMode === 'explore') {
         setExploreFen(null);
-      }
-      
-      const newPos = new Chess();
-      for (let i = 0; i < index; i++) {
-        if (i < selectedGame.moves.length) {
-          const move = selectedGame.moves[i];
-          newPos.move({
-            from: move.from,
-            to: move.to,
-            promotion: move.promotion,
-          });
-        }
       }
       
       const currentMove = selectedGame.moves[index - 1];
@@ -577,11 +623,7 @@ export function Trainer({ games }: TrainerProps) {
         // Play sound for this move
         const moveToPlay = selectedGame.moves[nextIndex - 1];
         if (moveToPlay) {
-          const tempChess = new Chess();
-          for (let i = 0; i < nextIndex - 1; i++) {
-            const m = selectedGame.moves[i];
-            tempChess.move({ from: m.from, to: m.to, promotion: m.promotion });
-          }
+          const tempChess = replayGameToMoveIndex(selectedGame, nextIndex - 1);
           const result = tempChess.move({ from: moveToPlay.from, to: moveToPlay.to, promotion: moveToPlay.promotion });
           const isCapture = result?.captured !== undefined;
           const isCheck = tempChess.inCheck();
@@ -662,8 +704,8 @@ export function Trainer({ games }: TrainerProps) {
                 setIsCorrect(null);
               }}
               onNewGame={() => {
-                setSelectedGame(null);
-                setSessionComplete(false);
+                clearGameData();
+                router.push('/upload');
               }}
             />
           )}
@@ -679,10 +721,13 @@ export function Trainer({ games }: TrainerProps) {
                 orientation={trainingMode === 'explore' ? boardOrientation : (playerColor === 'w' ? 'white' : 'black')}
                 hintSquare={trainingMode === 'train' && hintLevel >= 1 ? hintData.hintSquare : null}
                 hintDestinations={trainingMode === 'train' && hintLevel >= 2 ? hintData.hintDestinations : []}
-                wrongMove={isCorrect === false}
                 wrongMoveSquares={wrongMoveSquares}
-                correctMoveSquares={correctMoveSquares}
+                moveHighlightTone={trainingMode === 'train' ? 'yellow' : 'green'}
+                showMoveHighlight={trainingMode !== 'explore'}
+                moveTransition={moveTransition}
                 playerColor={trainingMode === 'train' ? playerColor : null}
+                boardTheme={settings.boardTheme}
+                pieceTheme={settings.pieceTheme}
               />
             ) : (
               <div className="w-full max-w-md aspect-square bg-gray-800 rounded-lg flex items-center justify-center border border-gray-700">
@@ -784,8 +829,7 @@ export function Trainer({ games }: TrainerProps) {
                   onClick={() => {
                     const prevIndex = Math.max(0, currentGameIndex - 1);
                     if (prevIndex >= 0 && prevIndex < games.length) {
-                      setSelectedGame(games[prevIndex]);
-                      setMoveIndex(0);
+                      handleSelectGame(games[prevIndex]);
                     }
                   }}
                   disabled={currentGameIndex <= 0}
@@ -804,8 +848,7 @@ export function Trainer({ games }: TrainerProps) {
                   onClick={() => {
                     const nextIndex = currentGameIndex + 1;
                     if (nextIndex < games.length) {
-                      setSelectedGame(games[nextIndex]);
-                      setMoveIndex(0);
+                      handleSelectGame(games[nextIndex]);
                     }
                   }}
                   disabled={currentGameIndex >= games.length - 1}
@@ -861,8 +904,8 @@ export function Trainer({ games }: TrainerProps) {
               isCorrect={isCorrect}
               expectedMove={trainingMode === 'explore' ? getExpectedMove() : null}
               difficulty={difficulty}
-              onModeChange={setTrainingMode}
-              onColorChange={setPlayerColor}
+              onModeChange={handleModeChange}
+              onColorChange={handleColorChange}
               onFlipBoard={() => setBoardOrientation(o => o === 'white' ? 'black' : 'white')}
               onDifficultyChange={setDifficulty}
               onReset={handleResetGame}
