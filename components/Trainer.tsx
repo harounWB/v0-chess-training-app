@@ -284,6 +284,27 @@ export function Trainer({ games, initialMode = 'train' }: TrainerProps) {
     return currentMoveIndex;
   }, [selectedGame, playerColor]);
 
+  const playSoundForMoveIndex = useCallback((moveIndexToPlay: number) => {
+    if (!selectedGame || moveIndexToPlay < 0 || moveIndexToPlay >= selectedGame.moves.length) {
+      return;
+    }
+
+    const move = selectedGame.moves[moveIndexToPlay];
+    const tempChess = replayGameToMoveIndex(selectedGame, moveIndexToPlay);
+    const result = tempChess.move({ from: move.from, to: move.to, promotion: move.promotion });
+
+    if (!result) {
+      return;
+    }
+
+    playMoveSound(
+      result.captured !== undefined,
+      tempChess.inCheck(),
+      Boolean(result.flags?.includes('k') || result.flags?.includes('q')),
+      result.promotion !== undefined
+    );
+  }, [selectedGame, playMoveSound]);
+
   const handleMove = useCallback(
   (move: { from: string; to: string; promotion?: string }) => {
   if (!selectedGame) return;
@@ -366,17 +387,7 @@ export function Trainer({ games, initialMode = 'train' }: TrainerProps) {
               // After opponent move completes, update board state
               setTimeout(() => {
                 // Play sound for opponent's move
-                const opponentMove = selectedGame.moves[newIndex];
-                if (opponentMove) {
-                  const tempChess = replayGameToMoveIndex(selectedGame, newIndex);
-                  const result = tempChess.move({ from: opponentMove.from, to: opponentMove.to, promotion: opponentMove.promotion });
-                  const isCapture = result?.captured !== undefined;
-                  const isCheck = tempChess.inCheck();
-                  const isCastle = result?.flags?.includes('k') || result?.flags?.includes('q');
-                  const isPromotion = result?.promotion !== undefined;
-                  
-                  playMoveSound(isCapture, isCheck, isCastle, isPromotion);
-                }
+                playSoundForMoveIndex(newIndex);
                 setMoveTransition({ from: selectedGame.moves[newIndex].from, to: selectedGame.moves[newIndex].to, direction: 'forward' });
                 setMoveIndex(opponentIndex);
                 setShowMoveComment(false);
@@ -485,7 +496,7 @@ export function Trainer({ games, initialMode = 'train' }: TrainerProps) {
         }
       }
     },
-    [selectedGame, moveIndex, trainingMode, playerColor, getCurrentPosition, playOpponentMove, moveAttempts, currentSession, exploreFen, getCurrentFen, playMoveSound]
+    [selectedGame, moveIndex, trainingMode, playerColor, getCurrentPosition, playOpponentMove, moveAttempts, currentSession, exploreFen, getCurrentFen, playMoveSound, playSoundForMoveIndex]
   );
 
   const handleSelectGame = useCallback((game: Game) => {
@@ -539,16 +550,7 @@ export function Trainer({ games, initialMode = 'train' }: TrainerProps) {
         if (initialPosition.turn() === 'w') {
           setMessage(`White is playing...`);
           setTimeout(() => {
-            const openingMove = selectedGame.moves[0];
-            if (openingMove) {
-              const tempChess = replayGameToMoveIndex(selectedGame, 0);
-              const result = tempChess.move({ from: openingMove.from, to: openingMove.to, promotion: openingMove.promotion });
-              const isCapture = result?.captured !== undefined;
-              const isCheck = tempChess.inCheck();
-              const isCastle = Boolean(result?.flags?.includes('k') || result?.flags?.includes('q'));
-              const isPromotion = result?.promotion !== undefined;
-              playMoveSound(isCapture, isCheck, isCastle, isPromotion);
-            }
+            playSoundForMoveIndex(0);
             setMoveTransition({ from: selectedGame.moves[0].from, to: selectedGame.moves[0].to, direction: 'forward' });
             setMoveIndex(1);
             setMessage(`Playing as Black. Your turn...`);
@@ -565,7 +567,7 @@ export function Trainer({ games, initialMode = 'train' }: TrainerProps) {
         setMessage(`Playing as ${playerColor === 'w' ? 'White' : 'Black'}. Your turn...`);
       }
     }
-  }, [selectedGame, playerColor, trainingMode, playMoveSound]);
+  }, [selectedGame, playerColor, trainingMode, playSoundForMoveIndex]);
 
   const handleCompleteGame = useCallback(() => {
     if (selectedGame) {
