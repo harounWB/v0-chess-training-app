@@ -5,16 +5,14 @@ import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { parsePGN } from '@/lib/pgn-parser';
 import { Game } from '@/lib/types';
-import { Upload, FileText, CheckCircle, AlertCircle, ChevronDown, ChevronUp } from 'lucide-react';
+import { Upload, FileText, CheckCircle, AlertCircle } from 'lucide-react';
 
 interface PGNUploadProps {
   onGamesLoaded: (games: Game[], fileName?: string, source?: 'bundled' | 'upload') => void;
   isLoading?: boolean;
-  onToggleSelectGames?: () => void;
-  showSelectGames?: boolean;
 }
 
-export function PGNUpload({ onGamesLoaded, isLoading = false, onToggleSelectGames, showSelectGames = false }: PGNUploadProps) {
+export function PGNUpload({ onGamesLoaded, isLoading = false }: PGNUploadProps) {
   const fileInputRef = useRef<HTMLInputElement>(null);
   const [isDragging, setIsDragging] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -115,18 +113,6 @@ export function PGNUpload({ onGamesLoaded, isLoading = false, onToggleSelectGame
             >
               {isLoading ? 'Loading...' : 'Choose File'}
             </Button>
-            {onToggleSelectGames && (
-              <Button
-                type="button"
-                onClick={onToggleSelectGames}
-                disabled={isLoading}
-                className="mt-3 w-full bg-purple-600 hover:bg-purple-700 text-white px-6"
-              >
-                <FileText className="w-4 h-4 mr-2" />
-                Select Games
-                {showSelectGames ? <ChevronUp className="w-4 h-4 ml-2" /> : <ChevronDown className="w-4 h-4 ml-2" />}
-              </Button>
-            )}
             <p className="text-xs text-gray-500 mt-3">
               .pgn or .txt files supported
             </p>

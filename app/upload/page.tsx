@@ -7,7 +7,7 @@ import { useGameContext } from '@/lib/GameContext';
 import { useAuth } from '@/lib/AuthContext';
 import { Game } from '@/lib/types';
 import { scopeGamesForFile } from '@/lib/GameContext';
-import { Play, Upload as UploadIcon, AlertCircle, FileText, Search, X } from 'lucide-react';
+import { Play, Upload as UploadIcon, AlertCircle, FileText, Search, X, ChevronDown, ChevronUp } from 'lucide-react';
 import { Header } from '@/components/Header';
 import { Card } from '@/components/ui/card';
 import { LogoMark } from '@/components/LogoMark';
@@ -861,12 +861,20 @@ export default function UploadPage() {
 
           {/* Upload Form */}
           <div className="max-w-md mx-auto pt-12">
-            <PGNUpload
-              onGamesLoaded={handleGamesLoaded}
-              isLoading={isLoading}
-              onToggleSelectGames={() => setShowSelectGames((prev) => !prev)}
-              showSelectGames={showSelectGames}
-            />
+            <PGNUpload onGamesLoaded={handleGamesLoaded} isLoading={isLoading} />
+          </div>
+
+          <div className="max-w-md mx-auto pt-4">
+            <button
+              type="button"
+              onClick={() => setShowSelectGames((prev) => !prev)}
+              disabled={isLoading}
+              className="flex w-full items-center justify-center rounded-xl bg-purple-600 px-4 py-3 font-medium text-white shadow-lg shadow-purple-500/20 transition-colors hover:bg-purple-700 disabled:cursor-not-allowed disabled:opacity-60"
+            >
+              <FileText className="mr-2 h-4 w-4" />
+              Select Games
+              {showSelectGames ? <ChevronUp className="ml-2 h-4 w-4" /> : <ChevronDown className="ml-2 h-4 w-4" />}
+            </button>
           </div>
 
           {/* Select Games Section */}
