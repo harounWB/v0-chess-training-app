@@ -186,7 +186,7 @@ a4
 1. e4 Nf6 2. e5 Nd5 3. d4 Nb6 4. f4
 { White grabs more space and keeps options open to transpose to a Four Pawns Attack. We want to note the difference between this and the variation with 4. Nc3 and then f4. In that case ...d5 is the best move and here it puts you worse on the spot. Definitely a place for a memory marker. }
 4... d6
-{ 4...d5  is a strategic error as Black will not be able to successfully develop the light-squared bishop after  5.Bd3  e6  The computer's first choice...  6.Nf3  c5  7.c3  Reaches a French Tarrasch with a badly placed b6 knight. After authoring the French book with GM Lenderman for Chessable I will say this is the worst French I have seen lately -Tillis }
+{ 4...d5  is a strategic error as Black will not be able to successfully develop the light-squared bishop after  5.Bd3  e6  The computer's first choice...  6.Nf3  c5  7.c3  Reaches a French Tarrasch with a badly placed b6 knight. After authoring the French book with Lenderman for  I will say this is the worst French I have seen lately -Tillis }
 5. Nf3
 { Giving us a bit of an interesting situation because if we play the typical ...g6 here, which is our recommendation against 5. Nc3 by White, then White could play c4 and transpose to a line of the Four Pawns Attack which we did not previously cover. However, the alternatives to ...g6 are very sharp and require detailed knowledge to pull off with confidence and that just doesn't seem like a sensible approach for such a rare line. The solution then is to just learn some extra lines of the 4-Pawns attack! Luckily, it is not much extra work because we only have to consider the lines where White has played Nf3.   5.c4  dxe5  Transposes to the 4-Pawns Attack Variation;  ()   5.Nc3  included the position feels similar to the Austrian Attack variation of the Pirc/Modern  5...g6  6.Nf3  Bg7  7.Bd3   5.Nc3  g6  6.Nf3  Bg7  7.Bb5  c6  8.Bd3  Na6  will transpose after Black plays ...c5 which is our typical plan in this structure. }
 5... g6
@@ -253,7 +253,7 @@ Nxb1 14. Bb5 Rc8 15. Raxb1 Be7
 1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. c4 Nb6
 { Reaching a slight crossroads. The main move here is exd6 - the aptly named 'Exchange Variation'. A secondary try for White is 4. f4 - the also aptly named 'Four Pawns Attack' and this variation will be investigated later. Before we dive into the Exchange Variation, we will look at an understandably unpopular sideline try for White with 5. Nf3. }
 5. Nf3
-{ We like to note the Champions of the Alekhine throughout the text. GM Edvins Kengis is definitely another Alekhine player to seriously analyze. The stem game we used for this line was Gallagher - Kengis, 0-1, Bern 1992. }
+{ We like to note the Champions of the Alekhine throughout the text. Edvins Kengis is definitely another Alekhine player to seriously analyze. The stem game we used for this line was Gallagher - Kengis, 0-1, Bern 1992. }
 5... dxe5
 { 5... g6 Transposes directly into the cxd6 Exchange Variation which is offered as an alternative line in the full course in the Exchange Variation chapter line with g6. If the reader plans to play the cxd6 variation this line can be marked as an alternative. }
 6. Nxe5 g6 7. Nc3 Bg7 8. Bf4 O-O 9. Be2
@@ -400,7 +400,7 @@ g6 8. h4 { White's most aggressive option. } 8... Bg7 9. h5 Nxc5
 [Result "*"]
 
 1. e4 Nf6
-{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated GM uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite. }
+{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite. }
 2. e5 Nd5 3. c4 Nb6 4. d4 d6 5. f4
 { The Four Pawns Attack is the most 'aggressive' of the variations of the Alekhine. White overextends to prove something which can't easily be proven and in return Black gets greater than usual counterplay. }
 5... dxe5 6. fxe5 Nc6 7. Be3
@@ -438,7 +438,7 @@ g6 8. h4 { White's most aggressive option. } 8... Bg7 9. h5 Nxc5
 11... Nxd5 12. Nxd5 cxd5 13. Qxd5 Nc6
 { Notice the development difference, Black is good to go, White is going to have serious trouble finding safety. }
 14. cxd6 Bxf3 { The correct moment } 15. gxf3 exd6
-{ Following a game by a Champion of the Alekhine: GM Sergeev est 1993.0-1. } *
+{ Following a game by a Champion of the Alekhine: Sergeev est 1993.0-1. } *
 
 [Event "?"]
 [Site "?"]
@@ -582,7 +582,7 @@ cxd4 11. cxd4 f5
 5. fxe5
 { 5.dxe5  Is almost never played, and for good reason. Black's position is significantly easier to play when the f-file isn't open  5...Bf5  6.Bd3  Bxd3  7.Qxd3  Nc6  One could also start with  ...e6  but we are currently following the game Tal, Mihail - Alpern, Daniel, 0-1, Buenos Aires sim, 1991 }
 5... c5
-{ In the 4-Pawns Attack chapter we abstain from the variation with ...c5 which we investigate in an example game by GM Shabalov. Our reasoning there is that it is very hard to meet the critical early d5 advance by White, but here we have no such problem. The difference here is that if White now tries to play for c4 and d5, our Knight can go to the b4 square rather than the b6 square }
+{ In the 4-Pawns Attack chapter we abstain from the variation with ...c5 which we investigate in an example game by Shabalov. Our reasoning there is that it is very hard to meet the critical early d5 advance by White, but here we have no such problem. The difference here is that if White now tries to play for c4 and d5, our Knight can go to the b4 square rather than the b6 square }
 6. c4 Nb4 7. d5
 { While impressive to behold, White will not be able to maintain this overextended center. 7. a3 N4c6 White's center collapses 8. d5 The engine seems content to sacrifice the e5 pawn, but Black isn't even in danger if he takes it 8... Nxe5 }
 7... Bf5 { Developing with a not so subtle threat } 8. Na3 e6
@@ -625,7 +625,7 @@ cxd4 11. cxd4 f5
 [Result "*"]
 
 1. e4 Nf6 2. Qf3
-{ Is a move sometimes played at the beginner level. We will look at a couple lines to demonstrate how innocuous it is   2.Qe2  Another frequent player of the Alekhine at the GM level is Alejandro Ramirez. Here we will see his solid way of handling this rare side variation  e5  This move is objectively the best as it prevents White from playing e5 himself and it is now hard to justify the placement of the White Queen  3.g3  The only real attempt to develop the light-squared Bishop now that the Queen is blocking the diagonal   3.f4  Is the only continuation that gives us pause  d6  This continuation appears a little passive but it shouldn't worry us to greatly as White will need to spend time untangling his development. If you need more convincing, 3... d6 is also the engine's top recommendation !  3...Nc6  4.Bg2  d5  5.exd5  Nxd5  =+ }
+{ Is a move sometimes played at the beginner level. We will look at a couple lines to demonstrate how innocuous it is   2.Qe2  Another frequent player of the Alekhine at the level is Alejandro Ramirez. Here we will see his solid way of handling this rare side variation  e5  This move is objectively the best as it prevents White from playing e5 himself and it is now hard to justify the placement of the White Queen  3.g3  The only real attempt to develop the light-squared Bishop now that the Queen is blocking the diagonal   3.f4  Is the only continuation that gives us pause  d6  This continuation appears a little passive but it shouldn't worry us to greatly as White will need to spend time untangling his development. If you need more convincing, 3... d6 is also the engine's top recommendation !  3...Nc6  4.Bg2  d5  5.exd5  Nxd5  =+ }
 2... e5
 { Other moves such as 2... Nc6 or 2... c5 are good alternatives but 2... e5 is our recommendation as it makes our response to White's 2 Qe2 and 2 Qf3 linear. }
 3. Bc4
@@ -738,7 +738,7 @@ O-O e6 { The safest line allowing White nothing. } 6. Bg5 Be7 7. c4
 [Result "*"]
 
 1. e4 Nf6
-{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated GM uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite }
+{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite }
 2. d3
 { We start our journey into the Alekhine with the sidelines. In doing so, we hope to impress upon the reader the combative nature of 1...Nf6!? }
 2... d5
@@ -754,7 +754,7 @@ O-O e6 { The safest line allowing White nothing. } 6. Bg5 Be7 7. c4
 [Result "*"]
 
 1. e4 Nf6
-{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated GM uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite }
+{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite }
 2. d3
 { We start our journey into the Alekhine with the sidelines. In doing so, we hope to impress upon the reader the combative nature of 1...Nf6!? }
 2... d5
@@ -782,7 +782,7 @@ O-O e6 { The safest line allowing White nothing. } 6. Bg5 Be7 7. c4
 [Result "*"]
 
 1. e4 Nf6
-{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated GM uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite }
+{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite }
 2. d3
 { We start our journey into the Alekhine with the sidelines. In doing so, we hope to impress upon the reader the combative nature of 1...Nf6!? }
 2... d5
@@ -807,7 +807,7 @@ O-O e6 { The safest line allowing White nothing. } 6. Bg5 Be7 7. c4
 [Result "*"]
 
 1. e4 Nf6
-{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated GM uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite }
+{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite }
 2. d3
 { We start our journey into the Alekhine with the sidelines. In doing so, we hope to impress upon the reader the combative nature of 1...Nf6!? }
 2... d5
@@ -851,7 +851,7 @@ Bxf3 10. Bxf3 Bc5
 [Result "*"]
 
 1. e4 Nf6
-{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated GM uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite }
+{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite }
 2. d3
 { We start our journey into the Alekhine with the sidelines. In doing so, we hope to impress upon the reader the combative nature of 1...Nf6!? }
 2... d5
@@ -869,7 +869,7 @@ Bxf3 10. Bxf3 Bc5
 [Result "*"]
 
 1. e4 Nf6
-{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated GM uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite }
+{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite }
 2. d3
 { We start our journey into the Alekhine with the sidelines. In doing so, we hope to impress upon the reader the combative nature of 1...Nf6!? }
 2... d5
@@ -895,7 +895,7 @@ Bxf3 10. Bxf3 Bc5
 [Result "*"]
 
 1. e4 Nf6
-{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated GM uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite }
+{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite }
 2. d3
 { We start our journey into the Alekhine with the sidelines. In doing so, we hope to impress upon the reader the combative nature of 1...Nf6!? }
 2... d5
@@ -920,7 +920,7 @@ Bxf3 10. Bxf3 Bc5
 [Result "*"]
 
 1. e4 Nf6
-{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated GM uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite }
+{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite }
 2. d3
 { We start our journey into the Alekhine with the sidelines. In doing so, we hope to impress upon the reader the combative nature of 1...Nf6!? }
 2... d5
@@ -948,7 +948,7 @@ Bxf3 10. Bxf3 Bc5
 [Result "*"]
 
 1. e4 Nf6
-{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated GM uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite }
+{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite }
 2. d3
 { We start our journey into the Alekhine with the sidelines. In doing so, we hope to impress upon the reader the combative nature of 1...Nf6!? }
 2... d5
@@ -977,7 +977,7 @@ Bxf3 10. Bxf3 Bc5
 [Result "*"]
 
 1. e4 Nf6
-{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated GM uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite }
+{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite }
 2. d3
 { We start our journey into the Alekhine with the sidelines. In doing so, we hope to impress upon the reader the combative nature of 1...Nf6!? }
 2... d5
@@ -1005,7 +1005,7 @@ Bxf3 10. Bxf3 Bc5
 [Result "*"]
 
 1. e4 Nf6
-{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated GM uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite }
+{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite }
 2. d3
 { We start our journey into the Alekhine with the sidelines. In doing so, we hope to impress upon the reader the combative nature of 1...Nf6!? }
 2... d5
@@ -1033,7 +1033,7 @@ Bxf3 10. Bxf3 Bc5
 [Result "*"]
 
 1. e4 Nf6
-{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated GM uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite }
+{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite }
 2. d3
 { We start our journey into the Alekhine with the sidelines. In doing so, we hope to impress upon the reader the combative nature of 1...Nf6!? }
 2... d5
@@ -1067,7 +1067,7 @@ Bxf3 10. Bxf3 Bc5
 [Result "*"]
 
 1. e4 Nf6
-{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated GM uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite }
+{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite }
 2. d3
 { We start our journey into the Alekhine with the sidelines. In doing so, we hope to impress upon the reader the combative nature of 1...Nf6!? }
 2... d5
@@ -1104,7 +1104,7 @@ Bxf3 10. Bxf3 Bc5
 [Result "*"]
 
 1. e4 Nf6
-{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated GM uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite }
+{ A modern day champion of the Alekhine Defense is Olexandr Bortnyk. He has been instrumental in the creation of this text as he is a contemporary trailblazer of the opening. This 2600 rated uses the Alekhine as his main weapon against 1. e4, showing that the Alekhine is reputable enough to be in the repertoires of the world's elite }
 2. d3
 { We start our journey into the Alekhine with the sidelines. In doing so, we hope to impress upon the reader the combative nature of 1...Nf6!? }
 2... d5
@@ -1500,7 +1500,7 @@ hxg5
 [Result "*"]
 
 1. e4 Nf6 2. Qe2
-{ Another frequent player of the Alekhine at the GM level is Alejandro Ramirez. Here we will see his solid way of handling this rare side variation }
+{ Another frequent player of the Alekhine at the level is Alejandro Ramirez. Here we will see his solid way of handling this rare side variation }
 2... e5
 { This move is objectively the best as it prevents White from playing e5 himself and it is now hard to justify the placement of the White Queen }
 3. Nf3
@@ -1523,7 +1523,7 @@ hxg5
 [Result "*"]
 
 1. e4 Nf6 2. Qe2
-{ Another frequent player of the Alekhine at the GM level is Alejandro Ramirez. Here we will see his solid way of handling this rare side variation }
+{ Another frequent player of the Alekhine at the level is Alejandro Ramirez. Here we will see his solid way of handling this rare side variation }
 2... e5
 { This move is objectively the best as it prevents White from playing e5 himself and it is now hard to justify the placement of the White Queen }
 3. Nf3
@@ -1545,7 +1545,7 @@ dxe4
 [Result "*"]
 
 1. e4 Nf6 2. Qe2
-{ Another frequent player of the Alekhine at the GM level is Alejandro Ramirez. Here we will see his solid way of handling this rare side variation }
+{ Another frequent player of the Alekhine at the level is Alejandro Ramirez. Here we will see his solid way of handling this rare side variation }
 2... e5
 { This move is objectively the best as it prevents White from playing e5 himself and it is now hard to justify the placement of the White Queen }
 3. f4 { Is the only continuation that gives us pause } 3... d6
@@ -1564,7 +1564,7 @@ dxe4
 [Result "*"]
 
 1. e4 Nf6 2. Qe2
-{ Another frequent player of the Alekhine at the GM level is Alejandro Ramirez. Here we will see his solid way of handling this rare side variation }
+{ Another frequent player of the Alekhine at the level is Alejandro Ramirez. Here we will see his solid way of handling this rare side variation }
 2... e5
 { This move is objectively the best as it prevents White from playing e5 himself and it is now hard to justify the placement of the White Queen }
 3. f4 { Is the only continuation that gives us pause } 3... d6
@@ -1583,7 +1583,7 @@ Nh5 7. fxe5 dxe5 8. Be3 Qd7
 [Result "*"]
 
 1. e4 Nf6 2. Qe2
-{ Another frequent player of the Alekhine at the GM level is Alejandro Ramirez. Here we will see his solid way of handling this rare side variation }
+{ Another frequent player of the Alekhine at the level is Alejandro Ramirez. Here we will see his solid way of handling this rare side variation }
 2... e5
 { This move is objectively the best as it prevents White from playing e5 himself and it is now hard to justify the placement of the White Queen }
 3. f4 { Is the only continuation that gives us pause } 3... d6
@@ -1603,11 +1603,11 @@ Nh5 7. fxe5 dxe5 8. Be3 Qd7
 [Result "*"]
 
 1. e4 Nf6 2. Qe2
-{ Another frequent player of the Alekhine at the GM level is Alejandro Ramirez. Here we will see his solid way of handling this rare side variation }
+{ Another frequent player of the Alekhine at the level is Alejandro Ramirez. Here we will see his solid way of handling this rare side variation }
 2... e5
 { This move is objectively the best as it prevents White from playing e5 himself and it is now hard to justify the placement of the White Queen }
 3. g3 Nc6 4. Bg2 Bc5
-{ 4...d5 is also one of the computer's first choices and will likely transpose to the game we are following as GM Ramirez plays it after a few more moves of preparation }
+{ 4...d5 is also one of the computer's first choices and will likely transpose to the game we are following as Ramirez plays it after a few more moves of preparation }
 5. Nf3 O-O 6. O-O Re8 7. d3 d5
 { Only now with the freeing break once preparations are completed } 8. c3 a5
 { To stop b4 } 9. Bg5
@@ -1625,7 +1625,7 @@ Nh5 7. fxe5 dxe5 8. Be3 Qd7
 [Result "*"]
 
 1. e4 Nf6 2. e5
-{ If you are following the chapters in order, this is the first time we have seen White continue in the most common and principled fashion - 2 e5. We will also continue in principled fashion - with 2...Nd5. 2...Ne4? cannot be recommended and the paradoxical 2...Ng8?! cannot be recommended in good faith either. However, in the spirit of fun, we encourage the reader to check out this game from the 2014 World Blitz Championship where GM Magnus Carlsen bamboozles GM Laurent Fressinet with the 2...Ng8 variation: @@LinkStart@@http://www.chessgames.com/perl/chessgame?gid=1759253@@LinkEnd@@ }
+{ If you are following the chapters in order, this is the first time we have seen White continue in the most common and principled fashion - 2 e5. We will also continue in principled fashion - with 2...Nd5. 2...Ne4? cannot be recommended and the paradoxical 2...Ng8?! cannot be recommended in good faith either. However, in the spirit of fun, we encourage the reader to check out this game from the 2014 World Blitz Championship where Magnus Carlsen bamboozles Laurent Fressinet with the 2...Ng8 variation: @@LinkStart@@http://www.chessgames.com/perl/chessgame?gid=1759253@@LinkEnd@@ }
 2... Nd5 3. b3
 { One of the least challenging continuations as our Alekhine Knight isn't even harassed in this variation. In typical fashion, we fight against the overextended e-pawn }
 3... d6
@@ -1641,7 +1641,7 @@ Nh5 7. fxe5 dxe5 8. Be3 Qd7
 [Result "*"]
 
 1. e4 Nf6 2. e5
-{ If you are following the chapters in order, this is the first time we have seen White continue in the most common and principled fashion - 2 e5. We will also continue in principled fashion - with 2...Nd5. 2...Ne4? is just a mistake and the paradoxical 2...Ng8?! cannot be recommended in good faith either. However, in the spirit of fun, we encourage the reader to check out this game from the 2014 World Blitz Championship where GM Magnus Carlsen bamboozles GM Laurent Fressinet with the 2...Ng8 variation: @@LinkStart@@http://www.chessgames.com/perl/chessgame?gid=1759253@@LinkEnd@@ }
+{ If you are following the chapters in order, this is the first time we have seen White continue in the most common and principled fashion - 2 e5. We will also continue in principled fashion - with 2...Nd5. 2...Ne4? is just a mistake and the paradoxical 2...Ng8?! cannot be recommended in good faith either. However, in the spirit of fun, we encourage the reader to check out this game from the 2014 World Blitz Championship where Magnus Carlsen bamboozles Laurent Fressinet with the 2...Ng8 variation: @@LinkStart@@http://www.chessgames.com/perl/chessgame?gid=1759253@@LinkEnd@@ }
 2... Nd5 3. b3
 { One of the least challenging continuations as our Alekhine Knight isn't even harassed in this variation. In typical fashion, we fight against the overextended e-pawn }
 3... d6 4. d4 dxe5 5. dxe5 Nc6
@@ -1659,7 +1659,7 @@ Nh5 7. fxe5 dxe5 8. Be3 Qd7
 [Result "*"]
 
 1. e4 Nf6 2. e5
-{ If you are following the chapters in order, this is the first time we have seen White continue in the most common and principled fashion - 2 e5. We will also continue in principled fashion - with 2...Nd5. 2...Ne4? is just a mistake and the paradoxical 2...Ng8?! cannot be recommended in good faith either. However, in the spirit of fun, we encourage the reader to check out this game from the 2014 World Blitz Championship where GM Magnus Carlsen bamboozles GM Laurent Fressinet with the 2...Ng8 variation: @@LinkStart@@http://www.chessgames.com/perl/chessgame?gid=1759253@@LinkEnd@@ }
+{ If you are following the chapters in order, this is the first time we have seen White continue in the most common and principled fashion - 2 e5. We will also continue in principled fashion - with 2...Nd5. 2...Ne4? is just a mistake and the paradoxical 2...Ng8?! cannot be recommended in good faith either. However, in the spirit of fun, we encourage the reader to check out this game from the 2014 World Blitz Championship where Magnus Carlsen bamboozles Laurent Fressinet with the 2...Ng8 variation: @@LinkStart@@http://www.chessgames.com/perl/chessgame?gid=1759253@@LinkEnd@@ }
 2... Nd5 3. b3
 { One of the least challenging continuations as our Alekhine Knight isn't even harassed in this variation. In typical fashion, we fight against the overextended e-pawn }
 3... d6 4. d4 dxe5 5. dxe5 Nc6
@@ -1679,7 +1679,7 @@ Nh5 7. fxe5 dxe5 8. Be3 Qd7
 [Result "*"]
 
 1. e4 Nf6 2. e5
-{ If you are following the chapters in order, this is the first time we have seen White continue in the most common and principled fashion - 2 e5. We will also continue in principled fashion - with 2...Nd5. 2...Ne4? is just a mistake and the paradoxical 2...Ng8?! cannot be recommended in good faith either. However, in the spirit of fun, we encourage the reader to check out this game from the 2014 World Blitz Championship where GM Magnus Carlsen bamboozles GM Laurent Fressinet with the 2...Ng8 variation: @@LinkStart@@http://www.chessgames.com/perl/chessgame?gid=1759253@@LinkEnd@@ }
+{ If you are following the chapters in order, this is the first time we have seen White continue in the most common and principled fashion - 2 e5. We will also continue in principled fashion - with 2...Nd5. 2...Ne4? is just a mistake and the paradoxical 2...Ng8?! cannot be recommended in good faith either. However, in the spirit of fun, we encourage the reader to check out this game from the 2014 World Blitz Championship where Magnus Carlsen bamboozles Laurent Fressinet with the 2...Ng8 variation: @@LinkStart@@http://www.chessgames.com/perl/chessgame?gid=1759253@@LinkEnd@@ }
 2... Nd5 3. b3
 { One of the least challenging continuations as our Alekhine Knight isn't even harassed in this variation. In typical fashion, we fight against the overextended e-pawn }
 3... d6 4. d4 dxe5 5. dxe5 Nc6
@@ -1706,7 +1706,7 @@ Nh5 7. fxe5 dxe5 8. Be3 Qd7
 [Result "*"]
 
 1. e4 Nf6 2. e5
-{ If you are following the chapters in order, this is the first time we have seen White continue in the most common and principled fashion - 2 e5. We will also continue in principled fashion - with 2...Nd5. 2...Ne4? is just a mistake and the paradoxical 2...Ng8?! cannot be recommended in good faith either. However, in the spirit of fun, we encourage the reader to check out this game from the 2014 World Blitz Championship where GM Magnus Carlsen bamboozles GM Laurent Fressinet with the 2...Ng8 variation: @@LinkStart@@http://www.chessgames.com/perl/chessgame?gid=1759253@@LinkEnd@@ }
+{ If you are following the chapters in order, this is the first time we have seen White continue in the most common and principled fashion - 2 e5. We will also continue in principled fashion - with 2...Nd5. 2...Ne4? is just a mistake and the paradoxical 2...Ng8?! cannot be recommended in good faith either. However, in the spirit of fun, we encourage the reader to check out this game from the 2014 World Blitz Championship where Magnus Carlsen bamboozles Laurent Fressinet with the 2...Ng8 variation: @@LinkStart@@http://www.chessgames.com/perl/chessgame?gid=1759253@@LinkEnd@@ }
 2... Nd5 3. b3
 { One of the least challenging continuations as our Alekhine Knight isn't even harassed in this variation. In typical fashion, we fight against the overextended e-pawn }
 3... d6 4. exd6 Qxd6
@@ -1726,13 +1726,13 @@ Nh5 7. fxe5 dxe5 8. Be3 Qd7
 [Result "*"]
 
 1. e4 Nf6 2. e5
-{ If you are following the chapters in order, this is the first time we have seen White continue in the most common and principled fashion - 2 e5. We will also continue in principled fashion - with 2...Nd5. 2...Ne4? is just a mistake and the paradoxical 2...Ng8?! cannot be recommended in good faith either. However, in the spirit of fun, we encourage the reader to check out this game from the 2014 World Blitz Championship where GM Magnus Carlsen bamboozles GM Laurent Fressinet with the 2...Ng8 variation: @@LinkStart@@http://www.chessgames.com/perl/chessgame?gid=1759253@@LinkEnd@@ }
+{ If you are following the chapters in order, this is the first time we have seen White continue in the most common and principled fashion - 2 e5. We will also continue in principled fashion - with 2...Nd5. 2...Ne4? is just a mistake and the paradoxical 2...Ng8?! cannot be recommended in good faith either. However, in the spirit of fun, we encourage the reader to check out this game from the 2014 World Blitz Championship where Magnus Carlsen bamboozles Laurent Fressinet with the 2...Ng8 variation: @@LinkStart@@http://www.chessgames.com/perl/chessgame?gid=1759253@@LinkEnd@@ }
 2... Nd5 3. b3
 { One of the least challenging continuations as our Alekhine Knight isn't even harassed in this variation. In typical fashion, we fight against the overextended e-pawn }
 3... d6 4. exd6 Qxd6
 { 4...Qxd6 is the strongest by far of the three possible recaptures. 4...cxd6 doesn't make much sense as it would compel us to fianchetto our dark-squared bishop when White is already setting up on the long diagonal and this would just give us awkward development. 4...exd6 is slightly passive here and we would lose our opportunity to play ...e5 later like we do in the 4...Qxd6 variations }
 5. Bb2 Nc6 6. Qf3
-{ An unrealistic continuation. We mention it though because GM Hoang Thong Tu played it against our favorite player GM Bortnyk in an online match }
+{ An unrealistic continuation. We mention it though because Hoang Thong Tu played it against our favorite player Bortnyk in an online match }
 6... Ncb4
 { Is even stronger than Bortnyk's 6...Ndb4 in the stem game. We are not being subtle here with our threat on the c2 pawn }
 7. Na3 Qg6 { Renewing the threat on c2 } 8. Bc4
@@ -1751,7 +1751,7 @@ Qxg6 Bxg6 12. Bxd5 { Is White's best } 12... exd5
 [Result "*"]
 
 1. e4 Nf6 2. e5
-{ If you are following the chapters in order, this is the first time we have seen White continue in the most common and principled fashion - 2 e5. We will also continue in principled fashion - with 2...Nd5. 2...Ne4? is just a mistake and the paradoxical 2...Ng8?! cannot be recommended in good faith either. However, in the spirit of fun, we encourage the reader to check out this game from the 2014 World Blitz Championship where GM Magnus Carlsen bamboozles GM Laurent Fressinet with the 2...Ng8 variation: @@LinkStart@@http://www.chessgames.com/perl/chessgame?gid=1759253@@LinkEnd@@ }
+{ If you are following the chapters in order, this is the first time we have seen White continue in the most common and principled fashion - 2 e5. We will also continue in principled fashion - with 2...Nd5. 2...Ne4? is just a mistake and the paradoxical 2...Ng8?! cannot be recommended in good faith either. However, in the spirit of fun, we encourage the reader to check out this game from the 2014 World Blitz Championship where Magnus Carlsen bamboozles Laurent Fressinet with the 2...Ng8 variation: @@LinkStart@@http://www.chessgames.com/perl/chessgame?gid=1759253@@LinkEnd@@ }
 2... Nd5 3. b3
 { One of the least challenging continuations as our Alekhine Knight isn't even harassed in this variation. In typical fashion, we fight against the overextended e-pawn }
 3... d6 4. exd6 Qxd6
@@ -1759,7 +1759,7 @@ Qxg6 Bxg6 12. Bxd5 { Is White's best } 12... exd5
 5. Bb2 Nc6
 { 5...Bf5 is another completely acceptable move with the idea of simple development and pressure on c2 }
 6. Qf3
-{ An unrealistic continuation. We mention it though because GM Hoang Thong Tu played it against our favorite player GM Bortnyk in an online match }
+{ An unrealistic continuation. We mention it though because Hoang Thong Tu played it against our favorite player Bortnyk in an online match }
 6... Ncb4
 { Is even stronger than Bortnyk's 6...Ndb4 in the stem game. We are not being subtle here with our threat on the c2 pawn }
 7. Na3 Qg6 { Renewing the threat on c2 } 8. Bc4
@@ -1781,7 +1781,7 @@ Qxg6 Bxg6 12. d3
 [Result "*"]
 
 1. e4 Nf6 2. e5
-{ If you are following the chapters in order, this is the first time we have seen White continue in the most common and principled fashion - 2 e5. We will also continue in principled fashion - with 2...Nd5. 2...Ne4? is just a mistake and the paradoxical 2...Ng8?! cannot be recommended in good faith either. However, in the spirit of fun, we encourage the reader to check out this game from the 2014 World Blitz Championship where GM Magnus Carlsen bamboozles GM Laurent Fressinet with the 2...Ng8 variation: @@LinkStart@@http://www.chessgames.com/perl/chessgame?gid=1759253@@LinkEnd@@ }
+{ If you are following the chapters in order, this is the first time we have seen White continue in the most common and principled fashion - 2 e5. We will also continue in principled fashion - with 2...Nd5. 2...Ne4? is just a mistake and the paradoxical 2...Ng8?! cannot be recommended in good faith either. However, in the spirit of fun, we encourage the reader to check out this game from the 2014 World Blitz Championship where Magnus Carlsen bamboozles Laurent Fressinet with the 2...Ng8 variation: @@LinkStart@@http://www.chessgames.com/perl/chessgame?gid=1759253@@LinkEnd@@ }
 2... Nd5 3. b3
 { One of the least challenging continuations as our Alekhine Knight isn't even harassed in this variation. In typical fashion, we fight against the overextended e-pawn }
 3... d6 4. exd6 Qxd6
@@ -2146,7 +2146,7 @@ Bd3 Bxd3 7. Qxd3 Nc6
 4... dxe5
 { 4.Bf5  5.Nf3  e6  6.Bd3  Bxd3  7.Qxd3  These positions are quite difficult for Black practically }
 5. fxe5 c5
-{ In the 4-Pawns Attack chapter we abstain from the variation with ...c5 which we investigate in an example game by GM Shabalov. Our reasoning there is that it is very hard to meet the critical early d5 advance by White, but here we have no such problem. The difference here is that if White now tries to play for c4 and d5, our Knight can go to the b4 square rather than the b6 square }
+{ In the 4-Pawns Attack chapter we abstain from the variation with ...c5 which we investigate in an example game by Shabalov. Our reasoning there is that it is very hard to meet the critical early d5 advance by White, but here we have no such problem. The difference here is that if White now tries to play for c4 and d5, our Knight can go to the b4 square rather than the b6 square }
 6. c4 Nb4 7. d5
 { While impressive to behold, White's center is overextended and cannot be maintained }
 7... Bf5 { Developing with a not so subtle threat } 8. Na3 e6
@@ -2171,7 +2171,7 @@ Bd3 Bxd3 7. Qxd3 Nc6
 4... dxe5
 { 4.Bf5  5.Nf3  e6  6.Bd3  Bxd3  7.Qxd3  These positions are quite difficult for Black practically }
 5. fxe5 c5
-{ In the 4-Pawns Attack chapter we abstain from the variation with ...c5 which we investigate in an example game by GM Shabalov. Our reasoning there is that it is very hard to meet the critical early d5 advance by White, but here we have no such problem. The difference here is that if White now tries to play for c4 and d5, our Knight can go to the b4 square rather than the b6 square }
+{ In the 4-Pawns Attack chapter we abstain from the variation with ...c5 which we investigate in an example game by Shabalov. Our reasoning there is that it is very hard to meet the critical early d5 advance by White, but here we have no such problem. The difference here is that if White now tries to play for c4 and d5, our Knight can go to the b4 square rather than the b6 square }
 6. c4 Nb4 7. d5
 { While impressive to behold, White will not be able to maintain this overextended center }
 7... Bf5 { Developing with a not so subtle threat } 8. Na3 e6
@@ -2197,7 +2197,7 @@ Bd3 Bxd3 7. Qxd3 Nc6
 4... dxe5
 { 4.Bf5  5.Nf3  e6  6.Bd3  Bxd3  7.Qxd3  These positions are quite difficult for Black practically }
 5. fxe5 c5
-{ In the 4-Pawns Attack chapter we abstain from the variation with ...c5 which we investigate in an example game by GM Shabalov. Our reasoning there is that it is very hard to meet the critical early d5 advance by White, but here we have no such problem. The difference here is that if White now tries to play for c4 and d5, our Knight can go to the b4 square rather than the b6 square }
+{ In the 4-Pawns Attack chapter we abstain from the variation with ...c5 which we investigate in an example game by Shabalov. Our reasoning there is that it is very hard to meet the critical early d5 advance by White, but here we have no such problem. The difference here is that if White now tries to play for c4 and d5, our Knight can go to the b4 square rather than the b6 square }
 6. c4 Nb4 7. a3 N4c6 { White's center collapses } 8. d5
 { The engine seems content to sacrifice the e5 pawn, but Black isn't even in danger if he takes it }
 8... Nxe5 9. Nf3 Nbd7 10. Bf4 Nxf3+ 11. Qxf3 g6
@@ -2221,7 +2221,7 @@ Bd3 Bxd3 7. Qxd3 Nc6
 4... dxe5
 { 4.Bf5  5.Nf3  e6  6.Bd3  Bxd3  7.Qxd3  These positions are quite difficult for Black practically }
 5. fxe5 c5
-{ In the 4-Pawns Attack chapter we abstain from the variation with ...c5 which we investigate in an example game by GM Shabalov. Our reasoning there is that it is very hard to meet the critical early d5 advance by White, but here we have no such problem. The difference here is that if White now tries to play for c4 and d5, our Knight can go to the b4 square rather than the b6 square }
+{ In the 4-Pawns Attack chapter we abstain from the variation with ...c5 which we investigate in an example game by Shabalov. Our reasoning there is that it is very hard to meet the critical early d5 advance by White, but here we have no such problem. The difference here is that if White now tries to play for c4 and d5, our Knight can go to the b4 square rather than the b6 square }
 6. Nf3 cxd4
 { Simple and strong   6.Bg4  is a much riskier alternative  7.Bb5  Nc6  8.c4  is very awkward to meet }
 7. Qxd4 Bf5
@@ -2247,7 +2247,7 @@ Bd3 Bxd3 7. Qxd3 Nc6
 4... dxe5
 { 4.Bf5  5.Nf3  e6  6.Bd3  Bxd3  7.Qxd3  These positions are quite difficult for Black practically }
 5. fxe5 c5
-{ In the 4-Pawns Attack chapter we abstain from the variation with ...c5 which we investigate in an example game by GM Shabalov. Our reasoning there is that it is very hard to meet the critical early d5 advance by White, but here we have no such problem. The difference here is that if White now tries to play for c4 and d5, our Knight can go to the b4 square rather than the b6 square }
+{ In the 4-Pawns Attack chapter we abstain from the variation with ...c5 which we investigate in an example game by Shabalov. Our reasoning there is that it is very hard to meet the critical early d5 advance by White, but here we have no such problem. The difference here is that if White now tries to play for c4 and d5, our Knight can go to the b4 square rather than the b6 square }
 6. Nf3 cxd4
 { Simple and strong   6.Bg4  is a much riskier alternative  7.Bb5  Nc6  8.c4  is very awkward to meet }
 7. Qxd4 Bf5
@@ -2286,7 +2286,7 @@ Qxf3+
 4... dxe5
 { 4.Bf5  5.Nf3  e6  6.Bd3  Bxd3  7.Qxd3  These positions are quite difficult for Black practically }
 5. fxe5 c5
-{ In the 4-Pawns Attack chapter we abstain from the variation with ...c5 which we investigate in an example game by GM Shabalov. Our reasoning there is that it is very hard to meet the critical early d5 advance by White, but here we have no such problem. The difference here is that if White now tries to play for c4 and d5, our Knight can go to the b4 square rather than the b6 square }
+{ In the 4-Pawns Attack chapter we abstain from the variation with ...c5 which we investigate in an example game by Shabalov. Our reasoning there is that it is very hard to meet the critical early d5 advance by White, but here we have no such problem. The difference here is that if White now tries to play for c4 and d5, our Knight can go to the b4 square rather than the b6 square }
 6. Nf3 cxd4
 { Simple and strong   6.Bg4  is a much riskier alternative  7.Bb5  Nc6  8.c4  is very awkward to meet }
 7. Qxd4 Bf5
@@ -2316,7 +2316,7 @@ Qxf3+
 4... dxe5
 { 4.Bf5  5.Nf3  e6  6.Bd3  Bxd3  7.Qxd3  These positions are quite difficult for Black practically }
 5. fxe5 c5
-{ In the 4-Pawns Attack chapter we abstain from the variation with ...c5 which we investigate in an example game by GM Shabalov. Our reasoning there is that it is very hard to meet the critical early d5 advance by White, but here we have no such problem. The difference here is that if White now tries to play for c4 and d5, our Knight can go to the b4 square rather than the b6 square }
+{ In the 4-Pawns Attack chapter we abstain from the variation with ...c5 which we investigate in an example game by Shabalov. Our reasoning there is that it is very hard to meet the critical early d5 advance by White, but here we have no such problem. The difference here is that if White now tries to play for c4 and d5, our Knight can go to the b4 square rather than the b6 square }
 6. Nf3 cxd4
 { Simple and strong   6.Bg4  is a much riskier alternative  7.Bb5  Nc6  8.c4  is very awkward to meet }
 7. Qxd4 Bf5
@@ -2688,7 +2688,7 @@ dxe5 7. Qxd8+ Nxd8
 { It is great to be able to take back on d8 with our Knight rather than our King. An added benefit is that the knight protects the f7-pawn }
 8. Nxe5 f6 { Again the same theme as the previous Bb5 variation } 9. Nd3 e5 10.
 O-O Be6 11. Bb3 Bd6 12. Re1 Kf7
-{ Deviating from Nezhmetdinov - Spassky, 0-1, 1959 where Black again has full equality, the complete game can be found in our example games chapter here: @@LinkStart@@https://www.chessable.com/variation/4109688/@@LinkEnd@@ }
+{ Deviating from Nezhmetdinov - Spassky, 0-1, 1959 where Black again has full equality, the complete game can be found in our example games chapter here: @@LinkStart@@https://www./variation/4109688/@@LinkEnd@@ }
 *
 
 [Event "?"]
@@ -2911,7 +2911,7 @@ Bxb7 9. Bxb7 Nd7 10. Bxa8 Qxa8 11. Qf3 Qc8
 9. Ba3 cxd4 10. cxd4 Qc7
 { And Black is beginning to play against the weak pawns. One game continued: }
 11. Bb3 Nc6 12. Re1 Rd8 13. c3 e6
-{ Where Black then went on to play ...Na5 and fianchetto the other bishop with a nice position in Ning, Chunhong - Ramirez Alvarez, Alejandro, 0-1, Richardson UTD GM }
+{ Where Black then went on to play ...Na5 and fianchetto the other bishop with a nice position in Ning, Chunhong - Ramirez Alvarez, Alejandro, 0-1, Richardson UTD }
 *
 
 [Event "?"]
@@ -3729,7 +3729,7 @@ Bxc6+ bxc6
 [Black "2.Nc3 (3.d4 Introduction)"]
 [Result "*"]
 
-{ Hello people at Chessable, my name is Guy Bielderman. I'm from the Netherlands and at the request of NM Bryan Tillis I’m here to tell you about a little sideline White can play to attempt a Blackmar-Diemer Gambit  BDG  .  In my younger years, I played the BDG a lot, it was fun  (though, this was before computers became strong :D. - Guy   I sincerely appreciate when readers take the time and effort to do analysis on their own and send it to me, though many of the lines changed, I wanted to sincerely thank Guy and give him credit in the text for his interest and work in this rare sideline. - Tillis) }
+{ Hello people at , my name is Guy Bielderman. I'm from the Netherlands and at the request of NM Bryan Tillis I’m here to tell you about a little sideline White can play to attempt a Blackmar-Diemer Gambit  BDG  .  In my younger years, I played the BDG a lot, it was fun  (though, this was before computers became strong :D. - Guy   I sincerely appreciate when readers take the time and effort to do analysis on their own and send it to me, though many of the lines changed, I wanted to sincerely thank Guy and give him credit in the text for his interest and work in this rare sideline. - Tillis) }
 1. e4 Nf6 2. Nc3 d5 3. d4 Nxe4 4. Nxe4 dxe4 5. f3
 { White keeps intentions and flavor of the Blackmar-Diemer Gambit. This is the second most popular move in the database. }
 5... e5
@@ -4852,7 +4852,7 @@ Nb6
 Nb6
 { Reaching a slight crossroads. The main move here is 5 exd6 - the aptly named 'Exchange Variation'. A secondary try for White is 4 f4 - the also aptly named '4-Pawns Attack' and this variation will be investigated later. Before we dive into the Exchange Variation, we will look at an understandably unpopular sideline try for White - 5 Nf3 }
 5. Nf3
-{ We like to note Champions of the Alekhine throughout the text. GM Edvins Kengis is definitely another Alekhine player to seriously analyze. The stem game we used for this line was Gallagher - Kengis, 0-1, Bern 1992 }
+{ We like to note Champions of the Alekhine throughout the text. Edvins Kengis is definitely another Alekhine player to seriously analyze. The stem game we used for this line was Gallagher - Kengis, 0-1, Bern 1992 }
 5... dxe5
 { While the most popular move in the database is 5...Bg4, we believe that it allows White to generate too much of an attack on our Kingside. This was also Taylor's conclusion in his book 'Alekhine Alert'. 5...g6 would transpose directly into the 5...cxd6 Exchange Variation which is offered as an alternative line in the chapter   5.g6  alternative   5.Bg4  6.Be2  e6  7.exd6  cxd6  8.O-O  Be7  9.Nc3  O-O  10.Be3  Nc6  11.d5  which is not fun to play }
 6. Nxe5
@@ -4908,7 +4908,7 @@ cxd6 10. O-O Bg4
 Nb6
 { Reaching a slight crossroads. The main move here is 5 exd6 - the aptly named "Exchange Variation". A secondary try for White is 4 f4 - the also aptly named "4-Pawns Attack" and this variation will be investigated later. Before we dive into the Exchange Variation, we will look at an understandably unpopular sideline try for White - 5 Nf3 }
 5. Nf3
-{ We like to note Champions of the Alekhine throughout the text. GM Edvins Kengis is definitely another Alekhine player to seriously analyze. The stem game we used for this line was Gallagher - Kengis, 0-1, Bern 1992 }
+{ We like to note Champions of the Alekhine throughout the text. Edvins Kengis is definitely another Alekhine player to seriously analyze. The stem game we used for this line was Gallagher - Kengis, 0-1, Bern 1992 }
 5... dxe5
 { While the most popular move in the database is 5...Bg4, we believe that it allows White to generate too much of an attack on our Kingside. This was also Taylor's conclusion in his book "Alekhine Alert". 5...g6 would transpose directly into the 5...cxd6 Exchange Variation which is offered as an alternative line in the chapter   5.g6   5.Bg4  6.Be2  e6  7.exd6  cxd6  8.O-O  Be7  9.Nc3  O-O  10.Be3  Nc6  11.d5  which is not fun to play }
 6. Nxe5
@@ -4938,7 +4938,7 @@ Nxd5 Bxd5 15. O-O e5 { Black has a nice edge in the position } *
 Nb6
 { Reaching a slight crossroads. The main move here is 5 exd6 - the aptly named "Exchange Variation". A secondary try for White is 4 f4 - the also aptly named "4-Pawns Attack" and this variation will be investigated later. Before we dive into the Exchange Variation, we will look at an understandably unpopular sideline try for White - 5 Nf3 }
 5. Nf3
-{ We like to note Champions of the Alekhine throughout the text. GM Edvins Kengis is definitely another Alekhine player to seriously analyze. The stem game we used for this line was Gallagher - Kengis, 0-1, Bern 1992 }
+{ We like to note Champions of the Alekhine throughout the text. Edvins Kengis is definitely another Alekhine player to seriously analyze. The stem game we used for this line was Gallagher - Kengis, 0-1, Bern 1992 }
 5... dxe5
 { While the most popular move in the database is 5...Bg4, we believe that it allows White to generate too much of an attack on our Kingside. This was also Taylor's conclusion in his book "Alekhine Alert". 5...g6 would transpose directly into the 5...cxd6 Exchange Variation which is offered as an alternative line in the chapter   5.g6   5.Bg4  6.Be2  e6  7.exd6  cxd6  8.O-O  Be7  9.Nc3  O-O  10.Be3  Nc6  11.d5  which is not fun to play }
 6. Nxe5
@@ -4969,7 +4969,7 @@ Nb6
 Nb6
 { Reaching a slight crossroads. The main move here is 5 exd6 - the aptly named 'Exchange Variation'. A secondary try for White is 4 f4 - the also aptly named '4-Pawns Attack' and this variation will be investigated later. Before we dive into the Exchange Variation, we will look at an understandably unpopular sideline try for White - 5 Nf3 }
 5. Nf3
-{ We like to note Champions of the Alekhine throughout the text. GM Edvins Kengis is definitely another Alekhine player to seriously analyze. The stem game we used for this line was Gallagher - Kengis, 0-1, Bern 1992 }
+{ We like to note Champions of the Alekhine throughout the text. Edvins Kengis is definitely another Alekhine player to seriously analyze. The stem game we used for this line was Gallagher - Kengis, 0-1, Bern 1992 }
 5... dxe5
 { While the most popular move in the database is 5...Bg4, we believe that it allows White to generate too much of an attack on our Kingside. This was also Taylor's conclusion in his book 'Alekhine Alert'. 5...g6 would transpose directly into the 5...cxd6 Exchange Variation which is offered as an alternative line in the chapter   5.g6   5.Bg4  6.Be2  e6  7.exd6  cxd6  8.O-O  Be7  9.Nc3  O-O  10.Be3  Nc6  11.d5  which is not fun to play }
 6. Nxe5
@@ -5342,7 +5342,7 @@ Rhg1 f5
 7... Be7 8. Bd3 O-O
 { 8.Nb4  is premature  9.Bb1  and the c-pawn is poison  O-O  getting the King out of fork threats  10.a3  Nc6  11.Nge2  Nxc4  12.Qd3  would be embarrassing }
 9. b3
-{ Was the suggestion of IM Christof Sielecki in his 1.e4 repertoire on Chessable. This move is also the highest scoring for White in the database. Everything else is easily better for Black }
+{ Was the suggestion of Christof Sielecki in his 1.e4 repertoire on . This move is also the highest scoring for White in the database. Everything else is easily better for Black }
 9... Re8
 { The immediate ...Nb4 with the same plan is possible too but we want to wait until White has committed Nge2 rather than Nf3 before we move to play ...d5 and weaken the e5 square }
 10. Nge2 Nb4 11. Bb1 c6 { Preparing ...d5 } 12. a3 Na6 13. O-O
@@ -5370,7 +5370,7 @@ Rhg1 f5
 7... Be7 8. Bd3 O-O
 { The Knight move now would be premature:  8... ♘b4 9. ♗b1  Where the c-pawn is poison due to Qd3 threatening mate and our piece. A motif we need to keep in mind across the variations }
 9. b3
-{ Was the suggestion of IM Christof Sielecki in his 1.e4 repertoire on Chessable. This move is also the highest scoring for White in the database. Everything else is easily better for Black }
+{ Was the suggestion of Christof Sielecki in his 1.e4 repertoire on . This move is also the highest scoring for White in the database. Everything else is easily better for Black }
 9... Re8
 { The immediate ...♘b4 with the same plan is possible too but we want to wait until White has committed ♘ge2 rather than ♘f3 before we move to play ...d5 and weaken the e5 square }
 10. Nge2 Nb4 11. Bb1 c6 { Preparing ...d5 } 12. a3 Na6 13. Bd3 Nc7
@@ -5396,7 +5396,7 @@ Rhg1 f5
 7... Be7 8. Bd3 O-O
 { The Knight move now would be premature:  8... ♘b4 9. ♗b1  Where the c-pawn is poison due to Qd3 threatening mate and our piece. A motif we need to keep in mind across the variations }
 9. b3
-{ Was the suggestion of IM Christof Sielecki in his 1.e4 repertoire on Chessable. This move is also the highest scoring for White in the database. Everything else is easily better for Black }
+{ Was the suggestion of Christof Sielecki in his 1.e4 repertoire on . This move is also the highest scoring for White in the database. Everything else is easily better for Black }
 9... Re8
 { The immediate ...♘b4 with the same plan is possible too but we want to wait until White has committed ♘ge2 rather than ♘f3 before we move to play ...d5 and weaken the e5 square }
 10. Nge2 Nb4 11. Bb1 c6 { Keeping an eye on key squares and preparing d5 } 12.
@@ -5431,7 +5431,7 @@ a3 Na6 13. Bd3 Nc7 14. d5
 6. Nc3 g6 7. Be3 Bg7 8. Rc1 O-O 9. b3
 { This is by far the best setup for White facing the 5...cxd6 variation. These lines have been added into the course as it has been requested by readers. Though some of these lines are playable, we feel that the main lines offer Black the best chance to play for a win to complicate matters. }
 9... e5
-{ A move suggested in another Alekhine Defense text, we can't in good faith suggest it. Tim Taylor is his text Alekhine Alert also agrees with our assessment. He suggests 5...exd6 as the best response for Black. Overall, this move is not terrible, but Black needs to play accurately from an awkward position to maintain the balance. There are two other moves worthy of investigation:   9... Nc6 The first choice move in the database for Black. As soon as one looks at the move statistics though horror strikes Black as White easily wins 70%+ of the games with the next move. 10. d5 Unlike our mainline in the text, Black is not accomplishing d5. We are now cramped and struggling to find good squares for our pieces over the next few moves. 10... Ne5 11. Be2 Most flexible, eyeing the g4 square. 11... f5 The most active and popular try, White is much better in all variations. 12. f4 Ng4 13. Bxg4 fxg4 Black has the Bishop Pair but little else. 14. Nge2 It is difficult to suggest a move for Black here. It should be noted that by touching the e-pawn White will capture resulting in an awkward d-pawn which will be very difficult to maintain.    9... f5 A move with the flavor of a Kings Indian looking for active play at the cost of safety. A move championed by GM Shabalov who has an uncompromising style suiting the move. 10. Qd2 e6 Black avoided the full e-pawn push as it results in a position similar to the mainline with the Queens coming off the board with the drawback of lack of flexibility with the f-pawn's location. 11. Nf3 Nc6 12. Bg5 Qe8 13. Nb5 Qd7 14. d5 Deviates from 1–0  (40)  Sevian,S  (2401)  -Shabalov,A  (2529)  Mashantucket 2014 14... Nd8 15. dxe6 Nxe6 16. Nxd6 }
+{ A move suggested in another Alekhine Defense text, we can't in good faith suggest it. Tim Taylor is his text Alekhine Alert also agrees with our assessment. He suggests 5...exd6 as the best response for Black. Overall, this move is not terrible, but Black needs to play accurately from an awkward position to maintain the balance. There are two other moves worthy of investigation:   9... Nc6 The first choice move in the database for Black. As soon as one looks at the move statistics though horror strikes Black as White easily wins 70%+ of the games with the next move. 10. d5 Unlike our mainline in the text, Black is not accomplishing d5. We are now cramped and struggling to find good squares for our pieces over the next few moves. 10... Ne5 11. Be2 Most flexible, eyeing the g4 square. 11... f5 The most active and popular try, White is much better in all variations. 12. f4 Ng4 13. Bxg4 fxg4 Black has the Bishop Pair but little else. 14. Nge2 It is difficult to suggest a move for Black here. It should be noted that by touching the e-pawn White will capture resulting in an awkward d-pawn which will be very difficult to maintain.    9... f5 A move with the flavor of a Kings Indian looking for active play at the cost of safety. A move championed by Shabalov who has an uncompromising style suiting the move. 10. Qd2 e6 Black avoided the full e-pawn push as it results in a position similar to the mainline with the Queens coming off the board with the drawback of lack of flexibility with the f-pawn's location. 11. Nf3 Nc6 12. Bg5 Qe8 13. Nb5 Qd7 14. d5 Deviates from 1–0  (40)  Sevian,S  (2401)  -Shabalov,A  (2529)  Mashantucket 2014 14... Nd8 15. dxe6 Nxe6 16. Nxd6 }
 10. dxe5 dxe5 11. Qxd8 Rxd8 12. c5 N6d7 13. Bc4
 { This position is relatively forced and White has some pull. } 13... Nc6 14.
 Nf3 Na5
@@ -5848,7 +5848,7 @@ Bxc3
 7... Bg7 8. Rc1 O-O 9. b3
 { This is the critical position of the opening. Black has tried many moves here and most of them enjoy a dubious reputation }
 9... Bf5
-{ This move is frequently used by GM Hikaru Nakamura in blitz chess and for good reason - it is the trickiest and best scoring of Black's moves! To understand what is going on here we need to take a step back. You should have noticed that in all of the lines seen so far White has avoided playing an early Nf3. This is because the ideal setup for Black in these positions involves exchanging away the light-squared Bishop and then setting up our central pawns on e6 and d5! We will now take a look at a variety of White's responses: 10 Nf3 , 10 Be2 , 10 d5, 10 Nge2 and 10 g4 }
+{ This move is frequently used by Hikaru Nakamura in blitz chess and for good reason - it is the trickiest and best scoring of Black's moves! To understand what is going on here we need to take a step back. You should have noticed that in all of the lines seen so far White has avoided playing an early Nf3. This is because the ideal setup for Black in these positions involves exchanging away the light-squared Bishop and then setting up our central pawns on e6 and d5! We will now take a look at a variety of White's responses: 10 Nf3 , 10 Be2 , 10 d5, 10 Nge2 and 10 g4 }
 *
 
 [Event "?"]
@@ -5866,7 +5866,7 @@ Bxc3
 7... Bg7 8. Rc1 O-O 9. b3
 { This is the critical position of the opening. Black has tried many moves here and most of them enjoy a dubious reputation }
 9... Bf5
-{ This move is frequently used by GM Hikaru Nakamura in blitz chess and for good reason - it is the trickiest and best scoring of Black's moves! To understand what is going on here we need to take a step back. You should have noticed that in all of the lines seen so far White has avoided playing an early Nf3. This is because the ideal setup for Black in these positions involves exchanging away the light-squared Bishop and then setting up our central pawns on e6 and d5! We will now take a look at a variety of White's responses: 10 Nf3 , 10 Be2 , 10 d5, 10 Nge2 and 10 g4 }
+{ This move is frequently used by Hikaru Nakamura in blitz chess and for good reason - it is the trickiest and best scoring of Black's moves! To understand what is going on here we need to take a step back. You should have noticed that in all of the lines seen so far White has avoided playing an early Nf3. This is because the ideal setup for Black in these positions involves exchanging away the light-squared Bishop and then setting up our central pawns on e6 and d5! We will now take a look at a variety of White's responses: 10 Nf3 , 10 Be2 , 10 d5, 10 Nge2 and 10 g4 }
 10. Nf3
 { This is the least critical variation as it allows Black an attempt to get to the ideal position }
 10... d5 11. c5 Nc8 12. Be2 Bg4
@@ -5890,7 +5890,7 @@ Bxc3
 7... Bg7 8. Rc1 O-O 9. b3
 { This is the critical position of the opening. Black has tried many moves here and most of them enjoy a dubious reputation }
 9... Bf5
-{ This move is frequently used by GM Hikaru Nakamura in blitz chess and for good reason - it is the trickiest and best scoring of Black's moves! To understand what is going on here we need to take a step back. You should have noticed that in all of the lines seen so far White has avoided playing an early ♘f3. This is because the ideal setup for Black in these positions involves exchanging away the light-squared Bishop and then setting up our central pawns on e6 and d5! }
+{ This move is frequently used by Hikaru Nakamura in blitz chess and for good reason - it is the trickiest and best scoring of Black's moves! To understand what is going on here we need to take a step back. You should have noticed that in all of the lines seen so far White has avoided playing an early ♘f3. This is because the ideal setup for Black in these positions involves exchanging away the light-squared Bishop and then setting up our central pawns on e6 and d5! }
 10. Be2 { A strong waiting move compared to the more natural 10. Nf3 } 10... d5
 { A critical move and Memory Marker } 11. c5 Nc8
 { The Bishop needed to be off of c8 for this idea to take place } 12. Bf3
@@ -5929,7 +5929,7 @@ O-O 9. b3 Bf5 10. Be2 d5 11. c5 Nc8 12. Bf3 e5 13. dxe5 Nc6
 7... Bg7 8. Rc1 O-O 9. b3
 { This is the critical position of the opening. Black has tried many moves here and most of them enjoy a dubious reputation }
 9... Bf5
-{ This move is frequently used by GM Hikaru Nakamura in blitz chess and for good reason - it is the trickiest and best scoring of Black's moves! To understand what is going on here we need to take a step back. You should have noticed that in all of the lines seen so far White has avoided playing an early ♘f3. This is because the ideal setup for Black in these positions involves exchanging away the light-squared Bishop and then setting up our central pawns on e6 and d5! }
+{ This move is frequently used by Hikaru Nakamura in blitz chess and for good reason - it is the trickiest and best scoring of Black's moves! To understand what is going on here we need to take a step back. You should have noticed that in all of the lines seen so far White has avoided playing an early ♘f3. This is because the ideal setup for Black in these positions involves exchanging away the light-squared Bishop and then setting up our central pawns on e6 and d5! }
 10. Be2 { A strong waiting move compared to the more natural 10. ♘f3 } 10... d5
 { A critical move and Memory Marker } 11. c5 Nc8
 { The Bishop needed to be off of c8 for this idea to take place } 12. Bf3
@@ -5958,7 +5958,7 @@ Kf1 Nxc1 { Black has a sizable edge } *
 7... Bg7 8. Rc1 O-O 9. b3
 { This is the critical position of the opening. Black has tried many moves here and most of them enjoy a dubious reputation }
 9... Bf5
-{ This move is frequently used by GM Hikaru Nakamura in blitz chess and for good reason - it is the trickiest and best scoring of Black's moves! To understand what is going on here we need to take a step back. You should have noticed that in all of the lines seen so far White has avoided playing an early ♘f3. This is because the ideal setup for Black in these positions involves exchanging away the light-squared Bishop and then setting up our central pawns on e6 and d5! }
+{ This move is frequently used by Hikaru Nakamura in blitz chess and for good reason - it is the trickiest and best scoring of Black's moves! To understand what is going on here we need to take a step back. You should have noticed that in all of the lines seen so far White has avoided playing an early ♘f3. This is because the ideal setup for Black in these positions involves exchanging away the light-squared Bishop and then setting up our central pawns on e6 and d5! }
 10. Be2 { A strong waiting move compared to the more natural 10. ♘f3 } 10... d5
 { A critical move and Memory Marker } 11. c5 Nc8
 { The Bishop needed to be off of c8 for this idea to take place } 12. Bf3
@@ -5993,7 +5993,7 @@ Kf1 Nxc1 { Black has a sizable edge } *
 7... Bg7 8. Rc1 O-O 9. b3
 { This is the critical position of the opening. Black has tried many moves here and most of them enjoy a dubious reputation }
 9... Bf5
-{ This move is frequently used by GM Hikaru Nakamura in blitz chess and for good reason - it is the trickiest and best scoring of Black's moves! To understand what is going on here we need to take a step back. You should have noticed that in all of the lines seen so far White has avoided playing an early ♘f3. This is because the ideal setup for Black in these positions involves exchanging away the light-squared Bishop and then setting up our central pawns on e6 and d5! }
+{ This move is frequently used by Hikaru Nakamura in blitz chess and for good reason - it is the trickiest and best scoring of Black's moves! To understand what is going on here we need to take a step back. You should have noticed that in all of the lines seen so far White has avoided playing an early ♘f3. This is because the ideal setup for Black in these positions involves exchanging away the light-squared Bishop and then setting up our central pawns on e6 and d5! }
 10. Be2 { A strong waiting move compared to the more natural 10. ♘f3 } 10... d5
 { A critical move and Memory Marker } 11. c5 Nc8
 { The Bishop needed to be off of c8 for this idea to take place } 12. Bf3
@@ -6026,7 +6026,7 @@ Nxe2 Qxa2
 7... Bg7 8. Rc1 O-O 9. b3
 { This is the critical position of the opening. Black has tried many moves here and most of them enjoy a dubious reputation }
 9... Bf5
-{ This move is frequently used by GM Hikaru Nakamura in blitz chess and for good reason - it is the trickiest and best scoring of Black's moves! To understand what is going on here we need to take a step back. You should have noticed that in all of the lines seen so far White has avoided playing an early ♘f3. This is because the ideal setup for Black in these positions involves exchanging away the light-squared Bishop and then setting up our central pawns on e6 and d5! }
+{ This move is frequently used by Hikaru Nakamura in blitz chess and for good reason - it is the trickiest and best scoring of Black's moves! To understand what is going on here we need to take a step back. You should have noticed that in all of the lines seen so far White has avoided playing an early ♘f3. This is because the ideal setup for Black in these positions involves exchanging away the light-squared Bishop and then setting up our central pawns on e6 and d5! }
 10. Be2 { A strong waiting move compared to the more natural 10. ♘f3 } 10... d5
 { A critical move and Memory Marker } 11. c5 Nc8
 { The Bishop needed to be off of c8 for this idea to take place } 12. Bf3
@@ -6059,7 +6059,7 @@ Nc6 16. Qf4 Ne5
 7... Bg7 8. Rc1 O-O 9. b3
 { This is the critical position of the opening. Black has tried many moves here and most of them enjoy a dubious reputation }
 9... Bf5
-{ This move is frequently used by GM Hikaru Nakamura in blitz chess and for good reason - it is the trickiest and best scoring of Black's moves! To understand what is going on here we need to take a step back. You should have noticed that in all of the lines seen so far White has avoided playing an early ♘f3. This is because the ideal setup for Black in these positions involves exchanging away the light-squared Bishop and then setting up our central pawns on e6 and d5! }
+{ This move is frequently used by Hikaru Nakamura in blitz chess and for good reason - it is the trickiest and best scoring of Black's moves! To understand what is going on here we need to take a step back. You should have noticed that in all of the lines seen so far White has avoided playing an early ♘f3. This is because the ideal setup for Black in these positions involves exchanging away the light-squared Bishop and then setting up our central pawns on e6 and d5! }
 10. Be2 { A strong waiting move compared to the more natural 10. ♘f3 } 10... d5
 { A critical move and Memory Marker } 11. c5 Nc8
 { The Bishop needed to be off of c8 for this idea to take place } 12. Bf3
@@ -6090,7 +6090,7 @@ Ba6 { The position is -1 and Black still has the initiative } *
 7... Bg7 8. Rc1 O-O 9. b3
 { This is the critical position of the opening. Black has tried many moves here and most of them enjoy a dubious reputation }
 9... Bf5
-{ This move is frequently used by GM Hikaru Nakamura in blitz chess and for good reason - it is the trickiest and best scoring of Black's moves! To understand what is going on here we need to take a step back. You should have noticed that in all of the lines seen so far White has avoided playing an early ♘f3. This is because the ideal setup for Black in these positions involves exchanging away the light-squared Bishop and then setting up our central pawns on e6 and d5! }
+{ This move is frequently used by Hikaru Nakamura in blitz chess and for good reason - it is the trickiest and best scoring of Black's moves! To understand what is going on here we need to take a step back. You should have noticed that in all of the lines seen so far White has avoided playing an early ♘f3. This is because the ideal setup for Black in these positions involves exchanging away the light-squared Bishop and then setting up our central pawns on e6 and d5! }
 10. Be2 { A strong waiting move compared to the more natural 10. ♘f3 } 10... d5
 { A critical move and Memory Marker } 11. c5 Nc8
 { The Bishop needed to be off of c8 for this idea to take place } 12. Bf3
@@ -6119,7 +6119,7 @@ Ba6 { The position is -1 and Black still has the initiative } *
 7... Bg7 8. Rc1 O-O 9. b3
 { This is the critical position of the opening. Black has tried many moves here and most of them enjoy a dubious reputation }
 9... Bf5
-{ This move is frequently used by GM Hikaru Nakamura in blitz chess and for good reason - it is the trickiest and best scoring of Black's moves! To understand what is going on here we need to take a step back. You should have noticed that in all of the lines seen so far White has avoided playing an early ♘f3. This is because the ideal setup for Black in these positions involves exchanging away the light-squared Bishop and then setting up our central pawns on e6 and d5! }
+{ This move is frequently used by Hikaru Nakamura in blitz chess and for good reason - it is the trickiest and best scoring of Black's moves! To understand what is going on here we need to take a step back. You should have noticed that in all of the lines seen so far White has avoided playing an early ♘f3. This is because the ideal setup for Black in these positions involves exchanging away the light-squared Bishop and then setting up our central pawns on e6 and d5! }
 10. Be2 { A strong waiting move compared to the more natural 10. ♘f3 } 10... d5
 { A critical move and Memory Marker } 11. c5 Nc8
 { The Bishop needed to be off of c8 for this idea to take place } 12. Bf3
@@ -6145,7 +6145,7 @@ Ba6 { The position is -1 and Black still has the initiative } *
 7... Bg7 8. Rc1 O-O 9. b3
 { This is the critical position of the opening. Black has tried many moves here and most of them enjoy a dubious reputation }
 9... Bf5
-{ This move is frequently used by GM Hikaru Nakamura in blitz chess and for good reason - it is the trickiest and best scoring of Black's moves! To understand what is going on here we need to take a step back. You should have noticed that in all of the lines seen so far White has avoided playing an early Nf3. This is because the ideal setup for Black in these positions involves exchanging away the light-squared Bishop and then setting up our central pawns on e6 and d5! We will now take a look at a variety of White's responses: 10 Nf3 , 10 Be2 , 10 d5, 10 Nge2 and 10 g4 }
+{ This move is frequently used by Hikaru Nakamura in blitz chess and for good reason - it is the trickiest and best scoring of Black's moves! To understand what is going on here we need to take a step back. You should have noticed that in all of the lines seen so far White has avoided playing an early Nf3. This is because the ideal setup for Black in these positions involves exchanging away the light-squared Bishop and then setting up our central pawns on e6 and d5! We will now take a look at a variety of White's responses: 10 Nf3 , 10 Be2 , 10 d5, 10 Nge2 and 10 g4 }
 10. d5
 { A reasonable move since Black wanted to play ...d5 themselves. However, it does allow Black to strike back in the center and in fact Black scores much better than White from these positions in the database }
 10... e6 11. dxe6 fxe6
@@ -6172,7 +6172,7 @@ Be4 16. f3 Bc6
 7... Bg7 8. Rc1 O-O 9. b3
 { This is the critical position of the opening. Black has tried many moves here and most of them enjoy a dubious reputation }
 9... Bf5
-{ This move is frequently used by GM Hikaru Nakamura in blitz chess and for good reason - it is the trickiest and best scoring of Black's moves! To understand what is going on here we need to take a step back. You should have noticed that in all of the lines seen so far White has avoided playing an early Nf3. This is because the ideal setup for Black in these positions involves exchanging away the light-squared Bishop and then setting up our central pawns on e6 and d5! We will now take a look at a variety of White's responses: 10 Nf3 , 10 Be2 , 10 d5, 10 Nge2 and 10 g4 }
+{ This move is frequently used by Hikaru Nakamura in blitz chess and for good reason - it is the trickiest and best scoring of Black's moves! To understand what is going on here we need to take a step back. You should have noticed that in all of the lines seen so far White has avoided playing an early Nf3. This is because the ideal setup for Black in these positions involves exchanging away the light-squared Bishop and then setting up our central pawns on e6 and d5! We will now take a look at a variety of White's responses: 10 Nf3 , 10 Be2 , 10 d5, 10 Nge2 and 10 g4 }
 10. d5
 { A reasonable move since Black wanted to play ...d5 themselves. However, it does allow Black to strike back in the center and in fact Black scores much better than White from these positions in the database }
 10... e6 11. g4 Bxc3+ { Only move } 12. Rxc3 Be4 13. f3 Bxd5
@@ -6196,7 +6196,7 @@ Be4 16. f3 Bc6
 7... Bg7 8. Rc1 O-O 9. b3
 { This is the critical position of the opening. Black has tried many moves here and most of them enjoy a dubious reputation }
 9... Bf5
-{ This move is frequently used by GM Hikaru Nakamura in blitz chess and for good reason - it is the trickiest and best scoring of Black's moves! To understand what is going on here we need to take a step back. You should have noticed that in all of the lines seen so far White has avoided playing an early Nf3. This is because the ideal setup for Black in these positions involves exchanging away the light-squared Bishop and then setting up our central pawns on e6 and d5! We will now take a look at a variety of White's responses: 10 Nf3 , 10 Be2 , 10 d5, 10 Nge2 and 10 g4 }
+{ This move is frequently used by Hikaru Nakamura in blitz chess and for good reason - it is the trickiest and best scoring of Black's moves! To understand what is going on here we need to take a step back. You should have noticed that in all of the lines seen so far White has avoided playing an early Nf3. This is because the ideal setup for Black in these positions involves exchanging away the light-squared Bishop and then setting up our central pawns on e6 and d5! We will now take a look at a variety of White's responses: 10 Nf3 , 10 Be2 , 10 d5, 10 Nge2 and 10 g4 }
 10. Nge2 d5 11. c5 Nc8 12. Ng3 e6 13. Nxf5 gxf5
 { Is similar to our ideal position and is fine for Black } *
 
@@ -6215,7 +6215,7 @@ Be4 16. f3 Bc6
 7... Bg7 8. Rc1 O-O 9. b3
 { This is the critical position of the opening. Black has tried many moves here and most of them enjoy a dubious reputation }
 9... Bf5
-{ This move is frequently used by GM Hikaru Nakamura in blitz chess and for good reason - it is the trickiest and best scoring of Black's moves! To understand what is going on here we need to take a step back. You should have noticed that in all of the lines seen so far White has avoided playing an early Nf3. This is because the ideal setup for Black in these positions involves exchanging away the light-squared Bishop and then setting up our central pawns on e6 and d5! We will now take a look at a variety of White's responses: 10 Nf3 , 10 Be2 , 10 d5, 10 Nge2 and 10 g4 }
+{ This move is frequently used by Hikaru Nakamura in blitz chess and for good reason - it is the trickiest and best scoring of Black's moves! To understand what is going on here we need to take a step back. You should have noticed that in all of the lines seen so far White has avoided playing an early Nf3. This is because the ideal setup for Black in these positions involves exchanging away the light-squared Bishop and then setting up our central pawns on e6 and d5! We will now take a look at a variety of White's responses: 10 Nf3 , 10 Be2 , 10 d5, 10 Nge2 and 10 g4 }
 10. g4
 { This move plays directly against our idea of ...Bf5. Clearly a critical variation }
 10... Bc8
@@ -6417,7 +6417,7 @@ Rc2 Bh6 29. Kh1 h4
 [Result "*"]
 
 1. e4 Nf6 2. e5 Nd5 3. c4 Nb6 4. d4 d6 5. f4
-{ Unsurprisingly, this move begins the 4-Pawns Attack Variation. Before we dive into our chosen approach to neutralizing White's early aggression, we would first like present 3 games that give important context as to how we arrived at our eventual recommendation. The game we will look at first is: Zvara, Petr - Chetverik, Maxim, 1-0, Olomouc Agentura 64 Cup IM-B, 2007. This game exhibits a combative sideline for Black that we believe is more suited for Rapid or Blitz chess as it does seem to be objectively dubious }
+{ Unsurprisingly, this move begins the 4-Pawns Attack Variation. Before we dive into our chosen approach to neutralizing White's early aggression, we would first like present 3 games that give important context as to how we arrived at our eventual recommendation. The game we will look at first is: Zvara, Petr - Chetverik, Maxim, 1-0, Olomouc Agentura 64 Cup -B, 2007. This game exhibits a combative sideline for Black that we believe is more suited for Rapid or Blitz chess as it does seem to be objectively dubious }
 5... g5
 { An interesting and extremely combative continuation. The two great downsides to this approach are 1  Black is taking on the lion's share of the risk in the position as White can continue by playing natural moves and Black cannot, and 2  There are too many moves available to White that Black needs to investigate. Without deep preparation, it can be very difficult for Black to find best play in these creative situations }
 6. exd6
@@ -6452,7 +6452,7 @@ Qg8+ Ke7 41. Qe8+ Kd6 42. Rd8+ Kc5 43. Rxd4
 [Result "*"]
 
 1. e4 Nf6 2. e5 Nd5 3. c4 Nb6 4. d4 d6 5. f4 dxe5
-{ Another Champion of the Alekhine Defense is GM Alexander Shabalov. Here we will look at the game: Lapshun, Yury - Shabalov, Alexander, 0-1, USA-ch, 2003 }
+{ Another Champion of the Alekhine Defense is Alexander Shabalov. Here we will look at the game: Lapshun, Yury - Shabalov, Alexander, 0-1, USA-ch, 2003 }
 6. fxe5 c5
 { We considered this variation strongly because the forcing nature of play in this variation was very appealing. Unfortunately, this variation has a problem... }
 7. d5
@@ -7340,7 +7340,7 @@ Bxe5 *
 7... g6
 { Is better than the lines with the Bishop on f5 or g4 where White would be able to get a better position with little effort   7.N7f6  8.Bg2  Bf5  9.O-O  e6  10.a3  Preparing the next move  Bd6  leaving a retreat square for the Knight  11.c4  Ne7  12.Nc3  O-O  where Black has completed development but is now at a loss for what to do. White enjoys all of the play in the middlegame with extra space and more piece harmony }
 8. Bg2 Bg7 9. O-O O-O 10. c4 Nc7 11. Nc3 Nb6
-{ Played twice by GM Evgenij Miroshnichenko. Also plausible is 11...b5 or 11...e5 }
+{ Played twice by Evgenij Miroshnichenko. Also plausible is 11...b5 or 11...e5 }
 12. b3 { Much more accurate than 12 Qb3 } 12... Bg4 13. Be3 e5
 { Not relenting the pressure on White's center } 14. dxe5 Ne6
 { A productive move that waits for White to play h3 rather than playing ...Bxf3 immediately }
@@ -8154,7 +8154,7 @@ Qxg4 Nxe5 10. dxe5 Qc8
 7... Be6
 { White's main followup is the move 8 c4, but we will also consider 8 Rg1 and 8 f4 }
 8. Rg1 Nd7 9. Nd3 g6
-{ Improving on a game of Bortnyk   9.Qc7  Sanal, V. - Bortnik, A., 0-1, 10th Vasylyshyn Memorial GM, 2013 }
+{ Improving on a game of Bortnyk   9.Qc7  Sanal, V. - Bortnik, A., 0-1, 10th Vasylyshyn Memorial , 2013 }
 10. c4 Nc7 11. b3 b5 12. Nd2 bxc4 13. bxc4
 { 13.Nxc4  Bg7  14.Bb2  Bxc4  15.bxc4  O-O } 13... Bg7 14. Bb2 O-O
 { And Black chooses between several good plans of action } *
@@ -9148,7 +9148,7 @@ Nc6 { Was seen in Shubin, Kirill - Zhigalko, S., 0-1, European Blitz 2017 } *
 { A solid move which is not the engine's first choice but makes a large amount of sense covering key squares in the slow ending. }
 8. Nge2 g6 { We now begin action against the e5 pawn with simple development. }
 9. Nd4 Bg7 10. Bg3 O-O 11. f4
-{ Deviates from 0-1 Berov,A  (2490)  -Varga,Z  (2520)  Ruhrgebiet 1997:  11. Be2 c5 12. Nb3 Nc6 13. f4 g5 14. fxg5 Nxe5 15. Bxe5 Bxe5 16. Nxc5 Bf5 17. Nd5 Bxc2 18. Nxe7+ Kh8 19. Rd2 Rfe8 20. Rxc2 Rxe7 21. Nb3 Nd5 22. Kf2 Bc7 23. Rhc1 Bb6+ 24. Kg3 Rg8 25. h4 Nb4 26. Rc4 Nxa2 27. Ra1 Rxe2 28. Nd4 Re4 29. Rxa2 Rxd4 30. Rc3 f6 31. Ra1 fxg5 32. h5 Rh4 33. Rd1 Rf8 34. Rc2 Rf7  GM Varga shows us an interesting and dynamic path to playing the position without queens. Pay particular attention to the move 13...g5 that breaks the central tension and begins Black's initiative. }
+{ Deviates from 0-1 Berov,A  (2490)  -Varga,Z  (2520)  Ruhrgebiet 1997:  11. Be2 c5 12. Nb3 Nc6 13. f4 g5 14. fxg5 Nxe5 15. Bxe5 Bxe5 16. Nxc5 Bf5 17. Nd5 Bxc2 18. Nxe7+ Kh8 19. Rd2 Rfe8 20. Rxc2 Rxe7 21. Nb3 Nd5 22. Kf2 Bc7 23. Rhc1 Bb6+ 24. Kg3 Rg8 25. h4 Nb4 26. Rc4 Nxa2 27. Ra1 Rxe2 28. Nd4 Re4 29. Rxa2 Rxd4 30. Rc3 f6 31. Ra1 fxg5 32. h5 Rh4 33. Rd1 Rf8 34. Rc2 Rf7  Varga shows us an interesting and dynamic path to playing the position without queens. Pay particular attention to the move 13...g5 that breaks the central tension and begins Black's initiative. }
 11... f6 { Where Black has sufficient counterplay. } *
 
 [Event "?"]
@@ -10410,7 +10410,7 @@ Rxf4 Rc2+ 38. Kg3 Ke5 39. h4 Rg2+ 40. Kxg2 Kxf4 *
 [Result "*"]
 
 1. e4 Nf6 2. e5 Nd5 3. d4 Nb6 4. Nf3
-{ 4.c4  d6  With a direct transposition into our Exchange Variation notes.   4.f4  d6  Is required in this variation as d5 is rubbish. 0-1, 8th Blondes vs. Brunettes, 2018   4.a4  One of the more critical variations as it has a different feel from the Tate variation. Actively look at the difference !  a5  Required in this position: 0-1, UKR-chT Clubs, 2010   4.Bd3  d6  5.f4  c5  0-1, 12th V. Nabokov Mem IM, 2015   4.c3  d6  5.exd6  cxd6  6.Nf3  g6   4.Nc3  d6  0-1, ESP-chT Honor Gp2, 2009   4.d5  d6  5.f4  g6  6.c4  with themes similar to the 4-Pawns attack   4.g3  d6 }
+{ 4.c4  d6  With a direct transposition into our Exchange Variation notes.   4.f4  d6  Is required in this variation as d5 is rubbish. 0-1, 8th Blondes vs. Brunettes, 2018   4.a4  One of the more critical variations as it has a different feel from the Tate variation. Actively look at the difference !  a5  Required in this position: 0-1, UKR-chT Clubs, 2010   4.Bd3  d6  5.f4  c5  0-1, 12th V. Nabokov Mem , 2015   4.c3  d6  5.exd6  cxd6  6.Nf3  g6   4.Nc3  d6  0-1, ESP-chT Honor Gp2, 2009   4.d5  d6  5.f4  g6  6.c4  with themes similar to the 4-Pawns attack   4.g3  d6 }
 4... d5 5. Bd3 Bg4 6. h3 Bxf3 7. Qxf3 e6 8. O-O c5 9. c3
 { 9.dxc5  N6d7  10.Qg3  Nxc5  11.Nd2  Nxd3  12.cxd3  Nc6  13.Nf3  h6  14.Bd2  Qb6  15.Qg4  Qa6  16.d4  g5  an interesting and playable position for both sides }
 9... Nc6 10. Be3 Be7
@@ -10542,7 +10542,7 @@ Kg6 62. Ra2 Qf4+ 63. Kh1 Qc1+ 64. Kh2 Qf4+ 65. Kh1 Qe3 66. Kh2 Kh5 67. Ra8 Qf4+
 
 { The full game in free video is found on the YouTube Palm Beach Chess channel where you can find many free videos by NM Tillis. }
 1. e4 Nf6
-{ The beauty of Chessable is a book ever has the chance to continue to evolve. The readers can expect as we emerge in the dawn of 2020 a new Quickstarter Guide will be placed in the text to assist readers in the most optimal study of the Alekhine. This bonus game is a reminder of the ferocity with which the Alekhine can punish the uninitiated. This was played on lichess.org at 3min time control on 12/27/19. }
+{ The beauty of  is a book ever has the chance to continue to evolve. The readers can expect as we emerge in the dawn of 2020 a new Quickstarter Guide will be placed in the text to assist readers in the most optimal study of the Alekhine. This bonus game is a reminder of the ferocity with which the Alekhine can punish the uninitiated. This was played on lichess.org at 3min time control on 12/27/19. }
 2. e5 Nd5 3. d4 d6
 { My personal preference is much like a game of ping pong when it comes to selecting the Classical or Anti-Classical chapter as the main weapon. Personally, my results have been better with the Classical since the text has been published. }
 4. c4 Nb6 5. exd6 cxd6

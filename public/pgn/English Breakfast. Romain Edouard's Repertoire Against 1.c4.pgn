@@ -8,7 +8,7 @@
 
 { In this course I am going to provide you with a full repertoire against the English Opening. }
 1. c4 e5
-{ As early as move 1 we are at a corner. Generally, White wants to develop his kingside bishop with g3 and Bg2, however, he may do it with or without  2.Nc3  .   In the last part of the course we will also study rare 2nd moves, like  2.d3  @@StartBracket@@probably the most sensible move, willing to transpose into a reversed Najdorf or Classical Sicilian@@EndBracket@@,  2.Nf3  @@StartBracket@@GM Rakhmanov's specialty@@EndBracket@@ or  2.e3  @@StartBracket@@tried by Magnus with the move order  2.Nc3  Nf6  3.e3  @@EndBracket@@.   However, we will see that all of these lines aren't threatening for Black. }
+{ As early as move 1 we are at a corner. Generally, White wants to develop his kingside bishop with g3 and Bg2, however, he may do it with or without  2.Nc3  .   In the last part of the course we will also study rare 2nd moves, like  2.d3  @@StartBracket@@probably the most sensible move, willing to transpose into a reversed Najdorf or Classical Sicilian@@EndBracket@@,  2.Nf3  @@StartBracket@@Rakhmanov's specialty@@EndBracket@@ or  2.e3  @@StartBracket@@tried by Magnus with the move order  2.Nc3  Nf6  3.e3  @@EndBracket@@.   However, we will see that all of these lines aren't threatening for Black. }
 2. Nc3
 { If White starts with  2.g3  then after  2...Nf6  Black will play 3...c6, never mind whether White plays  3.Bg2  or  3.Nc3  . Black's goal is to take control of the center with  3...c6  and  4.--  d5  .   In either case, White will then have to react in the center, thing which he can do either with 4.d4 or 4.Nf3.   In the event of  3.Nc3  c6  we are going to react to  4.d4  with  4...exd4  5.Qxd4  d5  , as in the event of an Isolated Pawn position @@StartBracket@@  6.cxd5  cxd5  @@EndBracket@@, Black will be threatening to play ...Nc6 and ...d4, bothering the knight on c3.   And if:  @@StartFEN@@rnbqkb1r/pp1p1ppp/2p2n2/4p3/2P5/2N3P1/PP1PPP1P/R1BQKBNR w KQkq - 0 4@@EndFEN@@  4.Nf3  then our main line will go  4...e4  5.Nd4  Qb6!  bothering the white knight on d4, followed by ...d5, unless White goes for the main move  6.Nb3  in which case we will continue bothering the white knight with  6...a5!  with many complications to come,  7.d3  being the main move here.  @@StartFEN@@rnbqkb1r/pppp1ppp/5n2/4p3/2P5/6P1/PP1PPP1P/RNBQKBNR w KQkq - 1 3@@EndFEN@@  3.Bg2  c6  Again, White cannot just allow Black to push ...d5 and get a wonderful center. He should react either with 4.d4 or 4.Nf3.  4.Nf3   If  4.d4  now we are opting for  4...e4!  closing the position, with the idea of playing ...d5 next.   White will try to target our central pawns but won't succeed, as you'll discover in the course.  4...e4  5.Nd4  and here we will play similarly as in the same position with Nc3 being played instead of Bg2, except that we will start with  5...d5  6.cxd5  and now play  6...Qb6!  with the same idea of:  7.Nb3  a5!  threatening ...a4. Here the main line goes  8.d3  ,with complications that Black is perfectly able to handle. }
 2... Nf6 3. Nf3 { With this move order, White prevents ...c6, ...d5 ideas. }
@@ -317,7 +317,7 @@ Rxf4 Be6
 [Result "*"]
 
 1. c4 e5 2. Nf3
-{ I discovered this line when working on this course, and found out that GM Rakhmanov was a big specialist of it. However, with a few precise moves, Black seems to be doing more than fine. }
+{ I discovered this line when working on this course, and found out that Rakhmanov was a big specialist of it. However, with a few precise moves, Black seems to be doing more than fine. }
 2... e4
 { We attack the white knight, entering a sort of reversed Alekhine where White will move this knight twice in the opening. }
 3. Nd4 Nc6 { The main and best line. } 4. Nc2
@@ -339,7 +339,7 @@ Rxf4 Be6
 [Result "*"]
 
 1. c4 e5 2. Nf3
-{ I discovered this line when working on this course, and found out that GM Rakhmanov was a big specialist of it. However, with a few precise moves, Black seems to be doing more than fine. }
+{ I discovered this line when working on this course, and found out that Rakhmanov was a big specialist of it. However, with a few precise moves, Black seems to be doing more than fine. }
 2... e4
 { We attack the white knight, entering a sort of reversed Alekhine where White will move this knight twice in the opening. }
 3. Nd4 Nc6 { The main and best line. } 4. e3 Nf6
@@ -502,7 +502,7 @@ Rxf4 Be6
 7... e4 8. Nd2 d5 9. a3
 { 9.Be2  O-O  10.O-O  a5  and the only piece Black will have to relocate at some point is the c6-knight, but Black has very easy moves to come: ...Re8, ...Bf5, possibly ...h5, ...h4, and I do not really see what White is doing. }
 9... O-O
-{ I beat GM Deac at the European Individual in Skopje, 2019, playing  9...a5  , which is also totally fine - but perhaps unnecessary as White played a3 to cover the b4-square, not necessarily to play b4 that would weaken the light-squares. }
+{ I beat Deac at the European Individual in Skopje, 2019, playing  9...a5  , which is also totally fine - but perhaps unnecessary as White played a3 to cover the b4-square, not necessarily to play b4 that would weaken the light-squares. }
 10. h3
 { This was Studer's choice against me in a rapid online game.   If  10.b4  , for example  10...Qd8  with the idea of relocating the c6-knight through e7. In the game, I went  for @@StartFEN@@r1b2rk1/ppp1qppp/2n2n2/3p4/2PPp3/P1Q1P2P/1P1N1PP1/R1B1KB1R b KQ - 0 10@@EndFEN@@  10...a5  , which again was not mandatory, I believe. }
 10... dxc4 11. Bxc4 Be6
@@ -1690,7 +1690,7 @@ Nf3
 { Black starts trading pieces and the position will soon clarify as approximately equal. }
 10. Nxe5 Bxe5 11. Bxd3 c6
 { Now White has a choice: a natural move, or a tactical one. } 12. f4 Bd4
-{ An awesome move! Not making the mistake to retract the bishop on b8 as GM Sargsyan did. }
+{ An awesome move! Not making the mistake to retract the bishop on b8 as Sargsyan did. }
 13. Bc2
 { 13.exd4  cxd5  is simply better for Black, who has big problems on the light squares. }
 13... cxd5 14. Qxd4 dxc4 15. Qxc4 d5 16. Qd4 Ne4 17. Bxe4
@@ -1725,7 +1725,7 @@ Nf3
 { Black starts trading pieces and the position will soon clarify as approximately equal. }
 10. Nxe5 Bxe5 11. Bxd3 c6
 { Now White has a choice: a natural move, or a tactical one. } 12. f4 Bd4
-{ An awesome move! Not making the mistake to retract the bishop on b8 as GM Sargsyan did. }
+{ An awesome move! Not making the mistake to retract the bishop on b8 as Sargsyan did. }
 13. Bc2
 { 13.exd4  cxd5  is simply better for Black, who has big problems on the light squares. }
 13... cxd5 14. Qxd4 dxc4 15. Qxc4 b5 { Is a very interesting alternative. } 16.
@@ -2099,7 +2099,7 @@ Qxh7 Nf6
 7... e4 8. Nd2 d5 9. a3
 { 9.Be2  O-O  10.O-O  a5  and the only piece Black will have to relocate at some point is the c6-knight, but Black has very easy moves to come: ...Re8, ...Bf5, possibly ...h5, ...h4, and I do not really see what White is doing. }
 9... O-O
-{ I beat GM Deac at the European Individual in Skopje, 2019, playing  9...a5  , which is also totally fine - but perhaps unnecessary as White played a3 to cover the b4-square, not necessarily to play b4 that would weaken the light-squares. }
+{ I beat Deac at the European Individual in Skopje, 2019, playing  9...a5  , which is also totally fine - but perhaps unnecessary as White played a3 to cover the b4-square, not necessarily to play b4 that would weaken the light-squares. }
 10. h3
 { This was Studer's choice against me in a rapid online game.   If  10.b4  , for example  10...Qd8  with the idea of relocating the c6-knight through e7. In the game, I went  for @@StartFEN@@r1b2rk1/ppp1qppp/2n2n2/3p4/2PPp3/P1Q1P2P/1P1N1PP1/R1B1KB1R b KQ - 0 10@@EndFEN@@  10...a5  , which again was not mandatory, I believe. }
 10... dxc4 11. Bxc4 Be6
@@ -7371,7 +7371,7 @@ Be3 Bxe3 14. fxe3 Na5 15. a4 a6 16. Rab1 c6
 [Result "*"]
 
 1. c4 e5 2. Nf3
-{ I discovered this line when working on this course, and found out that GM Rakhmanov was a big specialist of it. However, with a few precise moves, Black seems to be doing more than fine. }
+{ I discovered this line when working on this course, and found out that Rakhmanov was a big specialist of it. However, with a few precise moves, Black seems to be doing more than fine. }
 2... e4
 { We attack the white knight, entering a sort of reversed Alekhine where White will move this knight twice in the opening. }
 3. Nd4 Nc6 { The main and best line. } 4. Nc2
@@ -7393,7 +7393,7 @@ Be3 Bxe3 14. fxe3 Na5 15. a4 a6 16. Rab1 c6
 [Result "*"]
 
 1. c4 e5 2. Nf3
-{ I discovered this line when working on this course, and found out that GM Rakhmanov was a big specialist of it. However, with a few precise moves, Black seems to be doing more than fine. }
+{ I discovered this line when working on this course, and found out that Rakhmanov was a big specialist of it. However, with a few precise moves, Black seems to be doing more than fine. }
 2... e4
 { We attack the white knight, entering a sort of reversed Alekhine where White will move this knight twice in the opening. }
 3. Nd4 Nc6 { The main and best line. } 4. Nxc6
@@ -7411,7 +7411,7 @@ exd3 8. Bxd3 Be6
 [Result "*"]
 
 1. c4 e5 2. Nf3
-{ I discovered this line when working on this course, and found out that GM Rakhmanov was a big specialist of it. However, with a few precise moves, Black seems to be doing more than fine. }
+{ I discovered this line when working on this course, and found out that Rakhmanov was a big specialist of it. However, with a few precise moves, Black seems to be doing more than fine. }
 2... e4
 { We attack the white knight, entering a sort of reversed Alekhine where White will move this knight twice in the opening. }
 3. Nd4 Nc6 { The main and best line. } 4. Nxc6
@@ -7431,12 +7431,12 @@ h4
 [Result "*"]
 
 1. c4 e5 2. Nf3
-{ I discovered this line when working on this course, and found out that GM Rakhmanov was a big specialist of it. However, with a few precise moves, Black seems to be doing more than fine. }
+{ I discovered this line when working on this course, and found out that Rakhmanov was a big specialist of it. However, with a few precise moves, Black seems to be doing more than fine. }
 2... e4
 { We attack the white knight, entering a sort of reversed Alekhine where White will move this knight twice in the opening. }
 3. Nd4 Nc6 { The main and best line. } 4. Nxc6
 { This is definitely not a critical move. } 4... dxc6 5. Nc3 Nf6 6. e3
-{ A position that GM Rakhmanov played many times, but that seems horrific for White. }
+{ A position that Rakhmanov played many times, but that seems horrific for White. }
 6... Bd6 7. h3 Bf5
 { Instead, Black played  7...h5  twice, but I don't even think it's a necessary move. }
 8. g4 Bg6 { Doesn't lead White to anywhere, and is just an extra weakness. } 9.
@@ -7455,12 +7455,12 @@ Nd7 12. Bxe4 Bb4
 [Result "*"]
 
 1. c4 e5 2. Nf3
-{ I discovered this line when working on this course, and found out that GM Rakhmanov was a big specialist of it. However, with a few precise moves, Black seems to be doing more than fine. }
+{ I discovered this line when working on this course, and found out that Rakhmanov was a big specialist of it. However, with a few precise moves, Black seems to be doing more than fine. }
 2... e4
 { We attack the white knight, entering a sort of reversed Alekhine where White will move this knight twice in the opening. }
 3. Nd4 Nc6 { The main and best line. } 4. Nxc6
 { This is definitely not a critical move. } 4... dxc6 5. Nc3 Nf6 6. e3
-{ A position that GM Rakhmanov played many times, but that seems horrific for White. }
+{ A position that Rakhmanov played many times, but that seems horrific for White. }
 6... Bd6 7. h3 Bf5
 { Instead, Black played  7...h5  twice, but I don't even think it's a necessary move. }
 8. Qc2 Qe7 9. b3 O-O-O 10. Bb2
@@ -7481,7 +7481,7 @@ Bxd3 16. Qxd3 b6
 [Result "*"]
 
 1. c4 e5 2. Nf3
-{ I discovered this line when working on this course, and found out that GM Rakhmanov was a big specialist of it. However, with a few precise moves, Black seems to be doing more than fine. }
+{ I discovered this line when working on this course, and found out that Rakhmanov was a big specialist of it. However, with a few precise moves, Black seems to be doing more than fine. }
 2... e4
 { We attack the white knight, entering a sort of reversed Alekhine where White will move this knight twice in the opening. }
 3. Nd4 Nc6 { The main and best line. } 4. e3 Nf6
@@ -7507,7 +7507,7 @@ Bxd3 16. Qxd3 b6
 [Result "*"]
 
 1. c4 e5 2. Nf3
-{ I discovered this line when working on this course, and found out that GM Rakhmanov was a big specialist of it. However, with a few precise moves, Black seems to be doing more than fine. }
+{ I discovered this line when working on this course, and found out that Rakhmanov was a big specialist of it. However, with a few precise moves, Black seems to be doing more than fine. }
 2... e4
 { We attack the white knight, entering a sort of reversed Alekhine where White will move this knight twice in the opening. }
 3. Nd4 Nc6 { The main and best line. } 4. e3 Nf6
@@ -7529,7 +7529,7 @@ Nxd5 8. Nxe4 { A huge mistake. } 8... Qe7 9. Qe2
 [Result "*"]
 
 1. c4 e5 2. Nf3
-{ I discovered this line when working on this course, and found out that GM Rakhmanov was a big specialist of it. However, with a few precise moves, Black seems to be doing more than fine. }
+{ I discovered this line when working on this course, and found out that Rakhmanov was a big specialist of it. However, with a few precise moves, Black seems to be doing more than fine. }
 2... e4
 { We attack the white knight, entering a sort of reversed Alekhine where White will move this knight twice in the opening. }
 3. Nd4 Nc6 { The main and best line. } 4. e3 Nf6
@@ -7550,7 +7550,7 @@ Nxd5 8. d3 exd3 { 8...Bb4!?  is possible as well. } 9. Bxd3 Be6
 [Result "*"]
 
 1. c4 e5 2. Nf3
-{ I discovered this line when working on this course, and found out that GM Rakhmanov was a big specialist of it. However, with a few precise moves, Black seems to be doing more than fine. }
+{ I discovered this line when working on this course, and found out that Rakhmanov was a big specialist of it. However, with a few precise moves, Black seems to be doing more than fine. }
 2... e4
 { We attack the white knight, entering a sort of reversed Alekhine where White will move this knight twice in the opening. }
 3. Nd4 Nc6 { The main and best line. } 4. e3 Nf6
@@ -7575,7 +7575,7 @@ Nxd5 8. d3 exd3 { 8...Bb4!?  is possible as well. } 9. Bxd3 Be6
 [Result "*"]
 
 1. c4 e5 2. Nf3
-{ I discovered this line when working on this course, and found out that GM Rakhmanov was a big specialist of it. However, with a few precise moves, Black seems to be doing more than fine. }
+{ I discovered this line when working on this course, and found out that Rakhmanov was a big specialist of it. However, with a few precise moves, Black seems to be doing more than fine. }
 2... e4
 { We attack the white knight, entering a sort of reversed Alekhine where White will move this knight twice in the opening. }
 3. Nd4 Nc6 { The main and best line. } 4. e3 Nf6
@@ -7665,7 +7665,7 @@ Re8 10. Bd6 Qd8
 5. Ne2
 { 5.a3  Bxc3+  6.bxc3  d6  is just a wonderful Nimzo-Indian for Black. He will play ...O-O and then have several plans, once of them being to play ...Na5, ...b6, ...Ba6, and target the c4-pawn. }
 5... exd4 6. exd4 d5 7. cxd5
-{ This was played in the only existing game, and by this line's specialist GM Rakhmanov, but White is already LOST! }
+{ This was played in the only existing game, and by this line's specialist Rakhmanov, but White is already LOST! }
 7... Nxd5 8. a3 Ba5 9. Qd3
 { 9.b4  Bb6  and White should be happy if he doesn't lose his d4-pawn AND falls under an attack, as he is still far away from castling. }
 9... O-O 10. Bd2 Re8

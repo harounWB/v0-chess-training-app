@@ -6,7 +6,7 @@
 [Black "Course Introduction"]
 [Result "*"]
 
-{ Introduction   Hello! Welcome to this course, wherein we will be presenting a repertoire for Black against the Spanish Game or Ruy Lopez.  Our main variation of choice will be the Open Variation, which arises after  1.e4  e5  2.Nf3  Nc6  3.Bb5  a6  4.Ba4  Nf6  and now  5.O-O  Nxe4  . White's deviations on moves 4 and 5 will also be covered.  We have designed it from the ground up to be both practical and ambitious. To this end, theImportant lines feature was used, which you can enable in the course options tab. We have also included aQuickstarter with 10 must-know lines designed to get you playing the Open Spanish in no time.  We've tried our best to strike a fine balance between making a repertoire playable all the way up to the GM level while still making it accessible to club players. We made full use of the latest versions of Stockfish and Leela running on superfast cloud servers, ensuring all the analysis presented is cutting-edge. Moreover, we've proposed a whole array of novelties that are likely to surprise your opponents and give you the upper hand in a practical game. For added flexibility, we give two independent repertoires versus the absolute mainlines - check out theRepertoire outline section for all the details!  After going through the various theoretical chapters, you can test your understanding of key nuances and tactical sequences using theMemory markers andTactical puzzes chapters, respectively. To improve your general understanding of the Open Spanish, we included a standalone chapter onpositional and tactical themes that crop up time and time again in this opening. There are also 19model games showcasing these and other themes in action.  Finally, you can count on a high support level. We will promptly answer any questions you have and regularly update the course with new theoretical developments.   That's all for the intro, we hope you enjoy the course and have great success with this repertoire! }
+{ Introduction   Hello! Welcome to this course, wherein we will be presenting a repertoire for Black against the Spanish Game or Ruy Lopez.  Our main variation of choice will be the Open Variation, which arises after  1.e4  e5  2.Nf3  Nc6  3.Bb5  a6  4.Ba4  Nf6  and now  5.O-O  Nxe4  . White's deviations on moves 4 and 5 will also be covered.  We have designed it from the ground up to be both practical and ambitious. To this end, theImportant lines feature was used, which you can enable in the course options tab. We have also included aQuickstarter with 10 must-know lines designed to get you playing the Open Spanish in no time.  We've tried our best to strike a fine balance between making a repertoire playable all the way up to the level while still making it accessible to club players. We made full use of the latest versions of Stockfish and Leela running on superfast cloud servers, ensuring all the analysis presented is cutting-edge. Moreover, we've proposed a whole array of novelties that are likely to surprise your opponents and give you the upper hand in a practical game. For added flexibility, we give two independent repertoires versus the absolute mainlines - check out theRepertoire outline section for all the details!  After going through the various theoretical chapters, you can test your understanding of key nuances and tactical sequences using theMemory markers andTactical puzzes chapters, respectively. To improve your general understanding of the Open Spanish, we included a standalone chapter onpositional and tactical themes that crop up time and time again in this opening. There are also 19model games showcasing these and other themes in action.  Finally, you can count on a high support level. We will promptly answer any questions you have and regularly update the course with new theoretical developments.   That's all for the intro, we hope you enjoy the course and have great success with this repertoire! }
 1. -- *
 
 [Event "?"]
@@ -42,7 +42,7 @@ a6
 6. d4
 { White attacks the e5 pawn and provokes a further opening of the e-file.   6.Re1  is harmless, as after  6...Nc5  , White will be forced to give up the Bishop pair. }
 6... b5
-{ 6...exd4?!  is known as the Riga Variation. It is quite risky after  7.Re1  d5  8.Nxd4  , when there are problems with pins along both the a4-e8 diagonal and e-file.   6...Be7!?  , meanwhile, is playable and was recommended by Yuri Krykun in his Unleash the Bull course for Chessable. It is much less popular than  6...b5  and objectively somewhat dubious. It may be worth examining as a secondary option if you're looking for one, however. }
+{ 6...exd4?!  is known as the Riga Variation. It is quite risky after  7.Re1  d5  8.Nxd4  , when there are problems with pins along both the a4-e8 diagonal and e-file.   6...Be7!?  , meanwhile, is playable and was recommended by Yuri Krykun in his Unleash the Bull course for . It is much less popular than  6...b5  and objectively somewhat dubious. It may be worth examining as a secondary option if you're looking for one, however. }
 7. Bb3 d5
 { Black establishes his foothold in the centre, covering the e4 Knight. } 8.
 dxe5 { White regains his pawn.   8.Nxe5  is a less common alternative. } 8...
@@ -75,7 +75,7 @@ CONS:
 
 { Black has many options to choose from when deciding what to play against the Ruy Lopez.   In my  (FD)  course on the Open Sicilian, I did a quick breakdown of nearly all of White's options against the Najdorf, and why I didn't feel they were suitable for the repertoire. The Najdorf is such an important opening and White has so many options against it that it's worth having some idea about many 6th move options if you intend to play the Open Sicilian. The same is true with playing the Black side of the Ruy Lopez, so I thought I would do a  similar thing here.   The following is a quick breakdown of all of the Spanish variations at Black's disposal, highlighting some of their pros and cons. Please note that these conclusions are extremely oversimplified and should not put you off any of these lines if you personally enjoy them : }
 1. e4 e5 2. Nf3 Nc6 3. Bb5 a6
-{ For the record, any 3rd move that I don't mention here is just not sound enough to be particularly reliable. Anyway, 3...a6 has been an extremely important move since Morphy. I've played it far more than any other 3rd move, and as far as I can remember, I've played it exclusively in tournament games.   a The Steinitz with  3...d6  4.d4  is too passive. Black cannot effectively hold the centre and therefore tends to have to enter a not particularly inspiring version of the e4 vs d6 structure.   b  3...Be7  is similar to 3...d6.   c The Bird's defense with  3...Nd4  4.Nxd4  exd4  5.O-O  is pretty good for White. Practically speaking it's also not too fun to face a kingside attack following the eventual advance of the f-pawn.   d The Classical variation after  3...Bc5  is a natural move with a long history, but there's no fully satisfying answer to  4.c3!   e  3...Nge7  is not a move I held a very high opinion of a few years ago, but the Cozio seems to be undergoing a bit of a revival.  4.d4  is recommended by my co-author in the course Ruy Lopez Rebooted as being a nice path to an edge for White.   4.Nc3  is dangerous, when the best move seems to be  4...Ng6  Here, White can choose between  5.d4  with slightly passive positions for Black and  5.h4  which is very sharp and dangerous.   4.c3  is not meant to be theoretically strongest anymore, but it's still a bit tricky for Black.  4...d5!  I vaguely remember David Howell saying that this line is part of his blitz repertoire, but that it doesn't really work. However, it has been rehabilitated recently, not least by Erwin L'Ami in his Chessable course.   4.O-O  is a 'default' move and perhaps not strictly the best, but Black comes under some pressure here as well.  4...g6  5.c3  and so on.   f There's the Smyslov with  3...g6  4.d4  exd4  5.Bg5  For practical purposes, this is my main issue with the 3...g6 Smyslov. White has a tiny edge, and these positions are just not very fun for Black in my opinion. There's also the matter of more theoretically critical options.   5.c3  is probably more dangerous theoretically and also does not seem particularly fun to face.    Finally  4.c3  is also critical.   g  3...f5  The Schliemann often sees Black needing to hold various positions a pawn down. It's often not so much compensation for the material in the form of attacking chances, but moreso having enough play to maintain the balance. In certain lines White is playing for two results.  4.d3  fxe4  5.dxe4  Nf6  6.O-O  Bc5  7.Bxc6  is one such variation.     4.Nc3  fxe4  5.Nxe4  Nf6  6.Nxf6+  Qxf6  7.Qe2  Be7  8.Bxc6  and both pawn recaptures are decent, but personally I don't find either of them entirely satisfying from a practical perspective. Of course, your tastes may differ.   h  3...Nf6  The Berlin is a very good defense. However, I'm not sure I'd personally want to invite an early queen exchange in every game against 1.e4 as my main repertoire. Again, tastes vary.  4.O-O  Nxe4  5.Re1  is what puts a lot of sub-GM players off the Berlin.  5...Nd6  6.Nxe5  Be7  7.Bf1  Nxe5  8.Rxe5  O-O  9.d4  White can obtain some modest pressure in a position with a symmetrical structure.     7...Nf5!?  is a touch more dynamic, but also gives White slightly better chances for an edge.     5.d4  Nd6  and here there are several options:     6.dxe5  leads to a forced draw in one of the main lines. It's avoidable, but that's another thing to keep in mind.     6.Bxc6  dxc6  7.dxe5  Nf5  8.Qxd8+  Kxd8  This queenless middlegame/endgame is not as boring as its reputation, especially if Black opts for a plan with ...Kc8. I've played this in blitz a bunch of times, and my main complaint is that the kingside majority is sometimes scary to face. I don't think I'd want to aim for this as my main choice with Black, but many players are willing and able to play this line for a win.     4...Bc5  5.Nxe5!  is better for White.     4.d3  is also challenging and was explored in detail in my co-author's course on the Ruy Lopez. }
+{ For the record, any 3rd move that I don't mention here is just not sound enough to be particularly reliable. Anyway, 3...a6 has been an extremely important move since Morphy. I've played it far more than any other 3rd move, and as far as I can remember, I've played it exclusively in tournament games.   a The Steinitz with  3...d6  4.d4  is too passive. Black cannot effectively hold the centre and therefore tends to have to enter a not particularly inspiring version of the e4 vs d6 structure.   b  3...Be7  is similar to 3...d6.   c The Bird's defense with  3...Nd4  4.Nxd4  exd4  5.O-O  is pretty good for White. Practically speaking it's also not too fun to face a kingside attack following the eventual advance of the f-pawn.   d The Classical variation after  3...Bc5  is a natural move with a long history, but there's no fully satisfying answer to  4.c3!   e  3...Nge7  is not a move I held a very high opinion of a few years ago, but the Cozio seems to be undergoing a bit of a revival.  4.d4  is recommended by my co-author in the course Ruy Lopez Rebooted as being a nice path to an edge for White.   4.Nc3  is dangerous, when the best move seems to be  4...Ng6  Here, White can choose between  5.d4  with slightly passive positions for Black and  5.h4  which is very sharp and dangerous.   4.c3  is not meant to be theoretically strongest anymore, but it's still a bit tricky for Black.  4...d5!  I vaguely remember David Howell saying that this line is part of his blitz repertoire, but that it doesn't really work. However, it has been rehabilitated recently, not least by Erwin L'Ami in his  course.   4.O-O  is a 'default' move and perhaps not strictly the best, but Black comes under some pressure here as well.  4...g6  5.c3  and so on.   f There's the Smyslov with  3...g6  4.d4  exd4  5.Bg5  For practical purposes, this is my main issue with the 3...g6 Smyslov. White has a tiny edge, and these positions are just not very fun for Black in my opinion. There's also the matter of more theoretically critical options.   5.c3  is probably more dangerous theoretically and also does not seem particularly fun to face.    Finally  4.c3  is also critical.   g  3...f5  The Schliemann often sees Black needing to hold various positions a pawn down. It's often not so much compensation for the material in the form of attacking chances, but moreso having enough play to maintain the balance. In certain lines White is playing for two results.  4.d3  fxe4  5.dxe4  Nf6  6.O-O  Bc5  7.Bxc6  is one such variation.     4.Nc3  fxe4  5.Nxe4  Nf6  6.Nxf6+  Qxf6  7.Qe2  Be7  8.Bxc6  and both pawn recaptures are decent, but personally I don't find either of them entirely satisfying from a practical perspective. Of course, your tastes may differ.   h  3...Nf6  The Berlin is a very good defense. However, I'm not sure I'd personally want to invite an early queen exchange in every game against 1.e4 as my main repertoire. Again, tastes vary.  4.O-O  Nxe4  5.Re1  is what puts a lot of sub-players off the Berlin.  5...Nd6  6.Nxe5  Be7  7.Bf1  Nxe5  8.Rxe5  O-O  9.d4  White can obtain some modest pressure in a position with a symmetrical structure.     7...Nf5!?  is a touch more dynamic, but also gives White slightly better chances for an edge.     5.d4  Nd6  and here there are several options:     6.dxe5  leads to a forced draw in one of the main lines. It's avoidable, but that's another thing to keep in mind.     6.Bxc6  dxc6  7.dxe5  Nf5  8.Qxd8+  Kxd8  This queenless middlegame/endgame is not as boring as its reputation, especially if Black opts for a plan with ...Kc8. I've played this in blitz a bunch of times, and my main complaint is that the kingside majority is sometimes scary to face. I don't think I'd want to aim for this as my main choice with Black, but many players are willing and able to play this line for a win.     4...Bc5  5.Nxe5!  is better for White.     4.d3  is also challenging and was explored in detail in my co-author's course on the Ruy Lopez. }
 4. Ba4
 { 4.Bxc6  dxc6  5.O-O  and Black has about as many serious options as he did on move three! I'm not going to summarize them all here, however. }
 4... Nf6
@@ -960,7 +960,7 @@ Nxe5 9. dxe5 c6 10. Nd2 Nxd2 11. Qxd2 Bf5
 12. Qf4
 { This is another idea of recapturing with the Queen. White attacks the Bishop on f5 and later may swing the Queen back to g3, from where it can participate in a Kingside attack. }
 12... Bg6 13. a4 Be7 14. c3 O-O 15. Be3
-{ was my recommendation in the Chessable course The Ruy Lopez Rebooted. As mentioned there, White has interesting play based on Qg3 and f2-f4 but the position remains balanced. }
+{ was my recommendation in the  course The Ruy Lopez Rebooted. As mentioned there, White has interesting play based on Qg3 and f2-f4 but the position remains balanced. }
 15... Qd7
 { Admittedly, White's position is slightly more pleasant here, but it's to hard to ascertain exactly how he will make progress. The eventual f4-f5 plan suggests itself, but Black has a decent stronghold on the light squares, which may be furthered by ...h7-h5. As far as counterplay goes, ...f6 is possible, as is ...bxa4 followed by ...a5, with the idea to use the half-open b-file. }
 *
@@ -1931,7 +1931,7 @@ Bf2
 18... d4
 { Gaining space with tempo. Black is threatening to win material with ...d3. }
 19. Qe1
-{ GM Nils Grandelius stopped here in the Chessable course The Grand Ruy Lopez, ending with I like the calm 19.Qe1, just stepping out of the fork, and then play N1d2-e4, with a very nice blockade. It will still not be easy to make progress as Black has everything protected, but with the pawns blocked we are running no risk and can increase pressure with moves like Bb3, Rd1 and Bg3.  We're not going to allow White to achieve any of this. }
+{ Nils Grandelius stopped here in the  course The Grand Ruy Lopez, ending with I like the calm 19.Qe1, just stepping out of the fork, and then play N1d2-e4, with a very nice blockade. It will still not be easy to make progress as Black has everything protected, but with the pawns blocked we are running no risk and can increase pressure with moves like Bb3, Rd1 and Bg3.  We're not going to allow White to achieve any of this. }
 19... Bf5 20. Bb3+ Kh8 21. N1d2
 { Following Grandelius' plan of blockading the e4 square. } 21... dxc3 22. bxc3
 Bh7
@@ -1967,7 +1967,7 @@ h6 { Black takes control over the g5 square, ruling out both Ng5 or Bg5. } 17.
 Bf2
 { The bishop is well placed on f2 from where it can pop out to g3. White also stepped out of the ...d4 break with tempo. }
 17... Rad8 18. Bh4
-{ Tickling the h8 rook was recommended by GM Grzegorz Gajewski in his 1.e4 Lifetime Repertoire here on Chessable. }
+{ Tickling the h8 rook was recommended by Grzegorz Gajewski in his 1.e4 Lifetime Repertoire here on . }
 18... Qc5+ 19. Kh1 Rde8 20. Qd2 Bf5
 { Black should avoid  20...d4?!  which runs into  21.b4!   Also bad is  20...Bg4  due to  21.Ne3  hitting the bishop. }
 21. Bb3 { The pressure on the d5 pawn forces our bishop back: } 21... Be6 22.
@@ -2495,7 +2495,7 @@ Be6 9. Nbd2 Nc5
 { is the only way to try and set any problems. } 21... fxe6
 { Yes, the e-pawn is isolated but it's an extra pawn and it's about to come to e5. }
 22. Qf4 e5
-{ This move was not mentioned in the book Kaufman's New Repertoire for Black and White by GM Larry Kaufman. }
+{ This move was not mentioned in the book Kaufman's New Repertoire for Black and White by Larry Kaufman. }
 23. Nxe5 Bd6 { Black is doing well with ideas of ...Re8 and ...Nxe5 next. } *
 
 [Event "?"]
@@ -2738,7 +2738,7 @@ Be6 9. Nbd2 Nc5 10. c3 d4
 11... Nxe6 12. cxd4 Ncxd4 13. Ne4
 { White is planning to chop on d4, develop the queen to f3/ h5 and quickly bring a rook to d1. }
 13... Qd5
-{ is an important move. Black brings out the queen with tempo and clears the back rank for either ... Rd8 or ...O-O-O. This strong move was not considered in the book Kaufman's New Repertoire for Black and White by GM Larry Kaufman. }
+{ is an important move. Black brings out the queen with tempo and clears the back rank for either ... Rd8 or ...O-O-O. This strong move was not considered in the book Kaufman's New Repertoire for Black and White by Larry Kaufman. }
 14. Nxd4 Nxd4 15. Nc3 Qc4 16. Be3 Rd8
 { Black is doing well with ...Bc5 or ...Bb4 coming next. The knight is firmly defended on d4 and there is no way for White to take advantage of the slight lead in development. }
 *
@@ -2782,7 +2782,7 @@ Be6 9. Nbd2 Nc5 10. c3 d4
 Nxb5
 { is the only viable recapture.   Watch out, don't go for  14...axb5??  which loses material after  15.Rxa8  Qxa8  16.Nxd4  Nxd4  17.Qg4+-  with a double-attack on the d4 knight and g7 pawn wins material. }
 15. Nc4 O-O 16. Be3
-{ intending to quickly bring the queen out and a rook to d1 was recommended by GM Dariusz Swiercz in the book The Modernized Ruy Lopez Vol. 1. }
+{ intending to quickly bring the queen out and a rook to d1 was recommended by Dariusz Swiercz in the book The Modernized Ruy Lopez Vol. 1. }
 16... a5
 { is the most accurate response, which Dariusz failed to consider. Black prophylactically protects the bishop, ensuring Qb3 followed by Rfd1 don't come with tempos. }
 17. Qc2 Qd5 18. Rfd1 Qc6 { followed by ...h6 and ...Rfd8 is very comfortable. }
@@ -2803,7 +2803,7 @@ Be6 9. Nbd2 Nc5 10. c3 d4
 11... Nxe6 12. cxd4 Ncxd4 13. a4
 { Undermining the queenside is White's most common option. } 13... Bb4 14. axb5
 Nxb5 { is the only viable recapture. } 15. Nc4 O-O 16. Be3
-{ intending to quickly bring the queen out and a rook to d1 was recommended by GM Dariusz Swiercz in the book The Modernized Ruy Lopez Vol. 1. }
+{ intending to quickly bring the queen out and a rook to d1 was recommended by Dariusz Swiercz in the book The Modernized Ruy Lopez Vol. 1. }
 16... a5
 { is the most accurate response, which Dariusz failed to consider. Black prophylactically protects the bishop, ensuring Qb3 followed by Rfd1 don't come with tempos. }
 17. h3 Qxd1
@@ -3319,7 +3319,7 @@ Bd7
 Be6 9. Nbd2 Be7 10. c3 O-O 11. Bc2 f5 12. exf6 Nxf6 13. Re1
 { This move, which I had initially dismissed as being harmless, is actually quite tricky to meet. Joshua Doknjas recommends it in Opening Repertoire: The Ruy Lopez. }
 13... Bg4
-{ introduces an annoying pin, which, among other things, may facilitate the freeing ...d4 break. David Anton also recommends this move for Black in his Chessable course.   I had initially given  13...Qd7  intending to meet the direct  14.Ng5  with  14...Bf5  .   However  13...Qd7  14.a4!  is more challenging, when the queenside comes under some pressure. }
+{ introduces an annoying pin, which, among other things, may facilitate the freeing ...d4 break. David Anton also recommends this move for Black in his  course.   I had initially given  13...Qd7  intending to meet the direct  14.Ng5  with  14...Bf5  .   However  13...Qd7  14.a4!  is more challenging, when the queenside comes under some pressure. }
 14. h3 Bh5 15. Bf5 Bd6
 { 15...Bc5?!  is not as strong here, because with the knight still on d2, White can play  16.Nb3  with tempo, followed by  16...Bb6  17.Be3  .   Instead, in the game Safarli-Shahaliyev, Baku 2015, Black played the slightly passive  15...Kh8  and ended up in trouble after  16.g4!  Bf7  17.Ng5  . }
 16. g4 Bg6 17. Bxg6 hxg6 18. Nf1 Qd7
@@ -3338,7 +3338,7 @@ Be6 9. Nbd2 Be7 10. c3 O-O 11. Bc2 f5 12. exf6 Nxf6 13. Re1
 Be6 9. Nbd2 Be7 10. c3 O-O 11. Bc2 f5 12. exf6 Nxf6 13. Re1
 { This move, which I had initially dismissed as being harmless, is actually quite tricky to meet. Joshua Doknjas recommends it in Opening Repertoire: The Ruy Lopez. }
 13... Bg4
-{ introduces an annoying pin, which, among other things, may facilitate the freeing ...d4 break. David Anton also recommends this move for Black in his Chessable course.   I had initially given  13...Qd7  intending to meet the direct  14.Ng5  with  14...Bf5   However  13...Qd7  14.a4!  is more challenging, when the queenside comes under some pressure. }
+{ introduces an annoying pin, which, among other things, may facilitate the freeing ...d4 break. David Anton also recommends this move for Black in his  course.   I had initially given  13...Qd7  intending to meet the direct  14.Ng5  with  14...Bf5   However  13...Qd7  14.a4!  is more challenging, when the queenside comes under some pressure. }
 14. h3 Bh5 15. Nf1
 { According to Doknjas, this is a 'simple and playable' move, 'but shouldn't be too challenging'. The main idea is to swing the knight around to g3, attempting to break the annoying pin. }
 15... Bc5
@@ -3361,7 +3361,7 @@ Be6 9. Nbd2 Be7 10. c3 O-O 11. Bc2 f5 12. exf6 Nxf6 13. Re1
 Be6 9. Nbd2 Be7 10. c3 O-O 11. Bc2 f5 12. exf6 Nxf6 13. Re1
 { This move, which I had initially dismissed as being harmless, is actually quite tricky to meet. Joshua Doknjas recommends it in Opening Repertoire: The Ruy Lopez. }
 13... Bg4
-{ introduces an annoying pin, which, among other things, may facilitate the freeing ...d4 break. David Anton also recommends this move for Black in his Chessable course.   I had initially given  13...Qd7  intending to meet the direct  14.Ng5  with  14...Bf5   However  13...Qd7  14.a4!  is more challenging, when the queenside comes under some pressure. }
+{ introduces an annoying pin, which, among other things, may facilitate the freeing ...d4 break. David Anton also recommends this move for Black in his  course.   I had initially given  13...Qd7  intending to meet the direct  14.Ng5  with  14...Bf5   However  13...Qd7  14.a4!  is more challenging, when the queenside comes under some pressure. }
 14. h3 Bh5 15. a4
 { This is Doknjas' recommendation, attacking the somewhat vulnerable queenside construction. }
 15... b4 16. Nf1 Bc5 17. Be3
@@ -3390,7 +3390,7 @@ Nxd4 22. Qd1 c5
 Be6 9. Nbd2 Be7 10. c3 O-O 11. Bc2 f5 12. exf6 Nxf6 13. Re1
 { This move, which I had initially dismissed as being harmless, is actually quite tricky to meet. Joshua Doknjas recommends it in Opening Repertoire: The Ruy Lopez. }
 13... Bg4
-{ introduces an annoying pin, which, among other things, may facilitate the freeing ...d4 break. David Anton also recommends this move for Black in his Chessable course.   I had initially given  13...Qd7  intending to meet the direct  14.Ng5  with  14...Bf5   However  13...Qd7  14.a4!  is more challenging, when the queenside comes under some pressure. }
+{ introduces an annoying pin, which, among other things, may facilitate the freeing ...d4 break. David Anton also recommends this move for Black in his  course.   I had initially given  13...Qd7  intending to meet the direct  14.Ng5  with  14...Bf5   However  13...Qd7  14.a4!  is more challenging, when the queenside comes under some pressure. }
 14. h3 Bh5 15. a4
 { This is Doknjas' recommendation, attacking the somewhat vulnerable queenside construction. }
 15... b4 16. Nf1 Bc5 17. Be3
@@ -3731,7 +3731,7 @@ Nxe6 Qxe6 16. f3 Ng5 17. Bxg5
 1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. d4 b5 7. Bb3 d5 8. dxe5
 Be6 9. Nbd2 Be7 10. c3 O-O 11. Bc2 f5 12. Nb3 Qd7 13. Nbd4 Nxd4 14. Nxd4 c5 15.
 Nxe6 Qxe6 16. f3 Ng5 17. Bf4
-{ A rare move recommended by both GMs Gajweski and Grandelius here on Chessable. White prevents ...f5-f4 and waits for an opportune moment to take on g5.   For example, after  17...Qc6  18.Bxg5  White has already got an improved version of the 17. Bxg5 line as Black's queen is better placed on e6 rather than c6 in this structure.  Moreover, Qd2 is now an idea to hit the knight. }
+{ A rare move recommended by both GMs Gajweski and Grandelius here on . White prevents ...f5-f4 and waits for an opportune moment to take on g5.   For example, after  17...Qc6  18.Bxg5  White has already got an improved version of the 17. Bxg5 line as Black's queen is better placed on e6 rather than c6 in this structure.  Moreover, Qd2 is now an idea to hit the knight. }
 17... Rad8 18. Kh1 Qb6
 { 18...c4  is premature, allowing  19.Qd4  with control over the key a7-g1 diagonal. This is why we go ...Qb6 first. }
 19. Bxg5
@@ -4100,7 +4100,7 @@ Nxe6 Qxe6 16. f3 Ng5 17. a4 Rad8 18. axb5 axb5 19. Ra7
 24. f6 Bd8
 { 24...gxf6?  25.Bh6  is good for White, who has the plan of Qe1-g3+. } 25. Be3
 { White uses the pin to win the d4 pawn. } 25... gxf6
-{ This pawn is safe to capture now. Were White to play  26.Bh6  here, Black's extra tempo of  ...Bd8  would help him significantly, as the Queen now defends the seventh rank.  This move was not covered in the book Kaufman's New Repertoire for Black and White by GM Larry Kaufman. }
+{ This pawn is safe to capture now. Were White to play  26.Bh6  here, Black's extra tempo of  ...Bd8  would help him significantly, as the Queen now defends the seventh rank.  This move was not covered in the book Kaufman's New Repertoire for Black and White by Larry Kaufman. }
 26. cxd4 cxd4 27. Bxd4 Qe6 28. Qe2 Bb6
 { A good move, simplifying into a Queen and Rook pseudo-endgame, which is slightly safer than the middlegame. }
 29. Bxb6 Qxb6+ 30. Kh1 f5
@@ -4943,7 +4943,7 @@ cxd4 Nb4
 11. Be3 d5 12. Nbd2 b5
 { It's time to get rid of the White's active bishop and gain space on the queenside. }
 13. Bc2 a5
-{ Black has equal chances in this tense middlegame position.   Play may continue with  14.b4  when  14...Be6  15.Nb3  Nd7!  comes just in time to cover the c5 square.   14.Qc1  hits h6 and positions the queen on the c-file, which will be soon be opened up with d3-d4.  14...Kh7  15.d4  dxe4!  16.Nxe4  Bf5  17.Ng3  Bxc2  18.Qxc2  was all recommended by Nils Grandelius in the Chessable course The Grand Ruy Lopez where the Swedish GM suggested White can continue with Rad1 and possibly h4-h5 later on. Black has a good game after  18...a4  fixing the queenside. On a good day, Black can look to exploit the weak light-squares in White's camp with Na5-c4/b3 .  19.Rad1  exd4  20.cxd4  Qd6  21.Rc1  Re6=  neutralizes White's pressure down the c-file. ...Nd5 or ...b4 are likely coming next with equal chances. }
+{ Black has equal chances in this tense middlegame position.   Play may continue with  14.b4  when  14...Be6  15.Nb3  Nd7!  comes just in time to cover the c5 square.   14.Qc1  hits h6 and positions the queen on the c-file, which will be soon be opened up with d3-d4.  14...Kh7  15.d4  dxe4!  16.Nxe4  Bf5  17.Ng3  Bxc2  18.Qxc2  was all recommended by Nils Grandelius in the  course The Grand Ruy Lopez where the Swedish suggested White can continue with Rad1 and possibly h4-h5 later on. Black has a good game after  18...a4  fixing the queenside. On a good day, Black can look to exploit the weak light-squares in White's camp with Na5-c4/b3 .  19.Rad1  exd4  20.cxd4  Qd6  21.Rc1  Re6=  neutralizes White's pressure down the c-file. ...Nd5 or ...b4 are likely coming next with equal chances. }
 *
 
 [Event "?"]
@@ -5199,7 +5199,7 @@ Qxd1+ 9. Nxd1 Be6
 b6
 { Black naturally reinforces the c5 pawn and completely restricts the b3 knight. }
 12. Nc3 Be6 13. Nd2
-{ In the Chessable course The Smart Ruy Lopez: Exchange Variation, GM Jan Werle failed to consider the natural }
+{ In the  course The Smart Ruy Lopez: Exchange Variation, Jan Werle failed to consider the natural }
 13... O-O 14. Qe2 b5
 { Nc4 is out of the picture and Black doesn't have a worry in the world.   A sample line runs  15.a4  b4  16.Nd1  Nd7  17.f4  f5  18.Nc4  Qc6=  with a level game. }
 *
@@ -5676,7 +5676,7 @@ Qd5
 
 { White is planning to chop on d4, develop the queen to f3/ h5 and quickly bring a rook to d1. How should we react to this plan? }
 13... Qd5
-{ This is an important move. Black brings out the queen with tempo and clears the back rank for either ... Rd8 or ...O-O-O. It was not considered in the book Kaufman's New Repertoire for Black and White by GM Larry Kaufman. }
+{ This is an important move. Black brings out the queen with tempo and clears the back rank for either ... Rd8 or ...O-O-O. It was not considered in the book Kaufman's New Repertoire for Black and White by Larry Kaufman. }
 *
 
 [Event "?"]
@@ -5704,7 +5704,7 @@ Qd5
 [FEN "r2q1rk1/2p2ppp/p3n3/1n2P3/1bN5/4BN2/1P3PPP/R2Q1RK1 b - - 0 16"]
 [SetUp "1"]
 
-{ This position is recommended for White by GM Dariusz Swiercz in the book The Modernized Ruy Lopez Vol. 1. What typical and strong move did he fail to consider? }
+{ This position is recommended for White by Dariusz Swiercz in the book The Modernized Ruy Lopez Vol. 1. What typical and strong move did he fail to consider? }
 16... a5
 { Black prophylactically protects the bishop, ensuring Qb3 followed by Rfd1 don't come with tempos. }
 *
@@ -6443,7 +6443,7 @@ Qd1 c4 { traps the bishop. This is the age old Noah's Ark Trap. } *
 [Black "0-1 Jeffrey Xiong (2708) vs. Baskaran Adhiban (2639) FIDE Grand Swiss 2019"]
 [Result "*"]
 
-{ The following is a top level game between American super-GM Jeffrey Xiong and the strong Indian GM Baskaran Adhiban from the 2019 FIDE Grand Swiss. }
+{ The following is a top level game between American super-Jeffrey Xiong and the strong Indian Baskaran Adhiban from the 2019 FIDE Grand Swiss. }
 1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. d4 b5 7. Bb3 d5 8. dxe5
 Be6 9. c3 Bc5 10. Qd3
 { is an interesting alternative to the main move  10.Nbd2  White prepares either Be3 or Nbd2 anyway. }
@@ -6800,7 +6800,7 @@ Qc2+ Kh6 40. Qd3 Qb7+ 41. f3 Qb2+ 42. Rc2 Qb1 43. Qf5 Be3 44. Kh3 Qd1
 [Black "0-1 Surya Shekhar Ganguly (2582) vs. Peter Heine Nielsen (2628) Tripoli 2004"]
 [Result "*"]
 
-{ The following is a model game in the 9. Be3 variation between Indian GM Surya Ganguly and GM Peter Heine Nielsen from the 2004 FIDE World Championship Knockout tournament in Tripoli. }
+{ The following is a model game in the 9. Be3 variation between Indian Surya Ganguly and Peter Heine Nielsen from the 2004 FIDE World Championship Knockout tournament in Tripoli. }
 1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. d4 b5 7. Bb3 d5 8. dxe5
 Be6 9. Be3
 { is arguably a tad premature. It's by no means clear the bishop is always better placed on e3.   9.c3  keeping the queenside pieces flexible is the mainline. }
@@ -7181,7 +7181,7 @@ Kg6 50. Re8 Bc4 51. Rb8 e3 52. h4 exf2+ 53. Bxf2 Bxh4 54. Rb6+ Kg5 55. Be3+ f4
 5... g6 6. O-O Bg7 7. Re1 O-O 8. h3 a6 9. Ba4 h6
 { This nice waiting move is our recommendation in the theoretical section. I FD reached this position from the Black side in 2016. I made four not particularly good moves in a row, and found myself in quite a bad position.   9...b5  This isn't horrible, but it's worth waiting to do this.  10.Bc2  Bb7  This is a natural enough developing move, but it's a bit vague, especially with the e4-pawn securely defended by its colleague on d3. I don't feel too bad about this decision though, considering it's actually the most common move here, and some very strong players have played it.  11.Nbd2   11.a4  is more annoying. A premature ...b7-b5 allows White to put pressure against this pawn.  d5  Breaking in the centre is a big part of Black's plans, but it's poorly timed here. The general rule is to do this only after White has committed to Nf1.  12.Nb3  This isn't the only move, and it might not even be the best move, but it does illustrate the problem with ...d5. The c5-square is now quite weak, and this problem is exacerbated by having a bishop on b7.  12...dxe4?!  13.dxe4  Qe7  14.Be3  Nd7  15.a4±  and I went on to lose.   9...Re8  is playable, but  10.Be3!  actually turns out to be slightly annoying. We'd like to be able to meet this with the ...f5 plan showcased in the game. }
 10. Be3
-{ 10.a3  is the computer's suggestion and was also recommended by Nils Grandelius on Chessable. We discuss this in the theoretical section, as well as the alternatives. }
+{ 10.a3  is the computer's suggestion and was also recommended by Nils Grandelius on . We discuss this in the theoretical section, as well as the alternatives. }
 10... Kh8
 { My experience is that normally it's worth resisting the temptation to go for a quick ...f5 in these lines. However, the presence of a bishop on e3 invites it.   10...Nd7!  immediately is probably the most accurate.  11.d4  Black should not be allowed a free hand on the kingside.   11.b4  f5  12.Bb3+  Kh7  13.exf5  gxf5  14.Na3  Ne7  and Black went on to win in Jovnik-Johansen, correspondence 2019.  15.Nc2  Ng6  16.a4  c6  17.a5  d5  18.Nh2  f4  19.Bd2  Nf6  20.Nf3  Re8  21.Bc1  Bf5  22.c4  Qd7  23.d4  This break arrives far too late.  23...e4  24.Ne5  Rxe5!  Not the only winning move, but it is effective.  25.dxe5  Bxh3  26.Nd4   26.gxh3  Qxh3  is not survivable for White.  Bxg2  27.e6  Qd6  28.cxd5  f3  29.dxc6  Qc7  30.Nf5  Ng4  0-1   11.Bb3  Kh8  12.d4  f5  13.exf5  gxf5  14.g3  f4  15.gxf4  exf4  16.Bc1  Nb6  17.Kh2  Qf6  with an eventual draw in Mityavin-Goreczny, correspondence 2019, although Black's position is clearly more pleasant.  11...f5!  12.exf5  gxf5   12...e4?  13.Bb3+  Kh8  14.Ng5!!  hxg5  15.fxg6  threatening mate in two with Qh5+.  15...Bh6  16.h4  and Black is in trouble.  13.dxe5  dxe5  14.Qd5+  Trying to prove that Black should have thrown in ...Kh8 at some point.   14.Bc2  Qe7=  14...Kh8  The following sequence is pretty much forced:  15.Bxc6  bxc6  16.Qxc6  Rb8  17.Bxh6  Rb6  18.Bxg7+  Kxg7  19.Qc4  e4  and now White should allow the f3-knight to be taken, as moving it gives Black a devastating attack after moves such as ...Ne5 and ...Rg6.  20.Nbd2  exf3  21.Nxf3  Bb7=  Three pawns for the piece, mutually unsafe kings. 0.00, naturally. }
 11. Nbd2 Nd7 12. Nf1
@@ -7262,12 +7262,12 @@ Nxd4 Be7 9. Bxe7
 4... dxc6 5. O-O
 { I spent probably at least five minutes here choosing which line I wanted to play. The Exchange Variation is often a perennial annoyance for the 1.e4 e5 player who wants to play 3...a6 against the Spanish, so I was vaguely familiar with pretty much all of the sensible options available to Black here. That being said, I really didn't know any of them in any sort of detail. }
 5... Bd6
-{ I was somewhat acquainted with this line from browsing Milos Pavlovic's book Fighting the Ruy Lopez. I was later pleasantly surprised to see it recommended by Jan Gustafsson in his 1.e4 e5 course for Chessable.   We recommend  5...Qf6  in this course.   I used to play  5...Bg4  6.h3  Bh5?!  and even won a game against the same opponent two years prior. However, at some point I lost my belief in the soundness of this pawn sacrifice, so I didn't really want to repeat it.  7.g4  Bg6  8.Nxe5  Black has compensation for the pawn, but probably not enough. }
+{ I was somewhat acquainted with this line from browsing Milos Pavlovic's book Fighting the Ruy Lopez. I was later pleasantly surprised to see it recommended by Jan Gustafsson in his 1.e4 e5 course for .   We recommend  5...Qf6  in this course.   I used to play  5...Bg4  6.h3  Bh5?!  and even won a game against the same opponent two years prior. However, at some point I lost my belief in the soundness of this pawn sacrifice, so I didn't really want to repeat it.  7.g4  Bg6  8.Nxe5  Black has compensation for the pawn, but probably not enough. }
 6. d4 { Other moves don't really give White any hope for an advantage. } 6...
 exd4 7. Qxd4 f6 8. Be3 Be6 9. Nbd2
 { White would like bring this knight to c4, asking Black to give up one of his bishops. However, this requires a bit of preparing. }
 9... Ne7 10. h3
-{ In a vacuum, this looks like an odd choice. However, it makes sense in connection with the plan of Nc4. Black doesn't have to be afraid of this Nc4 idea, as he's quite alright even after giving up his light squared bishop. Meanwhile, the move h2-h3 doesn't particularly serve any function other than avoiding the ...Bxh2+ tactic at the moment. I suspected that my opponent was out of book and made a sensible-looking move, but looking at the ChessBase database, it turns out that he had already had this position four years earlier.   The immediate  10.Nc4?  walks into a trick that is standard for this line:  10...Bxh2+!  11.Kxh2  Qxd4  12.Nxd4  Bxc4∓  and Black picks up a pawn.  If White is wanting to play Nc4, you could argue that   10.Rad1  is the more useful way to prepare it. This stops the ...Bxh2+ tactic, because there will now be a recapture on d4 with the rook.  10...Ng6  11.Nc4  Bxc4  12.Qxc4  Qe7  As discussed below, when White goes for Nc4, the queen should probably go to e7 rather than d7.   10.Qc3  This has several functions; clearing the way for Nd4, clearing the d-file for a rook coming to d1, stepping away from ...c6-c5, etc. White's best approach in this variation is probably to avoid a quick Nc4. For example, Werle in his Chessable course recommends:  10...Qd7  As discussed below, the Nc4 plan is best met with the queen going to e7. Black now argues that Nc4 is not very effective here, because of the lost tempo with the queen; Qd4-c3xc4.  11.Rad1   11.Nc4  Bxc4  12.Qxc4  Ng6  12.Nb3 }
+{ In a vacuum, this looks like an odd choice. However, it makes sense in connection with the plan of Nc4. Black doesn't have to be afraid of this Nc4 idea, as he's quite alright even after giving up his light squared bishop. Meanwhile, the move h2-h3 doesn't particularly serve any function other than avoiding the ...Bxh2+ tactic at the moment. I suspected that my opponent was out of book and made a sensible-looking move, but looking at the ChessBase database, it turns out that he had already had this position four years earlier.   The immediate  10.Nc4?  walks into a trick that is standard for this line:  10...Bxh2+!  11.Kxh2  Qxd4  12.Nxd4  Bxc4∓  and Black picks up a pawn.  If White is wanting to play Nc4, you could argue that   10.Rad1  is the more useful way to prepare it. This stops the ...Bxh2+ tactic, because there will now be a recapture on d4 with the rook.  10...Ng6  11.Nc4  Bxc4  12.Qxc4  Qe7  As discussed below, when White goes for Nc4, the queen should probably go to e7 rather than d7.   10.Qc3  This has several functions; clearing the way for Nd4, clearing the d-file for a rook coming to d1, stepping away from ...c6-c5, etc. White's best approach in this variation is probably to avoid a quick Nc4. For example, Werle in his  course recommends:  10...Qd7  As discussed below, the Nc4 plan is best met with the queen going to e7. Black now argues that Nc4 is not very effective here, because of the lost tempo with the queen; Qd4-c3xc4.  11.Rad1   11.Nc4  Bxc4  12.Qxc4  Ng6  12.Nb3 }
 10... Qd7
 { When I was actively playing this line, one thing that confused me was when to play ...Qd7 and when to play ...Ng6 and ...Qe7. For example, Gustafsson recommends meeting 10.Rad1 with 10...Ng6 and 10.Qc3 with 10...Qd7.   10...Ng6!  may be slightly more accurate in this case. One idea is that:  11.Nc4  could be met with  11...Bb4!?   11...Bxc4  also makes sense.  12.Qxc4  Qe7  It seems that when White goes for this Nc4 plan, it's better to have the queen on e7 than d7. This may be true for a couple of reasons; it avoids the open d-file, and also makes Nd4 more difficult to play, due to ...Qxe4. }
 11. Nc4 Bxc4

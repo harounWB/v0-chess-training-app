@@ -1,4 +1,4 @@
-﻿[Event "?"]
+[Event "?"]
 [Site "?"]
 [Date "????.??.??"]
 [Round "?"]
@@ -7,7 +7,7 @@
 [Result "*"]
 [PlyCount "5"]
 
-{Welcome to my 5th Chessable course! My previous course was a White repertoire
+{Welcome to my 5th  course! My previous course was a White repertoire
 against the Pirc, Modern, and Philidor Defenses. That had been my most
 ambitious project to date, where I demonstrated how White can get an advantage
 against these hypermodern defenses with the Austrian Attack. This required a
@@ -45,11 +45,11 @@ gaining in popularity. However, I found several improvements over the current
 theory which give White very good chances for an advantage. In chapter 5, we
 quickly find out why 3...Bg4 4.h3 4...Bh5 is no longer played nowadays. White
 can count on a clear advantage in this variation. The absolute mainline 3...
-Bg4 4.h3 Bxf3 is one of Black's most reliable systems and was GM Erwin L'ami's
+Bg4 4.h3 Bxf3 is one of Black's most reliable systems and was Erwin L'ami's
 choice in his Lifetime Repertoire. Inchapter 6, we discuss setups where Black
 refrains from playing ...Nf6. The setups where Black plays ...Nf6 are then
 tackled in chapter 7. Chapter 8 contains 10 extensively annotatedmodel games,
-four of which by our hero in this variation - super GM Maxime Vachier Lagrave
+four of which by our hero in this variation - super Maxime Vachier Lagrave
 or MVL for short. The course concludes with15 thematic tactical exercises from
 recent games in the Two-Knights variation.} *
 
@@ -65,30 +65,29 @@ recent games in the Two-Knights variation.} *
 
 {[%evp 0,14,29,37,62,62,62,36,103,40,21,36,87,2,67,53,55]} 1. e4 c6 2. Nc3 d5
 3. Nf3 Bg4 (3... Nf6 4. e5 Ne4 5. Ne2 Qb6 6. d4 e6 7. Ng3 c5 8. Bd3 {
-Surprisingly, this natural developing move was not covered by GM Daniel
-Fernandez in 'The Modernized Caro-Kann' book and Chessable course.} Nxg3 {
-This was recommended by GM Vidit Gujrathi in the Chessbase FritzTrainer 'The
-Fashionable Caro-Kann', and in 'The Dynamic Caro-Kann' DVD by IM Alex Astaneh
+Surprisingly, this natural developing move was not covered by Daniel
+Fernandez in 'The Modernized Caro-Kann' book and  course.} Nxg3 {
+This was recommended by Vidit Gujrathi in the Chessbase FritzTrainer 'The
+Fashionable Caro-Kann', and in 'The Dynamic Caro-Kann' DVD by Alex Astaneh
 Lopez. However, none of these authors covered White's strongest move} 9. fxg3 {
 which gives the first player a clear advantage as detailed in the 7...c5 in
 chapter 2.}) 4. h3 Bxf3 5. Qxf3 e6 6. Be2 {This move was brought into the
 limelight by MVL and is White's best chance for an opening advantage. It is
-not mentioned in IM Jovanka Houska's 'Opening Repertoire: The Caro-Kann' as at
+not mentioned in Jovanka Houska's 'Opening Repertoire: The Caro-Kann' as at
 the time this book was published, this move was not well known.} Bc5 (6... Nf6
-7. O-O dxe4 {was recommended by GM Lars Schandorff in the book 'GM Repertoire:
+7. O-O dxe4 {was recommended by Lars Schandorff in the book 'Repertoire:
 the Caro-Kann' for Quality Chess. I show how White can emerge with a slight
 advantage and longstanding pressure in the 7...dxe4 variation in chapter 6.} (
 7... Bc5 {was recommended in 'Bologan's Caro-Kann: A Modern Repertoire for
-Black' by GM Victor Bologan for NewInChess. However, he did not cover the
+Black' by Victor Bologan for NewInChess. However, he did not cover the
 critical 9.Qf4! that places Black under serious pressure. The details can be
-found in the 7...Bc5 in chapter 7.})) (6... Nd7 {was also recommended by GM
-Victor Bologan in the aforementioned book. Aided by Leela, I found a novelty
+found in the 7...Bc5 in chapter 7.})) (6... Nd7 {was also recommended by Victor Bologan in the aforementioned book. Aided by Leela, I found a novelty
 on move 9 which gives White a slight advantage. Refer to the 6...Nd7 for the
-details.}) 7. O-O Nd7 {was GM Erwin L'Ami's recommendation in the Chessable
+details.}) 7. O-O Nd7 {was Erwin L'Ami's recommendation in the 
 course 'Lifetime Repertoire: the Caro-Kann'. Using Stockfish 12, I've come up
 with a new approach that is not covered in Erwin's course and gives White a
 slight advantage. The details can be found in the 6...Bc5 7...Nd7 in chapter 6.
-} (7... Ne7 {was recommended by GM Francesco Rambaldi in the book 'The
+} (7... Ne7 {was recommended by Francesco Rambaldi in the book 'The
 Caro-Kann Revisited' for Thinkers Publishing. The specific clash occurs in the
 6...Bc5 7...Ne7 in chapter 6. Black is objectively equal but White's position
 is still easier to play in a practical game.}) *
@@ -276,7 +275,7 @@ which is a novelty according to my database.} Bd7 13. O-O {White can complete
 development with Qe2, Bd2 and then prepare the b2-b4 break with Rb1. Black's
 king does not have a safe place to go to. White has a slight but stable
 advantage.}) 8. Bd3 {A natural developing move, evicting Black's knight from
-e4. Surprisingly, GM Daniel Fernandez in the 'The Modernized Caro-Kann' book
+e4. Surprisingly, Daniel Fernandez in the 'The Modernized Caro-Kann' book
 for Thinkers Publishing did not cover this move.} Nxg3 ({Worse is} 8... cxd4 $6
 {as after} 9. Nxe4 dxe4 10. Bxe4 $16 {Black will find it very hard to hold on
 to the d4 pawn.}) 9. fxg3 {The strongest recapture in the position which
@@ -593,7 +592,7 @@ White's idea.} 12. d3 Qg4 13. Ng5 {unleashing a discovered attack on Black's
 queen.} Qxg2 14. Bf3 $18 {traps Black's queen.}) 12. Bb2 Qxc3 13. Bxc3 Be7 {
 And now Leela perhaps unsurprisingly likes the pawn advance} 14. h4 {with the
 idea Nd4 and g2-g4, playing against Black's light-squared bishop. This gives
-White a slight advantage. Based on beta tester feedback and because Chessable
+White a slight advantage. Based on beta tester feedback and because 
 has a wide audience, I've decided to mark the following line that illustrates
 how play is likely to continue as an alternative variation. Ambitious and/or
 higher-rated players can choose to train the next alternative variation if
@@ -615,7 +614,7 @@ has only been played a handful of times and is likely to surprise your
 opponent.} ({White's most popular move is} 7. Bc4 {but I was unable to find a
 tangible edge for White.} Nf6 8. Ne5 {Threatening Bxf7#.} e6 9. Qe2 {And now}
 b5 $1 {is very strong. This move recently came into the limelight when the
-strong german GM Alexander Donchenko used it to draw against GM Markus Ragger
+strong german Alexander Donchenko used it to draw against Markus Ragger
 in 2019.} 10. Bd3 ({The alternative retreat} 10. Bb3 {also fails to give White
 an edge.}) 10... Qc7 {Black intends to follow up with ...Bd6 to kick our
 knight back.} 11. a4 {This is the critical continuation, undermining Black's
@@ -646,7 +645,7 @@ easier play. Conclusion: 4...Nf6 6...Nd7 is one of Black's best ways of
 meeting the Two Knights variation, especially since Black has managed to
 neutralize the 7.Bc4 variation. Nevertheless, I believe that White still has
 good chances for an advantage with 7.d4, which I expect to become more popular
-in GM practice.}) 9. Ne5 {A nice move, improving the position of the knight
+in practice.}) 9. Ne5 {A nice move, improving the position of the knight
 with a tempo on Black's bishop.} Bh5 10. c3 {Reinforcing the d4 pawn. This
 move is already a novelty, which is a testament to how unexplored 7.d4 is.} e6
 {And now White should play} 11. Qh3 {with the idea Bg5 to go after Black's
@@ -824,7 +823,7 @@ $16 {and White is ready to march his h-pawn down the board.}) 9. O-O-O {
 We have just completed development and will now look to expand on the kingside
 with h4-h5. White has more space, better control over the center, and the pair
 of bishops. White is thus clearly better.}) (6... d4 {This is a very
-interesting continuation, which was recently played by the super-GM Alireza
+interesting continuation, which was recently played by the super-Alireza
 Firoujza. Black's idea is to close the center and then expand on the queenside.
 However, this releases all the pressure on White's center and White can, at
 the very least, count on a small advantage.} 7. Nb1 {This retreat is stronger
@@ -868,15 +867,14 @@ with a strong attack. Black's counterplay on the queenside is much too slow in
 this position.}) (6... Bc5 {By placing the bishop on c5, Black stops d2-d4 and
 maintains a great degree of flexibility, as he can develop the knights in a
 number of ways depending on White's response. Overall, this is one of Black's
-best ways of meeting the 2Ns and has recently been recommended by both GM
-Erwin L'Ami and GM Francesco Rambaldi. We've seen that 6...d4 gives White a
+best ways of meeting the 2Ns and has recently been recommended by both Erwin L'Ami and Francesco Rambaldi. We've seen that 6...d4 gives White a
 free hand to attack on the kingside. 6...Nd7 allows White to build up a strong
 center with d2-d4.} 7. O-O {Having looked at 7...Nd7, we're now going to
 examine the alternative knight development with} Nd7 {And here, I'd like to
 recommend the rare but very interesting} (7... Ne7 8. Na4 {Kicking the bishop
 back in order to expand in the center with d2-d4.} ({Note that the natural} 8.
 Rd1 {is strongly met by} Bd4 {and after} 9. Nb1 {Black should play} h5 $146 {
-which was recommended by GM Francesco Rambaldi, improving on the game Bacrot,
+which was recommended by Francesco Rambaldi, improving on the game Bacrot,
 E (2708)-Mamedyarov, S (2800) Paris 2017} 10. d3 Ng6 $11 {Kicking the bishop
 back in order to expand in the center with d2-d4.}) 8... Bd6 9. d4 {Creating a
 strong pawn center. White is now threatening to push ahead with e4-e5, which
@@ -930,8 +928,8 @@ White is more comfortable and his position is easier to play. Conclusion: 4...
 Bxf3 6...Bc5 7...Ne7 is one of Black's best lines in the entire Two Knights
 complex and I expect it to become more popular in practice.}) 8. exd5 {
 clarifying the tension in the center and taking advantage of the fact that
-Black is slightly behind in development. This move was not covered by GM Erwin
-L'Ami in the Chessable course 'Lifetime Repertoire: the Caro-Kann'. Using
+Black is slightly behind in development. This move was not covered by Erwin
+L'Ami in the  course 'Lifetime Repertoire: the Caro-Kann'. Using
 Stockfish 12, I came up with several improvements that give White a slight
 advantage.} exd5 (8... cxd5 {The reason is that after} 9. Rd1 {White can push
 ahead with d2-d4, reaching a very favorable version of the exchange Caro. This
@@ -1025,7 +1023,7 @@ a5. Regrouping with Nd2-c4 is also on the agenda, with a slight but stable
 advantage.}) (7... g6 8. Be3 {transposes to the 6...g6 variation.}) 8. Nxe4
 Ngf6 {And here, Leela comes up with the interesting novelty} 9. Nd2 {keeping
 as many pieces on the board. Black has less space so it makes sense to avoid
-exchanges. This give White a slight advantage and was not covered by GM Victor
+exchanges. This give White a slight advantage and was not covered by Victor
 Bologan in the book 'Bologan's Caro-Kann: A Modern Repertoire for Black'.} Be7
 10. O-O O-O 11. Nc4 {when White has a slight but long-lasting advantage thanks
 to the extra space and the pair of bishops. White can continue with Rd1 and
@@ -1062,7 +1060,7 @@ However, White can slowly improve his position starting with} 12. a4 {followed
 by a4-a5. White can then expand on the queenside with c2-c3 and b2-b4.
 Similarly, g3+h4 to gain space on the kingside will slowly squeeze Black.
 Black's position is very hard to play in practice since he lacks an active
-plan. In fact, MVL easily defeated GM Agrest from this position in 2017 in a
+plan. In fact, MVL easily defeated Agrest from this position in 2017 in a
 model game which is annotated in the model games chapter.}) (7... d4 {This
 advance is weaker than on move 6 since Black has already committed his knight
 to f6.} 8. Nb1 Bd6 9. d3 {Opening the bishop and preparing to develop the
@@ -1107,7 +1105,7 @@ threatening e4-e5. This effectively forces Black to give up his dark-squared
 bishop to stop d2-d4. We sacrifice the pawn on e4, but our two bishops will
 spring into life. Black is under serious pressure in this variation and cannot
 in fact equalize. This move was not covered in the book 'Bologan's Caro-Kann'
-by GM Victor Bologan for NewInChess. I also cover the less ambitious 9.exd5 in
+by Victor Bologan for NewInChess. I also cover the less ambitious 9.exd5 in
 analternative variation. It is particularly suitable for lower-rated players
 or simply as an alternative weapon in case you want something less sharp and
 theoretically demanding.} (9. exd5 {This continuation is an alternative
@@ -1126,7 +1124,7 @@ play due to the pair of bishops.}) 9... Bxc3 {Black eliminates the knight on
 c3, intending to win the pawn on e4 with ...Nxe4.} (9... e5 {This is one way
 of stopping ...e6-e5, but not a particularly good one.} 10. Qg3 {Attacking the
 pawn on g7.} dxe4 {White can now blast open the d-file with} 11. d3 exd3 12.
-Bxd3 O-O (12... Nbd7 {was unsuccesfully tried by the Czech super-GM David
+Bxd3 O-O (12... Nbd7 {was unsuccesfully tried by the Czech super-David
 Navara against MVL in 2019, which is annotated in the model games chapter. MVL
 played 13.Ne2 but even stronger is} 13. Qxg7 Rg8 14. Qh6 {with a winning
 position. The point is that} Bxc3 15. bxc3 e4 {is strongly met by} 16. Qh4 {
@@ -1335,8 +1333,8 @@ Sinquefield Cup Saint Louis 2019} 1/2-1/2
 {[%evp 0,51,27,12,68,52,51,39,61,66,62,34,31,31,31,19,22,7,0,-44,-25,-25,-36,
 -53,-24,-24,66,108,109,170,176,156,148,171,160,151,151,88,77,96,167,164,162,
 145,182,182,296,305,302,331,386,457,510,390] The following is another model
-game in the 3...Nf6 variation between the spanish masters, GM Daniel Forcen
-with the White pieces, and IM Pablo Lledo with the Black pieces.} 1. e4 c6 2.
+game in the 3...Nf6 variation between the spanish masters, Daniel Forcen
+with the White pieces, and Pablo Lledo with the Black pieces.} 1. e4 c6 2.
 Nc3 d5 3. Nf3 Nf6 4. e5 {Gaining space in the center with a tempo on Black's
 knight.} Ne4 5. Ne2 {Preventing Black from playing ...Nxc3, which would double
 our pawns. With Ne2, we want to kick Black's knight back with d3.} Qb6 {
@@ -1359,8 +1357,7 @@ There goes yet another pawn. Black could have already resigned but decided to
 keep playing for a few more moves.} Kd7 21. Bd3 Bf6 22. Qe2 Bg6 23. Bh6 Bxd3
 24. cxd3 Rf7 {And now} 25. Qh5 {attacking the only defender of the bishop on
 f6 wins on the spot.} Ke7 26. g4 {Black has no good way of meeting g4-g5 and
-so he resigned. A fantastic game by GM Forcen, who completely demolished an IM
-in only 26 moves. 1-0 (26) Forcen Esteban, D (2528)-Cruz Lledo, P (2432) Las
+so he resigned. A fantastic game by Forcen, who completely demolished an in only 26 moves. 1-0 (26) Forcen Esteban, D (2528)-Cruz Lledo, P (2432) Las
 Palmas 2017} 1-0
 
 [Event "Chigorin Memorial 27th St Petersburg"]
@@ -1380,7 +1377,7 @@ Palmas 2017} 1-0
 -4,3,-4,66,41,54,16,66,-4,16,-10,10,18,6,23,34,30,124,92,83,0,187,252,215,74,
 186,177,412,477,573,512,516,498,505,473,463,422,581,590,771,1045,1686,1357,
 1686,2368] The following is another model game in the 3...Nf6 variation, this
-time between the Armenian GM Samvel Sahakyan and German IM Roven Vogel.} 1. e4
+time between the Armenian Samvel Sahakyan and German Roven Vogel.} 1. e4
 c6 2. Nf3 d5 3. Nc3 Nf6 4. e5 Ne4 5. Ne2 {Preventing Black from playing ...
 Nxc3, which would double our pawns.} Qb6 6. d4 e6 7. Ng3 {Clearing the way for
 Bd3 to get rid of Black's knight.} c5 8. Bd3 Nxg3 9. fxg3 {As we saw in
@@ -1453,10 +1450,10 @@ he resigned. 1-0 Ter Sahakyan, Samvel (2623)-Vogel, Roven Chigorin Memorial
 -9,-9,-37,9,-10,-1,4,36,52,52,52,46,53,63,65,63,70,63,62,63,65,69,63,69,63,63,
 63,71,63,63,63,79,87,104,104,104,104,104,104,133,121,158,163,162,209,355,132]
 The following is a model game in the 3...dxe4 4...Nf6 variation between the
-German GM Jan Schroeder and the American IM Kevin Wang.} 1. e4 c6 2. Nc3 d5 3.
+German Jan Schroeder and the American Kevin Wang.} 1. e4 c6 2. Nc3 d5 3.
 Nf3 dxe4 4. Nxe4 Nf6 5. Qe2 Bf5 {This continuation has been played by several
 strong GMs, including the World Champion in 2017. However, theory has moved on
-quite a bit since 2017 and GM Schroeder convincingly shows how White can get
+quite a bit since 2017 and Schroeder convincingly shows how White can get
 an advantage.} 6. Nxf6+ {White compromises Black's pawn structure. Note that
 the e-pawn is pinned.} gxf6 7. d3 {White covers the c2-pawn and opens up the
 dark-squared bishop, all while restricting Black's bishop on f5.} Nd7 8. g3 {
@@ -1540,7 +1537,7 @@ Louis SPICE Cup 2019} 1-0
 {[%evp 0,47,29,17,68,45,51,42,42,42,38,16,34,26,36,23,24,14,14,8,-1,12,7,11,5,
 -14,0,12,32,16,0,13,31,31,25,25,40,-1,40,104,90,92,110,117,130,115,139,139,161,
 161] The following is another model game in the 3...dxe4 4...Nf6 variation
-between Swedish GM Niels Grandelius (2681) and the Dutch IM Miguoel Admiraal 
+between Swedish Niels Grandelius (2681) and the Dutch Miguoel Admiraal 
 (2510).} 1. e4 c6 2. Nf3 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Qe2 Nxe4 6. Qxe4 Nd7 {
 This is one of Black's best ways of meeting the Two Knights variation.} 7. d4 {
 As I mentioned in chapter 4, the most common move is 7.Bc4 but Black is doing
@@ -1588,7 +1585,7 @@ less space and lacks an active plan. 1-0 (24) Grandelius, N (2681)-Admiraal, M
 25,68,86,37,60,60,18,40,47,-1,-21,-21,35,60,10,-33,-11,-17,-59,-54,43,36,27,12,
 21,46,48,54,58,77,69,91,92,134,134,242,284,301,301,301,237,237,275,401,378,329,
 399,399,320,320,320,473,569,603,619] The following is a model game in the 3...
-Bg4 4...Bh5 variation between GM Andrei Istratescu and GM Dmitry Svetushkin.} 
+Bg4 4...Bh5 variation between Andrei Istratescu and Dmitry Svetushkin.} 
 1. e4 c6 2. Nc3 d5 3. Nf3 Bg4 4. h3 Bh5 5. exd5 cxd5 6. Bb5+ Nc6 7. g4 Bg6 8.
 Ne5 Rc8 9. d4 e6 10. Qe2 Bb4 11. h4 {White is now threatening to trap Black's
 bishop with h4-h5.} Nge7 {And Black decides to sacrifice it for three pawns,
@@ -1601,7 +1598,7 @@ sequence was practically forced. As I mentioned in the15...Qf6 in chapter 5,
 White now has a pleasant choice:  1 Enter a two-results endgame with 22.Qxc2
 or  2 Drop the queen back with 22.Qe2, which gives Black the option of keeping
 the queens on.  However, Black's king will be extremely vulnerable. Option 2
-is objectively stronger and my main recommendation. GM Istratescu in this game,
+is objectively stronger and my main recommendation. Istratescu in this game,
 however, went for option 1} 22. Qxc2 {entering a two results endgame.} Rxc2 23.
 a4 {If White manages to get Rh3-d3-d7 win, Black will be completely lost. Thus,
 Black's only chance is to eliminate the queenside pawns with} a6 24. Be2 {
@@ -1634,8 +1631,8 @@ finish the game.} Rxc4 38. Kxf2 {Black resigned as he is down an entire rook.
 {[%evp 0,61,29,11,74,38,38,38,70,59,83,81,73,77,62,62,40,37,33,31,24,14,3,28,
 27,13,9,2,15,6,18,12,9,33,32,0,22,-31,32,36,60,30,30,-11,105,118,143,128,277,
 268,262,273,273,273,324,267,276,279,263,292,214,257,417,407] The following is
-a model game in the 3...Bg4 4...Bh5 variation between the polish IM Szymon
-Gumularz and the hungarian FM Levente Marosi.} 1. e4 c6 2. Nc3 d5 3. Nf3 Bg4 4.
+a model game in the 3...Bg4 4...Bh5 variation between the polish Szymon
+Gumularz and the hungarian Levente Marosi.} 1. e4 c6 2. Nc3 d5 3. Nf3 Bg4 4.
 h3 Bh5 5. exd5 {White opens up the a4-d8 diagonal, taking advantage of the
 fact that Black's bishop on h5 is offside.} cxd5 6. Bb5+ Nc6 7. g4 Bg6 8. Ne5
 Rc8 9. d4 e6 10. Qe2 {A very strong move, making it difficult for Black to
@@ -1687,8 +1684,7 @@ Kf6 31. h4 {Black resigned. 1-0 Gumularz, Szymon (2458)-Marosi, Leven (2288)
 85,80,108,82,91,83,103,85,103,92,95,187,123,160,160,160,156,135,149,128,127,
 127,120,118,103,120,116,117,110,68,110,110,110,74,34,12,0,-31,0,22,0,0,28,31,
 46,40,224,39,181,66,66,66,210,120,29995,29996,29997,29998] The following is a
-model game in the 3...Bg4 4...Bxf3 variation between super-GM MVL and GM
-Evgenij Agrest from Sweden from the 2017 Rapid PRO Chess League.} 1. e4 c6 2.
+model game in the 3...Bg4 4...Bxf3 variation between super-MVL and Evgenij Agrest from Sweden from the 2017 Rapid PRO Chess League.} 1. e4 c6 2.
 Nf3 d5 3. Nc3 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. Be2 {MVL's favorite move and my
 recommendation in chapter 7.} e6 7. O-O Nbd7 8. d4 dxe4 9. Nxe4 Nxe4 10. Qxe4
 Nf6 11. Qd3 Bd6 {This was all covered in the 7...dxe4 variation in chapter 7.
@@ -1803,7 +1799,7 @@ White moves his queen out of danger, now threatening Qxh5 as well as Nxd4.} Qd6
 ({Protecting the knight with} 16... g6 {loses to} 17. Nxd4 exd4 18. Bxf8 Qxf8
 19. Rxd4 $18 {White is an exchange up with a completely winning position.}) 17.
 Qxh5 Qxh6 18. Qxh6 gxh6 19. c3 {Black's bishop is trapped and so Navara
-resigned. What a miniature, it's not every day you see a super GM go down in
+resigned. What a miniature, it's not every day you see a super go down in
 less than 20 moves! 1-0 Vachier Lagrave, Maxime (2775)-Navara, David (2734)
 FIDE Grand Prix Riga 2019} 1-0
 
@@ -1880,7 +1876,7 @@ don't find the correct solution on your first attempt. I'd recommend trying to
 calculate the forcing variations until the end and not just trying to guess
 the first move. Finally, I'd recommend setting the quiz timer to infinity or
 at least a couple of minutes. It's 60 seconds by default because this is an
-opening course and Chessable does not, as of the time I'm writing this, allow
+opening course and  does not, as of the time I'm writing this, allow
 for different quiz timers in different chapters. I hope you have some fun
 trying to solve these puzzles!} *
 
@@ -1910,7 +1906,7 @@ lost this way according to the Lichess online database.} *
 [FEN "r4rk1/p1bnnppp/2p1p3/q2pP3/3P4/B1N2Q1P/P1P1BPP1/1R3RK1 b - - 0 16"]
 [PlyCount "8"]
 
-16... c5 {GM Alexey Dreev with the Black pieces has just ...c7-c5. Can you
+16... c5 {Alexey Dreev with the Black pieces has just ...c7-c5. Can you
 spot what's wrong with this typical pawn break?} 17. Rb5 {Immediately
 exploiting the drawback of Black's last move, which lost control over the b5
 and d5 squares.} Qxa3 18. Nxd5 {Uncorking a discovered attack on the queen and
@@ -1948,7 +1944,7 @@ Mogi das Cruzes 2013.} *
 [FEN "r2qk2r/pp1n1ppp/2p1p3/3p4/1BP1nQ2/7P/P1PPBPP1/1R1R2K1 b kq - 0 14"]
 [PlyCount "8"]
 
-14... c5 {Super-GM Shakriyar Mamedyarov with the Black pieces has just played .
+14... c5 {Super-Shakriyar Mamedyarov with the Black pieces has just played .
 ..c5, attacking White's bishop on b4. What did MVL, with the White pieces,
 play?} 15. cxd5 {A strong in-between move, which leaves the knight on e4 en
 prise.} exd5 16. Bc3 {Retreating the bishop to safety and unmasking an attack
@@ -1986,7 +1982,7 @@ have given White a slight advantage.} *
 [FEN "rnb1kb1r/pp2pppp/2p5/3q4/5Q2/5N2/PPPP1PPP/R1B1KB1R b KQkq - 0 7"]
 [PlyCount "10"]
 
-7... Bf5 {GM Emilio Cordova has just played the natural ...Bf5. However, this
+7... Bf5 {Emilio Cordova has just played the natural ...Bf5. However, this
 is a big blunder. What did Black miss?} 8. Bc4 {Attacking the queen, which
 needs to hold on to the bishop on f5.} Qe4+ 9. Qxe4 Bxe4 10. Bxf7+ {This is
 the point. White picks up the f7 pawn. This is a very common tactic in the
@@ -2005,7 +2001,7 @@ Saint Louis 2019.} *
 [FEN "2kr1bnr/pp1n2pp/2p1pp2/q7/4NB2/1Q5P/P1P1BPP1/3R1RK1 b - - 0 14"]
 [PlyCount "10"]
 
-14... e5 {Super-GM Shakhriyar Mamedyarov with the Black pieces has just played
+14... e5 {Super-Shakhriyar Mamedyarov with the Black pieces has just played
 ...e6-e5 to attack White's bishop on e5. What did he miss?} 15. Bg4 {White
 ignores Black's move and instead counterattacks the knight on d7.} exf4 16.
 Rxd7 ({The more forcing} 16. Bxd7+ Rxd7 17. Rxd7 Kxd7 18. Qxb7+ {also wins.})
@@ -2077,9 +2073,8 @@ followed up with Bf4 and O-O-O and quickly won in 1-0 Brooks, Michael (2430)
 [FEN "5rk1/ppqrppbp/2p3p1/7n/2PP2b1/1Q2BNP1/PP1RBP1P/4R1K1 b - - 0 18"]
 [PlyCount "12"]
 
-18... Qa5 {IM Miguoel Admiraal has just developed his queen to a5. How did GM
-Nils Grandelius with the White pieces punish this queen sortie?} 19. Ne5 {
-A very strong move, attacking the rook on d7 and the bishop on g4. As GM John
+18... Qa5 {Miguoel Admiraal has just developed his queen to a5. How did Nils Grandelius with the White pieces punish this queen sortie?} 19. Ne5 {
+A very strong move, attacking the rook on d7 and the bishop on g4. As John
 Nunn famously said, loose pieces drop off!} Bxe5 20. Bxg4 {Picking up the
 bishop and renewing the attack on the rook on d7.} Rxd4 21. Bxh5 Rxd2 22. Bxd2
 Qxd2 23. Rxe5 gxh5 24. Qxb7 {White got a decisive advantage with this

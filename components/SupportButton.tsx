@@ -8,12 +8,10 @@ export function SupportButton() {
 
   useEffect(() => {
     const handleScroll = () => {
-      // Calculate scroll percentage
       const scrollTop = window.scrollY;
       const docHeight = document.documentElement.scrollHeight - window.innerHeight;
       const scrollPercent = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
 
-      // Show button at 60% scroll
       setIsVisible(scrollPercent >= 60);
     };
 
@@ -22,18 +20,13 @@ export function SupportButton() {
   }, []);
 
   return (
-    <Link href="/support">
-      <button
-        className={`fixed bottom-8 right-8 px-4 py-3 rounded-full bg-gradient-to-r from-purple-600 to-purple-700 text-white font-medium text-sm shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 ${
-          isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4 pointer-events-none'
-        }`}
-        style={{
-          backdropFilter: 'blur(12px)',
-          border: '1px solid rgba(168, 85, 247, 0.3)',
-        }}
-      >
-        ☕ Support
-      </button>
+    <Link
+      href="/support"
+      className={`fixed bottom-8 right-8 z-40 inline-flex items-center gap-2 rounded-full border border-purple-400/30 bg-gradient-to-r from-purple-600 to-purple-700 px-4 py-3 text-sm font-medium text-white shadow-lg backdrop-blur-xl transition-all duration-300 hover:scale-105 hover:shadow-xl ${
+        isVisible ? 'translate-y-0 opacity-100' : 'pointer-events-none translate-y-4 opacity-0'
+      }`}
+    >
+      Support
     </Link>
   );
 }

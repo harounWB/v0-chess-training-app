@@ -13,7 +13,7 @@ export function Header() {
   const pathname = usePathname();
 
   return (
-      <header className="border-b border-gray-800 bg-gray-950/80 backdrop-blur-sm">
+    <header className="sticky top-0 z-50 border-b border-gray-800 bg-gray-950">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4">
@@ -47,7 +47,7 @@ export function Header() {
                 <Button
                   variant="outline"
                   size="sm"
-                  className="text-gray-300 border-gray-700 hover:bg-gray-800 text-xs sm:text-sm px-2 sm:px-3"
+                  className="border-gray-700 px-2 text-xs text-gray-300 hover:bg-gray-800 sm:px-3 sm:text-sm"
                 >
                   <Settings className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
                   Settings
@@ -64,7 +64,7 @@ export function Header() {
                   onClick={signOut}
                   variant="outline"
                   size="sm"
-                  className="text-gray-300 border-gray-700 hover:bg-gray-800 text-xs sm:text-sm px-2 sm:px-3"
+                  className="border-gray-700 px-2 text-xs text-gray-300 hover:bg-gray-800 sm:px-3 sm:text-sm"
                 >
                   <LogOut className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
                   <span className="hidden xs:inline">Sign Out</span>
@@ -73,7 +73,7 @@ export function Header() {
               </div>
             ) : (
               <AuthModal>
-                <Button variant="outline" className="text-gray-300 border-gray-700 hover:bg-gray-800 text-xs sm:text-sm px-2 sm:px-3">
+                <Button variant="outline" className="border-gray-700 px-2 text-xs text-gray-300 hover:bg-gray-800 sm:px-3 sm:text-sm">
                   <User className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
                   <span className="hidden xs:inline">Sign In</span>
                   <span className="xs:hidden">In</span>

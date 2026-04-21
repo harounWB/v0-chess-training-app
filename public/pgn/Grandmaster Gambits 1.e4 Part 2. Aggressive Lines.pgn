@@ -1261,7 +1261,7 @@ Nc6 { Trying to hit back against d4 or with the push ...e5. } 9. Nf3
 7. h6
 { AlphaZero-like play, seizing as much space as possible to cramp Black, although if you prefer to maintain the tension, there's absolutely nothing wrong with  7.a3  followed by completing development as White. }
 7... Bf8
-{ Here White made a decent case for  8.a3  in the all-GM clash Campora-Spraggett, Santo Antonio 2002, but with Black behind in development we prefer a new idea and to strike without delay: }
+{ Here White made a decent case for  8.a3  in the all-clash Campora-Spraggett, Santo Antonio 2002, but with Black behind in development we prefer a new idea and to strike without delay: }
 8. e5 dxe5 9. dxe5 Qxd1+ 10. Bxd1
 { Once again, this recapture is the one which disrupts White's position the least. }
 10... Nd5 11. Nge2
@@ -1283,7 +1283,7 @@ Nc6 { Trying to hit back against d4 or with the push ...e5. } 9. Nf3
 7. h6
 { AlphaZero-like play, seizing as much space as possible to cramp Black, although if you prefer to maintain the tension, there's absolutely nothing wrong with  7.a3  followed by completing development as White. }
 7... Bf8
-{ Here White made a decent case for  8.a3  in the all-GM clash Campora-Spraggett, Santo Antonio 2002, but with Black behind in development we prefer a new idea and to strike without delay: }
+{ Here White made a decent case for  8.a3  in the all-clash Campora-Spraggett, Santo Antonio 2002, but with Black behind in development we prefer a new idea and to strike without delay: }
 8. e5 dxe5 9. dxe5 Qxd1+ 10. Bxd1
 { Once again, this recapture is the one which disrupts White's position the least. }
 10... b4
@@ -1307,7 +1307,7 @@ Nc6 { Trying to hit back against d4 or with the push ...e5. } 9. Nf3
 7. h6
 { AlphaZero-like play, seizing as much space as possible to cramp Black, although if you prefer to maintain the tension, there's absolutely nothing wrong with  7.a3  followed by completing development as White. }
 7... Bf8
-{ Here White made a decent case for  8.a3  in the all-GM clash Campora-Spraggett, Santo Antonio 2002, but with Black behind in development we prefer a new idea and to strike without delay: }
+{ Here White made a decent case for  8.a3  in the all-clash Campora-Spraggett, Santo Antonio 2002, but with Black behind in development we prefer a new idea and to strike without delay: }
 8. e5
 { Black might prefer to retain the tension, but doing so only encourages one of White's favourite breakthroughs: }
 8... Nfd7 9. e6 fxe6 10. Nf3
@@ -1329,7 +1329,7 @@ Nc6 { Trying to hit back against d4 or with the push ...e5. } 9. Nf3
 7. h6
 { AlphaZero-like play, seizing as much space as possible to cramp Black, although if you prefer to maintain the tension, there's absolutely nothing wrong with  7.a3  followed by completing development as White. }
 7... Bf8
-{ Here White made a decent case for  8.a3  in the all-GM clash Campora-Spraggett, Santo Antonio 2002, but with Black behind in development we prefer a new idea and to strike without delay: }
+{ Here White made a decent case for  8.a3  in the all-clash Campora-Spraggett, Santo Antonio 2002, but with Black behind in development we prefer a new idea and to strike without delay: }
 8. e5 b4 9. exf6 bxc3 10. fxe7 Bxe7 11. bxc3
 { White is a pawn to the good, Black should have long-term issues with his king position and White's king will be quite safe on g1 or even f1. For example:   11...O-O  12.Nf3  Bf5  13.O-O  completing development with simple means  13...Nd7  14.Re1  Re8  15.c4  Bf6  16.Bf4   White isn't able to strike on the a1-h8 diagonal, but should be very happy. Qd2 will complete development, after which White will combine central play with exploiting the presence of a certain fish bone on h6. Note that while Black might bring his knight round to e6, doing so may lead to problems for his bishop on f5 after Nh2, which in any case is not a bad manoeuvre, preparing to send the knight closer f6 or possibly regroup with Nf1-e3. }
 *
@@ -1641,7 +1641,7 @@ Nc6 { Trying to hit back against d4 or with the push ...e5. } 9. Nf3
 6... Qa5
 { Pinning so is a very typical device in such positions.   6...dxc5?  7.Qxd8+  Kxd8  8.Be3  just makes no sense for Black. Not only is the c5-pawn rather vulnerable, but its advance has weakened some key squares and just what is the black king doing on d8? White will quickly go O-O-O and perhaps even Nb5 or e4-e5 and Nd5. }
 7. Bd2
-{ Simple chess.  7.cxd6  Nxe4  gives Black too much counterplay, although  7.Kf1!?  can't be ridiculous in conjunction with the early  h4  . Notably the American GM Alex Sherzer once denoted our pin-breaking choice as dubious, an assessment with which we, Stockfish and Lc0 would like to disagree.   Like Joel Benjamin, Sherzer himself has preferred  7.Qd3  when  7...Qxc5  8.Be3  Qa5  can be met by  9.Qb5+  , but this shouldn't lead to any advantage for White.   Instead, we simply break the pin with a choice described back in 2003 by Joe Gallagher in 'Starting Out: The Pirc/Modern', as 'less common, but more testing for Black'. Notably too the modest bishop development went unnoticed by Chernin and Alburt in their 2001 book 'Pirc Alert!'. }
+{ Simple chess.  7.cxd6  Nxe4  gives Black too much counterplay, although  7.Kf1!?  can't be ridiculous in conjunction with the early  h4  . Notably the American Alex Sherzer once denoted our pin-breaking choice as dubious, an assessment with which we, Stockfish and Lc0 would like to disagree.   Like Joel Benjamin, Sherzer himself has preferred  7.Qd3  when  7...Qxc5  8.Be3  Qa5  can be met by  9.Qb5+  , but this shouldn't lead to any advantage for White.   Instead, we simply break the pin with a choice described back in 2003 by Joe Gallagher in 'Starting Out: The Pirc/Modern', as 'less common, but more testing for Black'. Notably too the modest bishop development went unnoticed by Chernin and Alburt in their 2001 book 'Pirc Alert!'. }
 7... Qxc5
 { 7...dxc5?  still rather misses the point. White can just go 8. h5 or begin to squash Black with  8.e5  Nfd7  9.f4  . }
 8. h5
@@ -1678,7 +1678,7 @@ Nf4
 6... Qa5
 { Pinning so is a very typical device in such positions.   6...dxc5?  7.Qxd8+  Kxd8  8.Be3  just makes no sense for Black. Not only is the c5-pawn rather vulnerable, but its advance has weakened some key squares and just what is the black king doing on d8? White will quickly go O-O-O and perhaps even Nb5 or e4-e5 and Nd5. }
 7. Bd2
-{ Simple chess.  7.cxd6  Nxe4  gives Black too much counterplay, although  7.Kf1!?  can't be ridiculous in conjunction with the early  h4  . Notably the American GM Alex Sherzer once denoted our pin-breaking choice as dubious, an assessment with which we, Stockfish and Lc0 would like to disagree.   Like Joel Benjamin, Sherzer himself has preferred  7.Qd3  when  7...Qxc5  8.Be3  Qa5  can be met by  9.Qb5+  , but this shouldn't lead to any advantage for White.   Instead, we simply break the pin with a choice described back in 2003 by Joe Gallagher in 'Starting Out: The Pirc/Modern', as 'less common, but more testing for Black'. Notably too the modest bishop development went unnoticed by Chernin and Alburt in their 2001 book 'Pirc Alert!'. }
+{ Simple chess.  7.cxd6  Nxe4  gives Black too much counterplay, although  7.Kf1!?  can't be ridiculous in conjunction with the early  h4  . Notably the American Alex Sherzer once denoted our pin-breaking choice as dubious, an assessment with which we, Stockfish and Lc0 would like to disagree.   Like Joel Benjamin, Sherzer himself has preferred  7.Qd3  when  7...Qxc5  8.Be3  Qa5  can be met by  9.Qb5+  , but this shouldn't lead to any advantage for White.   Instead, we simply break the pin with a choice described back in 2003 by Joe Gallagher in 'Starting Out: The Pirc/Modern', as 'less common, but more testing for Black'. Notably too the modest bishop development went unnoticed by Chernin and Alburt in their 2001 book 'Pirc Alert!'. }
 7... Qxc5
 { 7...dxc5?  still rather misses the point. White can just go 8. h5 or begin to squash Black with  8.e5  Nfd7  9.f4  . }
 8. h5
@@ -1712,7 +1712,7 @@ Nf4
 6... Qa5
 { Pinning so is a very typical device in such positions.   6...dxc5?  7.Qxd8+  Kxd8  8.Be3  just makes no sense for Black. Not only is the c5-pawn rather vulnerable, but its advance has weakened some key squares and just what is the black king doing on d8? White will quickly go O-O-O and perhaps even Nb5 or e4-e5 and Nd5. }
 7. Bd2
-{ Simple chess.  7.cxd6  Nxe4  gives Black too much counterplay, although  7.Kf1!?  can't be ridiculous in conjunction with the early  h4  . Notably the American GM Alex Sherzer once denoted our pin-breaking choice as dubious, an assessment with which we, Stockfish and Lc0 would like to disagree.   Like Joel Benjamin, Sherzer himself has preferred  7.Qd3  when  7...Qxc5  8.Be3  Qa5  can be met by  9.Qb5+  , but this shouldn't lead to any advantage for White.   Instead, we simply break the pin with a choice described back in 2003 by Joe Gallagher in 'Starting Out: The Pirc/Modern', as 'less common, but more testing for Black'. Notably too the modest bishop development went unnoticed by Chernin and Alburt in their 2001 book 'Pirc Alert!'. }
+{ Simple chess.  7.cxd6  Nxe4  gives Black too much counterplay, although  7.Kf1!?  can't be ridiculous in conjunction with the early  h4  . Notably the American Alex Sherzer once denoted our pin-breaking choice as dubious, an assessment with which we, Stockfish and Lc0 would like to disagree.   Like Joel Benjamin, Sherzer himself has preferred  7.Qd3  when  7...Qxc5  8.Be3  Qa5  can be met by  9.Qb5+  , but this shouldn't lead to any advantage for White.   Instead, we simply break the pin with a choice described back in 2003 by Joe Gallagher in 'Starting Out: The Pirc/Modern', as 'less common, but more testing for Black'. Notably too the modest bishop development went unnoticed by Chernin and Alburt in their 2001 book 'Pirc Alert!'. }
 7... Qxc5
 { 7...dxc5?  still rather misses the point. White can just go 8. h5 or begin to squash Black with  8.e5  Nfd7  9.f4  . }
 8. h5
@@ -1740,7 +1740,7 @@ Nf4
 6... Qa5
 { Pinning so is a very typical device in such positions.   6...dxc5?  7.Qxd8+  Kxd8  8.Be3  just makes no sense for Black. Not only is the c5-pawn rather vulnerable, but its advance has weakened some key squares and just what is the black king doing on d8? White will quickly go O-O-O and perhaps even Nb5 or e4-e5 and Nd5. }
 7. Bd2
-{ Simple chess.  7.cxd6  Nxe4  gives Black too much counterplay, although  7.Kf1!?  can't be ridiculous in conjunction with the early  h4  . Notably the American GM Alex Sherzer once denoted our pin-breaking choice as dubious, an assessment with which we, Stockfish and Lc0 would like to disagree.   Like Joel Benjamin, Sherzer himself has preferred  7.Qd3  when  7...Qxc5  8.Be3  Qa5  can be met by  9.Qb5+  , but this shouldn't lead to any advantage for White.   Instead, we simply break the pin with a choice described back in 2003 by Joe Gallagher in 'Starting Out: The Pirc/Modern', as 'less common, but more testing for Black'. Notably too the modest bishop development went unnoticed by Chernin and Alburt in their 2001 book 'Pirc Alert!'. }
+{ Simple chess.  7.cxd6  Nxe4  gives Black too much counterplay, although  7.Kf1!?  can't be ridiculous in conjunction with the early  h4  . Notably the American Alex Sherzer once denoted our pin-breaking choice as dubious, an assessment with which we, Stockfish and Lc0 would like to disagree.   Like Joel Benjamin, Sherzer himself has preferred  7.Qd3  when  7...Qxc5  8.Be3  Qa5  can be met by  9.Qb5+  , but this shouldn't lead to any advantage for White.   Instead, we simply break the pin with a choice described back in 2003 by Joe Gallagher in 'Starting Out: The Pirc/Modern', as 'less common, but more testing for Black'. Notably too the modest bishop development went unnoticed by Chernin and Alburt in their 2001 book 'Pirc Alert!'. }
 7... Qxc5
 { 7...dxc5?  still rather misses the point. White can just go 8. h5 or begin to squash Black with  8.e5  Nfd7  9.f4  . }
 8. h5 { The alternatives are simply inferior, as shown by } 8... Nbd7 9. h6
@@ -1764,7 +1764,7 @@ Nf4
 6... Qa5
 { Pinning so is a very typical device in such positions.   6...dxc5?  7.Qxd8+  Kxd8  8.Be3  just makes no sense for Black. Not only is the c5-pawn rather vulnerable, but its advance has weakened some key squares and just what is the black king doing on d8? White will quickly go O-O-O and perhaps even Nb5 or e4-e5 and Nd5. }
 7. Bd2
-{ Simple chess.  7.cxd6  Nxe4  gives Black too much counterplay, although  7.Kf1!?  can't be ridiculous in conjunction with the early  h4  . Notably the American GM Alex Sherzer once denoted our pin-breaking choice as dubious, an assessment with which we, Stockfish and Lc0 would like to disagree.   Like Joel Benjamin, Sherzer himself has preferred  7.Qd3  when  7...Qxc5  8.Be3  Qa5  can be met by  9.Qb5+  , but this shouldn't lead to any advantage for White.   Instead, we simply break the pin with a choice described back in 2003 by Joe Gallagher in 'Starting Out: The Pirc/Modern', as 'less common, but more testing for Black'. Notably too the modest bishop development went unnoticed by Chernin and Alburt in their 2001 book 'Pirc Alert!'. }
+{ Simple chess.  7.cxd6  Nxe4  gives Black too much counterplay, although  7.Kf1!?  can't be ridiculous in conjunction with the early  h4  . Notably the American Alex Sherzer once denoted our pin-breaking choice as dubious, an assessment with which we, Stockfish and Lc0 would like to disagree.   Like Joel Benjamin, Sherzer himself has preferred  7.Qd3  when  7...Qxc5  8.Be3  Qa5  can be met by  9.Qb5+  , but this shouldn't lead to any advantage for White.   Instead, we simply break the pin with a choice described back in 2003 by Joe Gallagher in 'Starting Out: The Pirc/Modern', as 'less common, but more testing for Black'. Notably too the modest bishop development went unnoticed by Chernin and Alburt in their 2001 book 'Pirc Alert!'. }
 7... Qxc5
 { 7...dxc5?  still rather misses the point. White can just go 8. h5 or begin to squash Black with  8.e5  Nfd7  9.f4  . }
 8. h5
@@ -1790,7 +1790,7 @@ Nf4
 6... Qa5
 { Pinning so is a very typical device in such positions.   6...dxc5?  7.Qxd8+  Kxd8  8.Be3  just makes no sense for Black. Not only is the c5-pawn rather vulnerable, but its advance has weakened some key squares and just what is the black king doing on d8? White will quickly go O-O-O and perhaps even Nb5 or e4-e5 and Nd5. }
 7. Bd2
-{ Simple chess.  7.cxd6  Nxe4  gives Black too much counterplay, although  7.Kf1!?  can't be ridiculous in conjunction with the early  h4  . Notably the American GM Alex Sherzer once denoted our pin-breaking choice as dubious, an assessment with which we, Stockfish and Lc0 would like to disagree.   Like Joel Benjamin, Sherzer himself has preferred  7.Qd3  when  7...Qxc5  8.Be3  Qa5  can be met by  9.Qb5+  , but this shouldn't lead to any advantage for White.   Instead, we simply break the pin with a choice described back in 2003 by Joe Gallagher in 'Starting Out: The Pirc/Modern', as 'less common, but more testing for Black'. Notably too the modest bishop development went unnoticed by Chernin and Alburt in their 2001 book 'Pirc Alert!'. }
+{ Simple chess.  7.cxd6  Nxe4  gives Black too much counterplay, although  7.Kf1!?  can't be ridiculous in conjunction with the early  h4  . Notably the American Alex Sherzer once denoted our pin-breaking choice as dubious, an assessment with which we, Stockfish and Lc0 would like to disagree.   Like Joel Benjamin, Sherzer himself has preferred  7.Qd3  when  7...Qxc5  8.Be3  Qa5  can be met by  9.Qb5+  , but this shouldn't lead to any advantage for White.   Instead, we simply break the pin with a choice described back in 2003 by Joe Gallagher in 'Starting Out: The Pirc/Modern', as 'less common, but more testing for Black'. Notably too the modest bishop development went unnoticed by Chernin and Alburt in their 2001 book 'Pirc Alert!'. }
 7... Qxc5
 { 7...dxc5?  still rather misses the point. White can just go 8. h5 or begin to squash Black with  8.e5  Nfd7  9.f4  . }
 8. h5
@@ -1829,7 +1829,7 @@ Nf4
 6... Qa5
 { Pinning so is a very typical device in such positions.   6...dxc5?  7.Qxd8+  Kxd8  8.Be3  just makes no sense for Black. Not only is the c5-pawn rather vulnerable, but its advance has weakened some key squares and just what is the black king doing on d8? White will quickly go O-O-O and perhaps even Nb5 or e4-e5 and Nd5. }
 7. Bd2
-{ Simple chess.  7.cxd6  Nxe4  gives Black too much counterplay, although  7.Kf1!?  can't be ridiculous in conjunction with the early  h4  . Notably the American GM Alex Sherzer once denoted our pin-breaking choice as dubious, an assessment with which we, Stockfish and Lc0 would like to disagree.   Like Joel Benjamin, Sherzer himself has preferred  7.Qd3  when  7...Qxc5  8.Be3  Qa5  can be met by  9.Qb5+  , but this shouldn't lead to any advantage for White.   Instead, we simply break the pin with a choice described back in 2003 by Joe Gallagher in 'Starting Out: The Pirc/Modern', as 'less common, but more testing for Black'. Notably too the modest bishop development went unnoticed by Chernin and Alburt in their 2001 book 'Pirc Alert!'. }
+{ Simple chess.  7.cxd6  Nxe4  gives Black too much counterplay, although  7.Kf1!?  can't be ridiculous in conjunction with the early  h4  . Notably the American Alex Sherzer once denoted our pin-breaking choice as dubious, an assessment with which we, Stockfish and Lc0 would like to disagree.   Like Joel Benjamin, Sherzer himself has preferred  7.Qd3  when  7...Qxc5  8.Be3  Qa5  can be met by  9.Qb5+  , but this shouldn't lead to any advantage for White.   Instead, we simply break the pin with a choice described back in 2003 by Joe Gallagher in 'Starting Out: The Pirc/Modern', as 'less common, but more testing for Black'. Notably too the modest bishop development went unnoticed by Chernin and Alburt in their 2001 book 'Pirc Alert!'. }
 7... Qxc5
 { 7...dxc5?  still rather misses the point. White can just go 8. h5 or begin to squash Black with  8.e5  Nfd7  9.f4  . }
 8. h5
@@ -1855,13 +1855,13 @@ Nf4
 6... Qa5
 { Pinning so is a very typical device in such positions.   6...dxc5?  7.Qxd8+  Kxd8  8.Be3  just makes no sense for Black. Not only is the c5-pawn rather vulnerable, but its advance has weakened some key squares and just what is the black king doing on d8? White will quickly go O-O-O and perhaps even Nb5 or e4-e5 and Nd5. }
 7. Bd2
-{ Simple chess.  7.cxd6  Nxe4  gives Black too much counterplay, although  7.Kf1!?  can't be ridiculous in conjunction with the early  h4  . Notably the American GM Alex Sherzer once denoted our pin-breaking choice as dubious, an assessment with which we, Stockfish and Lc0 would like to disagree.   Like Joel Benjamin, Sherzer himself has preferred  7.Qd3  when  7...Qxc5  8.Be3  Qa5  can be met by  9.Qb5+  , but this shouldn't lead to any advantage for White.   Instead, we simply break the pin with a choice described back in 2003 by Joe Gallagher in 'Starting Out: The Pirc/Modern', as 'less common, but more testing for Black'. Notably too the modest bishop development went unnoticed by Chernin and Alburt in their 2001 book 'Pirc Alert!'. }
+{ Simple chess.  7.cxd6  Nxe4  gives Black too much counterplay, although  7.Kf1!?  can't be ridiculous in conjunction with the early  h4  . Notably the American Alex Sherzer once denoted our pin-breaking choice as dubious, an assessment with which we, Stockfish and Lc0 would like to disagree.   Like Joel Benjamin, Sherzer himself has preferred  7.Qd3  when  7...Qxc5  8.Be3  Qa5  can be met by  9.Qb5+  , but this shouldn't lead to any advantage for White.   Instead, we simply break the pin with a choice described back in 2003 by Joe Gallagher in 'Starting Out: The Pirc/Modern', as 'less common, but more testing for Black'. Notably too the modest bishop development went unnoticed by Chernin and Alburt in their 2001 book 'Pirc Alert!'. }
 7... Qxc5
 { 7...dxc5?  still rather misses the point. White can just go 8. h5 or begin to squash Black with  8.e5  Nfd7  9.f4  . }
 8. h5
 { Being able to press ahead so is partly why we like the seemingly modest  7.Bd2  .  8.Be3  Qa5  9.Qd2  isn't ridiculous, but can this really be such a bad version of the Dragon for Black after  9...Nc6? }
 8... O-O
-{ is brave, but also Black's only real alternative to  8...gxh5  and was notably leading Pirc exponent Mihail Marin's recommendation in his Quality Chess GM Repertoire series 2017 work 'The Pirc Defence'. Here White might consider the AlphaZero-like  9.h6!?  Bh8  10.Nf3  , but   9.Nh3  can be met by  9...d5  . As such, we prefer to first pose Black a question on the kingside: }
+{ is brave, but also Black's only real alternative to  8...gxh5  and was notably leading Pirc exponent Mihail Marin's recommendation in his Quality Chess Repertoire series 2017 work 'The Pirc Defence'. Here White might consider the AlphaZero-like  9.h6!?  Bh8  10.Nf3  , but   9.Nh3  can be met by  9...d5  . As such, we prefer to first pose Black a question on the kingside: }
 9. hxg6 fxg6
 { 9...hxg6?  is somewhat weaker here as White can go route one:  10.Qc1!  Re8   10...Nc6  11.Be3!  is a handy move to flick in -   11.Bh6  Ng4  12.Bxg4  Bxc3+!  13.bxc3  Bxg4  isn't quite so clear -  and one which will leave White with a strong attack  11...Qa5  12.Bh6  and already Black is simply in huge trouble on the kingside and most likely forced into a desperate advance of his g-pawn to stay on the board  11.Be3  Again, it makes sense to decentralize the black queen before turning attention to the h-file.  11...Qb4  12.a3  Qa5  13.Bh6  Bh8  . This was the point of ...Re8, of course, but it doesn't prevent White from dominating the position:  14.Bd2!  . The simple threat is Nd5 followed by Bc3 and if the queen retreats White might increase the pressure with Bc4 and Nf3-g5 or just Bg5: for example,  14...Qc7  15.Bg5  Nc6  16.Qf4  when Black surely won't survive with Qh4 and O-O-O on their way, not to mention the possibility of Rxh8+. }
 10. Be3
@@ -1893,7 +1893,7 @@ Nf4
 { Black's consistent and standard follow-up, if not forced of course. } 9. dxe5
 { Here it's important to exchange, not go  9.d5  Nd4  , which was, slightly strangely, the only line considered by Nigel Davies in his 2016 work 'The Pirc: Move by Move'. There's no crafty Nd1 retreat here and  10.Bxd4  exd4  11.Qxd4  c6!  leaves Black with promising dark-square, central and even queenside play for his pawn. }
 9... Nxe5 10. Qd2
-{ Simple and flexible chess. Jobava and the late Bosnian IM and leading 5. h4 exponent Zvonimir Mestrovic have preferred  10.f3  , but then Black may be able to cause some problems with  10...c6  and ...d5. }
+{ Simple and flexible chess. Jobava and the late Bosnian and leading 5. h4 exponent Zvonimir Mestrovic have preferred  10.f3  , but then Black may be able to cause some problems with  10...c6  and ...d5. }
 10... Bd7
 { Black too remains flexible.   10...c6  is most simply met by  11.Rd1  , and if  11...Neg4  12.Bc5  . This increases the pressure down the f-file and don't forget that White can still castle short.   10...Neg4?!  11.Bf4  is also not to be feared. Indeed, Black is merely losing time with f2-f3 next up for White. }
 11. O-O-O
@@ -1932,7 +1932,7 @@ Nf4
 { Black's consistent and standard follow-up, if not forced of course. } 9. dxe5
 { Here it's important to exchange, not go  9.d5  Nd4  , which was, slightly strangely, the only line considered by Nigel Davies in his 2016 work 'The Pirc: Move by Move'. There's no crafty  Nd1  retreat here and  10.Bxd4  exd4  11.Qxd4  c6!  leaves Black with promising dark-square, central and even queenside play for his pawn. }
 9... Nxe5 10. Qd2
-{ Simple and flexible chess. Jobava and the late Bosnian IM and leading 5. h4 exponent Zvonimir Mestrovic have preferred  10.f3  , but then Black may be able to cause some problems with  10...c6  and ...d5. }
+{ Simple and flexible chess. Jobava and the late Bosnian and leading 5. h4 exponent Zvonimir Mestrovic have preferred  10.f3  , but then Black may be able to cause some problems with  10...c6  and ...d5. }
 10... Bd7
 { Black too remains flexible.   10...c6  is most simply met by  11.Rd1  , and if  11...Neg4  12.Bc5  . This increases the pressure down the f-file and don't forget that White can still castle short.   10...Neg4?!  11.Bf4  is also not to be feared. Indeed, Black is merely losing time with f2-f3 next up for White. }
 11. O-O-O
@@ -1976,7 +1976,7 @@ Qxd4 Bxf5 19. Rhf1
 { Black's consistent and standard follow-up, if not forced of course. } 9. dxe5
 { Here it's important to exchange, not go  9.d5  Nd4  , which was, slightly strangely, the only line considered by Nigel Davies in his 2016 work 'The Pirc: Move by Move'. There's no crafty  Nd1  retreat here and  10.Bxd4  exd4  11.Qxd4  c6!  leaves Black with promising dark-square, central and even queenside play for his pawn. }
 9... Nxe5 10. Qd2
-{ Simple and flexible chess. Jobava and the late Bosnian IM and leading 5. h4 exponent Zvonimir Mestrovic have preferred  10.f3  , but then Black may be able to cause some problems with  10...c6  and ...d5. }
+{ Simple and flexible chess. Jobava and the late Bosnian and leading 5. h4 exponent Zvonimir Mestrovic have preferred  10.f3  , but then Black may be able to cause some problems with  10...c6  and ...d5. }
 10... Bd7
 { Black too remains flexible.   10...c6  is most simply met by  11.Rd1  , and if  11...Neg4  12.Bc5  . This increases the pressure down the f-file and don't forget that White can still castle short.   10...Neg4?!  11.Bf4  is also not to be feared. Indeed, Black is merely losing time with f2-f3 next up for White. }
 11. O-O-O
@@ -2115,7 +2115,7 @@ Bxf6 Qxf6 15. e5
 8. a4
 { Once again,  8.O-O !?  is also a decent option here and seen below in the pretty instructive encounter Neubauer-Lehner, Austrian League 2017. }
 8... Ng4
-{ 8...e5?  is also best avoided as Black due to a simple plan we've already seen on a few occasions:  9.dxe5!  dxe5  10.Qxd8  Rxd8  11.Bc4  Rd7   11...Rf8  12.b3!  will force Black to badly weaken with ...c5 after Ba3.  12.f3  . White simply intends Be3 and Rd1, and it's far from easy for Black to shake off White's firm grip on the position: for example,  12...Nh7  13.Be3  Nxg5  14.hxg5  Re7  15.O-O-O  Re8  16.Rd6!  already left Black rather struggling to deal with the threat of Rxg6 in Marholev-Banos, Figueres 2007, in view of  16...Kf8  17.Bc5  .   8...Nbd7  was suggested by the strong Slovak GM and noted theoretician Igor Stohl and was tested in Drazic-Lupu, Bastia @@StartBracket@@rapid@@EndBracket@@ 2000, where White simply went 9. Be3. That can hardly be bad and White might do even better going route one:  9.f4!?  9...e5  10.dxe5  dxe5  11.f5!  with early and significant pressure on the kingside and light squares. }
+{ 8...e5?  is also best avoided as Black due to a simple plan we've already seen on a few occasions:  9.dxe5!  dxe5  10.Qxd8  Rxd8  11.Bc4  Rd7   11...Rf8  12.b3!  will force Black to badly weaken with ...c5 after Ba3.  12.f3  . White simply intends Be3 and Rd1, and it's far from easy for Black to shake off White's firm grip on the position: for example,  12...Nh7  13.Be3  Nxg5  14.hxg5  Re7  15.O-O-O  Re8  16.Rd6!  already left Black rather struggling to deal with the threat of Rxg6 in Marholev-Banos, Figueres 2007, in view of  16...Kf8  17.Bc5  .   8...Nbd7  was suggested by the strong Slovak and noted theoretician Igor Stohl and was tested in Drazic-Lupu, Bastia @@StartBracket@@rapid@@EndBracket@@ 2000, where White simply went 9. Be3. That can hardly be bad and White might do even better going route one:  9.f4!?  9...e5  10.dxe5  dxe5  11.f5!  with early and significant pressure on the kingside and light squares. }
 9. f3 Nh6
 { This was our introductory game Barua-Nikolic, Biel Interzonal 1993, where a pretty good case was made for  10.Be3  and already White might even have preferred }
 10. g4
@@ -4236,7 +4236,7 @@ Nc4 11. Bxc4 dxc4 12. Nf3
 [Result "*"]
 
 1. e4 g6 2. d4 Bg7 3. Nc3 c5
-{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie FM Charlie Storey about 10 years ago and earlier in the US by IM Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
+{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie Charlie Storey about 10 years ago and earlier in the US by Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
 4. dxc5
 { Our favourite option in such positions and a strong one here, since Black must lose time if he wants to regain his pawn. }
 4... Qa5
@@ -4272,7 +4272,7 @@ Nc4 11. Bxc4 dxc4 12. Nf3
 [Result "*"]
 
 1. e4 g6 2. d4 Bg7 3. Nc3 c5
-{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie FM Charlie Storey about 10 years ago and earlier in the US by IM Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
+{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie Charlie Storey about 10 years ago and earlier in the US by Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
 4. dxc5
 { Our favourite option in such positions and a strong one here, since Black must lose time if he wants to regain his pawn. }
 4... Qa5
@@ -4310,7 +4310,7 @@ Nc4 11. Bxc4 dxc4 12. Nf3
 [Result "*"]
 
 1. e4 g6 2. d4 Bg7 3. Nc3 c5
-{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie FM Charlie Storey about 10 years ago and earlier in the US by IM Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
+{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie Charlie Storey about 10 years ago and earlier in the US by Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
 4. dxc5
 { Our favourite option in such positions and a strong one here, since Black must lose time if he wants to regain his pawn. }
 4... Qa5
@@ -4340,7 +4340,7 @@ Nc4 11. Bxc4 dxc4 12. Nf3
 [Result "*"]
 
 1. e4 g6 2. d4 Bg7 3. Nc3 c5
-{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie FM Charlie Storey about 10 years ago and earlier in the US by IM Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
+{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie Charlie Storey about 10 years ago and earlier in the US by Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
 4. dxc5
 { Our favourite option in such positions and a strong one here, since Black must lose time if he wants to regain his pawn. }
 4... Qa5
@@ -4366,7 +4366,7 @@ Nc4 11. Bxc4 dxc4 12. Nf3
 [Result "*"]
 
 1. e4 g6 2. d4 Bg7 3. Nc3 c5
-{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie FM Charlie Storey about 10 years ago and earlier in the US by IM Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
+{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie Charlie Storey about 10 years ago and earlier in the US by Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
 4. dxc5
 { Our favourite option in such positions and a strong one here, since Black must lose time if he wants to regain his pawn. }
 4... Qa5
@@ -4393,7 +4393,7 @@ Nc4 11. Bxc4 dxc4 12. Nf3
 [Result "*"]
 
 1. e4 g6 2. d4 Bg7 3. Nc3 c5
-{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie FM Charlie Storey about 10 years ago and earlier in the US by IM Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
+{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie Charlie Storey about 10 years ago and earlier in the US by Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
 4. dxc5
 { Our favourite option in such positions and a strong one here, since Black must lose time if he wants to regain his pawn. }
 4... Qa5
@@ -4413,7 +4413,7 @@ Nc4 11. Bxc4 dxc4 12. Nf3
 [Result "*"]
 
 1. e4 g6 2. d4 Bg7 3. Nc3 c5
-{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie FM Charlie Storey about 10 years ago and earlier in the US by IM Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
+{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie Charlie Storey about 10 years ago and earlier in the US by Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
 4. dxc5
 { Our favourite option in such positions and a strong one here, since Black must lose time if he wants to regain his pawn. }
 4... Qa5
@@ -4433,7 +4433,7 @@ Nc4 11. Bxc4 dxc4 12. Nf3
 [Result "*"]
 
 1. e4 g6 2. d4 Bg7 3. Nc3 c5
-{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie FM Charlie Storey about 10 years ago and earlier in the US by IM Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
+{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie Charlie Storey about 10 years ago and earlier in the US by Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
 4. dxc5
 { Our favourite option in such positions and a strong one here, since Black must lose time if he wants to regain his pawn. }
 4... Qa5
@@ -4457,7 +4457,7 @@ Bxc3+ 11. Nxc3
 [Result "*"]
 
 1. e4 g6 2. d4 Bg7 3. Nc3 c5
-{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie FM Charlie Storey about 10 years ago and earlier in the US by IM Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
+{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie Charlie Storey about 10 years ago and earlier in the US by Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
 4. dxc5
 { Our favourite option in such positions and a strong one here, since Black must lose time if he wants to regain his pawn. }
 4... Bxc3+ 5. bxc3
@@ -4479,7 +4479,7 @@ Bxc3+ 11. Nxc3
 [Result "*"]
 
 1. e4 g6 2. d4 Bg7 3. Nc3 c5
-{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie FM Charlie Storey about 10 years ago and earlier in the US by IM Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
+{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie Charlie Storey about 10 years ago and earlier in the US by Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
 4. dxc5
 { Our favourite option in such positions and a strong one here, since Black must lose time if he wants to regain his pawn. }
 4... Bxc3+ 5. bxc3
@@ -4503,7 +4503,7 @@ Bxc3+ 11. Nxc3
 [Result "*"]
 
 1. e4 g6 2. d4 Bg7 3. Nc3 c5
-{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie FM Charlie Storey about 10 years ago and earlier in the US by IM Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
+{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie Charlie Storey about 10 years ago and earlier in the US by Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
 4. dxc5
 { Our favourite option in such positions and a strong one here, since Black must lose time if he wants to regain his pawn. }
 4... Bxc3+ 5. bxc3
@@ -4523,7 +4523,7 @@ Bxc3+ 11. Nxc3
 [Result "*"]
 
 1. e4 g6 2. d4 Bg7 3. Nc3 c5
-{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie FM Charlie Storey about 10 years ago and earlier in the US by IM Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
+{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie Charlie Storey about 10 years ago and earlier in the US by Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
 4. dxc5
 { Our favourite option in such positions and a strong one here, since Black must lose time if he wants to regain his pawn. }
 4... Bxc3+ 5. bxc3
@@ -4547,7 +4547,7 @@ Bxc3+ 11. Nxc3
 [Result "*"]
 
 1. e4 g6 2. d4 Bg7 3. Nc3 c5
-{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie FM Charlie Storey about 10 years ago and earlier in the US by IM Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
+{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie Charlie Storey about 10 years ago and earlier in the US by Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
 4. dxc5
 { Our favourite option in such positions and a strong one here, since Black must lose time if he wants to regain his pawn. }
 4... Bxc3+ 5. bxc3
@@ -4574,7 +4574,7 @@ Nf3 Nc6 10. O-O
 [Result "*"]
 
 1. e4 g6 2. d4 Bg7 3. Nc3 c5
-{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie FM Charlie Storey about 10 years ago and earlier in the US by IM Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
+{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie Charlie Storey about 10 years ago and earlier in the US by Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
 4. dxc5
 { Our favourite option in such positions and a strong one here, since Black must lose time if he wants to regain his pawn. }
 4... Bxc3+ 5. bxc3
@@ -4596,7 +4596,7 @@ Nf3 Nc6 10. O-O
 [Result "*"]
 
 1. e4 g6 2. d4 Bg7 3. Nc3 c5
-{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie FM Charlie Storey about 10 years ago and earlier in the US by IM Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
+{ The so-called Sniper, as popularised in the UK by the enthusiastic Geordie Charlie Storey about 10 years ago and earlier in the US by Ron Henley.   Black's immediate central break feels like it should coordinate well with his early fianchetto, but it just doesn't work out like that in practice, especially when White simply takes the pawn. }
 4. dxc5 { Other moves are rare for Black and easy to meet, as shown by } 4...
 Nc6 5. Be3 { followed by Qd2 or } 5... Nf6 6. f3 O-O 7. Qd2
 { which just left White with an excellent version of a Dragon in Prizant-Sigurjonsson, correspondence 1988, where Harry even managed to get in on the action: }
@@ -5323,7 +5323,7 @@ Bf5+ Ned7 17. Nd5
 6... exf4 7. Bxf4
 { merely helps White. Already O-O-O+ is an issue for Black, likely followed by Nb5/Nd5 and/or e5 and }
 7... c6
-{ 7...Nbd7?  8.O-O-O  Bc5  was played by a strong Turkish IM in Ljukin-Yurtseven, Internet  @@StartBracket@@blitz@@EndBracket@@ 2020, but after  9.Nf3  Black would have been extremely vulnerable on f7, with Bc4 and Ng5 on their way, and just looking like losing a miniature. }
+{ 7...Nbd7?  8.O-O-O  Bc5  was played by a strong Turkish in Ljukin-Yurtseven, Internet  @@StartBracket@@blitz@@EndBracket@@ 2020, but after  9.Nf3  Black would have been extremely vulnerable on f7, with Bc4 and Ng5 on their way, and just looking like losing a miniature. }
 8. e5 { merely increase the pressure: for example, } 8... Nh5 9. O-O-O+ Kc7 10.
 Bd2 { intending Be2, as well as Nf3-g5 } 10... Be6 11. Be2 g6
 { when White should maintain the bishop-pair in favour of targeting f7 after }
@@ -5609,7 +5609,7 @@ Ne2
 8. Nf3 Bd6 9. Bg5
 { White is quick to mobilize the troops and already threatens Nd5, while making Black realize that he is likely going to have to accept doubled f-pawns should there be an exchange on f6.   Black must also decide what he wants to do with his king: place it on c7, e7 or even e8? He usually begins by keeping White out of d5 }
 9... Ke8 10. O-O-O Be6
-{ was very solid, but didn't do a huge amount for Black's rooks in Miladinovic-Lazic, Zeralda 2014. The Serbian GM was content to inflict some structural damage with  11.Bxf6  gxf6  12.Nb5  , but might have retained the tension with   @@StartFEN@@r1bkr3/ppp2ppp/3b1n2/4n1B1/4P3/2N2N2/PPP3PP/2KR1B1R b - - 5 10@@EndFEN@@  10...h6?  saw White exchange on f6 in Robin-Tomb, Internet  (blitz)  2017, but he should have asked himself: do I have anything better?   There is  11.Bh4  and especially  11.Nxe5!  Rxe5   or  11...hxg5  12.Nxf7+  Ke7  13.Nxd6  cxd6  14.Bb5+  with an extra pawn and huge advantage, not least with Rhe1 and e5 on their way.  12.Bf4  when Black must give up the exchange in view of  12...Re6?  13.e5 }
+{ was very solid, but didn't do a huge amount for Black's rooks in Miladinovic-Lazic, Zeralda 2014. The Serbian was content to inflict some structural damage with  11.Bxf6  gxf6  12.Nb5  , but might have retained the tension with   @@StartFEN@@r1bkr3/ppp2ppp/3b1n2/4n1B1/4P3/2N2N2/PPP3PP/2KR1B1R b - - 5 10@@EndFEN@@  10...h6?  saw White exchange on f6 in Robin-Tomb, Internet  (blitz)  2017, but he should have asked himself: do I have anything better?   There is  11.Bh4  and especially  11.Nxe5!  Rxe5   or  11...hxg5  12.Nxf7+  Ke7  13.Nxd6  cxd6  14.Bb5+  with an extra pawn and huge advantage, not least with Rhe1 and e5 on their way.  12.Bf4  when Black must give up the exchange in view of  12...Re6?  13.e5 }
 11. Nd4
 { retaining the tension and intending to complete development with Be2 and Rhf1, while Nf5 might well be a timely blow to land. }
 *
@@ -6229,7 +6229,7 @@ exf6 bxc3 7. fxg7 Bxg7 8. bxc3
 8... Bg7 9. Nf3 dxe5 10. fxe5
 { Black will look to ...f6 for counterplay @@StartBracket@@if he sits and waits he may simply get mated after O-O, Qe1, Qh4, Bh6 and Ng5@@EndBracket@@, but that is by no means a panacea for him: }
 10... Bg4 11. O-O O-O
-{ was preferred by a strong Russian IM in Dittmar-Kuporosov, Seefeld 1998, but after }
+{ was preferred by a strong Russian in Dittmar-Kuporosov, Seefeld 1998, but after }
 12. h3 Bxf3 13. Qxf3
 { White should be very happy. Two perhaps non-standard ideas are worth noting: }
 13... f6
@@ -6369,7 +6369,7 @@ exf6 bxc3 7. fxg7 Bxg7 8. bxc3
 11... Nxf3
 { As we mentioned in Line C1,   11...Nfd7  can be met by  12.Nd4  with a pleasant edge,  or even   12.Rxd6!?  Kxd6  13.Rd1+  Kc7  14.Be7  with sufficient play for the exchange. }
 12. gxf3 Nh5
-{ Good positional play thus far from the French IM. He not only prevents f4, but prepares to begin to take over the position after 13... Bf4 or even 13...Nf4. As such, White must act. }
+{ Good positional play thus far from the French . He not only prevents f4, but prepares to begin to take over the position after 13... Bf4 or even 13...Nf4. As such, White must act. }
 13. Rxd6
 { Once again, a dangerous exchange sacrifice, as well as one which objectively offers White enough compensation, as well as somewhat the easier position to handle. }
 13... Kxd6 14. Rd1+ Ke5
@@ -6626,7 +6626,7 @@ Qb4 { and here Black is under even more pressure due to the threat on g5. } *
 2. d4
 { Naturally White seizes the space on offer while laying immediate siege to the rather overextended looking black kingside. }
 2... g4
-{ has been tried on a number of occasions by the Borg's greatest modern-day practitioner, the Ukrainian FM Orest Vovk. Black intends  3.Qxg4  d5  , so White should simply ignore the g-pawn and develop: }
+{ has been tried on a number of occasions by the Borg's greatest modern-day practitioner, the Ukrainian Orest Vovk. Black intends  3.Qxg4  d5  , so White should simply ignore the g-pawn and develop: }
 3. Nc3 Bg7
 { Now there's absolutely nothing wrong with a great many moves, including  4.Be3  , but it's certainly possible to view the pawn on g4 as a hook to be exploited: }
 4. h3 { Already White is able to open the h-file and seize the initiative: }
@@ -6651,7 +6651,7 @@ Qb4 { and here Black is under even more pressure due to the threat on g5. } *
 2. d4
 { Naturally White seizes the space on offer while laying immediate siege to the rather overextended looking black kingside. }
 2... g4
-{ has been tried on a number of occasions by the Borg's greatest modern-day practitioner, the Ukrainian FM Orest Vovk. Black intends  3.Qxg4  d5  , so White should simply ignore the g-pawn and develop: }
+{ has been tried on a number of occasions by the Borg's greatest modern-day practitioner, the Ukrainian Orest Vovk. Black intends  3.Qxg4  d5  , so White should simply ignore the g-pawn and develop: }
 3. Nc3 Bg7
 { Now there's absolutely nothing wrong with a great many moves, including  4.Be3  , but it's certainly possible to view the pawn on g4 as a hook to be exploited: }
 4. h3 { Already White is able to open the h-file and seize the initiative: }
@@ -6678,7 +6678,7 @@ f6 9. O-O-O Nc6 10. Qd5
 2. d4
 { Naturally White seizes the space on offer while laying immediate siege to the rather overextended looking black kingside. }
 2... g4
-{ has been tried on a number of occasions by the Borg's greatest modern-day practitioner, the Ukrainian FM Orest Vovk. Black intends  3.Qxg4  d5  , so White should simply ignore the g-pawn and develop: }
+{ has been tried on a number of occasions by the Borg's greatest modern-day practitioner, the Ukrainian Orest Vovk. Black intends  3.Qxg4  d5  , so White should simply ignore the g-pawn and develop: }
 3. Nc3 Bg7
 { Now there's absolutely nothing wrong with a great many moves, including  4.Be3  , but it's certainly possible to view the pawn on g4 as a hook to be exploited: }
 4. h3 { Already White is able to open the h-file and seize the initiative: }
@@ -7950,7 +7950,7 @@ Bd7 5. c3 Bb5
 2. Nc3
 { And here we advocated  2.d4  against the French in Grandmaster Gambits: 1.e4. Black can avoid the French with  2...b6  when  3.Bd3  Bb7  4.Nc3  is another transposition. }
 2... b6 3. d4 Bb7 4. Bd3 Nf6
-{ The highly creative and original English IM heads for the main line of the Owen's. }
+{ The highly creative and original English heads for the main line of the Owen's. }
 5. Nge2 c5 6. d5
 { This was a novelty at the time and probably one devised over the board by Jon Speelman, another extremely creative and original English player, if one who was somewhat stronger than Mike Basman, going on a few years after this game to briefly become world no.4 as well as a two-time Candidate. }
 6... a6 7. a4
@@ -7995,7 +7995,7 @@ Rg3 { White is now threatening a classic bishop sacrifice on h7. } 14... f5
 1. e4 d5 2. exd5
 { Unsurprisingly there's nothing better than this natural capture and now we will focus our coverage on three main lines:  - E1:  2...Qxd5  3.Nf3  Bg4   - E2:  2...Qxd5  3.Nf3  Nf6   - E3:  2...Nf6  3.Nf3  Nxd5  and  2...Nf6  3.Nf3  Bg4  .   The development of the king's knight rather than  3.Nc3  may not seem aggressive, but it is likely to prove mildly annoying to black players looking to trot out their favourite line, like the fashionable  2...Qxd5  3.Nc3  Qd6   We'll even follow up in the  2...Qxd5  lines with a rapid  Be2 and O-O. That may not seem exactly aggressive, but once the king is safe White will quickly storm the center with d4 and c4 in many lines. Moreover, Black's critical line  2...Qxd5  3.Nf3  Bg4  sees him castling queenside, an approach which can lead to White launching a direct attack at quite an early stage. }
 2... Qxd5 { Black's most popular move by a ratio of about two to one. } 3. Nf3
-{ Kingside development first is White's mantra and note that the great Scandinavian authority and Chessable legend John Bartholomew described  3.Nf3  as 'underrated'. Now Black almost always goes  3...Bg4  or  3...Nf6  , but we should also check whether he might expand in the center straight away. }
+{ Kingside development first is White's mantra and note that the great Scandinavian authority and  legend John Bartholomew described  3.Nf3  as 'underrated'. Now Black almost always goes  3...Bg4  or  3...Nf6  , but we should also check whether he might expand in the center straight away. }
 3... e5 4. Nc3
 { Only now does White attack the queen so, since she must stay in touch with the pawn on e5. Retreating to d6 allows White to seize the initiative with 5. d4, so Black usually goes to a5 or e6. }
 4... Qe6
@@ -8022,7 +8022,7 @@ Kd8 { 11...Qh4?  12.Bb5+  is mate next move. } 12. Bb5
 1. e4 d5 2. exd5
 { Unsurprisingly there's nothing better than this natural capture and now we will focus our coverage on three main lines:  - E1:  2...Qxd5  3.Nf3  Bg4   - E2:  2...Qxd5  3.Nf3  Nf6   - E3:  2...Nf6  3.Nf3  Nxd5  and  2...Nf6  3.Nf3  Bg4  .   The development of the king's knight rather than  3.Nc3  may not seem aggressive, but it is likely to prove mildly annoying to black players looking to trot out their favourite line, like the fashionable  2...Qxd5  3.Nc3  Qd6   We'll even follow up in the  2...Qxd5  lines with a rapid  Be2 and O-O. That may not seem exactly aggressive, but once the king is safe White will quickly storm the center with d4 and c4 in many lines. Moreover, Black's critical line  2...Qxd5  3.Nf3  Bg4  sees him castling queenside, an approach which can lead to White launching a direct attack at quite an early stage. }
 2... Qxd5 { Black's most popular move by a ratio of about two to one. } 3. Nf3
-{ Kingside development first is White's mantra and note that the great Scandinavian authority and Chessable legend John Bartholomew described  3.Nf3  as 'underrated'. Now Black almost always goes  3...Bg4  or  3...Nf6  , but we should also check whether he might expand in the center straight away. }
+{ Kingside development first is White's mantra and note that the great Scandinavian authority and  legend John Bartholomew described  3.Nf3  as 'underrated'. Now Black almost always goes  3...Bg4  or  3...Nf6  , but we should also check whether he might expand in the center straight away. }
 3... Nc6
 { can also be met by  4.Nc3  followed by Bb5 and/or d4, although here you may too prefer the outwardly more modest }
 4. Be2
@@ -8046,7 +8046,7 @@ Kd8 { 11...Qh4?  12.Bb5+  is mate next move. } 12. Bb5
 1. e4 d5 2. exd5
 { Unsurprisingly there's nothing better than this natural capture and now we will focus our coverage on three main lines:  - E1:  2...Qxd5  3.Nf3  Bg4   - E2:  2...Qxd5  3.Nf3  Nf6   - E3:  2...Nf6  3.Nf3  Nxd5  and  2...Nf6  3.Nf3  Bg4  .   The development of the king's knight rather than  3.Nc3  may not seem aggressive, but it is likely to prove mildly annoying to black players looking to trot out their favourite line, like the fashionable  2...Qxd5  3.Nc3  Qd6   We'll even follow up in the  2...Qxd5  lines with a rapid  Be2 and O-O. That may not seem exactly aggressive, but once the king is safe White will quickly storm the center with d4 and c4 in many lines. Moreover, Black's critical line  2...Qxd5  3.Nf3  Bg4  sees him castling queenside, an approach which can lead to White launching a direct attack at quite an early stage. }
 2... Qxd5 { Black's most popular move by a ratio of about two to one. } 3. Nf3
-{ Kingside development first is White's mantra and note that the great Scandinavian authority and Chessable legend John Bartholomew described  3.Nf3  as 'underrated'. Now Black almost always goes  3...Bg4  or  3...Nf6  , but we should also check whether he might expand in the center straight away. }
+{ Kingside development first is White's mantra and note that the great Scandinavian authority and  legend John Bartholomew described  3.Nf3  as 'underrated'. Now Black almost always goes  3...Bg4  or  3...Nf6  , but we should also check whether he might expand in the center straight away. }
 3... Nc6
 { can also be met by  4.Nc3  followed by Bb5 and/or d4, although here you may too prefer the outwardly more modest }
 4. Be2
@@ -8069,7 +8069,7 @@ Kd8 { 11...Qh4?  12.Bb5+  is mate next move. } 12. Bb5
 1. e4 d5 2. exd5
 { Unsurprisingly there's nothing better than this natural capture and now we will focus our coverage on three main lines:  - E1:  2...Qxd5  3.Nf3  Bg4   - E2:  2...Qxd5  3.Nf3  Nf6   - E3:  2...Nf6  3.Nf3  Nxd5  and  2...Nf6  3.Nf3  Bg4  .   The development of the king's knight rather than  3.Nc3  may not seem aggressive, but it is likely to prove mildly annoying to black players looking to trot out their favourite line, like the fashionable  2...Qxd5  3.Nc3  Qd6   We'll even follow up in the  2...Qxd5  lines with a rapid  Be2 and O-O. That may not seem exactly aggressive, but once the king is safe White will quickly storm the center with d4 and c4 in many lines. Moreover, Black's critical line  2...Qxd5  3.Nf3  Bg4  sees him castling queenside, an approach which can lead to White launching a direct attack at quite an early stage. }
 2... Qxd5 { Black's most popular move by a ratio of about two to one. } 3. Nf3
-{ Kingside development first is White's mantra and note that the great Scandinavian authority and Chessable legend John Bartholomew described  3.Nf3  as 'underrated'. Now Black almost always goes  3...Bg4  or  3...Nf6  , but we should also check whether he might expand in the center straight away. }
+{ Kingside development first is White's mantra and note that the great Scandinavian authority and  legend John Bartholomew described  3.Nf3  as 'underrated'. Now Black almost always goes  3...Bg4  or  3...Nf6  , but we should also check whether he might expand in the center straight away. }
 3... Nc6
 { can also be met by  4.Nc3  followed by Bb5 and/or d4, although here you may too prefer the outwardly more modest }
 4. Be2
@@ -8093,7 +8093,7 @@ Kd8 { 11...Qh4?  12.Bb5+  is mate next move. } 12. Bb5
 1. e4 d5 2. exd5
 { Unsurprisingly there's nothing better than this natural capture and now we will focus our coverage on three main lines:  - E1:  2...Qxd5  3.Nf3  Bg4   - E2:  2...Qxd5  3.Nf3  Nf6   - E3:  2...Nf6  3.Nf3  Nxd5  and  2...Nf6  3.Nf3  Bg4  .   The development of the king's knight rather than  3.Nc3  may not seem aggressive, but it is likely to prove mildly annoying to black players looking to trot out their favourite line, like the fashionable  2...Qxd5  3.Nc3  Qd6   We'll even follow up in the  2...Qxd5  lines with a rapid  Be2 and O-O. That may not seem exactly aggressive, but once the king is safe White will quickly storm the center with d4 and c4 in many lines. Moreover, Black's critical line  2...Qxd5  3.Nf3  Bg4  sees him castling queenside, an approach which can lead to White launching a direct attack at quite an early stage. }
 2... Qxd5 { Black's most popular move by a ratio of about two to one. } 3. Nf3
-{ Kingside development first is White's mantra and note that the great Scandinavian authority and Chessable legend John Bartholomew described  3.Nf3  as 'underrated'. Now Black almost always goes  3...Bg4  or  3...Nf6  , but we should also check whether he might expand in the center straight away. }
+{ Kingside development first is White's mantra and note that the great Scandinavian authority and  legend John Bartholomew described  3.Nf3  as 'underrated'. Now Black almost always goes  3...Bg4  or  3...Nf6  , but we should also check whether he might expand in the center straight away. }
 3... Nc6
 { can also be met by  4.Nc3  followed by Bb5 and/or d4, although here you may too prefer the outwardly more modest }
 4. Be2
@@ -8117,7 +8117,7 @@ Kd8 { 11...Qh4?  12.Bb5+  is mate next move. } 12. Bb5
 1. e4 d5 2. exd5
 { Unsurprisingly there's nothing better than this natural capture and now we will focus our coverage on three main lines:  - E1:  2...Qxd5  3.Nf3  Bg4   - E2:  2...Qxd5  3.Nf3  Nf6   - E3:  2...Nf6  3.Nf3  Nxd5  and  2...Nf6  3.Nf3  Bg4  .   The development of the king's knight rather than  3.Nc3  may not seem aggressive, but it is likely to prove mildly annoying to black players looking to trot out their favourite line, like the fashionable  2...Qxd5  3.Nc3  Qd6   We'll even follow up in the  2...Qxd5  lines with a rapid  Be2 and O-O. That may not seem exactly aggressive, but once the king is safe White will quickly storm the center with d4 and c4 in many lines. Moreover, Black's critical line  2...Qxd5  3.Nf3  Bg4  sees him castling queenside, an approach which can lead to White launching a direct attack at quite an early stage. }
 2... Qxd5 { Black's most popular move by a ratio of about two to one. } 3. Nf3
-{ Kingside development first is White's mantra and note that the great Scandinavian authority and Chessable legend John Bartholomew described  3.Nf3  as 'underrated'. Now Black almost always goes  3...Bg4  or  3...Nf6  , but we should also check whether he might expand in the center straight away. }
+{ Kingside development first is White's mantra and note that the great Scandinavian authority and  legend John Bartholomew described  3.Nf3  as 'underrated'. Now Black almost always goes  3...Bg4  or  3...Nf6  , but we should also check whether he might expand in the center straight away. }
 3... g6
 { is a rare move, but one which has attracted a bit of grandmaster interest. White can either switch approach with  4.Nc3  Qd8  5.Bc4  followed by trying to strike against the black kingside or continue our usual policy of dominating the center with d4 and c4: }
 4. d4 Bg7 5. Be2
@@ -8143,7 +8143,7 @@ Kd8 { 11...Qh4?  12.Bb5+  is mate next move. } 12. Bb5
 1. e4 d5 2. exd5
 { Unsurprisingly there's nothing better than this natural capture and now we will focus our coverage on three main lines:  - E1:  2...Qxd5  3.Nf3  Bg4   - E2:  2...Qxd5  3.Nf3  Nf6   - E3:  2...Nf6  3.Nf3  Nxd5  and  2...Nf6  3.Nf3  Bg4  .   The development of the king's knight rather than  3.Nc3  may not seem aggressive, but it is likely to prove mildly annoying to black players looking to trot out their favourite line, like the fashionable  2...Qxd5  3.Nc3  Qd6   We'll even follow up in the  2...Qxd5  lines with a rapid  Be2 and O-O. That may not seem exactly aggressive, but once the king is safe White will quickly storm the center with d4 and c4 in many lines. Moreover, Black's critical line  2...Qxd5  3.Nf3  Bg4  sees him castling queenside, an approach which can lead to White launching a direct attack at quite an early stage. }
 2... Qxd5 { Black's most popular move by a ratio of about two to one. } 3. Nf3
-{ Kingside development first is White's mantra and note that the great Scandinavian authority and Chessable legend John Bartholomew described  3.Nf3  as 'underrated'. Now Black almost always goes  3...Bg4  or  3...Nf6  , but we should also check whether he might expand in the center straight away. }
+{ Kingside development first is White's mantra and note that the great Scandinavian authority and  legend John Bartholomew described  3.Nf3  as 'underrated'. Now Black almost always goes  3...Bg4  or  3...Nf6  , but we should also check whether he might expand in the center straight away. }
 3... g6
 { is a rare move, but one which has attracted a bit of grandmaster interest. White can either switch approach with  4.Nc3  Qd8  5.Bc4  followed by trying to strike against the black kingside or continue our usual policy of dominating the center with d4 and c4: }
 4. d4 Bg7 5. Be2
@@ -8169,7 +8169,7 @@ Kd8 { 11...Qh4?  12.Bb5+  is mate next move. } 12. Bb5
 1. e4 d5 2. exd5
 { Unsurprisingly there's nothing better than this natural capture and now we will focus our coverage on three main lines:  - E1:  2...Qxd5  3.Nf3  Bg4   - E2:  2...Qxd5  3.Nf3  Nf6   - E3:  2...Nf6  3.Nf3  Nxd5  and  2...Nf6  3.Nf3  Bg4  .   The development of the king's knight rather than  3.Nc3  may not seem aggressive, but it is likely to prove mildly annoying to black players looking to trot out their favourite line, like the fashionable  2...Qxd5  3.Nc3  Qd6   We'll even follow up in the  2...Qxd5  lines with a rapid  Be2 and O-O. That may not seem exactly aggressive, but once the king is safe White will quickly storm the center with d4 and c4 in many lines. Moreover, Black's critical line  2...Qxd5  3.Nf3  Bg4  sees him castling queenside, an approach which can lead to White launching a direct attack at quite an early stage. }
 2... Qxd5 { Black's most popular move by a ratio of about two to one. } 3. Nf3
-{ Kingside development first is White's mantra and note that the great Scandinavian authority and Chessable legend John Bartholomew described  3.Nf3  as 'underrated'. Now Black almost always goes  3...Bg4  or  3...Nf6  , but we should also check whether he might expand in the center straight away. }
+{ Kingside development first is White's mantra and note that the great Scandinavian authority and  legend John Bartholomew described  3.Nf3  as 'underrated'. Now Black almost always goes  3...Bg4  or  3...Nf6  , but we should also check whether he might expand in the center straight away. }
 3... g6
 { is a rare move, but one which has attracted a bit of grandmaster interest. White can either switch approach with  4.Nc3  Qd8  5.Bc4  followed by trying to strike against the black kingside or continue our usual policy of dominating the center with d4 and c4: }
 4. d4 Bg7 5. Be2
@@ -8195,7 +8195,7 @@ Kd8 { 11...Qh4?  12.Bb5+  is mate next move. } 12. Bb5
 1. e4 d5 2. exd5
 { Unsurprisingly there's nothing better than this natural capture and now we will focus our coverage on three main lines:  - E1:  2...Qxd5  3.Nf3  Bg4   - E2:  2...Qxd5  3.Nf3  Nf6   - E3:  2...Nf6  3.Nf3  Nxd5  and  2...Nf6  3.Nf3  Bg4  .   The development of the king's knight rather than  3.Nc3  may not seem aggressive, but it is likely to prove mildly annoying to black players looking to trot out their favourite line, like the fashionable  2...Qxd5  3.Nc3  Qd6   We'll even follow up in the  2...Qxd5  lines with a rapid  Be2 and O-O. That may not seem exactly aggressive, but once the king is safe White will quickly storm the center with d4 and c4 in many lines. Moreover, Black's critical line  2...Qxd5  3.Nf3  Bg4  sees him castling queenside, an approach which can lead to White launching a direct attack at quite an early stage. }
 2... Qxd5 { Black's most popular move by a ratio of about two to one. } 3. Nf3
-{ Kingside development first is White's mantra and note that the great Scandinavian authority and Chessable legend John Bartholomew described  3.Nf3  as 'underrated'. Now Black almost always goes  3...Bg4  or  3...Nf6  , but we should also check whether he might expand in the center straight away. }
+{ Kingside development first is White's mantra and note that the great Scandinavian authority and  legend John Bartholomew described  3.Nf3  as 'underrated'. Now Black almost always goes  3...Bg4  or  3...Nf6  , but we should also check whether he might expand in the center straight away. }
 3... g6
 { is a rare move, but one which has attracted a bit of grandmaster interest. White can either switch approach with  4.Nc3  Qd8  5.Bc4  followed by trying to strike against the black kingside or continue our usual policy of dominating the center with d4 and c4: }
 4. d4 Bg7 5. Be2
@@ -9431,7 +9431,7 @@ h3
 5... Nc6
 { is Black's second most common move, but the formula of a prod followed by d4 doesn't change for White: }
 6. h3
-{ Described as 'a slightly annoying sequence' by leading Scandinavian authority, the Australian GM David Smerdon. }
+{ Described as 'a slightly annoying sequence' by leading Scandinavian authority, the Australian David Smerdon. }
 6... Bh5 7. d4
 { Model deployment of our favourite system so far from White and in part because Black has spent a tempo on ...Nf6, White can still go c4 even if Black elects to go long: }
 7... O-O-O 8. c4
@@ -9457,7 +9457,7 @@ h3
 5... Nc6
 { is Black's second most common move, but the formula of a prod followed by d4 doesn't change for White: }
 6. h3
-{ Described as 'a slightly annoying sequence' by leading Scandinavian authority, the Australian GM David Smerdon. }
+{ Described as 'a slightly annoying sequence' by leading Scandinavian authority, the Australian David Smerdon. }
 6... Bxf3 7. Bxf3 { is once again just rather compliant from Black: } 7... Qd7
 { Now  8.d4  O-O-O!  would begin counterplay, but White can inhibit ...e5 with his rook and even avoid d4: }
 8. Re1 O-O-O
@@ -12328,7 +12328,7 @@ Bxc6 9. O-O-O Be7 10. e5 dxe5 11. Qxe5
 5... e5
 { prevents White from simply rolling forwards with h3, but does nothing to prevent our other favourite plan, the pin: }
 6. Bb5 Nd7
-{ was once a great favourite of the Bosnian IM Zvonimir Mestrovic's, he of 4. Be2 and 5. h4 Pirc fame. However, once White seizes space, Black's game quickly becomes difficult: }
+{ was once a great favourite of the Bosnian Zvonimir Mestrovic's, he of 4. Be2 and 5. h4 Pirc fame. However, once White seizes space, Black's game quickly becomes difficult: }
 7. d5 Ncb8 8. h3 Bh5 9. g4 Bg6 10. h4
 { A strong advance, refusing to fear the upcoming closure of the kingside, presuming that Black doesn't want his bishop driven back to h7 instead: }
 10... h5 11. g5 Be7 12. Nd2
@@ -12357,7 +12357,7 @@ Bxc6 9. O-O-O Be7 10. e5 dxe5 11. Qxe5
 5... e5
 { prevents White from simply rolling forwards with h3, but does nothing to prevent our other favourite plan, the pin: }
 6. Bb5 Nd7
-{ was once a great favourite of the Bosnian IM Zvonimir Mestrovic's, he of 4.Be2 and 5.h4 Pirc fame. However, once White seizes space, Black's game quickly becomes difficult: }
+{ was once a great favourite of the Bosnian Zvonimir Mestrovic's, he of 4.Be2 and 5.h4 Pirc fame. However, once White seizes space, Black's game quickly becomes difficult: }
 7. d5 Bxf3 8. Qxf3 Ne7 9. h4
 { when White will either seize a lot of space or quickly get to open lines to favour his superior development: }
 9... a6 10. Be2 h5 11. g4 hxg4 12. Qxg4 g6 13. Bg5
@@ -12689,7 +12689,7 @@ Qxd4 e5 14. dxe6
 15. h5 { transposing to our main 9...e5 line after } 15... Qf6 16. Qxf6
 { White hasn't anything better than exchanging queens and opening the h-file, not that he should exactly be unhappy. }
 16... Rxf6 17. hxg6 hxg6 18. e7
-{ The pawn sells itself as dearly as possible. This has been quite a long line, if also an instructive one and a fairly common scenario, Black beating off White's attack at the cost of endgame suffering.   Even here his king isn't happy, with Bd3 on the cards, as is O-O-O with definite ideas of c5.   18...Re6+  discombobulating.   18...Bf5?  19.O-O-O  followed by c5 is also very strong.  19.Kd2  Rxe7  20.Bd3  Bf5  21.Rh6  White continues to pressure g6 while facilitating Rah1. We've followed in the footsteps of, amongst others, Chessable's very own Maaike Keetman and White definitely enjoyed a clear plus here in the endgame in Keetman-Theulings, Groningen 2015.   18...Be6?  hopes for ...Re8 and ...Rxe7, but fails to the energetic  19.c5!  dxc5   19...Nd5  20.Nxd5  Bxd5  21.O-O-O  Bc6  22.cxd6  cxd6  23.Bc4+  when the e-pawn very much lives.  20.O-O-O  Re8  Now 21.Ne4 was strong in Petrik-Slacky, Banska Stiavnica 2010, and  21.Rd8  Bd7  22.Nb5!  likely even stronger. Preventing Nxc7 isn't at all easy and  22...Rc6  still loses to some further energetic play  23.a4!  a5  24.g4!  when Black is completely tied up and g5 followed by Bh3 the killer plan.   18...Bd7  is the safest square for the bishop, but fails to bring Black close to equality:  19.Bd3  Re8  20.f3  Rxe7+  21.Kd2  White leaves his king in the middle for the endgame. He will now either double on the h-file or prepare to invade down the e-file if Black offers a trade of rooks. Note too how much more active and useful the knight on c3  (Nd5, Ne4)  is compared with its counterpart on b6. }
+{ The pawn sells itself as dearly as possible. This has been quite a long line, if also an instructive one and a fairly common scenario, Black beating off White's attack at the cost of endgame suffering.   Even here his king isn't happy, with Bd3 on the cards, as is O-O-O with definite ideas of c5.   18...Re6+  discombobulating.   18...Bf5?  19.O-O-O  followed by c5 is also very strong.  19.Kd2  Rxe7  20.Bd3  Bf5  21.Rh6  White continues to pressure g6 while facilitating Rah1. We've followed in the footsteps of, amongst others, 's very own Maaike Keetman and White definitely enjoyed a clear plus here in the endgame in Keetman-Theulings, Groningen 2015.   18...Be6?  hopes for ...Re8 and ...Rxe7, but fails to the energetic  19.c5!  dxc5   19...Nd5  20.Nxd5  Bxd5  21.O-O-O  Bc6  22.cxd6  cxd6  23.Bc4+  when the e-pawn very much lives.  20.O-O-O  Re8  Now 21.Ne4 was strong in Petrik-Slacky, Banska Stiavnica 2010, and  21.Rd8  Bd7  22.Nb5!  likely even stronger. Preventing Nxc7 isn't at all easy and  22...Rc6  still loses to some further energetic play  23.a4!  a5  24.g4!  when Black is completely tied up and g5 followed by Bh3 the killer plan.   18...Bd7  is the safest square for the bishop, but fails to bring Black close to equality:  19.Bd3  Re8  20.f3  Rxe7+  21.Kd2  White leaves his king in the middle for the endgame. He will now either double on the h-file or prepare to invade down the e-file if Black offers a trade of rooks. Note too how much more active and useful the knight on c3  (Nd5, Ne4)  is compared with its counterpart on b6. }
 *
 
 [Event "?"]

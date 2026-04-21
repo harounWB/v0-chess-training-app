@@ -21,10 +21,10 @@
 [Date "????.??.??"]
 [Round "?"]
 [White "Introduction"]
-[Black "Chessable note"]
+[Black " note"]
 [Result "*"]
 
-{ The Grünfeld has the reputation of being very sharp and concrete, with theory sometimes starting after move 15 and going even deeper than move 40, occasionally. Since the number of trainable lines is very generous, crossing the 1000 barrier, we implemented the 'Learn Important Only' feature, known, to some of you perhaps, from the 5th Edition of Dvoretsky's Endgame Manual or other courses on the Chessable platform that share the same concept.  'Learn Important Only': clearly distinguishes the lines that Grandmaster Peter Svidler himself deemed essential to study in depth. Currently, the default setting is 'Learn Everything', but the most critical variations are distinctly marked by the title in bold. We believe that this feature is very helpful since many of us have difficulties in sorting out which lines are most relevant and should be committed to memory or insisted on.  We would recommend building up the knowledge by going through all the variations and using the bold titles as a reference and guidance throughout the study of this course.  Best wishes for a safe, happy and fulfilling journey through one of the most complex and energetic modern openings! }
+{ The Grünfeld has the reputation of being very sharp and concrete, with theory sometimes starting after move 15 and going even deeper than move 40, occasionally. Since the number of trainable lines is very generous, crossing the 1000 barrier, we implemented the 'Learn Important Only' feature, known, to some of you perhaps, from the 5th Edition of Dvoretsky's Endgame Manual or other courses on the  platform that share the same concept.  'Learn Important Only': clearly distinguishes the lines that Grandmaster Peter Svidler himself deemed essential to study in depth. Currently, the default setting is 'Learn Everything', but the most critical variations are distinctly marked by the title in bold. We believe that this feature is very helpful since many of us have difficulties in sorting out which lines are most relevant and should be committed to memory or insisted on.  We would recommend building up the knowledge by going through all the variations and using the bold titles as a reference and guidance throughout the study of this course.  Best wishes for a safe, happy and fulfilling journey through one of the most complex and energetic modern openings! }
 1. -- *
 
 [Event "?"]
@@ -77,7 +77,7 @@ Nc6
 14. Qxc6 { Black replies with g5 to most other moves. } 14... Rc8
 { And now we enter into a forced sequence. } 15. Qa4 Rxc3 16. Rfc1 Rxc1+ 17.
 Rxc1 Qb6 18. e3 Bd3
-{ Slightly more precise than  18...Qb2  chosen by Carlsen vs. Ding in Shamkir 2019.  The bishop wasn't doing that well on f5, on d3 it does a good job of preventing Bf1.  Chessable note: The full variation can be seenhere. }
+{ Slightly more precise than  18...Qb2  chosen by Carlsen vs. Ding in Shamkir 2019.  The bishop wasn't doing that well on f5, on d3 it does a good job of preventing Bf1.   note: The full variation can be seenhere. }
 *
 
 [Event "?"]
@@ -176,7 +176,7 @@ Qc7 15. Bc3 { 15.Ne3  b6  16.Bc3  Rfd8  17.Qb2  Be6  transposes. } 15... Rfd8
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. e4 Nb6 7. Be3 { White needs to defend the pawn on d4. } 7... O-O 8.
 Nf3
 { 8.Nf3 is by far the main move here since White will be developing the knight to f3 in a vast majority of cases in the 7.Be3 line. It makes sense to play this before you commit to anything else. If White gets to play Be2 and O-O without even having to spend time on Qd2/Rc1 − so much the better! Our task here is to make sure we don’t give White that luxury. }
@@ -225,7 +225,7 @@ Nf3
 11. Qe2
 { Getting ready to meet f5 with e5, needs an energetic reply − and here the fact that we can win a tempo by attacking the pawn on c3 comes very much in handy. }
 11... Qe5 12. Qe3 f5 13. Nf3 Qxe4 14. Qxe4 fxe4 15. Ng5 Bf5
-{ We're not worried about  16.d6+  since after  16...Kg7  17.dxe7  Re8  , that pawn won't survive for long.   Chessable note: For the forced line starting with 16.O-O-O, you canfollow the link where the variation is discussed further. }
+{ We're not worried about  16.d6+  since after  16...Kg7  17.dxe7  Re8  , that pawn won't survive for long.    note: For the forced line starting with 16.O-O-O, you canfollow the link where the variation is discussed further. }
 *
 
 [Event "?"]
@@ -261,7 +261,7 @@ Nf3
 14. cxb6
 { 14.c6  axb4  followed by Nc5 doesn't worry us at all; the pawn on c6 won't survive for long. }
 14... axb4 15. Qxb4 Qxb6 16. Qd2 Nc5
-{ If White doesn't castle now, which is the only move, they never will − the threats of Rd8 and Ba6 are too strong.   Chessable note: For the in-depth analysis, you can find thevariation in the 5.Bd2 chapter. }
+{ If White doesn't castle now, which is the only move, they never will − the threats of Rd8 and Ba6 are too strong.    note: For the in-depth analysis, you can find thevariation in the 5.Bd2 chapter. }
 *
 
 [Event "?"]
@@ -410,7 +410,7 @@ Nxd2 b5
 16... Bc3 { Allowing Bb4 is unthinkable. } 17. Bc1 Qd6 18. e5
 { This is the point of White's previous play − the bishop is now on c3, cut off from home, and open to harrassment. }
 18... Qd7 19. Bd2 Rac8
-{ I've chosen this move @@StartBracket@@to my knowledge, a novelty@@EndBracket@@ because the other two options,  19...Rfc8  and  19...Bxd2  , while also playable, weren't solvable as cleanly as I liked.  Chessable note: A more detailed analysis can be foundhere. }
+{ I've chosen this move @@StartBracket@@to my knowledge, a novelty@@EndBracket@@ because the other two options,  19...Rfc8  and  19...Bxd2  , while also playable, weren't solvable as cleanly as I liked.   note: A more detailed analysis can be foundhere. }
 *
 
 [Event "?"]
@@ -470,7 +470,7 @@ Nxd2 b5
 16. Bc5
 { Pretty much the only serious move here. White needs to be attacking Black's weak points while it's still possible.   16.h3  Bxf3  17.Bxf3  Nc4  is completely anemic, but the 16.Bc5 line is worth mentioning. }
 16... Bf6
-{ Once again, I'm deviating completely from the forced lines starting with  16...b6  that I suggested in 2014. I still think Black is more likely to hold than not in the exchange-down endgames after  17.Bxe7  Rfe8  18.d6  Nc6  19.Bb5  , but I came up short trying to find secure ways to nail down the draw there. The line I'm proposing will also lead to positions that look scary, but I believe this is a cleaner way to make a more or less forced draw.  @@StartFEN@@r4rk1/pp2pp2/5bpp/n1BP4/4P1b1/5N2/q3BPPP/1R1Q1RK1 w - - 3 17@@EndFEN@@  17.e5  is the only way for White to make progress here but after  17...Bxe5  and accurate play, the rather forced lines will end in a draw.   Chessable note: The full analysis can be foundhere. }
+{ Once again, I'm deviating completely from the forced lines starting with  16...b6  that I suggested in 2014. I still think Black is more likely to hold than not in the exchange-down endgames after  17.Bxe7  Rfe8  18.d6  Nc6  19.Bb5  , but I came up short trying to find secure ways to nail down the draw there. The line I'm proposing will also lead to positions that look scary, but I believe this is a cleaner way to make a more or less forced draw.  @@StartFEN@@r4rk1/pp2pp2/5bpp/n1BP4/4P1b1/5N2/q3BPPP/1R1Q1RK1 w - - 3 17@@EndFEN@@  17.e5  is the only way for White to make progress here but after  17...Bxe5  and accurate play, the rather forced lines will end in a draw.    note: The full analysis can be foundhere. }
 *
 
 [Event "?"]
@@ -558,7 +558,7 @@ Nxd2 b5
 12. Bd3 cxd4 13. cxd4 Be6 14. d5
 { The main line − White sacrifices the exchange, but gets a lot of play against the weakened black king. This move is pretty much the only one you can expect in this line in 2021, but in the past, there were alternatives, in particular  14.Rc1  , whichcan be trained in the corresponding chapter. }
 14... Bxa1 15. Qxa1 f6
-{ The starting position of the 14.d5 line − we need to play f6 here to be better prepared for the Bh6 threats. White has a long list of different options and we'll go through all of them.  The general themes here could be described as follows: White wants to play in the center, in particular by pushing e4-e5 while combining it with Bh6 ideas. White is using the fact that our minor pieces are either badly placed or under attack, and our softened kingside, to generate quite a lot of play for the exchange.   In response, our biggest priority is to bring the Na5 back into play − in most cases, we'll be trying to play Rc8 and Nc4, but b6/b5 with Nb7-c5 ideas are also not unreasonable in slower lines. We're also often happy to just return the exchange in reply to Bh6 since the dark-squared bishop here is not really worse than the rook.   Chessable note: For more details, see the correspondinglines in the designated chapter. }
+{ The starting position of the 14.d5 line − we need to play f6 here to be better prepared for the Bh6 threats. White has a long list of different options and we'll go through all of them.  The general themes here could be described as follows: White wants to play in the center, in particular by pushing e4-e5 while combining it with Bh6 ideas. White is using the fact that our minor pieces are either badly placed or under attack, and our softened kingside, to generate quite a lot of play for the exchange.   In response, our biggest priority is to bring the Na5 back into play − in most cases, we'll be trying to play Rc8 and Nc4, but b6/b5 with Nb7-c5 ideas are also not unreasonable in slower lines. We're also often happy to just return the exchange in reply to Bh6 since the dark-squared bishop here is not really worse than the rook.    note: For more details, see the correspondinglines in the designated chapter. }
 *
 
 [Event "?"]
@@ -675,7 +675,7 @@ Nxd2 b5
 { Once again, we're not waiting to play a4 before going in with b3. } 20. axb3
 { 20.a3?  Nc5  with ideas of Na4. } 20... a4 21. Ba1
 { 21.Be2  Nc5  transposes to19.Be2 move order. } 21... Nc5 22. bxa4 Rxa4
-{ Our activity on the Q-side, combined with the rather unstable positioning of the white pieces, gives us enough for the pawns.  Chessable note: A detailed analysis is provided in the correspondingvariation. }
+{ Our activity on the Q-side, combined with the rather unstable positioning of the white pieces, gives us enough for the pawns.   note: A detailed analysis is provided in the correspondingvariation. }
 *
 
 [Event "?"]
@@ -715,7 +715,7 @@ Nxd2 b5
 18. Nc6 Bxb2 19. Qxb2 Rxc6
 { We can't tolerate that knight for very long, but on the positive side, this exchange sac breaks up the proud white center and gives us a very clear plan. }
 20. dxc6 Nc5
-{ Activating this knight takes precedence over taking the c6-pawn, which is not really going anywhere, and now we can take stock. We're still very interested in pushing the queenside pawns, but additionally, we have an idea of getting the knight to c3 via a4, where it will be a huge thorn in White's side.  It's also very important, of course, that White is a lot behind in development, allowing us to get a fair amount done in the time it will take them to castle.  Chessable note: The details are covered in the designatedsection. }
+{ Activating this knight takes precedence over taking the c6-pawn, which is not really going anywhere, and now we can take stock. We're still very interested in pushing the queenside pawns, but additionally, we have an idea of getting the knight to c3 via a4, where it will be a huge thorn in White's side.  It's also very important, of course, that White is a lot behind in development, allowing us to get a fair amount done in the time it will take them to castle.   note: The details are covered in the designatedsection. }
 *
 
 [Event "?"]
@@ -761,7 +761,7 @@ Nxd2 b5
 21. c5
 { One of the more impressive theoretical achievements of 2020 − after his game against Nepo, Vidit gets a chance to show off this line again and demonstrates that his idea was even deeper than originally assumed. }
 21... Rxd2
-{ Vidit's fantastic idea, introduced in his game against MVL, is currently the absolute cutting edge of the 7.Be3 theory. I believe this is a draw, but it's incredibly concrete and complicated, and you will need to learn exactly how to make it, to play the 10...Bg4 line.  Chessable note: The full overview is givenhere. }
+{ Vidit's fantastic idea, introduced in his game against MVL, is currently the absolute cutting edge of the 7.Be3 theory. I believe this is a draw, but it's incredibly concrete and complicated, and you will need to learn exactly how to make it, to play the 10...Bg4 line.   note: The full overview is givenhere. }
 *
 
 [Event "?"]
@@ -843,7 +843,7 @@ Nxd2 b5
 15. Bc1
 { The only way to avoid the scenario I've just described − by moving the bishop back, White is preparing to grit their teeth and ignore the Nc4. I’m going to show you how we deal with that move, because it is the most principled, and our play in response is very indicative of general ideas here. White can, of course, try other moves here, but I believe the end result will be the same − we’re fine. }
 15... Nc4 16. Qxa7 f6
-{ With the white pieces basically on starting squares, it makes perfect sense to start blasting the position open.  Chessable note: how to conduct the initiative further can be seen in thecorresponding chapter. }
+{ With the white pieces basically on starting squares, it makes perfect sense to start blasting the position open.   note: how to conduct the initiative further can be seen in thecorresponding chapter. }
 *
 
 [Event "?"]
@@ -878,7 +878,7 @@ Nxd2 b5
 { Is the old line − White will successfully avoid the mayhem of  15.Bd3  and  15.f3  , but Black should be able to make a reasonably comfortable almost forced draw. }
 15... b4 { Luring the queen to a more vulnerable square. } 16. Qxb4 Nxd5 17.
 Nxd5 Qxg5 18. O-O Rab8 19. Qd6 Bh3
-{ The bishop escapes the attack with tempo, while also luring a piece to a bad square.  Chessable note: For in-depth analysis → followthe link. }
+{ The bishop escapes the attack with tempo, while also luring a piece to a bad square.   note: For in-depth analysis → followthe link. }
 *
 
 [Event "?"]
@@ -950,7 +950,7 @@ Nxd5 Qxg5 18. O-O Rab8 19. Qd6 Bh3
 15. f3 Nh5
 { This position is extremely tricky to play, although it's possible to formulate some basic guidelines. Black is aiming for f5 breaks, with Be5/Qh4 as additional threats right now. White, on the other hand, will be trying to keep the position as closed as possible. I will provide as much concrete info as I think is reasonable, but I would still encourage viewers to look at this line on their own after completing the chapter, to internalize the craziness that might happen here.   Just to illustrate the dangers in this position, if White plays the automatic  16.O-O?  Bf8  17.Qa6  Bc5+  18.Kh1  Qh4  , Black is already winning. }
 16. Be3 f5
-{ Ideas remain the same here − push against the e4-pawn, hope to play b4, fight as hard as possible to prevent White from having enough time to castle. In most lines, you can do this by employing common sense, but fair warning − after  17.Qa3  you will need to be ready to sacrifice a LOT of material in very short order.   Chessable note: the forced variation after 17.Qa3 and much more → presented in the designatedsection. }
+{ Ideas remain the same here − push against the e4-pawn, hope to play b4, fight as hard as possible to prevent White from having enough time to castle. In most lines, you can do this by employing common sense, but fair warning − after  17.Qa3  you will need to be ready to sacrifice a LOT of material in very short order.    note: the forced variation after 17.Qa3 and much more → presented in the designatedsection. }
 *
 
 [Event "?"]
@@ -974,7 +974,7 @@ Nxd5 Qxg5 18. O-O Rab8 19. Qd6 Bh3
 6... Nxd5 7. Nxd5 Qxd5 8. Bxc7 Na6
 { We need to play quite energetically here. Of course, give White a tempo or two to stabilize, and the healthy extra pawn will become a massive factor. }
 9. Bxa6 Qxg2 10. Qf3 Qxf3 11. Nxf3 bxa6
-{ This endgame appears pretty much by force if White plays 6.cxd5. We have the bishop pair, but the Bg7 is very restricted right now, and White has a healthier pawn structure, due to our doubled a-pawns.  We should be aiming to start breaking the Bg7 free, in particular with f6 and e5, while in more general terms we're normally okay if we get to trade all the rooks along the c-file. f6, Rf7 and Bf8, intending to activate the bishop via the a3-f8 diagonal, is another typical setup we should be aware of.   Chessable note: there are various ways the endgame can unfold and they are allcovered in the corresponding chapter. }
+{ This endgame appears pretty much by force if White plays 6.cxd5. We have the bishop pair, but the Bg7 is very restricted right now, and White has a healthier pawn structure, due to our doubled a-pawns.  We should be aiming to start breaking the Bg7 free, in particular with f6 and e5, while in more general terms we're normally okay if we get to trade all the rooks along the c-file. f6, Rf7 and Bf8, intending to activate the bishop via the a3-f8 diagonal, is another typical setup we should be aware of.    note: there are various ways the endgame can unfold and they are allcovered in the corresponding chapter. }
 *
 
 [Event "?"]
@@ -1004,7 +1004,7 @@ e5 { Not a backward step! } 11. cxd5 exf4 12. dxc6 Qe7
 { Of course, we say no to queen trades here. } 13. fxg4 Qxe3+ 14. Be2 Nxg4 15.
 Nh3 Rad8 16. Qc2
 { And here I'm suggesting a small change to what people used to do. } 16... Bf6
-{ We're threatening Bh4+ and Rd2, and White needs to play very precisely despite being a piece up.  16...bxc6  17.Nd1  Qe5  18.Nhf2  h5  is also completely fine.   Chessable note: for how to convert or handle the initiative,follow the link. }
+{ We're threatening Bh4+ and Rd2, and White needs to play very precisely despite being a piece up.  16...bxc6  17.Nd1  Qe5  18.Nhf2  h5  is also completely fine.    note: for how to convert or handle the initiative,follow the link. }
 *
 
 [Event "?"]
@@ -1037,7 +1037,7 @@ Nh3 Rad8 16. Qc2
 11. Nxe6
 { This is the critical reply. White could try ignoring the bishop, making our Nd8 look stupid, but then the pawn on c4 can be picked up. }
 11... Nxe6 12. cxd5 Nxf4 13. exf4 Qxc5
-{ This is the position we're aiming for with 10...Nd8. We're a pawn down, but somewhat ahead in development, and we have play vs. the d5-pawn − although of course all of this is very time-dependent, if we aren't fast enough here White will be able to stabilize.  Chessable note: to see all the ramifications of this variation,check the corresponding chapter. }
+{ This is the position we're aiming for with 10...Nd8. We're a pawn down, but somewhat ahead in development, and we have play vs. the d5-pawn − although of course all of this is very time-dependent, if we aren't fast enough here White will be able to stabilize.   note: to see all the ramifications of this variation,check the corresponding chapter. }
 *
 
 [Event "?"]
@@ -1078,7 +1078,7 @@ dxc4 9. Bxc4 Qxc5 10. Bb3 { Once again, the only proper move here. } 10... Nc6
 17... h6 18. g4 Bd7 19. Ne4 Qxh4 20. f3
 { This is the point of 17.h4!? − by giving up on h4, White establishes a very nice pair of knights, and is planning to play Rf2-h2 and then launch a direct attack on the black king. However, by playing energetically and challenging the white setup, Black equalizes. }
 20... Kh8
-{ We need to be able to play f5.  Chessable note: In-depth analysis is provided in the4.Bf4 chapter. }
+{ We need to be able to play f5.   note: In-depth analysis is provided in the4.Bf4 chapter. }
 *
 
 [Event "?"]
@@ -1180,7 +1180,7 @@ Bxc3+ 13. Rxc3 Ne4 14. Rxc6 a5
 13. Ng3
 { 13.h4  Bd7  14.Ng3  Rac8  is not an improvement since the constantly  hanging pawn on h4 will make it very hard for White to castle. }
 13... h4 14. Nge4 Nxe4 15. Nxe4 Bf5 16. Bd3 Bg7
-{ It may look as if White stabilized, but the pawn on d5 is still awkward to protect, and there's also counterplay with h3 to contend with. Black has very good compensation here.  Chessable note: the remainder of the line can be foundhere. }
+{ It may look as if White stabilized, but the pawn on d5 is still awkward to protect, and there's also counterplay with h3 to contend with. Black has very good compensation here.   note: the remainder of the line can be foundhere. }
 *
 
 [Event "?"]
@@ -2881,7 +2881,7 @@ Qxe5 25. Rhf1 Nxd6
 18... Qe8 19. Nf3 { 19.Be7?  Nf2  is wrong. } 19... Rf7
 { An important quiet move, preparing for the eventual Be7, while also closing down the a2-g8 diagonal which might be useful to deny white checks later. Another useful facet of this move is the fact that we often want to play Ne5 next, and by moving the rook away from f8 we're getting ready to reply to Bh6 by moving our most important piece, the Bg7, out of the way of trades. Play becomes incredibly concrete here, so you will want to acquaint yourselves quite well with these lines. }
 20. Be7
-{ Is the 'old' main line, and the line analyzed quite in depth in other Grünfeld courses available on Chessable. }
+{ Is the 'old' main line, and the line analyzed quite in depth in other Grünfeld courses available on . }
 20... Rxc3 { Black needs to be very quick here. } 21. bxc3 Qc8
 { Creating the very strong idea of Na4, while the queen will also join the attack from c5. }
 22. Rc1 { 22.e5  Na4  23.Rc1  transposes. } 22... Na4 23. e5
@@ -2925,7 +2925,7 @@ Nxf7 Nxc3+ 27. Rxc3 Bxc3
 18... Qe8 19. Nf3 { 19.Be7?  Nf2  is wrong. } 19... Rf7
 { An important quiet move, preparing for the eventual Be7, while also closing down the a2-g8 diagonal which might be useful to deny white checks later. Another useful facet of this move is the fact that we often want to play Ne5 next, and by moving the rook away from f8 we're getting ready to reply to Bh6 by moving our most important piece, the Bg7, out of the way of trades. Play becomes incredibly concrete here, so you will want to acquaint yourselves quite well with these lines. }
 20. Be7
-{ Is the 'old' main line, and the line analyzed quite in depth in other Grünfeld courses available on Chessable. }
+{ Is the 'old' main line, and the line analyzed quite in depth in other Grünfeld courses available on . }
 20... Rxc3 { Black needs to be very quick here. } 21. bxc3 Qc8
 { Creating the very strong idea of Na4, while the queen will also join the attack from c5. }
 22. Rc1 { 22.e5  Na4  23.Rc1  transposes. } 22... Na4 23. Ng5 Qc5 24. Rh3 Rxf1
@@ -2968,7 +2968,7 @@ Nxf7 Nxc3+ 27. Rxc3 Bxc3
 18... Qe8 19. Nf3 { 19.Be7?  Nf2  is wrong. } 19... Rf7
 { An important quiet move, preparing for the eventual Be7, while also closing down the a2-g8 diagonal which might be useful to deny white checks later. Another useful facet of this move is the fact that we often want to play Ne5 next, and by moving the rook away from f8 we're getting ready to reply to Bh6 by moving our most important piece, the Bg7, out of the way of trades. Play becomes incredibly concrete here, so you will want to acquaint yourselves quite well with these lines. }
 20. Be7
-{ Is the 'old' main line, and the line analyzed quite in depth in other Grünfeld courses available on Chessable. }
+{ Is the 'old' main line, and the line analyzed quite in depth in other Grünfeld courses available on . }
 20... Rxc3 { Black needs to be very quick here. } 21. bxc3 Qc8
 { Creating the very strong idea of Na4, while the queen will also join the attack from c5. }
 22. Rc1 { 22.e5  Na4  23.Rc1  transposes. } 22... Na4 23. Ng5 Qc5 24. Nxf7
@@ -3010,7 +3010,7 @@ Nxc3+ 25. Rxc3 Bxc3 26. Nh6+
 18... Qe8 19. Nf3 { 19.Be7?  Nf2  is wrong. } 19... Rf7
 { An important quiet move, preparing for the eventual Be7, while also closing down the a2-g8 diagonal which might be useful to deny white checks later. Another useful facet of this move is the fact that we often want to play Ne5 next, and by moving the rook away from f8 we're getting ready to reply to Bh6 by moving our most important piece, the Bg7, out of the way of trades. Play becomes incredibly concrete here, so you will want to acquaint yourselves quite well with these lines. }
 20. Be7
-{ Is the 'old' main line, and the line analyzed quite in depth in other Grünfeld courses available on Chessable. }
+{ Is the 'old' main line, and the line analyzed quite in depth in other Grünfeld courses available on . }
 20... Rxc3 { Black needs to be very quick here. } 21. bxc3 Qc8
 { Creating the very strong idea of Na4, while the queen will also join the attack from c5. }
 22. Rc1 { 22.e5  Na4  23.Rc1  transposes. } 22... Na4 23. Ng5 Qc5 24. Qd5
@@ -3054,7 +3054,7 @@ Rh3 Nxc3+ 27. Rhxc3 Bf5+ 28. R3c2
 18... Qe8 19. Nf3 { 19.Be7?  Nf2  is wrong. } 19... Rf7
 { An important quiet move, preparing for the eventual Be7, while also closing down the a2-g8 diagonal which might be useful to deny white checks later. Another useful facet of this move is the fact that we often want to play Ne5 next, and by moving the rook away from f8 we're getting ready to reply to Bh6 by moving our most important piece, the Bg7, out of the way of trades. Play becomes incredibly concrete here, so you will want to acquaint yourselves quite well with these lines. }
 20. Be7
-{ Is the 'old' main line, and the line analyzed quite in depth in other Grünfeld courses available on Chessable. }
+{ Is the 'old' main line, and the line analyzed quite in depth in other Grünfeld courses available on . }
 20... Rxc3 { Black needs to be very quick here. } 21. bxc3 Qc8
 { Creating the very strong idea of Na4, while the queen will also join the attack from c5. }
 22. Rc1 { 22.e5  Na4  23.Rc1  transposes. } 22... Na4 23. Ng5 Qc5 24. Qd5
@@ -3102,7 +3102,7 @@ Rf4 32. Rc4
 18... Qe8 19. Nf3 { 19.Be7?  Nf2  is wrong. } 19... Rf7
 { An important quiet move, preparing for the eventual Be7, while also closing down the a2-g8 diagonal which might be useful to deny white checks later. Another useful facet of this move is the fact that we often want to play Ne5 next, and by moving the rook away from f8 we're getting ready to reply to Bh6 by moving our most important piece, the Bg7, out of the way of trades. Play becomes incredibly concrete here, so you will want to acquaint yourselves quite well with these lines. }
 20. Be7
-{ Is the 'old' main line, and the line analyzed quite in depth in other Grünfeld courses available on Chessable. }
+{ Is the 'old' main line, and the line analyzed quite in depth in other Grünfeld courses available on . }
 20... Rxc3 { Black needs to be very quick here. } 21. bxc3 Qc8
 { Creating the very strong idea of Na4, while the queen will also join the attack from c5. }
 22. Rc1 { 22.e5  Na4  23.Rc1  transposes. } 22... Na4 23. Ng5 Qc5 24. Qd5
@@ -3807,7 +3807,7 @@ Nf4 21. Bxf4 gxf4 22. Ra3
 [Result "*"]
 
 1. d4 Nf6 2. c4 g6 3. h4
-{ This line, championed by the esteemed Chessable stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
+{ This line, championed by the esteemed  stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
 3... Bg7
 { For the safety-minded, I will mention that  3...c6  4.Nc3  d5  , which most likely leads to exchange-Slav type positions, exists as a backup plan − but this is most assuredly not why we're here. }
 4. Nc3 d5 { 4...Nc6  is my recommendation, analyzed throughout this chapter. }
@@ -3826,7 +3826,7 @@ Nf4 21. Bxf4 gxf4 22. Ra3
 [Result "*"]
 
 1. d4 Nf6 2. c4 g6 3. h4
-{ This line, championed by the esteemed Chessable stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
+{ This line, championed by the esteemed  stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
 3... Bg7
 { For the safety-minded, I will mention that  3...c6  4.Nc3  d5  , which most likely leads to exchange-Slav type positions, exists as a backup plan − but this is most assuredly not why we're here. }
 4. Nc3 Nc6
@@ -3843,7 +3843,7 @@ Nge2 c5 { Gives us a permanent knight on d4. } *
 [Result "*"]
 
 1. d4 Nf6 2. c4 g6 3. h4
-{ This line, championed by the esteemed Chessable stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
+{ This line, championed by the esteemed  stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
 3... Bg7
 { For the safety-minded, I will mention that  3...c6  4.Nc3  d5  , which most likely leads to exchange-Slav type positions, exists as a backup plan − but this is most assuredly not why we're here. }
 4. Nc3 Nc6
@@ -3866,7 +3866,7 @@ Nge2 c5 { Gives us a permanent knight on d4. } *
 [Result "*"]
 
 1. d4 Nf6 2. c4 g6 3. h4
-{ This line, championed by the esteemed Chessable stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
+{ This line, championed by the esteemed  stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
 3... Bg7
 { For the safety-minded, I will mention that  3...c6  4.Nc3  d5  , which most likely leads to exchange-Slav type positions, exists as a backup plan − but this is most assuredly not why we're here. }
 4. Nc3 Nc6
@@ -3887,7 +3887,7 @@ Nge2 c5 { Gives us a permanent knight on d4. } *
 [Result "*"]
 
 1. d4 Nf6 2. c4 g6 3. h4
-{ This line, championed by the esteemed Chessable stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
+{ This line, championed by the esteemed  stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
 3... Bg7
 { For the safety-minded, I will mention that  3...c6  4.Nc3  d5  , which most likely leads to exchange-Slav type positions, exists as a backup plan − but this is most assuredly not why we're here. }
 4. Nc3 Nc6
@@ -3913,7 +3913,7 @@ Nge2 c5 { Gives us a permanent knight on d4. } *
 [Result "*"]
 
 1. d4 Nf6 2. c4 g6 3. h4
-{ This line, championed by the esteemed Chessable stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
+{ This line, championed by the esteemed  stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
 3... Bg7
 { For the safety-minded, I will mention that  3...c6  4.Nc3  d5  , which most likely leads to exchange-Slav type positions, exists as a backup plan − but this is most assuredly not why we're here. }
 4. Nc3 Nc6
@@ -3945,7 +3945,7 @@ Nge2 c5 { Gives us a permanent knight on d4. } *
 [Result "*"]
 
 1. d4 Nf6 2. c4 g6 3. h4
-{ This line, championed by the esteemed Chessable stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
+{ This line, championed by the esteemed  stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
 3... Bg7
 { For the safety-minded, I will mention that  3...c6  4.Nc3  d5  , which most likely leads to exchange-Slav type positions, exists as a backup plan − but this is most assuredly not why we're here. }
 4. Nc3 Nc6
@@ -3972,7 +3972,7 @@ Nge2 c5 { Gives us a permanent knight on d4. } *
 [Result "*"]
 
 1. d4 Nf6 2. c4 g6 3. h4
-{ This line, championed by the esteemed Chessable stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
+{ This line, championed by the esteemed  stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
 3... Bg7
 { For the safety-minded, I will mention that  3...c6  4.Nc3  d5  , which most likely leads to exchange-Slav type positions, exists as a backup plan − but this is most assuredly not why we're here. }
 4. Nc3 Nc6
@@ -3998,7 +3998,7 @@ Nge2 c5 { Gives us a permanent knight on d4. } *
 [Result "*"]
 
 1. d4 Nf6 2. c4 g6 3. h4
-{ This line, championed by the esteemed Chessable stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
+{ This line, championed by the esteemed  stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
 3... Bg7
 { For the safety-minded, I will mention that  3...c6  4.Nc3  d5  , which most likely leads to exchange-Slav type positions, exists as a backup plan − but this is most assuredly not why we're here. }
 4. Nc3 Nc6
@@ -4028,7 +4028,7 @@ Nge2 c5 { Gives us a permanent knight on d4. } *
 [Result "*"]
 
 1. d4 Nf6 2. c4 g6 3. h4
-{ This line, championed by the esteemed Chessable stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
+{ This line, championed by the esteemed  stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
 3... Bg7
 { For the safety-minded, I will mention that  3...c6  4.Nc3  d5  , which most likely leads to exchange-Slav type positions, exists as a backup plan − but this is most assuredly not why we're here. }
 4. Nc3 Nc6
@@ -4063,7 +4063,7 @@ Nge2 c5 { Gives us a permanent knight on d4. } *
 [Result "*"]
 
 1. d4 Nf6 2. c4 g6 3. h4
-{ This line, championed by the esteemed Chessable stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
+{ This line, championed by the esteemed  stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
 3... Bg7
 { For the safety-minded, I will mention that  3...c6  4.Nc3  d5  , which most likely leads to exchange-Slav type positions, exists as a backup plan − but this is most assuredly not why we're here. }
 4. Nc3 Nc6
@@ -4095,7 +4095,7 @@ Nge2 c5 { Gives us a permanent knight on d4. } *
 [Result "*"]
 
 1. d4 Nf6 2. c4 g6 3. h4
-{ This line, championed by the esteemed Chessable stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
+{ This line, championed by the esteemed  stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
 3... Bg7
 { For the safety-minded, I will mention that  3...c6  4.Nc3  d5  , which most likely leads to exchange-Slav type positions, exists as a backup plan − but this is most assuredly not why we're here. }
 4. Nc3 Nc6
@@ -4127,7 +4127,7 @@ Nge2 c5 { Gives us a permanent knight on d4. } *
 [Result "*"]
 
 1. d4 Nf6 2. c4 g6 3. h4
-{ This line, championed by the esteemed Chessable stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
+{ This line, championed by the esteemed  stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
 3... Bg7
 { For the safety-minded, I will mention that  3...c6  4.Nc3  d5  , which most likely leads to exchange-Slav type positions, exists as a backup plan − but this is most assuredly not why we're here. }
 4. Nc3 Nc6
@@ -4153,7 +4153,7 @@ Nge2 c5 { Gives us a permanent knight on d4. } *
 [Result "*"]
 
 1. d4 Nf6 2. c4 g6 3. h4
-{ This line, championed by the esteemed Chessable stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
+{ This line, championed by the esteemed  stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
 3... Bg7
 { For the safety-minded, I will mention that  3...c6  4.Nc3  d5  , which most likely leads to exchange-Slav type positions, exists as a backup plan − but this is most assuredly not why we're here. }
 4. Nc3 Nc6
@@ -4179,7 +4179,7 @@ Nge2 c5 { Gives us a permanent knight on d4. } *
 [Result "*"]
 
 1. d4 Nf6 2. c4 g6 3. h4
-{ This line, championed by the esteemed Chessable stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
+{ This line, championed by the esteemed  stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
 3... Bg7
 { For the safety-minded, I will mention that  3...c6  4.Nc3  d5  , which most likely leads to exchange-Slav type positions, exists as a backup plan − but this is most assuredly not why we're here. }
 4. Nc3 Nc6
@@ -4208,7 +4208,7 @@ Re8
 [Result "*"]
 
 1. d4 Nf6 2. c4 g6 3. h4
-{ This line, championed by the esteemed Chessable stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
+{ This line, championed by the esteemed  stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
 3... Bg7
 { For the safety-minded, I will mention that  3...c6  4.Nc3  d5  , which most likely leads to exchange-Slav type positions, exists as a backup plan − but this is most assuredly not why we're here. }
 4. Nc3 Nc6
@@ -4232,7 +4232,7 @@ Re8
 [Result "*"]
 
 1. d4 Nf6 2. c4 g6 3. h4
-{ This line, championed by the esteemed Chessable stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
+{ This line, championed by the esteemed  stalwart Simon GingerGM Williams from the late 2000s, was first played at the elite level by Veselin Topalov in the 2016 Candidates, and then promptly written off as something he'd only done because he was bored and wanted the tournament to end. However, in 2019 Alexander Grischuk went on a long streak of playing this any chance he got against 2750+ opposition, which finally made people sit up and take notice.  The line is so serious that I will be recommending something I normally avoid − switching to a different opening. I couldn't make any of the attempts to continue playing the Grünfeld here work, so we will be switching to the King's Indian structures instead. I will also note, for those of you looking for additional options here, that I suspect the switch to the Benko with  3...c5  4.d5  b5  should be playable, but I don't feel comfortable enough with those positions to recommend them. }
 3... Bg7
 { For the safety-minded, I will mention that  3...c6  4.Nc3  d5  , which most likely leads to exchange-Slav type positions, exists as a backup plan − but this is most assuredly not why we're here. }
 4. Nc3 Nc6
@@ -4287,7 +4287,7 @@ Re8
 5. cxd5 cxd5 6. Nc3 Bg7
 { White should of course play  7.Nf3  − this will be covered later. In case of  7.Bg5  Nc6  ,  White will find it hard to counter the Ne4 idea. }
 7. e3
-{ This rather quiet continuation resurfaces sporadically in GM practice, but we're not really pressed all that much after it. Developing the knight to e2 means that White isn't really contesting the center, allowing us to develop peacefully. }
+{ This rather quiet continuation resurfaces sporadically in practice, but we're not really pressed all that much after it. Developing the knight to e2 means that White isn't really contesting the center, allowing us to develop peacefully. }
 7... O-O 8. Nge2 Nc6 9. O-O b6 { The simplest way to develop. } 10. b3 Ba6 11.
 Ba3 Re8
 { At first glance, we're defending against the future Nf4 threats by preparing e7-e6 − but, as Fischer realized way back in 1963, it's perfectly viable, and in fact very strong, to aim to play e5 as soon as possible here. }
@@ -7645,7 +7645,7 @@ Qh5 17. Rbc1 { 17.Bc5  Be6!  18.Bxe6  Qxc5  is the point of playing Qh5. }
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. Nf3
 { Is an attempt to finesse the move orders a bit, but it gives Black an additional good option. }
 6... Bf5
@@ -7664,7 +7664,7 @@ Qh5 17. Rbc1 { 17.Bc5  Be6!  18.Bxe6  Qxc5  is the point of playing Qh5. }
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. Nf3
 { Is an attempt to finesse the move orders a bit, but it gives Black an additional good option. }
 6... Bf5
@@ -7689,7 +7689,7 @@ Qh5 17. Rbc1 { 17.Bc5  Be6!  18.Bxe6  Qxc5  is the point of playing Qh5. }
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. Nf3
 { Is an attempt to finesse the move orders a bit, but it gives Black an additional good option. }
 6... Bf5
@@ -7712,7 +7712,7 @@ Qh5 17. Rbc1 { 17.Bc5  Be6!  18.Bxe6  Qxc5  is the point of playing Qh5. }
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. Nf3
 { Is an attempt to finesse the move orders a bit, but it gives Black an additional good option. }
 6... Bf5
@@ -7732,7 +7732,7 @@ Qh5 17. Rbc1 { 17.Bc5  Be6!  18.Bxe6  Qxc5  is the point of playing Qh5. }
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. Nf3
 { Is an attempt to finesse the move orders a bit, but it gives Black an additional good option. }
 6... Bf5
@@ -7755,7 +7755,7 @@ Qh5 17. Rbc1 { 17.Bc5  Be6!  18.Bxe6  Qxc5  is the point of playing Qh5. }
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. Nf3
 { Is an attempt to finesse the move orders a bit, but it gives Black an additional good option. }
 6... Bf5
@@ -7781,7 +7781,7 @@ Qh5 17. Rbc1 { 17.Bc5  Be6!  18.Bxe6  Qxc5  is the point of playing Qh5. }
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. Nf3
 { Is an attempt to finesse the move orders a bit, but it gives Black an additional good option. }
 6... Bf5
@@ -7813,7 +7813,7 @@ Qh5 17. Rbc1 { 17.Bc5  Be6!  18.Bxe6  Qxc5  is the point of playing Qh5. }
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. Nf3
 { Is an attempt to finesse the move orders a bit, but it gives Black an additional good option. }
 6... Bf5
@@ -7840,7 +7840,7 @@ Qh5 17. Rbc1 { 17.Bc5  Be6!  18.Bxe6  Qxc5  is the point of playing Qh5. }
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. Nf3
 { Is an attempt to finesse the move orders a bit, but it gives Black an additional good option. }
 6... Bf5
@@ -7869,7 +7869,7 @@ Rfb8 19. Qxd5 Nb4
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. Nf3
 { Is an attempt to finesse the move orders a bit, but it gives Black an additional good option. }
 6... Bf5
@@ -7899,7 +7899,7 @@ Qe6 19. Rfe1 Qd6 20. Rac1 Rfb8 21. Rc6 Rxb7 22. Rxd6 Rb6
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. Nf3
 { Is an attempt to finesse the move orders a bit, but it gives Black an additional good option. }
 6... Bf5
@@ -7927,7 +7927,7 @@ Qxd5 Nb4 19. Qb3 a5 { White's queenside is under siege. } *
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. e4 Nb6 7. Nf3
 { The other way to protect the center ends up leading to the same positions. }
 7... Bg4 8. Be3 O-O { Transposes to themain line, starting with 7.Be3. } *
@@ -7943,7 +7943,7 @@ Qxd5 Nb4 19. Qb3 a5 { White's queenside is under siege. } *
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. e4 Nb6 7. Be3 { White needs to defend the pawn on d4. } 7... O-O 8.
 Be2
 { Trying to avoid getting the knight on f3 pinned by Bg4 while also developing, is too slow. }
@@ -7967,7 +7967,7 @@ Bxb2 11. Rd1 Bc3+
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. e4 Nb6 7. Be3 { White needs to defend the pawn on d4. } 7... O-O 8.
 Nc5
 { It is too early for this knight jump.   8.Nxb6?  axb6  is completely illogical  − not only does this make c5 counterplay easier for us, but it also activates the Ra8. There is already no good reply to the very simple idea of playing c5 next move. Black is better. }
@@ -7986,7 +7986,7 @@ Nc5
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. e4 Nb6 7. Be3 { White needs to defend the pawn on d4. } 7... O-O 8.
 Nf3 Bg4 { Putting White's center under immediate attack. } 9. Nc5
 { This is the statistical main line, but I believe it's much less critical than Be2. }
@@ -8007,7 +8007,7 @@ Nf3 Bg4 { Putting White's center under immediate attack. } 9. Nc5
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. e4 Nb6 7. Be3 { White needs to defend the pawn on d4. } 7... O-O 8.
 Nf3 Bg4 { Putting White's center under immediate attack. } 9. Nc5
 { This is the statistical main line, but I believe it's much less critical than Be2. }
@@ -8037,7 +8037,7 @@ Bxe5 16. Bxe5 Rxd1+ 17. Rxd1 Qf5
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. e4 Nb6 7. Be3 { White needs to defend the pawn on d4. } 7... O-O 8.
 Nf3 Bg4 { Putting White's center under immediate attack. } 9. Nc5
 { This is the statistical main line, but I believe it's much less critical than Be2. }
@@ -8065,7 +8065,7 @@ Bxd4 Rd8 14. h4 { White needs to prepare for Ba6 by stopping Qh3. } 14... Nxd4
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. e4 Nb6 7. Be3 { White needs to defend the pawn on d4. } 7... O-O 8.
 Nf3 Bg4 { Putting White's center under immediate attack. } 9. Nc5
 { This is the statistical main line, but I believe it's much less critical than Be2. }
@@ -8089,7 +8089,7 @@ Be2 Bxe3 { White would really really like Qxe3 here, but sadly it's illegal. }
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. e4 Nb6 7. Be3 { White needs to defend the pawn on d4. } 7... O-O 8.
 Nf3 Bg4 { Putting White's center under immediate attack. } 9. Nc5
 { This is the statistical main line, but I believe it's much less critical than Be2. }
@@ -8118,7 +8118,7 @@ Qc1
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. e4 Nb6 7. Be3 { White needs to defend the pawn on d4. } 7... O-O 8.
 Nf3 Bg4 { Putting White's center under immediate attack. } 9. Nc5
 { This is the statistical main line, but I believe it's much less critical than Be2. }
@@ -8148,7 +8148,7 @@ Nd3+ 17. Ke2 Nxc1+ 18. Raxc1 Raxc8 19. Rxc6 Bxb2
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. e4 Nb6 7. Be3 { White needs to defend the pawn on d4. } 7... O-O 8.
 Nf3 Bg4 { Putting White's center under immediate attack. } 9. Be2
 { The statisticalmain line is  9.Nc5  , but I believe it's much less critical than  9.Be2  which is a rarer move and in response, I am recommending what I believe is a novelty. }
@@ -8174,7 +8174,7 @@ Nf3 Bg4 { Putting White's center under immediate attack. } 9. Be2
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. e4 Nb6 7. Be3 { White needs to defend the pawn on d4. } 7... O-O 8.
 Nf3 Bg4 { Putting White's center under immediate attack. } 9. Be2
 { The statisticalmain line is  9.Nc5  , but I believe it's much less critical than  9.Be2  which is a rarer move and in response, I am recommending what I believe is a novelty. }
@@ -8204,7 +8204,7 @@ Nf3 Bg4 { Putting White's center under immediate attack. } 9. Be2
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. e4 Nb6 7. Be3 { White needs to defend the pawn on d4. } 7... O-O 8.
 Nf3 Bg4 { Putting White's center under immediate attack. } 9. Be2
 { The statisticalmain line is  9.Nc5  , but I believe it's much less critical than  9.Be2  which is a rarer move and in response, I am recommending what I believe is a novelty. }
@@ -8237,7 +8237,7 @@ Nf3 Bg4 { Putting White's center under immediate attack. } 9. Be2
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. e4 Nb6 7. Be3 { White needs to defend the pawn on d4. } 7... O-O 8.
 Nf3 Bg4 { Putting White's center under immediate attack. } 9. Be2
 { The statisticalmain line is  9.Nc5  , but I believe it's much less critical than  9.Be2  which is a rarer move and in response, I am recommending what I believe is a novelty. }
@@ -8265,7 +8265,7 @@ Nf3 Bg4 { Putting White's center under immediate attack. } 9. Be2
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. e4 Nb6 7. Be3 { White needs to defend the pawn on d4. } 7... O-O 8.
 Nf3 Bg4 { Putting White's center under immediate attack. } 9. Be2
 { The statisticalmain line is  9.Nc5  , but I believe it's much less critical than  9.Be2  which is a rarer move and in response, I am recommending what I believe is a novelty. }
@@ -8292,7 +8292,7 @@ Nf3 Bg4 { Putting White's center under immediate attack. } 9. Be2
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. e4 Nb6 7. Be3 { White needs to defend the pawn on d4. } 7... O-O 8.
 Nf3 Bg4 { Putting White's center under immediate attack. } 9. Be2
 { The statisticalmain line is  9.Nc5  , but I believe it's much less critical than  9.Be2  which is a rarer move and in response, I am recommending what I believe is a novelty. }
@@ -8320,7 +8320,7 @@ Bxb2 17. Rd1 Bc3+ 18. Kf1 Rxa2
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. e4 Nb6 7. Be3 { White needs to defend the pawn on d4. } 7... O-O 8.
 Nf3 Bg4 { Putting White's center under immediate attack. } 9. Be2
 { The statisticalmain line is  9.Nc5  , but I believe it's much less critical than  9.Be2  which is a rarer move and in response, I am recommending what I believe is a novelty. }
@@ -8342,7 +8342,7 @@ Nf3 Bg4 { Putting White's center under immediate attack. } 9. Be2
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. e4 Nb6 7. Be3 { White needs to defend the pawn on d4. } 7... O-O 8.
 Nf3 Bg4 { Putting White's center under immediate attack. } 9. Be2
 { The statisticalmain line is  9.Nc5  , but I believe it's much less critical than  9.Be2  which is a rarer move and in response, I am recommending what I believe is a novelty. }
@@ -8363,7 +8363,7 @@ Nf3 Bg4 { Putting White's center under immediate attack. } 9. Be2
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. e4 Nb6 7. Be3 { White needs to defend the pawn on d4. } 7... O-O 8.
 Nf3 Bg4 { Putting White's center under immediate attack. } 9. Be2
 { The statisticalmain line is  9.Nc5  , but I believe it's much less critical than  9.Be2  which is a rarer move and in response, I am recommending what I believe is a novelty. }
@@ -8391,7 +8391,7 @@ Qg4+ 19. Ke3 Nc6 20. f3 Qh5
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. e4 Nb6 7. Be3 { White needs to defend the pawn on d4. } 7... O-O 8.
 Nf3 Bg4 { Putting White's center under immediate attack. } 9. Be2
 { The statisticalmain line is  9.Nc5  , but I believe it's much less critical than  9.Be2  which is a rarer move and in response, I am recommending what I believe is a novelty. }
@@ -8419,7 +8419,7 @@ Bxe5 13. dxe5 Nc4 { Immediately attacking the loose knight on c5. } 14. Qc2
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. e4 Nb6 7. Be3 { White needs to defend the pawn on d4. } 7... O-O 8.
 Nf3 Bg4 { Putting White's center under immediate attack. } 9. Be2
 { The statisticalmain line is  9.Nc5  , but I believe it's much less critical than  9.Be2  which is a rarer move and in response, I am recommending what I believe is a novelty. }
@@ -8449,7 +8449,7 @@ Nf3 Bg4 { Putting White's center under immediate attack. } 9. Be2
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. e4 Nb6 7. Be3 { White needs to defend the pawn on d4. } 7... O-O 8.
 Nf3 Bg4 { Putting White's center under immediate attack. } 9. Be2
 { The statisticalmain line is  9.Nc5  , but I believe it's much less critical than  9.Be2  which is a rarer move and in response, I am recommending what I believe is a novelty. }
@@ -8477,7 +8477,7 @@ Nf3 Bg4 { Putting White's center under immediate attack. } 9. Be2
 1. d4 Nf6 2. c4 g6 3. Nc3 d5
 { When the Grünfeld was first introduced, it instantly joined the ranks of the ‘hypermodern’ chess openings, since at first glance we’re breaking a lot of rules by not fighting for the center directly, as opposed to, say, Queen’s Gambit Declined or the Slav.  However, the idea that you can cede control of the center to White for the time being, and then aim to pressure it by playing c5 and Nc6 after trading the knights on c3, while quite revolutionary at the time, is now quite standard, and the pawn structures you will find everywhere in the Grünfeld are very much part of the landscape we’re all quite familiar with. }
 4. cxd5 Nxd5 5. Na4
-{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian GM Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
+{ This weird-looking move has gone almost entirely out of fashion by now − but it has a solid positional foundation, if you want to ignore the 'knight on a rim is dim' aspect of it. It was introduced into serious practice by the Armenian Ashot Nadanian in the mid-1990s.  White is aiming to play e2-e4 without allowing Black to trade knights on c3, while also keeping an eye on the c5 break. Black has a number of possible replies here, but the most forcing is the text move. }
 5... Bg7 6. e4 Nb6 7. Be3 { White needs to defend the pawn on d4. } 7... O-O 8.
 Nf3 Bg4 { Putting White's center under immediate attack. } 9. Be2
 { The statisticalmain line is  9.Nc5  , but I believe it's much less critical than  9.Be2  which is a rarer move and in response, I am recommending what I believe is a novelty. }
@@ -9672,7 +9672,7 @@ Qe5+ 15. Be3 Bh6 { Spoiling White's structure. } 16. Qe2 Bxe3 17. Qxe3 Qxe3+
 { This is our point here − by playing an early b5, we prevent White from establishing the c4-d5-e4 center, and we're planning Nd7-c4-Nc5 counterplay. }
 13. O-O Nd7
 { If nothing changes, our next move here is c4, followed by Nc5, and then we start expanding on the Q-side with a5 and b4. White needs to do something fast. }
-14. Be2 { Has been played in a number of GM games, but Black is fine. } 14...
+14. Be2 { Has been played in a number of games, but Black is fine. } 14...
 c4 15. f4 f6
 { Nepo played  15...e6  here instead and it's also fine, but this move is more concrete. }
 16. Bh4 Nc5 17. Qd4
@@ -12647,7 +12647,7 @@ Ra1 Qxa1 20. Qxa1 Rxe7 { We have easily enough for the queen here. } *
 15... Qa3
 { I'm no longer recommending  15...b6  here.  As I also state in the13.Bg5 line where this choice comes up, I don't think Black loses there, but I'm not entirely sure we make a forced draw, either, and I think Qa3 is a better all-round option for us. }
 16. Qc1
-{ Is an almost non-existent move here as far as GM practice goes, but it's not stupid. However, we can deal with it using common sense. }
+{ Is an almost non-existent move here as far as practice goes, but it's not stupid. However, we can deal with it using common sense. }
 16... Qd6
 { Not giving up the c-file to the white rooks by trading, of course. } 17. Bf4
 e5 { There were no good squares for the queen, but this works. } 18. Bd2 Rfc8
@@ -14289,7 +14289,7 @@ Bxf4 17. hxg4 Nd2
 11. f3 Na5
 { This used to be the starting position of the 7.Bc4 line, the absolute tabiya. It has been discussed in countless top-level games, including the Karpov-Kasparov World Ch matches. The games are split fairly evenly here between  12.Bxf7  , which leads to dry endgames where White runs pretty much no risk, and  12.Bd3  , where the game is likely to become extremely sharp and concrete.   In the chess24 series, I recommended the @@StartFEN@@r2q1rk1/pp2ppbp/2n3p1/2p5/2BPP1b1/2P1BP2/P3N1PP/R2Q1RK1 b - - 0 11@@EndFEN@@  11...Bd7  line here, which is an old favorite of mine. However, the time has come to start looking at main lines. If I were to recommend a good backup plan today, I'd go with @@StartFEN@@r1bq1rk1/pp2ppbp/2n3p1/2p5/2BPP3/2P1B3/P3NPPP/R2Q1RK1 b - - 5 10@@EndFEN@@  10...b6  , but that's a topic for another day. }
 12. Bd5
-{ An extremely rare move that disappeared from the GM practice almost entirely by now. White denies us the option of retreating the bishop to e6, but the bishop on d5 will be a target for a while now. }
+{ An extremely rare move that disappeared from the practice almost entirely by now. White denies us the option of retreating the bishop to e6, but the bishop on d5 will be a target for a while now. }
 12... Bd7
 { Additionally, we now have the idea of Bb5, which creates a lot of pressure against the white center. }
 13. Rb1
@@ -14320,7 +14320,7 @@ Bb5 { This is once again completely fine for us. } 16. Qc2 Rfd8 17. c4 Ba6
 11. f3 Na5
 { This used to be the starting position of the 7.Bc4 line, the absolute tabiya. It has been discussed in countless top-level games, including the Karpov-Kasparov World Ch matches. The games are split fairly evenly here between  12.Bxf7  , which leads to dry endgames where White runs pretty much no risk, and  12.Bd3  , where the game is likely to become extremely sharp and concrete.   In the chess24 series, I recommended the @@StartFEN@@r2q1rk1/pp2ppbp/2n3p1/2p5/2BPP1b1/2P1BP2/P3N1PP/R2Q1RK1 b - - 0 11@@EndFEN@@  11...Bd7  line here, which is an old favorite of mine. However, the time has come to start looking at main lines. If I were to recommend a good backup plan today, I'd go with @@StartFEN@@r1bq1rk1/pp2ppbp/2n3p1/2p5/2BPP3/2P1B3/P3NPPP/R2Q1RK1 b - - 5 10@@EndFEN@@  10...b6  , but that's a topic for another day. }
 12. Bd5
-{ An extremely rare move that disappeared from the GM practice almost entirely by now. White denies us the option of retreating the bishop to e6, but the bishop on d5 will be a target for a while now. }
+{ An extremely rare move that disappeared from the practice almost entirely by now. White denies us the option of retreating the bishop to e6, but the bishop on d5 will be a target for a while now. }
 12... Bd7
 { Additionally, we now have the idea of Bb5, which creates a lot of pressure against the white center. }
 13. Rb1
@@ -14355,7 +14355,7 @@ Rfe1 Qc4 20. Qxa5 Qxd4+ 21. Kh1 Ba6
 11. f3 Na5
 { This used to be the starting position of the 7.Bc4 line, the absolute tabiya. It has been discussed in countless top-level games, including the Karpov-Kasparov World Ch matches. The games are split fairly evenly here between  12.Bxf7  , which leads to dry endgames where White runs pretty much no risk, and  12.Bd3  , where the game is likely to become extremely sharp and concrete.   In the chess24 series, I recommended the @@StartFEN@@r2q1rk1/pp2ppbp/2n3p1/2p5/2BPP1b1/2P1BP2/P3N1PP/R2Q1RK1 b - - 0 11@@EndFEN@@  11...Bd7  line here, which is an old favorite of mine. However, the time has come to start looking at main lines. If I were to recommend a good backup plan today, I'd go with @@StartFEN@@r1bq1rk1/pp2ppbp/2n3p1/2p5/2BPP3/2P1B3/P3NPPP/R2Q1RK1 b - - 5 10@@EndFEN@@  10...b6  , but that's a topic for another day. }
 12. Bd5
-{ An extremely rare move that disappeared from the GM practice almost entirely by now. White denies us the option of retreating the bishop to e6, but the bishop on d5 will be a target for a while now. }
+{ An extremely rare move that disappeared from the practice almost entirely by now. White denies us the option of retreating the bishop to e6, but the bishop on d5 will be a target for a while now. }
 12... Bd7
 { Additionally, we now have the idea of Bb5, which creates a lot of pressure against the white center. }
 13. Rb1
@@ -14390,7 +14390,7 @@ Be6 16. Be4
 11. f3 Na5
 { This used to be the starting position of the 7.Bc4 line, the absolute tabiya. It has been discussed in countless top-level games, including the Karpov-Kasparov World Ch matches. The games are split fairly evenly here between  12.Bxf7  , which leads to dry endgames where White runs pretty much no risk, and  12.Bd3  , where the game is likely to become extremely sharp and concrete.   In the chess24 series, I recommended the @@StartFEN@@r2q1rk1/pp2ppbp/2n3p1/2p5/2BPP1b1/2P1BP2/P3N1PP/R2Q1RK1 b - - 0 11@@EndFEN@@  11...Bd7  line here, which is an old favorite of mine. However, the time has come to start looking at main lines. If I were to recommend a good backup plan today, I'd go with @@StartFEN@@r1bq1rk1/pp2ppbp/2n3p1/2p5/2BPP3/2P1B3/P3NPPP/R2Q1RK1 b - - 5 10@@EndFEN@@  10...b6  , but that's a topic for another day. }
 12. Bd5
-{ An extremely rare move that disappeared from the GM practice almost entirely by now. White denies us the option of retreating the bishop to e6, but the bishop on d5 will be a target for a while now. }
+{ An extremely rare move that disappeared from the practice almost entirely by now. White denies us the option of retreating the bishop to e6, but the bishop on d5 will be a target for a while now. }
 12... Bd7
 { Additionally, we now have the idea of Bb5, which creates a lot of pressure against the white center. }
 13. Rb1
@@ -14424,7 +14424,7 @@ Be6 16. Be4
 11. f3 Na5
 { This used to be the starting position of the 7.Bc4 line, the absolute tabiya. It has been discussed in countless top-level games, including the Karpov-Kasparov World Ch matches. The games are split fairly evenly here between  12.Bxf7  , which leads to dry endgames where White runs pretty much no risk, and  12.Bd3  , where the game is likely to become extremely sharp and concrete.   In the chess24 series, I recommended the @@StartFEN@@r2q1rk1/pp2ppbp/2n3p1/2p5/2BPP1b1/2P1BP2/P3N1PP/R2Q1RK1 b - - 0 11@@EndFEN@@  11...Bd7  line here, which is an old favorite of mine. However, the time has come to start looking at main lines. If I were to recommend a good backup plan today, I'd go with @@StartFEN@@r1bq1rk1/pp2ppbp/2n3p1/2p5/2BPP3/2P1B3/P3NPPP/R2Q1RK1 b - - 5 10@@EndFEN@@  10...b6  , but that's a topic for another day. }
 12. Bd5
-{ An extremely rare move that disappeared from the GM practice almost entirely by now. White denies us the option of retreating the bishop to e6, but the bishop on d5 will be a target for a while now. }
+{ An extremely rare move that disappeared from the practice almost entirely by now. White denies us the option of retreating the bishop to e6, but the bishop on d5 will be a target for a while now. }
 12... Bd7
 { Additionally, we now have the idea of Bb5, which creates a lot of pressure against the white center. }
 13. Rb1
@@ -14456,7 +14456,7 @@ axb3 Bc6
 11. f3 Na5
 { This used to be the starting position of the 7.Bc4 line, the absolute tabiya. It has been discussed in countless top-level games, including the Karpov-Kasparov World Ch matches. The games are split fairly evenly here between  12.Bxf7  , which leads to dry endgames where White runs pretty much no risk, and  12.Bd3  , where the game is likely to become extremely sharp and concrete.   In the chess24 series, I recommended the @@StartFEN@@r2q1rk1/pp2ppbp/2n3p1/2p5/2BPP1b1/2P1BP2/P3N1PP/R2Q1RK1 b - - 0 11@@EndFEN@@  11...Bd7  line here, which is an old favorite of mine. However, the time has come to start looking at main lines. If I were to recommend a good backup plan today, I'd go with @@StartFEN@@r1bq1rk1/pp2ppbp/2n3p1/2p5/2BPP3/2P1B3/P3NPPP/R2Q1RK1 b - - 5 10@@EndFEN@@  10...b6  , but that's a topic for another day. }
 12. Bd5
-{ An extremely rare move that disappeared from the GM practice almost entirely by now. White denies us the option of retreating the bishop to e6, but the bishop on d5 will be a target for a while now. }
+{ An extremely rare move that disappeared from the practice almost entirely by now. White denies us the option of retreating the bishop to e6, but the bishop on d5 will be a target for a while now. }
 12... Bd7
 { Additionally, we now have the idea of Bb5, which creates a lot of pressure against the white center. }
 13. Rb1
@@ -14497,7 +14497,7 @@ e6
 11. f3 Na5
 { This used to be the starting position of the 7.Bc4 line, the absolute tabiya. It has been discussed in countless top-level games, including the Karpov-Kasparov World Ch matches. The games are split fairly evenly here between  12.Bxf7  , which leads to dry endgames where White runs pretty much no risk, and  12.Bd3  , where the game is likely to become extremely sharp and concrete.   In the chess24 series, I recommended the @@StartFEN@@r2q1rk1/pp2ppbp/2n3p1/2p5/2BPP1b1/2P1BP2/P3N1PP/R2Q1RK1 b - - 0 11@@EndFEN@@  11...Bd7  line here, which is an old favorite of mine. However, the time has come to start looking at main lines. If I were to recommend a good backup plan today, I'd go with @@StartFEN@@r1bq1rk1/pp2ppbp/2n3p1/2p5/2BPP3/2P1B3/P3NPPP/R2Q1RK1 b - - 5 10@@EndFEN@@  10...b6  , but that's a topic for another day. }
 12. Bd5
-{ An extremely rare move that disappeared from the GM practice almost entirely by now. White denies us the option of retreating the bishop to e6, but the bishop on d5 will be a target for a while now. }
+{ An extremely rare move that disappeared from the practice almost entirely by now. White denies us the option of retreating the bishop to e6, but the bishop on d5 will be a target for a while now. }
 12... Bd7
 { Additionally, we now have the idea of Bb5, which creates a lot of pressure against the white center. }
 13. Rb1
@@ -29415,7 +29415,7 @@ O-O 9. cxd5 cxd4
 { Has been seen in two games between Pavel Eljanov and myself. } 16... Rxc1
 { This is the move Black should choose. I played  16...Nc6  both times, but after  17.g4  Be6  18.a3  , Black is not entirely equal. }
 17. Rxc1 Rc8 18. Rxc8+ Bxc8
-{ Somewhat shockingly, perhaps, this extremely dry endgame has seen a LOT of elite GM traffic. Black still needs to be quite careful, and as mentioned, this isn't going to be enjoyable. But we should make a draw here. }
+{ Somewhat shockingly, perhaps, this extremely dry endgame has seen a LOT of elite traffic. Black still needs to be quite careful, and as mentioned, this isn't going to be enjoyable. But we should make a draw here. }
 19. Bc7 Nc6 { The endgame should be fine for Black. } 20. a4 Bd7 21. a5 Nb4
 { The material is so reduced that our cramped setup is not too keenly felt. } *
 
@@ -29453,7 +29453,7 @@ O-O 9. cxd5 cxd4
 { Has been seen in two games between Pavel Eljanov and myself. } 16... Rxc1
 { This is the move Black should choose. I played  16...Nc6  both times, but after  17.g4  Be6  18.a3  , Black is not entirely equal. }
 17. Rxc1 Rc8 18. Rxc8+ Bxc8
-{ Somewhat shockingly, perhaps, this extremely dry endgame has seen a LOT of elite GM traffic. Black still needs to be quite careful, and as mentioned, this isn't going to be enjoyable. But we should make a draw here. }
+{ Somewhat shockingly, perhaps, this extremely dry endgame has seen a LOT of elite traffic. Black still needs to be quite careful, and as mentioned, this isn't going to be enjoyable. But we should make a draw here. }
 19. Bf3 { This is the en vogue way of playing here. } 19... Nc6
 { 19...Be6  20.a3  Ba2  21.Bb8  a6  22.Bc7  Nc6  23.Ne4  Be6  24.Nc5  as in Fedoseev-Xiong, Saint Louis 2017 is an illustration of what we're trying to avoid. }
 20. Bxc6 bxc6 21. Bb8 a6 22. Ne4 f6 23. f3 Kf7
@@ -29494,7 +29494,7 @@ O-O 9. cxd5 cxd4
 { Has been seen in two games between Pavel Eljanov and myself. } 16... Rxc1
 { This is the move Black should choose. I played  16...Nc6  both times, but after  17.g4  Be6  18.a3  , Black is not entirely equal. }
 17. Rxc1 Rc8 18. Rxc8+ Bxc8
-{ Somewhat shockingly, perhaps, this extremely dry endgame has seen a LOT of elite GM traffic. Black still needs to be quite careful, and as mentioned, this isn't going to be enjoyable. But we should make a draw here. }
+{ Somewhat shockingly, perhaps, this extremely dry endgame has seen a LOT of elite traffic. Black still needs to be quite careful, and as mentioned, this isn't going to be enjoyable. But we should make a draw here. }
 19. Bf3 { This is the en vogue way of playing here. } 19... Nc6
 { 19...Be6  20.a3  Ba2  21.Bb8  a6  22.Bc7  Nc6  23.Ne4  Be6  24.Nc5  as in Fedoseev-Xiong, Saint Louis 2017 is an illustration of what we're trying to avoid. }
 20. Bc7 Kf8 21. Nb3 Ke8 22. Nc5 Bf8

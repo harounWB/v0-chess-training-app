@@ -338,7 +338,7 @@ e5
 5... Qb6
 { Seizing the initiative ! Black threatens to take the b2-pawn. White can't afford to sac it because Black would be able to play ...Qxc3 afterward  (picking up a second pawn)  and return home with ...Qa5-d8. }
 6. Qc2
-{ I took a fresh look at this position since IM Yaacov Norowitz told me that the concession of ...g6  (the bishop would rather not be on the long diagonal)  gives White equal chances, and it turns out that Black has a dynamic alternative. }
+{ I took a fresh look at this position since Yaacov Norowitz told me that the concession of ...g6  (the bishop would rather not be on the long diagonal)  gives White equal chances, and it turns out that Black has a dynamic alternative. }
 6... Nh5
 { While 6...g6 is at least equal, Black can play for more using LeelaZero's recent discovery. }
 7. Be5
@@ -1060,7 +1060,7 @@ Qxd5
 [Black "London with 5.c3 Qb6 6.Qb3 c4 7.Qc2: Gata Kamsky vs. Vladimir Akopian"]
 [Result "*"]
 
-{ This was a game between GM Gata Kamsky  (2692 FIDE, one of the world's leading London System specialists)  and GM Vladimir Akopian  (2698 FIDE)  , played in 2009. }
+{ This was a game between Gata Kamsky  (2692 FIDE, one of the world's leading London System specialists)  and Vladimir Akopian  (2698 FIDE)  , played in 2009. }
 1. d4 d5 2. Nf3 Nf6 3. Bf4 c5 4. e3 Nc6 5. c3
 { Although  5.c3  is the mainline , it is inaccurate.  5.Nbd2  is stronger. }
 5... Qb6
@@ -1270,7 +1270,7 @@ exf5
 9... Bb6
 { Black keeps his bishop in contact with the d4-square. This is an important idea because Black might want to liquidate his isolated queen pawn with ...d4 later.   Stockfish 10 claims that  9...Bd6  is also fine for Black , but in my opinion  9...Bd6  is less ambitious because it offers to exchange minor pieces , which is against the spirit of playing with an isolated queen pawn unless there is a clear gain from the exchange. }
 10. Be2
-{ GM Shakhriyar Mamedyarov once played  10.Bd3  and won against GM Vladislav Artemiev. Black responded with the passive  10...Qd7.  This move is passive because Black's queen is restricted on the light-squares by the  d5  and  f5  pawns. Black's queen would be more active on dark-squares , for example , on  e7.  Black had multiple strong alternatives , for example ,  10...g6  (following Capablanca's rule)  (,)   10...Ne4  ,   or even the pawn sacrifice  10.Bd3  O-O  11.Bxf5  d4. }
+{ Shakhriyar Mamedyarov once played  10.Bd3  and won against Vladislav Artemiev. Black responded with the passive  10...Qd7.  This move is passive because Black's queen is restricted on the light-squares by the  d5  and  f5  pawns. Black's queen would be more active on dark-squares , for example , on  e7.  Black had multiple strong alternatives , for example ,  10...g6  (following Capablanca's rule)  (,)   10...Ne4  ,   or even the pawn sacrifice  10.Bd3  O-O  11.Bxf5  d4. }
 10... Ne4
 { Black's knight occupies the central outpost square. Now the dynamic ...g5 is in the air. }
 11. Bf3 O-O
@@ -1349,7 +1349,7 @@ Qc3+ 36. Kf1 Qa1 37. Ke2 Bxg2 *
 [Black "2.Bf4 London with 3.e4: Alexander Velikanov vs. Conrad Holt"]
 [Result "*"]
 
-{ This game was played in the 2016 UT Dallas Fall Open between FM Alexander Velikanov and GM Conrad Holt }
+{ This game was played in the 2016 UT Dallas Fall Open between Alexander Velikanov and Conrad Holt }
 1. d4 d5 2. Bf4 c5 3. e4
 { White sacrifices a pawn in an attempt to obtain the initiative.   The main idea is that after  3...dxe4  White has  4.d5  with a space advantage and easy development. }
 3... Nc6 { Black declines the gambit, opting to focus on development. } 4. exd5

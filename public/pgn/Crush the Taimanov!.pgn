@@ -6,7 +6,7 @@
 [Black "Crush the Taimanov: Introduction"]
 [Result "*"]
 
-{ @@StartBlockQuote@@'When intensely studied, any part of a greater whole, however small, may grant you insights of a magnitude greater than that of the part itself.' - GM Tiger Hillarp Petersson@@EndBlockQuote@@ }
+{ @@StartBlockQuote@@'When intensely studied, any part of a greater whole, however small, may grant you insights of a magnitude greater than that of the part itself.' - Tiger Hillarp Petersson@@EndBlockQuote@@ }
 1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 { The Taimanov. } 5. Nc3 Qc7
 { Black develops his queen without committing the kingside.   5...a6  allows  6.Nxc6  bxc6  7.Bd3  where White will have the initiative due to his lead in development. It is better to avoid  ...a6  until  Be3  is played in order to force White to commit his dark-squared bishop to a square that makes less sense in the  ...bxc6  structure. }
 6. Be3
@@ -24,7 +24,7 @@
 9. Qg3
 { If Black doesn't have anything concrete now, White will be able to follow up with f4 and meet ...Neg4 with Bg1 followed by e5 with a powerful initiative. }
 9... b5
-{ This sharp variation was recommended for Black in 'Grandmaster Repertoire - The Sicilian Taimanov' and is the main line at GM level. }
+{ This sharp variation was recommended for Black in 'Grandmaster Repertoire - The Sicilian Taimanov' and is the main line at level. }
 10. a3
 { White prepares to play f4 by preventing ...b4.   10.f4  Neg4  11.Bg1  b4  12.Na4  is the main line. There is a lot of theory in this line and if Black plays  8...Ne5  and  9...b5  he has most likely prepared this in detail. I prefer to avoid the counterplay with  ...b4  and attempt to get the Black player out of book , so I recommend avoiding this with  10.a3. }
 10... Bb7
@@ -42,7 +42,7 @@
 [Result "*"]
 
 1. --
-{ @@HeaderStart@@Sources@@HeaderEnd@@  The Most Flexible Sicilian  (Delchev and Semkov)   Dismantling the Sicilian  (De la Villa)   Grandmaster Preparation - The Sicilian Taimanov  (Antonios Pavlidis)   The Taimanov Bible  (Ivan Ivanisevic, Milos Perunovic, and Robert Markus)   Short & Sweet Taimanov  (Chessable course)   Database research  (ChessBase, chess.com, lichess.org)   Engines  (Stockfish, LeelaZero, Allie & Stein)  + private server  (Chessify)   Feedback from friends and beta-testers. }
+{ @@HeaderStart@@Sources@@HeaderEnd@@  The Most Flexible Sicilian  (Delchev and Semkov)   Dismantling the Sicilian  (De la Villa)   Grandmaster Preparation - The Sicilian Taimanov  (Antonios Pavlidis)   The Taimanov Bible  (Ivan Ivanisevic, Milos Perunovic, and Robert Markus)   Short & Sweet Taimanov  ( course)   Database research  (ChessBase, chess.com, lichess.org)   Engines  (Stockfish, LeelaZero, Allie & Stein)  + private server  (Chessify)   Feedback from friends and beta-testers. }
 *
 
 [Event "?"]
@@ -340,7 +340,7 @@ Nd1 a5 17. Ne3
 9... Nge7 10. Qe2 b5 11. f4 Bxd4 12. Bxd4 Nxd4
 { The inclusion of  12...b4  and  13.Na4  only helps White control the weak dark-squares. }
 13. Rxd4 Rb8 14. Qd2
-{ White's position is slightly better due to his space advantage and backward d-pawn. I could go deeper, but White's plan is more or less the same in all of the variations in this structure: finish development  (Bg2/Be2, Rhd1)  to pressure the d7-pawn, possibly increase White's space advantage with e5, secure the king with Kb1, and either play a3  (to prevent ...b4)  or meet ...b4 with Nd1-e3  (to support the c4-square)  or Na4.   While I don't think White needs to drill further , it's worth mentioning that 'The Taimanov Bible' recommends this for Black , suggesting  14...b4  15.Nd1  a5  16.Ne3  O-O  17.Bg2  Nc6  , although after  18.Rd6  (not mentioned by the book)  (Black is still under a lot of pressure)  (+0.58 - LeelaZero, depth 31)  (. @@StartBlockQuote@@'Disagree with this assessment. Black will kick white's rook with ...Na7-b5 and has easy play with ...a5-a4 and potentially ...a3, weakening the dark squares.' - FM 1e41-0@@EndBlockQuote@@Due to this disagreement, I will go deeper to show how White can press against this plan and engine defense. See the 18.Rd6 advanced theory file for more information.) }
+{ White's position is slightly better due to his space advantage and backward d-pawn. I could go deeper, but White's plan is more or less the same in all of the variations in this structure: finish development  (Bg2/Be2, Rhd1)  to pressure the d7-pawn, possibly increase White's space advantage with e5, secure the king with Kb1, and either play a3  (to prevent ...b4)  or meet ...b4 with Nd1-e3  (to support the c4-square)  or Na4.   While I don't think White needs to drill further , it's worth mentioning that 'The Taimanov Bible' recommends this for Black , suggesting  14...b4  15.Nd1  a5  16.Ne3  O-O  17.Bg2  Nc6  , although after  18.Rd6  (not mentioned by the book)  (Black is still under a lot of pressure)  (+0.58 - LeelaZero, depth 31)  (. @@StartBlockQuote@@'Disagree with this assessment. Black will kick white's rook with ...Na7-b5 and has easy play with ...a5-a4 and potentially ...a3, weakening the dark squares.' - 1e41-0@@EndBlockQuote@@Due to this disagreement, I will go deeper to show how White can press against this plan and engine defense. See the 18.Rd6 advanced theory file for more information.) }
 *
 
 [Event "?"]
@@ -384,7 +384,7 @@ Qxa5 11. Nxa5 axb3 12. Rhd1
 { Black continues his idea and defends against Ndb5. } 9. g3
 { White prepares to target the Black bishop with Qe2 followed by f4. After White plays f4, Black generally exchanges twice on d4. The middlegames that follow are slightly better for White due to his easy development, space advantage, and pressure against Black's backward d-pawn. White's scheme of development  (Qe2, f4, triple major pieces on the d-file, Bg2 or Be2, gain space with e5, secure the king with Kb1, either prevent ...b4 or meet ...b4 with Nd1-e3-c4)  is more or less the same regardless of how Black develops because Black is unable to create dangerous threats or favorably change the pawn structure. }
 9... Nf6 10. Qe2 O-O 11. f4 Bxd4 12. Bxd4 Nxd4 13. Rxd4 e5
-{ Black attempts to change the pawn structure to avoid being squeezed down the d-file without counterplay.   For a model game on how Black can be squeezed after  13...d6  , see GM Vladimir Kramnik vs. GM Fabiano Caruana. }
+{ Black attempts to change the pawn structure to avoid being squeezed down the d-file without counterplay.   For a model game on how Black can be squeezed after  13...d6  , see Vladimir Kramnik vs. Fabiano Caruana. }
 14. fxe5 Qxe5 15. Qd2 b5 16. Bg2 Bb7 17. Rf1
 { White will follow up with Rf5 and e5 with a powerful initiative. } *
 
@@ -2032,9 +2032,9 @@ O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5
 { This novelty is recommended for Black in Grandmaster Repertoire - The Sicilian Taimanov. }
 20. b3 Qc3 { 20...Bxd6  21.Qxd6  Qc3?  21.Qxd7+  Kf8  22.Kb1 } 21. Qxc3 Rxc3
 22. Bxf8 Rxf8
-{ Grandmaster Repertoire - The Sicilian Taimanov ends here and implies that Black has equalized. @@StartBlockQuote@@'Intending ...Rfc8, with ...e5 and ...d5 to follow.' - GM Antonios Pavlidis@@EndBlockQuote@@I don't think Black is fully equal yet, especially since White can interfere with Black's plan to activate his central majority. }
+{ Grandmaster Repertoire - The Sicilian Taimanov ends here and implies that Black has equalized. @@StartBlockQuote@@'Intending ...Rfc8, with ...e5 and ...d5 to follow.' - Antonios Pavlidis@@EndBlockQuote@@I don't think Black is fully equal yet, especially since White can interfere with Black's plan to activate his central majority. }
 23. f4
-{ White has a slightly better endgame due to his queenside pawn majority  (Black's central majority is more restrained)  . White's plan is Kb2 with b4 and either Nb3-c5 or g4 and f5. LeelaZero and Stockfish at depth 38-39 both agree that White is slightly better in this endgame  (lower depth thinks that White's advantage is bigger, implying that Black limiting things to a small White edge is conditional on concrete resources)  .   FM Serrer suggested that the Black position looked equal after  23...Rfc8  24.Kb2  Bh5   24...h6  25.f5  exf5  26.Rf2  is similar.  25.Re4  Bg6  , so I put LeelaZero  (depth 43)  on the case and it confirms that White is slightly better after  26.f5  exf5  27.Rf4  R3c5  28.g3.  Black is passive and has to play for a draw. See the advanced theory section for more details. }
+{ White has a slightly better endgame due to his queenside pawn majority  (Black's central majority is more restrained)  . White's plan is Kb2 with b4 and either Nb3-c5 or g4 and f5. LeelaZero and Stockfish at depth 38-39 both agree that White is slightly better in this endgame  (lower depth thinks that White's advantage is bigger, implying that Black limiting things to a small White edge is conditional on concrete resources)  .   Serrer suggested that the Black position looked equal after  23...Rfc8  24.Kb2  Bh5   24...h6  25.f5  exf5  26.Rf2  is similar.  25.Re4  Bg6  , so I put LeelaZero  (depth 43)  on the case and it confirms that White is slightly better after  26.f5  exf5  27.Rf4  R3c5  28.g3.  Black is passive and has to play for a draw. See the advanced theory section for more details. }
 *
 
 [Event "?"]
@@ -2064,7 +2064,7 @@ exf5 27. Rf4 R3c5 28. g3
 31... Rb7 { 31...Be8  32.c4  += } 32. Rd6
 { 32.c4  Bf7  33.Kc3  Rc7  34.c5 !?  is an interesting alternative, although Black is probably fine. }
 32... a5 33. bxa5 { 33.c3 = } 33... Rxa5 34. Rxd7+ Rxd7 35. Rxd7+ Kxd7 36. Nxa5
-{ White is still pressing, but Black should be able to hold this endgame with best play. White's plan is Kc3-d4 with Nc4 followed by pushing his queenside pawns. Although the engines show close to 0.00 at a high depth, this is difficult for Black to defend in practice. I asked some titled players of their intuitive assessment of this endgame  (without them checking the engine)  and here are their evaluations. @@StartBlockQuote@@'White is better. Playing for two results I guess.' - IM Yaacov Norowitz @@StartBracket@@FIDE peak: 2462@@EndBracket@@@@EndBlockQuote@@@@StartBlockQuote@@'Probably winning for White. Get the knight and king centered, then dominate on both sides.' - FM Sean Vibbert @@StartBracket@@FIDE peak: 2361@@EndBracket@@@@EndBlockQuote@@@@StartBlockQuote@@'Black needs to play 1...f4 2.gxf4 Be4, followed by ...g5 and ...h5, after which he should have good drawing chances.' - FM 1e41-0 @@StartBracket@@FIDE peak: 2340@@EndBracket@@@@EndBlockQuote@@@@StartBlockQuote@@'Only White can win.' - FM Anish Vivekananthan @@StartBracket@@FIDE peak: 2312@@EndBracket@@@@EndBlockQuote@@@@StartBlockQuote@@'I like White. The Black king could get distracted by the queenside pawns.' - NM William Sedlar @@StartBracket@@USCF peak: 2424@@EndBracket@@@@EndBlockQuote@@@@StartBlockQuote@@'This endgame is drawn? It looks horrible for Black!' - NM Joseph Truelson @@StartBracket@@USCF peak: 2267@@EndBracket@@@@EndBlockQuote@@@@StartBlockQuote@@'Looks much easier to play for White. I don't see a clear cut plan for Black.' - NM Serkan Salik @@StartBracket@@USCF peak: 2262@@EndBracket@@@@EndBlockQuote@@ }
+{ White is still pressing, but Black should be able to hold this endgame with best play. White's plan is Kc3-d4 with Nc4 followed by pushing his queenside pawns. Although the engines show close to 0.00 at a high depth, this is difficult for Black to defend in practice. I asked some titled players of their intuitive assessment of this endgame  (without them checking the engine)  and here are their evaluations. @@StartBlockQuote@@'White is better. Playing for two results I guess.' - Yaacov Norowitz @@StartBracket@@FIDE peak: 2462@@EndBracket@@@@EndBlockQuote@@@@StartBlockQuote@@'Probably winning for White. Get the knight and king centered, then dominate on both sides.' - Sean Vibbert @@StartBracket@@FIDE peak: 2361@@EndBracket@@@@EndBlockQuote@@@@StartBlockQuote@@'Black needs to play 1...f4 2.gxf4 Be4, followed by ...g5 and ...h5, after which he should have good drawing chances.' - 1e41-0 @@StartBracket@@FIDE peak: 2340@@EndBracket@@@@EndBlockQuote@@@@StartBlockQuote@@'Only White can win.' - Anish Vivekananthan @@StartBracket@@FIDE peak: 2312@@EndBracket@@@@EndBlockQuote@@@@StartBlockQuote@@'I like White. The Black king could get distracted by the queenside pawns.' - NM William Sedlar @@StartBracket@@USCF peak: 2424@@EndBracket@@@@EndBlockQuote@@@@StartBlockQuote@@'This endgame is drawn? It looks horrible for Black!' - NM Joseph Truelson @@StartBracket@@USCF peak: 2267@@EndBracket@@@@EndBlockQuote@@@@StartBlockQuote@@'Looks much easier to play for White. I don't see a clear cut plan for Black.' - NM Serkan Salik @@StartBracket@@USCF peak: 2262@@EndBracket@@@@EndBlockQuote@@ }
 *
 
 [Event "?"]
@@ -2072,7 +2072,7 @@ exf5 27. Rf4 R3c5 28. g3
 [Date "????.??.??"]
 [Round "?"]
 [White "Annotated games"]
-[Black "GM Maxime Vachier-Lagrave vs. GM Viswanathan Anand"]
+[Black "Maxime Vachier-Lagrave vs. Viswanathan Anand"]
 [Result "*"]
 
 1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
@@ -2086,7 +2086,7 @@ Qc4
 17... Kf7 18. Re1 Bg6 19. Bxf8
 { 19.Ree2 !  is my improvement. White prepares  b3  by defending the second rank and the inclusion of  ...Bxd6  and  Qxd6  only helps White become more active. White is objectively better with best play , see the theory section for more information. }
 19... Rhxf8 20. Qd6 Kg8 21. f4 Rfe8
-{ After this inaccuracy, White consolidates his advantage.  Black needs concrete play to equalize because White has better prospects for a long term attack  (g4 and f4-f5)  and superior centralization. Unfortunately for White, that concrete play exists and Black equalizes with the following variation as given by GM Repertoire  (The Taimanov Sicilian)  .   21...Qc4 !  22.Qxd7  Bf7  23.Nxe6  Qa2 !  N  24.Rd3  Qa1+  25.Kd2  Qxb2  26.Qa4  Bg6  27.Nxf8  Bxd3  28.Kxd3  Qc3+  29.Ke2  Kxf8 =  Black will play ...Qxc2 with equality. }
+{ After this inaccuracy, White consolidates his advantage.  Black needs concrete play to equalize because White has better prospects for a long term attack  (g4 and f4-f5)  and superior centralization. Unfortunately for White, that concrete play exists and Black equalizes with the following variation as given by Repertoire  (The Taimanov Sicilian)  .   21...Qc4 !  22.Qxd7  Bf7  23.Nxe6  Qa2 !  N  24.Rd3  Qa1+  25.Kd2  Qxb2  26.Qa4  Bg6  27.Nxf8  Bxd3  28.Kxd3  Qc3+  29.Ke2  Kxf8 =  Black will play ...Qxc2 with equality. }
 22. Re3 { White prepares to meet ...Qc4 with b3 by preventing ...Qc3. } 22...
 Qc4
 { Against slow play, White would have increased his initiative with a kingside pawn storm. }
@@ -2103,7 +2103,7 @@ exf5 32. gxf5 Rc8 33. Nc3 Rc5 34. R3d5 Rc6 35. Ne4 Kf7 36. Rd3 Rac7 37. c4 g6
 [Date "????.??.??"]
 [Round "?"]
 [White "Annotated games"]
-[Black "GM Vladimir Kramnik vs. GM Fabiano Caruana"]
+[Black "Vladimir Kramnik vs. Fabiano Caruana"]
 [Result "*"]
 
 1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Bd6 8.
@@ -2168,7 +2168,7 @@ Kg2 81. Rb2+ Kg1 82. b8=Q Rxb8 83. Rxb8 h1=Q 84. Rb1+ Kg2 85. Rxh1 Kxh1
 [Date "????.??.??"]
 [Round "?"]
 [White "Supplementary games"]
-[Black "GM Sergey Karjakin vs. GM Daniil Dubov"]
+[Black "Sergey Karjakin vs. Daniil Dubov"]
 [Result "*"]
 
 1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 b5 8. Qg3
@@ -2186,7 +2186,7 @@ Rg5 Rc8 48. f6+ Bf5+ 49. Rxf5+ Kxf5 50. f7
 [Date "????.??.??"]
 [Round "?"]
 [White "Supplementary games"]
-[Black "GM Ian Nepomniachtchi vs. GM Daniil Dubov"]
+[Black "Ian Nepomniachtchi vs. Daniil Dubov"]
 [Result "*"]
 
 1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 b5 8. Qg3
@@ -2210,14 +2210,14 @@ Kc2 Nd6 69. Be5 Nc4 70. Bf4 Nb6 71. Kd3 Nd5 72. Kd4 Nf6 73. Rc7+ Kd8 74. c4 Ne4
 [Date "????.??.??"]
 [Round "?"]
 [White "Supplementary games"]
-[Black "GM Maxime Vachier-Lagrave vs. GM Pentala Harikrishna"]
+[Black "Maxime Vachier-Lagrave vs. Pentala Harikrishna"]
 [Result "*"]
 
 1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
 O-O-O Ne5 9. Qg3 b5 10. a3 Bb7 11. Bxb5 Rc8 12. Ba4 Nxe4 13. Nxe4 Bxe4 14. Bf4
 Qa5 15. Bxe5 Qxa4 16. Rd2 f6 17. Bd6 Kf7 18. Re1 Bg6 19. Ree2 e5 20. b3 Qa5 21.
 Qh3 Rd8 22. b4 Qa4 23. Qb3+ Qxb3 24. Nxb3 Bf5 25. Nc5 Be7
-{ 25...Bxd6  26.Rxd6  a5  27.Nb7  Rc8  28.Rdd2  Rc3  29.Nd6+  Kg6  30.Re3  axb4  31.axb4  Rxe3  32.fxe3  Rb8  33.b5  Be6  34.e4  Ra8  35.c4  Ra4  36.b6  Bxc4  37.b7  Rb4  38.Rb2  Bb3  39.Kd2  Rxb7  40.Nxb7  Ba4  41.Rb4  Bc6  42.Nd8  Ba8  43.Ra4  IM Andrew Hong vs. IM Abhimanyu Mishra , 1-0 , Charlotte GM Invitational , 2020.01.17 }
+{ 25...Bxd6  26.Rxd6  a5  27.Nb7  Rc8  28.Rdd2  Rc3  29.Nd6+  Kg6  30.Re3  axb4  31.axb4  Rxe3  32.fxe3  Rb8  33.b5  Be6  34.e4  Ra8  35.c4  Ra4  36.b6  Bxc4  37.b7  Rb4  38.Rb2  Bb3  39.Kd2  Rxb7  40.Nxb7  Ba4  41.Rb4  Bc6  42.Nd8  Ba8  43.Ra4  Andrew Hong vs. Abhimanyu Mishra , 1-0 , Charlotte Invitational , 2020.01.17 }
 26. Nb7 Ra8 27. Bxe7 Kxe7 28. f4 Rab8 29. Nd6 Be6 30. fxe5 f5 31. h4 g6 32. Rf2
 Rhf8 33. Rd3 Rb6 34. Kb2 Rc6 35. Rg3 Rb8 36. Rc3 Bd5 37. Rxc6 Bxc6 38. Kc3 a5
 39. Kc4 axb4 40. axb4 Ke6 41. Re2 f4 42. b5 Ba8 43. Kd4 h6 44. c4 g5 45. hxg5
@@ -2233,7 +2233,7 @@ Kd7 65. Nd6 Kxc7 66. Nb5+
 [Date "????.??.??"]
 [Round "?"]
 [White "Supplementary games"]
-[Black "GM David Navara vs. FM Pavel Zpevak"]
+[Black "David Navara vs. Pavel Zpevak"]
 [Result "*"]
 
 1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
@@ -2251,14 +2251,14 @@ Rxe5 30. Nxe5 Qf5 31. Nc6 *
 [Date "????.??.??"]
 [Round "?"]
 [White "Supplementary games"]
-[Black "NM Elijah Logozar vs. IM Yaacov Norowitz"]
+[Black "NM Elijah Logozar vs. Yaacov Norowitz"]
 [Result "*"]
 
 1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
 O-O-O Ne5 9. Qg3 b5 10. a3 h5 11. Bf4 d6 12. Bxb5+ axb5 13. Bxe5 dxe5 14. Ncxb5
 Qc5 15. b4 h4 16. bxc5 hxg3 17. Nc6 Be7 18. Nc7+ Kf8 19. hxg3 Rg8 20. Nxa8 Bb7
 21. Nxe7 Kxe7 22. Nb6 Nxe4 23. Rd7+
-{ 1-0, NM Elijah Logozar - IM Yaacov Norowitz, Live Chess  (3/0 blitz)  , Chess.com, 2019.12.10 }
+{ 1-0, NM Elijah Logozar - Yaacov Norowitz, Live Chess  (3/0 blitz)  , Chess.com, 2019.12.10 }
 *
 
 [Event "?"]
@@ -2266,14 +2266,14 @@ Qc5 15. b4 h4 16. bxc5 hxg3 17. Nc6 Be7 18. Nc7+ Kf8 19. hxg3 Rg8 20. Nxa8 Bb7
 [Date "????.??.??"]
 [Round "?"]
 [White "Supplementary games"]
-[Black "NM Elijah Logozar vs. IM Yaacov Norowitz"]
+[Black "NM Elijah Logozar vs. Yaacov Norowitz"]
 [Result "*"]
 
 1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
 O-O-O Ne5 9. Qg3 b5 10. a3 h5 11. Bf4 d6 12. Bxb5+ axb5 13. Bxe5 dxe5 14. Ncxb5
 Qc5 15. b4 Nxe4 16. Qf3 Qb6 17. Qxe4 Bb7 18. Qxe5 Rc8 19. Nf5 f6 20. Nfd6+ Bxd6
 21. Qxe6+ Kf8 22. Qxd6+ Qxd6 23. Nxd6 Rc7 24. Nxb7 Rxb7 25. Rd8+
-{ 1-0, NM Elijah Logozar - IM Yaacov Norowitz, Live Chess  (3/0 blitz)  , Chess.com, 2019.12.08 }
+{ 1-0, NM Elijah Logozar - Yaacov Norowitz, Live Chess  (3/0 blitz)  , Chess.com, 2019.12.08 }
 *
 
 [Event "?"]
@@ -2281,7 +2281,7 @@ Qc5 15. b4 Nxe4 16. Qf3 Qb6 17. Qxe4 Bb7 18. Qxe5 Rc8 19. Nf5 f6 20. Nfd6+ Bxd6
 [Date "????.??.??"]
 [Round "?"]
 [White "Supplementary games"]
-[Black "NM Elijah Logozar vs. IM Yaacov Norowitz"]
+[Black "NM Elijah Logozar vs. Yaacov Norowitz"]
 [Result "*"]
 
 1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
@@ -2289,7 +2289,7 @@ O-O-O Ne5 9. Qg3 b5 10. a3 h5 11. Bf4 d6 12. Bxb5+ Bd7 13. Bxd7+ Nfxd7 14. Bg5
 h4 15. Bxh4 Rb8 16. f4 Nc4 17. Nxe6 Qb6 { 17...fxe6  18.Qg6# } 18. b3 Rxh4 19.
 Nd5 Qa5 20. Nec7+ Kd8 21. Qxh4+ Nf6 22. bxc4 Qxa3+ 23. Kd2 Be7 24. Qh8+ Kd7 25.
 Qxb8
-{ 1-0, NM Elijah Logozar - IM Yaacov Norowitz, Live Chess  (3/0 blitz)  , Chess.com, 2019.12.08 }
+{ 1-0, NM Elijah Logozar - Yaacov Norowitz, Live Chess  (3/0 blitz)  , Chess.com, 2019.12.08 }
 *
 
 [Event "?"]
@@ -2297,7 +2297,7 @@ Qxb8
 [Date "????.??.??"]
 [Round "?"]
 [White "Supplementary games"]
-[Black "NM Elijah Logozar vs. IM Yaacov Norowitz"]
+[Black "NM Elijah Logozar vs. Yaacov Norowitz"]
 [Result "*"]
 
 1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
@@ -2305,7 +2305,7 @@ O-O-O Ne5 9. Qg3 b5 10. a3 Qb8 11. f4 Neg4 12. Bg1 e5 13. fxe5 Qxe5 14. Qe1 b4
 15. axb4 Bxb4 16. h3 Bxc3 17. bxc3 Qg5+ 18. Kb2 Rb8+ 19. Nb3 Ne5 20. Be3 Qg6
 21. Bf4 Rxb3+ 22. cxb3 Nc6 23. e5 Ne4 24. g4 Nc5 25. Qe3 Ne6 26. Bd3 Nxf4 27.
 Bxg6 Nxg6 28. Rhe1 O-O 29. Qc5 Re8 30. Rd6 Ngxe5 31. Rxc6 Nd3+ 32. Ka3
-{ 1-0, NM Elijah Logozar - IM Yaacov Norowitz, Live Chess  (3/0 blitz)  , Chess.com, 2019.12.08 }
+{ 1-0, NM Elijah Logozar - Yaacov Norowitz, Live Chess  (3/0 blitz)  , Chess.com, 2019.12.08 }
 *
 
 [Event "?"]
@@ -2313,13 +2313,13 @@ Bxg6 Nxg6 28. Rhe1 O-O 29. Qc5 Re8 30. Rd6 Ngxe5 31. Rxc6 Nd3+ 32. Ka3
 [Date "????.??.??"]
 [Round "?"]
 [White "Supplementary games"]
-[Black "NM Elijah Logozar vs. IM Yaacov Norowitz"]
+[Black "NM Elijah Logozar vs. Yaacov Norowitz"]
 [Result "*"]
 
 1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.
 O-O-O Ne5 9. Qg3 b5 10. a3 Rb8 11. f4 Nc4 12. Bxc4 Qxc4 13. e5 Nd5 14. Nxd5
 Qxd5 15. Nf5 Qa2 16. Nd6+ Bxd6 17. Qxg7 Rf8 18. exd6
-{ 1-0, NM Elijah Logozar - IM Yaacov Norowitz, Live Chess, Chess.com  (3/0 blitz)  , 2019.12.11 }
+{ 1-0, NM Elijah Logozar - Yaacov Norowitz, Live Chess, Chess.com  (3/0 blitz)  , 2019.12.11 }
 *
 
 [Event "?"]
@@ -2327,7 +2327,7 @@ Qxd5 15. Nf5 Qa2 16. Nd6+ Bxd6 17. Qxg7 Rf8 18. exd6
 [Date "????.??.??"]
 [Round "?"]
 [White "Supplementary games"]
-[Black "NM Elijah Logozar vs. IM Yaacov Norowitz"]
+[Black "NM Elijah Logozar vs. Yaacov Norowitz"]
 [Result "*"]
 
 1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Nf6 8.

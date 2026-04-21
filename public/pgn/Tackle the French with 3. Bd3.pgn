@@ -8,7 +8,7 @@
 
 { Welcome to the course!  The aim of this course is to provide you with a strong and practical repertoire against the French defense. }
 1. e4 e6 2. d4 d5 3. Bd3
-{ The 3. Bd3 variation has a lot less theory than the 3.Nc3 Winawer/Classical or the 3.Nd2 Tarrasch variations. Nonetheless, it still poses Black several problems and there are only a handful of lines where he can equalize.   I have tried to remain as objective as possible in this repertoire and have clearly pointed out the lines in which Black is able to equalize. I believe that searching for the best moves for both sides is key when preparing an effective opening repertoire. My hope is that this repertoire is also useful for French defense players with the black pieces. Notwithstanding, even when the final position is objectively equal, I have strived to propose continuations where White can pose some practical problems. After thorough analysis, I have found that Black has to be aware of several subtleties and be much more precise than I initially thought in order to equalize. A single misstep in one of the critical variations and Black can easily land in a much worse position.  3. Bd3 has been played by several top players including Magnus Carlsen, Vladimir Kramnik, and Maxime Vachier-Lagrave so you will be in good company. One of the main exponents of this variation is the 2600+ GM Vladimir Onischuk who has won an immense amount of games with 3. Bd3  (several of which against strong GMs)  .  I have divided the material into 7 theoretical chapters:    Sidelines on move two such as @@StartFEN@@rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1@@EndFEN@@  1.e4  e6  2.d4  2...c5  ,  2...a6  and  2...b6  are covered in chapter 1.   The unusual  3...Nc6  is covered inchapter 2.   3...Nf6  has been played quite a lot but does not equalize. It is coveredin chapter 3.   3...c5  aiming to transpose to a variation of the Exchange French is coveredin chapter 4. }
+{ The 3. Bd3 variation has a lot less theory than the 3.Nc3 Winawer/Classical or the 3.Nd2 Tarrasch variations. Nonetheless, it still poses Black several problems and there are only a handful of lines where he can equalize.   I have tried to remain as objective as possible in this repertoire and have clearly pointed out the lines in which Black is able to equalize. I believe that searching for the best moves for both sides is key when preparing an effective opening repertoire. My hope is that this repertoire is also useful for French defense players with the black pieces. Notwithstanding, even when the final position is objectively equal, I have strived to propose continuations where White can pose some practical problems. After thorough analysis, I have found that Black has to be aware of several subtleties and be much more precise than I initially thought in order to equalize. A single misstep in one of the critical variations and Black can easily land in a much worse position.  3. Bd3 has been played by several top players including Magnus Carlsen, Vladimir Kramnik, and Maxime Vachier-Lagrave so you will be in good company. One of the main exponents of this variation is the 2600+ Vladimir Onischuk who has won an immense amount of games with 3. Bd3  (several of which against strong GMs)  .  I have divided the material into 7 theoretical chapters:    Sidelines on move two such as @@StartFEN@@rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1@@EndFEN@@  1.e4  e6  2.d4  2...c5  ,  2...a6  and  2...b6  are covered in chapter 1.   The unusual  3...Nc6  is covered inchapter 2.   3...Nf6  has been played quite a lot but does not equalize. It is coveredin chapter 3.   3...c5  aiming to transpose to a variation of the Exchange French is coveredin chapter 4. }
 3... dxe4
 { We devote three chapters to 3...dxe4, which is the most common move. The 5th, 6th and 7th move alternatives are covered inchapter 5. Alternatives on move 9 are examined inchapter 6. Finally, we devote the entirety ofchapter 7 to the main line with 9...a6, which is Black's most testing option against 3. Bd3.  Several model games that illustrate key ideas and plans are annotated inchapter 8. Finally, I also included some tactical puzzles from games in this variation inchapter 9.  I hope you enjoy this course and score a lot of points with 3. Bd3!  If you have any questions, do not hesitate to ask them in the forum. I have committed to a high level of support and will gladly answer any questions you have; add or further analyze any variations you deem relevant. }
 *
@@ -38,15 +38,15 @@
 
 { I decided to list the repertoire books and databases that recommended the French Defense for Black and hyperlinks to my preferred way of tackling their recommendations vs 3. Bd3. I will try to keep this list as up to date as possible. If there is a specific repertoire book/database recommendation that I missed and that you think I should address, please post in the forum and I'll update this informational line. }
 1. e4 e6 2. d4 d5 3. Bd3 dxe4
-{ 3...c5  4.exd5  exd5  5.Nf3  Nf6  6.c3  c4  was recommended in the Chessable course Lifetime Repertoires: the French Defense by GM Anish Giri. I address his suggestion in the4...exd5 #7 variation.   6...Nc6  was proposed by GM Mihail Marin in a French Defense repertoire database for modern-chess.com. I tackle his recommendation in the4...exd5 #6 variation. }
+{ 3...c5  4.exd5  exd5  5.Nf3  Nf6  6.c3  c4  was recommended in the  course Lifetime Repertoires: the French Defense by Anish Giri. I address his suggestion in the4...exd5 #7 variation.   6...Nc6  was proposed by Mihail Marin in a French Defense repertoire database for modern-chess.com. I tackle his recommendation in the4...exd5 #6 variation. }
 4. Bxe4 Nf6 5. Bf3
-{ 5...Nbd7  6.Nc3  Bd6  7.Nb5  Bb4  c3  8.a6  was recommended by GM Dmitry Kryakvin in the book 'The Modern French Defence'. I address it in5...Nbd7 #5 variation. }
+{ 5...Nbd7  6.Nc3  Bd6  7.Nb5  Bb4  c3  8.a6  was recommended by Dmitry Kryakvin in the book 'The Modern French Defence'. I address it in5...Nbd7 #5 variation. }
 5... c5 6. Ne2 Nc6
-{ 6...Be7  7.Nbc3  O-O  8.Be3  Qa5  was recommended in the book 'The Modern French Defence' by GM Dmitry Kryakvin. Check out the6...Be7 #3 variation for the details. }
+{ 6...Be7  7.Nbc3  O-O  8.Be3  Qa5  was recommended in the book 'The Modern French Defence' by Dmitry Kryakvin. Check out the6...Be7 #3 variation for the details. }
 7. Be3 cxd4
-{ 7...e5  was recommended by IM John Watson in the book Play the French. Seechapter 5 for detailed analysis. }
+{ 7...e5  was recommended by John Watson in the book Play the French. Seechapter 5 for detailed analysis. }
 8. Nxd4 Ne5 9. Nc3 Nxf3+
-{ was recommended in the Play the French video series by GM Romain Edouard for chess24. This continuation is analyzed inchapter 7.   9...Bb4  was recommended by NM Bryan Tillis and GM Alex Lenderman in the Chessable course Master the French Defense. It's examined inchapter 6.   9...Be7  was recommended by GM Emanuel Berg in the GM Repertoire on the French Defense Vol. 3. It was also recommended by GM Robert Hungaski in a French Defense video series for chesslecture.com. This variation is tackled inchapter 6.   9...a6  was recommended by IM Langrock in his book/Chessable course French Defense: The Solid Rubinstein Variation. This is dealt with inchapter 7. }
+{ was recommended in the Play the French video series by Romain Edouard for chess24. This continuation is analyzed inchapter 7.   9...Bb4  was recommended by NM Bryan Tillis and Alex Lenderman in the  course Master the French Defense. It's examined inchapter 6.   9...Be7  was recommended by Emanuel Berg in the Repertoire on the French Defense Vol. 3. It was also recommended by Robert Hungaski in a French Defense video series for chesslecture.com. This variation is tackled inchapter 6.   9...a6  was recommended by Langrock in his book/ course French Defense: The Solid Rubinstein Variation. This is dealt with inchapter 7. }
 *
 
 [Event "?"]
@@ -113,7 +113,7 @@ d5
 2... b6 3. Bd3 { Covering the e4 pawn in anticipation of } 3... Bb7 4. Qe2
 { I quite like developing the queen right away and find it to be the most practical route towards a clear advantage.   4.Nf3  and 4. Nc3 also lead to a big advantage. }
 4... d5
-{ Worse is  4...d6  5.Nf3  Nd7  6.c4  Taking over the entire center.  6...g6  7.Nc3  Bg7  8.Be3  Ne7  The so-called Hippo system. As GM Sam Shankland famously said, openings named after animals are usually terrible. This is no exception.  9.Qd2  Hinting at Bh6.  9...h6  10.O-O-O±  gave White a clear edge in the game Timman, J @@StartBracket@@2655@@EndBracket@@-Spassky, B @@StartBracket@@2625@@EndBracket@@ Hamburg 1982.   4...Nf6  is covered in my FREE course Beating ...b6 defenses. White should continue with  5.Nf3  d5   5...c5  is strongly met by  6.d5!  although  6.c3±  is simpler and still very effective.  6.e5  Nfd7  7.c4±  with full control of the center. }
+{ Worse is  4...d6  5.Nf3  Nd7  6.c4  Taking over the entire center.  6...g6  7.Nc3  Bg7  8.Be3  Ne7  The so-called Hippo system. As Sam Shankland famously said, openings named after animals are usually terrible. This is no exception.  9.Qd2  Hinting at Bh6.  9...h6  10.O-O-O±  gave White a clear edge in the game Timman, J @@StartBracket@@2655@@EndBracket@@-Spassky, B @@StartBracket@@2625@@EndBracket@@ Hamburg 1982.   4...Nf6  is covered in my FREE course Beating ...b6 defenses. White should continue with  5.Nf3  d5   5...c5  is strongly met by  6.d5!  although  6.c3±  is simpler and still very effective.  6.e5  Nfd7  7.c4±  with full control of the center. }
 5. exd5
 { We now see the point behind 4. Qe2. Black is unable to recapture with the e-pawn due to pin and consequently loses control of the center. }
 5... Bxd5
@@ -223,7 +223,7 @@ dxe5 Bg5 14. Nd4 Bd7 15. Ne4
 4. Nf3
 { 4. c3 is more common but the text is stronger. White will end up at the very minimum with a slightly better position. }
 4... Nb4
-{ Black is going after White's bishop pair but moving the knight twice in the opening is not recommended. White should simply ignore it and continue his development. Surprisingly, this move was tried by both GM Ali Marandi and GM Nazar Firman. }
+{ Black is going after White's bishop pair but moving the knight twice in the opening is not recommended. White should simply ignore it and continue his development. Surprisingly, this move was tried by both Ali Marandi and Nazar Firman. }
 5. Nc3 Nxd3+ 6. Qxd3 dxe4 7. Nxe4
 { White has a big advantage in development. Black's pair of bishops are not impressive  (especially the one on c8)  . }
 7... Nf6 8. Bg5 Be7
@@ -391,7 +391,7 @@ Qxd3 O-O
 10... Qxb5
 { 8...Na7  is out of question as after  9.a4  +-  White has a free hand on the kingside and Black has zero counterplay. }
 11. a4 Qa6 12. Na3
-{ For just one pawn, we completely eliminated Black's counterplay on the queenside. White will continue with O-O, Na3-b5, and Ba3  (exchanging the dark-squared bishops greatly favors White)  , followed by Nf4-h5 and Qg4. The rook lift Re1-e3-g3 is also a typical maneuver to keep in mind. White has a strategically winning position.  Based on beta tester feedback and because Chessable has a wide audience, I've decided to mark the next 4 illustrative lines as alternative variations so that casual/club players are not overwhelmed by having to train 20+ moves of theory.  NOTE: I still highly recommend checking out these variations to see the typical plans and ideas  .   Ambitious and/or higher-rated players can choose to train these alternative variations if they see fit. }
+{ For just one pawn, we completely eliminated Black's counterplay on the queenside. White will continue with O-O, Na3-b5, and Ba3  (exchanging the dark-squared bishops greatly favors White)  , followed by Nf4-h5 and Qg4. The rook lift Re1-e3-g3 is also a typical maneuver to keep in mind. White has a strategically winning position.  Based on beta tester feedback and because  has a wide audience, I've decided to mark the next 4 illustrative lines as alternative variations so that casual/club players are not overwhelmed by having to train 20+ moves of theory.  NOTE: I still highly recommend checking out these variations to see the typical plans and ideas  .   Ambitious and/or higher-rated players can choose to train these alternative variations if they see fit. }
 *
 
 [Event "?"]
@@ -644,7 +644,7 @@ Nxe5 13. Bc2
 10... Be7 11. b5 Nd8
 { The alternative retreating move  11...Na7  drops a pawn to  12.Bd2  Black has no good way of defending the pawn on a5. For example  12...Bd8  13.O-O+−  with the idea f4-f5. All of Black's pieces are on the last two ranks of the board so it's no surprise White is already winning. }
 12. Qc2
-{ This strong move prevents Black from castling since the h7 pawn would drop with check. White is basically already winning. Just take a look at Black's pieces! They are all on the last 3 ranks of the board and hardly have any prospects  (the bishop on c8 is dead so Black is basically playing down a piece)  . The plan is to complete development with Nbc3 and O-O. White should eliminate Black's only good minor piece with a4 and Ba3 and then attack on the kingside with f4-f5.  Based on beta tester feedback and since Chessable has a wide audience, I've decided to mark the following variation that illustrates how play is likely to continue as an alternative. Ambitious and/or higher-rated players can choose to train this alternative variation if they see fit. }
+{ This strong move prevents Black from castling since the h7 pawn would drop with check. White is basically already winning. Just take a look at Black's pieces! They are all on the last 3 ranks of the board and hardly have any prospects  (the bishop on c8 is dead so Black is basically playing down a piece)  . The plan is to complete development with Nbc3 and O-O. White should eliminate Black's only good minor piece with a4 and Ba3 and then attack on the kingside with f4-f5.  Based on beta tester feedback and since  has a wide audience, I've decided to mark the following variation that illustrates how play is likely to continue as an alternative. Ambitious and/or higher-rated players can choose to train this alternative variation if they see fit. }
 *
 
 [Event "?"]
@@ -804,7 +804,7 @@ f6 { With the c-file open, White can reinforce the e5 pawn with } 9. f4
 6... Qe5+ 7. Ne2
 { Blocking the check and preparing Bf4, renewing the threat of Nc7+ } 7... Na6
 { This is the only way of preventing Nc7+. } 8. Bf4 Qf6 9. O-O
-{ White will follow up with Qd2 and Ng3-e4-d6  (playing Nd6 immediately is also strong but by getting the Ne2 to d6, we ensure we'll keep a knight on this strong outpost)  . Black is way behind in development and will find it very hard to develop his kingside.  Based on beta tester feedback and because Chessable has a wide audience, I've decided to mark the following variation that illustrates how play is likely to continue as an alternative. Ambitious and/or higher-rated players can choose to train this alternative variation if they see fit. }
+{ White will follow up with Qd2 and Ng3-e4-d6  (playing Nd6 immediately is also strong but by getting the Ne2 to d6, we ensure we'll keep a knight on this strong outpost)  . Black is way behind in development and will find it very hard to develop his kingside.  Based on beta tester feedback and because  has a wide audience, I've decided to mark the following variation that illustrates how play is likely to continue as an alternative. Ambitious and/or higher-rated players can choose to train this alternative variation if they see fit. }
 *
 
 [Event "?"]
@@ -852,7 +852,7 @@ Bxe4 Nh6 14. Bxb7 Rd8 15. Qe3 Nb4 16. Nc7+
 6... Qd8 7. Bf4
 { Renewing the threat of Nc7. Next is Qe2 and O-O-O, when Black's queenside will come under serious pressure. }
 7... Na6 8. Qe2 Qb6 9. O-O-O
-{ White has developed almost all of his pieces while Black has only managed to get his queen and knight out. Stockfish already claims White is completely winning.  Based on beta tester feedback and because Chessable has a wide audience, I've decided to mark the following variation that illustrates how play is likely to continue as an alternative. Ambitious and/or higher-rated players can choose to train this alternative variation if they see fit. }
+{ White has developed almost all of his pieces while Black has only managed to get his queen and knight out. Stockfish already claims White is completely winning.  Based on beta tester feedback and because  has a wide audience, I've decided to mark the following variation that illustrates how play is likely to continue as an alternative. Ambitious and/or higher-rated players can choose to train this alternative variation if they see fit. }
 *
 
 [Event "?"]
@@ -926,7 +926,7 @@ Kc8 15. Nxf7
 5. Nc3
 { White simply ignores both Black's threats and develops with tempo. It turns out that Black cannot capture either pawn. }
 5... Qd8 6. Nf3
-{ GM Vladimir Onischuk, a 2600+ 3. Bd3 specialist, won a nice game in 2017 with 6. Bf4 but I prefer the text. You can find this game in the Model games chapter. }
+{ Vladimir Onischuk, a 2600+ 3. Bd3 specialist, won a nice game in 2017 with 6. Bf4 but I prefer the text. You can find this game in the Model games chapter. }
 6... cxd4 7. Nxd4 { The knight on d4 is taboo. } 7... Qxd4 8. Bb5+
 { Wins the queen and the game. } *
 
@@ -945,7 +945,7 @@ Kc8 15. Nxf7
 5. Nc3
 { White simply ignores both Black's threats and develops with tempo. It turns out that Black cannot capture either pawn. }
 5... Qd8 6. Nf3
-{ GM Vladimir Onischuk, a 2600+ 3. Bd3 specialist, won a nice game in 2017 with 6. Bf4 but I prefer the text. You can find this game in the Model games chapter. }
+{ Vladimir Onischuk, a 2600+ 3. Bd3 specialist, won a nice game in 2017 with 6. Bf4 but I prefer the text. You can find this game in the Model games chapter. }
 6... Nc6 7. dxc5 Bxc5 8. O-O
 { In this concrete position, we castle kingside due to the particular position of black's bishop on c5. We intend to follow up with a3+b4, gaining space on the queenside with tempi. }
 8... Nf6 9. a3 O-O
@@ -969,7 +969,7 @@ Kc8 15. Nxf7
 5. Nc3
 { White simply ignores both Black's threats and develops with tempo. It turns out that Black cannot capture either pawn. }
 5... Qd8 6. Nf3
-{ GM Vladimir Onischuk, a 2600+ 3. Bd3 specialist, won a nice game in 2017 with 6. Bf4 but I prefer the text. You can find annotations on this game in themodel games chapter. }
+{ Vladimir Onischuk, a 2600+ 3. Bd3 specialist, won a nice game in 2017 with 6. Bf4 but I prefer the text. You can find annotations on this game in themodel games chapter. }
 6... Nf6 7. dxc5 Bxc5 8. O-O O-O 9. Bg5
 { White will continue with Qe2, Rad1, and Ne4 with a slightly better position. }
 *
@@ -1142,7 +1142,7 @@ Re1+ { Developing with tempo } 7... Be7 8. h3
 4. exd5 exd5 5. Nf3
 { The idea is to take on c5 only when the black bishop is developed, and then control the isolated pawn by occupying the d4-square, mainly with a knight. Also, if Black plays c4 then we'll play b3, after moving away our light-squared bishop, of course, and we'll get the centre, some more space and easier play. }
 5... Nf6
-{ This move was recommended by GM Mihail Marin in a French Defense repertoire database. }
+{ This move was recommended by Mihail Marin in a French Defense repertoire database. }
 6. c3 Nc6
 { Marin stopped here and said that Black will be fine with cxd4 after White castles. However, White can still ask some questions with: }
 7. O-O cxd4
@@ -1168,7 +1168,7 @@ Re1+ { Developing with tempo } 7... Be7 8. h3
 8. Qe2+ { Stopping Black from castling short. } 8... Qe7 9. Qxe7+ Kxe7
 { 9...Bxe7  is also possible. After  10.O-O  O-O  11.Re1  Re8  12.Nbd2=  White can continue with Nf1, Bg5, and Ne3 to pressure the d5 pawn. }
 10. O-O Re8
-{ This was all recommended in the Chessable course 'Lifetime Repertoires: the French Defense' by GM Anish Giri, who concluded that Black was equal.  I agree with his assessment, but nevertheless think that White has easier play. }
+{ This was all recommended in the  course 'Lifetime Repertoires: the French Defense' by Anish Giri, who concluded that Black was equal.  I agree with his assessment, but nevertheless think that White has easier play. }
 11. Re1+ Kf8 12. Rxe8+ Kxe8 13. Bg5
 { Developing the bishop to its most active post. } 13... Nbd7
 { And here Leela likes } 14. Nh4
@@ -1204,7 +1204,7 @@ Re1+ { Developing with tempo } 7... Be7 8. h3
 1. e4 e6 2. d4 d5 3. Bd3 dxe4
 { We now tackle the main line where Black captures on e4. I am not claiming White gets an advantage in every line in this variation if Black plays very precisely.   However, what I can guarantee is that you will at the very least get a more comfortable position with clear plans where you will know exactly what to do. Even in the long forcing lines where Black is objectively fine, we are going to pose as many practical problems as possible.   After analyzing these variations thoroughly, I found that 3. Bd3 is much more challenging than I initially thought. Black needs to be aware of several subtleties to be able to equalize and one misstep can easily land him in a much worse position. }
 4. Bxe4 Nf6 5. Bf3 Nc6
-{ is quite rare and was most notably played by 2600+ GM Mateusz Bartel in 2016. It didn't pick up much of a following, probably due to the lines I'm about to show. Black's idea behind 5...Nc6 is to break in the center with ...e5 as soon as possible. }
+{ is quite rare and was most notably played by 2600+ Mateusz Bartel in 2016. It didn't pick up much of a following, probably due to the lines I'm about to show. Black's idea behind 5...Nc6 is to break in the center with ...e5 as soon as possible. }
 6. Ne2 e5
 { 6...Bd6  has also been tried but allows White to play  7.Na3  intending to go after Black's bishop with  Nc4  . This position only occurred once and Black immediately went wrong with  7...Bxa3   Better is  7....O-O  but after  8.Nc4  Re8  9.O-O  Black will find it hard to break with ...e5 under good conditions.  8.bxa3  O-O  9.O-O  Rb8  10.Bg5⩲  gave White a significant advantage in ½-½ @@StartBracket@@37@@EndBracket@@ Volovich, V @@StartBracket@@2147@@EndBracket@@-Mischuk, D @@StartBracket@@2358@@EndBracket@@ Voronezh 2020. The bishop pair advantage and the open b-file far outweighs the double a-pawns. }
 7. Bxc6+
@@ -1232,7 +1232,7 @@ Re1+ { Developing with tempo } 7... Be7 8. h3
 4. Bxe4 Nf6 5. Bf3
 { This position is reminiscent of the Rubinstein variation of the French Defense. In the Rubinstein, Black usually develops his light squared bishop along the b7/c6-h1 diagonal, either by b6+Bb7 or Bd7-c6. By placing our bishop on f3, we prevent said developing scheme. Of course, the knight now cannot occupy the f3 square but it will be well placed on e2. }
 5... Nbd7
-{ I first came across this rare move when the polish super grandmaster Jan-Krzysztof Duda played it against 2600+ GM Sergey Fedorchuk in the 2017 European Blitz Championship in Katowice. It has also been tried by other strong grandmasters such as GM Eduardas Rozentalis and GM Andrey Sumets.   The main idea of 5... Nbd7 is to break in the center with 6... e5, which would open the c8-h3 diagonal for the bishop on c8. }
+{ I first came across this rare move when the polish super grandmaster Jan-Krzysztof Duda played it against 2600+ Sergey Fedorchuk in the 2017 European Blitz Championship in Katowice. It has also been tried by other strong grandmasters such as Eduardas Rozentalis and Andrey Sumets.   The main idea of 5... Nbd7 is to break in the center with 6... e5, which would open the c8-h3 diagonal for the bishop on c8. }
 6. Nc3
 { This is stronger than the more common 6. Ne2, which is analternative recommendation. The point is that 6. Ne2 allows Black to equalize after ...Bd6 and ...e5 &#40with 6. Nc3 we have the option of disrupting this plan with Nb5&#41. }
 6... e5 { This advance is premature. } 7. dxe5 Nxe5 8. Qxd8+ Kxd8 9. Be2
@@ -1254,7 +1254,7 @@ Kc8 12. Nf3
 4. Bxe4 Nf6 5. Bf3
 { This position is reminiscent of the Rubinstein variation of the French Defense. In the Rubinstein, Black usually develops his light squared bishop along the b7/c6-h1 diagonal, either by b6+Bb7 or Bd7-c6. By placing our bishop on f3, we prevent said developing scheme. Of course, the knight now cannot occupy the f3 square but it will be well placed on e2. }
 5... Nbd7
-{ I first came across this rare move when the polish super grandmaster Jan-Krzysztof Duda played it against 2600+ GM Sergey Fedorchuk in the 2017 European Blitz Championship in Katowice. It has also been tried by other strong grandmasters such as GM Eduardas Rozentalis and GM Andrey Sumets.   The main idea of 5... Nbd7 is to break in the center with 6... e5, which would open the c8-h3 diagonal for the bishop on c8. }
+{ I first came across this rare move when the polish super grandmaster Jan-Krzysztof Duda played it against 2600+ Sergey Fedorchuk in the 2017 European Blitz Championship in Katowice. It has also been tried by other strong grandmasters such as Eduardas Rozentalis and Andrey Sumets.   The main idea of 5... Nbd7 is to break in the center with 6... e5, which would open the c8-h3 diagonal for the bishop on c8. }
 6. Nc3
 { This is stronger than the more common 6. Ne2. The point is that 6. Ne2 allows Black to equalize after ...Bd6 and ...e5 &#40with 6. Nc3 we have the option of disrupting this plan with Nb5&#41. }
 6... e5 { This advance is premature. } 7. dxe5
@@ -1278,7 +1278,7 @@ Neg4 10. Bxg4 Nxg4 { And now White should play } 11. Nd5
 4. Bxe4 Nf6 5. Bf3
 { This position is reminiscent of the Rubinstein variation of the French Defense. In the Rubinstein, Black usually develops his light squared bishop along the b7/c6-h1 diagonal, either by b6+Bb7 or Bd7-c6. By placing our bishop on f3, we prevent said developing scheme. Of course, the knight now cannot occupy the f3 square but it will be well placed on e2. }
 5... Nbd7
-{ I first came across this rare move when the polish super grandmaster Jan-Krzysztof Duda played it against 2600+ GM Sergey Fedorchuk in the 2017 European Blitz Championship in Katowice. It has also been tried by other strong grandmasters such as GM Eduardas Rozentalis and GM Andrey Sumets.   The main idea of 5... Nbd7 is to break in the center with 6... e5, which would open the c8-h3 diagonal for the bishop on c8. }
+{ I first came across this rare move when the polish super grandmaster Jan-Krzysztof Duda played it against 2600+ Sergey Fedorchuk in the 2017 European Blitz Championship in Katowice. It has also been tried by other strong grandmasters such as Eduardas Rozentalis and Andrey Sumets.   The main idea of 5... Nbd7 is to break in the center with 6... e5, which would open the c8-h3 diagonal for the bishop on c8. }
 6. Nc3
 { This is stronger than the more common 6. Ne2. The point is that 6. Ne2 allows Black to equalize after ...Bd6 and ...e5 &#40with 6.Nc3 we have the option of disrupting this plan with Nb5&#41. }
 6... Bd6 { White should immediately attack the bishop with } 7. Nb5 O-O
@@ -1302,12 +1302,12 @@ Neg4 10. Bxg4 Nxg4 { And now White should play } 11. Nd5
 4. Bxe4 Nf6 5. Bf3
 { This position is reminiscent of the Rubinstein variation of the French Defense. In the Rubinstein, Black usually develops his light squared bishop along the b7/c6-h1 diagonal, either by ...b6 + ...Bb7 or Bd7-c6. By placing our bishop on f3, we prevent said developing scheme. Of course, the knight now cannot occupy the f3 square but it will be well placed on e2. }
 5... Nbd7
-{ I first came across this rare move when the polish super grandmaster Jan-Krzysztof Duda played it against 2600+ GM Sergey Fedorchuk in the 2017 European Blitz Championship in Katowice. It has also been tried by other strong grandmasters such as GM Eduardas Rozentalis and GM Andrey Sumets. The main idea of 5...Nbd7 is to break in the center with 6... e5, which would open the c8-h3 diagonal for the bishop on c8. }
+{ I first came across this rare move when the polish super grandmaster Jan-Krzysztof Duda played it against 2600+ Sergey Fedorchuk in the 2017 European Blitz Championship in Katowice. It has also been tried by other strong grandmasters such as Eduardas Rozentalis and Andrey Sumets. The main idea of 5...Nbd7 is to break in the center with 6... e5, which would open the c8-h3 diagonal for the bishop on c8. }
 6. Nc3
 { This is stronger than the more common 6. Ne2. The point is that 6. Ne2 allows Black to equalize after ...Bd6 and ...e5 @@StartBracket@@with 6. Nc3 we have the option of disrupting this plan with Nb5@@EndBracket@@. }
 6... Bd6 { White should immediately attack the bishop with } 7. Nb5 Bb4+ 8. c3
 a6
-{ was recommended by GM Dmitry Kryakvin in the book 'The Modern French Defence', which is a novelty according to my database. }
+{ was recommended by Dmitry Kryakvin in the book 'The Modern French Defence', which is a novelty according to my database. }
 9. Nxc7+
 { The critical test.   The alternative  9.cxb4  axb5  10.Ne2  Nd5=  is harmless. }
 9... Qxc7 10. cxb4 e5 { A strong move, with the idea ...e4 to hit our bishop. }
@@ -1339,12 +1339,12 @@ Nf4 Nb6 14. Qb3
 4. Bxe4 Nf6 5. Bf3
 { This position is reminiscent of the Rubinstein variation of the French Defense. In the Rubinstein, Black usually develops his light squared bishop along the b7/c6-h1 diagonal, either by ...b6 + ...Bb7 or Bd7-c6. By placing our bishop on f3, we prevent said developing scheme. Of course, the knight now cannot occupy the f3 square but it will be well placed on e2. }
 5... Nbd7
-{ I first came across this rare move when the polish super grandmaster Jan-Krzysztof Duda played it against 2600+ GM Sergey Fedorchuk in the 2017 European Blitz Championship in Katowice. It has also been tried by other strong grandmasters such as GM Eduardas Rozentalis and GM Andrey Sumets. The main idea of 5...Nbd7 is to break in the center with 6... e5, which would open the c8-h3 diagonal for the bishop on c8. }
+{ I first came across this rare move when the polish super grandmaster Jan-Krzysztof Duda played it against 2600+ Sergey Fedorchuk in the 2017 European Blitz Championship in Katowice. It has also been tried by other strong grandmasters such as Eduardas Rozentalis and Andrey Sumets. The main idea of 5...Nbd7 is to break in the center with 6... e5, which would open the c8-h3 diagonal for the bishop on c8. }
 6. Nc3
 { This is stronger than the more common 6. Ne2. The point is that 6. Ne2 allows Black to equalize after ...Bd6 and ...e5 @@StartBracket@@with 6. Nc3 we have the option of disrupting this plan with Nb5@@EndBracket@@. }
 6... Bd6 { White should immediately attack the bishop with } 7. Nb5 Bb4+ 8. c3
 a6
-{ was recommended by GM Dmitry Kryakvin in the book 'The Modern French Defence', which is a novelty according to my database. }
+{ was recommended by Dmitry Kryakvin in the book 'The Modern French Defence', which is a novelty according to my database. }
 9. Nxc7+
 { The critical test.  The alternative   9.cxb4  axb5  10.Ne2  Nd5=  is harmless. }
 9... Qxc7 10. cxb4 e5 { A strong move, with the idea ...e4 to hit our bishop. }
@@ -1370,7 +1370,7 @@ a6
 4. Bxe4 Nf6 5. Bf3
 { This position is reminiscent of the Rubinstein variation of the French Defense. In the Rubinstein, Black usually develops his light squared bishop along the b7/c6-h1 diagonal, either by b6+Bb7 or Bd7-c6. By placing our bishop on f3, we prevent said developing scheme. Of course, the knight now cannot occupy the f3 square but it will be well placed on e2. }
 5... Nbd7
-{ I first came across this rare move when the polish super grandmaster Jan-Krzysztof Duda played it against 2600+ GM Sergey Fedorchuk in the 2017 European Blitz Championship in Katowice. It has also been tried by other strong grandmasters such as GM Eduardas Rozentalis and GM Andrey Sumets.  The main idea of 5...Nbd7 is to break in the center with 6...e5, which would open the c8-h3 diagonal for the bishop on c8. }
+{ I first came across this rare move when the polish super grandmaster Jan-Krzysztof Duda played it against 2600+ Sergey Fedorchuk in the 2017 European Blitz Championship in Katowice. It has also been tried by other strong grandmasters such as Eduardas Rozentalis and Andrey Sumets.  The main idea of 5...Nbd7 is to break in the center with 6...e5, which would open the c8-h3 diagonal for the bishop on c8. }
 6. Nc3
 { This is stronger than the more common 6. Ne2. The point is that 6. Ne2 allows Black to equalize after ...Bd6 and ...e5 &#40with 6.Nc3 we have the option of disrupting this plan with Nb5&#41. }
 6... Rb8
@@ -1380,7 +1380,7 @@ a6
 8. O-O O-O
 { Both sides have played natural developing moves. Black is ready to go b5-b4 to dislodge the c3 knight and play Bb7, solving the problem of the c8 bishop. }
 9. Qd3
-{ GM Fedorchuk played 9. Bf4 and went on to lose a complex game. I am suggesting the novelty 9. Qd3, which stops Black's main plan of pushing b7-b5. }
+{ Fedorchuk played 9. Bf4 and went on to lose a complex game. I am suggesting the novelty 9. Qd3, which stops Black's main plan of pushing b7-b5. }
 9... a6 { Black insists on playing b5. } 10. a4
 { But we say: No, you're not going to develop your bishop with Bb7! } 10... c5
 11. dxc5 Bxc5 12. Bf4 e5 13. Bg3
@@ -1398,7 +1398,7 @@ a6
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3
 { This position is reminiscent of the Rubinstein variation of the French Defense. In the Rubinstein, Black usually develops his light squared bishop along the b7/c6-h1 diagonal, either by b6+Bb7 or Bd7-c6. By placing our bishop on f3, we prevent said developing scheme. Of course, the knight now cannot occupy the f3 square but it will be well placed on e2. }
 5... Nbd7
-{ The polish super grandmaster Jan-Krzysztof Duda played the rare 5...Nbd7 against 2600+ GM Sergey Fedorchuk in the 2017 European Blitz Championship in Katowice. }
+{ The polish super grandmaster Jan-Krzysztof Duda played the rare 5...Nbd7 against 2600+ Sergey Fedorchuk in the 2017 European Blitz Championship in Katowice. }
 6. Nc3
 { This is stronger than the more common 6. Ne2. The point is that 6. Ne2 allows Black to equalize after ...Bd6 and ...e5 &#40with 6.Nc3 we have the option of disrupting this plan with Nb5&#41. }
 6... Rb8
@@ -1406,7 +1406,7 @@ a6
 7. Nge2 Be7 8. O-O O-O
 { Both sides have played natural developing moves. Black is ready to go b5-b4 to dislodge the c3 knight and play Bb7, solving the problem of the c8 bishop. }
 9. Qd3
-{ GM Fedorchuk played 9. Bf4 and went on to lose a complex game. I am suggesting the novelty 9. Qd3, which stops Black's main plan of pushing b7-b5. }
+{ Fedorchuk played 9. Bf4 and went on to lose a complex game. I am suggesting the novelty 9. Qd3, which stops Black's main plan of pushing b7-b5. }
 9... a6 { Black insists on playing b5. } 10. a4
 { But we say: No, you're not going to develop your bishop with Bb7! } 10... c5
 11. dxc5 Nxc5
@@ -1426,7 +1426,7 @@ a6
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3
 { This position is reminiscent of the Rubinstein variation of the French Defense. In the Rubinstein, Black usually develops his light squared bishop along the b7/c6-h1 diagonal, either by b6+Bb7 or Bd7-c6. By placing our bishop on f3, we prevent said developing scheme. Of course, the knight now cannot occupy the f3 square but it will be well placed on e2. }
 5... Nbd7
-{ The polish super grandmaster Jan-Krzysztof Duda played the rare 5...Nbd7 against 2600+ GM Sergey Fedorchuk in the 2017 European Blitz Championship. }
+{ The polish super grandmaster Jan-Krzysztof Duda played the rare 5...Nbd7 against 2600+ Sergey Fedorchuk in the 2017 European Blitz Championship. }
 6. Nc3
 { This is stronger than the more common 6. Ne2. The point is that 6. Ne2 allows Black to equalize after ...Bd6 and ...e5 &#40with 6.Nc3 we have the option of disrupting this plan with Nb5&#41. }
 6... a6
@@ -1458,7 +1458,7 @@ a6
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3
 { This position is reminiscent of the Rubinstein variation of the French Defense. In the Rubinstein, Black usually develops his light squared bishop along the b7/c6-h1 diagonal, either by b6+Bb7 or Bd7-c6. By placing our bishop on f3, we prevent said developing scheme. Of course, the knight now cannot occupy the f3 square but it will be well placed on e2. }
 5... Nbd7
-{ The polish super grandmaster Jan-Krzysztof Duda played the rare 5... Nbd7 against 2600+ GM Sergey Fedorchuk in the 2017 European Blitz Championship in Katowice. }
+{ The polish super grandmaster Jan-Krzysztof Duda played the rare 5... Nbd7 against 2600+ Sergey Fedorchuk in the 2017 European Blitz Championship in Katowice. }
 6. Nc3 c6
 { This is another way of preventing Nb5, with the idea to play ...Bd6 and break in the center with ...e5. It may look quite passive at first sight but it allows Black to eventually equalize. }
 7. Nge2 Bd6 8. O-O O-O 9. Ng3 { Clearing the e-file for Re1. } 9... Qc7
@@ -1483,7 +1483,7 @@ a6
 4. Bxe4 Nf6 5. Bf3
 { This position is reminiscent of the Rubinstein variation of the French Defense. In the Rubinstein, Black usually develops his light squared bishop along the b7/c6-h1 diagonal, either by b6+Bb7 or Bd7-c6. By placing our bishop on f3, we prevent said developing scheme. Of course, the knight now cannot occupy the f3 square but it will be well placed on e2. }
 5... Nbd7
-{ I first came across this rare move when the polish super grandmaster Jan-Krzysztof Duda played it against 2600+ GM Sergey Fedorchuk in the 2017 European Blitz Championship in Katowice. It has also been tried by other strong grandmasters such as GM Eduardas Rozentalis and GM Andrey Sumets.   The main idea of 5... Nbd7 is to break in the center with 6... e5, which would open the c8-h3 diagonal for the bishop on c8. }
+{ I first came across this rare move when the polish super grandmaster Jan-Krzysztof Duda played it against 2600+ Sergey Fedorchuk in the 2017 European Blitz Championship in Katowice. It has also been tried by other strong grandmasters such as Eduardas Rozentalis and Andrey Sumets.   The main idea of 5... Nbd7 is to break in the center with 6... e5, which would open the c8-h3 diagonal for the bishop on c8. }
 6. Ne2
 { This is an alternative recommendation to 6. Nc3, leading to a position where White is ever so slightly better. It has the advantage of cutting down on the number of lines you need to learn but is arguably less ambitious. I'll let you decide which option you prefer. }
 6... e5
@@ -1504,9 +1504,9 @@ Rxe7+ Kf8 12. Re5 fxg2 13. Nc3
 [Result "*"]
 
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 Bd6
-{ This interesting move was played by the French Defense expert 2600+ GM Andrei Istratescu in a blitz game in 2019. Black's plan is quite ambitious: he wants to take advantage of the fact that knight is not on f3 and break in the center with e5 after ...O-O. If Black achieves the e5 break under good conditions, he'll solve the problem of the c8 bishop and immediately equalize. }
+{ This interesting move was played by the French Defense expert 2600+ Andrei Istratescu in a blitz game in 2019. Black's plan is quite ambitious: he wants to take advantage of the fact that knight is not on f3 and break in the center with e5 after ...O-O. If Black achieves the e5 break under good conditions, he'll solve the problem of the c8 bishop and immediately equalize. }
 6. Ne2
-{ 6. Nc3 was played by GM Bogdan-Daniel Deac in the aforementioned blitz game. However, I believe the b1 knight should not be placed on c3. White should take advantage of the fact that Black has played placed the bishop on d6  (as opposed to the more conventional ...Be7)  and route the b1 knight to c4 via d2. }
+{ 6. Nc3 was played by Bogdan-Daniel Deac in the aforementioned blitz game. However, I believe the b1 knight should not be placed on c3. White should take advantage of the fact that Black has played placed the bishop on d6  (as opposed to the more conventional ...Be7)  and route the b1 knight to c4 via d2. }
 6... O-O 7. Nd2
 { The knight is coming to c4, where it will hit the bishop on d6 and clamp down on the e5 square, effectively preventing any e5 breaks. }
 7... e5
@@ -1529,9 +1529,9 @@ Rxe7+ Kf8 12. Re5 fxg2 13. Nc3
 [Result "*"]
 
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 Bd6
-{ This interesting move was played by the French Defense expert 2600+ GM Andrei Istratescu in a blitz game in 2019. Black's play is quite ambitious: he wants to take advantage of the fact that knight is not on f3 and break in the center with e5 after ...O-O. If Black achieves the e5 break under good conditions, he'll solve the problem of the c8 bishop and immediately equalize. }
+{ This interesting move was played by the French Defense expert 2600+ Andrei Istratescu in a blitz game in 2019. Black's play is quite ambitious: he wants to take advantage of the fact that knight is not on f3 and break in the center with e5 after ...O-O. If Black achieves the e5 break under good conditions, he'll solve the problem of the c8 bishop and immediately equalize. }
 6. Ne2
-{ 6. Nc3 was played by GM Bogdan-Daniel Deac in the aforementioned blitz game. However, I believe the b1 knight should not be placed on c3. White should take advantage of the fact that Black has played placed the bishop on d6  (as opposed to the more conventional ...Be7)  and route the b1 knight to c4 via d2. }
+{ 6. Nc3 was played by Bogdan-Daniel Deac in the aforementioned blitz game. However, I believe the b1 knight should not be placed on c3. White should take advantage of the fact that Black has played placed the bishop on d6  (as opposed to the more conventional ...Be7)  and route the b1 knight to c4 via d2. }
 6... O-O 7. Nd2
 { The knight is coming to c4, where it will hit the bishop on d6 and clamp down on the e5 square, effectively preventing any e5 breaks. }
 7... c5 8. Nc4 Nc6 9. c3
@@ -1551,7 +1551,7 @@ Rxe7+ Kf8 12. Re5 fxg2 13. Nc3
 [Result "*"]
 
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 Bd6
-{ This interesting move was played by the French Defense expert 2600+ GM Andrei Istratescu in a blitz game in 2019. Black's play is quite ambitious: he wants to take advantage of the fact that knight is not on f3 and break in the center with e5 after ...O-O. If Black achieves the e5 break under good conditions, he'll solve the problem of the c8 bishop and immediately equalize. }
+{ This interesting move was played by the French Defense expert 2600+ Andrei Istratescu in a blitz game in 2019. Black's play is quite ambitious: he wants to take advantage of the fact that knight is not on f3 and break in the center with e5 after ...O-O. If Black achieves the e5 break under good conditions, he'll solve the problem of the c8 bishop and immediately equalize. }
 6. Ne2 { Another possibility is } 6... Nbd7
 { which is usually connected with a quick ...e5. } 7. O-O
 { The immediate pawn break } 7... e5
@@ -1569,7 +1569,7 @@ Rxe7+ Kf8 12. Re5 fxg2 13. Nc3
 [Result "*"]
 
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 Bd6
-{ This interesting move was played by the French Defense expert 2600+ GM Andrei Istratescu in a blitz game in 2019. Black's play is quite ambitious: he wants to take advantage of the fact that knight is not on f3 and break in the center with e5 after ...O-O. If Black achieves the e5 break under good conditions, he'll solve the problem of the c8 bishop and immediately equalize. }
+{ This interesting move was played by the French Defense expert 2600+ Andrei Istratescu in a blitz game in 2019. Black's play is quite ambitious: he wants to take advantage of the fact that knight is not on f3 and break in the center with e5 after ...O-O. If Black achieves the e5 break under good conditions, he'll solve the problem of the c8 bishop and immediately equalize. }
 6. Ne2 { Another possibility is } 6... Nbd7
 { which is usually connected with a quick ...e5. } 7. O-O O-O
 { is the most popular continuation at both club and master level. It's also objectively stronger than 7...e5, which was covered in the previous trainable variation. }
@@ -1722,7 +1722,7 @@ Bd7 12. Rad1
 { 7...Nc6  8.Be3  cxd4  9.Nxd4  Ne5  transposes to the6... Nc6 7. Be3 cxd4 8. Nxd4 Nxe5 9. Nc3 Be7 variation. }
 8. Be3 { Apart from 8...Qc7, Black has also tried } 8... Qa5
 { Here the simplest is } 9. dxc5
-{ This move was not covered in the book 'The Modern French Defence' by GM Dmitry Kryakvin. }
+{ This move was not covered in the book 'The Modern French Defence' by Dmitry Kryakvin. }
 9... Rd8
 { Recapturing the pawn right away with  9...Bxc5  is inferior. After  10.Bxc5  Qxc5  11.Qd4  Qc7  12.O-O-O⩲  White has full control of the d-file and can start an attack against Black's king with g4-g5. }
 10. Qc1 Nc6 { White should now spoil Black's pawn structure with } 11. Bxc6
@@ -1998,7 +1998,7 @@ Nxe3+ 12. fxe3
 13. Nf4 Bg7 14. Nd3
 { The knight is extremely well placed on d3, defending the e5 pawn and attacking the c5 one. White can continue with c4, Rf1 and then play Ne4 to target the c5 pawn. }
 14... O-O 15. Rf1 Re8 16. Rf4
-{ This excellent move preserves the pawn on e5 and with it a slight advantage.  The point is that after Bxe5, White will play Re4 and pin Black's bishop:   16...Bxe5  17.Re4  f6  18.Nxe5  Rxe5  19.Rxe5  fxe5  20.Ke2  +− Black cannot protect both the c5 or e5 pawns since they are on dark squares  (and Black no longer has a dark square bishop)  . White is already winning.  If you'd like to train this clickable variation please choose to learn the next variation, which I've marked as an alternative. This is because at the time of writing this course, it is not possible to train subvariations on Chessable and more ambitious/higher rated players might want to train a few more moves. }
+{ This excellent move preserves the pawn on e5 and with it a slight advantage.  The point is that after Bxe5, White will play Re4 and pin Black's bishop:   16...Bxe5  17.Re4  f6  18.Nxe5  Rxe5  19.Rxe5  fxe5  20.Ke2  +− Black cannot protect both the c5 or e5 pawns since they are on dark squares  (and Black no longer has a dark square bishop)  . White is already winning.  If you'd like to train this clickable variation please choose to learn the next variation, which I've marked as an alternative. This is because at the time of writing this course, it is not possible to train subvariations on  and more ambitious/higher rated players might want to train a few more moves. }
 *
 
 [Event "?"]
@@ -2438,7 +2438,7 @@ Bxc3+ 13. Nxc3 Bc6
 
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 c5 6. Ne2 Nc6 7. Be3 cxd4 8.
 Nxd4 Ne5 9. Nc3 Bb4 10. Nb5 Bd7 11. a3 Bxc3+ 12. Nxc3 Bc6
-{ Black is trying to exchange as many pieces as possible. NM Bryan Tills and GM Alex Lenderman in the Chessable course Master the French Defense assessed Black was equal after Bc6. Let's analyze it a bit more: }
+{ Black is trying to exchange as many pieces as possible. NM Bryan Tills and Alex Lenderman in the  course Master the French Defense assessed Black was equal after Bc6. Let's analyze it a bit more: }
 13. Qxd8+ Rxd8 14. Bxc6+ Nxc6 15. h3 { Stopping annoying jumps like Ng4. }
 15... b6 { Black prepares Ke7. With ...b6, Black cuts out the annoying Bc5+. }
 16. Rd1 Ke7
@@ -2459,11 +2459,11 @@ Nxd4 Ne5 9. Nc3 Bb4 10. Nb5 Bd7 11. a3 Bxc3+ 12. Nxc3 Bc6
 
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 c5 6. Ne2 Nc6 7. Be3 cxd4 8.
 Nxd4 Ne5 9. Nc3 Bb4 10. Nb5 Bd7 11. a3 Nxf3+ 12. Qxf3 Bxc3+ 13. Nxc3 Qc7
-{ Even though this move is not that relevant from a theoretical perspective, it was played by GM Arun Prasad in 2015 and should thus be covered for completeness sake. }
+{ Even though this move is not that relevant from a theoretical perspective, it was played by Arun Prasad in 2015 and should thus be covered for completeness sake. }
 14. Bf4
-{ Improving the position of the bishop with a tempo.  For the endgame lovers out there   14.Qg3  is also an interesting try for a small advantage.  14...Qxg3  15.hxg3  Bc6  16.f3  a6  17.O-O-O  = This a more pleasant endgame for White. Don't assume it's a dead draw due to the opposite-colored bishops. White has a 3 vs 2 on the queenside and hence it's easier for him to create a passed pawn  (compared to Black's 4 vs 3 on the kingside)  . Furthermore, the open h-file is very useful to lift a rook to the queenside, e.g. Rh4-b4 later in the game. The 3.Bd3 specialist GM Vladimir Onischuk  (2629)  managed to beat GM Arun Prasad  (2502)  from this position in 2015. }
+{ Improving the position of the bishop with a tempo.  For the endgame lovers out there   14.Qg3  is also an interesting try for a small advantage.  14...Qxg3  15.hxg3  Bc6  16.f3  a6  17.O-O-O  = This a more pleasant endgame for White. Don't assume it's a dead draw due to the opposite-colored bishops. White has a 3 vs 2 on the queenside and hence it's easier for him to create a passed pawn  (compared to Black's 4 vs 3 on the kingside)  . Furthermore, the open h-file is very useful to lift a rook to the queenside, e.g. Rh4-b4 later in the game. The 3.Bd3 specialist Vladimir Onischuk  (2629)  managed to beat Arun Prasad  (2502)  from this position in 2015. }
 14... Qb6 15. O-O-O Bc6 16. Qe2 O-O 17. Be5
-{ The kings are castled on opposite sides but White's slightly better placed pieces give him the better prospects. White is now threatening Bxf6 and can follow up with Rhe1 and Qg4  (once the Nf6 moves away)  .  Based on beta tester feedback and because Chessable has a wide audience, I've decided to mark the following line that illustrates how play is likely to continue as an alternative variation. Ambitious and/or higher-rated players can choose to train the next alternative variation if they see fit. }
+{ The kings are castled on opposite sides but White's slightly better placed pieces give him the better prospects. White is now threatening Bxf6 and can follow up with Rhe1 and Qg4  (once the Nf6 moves away)  .  Based on beta tester feedback and because  has a wide audience, I've decided to mark the following line that illustrates how play is likely to continue as an alternative variation. Ambitious and/or higher-rated players can choose to train the next alternative variation if they see fit. }
 *
 
 [Event "?"]
@@ -2476,9 +2476,9 @@ Nxd4 Ne5 9. Nc3 Bb4 10. Nb5 Bd7 11. a3 Nxf3+ 12. Qxf3 Bxc3+ 13. Nxc3 Qc7
 
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 c5 6. Ne2 Nc6 7. Be3 cxd4 8.
 Nxd4 Ne5 9. Nc3 Bb4 10. Nb5 Bd7 11. a3 Nxf3+ 12. Qxf3 Bxc3+ 13. Nxc3 Qc7
-{ Even though this move is not that relevant from a theoretical perspective, it was played by GM Arun Prasad in 2015 and should thus be covered for completeness sake. }
+{ Even though this move is not that relevant from a theoretical perspective, it was played by Arun Prasad in 2015 and should thus be covered for completeness sake. }
 14. Bf4
-{ Improving the position of the bishop with a tempo.  For the endgame lovers out there   14.Qg3  is also an interesting try for a small advantage.  14...Qxg3  15.hxg3  Bc6  16.f3  a6  17.O-O-O  = This a more pleasant endgame for White. Don't assume it's a dead draw due to the opposite-colored bishops. White has a 3 vs 2 on the queenside and hence it's easier for him to create a passed pawn  (compared to Black's 4 vs 3 on the kingside)  . Furthermore, the open h-file is very useful to lift a rook to the queenside, e.g. Rh4-b4 later in the game. The 3.Bd4 specialist GM Vladimir Onischuk  (2629 managed to beat GM Arun Prasad)  (2502)  (from this position in 2015.) }
+{ Improving the position of the bishop with a tempo.  For the endgame lovers out there   14.Qg3  is also an interesting try for a small advantage.  14...Qxg3  15.hxg3  Bc6  16.f3  a6  17.O-O-O  = This a more pleasant endgame for White. Don't assume it's a dead draw due to the opposite-colored bishops. White has a 3 vs 2 on the queenside and hence it's easier for him to create a passed pawn  (compared to Black's 4 vs 3 on the kingside)  . Furthermore, the open h-file is very useful to lift a rook to the queenside, e.g. Rh4-b4 later in the game. The 3.Bd4 specialist Vladimir Onischuk  (2629 managed to beat Arun Prasad)  (2502)  (from this position in 2015.) }
 14... Qb6 15. O-O-O Bc6 16. Qe2 O-O 17. Be5
 { The kings are castled on opposite sides but White's slightly better placed pieces give him better prospects. White is now threatening Bxf6 so Black should play }
 17... Nd7
@@ -2637,7 +2637,7 @@ Nxd4 Ne5 9. Nc3
 { Black develops the bishop to the natural e7 square, with the idea to castle kingside on the next turn. }
 10. Qe2 { White develops the queen to e2, preparing to 0-0-0. } 10... O-O 11.
 O-O-O
-{ This move was not covered in the GM Repertoire on the French Defense Vol. 3 published by Quality Chess in 2015. The author, GM Emanuel Berg, only considered 11. O-O. White is threatening Nxe6 with a discovered attack on Black's queen. }
+{ This move was not covered in the Repertoire on the French Defense Vol. 3 published by Quality Chess in 2015. The author, Emanuel Berg, only considered 11. O-O. White is threatening Nxe6 with a discovered attack on Black's queen. }
 11... Nxf3 { This natural capture is met by the strong intermediate move: } 12.
 Nc6 Qc7 13. Nxe7+ Qxe7 14. gxf3
 { White recaptures with the g-pawn to open the g-file for White's rooks. Black's king on g8 is about to come under a heavy attack after Rhg1 and h4-h5-h6. White is clearly for choice. }
@@ -2655,10 +2655,10 @@ Nc6 Qc7 13. Nxe7+ Qxe7 14. gxf3
 Nxd4 Ne5 9. Nc3
 { In this chapter, we are going to cover of all Black's alternatives on move 9, that is 9... Be7, 9... Bb4 and 9... Nxf3. The main line, 9... a6, is covered in the next chapter. }
 9... Be7 10. Qe2 O-O 11. O-O-O
-{ This move was not covered in the GM Repertoire on the French Defense Vol. 3 published by Quality Chess in 2015. The author, GM Emanuel Berg, only considered 11. O-O. White is threatening Nxe6 with a discovered attack on Black's queen. }
+{ This move was not covered in the Repertoire on the French Defense Vol. 3 published by Quality Chess in 2015. The author, Emanuel Berg, only considered 11. O-O. White is threatening Nxe6 with a discovered attack on Black's queen. }
 11... Bd7 12. Bxb7 Rb8 13. Bf4 { This is the point behind Bxb7. } 13... Rxb7
 14. Bxe5 Qb6 15. Nb3
-{ White is a pawn up and will neutralize Black's attack with moves like Qe3, Bd4, and Rd3. By centralizing all of his pieces, White will make it very difficult for Black to create any sort of attack. Black does have some compensation, so White also needs to tread carefully.  Based on beta tester feedback and because Chessable has a wide audience, I've decided to mark the following line that illustrates how play is likely to continue as an alternative variation. Ambitious and/or higher-rated players can choose to train the next alternative variation if they see fit. }
+{ White is a pawn up and will neutralize Black's attack with moves like Qe3, Bd4, and Rd3. By centralizing all of his pieces, White will make it very difficult for Black to create any sort of attack. Black does have some compensation, so White also needs to tread carefully.  Based on beta tester feedback and because  has a wide audience, I've decided to mark the following line that illustrates how play is likely to continue as an alternative variation. Ambitious and/or higher-rated players can choose to train the next alternative variation if they see fit. }
 *
 
 [Event "?"]
@@ -2673,7 +2673,7 @@ Nxd4 Ne5 9. Nc3
 Nxd4 Ne5 9. Nc3
 { In this chapter, we are going to cover of all Black's alternatives on move 9, that is 9... Be7, 9... Bb4 and 9... Nxf3. The main line, 9... a6, is covered in the next chapter. }
 9... Be7 10. Qe2 O-O 11. O-O-O
-{ This move was not covered in the GM Repertoire on the French Defense Vol. 3 published by Quality Chess in 2015. The author, GM Emanuel Berg, only considered 11. O-O. White is threatening Nxe6 with a discovered attack on Black's queen. }
+{ This move was not covered in the Repertoire on the French Defense Vol. 3 published by Quality Chess in 2015. The author, Emanuel Berg, only considered 11. O-O. White is threatening Nxe6 with a discovered attack on Black's queen. }
 11... Bd7 12. Bxb7 Rb8 13. Bf4 { This is the point behind Bxb7. } 13... Rxb7
 14. Bxe5 Qb6 15. Nb3
 { White is a pawn up and will neutralize Black's attack with moves like Qe3, Bd4 and Rd3. By centralizing all his pieces, White will make it very difficult for Black to create any sort of attack. Black does have some compensation so White also needs to tread carefully. Here is a sample continuation: }
@@ -2697,7 +2697,7 @@ Nxd4 Ne5 9. Nc3
 Nxd4 Ne5 9. Nc3
 { In this chapter, we are going to cover of all Black's alternatives on move 9, that is 9... Be7, 9... Bb4 and 9... Nxf3. The main line, 9... a6, is covered in the next chapter. }
 9... Be7 10. Qe2 a6
-{ This move was played by 2600+ GM Richard Rapport in 2013 so it deserves some attention. }
+{ This move was played by 2600+ Richard Rapport in 2013 so it deserves some attention. }
 11. O-O-O Qc7
 { We have been following Abel, D  (2437)  - Rapport, R  (2621)  Germany 2013, where White played 12. Bf4 and Black equalized with the tactical shot 12... Nd3+. Instead, White could have gotten a clear advantage with: }
 12. g4 h6
@@ -2763,7 +2763,7 @@ Nxd4 Ne5 9. Nc3
 
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 c5 6. Ne2 Nc6 7. Be3 cxd4 8.
 Nxd4 Ne5 9. Nc3 Be7 10. Qe2 Nxf3+ 11. Qxf3 O-O 12. O-O-O Qc7
-{ This move is inferior to 12...Qa5 and is not theoretically relevant. Thus, there is no point in drilling this line and as such I've made it an informational variation. Nevertheless, it was played in a blitz game by GM Rasmus Svane so it should be covered for completeness sake. }
+{ This move is inferior to 12...Qa5 and is not theoretically relevant. Thus, there is no point in drilling this line and as such I've made it an informational variation. Nevertheless, it was played in a blitz game by Rasmus Svane so it should be covered for completeness sake. }
 13. Ndb5 Qa5 14. a3
 { Very precise! White intends to play Bf4 and Bc7 without allowing Black's queen to go to the b4 square.   This point becomes clearer if we consider the immediate  14.Bf4  a6  15.Bc7  Qb4  This is the square we want to take away and the main point behind 14.a3 }
 14... Bd7 { Trying to get rid of the knight on b5. } 15. Rxd7
@@ -2860,7 +2860,7 @@ Qe2 Qc7 11. O-O-O Be7
 Nxd4 Ne5 9. Nc3 a6 { This is the main move in the 3... dxe4 variation. } 10.
 Qe2 Nxf3+
 { is by far Black's main move and the primary focus of this chapter. } 11. gxf3
-{ I first came across this unusual recapture when it was recommended by GM Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, GM Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
+{ I first came across this unusual recapture when it was recommended by Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
 11... e5 { This natural move looks quite strong but is well met by: } 12. Bf4
 { Pinning and winning a pawn! } 12... Qxd4 13. Bxe5
 { White will capture the knight on f6 with check independently of where Black chooses to place his queen. For instance: }
@@ -2882,7 +2882,7 @@ Qe2 Nxf3+
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 c5 6. Ne2 Nc6 7. Be3 cxd4 8.
 Nxd4 Ne5 9. Nc3 a6 { This is the main move in the 3... dxe4 variation. } 10.
 Qe2 Nxf3+ 11. gxf3
-{ I first came across this unusual recapture when it was recommended by GM Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, GM Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
+{ I first came across this unusual recapture when it was recommended by Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
 11... Nd5 12. Nxd5
 { White eliminates Black's only active piece and is ready to castle long on the next turn. }
 12... Qxd5 13. O-O-O
@@ -2909,9 +2909,9 @@ Qe2 Nxf3+ 11. gxf3
 
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 c5 6. Ne2 Nc6 7. Be3 cxd4 8.
 Nxd4 Ne5 9. Nc3 a6 10. Qe2 Nxf3+ 11. gxf3
-{ I first came across this unusual recapture when it was recommended by GM Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, GM Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
+{ I first came across this unusual recapture when it was recommended by Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
 11... Nd5 12. Nxd5 Qxd5 13. O-O-O Be7 14. Rhg1 Bf6 15. Nb3 Qe5 16. c3 Bd7
-{ IM Langrock in his book/Chessable course on the French defense states that: '16.c3 was Gordievsky-Schekachikhin St Petersburg 2016, when the developing move 16... Bd7N would have given Black a fine game.' Things are however not that easy. Black needs to be very precise to maintain the balance. }
+{ Langrock in his book/ course on the French defense states that: '16.c3 was Gordievsky-Schekachikhin St Petersburg 2016, when the developing move 16... Bd7N would have given Black a fine game.' Things are however not that easy. Black needs to be very precise to maintain the balance. }
 17. f4 { Kicking back Black's queen. } 17... Qc7 18. Nc5 O-O-O 19. Ne4
 { Hitting the bishop on f6, which is tied down to the defense of the g7 pawn. }
 19... Bb5 { White can get a more comfortable position after } 20. Qh5 g6 21.
@@ -2929,7 +2929,7 @@ Qc5 Be7 22. Qxc7+ Kxc7 23. Ng5
 
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 c5 6. Ne2 Nc6 7. Be3 cxd4 8.
 Nxd4 Ne5 9. Nc3 a6 10. Qe2 Nxf3+ 11. gxf3
-{ I first came across this unusual recapture when it was recommended by GM Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, GM Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
+{ I first came across this unusual recapture when it was recommended by Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
 11... Nd5 12. Nxd5 Qxd5 13. O-O-O Qxa2
 { Taking this pawn when Black hasn't developed any pieces is incredibly risky. Black has to be extremely precise not to lose immediately }
 14. Nb3 { Stopping Qa1+. } 14... Be7
@@ -2955,7 +2955,7 @@ Nxd4 Ne5 9. Nc3 a6 10. Qe2 Nxf3+ 11. gxf3
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 c5 6. Ne2 Nc6 7. Be3 cxd4 8.
 Nxd4 Ne5 9. Nc3 { This is the main move in the 3... dxe4 variation. } 9... a6
 10. Qe2 Nxf3+ 11. gxf3
-{ I first came across this unusual recapture when it was recommended by GM Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, GM Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
+{ I first came across this unusual recapture when it was recommended by Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
 11... Bb4 12. O-O-O
 { White ignores Black's Bxc3 'threat' and completes his development. White is now threatening discoveries with Nc6 and Nxe6. }
 12... Qe7
@@ -2975,7 +2975,7 @@ Nxd4 Ne5 9. Nc3 { This is the main move in the 3... dxe4 variation. } 9... a6
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 c5 6. Ne2 Nc6 7. Be3 cxd4 8.
 Nxd4 Ne5 9. Nc3 { This is the main move in the 3... dxe4 variation. } 9... a6
 10. Qe2 Nxf3+ 11. gxf3
-{ I first came across this unusual recapture when it was recommended by GM Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, GM Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
+{ I first came across this unusual recapture when it was recommended by Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
 11... Qc7
 { This novelty is Black's best try.   11...b5  12.O-O-O  Qc7  transposes to the text. }
 12. O-O-O b5 13. Rhg1
@@ -2998,7 +2998,7 @@ Nxd4 Ne5 9. Nc3 { This is the main move in the 3... dxe4 variation. } 9... a6
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 c5 6. Ne2 Nc6 7. Be3 cxd4 8.
 Nxd4 Ne5 9. Nc3 { This is the main move in the 3... dxe4 variation. } 9... a6
 10. Qe2 Nxf3+ 11. gxf3
-{ I first came across this unusual recapture when it was recommended by GM Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, GM Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
+{ I first came across this unusual recapture when it was recommended by Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
 11... Qc7 { This novelty is Black's best try. } 12. O-O-O b5 13. Rhg1
 { The rook on g1 eyes the g7 pawn and stops Black from playing Be7. } 13... Bb7
 14. Nf5
@@ -3019,7 +3019,7 @@ Nxd4 Ne5 9. Nc3 { This is the main move in the 3... dxe4 variation. } 9... a6
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 c5 6. Ne2 Nc6 7. Be3 cxd4 8.
 Nxd4 Ne5 9. Nc3 { This is the main move in the 3... dxe4 variation. } 9... a6
 10. Qe2 Nxf3+ 11. gxf3
-{ I first came across this unusual recapture when it was recommended by GM Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, GM Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
+{ I first came across this unusual recapture when it was recommended by Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
 11... Qc7 { This novelty is Black's best try. } 12. O-O-O b5 13. Rhg1
 { The rook on g1 eyes the g7 pawn and stops Black from playing Be7. } 13... Bb7
 14. Nf5
@@ -3027,7 +3027,7 @@ Nxd4 Ne5 9. Nc3 { This is the main move in the 3... dxe4 variation. } 9... a6
 14... b4 15. Na4 { This knight on the rim is far from dim. } 15... Rc8
 { This is the only move that holds the balance. Black is now threatening ...Bxf3, taking advantage of the fact that Qxf3 is not possible due to ...Qxc2 checkmate. }
 16. Rd2
-{ The most challenging continuation. This move poses Black some practical problems. Beware, you should also know these variations well if you want to enter these complications!  If you want to avoid the complications after 16. Rd2, you can play   16.Nc5  This move leads to a threefold repetition after  16...Bxc5  17.Nxg7  Ke7  18.Nf5  Ke8  19.Ng7  Draw.  16. Rd2 was not considered by IM Langrock in his book/Chessable course on the French Defense so it'll likely catch your opponents by surprise! }
+{ The most challenging continuation. This move poses Black some practical problems. Beware, you should also know these variations well if you want to enter these complications!  If you want to avoid the complications after 16. Rd2, you can play   16.Nc5  This move leads to a threefold repetition after  16...Bxc5  17.Nxg7  Ke7  18.Nf5  Ke8  19.Ng7  Draw.  16. Rd2 was not considered by Langrock in his book/ course on the French Defense so it'll likely catch your opponents by surprise! }
 16... g6
 { This counterintuitive move is quite challenging. Black wants to capture the knight on f5 with the g-pawn. }
 17. Bd4 gxf5 18. Bxf6 Bh6 { This is Black's point. } 19. Kb1 Bxd2 20. Qxd2 Rf8
@@ -3047,7 +3047,7 @@ Nxd4 Ne5 9. Nc3 { This is the main move in the 3... dxe4 variation. } 9... a6
 
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 c5 6. Ne2 Nc6 7. Be3 cxd4 8.
 Nxd4 Ne5 9. Nc3 a6 10. Qe2 Nxf3+ 11. gxf3
-{ I first came across this unusual recapture when it was recommended by GM Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, GM Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
+{ I first came across this unusual recapture when it was recommended by Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
 11... Qc7 12. O-O-O b5 13. Rhg1 Bb7 14. Nf5 b4 15. Na4 Rc8 16. Rd2 g6 17. Bd4
 gxf5 18. Bxf6 Bh6 19. Kb1 Bxd2 20. Qxd2 Rf8 21. b3 a5 22. Qd3
 { Let's shed some light on this unclear position with this informational line. }
@@ -3072,7 +3072,7 @@ gxf5 18. Bxf6 Bh6 19. Kb1 Bxd2 20. Qxd2 Rf8 21. b3 a5 22. Qd3
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 c5 6. Ne2 Nc6 7. Be3 cxd4 8.
 Nxd4 Ne5 9. Nc3 { This is the main move in the 3... dxe4 variation. } 9... a6
 10. Qe2 Nxf3+ 11. gxf3
-{ I first came across this unusual recapture when it was recommended by GM Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, GM Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
+{ I first came across this unusual recapture when it was recommended by Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
 11... Qc7 { This novelty is Black's best try. } 12. O-O-O b5 13. Rhg1
 { The rook on g1 eyes the g7 pawn and stops Black from playing Be7. } 13... Bb7
 14. Nf5
@@ -3096,7 +3096,7 @@ Nxd4 Ne5 9. Nc3 { This is the main move in the 3... dxe4 variation. } 9... a6
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 c5 6. Ne2 Nc6 7. Be3 cxd4 8.
 Nxd4 Ne5 9. Nc3 { This is the main move in the 3... dxe4 variation. } 9... a6
 10. Qe2 Nxf3+ 11. gxf3
-{ I first came across this unusual recapture when it was recommended by GM Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, GM Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
+{ I first came across this unusual recapture when it was recommended by Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
 11... Qc7 { This novelty is Black's best try. } 12. O-O-O b5 13. Rhg1
 { The rook on g1 eyes the g7 pawn and stops Black from playing Be7. } 13... Bb7
 14. Nf5
@@ -3124,7 +3124,7 @@ Bxf8 Rxf8 22. Rd6 Ke7 23. Rxa6
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 c5 6. Ne2 Nc6 7. Be3 cxd4 8.
 Nxd4 Ne5 9. Nc3 { This is the main move in the 3... dxe4 variation. } 9... a6
 10. Qe2 Nxf3+ 11. gxf3
-{ I first came across this unusual recapture when it was recommended by GM Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, GM Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
+{ I first came across this unusual recapture when it was recommended by Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
 11... Qc7 { This novelty is Black's best try. } 12. O-O-O b5 13. Rhg1
 { The rook on g1 eyes the g7 pawn and stops Black from playing Be7. } 13... Bb7
 14. Nf5
@@ -3156,7 +3156,7 @@ Nxd4 Ne5 9. Nc3 { This is the main move in the 3... dxe4 variation. } 9... a6
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 c5 6. Ne2 Nc6 7. Be3 cxd4 8.
 Nxd4 Ne5 9. Nc3 { This is the main move in the 3... dxe4 variation. } 9... a6
 10. Qe2 Nxf3+ 11. gxf3
-{ I first came across this unusual recapture when it was recommended by GM Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, GM Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
+{ I first came across this unusual recapture when it was recommended by Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
 11... Qc7 { This novelty is Black's best try. } 12. O-O-O b5 13. Rhg1
 { The rook on g1 eyes the g7 pawn and stops Black from playing Be7. } 13... Bb7
 14. Nf5
@@ -3187,7 +3187,7 @@ Qb8
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 c5 6. Ne2 Nc6 7. Be3 cxd4 8.
 Nxd4 Ne5 9. Nc3 { This is the main move in the 3... dxe4 variation. } 9... a6
 10. Qe2 Nxf3+ 11. gxf3
-{ I first came across this unusual recapture when it was recommended by GM Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, GM Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
+{ I first came across this unusual recapture when it was recommended by Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
 11... Qc7 { This novelty is Black's best try. } 12. O-O-O b5 13. Rhg1
 { The rook on g1 eyes the g7 pawn and stops Black from playing Be7. } 13... Bb7
 14. Nf5
@@ -3201,7 +3201,7 @@ Nxd4 Ne5 9. Nc3 { This is the main move in the 3... dxe4 variation. } 9... a6
 18. Rd6 { White vacates the d2 square for his king. The rook on d6 is taboo. }
 18... Qa1+ 19. Kd2 Qxg1 20. Nxc8 Bxd6
 { Capturing the rook on d6 loses by force. } 21. Ncxd6+ Kd7 22. Nxb7
-{ Black's king is defenseless against White's two knights, bishop and Queen. White is threatening to capture the pawn on a6.  Based on beta tester feedback and because Chessable has a wide audience, I've decided to mark the following line that illustrates how play is likely to continue as an alternative variation. Ambitious and/or higher-rated players can choose to train the next alternative variation if they see fit. }
+{ Black's king is defenseless against White's two knights, bishop and Queen. White is threatening to capture the pawn on a6.  Based on beta tester feedback and because  has a wide audience, I've decided to mark the following line that illustrates how play is likely to continue as an alternative variation. Ambitious and/or higher-rated players can choose to train the next alternative variation if they see fit. }
 *
 
 [Event "?"]
@@ -3215,7 +3215,7 @@ Nxd4 Ne5 9. Nc3 { This is the main move in the 3... dxe4 variation. } 9... a6
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 c5 6. Ne2 Nc6 7. Be3 cxd4 8.
 Nxd4 Ne5 9. Nc3 { This is the main move in the 3... dxe4 variation. } 9... a6
 10. Qe2 Nxf3+ 11. gxf3
-{ I first came across this unusual recapture when it was recommended by GM Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, GM Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
+{ I first came across this unusual recapture when it was recommended by Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
 11... Qc7 { This novelty is Black's best try. } 12. O-O-O b5 13. Rhg1
 { The rook on g1 eyes the g7 pawn and stops Black from playing Be7. } 13... Bb7
 14. Nf5
@@ -3247,7 +3247,7 @@ Nxd4 Ne5 9. Nc3 { This is the main move in the 3... dxe4 variation. } 9... a6
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 c5 6. Ne2 Nc6 7. Be3 cxd4 8.
 Nxd4 Ne5 9. Nc3 { This is the main move in the 3... dxe4 variation. } 9... a6
 10. Qe2 Nxf3+ 11. gxf3
-{ I first came across this unusual recapture when it was recommended by GM Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, GM Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
+{ I first came across this unusual recapture when it was recommended by Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to my databases.  The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
 11... Qc7 { This novelty is Black's best try. } 12. O-O-O b5 13. Rhg1
 { The rook on g1 eyes the g7 pawn and stops Black from playing Be7. } 13... Bb7
 14. Nf5
@@ -3278,7 +3278,7 @@ Be3 { There is no defense against Qb6 checkmate. } *
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 c5 6. Ne2 Nc6 7. Be3 cxd4 8.
 Nxd4 Ne5 9. Nc3 a6 { This is the main move in the 3... dxe4 variation. } 10.
 Qe2 Nxf3+ 11. gxf3
-{ I first came across this unusual recapture when it was recommended by GM Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, GM Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to Megadatabase 2021.   The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
+{ I first came across this unusual recapture when it was recommended by Avetik Grigoryan in a video series. In this course, I have significantly expanded on the already excellent analysis he provided.   At low depth, the engine thinks Black is actually better but the longer you let it run, the more it starts liking White's position. This unexpected move is very strong and will likely come as surprise to many of your opponents. For instance, Romain Edouard in his French Repertoire video series on chess24 doesn't even cover 11. gxf3. In fact, it has only be played a handful of times over the board according to Megadatabase 2021.   The idea behind 11. gxf3 is to use White's considerable lead in development to seize the initiative. Capturing with the g-pawn opens up the g-file for White's rook and after O-O-O, White is ready to attack Black's king. The alternative would be recapturing on f3 with the knight or the queen, but such a slow approach allows Black to easily equalize.     The natural recapture  11.Qxf3  is well met by  11...e5  12.Nf5?!  Qa5⩱  Black is threatening e4 and is already slightly better. The alternative retreat  12.Nb3=  is better but fails to give White an advantage. It is covered in the 11.Qxf3 alternative variation. }
 11... Qc7 { This novelty is Black's best try. } 12. O-O-O b5 13. Rhg1
 { The rook on g1 eyes the g7 pawn and stops Black from playing Be7. } 13... Bb7
 14. Nf5
@@ -3332,7 +3332,7 @@ Bxc5 14. Nxc5 O-O 15. O-O Qc7 16. Nd3
 [Black " 1-0 Onischuk,V (2601) -Vusatiuk,V (2344) 2017"]
 [Result "*"]
 
-{ This model game in the 3... c5 variation was played between GM Vladimir Onischuk and IM Vladimir Vusatiuk in 2017. Onischuk, a very strong 2600+ GM, is a specialist in the 3.Bd3 variation and here we are going to see how he defeated an IM in only 18 moves. }
+{ This model game in the 3... c5 variation was played between Vladimir Onischuk and Vladimir Vusatiuk in 2017. Onischuk, a very strong 2600+ , is a specialist in the 3.Bd3 variation and here we are going to see how he defeated an in only 18 moves. }
 1. e4 e6 2. d4 d5 3. Bd3 c5
 { This transposes to a variation of the Exchange French, where Black will be left with an isolated pawn on d5. This might not be everyone's cup of tea. }
 4. exd5 Qxd5
@@ -3390,7 +3390,7 @@ Rg8 25. Qf6+
 [Black " 1-0 Onischuk,V (2618) -Harika,D (2509) 2015"]
 [Result "*"]
 
-{ This model game is  (almost)  a miniature by GM Onischuk in the3... dxe4 9... Be7 variation. }
+{ This model game is  (almost)  a miniature by Onischuk in the3... dxe4 9... Be7 variation. }
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 c5 6. Ne2 Nc6 7. Be3 cxd4 8.
 Nxd4 Ne5 9. Nc3 Be7 10. Qe2 Nxf3+ 11. Qxf3
 { 11.gxf3, opening up the g-file and intending to follow up with 0-0-0, was also possible. }
@@ -3425,7 +3425,7 @@ Kf8 29. Rd7 Qxd7 30. Qxd7 Rxg6 31. Qf5
 [Black " 1-0 Lomasov,S (2540) -Sachdev,T (2400) 2018"]
 [Result "*"]
 
-{ In this model game, GM Lomasov with the White pieces gives a textbook demonstration on how to play against Black's bishop pair and attack the weak c5 and c6 pawns in the 3... dxe4 7... e5 variation. }
+{ In this model game, Lomasov with the White pieces gives a textbook demonstration on how to play against Black's bishop pair and attack the weak c5 and c6 pawns in the 3... dxe4 7... e5 variation. }
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 c5 6. Ne2 Nc6 7. Be3 e5
 { Black tries to immediately liberate his c8 bishop with 7... e5 and is even threatening ...e4. }
 8. Bxc6+
@@ -3580,7 +3580,7 @@ Nd6+ Bxd6 14. Qxd6
 [Black "0-1 Kramnik,V (2808) -Caruana,F (2808) 2017"]
 [Result "*"]
 
-{ We are now going to look at a blitz game between GM Vladimir Kramnik with the White pieces and GM Fabiano Caruana with Black. White got a winning position after only 12 moves but then failed to find the best continuation and even ended up losing the game after blundering later on. Well, as I said, it was only a blitz game. Most importantly, the opening with 3. Bd3 was a huge success. }
+{ We are now going to look at a blitz game between Vladimir Kramnik with the White pieces and Fabiano Caruana with Black. White got a winning position after only 12 moves but then failed to find the best continuation and even ended up losing the game after blundering later on. Well, as I said, it was only a blitz game. Most importantly, the opening with 3. Bd3 was a huge success. }
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 c5 6. Ne2 Nc6 7. Be3 Nd5 8.
 Bxd5 Qxd5 9. Nbc3 Qxg2 10. Rg1 Qf3 11. Nb5 Rb8 12. dxc5
 { After only 12 moves, White is already close to winning. The opening was clearly a huge success. }
@@ -3617,7 +3617,7 @@ e2 54. Rf5 Re7
 [Black " 1-0 Vachier Lagrave,M (2793) -Van der Lende,I (2332) 2018"]
 [Result "*"]
 
-{ We are now going to look at a rapid game between GM Maxime Vachier Lagrave and IM Ilias Van Der Lende played in the 2018 PRO League group stage. }
+{ We are now going to look at a rapid game between Maxime Vachier Lagrave and Ilias Van Der Lende played in the 2018 PRO League group stage. }
 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 c5 6. Ne2 Nc6 7. Be3 Nd5 8.
 Bxd5 Qxd5 9. Nbc3 Qh5 10. Nb5
 { This was all covered inchapter 5 of the course. } 10... Rb8
@@ -3690,7 +3690,7 @@ Bd6 { Black had to play ...h5. } 22. h5 Bxc5
 [Black "1-0 flyingbishop97 vs. SchieberSpieler Lichess 2020"]
 [Result "*"]
 
-{ The following is a 30 min rapid game played by the Chessable user flyingbishop97, who is atop the leaderboard of this course. He put all those Chessable points to good use and defeated a FM in the following game, which he annotated for the website chesstuts.com and granted me permission to include in this course.  Almost all the  (excellent)  annotations are by flyingbishop97 and I just added a few minor comments, which I denoted with CFL  (no, not the Canadian Football League but my Chessable username Chessforlife!)  . }
+{ The following is a 30 min rapid game played by the  user flyingbishop97, who is atop the leaderboard of this course. He put all those  points to good use and defeated a in the following game, which he annotated for the website chesstuts.com and granted me permission to include in this course.  Almost all the  (excellent)  annotations are by flyingbishop97 and I just added a few minor comments, which I denoted with CFL  (no, not the Canadian Football League but my  username Chessforlife!)  . }
 1. e4 { Well, what did you expect? I love me some 1. e4. } 1... e6
 { My opponent goes for the French Defense. I have mixed feelings about this opening. On the one hand, it's a strong weapon, but on the other, it just doesn't feel right, blocking in that c8-bishop. }
 2. d4 d5 3. Bd3
@@ -3811,7 +3811,7 @@ Kd5 { He had to do something. } 48. Nb6+ Ke6 49. Nxd7 Kxd7 50. Kxf5
 { Black is just lost now.   55...Kc6  56.a4!  Is the point. Whichever way Black goes, we will take the other way. }
 56. bxa4 Kc6 57. a5 Kd6 58. a6 Kc6 59. a7 Kb7 60. Kxc5 Kxa7 61. Kd5 Ka6 62. Ke5
 Ka5 63. Kf5 Ka4 64. Kg5 Kxa3 65. Kxh5 Kb4 66. Kg6 Kc5 67. h5 Kd6 68. h6
-{ This was a very nice win, my first over a FM in classical!   CFL: Congrats flyingbishop and thanks a lot for sending over this game with fantastic annotations! }
+{ This was a very nice win, my first over a in classical!   CFL: Congrats flyingbishop and thanks a lot for sending over this game with fantastic annotations! }
 *
 
 [Event "?"]
@@ -3823,7 +3823,7 @@ Ka5 63. Kf5 Ka4 64. Kg5 Kxa3 65. Kxh5 Kb4 66. Kg6 Kc5 67. h5 Kd6 68. h6
 [Result "*"]
 
 1. --
-{ I decided to include several nice combinations I came across when going through games in the 3. Bd3 variation. Some of these tactical patterns have occurred in multiple games in this variation, i.e. they are typical motifs. A few others were just pretty so I decided to include them.  I hope you have some fun trying to solve these exercises!   Note that some of them are quite hard so don't worry if you don't find the correct solution on your first attempt. I'd recommend trying to calculate the forcing variations until the end  (and not just trying to guess the first move)  and writing down what you saw before checking the solution.  Finally, I'd recommend setting the quiz timer to infinity  (or at least a couple of minutes)  . It's 60 seconds by default because this is an opening course and Chessable does not, as of the time I'm writing this, allow for different quiz timers in different chapters. }
+{ I decided to include several nice combinations I came across when going through games in the 3. Bd3 variation. Some of these tactical patterns have occurred in multiple games in this variation, i.e. they are typical motifs. A few others were just pretty so I decided to include them.  I hope you have some fun trying to solve these exercises!   Note that some of them are quite hard so don't worry if you don't find the correct solution on your first attempt. I'd recommend trying to calculate the forcing variations until the end  (and not just trying to guess the first move)  and writing down what you saw before checking the solution.  Finally, I'd recommend setting the quiz timer to infinity  (or at least a couple of minutes)  . It's 60 seconds by default because this is an opening course and  does not, as of the time I'm writing this, allow for different quiz timers in different chapters. }
 *
 
 [Event "?"]
@@ -3853,14 +3853,14 @@ Ka5 63. Kf5 Ka4 64. Kg5 Kxa3 65. Kxh5 Kb4 66. Kg6 Kc5 67. h5 Kd6 68. h6
 [FEN "2rrn1k1/1p1bbppp/pq2p3/4B3/3N4/2N3RQ/PPP2PPP/1K1R4 w - - 0 1"]
 [SetUp "1"]
 
-{ This position resulted from the3. Bd3 dxe4 7. ..cxd4 9... Be7 variation. GM Semen Lomasov with the White pieces followed the typical plan of O-O-O and started a vicious attack on Black's king. How did he proceed? }
+{ This position resulted from the3. Bd3 dxe4 7. ..cxd4 9... Be7 variation. Semen Lomasov with the White pieces followed the typical plan of O-O-O and started a vicious attack on Black's king. How did he proceed? }
 1. Bxg7
-{ IM Li Peng with the Black pieces surely saw this coming and thought he could divert White's rook from g3 with: }
+{ Li Peng with the Black pieces surely saw this coming and thought he could divert White's rook from g3 with: }
 1... Rxc3 { What continuation did Black miss ? } 2. f3
 { This must have come as a surprise! White blocks the rook on c3 and is now threatening Bf6+ followed by Qh6 with checkmate.   Black was probably counting on  2.Rxc3  Nxg7∓  when he would be doing very well. }
 2... Nxg7 3. Qh6 Bf8 { It looks as if Black managed to defend himself... } 4.
 Nf5
-{ The only move that wins! White takes advantage of the loose queen on b6. Black resigned since he has no defense against Rxg7 followed by Qxg7 checkmate. White spotted this beautiful knight move before playing Bxg7!  Note that   24.Rh3  does not win because of  24...f6  creating a square for the king on f7  25.Qxh7  Kf7  Black is actually winning now as White is down two pieces and has no more threats.  1-0 Lomasov, Semen  (2546)  vs Peng, Li Min  (2426)  Petah Tivka Winter GM 2020 }
+{ The only move that wins! White takes advantage of the loose queen on b6. Black resigned since he has no defense against Rxg7 followed by Qxg7 checkmate. White spotted this beautiful knight move before playing Bxg7!  Note that   24.Rh3  does not win because of  24...f6  creating a square for the king on f7  25.Qxh7  Kf7  Black is actually winning now as White is down two pieces and has no more threats.  1-0 Lomasov, Semen  (2546)  vs Peng, Li Min  (2426)  Petah Tivka Winter 2020 }
 *
 
 [Event "?"]
@@ -3893,7 +3893,7 @@ Nd5
 [FEN "2b2r2/p4R1p/2p2Bpb/2p5/2P1NkP1/1PK2P2/P6P/8 w - - 0 1"]
 [SetUp "1"]
 
-{ This position arose from the 3. Bd3 dxe4 7...e5 variation &#40once again, note the weak doubled pawns on c5 and c6 characteristic of this line&#41. Black's king is surrounded by White's pieces. Can you find the move GM Semen Lomasov played in this position? }
+{ This position arose from the 3. Bd3 dxe4 7...e5 variation &#40once again, note the weak doubled pawns on c5 and c6 characteristic of this line&#41. Black's king is surrounded by White's pieces. Can you find the move Semen Lomasov played in this position? }
 1. Bg5+ { Double-check ! } 1... Ke5 2. Re7+ Be6 3. Bxh6
 { Black resigned since she is down a piece. 1-0  (30)  Lomasov,S  (2540)  -Sachdev,T  (2400)  Douglas 2018. If you did not recognize the initial position, take a closer look at game #4 in the model games chapter. }
 *
