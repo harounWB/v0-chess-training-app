@@ -1,4 +1,4 @@
-﻿[Event "?"]
+[Event "?"]
 [Site "?"]
 [Date "????.??.??"]
 [Round "?"]
@@ -6,10 +6,10 @@
 [Black "4.0-0 e6 5.d3 h6 6.Nfd2!?"]
 [Result "*"]
 [ECO "A07"]
-[Annotator "GM Alvar Alonso"]
+[Annotator "Alvar Alonso"]
 [PlyCount "28"]
 
-1. Nf3 {Let's analyze in this chapter how we can play the Reversed-London setup if White gets too comfortable and goes for the KIA without any early and spicy c2-c4.} d5 2. g3 c6 3. Bg2 Bf5 4. O-O e6 5. d3 h6 $1 {This is a significant move in order to punish the White setup. This way we prevent c4-cxd5 setups and we have a great practical answer that gave me a winning position against a strong GM.} 6. Nfd2 $5 {[%cal Ge2e4] This plan is pretty common against the London. White wants to push for e4 without wasting tempos with the queen or the rook. It is the most challenging for Black, as you can get steamrolled by the e,f, and g pawns in the blink of an eye.} Bh7 7. e4 Nf6 8. Nc3 Be7 9. f4 {White follows up with the usual expansion. Now we don't want to castle too fast and justify g4-g5.} a5 {Doing some business on the queenside before castling looks smart. As we'll see plenty in this chapter, a5-a4 fits very well with the London-esque lines.} (9... O-O 10. g4 $5 $14 {[%cal Ge4e5,Gf4f5] The permanent threat of e4-e5 and/or f4-f5 is very unpleasant in practice.}) 10. Qe2 a4 {[%cal Ga4a3]} 11. a3 {Allowing a4-a3 would be great to cronically pressure the c3 knight and to have the b4 square for our b8 knight as well.} dxe4 {Now that Nbd7 is imminent, we want to have room for the f6 knight on d5 in case of e4-e5.} 12. dxe4 Qc7 13. g4 Nbd7 14. Kh1 b5 $132 {Now, g7-g5 could be an interesting idea to get the dark squares, as Nc4 is not possible anymore. This position requires some practice, but it doesn't look easy at all to follow up the attack for White.} *
+1. Nf3 {Let's analyze in this chapter how we can play the Reversed-London setup if White gets too comfortable and goes for the KIA without any early and spicy c2-c4.} d5 2. g3 c6 3. Bg2 Bf5 4. O-O e6 5. d3 h6 $1 {This is a significant move in order to punish the White setup. This way we prevent c4-cxd5 setups and we have a great practical answer that gave me a winning position against a strong .} 6. Nfd2 $5 {[%cal Ge2e4] This plan is pretty common against the London. White wants to push for e4 without wasting tempos with the queen or the rook. It is the most challenging for Black, as you can get steamrolled by the e,f, and g pawns in the blink of an eye.} Bh7 7. e4 Nf6 8. Nc3 Be7 9. f4 {White follows up with the usual expansion. Now we don't want to castle too fast and justify g4-g5.} a5 {Doing some business on the queenside before castling looks smart. As we'll see plenty in this chapter, a5-a4 fits very well with the London-esque lines.} (9... O-O 10. g4 $5 $14 {[%cal Ge4e5,Gf4f5] The permanent threat of e4-e5 and/or f4-f5 is very unpleasant in practice.}) 10. Qe2 a4 {[%cal Ga4a3]} 11. a3 {Allowing a4-a3 would be great to cronically pressure the c3 knight and to have the b4 square for our b8 knight as well.} dxe4 {Now that Nbd7 is imminent, we want to have room for the f6 knight on d5 in case of e4-e5.} 12. dxe4 Qc7 13. g4 Nbd7 14. Kh1 b5 $132 {Now, g7-g5 could be an interesting idea to get the dark squares, as Nc4 is not possible anymore. This position requires some practice, but it doesn't look easy at all to follow up the attack for White.} *
 
 [Event "?"]
 [Site "?"]
@@ -19,7 +19,7 @@
 [Black "4.0-0 e6 5.d3 h6 6.c4"]
 [Result "*"]
 [ECO "A07"]
-[Annotator "GM Alvar Alonso"]
+[Annotator "Alvar Alonso"]
 [PlyCount "28"]
 
 1. Nf3 d5 2. g3 c6 3. Bg2 Bf5 4. O-O e6 5. d3 h6 $1 6. c4 {I'll put this 6. c4 in this chapter as it is the more passive one and we are thrilled to face it.} dxc4 7. dxc4 {[%csl Rc4,Gc6] White is already much worse statically and needs to be careful. Playing 5. ... h6 is key as White cannot bring down the light-squared bishop and the c6 pawn completely paralyzes White's position. This pawn structure can be seen in 1. d4 d6 2. c4 e5 3. dxe5? dxe5 and Black is already on the driver's seat. White cannot push the queenside reliably and the c4 pawn gives very nice black squares on c5 and b4. We aim to exchange as few pieces as possible so our opponent messes up the lack of threats and utility with the space.} (7. d4 $1 {This weird pawn sacrifice was played a couple of times by young promising Indians with inferior results. It is much much better than dxc4. White technically gets a small Catalan-ish advantage as h7-h6 is not very useful here. But it feels like a Slav with g3 so we are excellent anyway. At least White is fighting properly here.} Nf6 8. Nbd2 Be7 9. Nxc4 O-O 10. Nfe5 $1 {[%cal Rd1b3,Rf1d1] To prevent b7-b5 counterattaks and now Qb3-Rd1 might be an idea.} (10. b3 Nbd7 11. Bb2 b5 $1 12. Ncd2 Rc8 $36 {0-1 (55) Aditya,M (2438) -Lazavik,D (2436) Tornelo INT 2020}) 10... Be4 $5 $132 {This might be the best outcome for White but it doesn't look to me that black is in any danger soon.}) 7... Nd7 $1 {I feel it is more practical to keep the queens on the board as we have an excellent square on c7 or c8 and the White queen doesn't really know where to go.} 8. Nc3 Ngf6 $11 9. Bf4 Be7 10. Qe1 (10. Bd6 a5 $5 {[%cal Gd7c5] Feels simpler. 10. ... Bxd6 and Qe7 is also excellent. Now Nc5 is coming and we seize the dark squares and also prevent e2-e4.} 11. Na4 O-O $15 {[%cal Gf6e4]}) (10. Re1 Bh7 11. e4 Nc5 $15 12. Nd4 a5 {[%csl Gd7][%cal Gf6d7]} 13. e5 $6 Nfd7 $17 {[%cal Yh7b1] A great example on how White cannot even expand or gain space reliably. Now, g7-g5 is a serious threat, and the h7 bishop slices through the position swiftly. Black won very quickly in 0-1 (28) Plenkovic,Z (2386)-Jovanic,O (2467) Zadar 2014} 14. Nd5 cxd5 15. cxd5 O-O 16. Qg4 Kh8 17. Rad1 exd5 18. Nf5 Bxf5 19. Qxf5 Nb6 20. Bxh6 gxh6 21. Qh5 Bg5 22. h4 Ne6 23. Bxd5 Nxd5 24. Qf3 Nec7 25. hxg5 Qxg5 26. Re4 f5 27. Rh4 f4 28. Qh1 Ra6 {0-1 (28) Plenkovic,Z (2386)-Jovanic,O (2467) Zadar 2014}) 10... g5 $5 {This move was even suggested a move before by the engine, so I felt it made a lot of sense here! We prevent White from exchanging any piece and restrict our opponent even more.} 11. Bc1 e5 12. b3 Qc7 13. Bb2 O-O 14. e4 (14. h4 g4 15. Nd2 Bg6 $1 $132 {[%csl Rb2,Rc3,Rd2][%cal Gf6h5,Gf7f5] Was my idea during the game as Nde4 is answered with Nh5! and we keep making fun of the lack of proper space for White to maneuver.}) 14... Bg6 $15 {[%csl Gb4,Gc5,Gd4][%cal Gf8e8,Ga8d8] Got an excellent position that later on was a winning position but ended up spoiling it. I hope you can finish my work :). We have total control of the position, and White is too weak on the dark squares and has too many pieces. ½-½ (51) Bogosavljevic,B (2533)-Alonso Rosell,A (2563) Germany 2023} *
@@ -32,7 +32,7 @@
 [Black "4.0-0 e6 5.d3 h6 6.Nbd2"]
 [Result "*"]
 [ECO "A07"]
-[Annotator "GM Alvar Alonso"]
+[Annotator "Alvar Alonso"]
 [PlyCount "28"]
 
 1. Nf3 d5 2. g3 c6 3. Bg2 Bf5 4. O-O e6 5. d3 h6 $1 6. Nbd2 {[%cal Ge2e4] The most common approach. White can now follow up with e2-e4 or with b2-b3.} Nf6 7. b3 $5 {This is the most common plan to have both fianchettos.} (7. Qe1 {Remember 7. Re1 is a bit useless as e2-e4 is not even a threat due to the pin on the d file.} Be7 8. e4 Bh7 9. Ne5 O-O 10. f4 a5 $1 {[%cal Ga5a4] We play the same plan as usual.} 11. Kh1 (11. a4 Na6 $15 {[%cal Ga6b4] This is too easy for black.}) 11... a4 12. g4 {Looks menacing but not too dangerous.} dxe4 {It is technically unnecessary, but it makes sense to open the a bit position to dilute the White attack.} 13. dxe4 Nbd7 $15 {[%cal Gf6d7,Gd7c5] The expansion through the queenside gives us a very healthy counterplay.}) (7. c4 $5 {[%cal Gc4d5] Since now dxc4 is impossible, we need to look for cxd5 ideas.} Nbd7 {It is important now to prevent cxd5-Qb3 or e2-e4 ideas depending on which pawn retakes d5.} 8. cxd5 (8. b3 {Now White can transpose to the usual plan. I'll give another approach to face this structure that gave me a couple of wins OTB. Maybe you like it even more than the main one!} Bc5 {Since White doesn't really want to play d3-d4, we can stay here and give room to the queen on e7 if needed.} 9. Bb2 O-O 10. a3 a5 11. Ra2 (11. Bc3 Qe7 {[%csl Ga3]} 12. Qc1 Rfe8 $1 13. Qb2 e5 $15 {This is a good example of how this line can be a bit more ambitious and useful.}) (11. Qc2 Qe7 $15 {[%cal Ge6e5,Gb7b5] We want to push for e6-e5 or even b7-b5, depending on how White plays. White doesn't really have any active plan as b3-b4 is impossible.}) 11... Qb6 $15 {[%cal Gf8e8,Yc5f8,Gb6a7,Ya5b4] Here we can copy the idea we gave in the main line, as Qa7 prevents any b3-b4 ideas.}) 8... cxd5 $1 9. e4 Bh7 $11 {[%cal Gd7c5,Gf8c5,Yd5e4] We don't want to open up the position for the g2 bishop. You just need to know that e4-e5 is wrong, as Ng8-Ne7 is a great rerouting. So don't go playing Be7 carelessly.}) 7... Be7 8. Bb2 O-O 9. Re1 {[%cal Ge2e4]} (9. c4 a5 10. a3 {[%cal Gb3b4] Here White has some ideas. Bc3-Qb2-b4 and Ra2-Qa1. We have interesting approaches against both.} Bh7 11. Ra2 (11. Qc2 Qb6 {Looks good enough to slow down White's plan.} 12. Bc3 (12. Rfb1 {This move always has issues with f2.} Ng4 $1 {[%cal Gb6f2,Gg4f2]} 13. Bd4 c5 14. Bb2 Nc6 $15 {[%csl Ra1,Rb1] The White position is a bit silly.}) 12... c5 $5 13. cxd5 exd5 {[%cal Gb8c6]}) (11. Bc3 {[%cal Gb3b4]} c5 $5 {This change of pace can be tricky but we focus on not allowing our opponent to play a pleasant and simple plan with b4-b5 while our h7 bishop is out of the game.} 12. cxd5 (12. Ne5 d4 $1 13. Bb2 Nbd7 $15 {White lacks space.}) 12... exd5 {[%cal Gd5d4]} 13. e4 $5 {You need to expect e2-e4 in almost every position in this setup.} (13. d4 Nc6 $15 {This is an excellent isolated pawn game and our h7 bishop is very happy.}) 13... dxe4 14. dxe4 Nxe4 15. Nxe4 Bxe4 $11 {Our pawn structure is not ideal but I don't think White has anything else than some compensation.}) 11... Qb6 $5 12. Qa1 Rd8 {[%csl Ra1,Ga7,Gc5][%cal Ge7c5,Gb6a7,Ya5b4] With this move we allow Ne8 or Bf8 ideas later on. Now Just Nbd7 would be a great follow-up.} 13. Bc3 Qa7 $1 $15 {[%cal Ya7a2] This hidden idea makes it very hard for White to do anything productive. We could go for c5-Nc6 and get some space in the center if we feel ambitious. Another option could be Nbd7 and maybe b7-b5 plans after Rfc8 or even a passive approach with Bf8 could be interesting.}) (9. Qe1 {[%cal Ge2e4]} a5 {As usual we want White to react and then we play accordingly.} 10. e4 Bh7 11. a4 (11. a3 Nfd7 $5 {Many moves are fine but again I feel being safe and playing ahead of our opponent is the best practical approach.} 12. Qe2 c5 {[%cal Gb8c6,Gf8e8] Now we shifted the approach and White doesn't have any of the typical plans available and our play is pretty easy with Nc6-Re8-Bf8 and let White overextend. We always have the shadow of a5-a4 in our favour.}) 11... Na6 {[%cal Ga6b4,Yf3e5,Yf6d7] We have this sweet b4 square and we want to counter Ne5 with Nd7 as usual.} 12. Qe2 Nd7 $1 {[%csl Rd2,Re2,Rf3,Rg2][%cal Gf8e8,Gb7b5] We got ahead of all White ideas and now we simply have in mind to play useful moves like Re8 and go for b5 eventually. White doesn't have any active play or breakthrough.}) (9. Ne5 {[%cal Ge2e4]} Nbd7 {We challenge the knight inmediately. We don't want White to press easily with f4-g4.} 10. e4 Bh7 11. Nxd7 Nxd7 12. Qe2 a5 $1 {As usual we want to force White to define the queenside pawn structure.} 13. a4 Bf6 $1 {[%csl Gc3][%cal Gb7b5] We want to seize the dark squares on the queenside and we always have b7-b5 themes later on.} 14. e5 Be7 15. f4 b5 {[%cal Gb5a4,Yd7c5,Yc5a6] Taking on a4 and looking to actively press with the knight with Nc5-Na6-Nb4 looks very easy and White's attack is very far from real as the queenside is too exposed. In the case of 13. a3, now we could follow with 15. ... a4! 16. b4 c5! and we manage to open the queenside as well.}) 9... a5 $5 {We want to wait for the b8 knight to develop depending how White plays.} 10. e4 Bh7 11. a4 (11. a3 $5 {White wants to remain a bit more flexible.} Nbd7 {[%csl Rd7][%cal Gf3e5]} 12. e5 (12. Qe2 b5 $132 {[%cal Gd8b6,Gf8d8] After Qb6 I don't really see what White is doing after completing the development. We can also go for 12. ... Rc8 and wait a bit for our opponent to let them make a mistake. Be careful not to play Re8 as e5! would leave us without a proper square for the f6 knight.}) 12... Ne8 $15 {[%csl Rh7][%cal Gc6c5,Ge8c7,Gb7b5] Now it is quite obvious to follow up with Nc7-c5-b5 and expand all the way as if it was a typical KIA.}) 11... Na6 {[%cal Gf6d7,Gd7c5,Ga6b4,Yb7b5] This move makes a lot of sense as we head towards b4. I'd say it is incredibly bad for White the tendency of the position.} 12. e5 (12. Ne5 Bb4 $1 $15 {[%csl Re4] And we force White to play c2-c3 or exd5, shutting down White's plan.}) 12... Nd7 13. Nd4 Nb4 $15 {[%csl Rh7] In general Nc5 and b5 is an excellent plan that kills the entire queenside eventually. We have an amazing bishop on h7 as an attacker and defender.} 14. h4 (14. Bf1 Nb8 $5 {[%cal Gc6c5,Gb8c6,Yb7b5] We aim for c5-Nc6 or even Qd7-b5 if White gets too comfortable. 14. ... Qc7 was a bit off after 15. N2f3 c2-c3 is a threat so b5 doesn't work well here.}) 14... Qc7 $1 {[%csl Gb5][%cal Gb7b5] Followed by b5 and we get an impressive counterplay.} *
@@ -45,7 +45,7 @@
 [Black "?"]
 [Result "*"]
 [ECO "A07"]
-[Annotator "GM Alvar Alonso"]
+[Annotator "Alvar Alonso"]
 [PlyCount "20"]
 [EventDate "2023.10.26"]
 
@@ -59,7 +59,7 @@
 [Black "?"]
 [Result "*"]
 [ECO "A11"]
-[Annotator "GM Alvar Alonso"]
+[Annotator "Alvar Alonso"]
 [PlyCount "22"]
 [EventDate "2023.10.26"]
 
@@ -73,7 +73,7 @@
 [Black "?"]
 [Result "*"]
 [ECO "A06"]
-[Annotator "GM Alvar Alonso"]
+[Annotator "Alvar Alonso"]
 [PlyCount "12"]
 [EventDate "2023.10.26"]
 
@@ -87,7 +87,7 @@
 [Black "4.Nc3 a6 - Staying in Reti"]
 [Result "*"]
 [ECO "A11"]
-[Annotator "GM Alvar Alonso"]
+[Annotator "Alvar Alonso"]
 [PlyCount "16"]
 [EventDate "2023.10.26"]
 
@@ -101,7 +101,7 @@
 [Black "4.Nc3 a6 5.d4 - Chebanenko"]
 [Result "*"]
 [ECO "D45"]
-[Annotator "GM Alvar Alonso"]
+[Annotator "Alvar Alonso"]
 [PlyCount "18"]
 [EventDate "2023.10.26"]
 
@@ -115,7 +115,7 @@
 [Black "4.d4"]
 [Result "*"]
 [ECO "B13"]
-[Annotator "GM Alvar Alonso"]
+[Annotator "Alvar Alonso"]
 [PlyCount "22"]
 [EventDate "2023.10.26"]
 
@@ -129,7 +129,7 @@
 [Black "4.cxd5"]
 [Result "*"]
 [ECO "A11"]
-[Annotator "GM Alvar Alonso"]
+[Annotator "Alvar Alonso"]
 [PlyCount "12"]
 
 1. c4 c6 2. e4 $5 d5 3. exd5 cxd5 4. cxd5 Nf6 5. Bb5+ {This is not especially dangerous, but I lost against it so it is not stupid.} (5. Nc3 Nxd5 6. Nf3 Nc6 7. Bb5 e6 {[%cal Gf8d6,Gc8d7,Ge8g8] Followed by Bd6-0-0-Bd7. White doesn't have a threatening square for the c1 bishop, and we finish the development swiftly. 7. ... g6 is very interesting but we are analyzing the panov through 1. c4, so it is not too likely so I prefer to give safe and practical ideas. You can dig deeper if you want.}) (5. Qa4+ {Here you just need to know the precise move order.} Nbd7 6. Nc3 g6 7. Bc4 Bg7 8. Nf3 (8. d3 a6) 8... a6 $1 {This kinda new line kills the variation.} 9. d3 Rb8 {[%cal Gb7b5]} 10. Qd1 (10. Bb3 b5 11. Qf4 (11. Qh4 {This forces us into a tricky variation (as we might be afraid to lose a pawn later on).} Nc5 12. O-O Nxb3 13. axb3 Nxd5 14. Bh6 O-O $1 15. Nxd5 Qxd5 16. Bxg7 Kxg7 17. Qxe7 Bb7 $15 {[%csl Rb2,Rb3,Rd3]}) 11... Bb7 {[%cal Gd7c5]} 12. Be3 O-O 13. O-O {Here we have many interesting pawn sacrifices.} b4 $11 14. Qxb4 Bxd5 15. Qd4 Bxb3 16. axb3 Rxb3 17. Rfb1 Qb8 18. Rxa6 Rxb2 19. Rxb2 Qxb2 20. Ra2 Qb8 21. Ra3 Rc8 22. Bd2 Nc5 23. Bf4 Qb7 24. Be5 Qb2 {0-1 (24) Bhakti,K (2231)-Gagare,S (2446) Mumbai 2014}) 10... b5 11. Bb3 Bb7 12. Bf4 Rc8 13. d6 O-O $15 {[%csl Gb7,Gg7][%cal Gd7c5,Yf8d8] We have more than compensation. White pieces don't have any coordination.}) 5... Nbd7 6. Nf3 (6. Nc3 a6 7. Be2 (7. Qa4 g6 8. Nf3 Bg7 9. O-O O-O {[%cal Gd7b6]} 10. Bxd7 Nxd7 $15 {[%cal Gb7b5,Gd7b6]}) 7... Nb6 $11) 6... a6 $1 {[%cal Gb7b5] Taking on d5 It is a soft mistake, as we have a very weird knight on d7. After b5-Bb7 we achieve a nice blockade on d5 and White is in danger.} *
@@ -141,13 +141,13 @@
 [White "Test 1"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Alvar Alonso"]
+[Annotator "Alvar Alonso"]
 [SetUp "1"]
 [FEN "rn1qkbnr/pp3ppp/2p1p3/3p1b2/8/3P1NP1/PPP1PPBP/RNBQ1RK1 b kq - 0 5"]
 [PlyCount "9"]
 [EventDate "2023.10.26"]
 
-{[#]} 5... h6 $1 {This is a significant move in order to punish the White setup. This way we prevent c4-cxd5 setups and we have a great practical answer that gave me a winning position against a strong GM.} 6. Nfd2 $5 {[%cal Ge2e4] This plan is pretty common against the London. White wants to push for e4 without wasting tempos with the queen or the rook. It is the most challenging for Black, as you can get steamrolled by the e,f, and g pawns in the blink of an eye.} Bh7 7. e4 Nf6 8. Nc3 Be7 9. f4 {White follows up with the usual expansion. Now, we don't want to castle too fast and justify g4-g5.} a5 {Doing some business on the queenside before castling looks smart. As we'll see plenty in this chapter, a5-a4 fits very well with the London-esque lines.} (9... O-O 10. g4 $5 $14 {[%cal Ge4e5,Gf4f5] The permanent threat of e4-e5 and/or f4-f5 is very unpleasant in practice.}) *
+{[#]} 5... h6 $1 {This is a significant move in order to punish the White setup. This way we prevent c4-cxd5 setups and we have a great practical answer that gave me a winning position against a strong .} 6. Nfd2 $5 {[%cal Ge2e4] This plan is pretty common against the London. White wants to push for e4 without wasting tempos with the queen or the rook. It is the most challenging for Black, as you can get steamrolled by the e,f, and g pawns in the blink of an eye.} Bh7 7. e4 Nf6 8. Nc3 Be7 9. f4 {White follows up with the usual expansion. Now, we don't want to castle too fast and justify g4-g5.} a5 {Doing some business on the queenside before castling looks smart. As we'll see plenty in this chapter, a5-a4 fits very well with the London-esque lines.} (9... O-O 10. g4 $5 $14 {[%cal Ge4e5,Gf4f5] The permanent threat of e4-e5 and/or f4-f5 is very unpleasant in practice.}) *
 
 [Event "?"]
 [Site "?"]
@@ -156,7 +156,7 @@
 [White "Test 2"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Alvar Alonso"]
+[Annotator "Alvar Alonso"]
 [SetUp "1"]
 [FEN "r2q1rk1/pp1nbpp1/2p1pn1p/5b2/2NP4/1P3NP1/PB2PPBP/R2Q1RK1 b - - 0 11"]
 [PlyCount "3"]
@@ -171,7 +171,7 @@
 [White "Test 6"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Alvar Alonso"]
+[Annotator "Alvar Alonso"]
 [SetUp "1"]
 [FEN "r2qkb1r/pp1n1pp1/2p1pn1p/3P1b2/8/3P1NP1/PP1NPPBP/R1BQ1RK1 b kq - 0 8"]
 [PlyCount "3"]
@@ -186,7 +186,7 @@
 [White "Test 3"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Alvar Alonso"]
+[Annotator "Alvar Alonso"]
 [SetUp "1"]
 [FEN "rn1qkbnr/pp3ppp/2p1p3/5b2/2p5/N4NP1/PP1PPPBP/R1BQ1RK1 b kq - 0 6"]
 [PlyCount "7"]
@@ -201,7 +201,7 @@
 [White "Test 4"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Alvar Alonso"]
+[Annotator "Alvar Alonso"]
 [SetUp "1"]
 [FEN "rn1qkb1r/pp3ppp/2p1pn2/3p4/2P3b1/5NPP/PP1PPPB1/RNBQ1RK1 b kq - 0 6"]
 [PlyCount "5"]
@@ -216,7 +216,7 @@
 [White "Test 5"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Alvar Alonso"]
+[Annotator "Alvar Alonso"]
 [SetUp "1"]
 [FEN "r3kbnr/pppq1ppp/2n1b3/3pp3/8/2NP1NP1/PPP1PPBP/R1BQ1RK1 b kq - 0 6"]
 [PlyCount "5"]
@@ -231,7 +231,7 @@
 [White "Test 7"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Alvar Alonso"]
+[Annotator "Alvar Alonso"]
 [SetUp "1"]
 [FEN "rnbqkb1r/5ppp/p3pn2/1p6/3NP3/1BN5/PP3PPP/R1BQK2R b KQkq - 0 10"]
 [PlyCount "5"]
@@ -246,7 +246,7 @@
 [White "Test 8"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Alvar Alonso"]
+[Annotator "Alvar Alonso"]
 [SetUp "1"]
 [FEN "r1bq1rk1/1p1n1ppp/p1pbpn2/3p4/2PPP3/1PNB1N2/P2B1PPP/R2Q1RK1 b - - 0 10"]
 [PlyCount "9"]
@@ -261,7 +261,7 @@
 [White "Test 9"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Alvar Alonso"]
+[Annotator "Alvar Alonso"]
 [SetUp "1"]
 [FEN "r1bqkb1r/pp2pppp/2n2n2/3p4/2PP1B2/2N5/PP3PPP/R2QKBNR b KQkq - 0 6"]
 [PlyCount "7"]
@@ -276,7 +276,7 @@
 [White "Test 10"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Alvar Alonso"]
+[Annotator "Alvar Alonso"]
 [SetUp "1"]
 [FEN "r1bqk2r/pp1nppbp/5np1/3P4/Q1B5/2N2N2/PP1P1PPP/R1B1K2R b KQkq - 0 8"]
 [PlyCount "11"]

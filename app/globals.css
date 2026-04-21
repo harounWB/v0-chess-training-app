@@ -1,3 +1,4 @@
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@700,500,400&f[]=general-sans@700,600,500,400&display=swap');
 @import 'tailwindcss';
 @import 'tw-animate-css';
 
@@ -75,7 +76,7 @@
 }
 
 @theme inline {
-  --font-sans: 'Geist', 'Geist Fallback';
+  --font-sans: 'Satoshi', 'Geist', 'Geist Fallback';
   --font-mono: 'Geist Mono', 'Geist Mono Fallback';
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -119,9 +120,24 @@
   * {
     @apply border-border outline-ring/50;
   }
+  html {
+    background-color: #060b14;
+  }
   body {
     @apply bg-background text-foreground;
+    background-color: #060b14;
     overflow-x: hidden;
+  }
+  ::selection {
+    background: rgba(34, 211, 238, 0.3);
+    color: #a5f3fc;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: 'General Sans', 'Satoshi', 'Geist', sans-serif;
+    letter-spacing: -0.03em;
   }
 }
 

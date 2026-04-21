@@ -135,7 +135,7 @@ Nxc6 { 6.e3?!  Bxd4  7.exd4  d5  gives Black a powerful initiative. } 6... dxc6
 [Black "Sources"]
 [Result "*"]
 
-{ Sources:   Chessable course: 'Fight like Nakamura: Play 1.b3!'  Various databases  (chess.com/lichess.org/HIARCS/Chessbase)  ,   Personal research and feedback from beta-testers. }
+{ Sources:    course: 'Fight like Nakamura: Play 1.b3!'  Various databases  (chess.com/lichess.org/HIARCS/Chessbase)  ,   Personal research and feedback from beta-testers. }
 1. -- *
 
 [Event "?"]
@@ -408,7 +408,7 @@ Bxc5 9. Bxe5 O-O { Black has the initiative due to his lead in development. } *
 7. bxc4 Nf6 8. c5
 { Against other lines, Black can take over the initiative with ...e4. } 8...
 Bxc5 9. Nxe5 O-O
-{ Black has the initiative due to his lead in development. White's piece placement wouldn't make sense if White doesn't take on c6, but Bxc6 gives up the bishop pair and Nxc6 loses time  (Nf3-e5-xc6 exchanges a knight which moved 3 times for a knight which moved once, losing 2 tempi)  . Black is more than okay to sacrifice a pawn as it would open the b-file for Black's rooks and increase his lead in development.  @@StartBlockQuote@@'A lead in development will either increase or decrease. For this reason, if you have an advantage in development early in the game, it can be highly beneficial to do whatever you can to increase this advantage in time, even at the cost of material or other static features.' - GM Jacob Aagaard@@EndBlockQuote@@ }
+{ Black has the initiative due to his lead in development. White's piece placement wouldn't make sense if White doesn't take on c6, but Bxc6 gives up the bishop pair and Nxc6 loses time  (Nf3-e5-xc6 exchanges a knight which moved 3 times for a knight which moved once, losing 2 tempi)  . Black is more than okay to sacrifice a pawn as it would open the b-file for Black's rooks and increase his lead in development.  @@StartBlockQuote@@'A lead in development will either increase or decrease. For this reason, if you have an advantage in development early in the game, it can be highly beneficial to do whatever you can to increase this advantage in time, even at the cost of material or other static features.' - Jacob Aagaard@@EndBlockQuote@@ }
 *
 
 [Event "?"]
@@ -420,9 +420,9 @@ Bxc5 9. Nxe5 O-O
 [Result "*"]
 
 1. b3 e5 2. Bb2 Nc6 3. e3 d5 4. Bb5 Bd6 5. f4
-{ The sharpest continuation, and one which was recommended by IM Ahmad Alkhatib's 'Fight like Nakamura: Play 1.b3 !'. White increases the pressure on the Black e5-pawn. The tactical justification of 5.f4 is that 5...exf4 loses to 6.Bxg7. }
+{ The sharpest continuation, and one which was recommended by Ahmad Alkhatib's 'Fight like Nakamura: Play 1.b3 !'. White increases the pressure on the Black e5-pawn. The tactical justification of 5.f4 is that 5...exf4 loses to 6.Bxg7. }
 5... f6
-{ Black protects his e5-pawn and is now threatening ...exf4. The consequence of 5...f6 is that White can play 6.Qh5+, which is the main line.   5...Qh4+  6.g3  Qe7  The drawback of this line is that White can play Nf3 without worrying about ...exf4.  7.Nf3  f6   7...Bg4  8.fxe5  Bxe5  9.Bxe5  Bxf3  10.Qxf3  Qxe5  11.Nc3  White has a lead in development. Black is close to equality, but White is pressing and the position is dry.  8.Nc3  Be6  I played a series of blitz games with FM Anish Vivekananthan who was armed with Chessable's 'Fight like Nakamura: Play 1.b3 !'. We would prepare between games/matches and in this line, White generally was pressing. White has the sort of hypermodern position that he wants when playing 1.b3, as well as a game with little theory. I believe White is fighting for the advantage here  (though Black can probably equalize)  as White's pressure on the center seems to be as valuable as the occupation of the center with pawns in this case  (Black's pawns can't advance without making holes and advancing doesn't gain much anyways)  and White has a lead in development. Therefore, I'd like to avoid this line and fight 1.b3 with sharper options.   5...Qe7  is somewhat passive and White's pressure on the center is significant after  6.Nf3  Bg4   6...f6  5... f6 avoids this line because 6. Nf3 loses a pawn to 6... exf4.  7.Nc3  Black's center is under a lot of pressure and the center is not mobile. White also has a lead in development and scores highly in this line.  7.h3   7.fxe5  Bxe5  8.Bxe5  Bxf3  9.Qxf3  Qxe5  10.Nc3  White is pressing due to his lead in development.  7...Bxf3  8.Qxf3  White is fighting for the advantage in this position due to his bishop pair. The pressure on the Black center is at least as important as the Black occupation of the center. }
+{ Black protects his e5-pawn and is now threatening ...exf4. The consequence of 5...f6 is that White can play 6.Qh5+, which is the main line.   5...Qh4+  6.g3  Qe7  The drawback of this line is that White can play Nf3 without worrying about ...exf4.  7.Nf3  f6   7...Bg4  8.fxe5  Bxe5  9.Bxe5  Bxf3  10.Qxf3  Qxe5  11.Nc3  White has a lead in development. Black is close to equality, but White is pressing and the position is dry.  8.Nc3  Be6  I played a series of blitz games with Anish Vivekananthan who was armed with 's 'Fight like Nakamura: Play 1.b3 !'. We would prepare between games/matches and in this line, White generally was pressing. White has the sort of hypermodern position that he wants when playing 1.b3, as well as a game with little theory. I believe White is fighting for the advantage here  (though Black can probably equalize)  as White's pressure on the center seems to be as valuable as the occupation of the center with pawns in this case  (Black's pawns can't advance without making holes and advancing doesn't gain much anyways)  and White has a lead in development. Therefore, I'd like to avoid this line and fight 1.b3 with sharper options.   5...Qe7  is somewhat passive and White's pressure on the center is significant after  6.Nf3  Bg4   6...f6  5... f6 avoids this line because 6. Nf3 loses a pawn to 6... exf4.  7.Nc3  Black's center is under a lot of pressure and the center is not mobile. White also has a lead in development and scores highly in this line.  7.h3   7.fxe5  Bxe5  8.Bxe5  Bxf3  9.Qxf3  Qxe5  10.Nc3  White is pressing due to his lead in development.  7...Bxf3  8.Qxf3  White is fighting for the advantage in this position due to his bishop pair. The pressure on the Black center is at least as important as the Black occupation of the center. }
 *
 
 [Event "?"]
@@ -521,11 +521,11 @@ Bxc5 9. Nxe5 O-O
 1. b3 e5 2. Bb2 Nc6 3. e3 d5 4. Bb5 Bd6 5. f4 f6 6. Qh5+
 { White provokes ...g6, hoping that the weakness on f6 will be worth the time spent on Qh5+ and Qh4. }
 6... g6 7. Qh4
-{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - IM Ahmad Alkhatib@@EndBlockQuote@@ }
+{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - Ahmad Alkhatib@@EndBlockQuote@@ }
 7... Ne7
 { Actually, Black can play ...Ne7, sacrificing the f6-pawn for open lines and time. White can't take the f6-pawn without losing the f4-pawn in return. 7... Ne7 is nowhere near the most popular move, but just as critical as 7... exf4.   7...exf4  is the mainline, but I don't like how White sacrifices material for the initiative with  8.Nf3  fxe3  9.O-O  where Black is behind in development in an open position. }
 8. Qxf6 { Giving Black the initiative ! } 8... Rf8
-{ @@StartBlockQuote@@'followed by ...exf4, ...Bf5, ...Qd7 and ...O-O-O - Black is doing fine here.' - IM Ahmad Alkhatib @@EndBlockQuote@@Black is fighting for the initiative and has scored 3/3 at master level. For a model game in this variation, see Zeljko Matic vs. Robert Zelcic. }
+{ @@StartBlockQuote@@'followed by ...exf4, ...Bf5, ...Qd7 and ...O-O-O - Black is doing fine here.' - Ahmad Alkhatib @@EndBlockQuote@@Black is fighting for the initiative and has scored 3/3 at master level. For a model game in this variation, see Zeljko Matic vs. Robert Zelcic. }
 *
 
 [Event "?"]
@@ -539,7 +539,7 @@ Bxc5 9. Nxe5 O-O
 1. b3 e5 2. Bb2 Nc6 3. e3 d5 4. Bb5 Bd6 5. f4 f6 6. Qh5+
 { White provokes ...g6, hoping that the weakness on f6 will be worth the time spent on Qh5+ and Qh4. }
 6... g6 7. Qh4
-{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - IM Ahmad Alkhatib@@EndBlockQuote@@ }
+{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - Ahmad Alkhatib@@EndBlockQuote@@ }
 7... Ne7
 { Actually, Black can play ...Ne7, sacrificing the f6-pawn for open lines and time. White can't take the f6-pawn without losing the f4-pawn in return. 7... Ne7 is nowhere near the most popular move, but just as critical as 7... exf4.   7...exf4  is the mainline, but I don't like how White sacrifices material for the initiative with  8.Nf3  fxe3  9.O-O  where Black is behind in development in an open position. }
 8. fxe5
@@ -563,7 +563,7 @@ Kd7 11. Nf3 a6
 1. b3 e5 2. Bb2 Nc6 3. e3 d5 4. Bb5 Bd6 5. f4 f6 6. Qh5+
 { White provokes ...g6, hoping that the weakness on f6 will be worth the time spent on Qh5+ and Qh4. }
 6... g6 7. Qh4
-{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - IM Ahmad Alkhatib@@EndBlockQuote@@ }
+{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - Ahmad Alkhatib@@EndBlockQuote@@ }
 7... Ne7
 { Actually, Black can play ...Ne7, sacrificing the f6-pawn for open lines and time. White can't take the f6-pawn without losing the f4-pawn in return. 7... Ne7 is nowhere near the most popular move, but just as critical as 7... exf4.   7...exf4  is the mainline, but I don't like how White sacrifices material for the initiative with  8.Nf3  fxe3  9.O-O  where Black is behind in development in an open position. }
 8. fxe5
@@ -585,7 +585,7 @@ Kd7 11. Nf3 a6
 1. b3 e5 2. Bb2 Nc6 3. e3 d5 4. Bb5 Bd6 5. f4 f6 6. Qh5+
 { White provokes ...g6, hoping that the weakness on f6 will be worth the time spent on Qh5+ and Qh4. }
 6... g6 7. Qh4
-{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - IM Ahmad Alkhatib@@EndBlockQuote@@ }
+{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - Ahmad Alkhatib@@EndBlockQuote@@ }
 7... Ne7
 { Actually, Black can play ...Ne7, sacrificing the f6-pawn for open lines and time. White can't take the f6-pawn without losing the f4-pawn in return. 7... Ne7 is nowhere near the most popular move, but just as critical as 7... exf4.   7...exf4  is the mainline, but I don't like how White sacrifices material for the initiative with  8.Nf3  fxe3  9.O-O  where Black is behind in development in an open position. }
 8. fxe5
@@ -609,7 +609,7 @@ Kd7 11. Nf3 a6
 1. b3 e5 2. Bb2 Nc6 3. e3 d5 4. Bb5 Bd6 5. f4 f6 6. Qh5+
 { White provokes ...g6, hoping that the weakness on f6 will be worth the time spent on Qh5+ and Qh4. }
 6... g6 7. Qh4
-{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - IM Ahmad Alkhatib@@EndBlockQuote@@ }
+{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - Ahmad Alkhatib@@EndBlockQuote@@ }
 7... Ne7
 { Actually, Black can play ...Ne7, sacrificing the f6-pawn for open lines and time. White can't take the f6-pawn without losing the f4-pawn in return. 7... Ne7 is nowhere near the most popular move, but just as critical as 7... exf4.   7...exf4  is the mainline, but I don't like how White sacrifices material for the initiative with  8.Nf3  fxe3  9.O-O  where Black is behind in development in an open position. }
 8. fxe5
@@ -632,18 +632,18 @@ Kd7 11. Nf3 a6
 1. b3 e5 2. Bb2 Nc6 3. e3 d5 4. Bb5 Bd6 5. f4 f6 6. Qh5+
 { White provokes ...g6, hoping that the weakness on f6 will be worth the time spent on Qh5+ and Qh4. }
 6... g6 7. Qh4
-{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - IM Ahmad Alkhatib@@EndBlockQuote@@ }
+{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - Ahmad Alkhatib@@EndBlockQuote@@ }
 7... Ne7
 { Actually, Black can play ...Ne7, sacrificing the f6-pawn for open lines and time. White can't take the f6-pawn without losing the f4-pawn in return. 7... Ne7 is nowhere near the most popular move, but just as critical as 7... exf4.   7...exf4  is the mainline, but I don't like how White sacrifices material for the initiative with  8.Nf3  fxe3  9.O-O  where Black is behind in development in an open position. }
 8. fxe5
 { The most critical move, despite being rare. There is only one master game with 8. fxe5 as of 6/30/2019. 8. fxe5 is overshadowed by 8. Qxf6 in amateur chess as well according to the lichess database. }
 8... fxe5 9. Nf3 O-O
 { Black unpins the c6-knight, renewing the defense to his e5-pawn. } 10. Be2
-{ Recommended by IM Ahmad Alkhatib in the Chessable course 'Fight like Nakamura: Play 1.b3 !'. White prepares for ...Nf5 by moving his bishop out of the way of possible forks.   10.Ng5  h5  Black defends against checkmate and the g5-knight will be a target after  ...Nf5.   10.Nc3  Nf5  11.Qxd8  allows  11...Nxd8 !  where  12.Nxd5  loses to  12...c6.  This is why White plays  10.Be2  , which is also a useful move now that the bishop is no longer preforming any useful function on  c6  as the c6-knight has been unpinned. }
+{ Recommended by Ahmad Alkhatib in the  course 'Fight like Nakamura: Play 1.b3 !'. White prepares for ...Nf5 by moving his bishop out of the way of possible forks.   10.Ng5  h5  Black defends against checkmate and the g5-knight will be a target after  ...Nf5.   10.Nc3  Nf5  11.Qxd8  allows  11...Nxd8 !  where  12.Nxd5  loses to  12...c6.  This is why White plays  10.Be2  , which is also a useful move now that the bishop is no longer preforming any useful function on  c6  as the c6-knight has been unpinned. }
 10... Qd7
-{ Black prepares to play ...e4 followed by ...Nf5. White's reply of 11. Nc3 is forced.   10...e4 ?  loses to  11.Ng5.  If Black's queen were already on  d7  , then  ...Nf5  would attack the White queen and defend the h7-pawn.   I was convinced by analyzing with the engine and checking the lines in IM Ahmad_Alkhatib's  1.b3  Chessable repertoire that White is pressing in the endgame after  10...Nf5  11.Qxd8  Rxd8  12.Nc3  e4  13.Ng5  h6  14.Nh3  , despite the engine's insistence that Black was doing fine. For more information, check the why not 10...Nf5 section. }
+{ Black prepares to play ...e4 followed by ...Nf5. White's reply of 11. Nc3 is forced.   10...e4 ?  loses to  11.Ng5.  If Black's queen were already on  d7  , then  ...Nf5  would attack the White queen and defend the h7-pawn.   I was convinced by analyzing with the engine and checking the lines in Ahmad_Alkhatib's  1.b3   repertoire that White is pressing in the endgame after  10...Nf5  11.Qxd8  Rxd8  12.Nc3  e4  13.Ng5  h6  14.Nh3  , despite the engine's insistence that Black was doing fine. For more information, check the why not 10...Nf5 section. }
 11. O-O
-{ I asked two FMs what they thought the most natural move was after 10...Qd7, one said 11.0-0 and the other was unsure between 11.0-0 and 11.Nc3. This goes to show that even titled players can go wrong in sharp positions like these without prep.  IM Ahmad_Alkhatib's repertoire left users stranded against this repertoire as 10...Qd7 was not covered, and if they haven't prepared for it or don't see the threat of ...Qd7 or the concrete tactic that justifies 11.Nc3  (which is forced)  , there is a high likelihood of them going wrong.   11.e4  is the only alternative to  11.Nc3  which prevents  ...e4  , but it doesn't help as Black is able to play  11...Rf4  and  ...Rxe4. }
+{ I asked two FMs what they thought the most natural move was after 10...Qd7, one said 11.0-0 and the other was unsure between 11.0-0 and 11.Nc3. This goes to show that even titled players can go wrong in sharp positions like these without prep.  Ahmad_Alkhatib's repertoire left users stranded against this repertoire as 10...Qd7 was not covered, and if they haven't prepared for it or don't see the threat of ...Qd7 or the concrete tactic that justifies 11.Nc3  (which is forced)  , there is a high likelihood of them going wrong.   11.e4  is the only alternative to  11.Nc3  which prevents  ...e4  , but it doesn't help as Black is able to play  11...Rf4  and  ...Rxe4. }
 11... e4
 { Black will play ...Nf5 with ...h5 and ...Ne5 with a decisive attack due to his lead in development and space advantage, White's exposed kingside, and the weakness of White's queen.   12.Ng5  Rxf1+  13.Kxf1  Nf5   12.Ne1  Nf5  followed by  ...h5  and  ...Ne5. }
 *
@@ -680,22 +680,22 @@ fxe5 9. Nf3 O-O 10. Be2 Nf5
 1. b3 e5 2. Bb2 Nc6 3. e3 d5 4. Bb5 Bd6 5. f4 f6 6. Qh5+
 { White provokes ...g6, hoping that the weakness on f6 will be worth the time spent on Qh5+ and Qh4. }
 6... g6 7. Qh4
-{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - IM Ahmad Alkhatib@@EndBlockQuote@@ }
+{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - Ahmad Alkhatib@@EndBlockQuote@@ }
 7... Ne7
 { Actually, Black can play ...Ne7, sacrificing the f6-pawn for open lines and time. White can't take the f6-pawn without losing the f4-pawn in return. 7... Ne7 is nowhere near the most popular move, but just as critical as 7... exf4.   7...exf4  is the mainline, but I don't like how White sacrifices material for the initiative with  8.Nf3  fxe3  9.O-O  where Black is behind in development in an open position. }
 8. fxe5
 { The most critical move, despite being rare. There is only one master game with 8. fxe5 as of 6/30/2019. 8. fxe5 is overshadowed by 8. Qxf6 in amateur chess as well according to the lichess database. }
 8... fxe5 9. Nf3 O-O
 { Black unpins the c6-knight, renewing the defense to his e5-pawn. } 10. Be2
-{ Recommended by IM Ahmad Alkhatib in the Chessable course 'Fight like Nakamura: Play 1.b3 !'. White prepares for ...Nf5 by moving his bishop out of the way of possible forks.   10.Nc3  Nf5  11.Qxd8  allows  11...Nxd8 !  where  12.Nxd5  loses to  12...c6.  This is why White plays  10.Be2  , which is also a useful move now that the bishop is no longer preforming any useful function on  c6  as the c6-knight has been unpinned. }
+{ Recommended by Ahmad Alkhatib in the  course 'Fight like Nakamura: Play 1.b3 !'. White prepares for ...Nf5 by moving his bishop out of the way of possible forks.   10.Nc3  Nf5  11.Qxd8  allows  11...Nxd8 !  where  12.Nxd5  loses to  12...c6.  This is why White plays  10.Be2  , which is also a useful move now that the bishop is no longer preforming any useful function on  c6  as the c6-knight has been unpinned. }
 10... Qd7
-{ Black prepares to play ...e4 followed by ...Nf5. White's reply of 11. Nc3 is forced.   10...e4 ?  loses to  11.Ng5.  If Black's queen were already on  d7  , then  ...Nf5  would attack the White queen and defend the h7-pawn.   I was convinced by analyzing with the engine and checking the lines in IM Ahmad_Alkhatib's  1.b3  Chessable repertoire that White is pressing in the endgame after  10...Nf5  11.Qxd8  Rxd8  12.Nc3  e4  13.Ng5  h6  14.Nh3  , despite the engine's insistence that Black was doing fine. For more information, check the why not 10...Nf5 section. }
+{ Black prepares to play ...e4 followed by ...Nf5. White's reply of 11. Nc3 is forced.   10...e4 ?  loses to  11.Ng5.  If Black's queen were already on  d7  , then  ...Nf5  would attack the White queen and defend the h7-pawn.   I was convinced by analyzing with the engine and checking the lines in Ahmad_Alkhatib's  1.b3   repertoire that White is pressing in the endgame after  10...Nf5  11.Qxd8  Rxd8  12.Nc3  e4  13.Ng5  h6  14.Nh3  , despite the engine's insistence that Black was doing fine. For more information, check the why not 10...Nf5 section. }
 11. Nc3
 { Forced, White has a lost game otherwise. The idea is to meet 11... e4 ? with 12. Nxe4 ! where Black can't recapture due to Bc4+ with a decisive attack. }
 11... Nf5
 { 11...e4 ?  loses to  12.Nxe4  dxe4  13.Bc4+   White is pressing in the endgame after  11...Qg4  12.Qxg4  Bxg4  13.Nb5 !  because after  Nxd6  he will have the bishop pair. }
 12. Qh3 { 12.Qf2 and 12.Qa4 are the alternatives. } 12... Nfe7
-{ Black offers an equal endgame or a repetition of moves. There are alternatives, but they lead to crazy/unclear positions and I don't want to recommend them against a position that you are only going to face if your opponent is extremely well prepared. The alternatives are 12... h5  (this one is my preference - preparing for g4 and preparing ...Qg7)  and 12... Nb4, feel free to pause this variation and prepare one or both of these alternatives if you would rather avoid the draw.   13.Qh4  Nf5   13.Qxd7  Bxd7   IM Al Khatib claimed that White was better after  12...h5  13.Nxd5.  I looked into it and concluded that he is right, after the insane complications White gets a slightly better endgame. The critical line runs  13...Qg7  14.g4  hxg4  15.Qxg4  Nxe3  16.Qe4  Ng2+  17.Kd1  Bf5  18.Qc4  Na5  19.Qc3  Be4  20.Rg1  Bxd5  21.Rxg2  Rf4  22.Qxa5  Bxf3  23.Bxf3  Rxf3  24.Qd5+  Qf7  25.Rxg6+  Kf8  26.Qxf7+  Kxf7  27.Rg2  +=   12...Nb4  is a sound alternative which objectively equalizes. The critical line is  13.O-O-O  e4  14.Ng5  Qe7  15.Ncxe4  Nd4  16.Bg4  Bxg4!   rather than  16...Nxa2+?!  as analyzed by Al Khatib  17.Qxg4  h5  18.Nf6+  Qxf6  19.Qxd4  Qxd4  20.Bxd4   20.exd4  Rf2  20...Nxa2+  21.Kb1  Nb4  22.g4  c5  Black has enough counterplay for at least equality. }
+{ Black offers an equal endgame or a repetition of moves. There are alternatives, but they lead to crazy/unclear positions and I don't want to recommend them against a position that you are only going to face if your opponent is extremely well prepared. The alternatives are 12... h5  (this one is my preference - preparing for g4 and preparing ...Qg7)  and 12... Nb4, feel free to pause this variation and prepare one or both of these alternatives if you would rather avoid the draw.   13.Qh4  Nf5   13.Qxd7  Bxd7   Al Khatib claimed that White was better after  12...h5  13.Nxd5.  I looked into it and concluded that he is right, after the insane complications White gets a slightly better endgame. The critical line runs  13...Qg7  14.g4  hxg4  15.Qxg4  Nxe3  16.Qe4  Ng2+  17.Kd1  Bf5  18.Qc4  Na5  19.Qc3  Be4  20.Rg1  Bxd5  21.Rxg2  Rf4  22.Qxa5  Bxf3  23.Bxf3  Rxf3  24.Qd5+  Qf7  25.Rxg6+  Kf8  26.Qxf7+  Kxf7  27.Rg2  +=   12...Nb4  is a sound alternative which objectively equalizes. The critical line is  13.O-O-O  e4  14.Ng5  Qe7  15.Ncxe4  Nd4  16.Bg4  Bxg4!   rather than  16...Nxa2+?!  as analyzed by Al Khatib  17.Qxg4  h5  18.Nf6+  Qxf6  19.Qxd4  Qxd4  20.Bxd4   20.exd4  Rf2  20...Nxa2+  21.Kb1  Nb4  22.g4  c5  Black has enough counterplay for at least equality. }
 *
 
 [Event "?"]
@@ -709,16 +709,16 @@ fxe5 9. Nf3 O-O 10. Be2 Nf5
 1. b3 e5 2. Bb2 Nc6 3. e3 d5 4. Bb5 Bd6 5. f4 f6 6. Qh5+
 { White provokes ...g6, hoping that the weakness on f6 will be worth the time spent on Qh5+ and Qh4. }
 6... g6 7. Qh4
-{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - IM Ahmad Alkhatib@@EndBlockQuote@@ }
+{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - Ahmad Alkhatib@@EndBlockQuote@@ }
 7... Ne7
 { Actually, Black can play ...Ne7, sacrificing the f6-pawn for open lines and time. White can't take the f6-pawn without losing the f4-pawn in return. 7... Ne7 is nowhere near the most popular move, but just as critical as 7... exf4.   7...exf4  is the mainline, but I don't like how White sacrifices material for the initiative with  8.Nf3  fxe3  9.O-O  where Black is behind in development in an open position. }
 8. fxe5
 { The most critical move, despite being rare. There is only one master game with 8. fxe5 as of 6/30/2019. 8. fxe5 is overshadowed by 8. Qxf6 in amateur chess as well according to the lichess database. }
 8... fxe5 9. Nf3 O-O
 { Black unpins the c6-knight, renewing the defense to his e5-pawn. } 10. Be2
-{ Recommended by IM Ahmad Alkhatib in the Chessable course 'Fight like Nakamura: Play 1.b3 !'. White prepares for ...Nf5 by moving his bishop out of the way of possible forks.   10.Nc3  Nf5  11.Qxd8  allows  11...Nxd8 !  where  12.Nxd5  loses to  12...c6.  This is why White plays  10.Be2  , which is also a useful move now that the bishop is no longer preforming any useful function on  c6  as the c6-knight has been unpinned. }
+{ Recommended by Ahmad Alkhatib in the  course 'Fight like Nakamura: Play 1.b3 !'. White prepares for ...Nf5 by moving his bishop out of the way of possible forks.   10.Nc3  Nf5  11.Qxd8  allows  11...Nxd8 !  where  12.Nxd5  loses to  12...c6.  This is why White plays  10.Be2  , which is also a useful move now that the bishop is no longer preforming any useful function on  c6  as the c6-knight has been unpinned. }
 10... Qd7
-{ Black prepares to play ...e4 followed by ...Nf5. White's reply of 11. Nc3 is forced.   10...e4 ?  loses to  11.Ng5.  If Black's queen were already on  d7  , then  ...Nf5  would attack the White queen and defend the h7-pawn.   I was convinced by analyzing with the engine and checking the lines in IM Ahmad_Alkhatib's  1.b3  Chessable repertoire that White is pressing in the endgame after  10...Nf5  11.Qxd8  Rxd8  12.Nc3  e4  13.Ng5  h6  14.Nh3  , despite the engine's insistence that Black was doing fine. For more information, check the why not 10...Nf5 section. }
+{ Black prepares to play ...e4 followed by ...Nf5. White's reply of 11. Nc3 is forced.   10...e4 ?  loses to  11.Ng5.  If Black's queen were already on  d7  , then  ...Nf5  would attack the White queen and defend the h7-pawn.   I was convinced by analyzing with the engine and checking the lines in Ahmad_Alkhatib's  1.b3   repertoire that White is pressing in the endgame after  10...Nf5  11.Qxd8  Rxd8  12.Nc3  e4  13.Ng5  h6  14.Nh3  , despite the engine's insistence that Black was doing fine. For more information, check the why not 10...Nf5 section. }
 11. Nc3
 { Forced, White has a lost game otherwise. The idea is to meet 11... e4 ? with 12. Nxe4 ! where Black can't recapture due to Bxc4 with a decisive attack. }
 11... Nf5
@@ -750,16 +750,16 @@ fxe5 9. Nf3 O-O 10. Be2 Nf5
 1. b3 e5 2. Bb2 Nc6 3. e3 d5 4. Bb5 Bd6 5. f4 f6 6. Qh5+
 { White provokes ...g6, hoping that the weakness on f6 will be worth the time spent on Qh5+ and Qh4. }
 6... g6 7. Qh4
-{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - IM Ahmad Alkhatib@@EndBlockQuote@@ }
+{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - Ahmad Alkhatib@@EndBlockQuote@@ }
 7... Ne7
 { Actually, Black can play ...Ne7, sacrificing the f6-pawn for open lines and time. White can't take the f6-pawn without losing the f4-pawn in return. 7... Ne7 is nowhere near the most popular move, but just as critical as 7... exf4.   7...exf4  is the mainline, but I don't like how White sacrifices material for the initiative with  8.Nf3  fxe3  9.O-O  where Black is behind in development in an open position. }
 8. fxe5
 { The most critical move, despite being rare. There is only one master game with 8. fxe5 as of 6/30/2019. 8. fxe5 is overshadowed by 8. Qxf6 in amateur chess as well according to the lichess database. }
 8... fxe5 9. Nf3 O-O
 { Black unpins the c6-knight, renewing the defense to his e5-pawn. } 10. Be2
-{ Recommended by IM Ahmad Alkhatib in the Chessable course 'Fight like Nakamura: Play 1.b3 !'. White prepares for ...Nf5 by moving his bishop out of the way of possible forks.   10.Nc3  Nf5  11.Qxd8  allows  11...Nxd8 !  where  12.Nxd5  loses to  12...c6.  This is why White plays  10.Be2  , which is also a useful move now that the bishop is no longer preforming any useful function on  c6  as the c6-knight has been unpinned. }
+{ Recommended by Ahmad Alkhatib in the  course 'Fight like Nakamura: Play 1.b3 !'. White prepares for ...Nf5 by moving his bishop out of the way of possible forks.   10.Nc3  Nf5  11.Qxd8  allows  11...Nxd8 !  where  12.Nxd5  loses to  12...c6.  This is why White plays  10.Be2  , which is also a useful move now that the bishop is no longer preforming any useful function on  c6  as the c6-knight has been unpinned. }
 10... Qd7
-{ Black prepares to play ...e4 followed by ...Nf5. White's reply of 11. Nc3 is forced.   10...e4 ?  loses to  11.Ng5.  If Black's queen were already on  d7  , then  ...Nf5  would attack the White queen and defend the h7-pawn.   I was convinced by analyzing with the engine and checking the lines in IM Ahmad_Alkhatib's  1.b3  Chessable repertoire that White is pressing in the endgame after  10...Nf5  11.Qxd8  Rxd8  12.Nc3  e4  13.Ng5  h6  14.Nh3  , despite the engine's insistence that Black was doing fine. For more information, check the why not 10...Nf5 section. }
+{ Black prepares to play ...e4 followed by ...Nf5. White's reply of 11. Nc3 is forced.   10...e4 ?  loses to  11.Ng5.  If Black's queen were already on  d7  , then  ...Nf5  would attack the White queen and defend the h7-pawn.   I was convinced by analyzing with the engine and checking the lines in Ahmad_Alkhatib's  1.b3   repertoire that White is pressing in the endgame after  10...Nf5  11.Qxd8  Rxd8  12.Nc3  e4  13.Ng5  h6  14.Nh3  , despite the engine's insistence that Black was doing fine. For more information, check the why not 10...Nf5 section. }
 11. Nc3
 { Forced, White has a lost game otherwise. The idea is to meet 11... e4 ? with 12. Nxe4 ! where Black can't recapture due to 13. Bc4+ with a decisive attack. }
 11... Nf5
@@ -791,16 +791,16 @@ Bc4+ Rf7 16. Bxf7+
 1. b3 e5 2. Bb2 Nc6 3. e3 d5 4. Bb5 Bd6 5. f4 f6 6. Qh5+
 { White provokes ...g6, hoping that the weakness on f6 will be worth the time spent on Qh5+ and Qh4. }
 6... g6 7. Qh4
-{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - IM Ahmad Alkhatib@@EndBlockQuote@@ }
+{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - Ahmad Alkhatib@@EndBlockQuote@@ }
 7... Ne7
 { Actually, Black can play ...Ne7, sacrificing the f6-pawn for open lines and time. White can't take the f6-pawn without losing the f4-pawn in return. 7... Ne7 is nowhere near the most popular move, but just as critical as 7... exf4.   7...exf4  is the mainline, but I don't like how White sacrifices material for the initiative with  8.Nf3  fxe3  9.O-O  where Black is behind in development in an open position. }
 8. fxe5
 { The most critical move, despite being rare. There is only one master game with 8. fxe5 as of 6/30/2019. 8. fxe5 is overshadowed by 8. Qxf6 in amateur chess as well according to the lichess database. }
 8... fxe5 9. Nf3 O-O
 { Black unpins the c6-knight, renewing the defense to his e5-pawn. } 10. Be2
-{ Recommended by IM Ahmad Alkhatib in the Chessable course 'Fight like Nakamura: Play 1.b3 !'. White prepares for ...Nf5 by moving his bishop out of the way of possible forks.   10.Nc3  Nf5  11.Qxd8  allows  11...Nxd8 !  where  12.Nxd5  loses to  12...c6.  This is why White plays  10.Be2  , which is also a useful move now that the bishop is no longer preforming any useful function on  c6  as the c6-knight has been unpinned. }
+{ Recommended by Ahmad Alkhatib in the  course 'Fight like Nakamura: Play 1.b3 !'. White prepares for ...Nf5 by moving his bishop out of the way of possible forks.   10.Nc3  Nf5  11.Qxd8  allows  11...Nxd8 !  where  12.Nxd5  loses to  12...c6.  This is why White plays  10.Be2  , which is also a useful move now that the bishop is no longer preforming any useful function on  c6  as the c6-knight has been unpinned. }
 10... Qd7
-{ Black prepares to play ...e4 followed by ...Nf5. White's reply of 11. Nc3 is forced.   10...e4 ?  loses to  11.Ng5.  If Black's queen were already on  d7  , then  ...Nf5  would attack the White queen and defend the h7-pawn.   I was convinced by analyzing with the engine and checking the lines in IM Ahmad_Alkhatib's  1.b3  Chessable repertoire that White is pressing in the endgame after  10...Nf5  11.Qxd8  Rxd8  12.Nc3  e4  13.Ng5  h6  14.Nh3  , despite the engine's insistence that Black was doing fine. For more information, check the why not 10...Nf5 section. }
+{ Black prepares to play ...e4 followed by ...Nf5. White's reply of 11. Nc3 is forced.   10...e4 ?  loses to  11.Ng5.  If Black's queen were already on  d7  , then  ...Nf5  would attack the White queen and defend the h7-pawn.   I was convinced by analyzing with the engine and checking the lines in Ahmad_Alkhatib's  1.b3   repertoire that White is pressing in the endgame after  10...Nf5  11.Qxd8  Rxd8  12.Nc3  e4  13.Ng5  h6  14.Nh3  , despite the engine's insistence that Black was doing fine. For more information, check the why not 10...Nf5 section. }
 11. Nc3
 { Forced, White has a lost game otherwise. The idea is to meet 11... e4 ? with 12. Nxe4 ! where Black can't recapture due to Bxc4 with a decisive attack. }
 11... Nf5
@@ -828,16 +828,16 @@ Bc4+ Rf7 16. Bxf7+
 1. b3 e5 2. Bb2 Nc6 3. e3 d5 4. Bb5 Bd6 5. f4 f6 6. Qh5+
 { White provokes ...g6, hoping that the weakness on f6 will be worth the time spent on Qh5+ and Qh4. }
 6... g6 7. Qh4
-{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - IM Ahmad Alkhatib@@EndBlockQuote@@ }
+{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - Ahmad Alkhatib@@EndBlockQuote@@ }
 7... Ne7
 { Actually, Black can play ...Ne7, sacrificing the f6-pawn for open lines and time. White can't take the f6-pawn without losing the f4-pawn in return. 7... Ne7 is nowhere near the most popular move, but just as critical as 7... exf4.   7...exf4  is the mainline, but I don't like how White sacrifices material for the initiative with  8.Nf3  fxe3  9.O-O  where Black is behind in development in an open position. }
 8. fxe5
 { The most critical move, despite being rare. There is only one master game with 8. fxe5 as of 6/30/2019. 8. fxe5 is overshadowed by 8. Qxf6 in amateur chess as well according to the lichess database. }
 8... fxe5 9. Nf3 O-O
 { Black unpins the c6-knight, renewing the defense to his e5-pawn. } 10. Be2
-{ Recommended by IM Ahmad Alkhatib in the Chessable course 'Fight like Nakamura: Play 1.b3 !'. White prepares for ...Nf5 by moving his bishop out of the way of possible forks.   10.Nc3  Nf5  11.Qxd8  allows  11...Nxd8 !  where  12.Nxd5  loses to  12...c6.  This is why White plays  10.Be2  , which is also a useful move now that the bishop is no longer preforming any useful function on  c6  as the c6-knight has been unpinned. }
+{ Recommended by Ahmad Alkhatib in the  course 'Fight like Nakamura: Play 1.b3 !'. White prepares for ...Nf5 by moving his bishop out of the way of possible forks.   10.Nc3  Nf5  11.Qxd8  allows  11...Nxd8 !  where  12.Nxd5  loses to  12...c6.  This is why White plays  10.Be2  , which is also a useful move now that the bishop is no longer preforming any useful function on  c6  as the c6-knight has been unpinned. }
 10... Qd7
-{ Black prepares to play ...e4 followed by ...Nf5. White's reply of 11. Nc3 is forced.   10...e4 ?  loses to  11.Ng5.  If Black's queen were already on  d7  , then  ...Nf5  would attack the White queen and defend the h7-pawn.   I was convinced by analyzing with the engine and checking the lines in IM Ahmad_Alkhatib's  1.b3  Chessable repertoire that White is pressing in the endgame after  10...Nf5  11.Qxd8  Rxd8  12.Nc3  e4  13.Ng5  h6  14.Nh3  , despite the engine's insistence that Black was doing fine. For more information, check the why not 10...Nf5 section. }
+{ Black prepares to play ...e4 followed by ...Nf5. White's reply of 11. Nc3 is forced.   10...e4 ?  loses to  11.Ng5.  If Black's queen were already on  d7  , then  ...Nf5  would attack the White queen and defend the h7-pawn.   I was convinced by analyzing with the engine and checking the lines in Ahmad_Alkhatib's  1.b3   repertoire that White is pressing in the endgame after  10...Nf5  11.Qxd8  Rxd8  12.Nc3  e4  13.Ng5  h6  14.Nh3  , despite the engine's insistence that Black was doing fine. For more information, check the why not 10...Nf5 section. }
 11. Nc3
 { Forced, White has a lost game otherwise. The idea is to meet 11... e4 ? with 12. Nxe4 ! where Black can't recapture due to Bxc4 with a decisive attack. }
 11... Nf5
@@ -864,16 +864,16 @@ Bc4+ Rf7 16. Bxf7+
 1. b3 e5 2. Bb2 Nc6 3. e3 d5 4. Bb5 Bd6 5. f4 f6 6. Qh5+
 { White provokes ...g6, hoping that the weakness on f6 will be worth the time spent on Qh5+ and Qh4. }
 6... g6 7. Qh4
-{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - IM Ahmad Alkhatib@@EndBlockQuote@@ }
+{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - Ahmad Alkhatib@@EndBlockQuote@@ }
 7... Ne7
 { Actually, Black can play ...Ne7, sacrificing the f6-pawn for open lines and time. White can't take the f6-pawn without losing the f4-pawn in return. 7... Ne7 is nowhere near the most popular move, but just as critical as 7... exf4.   7...exf4  is the mainline, but I don't like how White sacrifices material for the initiative with  8.Nf3  fxe3  9.O-O  where Black is behind in development in an open position. }
 8. fxe5
 { The most critical move, despite being rare. There is only one master game with 8. fxe5 as of 6/30/2019. 8. fxe5 is overshadowed by 8. Qxf6 in amateur chess as well according to the lichess database. }
 8... fxe5 9. Nf3 O-O
 { Black unpins the c6-knight, renewing the defense to his e5-pawn. } 10. Be2
-{ Recommended by IM Ahmad Alkhatib in the Chessable course 'Fight like Nakamura: Play 1.b3 !'. White prepares for ...Nf5 by moving his bishop out of the way of possible forks.   10.Nc3  Nf5  11.Qxd8  allows  11...Nxd8 !  where  12.Nxd5  loses to  12...c6.  This is why White plays  10.Be2  , which is also a useful move now that the bishop is no longer preforming any useful function on  c6  as the c6-knight has been unpinned. }
+{ Recommended by Ahmad Alkhatib in the  course 'Fight like Nakamura: Play 1.b3 !'. White prepares for ...Nf5 by moving his bishop out of the way of possible forks.   10.Nc3  Nf5  11.Qxd8  allows  11...Nxd8 !  where  12.Nxd5  loses to  12...c6.  This is why White plays  10.Be2  , which is also a useful move now that the bishop is no longer preforming any useful function on  c6  as the c6-knight has been unpinned. }
 10... Qd7
-{ Black prepares to play ...e4 followed by ...Nf5. White's reply of 11. Nc3 is forced.   10...e4 ?  loses to  11.Ng5.  If Black's queen were already on  d7  , then  ...Nf5  would attack the White queen and defend the h7-pawn.   I was convinced by analyzing with the engine and checking the lines in IM Ahmad_Alkhatib's  1.b3  Chessable repertoire that White is pressing in the endgame after  10...Nf5  11.Qxd8  Rxd8  12.Nc3  e4  13.Ng5  h6  14.Nh3  , despite the engine's insistence that Black was doing fine. For more information, check the why not 10...Nf5 section. }
+{ Black prepares to play ...e4 followed by ...Nf5. White's reply of 11. Nc3 is forced.   10...e4 ?  loses to  11.Ng5.  If Black's queen were already on  d7  , then  ...Nf5  would attack the White queen and defend the h7-pawn.   I was convinced by analyzing with the engine and checking the lines in Ahmad_Alkhatib's  1.b3   repertoire that White is pressing in the endgame after  10...Nf5  11.Qxd8  Rxd8  12.Nc3  e4  13.Ng5  h6  14.Nh3  , despite the engine's insistence that Black was doing fine. For more information, check the why not 10...Nf5 section. }
 11. Nc3
 { Forced, White has a lost game otherwise. The idea is to meet 11... e4 ? with 12. Nxe4 ! where Black can't recapture due to Bxc4 with a decisive attack. }
 11... Nf5
@@ -904,16 +904,16 @@ Bxf4 { Black prepares to play ...exf3 by closing the f-file. } 15. Bc4+
 1. b3 e5 2. Bb2 Nc6 3. e3 d5 4. Bb5 Bd6 5. f4 f6 6. Qh5+
 { White provokes ...g6, hoping that the weakness on f6 will be worth the time spent on Qh5+ and Qh4. }
 6... g6 7. Qh4
-{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - IM Ahmad Alkhatib@@EndBlockQuote@@ }
+{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - Ahmad Alkhatib@@EndBlockQuote@@ }
 7... Ne7
 { Actually, Black can play ...Ne7, sacrificing the f6-pawn for open lines and time. White can't take the f6-pawn without losing the f4-pawn in return. 7... Ne7 is nowhere near the most popular move, but just as critical as 7... exf4.   7...exf4  is the mainline, but I don't like how White sacrifices material for the initiative with  8.Nf3  fxe3  9.O-O  where Black is behind in development in an open position. }
 8. fxe5
 { The most critical move, despite being rare. There is only one master game with 8. fxe5 as of 6/30/2019. 8. fxe5 is overshadowed by 8. Qxf6 in amateur chess as well according to the lichess database. }
 8... fxe5 9. Nf3 O-O
 { Black unpins the c6-knight, renewing the defense to his e5-pawn. } 10. Be2
-{ Recommended by IM Ahmad Alkhatib in the Chessable course 'Fight like Nakamura: Play 1.b3 !'. White prepares for ...Nf5 by moving his bishop out of the way of possible forks.   10.Nc3  Nf5  11.Qxd8  allows  11...Nxd8 !  where  12.Nxd5  loses to  12...c6.  This is why White plays  10.Be2  , which is also a useful move now that the bishop is no longer preforming any useful function on  c6  as the c6-knight has been unpinned. }
+{ Recommended by Ahmad Alkhatib in the  course 'Fight like Nakamura: Play 1.b3 !'. White prepares for ...Nf5 by moving his bishop out of the way of possible forks.   10.Nc3  Nf5  11.Qxd8  allows  11...Nxd8 !  where  12.Nxd5  loses to  12...c6.  This is why White plays  10.Be2  , which is also a useful move now that the bishop is no longer preforming any useful function on  c6  as the c6-knight has been unpinned. }
 10... Qd7
-{ Black prepares to play ...e4 followed by ...Nf5. White's reply of 11. Nc3 is forced.   10...e4 ?  loses to  11.Ng5.  If Black's queen were already on  d7  , then  ...Nf5  would attack the White queen and defend the h7-pawn.   I was convinced by analyzing with the engine and checking the lines in IM Ahmad_Alkhatib's  1.b3  Chessable repertoire that White is pressing in the endgame after  10...Nf5  11.Qxd8  Rxd8  12.Nc3  e4  13.Ng5  h6  14.Nh3  , despite the engine's insistence that Black was doing fine. For more information, check the why not 10...Nf5 section. }
+{ Black prepares to play ...e4 followed by ...Nf5. White's reply of 11. Nc3 is forced.   10...e4 ?  loses to  11.Ng5.  If Black's queen were already on  d7  , then  ...Nf5  would attack the White queen and defend the h7-pawn.   I was convinced by analyzing with the engine and checking the lines in Ahmad_Alkhatib's  1.b3   repertoire that White is pressing in the endgame after  10...Nf5  11.Qxd8  Rxd8  12.Nc3  e4  13.Ng5  h6  14.Nh3  , despite the engine's insistence that Black was doing fine. For more information, check the why not 10...Nf5 section. }
 11. Nc3
 { Forced, White has a lost game otherwise. The idea is to meet 11... e4 ? with 12. Nxe4 ! where Black can't recapture due to Bxc4 with a decisive attack. }
 11... Nf5
@@ -952,16 +952,16 @@ Bxf4 { Black prepares to play ...exf3 by closing the f-file. } 15. Bc4+
 1. b3 e5 2. Bb2 Nc6 3. e3 d5 4. Bb5 Bd6 5. f4 f6 6. Qh5+
 { White provokes ...g6, hoping that the weakness on f6 will be worth the time spent on Qh5+ and Qh4. }
 6... g6 7. Qh4
-{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - IM Ahmad Alkhatib@@EndBlockQuote@@ }
+{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - Ahmad Alkhatib@@EndBlockQuote@@ }
 7... Ne7
 { Actually, Black can play ...Ne7, sacrificing the f6-pawn for open lines and time. White can't take the f6-pawn without losing the f4-pawn in return. 7... Ne7 is nowhere near the most popular move, but just as critical as 7... exf4.   7...exf4  is the mainline, but I don't like how White sacrifices material for the initiative with  8.Nf3  fxe3  9.O-O  where Black is behind in development in an open position. }
 8. fxe5
 { The most critical move, despite being rare. There is only one master game with 8. dxe5 as of 6/30/2019. 8. dxe5 is overshadowed by 8. Qxf6 in amateur chess as well according to the lichess database. }
 8... fxe5 9. Nf3 O-O
 { Black unpins the c6-knight, renewing the defense to his e5-pawn. } 10. Be2
-{ Recommended by IM Ahmad Alkhatib in the Chessable course 'Fight like Nakamura: Play 1.b3 !'. White prepares for ...Nf5 by moving his bishop out of the way of possible forks.   10.Nc3  Nf5  11.Qxd8  allows  11...Nxd8 !  where  12.Nxd5  loses to  12...c6.  This is why White plays  10.Be2  , which is also a useful move now that the bishop is no longer preforming any useful function on  c6  as the c6-knight has been unpinned. }
+{ Recommended by Ahmad Alkhatib in the  course 'Fight like Nakamura: Play 1.b3 !'. White prepares for ...Nf5 by moving his bishop out of the way of possible forks.   10.Nc3  Nf5  11.Qxd8  allows  11...Nxd8 !  where  12.Nxd5  loses to  12...c6.  This is why White plays  10.Be2  , which is also a useful move now that the bishop is no longer preforming any useful function on  c6  as the c6-knight has been unpinned. }
 10... Qd7
-{ Black prepares to play ...e4 followed by ...Nf5. White's reply of 11. Nc3 is forced.   10...e4 ?  loses to  11.Ng5.  If Black's queen were already on  d7  , then  ...Nf5  would attack the White queen and defend the h7-pawn.   I was convinced by analyzing with the engine and checking the lines in IM Ahmad_Alkhatib's  1.b3  Chessable repertoire that White is pressing in the endgame after  10...Nf5  11.Qxd8  Rxd8  12.Nc3  e4  13.Ng5  h6  14.Nh3  , despite the engine's insistence that Black was doing fine. For more information, check the why not 10...Nf5 section. }
+{ Black prepares to play ...e4 followed by ...Nf5. White's reply of 11. Nc3 is forced.   10...e4 ?  loses to  11.Ng5.  If Black's queen were already on  d7  , then  ...Nf5  would attack the White queen and defend the h7-pawn.   I was convinced by analyzing with the engine and checking the lines in Ahmad_Alkhatib's  1.b3   repertoire that White is pressing in the endgame after  10...Nf5  11.Qxd8  Rxd8  12.Nc3  e4  13.Ng5  h6  14.Nh3  , despite the engine's insistence that Black was doing fine. For more information, check the why not 10...Nf5 section. }
 11. Nc3
 { Forced, White has a lost game otherwise. The idea is to meet 11... e4 ? with 12. Nxe4 ! where Black can't recapture due to Bxc4 with a decisive attack. }
 11... Nf5
@@ -993,16 +993,16 @@ Bxf4 { Black prepares to play ...exf3 by closing the f-file. } 15. Bc4+
 1. b3 e5 2. Bb2 Nc6 3. e3 d5 4. Bb5 Bd6 5. f4 f6 6. Qh5+
 { White provokes ...g6, hoping that the weakness on f6 will be worth the time spent on Qh5+ and Qh4. }
 6... g6 7. Qh4
-{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - IM Ahmad Alkhatib@@EndBlockQuote@@ }
+{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - Ahmad Alkhatib@@EndBlockQuote@@ }
 7... Ne7
 { Actually, Black can play ...Ne7, sacrificing the f6-pawn for open lines and time. White can't take the f6-pawn without losing the f4-pawn in return. 7... Ne7 is nowhere near the most popular move, but just as critical as 7... exf4.   7...exf4  is the mainline, but I don't like how White sacrifices material for the initiative with  8.Nf3  fxe3  9.O-O  where Black is behind in development in an open position. }
 8. fxe5
 { The most critical move, despite being rare. There is only one master game with 8. fxe5 as of 6/30/2019. 8. fxe5 is overshadowed by 8. Qxf6 in amateur chess as well according to the lichess database. }
 8... fxe5 9. Nf3 O-O
 { Black unpins the c6-knight, renewing the defense to his e5-pawn. } 10. Be2
-{ Recommended by IM Ahmad Alkhatib in the Chessable course 'Fight like Nakamura: Play 1. b3 !'. White prepares for ...Nf5 by moving his bishop out of the way of possible forks.   10.Nc3  Nf5  11.Qxd8  allows  11...Nxd8 !  where  12.Nxd5  loses to  12...c6.  This is why White plays  10.Be2  , which is also a useful move now that the bishop is no longer preforming any useful function on  c6  as the c6-knight has been unpinned. }
+{ Recommended by Ahmad Alkhatib in the  course 'Fight like Nakamura: Play 1. b3 !'. White prepares for ...Nf5 by moving his bishop out of the way of possible forks.   10.Nc3  Nf5  11.Qxd8  allows  11...Nxd8 !  where  12.Nxd5  loses to  12...c6.  This is why White plays  10.Be2  , which is also a useful move now that the bishop is no longer preforming any useful function on  c6  as the c6-knight has been unpinned. }
 10... Qd7
-{ Black prepares to play ...e4 followed by ...Nf5. White's reply of 11. Nc3 is forced.   10...e4 ?  loses to  11.Ng5.  If Black's queen were already on  d7  , then  ...Nf5  would attack the White queen and defend the h7-pawn.   I was convinced by analyzing with the engine and checking the lines in IM Ahmad_Alkhatib's  1.b3  Chessable repertoire that White is pressing in the endgame after  10...Nf5  11.Qxd8  Rxd8  12.Nc3  e4  13.Ng5  h6  14.Nh3  , despite the engine's insistence that Black was doing fine. For more information, check the why not 10...Nf5 section. }
+{ Black prepares to play ...e4 followed by ...Nf5. White's reply of 11. Nc3 is forced.   10...e4 ?  loses to  11.Ng5.  If Black's queen were already on  d7  , then  ...Nf5  would attack the White queen and defend the h7-pawn.   I was convinced by analyzing with the engine and checking the lines in Ahmad_Alkhatib's  1.b3   repertoire that White is pressing in the endgame after  10...Nf5  11.Qxd8  Rxd8  12.Nc3  e4  13.Ng5  h6  14.Nh3  , despite the engine's insistence that Black was doing fine. For more information, check the why not 10...Nf5 section. }
 11. Nc3
 { Forced, White has a lost game otherwise. The idea is to meet 11... e4 ? with 12. Nxe4 ! where Black can't recapture due to Bxc4 with a decisive attack. }
 11... Nf5
@@ -1038,16 +1038,16 @@ Bxf4 { Black prepares to play ...exf3 by closing the f-file. } 15. Bc4+
 1. b3 e5 2. Bb2 Nc6 3. e3 d5 4. Bb5 Bd6 5. f4 f6 6. Qh5+
 { White provokes ...g6, hoping that the weakness on f6 will be worth the time spent on Qh5+ and Qh4. }
 6... g6 7. Qh4
-{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - IM Ahmad Alkhatib@@EndBlockQuote@@ }
+{ @@StartBlockQuote@@'Now the g8-knight is stuck because it has to keep protecting the f6-pawn.' - Ahmad Alkhatib@@EndBlockQuote@@ }
 7... Ne7
 { Actually, Black can play ...Ne7, sacrificing the f6-pawn for open lines and time. White can't take the f6-pawn without losing the f4-pawn in return. 7... Ne7 is nowhere near the most popular move, but just as critical as 7... exf4.   7...exf4  is the mainline, but I don't like how White sacrifices material for the initiative with  8.Nf3  fxe3  9.O-O  where Black is behind in development in an open position. }
 8. fxe5
 { The most critical move, despite being rare. There is only one master game with 8. fxe5 as of 6/30/2019. 8. fxe5 is overshadowed by 8. Qxf6 in amateur chess as well according to the lichess database. }
 8... fxe5 9. Nf3 O-O
 { Black unpins the c6-knight, renewing the defense to his e5-pawn. } 10. Be2
-{ Recommended by IM Ahmad Alkhatib in the Chessable course 'Fight like Nakamura: Play 1.b3 !'. White prepares for ...Nf5 by moving his bishop out of the way of possible forks.   10.Nc3  Nf5  11.Qxd8  allows  11...Nxd8 !  where  12.Nxd5  loses to  12...c6.  This is why White plays  10.Be2  , which is also a useful move now that the bishop is no longer preforming any useful function on  c6  as the c6-knight has been unpinned. }
+{ Recommended by Ahmad Alkhatib in the  course 'Fight like Nakamura: Play 1.b3 !'. White prepares for ...Nf5 by moving his bishop out of the way of possible forks.   10.Nc3  Nf5  11.Qxd8  allows  11...Nxd8 !  where  12.Nxd5  loses to  12...c6.  This is why White plays  10.Be2  , which is also a useful move now that the bishop is no longer preforming any useful function on  c6  as the c6-knight has been unpinned. }
 10... Qd7
-{ Black prepares to play ...e4 followed by ...Nf5. White's reply of 11. Nc3 is forced.   10...e4 ?  loses to  11.Ng5.  If Black's queen were already on  d7  , then  ...Nf5  would attack the White queen and defend the h7-pawn.   I was convinced by analyzing with the engine and checking the lines in IM Ahmad_Alkhatib's  1.b3  Chessable repertoire that White is pressing in the endgame after  10...Nf5  11.Qxd8  Rxd8  12.Nc3  e4  13.Ng5  h6  14.Nh3  , despite the engine's insistence that Black was doing fine. For more information, check the why not 10...Nf5 section. }
+{ Black prepares to play ...e4 followed by ...Nf5. White's reply of 11. Nc3 is forced.   10...e4 ?  loses to  11.Ng5.  If Black's queen were already on  d7  , then  ...Nf5  would attack the White queen and defend the h7-pawn.   I was convinced by analyzing with the engine and checking the lines in Ahmad_Alkhatib's  1.b3   repertoire that White is pressing in the endgame after  10...Nf5  11.Qxd8  Rxd8  12.Nc3  e4  13.Ng5  h6  14.Nh3  , despite the engine's insistence that Black was doing fine. For more information, check the why not 10...Nf5 section. }
 11. Nc3
 { Forced, White has a lost game otherwise. The idea is to meet 11... e4 ? with 12. Nxe4 ! where Black can't recapture due to Bxc4 with a decisive attack. }
 11... Nf5
@@ -1074,7 +1074,7 @@ fxe5 9. Nf3 O-O 10. Be2 Qd7 11. Nc3 Nf5 12. Qa4 Nb4 13. Qxd7 Bxd7
 14... Ne7
 { 14...c6  15.a3  Slow moves allow Black to fight for the initiative with ...e4.  15...Na6  16.e4  Ne7  17.d4  exd4  18.Nxd4  gives White an annoying initiative. I prefer 14... Ne7 because e4 can be met with ...d4.   14...e4 ?  15.Nxe4  dxe4  16.Bc4+  Rf7  17.Ng5  if Black had already played ...c6 or ...Ne7, Bc4+ could have been met with ...Nbd5. This is why Black needs to prepare ...e4. }
 15. a3
-{ White needs to play in a forcing way or else Black will take over the initiative with ...e4...a6 is also an idea to consolidate if Black is given time because after a3 and ...Nc6, White can't target the Black bishop pair with Nb5.   15.Rdf1  e4   15...h6  first is also possible, avoiding the Ng5-xe4 lines, but allowing White another chance to fight for the initiative with a3 and e4/Nb5.   15...a6  16.Ng5  Be5  these complications might favor White, 15... a6 is a safer option.   16...Rf5   16...h6  17.Ngxe4  dxe4  18.Nxe4  Nf5  19.Nf6+  Rxf6  20.Bxf6  Bc6  21.a3  Na6  22.Bb2  Nc5  is somewhat unclear but probably favoring White. So Black should prepare this with 15... h6, consolidate with 15... a6, or deviate on move 16.   15.Kb1 ?!  e4  gives Black the initiative. The sac's on e4 after Ng5 aren't dangerous if White doesn't have a rook on the f-file.   15.Nb5!  is IM Ahmad Alkhatib's suggestion. The critical line is  15...e4   15...Nxa2+?!  16.Kb1  Nb4  17.Nxe5  White won the pawn back and has the initiative.  16.Ne5  Bxe5  17.Bxe5  Rf2  18.Nc3  Nxa2+  19.Nxa2  Rxe2  20.Rhg1  Rf2  21.Bxc7  a5  White is slightly better in this endgame due to his more active bishop, but this advantage is insignificant. This endgame is objectively drawn and is relatively easy to draw in practice due to the opposite colored bishops. All of the rooks will likely be traded on the f-file soon, bringing Black closer to complete equality. At depth 43, Stockfish 10 64 evaluates this endgame as +0.21, suggesting the following variation as best.  22.Rdf1  Rxf1+  23.Rxf1  Black has many alternatives in this variation, of course. This is just a sample variation  (as given by Stockfish)  to show that Black is doing fine.  23...a4  24.Kb2  Rc8  25.Bg3  axb3  26.cxb3  Nf5  27.Be5  Re8  28.Bf4  h5  29.Rc1  d4  30.exd4  Nxd4  31.Be3  Nf5  32.Rc7  Bc6  33.Nb4  Re7  34.Rxe7  Nxe7  35.Kc3  Nd5+  36.Nxd5  Bxd5  37.b4  Kf7  38.Kd4  Ke6  39.g3  Bc6  40.Kc5  Kf6  41.Kb6  Ke5  42.b5  Bd7  43.Kc5  Be6  with a drawn opposite colored bishop endgame. }
+{ White needs to play in a forcing way or else Black will take over the initiative with ...e4...a6 is also an idea to consolidate if Black is given time because after a3 and ...Nc6, White can't target the Black bishop pair with Nb5.   15.Rdf1  e4   15...h6  first is also possible, avoiding the Ng5-xe4 lines, but allowing White another chance to fight for the initiative with a3 and e4/Nb5.   15...a6  16.Ng5  Be5  these complications might favor White, 15... a6 is a safer option.   16...Rf5   16...h6  17.Ngxe4  dxe4  18.Nxe4  Nf5  19.Nf6+  Rxf6  20.Bxf6  Bc6  21.a3  Na6  22.Bb2  Nc5  is somewhat unclear but probably favoring White. So Black should prepare this with 15... h6, consolidate with 15... a6, or deviate on move 16.   15.Kb1 ?!  e4  gives Black the initiative. The sac's on e4 after Ng5 aren't dangerous if White doesn't have a rook on the f-file.   15.Nb5!  is Ahmad Alkhatib's suggestion. The critical line is  15...e4   15...Nxa2+?!  16.Kb1  Nb4  17.Nxe5  White won the pawn back and has the initiative.  16.Ne5  Bxe5  17.Bxe5  Rf2  18.Nc3  Nxa2+  19.Nxa2  Rxe2  20.Rhg1  Rf2  21.Bxc7  a5  White is slightly better in this endgame due to his more active bishop, but this advantage is insignificant. This endgame is objectively drawn and is relatively easy to draw in practice due to the opposite colored bishops. All of the rooks will likely be traded on the f-file soon, bringing Black closer to complete equality. At depth 43, Stockfish 10 64 evaluates this endgame as +0.21, suggesting the following variation as best.  22.Rdf1  Rxf1+  23.Rxf1  Black has many alternatives in this variation, of course. This is just a sample variation  (as given by Stockfish)  to show that Black is doing fine.  23...a4  24.Kb2  Rc8  25.Bg3  axb3  26.cxb3  Nf5  27.Be5  Re8  28.Bf4  h5  29.Rc1  d4  30.exd4  Nxd4  31.Be3  Nf5  32.Rc7  Bc6  33.Nb4  Re7  34.Rxe7  Nxe7  35.Kc3  Nd5+  36.Nxd5  Bxd5  37.b4  Kf7  38.Kd4  Ke6  39.g3  Bc6  40.Kc5  Kf6  41.Kb6  Ke5  42.b5  Bd7  43.Kc5  Be6  with a drawn opposite colored bishop endgame. }
 15... Nbc6 16. e4
 { Unless White plays aggressively, then Black will take over the initiative with ...e4 or consolidate the bishop pair with ...a6  (preventing Nb5)  . The engine thinks that White is slightly better but here are some deeper lines to show that Black is fine. As usual, if White doesn't play really aggressively then Black will be at least fine, but even in the critical line Black is doing okay. }
 16... d4 17. Nb5 Be6 18. Ng5 Rf2 19. Bd3 Bd7 20. Rhf1 Raf8 21. Rxf2
@@ -1154,7 +1154,7 @@ hxg6 26. Qxg6
 [Black "Zeljko Matic vs. Robert Zelcic"]
 [Result "*"]
 
-{ This was a slow game played in an open tournament in 2018. White was a CM and Black was a GM. }
+{ This was a slow game played in an open tournament in 2018. White was a CM and Black was a . }
 1. b3 e5 2. Bb2 Nc6 3. e3 d5 4. Bb5 Bd6 5. f4 f6 6. Qh5+ g6 7. Qh4 Ne7 8. Qxf6
 { 8.fxe5  fxe5  9.Nf3  is more critical. See the theory section for details. }
 8... Rf8 { The moves up to this point were explained in the theory section. }

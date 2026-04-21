@@ -1,4 +1,4 @@
-﻿[Event "?"]
+[Event "?"]
 [Site "?"]
 [Date "????.??.??"]
 [Round "?"]
@@ -6,7 +6,7 @@
 [Black "?"]
 [Result "*"]
 [ECO "B96"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [PlyCount "29"]
 
 {[%evp 0,29,16,28,46,51,106,88,88,49,58,55,85,59,90,-2,32,29,28,0,79,33,35,34,
@@ -27,7 +27,7 @@ tournament practice and required careful examination. That means the chapters
 are even bigger now than in the first version of the Najdorf databases. Also,
 today we have other sources of high-level material to study and improve our
 knowledge about the Najdorf. Personally, I like very much Giri's 2020
-Chessable Sicilian Najdorf Course. In many chapters, I suggest the same lines
+ Sicilian Najdorf Course. In many chapters, I suggest the same lines
 as he and try to go deeper into the positions, although in most of the
 variations I still follow my path. The second reason, unfortunately for me, is
 that in many lines my analysis didn't survive the test of time (or the test of
@@ -178,7 +178,7 @@ in Chapter 4.} *
 [Black "6.Bg5 e6 - Sidelines"]
 [Result "*"]
 [ECO "B95"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [PlyCount "38"]
 [EventDate "2018.??.??"]
 
@@ -583,7 +583,7 @@ complicating the game by means of} 13. e5 $2 {doesn't work:} dxe5 14. fxe5 Nxe5
 15. Bg3 {Now Black has the strong reply} b4 $1 {Opening the b-file and
 preparing a nice resource.} 16. axb4 Rxb4 17. Nf3 {[%csl Ge5] The pin seems
 very dangerous, but Black has} Nfg4 $1 $19 {[%csl Gb4][%cal Ge7f6,Gb4g4] ;0-1
-Milov, L (2470)-Ruck, R (2581) Griesheim GM 2002 (7) which is only possible
+Milov, L (2470)-Ruck, R (2581) Griesheim 2002 (7) which is only possible
 because of the rook on b4. Now Black is able to consolidate the knight on e5,
 with a winning position.}) 13... b4 14. axb4 Rxb4 15. Bf2 $2 {[%cal Yg4g5] ;
 0-1 Kolosowski, P (2281)-Jaworski, M (2377) POL-chT 1st League Ustron 2003 (4)
@@ -709,7 +709,7 @@ and a superior structure in view of the weakness on e5.} *
 [Black "6.Bg5 e6 7.f4 h6 - Sidelines"]
 [Result "*"]
 [ECO "B96"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [PlyCount "60"]
 [EventDate "2018.??.??"]
 
@@ -955,7 +955,7 @@ Now White found a very concrete idea to increase the tension:} 24. Nxe4 $1 ({
 Something slow like} 24. Nd1 {also gives Black time to mobilize his forces by
 means of} Qc6 $1 25. Ne3 Bc5 $13 {[%cal Gh8g8,Gf8e7,Gc5d4] with a tense but
 balanced position.}) 24... Nxe4 25. f6 $1 Nxf6 26. Rbf3 Qc6 27. Qf5 {[%cal
-Gf5g6] ;1-0 Rozen, E (2395)-Solomon, A (2321) Petah Tikva Elitzur IM-A 2020 (5)
+Gf5g6] ;1-0 Rozen, E (2395)-Solomon, A (2321) Petah Tikva Elitzur -A 2020 (5)
 I suspect this was all preparation by White. The threat is simple but quite
 dangerous: he wants to play Qg6 and Qf7 mate. The correct defense was} Rc7 $1 {
 when White has nothing better than} 28. Qg6 ({In case of} 28. Qxe5 $2 Rg8 {
@@ -994,7 +994,7 @@ only White needs to be careful, and Black plays without risk.} *
 [Black "6.Bg5 e6 7.f4 h6 8.Bh4 Qb6 9."]
 [Result "*"]
 [ECO "B96"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [PlyCount "64"]
 [EventDate "2018.??.??"]
 
@@ -1118,7 +1118,7 @@ queen. For example:} 24. Qxd6 Rh6 $1 25. Re3+ Kf7 26. Qd5+ Be6 27. Qxg5 Kg8 $19
 {It's a matter of time until Black coordinates his pieces, with a winning
 position.}) 18... Nc6 $1 19. Nxc6 ({If} 19. Nxe6 $2 Bxe6 20. Bxe6 {Black has
 the strong blow} Rxh2 $3 $19 {0-1 Leszko, B (2253)-Ajay Krishna, S (2401)
-Budapest Vezerkepzo Christmas GM 2021 (5) winning on the spot.}) (19. Bxe6 {
+Budapest Vezerkepzo Christmas 2021 (5) winning on the spot.}) (19. Bxe6 {
 is the best option, transposing to 18.Bxe6.}) 19... bxc6 20. Rf1 (20. Bxe6 $2 {
 is again refuted by} Rxh2 $3 $19 {[%csl Rc3,Rd2,Re6,Rh1][%cal Gc5g1] an
 amazing position in which White has all pieces under attack!}) 20... Rb8 $1 {
@@ -1153,7 +1153,7 @@ pawn, but the resulting endgame is very equal. The practical proof is that in
 8 games with this position in the database Black has scored +1 =7.} Ne5 23.
 Bxb7 Kd7 {[%cal Gd7c7]} (23... Ke7 {was played by Vachier Lagrave twice and is
 equally good.}) 24. Rff1 Kc7 25. Bxa6 Rxb1 26. Rxb1 Ra8 27. Bd3 Rxa2 $11 {
-½-½ Havelka,J (2330)-Nguyen,T (2429) Marianske Lazne GM-A2 16th 2017 (6)}) (
+½-½ Havelka,J (2330)-Nguyen,T (2429) Marianske Lazne -A2 16th 2017 (6)}) (
 11. Be2 $5 {is not entirely harmless, as besides completing the development in
 a natural way White also prepares an idea that can be dangerous if Black is
 caught by surprise.} Be7 12. O-O Nbd7 13. f5 $5 {Only after finishing the
@@ -1303,7 +1303,7 @@ $5 {[%cal Gc5b4]} 20. O-O e5 {forcing White to win the queen. After} 21. Nf6+
 Nxf6 22. Bxd5 Bxd4+ 23. Rxd4 exd4 24. Qxd4 Nxd5 25. Qxd5 Nc6 $11 {[%csl Ya5]
 [%cal Gc8e6] The endgame seems balanced. Black has enough material and nice
 piece coordination to compensate for the queen.}) 19... Nxf6 20. Bxd5 Bb4+ $1
-21. Kf1 {0-1 Bjerre, J (2361)-Ochsner, B (2458) Odense IM-A 2017 (3) Here} exd5
+21. Kf1 {0-1 Bjerre, J (2361)-Ochsner, B (2458) Odense -A 2017 (3) Here} exd5
 $1 $19 {[%csl Rf1][%cal Gf8e8,Gb8c6,Gf6e4] would've been stronger. If we only
 speak about purely material considerations it's already possible to say that
 Black has enough for the queen. However, considering the weak position of
@@ -1450,7 +1450,7 @@ promotion.} *
 [Black "6.Bg5 e6 7.f4 h6 8.Bh4 Qb6 9."]
 [Result "*"]
 [ECO "B96"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [PlyCount "82"]
 [EventDate "2018.??.??"]
 
@@ -2154,7 +2154,7 @@ which, by its turn, can guide our decisions during the game.} *
 [Black "6.Be3 e5 7.Nf3"]
 [Result "*"]
 [ECO "B90"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [PlyCount "46"]
 [EventDate "2018.??.??"]
 
@@ -2329,7 +2329,7 @@ $1 O-O $1 21. Qxe7 Nc3+ 22. Kc1 Nxa2+ 23. Kb1 Nc3+ 24. Kc1 Na2+ $11) 13... d5
 to provoke a3-b4, in a way that now in case of a queen's exchange White may
 face problems with the advanced pawns on the queenside. In a recent game,
 White decided to avoid the endgame and played} 16. Qd3 $5 {[%cal Ge1c1] ;1-0
-Sankalp, G (2446)-Petkov, M (2441) Arandjelovac ASK-3 GM 2021 (4) The move
+Sankalp, G (2446)-Petkov, M (2441) Arandjelovac ASK-3 2021 (4) The move
 played in the game is a dangerous practical try, as Black's only move to not
 get an inferior position now is} e4 $1 {fighting for the initiative.} 17. Qd2 (
 {The point is that} 17. Ngxe4 $6 {is answered by} Ne5 $1 {a nice tactical
@@ -2662,7 +2662,7 @@ endgame is equal and a draw was agreed in some moves.} *
 [Black "6.Be3 e5 7.Nb3 Be6 - Sideline"]
 [Result "*"]
 [ECO "B90"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [PlyCount "44"]
 [EventDate "2019.??.??"]
 
@@ -2679,7 +2679,7 @@ h5 $5 {is Giri's recommendation and also seems interesting. After} 9. Be2 g6 {
 [%csl Gg3][%cal Gb8d7,Ga8c8,Yh5h4,Yh4h3] Black's position looks good. We can
 continue developing the queenside in active way, White's Ng3 seems misplaced
 and the advance h4-h3 can be considered sometimes.}) 9. Be2 d5 $11 {Black has
-already equalized.}) (8. g3 $5 {is an idea of the Australian GM Anton Smirnov.
+already equalized.}) (8. g3 $5 {is an idea of the Australian Anton Smirnov.
 Despite his impressive score (100% of wins!) with this move, it's hard to say
 where is White's advantage after the natural} d5 $1 {liberating Black's play
 and forcing simplifications. White can look for some pressure in the endgame
@@ -2901,7 +2901,7 @@ remember.} 22. Kf4 $1 (22. N5xe4 {allows the draw with} Ne5+ 23. Kf4 Ng6+ 24.
 Kf3 Ne5+ $11) ({If} 22. Kxe4 $2 Rd2 $19 {it's Black who wins.}) 22... g5+ 23.
 Kf5 Rhe8 $1 {I think this is the first subtle resource to remember for Black,
 ignoring the bishop in order to create a mating net.} 24. Rhd1 {1-0 Navara,D 
-(2724)-Wojtaszek,R (2733) Biel GM 48th 2015 (4)} ({In case of} 24. bxc4 $2 Rd6
+(2724)-Wojtaszek,R (2733) Biel 48th 2015 (4)} ({In case of} 24. bxc4 $2 Rd6
 $1 {[%csl Rf5][%cal Ge8e5] the king's journey comes to a sudden end.} 25. Nd3
 Ree6 $1 {[%cal Gc6e7]} 26. Rxb7 exd3 27. Bxc6 Rxc6 28. Rhb1 Bg3 $19 {[%cal
 Ge6e5] and White still can't avoid the mate.}) 24... Bd3 $3 {The resource
@@ -2944,7 +2944,7 @@ optimistic, as} 18. g5 $2 {finds a nice tactical refutation:} Nc3+ $1 19. bxc3
 Ne4 20. Qd3 Nxc3+ 21. Kb2 Qe6 $1 {when after} 22. Ra1 d5 $17 {[%cal Gf8c8,
 Ga8b8] Black has a strong attack.}) 12... Qc7 $1 {Developing the queen with
 tempo thanks to a nice detail.} 13. Kb1 {1-0 Wei, Y (2727)-Grandelius, N (2635)
-Chessable Masters Prelim chess24.com INT rapid 2022 (15)} ({If} 13. g5 Nxe4 $1
+ Masters Prelim chess24.com INT rapid 2022 (15)} ({If} 13. g5 Nxe4 $1
 14. Nxe4 Bxb3 {is the tactical point.}) {Grandelius played the engine's first
 choice here, which should be enough to get an equal game. However, I felt that
 Black's play was a bit confusing and antinatural, and decided to recommend
@@ -3014,7 +3014,7 @@ playable, and Black should be prepared to launch the counterplay on the
 queenside at the right moment. This analysis shows how important is to be
 aware of new theoretical developments in the Najdorf, as the white players are
 always looking for different ideas to catch us.}) (9. g3 {was seen in a recent
-game of the Russian GM Ponkratov. Although it has worked well in the game, I
+game of the Russian Ponkratov. Although it has worked well in the game, I
 don't get the point of transposing to the 6.g3 variation after starting with
 an English Attack move order. A possible explanation is that perhaps the idea
 is to force the opponent to go for positions that he usually wouldn't play
@@ -3262,7 +3262,7 @@ White maybe is} 21. Nd2 Qb5 22. Ne4 Qc4 $11 *
 [Black "6.Be3 e5 7.Nb3 Be6 - with f2-"]
 [Result "*"]
 [ECO "B90"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [PlyCount "42"]
 [EventDate "2019.??.??"]
 
@@ -3416,7 +3416,7 @@ position, including by Morozevich in a rapid game. The point is that Black has
 strong reply} b4 $1 {[%csl Re4] forcing further material gains:} 16. Nd5 Nxe4
 $1 17. Bxe7 Nxd2 18. Bxd8 Nxf1 19. Rxg4 ({Or} 19. Ba5 Nge3 20. Nc7+ Ke7 21.
 Nxa8 Rxa8 22. Rxg7 Rc8 $19 {0-1 Nomin Erdene, D (2314)-Flumbort, A (2458)
-Kecskemet Caissa GM 11 2014 (5) with a winning endgame for Black.}) 19... Rxd8
+Kecskemet Caissa 11 2014 (5) with a winning endgame for Black.}) 19... Rxd8
 20. Rg2 {[%csl Gf1] The knight is trapped on f1, but after} Rc8 21. Rf2 Nxh2
 22. Rxh2 Rc4 $19 {[%csl Gc4,Yh7] ;0-1 Morozevich, A (2656)-Sakaev, K (2584)
 Nezhmetdinov Memorial rapid 41st Kazan 2019 (10) Black has grabbed too many
@@ -3472,7 +3472,7 @@ point.} *
 [Black "6.Be3 e5 7.Nb3 Be6 8.f3 h5 - "]
 [Result "*"]
 [ECO "B90"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [PlyCount "61"]
 [EventDate "2019.??.??"]
 
@@ -3589,7 +3589,7 @@ g-pawn this is too slow. After} b5 13. h3 Nb6 {[%cal Yb5b4,Gb6c4,Gb6a4] Black
 gets nice activity on the queenside with many unpleasant threats, while White
 still has to spend one more tempo to advance the pawn. For example:} 14. Bd3 b4
 15. Ne2 Nc4 16. Bxc4 Bxc4 17. g4 a5 $15 {and I like Black's position.}) (12. h4
-$5 {is an interesting option and was played by some GM's. The idea is to fix
+$5 {is an interesting option and was played by some 's. The idea is to fix
 the pawn on h5 and wait for Black to castle, when White is ready to open the
 kingside by means of g4, even at the cost of one pawn.} b5 13. Bg5 (13. a3 O-O
 14. Bg5 {transposes.}) 13... O-O {Black can castle without fearing ghosts.} 14.
@@ -3600,7 +3600,7 @@ occurred in a recent game, which went} 17. Nd5 Nxd5 18. exd5 f6 $1 {Now White
 tried to be creative with} 19. Rg1 Bf5 20. Bh6 Rxc2 21. Rxg7+ Kh8 22. Bd3 Rxd2
 23. Bxf5 {but Black found an equally creative refutation to White's brilliant
 idea:} Rg2 $3 24. Rxg2 Rg8 $17 {0-1 Mista, A (2541)-Mishra, A (2505) Charlotte
-CCCSA Spring GM-A 2022 (4) Black successfully managed to repel the attack and
+CCCSA Spring -A 2022 (4) Black successfully managed to repel the attack and
 converted his material advantage.}) 14... Re8 $1 {An important move to
 remember in this variation. The rook proves to be well placed here in the
 arising complications. Another nice point is to vacate the f8-square, which
@@ -3640,7 +3640,7 @@ the white player couldn't find a good plan here and decided to improve his
 position by means of} 17. Nc1 $2 {[%cal Gc1a2] ;0-1 Inarkiev, E (2693)-Vidit,
 S (2707) Danzhou 10th 2019 (3) The way as Vidit played in the game is
 instructive and did work well. However,} b4 $1 {was more direct. After} 18.
-axb4 Qxb4 {I imagine the Indian GM rejected this line due to the resource} 19.
+axb4 Qxb4 {I imagine the Indian rejected this line due to the resource} 19.
 Bxf6 Nxf6 20. Nd5 {but surprisingly, after} Qb7 $1 21. Nxf6+ gxf6 {despite the
 position of Black's king looking dangerous, White has no attack at all. The
 following variation is a nice illustration of the difference in potential
@@ -3897,7 +3897,7 @@ White's pieces are not well coordinated.}) 30... Na4 31. Nb3 $11 *
 [Black "6.Be3 e5 7.Nb3 Be6 8.f3 h5 - "]
 [Result "*"]
 [ECO "B90"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [PlyCount "50"]
 [EventDate "2019.??.??"]
 
@@ -4045,7 +4045,7 @@ variation to illustrate the potential of Black's position.}) (15. Qa5 {now is
 simply harmless. We can play} Nd7 {as the arising endgames are balanced. A
 recent game went} 16. Rc1 g6 17. c4 {but after} Bh6 $1 {Black took the
 initiative.} 18. Rc2 Qe3 19. Be2 O-O $1 20. Qxa6 {1-0 Petenyi, T (2358)
--Baasansuren, E (2247) Saint Louis 1000 IM 01 2023 (3.4) The black player had
+-Baasansuren, E (2247) Saint Louis 1000 01 2023 (3.4) The black player had
 found active moves so far, but now he missed a powerful idea:} Ra8 $1 21. Qxd6
 Rxa2 $3 {[%csl Rb3][%cal Gf8a8] An unexpected strong blow. Black is bringing
 another rook to a8 with a crushing attack. After} 22. Kxa2 Ra8+ {he can try to
@@ -4442,7 +4442,7 @@ g4 so quickly. Another interesting point is that by keeping the rook on h8 we
 can improve the bishop by h6 first.} ({Another game went} 17... O-O 18. g4 {
 1-0 Horvath, A (2501)-Borhy, M (2374) CRO-chT1B 29th Mali Losinj 2021 (6.3)
 which seems also playable, though more tense.}) 18. Rhe1 O-O 19. Bd3 $5 {
-1-0 Horvath, A (2504)-Song, R (2478) Budapest SixDays 09 GM 2022 (7) Here It's
+1-0 Horvath, A (2504)-Song, R (2478) Budapest SixDays 09 2022 (7) Here It's
 possible to improve Black's play with} Kh7 {[%cal Gg7h6,Gf6d5] when the threat
 of Nxd5 begins to look annoying for White.} 20. Be4 {Following the same path
 from the game, but with the rook on f8 it's quite different.} ({If} 20. g4 {
@@ -4503,7 +4503,7 @@ main line, but the text keeps some extra options.}) 13... b6 $1 {[%csl Ya5,Yc5]
 An important prophylactic move which aims to prevent Na5 immediately and the
 breakthrough c4-c5 in advance.} (13... a5 $2 {was played by Vachier Lagrave,
 but doesn't look good from a positional point of view. After} 14. a4 $14 {
-[%csl Gb5] ;½-½ Carlsen, M (2842)-Vachier Lagrave, M (2779) Biel GM 51st
+[%csl Gb5] ;½-½ Carlsen, M (2842)-Vachier Lagrave, M (2779) Biel 51st
 2018 (7) the outpost on b5 gave a pleasant positional advantage for White.})
 14. c4 {The most played.} (14. a4 {[%csl Ge2][%cal Ya4a5] seems also natural,
 keeping the light-squared bishop open and trying to press the queenside in
@@ -4634,7 +4634,7 @@ Black had no problems to convert his advantage.} *
 [Black "6.Be2 e5 7.Nf3"]
 [Result "*"]
 [ECO "B92"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [PlyCount "42"]
 [EventDate "2018.??.??"]
 
@@ -4660,7 +4660,7 @@ database) the same position is reached with White's bishop still on f1, which
 allows Qg4.} 11. Bc4 Nc6 ({But not} 11... g6 $4 {due to the trick} 12. Nxd4 $1
 $18 {1-0 Dubov,D (2614)-Grischuk,A (2789) Moscow-ch blitz 68th 2014 (3)}) 12.
 O-O g6 13. Ng3 Bg7 $17 {[%cal Ge8g8,Gc8e6] ;0-1 Rydstrom, T (2322)-Goikhman, V
-(2295) Lvov Tradition IM 09 2019 (1) Black has an excellent game, with more
+(2295) Lvov Tradition 09 2019 (1) Black has an excellent game, with more
 space and the bishop pair.}) 7... Be7 (7... h6 {avoids Bg5, but gives White
 time to continue maneuvering the knight to d5:} 8. Nd2 $1 Be6 (8... b5 {
 is premature. After the typical reaction} 9. a4 $1 b4 10. Nd5 Nxd5 11. exd5 {
@@ -4788,7 +4788,7 @@ CHN-chT China 2017 (5.3)} ({Giri also examines} 15. Qc4 {when Black can keep
 queens on the board, but in any case, the endgame after} Rac8 16. Qxc7 Rxc7 $11
 {[%cal Gf8b8,Yb7b5,Yb5b4,Gd7c5] is not bad either, as we can attack the
 e4-pawn and prepare the advance of the queenside pawns to look for counterplay.
-As the Dutch GM points out, in these endgames, Black often brings the king to
+As the Dutch points out, in these endgames, Black often brings the king to
 e6 and prepares the advance of the kingside pawns. Of course, we are talking
 of a distant future.}) 15... b5 {[%csl Yc4] At the same time controlling the
 c4-square and preparing a future expansion on the queenside.} 16. Rfd1 {
@@ -4881,7 +4881,7 @@ and a more combative option.} *
 [Black "6.Be2 e5 7.Nb3 Be7 8.Bg5"]
 [Result "*"]
 [ECO "B92"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [PlyCount "48"]
 [EventDate "2018.??.??"]
 
@@ -4890,7 +4890,7 @@ and a more combative option.} *
 } 1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e5 7. Nb3 Be7 {
 This is Black's classic reply against 6.Be2.} ({It should be noted that} 7...
 Be6 $5 {used to be considered inferior due to} 8. f4 {but in his excellent
-2020 Najdorf course for Chessable, Giri demonstrated that Black has decent
+2020 Najdorf course for , Giri demonstrated that Black has decent
 practical chances in this line as well. Nevertheless, the game tends to take a
 more concrete path, and the arising positions can be very complex. Therefore,
 I recommend to start by the most typical 7...Be7 line, then later you can add
@@ -4965,7 +4965,7 @@ material by force. The immediate threat is Nb6, and after} 17. Nxd6 Rcd8 {
 [%csl Rd5] White faces serious problems with the exposed position of his queen.
 For example:} 18. Nf5 Nc5 $1 19. Nxe7+ Qxe7 20. Qc6 Qg5+ $1 21. Kc2 Rc8 22. Qd5
 b4 $1 $19 {and the engine already evaluates Black's position as winning.})
-14... O-O {Now the position transposes to a game between two strong GM's. The
+14... O-O {Now the position transposes to a game between two strong 's. The
 point of a quick b5-advance is that if Black is able to continue with Qc7-Nb6
 his position will be very good. The only way of trying to avoid this plan is}
 15. Qb7 $5 {but now Black prepared a strong and subtle idea:} (15. g3 {was
@@ -5063,7 +5063,7 @@ Rd5 Nd7 $1 $11 {[%cal Gd7f6,Gd7b6,Yd6d5] ;½-½ Carlsen, M (2834)-Giri, A
 (2784) Qatar Masters op Doha 2015 (7) Black is ok, and in the game he even had
 some initiative. I should mention that Giri's games in the Najdorf are always
 instructive, especially in positional variations in which White tries to
-exploit the d5-square. The Dutch GM knows how to solve Black's strategic
+exploit the d5-square. The Dutch knows how to solve Black's strategic
 problems and skillfully takes advantage of any small imprecision by his
 opponents. Finally, a useful reminder in such positions is that the knight is
 a very important piece to keep d5 under control and also to help on Black's
@@ -5078,7 +5078,7 @@ counterplay. Whenever that is possible, keeping it in the game is a good idea.}
 [Black "6.Be2 - f4-ideas"]
 [Result "*"]
 [ECO "B92"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [PlyCount "36"]
 [EventDate "2018.??.??"]
 
@@ -5420,7 +5420,7 @@ Qxd1 18. Raxd1 Bxb2 $11 {was simple and good.} *
 [Black "6.Be2 - Nd5-ideas"]
 [Result "*"]
 [ECO "B92"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [PlyCount "42"]
 [EventDate "2018.??.??"]
 
@@ -5467,10 +5467,10 @@ activity provides excellent compensation for the pawn.}) (11. O-O-O $5 {
 was seen in some recent games. White changes the plan and intends to advance
 on the kingside. However, with the king on c1 Black achieves enough
 counterplay.} Bxd5 12. exd5 Nb6 13. Kb1 $5 {This pawn sacrifice is an idea of
-the young GM Mishra.} ({If} 13. Bf3 {Black plays} Nfd7 {[%cal Yf7f5]
+the young Mishra.} ({If} 13. Bf3 {Black plays} Nfd7 {[%cal Yf7f5]
 threatening f7-f5 in the next, and if} 14. Be4 Nf6 {White has nothing better
 than} 15. Bf3 Nfd7 $11) 13... Nfxd5 14. Bd2 {[%cal Gd2a5]} Qc8 $5 {1-0 Mishra,
-A (2535)-Wei, Y (2727) Chessable Masters Prelim chess24.com INT rapid 2022 (9)
+A (2535)-Wei, Y (2727)  Masters Prelim chess24.com INT rapid 2022 (9)
 Perhaps White should keep seizing space on the kingside with} 15. g4 $5 {
 [%cal Yh2h4] when a logical continuation would be} Re8 16. h4 Nf4 17. Bxf4 exf4
 18. Bf3 {with some pressure on the light squares. A nice practical solution
@@ -5552,7 +5552,7 @@ White, but Black is also well-developed and has active pieces.}) 13... a5 {
 plays f2-f4 in these positions, but since the advance is not possible I
 already like Black's position. A recent game went} 14. Bd2 b6 15. Be1 {[%csl
 Ge1][%cal Gc1d2,Gd2e1] ;½-½ Grinberg, E (2500)-Kevlishvili, R (2532) Los
-Angeles Labor Day GM 2022 (2) but the bishop doesn't looks impressive on e1.
+Angeles Labor Day 2022 (2) but the bishop doesn't looks impressive on e1.
 In the game Black exchanged knights on c5, but I think that helps White to get
 rid of a passive piece. Another option was} Re8 {[%cal Ge7f8,Yg7g6,Gf8g7]
 followed by the maneuver Bf8-g6-Bg7. A logical continuation would be} 16. Nd2 {
@@ -5563,7 +5563,7 @@ bishop to be better placed on d2, controlling some squares on the queenside
 and supporting the majority.} Rc8 {[%csl Rc2][%cal Ye5e4] Giri's suggestion.
 The rook is well placed on c8 to make the breakthrough c4-c5 harder and
 threatens to win a pawn with e5-e4.} ({When this move order first appeared at
-the high level,} 12... Nc5 $2 {used to be the choice of some GM's. However,
+the high level,} 12... Nc5 $2 {used to be the choice of some 's. However,
 after} 13. Nxc5 dxc5 14. c4 {[%csl Gd5] the advantages of White's 10th move
 soon will become evident.} Qc7 15. Rae1 Bd6 16. Qh3 $1 {[%cal Gd3h3] First
 point: the third rank is open for White's queen, which can take an active post
@@ -5785,7 +5785,7 @@ points for both knights. After this positional operation, Black's position
 already seems more pleasant.} 19. Bd3 Bxf2+ 20. Qxf2 Nc5 21. Bc2 g6 $1 {
 [%cal Ge8g7,Gg7f5]} 22. Rfe1 Ng7 23. Be4 Qd7 24. Nc2 Nf5 $19 {[%csl Gc5,Yd4,
 Ye3,Gf5][%cal Gf8f6,Gg8h8,Yg6g5,Gc8g8] ;0-1 Georgiadis, N (2526)-Mamedyarov, S
-(2801) Biel GM 51st 2018 (6) Black's positional advantage is already huge,
+(2801) Biel 51st 2018 (6) Black's positional advantage is already huge,
 with both knights well placed and pressing weak squares on White's camp. The
 next part of the plan is to prepare an attack on the kingside, as the
 structure makes it hard for White to bring his pieces to help in the defense.
@@ -5903,7 +5903,7 @@ Black's opening problems.} *
 [Black "6.Be2 - Quiet lines"]
 [Result "*"]
 [ECO "B92"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [PlyCount "40"]
 [EventDate "2018.??.??"]
 
@@ -6233,7 +6233,7 @@ can't allow d6-d5.} 18. Qd2 Qc7 19. Qe1 Qc6 20. Qd2 Qc7 $11 {½-½ Nakamura, H
 [Black "6.h3 e6 - with 0-0-0"]
 [Result "*"]
 [ECO "B90"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [PlyCount "50"]
 [EventDate "2019.??.??"]
 
@@ -6242,7 +6242,7 @@ can't allow d6-d5.} 18. Qd2 Qc7 19. Qe1 Qc6 20. Qd2 Qc7 $11 {½-½ Nakamura, H
 } 1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 $5 {[%cal Yg2g4]
 This is nowadays one of the main moves against the Najdorf and is very popular
 in all levels. In theoretical databases, this line receives the name of Adams
-Attack, not because of the famous English GM Michael Adams, but from another
+Attack, not because of the famous English Michael Adams, but from another
 Adams, who played it for the first time in 1948! Many years later, after some
 victories by Fischer put this variation more seriously in tournament practice.
 White's goal couldn't be clearer: to continue with g4, like in the Keres
@@ -6675,7 +6675,7 @@ Kxb2 Qb4+ 24. Ka2 Qa5+ 25. Kb2 Qb4+ $11 *
 [Black "6.h3 e6 - With 0-0"]
 [Result "*"]
 [ECO "B90"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [PlyCount "44"]
 [EventDate "2019.??.??"]
 
@@ -6849,7 +6849,7 @@ ready to start playing the Najdorf!}  *
 [Black "?"]
 [Result "*"]
 [ECO "B94"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [PlyCount "42"]
 
 {[%evp 0,17,25,24,51,32,62,48,42,26,27,24,55,62,59,19,18,19,12,0]} 1. e4 c5 2.
@@ -7015,7 +7015,7 @@ c3 {Black has the strong reply} Nd8 $1 {[%cal Ge8d7,Gd7c7,Ye6e5] with nice
 chances of consolidating the position.}) 19... Qxf2+ 20. Rxf2 Bxe6 21. Bxe6 Rb8
 {Now with} 22. Bd5 {White is able to regain the pawn, but the resulting
 endgame is very equal. For example:} Ne5 23. Bxb7 Kd7 24. Rff1 Kc7 25. Bxa6
-Rxb1 26. Rxb1 Ra8 $11 {Havelka,J (2330)-Nguyen,T (2429) Marianske Lazne GM-A2
+Rxb1 26. Rxb1 Ra8 $11 {Havelka,J (2330)-Nguyen,T (2429) Marianske Lazne -A2
 16th 2017 (6) 1/2-1/2}) (11. Be2 $5 {is not totally harmless.} Be7 12. O-O Nbd7
 {After finishing the development White has an interesting active idea:} 13. f5
 $5 e5 14. Ne6 $1 fxe6 15. fxe6 Nc5 16. Rxf6 $1 {White sacrifices first a piece
@@ -7176,7 +7176,7 @@ Black's position from a practical point of view.} *
 [Black "?"]
 [Result "*"]
 [ECO "B90"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [PlyCount "38"]
 
 1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 {This is another
@@ -7254,7 +7254,7 @@ takes his king on a courageous journey.} e4+ $1 {Another important resource to
 remember.} 22. Kf4 $1 (22. N5xe4 {allows the repetition with} Ne5+ 23. Kf4 Ng6+
 24. Kf3 Ne5+ $11) (22. Kxe4 $4 Rd2 $19 {is bad for White.}) 22... g5+ 23. Kf5
 Rhe8 $1 {Black ignores the threat on c4 to prepare a mating net around White's
-king.} 24. Rhd1 {Navara,D (2724)-Wojtaszek,R (2733) Biel GM 48th 2015 (4) 1-0}
+king.} 24. Rhd1 {Navara,D (2724)-Wojtaszek,R (2733) Biel 48th 2015 (4) 1-0}
 ({In case of} 24. bxc4 $4 Rd6 $1 {[%csl Rf5][%cal Ge8e5] the adventure of
 White's king suddenly comes to an end.} 25. Nd3 Ree6 $1 {[%cal Gc6e7]} 26. Rxb7
 exd3 27. Bxc6 Rxc6 28. Rhb1 Bg3 $1 $19 {[%cal Ge6e5]}) 24... Bd3 $3 {The
@@ -7434,11 +7434,11 @@ totally playable position.}) 11... Be7 ({In case of} 11... b5 12. Nd5 {can be
 considered, as now if} Nxd5 13. exd5 Bf5 14. Bd3 Bxd3 15. cxd3 $1 $36 {[%cal
 Yd3d4] White has the initiative.}) 12. Bd3 {After finishing the development,
 White's next step is to prepare the advance of the g-pawn.} (12. h4 $5 {
-is an interesting option played by some GM's. The idea is to fix the pawn on
+is an interesting option played by some 's. The idea is to fix the pawn on
 h5 and waiting for 0-0 by Black, when White is ready to sacrifice a pawn with
 g4 in order to open the kingside.} b5 13. Bg5 O-O 14. a3 (14. g4 $6 {directly
 is not so dangerous as after} hxg4 15. fxg4 Bxg4 16. Re1 {Black has} b4 $1 $132
-{Mista,A (2541) -Mishra, A (2505) Charlotte CCCSA Spring GM-A 2022 (4) 0-1
+{Mista,A (2541) -Mishra, A (2505) Charlotte CCCSA Spring -A 2022 (4) 0-1
 with timely counterplay on the queenside.}) 14... Re8 $1 {[%csl Ge8] An
 important move to remember in this variation. As we'll see, the rook is very
 useful on e8 in the upcoming complications.} 15. g4 $5 {The most principled,
@@ -7607,7 +7607,7 @@ was seen in one game and I like it. Black takes away the b4-square from the
 enemy queen, but the main idea is to postpone 0-0 for a while.} (17... O-O {
 direct is also possible, but after} 18. g4 {Horvath, A (2501)-Borhy, M (2374)
 CRO-chT1B 29th 2021 (6.3) 1-0 the position is more tense.}) 18. Rhe1 O-O 19.
-Bd3 $5 {Horvath,A (2504)-Song,R (2478) Budapest SixDays 09 GM 2022 (7) 1-0
+Bd3 $5 {Horvath,A (2504)-Song,R (2478) Budapest SixDays 09 2022 (7) 1-0
 Here we can improve on White's play with} Kh7 {[%cal Gg7h6,Gf6d5] when the
 threats of Nxd5 or Qxd5 start to look annoying for White.} 20. Be4 ({If} 20. g4
 {Black has} Qxd5 $1) 20... Nxe4 21. Rxe4 (21. fxe4 f5 $1 $15 {[%cal Gf8f1] is
@@ -7711,7 +7711,7 @@ control and ended up in a losing position.} *
 [Black "?"]
 [Result "*"]
 [ECO "B92"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [PlyCount "38"]
 
 {[%evp 0,38,22,25,40,40,66,41,53,39,39,22,49,39,39,38,41,34,43,41,34,20,42,37,
@@ -7920,7 +7920,7 @@ expects the bishop to be better placed on d2, controlling some squares on the
 queenside and supporting the advance of the pawn majority. Now I like Giri's
 suggestion} Rc8 {[%csl Rc2][%cal Ye5e4] developing the rook on the open file
 and creating the direct threat of e4.} ({It should be noted that} 12... Nc5 $2
-{was played by some GM's but is a mistake. After} 13. Nxc5 dxc5 14. c4 Qc7 15.
+{was played by some 's but is a mistake. After} 13. Nxc5 dxc5 14. c4 Qc7 15.
 Rae1 Bd6 16. Qh3 $1 Rfe8 17. Bc3 g6 18. Bd3 $16 {[%csl Gc3,Gd3,Yd5,Ge1,Gf1,Gh3]
 [%cal Gd3h7,Gc3h8] ;Nepomniachtchi,I (2751)-Gelfand,B (2724) Zuerich Chess
 Challenge 6th 2017 (4) 1-0 White has a strong passed pawn in the centre and
@@ -8131,7 +8131,7 @@ consolidating the position with an at least equal game.} *
 [Black "?"]
 [Result "*"]
 [ECO "B90"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [PlyCount "50"]
 
 {[%evp 0,21,25,13,40,50,58,48,48,37,22,32,49,52,58,10,46,48,24,24,32,19,29,22]
@@ -8311,7 +8311,7 @@ Kb2 Qb4+ $11 *
 [White "Test 1"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "rn1qk2r/1b2bppp/p2ppn2/1p4B1/3NP3/P1N2P2/1PPQ2PP/2KR1B1R b kq - 0 10"]
 [PlyCount "13"]
@@ -8333,7 +8333,7 @@ good compensation for the pawn.} *
 [White "Test 2"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "1r2k2r/1bq1bpp1/p2ppn1p/2n5/1p1NPP1B/4QB2/PPPN2PP/2KRR3 b k - 0 16"]
 [PlyCount "7"]
@@ -8351,7 +8351,7 @@ for Black.} *
 [White "Test 3"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "rnb1kb1r/1p3pp1/p2ppq1p/8/3NPP2/2N5/PPPQ2PP/R3KB1R b KQkq - 0 9"]
 [PlyCount "9"]
@@ -8373,7 +8373,7 @@ endgame with the king on e7 and a solid outpost for the knight on e5.} *
 [White "Test 4"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "r1b2b1r/1p3kp1/p1n4p/3p4/3N3B/q1PQ4/P5PP/1R2KB1R b K - 0 16"]
 [PlyCount "17"]
@@ -8395,7 +8395,7 @@ restore the material balance.} *
 [White "Test 5"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "rnb1k2r/1p4p1/p2p4/2q1p1p1/2BN4/4R1P1/P1PQ3P/4KR2 b kq - 0 19"]
 [PlyCount "7"]
@@ -8411,7 +8411,7 @@ Qxc4 $1 {is possible now. The point is that after} 20. Rc3 {Black has} Qxf1+ $1
 [White "Test 6"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "rnb1k1r1/1p4p1/p2BN2p/3nQ3/2q5/2P5/6PP/3RK2R b Kq - 0 23"]
 [PlyCount "7"]
@@ -8434,7 +8434,7 @@ obtains three pieces for the queen, with a better position.} *
 [White "Test 7"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "r3k2r/1bqnbpp1/p2ppn1p/1p6/3NPPP1/P1N2Q2/1PP2BBP/2KR3R b kq - 0 14"]
 [PlyCount "11"]
@@ -8453,7 +8453,7 @@ position.} *
 [White "Test 8"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "2r1k2r/1bq2pp1/p3p2p/1pbpP1P1/3NnP1P/P2R1Q2/1PP1N3/2K1B2R b k - 0 20"]
 [PlyCount "13"]
@@ -8473,7 +8473,7 @@ Black has nice compensation for the exchange.} *
 [White "Test 9"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "r2q1rk1/1p2bppp/p1npbn2/4p1B1/4P3/1BN2N2/PPP2PPP/R2Q1RK1 b - - 0 11"]
 [PlyCount "3"]
@@ -8494,7 +8494,7 @@ pieces to defend d5 and avoids a strategically inferior position.} *
 [White "Test 10"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "r4rk1/2q1bpp1/p1np3p/1p1Rp3/4P3/P3BN2/1PP1QPPP/R5K1 b - - 0 16"]
 [PlyCount "11"]
@@ -8512,7 +8512,7 @@ Black is completely fine and even managed to win the game.} *
 [White "Test 11"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "2r3k1/3nrppp/p2Qb3/q3n3/4PBP1/2N4P/1PP5/1K1R1B1R b - - 0 22"]
 [PlyCount "13"]
@@ -8535,7 +8535,7 @@ a draw.} *
 [White "Test 12"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P1P1/1NN1BQ1P/PPP2P2/R3KB1R b KQ - 0 10"]
 [PlyCount "5"]
@@ -8558,7 +8558,7 @@ initiative on the queenside.} *
 [White "Test 13"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "r2q1rk1/3nbppp/p2p4/1p2pP2/2b1P1n1/1NN1B3/PPPQ3P/1K1R1BR1 b - - 0 14"]
 [PlyCount "15"]
@@ -8581,7 +8581,7 @@ is still a pawn up.} *
 [White "Test 14"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "r2qk2r/3nbppp/p2p4/1p2pP2/2b1P1n1/1NN1B3/PPPQ3P/2KR1BR1 b kq - 0 13"]
 [PlyCount "17"]
@@ -8604,7 +8604,7 @@ objectively balanced, but in practice it proved being too unpleasant for White.
 [White "Test 15"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "2rqr1k1/3nbpp1/p2p1n2/1p2p1B1/4P1bP/PNN5/1PPQ4/1K2RB1R b - - 0 17"]
 [PlyCount "25"]
@@ -8624,7 +8624,7 @@ Ka2 Qe4 26. Ne7+ $1 Qxe7 27. Qh2 c1=N+ $1 28. Ka1 Nb3+ 29. Ka2 Nc1+ $11 {
 [White "Test 16"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "2r2rk1/2qnbpp1/p2p4/4pPPp/1pb1P2P/1N2B3/PPPQN3/1K1R3R b - - 0 20"]
 [PlyCount "11"]
@@ -8644,7 +8644,7 @@ pressure on the opposite flank.}) 21... Rfe8 $1 22. Qxb4 d5 $1 23. Qa5 $1 d4
 [White "Test 17"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "r2q1rk1/1p2bp2/pn1p1np1/N3p1Bp/2P4P/5P2/PP1Q2P1/1K1R1B1R b - - 0 17"]
 [PlyCount "9"]
@@ -8664,7 +8664,7 @@ activate the bishop. Black achieved enough counterplay to keep the balance.} *
 [White "Test 18"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "4rrk1/2qn1pb1/1p1p1np1/p2Pp2p/P1P5/1N2BP2/1P2B1PP/3QRR1K b - - 0 18"]
 [PlyCount "11"]
@@ -8687,7 +8687,7 @@ White who faces problems on both sides of the board.} *
 [White "Test 19"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "r2qk2r/1p1n1ppp/p2pbb2/3Np3/4P3/5N2/PPP1BPPP/R2Q1RK1 b kq - 0 11"]
 [PlyCount "21"]
@@ -8708,7 +8708,7 @@ by the bishop pair.} *
 [White "Test 20"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "2rq1rk1/1p1n1ppp/p2pbb2/3Np3/2B1P3/5N2/PPP1QPPP/R4RK1 b - - 0 13"]
 [PlyCount "11"]
@@ -8729,7 +8729,7 @@ $1 {[%csl Gd5][%cal Yc6c2] Attacking c2 and keeping an eye on d5.} 16. c3 Rfd8
 [White "Test 21"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "r2q3r/4bpkp/p1Qp1np1/1p2p3/4P3/1N5B/PPP2PPP/3RR1K1 b - - 0 18"]
 [PlyCount "9"]
@@ -8749,7 +8749,7 @@ and went on to win a nice game.} *
 [White "Test 22"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "r4rk1/2qnbp1p/p2p2p1/1p1Qp3/4P3/P1P5/1P1NBPPP/3R1RK1 b - - 0 17"]
 [PlyCount "7"]
@@ -8771,7 +8771,7 @@ position as the enemy knight is far from d5 and can't reach the outpost.} *
 [White "Test 23"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "r3q1k1/1p1n1ppp/p2p1bn1/P2Pr3/2R3B1/1NP5/1P1Q1BPP/5RK1 b - - 0 22"]
 [PlyCount "5"]
@@ -8790,7 +8790,7 @@ technique to win a nice game.} *
 [White "Test 24"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "r2qk2r/1p2bpp1/p2pbn1p/4p3/2n1P1PP/1NN1BB2/PPP1QP2/2KR3R b kq - 0 13"]
 [PlyCount "11"]
@@ -8813,7 +8813,7 @@ followed by 0-0-0 in the next moves.} *
 [White "Test 25"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "2rqnrk1/1p1nbppp/p2p4/3Pp3/2P3B1/1N1QB3/PP3PPP/R4RK1 b - - 0 14"]
 [PlyCount "13"]
@@ -8837,7 +8837,7 @@ practical chances.} *
 [White "Test 26"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "2rqnrk1/3nb1pp/1p1p4/p2Ppp2/2P5/4BP2/PP1QB1PP/N1R2RK1 b - - 0 17"]
 [PlyCount "15"]
@@ -8847,7 +8847,7 @@ practical chances.} *
 the dark-squared bishops leaves White with a bad bishop and problems on the
 dark squares.} 19. Bd3 Bxf2+ 20. Qxf2 Nc5 21. Bc2 g6 {[%cal Ge8g7,Gg7f5]} 22.
 Rfe1 Ng7 23. Be4 Qd7 24. Nc2 Nf5 $19 {[%csl Gc5,Yd4,Ye3,Gf5][%cal Gg8h8,Gf8f6,
-Gc8g8,Yg6g5,Yg5g4] ;0-1 Georgiadis, N (2526)-Mamedyarov, S (2801) Biel GM 51st
+Gc8g8,Yg6g5,Yg5g4] ;0-1 Georgiadis, N (2526)-Mamedyarov, S (2801) Biel 51st
 2018 (6) Black has a huge advantage and soon converted it by preparing an
 assault on the kingside.} *
 
@@ -8858,7 +8858,7 @@ assault on the kingside.} *
 [White "Test 27"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "rq3rk1/1p1nbppp/p2pbn2/4p3/P3P3/2N2B2/1PPN1PPP/R1BQR1K1 b - - 0 12"]
 [PlyCount "15"]
@@ -8880,7 +8880,7 @@ exd5 Bd7 19. a5 Na4 $1 $15 {is already unpleasant for White.} *
 [White "Test 28"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "2r1r1k1/1pqnbpp1/p2pbn1p/P3p3/4P3/2N1BB2/1PPQ1PPP/R1NR2K1 b - - 0 15"]
 [PlyCount "15"]
@@ -8905,7 +8905,7 @@ Nevostrujev, V (2495)-Efimenko, Z (2594) Chigorin Memorial 12th St Petersburg
 [White "Test 29"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "1r3rk1/1b3ppp/p2ppbP1/q1n4P/1n1NP3/N3BP2/1PPQ4/1K1R1B1R b - - 0 20"]
 [PlyCount "13"]
@@ -8928,7 +8928,7 @@ Memorial 26th St Petersburg 2018 (7) and Black secured the material advantage.}
 [White "Test 30"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "1r3rk1/1bq2ppp/p2ppbP1/2n4P/1n1NP3/2N1BP1B/1PPQ4/1K1R3R b - - 0 19"]
 [PlyCount "13"]
@@ -8950,7 +8950,7 @@ $40 {[%cal Gc8d7,Gc5a4] I prefer Black's chances.}) 21... Qa5+ 22. Kb1 Rxb2+ $1
 [White "Test 31"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "r2q1rk1/1p1bbppp/p1npp1n1/8/3NPPP1/2P1B2P/PP1QN1B1/R4RK1 b - - 0 14"]
 [PlyCount "13"]
@@ -8973,7 +8973,7 @@ Osasco x Piracicaba (3.3) Black has enough counterplay on the dark squares.} *
 [White "Test 32"]
 [Black "?"]
 [Result "*"]
-[Annotator "GM Renato Quintiliano"]
+[Annotator "Renato Quintiliano"]
 [SetUp "1"]
 [FEN "r1bq1rk1/1p1nbppp/p2pp3/8/3QPPP1/2N1B2P/PPP3B1/R4RK1 b - - 0 12"]
 [PlyCount "11"]

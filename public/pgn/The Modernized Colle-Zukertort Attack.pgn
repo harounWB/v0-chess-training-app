@@ -14,10 +14,10 @@
 [Date "????.??.??"]
 [Round "?"]
 [White "Introduction"]
-[Black "Chessable Introduction"]
+[Black " Introduction"]
 [Result "*"]
 
-{ @@HeaderStart@@Welcome To The Modernized Colle-Zukertort!@@HeaderEnd@@  What you have before you is GM Milos Pavlovic's attempt to create a single-volume 1.d4 repertoire for fighters.   Maybe you are already familiar with the games of Edgar Colle, Johannes Zukertort, and Artur Yusupov, showcasing the devastating attacking potential of the bishops on d3 and b2. But don't mistake the Colle-Zukertort for a primitive, one-dimensional system.  Positional and strategic themes abound in the Colle-Zukertort. You will learn how to shatter central structures with a timely dxc5 and e4-break; create pawn weaknesses in the opposing camp, such as isolated a- and c-pawns; play against certain pieces and more. All the while, the prospect of a kingside attack looms large.  GM Pavlovic's work spans 470+ variations. The course might seem heavy until you realize it covers just about everything Black can throw at you: from ...d5 and...e6 structures; kingside and queenside fianchettos; to Dutch formations. You will also find that the lines offer plenty of opportunities to favorably transpose into other openings like KID, Benoni, and even the Ruy Lopez.  Creating such a repertoire meant GM Pavlovic had to do a few things differently from other opening books:   @@StartBlockQuote@@He gives plenty of equally good major alternatives instead of sticking to a main line.@@EndBlockQuote@@You might feel tempted to pick one that suits your playing style, a perfectly fine decision. However, the author recommends studying all of the major branches to get a deeper understanding of the common structures and plans in the system. If you wish to follow the author's recommendation, consider toggling the hints on so that you know which line you are training.  We've added plenty of soft-fail moves to cover all of the alternatives. But if we missed a few  (or many :o)  , please let us know via the comments.   @@StartBlockQuote@@Many of the lines end with tense and rich positions.@@EndBlockQuote@@GM Pavlovic did an accurate job in evaluating the ending positions, most of which are dynamically balanced or slightly advantageous for White. To help you navigate these interesting positions, we added colored arrows and circles to indicate plans and ideas to consider.  Here's a quick rundown of what the visual cues means:  Blue arrows and circles: Piece paths, development schemes, and positional trumps  Green arrows and circles: Alternative ways to play  Red arrows and circles: Opponent's threats, targets, must-not's  These visual cues don't show during review so as not to give away hints. So be sure to revisit the read-only version of the trainable lines often to view the markers and refresh your memory. }
+{ @@HeaderStart@@Welcome To The Modernized Colle-Zukertort!@@HeaderEnd@@  What you have before you is Milos Pavlovic's attempt to create a single-volume 1.d4 repertoire for fighters.   Maybe you are already familiar with the games of Edgar Colle, Johannes Zukertort, and Artur Yusupov, showcasing the devastating attacking potential of the bishops on d3 and b2. But don't mistake the Colle-Zukertort for a primitive, one-dimensional system.  Positional and strategic themes abound in the Colle-Zukertort. You will learn how to shatter central structures with a timely dxc5 and e4-break; create pawn weaknesses in the opposing camp, such as isolated a- and c-pawns; play against certain pieces and more. All the while, the prospect of a kingside attack looms large.  Pavlovic's work spans 470+ variations. The course might seem heavy until you realize it covers just about everything Black can throw at you: from ...d5 and...e6 structures; kingside and queenside fianchettos; to Dutch formations. You will also find that the lines offer plenty of opportunities to favorably transpose into other openings like KID, Benoni, and even the Ruy Lopez.  Creating such a repertoire meant Pavlovic had to do a few things differently from other opening books:   @@StartBlockQuote@@He gives plenty of equally good major alternatives instead of sticking to a main line.@@EndBlockQuote@@You might feel tempted to pick one that suits your playing style, a perfectly fine decision. However, the author recommends studying all of the major branches to get a deeper understanding of the common structures and plans in the system. If you wish to follow the author's recommendation, consider toggling the hints on so that you know which line you are training.  We've added plenty of soft-fail moves to cover all of the alternatives. But if we missed a few  (or many :o)  , please let us know via the comments.   @@StartBlockQuote@@Many of the lines end with tense and rich positions.@@EndBlockQuote@@Pavlovic did an accurate job in evaluating the ending positions, most of which are dynamically balanced or slightly advantageous for White. To help you navigate these interesting positions, we added colored arrows and circles to indicate plans and ideas to consider.  Here's a quick rundown of what the visual cues means:  Blue arrows and circles: Piece paths, development schemes, and positional trumps  Green arrows and circles: Alternative ways to play  Red arrows and circles: Opponent's threats, targets, must-not's  These visual cues don't show during review so as not to give away hints. So be sure to revisit the read-only version of the trainable lines often to view the markers and refresh your memory. }
 1. -- *
 
 [Event "?"]
@@ -55,7 +55,7 @@ Bb2 a6
 { Blacks plan is more positional here and inclined more to a solid approach. }
 11. a4 { The most energetic. White does not want to allow ...b5 easily. } 11...
 e5 12. e4 dxe4 13. Nxe4
-{ Chessable: White's plan is to advance the queenside pawns, b4-b5 and c3-c4.  Full Theoretical Overview }
+{ : White's plan is to advance the queenside pawns, b4-b5 and c3-c4.  Full Theoretical Overview }
 *
 
 [Event "?"]
@@ -70,7 +70,7 @@ e5 12. e4 dxe4 13. Nxe4
 Bxc5 9. b4 Bd6 10. Bb2 Ng4
 { We are now dealing with other possible ideas for Black, and there are lots of them. For 10... e5, see the next two subchapters. }
 11. Qc2 h6 12. b5 Nce5 13. c4 dxc4 14. Bxc4 Qc7 15. h3 Nf6 16. Rac1
-{ Chessable: White has the more pleasant position because his rooks can easily come into play, while Black struggles to find a good square for the light-squared bishop. }
+{ : White has the more pleasant position because his rooks can easily come into play, while Black struggles to find a good square for the light-squared bishop. }
 16... b6 17. Bxe5 Bxe5 18. Bxe6
 { Simply wins a pawn.  Full Theoretical Overview } *
 
@@ -103,9 +103,9 @@ Bxa3 21. Bxa3 Rxd1 22. Rexd1 Re8 23. Bxe7 Qxe7 24. c5
 Bxc5 9. b4 Bd6 10. Bb2 e5 11. e4 Bg4 12. Re1
 { It is important to understand that this move comes before h3 ! } 12... Re8
 13. exd5 Nxd5 14. Qc2 h6 15. h3 Be6 16. b5 Na5 17. Rad1 Qc7 18. c4
-{ Chessable: White isn't worried about ...Nb4 because he can move his bishop out of the way with check. }
+{ : White isn't worried about ...Nb4 because he can move his bishop out of the way with check. }
 18... Nb4 19. Bh7+ Kh8 20. Qe4
-{ Chessable: Remember this idea of playing the tempo-gaining Bh7+ and the centralizing Qe4 to enable the queenside pawns' advance!  Full Theoretical Overview }
+{ : Remember this idea of playing the tempo-gaining Bh7+ and the centralizing Qe4 to enable the queenside pawns' advance!  Full Theoretical Overview }
 *
 
 [Event "?"]
@@ -123,7 +123,7 @@ Bxc5 9. b4 Bd6 10. Bb2 e5 11. e4 Bg4 12. Re1
 6... b6
 { Black wants to develop his light-squared bishop, letting Whites knight settle on e5. }
 7. Nbd2 Bb7 8. Ne5 Bd6 9. f4 O-O 10. Qf3 Rc8 11. g4
-{ Going for it!  Chessable: White will play Qg2 and g5, eventually forcing the g6-advance. After this weakening of the dark-squares, White will maneuver his knights to f3 and g4 to cement his grip on the said squares.  Full Theoretical Overview }
+{ Going for it!  : White will play Qg2 and g5, eventually forcing the g6-advance. After this weakening of the dark-squares, White will maneuver his knights to f3 and g4 to cement his grip on the said squares.  Full Theoretical Overview }
 *
 
 [Event "?"]
@@ -142,9 +142,9 @@ Bxc5 9. b4 Bd6 10. Bb2 e5 11. e4 Bg4 12. Re1
 { The line's starting point. Black has various attempts here. His goal is usually to play...e5. }
 8... e5 { Direct ! } 9. e4 cxd4 10. cxd4 h6 { A reasonable waiting move. } 11.
 exd5 exd4 12. Ne4 Bb4 13. Bd2 Nxd5 14. Rc1
-{ Chessable: White delays recapturing the pawn to bring the only undeveloped piece into play. White banks on the fact that he'll have better centralized major pieces after the exchanges in the center. }
+{ : White delays recapturing the pawn to bring the only undeveloped piece into play. White banks on the fact that he'll have better centralized major pieces after the exchanges in the center. }
 14... N7f6 15. Bc4
-{ Chessable: White begins unmasking the queen's attack on the d4-pawn and threatens to win material with Nxf6+ and Bxd5/Bxb4, depending on how Black replies. Black is pretty much forced to capture on d2, after which White will win back the d4-pawn in a few moves and enjoy better centralized pieces.  Full Theoretical Overview }
+{ : White begins unmasking the queen's attack on the d4-pawn and threatens to win material with Nxf6+ and Bxd5/Bxb4, depending on how Black replies. Black is pretty much forced to capture on d2, after which White will win back the d4-pawn in a few moves and enjoy better centralized pieces.  Full Theoretical Overview }
 *
 
 [Event "?"]
@@ -160,11 +160,11 @@ exd5 exd4 12. Ne4 Bb4 13. Bd2 Nxd5 14. Rc1
 6... Bd6 7. Nbd2 O-O 8. Re1 Qc7 9. e4 dxe4
 { Not taking on d4 doesn't change the general ideas of the position, but it can turn out to be even more dangerous for Black. }
 10. Nxe4 Nxe4 11. Rxe4
-{ Chessable: From e4, the rook can slide to the kingside with ease. Remember this idea. }
+{ : From e4, the rook can slide to the kingside with ease. Remember this idea. }
 11... Re8 12. Rh4 h6 13. Bxh6 gxh6 14. Rxh6
-{ Chessable: White threatens Nf3-g5 followed by Qd1-h5, with a mating attack. }
+{ : White threatens Nf3-g5 followed by Qd1-h5, with a mating attack. }
 14... Bf4 15. Rh4 f5 16. g3 Bd6 17. Qd2 Nf6 18. dxc5 Bxc5 19. Rh6
-{ White has a very strong attack and analysing such positions is a big help in improving our understanding of these aggressive ideas.  Chessable: White's biggest threat is Qg5+, winning.  Full Theoretical Overview }
+{ White has a very strong attack and analysing such positions is a big help in improving our understanding of these aggressive ideas.  : White's biggest threat is Qg5+, winning.  Full Theoretical Overview }
 *
 
 [Event "?"]
@@ -221,7 +221,7 @@ b6 { A very natural move. } 9. Ne5 { White should seize this opportunity. }
 9... Bb7 10. f4 cxd4 11. exd4 Ne4 12. Qe2 f5 13. Nxe4
 { The theme is worth remembering. } 13... fxe4 14. Bb5 Nxe5 15. fxe5 Be7 16.
 Qg4
-{ Chessable: The point of White's play starting with 13 Nxe4. Black's central pawns imprison light-squared bishop his light-squared, and White is in time to save his nearly-trapped bishop. The latter may pressure the e6-pawn harder with Qg4-h3 and Be2-g4, then he will relocate other bishop starting with Bb2-c1. White will take the fight to the kingside where Black's light-squared bishop cannot participate.  Full Theoretical Overview }
+{ : The point of White's play starting with 13 Nxe4. Black's central pawns imprison light-squared bishop his light-squared, and White is in time to save his nearly-trapped bishop. The latter may pressure the e6-pawn harder with Qg4-h3 and Be2-g4, then he will relocate other bishop starting with Bb2-c1. White will take the fight to the kingside where Black's light-squared bishop cannot participate.  Full Theoretical Overview }
 *
 
 [Event "?"]
@@ -237,7 +237,7 @@ Qg4
 6... Bd6 7. Re1 O-O 8. e4
 { An intriguing idea. In the Colle, White goes c3 first, but this is a more direct attempt. }
 8... dxe4 9. Nxe4 Nxe4 10. Rxe4
-{ Chessable: Black easily stops White's intended Re4-h4. But the former cannot stop the latter from creating kingside weaknesses anyway. }
+{ : Black easily stops White's intended Re4-h4. But the former cannot stop the latter from creating kingside weaknesses anyway. }
 10... Be7 11. Qe2 cxd4 12. Rxd4 Bf6 13. Rc4 Nb6 14. Rg4 g6 15. Bh6 Re8 16. Ne5
 { White's pieces are developed and active, which is more than can be said for Black.  Full Theoretical Overview }
 *
@@ -278,9 +278,9 @@ Nb4
 { Black maintains the tension in the centre. } 13. Rad1
 { Played only once but its a suitable strategy; White centralises his play. }
 13... Qe7 14. dxc5
-{ Chessable: White starts breaking down Black's center, forcing the pawns to advance and leave holes behind. }
+{ : White starts breaking down Black's center, forcing the pawns to advance and leave holes behind. }
 14... bxc5 15. e4 Nd7 16. Rfe1 d4 17. Nc4
-{ Chessable: White will play e4-e5 if allowed. If Black prevents the advance by placing a knight on e5, White will exchange knights on e5 and play his pieces towards the kingside, starting with Qe2-h5 and Bc1-f4.  Full Theoretical Overview }
+{ : White will play e4-e5 if allowed. If Black prevents the advance by placing a knight on e5, White will exchange knights on e5 and play his pieces towards the kingside, starting with Qe2-h5 and Bc1-f4.  Full Theoretical Overview }
 *
 
 [Event "?"]
@@ -322,7 +322,7 @@ Nbd7 9. c4
 10. Qe2 cxd4 11. Nxd4
 { White borrows a strategy from the QGA, where pieces occupy the centre rather than pawns. }
 11... Nc5 12. Bc2 dxc4 13. Nxc4 Qd5 14. f3
-{ Chessable: White will kick away the centralized Black pieces with e3-e4 and b3-b4. He will put one of his bishops on b3 and place his rooks on the central files.  Full Theoretical Overiew }
+{ : White will kick away the centralized Black pieces with e3-e4 and b3-b4. He will put one of his bishops on b3 and place his rooks on the central files.  Full Theoretical Overiew }
 *
 
 [Event "?"]
@@ -341,7 +341,7 @@ Nbd7 9. c4 c5 10. Rc1
 12. Rfd1 Qa8 13. cxd5 Nxd5 14. Ne5
 { This is probably critical here, before Black successfully consolidates with ... Rd8 for example. }
 14... Nxe5 15. dxe5 Nb4 16. Bb1 Rd7 17. a3 Nc6 18. Nc4
-{ Chessable: White will put a knight on d6 but only after rooks on the d-file are exchanged, reducing the number of pieces with which Black can pressure the knight.  Full Theoretical Overiew }
+{ : White will put a knight on d6 but only after rooks on the d-file are exchanged, reducing the number of pieces with which Black can pressure the knight.  Full Theoretical Overiew }
 *
 
 [Event "?"]
@@ -361,7 +361,7 @@ Nbd7 9. c4 c5 10. Rc1
 10... exd5 11. Ne5 Qe7 12. f4
 { A compelling setup. Exchanging the c-pawn for the e-pawn allows White to create a certain imbalance on the kingside. }
 12... Nxd2 13. Qxd2 Nf6 14. Qe2 a5 15. Rf3
-{ Chessable: White will delay Black's queenside breakthrough for as long as possible and try to push his pawns to force an opening on the kingside. White should be ready to sacrifice material to realise his kingside ambitions.  Full Theoretical Overiew }
+{ : White will delay Black's queenside breakthrough for as long as possible and try to push his pawns to force an opening on the kingside. White should be ready to sacrifice material to realise his kingside ambitions.  Full Theoretical Overiew }
 *
 
 [Event "?"]
@@ -376,7 +376,7 @@ Nbd7 9. c4 c5 10. Rc1
 Nbd7 9. Ne5 Ne4 10. f4 { White has other tries. } 10... f6 11. Nxe4 dxe4 12.
 Bc4 { A great idea, sacrificing a piece. } 12... fxe5 13. Bxe6+ Kh8 14. dxe5
 Bc5 15. Re1
-{ Chessable: White protects the foundation of his central structure and plans to attack the kingside starting with Qd1-g4 and f4-f5-f6.  Full Theoretical Overiew }
+{ : White protects the foundation of his central structure and plans to attack the kingside starting with Qd1-g4 and f4-f5-f6.  Full Theoretical Overiew }
 *
 
 [Event "?"]
@@ -391,7 +391,7 @@ Bc5 15. Re1
 c5 9. dxc5
 { A typical idea for White in the Colle and Zukertort systems. We will see this move pop-up throughout the book. }
 9... Bxc5 10. Qe2 Nbd7 11. c4 dxc4 12. Nxc4 Qe7 13. e4 Rfd8 14. e5
-{ Chessable: White has no qualms exchanging dark-squared bishops, after which he will support the e5-pawn with f2-f4 and put his knight on d6.  Full Theoretical Overiew }
+{ : White has no qualms exchanging dark-squared bishops, after which he will support the e5-pawn with f2-f4 and put his knight on d6.  Full Theoretical Overiew }
 *
 
 [Event "?"]
@@ -411,7 +411,7 @@ Nd7 10. c4
 11. Rac1 Qf6 12. c5
 { This unusual pawn sacrifice takes us to a rather unusual tactics. } 12...
 bxc5 13. dxc5 Qxb2 14. cxd6
-{ Chessable: From here, Black will try to prevent the White rook from penetrating by clogging the c-file with pieces  (ex: ...Nc3 and ...Nc5)  . Meanwhile, White will try to inconvenience the Black queen behind enemy lines while angling to break through with the rook.  Full Theoretical Overiew }
+{ : From here, Black will try to prevent the White rook from penetrating by clogging the c-file with pieces  (ex: ...Nc3 and ...Nc5)  . Meanwhile, White will try to inconvenience the Black queen behind enemy lines while angling to break through with the rook.  Full Theoretical Overiew }
 *
 
 [Event "?"]
@@ -429,9 +429,9 @@ O-O 9. Bb2 Nd7 10. Ne5
 { At this stage, it is not easy to determine where the rooks belong, and this is true for both players. The answer to such a question rarely comes easily in the Zukertort, making it a very complicated opening positionally speaking. }
 11... Bxe5 12. dxe5 Ndc5 13. Nf3
 { Black wanted to exchange both on d2 and d3. } 13... a5 14. Nd4 Qe8 15. f3
-Nxd3 16. cxd3 Ng5 17. Qd2 { Chessable: Vacating the e2-square. } 17... c5 18.
+Nxd3 16. cxd3 Ng5 17. Qd2 { : Vacating the e2-square. } 17... c5 18.
 Ne2
-{ The knight is transferred to a healthier square: f4!  Chessable: After the knight's transfer to f4, White will put a rook on the c-file and play to open that file.  Full Theoretical Overiew }
+{ The knight is transferred to a healthier square: f4!  : After the knight's transfer to f4, White will put a rook on the c-file and play to open that file.  Full Theoretical Overiew }
 *
 
 [Event "?"]
@@ -447,7 +447,7 @@ Ne2
 7. c4 O-O 8. Ba3
 { A purely positional idea. Not the most ambitious, but not without danger either. By eliminating thebishop on d6,White wants to focus on attacking Black's centre. Moreover, the bishop might become a dangerous attacking asset for Black. }
 8... Bxa3 9. Nxa3 Nbd7 10. cxd5 exd5 11. Rc1 a6 12. Nb1 Re8 13. Nc3 Nf8 14. b4
-{ Correct play for when Black hesitates to push ...c5.  Chessable: Next, White will play Qd1-b3 and double the rooks on the c-file, pressuring the c7-pawn.  Full Theoretical Overiew }
+{ Correct play for when Black hesitates to push ...c5.  : Next, White will play Qd1-b3 and double the rooks on the c-file, pressuring the c7-pawn.  Full Theoretical Overiew }
 *
 
 [Event "?"]
@@ -485,7 +485,7 @@ Be7 12. c4 O-O 13. Rd1
 5. gxf3
 { I am not sure that such move has previously been played, but it certainly looks interesting. }
 5... e6 6. c4 c6 7. Nc3 Nbd7 8. Qb3 Qb6 9. Bd2 Be7 10. Qxb6
-{ An interesting solution. It looks slightly anti-positional ,but that is not the case. I once faced such an idea as Black against GM Bogosavljevic. It turns out that if White is fast enough, the idea is fully justified. }
+{ An interesting solution. It looks slightly anti-positional ,but that is not the case. I once faced such an idea as Black against Bogosavljevic. It turns out that if White is fast enough, the idea is fully justified. }
 10... axb6 11. cxd5
 { When possessing the bishop pair, it's always important to open the position. }
 11... exd5 12. Bd3 b5 13. a4
@@ -510,7 +510,7 @@ c5 8. bxc6
 9. a4
 { A strictly positional idea. Taking control of the b5-square and limiting Black's options on the queenside. }
 9... Bf5 10. Na3 Rc8 11. c3 Ne4 12. Nb5 e5 13. Ba3
-{ Chessable: After the f8-rook moves, White will challenge the e4-knight, Black's most active piece, and play his rook to c1.  Full Theoretical Overview }
+{ : After the f8-rook moves, White will challenge the e4-knight, Black's most active piece, and play his rook to c1.  Full Theoretical Overview }
 *
 
 [Event "?"]
@@ -531,7 +531,7 @@ b3 Bd6 8. Bb2
 8... O-O { Black can also deviate here. } 9. c4 Re8
 { This is yet another position where Black has few other options: } 10. Qc2 e5
 11. cxd5 Bxf3 12. dxe5 Nxe5 13. Nxf3 Nxf3+ 14. gxf3 Nxd5 15. f4
-{ Chessable: After 15... Qh4, White must be careful not to fall prey to ...Bxf4, with a winning attack. He must play Kg1-h1 and Rg1-g3 with haste to stabilize the kingside. Once White reaches the desired set-up, he can press on the kingside by bringing in the other rook and advancing the f-pawn.  Full Theoretical Overview }
+{ : After 15... Qh4, White must be careful not to fall prey to ...Bxf4, with a winning attack. He must play Kg1-h1 and Rg1-g3 with haste to stabilize the kingside. Once White reaches the desired set-up, he can press on the kingside by bringing in the other rook and advancing the f-pawn.  Full Theoretical Overview }
 *
 
 [Event "?"]
@@ -565,7 +565,7 @@ Kb7 17. b4
 5... a5 6. c3 axb4 7. cxb4 b6 8. Bb5+ Bd7 9. Bxd7+ Nbxd7 10. a4 bxc5 11. b5 Bd6
 { We have reached a highly unbalanced position. White has passed pawns on the queenside but Black has strong control over the centre and a passed c-pawn. White does have the e4-break up his sleeve, if necessary. }
 12. O-O O-O 13. Nbd2 Qc7 14. Bb2 c4 15. Qc2
-{ Chessable: White completes his development and will manoeuvre to push his queenside pawns. In some games, White sacrificed a minor piece for Black's center pawns, allowing the former to focus on queenside without worrying about central counterplay.  Full Theoretical Overview }
+{ : White completes his development and will manoeuvre to push his queenside pawns. In some games, White sacrificed a minor piece for Black's center pawns, allowing the former to focus on queenside without worrying about central counterplay.  Full Theoretical Overview }
 *
 
 [Event "?"]
@@ -583,7 +583,7 @@ Kb7 17. b4
 8. Bd3 Nc6 9. O-O Bc3 10. Bxc3 Nxc3 11. Qe1 Nb4 12. Qe5
 { An interesting tactical idea. } 12... Qf6 { The most logical. } 13. Qc7 Nxd3
 14. Qxc3
-{ Chessable: Through the exchanging combination starting with Qe1-e5, White gets rid of one of Black's active knights and saddles the opponent with a bad light-squared bishop. White has no issues exchanging another pair of knights as that will leave him with the superior minor piece. The first player will play on the kingside with moves like Ne5 and Rae1, effectively taking out the bad Black bishop from the game.  Full Theoretical Overview }
+{ : Through the exchanging combination starting with Qe1-e5, White gets rid of one of Black's active knights and saddles the opponent with a bad light-squared bishop. White has no issues exchanging another pair of knights as that will leave him with the superior minor piece. The first player will play on the kingside with moves like Ne5 and Rae1, effectively taking out the bad Black bishop from the game.  Full Theoretical Overview }
 *
 
 [Event "?"]
@@ -600,7 +600,7 @@ Kb7 17. b4
 Bf5 7. Be2
 { A modest approach but a very solid one. We will see that White has a couple of interesting hidden ideas in this position. }
 7... e6 8. Nh4
-{ The main idea here, but there are other motives as well.  Chessable: White played Be2 because he wants to win the bishop pair. On b5, the bishop may have to be exchanged sooner or later after ...a7-a6 and possibly ...b7-b5. With the bishop on e2, White can play Nf3-h4 and win the bishop without disturbances. }
+{ The main idea here, but there are other motives as well.  : White played Be2 because he wants to win the bishop pair. On b5, the bishop may have to be exchanged sooner or later after ...a7-a6 and possibly ...b7-b5. With the bishop on e2, White can play Nf3-h4 and win the bishop without disturbances. }
 8... Bg6 9. O-O Bd6 10. g3 O-O 11. Nxg6 hxg6 12. f4 Rb8 13. a4 a6 14. Bd3 b5
 15. b4
 { A thematic approach borrowed from the QGD, which is valid here too. Now White also has assets as the knight can jump to the strong c5-square.  Full Theoretical Overview }
@@ -619,7 +619,7 @@ Bf5 7. Be2
 Re1
 { The point of White's play in this case is that the c8-bishop is behind its pawn chain. Hence, the b5-bishop will return to d3 and, with that, White will attain his dream postion. }
 9... Qc7 10. Qe2 Nd7 11. Nf1 h6 12. Bd2 Rd8 13. Rad1 a6 14. Bd3
-{ Chessable: White will play h2-h3 and Ne3-g3, with h6-sacrifices looming. If Black manages to exchange the g4-knight, say with ...Nd7-f6-xg4, White will recapture with h3xg4 and play g4-g5, using the h6-pawn as a hook.  Full Theoretical Overview }
+{ : White will play h2-h3 and Ne3-g3, with h6-sacrifices looming. If Black manages to exchange the g4-knight, say with ...Nd7-f6-xg4, White will recapture with h3xg4 and play g4-g5, using the h6-pawn as a hook.  Full Theoretical Overview }
 *
 
 [Event "?"]
@@ -661,7 +661,7 @@ Re1
 5... Nxe4 6. Bxb5 Bg7 7. O-O O-O 8. Re1 Nf6 9. c4 d6 10. Nc3
 { White has a good central structure and easy development. Black would like to reduce the pressure along the e-file by playing ...e5, but this is easier said than done ! }
 10... Nbd7 11. Bg5 Nb6 12. Bc6 Rb8 13. b3 h6 14. Bd2 e6 15. dxe6
-{ Chessable: Black got rid of the weak e-pawn but new weaknesses on d6 and d5 appear.  Full Theoretical Overview }
+{ : Black got rid of the weak e-pawn but new weaknesses on d6 and d5 appear.  Full Theoretical Overview }
 *
 
 [Event "?"]
@@ -681,7 +681,7 @@ Re1
 Nb4 10. Bb1 Ba6 11. Re1 Nd3 12. Bxd3 Bxd3
 { Black has the bishop pair and even a strong bishop on d3. Here, though, time is of the essence. White wastes none and grasps the initiative. }
 13. d5 { Threatening d6 ! } 13... Qc8 14. d6 Bd8 15. Ne5
-{ Chessable: After the bishop retreats, White has an easy scheme of development: the d2-knight goes to f3; the b-pawn to b3; the bishop goes to a3 to support the cramping d6-pawn; and lastly, the queen goes to d2 and the a1-rook to d1.  Full Theoretical Overview }
+{ : After the bishop retreats, White has an easy scheme of development: the d2-knight goes to f3; the b-pawn to b3; the bishop goes to a3 to support the cramping d6-pawn; and lastly, the queen goes to d2 and the a1-rook to d1.  Full Theoretical Overview }
 *
 
 [Event "?"]
@@ -697,9 +697,9 @@ Nb4 10. Bb1 Ba6 11. Re1 Nd3 12. Bxd3 Bxd3
 6... Be7 7. Nc3 cxd4 8. exd4 d5
 { A very popular line that's been around for a while now. } 9. cxd5 Nxd5 10.
 Ne5 O-O 11. Qg4 f5 12. Qe2 Bf6 13. Bc4 Re8 14. Rd1 Nd7 15. Bb5
-{ Chessable: Forcing the exchange of Black's dark-squared bishop for White's e5-knight. }
+{ : Forcing the exchange of Black's dark-squared bishop for White's e5-knight. }
 15... Bxe5 16. dxe5
-{ Chessable: In the game Kramnik - Topalov, Skopje 2015, White played on the dark squares by taking the knights to create an opposite-colored bishop scenario. An eventual Qh5 incuded ...g7-g6 from Black and allowed Bc1-g5-f6.  Full Theoretical Overview }
+{ : In the game Kramnik - Topalov, Skopje 2015, White played on the dark squares by taking the knights to create an opposite-colored bishop scenario. An eventual Qh5 incuded ...g7-g6 from Black and allowed Bc1-g5-f6.  Full Theoretical Overview }
 *
 
 [Event "?"]
@@ -736,12 +736,12 @@ Be2 Be6 14. Nb5 { Relocating the white knight to a more comfortable square. }
 { Now it starts to become very sharp. White hangs on to the c5-pawn, at least for a moment. }
 8... a5 { There are alternatives, but they do not promise much. } 9. Nd4 e5 10.
 Nb5 Nc6 11. Nd2
-{ Chessable: Black doesn't want to capture on d2 as Bxd2 stabilizes White's queenside. The alternative - to allow White to capture on e4 instead - leaves the bishop on g7 passive behind the e5-pawn. }
+{ : Black doesn't want to capture on d2 as Bxd2 stabilizes White's queenside. The alternative - to allow White to capture on e4 instead - leaves the bishop on g7 passive behind the e5-pawn. }
 11... axb4 12. Nxe4 dxe4 13. cxb4 Nxb4 14. Nd6 Qc7 15. a4
 { A great idea. After this, it seems that only White can play for an advantage. }
 15... Qxc5 16. Bc4 { White wants to play Ba3. } 16... Rd8 17. Bxf7+ Kh8 18.
 Nxe4
-{ Chessable: White is up a pawn and can consolidate. If Black doesn't exchange queens, White will play Qb3 and Ba3, after which all of his pieces are in play.  Full Theoretical Overview }
+{ : White is up a pawn and can consolidate. If Black doesn't exchange queens, White will play Qb3 and Ba3, after which all of his pieces are in play.  Full Theoretical Overview }
 *
 
 [Event "?"]
@@ -765,7 +765,7 @@ dxe5 12. Rad1
 12... Qc7 13. h3 { The right timing for this move. } 13... Bh5 14. Ng5
 { As previously mentioned, we want to exchange the light-squared bishops and use the e4-square as a stepping stone for our pieces. }
 14... Bg6 15. Bd3
-{ Chessable: Black cannot stop the exchange of light-squared bishops.  Full Theoretical Overview }
+{ : Black cannot stop the exchange of light-squared bishops.  Full Theoretical Overview }
 *
 
 [Event "?"]
@@ -805,7 +805,7 @@ O-O 6. Nbd2 b6 7. Bd3
 9... d6 10. Qc2 d5 11. g4 c5 12. gxf5 exf5 13. dxc5
 { Unorthodox but strong ! White opens the position up in order to create threats. }
 13... bxc5 14. O-O-O Qb6 15. Ne5
-{ White is better here.    Chessable: Note that Black can't play  15...Nxf2  due to  16.Bxf5  , ∆  Bxh7+  ,  Ng6+  with a winning attack.   Full Theoretical Overview }
+{ White is better here.    : Note that Black can't play  15...Nxf2  due to  16.Bxf5  , ∆  Bxh7+  ,  Ng6+  with a winning attack.   Full Theoretical Overview }
 *
 
 [Event "?"]
@@ -5831,7 +5831,7 @@ Bb6 Rxd1+ 21. Rxd1 Bd8 22. Qe3 { Also gives White some initiative. } *
 5. gxf3
 { I am not sure that such move has previously been played, but it certainly looks interesting.   5.Qxf3  e6  6.Bd3  c5  7.c3  Nc6  8.O-O  Bd6  9.Nd2  O-O  10.Qe2 !  e5  11.dxc5 !  Bxc5  12.e4  is a possible plan, and a typical Colle idea. }
 5... e6 6. c4 c6 7. Nc3 Nbd7 8. Qb3 Qb6 9. Bd2 Be7 10. Qxb6
-{ An interesting solution. It looks slightly anti-positional ,but that is not the case. I once faced such an idea as Black against GM Bogosavljevic. It turns out that if White is fast enough, the idea is fully justified. }
+{ An interesting solution. It looks slightly anti-positional ,but that is not the case. I once faced such an idea as Black against Bogosavljevic. It turns out that if White is fast enough, the idea is fully justified. }
 10... axb6 11. cxd5
 { When possessing the bishop pair, it's always important to open the position. }
 11... exd5
@@ -5913,7 +5913,7 @@ e4 dxe4 16. Bxg5
 5. gxf3
 { I am not sure that such move has previously been played, but it certainly looks interesting. }
 5... e6 6. c4 c6 7. Nc3 Nbd7 8. Qb3 Qb6 9. Bd2 Be7 10. Qxb6
-{ An interesting solution. It looks slightly anti-positional, but that is not the case. I once faced such an idea as Black against GM Bogosavljevic. It turns out that if White is fast enough, the idea is fully justified. }
+{ An interesting solution. It looks slightly anti-positional, but that is not the case. I once faced such an idea as Black against Bogosavljevic. It turns out that if White is fast enough, the idea is fully justified. }
 10... axb6 11. cxd5
 { When possessing the bishop pair, it's always important to open the position. }
 11... cxd5 12. Bb5
@@ -5946,7 +5946,7 @@ e4 dxe4 16. Bxg5
 5. gxf3
 { I am not sure that such move has previously been played, but it certainly looks interesting. }
 5... e6 6. c4 c6 7. Nc3 Nbd7 8. Qb3 Qb6 9. Bd2 Be7 10. Qxb6
-{ An interesting solution. It looks slightly anti-positional ,but that is not the case. I once faced such an idea as Black against GM Bogosavljevic. It turns out that if White is fast enough, the idea is fully justified. }
+{ An interesting solution. It looks slightly anti-positional ,but that is not the case. I once faced such an idea as Black against Bogosavljevic. It turns out that if White is fast enough, the idea is fully justified. }
 10... axb6 11. cxd5
 { When possessing the bishop pair, it's always important to open the position. }
 11... exd5 12. Bd3 b5 13. a4
@@ -5966,7 +5966,7 @@ e4 dxe4 16. Bxg5
 5. gxf3
 { I am not sure that such move has previously been played, but it certainly looks interesting. }
 5... e6 6. c4 c6 7. Nc3 Nbd7 8. Qb3 Qb6 9. Bd2 Be7 10. Qxb6
-{ An interesting solution. It looks slightly anti-positional ,but that is not the case. I once faced such an idea as Black against GM Bogosavljevic. It turns out that if White is fast enough, the idea is fully justified. }
+{ An interesting solution. It looks slightly anti-positional ,but that is not the case. I once faced such an idea as Black against Bogosavljevic. It turns out that if White is fast enough, the idea is fully justified. }
 10... axb6 11. cxd5
 { When possessing the bishop pair, it's always important to open the position. }
 11... exd5 12. Bd3 b5 13. a4
@@ -5986,7 +5986,7 @@ bxa4 { With an idea of Ke2 and Rhb1. } *
 5. gxf3
 { I am not sure that such move has previously been played, but it certainly looks interesting. }
 5... e6 6. c4 c6 7. Nc3 Nbd7 8. Qb3 Qb6 9. Bd2 Be7 10. Qxb6
-{ An interesting solution. It looks slightly anti-positional ,but that is not the case. I once faced such an idea as Black against GM Bogosavljevic. It turns out that if White is fast enough, the idea is fully justified. }
+{ An interesting solution. It looks slightly anti-positional ,but that is not the case. I once faced such an idea as Black against Bogosavljevic. It turns out that if White is fast enough, the idea is fully justified. }
 10... axb6 11. cxd5
 { When possessing the bishop pair, it's always important to open the position. }
 11... exd5 12. Bd3 b5 13. a4
@@ -8494,7 +8494,7 @@ b3 Ne8 18. Ba3 Qb7 19. Nd4 Rc8 20. Qd2 f6 21. Nef3 Rf7 22. Rad1
 Nxd5 10. Ne5 O-O 11. Qg4
 { White also has another interesting queen move at his disposal, though it is a little underestimated by current theory:   11.Qh5  g6  12.Qh3  Nc6  13.Bh6  Nxd4 !?  14.Rfe1 !?  A new idea, at least to me. Here are a few examples of how play could proceed:  Bg5   14...Qd6  15.Rad1  Rfd8  16.Bxg6  hxg6  17.Rxd4  Bf6  18.Qg3  White has the initiative.   14...Re8  15.Rad1  Bf6  16.Bxg6  hxg6  17.Rxd4  with some pressure.   14...Qc7  15.Qg4 !  Nf5  16.Bxf5  exf5  17.Qd4  Qc5  18.Qxc5  Bxc5  19.Bxf8  Bxf8  20.Rad1  ±  15.Bxf8  Nf4  16.Qg3  f6 !!  17.Be4  Bxe4  18.Rxe4  fxe5  19.Ba3  Although Black has displayed an impeccable defence thus far, it is not clear that equality has been achieved. White wants to play Qg4 followed by g3. }
 11... f5
-{ 11...Nf6  12.Qh4 !  Nc6   12...Ne4  13.Qh3  Qxd4  14.Bf4  Nf6  15.Ne2  Qa4  16.Rfd1 !?  Ba6  17.Nd4  Bxd3  18.Rxd3  Qe8  19.Re1  Nbd7  20.Rg3  Nxe5  21.Bxe5  Black will struggle to defend such a position.  13.Bg5  Black is already in deep trouble here.  Re8 ?   13...Nxe5  14.Bxf6  Nxd3  15.Bxe7  ±   13...g6 ?  14.Ba6 !  +-  A beautiful pattern.  14.Bxf6  Bxf6  15.Qxh7+  Kf8  16.Be4  +-  An easy win for a famous English GM: 1-0, 24 moves, Hebden, M. 2494 - Speelman, J. 2511, St Clement Bay 2017. }
+{ 11...Nf6  12.Qh4 !  Nc6   12...Ne4  13.Qh3  Qxd4  14.Bf4  Nf6  15.Ne2  Qa4  16.Rfd1 !?  Ba6  17.Nd4  Bxd3  18.Rxd3  Qe8  19.Re1  Nbd7  20.Rg3  Nxe5  21.Bxe5  Black will struggle to defend such a position.  13.Bg5  Black is already in deep trouble here.  Re8 ?   13...Nxe5  14.Bxf6  Nxd3  15.Bxe7  ±   13...g6 ?  14.Ba6 !  +-  A beautiful pattern.  14.Bxf6  Bxf6  15.Qxh7+  Kf8  16.Be4  +-  An easy win for a famous English : 1-0, 24 moves, Hebden, M. 2494 - Speelman, J. 2511, St Clement Bay 2017. }
 12. Qe2 Bf6
 { 12...Nc7  13.Rd1  Nc6  14.Nxc6  Bxc6  15.Bf4  Bd6  16.Be5  Bxe5  17.Qxe5  Rc8  18.Rac1  Qd7  19.Bc4  Bd5  20.Nxd5  Nxd5  21.Rc2  Kh8  22.Rdc1  +=  Indeed, White is having a better time. Another victory for Mark Hebden ! 1-0, 54 moves, Hebden, M. 2477 - Gormally, D. 2462, Dundee 2017. }
 13. Bc4 Re8 { 13...Kh8  14.Rd1  +=  White retains an edge. } 14. Rd1 Nd7
@@ -8688,7 +8688,7 @@ Ne5 O-O 11. Qg4 Nf6 12. Qh4 Nc6 13. Bg5
 { A very popular line that's been around for a while now. } 9. cxd5 Nxd5 10.
 Ne5 O-O 11. Qg4 Nf6 12. Qh4 Nc6 13. Bg5 Re8
 { Black is already in deep trouble here. } 14. Bxf6 Bxf6 15. Qxh7+ Kf8 16. Be4
-{ An easy win for a famous English GM: 1-0, 24 moves, Hebden, M. 2494 - Speelman, J. 2511, St Clement Bay 2017. }
+{ An easy win for a famous English : 1-0, 24 moves, Hebden, M. 2494 - Speelman, J. 2511, St Clement Bay 2017. }
 *
 
 [Event "?"]

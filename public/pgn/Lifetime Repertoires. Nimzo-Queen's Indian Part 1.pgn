@@ -6,7 +6,7 @@
 [Black "Introduction"]
 [Result "*"]
 
-{ Hello everyone and welcome to Part 1 of my Lifetime Repertoire series on the Nimzo-Indian and the Queen's Indian Defenses! For those of you who don't know me, I am Benjamin Bok, a Dutch grandmaster rated over 2600 and part of the Dutch national team. This is my first course on Chessable, and I am excited to join this great community! }
+{ Hello everyone and welcome to Part 1 of my Lifetime Repertoire series on the Nimzo-Indian and the Queen's Indian Defenses! For those of you who don't know me, I am Benjamin Bok, a Dutch grandmaster rated over 2600 and part of the Dutch national team. This is my first course on , and I am excited to join this great community! }
 1. d4
 { One of the two most popular moves for White on move 1, the other one being  1.e4  . It is always a good idea to place a pawn in the center in the opening and White follows that principle here with  1.d4  . If White would get another move, they would love to use it to grab the full center with 2.e4.  1.d4  is generally played by players who are aiming for more of a positional game, as White is generally going to follow up with 2.c4 to grab more space in the center and on the queenside. }
 1... Nf6
@@ -199,7 +199,7 @@ Ne8
 10. Bd3 Nc6
 { Preparing ...e5. It is important that we always play ...Nc6 before playing ...e5, as otherwise White can take on e5 and force us to recapture with our queen. }
 11. O-O e5 12. Ng3
-{ I found 19 @@StartBracket@@!@@EndBracket@@ games by the strong Russian GM Alexey Sarana in the database from this position. Often, White's idea is to sacrifice the pawn on d4 in order to create a strong attack with the bishops. Sarana has won many great games in rapid and blitz, but the opening experts have found a way to neutralize White's play.   After both  12.Qc2  Be6  and @@StartFEN@@r1b2rk1/ppq2ppp/2n2n2/2p1p3/3P4/P1PBP3/4NPPP/R1BQ1RK1 w - - 0 12@@EndFEN@@  12.Bb2  Be6  followed by ...Rad8, Black's position is preferable. }
+{ I found 19 @@StartBracket@@!@@EndBracket@@ games by the strong Russian Alexey Sarana in the database from this position. Often, White's idea is to sacrifice the pawn on d4 in order to create a strong attack with the bishops. Sarana has won many great games in rapid and blitz, but the opening experts have found a way to neutralize White's play.   After both  12.Qc2  Be6  and @@StartFEN@@r1b2rk1/ppq2ppp/2n2n2/2p1p3/3P4/P1PBP3/4NPPP/R1BQ1RK1 w - - 0 12@@EndFEN@@  12.Bb2  Be6  followed by ...Rad8, Black's position is preferable. }
 12... Be6 13. f4 exd4 14. cxd4 Rad8
 { It is important to not take twice, and just activate our rook on the d-file. A game of cat and mouse begins here, in which White does not want to take on c5, and neither do we want to take on d4, as White will always play e4 and start rolling the pawns.   Instead of taking on d4, we are going to expand on the queenside with ...a6 and ...b5 since  14...cxd4  15.e4  is a line we should avoid. White just starts rolling the pawns forward on the kingside and the attack is difficult to stop. }
 15. Rb1 a6 16. h3 b5 17. Bb2 Nd5
@@ -226,7 +226,7 @@ dxc5 Nxe3
 6. a3
 { This line has gained a lot in popularity recently. It leads to an interesting strategic imbalance as White will obtain the bishop pair and more pawns in the center, whereas Black has slightly more active piece play. It is imperative that we do not let White advance the pawns easily, as doing so could lead to a dangerous attack. }
 6... Bxc3+ 7. bxc3 dxc4 8. Bxc4 c5 9. Nf3
-{ This is Swiercz's main recommendation against the Nimzo in his 1.d4 Chessable repertoire. }
+{ This is Swiercz's main recommendation against the Nimzo in his 1.d4  repertoire. }
 9... Qc7 { X-raying the bishop on c4 and thus forcing White to retreat it. }
 10. Be2 b6 11. Bb2 cxd4
 { Often we should delay this capture, but here it is important to start with this move.   If we start with  11...Ba6?!  ,  White has  12.c4  cxd4  13.Nxd4  ,  which gives White a small edge. The point is that  13...Bxc4  runs into  14.Qc2  ,  pinning the bishop on c4.  14...b5  @@StartBracket@@  14...Rc8?!  15.Rc1  only gives White a better version.@@EndBracket@@ @@StartFEN@@rn3rk1/p1q2ppp/4pn2/1p6/2bN4/P3P3/1BQ1BPPP/R3K2R w KQ - 0 15@@EndFEN@@  15.Nxb5  Qa5+  16.Qc3  Qxc3+  17.Bxc3⩲  and White has a nagging advantage in the endgame. }
@@ -576,7 +576,7 @@ Nc6 17. f4
 { Attacking the pawn on b5 once more. In case White opts for  8.a3  instead, the tempered  8...Ba5  9.b4  Bb6  is the way to go since  9...cxb4  10.axb4  Bxb4  runs straight into  11.Nxb5  , which is something to avoid. }
 8... exd5 { Going for a line that has not been played yet at the top level. }
 9. cxd5 bxa4
-{ This has been played in some correspondence games, but only once at the GM level. White has two options here:  Make logical developing moves and just play a Benoni-type position. Grab a pawn in a forcing variation.  
+{ This has been played in some correspondence games, but only once at the level. White has two options here:  Make logical developing moves and just play a Benoni-type position. Grab a pawn in a forcing variation.  
 In either case, Black is fine, and especially if White goes for the first option, we will have our chances to outplay White. If White decides to go for the second option, there are different ways to develop their pieces:  White can play Nge2-g3 followed by Be2. In this case, we will play ...h5-h4 since the knight does not have a comfortable square to go to. White can also play Bd3 followed by Nge2. In this case, we will play ...Nbd7-e5. }
 10. Qxa4+ Nbd7
 { White can still change their mind here if they do not want to go pawn-grabbing and continue development. In that case, White has to decide whether they would develop the g1-knight from e2 to g3 or from h3 to f2. }
@@ -726,7 +726,7 @@ Qa6
 3... c5
 { Challenging White’s center right away. I like this move, as it is the most direct. }
 4. e4
-{ This is Hans Niemann's recommendation in his Chessable course on the Jobava London. It leads to direct complications, so it is important that we familiarize ourselves with the lines. }
+{ This is Hans Niemann's recommendation in his  course on the Jobava London. It leads to direct complications, so it is important that we familiarize ourselves with the lines. }
 4... cxd4 5. Qxd4 Nc6 6. Bb5 Bd7
 { Essentially, forcing White to give up the bishop pair, which gives us a long-term asset. If we survive the next few moves, which we will, Black is likely to have good prospects. }
 7. Bxc6 Bxc6 8. e5 Nd7 9. e6
@@ -2613,7 +2613,7 @@ Qb2 { Black also has alternatives, but ultimately they all lead to draws. } *
 Bxc4 c5
 { The standard continuation. We plan on taking on d4, to give White an isolated pawn on d4. }
 8. O-O cxd4 9. exd4 Nc6
-{ We have the better pawn structure and absolutely nothing to worry about in this position. Black is already slightly for choice, as it is often easier to play against the isolated pawn than with the isolated pawn. Testament to this evaluation is the fact that Wesley So outplayed with Black the Greek GM Mastrovasilis in the 2022 Chennai Olympiad.   We have a better version of the Karpov Nimzo here, as White's knight is worse on e2 than it would have been on f3. Against most of White's moves, we are going to play ...h6 to stop White from playing Bg5, while ...b6 followed by ...Bb7 will also often be a useful plan. }
+{ We have the better pawn structure and absolutely nothing to worry about in this position. Black is already slightly for choice, as it is often easier to play against the isolated pawn than with the isolated pawn. Testament to this evaluation is the fact that Wesley So outplayed with Black the Greek Mastrovasilis in the 2022 Chennai Olympiad.   We have a better version of the Karpov Nimzo here, as White's knight is worse on e2 than it would have been on f3. Against most of White's moves, we are going to play ...h6 to stop White from playing Bg5, while ...b6 followed by ...Bb7 will also often be a useful plan. }
 10. Bg5
 { White can decide to pin our knight on f6 right away before we stop them from doing so with ...h6. However, we have an effective way to neutralize the pin. }
 10... h6 11. Bh4 Be7
@@ -2641,7 +2641,7 @@ Bxc4 c5
 Bxc4 c5
 { The standard continuation. We plan on taking on d4, to give White an isolated pawn on d4. }
 8. O-O cxd4 9. exd4 Nc6
-{ We have the better pawn structure and absolutely nothing to worry about in this position. Black is already slightly for choice, as it is often easier to play against the isolated pawn than with the isolated pawn. Testament to this evaluation is the fact that Wesley So outplayed with Black the Greek GM Mastrovasilis in the 2022 Chennai Olympiad.   We have a better version of the Karpov Nimzo here, as White's knight is worse on e2 than it would have been on f3. Against most of White's moves, we are going to play ...h6 to stop White from playing Bg5, while ...b6 followed by ...Bb7 will also often be a useful plan. }
+{ We have the better pawn structure and absolutely nothing to worry about in this position. Black is already slightly for choice, as it is often easier to play against the isolated pawn than with the isolated pawn. Testament to this evaluation is the fact that Wesley So outplayed with Black the Greek Mastrovasilis in the 2022 Chennai Olympiad.   We have a better version of the Karpov Nimzo here, as White's knight is worse on e2 than it would have been on f3. Against most of White's moves, we are going to play ...h6 to stop White from playing Bg5, while ...b6 followed by ...Bb7 will also often be a useful plan. }
 10. a3 Bd6
 { The best retreat for our bishop, as it stops Bg5 by tactical means. } 11. Bg5
 Bxh2+ 12. Kh1
@@ -2671,7 +2671,7 @@ Bxh2+ 12. Kh1
 Bxc4 c5
 { The standard continuation. We plan on taking on d4, to give White an isolated pawn on d4. }
 8. O-O cxd4 9. exd4 Nc6
-{ We have the better pawn structure and absolutely nothing to worry about in this position. Black is already slightly for choice, as it is often easier to play against the isolated pawn than with the isolated pawn. Testament to this evaluation is the fact that Wesley So outplayed with Black the Greek GM Mastrovasilis in the 2022 Chennai Olympiad.   We have a better version of the Karpov Nimzo here, as White's knight is worse on e2 than it would have been on f3. Against most of White's moves, we are going to play ...h6 to stop White from playing Bg5, while ...b6 followed by ...Bb7 will also often be a useful plan. }
+{ We have the better pawn structure and absolutely nothing to worry about in this position. Black is already slightly for choice, as it is often easier to play against the isolated pawn than with the isolated pawn. Testament to this evaluation is the fact that Wesley So outplayed with Black the Greek Mastrovasilis in the 2022 Chennai Olympiad.   We have a better version of the Karpov Nimzo here, as White's knight is worse on e2 than it would have been on f3. Against most of White's moves, we are going to play ...h6 to stop White from playing Bg5, while ...b6 followed by ...Bb7 will also often be a useful plan. }
 10. a3 Bd6
 { The best retreat for our bishop, as it stops Bg5 by tactical means. } 11. h3
 { White's most popular move. It prepares Bg5, as we will now not be able to meet that with ...Bxh2+. }
@@ -3264,7 +3264,7 @@ Ne8
 10. Bd3 Nc6
 { Preparing ...e5. It is important that we always play ...Nc6 before playing ...e5, as otherwise White can take on e5 and force us to recapture with our queen. }
 11. O-O e5 12. Ng3
-{ I found 19 @@StartBracket@@!@@EndBracket@@ games by the strong Russian GM Alexey Sarana in the database from this position. Often, White's idea is to sacrifice the pawn on d4 in order to create a strong attack with the bishops. Sarana has won many great games in rapid and blitz, but the opening experts have found a way to neutralize White's play.   After both  12.Qc2  Be6  and @@StartFEN@@r1b2rk1/ppq2ppp/2n2n2/2p1p3/3P4/P1PBP3/4NPPP/R1BQ1RK1 w - - 0 12@@EndFEN@@  12.Bb2  Be6  followed by ...Rad8, Black's position is preferable. }
+{ I found 19 @@StartBracket@@!@@EndBracket@@ games by the strong Russian Alexey Sarana in the database from this position. Often, White's idea is to sacrifice the pawn on d4 in order to create a strong attack with the bishops. Sarana has won many great games in rapid and blitz, but the opening experts have found a way to neutralize White's play.   After both  12.Qc2  Be6  and @@StartFEN@@r1b2rk1/ppq2ppp/2n2n2/2p1p3/3P4/P1PBP3/4NPPP/R1BQ1RK1 w - - 0 12@@EndFEN@@  12.Bb2  Be6  followed by ...Rad8, Black's position is preferable. }
 12... Be6 13. f4 exd4 14. cxd4 Rad8
 { It is important to not take twice, and just activate our rook on the d-file. A game of cat and mouse begins here, in which White does not want to take on c5, and neither do we want to take on d4, as White will always play e4 and start rolling the pawns.   Instead of taking on d4, we are going to expand on the queenside with ...a6 and ...b5 since  14...cxd4  15.e4  is a line we should avoid. White just starts rolling the pawns forward on the kingside and the attack is difficult to stop. }
 15. Rb1 a6 16. h3 b5 17. Bb2 Nd5
@@ -3295,7 +3295,7 @@ Qf3 c4 19. Bc2 c3 20. Ba1
 10. Bd3 Nc6
 { Preparing ...e5. It is important that we always play ...Nc6 before playing ...e5, as otherwise White can take on e5 and force us to recapture with our queen. }
 11. O-O e5 12. Ng3
-{ I found 19@@StartBracket@@!@@EndBracket@@ games by the strong Russian GM Alexey Sarana in the database from this position. White's idea often is to sacrifice the pawn on d4 in order to create a strong attack with his bishops. He has won many great games in rapid and blitz, but the opening experts have found a way to neutralize White's play.   After both  12.Qc2  Be6  and @@StartFEN@@r1b2rk1/ppq2ppp/2n2n2/2p1p3/3P4/P1PBP3/4NPPP/R1BQ1RK1 w - - 0 12@@EndFEN@@  12.Bb2  Be6  followed by ...Rad8, Black's position is preferable. }
+{ I found 19@@StartBracket@@!@@EndBracket@@ games by the strong Russian Alexey Sarana in the database from this position. White's idea often is to sacrifice the pawn on d4 in order to create a strong attack with his bishops. He has won many great games in rapid and blitz, but the opening experts have found a way to neutralize White's play.   After both  12.Qc2  Be6  and @@StartFEN@@r1b2rk1/ppq2ppp/2n2n2/2p1p3/3P4/P1PBP3/4NPPP/R1BQ1RK1 w - - 0 12@@EndFEN@@  12.Bb2  Be6  followed by ...Rad8, Black's position is preferable. }
 12... Be6 13. f4 exd4 14. cxd4 Rad8
 { It is important to not take twice, and just activate our rook on the d-file. A game of cat and mouse begins here, in which White does not want to take on c5, and neither do we want to take on d4, as White will always play e4 and start rolling the pawns.   Instead of taking on d4, we are going to expand on the queenside with ...a6 and ...b5 since  14...cxd4  15.e4  is a line we should avoid. White just starts rolling the pawns forward on the kingside and the attack is difficult to stop. }
 15. Rb1 a6 16. h3 b5 17. Bb2 Nd5
@@ -3329,7 +3329,7 @@ dxc5 Nxe3
 10. Bd3 Nc6
 { Preparing ...e5. It is important that we always play ...Nc6 before playing ...e5, as otherwise White can take on e5 and force us to recapture with our queen. }
 11. O-O e5 12. Ng3
-{ I found 19@@StartBracket@@!@@EndBracket@@ games by the strong Russian GM Alexey Sarana in the database from this position. White's idea often is to sacrifice the pawn on d4 in order to create a strong attack with his bishops. He has won many great games in rapid and blitz, but the opening experts have found a way to neutralize White's play.   After both  12.Qc2  Be6  and @@StartFEN@@r1b2rk1/ppq2ppp/2n2n2/2p1p3/3P4/P1PBP3/4NPPP/R1BQ1RK1 w - - 0 12@@EndFEN@@  12.Bb2  Be6  followed by ...Rad8, Black's position is preferable. }
+{ I found 19@@StartBracket@@!@@EndBracket@@ games by the strong Russian Alexey Sarana in the database from this position. White's idea often is to sacrifice the pawn on d4 in order to create a strong attack with his bishops. He has won many great games in rapid and blitz, but the opening experts have found a way to neutralize White's play.   After both  12.Qc2  Be6  and @@StartFEN@@r1b2rk1/ppq2ppp/2n2n2/2p1p3/3P4/P1PBP3/4NPPP/R1BQ1RK1 w - - 0 12@@EndFEN@@  12.Bb2  Be6  followed by ...Rad8, Black's position is preferable. }
 12... Be6 13. f4 exd4 14. cxd4 Rad8
 { It is important to not take twice, and just activate our rook on the d-file. A game of cat and mouse begins here, in which White does not want to take on c5, and neither do we want to take on d4, as White will always play e4 and start rolling the pawns.   Instead of taking on d4, we are going to expand on the queenside with ...a6 and ...b5 since  14...cxd4  15.e4  is a line we should avoid. White just starts rolling the pawns forward on the kingside and the attack is difficult to stop. }
 15. Rb1 a6 16. h3 b5 17. Bb2 Nd5
@@ -3364,9 +3364,9 @@ dxc5 Nxe3
 6. a3
 { This line has gained a lot in popularity recently. It leads to an interesting strategic imbalance as White will obtain the bishop pair and more pawns in the center, whereas Black has slightly more active piece play. It is imperative that we do not let White advance the pawns easily, as doing so could lead to a dangerous attack. }
 6... Bxc3+ 7. bxc3 dxc4 8. Bxc4 c5 9. Nf3
-{ This is Swiercz's main recommendation against the Nimzo in his 1.d4 Chessable repertoire. }
+{ This is Swiercz's main recommendation against the Nimzo in his 1.d4  repertoire. }
 9... Qc7 { X-raying the bishop on c4 and thus forcing White to retreat it. }
-10. Ba2 { Played on numerous occasions by the strong GM Anton Korobov. } 10...
+10. Ba2 { Played on numerous occasions by the strong Anton Korobov. } 10...
 b5
 { Preparing to fianchetto our light-squared bishop and grabbing space on the queenside at the same time. }
 11. O-O Bb7 { Korobov continued here twice with Re1. } 12. Re1
@@ -3391,7 +3391,7 @@ b5
 6. a3
 { This line has gained a lot in popularity recently. It leads to an interesting strategic imbalance as White will obtain the bishop pair and more pawns in the center, whereas Black has slightly more active piece play. It is imperative that we do not let White advance the pawns easily, as doing so could lead to a dangerous attack. }
 6... Bxc3+ 7. bxc3 dxc4 8. Bxc4 c5 9. Nf3
-{ This is Swiercz's main recommendation against the Nimzo in his 1.d4 Chessable repertoire. }
+{ This is Swiercz's main recommendation against the Nimzo in his 1.d4  repertoire. }
 9... Qc7 { X-raying the bishop on c4 and thus forcing White to retreat it. }
 10. Be2 b6 11. Bb2 cxd4
 { Often we should delay this capture, but here it is important to start with this move.   If we start with  11...Ba6?!  ,  White has  12.c4  cxd4  13.Nxd4  ,  which gives White a small edge. The point is that  13...Bxc4  runs into  14.Qc2  ,  pinning the bishop on c4.  14...b5  @@StartBracket@@  14...Rc8?!  15.Rc1  only gives White a better version.@@EndBracket@@ @@StartFEN@@rn3rk1/p1q2ppp/4pn2/1p6/2bN4/P3P3/1BQ1BPPP/R3K2R w KQ - 0 15@@EndFEN@@  15.Nxb5  Qa5+  16.Qc3  Qxc3+  17.Bxc3⩲  and White has a nagging advantage in the endgame. }
@@ -3420,7 +3420,7 @@ b5
 6. a3
 { This line has gained a lot in popularity recently. It leads to an interesting strategic imbalance as White will obtain the bishop pair and more pawns in the center, whereas Black has slightly more active piece play. It is imperative that we do not let White advance the pawns easily, as doing so could lead to a dangerous attack. }
 6... Bxc3+ 7. bxc3 dxc4 8. Bxc4 c5 9. Nf3
-{ This is Swiercz's main recommendation against the Nimzo in his 1.d4 Chessable repertoire. }
+{ This is Swiercz's main recommendation against the Nimzo in his 1.d4  repertoire. }
 9... Qc7 { X-raying the bishop on c4 and thus forcing White to retreat it. }
 10. Be2 b6 11. O-O Ba6
 { We can play this move right away, as here c4 is not an issue. } 12. c4
@@ -3448,7 +3448,7 @@ b5
 6. a3
 { This line has gained a lot in popularity recently. It leads to an interesting strategic imbalance as White will obtain the bishop pair and more pawns in the center, whereas Black has slightly more active piece play. It is imperative that we do not let White advance the pawns easily, as doing so could lead to a dangerous attack. }
 6... Bxc3+ 7. bxc3 dxc4 8. Bxc4 c5 9. Nf3
-{ This is Swiercz's main recommendation against the Nimzo in his 1.d4 Chessable repertoire. }
+{ This is Swiercz's main recommendation against the Nimzo in his 1.d4  repertoire. }
 9... Qc7 { X-raying the bishop on c4 and thus forcing White to retreat it. }
 10. Be2 b6 11. O-O Ba6
 { We can play this move right away, as here c4 is not an issue. } 12. Bxa6
@@ -3477,7 +3477,7 @@ b5
 6. a3
 { This line has gained a lot in popularity recently. It leads to an interesting strategic imbalance as White will obtain the bishop pair and more pawns in the center, whereas Black has slightly more active piece play. It is imperative that we do not let White advance the pawns easily, as doing so could lead to a dangerous attack. }
 6... Bxc3+ 7. bxc3 dxc4 8. Bxc4 c5 9. Nf3
-{ This is Swiercz's main recommendation against the Nimzo in his 1.d4 Chessable repertoire. }
+{ This is Swiercz's main recommendation against the Nimzo in his 1.d4  repertoire. }
 9... Qc7 { X-raying the bishop on c4 and thus forcing White to retreat it. }
 10. Be2 b6 11. O-O Ba6
 { We can play this move right away, as here c4 is not an issue. } 12. Bxa6
@@ -3514,7 +3514,7 @@ b5
 6. a3
 { This line has gained a lot in popularity recently. It leads to an interesting strategic imbalance as White will obtain the bishop pair and more pawns in the center, whereas Black has slightly more active piece play. It is imperative that we do not let White advance the pawns easily, as doing so could lead to a dangerous attack. }
 6... Bxc3+ 7. bxc3 dxc4 8. Bxc4 c5 9. Nf3
-{ This is Swiercz's main recommendation against the Nimzo in his 1.d4 Chessable repertoire. }
+{ This is Swiercz's main recommendation against the Nimzo in his 1.d4  repertoire. }
 9... Qc7 { X-raying the bishop on c4 and thus forcing White to retreat it. }
 10. Be2 b6 11. O-O Ba6
 { We can play this move right away, as here c4 is not an issue. } 12. Bxa6
@@ -3585,7 +3585,7 @@ dxc4 { We will not give this pawn back easily. } 6. e3 b5
 4... d5
 { I recommend this move, as I would like to avoid the lines starting with  4...O-O  5.e4  . This gives White the additional option of @@StartFEN@@rnbqk2r/ppp2ppp/4pn2/3p4/1bPP4/2N5/PPQ1PPPP/R1B1KBNR w KQkq d6 0 5@@EndFEN@@  5.cxd5  , but those lines actually work out quite nicely for Black, as I will offer you a combative antidote. }
 5. e3
-{ This move has not been played a lot at the GM level, and it is also not a move we should be worried about. }
+{ This move has not been played a lot at the level, and it is also not a move we should be worried about. }
 5... O-O
 { Castling is almost always a good continuation, as it keeps our options open. }
 6. Nf3
@@ -6729,7 +6729,7 @@ Nc6 17. f4
 6. e4 { Defending the pawn on c4. } 6... d6
 { Stopping White's e5 push. Here White has a lot of options, but against all of them, we get a good game and also get our chances to take over the initiative. }
 7. a3
-{ This move has been played twice by the strong Indian GM Arjun Erigaisi in classical chess, and once in rapid. The point is that after the inclusion of  7.a3  Ba5  , we will have to respond differently to  8.Bd3  compared to how we  would respond to 7.Bd3. }
+{ This move has been played twice by the strong Indian Arjun Erigaisi in classical chess, and once in rapid. The point is that after the inclusion of  7.a3  Ba5  , we will have to respond differently to  8.Bd3  compared to how we  would respond to 7.Bd3. }
 7... Ba5
 { It is best to maintain the pin instead of trading on c3, as this gives us the most dynamic possibilities. }
 8. Bd3 { White just continues to develop. } 8... O-O
@@ -6763,7 +6763,7 @@ Nc6 17. f4
 6. e4 { Defending the pawn on c4. } 6... d6
 { Stopping White's e5 push. Here White has a lot of options, but against all of them, we get a good game and also get our chances to take over the initiative. }
 7. a3
-{ This move has been played twice by the strong Indian GM Arjun Erigaisi in classical chess, and once in rapid. The point is that after the inclusion of  7.a3  Ba5  , we will have to respond differently to  8.Bd3  compared to how we  would respond to 7.Bd3. }
+{ This move has been played twice by the strong Indian Arjun Erigaisi in classical chess, and once in rapid. The point is that after the inclusion of  7.a3  Ba5  , we will have to respond differently to  8.Bd3  compared to how we  would respond to 7.Bd3. }
 7... Ba5
 { It is best to maintain the pin instead of trading on c3, as this gives us the most dynamic possibilities. }
 8. Bd3 { White just continues to develop. } 8... O-O
@@ -6804,7 +6804,7 @@ Nc6 17. f4
 6. e4 { Defending the pawn on c4. } 6... d6
 { Stopping White's e5 push. Here White has a lot of options, but against all of them, we get a good game and also get our chances to take over the initiative. }
 7. a3
-{ This move has been played twice by the strong Indian GM Arjun Erigaisi in classical chess, and once in rapid. The point is that after the inclusion of  7.a3  Ba5  , we will have to respond differently to  8.Bd3  compared to how we  would respond to 7.Bd3. }
+{ This move has been played twice by the strong Indian Arjun Erigaisi in classical chess, and once in rapid. The point is that after the inclusion of  7.a3  Ba5  , we will have to respond differently to  8.Bd3  compared to how we  would respond to 7.Bd3. }
 7... Ba5
 { It is best to maintain the pin instead of trading on c3, as this gives us the most dynamic possibilities. }
 8. Bd3 { White just continues to develop. } 8... O-O
@@ -7289,7 +7289,7 @@ exf4 16. Bxf4 Ng6
 { Attacking the pawn on b5 once more. In case White opts for  8.a3  instead, the tempered  8...Ba5  9.b4  Bb6  is the way to go since  9...cxb4  10.axb4  Bxb4  runs straight into  11.Nxb5  , which is something to avoid. }
 8... exd5 { Going for a line that has not been played yet at the top level. }
 9. cxd5 bxa4
-{ This has been played in some correspondence games, but only once at the GM level. White has two options here:  Make logical developing moves and just play a Benoni-type position. Grab a pawn in a forcing variation.  
+{ This has been played in some correspondence games, but only once at the level. White has two options here:  Make logical developing moves and just play a Benoni-type position. Grab a pawn in a forcing variation.  
 In either case, Black is fine, and especially if White goes for the first option, we will have our chances to outplay White. If White decides to go for the second option, there are different ways to develop their pieces:  White can play Nge2-g3 followed by Be2. In this case, we will play ...h5-h4 since the knight does not have a comfortable square to go to. White can also play Bd3 followed by Nge2. In this case, we will play ...Nbd7-e5. }
 10. Bd3 Nbd7 11. Nge2 Ne5 12. Bc2 O-O 13. O-O a5
 { ...Ba6 is coming next. Black is doing alright, and we also have our chances to take over the initiative. }
@@ -7319,7 +7319,7 @@ In either case, Black is fine, and especially if White goes for the first option
 { Attacking the pawn on b5 once more. In case White opts for  8.a3  instead, the tempered  8...Ba5  9.b4  Bb6  is the way to go since  9...cxb4  10.axb4  Bxb4  runs straight into  11.Nxb5  , which is something to avoid. }
 8... exd5 { Going for a line that has not been played yet at the top level. }
 9. cxd5 bxa4
-{ This has been played in some correspondence games, but only once at the GM level. White has two options here:  Make logical developing moves and just play a Benoni-type position. Grab a pawn in a forcing variation.  
+{ This has been played in some correspondence games, but only once at the level. White has two options here:  Make logical developing moves and just play a Benoni-type position. Grab a pawn in a forcing variation.  
 In either case, Black is fine, and especially if White goes for the first option, we will have our chances to outplay White. If White decides to go for the second option, there are different ways to develop their pieces:  White can play Nge2-g3 followed by Be2. In this case, we will play ...h5-h4 since the knight does not have a comfortable square to go to. White can also play Bd3 followed by Nge2. In this case, we will play ...Nbd7-e5. }
 10. Nge2
 { This is how the game Shlyakhtenko-Burke, Philadelphia 2022 continued. Here I suggest the following improvement: }
@@ -7358,7 +7358,7 @@ In either case, Black is fine, and especially if White goes for the first option
 { Attacking the pawn on b5 once more. In case White opts for  8.a3  instead, the tempered  8...Ba5  9.b4  Bb6  is the way to go since  9...cxb4  10.axb4  Bxb4  runs straight into  11.Nxb5  , which is something to avoid. }
 8... exd5 { Going for a line that has not been played yet at the top level. }
 9. cxd5 bxa4
-{ This has been played in some correspondence games, but only once at the GM level. White has two options here:  Make logical developing moves and just play a Benoni-type position. Grab a pawn in a forcing variation.  
+{ This has been played in some correspondence games, but only once at the level. White has two options here:  Make logical developing moves and just play a Benoni-type position. Grab a pawn in a forcing variation.  
 In either case, Black is fine, and especially if White goes for the first option, we will have our chances to outplay White. If White decides to go for the second option, there are different ways to develop their pieces:  White can play Nge2-g3 followed by Be2. In this case, we will play ...h5-h4 since the knight does not have a comfortable square to go to. White can also play Bd3 followed by Nge2. In this case, we will play ...Nbd7-e5. }
 10. Nge2
 { This is how the game Shlyakhtenko-Burke, Philadelphia 2022 continued. Here I suggest the following improvement: }
@@ -7394,7 +7394,7 @@ In either case, Black is fine, and especially if White goes for the first option
 { Attacking the pawn on b5 once more. In case White opts for  8.a3  instead, the tempered  8...Ba5  9.b4  Bb6  is the way to go since  9...cxb4  10.axb4  Bxb4  runs straight into  11.Nxb5  , which is something to avoid. }
 8... exd5 { Going for a line that has not been played yet at the top level. }
 9. cxd5 bxa4
-{ This has been played in some correspondence games, but only once at the GM level. White has two options here:  Make logical developing moves and just play a Benoni-type position. Grab a pawn in a forcing variation.  
+{ This has been played in some correspondence games, but only once at the level. White has two options here:  Make logical developing moves and just play a Benoni-type position. Grab a pawn in a forcing variation.  
 In either case, Black is fine, and especially if White goes for the first option, we will have our chances to outplay White. If White decides to go for the second option, there are different ways to develop their pieces:  White can play Nge2-g3 followed by Be2. In this case, we will play ...h5-h4 since the knight does not have a comfortable square to go to. White can also play Bd3 followed by Nge2. In this case, we will play ...Nbd7-e5. }
 10. Qxa4+ Nbd7
 { White can still change their mind here if they do not want to go pawn-grabbing and continue development. In that case, White has to decide where they would develop the g1-knight: either from e2 to g3 or from h3 to f2. }
@@ -7426,7 +7426,7 @@ In either case, Black is fine, and especially if White goes for the first option
 { Attacking the pawn on b5 once more. In case White opts for  8.a3  instead, the tempered  8...Ba5  9.b4  Bb6  is the way to go since  9...cxb4  10.axb4  Bxb4  runs straight into  11.Nxb5  , which is something to avoid. }
 8... exd5 { Going for a line that has not been played yet at the top level. }
 9. cxd5 bxa4
-{ This has been played in some correspondence games, but only once at the GM level. White has two options here:  Make logical developing moves and just play a Benoni-type position. Grab a pawn in a forcing variation.  
+{ This has been played in some correspondence games, but only once at the level. White has two options here:  Make logical developing moves and just play a Benoni-type position. Grab a pawn in a forcing variation.  
 In either case, Black is fine, and especially if White goes for the first option, we will have our chances to outplay White. If White decides to go for the second option, there are different ways to develop their pieces:  White can play Nge2-g3 followed by Be2. In this case, we will play ...h5-h4 since the knight does not have a comfortable square to go to. White can also play Bd3 followed by Nge2. In this case, we will play ...Nbd7-e5. }
 10. Qxa4+ Nbd7
 { White can still change their mind here if they do not want to go pawn-grabbing and continue development. In that case, White has to decide where they would develop the g1-knight: either from e2 to g3 or from h3 to f2. }
@@ -7458,7 +7458,7 @@ In either case, Black is fine, and especially if White goes for the first option
 { Attacking the pawn on b5 once more. In case White opts for  8.a3  instead, the tempered  8...Ba5  9.b4  Bb6  is the way to go since  9...cxb4  10.axb4  Bxb4  runs straight into  11.Nxb5  , which is something to avoid. }
 8... exd5 { Going for a line that has not been played yet at the top level. }
 9. cxd5 bxa4
-{ This has been played in some correspondence games, but only once at the GM level. White has two options here:  Make logical developing moves and just play a Benoni-type position. Grab a pawn in a forcing variation.  
+{ This has been played in some correspondence games, but only once at the level. White has two options here:  Make logical developing moves and just play a Benoni-type position. Grab a pawn in a forcing variation.  
 In either case, Black is fine, and especially if White goes for the first option, we will have our chances to outplay White. If White decides to go for the second option, there are different ways to develop their pieces:  White can play Nge2-g3 followed by Be2. In this case, we will play ...h5-h4 since the knight does not have a comfortable square to go to. White can also play Bd3 followed by Nge2. In this case, we will play ...Nbd7-e5. }
 10. Qxa4+ Nbd7
 { White can still change their mind here if they do not want to go pawn-grabbing and continue development. In that case, White has to decide whether they would develop the g1-knight from e2 to g3 or from h3 to f2. }
@@ -7492,7 +7492,7 @@ In either case, Black is fine, and especially if White goes for the first option
 { Attacking the pawn on b5 once more. In case White opts for  8.a3  instead, the tempered  8...Ba5  9.b4  Bb6  is the way to go since  9...cxb4  10.axb4  Bxb4  runs straight into  11.Nxb5  , which is something to avoid. }
 8... exd5 { Going for a line that has not been played yet at the top level. }
 9. cxd5 bxa4
-{ This has been played in some correspondence games, but only once at the GM level. White has two options here:  Make logical developing moves and just play a Benoni-type position. Grab a pawn in a forcing variation.  
+{ This has been played in some correspondence games, but only once at the level. White has two options here:  Make logical developing moves and just play a Benoni-type position. Grab a pawn in a forcing variation.  
 In either case, Black is fine, and especially if White goes for the first option, we will have our chances to outplay White. If White decides to go for the second option, there are different ways to develop their pieces:  White can play Nge2-g3 followed by Be2. In this case, we will play ...h5-h4 since the knight does not have a comfortable square to go to. White can also play Bd3 followed by Nge2. In this case, we will play ...Nbd7-e5. }
 10. Qxa4+ Nbd7
 { White can still change their mind here if they do not want to go pawn-grabbing and continue development. In that case, White has to decide whether they would develop the g1-knight from e2 to g3 or from h3 to f2. }
@@ -7535,7 +7535,7 @@ In either case, Black is fine, and especially if White goes for the first option
 { Attacking the pawn on b5 once more. In case White opts for  8.a3  instead, the tempered  8...Ba5  9.b4  Bb6  is the way to go since  9...cxb4  10.axb4  Bxb4  runs straight into  11.Nxb5  , which is something to avoid. }
 8... exd5 { Going for a line that has not been played yet at the top level. }
 9. cxd5 bxa4
-{ This has been played in some correspondence games, but only once at the GM level. White has two options here:  Make logical developing moves and just play a Benoni-type position. Grab a pawn in a forcing variation.  
+{ This has been played in some correspondence games, but only once at the level. White has two options here:  Make logical developing moves and just play a Benoni-type position. Grab a pawn in a forcing variation.  
 In either case, Black is fine, and especially if White goes for the first option, we will have our chances to outplay White. If White decides to go for the second option, there are different ways to develop their pieces:  White can play Nge2-g3 followed by Be2. In this case, we will play ...h5-h4 since the knight does not have a comfortable square to go to. White can also play Bd3 followed by Nge2. In this case, we will play ...Nbd7-e5. }
 10. Qxa4+ Nbd7
 { White can still change their mind here if they do not want to go pawn-grabbing and continue development. In that case, White has to decide whether they would develop the g1-knight from e2 to g3 or from h3 to f2. }
@@ -7579,7 +7579,7 @@ In either case, Black is fine, and especially if White goes for the first option
 { Attacking the pawn on b5 once more. In case White opts for  8.a3  instead, the tempered  8...Ba5  9.b4  Bb6  is the way to go since  9...cxb4  10.axb4  Bxb4  runs straight into  11.Nxb5  , which is something to avoid. }
 8... exd5 { Going for a line that has not been played yet at the top level. }
 9. cxd5 bxa4
-{ This has been played in some correspondence games, but only once at the GM level. White has two options here:  Make logical developing moves and just play a Benoni-type position. Grab a pawn in a forcing variation.  
+{ This has been played in some correspondence games, but only once at the level. White has two options here:  Make logical developing moves and just play a Benoni-type position. Grab a pawn in a forcing variation.  
 In either case, Black is fine, and especially if White goes for the first option, we will have our chances to outplay White. If White decides to go for the second option, there are different ways to develop their pieces:  White can play Nge2-g3 followed by Be2. In this case, we will play ...h5-h4 since the knight does not have a comfortable square to go to. White can also play Bd3 followed by Nge2. In this case, we will play ...Nbd7-e5. }
 10. Qxa4+ Nbd7
 { White can still change their mind here if they do not want to go pawn-grabbing and continue development. In that case, White has to decide whether they would develop the g1-knight from e2 to g3 or from h3 to f2. }
@@ -7621,7 +7621,7 @@ In either case, Black is fine, and especially if White goes for the first option
 { Attacking the pawn on b5 once more. In case White opts for  8.a3  instead, the tempered  8...Ba5  9.b4  Bb6  is the way to go since  9...cxb4  10.axb4  Bxb4  runs straight into  11.Nxb5  , which is something to avoid. }
 8... exd5 { Going for a line that has not been played yet at the top level. }
 9. cxd5 bxa4
-{ This has been played in some correspondence games, but only once at the GM level. White has two options here:  Make logical developing moves and just play a Benoni-type position. Grab a pawn in a forcing variation.  
+{ This has been played in some correspondence games, but only once at the level. White has two options here:  Make logical developing moves and just play a Benoni-type position. Grab a pawn in a forcing variation.  
 In either case, Black is fine, and especially if White goes for the first option, we will have our chances to outplay White. If White decides to go for the second option, there are different ways to develop their pieces:  White can play Nge2-g3 followed by Be2. In this case, we will play ...h5-h4 since the knight does not have a comfortable square to go to. White can also play Bd3 followed by Nge2. In this case, we will play ...Nbd7-e5. }
 10. Qxa4+ Nbd7
 { White can still change their mind here if they do not want to go pawn-grabbing and continue development. In that case, White has to decide whether they would develop the g1-knight from e2 to g3 or from h3 to f2. }
@@ -8747,7 +8747,7 @@ O-O 8. Bd3 f5
 [Result "*"]
 
 1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Bg5
-{ The Leningrad Variation. This is a rare guest at the GM level, and not without reason. Black immediately gets a comfortable position and White needs to be careful not to get worse. }
+{ The Leningrad Variation. This is a rare guest at the level, and not without reason. Black immediately gets a comfortable position and White needs to be careful not to get worse. }
 4... c5
 { Challenging White's center right away. Furthermore, this move enables ...Qa5, which exerts pressure on the c3-knight. }
 5. Nf3
@@ -8775,7 +8775,7 @@ Ne3 Qf6
 [Result "*"]
 
 1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Bg5
-{ The Leningrad Variation. This is a rare guest at the GM level, and not without reason. Black immediately gets a comfortable position and White needs to be careful not to get worse. }
+{ The Leningrad Variation. This is a rare guest at the level, and not without reason. Black immediately gets a comfortable position and White needs to be careful not to get worse. }
 4... c5
 { Challenging White's center right away. Furthermore, this move enables ...Qa5, which exerts pressure on the c3-knight. }
 5. Nf3
@@ -8802,7 +8802,7 @@ Ne3 Qf6
 [Result "*"]
 
 1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Bg5
-{ The Leningrad Variation. This is a rare guest at the GM level, and not without reason. Black immediately gets a comfortable position and White needs to be careful not to get worse. }
+{ The Leningrad Variation. This is a rare guest at the level, and not without reason. Black immediately gets a comfortable position and White needs to be careful not to get worse. }
 4... c5
 { Challenging White's center right away. Furthermore, this move enables ...Qa5, which exerts pressure on the c3-knight. }
 5. Nf3
@@ -8825,7 +8825,7 @@ Ne3 Qf6
 [Result "*"]
 
 1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Bg5
-{ The Leningrad Variation. This is a rare guest at the GM level, and not without reason. Black immediately gets a comfortable position and White needs to be careful not to get worse. }
+{ The Leningrad Variation. This is a rare guest at the level, and not without reason. Black immediately gets a comfortable position and White needs to be careful not to get worse. }
 4... c5
 { Challenging White's center right away. Furthermore, this move enables ...Qa5, which exerts pressure on the c3-knight. }
 5. e3
@@ -8852,7 +8852,7 @@ Qd3
 [Result "*"]
 
 1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Bg5
-{ The Leningrad Variation. This is a rare guest at the GM level, and not without reason. Black immediately gets a comfortable position and White needs to be careful not to get worse. }
+{ The Leningrad Variation. This is a rare guest at the level, and not without reason. Black immediately gets a comfortable position and White needs to be careful not to get worse. }
 4... c5
 { Challenging White's center right away. Furthermore, this move enables ...Qa5, which exerts pressure on the c3-knight. }
 5. dxc5
@@ -8876,7 +8876,7 @@ Qe3 { The only move that keeps defending the c5 and c3-pawns. } 9... Na6
 [Result "*"]
 
 1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Bg5
-{ The Leningrad Variation. This is a rare guest at the GM level, and not without reason. Black immediately gets a comfortable position and White needs to be careful not to get worse. }
+{ The Leningrad Variation. This is a rare guest at the level, and not without reason. Black immediately gets a comfortable position and White needs to be careful not to get worse. }
 4... c5
 { Challenging White's center right away. Furthermore, this move enables ...Qa5, which exerts pressure on the c3-knight. }
 5. Rc1
@@ -8896,7 +8896,7 @@ Qe3 { The only move that keeps defending the c5 and c3-pawns. } 9... Na6
 [Result "*"]
 
 1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Bg5
-{ The Leningrad Variation. This is a rare guest at the GM level, and not without reason. Black immediately gets a comfortable position and White needs to be careful not to get worse. }
+{ The Leningrad Variation. This is a rare guest at the level, and not without reason. Black immediately gets a comfortable position and White needs to be careful not to get worse. }
 4... c5
 { Challenging White's center right away. Furthermore, this move enables ...Qa5, which exerts pressure on the c3-knight. }
 5. d5 d6 6. e4 { Strengthening the center is not a good idea. } 6... Bxc3+
@@ -8916,7 +8916,7 @@ Qe3 { The only move that keeps defending the c5 and c3-pawns. } 9... Na6
 [Result "*"]
 
 1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Bg5
-{ The Leningrad Variation. This is a rare guest at the GM level, and not without reason. Black immediately gets a comfortable position and White needs to be careful not to get worse. }
+{ The Leningrad Variation. This is a rare guest at the level, and not without reason. Black immediately gets a comfortable position and White needs to be careful not to get worse. }
 4... c5
 { Challenging White's center right away. Furthermore, this move enables ...Qa5, which exerts pressure on the c3-knight. }
 5. d5 d6 6. e3 Bxc3+
@@ -8940,7 +8940,7 @@ Qe3 { The only move that keeps defending the c5 and c3-pawns. } 9... Na6
 [Result "*"]
 
 1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Bg5
-{ The Leningrad Variation. This is a rare guest at the GM level, and not without reason. Black immediately gets a comfortable position and White needs to be careful not to get worse. }
+{ The Leningrad Variation. This is a rare guest at the level, and not without reason. Black immediately gets a comfortable position and White needs to be careful not to get worse. }
 4... c5
 { Challenging White's center right away. Furthermore, this move enables ...Qa5, which exerts pressure on the c3-knight. }
 5. d5 d6 6. e3 Bxc3+
@@ -8967,7 +8967,7 @@ g5 11. Bg3 e4 { Now we restrict White's knight on g1. } 12. f4
 [Result "*"]
 
 1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Bg5
-{ The Leningrad Variation. This is a rare guest at the GM level, and not without reason. Black immediately gets a comfortable position and White needs to be careful not to get worse. }
+{ The Leningrad Variation. This is a rare guest at the level, and not without reason. Black immediately gets a comfortable position and White needs to be careful not to get worse. }
 4... c5
 { Challenging White's center right away. Furthermore, this move enables ...Qa5, which exerts pressure on the c3-knight. }
 5. d5 d6 6. e3 Bxc3+
@@ -8998,7 +8998,7 @@ Nd2 Bf5
 [Result "*"]
 
 1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Bg5
-{ The Leningrad Variation. This is a rare guest at the GM level, and not without reason. Black immediately gets a comfortable position and White needs to be careful not to get worse. }
+{ The Leningrad Variation. This is a rare guest at the level, and not without reason. Black immediately gets a comfortable position and White needs to be careful not to get worse. }
 4... c5
 { Challenging White's center right away. Furthermore, this move enables ...Qa5, which exerts pressure on the c3-knight. }
 5. d5 d6 6. e3 Bxc3+
@@ -9841,7 +9841,7 @@ e3 e6
 3... c5
 { Challenging White’s center right away. I like this move, as it is the most direct. }
 4. e4
-{ This is Hans Niemann's recommendation in his Chessable course on the Jobava London. It leads to direct complications, so it is important that we familiarize ourselves with the lines. }
+{ This is Hans Niemann's recommendation in his  course on the Jobava London. It leads to direct complications, so it is important that we familiarize ourselves with the lines. }
 4... cxd4 5. Nb5
 { Going for Nc7+, which would fork the king and the rook. Fortunately for us, we have a very effective antidote to White's direct approach. }
 5... e5
@@ -9867,7 +9867,7 @@ e3 e6
 3... c5
 { Challenging White’s center right away. I like this move, as it is the most direct. }
 4. e4
-{ This is Hans Niemann's recommendation in his Chessable course on the Jobava London. It leads to direct complications, so it is important that we familiarize ourselves with the lines. }
+{ This is Hans Niemann's recommendation in his  course on the Jobava London. It leads to direct complications, so it is important that we familiarize ourselves with the lines. }
 4... cxd4 5. Qxd4 Nc6 6. Qa4
 { Oleksandr Bortnyk has played this line many times in blitz and with great success. However, it is somewhat dubious, and with accurate play, Black can get an advantage. }
 6... dxe4 7. Rd1 Bd7
@@ -9891,7 +9891,7 @@ e3 e6
 3... c5
 { Challenging White’s center right away. I like this move, as it is the most direct. }
 4. e4
-{ This is Hans Niemann's recommendation in his Chessable course on the Jobava London. It leads to direct complications, so it is important that we familiarize ourselves with the lines. }
+{ This is Hans Niemann's recommendation in his  course on the Jobava London. It leads to direct complications, so it is important that we familiarize ourselves with the lines. }
 4... cxd4 5. Qxd4 Nc6 6. Qa4
 { Oleksandr Bortnyk has played this line many times in blitz and with great success. However, it is somewhat dubious, and with accurate play, Black can get an advantage. }
 6... dxe4 7. Nb5
@@ -9924,7 +9924,7 @@ O-O-O O-O
 3... c5
 { Challenging White’s center right away. I like this move, as it is the most direct. }
 4. e4
-{ This is Hans Niemann's recommendation in his Chessable course on the Jobava London. It leads to direct complications, so it is important that we familiarize ourselves with the lines. }
+{ This is Hans Niemann's recommendation in his  course on the Jobava London. It leads to direct complications, so it is important that we familiarize ourselves with the lines. }
 4... cxd4 5. Qxd4 Nc6 6. Qa4
 { Oleksandr Bortnyk has played this line many times in blitz and with great success. However, it is somewhat dubious, and with accurate play, Black can get an advantage. }
 6... dxe4 7. Nb5
@@ -9954,7 +9954,7 @@ O-O-O O-O
 3... c5
 { Challenging White’s center right away. I like this move, as it is the most direct. }
 4. e4
-{ This is Hans Niemann's recommendation in his Chessable course on the Jobava London. It leads to direct complications, so it is important that we familiarize ourselves with the lines. }
+{ This is Hans Niemann's recommendation in his  course on the Jobava London. It leads to direct complications, so it is important that we familiarize ourselves with the lines. }
 4... cxd4 5. Qxd4 Nc6 6. Qa4
 { Oleksandr Bortnyk has played this line many times in blitz and with great success. However, it is somewhat dubious, and with accurate play, Black can get an advantage. }
 6... dxe4 7. Nb5
@@ -9987,7 +9987,7 @@ O-O-O O-O
 3... c5
 { Challenging White’s center right away. I like this move, as it is the most direct. }
 4. e4
-{ This is Hans Niemann's recommendation in his Chessable course on the Jobava London. It leads to direct complications, so it is important that we familiarize ourselves with the lines. }
+{ This is Hans Niemann's recommendation in his  course on the Jobava London. It leads to direct complications, so it is important that we familiarize ourselves with the lines. }
 4... cxd4 5. Qxd4 Nc6 6. Qa4
 { Oleksandr Bortnyk has played this line many times in blitz and with great success. However, it is somewhat dubious, and with accurate play, Black can get an advantage. }
 6... dxe4 7. Nb5
@@ -10023,7 +10023,7 @@ Nxa8 g6
 3... c5
 { Challenging White’s center right away. I like this move, as it is the most direct. }
 4. e4
-{ This is Hans Niemann's recommendation in his Chessable course on the Jobava London. It leads to direct complications, so it is important that we familiarize ourselves with the lines. }
+{ This is Hans Niemann's recommendation in his  course on the Jobava London. It leads to direct complications, so it is important that we familiarize ourselves with the lines. }
 4... cxd4 5. Qxd4 Nc6 6. Bb5 Bd7
 { Essentially, forcing White to give up the bishop pair, which gives us a long-term asset. If we survive the next few moves, which we will, Black is likely to have good prospects. }
 7. Bxc6 Bxc6 8. e5 Nd7 9. e6
@@ -10060,7 +10060,7 @@ Nxe2 Rc8
 3... c5
 { Challenging White’s center right away. I like this move, as it is the most direct. }
 4. e4
-{ This is Hans Niemann's recommendation in his Chessable course on the Jobava London. It leads to direct complications, so it is important that we familiarize ourselves with the lines. }
+{ This is Hans Niemann's recommendation in his  course on the Jobava London. It leads to direct complications, so it is important that we familiarize ourselves with the lines. }
 4... cxd4 5. Qxd4 Nc6 6. Bb5 Bd7
 { Essentially, forcing White to give up the bishop pair, which gives us a long-term asset. If we survive the next few moves, which we will, Black is likely to have good prospects. }
 7. Bxc6 Bxc6 8. e5 Nd7 9. e6

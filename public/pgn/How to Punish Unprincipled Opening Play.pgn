@@ -287,7 +287,7 @@ g5 9. h4 { The h-pawn and the h1 Rook are here too! } 9... Be7 10. hxg5+ Kg7
 [SetUp "1"]
 
 1. --
-{ If you are only slightly off in your assessment in any of the following positions, do not be disheartened. Unlike many other aspects of chess, evaluation has some room for subjectivity. Take this position for example, where Black is missing the b8 Knight.  If you asked a 200-rated player for their evaluation, they might say that White is only slightly better because a full piece is almost irrelevant at this level.  A 1000-rated player might say +3, since a Knight's nominal value is 3 points.  An 1800-rated player might say + 3.5, given that White also has the first move, which starts to matter a bit at this level.  A 2600-rated GM might say +4.5. After all, not only does White have a material advantage, they have a positional advantage with one extra attacker.  Finally, an omniscient chess engine would see all the way to the end and declare mate in 56.  Who's to say who is right? Objectively speaking, the omniscient chess engine is the most correct. But to a human chess player, describing this position as mate in x is not particularly helpful. It doesn't do justice to the potential complexity of the position, and the potential for White to blunder.  Meaningful chess evaluation is, therefore, a reflection of your confidence in converting the position and should vary slightly depending on your skill level. Of course, you would need to be in the ballpark of the engine's assessment  (If the engine says White is winning by +2, it is wrong to say that the position is equal)  .  With that, I wish you all the best for this exercise! }
+{ If you are only slightly off in your assessment in any of the following positions, do not be disheartened. Unlike many other aspects of chess, evaluation has some room for subjectivity. Take this position for example, where Black is missing the b8 Knight.  If you asked a 200-rated player for their evaluation, they might say that White is only slightly better because a full piece is almost irrelevant at this level.  A 1000-rated player might say +3, since a Knight's nominal value is 3 points.  An 1800-rated player might say + 3.5, given that White also has the first move, which starts to matter a bit at this level.  A 2600-rated might say +4.5. After all, not only does White have a material advantage, they have a positional advantage with one extra attacker.  Finally, an omniscient chess engine would see all the way to the end and declare mate in 56.  Who's to say who is right? Objectively speaking, the omniscient chess engine is the most correct. But to a human chess player, describing this position as mate in x is not particularly helpful. It doesn't do justice to the potential complexity of the position, and the potential for White to blunder.  Meaningful chess evaluation is, therefore, a reflection of your confidence in converting the position and should vary slightly depending on your skill level. Of course, you would need to be in the ballpark of the engine's assessment  (If the engine says White is winning by +2, it is wrong to say that the position is equal)  .  With that, I wish you all the best for this exercise! }
 *
 
 [Event "?"]
@@ -912,7 +912,7 @@ Nbxd5 9. Nxd5 Nxd5 10. d4 { White continues with their plan since 5. e3. }
 [Black "Chapter Introduction"]
 [Result "*"]
 
-{ The first and most fundamental concept to punishing bad openings is identifying targets. There are two fundamental types of targets - Tactical and Strategical.   Tactical targets refer to those that can yield us short-term gains. For example, unprotected or trappable pieces. These tactics are nearly always obvious with the aid of an engine. Furthermore, this is under the domain of calculation, which I discuss in great detail in my first course on Chessable, Calculation: A Complete Guide for Tournament Players. Hence, my focus will be on strategical targets, which is something that engines cannot explicitly tell you.  Essentially, strategical targets refer to long-term weaknesses that are more permanent, and hence share a close relationship with the permanent nature of pawn structures. A target can be a weak pawn, a weak square, an open file, or even an unsafe King that cannot easily run to safety. Such targets are often inevitable products of dubious play.  Once a strategical target is identified, our whole army will have a common long-term goal and can progress with intention and coordination.  We will see a few examples of this in the following games, with analyses primarily focused on the opening. After each game, we will review the key moments in 'puzzle' format. As you go through the puzzles, be sure to remind yourself of why the text move is best instead of just thoughtlessly playing from memory. }
+{ The first and most fundamental concept to punishing bad openings is identifying targets. There are two fundamental types of targets - Tactical and Strategical.   Tactical targets refer to those that can yield us short-term gains. For example, unprotected or trappable pieces. These tactics are nearly always obvious with the aid of an engine. Furthermore, this is under the domain of calculation, which I discuss in great detail in my first course on , Calculation: A Complete Guide for Tournament Players. Hence, my focus will be on strategical targets, which is something that engines cannot explicitly tell you.  Essentially, strategical targets refer to long-term weaknesses that are more permanent, and hence share a close relationship with the permanent nature of pawn structures. A target can be a weak pawn, a weak square, an open file, or even an unsafe King that cannot easily run to safety. Such targets are often inevitable products of dubious play.  Once a strategical target is identified, our whole army will have a common long-term goal and can progress with intention and coordination.  We will see a few examples of this in the following games, with analyses primarily focused on the opening. After each game, we will review the key moments in 'puzzle' format. As you go through the puzzles, be sure to remind yourself of why the text move is best instead of just thoughtlessly playing from memory. }
 1. -- *
 
 [Event "?"]
@@ -1244,7 +1244,7 @@ Bb4
 [Black "Game #1"]
 [Result "*"]
 
-{ Here is the first example on Opening the Position, a 5+0 blitz game between shapiro132_Leo playing White against GM Daniel Naroditsky playing Black as part of the American Grandmaster's Chess Speedrun series. }
+{ Here is the first example on Opening the Position, a 5+0 blitz game between shapiro132_Leo playing White against Daniel Naroditsky playing Black as part of the American Grandmaster's Chess Speedrun series. }
 1. d4 g6 2. b3
 { White is trying to fianchetto their Bishop but it is already a dubious start. White's dark-squared Bishop clearly does not belong on b2 since it will be blocked by the d4 pawn and Black will call dibs on the soft a1-h8 diagonal first with ...Bg7.   Furthermore, with an already open c1-h6 diagonal to develop the Bishop, there is no need to spend another move to open another diagonal for the same Bishop. }
 2... Bg7 3. a3
@@ -1521,7 +1521,7 @@ Bxg7+ Kxg7 15. cxd5 Re8 16. Qg4 Qxd5
 [Black "Game #1"]
 [Result "*"]
 
-{ The first game of the chapter is between GM Eugenio Torre playing White and IM Cornelis van Wijgerden playing Black. }
+{ The first game of the chapter is between Eugenio Torre playing White and Cornelis van Wijgerden playing Black. }
 1. e4 g6 2. d4 Bg7 3. Nf3 d6 4. Be2 Nf6 5. Nc3 O-O 6. O-O c6 7. Re1 Qc7 8. e5
 { Torre opened up the position not only to give his dark-squared Bishop the f4 square, but also to win the e5 square for his Knight. }
 8... dxe5 9. Nxe5 Nbd7 10. Bf4 Nxe5 11. Bxe5 Qb6
@@ -1529,7 +1529,7 @@ Bxg7+ Kxg7 15. cxd5 Re8 16. Qg4 Qxd5
 12. Na4 { Attacking the Queen while defending b2. } 12... Qd8
 { Black un-develops the Queen, but also reminds White that the Knight on a4 will need another move to return to civilisation. }
 13. Bf3 Nd7
-{ This move hinders Black's development a little bit, but it is hard to fault the Dutch IM. The point of this move is to force the trade of White's strong dark-squared Bishop. }
+{ This move hinders Black's development a little bit, but it is hard to fault the Dutch . The point of this move is to force the trade of White's strong dark-squared Bishop. }
 14. Bxg7 Kxg7 15. c4 e6 16. Nc3 Nf6
 { The Knight returns to its favourite square. } 17. Qd2 Bd7
 { Let's pause and assess this position. Besides the space advantage, White is clearly better not just because of his lead in development, but also because he can improve his pieces easily and freely. To maintain a monopoly on such free and easy maneuverability, White should NOT open the position. He should, be patient and focus on his own piece activity, leaving Black stuck with a set of bad pieces. }
@@ -2687,7 +2687,7 @@ Qxc7 *
 [Black "Game #5"]
 [Result "*"]
 
-{ This is an online 3+0 game between GM Oleksandr Bortnyk and GM Mahammad Muradli. }
+{ This is an online 3+0 game between Oleksandr Bortnyk and Mahammad Muradli. }
 1. e4 Nf6
 { This is the Alekhine's Defence. Even though it does not contest the centre with pawns, it is perfectly playable. The idea is to offer White the centre, only to target it later in the game. }
 2. e5 Nd5 3. d4 d6 4. Nf3
@@ -2805,7 +2805,7 @@ Nc6 22. e5
 [Black "Game #1"]
 [Result "*"]
 
-{ To start us off on the intermediate exercises, we have a game between two Grandmasters, GM Walter Browne  (White)  and GM Robert Byrne  (Black)  . }
+{ To start us off on the intermediate exercises, we have a game between two Grandmasters, Walter Browne  (White)  and Robert Byrne  (Black)  . }
 1. d4 f5 2. Nc3 Nf6 3. Bg5 d5 4. Bxf6 exf6 5. e3 Be6 6. Bd3 g6 7. Qf3 c6 8.
 Nge2 Nd7
 { So far, 5 out of 8 moves by Black are pawn moves. Moreover, the time spent on Black pieces did not bring them to fantastic squares. Black is only alive because all these pawns are concealing his underdevelopment. Hence, we must find an anchor to trade pawns. }
@@ -3513,7 +3513,7 @@ Qxf8+
 [Black "Game #3"]
 [Result "*"]
 
-{ This was a casual online blitz game between the great IM GothamChess and Oleg42YNWA  (2622)  . }
+{ This was a casual online blitz game between the great GothamChess and Oleg42YNWA  (2622)  . }
 1. b3 d5 2. Bb2 c6 3. Nf3 Bf5 4. e3 Nd7 5. Nh4 Be6
 { The h4 Knight and e6 Bishop have mutually worsened, but now White gets to push the f-pawn to reinforce control over the central dark squares. }
 6. f4
@@ -3753,7 +3753,7 @@ Ke8 23. Bxb6
 [Black "Game #5"]
 [Result "*"]
 
-{ For our final game, we have GM Alexander Graf vs GM Roman Slobodjan. } 1. e4
+{ For our final game, we have Alexander Graf vs Roman Slobodjan. } 1. e4
 e6 2. d4 d5 3. Nc3 dxe4
 { This move is not very popular at the master level because Black does not challenge the centre greatly. }
 4. Nxe4
