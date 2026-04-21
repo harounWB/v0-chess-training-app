@@ -7,6 +7,7 @@ export function GET() {
     `User-Agent: *
 Allow: /
 
+Sitemap: ${siteUrl}/sitemap.txt
 Sitemap: ${siteUrl}/sitemap.xml
 `,
     {
